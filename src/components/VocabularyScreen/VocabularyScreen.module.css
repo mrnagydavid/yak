@@ -1,14 +1,57 @@
 .screen {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
 }
 
 .title {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
 }
 
 .placeholder {
+  color: var(--color-text-secondary);
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 10px 4px;
+  border-bottom: 1px solid var(--color-border);
+  font-size: 15px;
+}
+
+.level {
+  flex-shrink: 0;
+  width: 28px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+}
+
+.status {
+  flex-shrink: 0;
+  font-size: 13px;
+  letter-spacing: -1px;
+}
+
+.lemma {
+  font-weight: 600;
+}
+
+.disambiguator {
+  font-weight: 400;
+  color: var(--color-text-secondary);
+}
+
+.native {
+  font-size: 13px;
   color: var(--color-text-secondary);
 }
