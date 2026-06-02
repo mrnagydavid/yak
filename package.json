@@ -1,0 +1,37 @@
+{
+  "name": "yak",
+  "version": "0.1.0",
+  "description": "Vocabulary trainer PWA",
+  "type": "module",
+  "packageManager": "pnpm@10.15.1",
+  "engines": {
+    "node": "24"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "oxlint src/",
+    "test": "vitest"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "dependencies": {
+    "dexie": "^4.4.3",
+    "dexie-react-hooks": "^4.4.0",
+    "preact": "^10.29.2",
+    "preact-router": "^4.1.2",
+    "ts-fsrs": "^5.4.1"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.5",
+    "oxlint": "^1.68.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.16",
+    "vite-plugin-pwa": "^1.3.0",
+    "vitest": "^4.1.8"
+  }
+}

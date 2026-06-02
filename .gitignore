@@ -1,0 +1,8 @@
+settings.local.json
+node_modules
+.pnpm-store
+dist
+.vite
+*.local
+dev-dist/
+Swedish Kelly-20260602134631.apkg

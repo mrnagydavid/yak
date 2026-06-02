@@ -1,0 +1,20 @@
+.screen {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.placeholder {
+  color: var(--color-text-secondary);
+}
+
+.version {
+  margin-top: auto;
+  font-size: 12px;
+  color: var(--color-text-secondary);
+}
