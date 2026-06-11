@@ -75,6 +75,7 @@ function makeReviewState(
     lastReview: now - DAY,
     scheduledDays: Math.max(0, Math.round(dueInDays)),
     elapsedDays: 1,
+    learningSteps: 0,
     createdAt: now,
     updatedAt: now,
   }

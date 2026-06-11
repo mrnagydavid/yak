@@ -83,6 +83,7 @@ export interface ReviewState {
   lastReview: number | null
   scheduledDays: number
   elapsedDays: number
+  learningSteps: number // ts-fsrs Card.learning_steps — current (re)learning step index
   createdAt: number
   updatedAt: number
 }
