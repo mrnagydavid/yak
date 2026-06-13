@@ -13,6 +13,7 @@ export function FilterChip<T extends string>({
   open,
   onToggle,
   onChange,
+  align = 'left',
 }: {
   label: string
   value: T
@@ -20,6 +21,7 @@ export function FilterChip<T extends string>({
   open: boolean
   onToggle: () => void
   onChange: (value: T) => void
+  align?: 'left' | 'right'
 }) {
   const current = options.find((o) => o.value === value)
   const isDefault = options[0]?.value === value
@@ -30,7 +32,7 @@ export function FilterChip<T extends string>({
         {label}: {current?.label ?? ''} ▾
       </button>
       {open ? (
-        <ul class={styles.menu}>
+        <ul class={`${styles.menu} ${align === 'right' ? styles.menuRight : ''}`}>
           {options.map((o) => (
             <li key={o.value}>
               <button

@@ -1,7 +1,7 @@
 import { db } from './schema'
 import { cefrRank, levelRank } from '../srs/levels'
 import type { SessionCard } from '../srs/session-composer'
-import type { Entry, EntryOverlay, Profile, ReviewState, Skill, Translation } from './types'
+import type { Entry, EntryOverlay, Profile, ReviewState, Skill, StudyPref, Translation } from './types'
 
 /** The four study states surfaced as coloured icons in Vocabulary / Word Detail. (SPEC §7.3) */
 export type Status = 'none' | 'struggling' | 'learning' | 'solid'
@@ -50,6 +50,63 @@ export async function getPracticeCardView(card: SessionCard): Promise<PracticeCa
   return { card, target, native, overlay }
 }
 
+/** Everything the Word Detail screen renders. (SPEC §7.5) */
+export interface WordDetailData {
+  entry: Entry
+  natives: Entry[] // native-language entries this word translates to
+  recognize?: ReviewState // primary translation's recognition state
+  produce?: ReviewState // primary translation's production state
+  lastPracticed?: number // most recent review across the word's skills
+  overlay?: EntryOverlay
+  /** What `study: 'auto'` resolves to for this word — i.e. is it in scope right now. */
+  autoIncluded: boolean
+}
+
+export async function getWordDetail(entryId: string): Promise<WordDetailData | null> {
+  const entry = await db.entries.get(entryId)
+  if (!entry) return null
+
+  const translations = await db.translations.where('targetEntryId').equals(entryId).toArray()
+  const nativeEntries = await db.entries.bulkGet(translations.map((t) => t.nativeEntryId))
+  const natives = nativeEntries.filter((e): e is Entry => Boolean(e))
+
+  let recognize: ReviewState | undefined
+  let produce: ReviewState | undefined
+  let lastPracticed: number | undefined
+  let hasSrs = false
+  if (translations.length > 0) {
+    const states = await db.reviewStates
+      .where('translationId')
+      .anyOf(translations.map((t) => t.id))
+      .toArray()
+    hasSrs = states.length > 0
+    const primary = translations[0].id
+    recognize = states.find((s) => s.translationId === primary && s.skill === 'recognize')
+    produce = states.find((s) => s.translationId === primary && s.skill === 'produce')
+    lastPracticed = states.reduce((max, s) => Math.max(max, s.lastReview ?? 0), 0) || undefined
+  }
+
+  // What 'auto' would resolve to — lets the Word Detail control hint the default outcome.
+  const profile = await getActiveProfile()
+  const level = profile?.claimedLevel ?? 'A1'
+
+  const overlay = await getOverlay(entryId)
+  return {
+    entry,
+    natives,
+    recognize,
+    produce,
+    lastPracticed,
+    overlay,
+    autoIncluded: autoInScope(entry, level, hasSrs),
+  }
+}
+
+/** Set a word's practice preference (skip / auto / always). (SPEC §7.5) */
+export function setStudy(entryId: string, study: StudyPref): Promise<number> {
+  return db.entries.update(entryId, { study, updatedAt: Date.now() })
+}
+
 /** A single row in the Vocabulary list. (SPEC §7.3) */
 export interface VocabRow {
   entry: Entry
@@ -62,14 +119,20 @@ export interface VocabRow {
   lapses: number // highest lapse count across the entry's skills — for "hardest" sort
 }
 
-/** Study-set membership per SPEC §6.1. */
-function isInStudySet(entry: Entry, level: Profile['claimedLevel'], hasSrs: boolean): boolean {
+/** Whether a word would be practiced by default (study === 'auto'), per scope. (SPEC §6.1) */
+function autoInScope(entry: Entry, level: Profile['claimedLevel'], hasSrs: boolean): boolean {
   return (
     entry.source === 'user' ||
-    entry.userFlagged === true ||
     hasSrs ||
     (entry.source === 'seed' && cefrRank(entry.cefr) <= levelRank(level) + 1)
   )
+}
+
+/** Effective study-set membership: the `study` override resolved against scope. */
+function isInStudySet(entry: Entry, level: Profile['claimedLevel'], hasSrs: boolean): boolean {
+  if (entry.study === 'skip') return false
+  if (entry.study === 'always') return true
+  return autoInScope(entry, level, hasSrs)
 }
 
 /**

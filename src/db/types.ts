@@ -17,6 +17,14 @@ export type PartOfSpeech =
 
 export type Source = 'seed' | 'user'
 
+/**
+ * The user's per-word practice override — a single dimension. (SPEC §7.5)
+ * - `skip`   → never practiced (manual exclude)
+ * - `auto`   → follow scope: practiced iff in the study set by level / SRS / source
+ * - `always` → always practiced (manual include, even above level)
+ */
+export type StudyPref = 'skip' | 'auto' | 'always'
+
 export type IpaSource = 'wiktionary' | 'ipa-dict' | 'user' | 'generated'
 
 /** Recognition = see target, recall native. Production = see native, produce target. */
@@ -41,8 +49,7 @@ export interface Entry {
   subDefinitions?: string[] // when senses were merged at build time
   source: Source
   seedVersion?: string // when source = seed
-  userFlagged?: boolean // true if user explicitly added a seed entry to their study set
-  hidden?: boolean // excluded from sessions but kept in Vocabulary (SPEC §7.5)
+  study: StudyPref // per-word practice override (replaces the old userFlagged + hidden)
   createdAt: number
   updatedAt: number
 }

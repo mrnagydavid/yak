@@ -18,7 +18,7 @@ export function levelRank(level: Profile['claimedLevel']): number {
 
 /**
  * Rank of an entry's CEFR. No CEFR (user entries) → Infinity, so the "cefr <= level+1"
- * progression rule never pulls them in; their eligibility comes from source/userFlagged.
+ * progression rule never pulls them in; their eligibility comes from source / study.
  */
 export function cefrRank(cefr?: Cefr): number {
   return cefr ? LEVEL_RANK[cefr] : Number.POSITIVE_INFINITY

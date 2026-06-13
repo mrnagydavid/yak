@@ -6,11 +6,12 @@
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  padding: 6px 10px;
+  min-height: 40px;
+  padding: 8px 14px;
   border: 1px solid var(--color-border);
   border-radius: 999px;
   background: var(--color-surface);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   color: var(--color-text-secondary);
   white-space: nowrap;
@@ -24,25 +25,32 @@
 
 .menu {
   position: absolute;
-  top: calc(100% + 4px);
+  top: calc(100% + 6px);
   left: 0;
   z-index: 50;
-  min-width: 160px;
+  min-width: 180px;
   list-style: none;
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-md);
-  padding: 4px;
+  padding: 6px;
   overflow: hidden;
+}
+
+/* Anchor to the right edge so the rightmost chip's menu stays inside the frame. */
+.menuRight {
+  left: auto;
+  right: 0;
 }
 
 .item {
   width: 100%;
+  min-height: 44px;
   text-align: left;
-  padding: 8px 10px;
+  padding: 11px 14px;
   border-radius: var(--radius-sm);
-  font-size: 14px;
+  font-size: 16px;
   color: var(--color-text);
 }
 

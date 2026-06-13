@@ -9,9 +9,13 @@ function Inflections({ display }: { display: InflectionDisplay }) {
   if (display.table) {
     const { columns, rows } = display.table
     // Just the cell grid — no row/column headers (self-explanatory, like the verb line).
+    // Drop columns with no values (e.g. plural for uncountable nouns) to avoid blank gaps.
+    const keep = columns.map((_, ci) => rows.some((r) => r.cells[ci]))
     return (
-      <div class={styles.declension} style={{ gridTemplateColumns: `repeat(${columns.length}, auto)` }}>
-        {rows.flatMap((r) => r.cells.map((cell, i) => <span key={`${r.label}-${i}`}>{cell}</span>))}
+      <div class={styles.declension} style={{ gridTemplateColumns: `repeat(${keep.filter(Boolean).length}, auto)` }}>
+        {rows.flatMap((r) =>
+          r.cells.filter((_, ci) => keep[ci]).map((cell, i) => <span key={`${r.label}-${i}`}>{cell}</span>),
+        )}
       </div>
     )
   }

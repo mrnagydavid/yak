@@ -1,4 +1,5 @@
 import { useLiveQuery } from 'dexie-react-hooks'
+import { route } from 'preact-router'
 import { useMemo, useState } from 'preact/hooks'
 import { getActiveProfile, listVocabulary, type Status, type VocabRow } from '../../db/queries'
 import { getRenderer } from '../../lang'
@@ -53,6 +54,7 @@ function applyFilters(
   source: SourceFilter,
   level: LevelFilter,
   sort: SortOption,
+  lang: string,
 ): VocabRow[] {
   const q = search.trim().toLowerCase()
   const filtered = rows.filter((row) => {
@@ -64,8 +66,10 @@ function applyFilters(
     return true
   })
 
+  // Collate alphabetically by the target language so e.g. Swedish å/ä/ö sort after z.
+  const collator = new Intl.Collator(lang)
   const sorted = [...filtered]
-  if (sort === 'alphabetical') sorted.sort((a, b) => a.entry.lemma.localeCompare(b.entry.lemma))
+  if (sort === 'alphabetical') sorted.sort((a, b) => collator.compare(a.entry.lemma, b.entry.lemma))
   else if (sort === 'practiced') sorted.sort((a, b) => (b.lastPracticed ?? 0) - (a.lastPracticed ?? 0))
   else if (sort === 'added') sorted.sort((a, b) => b.entry.createdAt - a.entry.createdAt)
   else if (sort === 'hardest') sorted.sort((a, b) => b.lapses - a.lapses)
@@ -86,15 +90,14 @@ export function VocabularyScreen() {
   const [openFilter, setOpenFilter] = useState<string | null>(null)
 
   const renderer = profile ? getRenderer(profile.targetLang) : undefined
+  const lang = profile?.targetLang ?? 'en'
   const visible = useMemo(
-    () => (rows ? applyFilters(rows, search, source, level, sort) : []),
-    [rows, search, source, level, sort],
+    () => (rows ? applyFilters(rows, search, source, level, sort, lang) : []),
+    [rows, search, source, level, sort, lang],
   )
 
   return (
     <div class={styles.screen}>
-      <h1 class={styles.title}>Vocabulary</h1>
-
       <input
         class={styles.search}
         type="search"
@@ -131,6 +134,7 @@ export function VocabularyScreen() {
           value={sort}
           options={SORT_OPTIONS}
           open={openFilter === 'sort'}
+          align="right"
           onToggle={() => setOpenFilter((f) => (f === 'sort' ? null : 'sort'))}
           onChange={(v) => {
             setSort(v)
@@ -146,7 +150,11 @@ export function VocabularyScreen() {
       ) : (
         <ul class={styles.list}>
           {visible.map(({ entry, native, inStudySet, recognize, produce }) => (
-            <li key={entry.id} class={`${styles.row} ${inStudySet ? '' : styles.dimmed}`}>
+            <li
+              key={entry.id}
+              class={`${styles.row} ${inStudySet ? '' : styles.dimmed}`}
+              onClick={() => route(`/word/${entry.id}`)}
+            >
               <span class={styles.level}>{entry.source === 'user' ? '⚝' : (entry.cefr ?? '–')}</span>
               <span
                 class={styles.status}

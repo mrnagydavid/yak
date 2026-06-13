@@ -24,22 +24,16 @@ function formatValue(key: string, value: string): string {
 }
 
 // Build the 2×2 declension grid. The indefinite singular is the lemma itself (repeated for
-// a complete table). Uncountable nouns (no plural forms) drop the plural column entirely.
+// a complete table). Always returns both columns; uncountable nouns leave the plural cells
+// empty (consumers can keep the column for layout or drop it if they prefer).
 function nounTable(entry: Entry): InflectionTable {
   const indefiniteSingular = entry.lemma
   const { definiteSingular, indefinitePlural, definitePlural } = entry.inflections
-  const hasPlural = Boolean(indefinitePlural || definitePlural)
   return {
-    columns: hasPlural ? ['Singular', 'Plural'] : ['Singular'],
+    columns: ['Singular', 'Plural'],
     rows: [
-      {
-        label: 'Indefinite',
-        cells: hasPlural ? [indefiniteSingular, indefinitePlural ?? '–'] : [indefiniteSingular],
-      },
-      {
-        label: 'Definite',
-        cells: hasPlural ? [definiteSingular ?? '–', definitePlural ?? '–'] : [definiteSingular ?? '–'],
-      },
+      { label: 'Indefinite', cells: [indefiniteSingular, indefinitePlural ?? ''] },
+      { label: 'Definite', cells: [definiteSingular ?? '', definitePlural ?? ''] },
     ],
   }
 }

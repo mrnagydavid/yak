@@ -53,6 +53,7 @@ function makeEntry(
     pronunciation: {},
     source: 'seed',
     seedVersion: SEED_VERSION,
+    study: 'auto',
     createdAt: now,
     updatedAt: now,
     ...extra,

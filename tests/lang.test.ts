@@ -10,6 +10,7 @@ function entry(overrides: Partial<Entry> & { lemma: string; pos: PartOfSpeech })
     inflections: {},
     pronunciation: {},
     source: 'seed',
+    study: 'auto',
     createdAt: 0,
     updatedAt: 0,
     ...overrides,
@@ -63,11 +64,12 @@ describe('svRenderer', () => {
       inflections: { definiteSingular: 'vattnet' },
     })
     expect(sv.renderLemma(vatten)).toBe('vatten')
+    // Both columns are kept; the plural cells are empty (no nonsensical forms).
     expect(sv.renderInflections(vatten).table).toEqual({
-      columns: ['Singular'],
+      columns: ['Singular', 'Plural'],
       rows: [
-        { label: 'Indefinite', cells: ['vatten'] },
-        { label: 'Definite', cells: ['vattnet'] },
+        { label: 'Indefinite', cells: ['vatten', ''] },
+        { label: 'Definite', cells: ['vattnet', ''] },
       ],
     })
     expect(sv.renderFeatures(vatten)).toEqual([{ label: 'ett', kind: 'gender-ett' }])

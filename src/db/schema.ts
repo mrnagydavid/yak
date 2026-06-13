@@ -8,13 +8,8 @@ import type {
   Translation,
 } from './types'
 
-// Dexie schema, version 1. Indices per SPEC §4.7.
-//
-// Note: `userFlagged` is listed as an index per the spec, but IndexedDB does not
-// index boolean values — only rows where the key path resolves to a valid key are
-// indexed. Querying that index won't return `false`/`undefined` rows. Revisit if we
-// need to query flagged entries by index (e.g. store 1/0 instead). For now we follow
-// the spec and filter in memory where needed.
+// Dexie schema. Indices roughly per SPEC §4.7. The `study` tri-state is not indexed —
+// session composition scans a whole language anyway.
 export class YakDB extends Dexie {
   entries!: EntityTable<Entry, 'id'>
   entryOverlays!: EntityTable<EntryOverlay, 'id'>
@@ -25,17 +20,37 @@ export class YakDB extends Dexie {
 
   constructor() {
     super('yak')
+    // Note: entryOverlays uses `id, &entryId` (not SPEC §4.7's `id, entryId, &entryId`,
+    // which defines the entryId index twice and makes IndexedDB throw on open). One overlay
+    // per entry (§4.2), so the unique index alone is correct and queryable.
     this.version(1).stores({
       entries: 'id, lang, lemma, [lang+lemma], pos, source, cefr, userFlagged',
-      // SPEC §4.7 lists `id, entryId, &entryId`, but that defines the `entryId` index
-      // twice (plain + unique), which makes IndexedDB throw ConstraintError on open. One
-      // overlay per entry (§4.2), so the unique index alone is correct and queryable.
       entryOverlays: 'id, &entryId',
       translations: 'id, targetEntryId, nativeEntryId',
       reviewStates: 'id, translationId, skill, [translationId+skill], due, state',
       profiles: 'id, active, [learnerLang+targetLang]',
       sessionLogs: 'id, profileId, startedAt',
     })
+    // v2: collapse userFlagged + hidden into a single `study` tri-state (SPEC §7.5).
+    this.version(2)
+      .stores({
+        entries: 'id, lang, lemma, [lang+lemma], pos, source, cefr',
+        entryOverlays: 'id, &entryId',
+        translations: 'id, targetEntryId, nativeEntryId',
+        reviewStates: 'id, translationId, skill, [translationId+skill], due, state',
+        profiles: 'id, active, [learnerLang+targetLang]',
+        sessionLogs: 'id, profileId, startedAt',
+      })
+      .upgrade((tx) =>
+        tx
+          .table('entries')
+          .toCollection()
+          .modify((e: Record<string, unknown>) => {
+            e.study = e.hidden ? 'skip' : e.userFlagged ? 'always' : 'auto'
+            delete e.userFlagged
+            delete e.hidden
+          }),
+      )
   }
 }
 

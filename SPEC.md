@@ -77,7 +77,7 @@ interface Entry {
   subDefinitions?: string[];        // when senses were merged at build time (mena example)
   source: "seed" | "user";
   seedVersion?: string;             // when source = seed; identifies which seed build produced this
-  userFlagged?: boolean;            // true if user explicitly added a seed entry to their study set
+  study: "skip" | "auto" | "always"; // per-word practice override (single dimension). auto = follow scope (level/SRS/source); always = force in; skip = force out. Replaces the older userFlagged + hidden booleans.
   createdAt: number;
   updatedAt: number;
 }
@@ -189,7 +189,7 @@ Dexie schema, version 1:
 
 ```ts
 db.version(1).stores({
-  entries: 'id, lang, lemma, [lang+lemma], pos, source, cefr, userFlagged',
+  entries: 'id, lang, lemma, [lang+lemma], pos, source, cefr',
   entryOverlays: 'id, entryId, &entryId',
   translations: 'id, targetEntryId, nativeEntryId',
   reviewStates: 'id, translationId, skill, [translationId+skill], due, state',
@@ -246,19 +246,21 @@ Adding a new language is one render module + one seed file. No core code changes
 
 ### 6.1 The eligibility rule
 
-A word is **in the user's study set** if any of:
+Each entry carries a single `study` override: `always` (force in), `skip` (force out), or
+`auto` (follow scope). A word is **in the user's study set** when:
 
-- `source = user` — the user added it themselves
-- `userFlagged = true` — the user explicitly flagged a seed entry into their study
-- Has SRS state — they've encountered it (orphan protection across level changes)
-- `source = seed AND cefr <= UserLevel + 1` — natural progression (current level and next)
+- `study = always` — the user forced it in; **else**
+- `study = skip` — the user forced it out (never in); **else** (`study = auto`) if any of:
+  - `source = user` — the user added it themselves
+  - Has SRS state — they've encountered it (orphan protection across level changes)
+  - `source = seed AND cefr <= UserLevel + 1` — natural progression (current level and next)
 
 Within the study set:
 
 - **New pool** = study set entries without SRS state
 - **Practice pool** = study set entries with SRS state
 
-The new pool is further constrained for the daily session: drawn primarily from `cefr = UserLevel + 1` (the natural progression) and from user-added / user-flagged entries (which have no CEFR but are explicit choices).
+The new pool is further constrained for the daily session: drawn primarily from `cefr = UserLevel + 1` (the natural progression) and from user-added / `study = always` entries (explicit choices).
 
 ### 6.2 Session composition
 
@@ -416,7 +418,7 @@ Long phrases wrap; row grows taller. Numbers are never shown — status is conve
 Per-skill: each row shows recognition status / production status independently.
 
 **Tap row** → Word Detail.
-**Long-press row** → quick action menu (Add to study set, Remove from study set, View detail).
+**Long-press row** → quick action menu (Study, Skip, View detail) — quick shortcuts for the `study` override.
 
 **Performance.** List is virtualised. Seed sets may exceed 8,000 entries.
 
@@ -440,7 +442,7 @@ Triggered by FAB. Slides up as a sheet.
 
 **Three result states.**
 
-*State A — seed match(es) found.* List the matches with disambiguator, IPA, level badge, and primary translation. Tap a match → entry is flagged into study set (`userFlagged = true`); a follow-on **Annotation sheet** opens with Note, Examples, and Translation override (collapsed). Saving the annotation sheet (or saving it empty) closes the add flow and returns to wherever the user was. Below the matches is a small "save as a new entry" link for the rare case where the user genuinely wants a separate user-source entry.
+*State A — seed match(es) found.* List the matches with disambiguator, IPA, level badge, and primary translation. Tap a match → entry is added to the study set (`study = "always"`); a follow-on **Annotation sheet** opens with Note, Examples, and Translation override (collapsed). Saving the annotation sheet (or saving it empty) closes the add flow and returns to wherever the user was. Below the matches is a small "save as a new entry" link for the rare case where the user genuinely wants a separate user-source entry.
 
 *State B — no seed match, enrichment succeeded.* Preview form with fields prefilled:
 - Lemma (editable)
@@ -476,10 +478,16 @@ Contents (top to bottom):
 - **User note**: free-text edit
 - **Progress block**: recognition status + production status, with the same coloured icons used in Vocabulary
 - **Last practiced**: relative timestamp ("3 days ago")
+- **Practice control**: a single 3-way segmented control — **Skip · Auto · Study** —
+  setting the entry's `study` override. *Skip* = never practiced; *Auto* = follow scope
+  (the default; tracks level changes); *Study* = always practiced. This replaces the
+  earlier separate "add/remove from study set" + "mark as hidden" actions, which were two
+  directions of the same single dimension (the contradictory "in but hidden" state is now
+  unrepresentable).
 - **Actions**:
-  - For seed entries: Add to / Remove from study set; Reset to seed defaults (wipes overlay, with confirm); Override translation
+  - For seed entries: Reset to seed defaults (wipes overlay, with confirm); Override translation
   - For user entries: Edit lemma; Delete entry (with confirm)
-  - For both: Per-skill SRS reset (with confirm); Mark as hidden (excludes from future sessions but keeps in Vocabulary)
+  - For both: Per-skill SRS reset (with confirm)
 
 ### 7.6 Profile screen
 

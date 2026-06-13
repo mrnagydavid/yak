@@ -57,6 +57,7 @@ function entry(lemma: string, source: Source, cefr?: Cefr, extra: Partial<Entry>
     pronunciation: {},
     source,
     cefr,
+    study: 'auto',
     createdAt: 1000 + seq,
     updatedAt: 1000 + seq,
     ...extra,
@@ -160,9 +161,9 @@ describe('session-composer', () => {
     expect(cards.filter((c) => c.mode === 'new')).toHaveLength(3)
   })
 
-  it('excludes hidden entries entirely', () => {
+  it('excludes skip ("never practiced") entries entirely', () => {
     seq = 0
-    const w = entry('hidden', 'seed', 'A1', { hidden: true })
+    const w = entry('skipped', 'seed', 'A1', { study: 'skip' })
     const cards = composeSessionPure(
       base({ entries: [w], translations: [translation('t_h', w.id)] }),
     )

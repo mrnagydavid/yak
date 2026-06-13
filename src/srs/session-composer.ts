@@ -28,7 +28,7 @@ import { cefrRank, levelRank } from './levels'
 // 2. A no-SRS card is classified by the entry's CEFR relative to the claimed level:
 //      - seed entry with cefr <= UserLevel        → calibration candidate → practice pool,
 //        shown review-style (SPEC §6.3); rating creates initial state
-//      - cefr == UserLevel+1, or user-added/flagged → new pool, shown in new-card mode
+//      - cefr == UserLevel+1, or user-added / study==='always' → new pool (new-card mode)
 //    This reconciles §6.1 (practice = has-SRS) with §6.3 (calibrate <=level on encounter).
 //
 // 3. Practice cards with SRS state are only included when due (due <= now); not-yet-due
@@ -74,9 +74,10 @@ type Band = 'new' | 'calibration' | 'ineligible'
 
 /** Classify an entry's no-SRS band relative to the claimed level. (SPEC §6.1–6.3) */
 function bandOf(entry: Entry, lr: number): Band {
+  if (entry.study === 'skip') return 'ineligible'
   if (entry.source === 'seed' && cefrRank(entry.cefr) <= lr) return 'calibration'
   const progression = entry.source === 'seed' && cefrRank(entry.cefr) <= lr + 1
-  if (entry.source === 'user' || entry.userFlagged === true || progression) return 'new'
+  if (entry.study === 'always' || entry.source === 'user' || progression) return 'new'
   return 'ineligible'
 }
 
@@ -98,7 +99,7 @@ interface Candidate {
   entry: Entry
   // priority hints for the new pool
   userAdded: boolean
-  flagged: boolean
+  forced: boolean // study === 'always'
   // per-day shuffle key for calibration candidates (within a CEFR band)
   calibrationKey?: number
 }
@@ -137,10 +138,11 @@ export function composeSessionPure(input: ComposerInput): SessionCard[] {
 
   for (const translation of input.translations) {
     const entry = entryById.get(translation.targetEntryId)
-    if (!entry || entry.hidden) continue
+    // `skip` is the manual exclude (replaces the old `hidden`) — never enters a session.
+    if (!entry || entry.study === 'skip') continue
 
     const userAdded = entry.source === 'user'
-    const flagged = entry.userFlagged === true
+    const forced = entry.study === 'always'
     const progression = entry.source === 'seed' && cefrRank(entry.cefr) <= lr + 1
 
     for (const skill of SKILLS) {
@@ -151,7 +153,7 @@ export function composeSessionPure(input: ComposerInput): SessionCard[] {
         continue
       }
 
-      const eligible = userAdded || flagged || !!rs || progression
+      const eligible = forced || userAdded || !!rs || progression
       if (!eligible) continue
 
       const card: SessionCard = {
@@ -164,18 +166,18 @@ export function composeSessionPure(input: ComposerInput): SessionCard[] {
 
       if (rs) {
         // Genuine practice card — only when due.
-        if (rs.due <= now) practice.push({ card: { ...card, mode: 'practice' }, entry, userAdded, flagged })
+        if (rs.due <= now) practice.push({ card: { ...card, mode: 'practice' }, entry, userAdded, forced })
       } else if (entry.source === 'seed' && cefrRank(entry.cefr) <= lr) {
         // Calibration candidate — no SRS state yet, but practiced review-style (SPEC §6.3).
         practice.push({
           card: { ...card, mode: 'practice' },
           entry,
           userAdded,
-          flagged,
+          forced,
           calibrationKey: hash01(`${dayStart}:${entry.id}`),
         })
       } else {
-        fresh.push({ card, entry, userAdded, flagged })
+        fresh.push({ card, entry, userAdded, forced })
       }
     }
   }
@@ -194,9 +196,9 @@ export function composeSessionPure(input: ComposerInput): SessionCard[] {
     )
   })
 
-  // New order: user-added first, then user-flagged seed, then progression (cefr=level+1),
-  // each by createdAt asc. (SPEC §6.2 step 1)
-  const newRank = (c: Candidate) => (c.userAdded ? 0 : c.flagged ? 1 : 2)
+  // New order: user-added first, then force-studied (always), then progression
+  // (cefr=level+1), each by createdAt asc. (SPEC §6.2 step 1)
+  const newRank = (c: Candidate) => (c.userAdded ? 0 : c.forced ? 1 : 2)
   fresh.sort((a, b) => newRank(a) - newRank(b) || a.entry.createdAt - b.entry.createdAt)
 
   const practiceCards = practice.slice(0, limits.practicePerDay).map((c) => c.card)
