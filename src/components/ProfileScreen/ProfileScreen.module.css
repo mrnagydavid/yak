@@ -1,20 +1,128 @@
 .screen {
   display: flex;
   flex-direction: column;
+  gap: 24px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sectionTitle {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-secondary);
+}
+
+.muted {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
   gap: 8px;
 }
 
-.title {
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.placeholder {
+.chip {
+  min-height: 44px;
+  padding: 8px 16px;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: var(--color-surface);
+  font-size: 15px;
+  font-weight: 600;
   color: var(--color-text-secondary);
 }
 
-.version {
-  margin-top: auto;
-  font-size: 12px;
-  color: var(--color-text-secondary);
+.chipOn {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sliderLabel {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.slider input {
+  width: 100%;
+  accent-color: var(--color-primary);
+  height: 28px;
+}
+
+.action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-text);
+  background: var(--color-surface);
+}
+
+.danger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  background: var(--color-red);
+}
+
+.dangerOutline {
+  min-height: 48px;
+  padding: 12px;
+  border: 1px solid var(--color-red);
+  border-radius: var(--radius-md);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-red);
+  background: var(--color-surface);
+}
+
+.error {
+  font-size: 13px;
+  color: var(--color-red);
+}
+
+.confirm {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-bg-secondary);
+}
+
+.confirmRow {
+  display: flex;
+  gap: 8px;
+}
+
+.confirmRow > * {
+  flex: 1;
 }

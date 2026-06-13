@@ -20,6 +20,11 @@ export async function getActiveProfile() {
   return db.profiles.filter((p) => p.active).first()
 }
 
+/** Patch the active profile (level, daily limits, …). */
+export function updateProfile(id: string, changes: Partial<Profile>): Promise<number> {
+  return db.profiles.update(id, { ...changes, updatedAt: Date.now() })
+}
+
 export function getEntry(id: string) {
   return db.entries.get(id)
 }
