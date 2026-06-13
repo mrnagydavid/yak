@@ -66,8 +66,8 @@ interface Entry {
   lang: string;                     // BCP-47, e.g. "sv", "en", "de"
   lemma: string;                    // dictionary form, plain (no "att" / "to" / "der")
   pos: PartOfSpeech;                // closed enum: noun | verb | adj | adv | prep | conj | pron | num | interj | phrase | other
-  features: Record<string, string>; // language-specific: { gender: "en" } for Swedish, { gender: "der" } for German
-  inflections: Record<string, string>; // { presens: "springer", preteritum: "sprang", supinum: "sprungit", imperativ: "spring" }
+  features: Record<string, string>; // language-specific: { gender: "en" } for Swedish, { gender: "der" } for German; { countable: "no" } marks uncountable nouns (renderer omits the article)
+  inflections: Record<string, string>; // Swedish verbs: { presens, preteritum, supinum, imperativ }; Swedish nouns: { definiteSingular, indefinitePlural, definitePlural } (indefinite singular = lemma)
   pronunciation: {
     ipa?: string;
     ipaSource?: "wiktionary" | "ipa-dict" | "user" | "generated";
@@ -219,8 +219,8 @@ interface LanguageRenderer {
 
 Examples:
 
-- **Swedish (`sv`)**: verbs render as `att springa (springer, sprang, sprungit, spring!)`; nouns render with `en` / `ett` prefix and plural form; gender badge color-coded.
-- **English (`en`)**: verbs render as `to run (runs, ran, run)`; nouns get `a` / `an` based on phonetic rule; no IPA in display.
+- **Swedish (`sv`)**: verbs render as `att springa` with principal parts `springer · sprang · sprungit · Spring!` (imperative capitalised with `!`); nouns render with `en` / `ett` prefix and the declension `hunden · hundar · hundarna` (definite sg, indefinite pl, definite pl); gender badge color-coded. **Uncountable nouns** (`features.countable = "no"`) drop the article — `vatten`, not `ett vatten` — while the gender still shows as a badge.
+- **English (`en`)**: verbs render as `to run (runs, ran, run)`; nouns get `a` / `an` based on phonetic rule (uncountable nouns drop it — `water`, not `a water`); no IPA in display.
 - **German (`de`)**: nouns render with `der` / `die` / `das` and plural; verbs render with infinitive + Stammformen; gender badges color-coded.
 - **Spanish (`es`)**: verbs render with infinitive + first-person present + preterite + past participle; nouns with `el` / `la` and plural.
 - **French (`fr`)**: similar pattern, with gender, plural, and key conjugations.
@@ -567,7 +567,8 @@ A set of Node scripts under `scripts/seed/` that produce `data/seed-<lang>.json`
    - Match on lemma + POS where possible.
    - Where Kelly and Wiktionary disagree on POS, log and let the cleanup pass decide.
    - Pull IPA from Wiktionary first, ipa-dict as fallback.
-   - Pull inflections from Wiktionary conjugation/declension tables.
+   - Pull inflections from Wiktionary conjugation/declension tables, using the per-language key vocabulary the render modules expect (Swedish verbs: `presens`/`preteritum`/`supinum`/`imperativ`; Swedish nouns: `definiteSingular`/`indefinitePlural`/`definitePlural`).
+   - Detect noun countability from Wiktionary (the *(uncountable)* / *(usually uncountable)* tags) and set `features.countable = "no"` so the renderer omits the article (e.g. "vatten", not "ett vatten"). Absence of the flag means countable.
    - Pull example sentences from Wiktionary where available.
 
 3. **Heuristic flagging**.

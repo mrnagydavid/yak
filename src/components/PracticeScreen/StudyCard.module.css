@@ -12,6 +12,15 @@
   padding-left: 14px;
 }
 
+.newBadge {
+  align-self: center;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+
 .prompt {
   display: flex;
   flex-direction: column;
@@ -70,6 +79,18 @@
 .inflections {
   font-size: 14px;
   color: var(--color-text-secondary);
+}
+
+.declension {
+  align-self: center;
+  display: grid;
+  gap: 4px 20px;
+  font-size: 14px;
+  color: var(--color-text-secondary);
+}
+
+.declension span {
+  text-align: center;
 }
 
 .examples {

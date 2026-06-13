@@ -75,7 +75,7 @@ export function PracticeScreen() {
       >
         <StudyCard view={view} revealed={isRevealed} />
       </div>
-      <RatingButtons onRate={rate} />
+      <RatingButtons mode={view.card.mode} onRate={rate} />
     </div>
   )
 }

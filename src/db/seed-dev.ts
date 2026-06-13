@@ -19,14 +19,15 @@ interface SamplePair {
   inflections?: Record<string, string>
   ipa?: string
   subDefinitions?: string[]
+  uncountable?: boolean
 }
 
 const PAIRS: SamplePair[] = [
-  { sv: 'hund', pos: 'noun', cefr: 'A1', en: 'dog', enPos: 'noun', features: { gender: 'en' }, inflections: { plural: 'hundar' }, ipa: 'ˈhɵnd' },
-  { sv: 'katt', pos: 'noun', cefr: 'A1', en: 'cat', enPos: 'noun', features: { gender: 'en' }, inflections: { plural: 'katter' }, ipa: 'ˈkatː' },
-  { sv: 'hus', pos: 'noun', cefr: 'A1', en: 'house', enPos: 'noun', features: { gender: 'ett' }, inflections: { plural: 'hus' }, ipa: 'ˈhʉːs' },
-  { sv: 'vatten', pos: 'noun', cefr: 'A1', en: 'water', enPos: 'noun', features: { gender: 'ett' }, ipa: 'ˈvatən' },
-  { sv: 'bok', pos: 'noun', cefr: 'A2', en: 'book', enPos: 'noun', features: { gender: 'en' }, inflections: { plural: 'böcker' }, ipa: 'ˈbuːk' },
+  { sv: 'hund', pos: 'noun', cefr: 'A1', en: 'dog', enPos: 'noun', features: { gender: 'en' }, inflections: { definiteSingular: 'hunden', indefinitePlural: 'hundar', definitePlural: 'hundarna' }, ipa: 'ˈhɵnd' },
+  { sv: 'katt', pos: 'noun', cefr: 'A1', en: 'cat', enPos: 'noun', features: { gender: 'en' }, inflections: { definiteSingular: 'katten', indefinitePlural: 'katter', definitePlural: 'katterna' }, ipa: 'ˈkatː' },
+  { sv: 'hus', pos: 'noun', cefr: 'A1', en: 'house', enPos: 'noun', features: { gender: 'ett' }, inflections: { definiteSingular: 'huset', indefinitePlural: 'hus', definitePlural: 'husen' }, ipa: 'ˈhʉːs' },
+  { sv: 'vatten', pos: 'noun', cefr: 'A1', en: 'water', enPos: 'noun', features: { gender: 'ett' }, inflections: { definiteSingular: 'vattnet' }, uncountable: true, ipa: 'ˈvatən' },
+  { sv: 'bok', pos: 'noun', cefr: 'A2', en: 'book', enPos: 'noun', features: { gender: 'en' }, inflections: { definiteSingular: 'boken', indefinitePlural: 'böcker', definitePlural: 'böckerna' }, ipa: 'ˈbuːk' },
   { sv: 'springa', pos: 'verb', cefr: 'A2', en: 'run', enPos: 'verb', inflections: { presens: 'springer', preteritum: 'sprang', supinum: 'sprungit', imperativ: 'spring' }, ipa: 'ˈsprɪŋa' },
   { sv: 'äta', pos: 'verb', cefr: 'A1', en: 'eat', enPos: 'verb', inflections: { presens: 'äter', preteritum: 'åt', supinum: 'ätit', imperativ: 'ät' }, ipa: 'ˈɛːta' },
   { sv: 'snabb', pos: 'adj', cefr: 'A2', en: 'fast', enPos: 'adj', ipa: 'ˈsnabː' },
@@ -93,14 +94,18 @@ export async function seedDevData(): Promise<void> {
   const translationIdBySv = new Map<string, string>()
 
   for (const pair of PAIRS) {
+    const svFeatures = { ...pair.features }
+    if (pair.uncountable) svFeatures.countable = 'no'
     const svEntry = makeEntry('sv', pair.sv, pair.pos, now, {
       cefr: pair.cefr,
-      features: pair.features ?? {},
+      features: svFeatures,
       inflections: pair.inflections ?? {},
       pronunciation: pair.ipa ? { ipa: pair.ipa, ipaSource: 'generated' } : {},
       subDefinitions: pair.subDefinitions,
     })
-    const enEntry = makeEntry('en', pair.en, pair.enPos, now)
+    const enEntry = makeEntry('en', pair.en, pair.enPos, now, {
+      features: pair.uncountable ? { countable: 'no' } : {},
+    })
     entries.push(svEntry, enEntry)
     svIdByLemma.set(pair.sv, svEntry.id)
 
