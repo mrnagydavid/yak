@@ -1,0 +1,93 @@
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 8px 4px;
+}
+
+/* Soft accent stripe at the left edge for user-owned content. (SPEC §7.9) */
+.userOwned {
+  border-left: 3px solid var(--color-primary);
+  padding-left: 14px;
+}
+
+.prompt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  text-align: center;
+}
+
+.promptWord {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.disambig {
+  font-size: 15px;
+  color: var(--color-text-secondary);
+}
+
+.ipa {
+  font-size: 15px;
+  color: var(--color-text-secondary);
+}
+
+.reveal {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-top: 1px solid var(--color-border);
+  padding-top: 16px;
+  text-align: center;
+}
+
+.answer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.answerWord {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.subdefs,
+.examples {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 14px;
+  color: var(--color-text-secondary);
+}
+
+.inflections {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+}
+
+.examples {
+  font-style: italic;
+}
+
+.note {
+  font-size: 14px;
+  color: var(--color-text);
+  background: var(--color-bg-secondary);
+  border-radius: var(--radius-sm);
+  padding: 8px 10px;
+}
+
+.revealHint {
+  align-self: center;
+  color: var(--color-primary);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 16px;
+}

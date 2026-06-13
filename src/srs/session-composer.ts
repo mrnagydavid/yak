@@ -1,6 +1,7 @@
 import { db } from '../db/schema'
 import { getActiveProfile } from '../db/queries'
 import type { Cefr, Entry, Profile, ReviewState, Skill, Translation } from '../db/types'
+import { applyRating, createReviewState, type RatingLabel } from './fsrs-adapter'
 
 // Composes a daily study session from the active profile's study set. (SPEC §6.1–6.3)
 //
@@ -266,4 +267,19 @@ export async function composeSession(
     reviewStates,
     pushFurther,
   })
+}
+
+/**
+ * Apply a self-evaluation rating to a session card and persist the result. Creates the
+ * initial FSRS state for new/calibration cards (those without one yet), or updates the
+ * existing state for practice cards.
+ */
+export async function recordReview(
+  card: SessionCard,
+  label: RatingLabel,
+  now: number = Date.now(),
+): Promise<void> {
+  const base = card.reviewState ?? createReviewState(card.translationId, card.skill, now)
+  const next = applyRating(base, label, now)
+  await db.reviewStates.put(next)
 }

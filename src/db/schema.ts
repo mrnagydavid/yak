@@ -27,7 +27,10 @@ export class YakDB extends Dexie {
     super('yak')
     this.version(1).stores({
       entries: 'id, lang, lemma, [lang+lemma], pos, source, cefr, userFlagged',
-      entryOverlays: 'id, entryId, &entryId',
+      // SPEC §4.7 lists `id, entryId, &entryId`, but that defines the `entryId` index
+      // twice (plain + unique), which makes IndexedDB throw ConstraintError on open. One
+      // overlay per entry (§4.2), so the unique index alone is correct and queryable.
+      entryOverlays: 'id, &entryId',
       translations: 'id, targetEntryId, nativeEntryId',
       reviewStates: 'id, translationId, skill, [translationId+skill], due, state',
       profiles: 'id, active, [learnerLang+targetLang]',

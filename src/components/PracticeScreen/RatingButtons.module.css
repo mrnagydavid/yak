@@ -1,0 +1,40 @@
+.buttons {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+
+.btn {
+  flex: 1;
+  min-height: 64px;
+  border-radius: var(--radius-md);
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4px;
+  transition: filter 0.1s;
+}
+
+.btn:active {
+  filter: brightness(0.92);
+}
+
+.again {
+  background: var(--color-red);
+}
+
+.hard {
+  background: var(--color-yellow);
+}
+
+.good {
+  background: var(--color-green);
+}
+
+.easy {
+  background: var(--color-blue);
+}

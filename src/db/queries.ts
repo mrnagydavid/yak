@@ -1,4 +1,5 @@
 import { db } from './schema'
+import type { SessionCard } from '../srs/session-composer'
 import type { Entry, EntryOverlay, ReviewState, Skill } from './types'
 
 /** The four study states surfaced as coloured icons in Vocabulary / Word Detail. (SPEC §7.3) */
@@ -28,6 +29,24 @@ export function getOverlay(entryId: string): Promise<EntryOverlay | undefined> {
 
 export function getReviewState(translationId: string, skill: Skill) {
   return db.reviewStates.where('[translationId+skill]').equals([translationId, skill]).first()
+}
+
+/** Everything the Practice card needs to render: the session card plus resolved entities. */
+export interface PracticeCardView {
+  card: SessionCard
+  target: Entry
+  native?: Entry
+  overlay?: EntryOverlay
+}
+
+/** Resolve a session card's display data. Returns null if the target entry is missing. */
+export async function getPracticeCardView(card: SessionCard): Promise<PracticeCardView | null> {
+  const target = await db.entries.get(card.targetEntryId)
+  if (!target) return null
+  const translation = await db.translations.get(card.translationId)
+  const native = translation ? await db.entries.get(translation.nativeEntryId) : undefined
+  const overlay = await getOverlay(target.id)
+  return { card, target, native, overlay }
 }
 
 /** A single row in the Vocabulary list: an entry plus its primary translation and per-skill status. */
