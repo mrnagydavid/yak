@@ -1,7 +1,8 @@
 import { db } from '../db/schema'
 import { getActiveProfile } from '../db/queries'
-import type { Cefr, Entry, Profile, ReviewState, Skill, Translation } from '../db/types'
+import type { Entry, Profile, ReviewState, Skill, Translation } from '../db/types'
 import { applyRating, createReviewState, type RatingLabel } from './fsrs-adapter'
+import { cefrRank, levelRank } from './levels'
 
 // Composes a daily study session from the active profile's study set. (SPEC §6.1–6.3)
 //
@@ -46,22 +47,6 @@ export interface SessionCard {
 
 const SKILLS: Skill[] = ['recognize', 'produce']
 
-const LEVEL_RANK: Record<Profile['claimedLevel'], number> = {
-  'below-A1': 0,
-  A1: 1,
-  A2: 2,
-  B1: 3,
-  B2: 4,
-  C1: 5,
-  C2: 6,
-}
-
-function cefrRank(cefr?: Cefr): number {
-  // No CEFR (user entries) → Infinity, so the "cefr <= level+1" progression rule never
-  // pulls them in; their eligibility comes from source === 'user' / userFlagged instead.
-  return cefr ? LEVEL_RANK[cefr] : Number.POSITIVE_INFINITY
-}
-
 // Production unlocks once recognition has graduated out of learning and stuck for ~a week.
 const PRODUCTION_UNLOCK_STABILITY_DAYS = 7
 
@@ -88,9 +73,9 @@ function hash01(s: string): number {
 type Band = 'new' | 'calibration' | 'ineligible'
 
 /** Classify an entry's no-SRS band relative to the claimed level. (SPEC §6.1–6.3) */
-function bandOf(entry: Entry, levelRank: number): Band {
-  if (entry.source === 'seed' && cefrRank(entry.cefr) <= levelRank) return 'calibration'
-  const progression = entry.source === 'seed' && cefrRank(entry.cefr) <= levelRank + 1
+function bandOf(entry: Entry, lr: number): Band {
+  if (entry.source === 'seed' && cefrRank(entry.cefr) <= lr) return 'calibration'
+  const progression = entry.source === 'seed' && cefrRank(entry.cefr) <= lr + 1
   if (entry.source === 'user' || entry.userFlagged === true || progression) return 'new'
   return 'ineligible'
 }
@@ -121,7 +106,7 @@ interface Candidate {
 /** Pure session composition over already-loaded data. */
 export function composeSessionPure(input: ComposerInput): SessionCard[] {
   const { now, dayStart, level, limits } = input
-  const levelRank = LEVEL_RANK[level]
+  const lr = levelRank(level)
 
   const entryById = new Map(input.entries.map((e) => [e.id, e]))
   const entryByTranslation = new Map<string, Entry>()
@@ -142,7 +127,7 @@ export function composeSessionPure(input: ComposerInput): SessionCard[] {
     for (const rs of input.reviewStates) {
       if (rs.createdAt < dayStart) continue
       const e = entryByTranslation.get(rs.translationId)
-      if (e && bandOf(e, levelRank) === 'new') newDoneToday += 1
+      if (e && bandOf(e, lr) === 'new') newDoneToday += 1
     }
   }
   const newBudget = Math.max(0, limits.newPerDay - newDoneToday)
@@ -156,7 +141,7 @@ export function composeSessionPure(input: ComposerInput): SessionCard[] {
 
     const userAdded = entry.source === 'user'
     const flagged = entry.userFlagged === true
-    const progression = entry.source === 'seed' && cefrRank(entry.cefr) <= levelRank + 1
+    const progression = entry.source === 'seed' && cefrRank(entry.cefr) <= lr + 1
 
     for (const skill of SKILLS) {
       const rs = rsByKey.get(`${translation.id}:${skill}`)
@@ -180,7 +165,7 @@ export function composeSessionPure(input: ComposerInput): SessionCard[] {
       if (rs) {
         // Genuine practice card — only when due.
         if (rs.due <= now) practice.push({ card: { ...card, mode: 'practice' }, entry, userAdded, flagged })
-      } else if (entry.source === 'seed' && cefrRank(entry.cefr) <= levelRank) {
+      } else if (entry.source === 'seed' && cefrRank(entry.cefr) <= lr) {
         // Calibration candidate — no SRS state yet, but practiced review-style (SPEC §6.3).
         practice.push({
           card: { ...card, mode: 'practice' },

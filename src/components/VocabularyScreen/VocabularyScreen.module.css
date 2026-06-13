@@ -9,6 +9,21 @@
   font-weight: 700;
 }
 
+.search {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: 15px;
+  background: var(--color-surface);
+}
+
+.filters {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
 .placeholder {
   color: var(--color-text-secondary);
 }
@@ -26,6 +41,11 @@
   padding: 10px 4px;
   border-bottom: 1px solid var(--color-border);
   font-size: 15px;
+}
+
+/* Words above the user's level+1 — out of scope, shown faded. (SPEC §6.1) */
+.dimmed {
+  opacity: 0.4;
 }
 
 .level {

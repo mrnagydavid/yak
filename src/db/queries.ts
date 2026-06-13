@@ -1,6 +1,7 @@
 import { db } from './schema'
+import { cefrRank, levelRank } from '../srs/levels'
 import type { SessionCard } from '../srs/session-composer'
-import type { Entry, EntryOverlay, ReviewState, Skill } from './types'
+import type { Entry, EntryOverlay, Profile, ReviewState, Skill, Translation } from './types'
 
 /** The four study states surfaced as coloured icons in Vocabulary / Word Detail. (SPEC §7.3) */
 export type Status = 'none' | 'struggling' | 'learning' | 'solid'
@@ -49,22 +50,40 @@ export async function getPracticeCardView(card: SessionCard): Promise<PracticeCa
   return { card, target, native, overlay }
 }
 
-/** A single row in the Vocabulary list: an entry plus its primary translation and per-skill status. */
+/** A single row in the Vocabulary list. (SPEC §7.3) */
 export interface VocabRow {
   entry: Entry
-  native?: string
+  native?: string // primary translation lemma
+  note?: string // overlay note text — searchable
+  inStudySet: boolean // ★ marker
   recognize: Status
   produce: Status
+  lastPracticed?: number // most recent lastReview across the entry's skills — for sorting
+  lapses: number // highest lapse count across the entry's skills — for "hardest" sort
+}
+
+/** Study-set membership per SPEC §6.1. */
+function isInStudySet(entry: Entry, level: Profile['claimedLevel'], hasSrs: boolean): boolean {
+  return (
+    entry.source === 'user' ||
+    entry.userFlagged === true ||
+    hasSrs ||
+    (entry.source === 'seed' && cefrRank(entry.cefr) <= levelRank(level) + 1)
+  )
 }
 
 /**
  * Build the Vocabulary list for a target language: each target entry with its primary
- * native translation and per-skill status. Bulk-loads to avoid N+1 queries.
+ * native translation, per-skill status, study-set membership, and sort keys. Bulk-loads
+ * to avoid N+1 queries; search/filter/sort happen in the screen.
  *
- * Minimal Step 1 version: uses each entry's first translation. The full filtered /
- * virtualised browser (SPEC §7.3) comes in a later turn.
+ * Loads the whole language into memory — fine for now; the seed-scale (8k) path will need
+ * indexed queries + virtualisation (SPEC §7.3), deferred.
  */
-export async function listVocabulary(targetLang: string): Promise<VocabRow[]> {
+export async function listVocabulary(
+  targetLang: string,
+  level: Profile['claimedLevel'],
+): Promise<VocabRow[]> {
   const entries = await db.entries.where('lang').equals(targetLang).sortBy('lemma')
   if (entries.length === 0) return []
 
@@ -77,28 +96,40 @@ export async function listVocabulary(targetLang: string): Promise<VocabRow[]> {
 
   const translationIds = translations.map((t) => t.id)
   const reviewStates = await db.reviewStates.where('translationId').anyOf(translationIds).toArray()
+  const overlays = await db.entryOverlays.toArray()
+  const noteByEntry = new Map(overlays.map((o) => [o.entryId, o.noteText]))
 
-  // First translation per target entry, and its review states keyed by skill.
-  const firstTranslationByEntry = new Map<string, string>() // entryId -> translationId
+  // Translations grouped per target entry; review states keyed by translation+skill.
+  const translationsByEntry = new Map<string, Translation[]>()
   for (const t of translations) {
-    if (!firstTranslationByEntry.has(t.targetEntryId)) {
-      firstTranslationByEntry.set(t.targetEntryId, t.id)
-    }
+    const list = translationsByEntry.get(t.targetEntryId)
+    if (list) list.push(t)
+    else translationsByEntry.set(t.targetEntryId, [t])
   }
-  const rsByTranslationSkill = new Map<string, ReviewState>() // `${translationId}:${skill}` -> rs
+  const rsByKey = new Map<string, ReviewState>()
+  const rsByTranslation = new Map<string, ReviewState[]>()
   for (const rs of reviewStates) {
-    rsByTranslationSkill.set(`${rs.translationId}:${rs.skill}`, rs)
+    rsByKey.set(`${rs.translationId}:${rs.skill}`, rs)
+    const list = rsByTranslation.get(rs.translationId)
+    if (list) list.push(rs)
+    else rsByTranslation.set(rs.translationId, [rs])
   }
 
   return entries.map((entry) => {
-    const translationId = firstTranslationByEntry.get(entry.id)
-    const translation = translations.find((t) => t.id === translationId)
-    const native = translation ? nativeById.get(translation.nativeEntryId)?.lemma : undefined
+    const entryTranslations = translationsByEntry.get(entry.id) ?? []
+    const first = entryTranslations[0]
+    const native = first ? nativeById.get(first.nativeEntryId)?.lemma : undefined
+    const entryStates = entryTranslations.flatMap((t) => rsByTranslation.get(t.id) ?? [])
+    const lastReview = entryStates.reduce((max, rs) => Math.max(max, rs.lastReview ?? 0), 0)
     return {
       entry,
       native,
-      recognize: deriveStatus(translationId ? rsByTranslationSkill.get(`${translationId}:recognize`) : undefined),
-      produce: deriveStatus(translationId ? rsByTranslationSkill.get(`${translationId}:produce`) : undefined),
+      note: noteByEntry.get(entry.id),
+      inStudySet: isInStudySet(entry, level, entryStates.length > 0),
+      recognize: deriveStatus(first ? rsByKey.get(`${first.id}:recognize`) : undefined),
+      produce: deriveStatus(first ? rsByKey.get(`${first.id}:produce`) : undefined),
+      lastPracticed: lastReview || undefined,
+      lapses: entryStates.reduce((max, rs) => Math.max(max, rs.lapses), 0),
     }
   })
 }

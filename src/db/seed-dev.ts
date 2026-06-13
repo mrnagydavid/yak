@@ -31,6 +31,7 @@ const PAIRS: SamplePair[] = [
   { sv: 'springa', pos: 'verb', cefr: 'A2', en: 'run', enPos: 'verb', inflections: { presens: 'springer', preteritum: 'sprang', supinum: 'sprungit', imperativ: 'spring' }, ipa: 'ˈsprɪŋa' },
   { sv: 'äta', pos: 'verb', cefr: 'A1', en: 'eat', enPos: 'verb', inflections: { presens: 'äter', preteritum: 'åt', supinum: 'ätit', imperativ: 'ät' }, ipa: 'ˈɛːta' },
   { sv: 'snabb', pos: 'adj', cefr: 'A2', en: 'fast', enPos: 'adj', ipa: 'ˈsnabː' },
+  { sv: 'sällsynt', pos: 'adj', cefr: 'C1', en: 'rare', enPos: 'adj', ipa: 'ˈsɛlːsʏnt' }, // above A2 — out of scope, shown dimmed
   { sv: 'tack', pos: 'interj', cefr: 'A1', en: 'thanks', enPos: 'interj', ipa: 'ˈtakː' },
   { sv: 'mena', pos: 'verb', cefr: 'B1', en: 'mean', enPos: 'verb', inflections: { presens: 'menar', preteritum: 'menade', supinum: 'menat' }, subDefinitions: ['to mean, intend', 'to be of the opinion'], ipa: 'ˈmeːna' },
 ]

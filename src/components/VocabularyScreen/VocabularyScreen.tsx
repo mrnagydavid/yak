@@ -1,14 +1,11 @@
 import { useLiveQuery } from 'dexie-react-hooks'
-import { getActiveProfile, listVocabulary, type Status } from '../../db/queries'
+import { useMemo, useState } from 'preact/hooks'
+import { getActiveProfile, listVocabulary, type Status, type VocabRow } from '../../db/queries'
+import { getRenderer } from '../../lang'
+import { FilterChip } from './FilterChip'
 import styles from './VocabularyScreen.module.css'
 
-const STATUS_GLYPH: Record<Status, string> = {
-  none: '⚪',
-  struggling: '🔴',
-  learning: '🟡',
-  solid: '🟢',
-}
-
+const STATUS_GLYPH: Record<Status, string> = { none: '⚪', struggling: '🔴', learning: '🟡', solid: '🟢' }
 const STATUS_LABEL: Record<Status, string> = {
   none: 'not started',
   struggling: 'struggling',
@@ -16,25 +13,141 @@ const STATUS_LABEL: Record<Status, string> = {
   solid: 'solid',
 }
 
+type SourceFilter = 'all' | 'study' | 'added'
+type LevelFilter = 'all' | 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2' | 'none'
+type SortOption = 'alphabetical' | 'practiced' | 'added' | 'hardest'
+
+const SOURCE_OPTIONS = [
+  { value: 'all', label: 'All' },
+  { value: 'study', label: 'In my study' },
+  { value: 'added', label: 'Added by me' },
+] as const
+const LEVEL_OPTIONS = [
+  { value: 'all', label: 'All' },
+  { value: 'A1', label: 'A1' },
+  { value: 'A2', label: 'A2' },
+  { value: 'B1', label: 'B1' },
+  { value: 'B2', label: 'B2' },
+  { value: 'C1', label: 'C1' },
+  { value: 'C2', label: 'C2' },
+  { value: 'none', label: 'No level' },
+] as const
+const SORT_OPTIONS = [
+  { value: 'alphabetical', label: 'Alphabetical' },
+  { value: 'practiced', label: 'Recently practiced' },
+  { value: 'added', label: 'Recently added' },
+  { value: 'hardest', label: 'Hardest first' },
+] as const
+
+function matchesSearch(row: VocabRow, q: string): boolean {
+  return (
+    row.entry.lemma.toLowerCase().includes(q) ||
+    (row.native?.toLowerCase().includes(q) ?? false) ||
+    (row.note?.toLowerCase().includes(q) ?? false)
+  )
+}
+
+function applyFilters(
+  rows: VocabRow[],
+  search: string,
+  source: SourceFilter,
+  level: LevelFilter,
+  sort: SortOption,
+): VocabRow[] {
+  const q = search.trim().toLowerCase()
+  const filtered = rows.filter((row) => {
+    if (q && !matchesSearch(row, q)) return false
+    if (source === 'study' && !row.inStudySet) return false
+    if (source === 'added' && row.entry.source !== 'user') return false
+    if (level === 'none' && row.entry.cefr) return false
+    if (level !== 'all' && level !== 'none' && row.entry.cefr !== level) return false
+    return true
+  })
+
+  const sorted = [...filtered]
+  if (sort === 'alphabetical') sorted.sort((a, b) => a.entry.lemma.localeCompare(b.entry.lemma))
+  else if (sort === 'practiced') sorted.sort((a, b) => (b.lastPracticed ?? 0) - (a.lastPracticed ?? 0))
+  else if (sort === 'added') sorted.sort((a, b) => b.entry.createdAt - a.entry.createdAt)
+  else if (sort === 'hardest') sorted.sort((a, b) => b.lapses - a.lapses)
+  return sorted
+}
+
 export function VocabularyScreen() {
   const profile = useLiveQuery(() => getActiveProfile(), [])
   const rows = useLiveQuery(
-    () => (profile ? listVocabulary(profile.targetLang) : Promise.resolve([])),
-    [profile?.targetLang],
+    () => (profile ? listVocabulary(profile.targetLang, profile.claimedLevel) : Promise.resolve([])),
+    [profile?.targetLang, profile?.claimedLevel],
+  )
+
+  const [search, setSearch] = useState('')
+  const [source, setSource] = useState<SourceFilter>('all')
+  const [level, setLevel] = useState<LevelFilter>('all')
+  const [sort, setSort] = useState<SortOption>('alphabetical')
+  const [openFilter, setOpenFilter] = useState<string | null>(null)
+
+  const renderer = profile ? getRenderer(profile.targetLang) : undefined
+  const visible = useMemo(
+    () => (rows ? applyFilters(rows, search, source, level, sort) : []),
+    [rows, search, source, level, sort],
   )
 
   return (
     <div class={styles.screen}>
       <h1 class={styles.title}>Vocabulary</h1>
+
+      <input
+        class={styles.search}
+        type="search"
+        placeholder="Search words, translations, notes"
+        value={search}
+        onInput={(e) => setSearch((e.target as HTMLInputElement).value)}
+      />
+
+      <div class={styles.filters}>
+        <FilterChip
+          label="Source"
+          value={source}
+          options={SOURCE_OPTIONS}
+          open={openFilter === 'source'}
+          onToggle={() => setOpenFilter((f) => (f === 'source' ? null : 'source'))}
+          onChange={(v) => {
+            setSource(v)
+            setOpenFilter(null)
+          }}
+        />
+        <FilterChip
+          label="Level"
+          value={level}
+          options={LEVEL_OPTIONS}
+          open={openFilter === 'level'}
+          onToggle={() => setOpenFilter((f) => (f === 'level' ? null : 'level'))}
+          onChange={(v) => {
+            setLevel(v)
+            setOpenFilter(null)
+          }}
+        />
+        <FilterChip
+          label="Sort"
+          value={sort}
+          options={SORT_OPTIONS}
+          open={openFilter === 'sort'}
+          onToggle={() => setOpenFilter((f) => (f === 'sort' ? null : 'sort'))}
+          onChange={(v) => {
+            setSort(v)
+            setOpenFilter(null)
+          }}
+        />
+      </div>
+
       {rows === undefined ? (
         <p class={styles.placeholder}>Loading…</p>
-      ) : rows.length === 0 ? (
+      ) : visible.length === 0 ? (
         <p class={styles.placeholder}>No entries match your filter.</p>
       ) : (
         <ul class={styles.list}>
-          {rows.map(({ entry, native, recognize, produce }) => (
-            <li key={entry.id} class={styles.row}>
-              <span class={styles.level}>{entry.cefr ?? '⚝'}</span>
+          {visible.map(({ entry, native, inStudySet, recognize, produce }) => (
+            <li key={entry.id} class={`${styles.row} ${inStudySet ? '' : styles.dimmed}`}>
+              <span class={styles.level}>{entry.source === 'user' ? '⚝' : (entry.cefr ?? '–')}</span>
               <span
                 class={styles.status}
                 title={`recognise: ${STATUS_LABEL[recognize]} / produce: ${STATUS_LABEL[produce]}`}
@@ -43,7 +156,7 @@ export function VocabularyScreen() {
                 {STATUS_GLYPH[produce]}
               </span>
               <span class={styles.lemma}>
-                {entry.lemma}
+                {renderer ? renderer.renderLemma(entry) : entry.lemma}
                 {entry.disambiguator ? <span class={styles.disambiguator}> ({entry.disambiguator})</span> : null}
               </span>
               {native ? <span class={styles.native}>→ {native}</span> : null}
