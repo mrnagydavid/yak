@@ -3,6 +3,7 @@
   flex-direction: column;
   gap: 16px;
   min-height: 100%;
+  padding-bottom: 16px; /* a little breathing room above the nav */
 }
 
 .message {

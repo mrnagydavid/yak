@@ -1,4 +1,5 @@
 import Router, { Route } from 'preact-router'
+import { AddFab } from './components/AddSheet/AddFab'
 import { BottomNav } from './components/BottomNav/BottomNav'
 import { PracticeScreen } from './components/PracticeScreen/PracticeScreen'
 import { VocabularyScreen } from './components/VocabularyScreen/VocabularyScreen'
@@ -17,6 +18,7 @@ export function App() {
           <Route path="/profile" component={ProfileScreen} />
         </Router>
       </main>
+      <AddFab />
       <BottomNav />
     </>
   )

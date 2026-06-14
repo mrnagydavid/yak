@@ -1,7 +1,17 @@
 import { db } from './schema'
+import { ulid } from './ids'
 import { cefrRank, levelRank } from '../srs/levels'
 import type { SessionCard } from '../srs/session-composer'
-import type { Entry, EntryOverlay, Profile, ReviewState, Skill, StudyPref, Translation } from './types'
+import type {
+  Entry,
+  EntryOverlay,
+  PartOfSpeech,
+  Profile,
+  ReviewState,
+  Skill,
+  StudyPref,
+  Translation,
+} from './types'
 
 /** The four study states surfaced as coloured icons in Vocabulary / Word Detail. (SPEC §7.3) */
 export type Status = 'none' | 'struggling' | 'learning' | 'solid'
@@ -110,6 +120,85 @@ export async function getWordDetail(entryId: string): Promise<WordDetailData | n
 /** Set a word's practice preference (skip / auto / always). (SPEC §7.5) */
 export function setStudy(entryId: string, study: StudyPref): Promise<number> {
   return db.entries.update(entryId, { study, updatedAt: Date.now() })
+}
+
+/** A match in the Add flow: an entry, its primary translation, and study-set membership. */
+export interface SearchMatch {
+  entry: Entry
+  native?: string
+  inStudySet: boolean
+}
+
+/** Seed/user matches for the Add flow. (SPEC §7.4) */
+export async function searchEntries(
+  lang: string,
+  level: Profile['claimedLevel'],
+  query: string,
+  limit = 8,
+): Promise<SearchMatch[]> {
+  // Strip a leading particle ("att" / "to") so "att springa" matches "springa".
+  const q = query.trim().toLowerCase().replace(/^(att|to)\s+/, '')
+  if (!q) return []
+  // In-memory filter is fine at dev scale; the 8k-seed path will want an indexed prefix query.
+  const entries = (await db.entries.where('lang').equals(lang).toArray())
+    .filter((e) => e.lemma.toLowerCase().includes(q))
+    .slice(0, limit)
+  if (entries.length === 0) return []
+
+  const translations = await db.translations.where('targetEntryId').anyOf(entries.map((e) => e.id)).toArray()
+  const firstNativeId = new Map<string, string>()
+  const translationIdsByEntry = new Map<string, string[]>()
+  for (const t of translations) {
+    if (!firstNativeId.has(t.targetEntryId)) firstNativeId.set(t.targetEntryId, t.nativeEntryId)
+    const list = translationIdsByEntry.get(t.targetEntryId)
+    if (list) list.push(t.id)
+    else translationIdsByEntry.set(t.targetEntryId, [t.id])
+  }
+  const natives = await db.entries.bulkGet([...new Set(firstNativeId.values())])
+  const lemmaById = new Map(natives.filter((n): n is Entry => Boolean(n)).map((n) => [n.id, n.lemma]))
+  const states = await db.reviewStates.where('translationId').anyOf(translations.map((t) => t.id)).toArray()
+  const withState = new Set(states.map((s) => s.translationId))
+
+  return entries.map((entry) => {
+    const hasSrs = (translationIdsByEntry.get(entry.id) ?? []).some((tid) => withState.has(tid))
+    return {
+      entry,
+      native: firstNativeId.has(entry.id) ? lemmaById.get(firstNativeId.get(entry.id)!) : undefined,
+      inStudySet: isInStudySet(entry, level, hasSrs),
+    }
+  })
+}
+
+/** Create a user-authored entry (+ translation, + note overlay). Returns the entry id. (SPEC §7.4) */
+export async function createUserEntry(input: {
+  targetLang: string
+  learnerLang: string
+  lemma: string
+  pos: PartOfSpeech
+  translation: string
+  note?: string
+}): Promise<string> {
+  const now = Date.now()
+  const base = { features: {}, inflections: {}, pronunciation: {}, source: 'user' as const, createdAt: now, updatedAt: now }
+  const target: Entry = { ...base, id: ulid(now), lang: input.targetLang, lemma: input.lemma.trim(), pos: input.pos, study: 'always' }
+  const native: Entry = { ...base, id: ulid(now + 1), lang: input.learnerLang, lemma: input.translation.trim(), pos: input.pos, study: 'auto' }
+  const translation: Translation = { id: ulid(now), targetEntryId: target.id, nativeEntryId: native.id, source: 'user', createdAt: now }
+
+  await db.transaction('rw', db.entries, db.translations, db.entryOverlays, async () => {
+    await db.entries.bulkAdd([target, native])
+    await db.translations.add(translation)
+    if (input.note?.trim()) {
+      await db.entryOverlays.add({
+        id: ulid(now),
+        entryId: target.id,
+        noteText: input.note.trim(),
+        translationLang: input.learnerLang,
+        createdAt: now,
+        updatedAt: now,
+      })
+    }
+  })
+  return target.id
 }
 
 /** A single row in the Vocabulary list. (SPEC §7.3) */

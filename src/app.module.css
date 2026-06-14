@@ -3,7 +3,9 @@
   overflow-y: auto;
   scrollbar-width: none;
   padding: 16px;
-  padding-bottom: 80px;
+  /* No bottom padding: Practice anchors its rating buttons flush above the nav.
+     Scrolling screens add their own bottom space (and FAB clearance) as needed. */
+  padding-bottom: 0;
 }
 
 .page::-webkit-scrollbar {

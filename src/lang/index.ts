@@ -24,4 +24,17 @@ export function getRenderer(lang: string): LanguageRenderer {
   return RENDERERS[lang] ?? defaultRenderer
 }
 
+const LANGUAGE_NAMES: Record<string, string> = {
+  sv: 'Swedish',
+  en: 'English',
+  de: 'German',
+  es: 'Spanish',
+  fr: 'French',
+}
+
+/** Human-readable language name for a BCP-47 code (falls back to the code). */
+export function languageName(lang: string): string {
+  return LANGUAGE_NAMES[lang] ?? lang
+}
+
 export type { FeatureBadge, InflectionDisplay, InflectionRow, LanguageRenderer } from './types'
