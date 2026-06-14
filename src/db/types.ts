@@ -110,6 +110,36 @@ export interface Profile {
   updatedAt: number
 }
 
+/** Parsed ipa-dict dictionary for a language, cached for offline use. (SPEC §10.1) */
+export interface IpaDictRecord {
+  lang: string
+  dict: Record<string, string> // lowercased word → IPA (no slashes)
+  fetchedAt: number
+}
+
+/** One Wiktionary POS-section (a distinct lexeme) the user can pick. (SPEC §7.4, §10.2) */
+export interface EnrichmentCandidate {
+  pos: PartOfSpeech
+  gender?: string // "en" | "ett"
+  inflections?: Record<string, string>
+  gloss?: string // first definition, for disambiguation
+}
+
+/** Cached Wiktionary lookup for one (lang, lemma). (SPEC §10.2) */
+export interface WiktionaryCacheRecord {
+  key: string // `${lang}:${lemma}`
+  lang: string
+  lemma: string
+  candidates: EnrichmentCandidate[]
+  fetchedAt: number
+}
+
+/** Combined runtime enrichment for a word (ipa-dict + Wiktionary). (SPEC §10) */
+export interface EnrichmentResult {
+  ipa?: string
+  candidates: EnrichmentCandidate[] // 0 = nothing found, 1 = auto-fill, many = let user pick
+}
+
 /** Lightweight session history. (SPEC §4.6) */
 export interface SessionLog {
   id: string

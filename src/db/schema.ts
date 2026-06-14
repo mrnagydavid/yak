@@ -2,10 +2,12 @@ import Dexie, { type EntityTable } from 'dexie'
 import type {
   Entry,
   EntryOverlay,
+  IpaDictRecord,
   Profile,
   ReviewState,
   SessionLog,
   Translation,
+  WiktionaryCacheRecord,
 } from './types'
 
 // Dexie schema. Indices roughly per SPEC §4.7. The `study` tri-state is not indexed —
@@ -17,6 +19,8 @@ export class YakDB extends Dexie {
   reviewStates!: EntityTable<ReviewState, 'id'>
   profiles!: EntityTable<Profile, 'id'>
   sessionLogs!: EntityTable<SessionLog, 'id'>
+  ipaDicts!: EntityTable<IpaDictRecord, 'lang'>
+  wiktionaryCache!: EntityTable<WiktionaryCacheRecord, 'key'>
 
   constructor() {
     super('yak')
@@ -51,6 +55,17 @@ export class YakDB extends Dexie {
             delete e.hidden
           }),
       )
+    // v3: runtime-enrichment caches (ipa-dict per language, Wiktionary per word). (SPEC §10)
+    this.version(3).stores({
+      entries: 'id, lang, lemma, [lang+lemma], pos, source, cefr',
+      entryOverlays: 'id, &entryId',
+      translations: 'id, targetEntryId, nativeEntryId',
+      reviewStates: 'id, translationId, skill, [translationId+skill], due, state',
+      profiles: 'id, active, [learnerLang+targetLang]',
+      sessionLogs: 'id, profileId, startedAt',
+      ipaDicts: 'lang',
+      wiktionaryCache: 'key, lang',
+    })
   }
 }
 

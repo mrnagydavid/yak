@@ -1,0 +1,13 @@
+{
+  "ipaDict": {
+    "repo": "open-dict-data/ipa-dict",
+    "commitHash": "43c3570eb3553bdd19fccd2bd0091534889af023",
+    "url": "https://github.com/open-dict-data/ipa-dict",
+    "usedBy": "runtime IPA enrichment (src/enrichment/ipa-dict-client.ts)"
+  },
+  "wiktionary": {
+    "source": "en.wiktionary.org REST API (page/html)",
+    "license": "CC-BY-SA",
+    "note": "Runtime POS/gender/inflection enrichment. Fetched live; no pinned dump for runtime."
+  }
+}

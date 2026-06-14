@@ -272,10 +272,23 @@ export async function createUserEntry(input: {
   pos: PartOfSpeech
   translation: string
   note?: string
+  ipa?: string // from enrichment
+  gender?: string // from enrichment ("en" | "ett")
+  inflections?: Record<string, string> // from enrichment
 }): Promise<string> {
   const now = Date.now()
   const base = { features: {}, inflections: {}, pronunciation: {}, source: 'user' as const, createdAt: now, updatedAt: now }
-  const target: Entry = { ...base, id: ulid(now), lang: input.targetLang, lemma: input.lemma.trim(), pos: input.pos, study: 'always' }
+  const target: Entry = {
+    ...base,
+    id: ulid(now),
+    lang: input.targetLang,
+    lemma: input.lemma.trim(),
+    pos: input.pos,
+    study: 'always',
+    features: input.gender ? { gender: input.gender } : {},
+    inflections: input.inflections ?? {},
+    pronunciation: input.ipa?.trim() ? { ipa: input.ipa.trim(), ipaSource: 'ipa-dict' } : {},
+  }
   const native: Entry = { ...base, id: ulid(now + 1), lang: input.learnerLang, lemma: input.translation.trim(), pos: input.pos, study: 'auto' }
   const translation: Translation = { id: ulid(now), targetEntryId: target.id, nativeEntryId: native.id, source: 'user', createdAt: now }
 

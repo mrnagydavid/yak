@@ -1,7 +1,8 @@
 import { useLiveQuery } from 'dexie-react-hooks'
 import { useEffect, useRef, useState } from 'preact/hooks'
 import { createUserEntry, getActiveProfile, type SearchMatch, searchEntries, setStudy } from '../../db/queries'
-import type { PartOfSpeech } from '../../db/types'
+import type { EnrichmentCandidate, PartOfSpeech } from '../../db/types'
+import { enrich } from '../../enrichment'
 import { getRenderer, languageName } from '../../lang'
 import { EntryEditor } from '../EntryEditor/EntryEditor'
 import { POS_OPTIONS } from '../posOptions'
@@ -20,6 +21,12 @@ export function AddSheet({ onClose }: { onClose: () => void }) {
   const [pos, setPos] = useState<PartOfSpeech>('noun')
   const [translation, setTranslation] = useState('')
   const [note, setNote] = useState('')
+  const [ipa, setIpa] = useState('')
+  const [gender, setGender] = useState<string | undefined>()
+  const [inflections, setInflections] = useState<Record<string, string> | undefined>()
+  // new-entry sub-phases: looking up enrichment → (pick a sense) → fill the form.
+  const [phase, setPhase] = useState<'loading' | 'picking' | 'form'>('form')
+  const [candidates, setCandidates] = useState<EnrichmentCandidate[]>([])
 
   // After adding a seed match, annotate it (note/examples/translation override). (SPEC §7.4)
   const [annotateId, setAnnotateId] = useState<string | null>(null)
@@ -36,9 +43,43 @@ export function AddSheet({ onClose }: { onClose: () => void }) {
   if (!profile) return null
   const renderer = getRenderer(profile.targetLang)
 
+  function applyCandidate(c?: EnrichmentCandidate) {
+    if (!c) return
+    setPos(c.pos)
+    setGender(c.gender)
+    setInflections(c.inflections)
+    // The gloss is the English definition — prefill the translation with it (editable).
+    if (c.gloss) setTranslation(c.gloss)
+  }
+
   function startNew() {
-    setLemma(query)
+    const word = query.trim()
+    setLemma(word)
     setMode('new')
+    setPhase('loading')
+    setIpa('')
+    setTranslation('')
+    setGender(undefined)
+    setInflections(undefined)
+    setCandidates([])
+    // Fire enrichment (ipa-dict + Wiktionary); blocking until it resolves. (SPEC §10)
+    void enrich(profile!.targetLang, word).then((r) => {
+      if (r.ipa) setIpa(r.ipa)
+      if (r.candidates.length > 1) {
+        setCandidates(r.candidates)
+        setPhase('picking')
+      } else {
+        applyCandidate(r.candidates[0])
+        setPhase('form')
+      }
+    })
+  }
+
+  function candidateLabel(c: EnrichmentCandidate): string {
+    const word = lemma.trim()
+    if (c.gender) return `${c.gender} ${word}`
+    if (c.pos === 'verb') return `att ${word}`
+    return word
   }
 
   async function addMatch(id: string) {
@@ -55,11 +96,18 @@ export function AddSheet({ onClose }: { onClose: () => void }) {
       pos,
       translation,
       note,
+      ipa,
+      gender,
+      inflections,
     })
     if (another) {
       setLemma('')
       setTranslation('')
       setNote('')
+      setIpa('')
+      setGender(undefined)
+      setInflections(undefined)
+      setPhase('form')
       setQuery('')
       setMatches([])
       setMode('search')
@@ -136,6 +184,39 @@ export function AddSheet({ onClose }: { onClose: () => void }) {
               <p class={styles.hint}>Type a word or phrase to add it to your study set.</p>
             )}
           </div>
+        ) : phase === 'loading' ? (
+          <div class={styles.body}>
+            <div class={styles.loading}>
+              <span class={styles.spinner} />
+              <span>Looking up “{lemma}” …</span>
+            </div>
+          </div>
+        ) : phase === 'picking' ? (
+          <div class={styles.body}>
+            <p class={styles.fieldLabel}>“{lemma}” has several senses — pick one:</p>
+            <ul class={styles.matches}>
+              {candidates.map((c, i) => (
+                <li key={i}>
+                  <button
+                    class={styles.candidate}
+                    onClick={() => {
+                      applyCandidate(c)
+                      setPhase('form')
+                    }}
+                  >
+                    <span class={styles.matchLemma}>{candidateLabel(c)}</span>
+                    <span class={styles.matchNative}>
+                      {POS_OPTIONS.find((o) => o.value === c.pos)?.label ?? c.pos}
+                      {c.gloss ? ` — ${c.gloss}` : ''}
+                    </span>
+                  </button>
+                </li>
+              ))}
+            </ul>
+            <button class={styles.linkButton} onClick={() => setPhase('form')}>
+              None of these — fill in manually
+            </button>
+          </div>
         ) : (
           <div class={styles.body}>
             <label class={styles.field}>
@@ -153,6 +234,10 @@ export function AddSheet({ onClose }: { onClose: () => void }) {
               </select>
             </label>
             <label class={styles.field}>
+              <span class={styles.fieldLabel}>IPA (optional)</span>
+              <input class={styles.input} type="text" value={ipa} onInput={(e) => setIpa((e.target as HTMLInputElement).value)} />
+            </label>
+            <label class={styles.field}>
               <span class={styles.fieldLabel}>Translation ({languageName(profile.learnerLang)})</span>
               <input class={styles.input} type="text" value={translation} onInput={(e) => setTranslation((e.target as HTMLInputElement).value)} />
             </label>
@@ -160,6 +245,7 @@ export function AddSheet({ onClose }: { onClose: () => void }) {
               <span class={styles.fieldLabel}>Note (optional)</span>
               <textarea class={styles.input} rows={2} value={note} onInput={(e) => setNote((e.target as HTMLTextAreaElement).value)} />
             </label>
+
 
             <div class={styles.actions}>
               <button class={styles.secondary} disabled={!canSave} onClick={() => void save(true)}>
