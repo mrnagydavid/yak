@@ -3,21 +3,9 @@ import { useEffect, useRef, useState } from 'preact/hooks'
 import { createUserEntry, getActiveProfile, type SearchMatch, searchEntries, setStudy } from '../../db/queries'
 import type { PartOfSpeech } from '../../db/types'
 import { getRenderer, languageName } from '../../lang'
+import { EntryEditor } from '../EntryEditor/EntryEditor'
+import { POS_OPTIONS } from '../posOptions'
 import styles from './AddSheet.module.css'
-
-const POS_OPTIONS: { value: PartOfSpeech; label: string }[] = [
-  { value: 'noun', label: 'Noun' },
-  { value: 'verb', label: 'Verb' },
-  { value: 'adj', label: 'Adjective' },
-  { value: 'adv', label: 'Adverb' },
-  { value: 'prep', label: 'Preposition' },
-  { value: 'conj', label: 'Conjunction' },
-  { value: 'pron', label: 'Pronoun' },
-  { value: 'num', label: 'Numeral' },
-  { value: 'interj', label: 'Interjection' },
-  { value: 'phrase', label: 'Phrase' },
-  { value: 'other', label: 'Other' },
-]
 
 export function AddSheet({ onClose }: { onClose: () => void }) {
   const profile = useLiveQuery(() => getActiveProfile(), [])
@@ -32,6 +20,9 @@ export function AddSheet({ onClose }: { onClose: () => void }) {
   const [pos, setPos] = useState<PartOfSpeech>('noun')
   const [translation, setTranslation] = useState('')
   const [note, setNote] = useState('')
+
+  // After adding a seed match, annotate it (note/examples/translation override). (SPEC §7.4)
+  const [annotateId, setAnnotateId] = useState<string | null>(null)
 
   // Debounced seed search while in search mode. (SPEC §7.4)
   useEffect(() => {
@@ -52,7 +43,7 @@ export function AddSheet({ onClose }: { onClose: () => void }) {
 
   async function addMatch(id: string) {
     await setStudy(id, 'always')
-    onClose()
+    setAnnotateId(id) // open the annotation step; closing it closes the whole Add flow
   }
 
   async function save(another: boolean) {
@@ -184,6 +175,15 @@ export function AddSheet({ onClose }: { onClose: () => void }) {
           </div>
         )}
       </div>
+
+      {annotateId ? (
+        <EntryEditor
+          entryId={annotateId}
+          translationLang={profile.learnerLang}
+          title="Add a note"
+          onClose={onClose}
+        />
+      ) : null}
     </>
   )
 }

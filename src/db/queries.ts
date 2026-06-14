@@ -169,6 +169,101 @@ export async function searchEntries(
   })
 }
 
+/** Create or update an entry's overlay (note / examples / translation override). Deletes
+ *  the overlay if everything is cleared. (SPEC §4.2, §7.5) */
+export async function upsertOverlay(
+  entryId: string,
+  fields: { noteText?: string; customExamples?: string[]; customTranslation?: string },
+  translationLang: string,
+): Promise<void> {
+  const now = Date.now()
+  const existing = await getOverlay(entryId)
+  const note = fields.noteText?.trim() || undefined
+  const examples = (fields.customExamples ?? []).map((e) => e.trim()).filter(Boolean)
+  const translation = fields.customTranslation?.trim() || undefined
+
+  if (!note && examples.length === 0 && !translation) {
+    if (existing) await db.entryOverlays.delete(existing.id)
+    return
+  }
+  await db.entryOverlays.put({
+    id: existing?.id ?? ulid(now),
+    entryId,
+    noteText: note,
+    customExamples: examples.length ? examples : undefined,
+    customTranslation: translation,
+    translationLang,
+    createdAt: existing?.createdAt ?? now,
+    updatedAt: now,
+  })
+}
+
+/** Reset a seed entry to its defaults — i.e. drop the user's overlay. (SPEC §7.5) */
+export async function resetOverlay(entryId: string): Promise<void> {
+  const existing = await getOverlay(entryId)
+  if (existing) await db.entryOverlays.delete(existing.id)
+}
+
+/** Data the entry editor needs: the entry, its overlay, and its primary translation. */
+export async function getEntryEditData(
+  entryId: string,
+): Promise<{ entry: Entry; overlay?: EntryOverlay; nativeLemma?: string } | null> {
+  const entry = await db.entries.get(entryId)
+  if (!entry) return null
+  const overlay = await getOverlay(entryId)
+  const translation = await db.translations.where('targetEntryId').equals(entryId).first()
+  const native = translation ? await db.entries.get(translation.nativeEntryId) : undefined
+  return { entry, overlay, nativeLemma: native?.lemma }
+}
+
+/** Edit a user entry's lemma / POS and its primary translation (the real native lemma). */
+export async function updateUserEntry(
+  entryId: string,
+  fields: { lemma: string; pos: PartOfSpeech; translation: string },
+): Promise<void> {
+  const now = Date.now()
+  const translation = await db.translations.where('targetEntryId').equals(entryId).first()
+  await db.entries.update(entryId, { lemma: fields.lemma.trim(), pos: fields.pos, updatedAt: now })
+  if (translation) {
+    await db.entries.update(translation.nativeEntryId, {
+      lemma: fields.translation.trim(),
+      pos: fields.pos,
+      updatedAt: now,
+    })
+  }
+}
+
+/** Reset one skill's SRS progress for an entry (delete those ReviewState rows). (SPEC §7.5) */
+export async function resetSkill(entryId: string, skill: Skill): Promise<void> {
+  const translations = await db.translations.where('targetEntryId').equals(entryId).toArray()
+  const tids = translations.map((t) => t.id)
+  if (tids.length === 0) return
+  const states = await db.reviewStates.where('translationId').anyOf(tids).toArray()
+  const ids = states.filter((s) => s.skill === skill).map((s) => s.id)
+  if (ids.length) await db.reviewStates.bulkDelete(ids)
+}
+
+/** Delete a user entry and everything private to it (translations, states, overlay, native). */
+export async function deleteUserEntry(entryId: string): Promise<void> {
+  const translations = await db.translations.where('targetEntryId').equals(entryId).toArray()
+  const tids = translations.map((t) => t.id)
+  const states = tids.length ? await db.reviewStates.where('translationId').anyOf(tids).toArray() : []
+  const overlay = await getOverlay(entryId)
+  const natives = await db.entries.bulkGet(translations.map((t) => t.nativeEntryId))
+  const userNativeIds = natives
+    .filter((n): n is Entry => n !== undefined)
+    .filter((n) => n.source === 'user')
+    .map((n) => n.id)
+
+  await db.transaction('rw', db.entries, db.translations, db.reviewStates, db.entryOverlays, async () => {
+    if (states.length) await db.reviewStates.bulkDelete(states.map((s) => s.id))
+    if (tids.length) await db.translations.bulkDelete(tids)
+    if (overlay) await db.entryOverlays.delete(overlay.id)
+    if (userNativeIds.length) await db.entries.bulkDelete(userNativeIds)
+    await db.entries.delete(entryId)
+  })
+}
+
 /** Create a user-authored entry (+ translation, + note overlay). Returns the entry id. (SPEC §7.4) */
 export async function createUserEntry(input: {
   targetLang: string

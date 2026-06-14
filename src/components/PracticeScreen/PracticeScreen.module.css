@@ -10,6 +10,37 @@
   color: var(--color-text-secondary);
 }
 
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.topbar > div {
+  flex: 1;
+}
+
+.edit {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  margin-right: -8px;
+  border-radius: 999px;
+  color: var(--color-text-secondary);
+}
+
+.edit svg {
+  width: 20px;
+  height: 20px;
+}
+
+.edit:active {
+  background: var(--color-bg-secondary);
+}
+
 .cardArea {
   flex: 1;
   display: flex;

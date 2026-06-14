@@ -1,9 +1,26 @@
 import { useLiveQuery } from 'dexie-react-hooks'
-import { deriveStatus, getWordDetail, setStudy, type Status } from '../../db/queries'
+import { route } from 'preact-router'
+import { useState } from 'preact/hooks'
+import {
+  deleteUserEntry,
+  deriveStatus,
+  getWordDetail,
+  resetOverlay,
+  resetSkill,
+  setStudy,
+  type Status,
+} from '../../db/queries'
 import type { StudyPref } from '../../db/types'
 import { getRenderer } from '../../lang'
 import type { InflectionDisplay } from '../../lang'
+import { EntryEditor } from '../EntryEditor/EntryEditor'
 import styles from './WordDetail.module.css'
+
+interface Pending {
+  message: string
+  confirmLabel: string
+  run: () => Promise<void>
+}
 
 const STUDY_OPTIONS: { value: StudyPref; label: string }[] = [
   { value: 'skip', label: 'Skip' },
@@ -77,6 +94,8 @@ function InflectionDetail({ display }: { display: InflectionDisplay }) {
 
 export function WordDetail({ id }: { id?: string }) {
   const data = useLiveQuery(() => (id ? getWordDetail(id) : Promise.resolve(null)), [id])
+  const [editing, setEditing] = useState(false)
+  const [pending, setPending] = useState<Pending | null>(null)
 
   if (data === undefined) return <div class={styles.screen}>Loading…</div>
   if (data === null) return <div class={styles.screen}>Word not found.</div>
@@ -87,14 +106,28 @@ export function WordDetail({ id }: { id?: string }) {
   const features = renderer.renderFeatures(entry)
   const ipa = renderer.showIpa ? entry.pronunciation.ipa : undefined
   const examples = overlay?.customExamples ?? []
+  const translationLang = natives[0]?.lang ?? 'en'
+
+  async function runPending() {
+    if (!pending) return
+    await pending.run()
+    setPending(null)
+  }
 
   return (
     <div class={styles.screen}>
-      <a class={styles.back} href="/vocabulary" aria-label="Back to vocabulary">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M19 12H5M12 19l-7-7 7-7" />
-        </svg>
-      </a>
+      <div class={styles.topbar}>
+        <a class={styles.back} href="/vocabulary" aria-label="Back to vocabulary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 12H5M12 19l-7-7 7-7" />
+          </svg>
+        </a>
+        <button class={styles.iconButton} aria-label="Edit note, examples, translation" onClick={() => setEditing(true)}>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 20h9M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z" />
+          </svg>
+        </button>
+      </div>
 
       <header class={styles.header}>
         <h1 class={styles.lemma}>
@@ -127,14 +160,24 @@ export function WordDetail({ id }: { id?: string }) {
 
       <section class={styles.section}>
         <h2 class={styles.sectionTitle}>{natives.length > 1 ? 'Translations' : 'Translation'}</h2>
-        {natives.length ? (
+        {natives.length === 0 ? (
+          <p class={styles.muted}>—</p>
+        ) : overlay?.customTranslation ? (
+          <>
+            <ul class={`${styles.translations} ${styles.struck}`}>
+              {natives.map((n) => (
+                <li key={n.id}>{getRenderer(n.lang).renderLemma(n)}</li>
+              ))}
+            </ul>
+            <p class={styles.overrideNote}>(translation overridden by you)</p>
+            <p class={styles.override}>{overlay.customTranslation}</p>
+          </>
+        ) : (
           <ul class={styles.translations}>
             {natives.map((n) => (
-              <li key={n.id}>{overlay?.customTranslation ?? getRenderer(n.lang).renderLemma(n)}</li>
+              <li key={n.id}>{getRenderer(n.lang).renderLemma(n)}</li>
             ))}
           </ul>
-        ) : (
-          <p class={styles.muted}>—</p>
         )}
         {entry.subDefinitions?.length ? (
           <ul class={styles.subdefs}>
@@ -203,6 +246,71 @@ export function WordDetail({ id }: { id?: string }) {
                 : 'Auto — out of scope for your level, so it’s not practiced yet.'}
         </p>
       </section>
+
+      <section class={styles.section}>
+        <h2 class={styles.sectionTitle}>Manage</h2>
+        <div class={styles.manageRow}>
+          <button
+            class={styles.manage}
+            disabled={!recognize}
+            onClick={() => setPending({ message: 'Reset recognition progress for this word?', confirmLabel: 'Reset', run: () => resetSkill(entry.id, 'recognize') })}
+          >
+            Reset recognition
+          </button>
+          <button
+            class={styles.manage}
+            disabled={!produce}
+            onClick={() => setPending({ message: 'Reset production progress for this word?', confirmLabel: 'Reset', run: () => resetSkill(entry.id, 'produce') })}
+          >
+            Reset production
+          </button>
+        </div>
+        {entry.source === 'user' ? (
+          <button
+            class={styles.danger}
+            onClick={() =>
+              setPending({
+                message: 'Delete this word and its progress? This can’t be undone.',
+                confirmLabel: 'Delete',
+                run: async () => {
+                  await deleteUserEntry(entry.id)
+                  route('/vocabulary')
+                },
+              })
+            }
+          >
+            Delete word
+          </button>
+        ) : overlay ? (
+          <button
+            class={styles.dangerOutline}
+            onClick={() => setPending({ message: 'Discard all your changes (note, examples, translation) for this word?', confirmLabel: 'Reset', run: () => resetOverlay(entry.id) })}
+          >
+            Reset all changes
+          </button>
+        ) : null}
+      </section>
+
+      {editing ? (
+        <EntryEditor entryId={entry.id} translationLang={translationLang} title="Edit word" onClose={() => setEditing(false)} />
+      ) : null}
+
+      {pending ? (
+        <>
+          <div class={styles.backdrop} onClick={() => setPending(null)} />
+          <div class={styles.confirm} role="dialog">
+            <p>{pending.message}</p>
+            <div class={styles.confirmRow}>
+              <button class={styles.manage} onClick={() => setPending(null)}>
+                Cancel
+              </button>
+              <button class={styles.danger} onClick={() => void runPending()}>
+                {pending.confirmLabel}
+              </button>
+            </div>
+          </div>
+        </>
+      ) : null}
     </div>
   )
 }
