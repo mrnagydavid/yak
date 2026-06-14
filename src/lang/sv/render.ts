@@ -1,8 +1,9 @@
-import type { Entry } from '../../db/types'
+import type { Entry, PartOfSpeech } from '../../db/types'
 import type {
   FeatureBadge,
   InflectionDisplay,
   InflectionRow,
+  InflectionSlot,
   InflectionTable,
   LanguageRenderer,
 } from '../types'
@@ -13,6 +14,26 @@ const VERB_ORDER = ['presens', 'preteritum', 'supinum', 'imperativ']
 // Noun declension: definite singular, indefinite plural, definite plural (the indefinite
 // singular is the lemma/headword). e.g. hund → hunden · hundar · hundarna.
 const NOUN_ORDER = ['definiteSingular', 'indefinitePlural', 'definitePlural']
+// Adjective: comparative, superlative. e.g. stor → större · störst.
+const ADJ_ORDER = ['komparativ', 'superlativ']
+
+const SLOTS: Partial<Record<PartOfSpeech, InflectionSlot[]>> = {
+  noun: [
+    { key: 'definiteSingular', label: 'Definite singular' },
+    { key: 'indefinitePlural', label: 'Indefinite plural' },
+    { key: 'definitePlural', label: 'Definite plural' },
+  ],
+  verb: [
+    { key: 'presens', label: 'Present' },
+    { key: 'preteritum', label: 'Past' },
+    { key: 'supinum', label: 'Supine' },
+    { key: 'imperativ', label: 'Imperative' },
+  ],
+  adj: [
+    { key: 'komparativ', label: 'Comparative' },
+    { key: 'superlativ', label: 'Superlative' },
+  ],
+}
 
 function capitalize(s: string): string {
   return s.charAt(0).toUpperCase() + s.slice(1)
@@ -52,9 +73,20 @@ export const svRenderer: LanguageRenderer = {
     return entry.lemma
   },
 
+  inflectionSlots(pos: PartOfSpeech): InflectionSlot[] {
+    return SLOTS[pos] ?? []
+  },
+
   renderInflections(entry: Entry): InflectionDisplay {
     const keys = Object.keys(entry.inflections)
-    const order = entry.pos === 'verb' ? VERB_ORDER : entry.pos === 'noun' ? NOUN_ORDER : []
+    const order =
+      entry.pos === 'verb'
+        ? VERB_ORDER
+        : entry.pos === 'noun'
+          ? NOUN_ORDER
+          : entry.pos === 'adj'
+            ? ADJ_ORDER
+            : []
     const ordered = order.length
       ? [...order.filter((k) => k in entry.inflections), ...keys.filter((k) => !order.includes(k))]
       : keys

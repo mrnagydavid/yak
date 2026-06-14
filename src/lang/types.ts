@@ -1,4 +1,10 @@
-import type { Entry } from '../db/types'
+import type { Entry, PartOfSpeech } from '../db/types'
+
+/** An editable inflection slot for a POS (key matches Entry.inflections, label for the UI). */
+export interface InflectionSlot {
+  key: string
+  label: string
+}
 
 export interface InflectionRow {
   label: string
@@ -37,6 +43,8 @@ export interface LanguageRenderer {
   renderInflections(entry: Entry): InflectionDisplay
   /** Gender or other feature badges. */
   renderFeatures(entry: Entry): FeatureBadge[]
+  /** Editable inflection slots for a part of speech (drives the edit form). */
+  inflectionSlots(pos: PartOfSpeech): InflectionSlot[]
   /** Whether to display IPA for this language (true for the target language). */
   showIpa: boolean
 }

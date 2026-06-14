@@ -108,7 +108,14 @@ function finalize(b: Building): EnrichmentCandidate {
   let inflections: Record<string, string> | undefined
   if (b.table) {
     const grid = buildGrid(b.table)
-    const inf = b.pos === 'verb' ? verbInflections(grid) : b.pos === 'noun' ? nounInflections(grid) : {}
+    const inf =
+      b.pos === 'verb'
+        ? verbInflections(grid)
+        : b.pos === 'noun'
+          ? nounInflections(grid)
+          : b.pos === 'adj'
+            ? adjInflections(grid)
+            : {}
     if (Object.keys(inf).length > 0) inflections = inf
   }
   return { pos: b.pos, gender: b.gender, inflections, gloss: b.gloss }
@@ -198,6 +205,29 @@ function nounInflections(grid: Cell[][]): Record<string, string> {
     if (number === 'sg' && def === 'def') out.definiteSingular = value
     else if (number === 'pl' && def === 'indef') out.indefinitePlural = value
     else if (number === 'pl' && def === 'def') out.definitePlural = value
+  }
+  return out
+}
+
+// Adjective: the comparative and superlative columns (invariant in the base form).
+function adjInflections(grid: Cell[][]): Record<string, string> {
+  let compCol = -1
+  let supCol = -1
+  grid.forEach((row) =>
+    row.forEach((cell, c) => {
+      if (!cell?.header) return
+      const t = cell.text.toLowerCase().replace(/[0-9].*$/, '').trim()
+      if (t === 'comparative') compCol = c
+      else if (t === 'superlative') supCol = c
+    }),
+  )
+  const out: Record<string, string> = {}
+  for (const row of grid) {
+    if (!row) continue
+    const comp = compCol >= 0 ? row[compCol] : undefined
+    const sup = supCol >= 0 ? row[supCol] : undefined
+    if (comp && !comp.header && comp.text && comp.text !== '—') out.komparativ ??= comp.text
+    if (sup && !sup.header && sup.text && sup.text !== '—') out.superlativ ??= sup.text
   }
   return out
 }

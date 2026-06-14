@@ -216,14 +216,19 @@ export async function getEntryEditData(
   return { entry, overlay, nativeLemma: native?.lemma }
 }
 
-/** Edit a user entry's lemma / POS and its primary translation (the real native lemma). */
+/** Edit a user entry's lemma / POS / inflections and its primary translation. */
 export async function updateUserEntry(
   entryId: string,
-  fields: { lemma: string; pos: PartOfSpeech; translation: string },
+  fields: { lemma: string; pos: PartOfSpeech; translation: string; inflections?: Record<string, string> },
 ): Promise<void> {
   const now = Date.now()
   const translation = await db.translations.where('targetEntryId').equals(entryId).first()
-  await db.entries.update(entryId, { lemma: fields.lemma.trim(), pos: fields.pos, updatedAt: now })
+  await db.entries.update(entryId, {
+    lemma: fields.lemma.trim(),
+    pos: fields.pos,
+    inflections: fields.inflections ?? {},
+    updatedAt: now,
+  })
   if (translation) {
     await db.entries.update(translation.nativeEntryId, {
       lemma: fields.translation.trim(),

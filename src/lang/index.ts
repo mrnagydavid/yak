@@ -17,6 +17,7 @@ const defaultRenderer: LanguageRenderer = {
     return { summary: rows.map((r) => r.value).join(' · '), rows }
   },
   renderFeatures: () => [],
+  inflectionSlots: () => [],
 }
 
 /** The renderer for a BCP-47 language code, or a safe fallback. */

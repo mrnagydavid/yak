@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'preact/hooks'
 import { getEntryEditData, updateUserEntry, upsertOverlay } from '../../db/queries'
 import type { Entry, PartOfSpeech } from '../../db/types'
-import { languageName } from '../../lang'
+import { getRenderer, languageName } from '../../lang'
 import { POS_OPTIONS } from '../posOptions'
 import styles from './EntryEditor.module.css'
 
@@ -27,6 +27,7 @@ export function EntryEditor({
   const [translation, setTranslation] = useState('')
   const [note, setNote] = useState('')
   const [examples, setExamples] = useState<string[]>([])
+  const [inflections, setInflections] = useState<Record<string, string>>({})
 
   useEffect(() => {
     let alive = true
@@ -35,6 +36,7 @@ export function EntryEditor({
       setEntry(d.entry)
       setLemma(d.entry.lemma)
       setPos(d.entry.pos)
+      setInflections(d.entry.inflections ?? {})
       setNote(d.overlay?.noteText ?? '')
       setExamples(d.overlay?.customExamples ?? [])
       // For user entries the translation field is the real native lemma; for seed entries
@@ -47,11 +49,18 @@ export function EntryEditor({
   }, [entryId])
 
   const isUser = entry?.source === 'user'
+  // POS-specific inflection slots (declension/conjugation/comparison), for user entries.
+  const slots = entry ? getRenderer(entry.lang).inflectionSlots(pos) : []
 
   async function save() {
     if (!entry) return
     if (isUser) {
-      await updateUserEntry(entryId, { lemma, pos, translation })
+      const inf: Record<string, string> = {}
+      for (const s of slots) {
+        const value = (inflections[s.key] ?? '').trim()
+        if (value) inf[s.key] = value
+      }
+      await updateUserEntry(entryId, { lemma, pos, translation, inflections: inf })
       await upsertOverlay(entryId, { noteText: note, customExamples: examples }, translationLang)
     } else {
       await upsertOverlay(entryId, { noteText: note, customExamples: examples, customTranslation: translation }, translationLang)
@@ -98,6 +107,17 @@ export function EntryEditor({
                     <span class={styles.fieldLabel}>Translation ({languageName(translationLang)})</span>
                     <input class={styles.input} type="text" value={translation} onInput={(e) => setTranslation((e.target as HTMLInputElement).value)} />
                   </label>
+                  {slots.map((s) => (
+                    <label key={s.key} class={styles.field}>
+                      <span class={styles.fieldLabel}>{s.label}</span>
+                      <input
+                        class={styles.input}
+                        type="text"
+                        value={inflections[s.key] ?? ''}
+                        onInput={(e) => setInflections({ ...inflections, [s.key]: (e.target as HTMLInputElement).value })}
+                      />
+                    </label>
+                  ))}
                 </>
               ) : null}
 

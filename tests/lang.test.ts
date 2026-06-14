@@ -75,6 +75,25 @@ describe('svRenderer', () => {
     expect(sv.renderFeatures(vatten)).toEqual([{ label: 'ett', kind: 'gender-ett' }])
   })
 
+  it('renders adjective comparison as a one-liner', () => {
+    const display = sv.renderInflections(
+      entry({ lemma: 'stor', pos: 'adj', inflections: { komparativ: 'större', superlativ: 'störst' } }),
+    )
+    expect(display.table).toBeUndefined()
+    expect(display.summary).toBe('större · störst')
+  })
+
+  it('exposes POS-specific editable inflection slots', () => {
+    expect(sv.inflectionSlots('noun').map((s) => s.key)).toEqual([
+      'definiteSingular',
+      'indefinitePlural',
+      'definitePlural',
+    ])
+    expect(sv.inflectionSlots('verb').map((s) => s.key)).toEqual(['presens', 'preteritum', 'supinum', 'imperativ'])
+    expect(sv.inflectionSlots('adj').map((s) => s.key)).toEqual(['komparativ', 'superlativ'])
+    expect(sv.inflectionSlots('interj')).toEqual([])
+  })
+
   it('keeps verbs as a one-line summary (no table)', () => {
     const display = sv.renderInflections(
       entry({

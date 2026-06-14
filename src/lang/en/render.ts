@@ -31,4 +31,6 @@ export const enRenderer: LanguageRenderer = {
   renderFeatures(): FeatureBadge[] {
     return [] // no gender/feature badges for English
   },
+
+  inflectionSlots: () => [], // English is the native language — not edited in v1
 }
