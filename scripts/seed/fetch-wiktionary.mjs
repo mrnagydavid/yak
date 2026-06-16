@@ -65,15 +65,20 @@ async function main() {
     const word = o.word
     if (!word || !wanted.has(word)) continue
     matched++
-    // Prefer real definitions; ignore "form-of" senses (e.g. "indefinite neuter singular of
-    // alternativ"). If the word is ONLY a form-of, record its base word for resolution in join.
-    const realSenses = (o.senses ?? []).filter((s) => !s.tags?.includes('form-of'))
+    // Prefer real definitions; ignore redirect senses — "form-of" ("indefinite neuter singular of
+    // alternativ") and "alt-of" ("alternative spelling of i morgon", "alternative letter-case form
+    // of CD"). Their gloss is a pointer, not a translation. If the word is ONLY a redirect, record
+    // its base word for resolution in join.
+    const isRedirect = (s) => s.tags?.includes('form-of') === true || s.tags?.includes('alt-of') === true
+    const realSenses = (o.senses ?? []).filter((s) => isRedirect(s) === false)
     const glosses = realSenses
       .map((s) => (s.glosses ?? [])[0])
       .filter(Boolean)
       .slice(0, 6)
     const formOf =
-      glosses.length === 0 ? (o.senses ?? []).map((s) => s.form_of?.[0]?.word).find(Boolean) : undefined
+      glosses.length === 0
+        ? (o.senses ?? []).map((s) => s.form_of?.[0]?.word ?? s.alt_of?.[0]?.word).find(Boolean)
+        : undefined
     const examples = (o.senses ?? [])
       .flatMap((s) => s.examples ?? [])
       .map((ex) => ex.text)

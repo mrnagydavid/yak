@@ -1,0 +1,154 @@
+[
+  {
+    "kellyId": 991,
+    "lemma": "imorgon",
+    "decision": "fix",
+    "reason": "missing translation; alternative spelling of i morgon, only card for this concept",
+    "proposedTranslation": "tomorrow",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2728,
+    "lemma": "över huvud taget",
+    "decision": "drop",
+    "reason": "pure spacing variant of överhuvudtaget which is its own Kelly card",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2983,
+    "lemma": "så pass",
+    "decision": "fix",
+    "reason": "missing translation; only card for this adverbial phrase",
+    "proposedTranslation": "to such an extent, so",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3129,
+    "lemma": "motta",
+    "decision": "fix",
+    "reason": "missing translation; alternative form of mottaga, only card for this verb at this level",
+    "proposedTranslation": "to receive",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3309,
+    "lemma": "symptom",
+    "decision": "fix",
+    "reason": "missing translation; base spelling symtom not in Kelly list so this is the only card",
+    "proposedTranslation": "symptom",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3719,
+    "lemma": "rättsväsende",
+    "decision": "fix",
+    "reason": "missing translation; only card for this concept",
+    "proposedTranslation": "judicial system, judiciary",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4241,
+    "lemma": "till synes",
+    "decision": "fix",
+    "reason": "missing translation; only card for this adverbial phrase",
+    "proposedTranslation": "seemingly, apparently",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4398,
+    "lemma": "cd",
+    "decision": "fix",
+    "reason": "missing translation; only card for this noun",
+    "proposedTranslation": "CD",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4587,
+    "lemma": "dvd",
+    "decision": "fix",
+    "reason": "missing translation; only card for this noun",
+    "proposedTranslation": "DVD",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4689,
+    "lemma": "i fred",
+    "decision": "fix",
+    "reason": "missing translation; only card for this prepositional phrase",
+    "proposedTranslation": "in peace, alone",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4975,
+    "lemma": "tills vidare",
+    "decision": "fix",
+    "reason": "missing translation; only card for this adverbial phrase",
+    "proposedTranslation": "until further notice, for now",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5399,
+    "lemma": "nobelpris",
+    "decision": "fix",
+    "reason": "missing translation; only card for this noun",
+    "proposedTranslation": "Nobel Prize",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5573,
+    "lemma": "till vara",
+    "decision": "drop",
+    "reason": "pure spacing variant of tillvara which is its own Kelly card",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5793,
+    "lemma": "porr",
+    "decision": "fix",
+    "reason": "missing translation; only card for this noun",
+    "proposedTranslation": "porn, pornography",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6506,
+    "lemma": "hejdå",
+    "decision": "fix",
+    "reason": "missing translation; only card for this interjection",
+    "proposedTranslation": "goodbye, bye",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6719,
+    "lemma": "utdela",
+    "decision": "fix",
+    "reason": "missing translation; only card for this verb",
+    "proposedTranslation": "to distribute, hand out, deal (a blow)",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8060,
+    "lemma": "sammankoppla",
+    "decision": "fix",
+    "reason": "missing translation; only card for this verb",
+    "proposedTranslation": "to connect, link together, couple",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8381,
+    "lemma": "mottaga",
+    "decision": "fix",
+    "reason": "missing translation; only card for this verb at C2 level",
+    "proposedTranslation": "to receive",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5139,
+    "lemma": "levnadsstandard",
+    "decision": "fix",
+    "reason": "candidate had no translation and was marked keep; supply the meaning",
+    "proposedTranslation": "standard of living, living standard",
+    "proposedSubDefinitions": []
+  }
+]
