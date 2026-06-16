@@ -1,0 +1,1052 @@
+[
+  {
+    "kellyId": 7,
+    "lemma": "ett",
+    "examples": ["Jag har bara ett äpple."],
+    "kept": false,
+    "reason": "no example; wrote A1 sentence using 'ett' as the numeral one with an ett-word noun"
+  },
+  {
+    "kellyId": 108,
+    "lemma": "ett",
+    "examples": ["Det är ett hus."],
+    "kept": false,
+    "reason": "no example; wrote A1 sentence using 'ett' as indefinite article before an ett-word"
+  },
+  {
+    "kellyId": 3418,
+    "lemma": "ett",
+    "examples": ["Jag vill köpa ett, inte två."],
+    "kept": false,
+    "reason": "no example; wrote sentence using 'ett' as a standalone pronoun (a/an, one of them)"
+  },
+  {
+    "kellyId": 49,
+    "lemma": "sex",
+    "examples": ["Klockan är sex."],
+    "kept": false,
+    "reason": "no example; wrote A1 sentence using the numeral six"
+  },
+  {
+    "kellyId": 5479,
+    "lemma": "sex",
+    "examples": ["De pratade om sex och kärlek."],
+    "kept": false,
+    "reason": "old 'att ha sex' is a fragment; wrote a complete sentence in the 'sex' (intercourse) sense"
+  },
+  {
+    "kellyId": 88,
+    "lemma": "vara",
+    "examples": ["Det var fest igår."],
+    "kept": true,
+    "reason": "kept second example; clearly the verb 'be' (past var), complete and A1"
+  },
+  {
+    "kellyId": 1275,
+    "lemma": "vara",
+    "examples": ["Du måste ta vara på din tid."],
+    "kept": false,
+    "reason": "old entries were fragments; wrote a complete sentence using the noun in 'ta vara på' (take care of)"
+  },
+  {
+    "kellyId": 92,
+    "lemma": "det",
+    "examples": ["Jag ser ett hus. Det är stort."],
+    "kept": true,
+    "reason": "kept first example; clearly the pronoun 'it', complete and A1"
+  },
+  {
+    "kellyId": 124,
+    "lemma": "det",
+    "examples": ["Det stora huset är gult."],
+    "kept": false,
+    "reason": "old entries were fragments and not even the right form; wrote A1 sentence using 'det' as the definite article before an ett-word"
+  },
+  {
+    "kellyId": 93,
+    "lemma": "en",
+    "examples": ["Jag såg en björn i skogen."],
+    "kept": true,
+    "reason": "kept; clearly the indefinite article 'a/an' before an en-word, complete and A1 (added period)"
+  },
+  {
+    "kellyId": 426,
+    "lemma": "en",
+    "examples": ["Man vet aldrig vad som händer en."],
+    "kept": false,
+    "reason": "old proverbs use 'en' as object of generic 'man' but are a bit opaque; wrote a clear sentence using 'en' as the generic pronoun (one/you)"
+  },
+  {
+    "kellyId": 94,
+    "lemma": "som",
+    "examples": ["Det var hon som gjorde det."],
+    "kept": true,
+    "reason": "kept first example; clearly the relative pronoun 'who/that', complete and A1"
+  },
+  {
+    "kellyId": 118,
+    "lemma": "som",
+    "examples": ["Hon sjunger som en ängel."],
+    "kept": false,
+    "reason": "old entries were fragments; wrote a complete A1 simile sentence using 'som' = like/as"
+  },
+  {
+    "kellyId": 295,
+    "lemma": "som",
+    "examples": ["Det är kallast när vintern är som värst."],
+    "kept": false,
+    "reason": "old fragments; wrote a complete sentence using 'som' in the superlative-intensifier sense (at its most)"
+  },
+  {
+    "kellyId": 98,
+    "lemma": "för",
+    "examples": ["Den här blomman är för dig."],
+    "kept": false,
+    "reason": "old entries were idiomatic fragments; wrote a clear A1 sentence using 'för' as the preposition 'for'"
+  },
+  {
+    "kellyId": 301,
+    "lemma": "för",
+    "examples": ["Kaffet är för varmt."],
+    "kept": false,
+    "reason": "no example; wrote A1 sentence using 'för' = too (excessively)"
+  },
+  {
+    "kellyId": 1831,
+    "lemma": "för",
+    "examples": ["Jag stannar hemma, för jag är trött."],
+    "kept": false,
+    "reason": "no example; wrote A2 sentence using 'för' as the conjunction 'because'"
+  },
+  {
+    "kellyId": 4906,
+    "lemma": "för",
+    "examples": ["Vågorna slog mot båtens för."],
+    "kept": false,
+    "reason": "no example; wrote a sentence using the noun 'för' = bow (of a boat), en-word; kept other words simple"
+  },
+  {
+    "kellyId": 101,
+    "lemma": "skola",
+    "examples": ["Jag ska äta."],
+    "kept": true,
+    "reason": "kept second example; clear use of skola (ska) as future 'will', A1; dropped the obscure hymn quote"
+  },
+  {
+    "kellyId": 360,
+    "lemma": "skola",
+    "examples": ["Barnen är i skolan."],
+    "kept": true,
+    "reason": "kept second example; clearly the noun 'school' (en skola), complete and A1"
+  },
+  {
+    "kellyId": 104,
+    "lemma": "med",
+    "examples": ["Jag bor med min familj."],
+    "kept": false,
+    "reason": "old examples used parentheses/B-level vocab (plånbok, euro); wrote a simple A1 sentence using 'med' = with"
+  },
+  {
+    "kellyId": 512,
+    "lemma": "med",
+    "examples": ["Jag vill också komma med."],
+    "kept": false,
+    "reason": "old example was a song lyric; wrote a simple A1 sentence using adverbial 'med' = along/too"
+  },
+  {
+    "kellyId": 105,
+    "lemma": "till",
+    "examples": ["Välkommen till Sverige!"],
+    "kept": true,
+    "reason": "kept first example; clearly the preposition 'to', complete and A1"
+  },
+  {
+    "kellyId": 2464,
+    "lemma": "till",
+    "examples": ["Jag vill ha en kaka till."],
+    "kept": false,
+    "reason": "old 'en/två till' uses a slash; wrote a clean A2 sentence using 'till' = another/more"
+  },
+  {
+    "kellyId": 107,
+    "lemma": "den",
+    "examples": ["Den röda bilen är min."],
+    "kept": false,
+    "reason": "old entries were fragments; wrote A1 sentence using 'den' as definite article before an en-word adjective phrase"
+  },
+  {
+    "kellyId": 146,
+    "lemma": "den",
+    "examples": ["Jag ser Nisses bil. Den är röd."],
+    "kept": true,
+    "reason": "kept first example; clearly the pronoun 'it' referring to an en-word, complete and A1"
+  },
+  {
+    "kellyId": 111,
+    "lemma": "om",
+    "examples": ["Vi har pratat om dig."],
+    "kept": true,
+    "reason": "kept second example; clearly the preposition 'about', complete and A1"
+  },
+  {
+    "kellyId": 132,
+    "lemma": "om",
+    "examples": ["Ring mig om du kommer."],
+    "kept": false,
+    "reason": "old example was a very long song lyric; wrote a short A1 sentence using 'om' = if"
+  },
+  {
+    "kellyId": 114,
+    "lemma": "man",
+    "examples": ["Man får inte röka här."],
+    "kept": false,
+    "reason": "old examples were huge song lyrics; wrote a short A1 sentence using 'man' = people in general"
+  },
+  {
+    "kellyId": 264,
+    "lemma": "man",
+    "examples": ["En man går på gatan."],
+    "kept": true,
+    "reason": "kept first example; clearly the noun 'man' (en man), complete and A1"
+  },
+  {
+    "kellyId": 116,
+    "lemma": "få",
+    "examples": ["Jag fick paketet idag."],
+    "kept": true,
+    "reason": "kept first example; clearly the verb 'get/receive' (past fick), complete and A1"
+  },
+  {
+    "kellyId": 682,
+    "lemma": "få",
+    "examples": ["Få personer kom till festen."],
+    "kept": false,
+    "reason": "no example; wrote A1 sentence using 'få' as the adjective 'few'"
+  },
+  {
+    "kellyId": 129,
+    "lemma": "vilja",
+    "examples": ["Jag vill ha en kopp kaffe."],
+    "kept": false,
+    "reason": "old examples were fine but a bit long; wrote a shorter clear A1 sentence using the verb 'want'"
+  },
+  {
+    "kellyId": 1072,
+    "lemma": "vilja",
+    "examples": ["Han har en stark vilja."],
+    "kept": false,
+    "reason": "no example; wrote A1 sentence using the noun 'vilja' = will (en vilja)"
+  },
+  {
+    "kellyId": 143,
+    "lemma": "nu",
+    "examples": ["Hör du mig nu?"],
+    "kept": true,
+    "reason": "kept first example; clearly the adverb 'now', complete and A1"
+  },
+  {
+    "kellyId": 6046,
+    "lemma": "nu",
+    "examples": ["Det är viktigt att leva i nuet."],
+    "kept": false,
+    "reason": "old 'att leva i nuet' is a fragment; wrote a complete sentence using the noun 'nuet' (the present/now)"
+  },
+  {
+    "kellyId": 164,
+    "lemma": "vid",
+    "examples": ["Jag är hemma vid fem."],
+    "kept": true,
+    "reason": "kept second example; clearly the preposition 'by/at', complete and A1"
+  },
+  {
+    "kellyId": 3269,
+    "lemma": "vid",
+    "examples": ["De här byxorna är alldeles för vida."],
+    "kept": true,
+    "reason": "kept; clearly the adjective 'wide' (vida), complete and B1-appropriate"
+  },
+  {
+    "kellyId": 165,
+    "lemma": "än",
+    "examples": ["Han är större än du tror."],
+    "kept": true,
+    "reason": "kept; clearly the comparative conjunction 'than', complete and A1 (added period)"
+  },
+  {
+    "kellyId": 1177,
+    "lemma": "än",
+    "examples": ["Det är inte midnatt än."],
+    "kept": true,
+    "reason": "kept second example; clearly the adverb 'still/yet', complete and A1 (added period)"
+  },
+  {
+    "kellyId": 166,
+    "lemma": "bra",
+    "examples": ["Det är en bra film."],
+    "kept": false,
+    "reason": "old first entry was a fragment; wrote a complete A1 sentence using 'bra' as the attributive adjective 'good'"
+  },
+  {
+    "kellyId": 400,
+    "lemma": "bra",
+    "examples": ["Mår du bra?"],
+    "kept": true,
+    "reason": "kept first example; clearly the adverb 'well', complete and A1"
+  },
+  {
+    "kellyId": 176,
+    "lemma": "över",
+    "examples": ["Det finns en bro över floden."],
+    "kept": true,
+    "reason": "kept second example; clearly the preposition 'above/over', complete and A1"
+  },
+  {
+    "kellyId": 2096,
+    "lemma": "över",
+    "examples": ["Gå över bron."],
+    "kept": true,
+    "reason": "kept second example; clearly the directional 'over/across', complete and A2"
+  },
+  {
+    "kellyId": 178,
+    "lemma": "vår",
+    "examples": ["Det är vårt hus."],
+    "kept": false,
+    "reason": "no example; wrote A1 sentence using possessive 'vår' (here neuter 'vårt') = our"
+  },
+  {
+    "kellyId": 1209,
+    "lemma": "vår",
+    "examples": ["På våren blir det varmt."],
+    "kept": false,
+    "reason": "no example; wrote A1 sentence using the noun 'vår' = spring (the season), en-word"
+  },
+  {
+    "kellyId": 184,
+    "lemma": "ju",
+    "examples": ["Bussen går ju klockan tre."],
+    "kept": true,
+    "reason": "kept first example; clear use of the particle 'ju' (you know/of course), complete and A1"
+  },
+  {
+    "kellyId": 2660,
+    "lemma": "ju",
+    "examples": ["Du vet ju att jag har rätt."],
+    "kept": false,
+    "reason": "old examples duplicated the adv card; wrote a distinct simple A2 sentence using 'ju' = as you know"
+  },
+  {
+    "kellyId": 185,
+    "lemma": "sedan",
+    "examples": ["Först åt vi, sedan gick vi hem."],
+    "kept": false,
+    "reason": "old example used possessive 'hans'; wrote a simpler A1 sentence using 'sedan' = then/after this"
+  },
+  {
+    "kellyId": 508,
+    "lemma": "sedan",
+    "examples": ["Vi har bott här sedan 2010."],
+    "kept": false,
+    "reason": "old example was wordy; wrote a clear A1 sentence using 'sedan' as the preposition 'since'"
+  },
+  {
+    "kellyId": 1123,
+    "lemma": "sedan",
+    "examples": ["Sedan vi sålde bilen cyklar vi överallt."],
+    "kept": true,
+    "reason": "kept; clearly the conjunction 'since/from the time that', complete and A1"
+  },
+  {
+    "kellyId": 194,
+    "lemma": "svensk",
+    "examples": ["Det är en gammal svensk tradition."],
+    "kept": true,
+    "reason": "kept first example; clearly the adjective 'Swedish', complete; wrapped as full sentence"
+  },
+  {
+    "kellyId": 759,
+    "lemma": "svensk",
+    "examples": ["Han är svensk och bor i Lund."],
+    "kept": false,
+    "reason": "old entries were fragments; wrote a complete A1 sentence using 'svensk' as the noun/predicative (a Swede)"
+  },
+  {
+    "kellyId": 195,
+    "lemma": "fråga",
+    "examples": ["Du ställer svåra frågor."],
+    "kept": true,
+    "reason": "kept second example; clearly the noun 'question' (en fråga), complete and A1"
+  },
+  {
+    "kellyId": 501,
+    "lemma": "fråga",
+    "examples": ["Hon frågade honom vad klockan var."],
+    "kept": true,
+    "reason": "kept first example; clearly the verb 'ask', complete and A1 (added period)"
+  },
+  {
+    "kellyId": 197,
+    "lemma": "tro",
+    "examples": ["Jag tror att han kommer snart."],
+    "kept": false,
+    "reason": "old examples were a bit long/odd; wrote a short clear A1 sentence using the verb 'believe/think'"
+  },
+  {
+    "kellyId": 765,
+    "lemma": "tro",
+    "examples": ["Hon har en stark tro."],
+    "kept": false,
+    "reason": "old examples were ok but a bit pointed; wrote a simpler A1 sentence using the noun 'tro' = belief (en tro)"
+  },
+  {
+    "kellyId": 209,
+    "lemma": "ro",
+    "examples": ["Vi ror båten till ön."],
+    "kept": false,
+    "reason": "old examples were a song lyric and slang; wrote a clear A1 sentence using the verb 'row'"
+  },
+  {
+    "kellyId": 801,
+    "lemma": "ro",
+    "examples": ["Jag vill ha lite lugn och ro."],
+    "kept": false,
+    "reason": "no example; wrote A1 sentence using the noun 'ro' = peace/quiet (common phrase lugn och ro)"
+  },
+  {
+    "kellyId": 211,
+    "lemma": "lik",
+    "examples": ["Du är lik din mamma."],
+    "kept": false,
+    "reason": "old examples were ok; wrote a simpler A1 sentence using 'lik' = resembling/looking like"
+  },
+  {
+    "kellyId": 4947,
+    "lemma": "lik",
+    "examples": ["Polisen hittade ett lik i skogen."],
+    "kept": false,
+    "reason": "no example; wrote a sentence using the noun 'lik' = corpse (ett lik); kept other words simple"
+  },
+  {
+    "kellyId": 221,
+    "lemma": "visa",
+    "examples": ["Han visade dem sin samling."],
+    "kept": true,
+    "reason": "kept first example; clearly the verb 'show', complete and A1"
+  },
+  {
+    "kellyId": 1760,
+    "lemma": "visa",
+    "examples": ["Hon sjöng en vacker visa."],
+    "kept": false,
+    "reason": "no example; wrote A2 sentence using the noun 'visa' = song/ballad (en visa)"
+  },
+  {
+    "kellyId": 228,
+    "lemma": "utan",
+    "examples": ["Jag kan inte leva utan dig."],
+    "kept": false,
+    "reason": "old example used a less common past-conditional; wrote a simpler A1 sentence using 'utan' = without"
+  },
+  {
+    "kellyId": 249,
+    "lemma": "utan",
+    "examples": ["Huset är inte rött utan blått."],
+    "kept": true,
+    "reason": "kept; clearly the conjunction 'but (rather)', complete and A1"
+  },
+  {
+    "kellyId": 251,
+    "lemma": "hög",
+    "examples": ["Berget är mycket högt."],
+    "kept": false,
+    "reason": "old examples involved 'ränta' (interest) which is above A1; wrote a simple A1 sentence using 'hög' = high"
+  },
+  {
+    "kellyId": 5755,
+    "lemma": "hög",
+    "examples": ["Det ligger en hög med böcker på bordet."],
+    "kept": false,
+    "reason": "no example; wrote a sentence using the noun 'hög' = pile/heap (en hög); kept words simple"
+  },
+  {
+    "kellyId": 271,
+    "lemma": "lag",
+    "examples": ["Vårt lag vann matchen."],
+    "kept": false,
+    "reason": "no example; wrote A1 sentence using the noun 'lag' = team (ett lag)"
+  },
+  {
+    "kellyId": 333,
+    "lemma": "lag",
+    "examples": ["Det är en ny lag i Sverige."],
+    "kept": false,
+    "reason": "no example; wrote A1 sentence using the noun 'lag' = law (en lag)"
+  },
+  {
+    "kellyId": 335,
+    "lemma": "lära",
+    "examples": ["Min vän lär mig franska."],
+    "kept": true,
+    "reason": "kept first example; clearly the verb 'teach', complete and A1"
+  },
+  {
+    "kellyId": 2081,
+    "lemma": "lära",
+    "examples": ["Buddhas lära är gammal."],
+    "kept": false,
+    "reason": "no example; wrote A2 sentence using the noun 'lära' = teachings/doctrine (en lära)"
+  },
+  {
+    "kellyId": 385,
+    "lemma": "vidare",
+    "examples": ["Vi går vidare till nästa fråga."],
+    "kept": false,
+    "reason": "old entries were fragments; wrote a complete A1 sentence using adverbial 'vidare' = on/further"
+  },
+  {
+    "kellyId": 2795,
+    "lemma": "vidare",
+    "examples": ["Vi behöver inga vidare frågor."],
+    "kept": false,
+    "reason": "old example was B2-level (efterforskning, insyltad); wrote a simpler sentence using attributive 'vidare' = further"
+  },
+  {
+    "kellyId": 413,
+    "lemma": "val",
+    "examples": ["Har du gjort ditt val?"],
+    "kept": true,
+    "reason": "kept first example; clearly the noun 'choice' (ett val), complete and A1"
+  },
+  {
+    "kellyId": 3862,
+    "lemma": "val",
+    "examples": ["En val är ett mycket stort djur."],
+    "kept": false,
+    "reason": "old example was long/B-level; wrote a simpler sentence using the noun 'val' = whale (en val)"
+  },
+  {
+    "kellyId": 431,
+    "lemma": "slut",
+    "examples": ["Jag tyckte om slutet av boken."],
+    "kept": true,
+    "reason": "kept first example; clearly the noun 'end' (ett slut), complete and A1"
+  },
+  {
+    "kellyId": 1707,
+    "lemma": "slut",
+    "examples": ["Kakorna är slut."],
+    "kept": true,
+    "reason": "kept second example; clearly the predicative 'over/finished/used up', complete and A2"
+  },
+  {
+    "kellyId": 5029,
+    "lemma": "slut",
+    "examples": ["Deras förhållande är slut."],
+    "kept": true,
+    "reason": "kept first example; clearly the adjective 'over/finished', complete and B2-appropriate"
+  },
+  {
+    "kellyId": 441,
+    "lemma": "rätt",
+    "examples": ["Det här är en god rätt."],
+    "kept": false,
+    "reason": "no example; wrote A1 sentence using the noun 'rätt' = dish (en rätt)"
+  },
+  {
+    "kellyId": 530,
+    "lemma": "rätt",
+    "examples": ["Det går rätt bra faktiskt."],
+    "kept": true,
+    "reason": "kept; clearly the adverb 'rather/correctly' as intensifier, complete and A1"
+  },
+  {
+    "kellyId": 553,
+    "lemma": "rätt",
+    "examples": ["Ditt svar är rätt."],
+    "kept": false,
+    "reason": "old examples were odd/literary; wrote a simple A1 sentence using 'rätt' as the adjective 'right/correct'"
+  },
+  {
+    "kellyId": 644,
+    "lemma": "rätt",
+    "examples": ["Du har rätt om det."],
+    "kept": false,
+    "reason": "old examples were odd/literary; wrote a distinct simple A1 sentence using 'rätt' = right/correct (ha rätt)"
+  },
+  {
+    "kellyId": 505,
+    "lemma": "krona",
+    "examples": ["Kungen bär en krona av guld."],
+    "kept": false,
+    "reason": "old entries ('kronan', 'kronofogde') meant the State, not the headpiece; wrote a clear A1 sentence using 'krona' = crown (en krona)"
+  },
+  {
+    "kellyId": 1010,
+    "lemma": "krona",
+    "examples": ["Boken kostar hundra kronor."],
+    "kept": false,
+    "reason": "old entries did not show the currency sense; wrote a clear A1 sentence using 'krona/kronor' = the currency"
+  },
+  {
+    "kellyId": 506,
+    "lemma": "stämma",
+    "examples": ["Det du säger stämmer."],
+    "kept": false,
+    "reason": "old examples mixed senses (stämma träff = meet up); wrote a clear A1 sentence using 'stämma' = be correct/agree"
+  },
+  {
+    "kellyId": 3955,
+    "lemma": "stämma",
+    "examples": ["Hon har en vacker stämma."],
+    "kept": false,
+    "reason": "old 'sjunga i stämmor' is a fragment; wrote a complete B1 sentence using the noun 'stämma' = voice (en stämma)"
+  },
+  {
+    "kellyId": 517,
+    "lemma": "kort",
+    "examples": ["Hennes hår är kort."],
+    "kept": false,
+    "reason": "old examples were long literary quotes; wrote a simple A1 sentence using 'kort' as the adjective 'short'"
+  },
+  {
+    "kellyId": 1881,
+    "lemma": "kort",
+    "examples": ["Ska vi spela kort?"],
+    "kept": true,
+    "reason": "kept second example; clearly the noun 'card(s)' (ett kort), complete and A2"
+  },
+  {
+    "kellyId": 2079,
+    "lemma": "kort",
+    "examples": ["Han svarade kort och gick."],
+    "kept": false,
+    "reason": "old examples were long literary quotes; wrote a simple A2 sentence using 'kort' as the adverb 'briefly/short'"
+  },
+  {
+    "kellyId": 541,
+    "lemma": "direkt",
+    "examples": ["Vänta inte! Gör det direkt."],
+    "kept": true,
+    "reason": "kept second example; clearly the adverb 'directly/right away', complete and A1"
+  },
+  {
+    "kellyId": 1430,
+    "lemma": "direkt",
+    "examples": ["Vi tog ett direkt tåg till Lund."],
+    "kept": false,
+    "reason": "no example; wrote A2 sentence using 'direkt' as the attributive adjective 'direct'"
+  },
+  {
+    "kellyId": 545,
+    "lemma": "trots",
+    "examples": ["Stranden var full av barn, trots regnet."],
+    "kept": true,
+    "reason": "kept first example; clearly the preposition 'in spite of', complete and A1"
+  },
+  {
+    "kellyId": 5621,
+    "lemma": "trots",
+    "examples": ["Han gjorde det i rent trots."],
+    "kept": true,
+    "reason": "kept; clearly the noun 'defiance' (ett trots), complete and idiomatic"
+  },
+  {
+    "kellyId": 584,
+    "lemma": "liksom",
+    "examples": ["Det var liksom konstigt."],
+    "kept": false,
+    "reason": "old first entry was a citation reference, not a sentence; wrote a simple A1 sentence using filler 'liksom' = sort of/kind of"
+  },
+  {
+    "kellyId": 4474,
+    "lemma": "liksom",
+    "examples": ["Hon är snabb liksom sin bror."],
+    "kept": false,
+    "reason": "old examples were archaic/biblical; wrote a simpler sentence using 'liksom' = like/as (comparison)"
+  },
+  {
+    "kellyId": 610,
+    "lemma": "lätt",
+    "examples": ["Väskan är väldigt lätt."],
+    "kept": false,
+    "reason": "old entries were compound-word fragments; wrote a complete A1 sentence using 'lätt' = light (in weight)"
+  },
+  {
+    "kellyId": 767,
+    "lemma": "lätt",
+    "examples": ["Jag lär mig svenska lätt."],
+    "kept": false,
+    "reason": "old examples were a bit wordy/B-level; wrote a simpler A1 sentence using 'lätt' as the adverb 'easily'"
+  },
+  {
+    "kellyId": 616,
+    "lemma": "röra",
+    "examples": ["Du får inte röra tavlan."],
+    "kept": false,
+    "reason": "no example; wrote A1 sentence using the verb 'röra' = move/touch"
+  },
+  {
+    "kellyId": 5997,
+    "lemma": "röra",
+    "examples": ["Ditt rum är en enda röra."],
+    "kept": false,
+    "reason": "no example; wrote a sentence using the noun 'röra' = mess/disorder (en röra); kept words simple"
+  },
+  {
+    "kellyId": 677,
+    "lemma": "död",
+    "examples": ["De har upplevt för mycket död."],
+    "kept": true,
+    "reason": "kept first example; clearly the noun 'death/dying' (en död), complete and A1"
+  },
+  {
+    "kellyId": 1117,
+    "lemma": "död",
+    "examples": ["Min gamla katt är död nu."],
+    "kept": false,
+    "reason": "old examples were long song/poem quotes; wrote a simple A1 sentence using 'död' as the adjective 'dead'"
+  },
+  {
+    "kellyId": 752,
+    "lemma": "lokal",
+    "examples": ["Vi köper lokal mat."],
+    "kept": false,
+    "reason": "old 'en lokal företeelse' is an abstract fragment; wrote a complete A1 sentence using 'lokal' as the adjective 'local'"
+  },
+  {
+    "kellyId": 1976,
+    "lemma": "lokal",
+    "examples": ["Festen är i en stor lokal."],
+    "kept": false,
+    "reason": "old entries were fragments; wrote a complete A2 sentence using the noun 'lokal' = premises/venue (en lokal)"
+  },
+  {
+    "kellyId": 753,
+    "lemma": "ytterligare",
+    "examples": ["Vi väntade ytterligare en timme."],
+    "kept": false,
+    "reason": "no example; wrote A1 sentence using 'ytterligare' as the adverb 'further/more'"
+  },
+  {
+    "kellyId": 998,
+    "lemma": "ytterligare",
+    "examples": ["Vi behöver ytterligare hjälp."],
+    "kept": false,
+    "reason": "no example; wrote A1 sentence using 'ytterligare' as the attributive adjective 'additional'"
+  },
+  {
+    "kellyId": 807,
+    "lemma": "plan",
+    "examples": ["Jag har en bra plan."],
+    "kept": false,
+    "reason": "old examples mixed senses (planen = pitch); wrote a clear A1 sentence using 'plan' = plan (en plan)"
+  },
+  {
+    "kellyId": 1637,
+    "lemma": "plan",
+    "examples": ["Ett plan flyger över huset."],
+    "kept": false,
+    "reason": "old 'astralplan' is noise; wrote a clear A2 sentence using 'plan' = plane/aircraft (ett plan)"
+  },
+  {
+    "kellyId": 808,
+    "lemma": "resa",
+    "examples": ["Vi gör en resa till Spanien."],
+    "kept": false,
+    "reason": "old first entry was garbled; wrote a complete A1 sentence using the noun 'resa' = trip/journey (en resa)"
+  },
+  {
+    "kellyId": 1000,
+    "lemma": "resa",
+    "examples": ["Jag vill resa till Italien."],
+    "kept": false,
+    "reason": "no example; wrote A1 sentence using the verb 'resa' = travel"
+  },
+  {
+    "kellyId": 833,
+    "lemma": "alternativ",
+    "examples": ["Vi har ett annat alternativ."],
+    "kept": false,
+    "reason": "no example; wrote A1 sentence using the noun 'alternativ' = option (ett alternativ)"
+  },
+  {
+    "kellyId": 2150,
+    "lemma": "alternativ",
+    "examples": ["Han lyssnar på alternativ musik."],
+    "kept": false,
+    "reason": "no example; wrote A2 sentence using 'alternativ' as the adjective 'alternative'"
+  },
+  {
+    "kellyId": 861,
+    "lemma": "fara",
+    "examples": ["Vi ska fara till Norge imorgon."],
+    "kept": false,
+    "reason": "no example; wrote A1 sentence using the verb 'fara' = go/travel"
+  },
+  {
+    "kellyId": 1892,
+    "lemma": "fara",
+    "examples": ["Det finns en stor fara i skogen."],
+    "kept": false,
+    "reason": "no example; wrote A2 sentence using the noun 'fara' = danger (en fara)"
+  },
+  {
+    "kellyId": 876,
+    "lemma": "visst",
+    "examples": ["Det var visst han som ringde."],
+    "kept": false,
+    "reason": "old examples were a bit idiomatic; wrote a simpler A1 sentence using 'visst' = apparently/certainly (adverb)"
+  },
+  {
+    "kellyId": 2317,
+    "lemma": "visst",
+    "examples": ["– Kan du hjälpa mig? – Visst!"],
+    "kept": false,
+    "reason": "old example was wordy; trimmed to a short A2 dialogue using 'visst' as the interjection 'sure'"
+  },
+  {
+    "kellyId": 903,
+    "lemma": "tack",
+    "examples": ["Tack för hjälpen!"],
+    "kept": true,
+    "reason": "kept second example; clearly the interjection 'thanks', complete and A1"
+  },
+  {
+    "kellyId": 1764,
+    "lemma": "tack",
+    "examples": ["Du förtjänar ett stort tack."],
+    "kept": false,
+    "reason": "old examples were wordy/fragment; wrote a simpler A2 sentence using the noun 'tack' = a thanks (ett tack)"
+  },
+  {
+    "kellyId": 955,
+    "lemma": "ringa",
+    "examples": ["Jag ska ringa min mamma."],
+    "kept": false,
+    "reason": "no example; wrote A1 sentence using the verb 'ringa' = call/ring (phone)"
+  },
+  {
+    "kellyId": 4414,
+    "lemma": "ringa",
+    "examples": ["Det var en ringa stöld."],
+    "kept": true,
+    "reason": "kept second example; clearly the adjective 'small/minor', complete and B2-appropriate"
+  },
+  {
+    "kellyId": 996,
+    "lemma": "mitt",
+    "examples": ["De stod mitt på torget."],
+    "kept": false,
+    "reason": "old examples were a bit wordy; wrote a simpler A1 sentence using adverbial 'mitt' = in the middle"
+  },
+  {
+    "kellyId": 1865,
+    "lemma": "mitt",
+    "examples": ["Huset ligger i byns mitt."],
+    "kept": false,
+    "reason": "no example; wrote A2 sentence using the noun 'mitt' = middle (en mitt)"
+  },
+  {
+    "kellyId": 1006,
+    "lemma": "central",
+    "examples": ["Hotellet ligger på en central plats."],
+    "kept": false,
+    "reason": "no example; wrote A1 sentence using 'central' as the adjective 'central'"
+  },
+  {
+    "kellyId": 5578,
+    "lemma": "central",
+    "examples": ["Vi möts vid den stora centralen."],
+    "kept": false,
+    "reason": "no example; wrote a sentence using the noun 'central' = central station/hub (en central); kept words simple"
+  },
+  {
+    "kellyId": 1017,
+    "lemma": "lista",
+    "examples": ["Jag skriver en lång lista."],
+    "kept": false,
+    "reason": "no example; wrote A1 sentence using the noun 'lista' = list (en lista)"
+  },
+  {
+    "kellyId": 3782,
+    "lemma": "lista",
+    "examples": ["Kan du lista alla namn?"],
+    "kept": false,
+    "reason": "no example; wrote B1 sentence using the verb 'lista' = to list (add items to a list)"
+  },
+  {
+    "kellyId": 1030,
+    "lemma": "vika",
+    "examples": ["De vek tvätten tillsammans."],
+    "kept": false,
+    "reason": "old first entry lacked the definite form and second was odd; wrote a clear A1 sentence using the verb 'vika' = fold"
+  },
+  {
+    "kellyId": 5797,
+    "lemma": "vika",
+    "examples": ["Till slut gav de vika."],
+    "kept": false,
+    "reason": "old examples were a bit complex; wrote a simpler sentence using the idiom 'ge vika' = give way/give in"
+  },
+  {
+    "kellyId": 1103,
+    "lemma": "fast",
+    "examples": ["Jag gick ut, fast det regnade."],
+    "kept": false,
+    "reason": "old examples were ok but slangy/wordy; wrote a clear A1 sentence using 'fast' as the conjunction 'even though'"
+  },
+  {
+    "kellyId": 1152,
+    "lemma": "fast",
+    "examples": ["Tjuven är äntligen fast."],
+    "kept": false,
+    "reason": "old 'fast punkt' meant fixed not caught; wrote a clear A1 sentence using 'fast' = caught"
+  },
+  {
+    "kellyId": 1343,
+    "lemma": "fast",
+    "examples": ["Nu är tjuven fast."],
+    "kept": false,
+    "reason": "old 'fast punkt' meant fixed not caught; wrote a clear A1 sentence using adjectival 'fast' = caught"
+  },
+  {
+    "kellyId": 1104,
+    "lemma": "styrka",
+    "examples": ["Han har stor styrka i armarna."],
+    "kept": false,
+    "reason": "no example; wrote A1 sentence using the noun 'styrka' = strength (en styrka)"
+  },
+  {
+    "kellyId": 3857,
+    "lemma": "styrka",
+    "examples": ["Träning kan styrka kroppen."],
+    "kept": false,
+    "reason": "no example; wrote B1 sentence using the verb 'styrka' = strengthen"
+  },
+  {
+    "kellyId": 1141,
+    "lemma": "föda",
+    "examples": ["Bonden måste föda sina djur."],
+    "kept": false,
+    "reason": "old examples mixed senses (födde en son = give birth); wrote a clear A1 sentence using 'föda' = feed"
+  },
+  {
+    "kellyId": 4525,
+    "lemma": "föda",
+    "examples": ["Djuren söker föda i skogen."],
+    "kept": false,
+    "reason": "old example mixed in 'fast föda'; wrote a clearer sentence using the noun 'föda' = food (en föda)"
+  },
+  {
+    "kellyId": 1179,
+    "lemma": "absolut",
+    "examples": ["Det vill jag absolut göra."],
+    "kept": false,
+    "reason": "no example; wrote A1 sentence using 'absolut' as the adverb 'absolutely'"
+  },
+  {
+    "kellyId": 2430,
+    "lemma": "absolut",
+    "examples": ["Jag har absolut tystnad nu."],
+    "kept": false,
+    "reason": "no example; wrote A2 sentence using 'absolut' as the adjective 'absolute/complete'"
+  },
+  {
+    "kellyId": 1192,
+    "lemma": "vis",
+    "examples": ["Vi får göra det på ett annat vis."],
+    "kept": false,
+    "reason": "old examples were ok; wrote a simpler A1 sentence using the noun 'vis' = way/manner (ett vis)"
+  },
+  {
+    "kellyId": 3305,
+    "lemma": "vis",
+    "examples": ["Han är en gammal, vis man."],
+    "kept": true,
+    "reason": "kept and combined; clearly the adjective 'wise', complete and B1-appropriate"
+  },
+  {
+    "kellyId": 1315,
+    "lemma": "vänster",
+    "examples": ["Ta den vänstra dörren."],
+    "kept": false,
+    "reason": "old entry used a slash with two forms; wrote a clean A1 sentence using 'vänster' (vänstra) = left"
+  },
+  {
+    "kellyId": 1744,
+    "lemma": "vänster",
+    "examples": ["Ta några steg åt vänster."],
+    "kept": false,
+    "reason": "old example was a long song lyric; trimmed to a short A2 sentence using 'vänster' = the left side"
+  },
+  {
+    "kellyId": 1378,
+    "lemma": "ända",
+    "examples": ["Han sprang ända hem."],
+    "kept": true,
+    "reason": "kept; clearly the adverb 'all the way', complete and A1"
+  },
+  {
+    "kellyId": 1991,
+    "lemma": "ända",
+    "examples": ["Han ramlade och slog sin ända."],
+    "kept": false,
+    "reason": "no example; wrote A2 sentence using the noun 'ända' = buttock/behind (en ända)"
+  },
+  {
+    "kellyId": 1388,
+    "lemma": "djup",
+    "examples": ["Hur djup är sjön?"],
+    "kept": true,
+    "reason": "kept first example; clearly the adjective 'deep', complete and A1"
+  },
+  {
+    "kellyId": 3066,
+    "lemma": "djup",
+    "examples": ["Sjöns djup är 60 meter."],
+    "kept": true,
+    "reason": "kept; clearly the noun 'depth' (ett djup), complete and B1-appropriate (added period)"
+  },
+  {
+    "kellyId": 1441,
+    "lemma": "bar",
+    "examples": ["Han gick barfota med bara fötter."],
+    "kept": false,
+    "reason": "no example; wrote A2 sentence using 'bar' (bara) as the adjective 'bare/uncovered'"
+  },
+  {
+    "kellyId": 3764,
+    "lemma": "bar",
+    "examples": ["Vi tog en öl på en bar."],
+    "kept": false,
+    "reason": "old entries were fragment/wordy; wrote a complete B1 sentence using the noun 'bar' = bar (en bar)"
+  },
+  {
+    "kellyId": 1475,
+    "lemma": "hälsa",
+    "examples": ["Det är bra för din hälsa."],
+    "kept": false,
+    "reason": "no example; wrote A2 sentence using the noun 'hälsa' = health (en hälsa)"
+  },
+  {
+    "kellyId": 2152,
+    "lemma": "hälsa",
+    "examples": ["Han hälsade på sin granne."],
+    "kept": false,
+    "reason": "old examples were ok; wrote a clear A2 sentence using the verb 'hälsa' = greet"
+  },
+  {
+    "kellyId": 1484,
+    "lemma": "dansk",
+    "examples": ["Jag äter ett danskt bröd."],
+    "kept": false,
+    "reason": "no example; wrote A2 sentence using 'dansk' (danskt) as the adjective 'Danish'"
+  },
+  {
+    "kellyId": 3796,
+    "lemma": "dansk",
+    "examples": ["Min granne är en dansk."],
+    "kept": false,
+    "reason": "no example; wrote B1 sentence using the noun 'dansk' = a Dane (en dansk)"
+  }
+]

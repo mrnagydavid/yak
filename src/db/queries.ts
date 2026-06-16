@@ -53,6 +53,9 @@ export interface PracticeCardView {
   target: Entry
   native?: Entry
   overlay?: EntryOverlay
+  /** True when another target-language entry shares this lemma (homonym, e.g. en val / ett val).
+   *  The prompt then shows a sense-specific example so the recall is well-posed. (SPEC §7.2) */
+  ambiguous: boolean
 }
 
 /** Resolve a session card's display data. Returns null if the target entry is missing. */
@@ -62,7 +65,8 @@ export async function getPracticeCardView(card: SessionCard): Promise<PracticeCa
   const translation = await db.translations.get(card.translationId)
   const native = translation ? await db.entries.get(translation.nativeEntryId) : undefined
   const overlay = await getOverlay(target.id)
-  return { card, target, native, overlay }
+  const sharingLemma = await db.entries.where('[lang+lemma]').equals([target.lang, target.lemma]).count()
+  return { card, target, native, overlay, ambiguous: sharingLemma > 1 }
 }
 
 /** Everything the Word Detail screen renders. (SPEC §7.5) */

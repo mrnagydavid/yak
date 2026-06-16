@@ -45,6 +45,16 @@
   color: var(--color-text-secondary);
 }
 
+/* Sense cue for homonyms: a short example sentence under the prompt word so the learner
+   knows which meaning is being asked, without grammatical jargon. (SPEC §7.2) */
+.promptExample {
+  margin-top: 8px;
+  max-width: 32ch;
+  font-size: 15px;
+  font-style: italic;
+  color: var(--color-text-secondary);
+}
+
 .reveal {
   display: flex;
   flex-direction: column;

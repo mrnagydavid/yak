@@ -6,7 +6,8 @@ dist
 *.local
 dev-dist/
 Swedish Kelly-20260602134631.apkg
-# Large/derived seed build artifacts are ignored; the LLM cleanup decisions are
-# kept so the seed stays regenerable (re-run fetch → join → flag → apply-decisions).
+# Large/derived seed build artifacts are ignored; the LLM cleanup decisions and generated
+# example sentences are kept so the seed stays regenerable (re-run fetch → join → flag → apply).
 data/intermediate/*
 !data/intermediate/decisions/
+!data/intermediate/examples/

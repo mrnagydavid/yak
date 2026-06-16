@@ -22,11 +22,25 @@ function Inflections({ display }: { display: InflectionDisplay }) {
   return display.summary ? <div class={styles.inflections}>{display.summary}</div> : null
 }
 
+// Split a card's examples into the prompt sense-cue and the reveal list. Only an ambiguous word in
+// recognition gets a cue (the first example); everything else keeps all examples on the reveal.
+// Pure + exported so the rule is unit-tested without a DOM/DB harness.
+export function splitExamples(
+  examples: string[],
+  ambiguous: boolean,
+  isRecognition: boolean,
+): { promptExample?: string; revealExamples: string[] } {
+  if (ambiguous && isRecognition && examples.length > 0) {
+    return { promptExample: examples[0], revealExamples: examples.slice(1) }
+  }
+  return { revealExamples: examples }
+}
+
 // One study card: prompt at top, reveal area below. Recognition shows the target word and
 // reveals the native translation; production shows the native word and reveals the target.
 // (SPEC §7.2). Lemmas and inflections go through the per-language render module (§5.1).
 export function StudyCard({ view, revealed }: { view: PracticeCardView; revealed: boolean }) {
-  const { card, target, native, overlay } = view
+  const { card, target, native, overlay, ambiguous } = view
   const isRecognition = card.skill === 'recognize'
   const userOwned = target.source === 'user' || !!overlay
 
@@ -43,7 +57,11 @@ export function StudyCard({ view, revealed }: { view: PracticeCardView; revealed
   const promptWord = isRecognition ? targetLemma : nativeLemma
   const promptDisambig = isRecognition ? target.disambiguator : native?.disambiguator
   const answerWord = isRecognition ? translation : targetLemma
-  const examples = [...(target.examples ?? []), ...(overlay?.customExamples ?? [])]
+  const allExamples = [...(target.examples ?? []), ...(overlay?.customExamples ?? [])]
+  // For an ambiguous word in recognition, the first example sits on the prompt as a sense cue so
+  // the learner knows which homonym is being asked (e.g. en val "whale" vs ett val "choice"). The
+  // rest stay on the reveal. Production prompts show the native word, which is already distinct.
+  const { promptExample, revealExamples: examples } = splitExamples(allExamples, ambiguous, isRecognition)
 
   return (
     <div class={`${styles.card} ${userOwned ? styles.userOwned : ''}`}>
@@ -52,6 +70,8 @@ export function StudyCard({ view, revealed }: { view: PracticeCardView; revealed
         <span class={styles.promptWord}>{promptWord}</span>
         {promptDisambig ? <span class={styles.disambig}>({promptDisambig})</span> : null}
         {isRecognition && targetIpa ? <span class={styles.ipa}>/{targetIpa}/</span> : null}
+        {/* Sense cue for homonyms — disambiguates which meaning is being asked. */}
+        {promptExample ? <span class={styles.promptExample}>{promptExample}</span> : null}
         {/* Recognition: target's forms sit under the (target) prompt, once revealed. */}
         {isRecognition && revealed ? <Inflections display={inflections} /> : null}
       </div>

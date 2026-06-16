@@ -6,6 +6,8 @@ import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises'
 
 const SEED_VERSION = 'sv-2026-06-01' // en.wiktionary dump date the kaikki extract is from
 const DECISIONS_DIR = 'data/intermediate/decisions'
+const EXAMPLES_DIR = 'data/intermediate/examples' // curated examples for ambiguous cards (Step 15)
+const AMBIGUOUS_OUT = 'data/intermediate/ambiguous.json' // emitted for the example-writer step
 
 const cleanTranslation = (t) => t.replace(/\s+/g, ' ').replace(/[\s:;,]+$/, '').trim()
 const cleanIpa = (ipa) => ipa.replace(/^\/+/, '').replace(/\/+$/, '').trim()
@@ -75,9 +77,30 @@ async function loadDecisions() {
   return byId
 }
 
+// Curated example sentences for ambiguous cards (Step 15), keyed by kellyId. Absent on the first
+// pass (before generation has run) — apply-decisions then just emits the ambiguous list.
+async function loadExamples() {
+  const byId = new Map()
+  if (!existsSync(EXAMPLES_DIR)) return byId
+  for (const file of await readdir(EXAMPLES_DIR)) {
+    if (!file.endsWith('.json')) continue
+    for (const e of JSON.parse(await readFile(`${EXAMPLES_DIR}/${file}`, 'utf-8'))) {
+      if (Array.isArray(e.examples)) byId.set(e.kellyId, e.examples)
+    }
+  }
+  return byId
+}
+
+const stripKelly = (e) => {
+  const o = { ...e }
+  delete o.kellyId
+  return o
+}
+
 async function main() {
   const candidates = JSON.parse(await readFile('data/intermediate/candidates.json', 'utf-8'))
   const decisions = await loadDecisions()
+  const curatedExamples = await loadExamples()
 
   const entries = []
   let dropped = 0
@@ -96,7 +119,10 @@ async function main() {
     if (!translation) continue // no translation yet (unmatched, pending cleanup) → omit
     const subSource = isFix ? (d.proposedSubDefinitions ?? c.subDefinitions) : c.subDefinitions
     const subDefinitions = (subSource ?? []).map(cleanTranslation).filter(Boolean)
+    // Ambiguous cards use curated sense-specific examples (Step 15); all others keep Wiktionary's.
+    const examples = (curatedExamples.get(c.kellyId) ?? c.examples ?? []).slice(0, 2)
     entries.push({
+      kellyId: c.kellyId, // internal — stripped before the seed is written
       lemma: c.lemma,
       pos: c.pos,
       cefr: c.cefr,
@@ -104,7 +130,7 @@ async function main() {
       ...(c.ipa ? { ipa: cleanIpa(c.ipa) } : {}),
       ...(Object.keys(c.inflections).length ? { inflections: c.inflections } : {}),
       ...(subDefinitions.length ? { subDefinitions } : {}),
-      ...(c.examples?.length ? { examples: c.examples.slice(0, 2) } : {}),
+      ...(examples.length ? { examples } : {}),
       translation,
     })
   }
@@ -112,12 +138,37 @@ async function main() {
   const omitted = candidates.length - entries.length - dropped
   const finalEntries = collapseDuplicates(entries)
 
-  const seed = { version: SEED_VERSION, generatedAt: new Date().toISOString(), count: finalEntries.length, entries: finalEntries }
+  // Ambiguous = a lemma carried by more than one surviving card (e.g. fast conj/adj, val en/ett).
+  // Emit them (with kellyId) for the example-writer step; the runtime detects ambiguity live.
+  const byLemma = new Map()
+  for (const e of finalEntries) {
+    if (byLemma.has(e.lemma) === false) byLemma.set(e.lemma, [])
+    byLemma.get(e.lemma).push(e)
+  }
+  const ambiguous = []
+  for (const rows of byLemma.values()) {
+    if (rows.length < 2) continue
+    for (const e of rows)
+      ambiguous.push({
+        kellyId: e.kellyId,
+        lemma: e.lemma,
+        pos: e.pos,
+        gender: e.gender ?? null,
+        cefr: e.cefr,
+        translation: e.translation,
+        currentExamples: e.examples ?? [],
+      })
+  }
+  await writeFile(AMBIGUOUS_OUT, JSON.stringify(ambiguous, null, 2))
+
+  const seedEntries = finalEntries.map(stripKelly)
+  const seed = { version: SEED_VERSION, generatedAt: new Date().toISOString(), count: seedEntries.length, entries: seedEntries }
   const json = JSON.stringify(seed)
   await mkdir('public', { recursive: true })
   await writeFile('data/seed-sv.json', json)
   await writeFile('public/seed-sv.json', json)
-  console.log(`seed-sv.json: ${finalEntries.length} entries (dropped ${dropped}, omitted ${omitted} untranslated)`)
+  console.log(`seed-sv.json: ${seedEntries.length} entries (dropped ${dropped}, omitted ${omitted} untranslated)`)
+  console.log(`ambiguous cards: ${ambiguous.length} → ${AMBIGUOUS_OUT}`)
 }
 
 main().catch((e) => {
