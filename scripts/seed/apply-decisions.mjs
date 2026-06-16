@@ -87,9 +87,15 @@ async function main() {
       dropped++
       continue
     }
-    const translation = bareNative(c.pos, cleanTranslation(d?.proposedTranslation ?? c.translation ?? ''))
+    // Only a "fix" supplies a new translation/sub-definitions; "keep" (and entries with no
+    // decision) retain the candidate. Guards against "keep" decisions that carry an empty
+    // proposedTranslation, which would otherwise blank the entry out.
+    const isFix = d?.decision === 'fix'
+    const fixTranslation = isFix ? (d.proposedTranslation ?? '').trim() : ''
+    const translation = bareNative(c.pos, cleanTranslation(fixTranslation || c.translation || ''))
     if (!translation) continue // no translation yet (unmatched, pending cleanup) → omit
-    const subDefinitions = (d?.proposedSubDefinitions ?? c.subDefinitions ?? []).map(cleanTranslation).filter(Boolean)
+    const subSource = isFix ? (d.proposedSubDefinitions ?? c.subDefinitions) : c.subDefinitions
+    const subDefinitions = (subSource ?? []).map(cleanTranslation).filter(Boolean)
     entries.push({
       lemma: c.lemma,
       pos: c.pos,

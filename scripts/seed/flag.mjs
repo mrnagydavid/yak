@@ -22,12 +22,34 @@ function flagsFor(c) {
   return flags
 }
 
+// Two entries with the same lemma+POS and an identical primary translation are almost always a
+// homonym whose distinct senses both collapsed onto Wiktionary's first sense (en val / ett val both
+// "whale"). The gender-aware join fixes most; this flag catches whatever remains and guards against
+// regressions. Compares the primary sense only (text before the first ,/;/( , minus a leading article).
+const collisionKey = (c) =>
+  `${c.lemma} ${c.pos} ${(c.translation ?? '').toLowerCase().split(/[;,(]/)[0].replace(/^(an?|the)\s+/, '').trim()}`
+
+function collisionIds(candidates) {
+  const groups = new Map()
+  for (const c of candidates) {
+    if ((c.translation ?? '').trim() === '') continue
+    const k = collisionKey(c)
+    if (groups.has(k) === false) groups.set(k, [])
+    groups.get(k).push(c.kellyId)
+  }
+  const ids = new Set()
+  for (const grp of groups.values()) if (grp.length > 1) for (const id of grp) ids.add(id)
+  return ids
+}
+
 async function main() {
   const candidates = JSON.parse(await readFile('data/intermediate/candidates.json', 'utf-8'))
+  const collisions = collisionIds(candidates)
   const flagged = []
   const counts = {}
   for (const c of candidates) {
     const flags = flagsFor(c)
+    if (collisions.has(c.kellyId)) flags.push('homonym-collision')
     if (flags.length === 0) continue
     flagged.push({ ...c, flags })
     for (const f of flags) counts[f] = (counts[f] ?? 0) + 1

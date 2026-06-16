@@ -1,0 +1,178 @@
+[
+  {
+    "kellyId": 165,
+    "lemma": "än",
+    "decision": "keep",
+    "reason": "survivor of duplicate pair; 'than' is correct and concise",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2068,
+    "lemma": "än",
+    "decision": "drop",
+    "reason": "genuine duplicate of kellyId 165; same lemma, pos, and meaning",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4769,
+    "lemma": "avliden",
+    "decision": "keep",
+    "reason": "survivor of duplicate pair; 'deceased, dead' is correct",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7079,
+    "lemma": "avliden",
+    "decision": "drop",
+    "reason": "genuine duplicate of kellyId 4769; same lemma, pos, and meaning",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1103,
+    "lemma": "fast",
+    "decision": "keep",
+    "reason": "survivor of duplicate pair; 'even though' with subdef 'but' is correct",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1618,
+    "lemma": "fast",
+    "decision": "drop",
+    "reason": "genuine duplicate of kellyId 1103; same lemma, pos, and meaning",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6200,
+    "lemma": "fax",
+    "decision": "fix",
+    "reason": "survivor of duplicate pair; clean up article prefix and subDef artifact",
+    "proposedTranslation": "fax",
+    "proposedSubDefinitions": ["fax machine"]
+  },
+  {
+    "kellyId": 8126,
+    "lemma": "fax",
+    "decision": "drop",
+    "reason": "genuine duplicate of kellyId 6200; same meaning, gender variation is not a meaningful distinction for this loanword",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8359,
+    "lemma": "hurra",
+    "decision": "fix",
+    "reason": "survivor of duplicate pair; clean up subDef",
+    "proposedTranslation": "hooray!",
+    "proposedSubDefinitions": ["to cheer"]
+  },
+  {
+    "kellyId": 8412,
+    "lemma": "hurra",
+    "decision": "drop",
+    "reason": "genuine duplicate of kellyId 8359; same meaning, gender variation not meaningful here",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8369,
+    "lemma": "kasus",
+    "decision": "keep",
+    "reason": "survivor of duplicate pair; 'grammatical case' is correct and concise",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8380,
+    "lemma": "kasus",
+    "decision": "drop",
+    "reason": "genuine duplicate of kellyId 8369; same lemma, pos, and meaning",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6685,
+    "lemma": "kompani",
+    "decision": "fix",
+    "reason": "survivor of duplicate pair; clean up translation and subDefs — primary sense is military/business company; 'companions' sense is marginal but noted",
+    "proposedTranslation": "company",
+    "proposedSubDefinitions": ["military company", "companions, associates (archaic)"]
+  },
+  {
+    "kellyId": 8213,
+    "lemma": "kompani",
+    "decision": "drop",
+    "reason": "genuine duplicate of kellyId 6685; same meaning",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 505,
+    "lemma": "krona",
+    "decision": "fix",
+    "reason": "true homonym pair: this entry covers the headwear/royal/top sense",
+    "proposedTranslation": "crown",
+    "proposedSubDefinitions": ["the Crown (state, government)"]
+  },
+  {
+    "kellyId": 1010,
+    "lemma": "krona",
+    "decision": "fix",
+    "reason": "true homonym pair: this entry covers the currency sense",
+    "proposedTranslation": "krona (Swedish currency)",
+    "proposedSubDefinitions": ["krone (Danish/Norwegian currency)"]
+  },
+  {
+    "kellyId": 834,
+    "lemma": "minut",
+    "decision": "keep",
+    "reason": "survivor of duplicate pair; 'minute' is correct",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4047,
+    "lemma": "minut",
+    "decision": "drop",
+    "reason": "genuine duplicate of kellyId 834; same lemma, pos, and meaning",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4456,
+    "lemma": "sökande",
+    "decision": "fix",
+    "reason": "true homonym: en sökande is the person (applicant); distinct from the neuter act-of-searching sense",
+    "proposedTranslation": "applicant, candidate",
+    "proposedSubDefinitions": ["claimant"]
+  },
+  {
+    "kellyId": 4471,
+    "lemma": "sökande",
+    "decision": "fix",
+    "reason": "true homonym: ett sökande is the act of searching/seeking; distinct from the common-gender person sense",
+    "proposedTranslation": "search, seeking",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8078,
+    "lemma": "spann",
+    "decision": "fix",
+    "reason": "true homonym: en spann = span (distance/bridge) or team of animals; candidateTranslation was a parse artifact 'a'",
+    "proposedTranslation": "span; team (of horses)",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8093,
+    "lemma": "spann",
+    "decision": "fix",
+    "reason": "true homonym: ett spann = bucket/pail; candidateTranslation was a parse artifact 'a'",
+    "proposedTranslation": "bucket, pail",
+    "proposedSubDefinitions": []
+  }
+]

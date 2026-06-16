@@ -28,6 +28,20 @@ function normPos(pos) {
   return map[pos] ?? 'other'
 }
 
+// Swedish gender from wiktextract: en (common) / ett (neuter). Sense tags are most reliable;
+// head_templates ("val c" / "val n") are the fallback. Homonyms are split per etymology, so each
+// object carries its own gender — used downstream to disambiguate en val "whale" from ett val
+// "choice". Returns undefined when no gender signal (non-noun, or undocumented).
+function wikGender(o) {
+  const tags = (o.senses ?? []).flatMap((s) => s.tags ?? [])
+  if (tags.includes('neuter')) return 'ett'
+  if (tags.includes('common-gender') || tags.includes('common')) return 'en'
+  const head = (o.head_templates ?? []).map((h) => h.expansion ?? '').join(' ')
+  if (/\bn\b/.test(head)) return 'ett'
+  if (/\b[cmf]\b/.test(head)) return 'en'
+  return undefined
+}
+
 // Drop wiktextract meta/error forms; keep real inflected forms.
 const SKIP_TAGS = new Set(['table-tags', 'inflection-template', 'class'])
 function keepForm(f) {
@@ -86,7 +100,7 @@ async function main() {
       .slice(0, 2)
     const forms = (o.forms ?? []).filter(keepForm).map((f) => ({ form: f.form, tags: f.tags }))
     const ipa = (o.sounds ?? []).map((s) => s.ipa).filter(Boolean)[0]
-    ;(out[word] ??= []).push({ pos: normPos(o.pos), glosses, formOf, forms, ipa, examples })
+    ;(out[word] ??= []).push({ pos: normPos(o.pos), gender: wikGender(o), glosses, formOf, forms, ipa, examples })
   }
 
   await writeFile(OUT, JSON.stringify(out))

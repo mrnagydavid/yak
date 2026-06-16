@@ -70,9 +70,14 @@ async function main() {
   const candidates = kelly.map((k) => {
     const all = wik[k.lemma] ?? []
     const exact = all.filter((w) => w.pos === k.pos)
+    // Nouns: Kelly's authoritative gender (en/ett) disambiguates homonyms that Wiktionary splits
+    // per etymology (en val "whale" vs ett val "choice"). Prefer the gender-matching objects for
+    // translation, forms, IPA and examples; fall back to all exact-POS objects when there's no match.
+    const genderMatch = k.pos === 'noun' && k.gender ? exact.filter((w) => w.gender === k.gender) : []
+    const preferred = genderMatch.length ? genderMatch : exact
     // Translation/IPA/examples may fall back to any POS (Kelly's POS taxonomy is coarser);
     // inflections only come from an exact POS match to avoid wrong forms.
-    const wiks = exact.length ? exact : all
+    const wiks = preferred.length ? preferred : all
     const glosses = [...new Set(wiks.flatMap((w) => w.glosses).map(clean).filter(Boolean))]
     // Primary translation = the first sub-sense of the first gloss (split on ';', which
     // separates distinct senses; ',' separates synonyms and stays), with trailing/inline
@@ -84,7 +89,7 @@ async function main() {
     const stripped = (senses[0] ?? '').split('(')[0].replace(/\s+/g, ' ').replace(/[\s.,;:]+$/, '').trim()
     const primary = stripped || senses[0]
     const subDefinitions = [...senses.slice(1), ...glosses.slice(1)].slice(0, 4)
-    const forms = exact[0]?.forms ?? []
+    const forms = preferred[0]?.forms ?? []
     return {
       kellyId: k.kellyId,
       lemma: k.lemma,
