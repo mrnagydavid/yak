@@ -1,4 +1,27 @@
 {
+  "seed": {
+    "kelly": {
+      "name": "Swedish Kelly-list",
+      "source": "Språkbanken Text (University of Gothenburg)",
+      "url": "https://svn.spraakbanken.gu.se/sb-arkiv/pub/lmf/kelly/kelly.xml",
+      "license": "CC-BY-4.0",
+      "usedFor": "word list, CEFR level, word class, gender (scripts/seed/fetch-kelly.mjs)"
+    },
+    "kaikki": {
+      "name": "kaikki.org Swedish extract (wiktextract of en.wiktionary)",
+      "url": "https://kaikki.org/dictionary/Swedish/kaikki.org-dictionary-Swedish.jsonl",
+      "enwiktionaryDump": "2026-06-01",
+      "license": "CC-BY-SA",
+      "usedFor": "translations (glosses), inflection forms, IPA, examples (scripts/seed/fetch-wiktionary.mjs)"
+    },
+    "ipaDict": {
+      "repo": "open-dict-data/ipa-dict",
+      "commitHash": "43c3570eb3553bdd19fccd2bd0091534889af023",
+      "usedFor": "IPA fallback during seed build (scripts/seed/join.mjs)"
+    },
+    "cleanup": "Targeted: heuristic flags (scripts/seed/flag.mjs) → seed-cleaner subagent (.claude/agents/seed-cleaner.md) on flagged entries only",
+    "output": "data/seed-sv.json (committed), public/seed-sv.json (served)"
+  },
   "ipaDict": {
     "repo": "open-dict-data/ipa-dict",
     "commitHash": "43c3570eb3553bdd19fccd2bd0091534889af023",

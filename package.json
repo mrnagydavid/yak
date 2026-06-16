@@ -12,7 +12,12 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "oxlint src/",
-    "test": "vitest"
+    "test": "vitest",
+    "seed:fetch": "node scripts/seed/fetch-kelly.mjs && node scripts/seed/fetch-wiktionary.mjs",
+    "seed:join": "node scripts/seed/join.mjs && node scripts/seed/flag.mjs",
+    "seed:batch": "node scripts/seed/batch-for-cleanup.mjs",
+    "seed:apply": "node scripts/seed/apply-decisions.mjs",
+    "seed:build": "pnpm seed:fetch && pnpm seed:join && pnpm seed:apply"
   },
   "pnpm": {
     "onlyBuiltDependencies": [

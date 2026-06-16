@@ -105,7 +105,7 @@ export function WordDetail({ id }: { id?: string }) {
   const inflections = renderer.renderInflections(entry)
   const features = renderer.renderFeatures(entry)
   const ipa = renderer.showIpa ? entry.pronunciation.ipa : undefined
-  const examples = overlay?.customExamples ?? []
+  const examples = [...(entry.examples ?? []), ...(overlay?.customExamples ?? [])]
   const translationLang = natives[0]?.lang ?? 'en'
 
   async function runPending() {

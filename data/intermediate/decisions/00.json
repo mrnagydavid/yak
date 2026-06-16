@@ -1,0 +1,858 @@
+[
+  {
+    "kellyId": 22,
+    "lemma": "hela",
+    "decision": "fix",
+    "reason": "candidate was 'inflection of hel'; primary sense of hela is the definite/plural of hel = whole",
+    "proposedTranslation": "whole, the whole",
+    "proposedSubDefinitions": ["to heal"]
+  },
+  {
+    "kellyId": 31,
+    "lemma": "känsel",
+    "decision": "fix",
+    "reason": "shorten definition-like gloss to core",
+    "proposedTranslation": "touch, sense of touch"
+  },
+  {
+    "kellyId": 35,
+    "lemma": "milligram",
+    "decision": "fix",
+    "reason": "missing translation; direct cognate",
+    "proposedTranslation": "milligram"
+  },
+  {
+    "kellyId": 38,
+    "lemma": "månadsskifte",
+    "decision": "fix",
+    "reason": "shorten; refers to the changeover between months",
+    "proposedTranslation": "turn of the month"
+  },
+  {
+    "kellyId": 78,
+    "lemma": "utbildningsminister",
+    "decision": "fix",
+    "reason": "drop article",
+    "proposedTranslation": "minister of education"
+  },
+  {
+    "kellyId": 101,
+    "lemma": "skola",
+    "decision": "fix",
+    "reason": "over-long glued senses; core auxiliary meaning is future/intention",
+    "proposedTranslation": "shall, will, be going to",
+    "proposedSubDefinitions": ["to school, to train"]
+  },
+  {
+    "kellyId": 115,
+    "lemma": "de",
+    "decision": "fix",
+    "reason": "over-long grammatical note; core senses are the plural pronoun and the definite article",
+    "proposedTranslation": "they",
+    "proposedSubDefinitions": ["the (plural definite article)"]
+  },
+  {
+    "kellyId": 119,
+    "lemma": "sig",
+    "decision": "fix",
+    "reason": "reflexive pronoun; give concise reflexive forms",
+    "proposedTranslation": "himself, herself, itself, themselves"
+  },
+  {
+    "kellyId": 120,
+    "lemma": "han",
+    "decision": "fix",
+    "reason": "strip grammatical description",
+    "proposedTranslation": "he"
+  },
+  {
+    "kellyId": 184,
+    "lemma": "ju",
+    "decision": "fix",
+    "reason": "over-long; concise gloss of the discourse particle",
+    "proposedTranslation": "you know, of course, after all",
+    "proposedSubDefinitions": ["ju ... desto: the ... the (in comparisons)"]
+  },
+  {
+    "kellyId": 186,
+    "lemma": "te sig",
+    "decision": "fix",
+    "reason": "missing translation; reflexive expression",
+    "proposedTranslation": "to appear, to seem"
+  },
+  {
+    "kellyId": 191,
+    "lemma": "själv",
+    "decision": "fix",
+    "reason": "trim list to core meaning",
+    "proposedTranslation": "oneself, self, by oneself"
+  },
+  {
+    "kellyId": 239,
+    "lemma": "värld",
+    "decision": "fix",
+    "reason": "strip parenthetical definition",
+    "proposedTranslation": "world"
+  },
+  {
+    "kellyId": 242,
+    "lemma": "egen",
+    "decision": "fix",
+    "reason": "primary sense is possessive 'own'; candidate listed only secondary senses",
+    "proposedTranslation": "own",
+    "proposedSubDefinitions": ["peculiar, odd, eccentric"]
+  },
+  {
+    "kellyId": 269,
+    "lemma": "anse",
+    "decision": "fix",
+    "reason": "trim to core",
+    "proposedTranslation": "to consider, to think, to regard"
+  },
+  {
+    "kellyId": 270,
+    "lemma": "öva",
+    "decision": "fix",
+    "reason": "trim to core",
+    "proposedTranslation": "to practice, to train"
+  },
+  {
+    "kellyId": 287,
+    "lemma": "hos",
+    "decision": "fix",
+    "reason": "over-long; concise prepositional gloss",
+    "proposedTranslation": "at (someone's place), with"
+  },
+  {
+    "kellyId": 296,
+    "lemma": "ur",
+    "decision": "keep",
+    "reason": "'out of' is already concise and correct"
+  },
+  {
+    "kellyId": 321,
+    "lemma": "så att",
+    "decision": "keep",
+    "reason": "'so that' is concise and correct"
+  },
+  {
+    "kellyId": 331,
+    "lemma": "dessutom",
+    "decision": "fix",
+    "reason": "trim synonym list to ~3",
+    "proposedTranslation": "besides, moreover, in addition"
+  },
+  {
+    "kellyId": 347,
+    "lemma": "ställa",
+    "decision": "fix",
+    "reason": "shorten definition-like gloss to core",
+    "proposedTranslation": "to place (upright), to put, to set"
+  },
+  {
+    "kellyId": 375,
+    "lemma": "även om",
+    "decision": "fix",
+    "reason": "missing translation; multi-word conjunction",
+    "proposedTranslation": "even though, although"
+  },
+  {
+    "kellyId": 406,
+    "lemma": "åta sig",
+    "decision": "fix",
+    "reason": "missing translation; reflexive expression",
+    "proposedTranslation": "to take on, to undertake"
+  },
+  {
+    "kellyId": 426,
+    "lemma": "en",
+    "decision": "fix",
+    "reason": "object form of indefinite pronoun man; concise gloss",
+    "proposedTranslation": "one, you"
+  },
+  {
+    "kellyId": 442,
+    "lemma": "samtidigt",
+    "decision": "fix",
+    "reason": "trim synonyms",
+    "proposedTranslation": "at the same time, simultaneously"
+  },
+  {
+    "kellyId": 447,
+    "lemma": "åka",
+    "decision": "fix",
+    "reason": "collapse glued senses to core",
+    "proposedTranslation": "to go, to travel, to ride"
+  },
+  {
+    "kellyId": 461,
+    "lemma": "när det gäller",
+    "decision": "fix",
+    "reason": "missing translation; multi-word expression",
+    "proposedTranslation": "when it comes to, regarding"
+  },
+  {
+    "kellyId": 462,
+    "lemma": "på grund av",
+    "decision": "keep",
+    "reason": "'because of' is concise and correct"
+  },
+  {
+    "kellyId": 467,
+    "lemma": "råd",
+    "decision": "fix",
+    "reason": "trim to core",
+    "proposedTranslation": "advice, counsel",
+    "proposedSubDefinitions": ["means, ability to afford", "a council, board"]
+  },
+  {
+    "kellyId": 470,
+    "lemma": "social",
+    "decision": "fix",
+    "reason": "strip parenthetical",
+    "proposedTranslation": "social"
+  },
+  {
+    "kellyId": 473,
+    "lemma": "system",
+    "decision": "fix",
+    "reason": "strip definition tail",
+    "proposedTranslation": "system"
+  },
+  {
+    "kellyId": 479,
+    "lemma": "riksdag",
+    "decision": "fix",
+    "reason": "primary sense is the parliament itself, not a session",
+    "proposedTranslation": "parliament"
+  },
+  {
+    "kellyId": 506,
+    "lemma": "stämma",
+    "decision": "fix",
+    "reason": "trim to core",
+    "proposedTranslation": "to be correct, to agree, to tally",
+    "proposedSubDefinitions": ["to tune (an instrument)", "to summon, to sue"]
+  },
+  {
+    "kellyId": 510,
+    "lemma": "efter att",
+    "decision": "fix",
+    "reason": "missing translation; multi-word conjunction",
+    "proposedTranslation": "after"
+  },
+  {
+    "kellyId": 548,
+    "lemma": "rad",
+    "decision": "fix",
+    "reason": "candidate was 'abbreviation of radian'; primary everyday sense is row/line",
+    "proposedTranslation": "row, line",
+    "proposedSubDefinitions": ["a (short) written note"]
+  },
+  {
+    "kellyId": 582,
+    "lemma": "fin",
+    "decision": "fix",
+    "reason": "collapse glued senses",
+    "proposedTranslation": "nice, fine, pretty"
+  },
+  {
+    "kellyId": 583,
+    "lemma": "genomföra",
+    "decision": "fix",
+    "reason": "trim synonyms; add 'to' for verb",
+    "proposedTranslation": "to carry out, to accomplish, to complete"
+  },
+  {
+    "kellyId": 584,
+    "lemma": "liksom",
+    "decision": "keep",
+    "reason": "'sort of, kind of' is concise and correct"
+  },
+  {
+    "kellyId": 587,
+    "lemma": "dom",
+    "decision": "fix",
+    "reason": "primary legal sense; trim",
+    "proposedTranslation": "verdict, judgement, sentence",
+    "proposedSubDefinitions": ["cathedral (dome)"]
+  },
+  {
+    "kellyId": 645,
+    "lemma": "be",
+    "decision": "fix",
+    "reason": "trim to core",
+    "proposedTranslation": "to ask, to request",
+    "proposedSubDefinitions": ["to pray", "to beg, to plead"]
+  },
+  {
+    "kellyId": 653,
+    "lemma": "trots att",
+    "decision": "fix",
+    "reason": "missing translation; multi-word conjunction",
+    "proposedTranslation": "even though, despite the fact that"
+  },
+  {
+    "kellyId": 702,
+    "lemma": "som att",
+    "decision": "fix",
+    "reason": "missing translation; multi-word expression",
+    "proposedTranslation": "as if, like"
+  },
+  {
+    "kellyId": 730,
+    "lemma": "medlemsstat",
+    "decision": "fix",
+    "reason": "strip definition tail",
+    "proposedTranslation": "member state"
+  },
+  {
+    "kellyId": 784,
+    "lemma": "ingå",
+    "decision": "fix",
+    "reason": "trim to core",
+    "proposedTranslation": "to be included, to be part of",
+    "proposedSubDefinitions": ["to enter into (an agreement, marriage)"]
+  },
+  {
+    "kellyId": 808,
+    "lemma": "resa",
+    "decision": "fix",
+    "reason": "candidate definition-like; core is trip/journey",
+    "proposedTranslation": "trip, journey, voyage"
+  },
+  {
+    "kellyId": 846,
+    "lemma": "borgare",
+    "decision": "fix",
+    "reason": "trim to core",
+    "proposedTranslation": "bourgeois, citizen, townsman",
+    "proposedSubDefinitions": ["non-socialist (in politics)"]
+  },
+  {
+    "kellyId": 855,
+    "lemma": "ris",
+    "decision": "fix",
+    "reason": "most common modern sense is rice; candidate gave only the twig/shrub sense",
+    "proposedTranslation": "rice",
+    "proposedSubDefinitions": ["twigs, brushwood", "negative criticism, flak"]
+  },
+  {
+    "kellyId": 868,
+    "lemma": "istället för",
+    "decision": "fix",
+    "reason": "missing translation; multi-word expression",
+    "proposedTranslation": "instead of"
+  },
+  {
+    "kellyId": 870,
+    "lemma": "utföra",
+    "decision": "fix",
+    "reason": "trim synonyms",
+    "proposedTranslation": "to perform, to carry out, to execute"
+  },
+  {
+    "kellyId": 883,
+    "lemma": "president",
+    "decision": "fix",
+    "reason": "primary modern sense is head of state; candidate gave the chairman sense first",
+    "proposedTranslation": "president"
+  },
+  {
+    "kellyId": 889,
+    "lemma": "sök",
+    "decision": "fix",
+    "reason": "candidate was 'imperative of söka'; as a noun sök means search",
+    "proposedTranslation": "search"
+  },
+  {
+    "kellyId": 913,
+    "lemma": "i samband med",
+    "decision": "fix",
+    "reason": "missing translation; multi-word expression",
+    "proposedTranslation": "in connection with"
+  },
+  {
+    "kellyId": 946,
+    "lemma": "trevlig",
+    "decision": "fix",
+    "reason": "shorten definition-like gloss",
+    "proposedTranslation": "nice, pleasant"
+  },
+  {
+    "kellyId": 954,
+    "lemma": "bedömning",
+    "decision": "fix",
+    "reason": "trim synonyms",
+    "proposedTranslation": "assessment, judgement, evaluation"
+  },
+  {
+    "kellyId": 971,
+    "lemma": "domstol",
+    "decision": "fix",
+    "reason": "shorten redundant phrasing",
+    "proposedTranslation": "court, court of law"
+  },
+  {
+    "kellyId": 976,
+    "lemma": "sekvens",
+    "decision": "fix",
+    "reason": "missing translation; cognate",
+    "proposedTranslation": "sequence"
+  },
+  {
+    "kellyId": 979,
+    "lemma": "nyhet",
+    "decision": "fix",
+    "reason": "shorten; core senses news and novelty",
+    "proposedTranslation": "news, piece of news",
+    "proposedSubDefinitions": ["a novelty, something new"]
+  },
+  {
+    "kellyId": 995,
+    "lemma": "global",
+    "decision": "fix",
+    "reason": "strip definition tail",
+    "proposedTranslation": "global"
+  },
+  {
+    "kellyId": 1006,
+    "lemma": "central",
+    "decision": "fix",
+    "reason": "trim",
+    "proposedTranslation": "central"
+  },
+  {
+    "kellyId": 1018,
+    "lemma": "allra",
+    "decision": "fix",
+    "reason": "concise gloss of the superlative intensifier",
+    "proposedTranslation": "(the) very, most of all"
+  },
+  {
+    "kellyId": 1035,
+    "lemma": "täcka",
+    "decision": "fix",
+    "reason": "strip parenthetical particle note",
+    "proposedTranslation": "to cover"
+  },
+  {
+    "kellyId": 1046,
+    "lemma": "varkeneller",
+    "decision": "fix",
+    "reason": "mangled 'varken ... eller'",
+    "proposedTranslation": "neither ... nor"
+  },
+  {
+    "kellyId": 1056,
+    "lemma": "lön",
+    "decision": "fix",
+    "reason": "most common everyday sense is salary/wage; candidate gave 'reward' first",
+    "proposedTranslation": "salary, wage, pay",
+    "proposedSubDefinitions": ["reward"]
+  },
+  {
+    "kellyId": 1062,
+    "lemma": "teknisk",
+    "decision": "fix",
+    "reason": "collapse glued senses",
+    "proposedTranslation": "technical, technological"
+  },
+  {
+    "kellyId": 1074,
+    "lemma": "inte minst",
+    "decision": "fix",
+    "reason": "missing translation; multi-word expression",
+    "proposedTranslation": "not least, especially"
+  },
+  {
+    "kellyId": 1084,
+    "lemma": "utnyttja",
+    "decision": "fix",
+    "reason": "trim to core",
+    "proposedTranslation": "to use, to take advantage of, to exploit"
+  },
+  {
+    "kellyId": 1092,
+    "lemma": "modell",
+    "decision": "fix",
+    "reason": "strip definition tail",
+    "proposedTranslation": "model"
+  },
+  {
+    "kellyId": 1110,
+    "lemma": "oavsett",
+    "decision": "fix",
+    "reason": "shorten; 'regardless of' is the natural primary",
+    "proposedTranslation": "regardless of, irrespective of"
+  },
+  {
+    "kellyId": 1113,
+    "lemma": "moderat",
+    "decision": "fix",
+    "reason": "over-long; common adjective sense is 'moderate'",
+    "proposedTranslation": "moderate",
+    "proposedSubDefinitions": ["a member of the Moderate Party (Swedish politics)"]
+  },
+  {
+    "kellyId": 1130,
+    "lemma": "i form av",
+    "decision": "fix",
+    "reason": "missing translation; multi-word expression",
+    "proposedTranslation": "in the form of"
+  },
+  {
+    "kellyId": 1140,
+    "lemma": "antingeneller",
+    "decision": "fix",
+    "reason": "mangled 'antingen ... eller'",
+    "proposedTranslation": "either ... or"
+  },
+  {
+    "kellyId": 1151,
+    "lemma": "vad gäller",
+    "decision": "fix",
+    "reason": "missing translation; multi-word expression",
+    "proposedTranslation": "as regards, concerning"
+  },
+  {
+    "kellyId": 1157,
+    "lemma": "samtlig",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "all, every (one of)"
+  },
+  {
+    "kellyId": 1204,
+    "lemma": "hindra",
+    "decision": "fix",
+    "reason": "trim synonyms",
+    "proposedTranslation": "to prevent, to hinder, to impede"
+  },
+  {
+    "kellyId": 1207,
+    "lemma": "allvar",
+    "decision": "fix",
+    "reason": "trim",
+    "proposedTranslation": "seriousness, earnestness"
+  },
+  {
+    "kellyId": 1214,
+    "lemma": "hittills",
+    "decision": "fix",
+    "reason": "trim synonyms",
+    "proposedTranslation": "so far, until now"
+  },
+  {
+    "kellyId": 1216,
+    "lemma": "position",
+    "decision": "fix",
+    "reason": "strip definition tail",
+    "proposedTranslation": "position, location"
+  },
+  {
+    "kellyId": 1244,
+    "lemma": "orka",
+    "decision": "fix",
+    "reason": "definition-like; concise idiomatic gloss",
+    "proposedTranslation": "to have the energy/strength (to)"
+  },
+  {
+    "kellyId": 1261,
+    "lemma": "sköta",
+    "decision": "fix",
+    "reason": "trim to core",
+    "proposedTranslation": "to manage, to take care of, to handle",
+    "proposedSubDefinitions": ["sköta sig: to behave"]
+  },
+  {
+    "kellyId": 1264,
+    "lemma": "framgå",
+    "decision": "fix",
+    "reason": "definition-like; concise gloss",
+    "proposedTranslation": "to be evident, to be clear (from)"
+  },
+  {
+    "kellyId": 1274,
+    "lemma": "visserligen",
+    "decision": "fix",
+    "reason": "strip grammatical note",
+    "proposedTranslation": "admittedly, to be sure, certainly"
+  },
+  {
+    "kellyId": 1286,
+    "lemma": "med hjälp av",
+    "decision": "fix",
+    "reason": "missing translation; multi-word expression",
+    "proposedTranslation": "with the help of"
+  },
+  {
+    "kellyId": 1299,
+    "lemma": "för övrigt",
+    "decision": "fix",
+    "reason": "missing translation; multi-word expression",
+    "proposedTranslation": "by the way, incidentally"
+  },
+  {
+    "kellyId": 1303,
+    "lemma": "serie",
+    "decision": "fix",
+    "reason": "shorten; core is series",
+    "proposedTranslation": "series, sequence",
+    "proposedSubDefinitions": ["comic strip", "league (sports)"]
+  },
+  {
+    "kellyId": 1310,
+    "lemma": "tiga",
+    "decision": "fix",
+    "reason": "trim to core",
+    "proposedTranslation": "to keep silent, to stay silent"
+  },
+  {
+    "kellyId": 1341,
+    "lemma": "framtida",
+    "decision": "fix",
+    "reason": "definition-like; concise adjective",
+    "proposedTranslation": "future"
+  },
+  {
+    "kellyId": 1359,
+    "lemma": "med tanke på",
+    "decision": "fix",
+    "reason": "missing translation; multi-word expression",
+    "proposedTranslation": "considering, in view of"
+  },
+  {
+    "kellyId": 1369,
+    "lemma": "i början",
+    "decision": "fix",
+    "reason": "missing translation; multi-word expression",
+    "proposedTranslation": "in the beginning, at first"
+  },
+  {
+    "kellyId": 1376,
+    "lemma": "an",
+    "decision": "fix",
+    "reason": "over-long grammatical note; verb particle with no standalone English word, glossed by direction",
+    "proposedTranslation": "on, towards (verb particle)"
+  },
+  {
+    "kellyId": 1380,
+    "lemma": "i enlighet med",
+    "decision": "fix",
+    "reason": "missing translation; multi-word expression",
+    "proposedTranslation": "in accordance with"
+  },
+  {
+    "kellyId": 1396,
+    "lemma": "tusentals",
+    "decision": "keep",
+    "reason": "'thousands of' is concise and correct"
+  },
+  {
+    "kellyId": 1420,
+    "lemma": "redovisa",
+    "decision": "fix",
+    "reason": "trim synonyms; core is reporting/accounting for",
+    "proposedTranslation": "to report, to account for, to present"
+  },
+  {
+    "kellyId": 1424,
+    "lemma": "störa",
+    "decision": "fix",
+    "reason": "trim to core",
+    "proposedTranslation": "to disturb, to interrupt, to bother"
+  },
+  {
+    "kellyId": 1425,
+    "lemma": "ihåg",
+    "decision": "fix",
+    "reason": "only occurs in komma ihåg; gloss by that meaning",
+    "proposedTranslation": "(komma ihåg) to remember"
+  },
+  {
+    "kellyId": 1429,
+    "lemma": "knappt",
+    "decision": "fix",
+    "reason": "trim synonyms",
+    "proposedTranslation": "hardly, barely, scarcely"
+  },
+  {
+    "kellyId": 1459,
+    "lemma": "skrift",
+    "decision": "fix",
+    "reason": "trim to core",
+    "proposedTranslation": "writing, text, document"
+  },
+  {
+    "kellyId": 1463,
+    "lemma": "i slutet",
+    "decision": "fix",
+    "reason": "missing translation; multi-word expression",
+    "proposedTranslation": "at the end, in the end"
+  },
+  {
+    "kellyId": 1486,
+    "lemma": "reda",
+    "decision": "fix",
+    "reason": "shorten; core is order/orderliness (often reda ut, reda på)",
+    "proposedTranslation": "order, orderliness"
+  },
+  {
+    "kellyId": 1510,
+    "lemma": "ana",
+    "decision": "fix",
+    "reason": "definition-like; concise gloss",
+    "proposedTranslation": "to sense, to suspect, to have a feeling"
+  },
+  {
+    "kellyId": 1524,
+    "lemma": "bostad",
+    "decision": "fix",
+    "reason": "trim synonyms",
+    "proposedTranslation": "home, residence, dwelling"
+  },
+  {
+    "kellyId": 1568,
+    "lemma": "som vanligt",
+    "decision": "fix",
+    "reason": "missing translation; multi-word expression",
+    "proposedTranslation": "as usual"
+  },
+  {
+    "kellyId": 1573,
+    "lemma": "i övrigt",
+    "decision": "fix",
+    "reason": "missing translation; multi-word expression",
+    "proposedTranslation": "otherwise, for the rest"
+  },
+  {
+    "kellyId": 1584,
+    "lemma": "i fråga om",
+    "decision": "fix",
+    "reason": "missing translation; multi-word expression",
+    "proposedTranslation": "with regard to, in terms of"
+  },
+  {
+    "kellyId": 1592,
+    "lemma": "undersöka",
+    "decision": "fix",
+    "reason": "trim synonyms",
+    "proposedTranslation": "to investigate, to examine, to explore"
+  },
+  {
+    "kellyId": 1601,
+    "lemma": "trupp",
+    "decision": "fix",
+    "reason": "shorten; core is troop/squad",
+    "proposedTranslation": "troop, squad",
+    "proposedSubDefinitions": ["squad, team (of athletes)"]
+  },
+  {
+    "kellyId": 1602,
+    "lemma": "vart",
+    "decision": "fix",
+    "reason": "trim; core is directional 'where (to)'",
+    "proposedTranslation": "where (to), whither"
+  },
+  {
+    "kellyId": 1620,
+    "lemma": "förordning",
+    "decision": "fix",
+    "reason": "trim synonyms",
+    "proposedTranslation": "ordinance, regulation, decree"
+  },
+  {
+    "kellyId": 1639,
+    "lemma": "förbund",
+    "decision": "fix",
+    "reason": "trim synonyms",
+    "proposedTranslation": "union, federation, association"
+  },
+  {
+    "kellyId": 1671,
+    "lemma": "tack vare",
+    "decision": "fix",
+    "reason": "strip connotation note",
+    "proposedTranslation": "thanks to"
+  },
+  {
+    "kellyId": 1691,
+    "lemma": "inträffa",
+    "decision": "fix",
+    "reason": "strip qualifier",
+    "proposedTranslation": "to happen, to occur"
+  },
+  {
+    "kellyId": 1703,
+    "lemma": "framhålla",
+    "decision": "fix",
+    "reason": "trim synonyms",
+    "proposedTranslation": "to emphasize, to stress, to point out"
+  },
+  {
+    "kellyId": 1737,
+    "lemma": "butik",
+    "decision": "fix",
+    "reason": "shorten definition-like gloss",
+    "proposedTranslation": "shop, store"
+  },
+  {
+    "kellyId": 1760,
+    "lemma": "visa",
+    "decision": "fix",
+    "reason": "shorten; core noun sense is song/ballad",
+    "proposedTranslation": "song, ballad, tune"
+  },
+  {
+    "kellyId": 1765,
+    "lemma": "engagemang",
+    "decision": "fix",
+    "reason": "trim synonyms",
+    "proposedTranslation": "commitment, involvement, dedication"
+  },
+  {
+    "kellyId": 1781,
+    "lemma": "i allmänhet",
+    "decision": "fix",
+    "reason": "missing translation; multi-word expression",
+    "proposedTranslation": "in general, generally"
+  },
+  {
+    "kellyId": 1795,
+    "lemma": "lycklig",
+    "decision": "fix",
+    "reason": "collapse glued senses",
+    "proposedTranslation": "happy",
+    "proposedSubDefinitions": ["lucky, fortunate"]
+  },
+  {
+    "kellyId": 1813,
+    "lemma": "beroende på",
+    "decision": "fix",
+    "reason": "missing translation; multi-word expression",
+    "proposedTranslation": "depending on"
+  },
+  {
+    "kellyId": 1856,
+    "lemma": "bransch",
+    "decision": "fix",
+    "reason": "trim to core",
+    "proposedTranslation": "industry, trade, sector"
+  },
+  {
+    "kellyId": 1861,
+    "lemma": "ordna",
+    "decision": "fix",
+    "reason": "trim synonyms",
+    "proposedTranslation": "to arrange, to organize, to sort out"
+  },
+  {
+    "kellyId": 1864,
+    "lemma": "gård",
+    "decision": "fix",
+    "reason": "over-long; core senses farm and yard",
+    "proposedTranslation": "farm, farmstead",
+    "proposedSubDefinitions": ["yard, courtyard"]
+  }
+]

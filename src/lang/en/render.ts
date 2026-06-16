@@ -11,13 +11,16 @@ export const enRenderer: LanguageRenderer = {
   showIpa: false, // English is the native language — no IPA in display (SPEC §5.1)
 
   renderLemma(entry: Entry): string {
-    if (entry.pos === 'verb') return `to ${entry.lemma}`
+    const lemma = entry.lemma
+    if (entry.pos === 'verb') return /^to\s/i.test(lemma) ? lemma : `to ${lemma}`
     if (entry.pos === 'noun') {
       // Uncountable nouns take no article (e.g. "water", not "a water").
-      if (entry.features.countable === 'no') return entry.lemma
-      return `${indefiniteArticle(entry.lemma)} ${entry.lemma}`
+      if (entry.features.countable === 'no') return lemma
+      // Don't double up if the translation already carries an article.
+      if (/^(an?|the)\s/i.test(lemma)) return lemma
+      return `${indefiniteArticle(lemma)} ${lemma}`
     }
-    return entry.lemma
+    return lemma
   },
 
   renderInflections(entry: Entry): InflectionDisplay {

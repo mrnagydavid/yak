@@ -1,0 +1,154 @@
+[
+  {
+    "kellyId": 175,
+    "lemma": "mycket",
+    "decision": "fix",
+    "reason": "missing translation; critical A1 word",
+    "proposedTranslation": "much, a lot; very",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 659,
+    "lemma": "eget",
+    "decision": "fix",
+    "reason": "form-of-suspect; candidate reflects odd/peculiar sense of 'egen' but the neuter form 'eget' is primarily used as 'own / one's own'",
+    "proposedTranslation": "own; one's own",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2187,
+    "lemma": "likt",
+    "decision": "fix",
+    "reason": "form-of-suspect; candidate is the noun 'lik' (corpse); 'likt' as adv/prep is the neuter/adverbial form of 'lik' meaning 'like, alike, similarly'",
+    "proposedTranslation": "like, alike, similarly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3285,
+    "lemma": "slutändan",
+    "decision": "fix",
+    "reason": "missing translation; definite form of 'slutända', used in 'i slutändan' = 'in the end'",
+    "proposedTranslation": "the end (final outcome)",
+    "proposedSubDefinitions": ["in the end (i slutändan)"]
+  },
+  {
+    "kellyId": 3327,
+    "lemma": "tes",
+    "decision": "fix",
+    "reason": "over-long; trim to core translation with distinct sense as subDefinition",
+    "proposedTranslation": "thesis, claim",
+    "proposedSubDefinitions": ["hypothesis, theory"]
+  },
+  {
+    "kellyId": 3432,
+    "lemma": "inlagd",
+    "decision": "fix",
+    "reason": "missing translation; two distinct senses",
+    "proposedTranslation": "pickled",
+    "proposedSubDefinitions": ["admitted (to hospital)"]
+  },
+  {
+    "kellyId": 3559,
+    "lemma": "hemskt",
+    "decision": "fix",
+    "reason": "form-of-suspect; candidate is adjective list; as adverb 'hemskt' means terribly/awfully",
+    "proposedTranslation": "terribly, awfully",
+    "proposedSubDefinitions": ["(adj neuter) terrible, awful"]
+  },
+  {
+    "kellyId": 4065,
+    "lemma": "lokalt",
+    "decision": "fix",
+    "reason": "form-of-suspect; candidate is the noun 'lokal' definition; 'lokalt' as adverb means locally",
+    "proposedTranslation": "locally; local",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4379,
+    "lemma": "socialt",
+    "decision": "fix",
+    "reason": "form-of-suspect; candidate is definition-like; trim to concise adverb form",
+    "proposedTranslation": "socially; social",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5824,
+    "lemma": "sankt",
+    "decision": "fix",
+    "reason": "missing translation; adjective sense (neuter of 'sank'), not the title 'Saint'",
+    "proposedTranslation": "sunken; marshy, boggy",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5917,
+    "lemma": "förvånansvärt",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "surprisingly; remarkably",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7478,
+    "lemma": "vidareutveckling",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "further development",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7716,
+    "lemma": "blixtsnabbt",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "lightning-fast, in a flash",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7796,
+    "lemma": "avskedande",
+    "decision": "fix",
+    "reason": "form-of-suspect; candidate is a verb phrase; 'avskedande' as noun means dismissal/firing",
+    "proposedTranslation": "dismissal, firing",
+    "proposedSubDefinitions": ["redundancy (layoff)"]
+  },
+  {
+    "kellyId": 7929,
+    "lemma": "undantagslöst",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "without exception",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8109,
+    "lemma": "motsägande",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "contradictory",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8190,
+    "lemma": "avläsning",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "reading (of a meter or gauge)",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8260,
+    "lemma": "stadgande",
+    "decision": "fix",
+    "reason": "form-of-suspect; candidate reflects base noun 'stadga'; 'stadgande' as noun means a provision or regulation",
+    "proposedTranslation": "provision, regulation, stipulation",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8378,
+    "lemma": "förkroppsligande",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "embodiment",
+    "proposedSubDefinitions": []
+  }
+]

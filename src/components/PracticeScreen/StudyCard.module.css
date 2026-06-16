@@ -76,6 +76,19 @@
   color: var(--color-text-secondary);
 }
 
+/* Number the senses (1) 2) …) so multiple meanings read apart. */
+.subdefs {
+  counter-reset: sense;
+}
+
+.subdefs li {
+  counter-increment: sense;
+}
+
+.subdefs li::before {
+  content: counter(sense) ') ';
+}
+
 .inflections {
   font-size: 14px;
   color: var(--color-text-secondary);
@@ -95,6 +108,7 @@
 
 .examples {
   font-style: italic;
+  margin-top: 24px; /* well clear of the translation/forms (≈3× the reveal gap) */
 }
 
 .note {

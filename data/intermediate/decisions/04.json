@@ -1,0 +1,888 @@
+[
+  {
+    "kellyId": 6578,
+    "lemma": "interaktiv",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "interactive"
+  },
+  {
+    "kellyId": 6586,
+    "lemma": "vykort",
+    "decision": "fix",
+    "reason": "over-long; shorten to core",
+    "proposedTranslation": "postcard"
+  },
+  {
+    "kellyId": 6602,
+    "lemma": "slogan",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "slogan"
+  },
+  {
+    "kellyId": 6606,
+    "lemma": "portal",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "portal, gateway"
+  },
+  {
+    "kellyId": 6616,
+    "lemma": "plågsam",
+    "decision": "fix",
+    "reason": "over-long; use core synonyms from subdef",
+    "proposedTranslation": "painful, agonizing"
+  },
+  {
+    "kellyId": 6628,
+    "lemma": "nominell",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "nominal"
+  },
+  {
+    "kellyId": 6647,
+    "lemma": "regelrätt",
+    "decision": "fix",
+    "reason": "over-long; core sense is proper/regular",
+    "proposedTranslation": "proper, regular",
+    "proposedSubDefinitions": [
+      "outright, downright"
+    ]
+  },
+  {
+    "kellyId": 6714,
+    "lemma": "tillgripa",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "to resort to, to seize"
+  },
+  {
+    "kellyId": 6726,
+    "lemma": "barack",
+    "decision": "fix",
+    "reason": "over-long; shorten to core",
+    "proposedTranslation": "barracks, hut"
+  },
+  {
+    "kellyId": 6729,
+    "lemma": "aha",
+    "decision": "fix",
+    "reason": "missing translation; interjection",
+    "proposedTranslation": "aha"
+  },
+  {
+    "kellyId": 6730,
+    "lemma": "bukt",
+    "decision": "fix",
+    "reason": "over-long; core sense is bay",
+    "proposedTranslation": "bay, gulf",
+    "proposedSubDefinitions": [
+      "bend, loop"
+    ]
+  },
+  {
+    "kellyId": 6780,
+    "lemma": "officer",
+    "decision": "fix",
+    "reason": "over-long; shorten to core",
+    "proposedTranslation": "officer"
+  },
+  {
+    "kellyId": 6802,
+    "lemma": "påföljande",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "following, subsequent"
+  },
+  {
+    "kellyId": 6803,
+    "lemma": "notering",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "note, notation",
+    "proposedSubDefinitions": [
+      "quotation, listing (stock exchange)"
+    ]
+  },
+  {
+    "kellyId": 6817,
+    "lemma": "Jorden",
+    "decision": "fix",
+    "reason": "missing translation; definite form of jord, proper noun for the planet",
+    "proposedTranslation": "Earth"
+  },
+  {
+    "kellyId": 6818,
+    "lemma": "jaså",
+    "decision": "fix",
+    "reason": "definition-like; use concise interjection",
+    "proposedTranslation": "oh really, is that so"
+  },
+  {
+    "kellyId": 6852,
+    "lemma": "verbal",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "verbal"
+  },
+  {
+    "kellyId": 6860,
+    "lemma": "manager",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "manager"
+  },
+  {
+    "kellyId": 6865,
+    "lemma": "option",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "option"
+  },
+  {
+    "kellyId": 6868,
+    "lemma": "netto",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "net amount, net"
+  },
+  {
+    "kellyId": 6871,
+    "lemma": "kalori",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "calorie"
+  },
+  {
+    "kellyId": 6882,
+    "lemma": "livskraftig",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "viable, vigorous"
+  },
+  {
+    "kellyId": 6908,
+    "lemma": "areal",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "area, acreage"
+  },
+  {
+    "kellyId": 6911,
+    "lemma": "projektion",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "projection"
+  },
+  {
+    "kellyId": 6928,
+    "lemma": "informativ",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "informative"
+  },
+  {
+    "kellyId": 6929,
+    "lemma": "rekonstruktion",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "reconstruction"
+  },
+  {
+    "kellyId": 6930,
+    "lemma": "ridning",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "riding, horseback riding"
+  },
+  {
+    "kellyId": 6973,
+    "lemma": "flygel",
+    "decision": "fix",
+    "reason": "definition-like; core sense is wing of a building",
+    "proposedTranslation": "wing (of a building)",
+    "proposedSubDefinitions": [
+      "grand piano",
+      "flank (military)"
+    ]
+  },
+  {
+    "kellyId": 6990,
+    "lemma": "affärsverksamhet",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "business activity, business operations"
+  },
+  {
+    "kellyId": 7000,
+    "lemma": "kondition",
+    "decision": "fix",
+    "reason": "over-long; core sense is fitness",
+    "proposedTranslation": "fitness, stamina",
+    "proposedSubDefinitions": [
+      "condition (of a person or thing)"
+    ]
+  },
+  {
+    "kellyId": 7008,
+    "lemma": "ånga",
+    "decision": "fix",
+    "reason": "over-long; shorten to core",
+    "proposedTranslation": "steam, vapor"
+  },
+  {
+    "kellyId": 7011,
+    "lemma": "prototyp",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "prototype"
+  },
+  {
+    "kellyId": 7014,
+    "lemma": "anlag",
+    "decision": "fix",
+    "reason": "over-long, glued senses; core sense is predisposition",
+    "proposedTranslation": "predisposition, aptitude",
+    "proposedSubDefinitions": [
+      "gene, allele",
+      "rudiment, embryonic stage"
+    ]
+  },
+  {
+    "kellyId": 7018,
+    "lemma": "parlamentsledamot",
+    "decision": "keep",
+    "reason": "already concise and correct"
+  },
+  {
+    "kellyId": 7052,
+    "lemma": "reduktion",
+    "decision": "fix",
+    "reason": "over-long; core sense is reduction/decrease",
+    "proposedTranslation": "reduction, decrease",
+    "proposedSubDefinitions": [
+      "reduction (chemical reaction)",
+      "confiscation of nobility's lands by the crown (historical)"
+    ]
+  },
+  {
+    "kellyId": 7053,
+    "lemma": "susa",
+    "decision": "fix",
+    "reason": "over-long, glued senses; use concise verb",
+    "proposedTranslation": "to whoosh, to rush, to sough"
+  },
+  {
+    "kellyId": 7054,
+    "lemma": "funktionalitet",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "functionality"
+  },
+  {
+    "kellyId": 7075,
+    "lemma": "sluttning",
+    "decision": "fix",
+    "reason": "definition-like; use synonyms from subdef",
+    "proposedTranslation": "slope, hillside"
+  },
+  {
+    "kellyId": 7080,
+    "lemma": "specifikation",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "specification"
+  },
+  {
+    "kellyId": 7103,
+    "lemma": "omvårdnad",
+    "decision": "fix",
+    "reason": "candidate is a truncated fragment",
+    "proposedTranslation": "care, nursing"
+  },
+  {
+    "kellyId": 7129,
+    "lemma": "orientera",
+    "decision": "fix",
+    "reason": "over-long; core sense is orient/find one's way",
+    "proposedTranslation": "to orient, to find one's way",
+    "proposedSubDefinitions": [
+      "to brief, to give an overview",
+      "to do orienteering"
+    ]
+  },
+  {
+    "kellyId": 7133,
+    "lemma": "reproduktion",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "reproduction"
+  },
+  {
+    "kellyId": 7135,
+    "lemma": "konsulat",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "consulate"
+  },
+  {
+    "kellyId": 7142,
+    "lemma": "betingelse",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "condition, prerequisite"
+  },
+  {
+    "kellyId": 7156,
+    "lemma": "ödelägga",
+    "decision": "fix",
+    "reason": "over-long; shorten to core",
+    "proposedTranslation": "to devastate, to lay waste, to ruin"
+  },
+  {
+    "kellyId": 7161,
+    "lemma": "telekommunikation",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "telecommunication"
+  },
+  {
+    "kellyId": 7163,
+    "lemma": "åklagarmyndighet",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "prosecution authority, prosecutor's office"
+  },
+  {
+    "kellyId": 7174,
+    "lemma": "uppdra",
+    "decision": "fix",
+    "reason": "missing translation; uppdra åt = to commission/assign",
+    "proposedTranslation": "to commission, to assign, to instruct"
+  },
+  {
+    "kellyId": 7184,
+    "lemma": "segment",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "segment"
+  },
+  {
+    "kellyId": 7194,
+    "lemma": "vaktmästare",
+    "decision": "fix",
+    "reason": "over-long, glued senses; core sense is janitor",
+    "proposedTranslation": "janitor, caretaker",
+    "proposedSubDefinitions": [
+      "attendant, doorman",
+      "warden, watchman"
+    ]
+  },
+  {
+    "kellyId": 7195,
+    "lemma": "byggnation",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "construction, building"
+  },
+  {
+    "kellyId": 7200,
+    "lemma": "terminal",
+    "decision": "fix",
+    "reason": "missing translation; noun",
+    "proposedTranslation": "terminal"
+  },
+  {
+    "kellyId": 7207,
+    "lemma": "taxa",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "rate, tariff, fare"
+  },
+  {
+    "kellyId": 7215,
+    "lemma": "omstridd",
+    "decision": "fix",
+    "reason": "definition-like; use synonyms from subdef",
+    "proposedTranslation": "disputed, controversial"
+  },
+  {
+    "kellyId": 7218,
+    "lemma": "löjtnant",
+    "decision": "fix",
+    "reason": "over-long; shorten to core",
+    "proposedTranslation": "lieutenant"
+  },
+  {
+    "kellyId": 7223,
+    "lemma": "innevånare",
+    "decision": "fix",
+    "reason": "candidate is a synonym pointer; translate directly",
+    "proposedTranslation": "inhabitant, resident"
+  },
+  {
+    "kellyId": 7226,
+    "lemma": "oväder",
+    "decision": "fix",
+    "reason": "over-long; core sense is storm",
+    "proposedTranslation": "storm, bad weather"
+  },
+  {
+    "kellyId": 7245,
+    "lemma": "stereotyp",
+    "decision": "fix",
+    "reason": "over-long, glued senses; shorten",
+    "proposedTranslation": "stereotypical, conventional"
+  },
+  {
+    "kellyId": 7250,
+    "lemma": "flerårig",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "multi-year, perennial"
+  },
+  {
+    "kellyId": 7265,
+    "lemma": "exekutiv",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "executive"
+  },
+  {
+    "kellyId": 7266,
+    "lemma": "kandidatur",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "candidacy"
+  },
+  {
+    "kellyId": 7285,
+    "lemma": "inställa",
+    "decision": "fix",
+    "reason": "over-long; core sense is to cancel",
+    "proposedTranslation": "to cancel, to call off",
+    "proposedSubDefinitions": [
+      "to present oneself, to appear (when summoned)"
+    ]
+  },
+  {
+    "kellyId": 7308,
+    "lemma": "antydning",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "hint, suggestion, hint"
+  },
+  {
+    "kellyId": 7315,
+    "lemma": "tillbakadragande",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "withdrawal, retraction"
+  },
+  {
+    "kellyId": 7326,
+    "lemma": "pensionering",
+    "decision": "fix",
+    "reason": "definition-like; use the concise noun",
+    "proposedTranslation": "retirement"
+  },
+  {
+    "kellyId": 7332,
+    "lemma": "kosttillskott",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "dietary supplement"
+  },
+  {
+    "kellyId": 7353,
+    "lemma": "byggare",
+    "decision": "fix",
+    "reason": "over-long; core sense is builder",
+    "proposedTranslation": "builder",
+    "proposedSubDefinitions": [
+      "settler, inhabitant"
+    ]
+  },
+  {
+    "kellyId": 7359,
+    "lemma": "temperament",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "temperament"
+  },
+  {
+    "kellyId": 7362,
+    "lemma": "tonfall",
+    "decision": "keep",
+    "reason": "already concise and correct"
+  },
+  {
+    "kellyId": 7363,
+    "lemma": "fotografisk",
+    "decision": "fix",
+    "reason": "over-long; shorten to core",
+    "proposedTranslation": "photographic"
+  },
+  {
+    "kellyId": 7394,
+    "lemma": "rotation",
+    "decision": "fix",
+    "reason": "over-long, definition-like; shorten",
+    "proposedTranslation": "rotation"
+  },
+  {
+    "kellyId": 7416,
+    "lemma": "hemort",
+    "decision": "fix",
+    "reason": "definition-like; core sense is home town/place of residence",
+    "proposedTranslation": "home town, place of residence",
+    "proposedSubDefinitions": [
+      "home port"
+    ]
+  },
+  {
+    "kellyId": 7428,
+    "lemma": "allsidig",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "all-round, versatile, well-rounded"
+  },
+  {
+    "kellyId": 7437,
+    "lemma": "luftfart",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "aviation, air traffic"
+  },
+  {
+    "kellyId": 7440,
+    "lemma": "implementering",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "implementation"
+  },
+  {
+    "kellyId": 7449,
+    "lemma": "pristagare",
+    "decision": "fix",
+    "reason": "over-long; shorten to core",
+    "proposedTranslation": "prizewinner, laureate"
+  },
+  {
+    "kellyId": 7463,
+    "lemma": "campus",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "campus"
+  },
+  {
+    "kellyId": 7464,
+    "lemma": "brännvin",
+    "decision": "fix",
+    "reason": "over-long, definition-like; shorten to core",
+    "proposedTranslation": "schnapps, aquavit, spirits"
+  },
+  {
+    "kellyId": 7484,
+    "lemma": "sensationell",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "sensational"
+  },
+  {
+    "kellyId": 7490,
+    "lemma": "medfölja",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "to accompany, to be included"
+  },
+  {
+    "kellyId": 7491,
+    "lemma": "processor",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "processor"
+  },
+  {
+    "kellyId": 7495,
+    "lemma": "provision",
+    "decision": "fix",
+    "reason": "missing translation; Swedish provision = commission, not provision",
+    "proposedTranslation": "commission (fee)"
+  },
+  {
+    "kellyId": 7496,
+    "lemma": "blödning",
+    "decision": "fix",
+    "reason": "over-long; shorten to core",
+    "proposedTranslation": "bleeding, hemorrhage"
+  },
+  {
+    "kellyId": 7521,
+    "lemma": "hjort",
+    "decision": "fix",
+    "reason": "over-long; shorten to core",
+    "proposedTranslation": "deer"
+  },
+  {
+    "kellyId": 7523,
+    "lemma": "dundra",
+    "decision": "fix",
+    "reason": "over-long; use synonyms from subdef",
+    "proposedTranslation": "to thunder, to boom"
+  },
+  {
+    "kellyId": 7530,
+    "lemma": "kontinental",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "continental"
+  },
+  {
+    "kellyId": 7535,
+    "lemma": "häpnad",
+    "decision": "fix",
+    "reason": "definition-like; use synonyms from subdef",
+    "proposedTranslation": "astonishment, amazement"
+  },
+  {
+    "kellyId": 7540,
+    "lemma": "maximum",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "maximum"
+  },
+  {
+    "kellyId": 7562,
+    "lemma": "vitamin",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "vitamin"
+  },
+  {
+    "kellyId": 7564,
+    "lemma": "boplats",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "settlement, dwelling site"
+  },
+  {
+    "kellyId": 7578,
+    "lemma": "metropol",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "metropolis"
+  },
+  {
+    "kellyId": 7585,
+    "lemma": "matvara",
+    "decision": "fix",
+    "reason": "definition-like; shorten",
+    "proposedTranslation": "foodstuff, food item"
+  },
+  {
+    "kellyId": 7593,
+    "lemma": "kommunikativ",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "communicative"
+  },
+  {
+    "kellyId": 7594,
+    "lemma": "terminal",
+    "decision": "fix",
+    "reason": "missing translation; adjective",
+    "proposedTranslation": "terminal"
+  },
+  {
+    "kellyId": 7613,
+    "lemma": "lund",
+    "decision": "fix",
+    "reason": "over-long; shorten to core",
+    "proposedTranslation": "grove"
+  },
+  {
+    "kellyId": 7635,
+    "lemma": "indignation",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "indignation"
+  },
+  {
+    "kellyId": 7641,
+    "lemma": "oförrätt",
+    "decision": "fix",
+    "reason": "over-long, glued senses; shorten",
+    "proposedTranslation": "injustice, wrong, affront"
+  },
+  {
+    "kellyId": 7645,
+    "lemma": "konsultation",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "consultation"
+  },
+  {
+    "kellyId": 7660,
+    "lemma": "bemanning",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "staffing, crewing"
+  },
+  {
+    "kellyId": 7663,
+    "lemma": "termisk",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "thermal"
+  },
+  {
+    "kellyId": 7665,
+    "lemma": "koda",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "to code, to encode"
+  },
+  {
+    "kellyId": 7680,
+    "lemma": "montering",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "assembly, mounting, installation"
+  },
+  {
+    "kellyId": 7685,
+    "lemma": "videokamera",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "video camera, camcorder"
+  },
+  {
+    "kellyId": 7689,
+    "lemma": "konfiguration",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "configuration"
+  },
+  {
+    "kellyId": 7690,
+    "lemma": "efterfölja",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "to follow, to succeed"
+  },
+  {
+    "kellyId": 7714,
+    "lemma": "emission",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "emission, issue (of shares)"
+  },
+  {
+    "kellyId": 7740,
+    "lemma": "pittoresk",
+    "decision": "fix",
+    "reason": "over-long, glued senses; shorten",
+    "proposedTranslation": "picturesque, quaint"
+  },
+  {
+    "kellyId": 7745,
+    "lemma": "relik",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "relic"
+  },
+  {
+    "kellyId": 7747,
+    "lemma": "föresats",
+    "decision": "fix",
+    "reason": "over-long, glued senses; shorten",
+    "proposedTranslation": "resolution, intention, resolve"
+  },
+  {
+    "kellyId": 7750,
+    "lemma": "substitut",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "substitute"
+  },
+  {
+    "kellyId": 7772,
+    "lemma": "bergstopp",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "mountain peak, summit"
+  },
+  {
+    "kellyId": 7775,
+    "lemma": "tematisk",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "thematic"
+  },
+  {
+    "kellyId": 7789,
+    "lemma": "bagatell",
+    "decision": "fix",
+    "reason": "over-long, definition-like; use synonyms from subdef",
+    "proposedTranslation": "trifle, triviality"
+  },
+  {
+    "kellyId": 7810,
+    "lemma": "mellanliggande",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "intervening, intermediate"
+  },
+  {
+    "kellyId": 7829,
+    "lemma": "kollegium",
+    "decision": "fix",
+    "reason": "definition-like; core sense is teaching staff/faculty meeting",
+    "proposedTranslation": "faculty, teaching staff",
+    "proposedSubDefinitions": [
+      "staff meeting",
+      "board, committee"
+    ]
+  },
+  {
+    "kellyId": 7836,
+    "lemma": "innesluta",
+    "decision": "fix",
+    "reason": "over-long; shorten to core",
+    "proposedTranslation": "to enclose, to contain, to surround"
+  },
+  {
+    "kellyId": 7849,
+    "lemma": "fasta",
+    "decision": "fix",
+    "reason": "definition-like; shorten",
+    "proposedTranslation": "fast, fasting",
+    "proposedSubDefinitions": [
+      "Lent"
+    ]
+  },
+  {
+    "kellyId": 7854,
+    "lemma": "frågeformulär",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "questionnaire"
+  },
+  {
+    "kellyId": 7855,
+    "lemma": "densitet",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "density"
+  },
+  {
+    "kellyId": 7865,
+    "lemma": "rådman",
+    "decision": "fix",
+    "reason": "over-long; shorten to core",
+    "proposedTranslation": "district court judge"
+  }
+]

@@ -158,10 +158,18 @@
 }
 
 .subdefs {
-  list-style: disc;
-  padding-left: 18px;
+  list-style: none;
+  counter-reset: sense;
   font-size: 14px;
   color: var(--color-text-secondary);
+}
+
+.subdefs li {
+  counter-increment: sense;
+}
+
+.subdefs li::before {
+  content: counter(sense) ') ';
 }
 
 .examples {

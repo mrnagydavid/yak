@@ -47,6 +47,7 @@ export interface Entry {
   cefr?: Cefr // present for seed entries; absent for user entries
   disambiguator?: string // e.g. "datafil" when multiple senses share the lemma
   subDefinitions?: string[] // when senses were merged at build time
+  examples?: string[] // seed-provided example sentences (user examples live on the overlay)
   source: Source
   seedVersion?: string // when source = seed
   study: StudyPref // per-word practice override (replaces the old userFlagged + hidden)

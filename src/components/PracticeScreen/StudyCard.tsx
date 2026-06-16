@@ -43,7 +43,7 @@ export function StudyCard({ view, revealed }: { view: PracticeCardView; revealed
   const promptWord = isRecognition ? targetLemma : nativeLemma
   const promptDisambig = isRecognition ? target.disambiguator : native?.disambiguator
   const answerWord = isRecognition ? translation : targetLemma
-  const examples = overlay?.customExamples ?? []
+  const examples = [...(target.examples ?? []), ...(overlay?.customExamples ?? [])]
 
   return (
     <div class={`${styles.card} ${userOwned ? styles.userOwned : ''}`}>

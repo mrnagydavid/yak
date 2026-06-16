@@ -1,0 +1,613 @@
+[
+  {
+    "kellyId": 7880,
+    "lemma": "självdeklaration",
+    "decision": "fix",
+    "reason": "Missing translation; Swedish term for personal income tax return.",
+    "proposedTranslation": "tax return"
+  },
+  {
+    "kellyId": 7894,
+    "lemma": "logg",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "log"
+  },
+  {
+    "kellyId": 7898,
+    "lemma": "opponent",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "opponent"
+  },
+  {
+    "kellyId": 7901,
+    "lemma": "avdela",
+    "decision": "fix",
+    "reason": "Missing translation; verb meaning to set apart/allocate.",
+    "proposedTranslation": "allocate, set aside"
+  },
+  {
+    "kellyId": 7914,
+    "lemma": "smycke",
+    "decision": "fix",
+    "reason": "Definition-like with article; core noun.",
+    "proposedTranslation": "piece of jewelry"
+  },
+  {
+    "kellyId": 7919,
+    "lemma": "synfält",
+    "decision": "keep",
+    "reason": "Already a concise, correct translation."
+  },
+  {
+    "kellyId": 7924,
+    "lemma": "stearinljus",
+    "decision": "fix",
+    "reason": "Over-long encyclopedic definition; core noun.",
+    "proposedTranslation": "candle"
+  },
+  {
+    "kellyId": 7935,
+    "lemma": "utsändning",
+    "decision": "fix",
+    "reason": "Missing translation; means broadcast/transmission.",
+    "proposedTranslation": "broadcast, transmission"
+  },
+  {
+    "kellyId": 7939,
+    "lemma": "häfte",
+    "decision": "fix",
+    "reason": "Over-long; core sense is a booklet/pamphlet.",
+    "proposedTranslation": "booklet, pamphlet",
+    "proposedSubDefinitions": ["fascicle, issue (of a journal)"]
+  },
+  {
+    "kellyId": 7949,
+    "lemma": "patologisk",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "pathological"
+  },
+  {
+    "kellyId": 7950,
+    "lemma": "multimedia",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "multimedia"
+  },
+  {
+    "kellyId": 7972,
+    "lemma": "korporativ",
+    "decision": "fix",
+    "reason": "Missing translation; adjective relating to corporations/guilds.",
+    "proposedTranslation": "corporative"
+  },
+  {
+    "kellyId": 7975,
+    "lemma": "tunna",
+    "decision": "fix",
+    "reason": "Over-long; concise verb sense.",
+    "proposedTranslation": "thin out, thin"
+  },
+  {
+    "kellyId": 7983,
+    "lemma": "ånga",
+    "decision": "fix",
+    "reason": "Candidate is a noun definition but pos is verb; verb means to steam.",
+    "proposedTranslation": "steam",
+    "proposedSubDefinitions": ["steam, vapor (noun)"]
+  },
+  {
+    "kellyId": 7996,
+    "lemma": "sittning",
+    "decision": "fix",
+    "reason": "Missing translation; means a sitting/session.",
+    "proposedTranslation": "sitting, session"
+  },
+  {
+    "kellyId": 8019,
+    "lemma": "grammatisk",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "grammatical"
+  },
+  {
+    "kellyId": 8030,
+    "lemma": "opublicerad",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "unpublished"
+  },
+  {
+    "kellyId": 8033,
+    "lemma": "arrest",
+    "decision": "fix",
+    "reason": "Over-long; core sense detention/custody (subdefinition is the cleaner gloss).",
+    "proposedTranslation": "detention, custody"
+  },
+  {
+    "kellyId": 8036,
+    "lemma": "pose",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "pose"
+  },
+  {
+    "kellyId": 8039,
+    "lemma": "tidsskrift",
+    "decision": "fix",
+    "reason": "Candidate is a lexicographic note (misspelling of tidskrift); supply actual meaning.",
+    "proposedTranslation": "journal, periodical, magazine"
+  },
+  {
+    "kellyId": 8043,
+    "lemma": "inlämna",
+    "decision": "fix",
+    "reason": "Missing translation; verb to submit/hand in.",
+    "proposedTranslation": "submit, hand in"
+  },
+  {
+    "kellyId": 8044,
+    "lemma": "projektering",
+    "decision": "fix",
+    "reason": "Missing translation; engineering/architectural design and planning phase.",
+    "proposedTranslation": "design, project planning"
+  },
+  {
+    "kellyId": 8050,
+    "lemma": "brant",
+    "decision": "fix",
+    "reason": "Over-long; core noun.",
+    "proposedTranslation": "steep slope, precipice"
+  },
+  {
+    "kellyId": 8057,
+    "lemma": "personell",
+    "decision": "fix",
+    "reason": "Missing translation; adjective relating to personnel/staff.",
+    "proposedTranslation": "personnel, staffing"
+  },
+  {
+    "kellyId": 8085,
+    "lemma": "samtalspartner",
+    "decision": "fix",
+    "reason": "Missing translation; person one is conversing with.",
+    "proposedTranslation": "conversation partner, interlocutor"
+  },
+  {
+    "kellyId": 8089,
+    "lemma": "diagnostisk",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "diagnostic"
+  },
+  {
+    "kellyId": 8091,
+    "lemma": "kontingent",
+    "decision": "fix",
+    "reason": "Missing translation; noun for a quota/contingent.",
+    "proposedTranslation": "contingent, quota"
+  },
+  {
+    "kellyId": 8112,
+    "lemma": "kärnpunkt",
+    "decision": "fix",
+    "reason": "Missing translation; the central/key point.",
+    "proposedTranslation": "crux, key point"
+  },
+  {
+    "kellyId": 8127,
+    "lemma": "bulletin",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "bulletin"
+  },
+  {
+    "kellyId": 8131,
+    "lemma": "simmare",
+    "decision": "fix",
+    "reason": "Over-long with usage note; core noun.",
+    "proposedTranslation": "swimmer"
+  },
+  {
+    "kellyId": 8132,
+    "lemma": "inkvartering",
+    "decision": "fix",
+    "reason": "Missing translation; lodging/billeting.",
+    "proposedTranslation": "accommodation, lodging"
+  },
+  {
+    "kellyId": 8134,
+    "lemma": "visare",
+    "decision": "fix",
+    "reason": "Definition-like phrasing; core noun.",
+    "proposedTranslation": "hand (of a clock), pointer"
+  },
+  {
+    "kellyId": 8138,
+    "lemma": "studiekamrat",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "fellow student, classmate"
+  },
+  {
+    "kellyId": 8147,
+    "lemma": "tunnland",
+    "decision": "fix",
+    "reason": "Literal calque 'barrel of land'; it is a historical Swedish unit of area ~ an acre.",
+    "proposedTranslation": "acre (old Swedish land unit)"
+  },
+  {
+    "kellyId": 8153,
+    "lemma": "auktorisera",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "authorize"
+  },
+  {
+    "kellyId": 8154,
+    "lemma": "korporation",
+    "decision": "fix",
+    "reason": "Missing translation; corporation/guild body.",
+    "proposedTranslation": "corporation, guild"
+  },
+  {
+    "kellyId": 8165,
+    "lemma": "trafikpolis",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "traffic police, traffic officer"
+  },
+  {
+    "kellyId": 8203,
+    "lemma": "atlet",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "athlete"
+  },
+  {
+    "kellyId": 8205,
+    "lemma": "huslig",
+    "decision": "fix",
+    "reason": "Missing translation; relating to the home/household.",
+    "proposedTranslation": "domestic, homely"
+  },
+  {
+    "kellyId": 8214,
+    "lemma": "scarf",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "scarf"
+  },
+  {
+    "kellyId": 8216,
+    "lemma": "flanera",
+    "decision": "fix",
+    "reason": "Over-long/glued synonyms; pick core verb.",
+    "proposedTranslation": "stroll, saunter"
+  },
+  {
+    "kellyId": 8219,
+    "lemma": "apparatur",
+    "decision": "fix",
+    "reason": "Definition-like with glued synonyms; core noun.",
+    "proposedTranslation": "equipment, apparatus"
+  },
+  {
+    "kellyId": 8220,
+    "lemma": "fosterbarn",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "foster child"
+  },
+  {
+    "kellyId": 8224,
+    "lemma": "avskedsansökan",
+    "decision": "fix",
+    "reason": "Missing translation; formal letter of resignation.",
+    "proposedTranslation": "resignation letter"
+  },
+  {
+    "kellyId": 8229,
+    "lemma": "ungdomstid",
+    "decision": "fix",
+    "reason": "Missing translation; one's youth/young years.",
+    "proposedTranslation": "youth, adolescence"
+  },
+  {
+    "kellyId": 8231,
+    "lemma": "nödhjälp",
+    "decision": "fix",
+    "reason": "Over-long/glued synonyms; core noun.",
+    "proposedTranslation": "emergency aid, relief"
+  },
+  {
+    "kellyId": 8233,
+    "lemma": "pantsätta",
+    "decision": "fix",
+    "reason": "Candidate is a cross-reference note; supply meaning (to pledge as security).",
+    "proposedTranslation": "pawn, pledge, mortgage"
+  },
+  {
+    "kellyId": 8239,
+    "lemma": "bräde",
+    "decision": "fix",
+    "reason": "Definition-like; core noun is a board/plank (subdefinition is the general sense).",
+    "proposedTranslation": "board, plank"
+  },
+  {
+    "kellyId": 8242,
+    "lemma": "tariff",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "tariff, rate"
+  },
+  {
+    "kellyId": 8253,
+    "lemma": "upprepat",
+    "decision": "fix",
+    "reason": "Candidate is a grammatical note (supine of upprepa); supply adverbial meaning.",
+    "proposedTranslation": "repeatedly"
+  },
+  {
+    "kellyId": 8259,
+    "lemma": "progression",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "progression"
+  },
+  {
+    "kellyId": 8261,
+    "lemma": "infarkt",
+    "decision": "fix",
+    "reason": "Missing translation; commonly a heart attack / myocardial infarction.",
+    "proposedTranslation": "heart attack, infarction"
+  },
+  {
+    "kellyId": 8264,
+    "lemma": "uppdykande",
+    "decision": "fix",
+    "reason": "Missing translation; adjective for something appearing/cropping up.",
+    "proposedTranslation": "emerging, appearing"
+  },
+  {
+    "kellyId": 8271,
+    "lemma": "påskrift",
+    "decision": "fix",
+    "reason": "Missing translation; an inscription/endorsement written on something.",
+    "proposedTranslation": "inscription, endorsement"
+  },
+  {
+    "kellyId": 8273,
+    "lemma": "farmaceutisk",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "pharmaceutical"
+  },
+  {
+    "kellyId": 8277,
+    "lemma": "monitor",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "monitor"
+  },
+  {
+    "kellyId": 8280,
+    "lemma": "utvändig",
+    "decision": "fix",
+    "reason": "Missing translation; on the outside.",
+    "proposedTranslation": "external, outer"
+  },
+  {
+    "kellyId": 8287,
+    "lemma": "kameraman",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "cameraman"
+  },
+  {
+    "kellyId": 8292,
+    "lemma": "betjäning",
+    "decision": "fix",
+    "reason": "Missing translation; service/waiting on customers.",
+    "proposedTranslation": "service, waiting staff"
+  },
+  {
+    "kellyId": 8305,
+    "lemma": "ringklocka",
+    "decision": "fix",
+    "reason": "Missing translation; a bell (doorbell, bicycle bell).",
+    "proposedTranslation": "bell, doorbell"
+  },
+  {
+    "kellyId": 8309,
+    "lemma": "folie",
+    "decision": "fix",
+    "reason": "Over-long; core noun is foil.",
+    "proposedTranslation": "foil"
+  },
+  {
+    "kellyId": 8313,
+    "lemma": "serum",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "serum"
+  },
+  {
+    "kellyId": 8322,
+    "lemma": "transplantera",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "transplant"
+  },
+  {
+    "kellyId": 8324,
+    "lemma": "kvalificering",
+    "decision": "fix",
+    "reason": "Missing translation; qualification (e.g. sports qualifying).",
+    "proposedTranslation": "qualification, qualifying"
+  },
+  {
+    "kellyId": 8325,
+    "lemma": "skolväska",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "school bag, satchel"
+  },
+  {
+    "kellyId": 8326,
+    "lemma": "utprovning",
+    "decision": "fix",
+    "reason": "Missing translation; fitting/testing out (e.g. of equipment, glasses).",
+    "proposedTranslation": "fitting, testing"
+  },
+  {
+    "kellyId": 8327,
+    "lemma": "skollov",
+    "decision": "fix",
+    "reason": "Missing translation; school holiday/break.",
+    "proposedTranslation": "school holiday, school break"
+  },
+  {
+    "kellyId": 8334,
+    "lemma": "modus",
+    "decision": "fix",
+    "reason": "Missing translation; grammatical mood, also mode.",
+    "proposedTranslation": "mood (grammar), mode"
+  },
+  {
+    "kellyId": 8335,
+    "lemma": "studenthem",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "student dormitory, hall of residence"
+  },
+  {
+    "kellyId": 8339,
+    "lemma": "undervåning",
+    "decision": "fix",
+    "reason": "Missing translation; lower floor of a building.",
+    "proposedTranslation": "lower floor, ground floor"
+  },
+  {
+    "kellyId": 8346,
+    "lemma": "oföränderligt",
+    "decision": "fix",
+    "reason": "Missing translation; adverb meaning without change.",
+    "proposedTranslation": "unchangeably, invariably"
+  },
+  {
+    "kellyId": 8358,
+    "lemma": "konservator",
+    "decision": "fix",
+    "reason": "Missing translation; restorer of art/artifacts.",
+    "proposedTranslation": "conservator, restorer"
+  },
+  {
+    "kellyId": 8360,
+    "lemma": "inrikes",
+    "decision": "fix",
+    "reason": "Over-long/glued senses; core meaning domestic.",
+    "proposedTranslation": "domestic, internal"
+  },
+  {
+    "kellyId": 8368,
+    "lemma": "kakelplatta",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "tile, ceramic tile"
+  },
+  {
+    "kellyId": 8374,
+    "lemma": "besk",
+    "decision": "fix",
+    "reason": "Over-long/definition-like; the headword is primarily the adjective 'bitter', also a bitter spirit. Pos given as noun, so keep the liquor sense concise.",
+    "proposedTranslation": "bitters (wormwood liquor)",
+    "proposedSubDefinitions": ["bitter (adjective)"]
+  },
+  {
+    "kellyId": 8377,
+    "lemma": "enfamiljshus",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "single-family house, detached house"
+  },
+  {
+    "kellyId": 8384,
+    "lemma": "sjukskötare",
+    "decision": "fix",
+    "reason": "Missing translation; (male) nurse.",
+    "proposedTranslation": "nurse"
+  },
+  {
+    "kellyId": 8390,
+    "lemma": "metalltråd",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "wire, metal thread"
+  },
+  {
+    "kellyId": 8393,
+    "lemma": "timmerstock",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "log, timber log"
+  },
+  {
+    "kellyId": 8397,
+    "lemma": "profylax",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "prophylaxis"
+  },
+  {
+    "kellyId": 8399,
+    "lemma": "poängställning",
+    "decision": "fix",
+    "reason": "Missing translation; the score/standings.",
+    "proposedTranslation": "score, standings"
+  },
+  {
+    "kellyId": 8402,
+    "lemma": "territorial",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "territorial"
+  },
+  {
+    "kellyId": 8403,
+    "lemma": "grafiker",
+    "decision": "fix",
+    "reason": "Missing translation; graphic artist/designer.",
+    "proposedTranslation": "graphic artist, graphic designer"
+  },
+  {
+    "kellyId": 8409,
+    "lemma": "specificitet",
+    "decision": "fix",
+    "reason": "Missing translation.",
+    "proposedTranslation": "specificity"
+  },
+  {
+    "kellyId": 8410,
+    "lemma": "begeistring",
+    "decision": "fix",
+    "reason": "Missing translation; enthusiasm/excitement (somewhat dated borrowing from German/Danish).",
+    "proposedTranslation": "enthusiasm, excitement"
+  },
+  {
+    "kellyId": 8413,
+    "lemma": "okultiverad",
+    "decision": "fix",
+    "reason": "Missing translation; uncultivated (land) or uncultured (person).",
+    "proposedTranslation": "uncultivated, uncultured"
+  },
+  {
+    "kellyId": 8425,
+    "lemma": "tvåsidig",
+    "decision": "fix",
+    "reason": "Missing translation; having two sides.",
+    "proposedTranslation": "two-sided, bilateral"
+  }
+]

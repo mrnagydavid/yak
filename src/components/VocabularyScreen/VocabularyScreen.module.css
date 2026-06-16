@@ -32,7 +32,7 @@
 
 .row {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 10px;
   padding: 14px 4px;
   min-height: 48px;

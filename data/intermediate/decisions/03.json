@@ -1,0 +1,852 @@
+[
+  {
+    "kellyId": 5089,
+    "lemma": "respons",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "response, feedback"
+  },
+  {
+    "kellyId": 5095,
+    "lemma": "bara",
+    "decision": "fix",
+    "reason": "candidate was a wrong inflection note; correct sense is in subDefinitions",
+    "proposedTranslation": "just, only"
+  },
+  {
+    "kellyId": 5097,
+    "lemma": "optimal",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "optimal"
+  },
+  {
+    "kellyId": 5103,
+    "lemma": "fäste",
+    "decision": "fix",
+    "reason": "over-long; reduce to core senses",
+    "proposedTranslation": "fastening, hold, attachment",
+    "proposedSubDefinitions": ["stronghold, fort", "the firmament"]
+  },
+  {
+    "kellyId": 5104,
+    "lemma": "hastigt",
+    "decision": "fix",
+    "reason": "candidate was an inflection note; translate the adverb",
+    "proposedTranslation": "quickly, hastily, suddenly"
+  },
+  {
+    "kellyId": 5110,
+    "lemma": "fastighetsskatt",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "property tax, real estate tax"
+  },
+  {
+    "kellyId": 5113,
+    "lemma": "tillvara",
+    "decision": "fix",
+    "reason": "only occurs in 'ta tillvara'; translate the expression",
+    "proposedTranslation": "make use of, take care of (in 'ta tillvara')"
+  },
+  {
+    "kellyId": 5139,
+    "lemma": "levnadsstandard",
+    "decision": "keep",
+    "reason": "already concise and correct"
+  },
+  {
+    "kellyId": 5164,
+    "lemma": "budgetår",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "fiscal year, budget year"
+  },
+  {
+    "kellyId": 5168,
+    "lemma": "avta",
+    "decision": "fix",
+    "reason": "over-long; core sense is to diminish",
+    "proposedTranslation": "decrease, diminish, subside",
+    "proposedSubDefinitions": ["take off (clothes)"]
+  },
+  {
+    "kellyId": 5212,
+    "lemma": "from",
+    "decision": "fix",
+    "reason": "over-long; reduce to core",
+    "proposedTranslation": "pious, devout",
+    "proposedSubDefinitions": ["charitable"]
+  },
+  {
+    "kellyId": 5213,
+    "lemma": "förlopp",
+    "decision": "fix",
+    "reason": "over-long / glued senses; reduce to core",
+    "proposedTranslation": "course, progression, chain of events"
+  },
+  {
+    "kellyId": 5227,
+    "lemma": "anor",
+    "decision": "fix",
+    "reason": "over-long; reduce to core",
+    "proposedTranslation": "ancestry, heritage, roots"
+  },
+  {
+    "kellyId": 5230,
+    "lemma": "organisering",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "organizing, organization"
+  },
+  {
+    "kellyId": 5235,
+    "lemma": "medial",
+    "decision": "fix",
+    "reason": "missing translation; main sense relates to media",
+    "proposedTranslation": "media-related, medial"
+  },
+  {
+    "kellyId": 5246,
+    "lemma": "smälla",
+    "decision": "fix",
+    "reason": "over-long; reduce to ~3 synonyms",
+    "proposedTranslation": "bang, slam, smack"
+  },
+  {
+    "kellyId": 5261,
+    "lemma": "halvlek",
+    "decision": "fix",
+    "reason": "definition-like; supply concise term",
+    "proposedTranslation": "half (of a game)",
+    "proposedSubDefinitions": ["half-time"]
+  },
+  {
+    "kellyId": 5282,
+    "lemma": "stadigt",
+    "decision": "fix",
+    "reason": "candidate was an inflection note; translate the adverb",
+    "proposedTranslation": "steadily, firmly"
+  },
+  {
+    "kellyId": 5294,
+    "lemma": "nacke",
+    "decision": "keep",
+    "reason": "already concise and correct"
+  },
+  {
+    "kellyId": 5320,
+    "lemma": "umgänge",
+    "decision": "fix",
+    "reason": "definition-like; supply concise term",
+    "proposedTranslation": "company, socializing",
+    "proposedSubDefinitions": ["social circle, acquaintances"]
+  },
+  {
+    "kellyId": 5328,
+    "lemma": "inbördes",
+    "decision": "fix",
+    "reason": "candidate is wrong (confused with 'inhemsk'); correct sense is mutual/internal",
+    "proposedTranslation": "mutual, internal, reciprocal"
+  },
+  {
+    "kellyId": 5334,
+    "lemma": "i grund och botten",
+    "decision": "fix",
+    "reason": "missing translation; translate the expression",
+    "proposedTranslation": "fundamentally, basically, at heart"
+  },
+  {
+    "kellyId": 5339,
+    "lemma": "tankegång",
+    "decision": "fix",
+    "reason": "over-long; reduce to ~3 synonyms",
+    "proposedTranslation": "train of thought, line of reasoning"
+  },
+  {
+    "kellyId": 5350,
+    "lemma": "jordisk",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "earthly, terrestrial, worldly"
+  },
+  {
+    "kellyId": 5352,
+    "lemma": "harmoni",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "harmony"
+  },
+  {
+    "kellyId": 5360,
+    "lemma": "mössa",
+    "decision": "fix",
+    "reason": "over-long; reduce to core",
+    "proposedTranslation": "cap, beanie, knit hat"
+  },
+  {
+    "kellyId": 5361,
+    "lemma": "riksdagsman",
+    "decision": "fix",
+    "reason": "candidate uses untranslated 'riksdag'; give English term",
+    "proposedTranslation": "member of parliament"
+  },
+  {
+    "kellyId": 5372,
+    "lemma": "subvention",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "subsidy"
+  },
+  {
+    "kellyId": 5379,
+    "lemma": "hyresrätt",
+    "decision": "fix",
+    "reason": "over-long; reduce to core",
+    "proposedTranslation": "rental apartment, tenancy"
+  },
+  {
+    "kellyId": 5382,
+    "lemma": "vital",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "vital, vigorous"
+  },
+  {
+    "kellyId": 5406,
+    "lemma": "begär",
+    "decision": "fix",
+    "reason": "over-long; reduce to ~3 synonyms",
+    "proposedTranslation": "desire, craving, urge"
+  },
+  {
+    "kellyId": 5415,
+    "lemma": "ved",
+    "decision": "fix",
+    "reason": "over-long / definition-like; reduce to core",
+    "proposedTranslation": "firewood",
+    "proposedSubDefinitions": ["wood (inner material of a tree)"]
+  },
+  {
+    "kellyId": 5430,
+    "lemma": "insida",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "inside, interior"
+  },
+  {
+    "kellyId": 5452,
+    "lemma": "i behov av",
+    "decision": "fix",
+    "reason": "missing translation; translate the expression",
+    "proposedTranslation": "in need of"
+  },
+  {
+    "kellyId": 5458,
+    "lemma": "magasin",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "warehouse, magazine (publication)",
+    "proposedSubDefinitions": ["magazine (of a firearm)"]
+  },
+  {
+    "kellyId": 5512,
+    "lemma": "så länge",
+    "decision": "fix",
+    "reason": "missing translation; translate the expression",
+    "proposedTranslation": "as long as, for now"
+  },
+  {
+    "kellyId": 5532,
+    "lemma": "kalas",
+    "decision": "fix",
+    "reason": "over-long; reduce to core",
+    "proposedTranslation": "party, feast"
+  },
+  {
+    "kellyId": 5535,
+    "lemma": "shoppa",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "shop, go shopping"
+  },
+  {
+    "kellyId": 5536,
+    "lemma": "språkbruk",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "language use, usage"
+  },
+  {
+    "kellyId": 5539,
+    "lemma": "klädsel",
+    "decision": "fix",
+    "reason": "definition-like; supply concise term",
+    "proposedTranslation": "attire, clothing, dress",
+    "proposedSubDefinitions": ["cover, upholstery (of fabric)"]
+  },
+  {
+    "kellyId": 5547,
+    "lemma": "etablering",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "establishment, setting up"
+  },
+  {
+    "kellyId": 5552,
+    "lemma": "tjata",
+    "decision": "fix",
+    "reason": "over-long; reduce to core",
+    "proposedTranslation": "nag, harp on"
+  },
+  {
+    "kellyId": 5563,
+    "lemma": "javisst",
+    "decision": "fix",
+    "reason": "candidate definition-like; use concise interjection",
+    "proposedTranslation": "sure, absolutely, of course"
+  },
+  {
+    "kellyId": 5578,
+    "lemma": "central",
+    "decision": "fix",
+    "reason": "over-long; reduce to core noun senses",
+    "proposedTranslation": "hub, central station, exchange"
+  },
+  {
+    "kellyId": 5615,
+    "lemma": "bredband",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "broadband"
+  },
+  {
+    "kellyId": 5624,
+    "lemma": "människosyn",
+    "decision": "fix",
+    "reason": "definition-like; supply concise term",
+    "proposedTranslation": "view of humanity, view of human nature"
+  },
+  {
+    "kellyId": 5676,
+    "lemma": "lojal",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "loyal"
+  },
+  {
+    "kellyId": 5679,
+    "lemma": "undanta",
+    "decision": "fix",
+    "reason": "over-long; reduce to ~3 synonyms",
+    "proposedTranslation": "exempt, exclude, except"
+  },
+  {
+    "kellyId": 5682,
+    "lemma": "i ljuset av",
+    "decision": "fix",
+    "reason": "missing translation; translate the expression",
+    "proposedTranslation": "in the light of, in view of"
+  },
+  {
+    "kellyId": 5684,
+    "lemma": "kostnadsfri",
+    "decision": "keep",
+    "reason": "already concise and correct"
+  },
+  {
+    "kellyId": 5698,
+    "lemma": "lagom",
+    "decision": "fix",
+    "reason": "over-long / glued; reduce to core",
+    "proposedTranslation": "just right, in moderation"
+  },
+  {
+    "kellyId": 5704,
+    "lemma": "bostadsrätt",
+    "decision": "fix",
+    "reason": "over-long; reduce to core",
+    "proposedTranslation": "condominium, co-op apartment"
+  },
+  {
+    "kellyId": 5725,
+    "lemma": "dåtid",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "the past",
+    "proposedSubDefinitions": ["past tense (grammar)"]
+  },
+  {
+    "kellyId": 5741,
+    "lemma": "så snart som",
+    "decision": "fix",
+    "reason": "missing translation; translate the expression",
+    "proposedTranslation": "as soon as"
+  },
+  {
+    "kellyId": 5775,
+    "lemma": "koalition",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "coalition"
+  },
+  {
+    "kellyId": 5795,
+    "lemma": "revolt",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "revolt, uprising"
+  },
+  {
+    "kellyId": 5820,
+    "lemma": "vilse",
+    "decision": "fix",
+    "reason": "over-long; reduce to core",
+    "proposedTranslation": "lost, astray"
+  },
+  {
+    "kellyId": 5837,
+    "lemma": "urskilja",
+    "decision": "fix",
+    "reason": "over-long; reduce to ~3 synonyms",
+    "proposedTranslation": "discern, distinguish, make out"
+  },
+  {
+    "kellyId": 5854,
+    "lemma": "läroplan",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "curriculum, syllabus"
+  },
+  {
+    "kellyId": 5857,
+    "lemma": "kår",
+    "decision": "fix",
+    "reason": "over-long; reduce to core",
+    "proposedTranslation": "corps, body, force",
+    "proposedSubDefinitions": ["student union"]
+  },
+  {
+    "kellyId": 5863,
+    "lemma": "fortgå",
+    "decision": "fix",
+    "reason": "over-long; reduce to ~3 synonyms",
+    "proposedTranslation": "continue, go on, proceed"
+  },
+  {
+    "kellyId": 5869,
+    "lemma": "jämställa",
+    "decision": "fix",
+    "reason": "over-long; reduce to core",
+    "proposedTranslation": "equate, put on equal footing"
+  },
+  {
+    "kellyId": 5870,
+    "lemma": "runt omkring",
+    "decision": "fix",
+    "reason": "missing translation; translate the expression",
+    "proposedTranslation": "all around, round about"
+  },
+  {
+    "kellyId": 5878,
+    "lemma": "humanistisk",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "humanistic"
+  },
+  {
+    "kellyId": 5904,
+    "lemma": "informationssamhälle",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "information society"
+  },
+  {
+    "kellyId": 5921,
+    "lemma": "energikälla",
+    "decision": "keep",
+    "reason": "already concise and correct"
+  },
+  {
+    "kellyId": 5923,
+    "lemma": "livskvalitet",
+    "decision": "keep",
+    "reason": "already concise and correct"
+  },
+  {
+    "kellyId": 5949,
+    "lemma": "miljöpolitik",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "environmental policy"
+  },
+  {
+    "kellyId": 5950,
+    "lemma": "storföretag",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "large corporation, big business"
+  },
+  {
+    "kellyId": 5962,
+    "lemma": "arbetarparti",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "labour party, workers' party"
+  },
+  {
+    "kellyId": 6009,
+    "lemma": "värdegrund",
+    "decision": "fix",
+    "reason": "very over-long; reduce to core",
+    "proposedTranslation": "core values, ethical foundation"
+  },
+  {
+    "kellyId": 6011,
+    "lemma": "begrunda",
+    "decision": "fix",
+    "reason": "over-long; reduce to ~3 synonyms",
+    "proposedTranslation": "contemplate, ponder, reflect on"
+  },
+  {
+    "kellyId": 6047,
+    "lemma": "opinionsbildning",
+    "decision": "fix",
+    "reason": "definition-like; supply concise term",
+    "proposedTranslation": "opinion-forming, shaping public opinion"
+  },
+  {
+    "kellyId": 6048,
+    "lemma": "premiss",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "premise"
+  },
+  {
+    "kellyId": 6050,
+    "lemma": "grafik",
+    "decision": "fix",
+    "reason": "over-long / glued senses; reduce to core",
+    "proposedTranslation": "graphics, graphic art"
+  },
+  {
+    "kellyId": 6057,
+    "lemma": "pyssla",
+    "decision": "fix",
+    "reason": "over-long; reduce to core",
+    "proposedTranslation": "do crafts, putter around"
+  },
+  {
+    "kellyId": 6062,
+    "lemma": "uppslag",
+    "decision": "fix",
+    "reason": "over-long / definition-like; reduce to core",
+    "proposedTranslation": "idea, suggestion",
+    "proposedSubDefinitions": ["double-page spread", "entry (in a dictionary)"]
+  },
+  {
+    "kellyId": 6064,
+    "lemma": "förväxla",
+    "decision": "fix",
+    "reason": "over-long; reduce to core",
+    "proposedTranslation": "mix up, confuse, mistake for"
+  },
+  {
+    "kellyId": 6078,
+    "lemma": "postning",
+    "decision": "fix",
+    "reason": "missing translation; rare term, best concise sense given (uncertain between mailing/sawmill 'cant')",
+    "proposedTranslation": "posting, mailing"
+  },
+  {
+    "kellyId": 6083,
+    "lemma": "fundament",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "foundation, base"
+  },
+  {
+    "kellyId": 6084,
+    "lemma": "reformation",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "reformation"
+  },
+  {
+    "kellyId": 6087,
+    "lemma": "famn",
+    "decision": "fix",
+    "reason": "over-long; reduce to core",
+    "proposedTranslation": "embrace, arms",
+    "proposedSubDefinitions": ["fathom (unit of length)"]
+  },
+  {
+    "kellyId": 6102,
+    "lemma": "precisera",
+    "decision": "fix",
+    "reason": "over-long; reduce to ~3 synonyms",
+    "proposedTranslation": "specify, define precisely, clarify"
+  },
+  {
+    "kellyId": 6107,
+    "lemma": "mix",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "mix, mixture"
+  },
+  {
+    "kellyId": 6109,
+    "lemma": "diplomat",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "diplomat"
+  },
+  {
+    "kellyId": 6115,
+    "lemma": "renovering",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "renovation, refurbishment"
+  },
+  {
+    "kellyId": 6119,
+    "lemma": "väster om",
+    "decision": "fix",
+    "reason": "missing translation; translate the expression",
+    "proposedTranslation": "west of"
+  },
+  {
+    "kellyId": 6123,
+    "lemma": "skoja",
+    "decision": "fix",
+    "reason": "over-long; core modern sense is to joke",
+    "proposedTranslation": "joke, kid around",
+    "proposedSubDefinitions": ["cheat, swindle"]
+  },
+  {
+    "kellyId": 6134,
+    "lemma": "föredöme",
+    "decision": "fix",
+    "reason": "candidate 'an example of' is awkward; supply concise term",
+    "proposedTranslation": "role model, example"
+  },
+  {
+    "kellyId": 6152,
+    "lemma": "valresultat",
+    "decision": "fix",
+    "reason": "definition-like; supply concise term",
+    "proposedTranslation": "election result"
+  },
+  {
+    "kellyId": 6177,
+    "lemma": "repris",
+    "decision": "fix",
+    "reason": "over-long; reduce to core",
+    "proposedTranslation": "rerun, replay, repeat"
+  },
+  {
+    "kellyId": 6180,
+    "lemma": "diskret",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "discreet",
+    "proposedSubDefinitions": ["discrete (mathematics)"]
+  },
+  {
+    "kellyId": 6189,
+    "lemma": "integrering",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "integration"
+  },
+  {
+    "kellyId": 6193,
+    "lemma": "kvalitativ",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "qualitative"
+  },
+  {
+    "kellyId": 6256,
+    "lemma": "demo",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "demo"
+  },
+  {
+    "kellyId": 6261,
+    "lemma": "partikel",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "particle"
+  },
+  {
+    "kellyId": 6264,
+    "lemma": "utsida",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "outside, exterior"
+  },
+  {
+    "kellyId": 6269,
+    "lemma": "pc",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "PC, personal computer"
+  },
+  {
+    "kellyId": 6300,
+    "lemma": "motstå",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "resist, withstand"
+  },
+  {
+    "kellyId": 6302,
+    "lemma": "express",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "express (train, delivery)"
+  },
+  {
+    "kellyId": 6311,
+    "lemma": "sydlig",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "southern, southerly"
+  },
+  {
+    "kellyId": 6322,
+    "lemma": "kyssa",
+    "decision": "fix",
+    "reason": "over-long; reduce to core",
+    "proposedTranslation": "kiss"
+  },
+  {
+    "kellyId": 6339,
+    "lemma": "territoriell",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "territorial"
+  },
+  {
+    "kellyId": 6346,
+    "lemma": "teknologisk",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "technological"
+  },
+  {
+    "kellyId": 6356,
+    "lemma": "kvantitativ",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "quantitative"
+  },
+  {
+    "kellyId": 6367,
+    "lemma": "slagsmål",
+    "decision": "fix",
+    "reason": "over-long; reduce to core",
+    "proposedTranslation": "fight, brawl"
+  },
+  {
+    "kellyId": 6395,
+    "lemma": "ofattbar",
+    "decision": "fix",
+    "reason": "over-long / glued senses; reduce to core",
+    "proposedTranslation": "incomprehensible, inconceivable"
+  },
+  {
+    "kellyId": 6424,
+    "lemma": "irritation",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "irritation, annoyance"
+  },
+  {
+    "kellyId": 6430,
+    "lemma": "frekvent",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "frequent"
+  },
+  {
+    "kellyId": 6469,
+    "lemma": "copyright",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "copyright"
+  },
+  {
+    "kellyId": 6472,
+    "lemma": "skolgång",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "schooling"
+  },
+  {
+    "kellyId": 6474,
+    "lemma": "anknyta",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "connect, relate, tie in"
+  },
+  {
+    "kellyId": 6475,
+    "lemma": "avskeda",
+    "decision": "fix",
+    "reason": "over-long; reduce to core",
+    "proposedTranslation": "fire, dismiss"
+  },
+  {
+    "kellyId": 6481,
+    "lemma": "förkorta",
+    "decision": "fix",
+    "reason": "over-long; reduce to core",
+    "proposedTranslation": "shorten, abbreviate"
+  },
+  {
+    "kellyId": 6482,
+    "lemma": "påträffa",
+    "decision": "fix",
+    "reason": "over-long / glued senses; reduce to core",
+    "proposedTranslation": "find, come across, encounter"
+  },
+  {
+    "kellyId": 6527,
+    "lemma": "otillåten",
+    "decision": "fix",
+    "reason": "over-long / glued senses; reduce to core",
+    "proposedTranslation": "forbidden, prohibited"
+  },
+  {
+    "kellyId": 6539,
+    "lemma": "trick",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "trick"
+  },
+  {
+    "kellyId": 6550,
+    "lemma": "aggression",
+    "decision": "fix",
+    "reason": "missing translation",
+    "proposedTranslation": "aggression"
+  },
+  {
+    "kellyId": 6562,
+    "lemma": "spruta",
+    "decision": "fix",
+    "reason": "definition-like; supply concise term",
+    "proposedTranslation": "syringe, sprayer",
+    "proposedSubDefinitions": ["fire hose, water cannon"]
+  },
+  {
+    "kellyId": 6577,
+    "lemma": "frånta",
+    "decision": "fix",
+    "reason": "over-long; reduce to core",
+    "proposedTranslation": "deprive of, take away from"
+  }
+]
