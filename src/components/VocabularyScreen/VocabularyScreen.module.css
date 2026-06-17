@@ -5,13 +5,45 @@
   padding-bottom: 80px; /* clear the floating Add button */
 }
 
+.searchWrap {
+  position: relative;
+}
+
 .search {
   width: 100%;
-  padding: 12px 14px;
+  padding: 12px 48px 12px 14px; /* room on the right for the clear button */
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   font-size: 16px; /* 16px avoids iOS zoom-on-focus and is a bigger target */
   background: var(--color-surface);
+}
+
+/* Hide the browser's tiny native clear button — we render our own with a big tap target. */
+.search::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Full-height, 48px-wide clear button so the whole right end of the field is tappable. */
+.clear {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-secondary);
+}
+
+.clear svg {
+  width: 18px;
+  height: 18px;
+}
+
+.clear:active {
+  color: var(--color-text);
 }
 
 .filters {
