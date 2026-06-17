@@ -172,6 +172,11 @@
   content: counter(sense) ') ';
 }
 
+/* A lone meaning needs no "1)" — only number when there are several to tell apart. */
+.subdefs li:only-child::before {
+  content: '';
+}
+
 .examples {
   list-style: none;
   display: flex;

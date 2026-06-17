@@ -16,6 +16,25 @@ const has = (tags, ...need) => need.every((t) => tags.includes(t))
 const not = (tags, ...bad) => bad.every((t) => !tags.includes(t))
 const clean = (s) => s.replace(/\s+/g, ' ').trim()
 
+// Split on ';' only at the top level — a ';' inside a parenthetical is part of a clarification, not
+// a sense boundary ("Norway (a country…; capital: Oslo)" is ONE sense, not two). Splitting blindly
+// produced mangled sub-definitions with orphaned parens ("capital and largest city: Oslo)").
+function splitSenses(gloss) {
+  const out = []
+  let depth = 0
+  let cur = ''
+  for (const ch of gloss) {
+    if (ch === '(') depth++
+    else if (ch === ')') depth = Math.max(0, depth - 1)
+    if (ch === ';' && depth === 0) {
+      out.push(cur)
+      cur = ''
+    } else cur += ch
+  }
+  out.push(cur)
+  return out.map((s) => s.trim()).filter(Boolean)
+}
+
 function pick(forms, pred) {
   return forms.find((f) => pred(f.tags))?.form
 }
@@ -83,7 +102,7 @@ async function main() {
     // separates distinct senses; ',' separates synonyms and stays), with trailing/inline
     // parenthetical clarifications stripped ("Europe (a continent…)" → "Europe"). The other
     // senses/glosses (kept verbatim) become subdefinitions.
-    const senses = (glosses[0] ?? '').split(';').map((s) => s.trim()).filter(Boolean)
+    const senses = splitSenses(glosses[0] ?? '')
     // Cut at the first "(" — drops parenthetical clarifications, robust to unbalanced parens
     // ("China (a large country…" → "China"). Comma-separated synonyms ("big, large") stay.
     const stripped = (senses[0] ?? '').split('(')[0].replace(/\s+/g, ' ').replace(/[\s.,;:]+$/, '').trim()

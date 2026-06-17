@@ -11,6 +11,9 @@ import { pipeline } from 'node:stream/promises'
 const KAIKKI_URL = 'https://kaikki.org/dictionary/Swedish/kaikki.org-dictionary-Swedish.jsonl'
 const CACHE = 'data/intermediate/kaikki-sv.jsonl'
 const OUT = 'data/intermediate/wik.json'
+// Flashcard example sentences must stay short — Wiktionary mixes in poetry/song-lyric quotes
+// (hundreds of chars). Drop anything longer; a one- or two-clause sentence is well under this.
+const MAX_EXAMPLE_LEN = 160
 
 // wiktextract pos → our PartOfSpeech (for matching against Kelly).
 function normPos(pos) {
@@ -97,6 +100,7 @@ async function main() {
       .flatMap((s) => s.examples ?? [])
       .map((ex) => ex.text)
       .filter(Boolean)
+      .filter((t) => t.length <= MAX_EXAMPLE_LEN)
       .slice(0, 2)
     const forms = (o.forms ?? []).filter(keepForm).map((f) => ({ form: f.form, tags: f.tags }))
     const ipa = (o.sounds ?? []).map((s) => s.ipa).filter(Boolean)[0]

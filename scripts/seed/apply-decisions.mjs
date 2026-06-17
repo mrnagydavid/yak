@@ -8,6 +8,7 @@ const SEED_VERSION = 'sv-2026-06-01' // en.wiktionary dump date the kaikki extra
 const DECISIONS_DIR = 'data/intermediate/decisions'
 const EXAMPLES_DIR = 'data/intermediate/examples' // curated examples for ambiguous cards (Step 15)
 const AMBIGUOUS_OUT = 'data/intermediate/ambiguous.json' // emitted for the example-writer step
+const MAX_EXAMPLE_LEN = 160 // flashcard examples stay short — drop any longer (poetry/quote dumps)
 
 const cleanTranslation = (t) => t.replace(/\s+/g, ' ').replace(/[\s:;,]+$/, '').trim()
 const cleanIpa = (ipa) => ipa.replace(/^\/+/, '').replace(/\/+$/, '').trim()
@@ -120,7 +121,9 @@ async function main() {
     const subSource = isFix ? (d.proposedSubDefinitions ?? c.subDefinitions) : c.subDefinitions
     const subDefinitions = (subSource ?? []).map(cleanTranslation).filter(Boolean)
     // Ambiguous cards use curated sense-specific examples (Step 15); all others keep Wiktionary's.
-    const examples = (curatedExamples.get(c.kellyId) ?? c.examples ?? []).slice(0, 2)
+    const examples = (curatedExamples.get(c.kellyId) ?? c.examples ?? [])
+      .filter((e) => e.length <= MAX_EXAMPLE_LEN)
+      .slice(0, 2)
     entries.push({
       kellyId: c.kellyId, // internal — stripped before the seed is written
       lemma: c.lemma,

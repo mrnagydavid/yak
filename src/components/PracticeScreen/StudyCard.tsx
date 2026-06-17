@@ -22,18 +22,12 @@ function Inflections({ display }: { display: InflectionDisplay }) {
   return display.summary ? <div class={styles.inflections}>{display.summary}</div> : null
 }
 
-// Split a card's examples into the prompt sense-cue and the reveal list. Only an ambiguous word in
-// recognition gets a cue (the first example); everything else keeps all examples on the reveal.
-// Pure + exported so the rule is unit-tested without a DOM/DB harness.
-export function splitExamples(
-  examples: string[],
-  ambiguous: boolean,
-  isRecognition: boolean,
-): { promptExample?: string; revealExamples: string[] } {
-  if (ambiguous && isRecognition && examples.length > 0) {
-    return { promptExample: examples[0], revealExamples: examples.slice(1) }
-  }
-  return { revealExamples: examples }
+// The sense cue shown on the prompt of an ambiguous word in recognition (the first example) so the
+// learner knows which homonym is being asked. It's only a pre-reveal hint — after reveal the full
+// example list renders in its normal place, so a revealed card looks like any other. Pure +
+// exported so the rule is unit-tested without a DOM/DB harness.
+export function promptCue(examples: string[], ambiguous: boolean, isRecognition: boolean): string | undefined {
+  return ambiguous && isRecognition && examples.length > 0 ? examples[0] : undefined
 }
 
 // One study card: prompt at top, reveal area below. Recognition shows the target word and
@@ -57,11 +51,11 @@ export function StudyCard({ view, revealed }: { view: PracticeCardView; revealed
   const promptWord = isRecognition ? targetLemma : nativeLemma
   const promptDisambig = isRecognition ? target.disambiguator : native?.disambiguator
   const answerWord = isRecognition ? translation : targetLemma
-  const allExamples = [...(target.examples ?? []), ...(overlay?.customExamples ?? [])]
-  // For an ambiguous word in recognition, the first example sits on the prompt as a sense cue so
-  // the learner knows which homonym is being asked (e.g. en val "whale" vs ett val "choice"). The
-  // rest stay on the reveal. Production prompts show the native word, which is already distinct.
-  const { promptExample, revealExamples: examples } = splitExamples(allExamples, ambiguous, isRecognition)
+  const examples = [...(target.examples ?? []), ...(overlay?.customExamples ?? [])]
+  // For an ambiguous word in recognition, the first example sits on the prompt as a sense cue
+  // (e.g. fast conj vs adj). It's pre-reveal only — once revealed, the full list renders in its
+  // normal place under the translation, so the card matches every other revealed card.
+  const cue = promptCue(examples, ambiguous, isRecognition)
 
   return (
     <div class={`${styles.card} ${userOwned ? styles.userOwned : ''}`}>
@@ -70,8 +64,9 @@ export function StudyCard({ view, revealed }: { view: PracticeCardView; revealed
         <span class={styles.promptWord}>{promptWord}</span>
         {promptDisambig ? <span class={styles.disambig}>({promptDisambig})</span> : null}
         {isRecognition && targetIpa ? <span class={styles.ipa}>/{targetIpa}/</span> : null}
-        {/* Sense cue for homonyms — disambiguates which meaning is being asked. */}
-        {promptExample ? <span class={styles.promptExample}>{promptExample}</span> : null}
+        {/* Sense cue for homonyms — disambiguates which meaning is asked. Pre-reveal only; after
+            reveal the example shows in its normal place under the translation. */}
+        {cue && !revealed ? <span class={styles.promptExample}>{cue}</span> : null}
         {/* Recognition: target's forms sit under the (target) prompt, once revealed. */}
         {isRecognition && revealed ? <Inflections display={inflections} /> : null}
       </div>
@@ -82,6 +77,9 @@ export function StudyCard({ view, revealed }: { view: PracticeCardView; revealed
             <span class={styles.answerWord}>{answerWord}</span>
             {!isRecognition && targetIpa ? <span class={styles.ipa}>/{targetIpa}/</span> : null}
           </div>
+
+          {/* The user's note sits right under the meaning — it's their gloss on the word. */}
+          {overlay?.noteText ? <p class={styles.note}>{overlay.noteText}</p> : null}
 
           {/* Production: target's forms sit under the (target) answer. */}
           {!isRecognition ? <Inflections display={inflections} /> : null}
@@ -101,8 +99,6 @@ export function StudyCard({ view, revealed }: { view: PracticeCardView; revealed
               ))}
             </ul>
           ) : null}
-
-          {overlay?.noteText ? <p class={styles.note}>{overlay.noteText}</p> : null}
         </div>
       ) : (
         <span class={styles.revealHint}>Tap to reveal</span>

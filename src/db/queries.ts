@@ -1,5 +1,6 @@
 import { db } from './schema'
 import { ulid } from './ids'
+import { getRenderer } from '../lang'
 import { cefrRank, levelRank } from '../srs/levels'
 import type { SessionCard } from '../srs/session-composer'
 import type {
@@ -53,8 +54,10 @@ export interface PracticeCardView {
   target: Entry
   native?: Entry
   overlay?: EntryOverlay
-  /** True when another target-language entry shares this lemma (homonym, e.g. en val / ett val).
-   *  The prompt then shows a sense-specific example so the recall is well-posed. (SPEC §7.2) */
+  /** True when another target-language entry renders to the SAME prompt form (homonym the prompt
+   *  can't tell apart, e.g. fast conj/adj, en krona crown/currency). The article/"att" already
+   *  separates en val / ett val / att-verbs, so those don't count. The prompt then shows a
+   *  sense-specific example so the recall is well-posed. (SPEC §7.2) */
   ambiguous: boolean
 }
 
@@ -65,8 +68,13 @@ export async function getPracticeCardView(card: SessionCard): Promise<PracticeCa
   const translation = await db.translations.get(card.translationId)
   const native = translation ? await db.entries.get(translation.nativeEntryId) : undefined
   const overlay = await getOverlay(target.id)
-  const sharingLemma = await db.entries.where('[lang+lemma]').equals([target.lang, target.lemma]).count()
-  return { card, target, native, overlay, ambiguous: sharingLemma > 1 }
+  // Ambiguous = the rendered prompt form collides with another same-lemma card. en/ett/att that
+  // already disambiguate suppress it; only genuine same-form homonyms keep the cue.
+  const siblings = await db.entries.where('[lang+lemma]').equals([target.lang, target.lemma]).toArray()
+  const render = getRenderer(target.lang).renderLemma
+  const targetForm = render(target)
+  const sameForm = siblings.filter((e) => render(e) === targetForm).length
+  return { card, target, native, overlay, ambiguous: sameForm > 1 }
 }
 
 /** Everything the Word Detail screen renders. (SPEC §7.5) */

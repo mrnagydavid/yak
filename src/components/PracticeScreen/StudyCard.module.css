@@ -99,6 +99,11 @@
   content: counter(sense) ') ';
 }
 
+/* A lone meaning needs no "1)" — only number when there are several to tell apart. */
+.subdefs li:only-child::before {
+  content: '';
+}
+
 .inflections {
   font-size: 14px;
   color: var(--color-text-secondary);
