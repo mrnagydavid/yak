@@ -5,7 +5,9 @@
     "decision": "fix",
     "reason": "candidate was 'inflection of hel'; primary sense of hela is the definite/plural of hel = whole",
     "proposedTranslation": "whole, the whole",
-    "proposedSubDefinitions": ["to heal"]
+    "proposedSubDefinitions": [
+      "to heal"
+    ]
   },
   {
     "kellyId": 31,
@@ -41,15 +43,19 @@
     "decision": "fix",
     "reason": "over-long glued senses; core auxiliary meaning is future/intention",
     "proposedTranslation": "shall, will, be going to",
-    "proposedSubDefinitions": ["to school, to train"]
+    "proposedSubDefinitions": [
+      "to school, to train"
+    ]
   },
   {
     "kellyId": 115,
     "lemma": "de",
     "decision": "fix",
-    "reason": "over-long grammatical note; core senses are the plural pronoun and the definite article",
-    "proposedTranslation": "they",
-    "proposedSubDefinitions": ["the (plural definite article)"]
+    "reason": "de [other] is the plural definite article (the); the pronoun de=they is a separate card (121). Earlier fix wrongly set this to \"they\", collapsing the two.",
+    "proposedTranslation": "the",
+    "proposedSubDefinitions": [
+      "plural definite article (de + adjective + plural noun, e.g. de gröna bilarna)"
+    ]
   },
   {
     "kellyId": 119,
@@ -71,7 +77,9 @@
     "decision": "fix",
     "reason": "over-long; concise gloss of the discourse particle",
     "proposedTranslation": "you know, of course, after all",
-    "proposedSubDefinitions": ["ju ... desto: the ... the (in comparisons)"]
+    "proposedSubDefinitions": [
+      "ju ... desto: the ... the (in comparisons)"
+    ]
   },
   {
     "kellyId": 186,
@@ -100,7 +108,9 @@
     "decision": "fix",
     "reason": "primary sense is possessive 'own'; candidate listed only secondary senses",
     "proposedTranslation": "own",
-    "proposedSubDefinitions": ["peculiar, odd, eccentric"]
+    "proposedSubDefinitions": [
+      "peculiar, odd, eccentric"
+    ]
   },
   {
     "kellyId": 269,
@@ -203,7 +213,10 @@
     "decision": "fix",
     "reason": "trim to core",
     "proposedTranslation": "advice, counsel",
-    "proposedSubDefinitions": ["means, ability to afford", "a council, board"]
+    "proposedSubDefinitions": [
+      "means, ability to afford",
+      "a council, board"
+    ]
   },
   {
     "kellyId": 470,
@@ -232,7 +245,10 @@
     "decision": "fix",
     "reason": "trim to core",
     "proposedTranslation": "to be correct, to agree, to tally",
-    "proposedSubDefinitions": ["to tune (an instrument)", "to summon, to sue"]
+    "proposedSubDefinitions": [
+      "to tune (an instrument)",
+      "to summon, to sue"
+    ]
   },
   {
     "kellyId": 510,
@@ -247,7 +263,9 @@
     "decision": "fix",
     "reason": "candidate was 'abbreviation of radian'; primary everyday sense is row/line",
     "proposedTranslation": "row, line",
-    "proposedSubDefinitions": ["a (short) written note"]
+    "proposedSubDefinitions": [
+      "a (short) written note"
+    ]
   },
   {
     "kellyId": 582,
@@ -275,7 +293,9 @@
     "decision": "fix",
     "reason": "primary legal sense; trim",
     "proposedTranslation": "verdict, judgement, sentence",
-    "proposedSubDefinitions": ["cathedral (dome)"]
+    "proposedSubDefinitions": [
+      "cathedral (dome)"
+    ]
   },
   {
     "kellyId": 645,
@@ -283,7 +303,10 @@
     "decision": "fix",
     "reason": "trim to core",
     "proposedTranslation": "to ask, to request",
-    "proposedSubDefinitions": ["to pray", "to beg, to plead"]
+    "proposedSubDefinitions": [
+      "to pray",
+      "to beg, to plead"
+    ]
   },
   {
     "kellyId": 653,
@@ -312,7 +335,9 @@
     "decision": "fix",
     "reason": "trim to core",
     "proposedTranslation": "to be included, to be part of",
-    "proposedSubDefinitions": ["to enter into (an agreement, marriage)"]
+    "proposedSubDefinitions": [
+      "to enter into (an agreement, marriage)"
+    ]
   },
   {
     "kellyId": 808,
@@ -327,7 +352,9 @@
     "decision": "fix",
     "reason": "trim to core",
     "proposedTranslation": "bourgeois, citizen, townsman",
-    "proposedSubDefinitions": ["non-socialist (in politics)"]
+    "proposedSubDefinitions": [
+      "non-socialist (in politics)"
+    ]
   },
   {
     "kellyId": 855,
@@ -335,7 +362,10 @@
     "decision": "fix",
     "reason": "most common modern sense is rice; candidate gave only the twig/shrub sense",
     "proposedTranslation": "rice",
-    "proposedSubDefinitions": ["twigs, brushwood", "negative criticism, flak"]
+    "proposedSubDefinitions": [
+      "twigs, brushwood",
+      "negative criticism, flak"
+    ]
   },
   {
     "kellyId": 868,
@@ -406,7 +436,9 @@
     "decision": "fix",
     "reason": "shorten; core senses news and novelty",
     "proposedTranslation": "news, piece of news",
-    "proposedSubDefinitions": ["a novelty, something new"]
+    "proposedSubDefinitions": [
+      "a novelty, something new"
+    ]
   },
   {
     "kellyId": 995,
@@ -449,7 +481,9 @@
     "decision": "fix",
     "reason": "most common everyday sense is salary/wage; candidate gave 'reward' first",
     "proposedTranslation": "salary, wage, pay",
-    "proposedSubDefinitions": ["reward"]
+    "proposedSubDefinitions": [
+      "reward"
+    ]
   },
   {
     "kellyId": 1062,
@@ -490,9 +524,11 @@
     "kellyId": 1113,
     "lemma": "moderat",
     "decision": "fix",
-    "reason": "over-long; common adjective sense is 'moderate'",
-    "proposedTranslation": "moderate",
-    "proposedSubDefinitions": ["a member of the Moderate Party (Swedish politics)"]
+    "reason": "moderat [noun] = a Moderate (Moderate Party member); the adjective moderat=moderate is a separate card (2607). Earlier fix set this to \"moderate\", collapsing the two.",
+    "proposedTranslation": "Moderate Party member",
+    "proposedSubDefinitions": [
+      "supporter of the Moderate Party (Swedish politics)"
+    ]
   },
   {
     "kellyId": 1130,
@@ -563,7 +599,9 @@
     "decision": "fix",
     "reason": "trim to core",
     "proposedTranslation": "to manage, to take care of, to handle",
-    "proposedSubDefinitions": ["sköta sig: to behave"]
+    "proposedSubDefinitions": [
+      "sköta sig: to behave"
+    ]
   },
   {
     "kellyId": 1264,
@@ -599,7 +637,10 @@
     "decision": "fix",
     "reason": "shorten; core is series",
     "proposedTranslation": "series, sequence",
-    "proposedSubDefinitions": ["comic strip", "league (sports)"]
+    "proposedSubDefinitions": [
+      "comic strip",
+      "league (sports)"
+    ]
   },
   {
     "kellyId": 1310,
@@ -746,7 +787,9 @@
     "decision": "fix",
     "reason": "shorten; core is troop/squad",
     "proposedTranslation": "troop, squad",
-    "proposedSubDefinitions": ["squad, team (of athletes)"]
+    "proposedSubDefinitions": [
+      "squad, team (of athletes)"
+    ]
   },
   {
     "kellyId": 1602,
@@ -824,7 +867,9 @@
     "decision": "fix",
     "reason": "collapse glued senses",
     "proposedTranslation": "happy",
-    "proposedSubDefinitions": ["lucky, fortunate"]
+    "proposedSubDefinitions": [
+      "lucky, fortunate"
+    ]
   },
   {
     "kellyId": 1813,
@@ -853,6 +898,8 @@
     "decision": "fix",
     "reason": "over-long; core senses farm and yard",
     "proposedTranslation": "farm, farmstead",
-    "proposedSubDefinitions": ["yard, courtyard"]
+    "proposedSubDefinitions": [
+      "yard, courtyard"
+    ]
   }
 ]

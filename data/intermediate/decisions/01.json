@@ -19,7 +19,10 @@
     "decision": "fix",
     "reason": "definition-like; shorten to core senses",
     "proposedTranslation": "to estimate, to assess",
-    "proposedSubDefinitions": ["to value, to treasure", "to pay tax"]
+    "proposedSubDefinitions": [
+      "to value, to treasure",
+      "to pay tax"
+    ]
   },
   {
     "kellyId": 1932,
@@ -55,7 +58,10 @@
     "decision": "fix",
     "reason": "over-long, glued senses; split",
     "proposedTranslation": "down, below, downstairs",
-    "proposedSubDefinitions": ["down, sad, depressed", "down, offline (of systems)"]
+    "proposedSubDefinitions": [
+      "down, sad, depressed",
+      "down, offline (of systems)"
+    ]
   },
   {
     "kellyId": 1976,
@@ -63,7 +69,9 @@
     "decision": "fix",
     "reason": "definition-like; give concrete noun",
     "proposedTranslation": "premises, venue, room",
-    "proposedSubDefinitions": ["habitat (for plants/animals)"]
+    "proposedSubDefinitions": [
+      "habitat (for plants/animals)"
+    ]
   },
   {
     "kellyId": 1982,
@@ -105,7 +113,9 @@
     "decision": "fix",
     "reason": "over-long; reduce to core senses",
     "proposedTranslation": "to take, to occupy, to assume",
-    "proposedSubDefinitions": ["to eat, to consume (a meal)"]
+    "proposedSubDefinitions": [
+      "to eat, to consume (a meal)"
+    ]
   },
   {
     "kellyId": 2211,
@@ -127,7 +137,9 @@
     "decision": "fix",
     "reason": "definition-like; give concrete primary sense",
     "proposedTranslation": "checkout, cash register",
-    "proposedSubDefinitions": ["fund, cash, coffers"]
+    "proposedSubDefinitions": [
+      "fund, cash, coffers"
+    ]
   },
   {
     "kellyId": 2259,
@@ -149,7 +161,9 @@
     "decision": "fix",
     "reason": "definition-like; give concrete senses",
     "proposedTranslation": "base, foundation, surface",
-    "proposedSubDefinitions": ["supporting data, basis (for a decision)"]
+    "proposedSubDefinitions": [
+      "supporting data, basis (for a decision)"
+    ]
   },
   {
     "kellyId": 2348,
@@ -157,7 +171,9 @@
     "decision": "fix",
     "reason": "over-long; reduce to core",
     "proposedTranslation": "service",
-    "proposedSubDefinitions": ["maintenance, servicing"]
+    "proposedSubDefinitions": [
+      "maintenance, servicing"
+    ]
   },
   {
     "kellyId": 2378,
@@ -228,7 +244,10 @@
     "decision": "fix",
     "reason": "missing translation; cognate noun",
     "proposedTranslation": "reservation, reluctance",
-    "proposedSubDefinitions": ["a booking", "a dissenting opinion (formal)"]
+    "proposedSubDefinitions": [
+      "a booking",
+      "a dissenting opinion (formal)"
+    ]
   },
   {
     "kellyId": 2541,
@@ -236,7 +255,9 @@
     "decision": "fix",
     "reason": "definition-like; reduce to core",
     "proposedTranslation": "to respond to, to address (an argument)",
-    "proposedSubDefinitions": ["to treat, to receive (someone)"]
+    "proposedSubDefinitions": [
+      "to treat, to receive (someone)"
+    ]
   },
   {
     "kellyId": 2549,
@@ -251,7 +272,10 @@
     "decision": "fix",
     "reason": "over-long, glued senses; reduce",
     "proposedTranslation": "album",
-    "proposedSubDefinitions": ["a music album", "a comic book album"]
+    "proposedSubDefinitions": [
+      "a music album",
+      "a comic book album"
+    ]
   },
   {
     "kellyId": 2579,
@@ -280,7 +304,9 @@
     "decision": "fix",
     "reason": "definition-like; give idiomatic translation",
     "proposedTranslation": "to thrive, to feel at home, to enjoy oneself",
-    "proposedSubDefinitions": ["to thrive (of plants/animals)"]
+    "proposedSubDefinitions": [
+      "to thrive (of plants/animals)"
+    ]
   },
   {
     "kellyId": 2608,
@@ -313,10 +339,10 @@
   {
     "kellyId": 2660,
     "lemma": "ju",
-    "decision": "fix",
-    "reason": "definition-like; give concise gloss",
-    "proposedTranslation": "of course, as you know (discourse particle)",
-    "proposedSubDefinitions": ["the... the... (ju... desto)"]
+    "decision": "drop",
+    "reason": "redundant duplicate of the ju particle (184); ju is one word — Wiktionary has a single entry. Kept as the A1 adv card with the \"ju ... desto\" sense as a sub-definition.",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
   },
   {
     "kellyId": 2662,
@@ -352,7 +378,9 @@
     "decision": "fix",
     "reason": "over-long; drop spurious 'murder' sense, reduce",
     "proposedTranslation": "to step, to stride",
-    "proposedSubDefinitions": ["to step onto/off/into (something)"]
+    "proposedSubDefinitions": [
+      "to step onto/off/into (something)"
+    ]
   },
   {
     "kellyId": 2692,
@@ -360,7 +388,9 @@
     "decision": "fix",
     "reason": "over-long, glued senses; reduce",
     "proposedTranslation": "editorial staff, newsroom",
-    "proposedSubDefinitions": ["editing (the act)"]
+    "proposedSubDefinitions": [
+      "editing (the act)"
+    ]
   },
   {
     "kellyId": 2758,
@@ -410,7 +440,9 @@
     "decision": "fix",
     "reason": "definition-like; reduce to core",
     "proposedTranslation": "to offend, to violate, to insult",
-    "proposedSubDefinitions": ["to violate, to infringe (a thing/right)"]
+    "proposedSubDefinitions": [
+      "to violate, to infringe (a thing/right)"
+    ]
   },
   {
     "kellyId": 2876,
@@ -452,7 +484,9 @@
     "decision": "fix",
     "reason": "over-long, glued senses; modern primary sense is hug",
     "proposedTranslation": "a hug, an embrace",
-    "proposedSubDefinitions": ["cheap goods, trinkets (dated)"]
+    "proposedSubDefinitions": [
+      "cheap goods, trinkets (dated)"
+    ]
   },
   {
     "kellyId": 2962,
@@ -516,7 +550,9 @@
     "decision": "fix",
     "reason": "over-long, glued senses; reduce",
     "proposedTranslation": "practice, custom",
-    "proposedSubDefinitions": ["case law, precedent (legal)"]
+    "proposedSubDefinitions": [
+      "case law, precedent (legal)"
+    ]
   },
   {
     "kellyId": 3074,
@@ -524,7 +560,9 @@
     "decision": "fix",
     "reason": "over-long; reduce to core",
     "proposedTranslation": "like that, so-so",
-    "proposedSubDefinitions": ["roughly, approximately"]
+    "proposedSubDefinitions": [
+      "roughly, approximately"
+    ]
   },
   {
     "kellyId": 3095,
@@ -532,7 +570,9 @@
     "decision": "fix",
     "reason": "definition-like; give concise noun",
     "proposedTranslation": "sport, athletics",
-    "proposedSubDefinitions": ["physical education, PE"]
+    "proposedSubDefinitions": [
+      "physical education, PE"
+    ]
   },
   {
     "kellyId": 3100,
@@ -547,7 +587,9 @@
     "decision": "fix",
     "reason": "definition-like; common sense is 'slave', not 'Slav'",
     "proposedTranslation": "slave",
-    "proposedSubDefinitions": ["a Slav (Slavic person)"]
+    "proposedSubDefinitions": [
+      "a Slav (Slavic person)"
+    ]
   },
   {
     "kellyId": 3107,
@@ -624,7 +666,9 @@
     "decision": "fix",
     "reason": "over-long; reduce to core",
     "proposedTranslation": "edition, printing",
-    "proposedSubDefinitions": ["circulation (of a newspaper)"]
+    "proposedSubDefinitions": [
+      "circulation (of a newspaper)"
+    ]
   },
   {
     "kellyId": 3191,
@@ -632,7 +676,9 @@
     "decision": "fix",
     "reason": "over-long; reduce to core",
     "proposedTranslation": "to reverse, to back up",
-    "proposedSubDefinitions": ["to back, to support"]
+    "proposedSubDefinitions": [
+      "to back, to support"
+    ]
   },
   {
     "kellyId": 3200,
@@ -660,7 +706,9 @@
     "decision": "fix",
     "reason": "over-long, glued senses; primary common sense is statute",
     "proposedTranslation": "statute, bylaw, charter",
-    "proposedSubDefinitions": ["steadiness, stability"]
+    "proposedSubDefinitions": [
+      "steadiness, stability"
+    ]
   },
   {
     "kellyId": 3216,
@@ -702,7 +750,9 @@
     "decision": "fix",
     "reason": "missing translation; administrative compound",
     "proposedTranslation": "consultation body, referral body",
-    "proposedSubDefinitions": ["body invited to comment on a proposal"]
+    "proposedSubDefinitions": [
+      "body invited to comment on a proposal"
+    ]
   },
   {
     "kellyId": 3258,
@@ -717,7 +767,9 @@
     "decision": "fix",
     "reason": "over-long; reduce to core",
     "proposedTranslation": "plate, slab, tile",
-    "proposedSubDefinitions": ["a record, vinyl"]
+    "proposedSubDefinitions": [
+      "a record, vinyl"
+    ]
   },
   {
     "kellyId": 3268,
@@ -753,7 +805,9 @@
     "decision": "fix",
     "reason": "definition-like; two common senses",
     "proposedTranslation": "lid, cover",
-    "proposedSubDefinitions": ["a lock of hair, a curl"]
+    "proposedSubDefinitions": [
+      "a lock of hair, a curl"
+    ]
   },
   {
     "kellyId": 3352,
@@ -761,7 +815,9 @@
     "decision": "fix",
     "reason": "over-long; reduce to core",
     "proposedTranslation": "to integrate",
-    "proposedSubDefinitions": ["to integrate (mathematics)"]
+    "proposedSubDefinitions": [
+      "to integrate (mathematics)"
+    ]
   },
   {
     "kellyId": 3357,
@@ -783,7 +839,9 @@
     "decision": "fix",
     "reason": "over-long; reduce to core",
     "proposedTranslation": "accustomed, used to",
-    "proposedSubDefinitions": ["experienced, practiced"]
+    "proposedSubDefinitions": [
+      "experienced, practiced"
+    ]
   },
   {
     "kellyId": 3401,

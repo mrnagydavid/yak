@@ -1,0 +1,30 @@
+[
+  {
+    "kellyId": 115,
+    "lemma": "de",
+    "examples": ["De gröna bilarna är fina."],
+    "kept": false,
+    "reason": "manual: de [other] = plural definite article; example shows the article use (de + adjective + plural noun)"
+  },
+  {
+    "kellyId": 121,
+    "lemma": "de",
+    "examples": ["De ser dem varje dag."],
+    "kept": false,
+    "reason": "manual: de [pron] = they; example shows the subject pronoun"
+  },
+  {
+    "kellyId": 1113,
+    "lemma": "moderat",
+    "examples": ["Min farbror är moderat och sitter i riksdagen."],
+    "kept": false,
+    "reason": "manual: moderat [noun] = a Moderate (party member); example places it in politics"
+  },
+  {
+    "kellyId": 2607,
+    "lemma": "moderat",
+    "examples": ["Priset är moderat."],
+    "kept": false,
+    "reason": "manual: moderat [adj] = moderate; example shows the everyday adjective sense"
+  }
+]
