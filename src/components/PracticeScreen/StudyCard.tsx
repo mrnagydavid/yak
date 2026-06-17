@@ -36,7 +36,6 @@ export function promptCue(examples: string[], ambiguous: boolean, isRecognition:
 export function StudyCard({ view, revealed }: { view: PracticeCardView; revealed: boolean }) {
   const { card, target, native, overlay, ambiguous } = view
   const isRecognition = card.skill === 'recognize'
-  const userOwned = target.source === 'user' || !!overlay
 
   const targetRenderer = getRenderer(target.lang)
   const targetLemma = targetRenderer.renderLemma(target)
@@ -58,7 +57,7 @@ export function StudyCard({ view, revealed }: { view: PracticeCardView; revealed
   const cue = promptCue(examples, ambiguous, isRecognition)
 
   return (
-    <div class={`${styles.card} ${userOwned ? styles.userOwned : ''}`}>
+    <div class={styles.card}>
       {card.mode === 'new' ? <span class={styles.newBadge}>New word</span> : null}
       <div class={styles.prompt}>
         <span class={styles.promptWord}>{promptWord}</span>

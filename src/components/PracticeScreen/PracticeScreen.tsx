@@ -5,17 +5,19 @@ import { composeSession, recordReview } from '../../srs/session-composer'
 import { EntryEditor } from '../EntryEditor/EntryEditor'
 import { ProgressBar } from './ProgressBar'
 import { RatingButtons } from './RatingButtons'
+import { dayKey, resumableSession, saveSession, setSessionIndex } from './session-store'
 import { StudyCard } from './StudyCard'
 import styles from './PracticeScreen.module.css'
 
 export function PracticeScreen() {
-  // The session is composed once when the screen opens and held as a snapshot — rating a
-  // card persists its state but does not recompose the queue mid-sitting. (SPEC §7.2)
-  const [views, setViews] = useState<PracticeCardView[] | null>(null)
-  const [index, setIndex] = useState(0)
+  // The session is composed once per day and kept in a module-level store, so switching tabs (which
+  // unmounts this route) resumes the same queue and position instead of restarting. (SPEC §7.2)
+  const [resumed] = useState(() => resumableSession())
+  const [views, setViews] = useState<PracticeCardView[] | null>(resumed?.views ?? null)
+  const [index, setIndex] = useState(resumed?.index ?? 0)
   const [revealed, setRevealed] = useState(false)
   // False once a "Push further" yields nothing more, so the button stops being a no-op.
-  const [canPushFurther, setCanPushFurther] = useState(true)
+  const [canPushFurther, setCanPushFurther] = useState(resumed?.canPushFurther ?? true)
   const [editing, setEditing] = useState(false)
 
   async function load(pushFurther = false) {
@@ -23,14 +25,16 @@ export function PracticeScreen() {
     const resolved = (await Promise.all(cards.map((c) => getPracticeCardView(c)))).filter(
       (v): v is PracticeCardView => v !== null,
     )
+    const nextCanPush = pushFurther ? resolved.length > 0 : true
     setViews(resolved)
     setIndex(0)
     setRevealed(false)
-    if (pushFurther) setCanPushFurther(resolved.length > 0)
+    setCanPushFurther(nextCanPush)
+    saveSession({ dayKey: dayKey(), views: resolved, index: 0, canPushFurther: nextCanPush })
   }
 
   useEffect(() => {
-    void load()
+    if (views === null) void load() // resume an existing session, otherwise compose a fresh one
   }, [])
 
   if (views === null) {
@@ -65,7 +69,11 @@ export function PracticeScreen() {
     navigator.vibrate?.(10)
     await recordReview(view.card, rating)
     setRevealed(false)
-    setIndex((i) => i + 1)
+    setIndex((i) => {
+      const next = i + 1
+      setSessionIndex(next) // remember where we are, so leaving mid-session resumes here
+      return next
+    })
   }
 
   return (

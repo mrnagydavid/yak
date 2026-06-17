@@ -6,12 +6,6 @@
   padding: 8px 4px;
 }
 
-/* Soft accent stripe at the left edge for user-owned content. (SPEC §7.9) */
-.userOwned {
-  border-left: 3px solid var(--color-primary);
-  padding-left: 14px;
-}
-
 .newBadge {
   align-self: center;
   font-size: 11px;
