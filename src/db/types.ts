@@ -50,6 +50,7 @@ export interface Entry {
   examples?: string[] // seed-provided example sentences (user examples live on the overlay)
   source: Source
   seedVersion?: string // when source = seed
+  seedKey?: number // stable cross-version key (Kelly id) for seed sync; on the target entry only
   study: StudyPref // per-word practice override (replaces the old userFlagged + hidden)
   createdAt: number
   updatedAt: number

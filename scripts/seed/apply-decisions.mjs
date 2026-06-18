@@ -1,6 +1,7 @@
 // Build the final seed from candidates + optional seed-cleaner decisions.
 // Output: data/seed-sv.json (canonical, committed) and public/seed-sv.json (served at runtime).
 // Run: node scripts/seed/apply-decisions.mjs
+import { createHash } from 'node:crypto'
 import { existsSync } from 'node:fs'
 import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises'
 
@@ -92,10 +93,11 @@ async function loadExamples() {
   return byId
 }
 
-const stripKelly = (e) => {
-  const o = { ...e }
-  delete o.kellyId
-  return o
+// kellyId becomes the seed's stable cross-version key (seedKey) so a shipped update can be synced
+// onto an existing DB without resetting progress. (SPEC §9 / seed-sync)
+const toSeedEntry = (e) => {
+  const { kellyId, ...rest } = e
+  return { seedKey: kellyId, ...rest }
 }
 
 async function main() {
@@ -164,8 +166,12 @@ async function main() {
   }
   await writeFile(AMBIGUOUS_OUT, JSON.stringify(ambiguous, null, 2))
 
-  const seedEntries = finalEntries.map(stripKelly)
-  const seed = { version: SEED_VERSION, generatedAt: new Date().toISOString(), count: seedEntries.length, entries: seedEntries }
+  const seedEntries = finalEntries.map(toSeedEntry)
+  // Version = dump date + content hash, so any curation change flips the version and the runtime
+  // seed-sync picks it up (the dump date alone never changes between curation revisions).
+  const contentHash = createHash('sha256').update(JSON.stringify(seedEntries)).digest('hex').slice(0, 8)
+  const version = `${SEED_VERSION}-${contentHash}`
+  const seed = { version, generatedAt: new Date().toISOString(), count: seedEntries.length, entries: seedEntries }
   const json = JSON.stringify(seed)
   await mkdir('public', { recursive: true })
   await writeFile('data/seed-sv.json', json)
