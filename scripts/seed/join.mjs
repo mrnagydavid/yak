@@ -16,6 +16,25 @@ const has = (tags, ...need) => need.every((t) => tags.includes(t))
 const not = (tags, ...bad) => bad.every((t) => !tags.includes(t))
 const clean = (s) => s.replace(/\s+/g, ' ').trim()
 
+// Remove balanced "(…)" clarification groups but KEEP the surrounding words — Wiktionary glosses
+// put clarifications inline ("a (male or female) teacher" → "a teacher", "to (gently) lead" →
+// "to lead"). Cutting at the first "(" instead (as before) truncated these to "a"/"to". An
+// unbalanced trailing "(" (a cut-off gloss like "China (a large country…") drops everything from it.
+function stripParentheticals(s) {
+  let out = ''
+  let depth = 0
+  for (const ch of s ?? '') {
+    if (ch === '(') depth++
+    else if (ch === ')') depth = Math.max(0, depth - 1)
+    else if (depth === 0) out += ch
+  }
+  return out
+    .replace(/\s+/g, ' ')
+    .replace(/\s+([.,;:])/g, '$1')
+    .replace(/[\s.,;:]+$/, '')
+    .trim()
+}
+
 // Split on ';' only at the top level — a ';' inside a parenthetical is part of a clarification, not
 // a sense boundary ("Norway (a country…; capital: Oslo)" is ONE sense, not two). Splitting blindly
 // produced mangled sub-definitions with orphaned parens ("capital and largest city: Oslo)").
@@ -103,9 +122,9 @@ async function main() {
     // parenthetical clarifications stripped ("Europe (a continent…)" → "Europe"). The other
     // senses/glosses (kept verbatim) become subdefinitions.
     const senses = splitSenses(glosses[0] ?? '')
-    // Cut at the first "(" — drops parenthetical clarifications, robust to unbalanced parens
-    // ("China (a large country…" → "China"). Comma-separated synonyms ("big, large") stay.
-    const stripped = (senses[0] ?? '').split('(')[0].replace(/\s+/g, ' ').replace(/[\s.,;:]+$/, '').trim()
+    // Primary = first sense with inline parenthetical clarifications removed but the rest kept
+    // ("a (male) teacher" → "a teacher"). Comma-separated synonyms ("big, large") stay.
+    const stripped = stripParentheticals(senses[0] ?? '')
     const primary = stripped || senses[0]
     const subDefinitions = [...senses.slice(1), ...glosses.slice(1)].slice(0, 4)
     const forms = preferred[0]?.forms ?? []

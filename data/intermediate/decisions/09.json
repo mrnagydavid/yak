@@ -1,0 +1,471 @@
+[
+  {
+    "kellyId": 963,
+    "lemma": "aktuell",
+    "decision": "fix",
+    "reason": "over-long; core gloss is 'current, topical'; sub-defs trimmed to distinct senses",
+    "proposedTranslation": "current, topical",
+    "proposedSubDefinitions": [
+      "being planned, on the agenda"
+    ]
+  },
+  {
+    "kellyId": 6692,
+    "lemma": "ark",
+    "decision": "fix",
+    "reason": "definition-like; 'sheet of paper' is the core gloss; secondary sense trimmed",
+    "proposedTranslation": "sheet (of paper)",
+    "proposedSubDefinitions": [
+      "signature (folded printed sheet in bookbinding)"
+    ]
+  },
+  {
+    "kellyId": 6674,
+    "lemma": "autentisk",
+    "decision": "fix",
+    "reason": "over-long; trim to core synonyms; musical sense is too niche for a sub-def",
+    "proposedTranslation": "authentic, genuine",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3502,
+    "lemma": "avkastning",
+    "decision": "fix",
+    "reason": "over-long; trim to financial core; 'yield' and 'return' cover it",
+    "proposedTranslation": "yield, return",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6877,
+    "lemma": "avtala",
+    "decision": "fix",
+    "reason": "over-long; trim to concise gloss",
+    "proposedTranslation": "to agree, to arrange",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3570,
+    "lemma": "bakåt",
+    "decision": "fix",
+    "reason": "over-long; trim to two synonyms",
+    "proposedTranslation": "backwards, back",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4256,
+    "lemma": "behärska",
+    "decision": "fix",
+    "reason": "over-long; trim primary to core senses; reflexive sense kept as sub-def",
+    "proposedTranslation": "to master, to command",
+    "proposedSubDefinitions": [
+      "to control oneself, to restrain oneself"
+    ]
+  },
+  {
+    "kellyId": 2935,
+    "lemma": "brand",
+    "decision": "fix",
+    "reason": "over-long; trim to core noun; archaic 'sword' sense dropped as too marginal",
+    "proposedTranslation": "fire, blaze",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5388,
+    "lemma": "brygga",
+    "decision": "fix",
+    "reason": "over-long; lead with 'jetty, dock'; bridge sense kept as sub-def",
+    "proposedTranslation": "jetty, dock, pier",
+    "proposedSubDefinitions": [
+      "bridge (nautical)"
+    ]
+  },
+  {
+    "kellyId": 1465,
+    "lemma": "drygt",
+    "decision": "fix",
+    "reason": "wrong sense; 'lasting, economical' belongs to adjective 'dryg'; adverb means 'just over'",
+    "proposedTranslation": "just over, a little more than",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5028,
+    "lemma": "fastslå",
+    "decision": "fix",
+    "reason": "over-long; trim to concise gloss",
+    "proposedTranslation": "to establish, to determine, to ascertain",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4374,
+    "lemma": "fika",
+    "decision": "fix",
+    "reason": "over-long; culturally specific — a short cultural gloss is the best flashcard form",
+    "proposedTranslation": "coffee break (Swedish social tradition with coffee and pastries)",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6006,
+    "lemma": "fostra",
+    "decision": "fix",
+    "reason": "over-long; trim to concise gloss",
+    "proposedTranslation": "to raise, to bring up, to nurture",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7921,
+    "lemma": "frist",
+    "decision": "fix",
+    "reason": "over-long; trim to core gloss",
+    "proposedTranslation": "deadline, time limit",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2361,
+    "lemma": "fält",
+    "decision": "fix",
+    "reason": "article glitch 'a area'; trim primary; keep distinct senses as sub-defs",
+    "proposedTranslation": "field",
+    "proposedSubDefinitions": [
+      "field (physics, mathematics)",
+      "field, area, sphere (of activity or interest)"
+    ]
+  },
+  {
+    "kellyId": 3528,
+    "lemma": "försvåra",
+    "decision": "fix",
+    "reason": "over-long; trim to two synonyms",
+    "proposedTranslation": "to complicate, to hamper",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4093,
+    "lemma": "glädjande",
+    "decision": "fix",
+    "reason": "wrong sense; candidate gives verb infinitives; adjective means 'pleasing, welcome'",
+    "proposedTranslation": "pleasing, welcome, gladdening",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 327,
+    "lemma": "gärna",
+    "decision": "fix",
+    "reason": "over-long; trim to core synonyms",
+    "proposedTranslation": "gladly, willingly",
+    "proposedSubDefinitions": [
+      "often, easily (of something that tends to happen)"
+    ]
+  },
+  {
+    "kellyId": 5008,
+    "lemma": "handläggning",
+    "decision": "fix",
+    "reason": "over-long; trim to two core synonyms",
+    "proposedTranslation": "processing, handling",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 731,
+    "lemma": "hinna",
+    "decision": "fix",
+    "reason": "over-long; trim to concise gloss",
+    "proposedTranslation": "to have time (to do something), to make it",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8070,
+    "lemma": "huva",
+    "decision": "fix",
+    "reason": "over-long; trim to core synonyms",
+    "proposedTranslation": "hood, cap, cover",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5958,
+    "lemma": "hyllning",
+    "decision": "fix",
+    "reason": "article glitch 'a expression'; trim to direct translation",
+    "proposedTranslation": "tribute, homage",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7965,
+    "lemma": "idol",
+    "decision": "fix",
+    "reason": "over-long; trim to direct translation",
+    "proposedTranslation": "idol",
+    "proposedSubDefinitions": [
+      "idol (religious image or representation of a deity)"
+    ]
+  },
+  {
+    "kellyId": 3846,
+    "lemma": "krog",
+    "decision": "fix",
+    "reason": "over-long definition-like primary; trim to core translation",
+    "proposedTranslation": "pub, bar, restaurant",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4984,
+    "lemma": "krånglig",
+    "decision": "fix",
+    "reason": "over-long; trim to concise gloss",
+    "proposedTranslation": "complicated, tricky, troublesome",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4591,
+    "lemma": "kula",
+    "decision": "fix",
+    "reason": "over-long; primary is 'ball, marble'; bullet and sphere are distinct senses",
+    "proposedTranslation": "ball, marble",
+    "proposedSubDefinitions": [
+      "bullet",
+      "sphere"
+    ]
+  },
+  {
+    "kellyId": 1591,
+    "lemma": "landsting",
+    "decision": "fix",
+    "reason": "over-long; Swedish context makes county council the primary gloss",
+    "proposedTranslation": "county council",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1379,
+    "lemma": "ledamot",
+    "decision": "fix",
+    "reason": "wrong sense; 'body part' is incorrect; primary meaning is 'member (of a council, board, or parliament)'",
+    "proposedTranslation": "member (of a board, council, or parliament)",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6742,
+    "lemma": "lins",
+    "decision": "fix",
+    "reason": "over-long; both senses are valid; trim primary, keep lens as sub-def",
+    "proposedTranslation": "lentil",
+    "proposedSubDefinitions": [
+      "lens (optics)"
+    ]
+  },
+  {
+    "kellyId": 258,
+    "lemma": "lägga",
+    "decision": "fix",
+    "reason": "over-long; trim to bare verb gloss",
+    "proposedTranslation": "to lay, to put, to place",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8361,
+    "lemma": "maka",
+    "decision": "fix",
+    "reason": "over-long; trim to concise gloss; lowercase",
+    "proposedTranslation": "to move, to shift (a heavy object)",
+    "proposedSubDefinitions": [
+      "to shift oneself slightly, to make room"
+    ]
+  },
+  {
+    "kellyId": 4368,
+    "lemma": "manifestation",
+    "decision": "fix",
+    "reason": "definition-like primary; trim to direct translation",
+    "proposedTranslation": "demonstration, rally, manifestation",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8066,
+    "lemma": "mosa",
+    "decision": "fix",
+    "reason": "over-long; trim to core verbs",
+    "proposedTranslation": "to mash, to squash, to crush",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3459,
+    "lemma": "motionär",
+    "decision": "fix",
+    "reason": "over-long; trim to concise gloss; parliamentary sense kept as sub-def",
+    "proposedTranslation": "recreational exerciser",
+    "proposedSubDefinitions": [
+      "mover (person proposing a motion in a deliberative assembly)"
+    ]
+  },
+  {
+    "kellyId": 2164,
+    "lemma": "mur",
+    "decision": "fix",
+    "reason": "over-long; trim to single word",
+    "proposedTranslation": "wall",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4458,
+    "lemma": "poängtera",
+    "decision": "fix",
+    "reason": "over-long; trim to two synonyms",
+    "proposedTranslation": "to emphasize, to stress",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3685,
+    "lemma": "saknad",
+    "decision": "fix",
+    "reason": "over-long; trim to concise nouns",
+    "proposedTranslation": "longing, loss",
+    "proposedSubDefinitions": [
+      "lack, absence (of something)"
+    ]
+  },
+  {
+    "kellyId": 1682,
+    "lemma": "satsning",
+    "decision": "fix",
+    "reason": "over-long; trim to concise gloss",
+    "proposedTranslation": "investment, venture, commitment",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6090,
+    "lemma": "slappna",
+    "decision": "fix",
+    "reason": "over-long; trim to concise gloss",
+    "proposedTranslation": "to relax, to loosen, to go limp",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1237,
+    "lemma": "slippa",
+    "decision": "fix",
+    "reason": "over-long; trim to concise gloss",
+    "proposedTranslation": "to be spared (from), to avoid (having to do something)",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6629,
+    "lemma": "spola",
+    "decision": "fix",
+    "reason": "over-long; trim primary to core; winding sense kept as sub-def",
+    "proposedTranslation": "to flush, to rinse, to hose",
+    "proposedSubDefinitions": [
+      "to spool, to reel, to wind (onto a reel)"
+    ]
+  },
+  {
+    "kellyId": 2561,
+    "lemma": "stryka",
+    "decision": "fix",
+    "reason": "over-long; primary sense is 'to iron'; other senses kept as sub-defs",
+    "proposedTranslation": "to iron (clothes), to stroke",
+    "proposedSubDefinitions": [
+      "to cross out, to delete, to strike (through)",
+      "to spread (a substance on something)"
+    ]
+  },
+  {
+    "kellyId": 3601,
+    "lemma": "störta",
+    "decision": "fix",
+    "reason": "over-long; trim to core senses",
+    "proposedTranslation": "to crash, to plunge, to overthrow",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1753,
+    "lemma": "tant",
+    "decision": "fix",
+    "reason": "over-long; primary is 'aunt'; older woman sense kept as sub-def",
+    "proposedTranslation": "aunt",
+    "proposedSubDefinitions": [
+      "older woman, old lady (sometimes with connotation of being old-fashioned)"
+    ]
+  },
+  {
+    "kellyId": 3196,
+    "lemma": "tomt",
+    "decision": "fix",
+    "reason": "over-long; trim to core gloss",
+    "proposedTranslation": "plot, lot (of land)",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5375,
+    "lemma": "trilla",
+    "decision": "fix",
+    "reason": "over-long; trim to core verb",
+    "proposedTranslation": "to tumble, to fall, to roll",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4108,
+    "lemma": "underhållande",
+    "decision": "fix",
+    "reason": "wrong sense; candidate gives verb infinitive; adjective means 'entertaining'",
+    "proposedTranslation": "entertaining, amusing",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 110,
+    "lemma": "unna",
+    "decision": "fix",
+    "reason": "over-long; trim to concise gloss",
+    "proposedTranslation": "to allow oneself, to treat oneself to",
+    "proposedSubDefinitions": [
+      "to not begrudge someone something, to be happy for someone"
+    ]
+  },
+  {
+    "kellyId": 5702,
+    "lemma": "uppfostran",
+    "decision": "fix",
+    "reason": "definition-like primary; trim to single word",
+    "proposedTranslation": "upbringing",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2959,
+    "lemma": "uppmaning",
+    "decision": "fix",
+    "reason": "over-long; trim to concise gloss",
+    "proposedTranslation": "call, urging, appeal",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3747,
+    "lemma": "utland",
+    "decision": "fix",
+    "reason": "over-long; trim to two synonyms",
+    "proposedTranslation": "abroad, foreign countries",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7682,
+    "lemma": "vrå",
+    "decision": "fix",
+    "reason": "article glitch 'an corner'; fix article and trim to concise gloss",
+    "proposedTranslation": "corner, nook",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1291,
+    "lemma": "ärende",
+    "decision": "fix",
+    "reason": "over-long; trim to core synonyms",
+    "proposedTranslation": "errand, matter, issue",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8200,
+    "lemma": "överse",
+    "decision": "fix",
+    "reason": "over-long; trim primary to core sense; secondary sense kept as sub-def",
+    "proposedTranslation": "to overlook, to turn a blind eye to",
+    "proposedSubDefinitions": [
+      "to oversee, to review, to inspect"
+    ]
+  }
+]
