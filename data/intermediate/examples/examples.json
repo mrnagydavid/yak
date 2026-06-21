@@ -2437,6 +2437,13 @@
     ]
   },
   {
+    "kellyId": 740,
+    "lemma": "miljard",
+    "examples": [
+      "Det bor en miljard människor i Kina."
+    ]
+  },
+  {
     "kellyId": 741,
     "lemma": "ungdom",
     "examples": [
@@ -5423,6 +5430,13 @@
     "lemma": "bevisa",
     "examples": [
       "Kan du bevisa att det är sant?"
+    ]
+  },
+  {
+    "kellyId": 1529,
+    "lemma": "anställd",
+    "examples": [
+      "En anställd på butiken hjälpte mig."
     ]
   },
   {
@@ -12398,6 +12412,13 @@
     ]
   },
   {
+    "kellyId": 3131,
+    "lemma": "exakt",
+    "examples": [
+      "Kan du ge mig det exakta svaret?"
+    ]
+  },
+  {
     "kellyId": 3133,
     "lemma": "inverkan",
     "examples": [
@@ -17494,6 +17515,13 @@
     ]
   },
   {
+    "kellyId": 5244,
+    "lemma": "konsekvent",
+    "examples": [
+      "Han är konsekvent i sitt arbete."
+    ]
+  },
+  {
     "kellyId": 5279,
     "lemma": "intill",
     "examples": [
@@ -17627,6 +17655,13 @@
     ]
   },
   {
+    "kellyId": 6500,
+    "lemma": "slätt",
+    "examples": [
+      "En stor slätt bredde ut sig framför oss."
+    ]
+  },
+  {
     "kellyId": 6531,
     "lemma": "nolla",
     "examples": [
@@ -17655,10 +17690,31 @@
     ]
   },
   {
+    "kellyId": 6639,
+    "lemma": "resande",
+    "examples": [
+      "Stationen var full av resande."
+    ]
+  },
+  {
     "kellyId": 6692,
     "lemma": "ark",
     "examples": [
       "Hon tog ett tomt ark papper."
+    ]
+  },
+  {
+    "kellyId": 6721,
+    "lemma": "försvinnande",
+    "examples": [
+      "Polisen utredde barnets försvinnande."
+    ]
+  },
+  {
+    "kellyId": 6745,
+    "lemma": "resande",
+    "examples": [
+      "Ett resande cirkussällskap kom till staden."
     ]
   },
   {
@@ -17837,6 +17893,13 @@
     ]
   },
   {
+    "kellyId": 7328,
+    "lemma": "försvinnande",
+    "examples": [
+      "Chansen är försvinnande liten."
+    ]
+  },
+  {
     "kellyId": 7349,
     "lemma": "fjärran",
     "examples": [
@@ -17890,6 +17953,13 @@
     "lemma": "valla",
     "examples": [
       "Bonden brukar valla fåren på ängen."
+    ]
+  },
+  {
+    "kellyId": 7622,
+    "lemma": "slätt",
+    "examples": [
+      "Han nekade kort och slätt."
     ]
   },
   {
@@ -18170,6 +18240,13 @@
     "lemma": "blotta",
     "examples": [
       "Motståndaren hittade en blotta i försvaret."
+    ]
+  },
+  {
+    "kellyId": 8412,
+    "lemma": "hurra",
+    "examples": [
+      "Ett högt hurra hördes från folkmassan."
     ]
   },
   {

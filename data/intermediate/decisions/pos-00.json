@@ -1,0 +1,981 @@
+[
+  {
+    "kellyId": 1,
+    "lemma": "andra",
+    "decision": "keep",
+    "reason": "candidate 'second' is correct for num (ordinal); verb/adj senses are irrelevant to the num entry",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 130,
+    "lemma": "all",
+    "decision": "keep",
+    "reason": "candidate 'all' is correct for pron",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 141,
+    "lemma": "detta",
+    "decision": "fix",
+    "reason": "over-long candidate; pron needs concise flashcard translation",
+    "proposedTranslation": "this",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 170,
+    "lemma": "upp",
+    "decision": "keep",
+    "reason": "candidate 'up' is correct for this particle/adverb",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 214,
+    "lemma": "sådan",
+    "decision": "keep",
+    "reason": "candidate 'such, such a' is correct for pron/det",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 217,
+    "lemma": "din",
+    "decision": "fix",
+    "reason": "sub-definition is a verbose definition artefact; trim it",
+    "proposedTranslation": "your, yours",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 245,
+    "lemma": "fram",
+    "decision": "keep",
+    "reason": "candidate 'forth, forward, out' is correct for this particle",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 342,
+    "lemma": "tidigare",
+    "decision": "fix",
+    "reason": "adv entry; candidate 'early' is the adj base form — adverb sense is 'earlier, previously'",
+    "proposedTranslation": "earlier, previously",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 350,
+    "lemma": "ja",
+    "decision": "fix",
+    "reason": "interj entry; sub-definition is a verbose noun definition artefact; trim it",
+    "proposedTranslation": "yes",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 376,
+    "lemma": "enda",
+    "decision": "keep",
+    "reason": "candidate 'only, sole' is correct for the adj sense; pron source is a minor mismatch but translation is right",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 377,
+    "lemma": "bort",
+    "decision": "keep",
+    "reason": "candidate 'away, off' is correct for this particle",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 384,
+    "lemma": "miljon",
+    "decision": "fix",
+    "reason": "noun entry; candidate is a verbose numeral definition; should be plain noun gloss",
+    "proposedTranslation": "million",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 407,
+    "lemma": "bland annat",
+    "decision": "keep",
+    "reason": "candidate 'among other things' is correct for adv; 'inter alia' is a valid sub-def",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 416,
+    "lemma": "inför",
+    "decision": "keep",
+    "reason": "candidate 'in front of, before' is correct for prep; sub-definitions are valid extra senses",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 424,
+    "lemma": "flest",
+    "decision": "fix",
+    "reason": "adj entry meaning superlative 'most'; candidate 'more and most' is inaccurate",
+    "proposedTranslation": "most",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 427,
+    "lemma": "tillbaka",
+    "decision": "fix",
+    "reason": "sub-definition is a parenthetical gloss artefact; trim it",
+    "proposedTranslation": "back",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 455,
+    "lemma": "nära",
+    "decision": "fix",
+    "reason": "adv entry; verb senses in sub-defs are irrelevant; candidate is fine but sub-defs should be cleared",
+    "proposedTranslation": "near, close",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 456,
+    "lemma": "nej",
+    "decision": "fix",
+    "reason": "interj entry; sub-definitions are verbose noun artefacts; trim them",
+    "proposedTranslation": "no",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 462,
+    "lemma": "på grund av",
+    "decision": "keep",
+    "reason": "candidate 'because of' is correct; POS mismatch (prep vs adv) is in Kelly, translation is right",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 472,
+    "lemma": "kvar",
+    "decision": "keep",
+    "reason": "candidate 'left, remaining' is correct for this particle",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 486,
+    "lemma": "båda",
+    "decision": "fix",
+    "reason": "pron entry; verb sub-def 'to bode' is from a different homograph; remove it",
+    "proposedTranslation": "both",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 565,
+    "lemma": "ihop",
+    "decision": "keep",
+    "reason": "candidate 'together' is correct for this particle",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 594,
+    "lemma": "hem",
+    "decision": "fix",
+    "reason": "other/particle entry; sub-defs are verbose noun definitions; trim to core sense",
+    "proposedTranslation": "home, homeward",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 706,
+    "lemma": "juli",
+    "decision": "keep",
+    "reason": "candidate 'July' is correct",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 740,
+    "lemma": "miljard",
+    "decision": "fix",
+    "reason": "noun entry; candidate is a verbose numeral definition; should be plain noun gloss",
+    "proposedTranslation": "billion",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 819,
+    "lemma": "någonting",
+    "decision": "keep",
+    "reason": "candidate 'something, anything' is correct for pron",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 825,
+    "lemma": "ned",
+    "decision": "keep",
+    "reason": "candidate 'down' is correct for this particle",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 874,
+    "lemma": "bättre",
+    "decision": "fix",
+    "reason": "adv entry (comparative of bra); candidate 'well' is the base adverb — should be 'better'",
+    "proposedTranslation": "better",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 891,
+    "lemma": "så kallad",
+    "decision": "keep",
+    "reason": "candidate 'so-called' is correct; minor POS mismatch but translation is right",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 906,
+    "lemma": "samtidigt som",
+    "decision": "keep",
+    "reason": "candidate 'at the same time as' is correct for conj; sub-def 'while' is a valid synonym",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 958,
+    "lemma": "utifrån",
+    "decision": "keep",
+    "reason": "candidate 'from the outside' is correct for prep; also means 'based on, from'",
+    "proposedTranslation": "from the outside, based on",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 984,
+    "lemma": "betydligt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'significant'; should be adverb 'significantly, considerably'",
+    "proposedTranslation": "significantly, considerably",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 990,
+    "lemma": "igen",
+    "decision": "fix",
+    "reason": "sub-definition is verbose; trim to concise sense",
+    "proposedTranslation": "again",
+    "proposedSubDefinitions": [
+      "shut, closed"
+    ]
+  },
+  {
+    "kellyId": 1007,
+    "lemma": "flera",
+    "decision": "keep",
+    "reason": "candidate 'multiple, many, several' is correct for pron/det",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1025,
+    "lemma": "intresserad",
+    "decision": "fix",
+    "reason": "adj entry glossed as verb infinitive; should be the adjective form",
+    "proposedTranslation": "interested",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1136,
+    "lemma": "mycket",
+    "decision": "keep",
+    "reason": "candidate 'much, a lot' is correct for pron; sub-def 'very' is the adverb sense",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1138,
+    "lemma": "igång",
+    "decision": "keep",
+    "reason": "candidate 'in motion, moving, running' is correct for this particle",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1152,
+    "lemma": "fast",
+    "decision": "fix",
+    "reason": "sub-definitions are verbose; trim to concise senses",
+    "proposedTranslation": "caught, stuck",
+    "proposedSubDefinitions": [
+      "fixed, firm",
+      "although, but"
+    ]
+  },
+  {
+    "kellyId": 1176,
+    "lemma": "tydligt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'clear'; should be adverb 'clearly'",
+    "proposedTranslation": "clearly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1223,
+    "lemma": "oerhört",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'unheard-of'; as adverb means 'enormously, incredibly'",
+    "proposedTranslation": "enormously, incredibly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1271,
+    "lemma": "iväg",
+    "decision": "keep",
+    "reason": "candidate 'away, off' is correct for this particle",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1273,
+    "lemma": "och så vidare",
+    "decision": "keep",
+    "reason": "candidate 'and so on, et cetera, and so forth' is correct",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1345,
+    "lemma": "exakt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'exact'; should be adverb 'exactly'",
+    "proposedTranslation": "exactly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1367,
+    "lemma": "omkring",
+    "decision": "keep",
+    "reason": "candidate 'around' is correct for adv/prep",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1377,
+    "lemma": "samman",
+    "decision": "keep",
+    "reason": "candidate 'together' is correct for this particle",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1422,
+    "lemma": "respektive",
+    "decision": "fix",
+    "reason": "conj entry; sub-def 'Partner in marriage' is an unrelated noun artefact; remove it",
+    "proposedTranslation": "respectively",
+    "proposedSubDefinitions": [
+      "respective"
+    ]
+  },
+  {
+    "kellyId": 1446,
+    "lemma": "förbi",
+    "decision": "keep",
+    "reason": "candidate 'past, over' is correct for prep/particle",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1478,
+    "lemma": "otroligt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'incredible'; should be adverb 'incredibly'",
+    "proposedTranslation": "incredibly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1479,
+    "lemma": "roligt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'funny, fun'; as adverb means 'funnily' but more idiomatically used predicatively — keep as 'fun, funny' since the adj form also works for this lemma",
+    "proposedTranslation": "fun, funny",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1519,
+    "lemma": "undan",
+    "decision": "keep",
+    "reason": "candidate 'away' is correct for this particle/prep",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1529,
+    "lemma": "anställd",
+    "decision": "fix",
+    "reason": "noun entry glossed as adj 'employed, hired'; noun sense is 'employee'",
+    "proposedTranslation": "employee",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1586,
+    "lemma": "var",
+    "decision": "fix",
+    "reason": "pron entry; Kelly sense here is 'each, every'; candidate 'where' is the adverb sense — wrong for pron",
+    "proposedTranslation": "each, every",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1650,
+    "lemma": "vare sig",
+    "decision": "fix",
+    "reason": "conj entry meaning 'whether … or'; candidate 'neither' is inaccurate",
+    "proposedTranslation": "whether … or",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1662,
+    "lemma": "politiskt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'political…'; should be adverb 'politically'",
+    "proposedTranslation": "politically",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1664,
+    "lemma": "mer eller mindre",
+    "decision": "keep",
+    "reason": "candidate 'more or less' is correct",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1669,
+    "lemma": "bäst",
+    "decision": "fix",
+    "reason": "adv entry (superlative of bra); candidate 'well' is the base — should be 'best'",
+    "proposedTranslation": "best",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1694,
+    "lemma": "sannolikt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'probable'; should be adverb 'probably, likely'",
+    "proposedTranslation": "probably, likely",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1707,
+    "lemma": "slut",
+    "decision": "fix",
+    "reason": "sub-definitions are verbose; trim to concise senses",
+    "proposedTranslation": "over, finished",
+    "proposedSubDefinitions": [
+      "end",
+      "run out, gone"
+    ]
+  },
+  {
+    "kellyId": 1715,
+    "lemma": "övertygad",
+    "decision": "fix",
+    "reason": "adj entry glossed as verb 'to convince'; should be the adjective 'convinced'",
+    "proposedTranslation": "convinced",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1754,
+    "lemma": "berörd",
+    "decision": "fix",
+    "reason": "adj entry glossed as verb 'to touch'; should be participial adjective 'affected, touched'",
+    "proposedTranslation": "affected, touched",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1773,
+    "lemma": "vad",
+    "decision": "fix",
+    "reason": "adv entry; noun sub-defs (bet, ford, calf, trawl) are unrelated homograph artefacts; remove them",
+    "proposedTranslation": "what",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1797,
+    "lemma": "kvar",
+    "decision": "keep",
+    "reason": "candidate 'left, remaining' is correct for this adverb/particle",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1827,
+    "lemma": "med andra ord",
+    "decision": "keep",
+    "reason": "candidate 'in other words' is correct",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1908,
+    "lemma": "dess",
+    "decision": "fix",
+    "reason": "adv entry; Kelly uses 'dess' as an adverb in 'desto' comparatives and 'till dess'; sub-defs are noisy; primary translation as pron/adv should be 'its' or 'the more'; clarify core sense",
+    "proposedTranslation": "its",
+    "proposedSubDefinitions": [
+      "the (in comparisons: ju … desto/dess)"
+    ]
+  },
+  {
+    "kellyId": 1938,
+    "lemma": "synd",
+    "decision": "fix",
+    "reason": "adv entry; Kelly uses 'synd' predicatively as 'a pity, a shame'; primary candidate 'sin' is the noun sense; adv/predicative sense is 'a pity, a shame'",
+    "proposedTranslation": "a pity, a shame",
+    "proposedSubDefinitions": [
+      "sin"
+    ]
+  },
+  {
+    "kellyId": 2006,
+    "lemma": "ifrån",
+    "decision": "keep",
+    "reason": "candidate 'from' is correct for adv/prep",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2079,
+    "lemma": "kort",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'short'; as adverb means 'briefly, shortly'; noun sub-defs are irrelevant to the adv entry",
+    "proposedTranslation": "briefly, shortly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2103,
+    "lemma": "hemma",
+    "decision": "fix",
+    "reason": "sub-definitions are verbose artefacts; trim to concise",
+    "proposedTranslation": "at home",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2104,
+    "lemma": "sönder",
+    "decision": "fix",
+    "reason": "sub-definition is verbose; trim to concise",
+    "proposedTranslation": "broken, apart",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2138,
+    "lemma": "aktivt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'active'; should be adverb 'actively'",
+    "proposedTranslation": "actively",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2310,
+    "lemma": "planerad",
+    "decision": "fix",
+    "reason": "adj entry glossed as verb 'to plan'; should be participial adjective 'planned'",
+    "proposedTranslation": "planned",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2360,
+    "lemma": "organiserad",
+    "decision": "fix",
+    "reason": "adj entry glossed as verb 'to organize'; should be participial adjective 'organized'",
+    "proposedTranslation": "organized",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2372,
+    "lemma": "ensamt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'alone'; as adverb should be 'alone, on one's own'",
+    "proposedTranslation": "alone, on one's own",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2407,
+    "lemma": "skild",
+    "decision": "fix",
+    "reason": "adj entry glossed as verb 'to separate'; should be participial adjective 'separated, divorced'",
+    "proposedTranslation": "separated, divorced",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2411,
+    "lemma": "lugnt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'calm, calmness'; as adverb should be 'calmly, quietly'",
+    "proposedTranslation": "calmly, quietly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2532,
+    "lemma": "plus",
+    "decision": "fix",
+    "reason": "adv entry; sub-defs are fine but candidate is correct; sub-def 'benefit, advantage' is a secondary noun sense — keep",
+    "proposedTranslation": "plus, and",
+    "proposedSubDefinitions": [
+      "plus sign",
+      "advantage, benefit"
+    ]
+  },
+  {
+    "kellyId": 2537,
+    "lemma": "online",
+    "decision": "keep",
+    "reason": "candidate 'online' is correct; POS mismatch is trivial — same form in English",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2563,
+    "lemma": "till dess",
+    "decision": "keep",
+    "reason": "candidate 'until' is correct for adv/conj",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2601,
+    "lemma": "från och med",
+    "decision": "fix",
+    "reason": "candidate is over-long; core meaning is 'starting from, as of'",
+    "proposedTranslation": "starting from, as of",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2660,
+    "lemma": "ju",
+    "decision": "fix",
+    "reason": "conj entry; candidate is a verbose definition; should be concise flashcard gloss",
+    "proposedTranslation": "of course, you know, after all",
+    "proposedSubDefinitions": [
+      "the … the (in comparisons: ju … desto)"
+    ]
+  },
+  {
+    "kellyId": 2685,
+    "lemma": "praktiskt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'practical'; should be adverb 'practically'",
+    "proposedTranslation": "practically",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2728,
+    "lemma": "över huvud taget",
+    "decision": "keep",
+    "reason": "candidate 'altogether' is acceptable; 'at all' is also common — fix to add it",
+    "proposedTranslation": "at all, altogether",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2767,
+    "lemma": "rejält",
+    "decision": "fix",
+    "reason": "adv entry glossed as verbose adj definition; as adverb means 'substantially, thoroughly, quite'",
+    "proposedTranslation": "substantially, thoroughly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2799,
+    "lemma": "vanligt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'common, usual'; as adverb means 'commonly, usually'",
+    "proposedTranslation": "commonly, usually",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2833,
+    "lemma": "långsamt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'slow'; should be adverb 'slowly'",
+    "proposedTranslation": "slowly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2842,
+    "lemma": "ihjäl",
+    "decision": "keep",
+    "reason": "candidate 'to death' is correct for this particle (slå ihjäl = beat to death)",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2901,
+    "lemma": "internationellt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'international'; should be adverb 'internationally'",
+    "proposedTranslation": "internationally",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2902,
+    "lemma": "nationellt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'national'; should be adverb 'nationally'",
+    "proposedTranslation": "nationally",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2931,
+    "lemma": "övrigt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'other, remaining'; in adv use (i övrigt = otherwise, apart from that)",
+    "proposedTranslation": "otherwise, apart from that",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2984,
+    "lemma": "vetande",
+    "decision": "fix",
+    "reason": "noun entry glossed as verb 'to know'; noun means 'knowledge'",
+    "proposedTranslation": "knowledge",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3017,
+    "lemma": "effektivt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'efficient'; should be adverb 'efficiently, effectively'",
+    "proposedTranslation": "efficiently, effectively",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3044,
+    "lemma": "inne",
+    "decision": "keep",
+    "reason": "candidate 'inside, indoors' is correct for this particle; sub-def 'in (fashionable)' is a valid secondary sense",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3082,
+    "lemma": "fint",
+    "decision": "fix",
+    "reason": "adv entry; candidate 'a feint' is from the wrong homograph (English loanword); Swedish 'fint' as adverb = 'nicely, finely'",
+    "proposedTranslation": "nicely, finely",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3098,
+    "lemma": "emellan",
+    "decision": "keep",
+    "reason": "candidate 'in between' is correct for prep; sub-def 'between' is a valid synonym",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3176,
+    "lemma": "offentligt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'public'; should be adverb 'publicly'",
+    "proposedTranslation": "publicly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3192,
+    "lemma": "loss",
+    "decision": "fix",
+    "reason": "sub-definition is verbose; trim; candidate is also verbose",
+    "proposedTranslation": "loose, off",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3199,
+    "lemma": "värt",
+    "decision": "keep",
+    "reason": "candidate 'worth' is correct for adv/adj use (det är värt = it is worth)",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3263,
+    "lemma": "i förväg",
+    "decision": "fix",
+    "reason": "sub-definition 'leaving before (someone)' is a literal gloss artefact; remove it",
+    "proposedTranslation": "in advance, beforehand",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3323,
+    "lemma": "ärligt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'honest'; should be adverb 'honestly'",
+    "proposedTranslation": "honestly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3324,
+    "lemma": "historiskt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'historic'; should be adverb 'historically'",
+    "proposedTranslation": "historically",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3372,
+    "lemma": "imponerande",
+    "decision": "fix",
+    "reason": "adj entry glossed as verb 'to impress'; -ande form is participial adjective 'impressive'",
+    "proposedTranslation": "impressive",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3381,
+    "lemma": "vad som helst",
+    "decision": "keep",
+    "reason": "candidate 'anything, whatever' is correct for adv/pron",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3418,
+    "lemma": "ett",
+    "decision": "keep",
+    "reason": "candidate 'a, an' is correct for pron/article/num; sub-def 'one' is a valid secondary sense",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3422,
+    "lemma": "somlig",
+    "decision": "keep",
+    "reason": "candidate 'some' is correct for pron",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3427,
+    "lemma": "positivt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'positive'; should be adverb 'positively'",
+    "proposedTranslation": "positively",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3471,
+    "lemma": "stilla",
+    "decision": "fix",
+    "reason": "adv entry; verb sub-defs are irrelevant; as adverb means 'still, quietly'",
+    "proposedTranslation": "still, quietly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3495,
+    "lemma": "användande",
+    "decision": "fix",
+    "reason": "noun entry glossed as verb 'to use'; -ande noun means 'use, usage'",
+    "proposedTranslation": "use, usage",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3518,
+    "lemma": "blivande",
+    "decision": "fix",
+    "reason": "adj entry; candidate 'becoming' is ambiguous; -ande adj here means 'future, prospective' (e.g. blivande mamma = mother-to-be)",
+    "proposedTranslation": "future, prospective, to-be",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3567,
+    "lemma": "alternativt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'alternate, other, alternative'; should be adverb 'alternatively'",
+    "proposedTranslation": "alternatively",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3591,
+    "lemma": "negativt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'less than zero'; should be adverb 'negatively'",
+    "proposedTranslation": "negatively",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3616,
+    "lemma": "itu",
+    "decision": "keep",
+    "reason": "candidate 'into two pieces, apart' is correct for this particle",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3629,
+    "lemma": "formellt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'formal'; should be adverb 'formally'",
+    "proposedTranslation": "formally",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3650,
+    "lemma": "konsekvent",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'consistent'; should be adverb 'consistently'",
+    "proposedTranslation": "consistently",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3651,
+    "lemma": "isolerad",
+    "decision": "fix",
+    "reason": "adj entry glossed as verb 'to isolate, to insulate'; should be participial adjective 'isolated'",
+    "proposedTranslation": "isolated",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3663,
+    "lemma": "dumt",
+    "decision": "fix",
+    "reason": "adj entry; but lemma is the neuter adverbial form 'dumt' — used as adverb 'stupidly, dumbly'; however Kelly marks it adj so keep adj meaning; candidate is correct",
+    "proposedTranslation": "stupid, dumb",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3679,
+    "lemma": "fantastiskt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'fantastic'; should be adverb 'fantastically, amazingly'",
+    "proposedTranslation": "fantastically, amazingly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3728,
+    "lemma": "fruktansvärt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'horrific, dreadful'; should be adverb 'terribly, dreadfully'",
+    "proposedTranslation": "terribly, dreadfully",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3749,
+    "lemma": "finanser",
+    "decision": "fix",
+    "reason": "noun entry; 'finanser' is the plural — 'finances' is the correct English plural noun",
+    "proposedTranslation": "finances",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3756,
+    "lemma": "tillhörande",
+    "decision": "fix",
+    "reason": "adj entry glossed as verb 'to belong to'; -ande adj means 'associated, belonging, related'",
+    "proposedTranslation": "associated, belonging",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3822,
+    "lemma": "märkligt",
+    "decision": "fix",
+    "reason": "adv entry glossed as adj 'strange, peculiar'; should be adverb 'strangely, oddly'",
+    "proposedTranslation": "strangely, oddly",
+    "proposedSubDefinitions": []
+  }
+]

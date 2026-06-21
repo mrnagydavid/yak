@@ -1,0 +1,834 @@
+[
+  {
+    "kellyId": 3908,
+    "lemma": "still",
+    "decision": "keep",
+    "reason": "Swedish 'still' [adj] means quiet/calm; candidate 'still' is correct as an English adjective",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3932,
+    "lemma": "bindande",
+    "decision": "fix",
+    "reason": "adj glossed as verb infinitive; 'bindande' [adj] means binding/obligatory",
+    "proposedTranslation": "binding, obligatory",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3981,
+    "lemma": "varmt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'varmt' [adv] → warmly",
+    "proposedTranslation": "warmly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4020,
+    "lemma": "naturligt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'naturligt' [adv] → naturally",
+    "proposedTranslation": "naturally",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4101,
+    "lemma": "sparande",
+    "decision": "fix",
+    "reason": "noun glossed as verb infinitive; 'sparande' [noun] = the act of saving (money)",
+    "proposedTranslation": "saving, savings",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4110,
+    "lemma": "noggrant",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'noggrant' [adv] → carefully, thoroughly",
+    "proposedTranslation": "carefully, thoroughly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4155,
+    "lemma": "tillfälligt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'tillfälligt' [adv] → temporarily",
+    "proposedTranslation": "temporarily",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4201,
+    "lemma": "traditionellt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'traditionellt' [adv] → traditionally",
+    "proposedTranslation": "traditionally",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4202,
+    "lemma": "bliva",
+    "decision": "keep",
+    "reason": "verb correctly glossed as verb; 'bliva' is an archaic/literary form of 'bli' = to become",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4291,
+    "lemma": "bildande",
+    "decision": "fix",
+    "reason": "adj glossed as verb infinitive; 'bildande' [adj] means educational/formative",
+    "proposedTranslation": "educational, formative",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4328,
+    "lemma": "typiskt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'typiskt' [adv] → typically",
+    "proposedTranslation": "typically",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4345,
+    "lemma": "flitigt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'flitigt' [adv] → diligently",
+    "proposedTranslation": "diligently",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4425,
+    "lemma": "skälig",
+    "decision": "keep",
+    "reason": "adj; candidate 'fair, reasonable' is correct for the adjective — wikPos mismatch is irrelevant",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4436,
+    "lemma": "ende",
+    "decision": "fix",
+    "reason": "adj; definition-like gloss; 'ende' [adj] = only, sole (masculine definite form of 'enda')",
+    "proposedTranslation": "only, sole",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4447,
+    "lemma": "skrivande",
+    "decision": "fix",
+    "reason": "noun glossed as verb infinitive; 'skrivande' [noun] = writing (the activity)",
+    "proposedTranslation": "writing",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4595,
+    "lemma": "avskaffande",
+    "decision": "fix",
+    "reason": "noun glossed as verb infinitive; 'avskaffande' [noun] = abolition",
+    "proposedTranslation": "abolition, abolishing",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4638,
+    "lemma": "tungt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'tungt' [adv] → heavily",
+    "proposedTranslation": "heavily",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4684,
+    "lemma": "varannan",
+    "decision": "keep",
+    "reason": "candidate 'every other' is correct for this determiner/pronoun",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4694,
+    "lemma": "systematiskt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'systematiskt' [adv] → systematically",
+    "proposedTranslation": "systematically",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4696,
+    "lemma": "uppe",
+    "decision": "keep",
+    "reason": "candidate 'up' is correct; subDefinition 'up, awake' is fine",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4814,
+    "lemma": "framgångsrikt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'framgångsrikt' [adv] → successfully",
+    "proposedTranslation": "successfully",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4847,
+    "lemma": "återstående",
+    "decision": "fix",
+    "reason": "adj glossed as verb infinitive; 'återstående' [adj] = remaining",
+    "proposedTranslation": "remaining",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4865,
+    "lemma": "övertygande",
+    "decision": "fix",
+    "reason": "adj glossed as verb infinitive; 'övertygande' [adj] = convincing",
+    "proposedTranslation": "convincing",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4899,
+    "lemma": "uppför",
+    "decision": "fix",
+    "reason": "prep glossed as adv; 'uppför' [prep] = up, along (e.g. uppför trappan = up the stairs)",
+    "proposedTranslation": "up, along",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 4973,
+    "lemma": "ont",
+    "decision": "keep",
+    "reason": "noun; candidate 'pain' is correct for the noun sense",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5016,
+    "lemma": "förtjust",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'förtjust' [adv] → delightedly, with delight",
+    "proposedTranslation": "delightedly, with delight",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5026,
+    "lemma": "onödigt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'onödigt' [adv] → unnecessarily",
+    "proposedTranslation": "unnecessarily",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5061,
+    "lemma": "oändligt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'oändligt' [adv] → infinitely, endlessly",
+    "proposedTranslation": "infinitely, endlessly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5073,
+    "lemma": "miste",
+    "decision": "fix",
+    "reason": "Kelly POS 'other'; 'miste' is past tense of 'mista' (to lose); best as particle/adverb in 'ta miste om' = to miss out on",
+    "proposedTranslation": "missed, lost",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5096,
+    "lemma": "intensivt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'intensivt' [adv] → intensively, intensely",
+    "proposedTranslation": "intensively, intensely",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5117,
+    "lemma": "evigt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'evigt' [adv] → eternally, forever",
+    "proposedTranslation": "eternally, forever",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5143,
+    "lemma": "vetenskapligt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'vetenskapligt' [adv] → scientifically",
+    "proposedTranslation": "scientifically",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5145,
+    "lemma": "lovande",
+    "decision": "fix",
+    "reason": "adj glossed as verb infinitive; 'lovande' [adj] = promising",
+    "proposedTranslation": "promising",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5151,
+    "lemma": "isär",
+    "decision": "keep",
+    "reason": "candidate 'apart, asunder' is correct for this adverb/particle",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5161,
+    "lemma": "spontant",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'spontant' [adv] → spontaneously",
+    "proposedTranslation": "spontaneously",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5180,
+    "lemma": "skarpt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'skarpt' [adv] → sharply",
+    "proposedTranslation": "sharply",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5190,
+    "lemma": "skönt",
+    "decision": "fix",
+    "reason": "adv glossed as noun; 'skönt' [adv] → nicely, pleasantly, beautifully",
+    "proposedTranslation": "nicely, pleasantly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5217,
+    "lemma": "ikapp",
+    "decision": "fix",
+    "reason": "candidate is over-glossed; 'ikapp' = catching up, even (used in racing/competition contexts)",
+    "proposedTranslation": "catching up, even",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5226,
+    "lemma": "överklagande",
+    "decision": "fix",
+    "reason": "noun glossed as verb infinitive; 'överklagande' [noun] = appeal (legal)",
+    "proposedTranslation": "appeal, appealing",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5262,
+    "lemma": "påtagligt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'påtagligt' [adv] → noticeably, tangibly",
+    "proposedTranslation": "noticeably, tangibly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5284,
+    "lemma": "gud",
+    "decision": "fix",
+    "reason": "interj glossed as noun; as interjection 'gud!' = God!, good God!, my God!",
+    "proposedTranslation": "God!, good God!",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5307,
+    "lemma": "drastiskt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'drastiskt' [adv] → drastically",
+    "proposedTranslation": "drastically",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5315,
+    "lemma": "utomordentligt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'utomordentligt' [adv] → extraordinarily, exceptionally",
+    "proposedTranslation": "extraordinarily, exceptionally",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5337,
+    "lemma": "kemikalier",
+    "decision": "fix",
+    "reason": "noun is plural form; candidate 'chemical' is singular — should be plural 'chemicals'",
+    "proposedTranslation": "chemicals",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5443,
+    "lemma": "dramatiskt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'dramatiskt' [adv] → dramatically",
+    "proposedTranslation": "dramatically",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5461,
+    "lemma": "krävande",
+    "decision": "fix",
+    "reason": "adj glossed as verb infinitive; 'krävande' [adj] = demanding, challenging",
+    "proposedTranslation": "demanding, challenging",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5487,
+    "lemma": "felaktigt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'felaktigt' [adv] → incorrectly, wrongly",
+    "proposedTranslation": "incorrectly, wrongly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5500,
+    "lemma": "strikt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'strikt' [adv] → strictly",
+    "proposedTranslation": "strictly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5562,
+    "lemma": "grovt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'grovt' [adv] → coarsely, roughly, grossly",
+    "proposedTranslation": "coarsely, roughly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5573,
+    "lemma": "till vara",
+    "decision": "fix",
+    "reason": "candidate is a usage note, not a translation; 'ta tillvara' = to make use of, to preserve",
+    "proposedTranslation": "to good use, preserve (in: ta till vara)",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5592,
+    "lemma": "snyggt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'snyggt' [adv] → neatly, nicely, attractively",
+    "proposedTranslation": "neatly, nicely",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5645,
+    "lemma": "jämnt",
+    "decision": "keep",
+    "reason": "adj; candidate 'smooth, even' is correct — wikPos includes adj so translation matches",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5655,
+    "lemma": "internt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'internt' [adv] → internally",
+    "proposedTranslation": "internally",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5660,
+    "lemma": "lagstiftande",
+    "decision": "fix",
+    "reason": "adj glossed as verb infinitive; 'lagstiftande' [adj] = legislative",
+    "proposedTranslation": "legislative",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5722,
+    "lemma": "logiskt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'logiskt' [adv] → logically",
+    "proposedTranslation": "logically",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5734,
+    "lemma": "uppriktigt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'uppriktigt' [adv] → sincerely, honestly",
+    "proposedTranslation": "sincerely, honestly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5749,
+    "lemma": "minus",
+    "decision": "fix",
+    "reason": "adv; candidate is redundant/noun-focused; as adverb 'minus' = minus, below zero",
+    "proposedTranslation": "minus",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5777,
+    "lemma": "teoretiskt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'teoretiskt' [adv] → theoretically",
+    "proposedTranslation": "theoretically",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5802,
+    "lemma": "möjligt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'möjligt' [adv] → possibly",
+    "proposedTranslation": "possibly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5823,
+    "lemma": "löst",
+    "decision": "fix",
+    "reason": "adv glossed as verb/adj; 'löst' [adv] = loosely",
+    "proposedTranslation": "loosely",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5841,
+    "lemma": "tråkigt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'tråkigt' [adv] → boringly, tediously; also 'unfortunately' in expressions",
+    "proposedTranslation": "boringly, tediously",
+    "proposedSubDefinitions": ["unfortunately (in expressions like 'tråkigt nog')"]
+  },
+  {
+    "kellyId": 5925,
+    "lemma": "tryggt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'tryggt' [adv] → safely, securely",
+    "proposedTranslation": "safely, securely",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5993,
+    "lemma": "media",
+    "decision": "fix",
+    "reason": "noun; candidate 'medium' is wrong sense — Swedish 'media' = the media (press/TV/internet)",
+    "proposedTranslation": "the media",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6151,
+    "lemma": "vadå",
+    "decision": "keep",
+    "reason": "interj; candidate 'what?' is correct for this colloquial interjection",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6179,
+    "lemma": "vinnande",
+    "decision": "fix",
+    "reason": "adj glossed as verb infinitive; 'vinnande' [adj] = winning, charming",
+    "proposedTranslation": "winning, charming",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6252,
+    "lemma": "bidragande",
+    "decision": "fix",
+    "reason": "adj glossed as verb infinitive; 'bidragande' [adj] = contributing, contributory",
+    "proposedTranslation": "contributing, contributory",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6329,
+    "lemma": "avsiktligt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'avsiktligt' [adv] → intentionally, deliberately",
+    "proposedTranslation": "intentionally, deliberately",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6607,
+    "lemma": "överdrivet",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'överdrivet' [adv] → excessively, exaggeratedly",
+    "proposedTranslation": "excessively, exaggeratedly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6669,
+    "lemma": "elfte",
+    "decision": "keep",
+    "reason": "ordinal numeral; candidate 'eleventh' is correct — wikPos 'adj' is how ordinals are tagged in Wiktionary",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6721,
+    "lemma": "försvinnande",
+    "decision": "fix",
+    "reason": "noun glossed as verb infinitive; 'försvinnande' [noun] = disappearance",
+    "proposedTranslation": "disappearance",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6745,
+    "lemma": "resande",
+    "decision": "fix",
+    "reason": "adj glossed as noun; 'resande' [adj] = travelling, itinerant",
+    "proposedTranslation": "travelling, itinerant",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6806,
+    "lemma": "komplettering",
+    "decision": "fix",
+    "reason": "noun glossed as verb; 'komplettering' [noun] = complement, supplement, addition",
+    "proposedTranslation": "complement, supplement",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6851,
+    "lemma": "noll",
+    "decision": "keep",
+    "reason": "noun; candidate 'zero' is correct — wikPos 'num' is Wiktionary's tagging style",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7089,
+    "lemma": "hallå",
+    "decision": "fix",
+    "reason": "noun glossed as interjection; as noun 'hallå' = hello (exclamation as a noun); subdefinitions are over-long",
+    "proposedTranslation": "hello, hey",
+    "proposedSubDefinitions": ["hey (to get attention)", "hello (on phone)"]
+  },
+  {
+    "kellyId": 7113,
+    "lemma": "rikligt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'rikligt' [adv] → plentifully, abundantly",
+    "proposedTranslation": "plentifully, abundantly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7328,
+    "lemma": "försvinnande",
+    "decision": "fix",
+    "reason": "adv glossed as verb; 'försvinnande' [adv] = vanishingly (e.g. försvinnande liten = vanishingly small)",
+    "proposedTranslation": "vanishingly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7385,
+    "lemma": "jämförande",
+    "decision": "fix",
+    "reason": "adj glossed as verb infinitive; 'jämförande' [adj] = comparative",
+    "proposedTranslation": "comparative",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7455,
+    "lemma": "förnekande",
+    "decision": "fix",
+    "reason": "noun glossed as verb infinitive; 'förnekande' [noun] = denial",
+    "proposedTranslation": "denial",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7472,
+    "lemma": "skådespelerska",
+    "decision": "fix",
+    "reason": "noun; candidate 'an actor' is male-generic; 'skådespelerska' is specifically a female actor/actress",
+    "proposedTranslation": "actress",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7488,
+    "lemma": "förbluffande",
+    "decision": "fix",
+    "reason": "adv glossed as verb/adj; 'förbluffande' [adv] → astoundingly, bafflingly",
+    "proposedTranslation": "astoundingly, bafflingly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7508,
+    "lemma": "tålmodigt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'tålmodigt' [adv] → patiently",
+    "proposedTranslation": "patiently",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7559,
+    "lemma": "glänsande",
+    "decision": "fix",
+    "reason": "adj glossed as verb infinitive; 'glänsande' [adj] = shining, gleaming, brilliant",
+    "proposedTranslation": "shining, gleaming, brilliant",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7622,
+    "lemma": "slätt",
+    "decision": "fix",
+    "reason": "adv glossed as noun; 'slätt' [adv] = plainly, simply, flatly",
+    "proposedTranslation": "plainly, simply, flatly",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7737,
+    "lemma": "förverkligande",
+    "decision": "fix",
+    "reason": "noun glossed as verb infinitive; 'förverkligande' [noun] = realization, fulfilment",
+    "proposedTranslation": "realization, fulfilment",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7783,
+    "lemma": "drickande",
+    "decision": "fix",
+    "reason": "noun glossed as verb infinitive; 'drickande' [noun] = drinking (the act/habit)",
+    "proposedTranslation": "drinking",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7907,
+    "lemma": "beslutsamt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'beslutsamt' [adv] → decisively, resolutely",
+    "proposedTranslation": "decisively, resolutely",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7920,
+    "lemma": "underlydande",
+    "decision": "fix",
+    "reason": "adj glossed from noun; 'underlydande' [adj] = subordinate, subject to",
+    "proposedTranslation": "subordinate",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7993,
+    "lemma": "betyg",
+    "decision": "fix",
+    "reason": "Kelly POS is verb but lemma is clearly a noun; candidate 'a grade' is correct as noun translation",
+    "proposedTranslation": "grade, mark",
+    "proposedSubDefinitions": ["diploma, certificate"]
+  },
+  {
+    "kellyId": 8059,
+    "lemma": "rättfärdigande",
+    "decision": "fix",
+    "reason": "noun glossed as verb infinitive; 'rättfärdigande' [noun] = justification",
+    "proposedTranslation": "justification",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8124,
+    "lemma": "sned",
+    "decision": "fix",
+    "reason": "Kelly POS noun but 'sned' is an adjective; candidate mixes senses; core meaning is crooked/oblique",
+    "proposedTranslation": "crooked, oblique, skewed",
+    "proposedSubDefinitions": ["angry, in a bad mood"]
+  },
+  {
+    "kellyId": 8193,
+    "lemma": "sårande",
+    "decision": "fix",
+    "reason": "adj glossed as verb infinitive; 'sårande' [adj] = wounding, hurtful, offensive",
+    "proposedTranslation": "hurtful, offensive, wounding",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8218,
+    "lemma": "mittemot",
+    "decision": "keep",
+    "reason": "candidate 'opposite, facing' is correct for the adverb sense; wikPos mismatch is minor",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8283,
+    "lemma": "genomresa",
+    "decision": "fix",
+    "reason": "noun glossed as verb; 'genomresa' [noun] = transit, passage (through a place)",
+    "proposedTranslation": "transit, passage through",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8291,
+    "lemma": "adjö",
+    "decision": "keep",
+    "reason": "candidate 'goodbye' is correct; noun POS in Kelly vs interj in Wiktionary is minor; translation is right",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8293,
+    "lemma": "periodiskt",
+    "decision": "fix",
+    "reason": "adv glossed as adjective; 'periodiskt' [adv] → periodically",
+    "proposedTranslation": "periodically",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8332,
+    "lemma": "förbrukare",
+    "decision": "fix",
+    "reason": "noun glossed as verb; 'förbrukare' [noun] = consumer, user (person who consumes/uses up)",
+    "proposedTranslation": "consumer, user",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8338,
+    "lemma": "fullbordande",
+    "decision": "fix",
+    "reason": "noun glossed as verb infinitive; 'fullbordande' [noun] = completion, fulfilment",
+    "proposedTranslation": "completion, fulfilment",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8353,
+    "lemma": "femtionde",
+    "decision": "keep",
+    "reason": "ordinal numeral; candidate 'fiftieth' is correct",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8357,
+    "lemma": "fyrtionde",
+    "decision": "keep",
+    "reason": "ordinal numeral; candidate 'fortieth' is correct",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8375,
+    "lemma": "bräda",
+    "decision": "fix",
+    "reason": "Kelly POS verb but lemma is a noun; candidate 'a board' is correct but over-worded",
+    "proposedTranslation": "board, plank",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8382,
+    "lemma": "nittionde",
+    "decision": "keep",
+    "reason": "ordinal numeral; candidate 'ninetieth' is correct",
+    "proposedTranslation": "",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8412,
+    "lemma": "hurra",
+    "decision": "fix",
+    "reason": "Kelly POS noun; candidate 'hooray!' includes exclamation mark; as noun 'hurra' = cheer, hurray",
+    "proposedTranslation": "cheer, hooray",
+    "proposedSubDefinitions": ["to cheer, to shout hooray"]
+  },
+  {
+    "kellyId": 8422,
+    "lemma": "kvitt",
+    "decision": "fix",
+    "reason": "Kelly POS noun but kvitt is adj/interj; candidate mixes senses; core meaning: quits, even, rid of",
+    "proposedTranslation": "quits, even, rid of",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8423,
+    "lemma": "planta",
+    "decision": "fix",
+    "reason": "Kelly POS verb but lemma is a noun/verb; candidate 'plant' is correct but brief — keep as noun",
+    "proposedTranslation": "plant, seedling",
+    "proposedSubDefinitions": ["to plant"]
+  }
+]
