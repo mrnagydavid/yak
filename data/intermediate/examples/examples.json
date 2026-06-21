@@ -17368,10 +17368,388 @@
     ]
   },
   {
+    "kellyId": 4213,
+    "lemma": "realitet",
+    "examples": [
+      "Vi måste acceptera den hårda realiteten."
+    ]
+  },
+  {
+    "kellyId": 4214,
+    "lemma": "marknadsföra",
+    "examples": [
+      "Företaget marknadsför sina produkter på nätet."
+    ]
+  },
+  {
+    "kellyId": 4215,
+    "lemma": "vitt",
+    "examples": [
+      "Det är känt vitt och brett att hon är duktig."
+    ]
+  },
+  {
+    "kellyId": 4216,
+    "lemma": "vrede",
+    "examples": [
+      "Han kunde inte dölja sin vrede."
+    ]
+  },
+  {
+    "kellyId": 4218,
+    "lemma": "statistisk",
+    "examples": [
+      "Det finns ingen statistisk skillnad mellan grupperna."
+    ]
+  },
+  {
+    "kellyId": 4219,
+    "lemma": "ödmjuk",
+    "examples": [
+      "Trots sin framgång är hon mycket ödmjuk."
+    ]
+  },
+  {
+    "kellyId": 4221,
+    "lemma": "klarhet",
+    "examples": [
+      "Vi behöver mer klarhet i den här frågan."
+    ]
+  },
+  {
+    "kellyId": 4222,
+    "lemma": "långsiktigt",
+    "examples": [
+      "Vi måste tänka mer långsiktigt."
+    ]
+  },
+  {
+    "kellyId": 4223,
+    "lemma": "anstränga",
+    "examples": [
+      "Du behöver inte anstränga dig så mycket."
+    ]
+  },
+  {
+    "kellyId": 4224,
+    "lemma": "generös",
+    "examples": [
+      "Han var generös och bjöd på middag."
+    ]
+  },
+  {
+    "kellyId": 4225,
+    "lemma": "mellanrum",
+    "examples": [
+      "Det är ett litet mellanrum mellan borden."
+    ]
+  },
+  {
+    "kellyId": 4230,
+    "lemma": "strukturell",
+    "examples": [
+      "Landet har strukturella problem i ekonomin."
+    ]
+  },
+  {
+    "kellyId": 4231,
+    "lemma": "förvärva",
+    "examples": [
+      "Bolaget förvärvar ett mindre företag i söder."
+    ]
+  },
+  {
+    "kellyId": 4232,
+    "lemma": "regi",
+    "examples": [
+      "Filmen är i regi av en svensk regissör."
+    ]
+  },
+  {
+    "kellyId": 4235,
+    "lemma": "statsmakt",
+    "examples": [
+      "Domstolarna är en viktig statsmakt."
+    ]
+  },
+  {
+    "kellyId": 4237,
+    "lemma": "relativ",
+    "examples": [
+      "Det är en relativ förbättring, inte en total lösning."
+    ]
+  },
+  {
+    "kellyId": 4238,
+    "lemma": "vindkraft",
+    "examples": [
+      "Sverige investerar mer i vindkraft varje år."
+    ]
+  },
+  {
+    "kellyId": 4239,
+    "lemma": "imperialistisk",
+    "examples": [
+      "De kritiserade landets imperialistiska politik."
+    ]
+  },
+  {
+    "kellyId": 4240,
+    "lemma": "måltid",
+    "examples": [
+      "Familjens gemensamma måltid är viktig."
+    ]
+  },
+  {
+    "kellyId": 4241,
+    "lemma": "till synes",
+    "examples": [
+      "Det var ett till synes enkelt problem."
+    ]
+  },
+  {
+    "kellyId": 4242,
+    "lemma": "belöna",
+    "examples": [
+      "Läraren belönade eleverna för deras arbete."
+    ]
+  },
+  {
+    "kellyId": 4243,
+    "lemma": "importera",
+    "examples": [
+      "Sverige importerar mycket olja från utlandet."
+    ]
+  },
+  {
+    "kellyId": 4246,
+    "lemma": "stormakt",
+    "examples": [
+      "Kina har blivit en global stormakt."
+    ]
+  },
+  {
+    "kellyId": 4247,
+    "lemma": "samtida",
+    "examples": [
+      "Han studerar samtida konst och design."
+    ]
+  },
+  {
+    "kellyId": 4248,
+    "lemma": "legal",
+    "examples": [
+      "Handlingen var legal men moraliskt tveksam."
+    ]
+  },
+  {
+    "kellyId": 4249,
+    "lemma": "principiell",
+    "examples": [
+      "Det är en principiell fråga om rätten att rösta."
+    ]
+  },
+  {
+    "kellyId": 4250,
+    "lemma": "valfrihet",
+    "examples": [
+      "Patienterna har rätt till valfrihet inom vården."
+    ]
+  },
+  {
+    "kellyId": 4251,
+    "lemma": "tydlighet",
+    "examples": [
+      "Kommunikation kräver tydlighet och ärlighet."
+    ]
+  },
+  {
+    "kellyId": 4252,
+    "lemma": "växthusgas",
+    "examples": [
+      "Koldioxid är en viktig växthusgas."
+    ]
+  },
+  {
+    "kellyId": 4253,
+    "lemma": "evenemang",
+    "examples": [
+      "Festivalen är ett stort evenemang i staden."
+    ]
+  },
+  {
+    "kellyId": 4254,
+    "lemma": "lösenord",
+    "examples": [
+      "Glöm inte bort ditt lösenord."
+    ]
+  },
+  {
+    "kellyId": 4255,
+    "lemma": "dialekt",
+    "examples": [
+      "Han talar en stark skånsk dialekt."
+    ]
+  },
+  {
+    "kellyId": 4256,
+    "lemma": "behärska",
+    "examples": [
+      "Hon behärskar fyra språk flytande."
+    ]
+  },
+  {
+    "kellyId": 4257,
+    "lemma": "föregångare",
+    "examples": [
+      "Den nya modellen ersätter sin föregångare."
+    ]
+  },
+  {
+    "kellyId": 4258,
+    "lemma": "homosexualitet",
+    "examples": [
+      "Homosexualitet är accepterat i många länder idag."
+    ]
+  },
+  {
+    "kellyId": 4260,
+    "lemma": "licens",
+    "examples": [
+      "Du behöver en licens för att köra lastbil."
+    ]
+  },
+  {
+    "kellyId": 4262,
+    "lemma": "iver",
+    "examples": [
+      "Hon tog sig an uppgiften med stor iver."
+    ]
+  },
+  {
+    "kellyId": 4263,
+    "lemma": "resenär",
+    "examples": [
+      "Resenären frågade om nästa avgång."
+    ]
+  },
+  {
+    "kellyId": 4264,
+    "lemma": "utrota",
+    "examples": [
+      "Det är svårt att utrota en art helt."
+    ]
+  },
+  {
+    "kellyId": 4266,
+    "lemma": "cup",
+    "examples": [
+      "Laget gick vidare till finalen i cupen."
+    ]
+  },
+  {
+    "kellyId": 4268,
+    "lemma": "dagordning",
+    "examples": [
+      "Den första punkten på dagordningen är budgeten."
+    ]
+  },
+  {
     "kellyId": 4269,
     "lemma": "perfekt",
     "examples": [
       "Allt fungerade helt perfekt."
+    ]
+  },
+  {
+    "kellyId": 4270,
+    "lemma": "splittring",
+    "examples": [
+      "Partiet drabbades av intern splittring."
+    ]
+  },
+  {
+    "kellyId": 4272,
+    "lemma": "avge",
+    "examples": [
+      "Fabriken avger stora mängder koldioxid."
+    ]
+  },
+  {
+    "kellyId": 4273,
+    "lemma": "partnerskap",
+    "examples": [
+      "De två länderna ingick ett strategiskt partnerskap."
+    ]
+  },
+  {
+    "kellyId": 4274,
+    "lemma": "löna sig",
+    "examples": [
+      "Det lönar sig att studera hårt."
+    ]
+  },
+  {
+    "kellyId": 4275,
+    "lemma": "brutal",
+    "examples": [
+      "Attacken var brutal och chockade hela landet."
+    ]
+  },
+  {
+    "kellyId": 4277,
+    "lemma": "ärlighet",
+    "examples": [
+      "Ärlighet är grunden för ett gott förhållande."
+    ]
+  },
+  {
+    "kellyId": 4279,
+    "lemma": "presskonferens",
+    "examples": [
+      "Ministern höll en presskonferens efter mötet."
+    ]
+  },
+  {
+    "kellyId": 4280,
+    "lemma": "osannolik",
+    "examples": [
+      "Det verkar vara ett osannolikt sammanträffande."
+    ]
+  },
+  {
+    "kellyId": 4281,
+    "lemma": "totalitär",
+    "examples": [
+      "I ett totalitärt system kontrollerar staten allt."
+    ]
+  },
+  {
+    "kellyId": 4282,
+    "lemma": "åtgärda",
+    "examples": [
+      "Kommunen måste åtgärda problemen med vägarna."
+    ]
+  },
+  {
+    "kellyId": 4284,
+    "lemma": "norrut",
+    "examples": [
+      "Vi körde norrut i flera timmar."
+    ]
+  },
+  {
+    "kellyId": 4285,
+    "lemma": "arbetstillfälle",
+    "examples": [
+      "Fabriken skapar hundra nya arbetstillfällen."
+    ]
+  },
+  {
+    "kellyId": 4286,
+    "lemma": "inträde",
+    "examples": [
+      "Inträdet till museet kostar hundra kronor."
     ]
   },
   {
@@ -17382,10 +17760,234 @@
     ]
   },
   {
+    "kellyId": 4289,
+    "lemma": "skilsmässa",
+    "examples": [
+      "Paret ansökte om skilsmässa förra året."
+    ]
+  },
+  {
+    "kellyId": 4290,
+    "lemma": "utforska",
+    "examples": [
+      "Forskarna vill utforska havets djup."
+    ]
+  },
+  {
+    "kellyId": 4291,
+    "lemma": "bildande",
+    "examples": [
+      "Resan var mycket bildande för eleverna."
+    ]
+  },
+  {
+    "kellyId": 4294,
+    "lemma": "invadera",
+    "examples": [
+      "Armén invaderade grannlandet i gryningen."
+    ]
+  },
+  {
+    "kellyId": 4295,
+    "lemma": "personuppgift",
+    "examples": [
+      "Du måste skydda dina personuppgifter på nätet."
+    ]
+  },
+  {
+    "kellyId": 4296,
+    "lemma": "förhand",
+    "examples": [
+      "Hemmalaget hade ett klart förhand inför matchen."
+    ]
+  },
+  {
+    "kellyId": 4297,
+    "lemma": "gruppering",
+    "examples": [
+      "En extremistisk gruppering störde mötet."
+    ]
+  },
+  {
+    "kellyId": 4298,
+    "lemma": "tekniskt",
+    "examples": [
+      "Det är tekniskt möjligt men dyrt att genomföra."
+    ]
+  },
+  {
+    "kellyId": 4299,
+    "lemma": "dagstidning",
+    "examples": [
+      "Han läser en dagstidning varje morgon."
+    ]
+  },
+  {
+    "kellyId": 4300,
+    "lemma": "oacceptabel",
+    "examples": [
+      "Det beteendet är helt oacceptabelt."
+    ]
+  },
+  {
+    "kellyId": 4301,
+    "lemma": "serb",
+    "examples": [
+      "Han är serb och bor i Belgrad."
+    ]
+  },
+  {
+    "kellyId": 4303,
+    "lemma": "justera",
+    "examples": [
+      "Vi behöver justera planen något."
+    ]
+  },
+  {
+    "kellyId": 4305,
+    "lemma": "konsult",
+    "examples": [
+      "Företaget anlitade en konsult för att lösa problemet."
+    ]
+  },
+  {
+    "kellyId": 4306,
+    "lemma": "nervös",
+    "examples": [
+      "Hon var nervös inför sin presentation."
+    ]
+  },
+  {
+    "kellyId": 4307,
+    "lemma": "sekt",
+    "examples": [
+      "Han lämnade sekten efter flera år."
+    ]
+  },
+  {
+    "kellyId": 4308,
+    "lemma": "slöja",
+    "examples": [
+      "Hon bar en tunn slöja över ansiktet."
+    ]
+  },
+  {
     "kellyId": 4309,
     "lemma": "välkommen",
     "examples": [
       "Välkommen till vårt hem!"
+    ]
+  },
+  {
+    "kellyId": 4310,
+    "lemma": "läcka",
+    "examples": [
+      "Röret börjar läcka i källaren."
+    ]
+  },
+  {
+    "kellyId": 4311,
+    "lemma": "afton",
+    "examples": [
+      "Det var en kylig och stilla afton i november."
+    ]
+  },
+  {
+    "kellyId": 4312,
+    "lemma": "introduktion",
+    "examples": [
+      "Boken har en bra introduktion till ämnet."
+    ]
+  },
+  {
+    "kellyId": 4314,
+    "lemma": "demonstrant",
+    "examples": [
+      "Demonstranterna samlades framför parlamentet."
+    ]
+  },
+  {
+    "kellyId": 4315,
+    "lemma": "flexibilitet",
+    "examples": [
+      "Jobbet kräver stor flexibilitet av de anställda."
+    ]
+  },
+  {
+    "kellyId": 4316,
+    "lemma": "hed",
+    "examples": [
+      "De vandrade över en öppen hed i dimman."
+    ]
+  },
+  {
+    "kellyId": 4318,
+    "lemma": "uppväxt",
+    "examples": [
+      "Han hade en svår uppväxt i ett fattigt område."
+    ]
+  },
+  {
+    "kellyId": 4321,
+    "lemma": "samordna",
+    "examples": [
+      "Vi måste samordna våra insatser bättre."
+    ]
+  },
+  {
+    "kellyId": 4323,
+    "lemma": "distribution",
+    "examples": [
+      "Distributionen av varor sker via lastbil."
+    ]
+  },
+  {
+    "kellyId": 4324,
+    "lemma": "automatisk",
+    "examples": [
+      "Systemet gör en automatisk säkerhetskopia varje natt."
+    ]
+  },
+  {
+    "kellyId": 4325,
+    "lemma": "transaktion",
+    "examples": [
+      "Banken blockerade transaktionen av säkerhetsskäl."
+    ]
+  },
+  {
+    "kellyId": 4327,
+    "lemma": "observation",
+    "examples": [
+      "Forskaren noterade en intressant observation."
+    ]
+  },
+  {
+    "kellyId": 4328,
+    "lemma": "typiskt",
+    "examples": [
+      "Det är typiskt att det regnar här på sommaren."
+    ]
+  },
+  {
+    "kellyId": 4329,
+    "lemma": "inskränkning",
+    "examples": [
+      "Lagen innebär en inskränkning i yttrandefriheten."
+    ]
+  },
+  {
+    "kellyId": 4332,
+    "lemma": "ingenjör",
+    "examples": [
+      "Hon arbetar som ingenjör på ett teknikföretag."
+    ]
+  },
+  {
+    "kellyId": 4333,
+    "lemma": "koncentration",
+    "examples": [
+      "Bullret störde min koncentration helt."
     ]
   },
   {
@@ -17396,10 +17998,318 @@
     ]
   },
   {
+    "kellyId": 4336,
+    "lemma": "samtid",
+    "examples": [
+      "Romanen speglar vår samtid på ett träffsäkert sätt."
+    ]
+  },
+  {
+    "kellyId": 4338,
+    "lemma": "slaveri",
+    "examples": [
+      "Slaveriet avskaffades i USA på 1860-talet."
+    ]
+  },
+  {
+    "kellyId": 4341,
+    "lemma": "utkast",
+    "examples": [
+      "Han skickade ett första utkast till sin chef."
+    ]
+  },
+  {
     "kellyId": 4342,
     "lemma": "framträdande",
     "examples": [
       "Skillnaden blev allt mer framträdande."
+    ]
+  },
+  {
+    "kellyId": 4344,
+    "lemma": "någon som helst",
+    "examples": [
+      "Det finns ingen anledning som helst att oroa sig."
+    ]
+  },
+  {
+    "kellyId": 4345,
+    "lemma": "flitigt",
+    "examples": [
+      "Hon tränade flitigt inför tävlingen."
+    ]
+  },
+  {
+    "kellyId": 4346,
+    "lemma": "offensiv",
+    "examples": [
+      "Militären lanserade en stor offensiv i norr."
+    ]
+  },
+  {
+    "kellyId": 4347,
+    "lemma": "sångare",
+    "examples": [
+      "Han är en känd sångare i hela landet."
+    ]
+  },
+  {
+    "kellyId": 4348,
+    "lemma": "ingrepp",
+    "examples": [
+      "Läkaren utförde ett litet kirurgiskt ingrepp."
+    ]
+  },
+  {
+    "kellyId": 4350,
+    "lemma": "diagram",
+    "examples": [
+      "Diagrammet visar hur temperaturen förändras."
+    ]
+  },
+  {
+    "kellyId": 4351,
+    "lemma": "inbjuda",
+    "examples": [
+      "Vi vill inbjuda er till ett möte nästa vecka."
+    ]
+  },
+  {
+    "kellyId": 4352,
+    "lemma": "motivation",
+    "examples": [
+      "Han saknar motivation för att fortsätta studera."
+    ]
+  },
+  {
+    "kellyId": 4353,
+    "lemma": "utplåna",
+    "examples": [
+      "Branden utplånade hela byn på några timmar."
+    ]
+  },
+  {
+    "kellyId": 4354,
+    "lemma": "gymnasieskola",
+    "examples": [
+      "Han började på gymnasieskolan hösten."
+    ]
+  },
+  {
+    "kellyId": 4355,
+    "lemma": "bearbeta",
+    "examples": [
+      "Hon behöver tid för att bearbeta sina känslor."
+    ]
+  },
+  {
+    "kellyId": 4357,
+    "lemma": "snurra",
+    "examples": [
+      "Hjulet snurrar snabbt i vinden."
+    ]
+  },
+  {
+    "kellyId": 4358,
+    "lemma": "skildring",
+    "examples": [
+      "Boken är en levande skildring av 1800-talets Stockholm."
+    ]
+  },
+  {
+    "kellyId": 4360,
+    "lemma": "baby",
+    "examples": [
+      "Deras baby sover hela natten redan."
+    ]
+  },
+  {
+    "kellyId": 4361,
+    "lemma": "förvara",
+    "examples": [
+      "Förvara medicinen på en sval och torr plats."
+    ]
+  },
+  {
+    "kellyId": 4363,
+    "lemma": "rota",
+    "examples": [
+      "Hon rotade i väskan för att hitta nyckeln."
+    ]
+  },
+  {
+    "kellyId": 4366,
+    "lemma": "stirra",
+    "examples": [
+      "Han stirrade ut genom fönstret en lång stund."
+    ]
+  },
+  {
+    "kellyId": 4367,
+    "lemma": "avgörande",
+    "examples": [
+      "Det var ett avgörande i sista minuten av matchen."
+    ]
+  },
+  {
+    "kellyId": 4368,
+    "lemma": "manifestation",
+    "examples": [
+      "Tusentals människor deltog i manifestationen."
+    ]
+  },
+  {
+    "kellyId": 4369,
+    "lemma": "uppenbara",
+    "examples": [
+      "Forskningen uppenbarar en tydlig koppling mellan de två."
+    ]
+  },
+  {
+    "kellyId": 4370,
+    "lemma": "maila",
+    "examples": [
+      "Maila mig när du är framme."
+    ]
+  },
+  {
+    "kellyId": 4371,
+    "lemma": "medmänniska",
+    "examples": [
+      "Vi borde bry oss mer om våra medmänniskor."
+    ]
+  },
+  {
+    "kellyId": 4372,
+    "lemma": "genombrott",
+    "examples": [
+      "Forskargruppen gjorde ett stort genombrott."
+    ]
+  },
+  {
+    "kellyId": 4373,
+    "lemma": "proletär",
+    "examples": [
+      "Marx analyserade den proletära klassens situation."
+    ]
+  },
+  {
+    "kellyId": 4375,
+    "lemma": "spaning",
+    "examples": [
+      "Polisen bedrev spaning mot gruppen i veckor."
+    ]
+  },
+  {
+    "kellyId": 4376,
+    "lemma": "beordra",
+    "examples": [
+      "Chefen beordrade alla att stanna kvar."
+    ]
+  },
+  {
+    "kellyId": 4377,
+    "lemma": "förbinda",
+    "examples": [
+      "En bro förbinder de två öarna."
+    ]
+  },
+  {
+    "kellyId": 4378,
+    "lemma": "jämförbar",
+    "examples": [
+      "De två metoderna ger jämförbara resultat."
+    ]
+  },
+  {
+    "kellyId": 4379,
+    "lemma": "socialt",
+    "examples": [
+      "Det är viktigt att vara socialt aktiv."
+    ]
+  },
+  {
+    "kellyId": 4381,
+    "lemma": "förr eller senare",
+    "examples": [
+      "Förr eller senare måste du fatta ett beslut."
+    ]
+  },
+  {
+    "kellyId": 4382,
+    "lemma": "palm",
+    "examples": [
+      "En ensam palm stod vid stranden."
+    ]
+  },
+  {
+    "kellyId": 4383,
+    "lemma": "förvirring",
+    "examples": [
+      "Det råder stor förvirring om reglerna."
+    ]
+  },
+  {
+    "kellyId": 4384,
+    "lemma": "privatisering",
+    "examples": [
+      "Privatiseringen av järnvägen är omstridd."
+    ]
+  },
+  {
+    "kellyId": 4385,
+    "lemma": "chock",
+    "examples": [
+      "Beskedet kom som en chock för hela familjen."
+    ]
+  },
+  {
+    "kellyId": 4386,
+    "lemma": "oundviklig",
+    "examples": [
+      "En konflikt verkar oundviklig vid det här laget."
+    ]
+  },
+  {
+    "kellyId": 4388,
+    "lemma": "förband",
+    "examples": [
+      "Sjuksköterskan lade ett förband på såret."
+    ]
+  },
+  {
+    "kellyId": 4390,
+    "lemma": "förvärra",
+    "examples": [
+      "Regnet förvärrade situationen ytterligare."
+    ]
+  },
+  {
+    "kellyId": 4391,
+    "lemma": "investerare",
+    "examples": [
+      "En stor investerare köpte aktier i bolaget."
+    ]
+  },
+  {
+    "kellyId": 4392,
+    "lemma": "vackert",
+    "examples": [
+      "Hon sjöng vackert i kyrkan."
+    ]
+  },
+  {
+    "kellyId": 4393,
+    "lemma": "utbredd",
+    "examples": [
+      "Fattigdom är utbredd i flera delar av världen."
+    ]
+  },
+  {
+    "kellyId": 4395,
+    "lemma": "oförmåga",
+    "examples": [
+      "Hans oförmåga att lyssna skapade problem."
     ]
   },
   {
@@ -17410,10 +18320,255 @@
     ]
   },
   {
+    "kellyId": 4398,
+    "lemma": "cd",
+    "examples": [
+      "Albumet gavs ut på cd år 1995."
+    ]
+  },
+  {
+    "kellyId": 4401,
+    "lemma": "indikera",
+    "examples": [
+      "Resultaten indikerar att metoden fungerar."
+    ]
+  },
+  {
+    "kellyId": 4403,
+    "lemma": "arrangör",
+    "examples": [
+      "Arrangören välkomnade alla gäster vid ingången."
+    ]
+  },
+  {
+    "kellyId": 4404,
+    "lemma": "profetia",
+    "examples": [
+      "Bibeln innehåller många profetior om framtiden."
+    ]
+  },
+  {
+    "kellyId": 4405,
+    "lemma": "därutöver",
+    "examples": [
+      "Han talade tre språk och därutöver spelade han piano."
+    ]
+  },
+  {
+    "kellyId": 4406,
+    "lemma": "förnya",
+    "examples": [
+      "Det är dags att förnya partiprogrammet."
+    ]
+  },
+  {
+    "kellyId": 4408,
+    "lemma": "inhämta",
+    "examples": [
+      "Vi behöver inhämta mer information innan vi bestämmer oss."
+    ]
+  },
+  {
+    "kellyId": 4409,
+    "lemma": "skånsk",
+    "examples": [
+      "Den skånska maten är känd för sina kryddor."
+    ]
+  },
+  {
+    "kellyId": 4410,
+    "lemma": "abstrakt",
+    "examples": [
+      "Filosofi kan kännas abstrakt och svårförstådd."
+    ]
+  },
+  {
+    "kellyId": 4413,
+    "lemma": "möbel",
+    "examples": [
+      "Den gamla möbeln passar inte i det moderna rummet."
+    ]
+  },
+  {
     "kellyId": 4414,
     "lemma": "ringa",
     "examples": [
       "Det var en ringa stöld."
+    ]
+  },
+  {
+    "kellyId": 4416,
+    "lemma": "anvisning",
+    "examples": [
+      "Följ anvisningarna på förpackningen noga."
+    ]
+  },
+  {
+    "kellyId": 4418,
+    "lemma": "tokig",
+    "examples": [
+      "Det var en tokig idé, men den funkade."
+    ]
+  },
+  {
+    "kellyId": 4419,
+    "lemma": "förvärv",
+    "examples": [
+      "Bolagets senaste förvärv kostade miljarder."
+    ]
+  },
+  {
+    "kellyId": 4420,
+    "lemma": "med flera",
+    "examples": [
+      "Studien gjordes av Lindgren, Persson med flera."
+    ]
+  },
+  {
+    "kellyId": 4422,
+    "lemma": "bedrägeri",
+    "examples": [
+      "Han åtalades för grovt bedrägeri mot äldre."
+    ]
+  },
+  {
+    "kellyId": 4423,
+    "lemma": "mobilisera",
+    "examples": [
+      "Partiet mobiliserade sina väljare inför valet."
+    ]
+  },
+  {
+    "kellyId": 4425,
+    "lemma": "skälig",
+    "examples": [
+      "Priset verkar skäligt för den kvaliteten."
+    ]
+  },
+  {
+    "kellyId": 4426,
+    "lemma": "expandera",
+    "examples": [
+      "Företaget planerar att expandera till nya marknader."
+    ]
+  },
+  {
+    "kellyId": 4427,
+    "lemma": "förkunna",
+    "examples": [
+      "Prästen förkunnade evangeliet för församlingen."
+    ]
+  },
+  {
+    "kellyId": 4429,
+    "lemma": "förenkla",
+    "examples": [
+      "Vi försöker förenkla processen för kunderna."
+    ]
+  },
+  {
+    "kellyId": 4431,
+    "lemma": "justitieminister",
+    "examples": [
+      "Justitieministern presenterade en ny lag mot bedrägerier."
+    ]
+  },
+  {
+    "kellyId": 4432,
+    "lemma": "fjärdedel",
+    "examples": [
+      "En fjärdedel av befolkningen bor i städer."
+    ]
+  },
+  {
+    "kellyId": 4434,
+    "lemma": "tömma",
+    "examples": [
+      "Han tömde glaset i ett svep."
+    ]
+  },
+  {
+    "kellyId": 4437,
+    "lemma": "förnyelse",
+    "examples": [
+      "Partiet behöver en verklig förnyelse av sina idéer."
+    ]
+  },
+  {
+    "kellyId": 4438,
+    "lemma": "subjektiv",
+    "examples": [
+      "Smak är alltid subjektiv och personlig."
+    ]
+  },
+  {
+    "kellyId": 4439,
+    "lemma": "burk",
+    "examples": [
+      "Hon öppnade en burk tomatpuré."
+    ]
+  },
+  {
+    "kellyId": 4442,
+    "lemma": "sanktion",
+    "examples": [
+      "EU införde hårda sanktioner mot landet."
+    ]
+  },
+  {
+    "kellyId": 4443,
+    "lemma": "fler och fler",
+    "examples": [
+      "Fler och fler väljer att arbeta hemifrån."
+    ]
+  },
+  {
+    "kellyId": 4445,
+    "lemma": "besitta",
+    "examples": [
+      "Hon besitter en sällsynt förmåga att motivera andra."
+    ]
+  },
+  {
+    "kellyId": 4446,
+    "lemma": "initiera",
+    "examples": [
+      "Regeringen initierade ett nytt samarbetsprogram."
+    ]
+  },
+  {
+    "kellyId": 4448,
+    "lemma": "hänseende",
+    "examples": [
+      "I det här hänseendet är lagen mycket tydlig."
+    ]
+  },
+  {
+    "kellyId": 4449,
+    "lemma": "härstamma",
+    "examples": [
+      "Hennes familj härstammar från norra Sverige."
+    ]
+  },
+  {
+    "kellyId": 4450,
+    "lemma": "censur",
+    "examples": [
+      "Pressen kritiserade censuren av böckerna."
+    ]
+  },
+  {
+    "kellyId": 4452,
+    "lemma": "promenera",
+    "examples": [
+      "Vi brukar promenera längs floden på kvällen."
+    ]
+  },
+  {
+    "kellyId": 4454,
+    "lemma": "legitimitet",
+    "examples": [
+      "Regeringen ifrågasatte domstolens legitimitet."
     ]
   },
   {
@@ -17424,10 +18579,80 @@
     ]
   },
   {
+    "kellyId": 4458,
+    "lemma": "poängtera",
+    "examples": [
+      "Hon poängterade att säkerheten måste förbättras."
+    ]
+  },
+  {
+    "kellyId": 4459,
+    "lemma": "överträdelse",
+    "examples": [
+      "Det var en allvarlig överträdelse av reglerna."
+    ]
+  },
+  {
+    "kellyId": 4460,
+    "lemma": "klimatfråga",
+    "examples": [
+      "Klimatfrågan är viktig för alla partier."
+    ]
+  },
+  {
+    "kellyId": 4461,
+    "lemma": "telefonsamtal",
+    "examples": [
+      "Han fick ett viktigt telefonsamtal under mötet."
+    ]
+  },
+  {
+    "kellyId": 4464,
+    "lemma": "monarki",
+    "examples": [
+      "Sverige är en konstitutionell monarki."
+    ]
+  },
+  {
+    "kellyId": 4465,
+    "lemma": "ockupera",
+    "examples": [
+      "Trupperna ockuperade staden i två år."
+    ]
+  },
+  {
+    "kellyId": 4468,
+    "lemma": "befrielse",
+    "examples": [
+      "Befrielsen av landet firades med glädje."
+    ]
+  },
+  {
+    "kellyId": 4469,
+    "lemma": "byxa",
+    "examples": [
+      "Han hade på sig en vit byxa och en blå skjorta."
+    ]
+  },
+  {
+    "kellyId": 4470,
+    "lemma": "rekrytera",
+    "examples": [
+      "Företaget försöker rekrytera fler ingenjörer."
+    ]
+  },
+  {
     "kellyId": 4471,
     "lemma": "sökande",
     "examples": [
       "Hennes sökande efter sanningen tog aldrig slut."
+    ]
+  },
+  {
+    "kellyId": 4472,
+    "lemma": "förmögenhet",
+    "examples": [
+      "Han ärvde en stor förmögenhet av sin farbror."
     ]
   },
   {
@@ -17438,10 +18663,969 @@
     ]
   },
   {
+    "kellyId": 4476,
+    "lemma": "höjdpunkt",
+    "examples": [
+      "Konserten var verkligen en höjdpunkt under festivalen."
+    ]
+  },
+  {
+    "kellyId": 4477,
+    "lemma": "sammanställning",
+    "examples": [
+      "Rapporten innehåller en sammanställning av alla svar."
+    ]
+  },
+  {
+    "kellyId": 4478,
+    "lemma": "underhållning",
+    "examples": [
+      "Det finns gott om underhållning för barn på festivalen."
+    ]
+  },
+  {
+    "kellyId": 4479,
+    "lemma": "uppbyggnad",
+    "examples": [
+      "Uppbyggnaden av landet tog många år efter kriget."
+    ]
+  },
+  {
+    "kellyId": 4480,
+    "lemma": "etablissemang",
+    "examples": [
+      "Det politiska etablissemanget reagerade starkt på kritiken."
+    ]
+  },
+  {
+    "kellyId": 4481,
+    "lemma": "kontinuerligt",
+    "examples": [
+      "Kvaliteten måste förbättras kontinuerligt."
+    ]
+  },
+  {
+    "kellyId": 4483,
+    "lemma": "missförstånd",
+    "examples": [
+      "Det uppstod ett missförstånd mellan de två parterna."
+    ]
+  },
+  {
+    "kellyId": 4484,
+    "lemma": "nationalistisk",
+    "examples": [
+      "Partiet förde en nationalistisk politik."
+    ]
+  },
+  {
+    "kellyId": 4485,
+    "lemma": "obalans",
+    "examples": [
+      "Det råder en tydlig obalans mellan arbete och fritid."
+    ]
+  },
+  {
+    "kellyId": 4487,
+    "lemma": "produktiv",
+    "examples": [
+      "Det var en mycket produktiv dag på jobbet."
+    ]
+  },
+  {
+    "kellyId": 4489,
+    "lemma": "avveckling",
+    "examples": [
+      "Avvecklingen av kärnkraften pågår fortfarande."
+    ]
+  },
+  {
+    "kellyId": 4490,
+    "lemma": "provocera",
+    "examples": [
+      "Hans kommentarer provocerade många i publiken."
+    ]
+  },
+  {
+    "kellyId": 4491,
+    "lemma": "erfaren",
+    "examples": [
+      "Hon är en mycket erfaren läkare."
+    ]
+  },
+  {
+    "kellyId": 4495,
+    "lemma": "irländsk",
+    "examples": [
+      "Han talar med en tydlig irländsk accent."
+    ]
+  },
+  {
+    "kellyId": 4496,
+    "lemma": "kurd",
+    "examples": [
+      "Han är kurd och kom till Sverige för tio år sedan."
+    ]
+  },
+  {
+    "kellyId": 4497,
+    "lemma": "psykolog",
+    "examples": [
+      "Hon arbetar som psykolog på en klinik."
+    ]
+  },
+  {
+    "kellyId": 4499,
+    "lemma": "sekel",
+    "examples": [
+      "Det hände i början av förra seklet."
+    ]
+  },
+  {
+    "kellyId": 4500,
+    "lemma": "federal",
+    "examples": [
+      "USA har en federal regering med stor makt."
+    ]
+  },
+  {
+    "kellyId": 4501,
+    "lemma": "frustration",
+    "examples": [
+      "Hans frustration över situationen var tydlig."
+    ]
+  },
+  {
+    "kellyId": 4502,
+    "lemma": "fundamental",
+    "examples": [
+      "Det är en fundamental fråga om mänskliga rättigheter."
+    ]
+  },
+  {
+    "kellyId": 4503,
+    "lemma": "omge",
+    "examples": [
+      "Sjön omges av höga berg."
+    ]
+  },
+  {
+    "kellyId": 4504,
+    "lemma": "företa",
+    "examples": [
+      "Polisen företog en noggrann undersökning."
+    ]
+  },
+  {
+    "kellyId": 4505,
+    "lemma": "utdrag",
+    "examples": [
+      "Hon läste ett utdrag ur sin nya roman."
+    ]
+  },
+  {
+    "kellyId": 4506,
+    "lemma": "fram och tillbaka",
+    "examples": [
+      "Han gick fram och tillbaka i rummet och tänkte."
+    ]
+  },
+  {
+    "kellyId": 4509,
+    "lemma": "irakisk",
+    "examples": [
+      "Den irakiska regeringen mötte kritik från omvärlden."
+    ]
+  },
+  {
+    "kellyId": 4512,
+    "lemma": "emellanåt",
+    "examples": [
+      "Emellanåt kan det vara skönt att bara sitta still."
+    ]
+  },
+  {
+    "kellyId": 4514,
+    "lemma": "merpart",
+    "examples": [
+      "Merpartens av jobbet är redan klart."
+    ]
+  },
+  {
+    "kellyId": 4515,
+    "lemma": "vetskap",
+    "examples": [
+      "Med vetskapen om faran valde de att stanna hemma."
+    ]
+  },
+  {
+    "kellyId": 4516,
+    "lemma": "delägare",
+    "examples": [
+      "Han är delägare i ett litet byggföretag."
+    ]
+  },
+  {
+    "kellyId": 4517,
+    "lemma": "distans",
+    "examples": [
+      "Det är viktigt att hålla distans till problemet."
+    ]
+  },
+  {
+    "kellyId": 4518,
+    "lemma": "eliminera",
+    "examples": [
+      "Vi måste eliminera alla risker innan vi börjar."
+    ]
+  },
+  {
+    "kellyId": 4519,
+    "lemma": "i motsats till",
+    "examples": [
+      "I motsats till sin bror är hon mycket lugn."
+    ]
+  },
+  {
+    "kellyId": 4520,
+    "lemma": "tolerans",
+    "examples": [
+      "Skolan arbetar för ökad tolerans mellan elever."
+    ]
+  },
+  {
+    "kellyId": 4521,
+    "lemma": "krigare",
+    "examples": [
+      "Den gamle krigaren berättade om sina upplevelser."
+    ]
+  },
+  {
+    "kellyId": 4523,
+    "lemma": "filma",
+    "examples": [
+      "De filmade hela ceremonin med sin telefon."
+    ]
+  },
+  {
     "kellyId": 4525,
     "lemma": "föda",
     "examples": [
       "Djuren söker föda i skogen."
+    ]
+  },
+  {
+    "kellyId": 4526,
+    "lemma": "överläggning",
+    "examples": [
+      "Efter lång överläggning fattade styrelsen sitt beslut."
+    ]
+  },
+  {
+    "kellyId": 4528,
+    "lemma": "moské",
+    "examples": [
+      "Det finns en stor moské i stadsdelen."
+    ]
+  },
+  {
+    "kellyId": 4530,
+    "lemma": "zon",
+    "examples": [
+      "Det är förbjudet att parkera i den här zonen."
+    ]
+  },
+  {
+    "kellyId": 4533,
+    "lemma": "klient",
+    "examples": [
+      "Advokaten träffade sin klient tidigt på morgonen."
+    ]
+  },
+  {
+    "kellyId": 4534,
+    "lemma": "spana",
+    "examples": [
+      "Polisen spanade på huset i flera dagar."
+    ]
+  },
+  {
+    "kellyId": 4535,
+    "lemma": "utbetalning",
+    "examples": [
+      "Utbetalningen av bidragen dröjde längre än väntat."
+    ]
+  },
+  {
+    "kellyId": 4536,
+    "lemma": "obetydlig",
+    "examples": [
+      "Förändringen var obetydlig och märktes knappt."
+    ]
+  },
+  {
+    "kellyId": 4537,
+    "lemma": "kurdisk",
+    "examples": [
+      "Hon talar flytande kurdiska och arabiska."
+    ]
+  },
+  {
+    "kellyId": 4538,
+    "lemma": "relevans",
+    "examples": [
+      "Frågan om frågans relevans diskuterades länge."
+    ]
+  },
+  {
+    "kellyId": 4539,
+    "lemma": "förutsatt att",
+    "examples": [
+      "Vi åker dit, förutsatt att vädret håller."
+    ]
+  },
+  {
+    "kellyId": 4540,
+    "lemma": "motarbeta",
+    "examples": [
+      "Organisationen försöker motarbeta korruption."
+    ]
+  },
+  {
+    "kellyId": 4541,
+    "lemma": "påtryckning",
+    "examples": [
+      "Regeringen gav efter för påtryckning från industrin."
+    ]
+  },
+  {
+    "kellyId": 4542,
+    "lemma": "efterföljande",
+    "examples": [
+      "De efterföljande åren präglades av ekonomisk tillväxt."
+    ]
+  },
+  {
+    "kellyId": 4543,
+    "lemma": "nyhetsbrev",
+    "examples": [
+      "Du kan prenumerera på vårt nyhetsbrev gratis."
+    ]
+  },
+  {
+    "kellyId": 4544,
+    "lemma": "årsskifte",
+    "examples": [
+      "Vid årsskiftet träder de nya reglerna i kraft."
+    ]
+  },
+  {
+    "kellyId": 4545,
+    "lemma": "avvikelse",
+    "examples": [
+      "Systemet registrerade en liten avvikelse i temperaturen."
+    ]
+  },
+  {
+    "kellyId": 4546,
+    "lemma": "tilltala",
+    "examples": [
+      "Han tilltalade henne med hennes förnamn."
+    ]
+  },
+  {
+    "kellyId": 4548,
+    "lemma": "hemlös",
+    "examples": [
+      "Staden öppnar fler härbärgen för hemlösa."
+    ]
+  },
+  {
+    "kellyId": 4549,
+    "lemma": "splittra",
+    "examples": [
+      "Konflikten riskerar att splittra partiet."
+    ]
+  },
+  {
+    "kellyId": 4550,
+    "lemma": "bosätta sig",
+    "examples": [
+      "De bestämde sig för att bosätta sig i Göteborg."
+    ]
+  },
+  {
+    "kellyId": 4551,
+    "lemma": "bekräftelse",
+    "examples": [
+      "Jag väntar fortfarande på en bekräftelse från hotellet."
+    ]
+  },
+  {
+    "kellyId": 4552,
+    "lemma": "försvarsminister",
+    "examples": [
+      "Försvarsministern presenterade den nya strategin."
+    ]
+  },
+  {
+    "kellyId": 4553,
+    "lemma": "dokumentera",
+    "examples": [
+      "Det är viktigt att dokumentera alla observationer noggrant."
+    ]
+  },
+  {
+    "kellyId": 4554,
+    "lemma": "lydnad",
+    "examples": [
+      "Soldaterna visade blind lydnad mot sina befälhavare."
+    ]
+  },
+  {
+    "kellyId": 4556,
+    "lemma": "organism",
+    "examples": [
+      "En cell är den minsta levande organismen."
+    ]
+  },
+  {
+    "kellyId": 4557,
+    "lemma": "socialtjänst",
+    "examples": [
+      "Familjen fick hjälp av socialtjänsten."
+    ]
+  },
+  {
+    "kellyId": 4559,
+    "lemma": "humanist",
+    "examples": [
+      "Hon beskriver sig som humanist och ateist."
+    ]
+  },
+  {
+    "kellyId": 4561,
+    "lemma": "firma",
+    "examples": [
+      "Han driver en liten firma inom IT-branschen."
+    ]
+  },
+  {
+    "kellyId": 4562,
+    "lemma": "förankring",
+    "examples": [
+      "Förslaget saknar förankring i verkligheten."
+    ]
+  },
+  {
+    "kellyId": 4563,
+    "lemma": "reporänta",
+    "examples": [
+      "Riksbanken höjde reporäntan med en halv procent."
+    ]
+  },
+  {
+    "kellyId": 4564,
+    "lemma": "sekulär",
+    "examples": [
+      "Frankrike är en sekulär stat sedan länge."
+    ]
+  },
+  {
+    "kellyId": 4565,
+    "lemma": "fortsättningsvis",
+    "examples": [
+      "Mötet kommer fortsättningsvis att hållas på onsdagar."
+    ]
+  },
+  {
+    "kellyId": 4566,
+    "lemma": "erfara",
+    "examples": [
+      "Vi har erfarit att projektet nu är avslutat."
+    ]
+  },
+  {
+    "kellyId": 4567,
+    "lemma": "inblandning",
+    "examples": [
+      "Han vägrade acceptera någon inblandning i sitt arbete."
+    ]
+  },
+  {
+    "kellyId": 4568,
+    "lemma": "signalspaning",
+    "examples": [
+      "FRA ansvarar för signalspaning i Sverige."
+    ]
+  },
+  {
+    "kellyId": 4569,
+    "lemma": "svininfluensa",
+    "examples": [
+      "Under 2009 spred sig svininfluensan snabbt i världen."
+    ]
+  },
+  {
+    "kellyId": 4571,
+    "lemma": "beväpnad",
+    "examples": [
+      "Polisen mötte en beväpnad man utanför banken."
+    ]
+  },
+  {
+    "kellyId": 4572,
+    "lemma": "härligt",
+    "examples": [
+      "Det var härligt att äntligen få sova ut."
+    ]
+  },
+  {
+    "kellyId": 4573,
+    "lemma": "ingripande",
+    "examples": [
+      "Polisens ingripande hindrade ett allvarligt brott."
+    ]
+  },
+  {
+    "kellyId": 4575,
+    "lemma": "bebyggelse",
+    "examples": [
+      "Vägen ledde genom tät bebyggelse i utkanten av staden."
+    ]
+  },
+  {
+    "kellyId": 4576,
+    "lemma": "fysiskt",
+    "examples": [
+      "Arbetet är mycket krävande fysiskt."
+    ]
+  },
+  {
+    "kellyId": 4578,
+    "lemma": "ingående",
+    "examples": [
+      "Han hade gjort en ingående analys av problemet."
+    ]
+  },
+  {
+    "kellyId": 4579,
+    "lemma": "märkning",
+    "examples": [
+      "Alla produkter måste ha tydlig märkning på förpackningen."
+    ]
+  },
+  {
+    "kellyId": 4580,
+    "lemma": "lojalitet",
+    "examples": [
+      "Hans lojalitet mot partiet ifrågasattes aldrig."
+    ]
+  },
+  {
+    "kellyId": 4583,
+    "lemma": "illustration",
+    "examples": [
+      "Boken innehåller många färgglada illustrationer."
+    ]
+  },
+  {
+    "kellyId": 4584,
+    "lemma": "rock",
+    "examples": [
+      "Han hängde av sig rocken i hallen."
+    ]
+  },
+  {
+    "kellyId": 4585,
+    "lemma": "innehav",
+    "examples": [
+      "Polisen grep honom för innehav av narkotika."
+    ]
+  },
+  {
+    "kellyId": 4586,
+    "lemma": "tilltro",
+    "examples": [
+      "Hennes tilltro till systemet minskade med åren."
+    ]
+  },
+  {
+    "kellyId": 4587,
+    "lemma": "dvd",
+    "examples": [
+      "De hyrde en dvd och såg film hemma."
+    ]
+  },
+  {
+    "kellyId": 4588,
+    "lemma": "bensin",
+    "examples": [
+      "Vi måste tanka bensin innan vi kör vidare."
+    ]
+  },
+  {
+    "kellyId": 4589,
+    "lemma": "bromsa",
+    "examples": [
+      "Föraren bromsade hårt för att undvika olyckan."
+    ]
+  },
+  {
+    "kellyId": 4592,
+    "lemma": "svält",
+    "examples": [
+      "Miljoner människor hotas av svält i regionen."
+    ]
+  },
+  {
+    "kellyId": 4593,
+    "lemma": "klo",
+    "examples": [
+      "Katten klöste med sina vassa klor."
+    ]
+  },
+  {
+    "kellyId": 4594,
+    "lemma": "sektion",
+    "examples": [
+      "Den här sektionen av rapporten handlar om ekonomi."
+    ]
+  },
+  {
+    "kellyId": 4595,
+    "lemma": "avskaffande",
+    "examples": [
+      "Rörelsen kämpade för avskaffandet av slaveriet."
+    ]
+  },
+  {
+    "kellyId": 4597,
+    "lemma": "religionsfrihet",
+    "examples": [
+      "Religionsfrihet är en grundläggande mänsklig rättighet."
+    ]
+  },
+  {
+    "kellyId": 4598,
+    "lemma": "utåt",
+    "examples": [
+      "Dörren öppnas utåt, inte inåt."
+    ]
+  },
+  {
+    "kellyId": 4599,
+    "lemma": "balansera",
+    "examples": [
+      "Det är svårt att balansera arbete och familjeliv."
+    ]
+  },
+  {
+    "kellyId": 4604,
+    "lemma": "asyl",
+    "examples": [
+      "Han ansökte om asyl i Sverige efter att ha flytt sitt land."
+    ]
+  },
+  {
+    "kellyId": 4607,
+    "lemma": "avlägsna",
+    "examples": [
+      "Fläcken gick inte att avlägsna från tyget."
+    ]
+  },
+  {
+    "kellyId": 4608,
+    "lemma": "beställning",
+    "examples": [
+      "Restaurangen fick en stor beställning från ett företag."
+    ]
+  },
+  {
+    "kellyId": 4609,
+    "lemma": "fasad",
+    "examples": [
+      "Byggnadens fasad renoverades under sommaren."
+    ]
+  },
+  {
+    "kellyId": 4610,
+    "lemma": "infinna sig",
+    "examples": [
+      "Alla deltagare måste infinna sig senast klockan nio."
+    ]
+  },
+  {
+    "kellyId": 4613,
+    "lemma": "organisk",
+    "examples": [
+      "Odlingen använder bara organiska gödningsmedel."
+    ]
+  },
+  {
+    "kellyId": 4614,
+    "lemma": "åtnjuta",
+    "examples": [
+      "Han åtnjuter stort förtroende bland sina kollegor."
+    ]
+  },
+  {
+    "kellyId": 4615,
+    "lemma": "för alltid",
+    "examples": [
+      "Det minnet kommer hon att bära med sig för alltid."
+    ]
+  },
+  {
+    "kellyId": 4616,
+    "lemma": "hemmaplan",
+    "examples": [
+      "Laget spelar bättre på hemmaplan än borta."
+    ]
+  },
+  {
+    "kellyId": 4617,
+    "lemma": "kloster",
+    "examples": [
+      "De besökte ett gammalt kloster i bergen."
+    ]
+  },
+  {
+    "kellyId": 4618,
+    "lemma": "förlita sig",
+    "examples": [
+      "Du kan inte förlita dig på att allt går som planerat."
+    ]
+  },
+  {
+    "kellyId": 4620,
+    "lemma": "spontan",
+    "examples": [
+      "Besöket var helt spontant — vi hade inte planerat det."
+    ]
+  },
+  {
+    "kellyId": 4621,
+    "lemma": "informell",
+    "examples": [
+      "Mötet hölls i en informell atmosfär."
+    ]
+  },
+  {
+    "kellyId": 4622,
+    "lemma": "förvåning",
+    "examples": [
+      "Till vår förvåning kom han i tid."
+    ]
+  },
+  {
+    "kellyId": 4623,
+    "lemma": "iaktta",
+    "examples": [
+      "Forskarna iakttog djurens beteende i det vilda."
+    ]
+  },
+  {
+    "kellyId": 4625,
+    "lemma": "försäkringsbolag",
+    "examples": [
+      "Hon anmälde skadan till sitt försäkringsbolag."
+    ]
+  },
+  {
+    "kellyId": 4626,
+    "lemma": "missnöje",
+    "examples": [
+      "Det växande missnöjet med regeringen syntes i opinionsundersökningarna."
+    ]
+  },
+  {
+    "kellyId": 4627,
+    "lemma": "etnicitet",
+    "examples": [
+      "Ingen ska diskrimineras på grund av etnicitet."
+    ]
+  },
+  {
+    "kellyId": 4628,
+    "lemma": "inbjudan",
+    "examples": [
+      "Hon tackade nej till inbjudan till festen."
+    ]
+  },
+  {
+    "kellyId": 4630,
+    "lemma": "okunskap",
+    "examples": [
+      "Fördomar beror ofta på okunskap om andra kulturer."
+    ]
+  },
+  {
+    "kellyId": 4632,
+    "lemma": "sammanfattningsvis",
+    "examples": [
+      "Sammanfattningsvis kan man säga att projektet lyckades."
+    ]
+  },
+  {
+    "kellyId": 4633,
+    "lemma": "spark",
+    "examples": [
+      "Han gjorde en kraftfull spark mot mål."
+    ]
+  },
+  {
+    "kellyId": 4634,
+    "lemma": "arbetsdag",
+    "examples": [
+      "Det var en lång och tröttsam arbetsdag."
+    ]
+  },
+  {
+    "kellyId": 4635,
+    "lemma": "silver",
+    "examples": [
+      "Ringen är gjord av silver."
+    ]
+  },
+  {
+    "kellyId": 4636,
+    "lemma": "organisatorisk",
+    "examples": [
+      "Det uppstod ett organisatoriskt problem inom avdelningen."
+    ]
+  },
+  {
+    "kellyId": 4637,
+    "lemma": "slutgiltig",
+    "examples": [
+      "Det slutgiltiga beslutet fattas i nästa vecka."
+    ]
+  },
+  {
+    "kellyId": 4638,
+    "lemma": "tungt",
+    "examples": [
+      "Regnet föll tungt mot fönstret hela natten."
+    ]
+  },
+  {
+    "kellyId": 4639,
+    "lemma": "bekänna",
+    "examples": [
+      "Han bekände till slut att han hade ljugit."
+    ]
+  },
+  {
+    "kellyId": 4640,
+    "lemma": "kostym",
+    "examples": [
+      "Han klädde sig i kostym och slips inför intervjun."
+    ]
+  },
+  {
+    "kellyId": 4641,
+    "lemma": "schema",
+    "examples": [
+      "Läraren delade ut ett nytt schema till eleverna."
+    ]
+  },
+  {
+    "kellyId": 4642,
+    "lemma": "långtgående",
+    "examples": [
+      "Reformen fick långtgående konsekvenser för hela systemet."
+    ]
+  },
+  {
+    "kellyId": 4644,
+    "lemma": "materiel",
+    "examples": [
+      "Armén saknar tillräcklig materiel för övningen."
+    ]
+  },
+  {
+    "kellyId": 4646,
+    "lemma": "leksak",
+    "examples": [
+      "Barnet tappade sin leksak på golvet."
+    ]
+  },
+  {
+    "kellyId": 4647,
+    "lemma": "spridd",
+    "examples": [
+      "Informationen är spridd över hela landet."
+    ]
+  },
+  {
+    "kellyId": 4651,
+    "lemma": "utbrott",
+    "examples": [
+      "Vulkanens utbrott förstörde flera byar."
+    ]
+  },
+  {
+    "kellyId": 4652,
+    "lemma": "apparat",
+    "examples": [
+      "Den här apparaten mäter luftfuktigheten i rummet."
+    ]
+  },
+  {
+    "kellyId": 4653,
+    "lemma": "disk",
+    "examples": [
+      "Hon stod bakom disken och väntade på kunder."
+    ]
+  },
+  {
+    "kellyId": 4654,
+    "lemma": "drama",
+    "examples": [
+      "Pjäsen är ett klassiskt drama om kärlek och svek."
+    ]
+  },
+  {
+    "kellyId": 4655,
+    "lemma": "exportera",
+    "examples": [
+      "Sverige exporterar mycket papper och stål."
+    ]
+  },
+  {
+    "kellyId": 4657,
+    "lemma": "universell",
+    "examples": [
+      "Mänskliga rättigheter anses vara universella."
+    ]
+  },
+  {
+    "kellyId": 4659,
+    "lemma": "surfa",
+    "examples": [
+      "Hon surfar ofta på nätet för att hitta recept."
+    ]
+  },
+  {
+    "kellyId": 4660,
+    "lemma": "diktator",
+    "examples": [
+      "Diktatorn styrde landet med hård hand i trettio år."
+    ]
+  },
+  {
+    "kellyId": 4661,
+    "lemma": "passage",
+    "examples": [
+      "Vi gick genom en smal passage mellan husen."
+    ]
+  },
+  {
+    "kellyId": 4662,
+    "lemma": "inbyggd",
+    "examples": [
+      "Telefonen har en inbyggd kamera av hög kvalitet."
     ]
   },
   {
@@ -17452,10 +19636,1186 @@
     ]
   },
   {
+    "kellyId": 4666,
+    "lemma": "riksbank",
+    "examples": [
+      "Riksbanken beslutade att sänka räntan."
+    ]
+  },
+  {
+    "kellyId": 4668,
+    "lemma": "dokumentation",
+    "examples": [
+      "Projektet kräver noggrann dokumentation av alla steg."
+    ]
+  },
+  {
+    "kellyId": 4669,
+    "lemma": "ingrediens",
+    "examples": [
+      "Vilka ingredienser behövs till det här receptet?"
+    ]
+  },
+  {
+    "kellyId": 4671,
+    "lemma": "show",
+    "examples": [
+      "Artisten gav en fantastisk show inför tusentals fans."
+    ]
+  },
+  {
+    "kellyId": 4672,
+    "lemma": "bak",
+    "examples": [
+      "Barnen satt bak i bilen hela resan."
+    ]
+  },
+  {
+    "kellyId": 4673,
+    "lemma": "delaktighet",
+    "examples": [
+      "Elevernas delaktighet i planeringen är viktig."
+    ]
+  },
+  {
+    "kellyId": 4674,
+    "lemma": "i viss mån",
+    "examples": [
+      "Problemet är i viss mån självorsakat."
+    ]
+  },
+  {
+    "kellyId": 4676,
+    "lemma": "vardagsrum",
+    "examples": [
+      "De satt i vardagsrummet och tittade på tv."
+    ]
+  },
+  {
+    "kellyId": 4678,
+    "lemma": "kontext",
+    "examples": [
+      "Du måste förstå ordet i sin rätta kontext."
+    ]
+  },
+  {
+    "kellyId": 4679,
+    "lemma": "lina",
+    "examples": [
+      "De drog upp korgen med en lina."
+    ]
+  },
+  {
+    "kellyId": 4680,
+    "lemma": "folkhögskola",
+    "examples": [
+      "Han läste musik på en folkhögskola i norr."
+    ]
+  },
+  {
+    "kellyId": 4682,
+    "lemma": "inviga",
+    "examples": [
+      "Kommunen invigde det nya biblioteket i lördags."
+    ]
+  },
+  {
+    "kellyId": 4685,
+    "lemma": "disciplin",
+    "examples": [
+      "God disciplin är viktig inom idrotten."
+    ]
+  },
+  {
+    "kellyId": 4686,
+    "lemma": "europé",
+    "examples": [
+      "Som europé har hon rätt att bo i vilken EU-stat som helst."
+    ]
+  },
+  {
+    "kellyId": 4687,
+    "lemma": "härskare",
+    "examples": [
+      "Den mäktige härskaren styrde landet i trettio år."
+    ]
+  },
+  {
+    "kellyId": 4688,
+    "lemma": "återkomst",
+    "examples": [
+      "Alla väntade på stjärnans återkomst till scenen."
+    ]
+  },
+  {
+    "kellyId": 4689,
+    "lemma": "i fred",
+    "examples": [
+      "Kan du låta mig vara i fred en stund?"
+    ]
+  },
+  {
+    "kellyId": 4690,
+    "lemma": "kompensation",
+    "examples": [
+      "Han fick kompensation för de förlorade dagarna."
+    ]
+  },
+  {
+    "kellyId": 4691,
+    "lemma": "representativ",
+    "examples": [
+      "Urvalet är inte representativt för hela befolkningen."
+    ]
+  },
+  {
+    "kellyId": 4694,
+    "lemma": "systematiskt",
+    "examples": [
+      "De gick igenom alla dokument systematiskt."
+    ]
+  },
+  {
+    "kellyId": 4695,
+    "lemma": "i relation till",
+    "examples": [
+      "Priset är högt i relation till kvaliteten."
+    ]
+  },
+  {
+    "kellyId": 4698,
+    "lemma": "bevakning",
+    "examples": [
+      "Det fanns säkerhetsbevakning runt hela byggnaden."
+    ]
+  },
+  {
+    "kellyId": 4699,
+    "lemma": "missionär",
+    "examples": [
+      "Missionären reste till Afrika för att hjälpa lokalbefolkningen."
+    ]
+  },
+  {
+    "kellyId": 4702,
+    "lemma": "ensidig",
+    "examples": [
+      "Rapporten ger en ensidig bild av situationen."
+    ]
+  },
+  {
+    "kellyId": 4704,
+    "lemma": "institutionell",
+    "examples": [
+      "Det krävs institutionella förändringar för att lösa problemet."
+    ]
+  },
+  {
+    "kellyId": 4705,
+    "lemma": "psykiskt",
+    "examples": [
+      "Stressen påverkar honom både fysiskt och psykiskt."
+    ]
+  },
+  {
+    "kellyId": 4706,
+    "lemma": "skjorta",
+    "examples": [
+      "Han knäppte sin vita skjorta inför mötet."
+    ]
+  },
+  {
+    "kellyId": 4707,
+    "lemma": "under förutsättning att",
+    "examples": [
+      "Du får gå, under förutsättning att du är tillbaka klockan tio."
+    ]
+  },
+  {
+    "kellyId": 4708,
+    "lemma": "rehabilitering",
+    "examples": [
+      "Efter operationen behövde han flera månaders rehabilitering."
+    ]
+  },
+  {
+    "kellyId": 4710,
+    "lemma": "övervinna",
+    "examples": [
+      "Det tog tid, men hon lyckades övervinna sin rädsla."
+    ]
+  },
+  {
+    "kellyId": 4711,
+    "lemma": "enkät",
+    "examples": [
+      "Eleverna fick fylla i en enkät om skolmiljön."
+    ]
+  },
+  {
+    "kellyId": 4712,
+    "lemma": "garderob",
+    "examples": [
+      "Hon hängde upp jackan i garderoben."
+    ]
+  },
+  {
+    "kellyId": 4714,
+    "lemma": "med avseende på",
+    "examples": [
+      "Resultaten skiljer sig mycket med avseende på ålder."
+    ]
+  },
+  {
+    "kellyId": 4716,
+    "lemma": "pol",
+    "examples": [
+      "Magneten har en nordpol och en sydpol."
+    ]
+  },
+  {
+    "kellyId": 4718,
+    "lemma": "återhämtning",
+    "examples": [
+      "Ekonomins återhämtning efter krisen tog flera år."
+    ]
+  },
+  {
+    "kellyId": 4719,
+    "lemma": "bakterie",
+    "examples": [
+      "Vissa bakterier är nyttiga för kroppen."
+    ]
+  },
+  {
+    "kellyId": 4720,
+    "lemma": "exploatering",
+    "examples": [
+      "Exploateringen av naturresurser hotar miljön."
+    ]
+  },
+  {
+    "kellyId": 4721,
+    "lemma": "kärnkraftverk",
+    "examples": [
+      "Det gamla kärnkraftverket stängdes för tio år sedan."
+    ]
+  },
+  {
+    "kellyId": 4722,
+    "lemma": "stig",
+    "examples": [
+      "Vi följde en smal stig genom skogen."
+    ]
+  },
+  {
+    "kellyId": 4724,
+    "lemma": "republikan",
+    "examples": [
+      "Han är republikan och vill avskaffa monarkin."
+    ]
+  },
+  {
+    "kellyId": 4726,
+    "lemma": "konstitutionell",
+    "examples": [
+      "Domstolen prövade om lagen var konstitutionell."
+    ]
+  },
+  {
+    "kellyId": 4727,
+    "lemma": "avslutningsvis",
+    "examples": [
+      "Avslutningsvis vill jag tacka alla som deltog."
+    ]
+  },
+  {
+    "kellyId": 4728,
+    "lemma": "indian",
+    "examples": [
+      "Berättelsen handlar om en indian i Nordamerika."
+    ]
+  },
+  {
+    "kellyId": 4730,
+    "lemma": "nuförtiden",
+    "examples": [
+      "Nuförtiden handlar de flesta på nätet."
+    ]
+  },
+  {
+    "kellyId": 4732,
+    "lemma": "baltisk",
+    "examples": [
+      "De tre baltiska staterna är Estland, Lettland och Litauen."
+    ]
+  },
+  {
+    "kellyId": 4733,
+    "lemma": "farfar",
+    "examples": [
+      "Min farfar lärde mig att spela schack."
+    ]
+  },
+  {
+    "kellyId": 4734,
+    "lemma": "förtydliga",
+    "examples": [
+      "Kan du förtydliga vad du menar med det?"
+    ]
+  },
+  {
+    "kellyId": 4735,
+    "lemma": "gärningsman",
+    "examples": [
+      "Polisen söker fortfarande efter gärningsmannen."
+    ]
+  },
+  {
+    "kellyId": 4738,
+    "lemma": "epok",
+    "examples": [
+      "Renässansen var en viktig epok i Europas historia."
+    ]
+  },
+  {
+    "kellyId": 4740,
+    "lemma": "nedskärning",
+    "examples": [
+      "Nedskärningarna inom vården orsakar stor oro."
+    ]
+  },
+  {
+    "kellyId": 4742,
+    "lemma": "remiss",
+    "examples": [
+      "Läkaren skickade en remiss till specialisten."
+    ]
+  },
+  {
+    "kellyId": 4746,
+    "lemma": "juridik",
+    "examples": [
+      "Hon studerar juridik på universitetet."
+    ]
+  },
+  {
+    "kellyId": 4747,
+    "lemma": "utvisning",
+    "examples": [
+      "Domstolen beslutade om utvisning av den dömde personen."
+    ]
+  },
+  {
+    "kellyId": 4748,
+    "lemma": "folkrätt",
+    "examples": [
+      "Konflikten bröt mot grundläggande regler inom folkrätten."
+    ]
+  },
+  {
+    "kellyId": 4749,
+    "lemma": "legitim",
+    "examples": [
+      "Det är en legitim fråga att ställa."
+    ]
+  },
+  {
+    "kellyId": 4750,
+    "lemma": "bostadsområde",
+    "examples": [
+      "De bor i ett lugnt bostadsområde utanför staden."
+    ]
+  },
+  {
+    "kellyId": 4751,
+    "lemma": "egyptisk",
+    "examples": [
+      "Det egyptiska museet visade forntida föremål."
+    ]
+  },
+  {
+    "kellyId": 4752,
+    "lemma": "glatt",
+    "examples": [
+      "Hon log glatt och tackade för gåvan."
+    ]
+  },
+  {
+    "kellyId": 4753,
+    "lemma": "hyresgäst",
+    "examples": [
+      "Hyresgästen betalade hyran i tid varje månad."
+    ]
+  },
+  {
+    "kellyId": 4754,
+    "lemma": "radikalt",
+    "examples": [
+      "Nya teknologier har radikalt förändrat sättet vi kommunicerar."
+    ]
+  },
+  {
+    "kellyId": 4756,
+    "lemma": "klassa",
+    "examples": [
+      "Myndigheterna klassade ämnet som farligt."
+    ]
+  },
+  {
+    "kellyId": 4758,
+    "lemma": "öre",
+    "examples": [
+      "Det kostar inte ett öre — det är gratis."
+    ]
+  },
+  {
+    "kellyId": 4759,
+    "lemma": "nazistisk",
+    "examples": [
+      "Den nazistiska ideologin orsakade enorm förstörelse."
+    ]
+  },
+  {
+    "kellyId": 4761,
+    "lemma": "begrava",
+    "examples": [
+      "Han begravdes på kyrkogården i sin hemstad."
+    ]
+  },
+  {
+    "kellyId": 4764,
+    "lemma": "persisk",
+    "examples": [
+      "Den persiska kulturen har en lång och rik historia."
+    ]
+  },
+  {
+    "kellyId": 4765,
+    "lemma": "tillskott",
+    "examples": [
+      "Den nya spelaren var ett välkommet tillskott till laget."
+    ]
+  },
+  {
+    "kellyId": 4767,
+    "lemma": "konstverk",
+    "examples": [
+      "Museet köpte ett nytt konstverk av en svensk konstnär."
+    ]
+  },
+  {
+    "kellyId": 4768,
+    "lemma": "kortsiktig",
+    "examples": [
+      "Det är en kortsiktig lösning som inte håller länge."
+    ]
+  },
+  {
+    "kellyId": 4769,
+    "lemma": "avliden",
+    "examples": [
+      "Den avlidne konstnären lämnade efter sig ett stort arv."
+    ]
+  },
+  {
+    "kellyId": 4771,
+    "lemma": "förespråkare",
+    "examples": [
+      "Han är en känd förespråkare för fri handel."
+    ]
+  },
+  {
+    "kellyId": 4773,
+    "lemma": "nutida",
+    "examples": [
+      "Boken diskuterar nutida utmaningar i samhället."
+    ]
+  },
+  {
+    "kellyId": 4774,
+    "lemma": "textstorlek",
+    "examples": [
+      "Du kan ändra textstorleken i inställningarna."
+    ]
+  },
+  {
+    "kellyId": 4775,
+    "lemma": "åta",
+    "examples": [
+      "Hon åtog sig ansvaret för projektet."
+    ]
+  },
+  {
+    "kellyId": 4776,
+    "lemma": "asiatisk",
+    "examples": [
+      "Restaurangen serverar asiatisk mat från flera länder."
+    ]
+  },
+  {
+    "kellyId": 4777,
+    "lemma": "meny",
+    "examples": [
+      "Kyparen lämnade menyn och gick."
+    ]
+  },
+  {
+    "kellyId": 4778,
+    "lemma": "muntlig",
+    "examples": [
+      "Avtalet var muntligt, så det finns inget på papper."
+    ]
+  },
+  {
+    "kellyId": 4780,
+    "lemma": "regeringsform",
+    "examples": [
+      "Regeringsformen är en av Sveriges grundlagar."
+    ]
+  },
+  {
+    "kellyId": 4782,
+    "lemma": "publikation",
+    "examples": [
+      "Artikeln publicerades i en vetenskaplig publikation."
+    ]
+  },
+  {
+    "kellyId": 4784,
+    "lemma": "borg",
+    "examples": [
+      "Den medeltida borgen ligger högt uppe på berget."
+    ]
+  },
+  {
+    "kellyId": 4786,
+    "lemma": "porträtt",
+    "examples": [
+      "Konstnären målade ett porträtt av kungen."
+    ]
+  },
+  {
+    "kellyId": 4787,
+    "lemma": "utomstående",
+    "examples": [
+      "För en utomstående kan situationen verka konstig."
+    ]
+  },
+  {
+    "kellyId": 4788,
+    "lemma": "ironi",
+    "examples": [
+      "Det finns en viss ironi i att han vann på den platsen."
+    ]
+  },
+  {
+    "kellyId": 4789,
+    "lemma": "manipulera",
+    "examples": [
+      "Han försökte manipulera henne att ändra sig."
+    ]
+  },
+  {
+    "kellyId": 4790,
+    "lemma": "afghansk",
+    "examples": [
+      "Den afghanska kulturen är mycket gammal och rik."
+    ]
+  },
+  {
+    "kellyId": 4792,
+    "lemma": "utomhus",
+    "examples": [
+      "Barnen leker utomhus hela dagen."
+    ]
+  },
+  {
+    "kellyId": 4793,
+    "lemma": "privilegium",
+    "examples": [
+      "Det är ett privilegium att studera vid det universitetet."
+    ]
+  },
+  {
+    "kellyId": 4794,
+    "lemma": "rensning",
+    "examples": [
+      "De gjorde en rensning av gamla filer på datorn."
+    ]
+  },
+  {
+    "kellyId": 4796,
+    "lemma": "minimera",
+    "examples": [
+      "Vi måste minimera riskerna innan projektet startar."
+    ]
+  },
+  {
+    "kellyId": 4797,
+    "lemma": "till fullo",
+    "examples": [
+      "Jag förstår till fullo varför du är arg."
+    ]
+  },
+  {
+    "kellyId": 4798,
+    "lemma": "representation",
+    "examples": [
+      "Kvinnors representation i politiken har ökat."
+    ]
+  },
+  {
+    "kellyId": 4799,
+    "lemma": "latin",
+    "examples": [
+      "Många medicinska termer kommer från latinet."
+    ]
+  },
+  {
+    "kellyId": 4801,
+    "lemma": "serbisk",
+    "examples": [
+      "Hon talar flytande serbiska och kroatiska."
+    ]
+  },
+  {
+    "kellyId": 4802,
+    "lemma": "estetisk",
+    "examples": [
+      "Designen är både funktionell och estetisk."
+    ]
+  },
+  {
+    "kellyId": 4803,
+    "lemma": "explodera",
+    "examples": [
+      "Bomben exploderade mitt i natten."
+    ]
+  },
+  {
+    "kellyId": 4804,
+    "lemma": "folkrörelse",
+    "examples": [
+      "Miljörörelsen är en stor folkrörelse i Sverige."
+    ]
+  },
+  {
+    "kellyId": 4805,
+    "lemma": "grundare",
+    "examples": [
+      "Hon är en av grundarna till det välkända företaget."
+    ]
+  },
+  {
+    "kellyId": 4806,
+    "lemma": "konspiration",
+    "examples": [
+      "Han trodde det handlade om en hemlig konspiration."
+    ]
+  },
+  {
+    "kellyId": 4807,
+    "lemma": "kritiskt",
+    "examples": [
+      "Hon granskade rapporten kritiskt innan hon godkände den."
+    ]
+  },
+  {
+    "kellyId": 4808,
+    "lemma": "kurva",
+    "examples": [
+      "Bilen körde fort runt kurvan."
+    ]
+  },
+  {
+    "kellyId": 4809,
+    "lemma": "operera",
+    "examples": [
+      "Kirurgen opererade patienten i tre timmar."
+    ]
+  },
+  {
+    "kellyId": 4810,
+    "lemma": "turné",
+    "examples": [
+      "Bandet gav sig ut på en lång turné i Europa."
+    ]
+  },
+  {
+    "kellyId": 4811,
+    "lemma": "åskådare",
+    "examples": [
+      "Tusentals åskådare såg matchen live."
+    ]
+  },
+  {
+    "kellyId": 4812,
+    "lemma": "forntid",
+    "examples": [
+      "Människor i forntiden jakade för att överleva."
+    ]
+  },
+  {
+    "kellyId": 4813,
+    "lemma": "alliansregering",
+    "examples": [
+      "Alliansregeringen presenterade sin budget i höst."
+    ]
+  },
+  {
+    "kellyId": 4814,
+    "lemma": "framgångsrikt",
+    "examples": [
+      "Projektet genomfördes framgångsrikt inom budget."
+    ]
+  },
+  {
+    "kellyId": 4818,
+    "lemma": "landslag",
+    "examples": [
+      "Det svenska landslagets spelar VM i sommar."
+    ]
+  },
+  {
+    "kellyId": 4819,
+    "lemma": "proportion",
+    "examples": [
+      "Byggnaden har eleganta proportioner."
+    ]
+  },
+  {
+    "kellyId": 4821,
+    "lemma": "ask",
+    "examples": [
+      "Asken är ett vanligt träd i svenska skogar."
+    ]
+  },
+  {
+    "kellyId": 4822,
+    "lemma": "bomba",
+    "examples": [
+      "Staden bombades under kriget."
+    ]
+  },
+  {
+    "kellyId": 4823,
+    "lemma": "jeans",
+    "examples": [
+      "Hon hade på sig ett par blå jeans och en vit tröja."
+    ]
+  },
+  {
+    "kellyId": 4824,
+    "lemma": "jordbävning",
+    "examples": [
+      "En kraftig jordbävning skakade staden i morse."
+    ]
+  },
+  {
     "kellyId": 4826,
     "lemma": "brant",
     "examples": [
       "Vi cyklade uppför en brant backe."
+    ]
+  },
+  {
+    "kellyId": 4827,
+    "lemma": "befälhavare",
+    "examples": [
+      "Befälhavaren gav order om att avbryta insatsen."
+    ]
+  },
+  {
+    "kellyId": 4828,
+    "lemma": "bot",
+    "examples": [
+      "Han fick en bot på tusen kronor för fortkörning."
+    ]
+  },
+  {
+    "kellyId": 4830,
+    "lemma": "konsensus",
+    "examples": [
+      "Gruppen nådde konsensus efter långa diskussioner."
+    ]
+  },
+  {
+    "kellyId": 4831,
+    "lemma": "könsneutral",
+    "examples": [
+      "Skolan vill använda ett könsneutralt språk i alla dokument."
+    ]
+  },
+  {
+    "kellyId": 4832,
+    "lemma": "våldta",
+    "examples": [
+      "Mannen dömdes för att ha våldtagit en kvinna."
+    ]
+  },
+  {
+    "kellyId": 4835,
+    "lemma": "återspegla",
+    "examples": [
+      "Resultaten återspeglar en tydlig trend."
+    ]
+  },
+  {
+    "kellyId": 4836,
+    "lemma": "eko",
+    "examples": [
+      "Ropet gav ett starkt eko i berget."
+    ]
+  },
+  {
+    "kellyId": 4837,
+    "lemma": "horisont",
+    "examples": [
+      "Solen sjönk långsamt under horisonten."
+    ]
+  },
+  {
+    "kellyId": 4838,
+    "lemma": "inkomma",
+    "examples": [
+      "Ansökningar ska inkomma senast den första mars."
+    ]
+  },
+  {
+    "kellyId": 4839,
+    "lemma": "ministerråd",
+    "examples": [
+      "Frågan ska behandlas i EU:s ministerråd."
+    ]
+  },
+  {
+    "kellyId": 4840,
+    "lemma": "beslutsfattare",
+    "examples": [
+      "Beslutsfattarna måste lyssna på experterna."
+    ]
+  },
+  {
+    "kellyId": 4843,
+    "lemma": "flygbolag",
+    "examples": [
+      "Vilket flygbolag flyger direkt till Tokyo?"
+    ]
+  },
+  {
+    "kellyId": 4845,
+    "lemma": "konventionell",
+    "examples": [
+      "Hon valde ett mer konventionellt sätt att lösa problemet."
+    ]
+  },
+  {
+    "kellyId": 4846,
+    "lemma": "metall",
+    "examples": [
+      "Bron är byggd av stål och andra metaller."
+    ]
+  },
+  {
+    "kellyId": 4847,
+    "lemma": "återstående",
+    "examples": [
+      "De återstående frågorna diskuterades på mötet."
+    ]
+  },
+  {
+    "kellyId": 4848,
+    "lemma": "i fjol",
+    "examples": [
+      "I fjol reste vi till Spanien på semester."
+    ]
+  },
+  {
+    "kellyId": 4849,
+    "lemma": "lönsamhet",
+    "examples": [
+      "Företagets lönsamhet har förbättrats under det senaste året."
+    ]
+  },
+  {
+    "kellyId": 4850,
+    "lemma": "vari",
+    "examples": [
+      "Han beskrev en situation vari alla parter var nöjda."
+    ]
+  },
+  {
+    "kellyId": 4851,
+    "lemma": "balanserad",
+    "examples": [
+      "Journalisten gav en balanserad bild av konflikten."
+    ]
+  },
+  {
+    "kellyId": 4852,
+    "lemma": "antiken",
+    "examples": [
+      "Demokratins rötter finns i antiken."
+    ]
+  },
+  {
+    "kellyId": 4853,
+    "lemma": "innovativ",
+    "examples": [
+      "Företaget är känt för sin innovativa teknik."
+    ]
+  },
+  {
+    "kellyId": 4854,
+    "lemma": "utnämna",
+    "examples": [
+      "Presidenten utnämnde en ny minister i går."
+    ]
+  },
+  {
+    "kellyId": 4855,
+    "lemma": "islamistisk",
+    "examples": [
+      "Gruppen hade en islamistisk ideologi."
+    ]
+  },
+  {
+    "kellyId": 4857,
+    "lemma": "tunnel",
+    "examples": [
+      "Tåget körde igenom en lång tunnel under bergen."
+    ]
+  },
+  {
+    "kellyId": 4858,
+    "lemma": "avreglering",
+    "examples": [
+      "Avregleringen av elmarknaden ledde till lägre priser."
+    ]
+  },
+  {
+    "kellyId": 4859,
+    "lemma": "bristfällig",
+    "examples": [
+      "Informationen som gavs var bristfällig och oklar."
+    ]
+  },
+  {
+    "kellyId": 4860,
+    "lemma": "ensamstående",
+    "examples": [
+      "Hon är ensamstående förälder med två barn."
+    ]
+  },
+  {
+    "kellyId": 4861,
+    "lemma": "inomhus",
+    "examples": [
+      "Det regnar, så vi stannar inomhus idag."
+    ]
+  },
+  {
+    "kellyId": 4862,
+    "lemma": "kapabel",
+    "examples": [
+      "Hon är fullt kapabel att lösa det här problemet."
+    ]
+  },
+  {
+    "kellyId": 4863,
+    "lemma": "autonom",
+    "examples": [
+      "Regionen fick en mer autonom ställning inom landet."
+    ]
+  },
+  {
+    "kellyId": 4865,
+    "lemma": "övertygande",
+    "examples": [
+      "Hans argument var övertygande och välgrundade."
+    ]
+  },
+  {
+    "kellyId": 4866,
+    "lemma": "kvarvarande",
+    "examples": [
+      "De kvarvarande soldaterna väntade på order."
+    ]
+  },
+  {
+    "kellyId": 4869,
+    "lemma": "beundra",
+    "examples": [
+      "Vi stannade för att beundra utsikten från toppen."
+    ]
+  },
+  {
+    "kellyId": 4870,
+    "lemma": "förfall",
+    "examples": [
+      "Byggnaden vittnar om ett långt förfall."
+    ]
+  },
+  {
+    "kellyId": 4871,
+    "lemma": "toppmöte",
+    "examples": [
+      "Ledarna träffades på ett toppmöte i Bryssel."
+    ]
+  },
+  {
+    "kellyId": 4872,
+    "lemma": "trakasseri",
+    "examples": [
+      "Han anmälde trakasseriet till sin chef."
+    ]
+  },
+  {
+    "kellyId": 4873,
+    "lemma": "kupp",
+    "examples": [
+      "Militären genomförde en kupp och tog makten."
+    ]
+  },
+  {
+    "kellyId": 4874,
+    "lemma": "bistå",
+    "examples": [
+      "Organisationen bistår flyktingar med mat och boende."
+    ]
+  },
+  {
+    "kellyId": 4876,
+    "lemma": "genuin",
+    "examples": [
+      "Hennes intresse för konst är genuint."
+    ]
+  },
+  {
+    "kellyId": 4879,
+    "lemma": "tittare",
+    "examples": [
+      "Programmet hade över en miljon tittare."
+    ]
+  },
+  {
+    "kellyId": 4881,
+    "lemma": "check",
+    "examples": [
+      "Han betalade med en check på femtusen kronor."
+    ]
+  },
+  {
+    "kellyId": 4882,
+    "lemma": "irrelevant",
+    "examples": [
+      "Den informationen är irrelevant för vår diskussion."
+    ]
+  },
+  {
+    "kellyId": 4883,
+    "lemma": "moraliskt",
+    "examples": [
+      "Det är moraliskt fel att ljuga för sina vänner."
+    ]
+  },
+  {
+    "kellyId": 4886,
+    "lemma": "blockad",
+    "examples": [
+      "Hamnen hölls under blockad i flera veckor."
+    ]
+  },
+  {
+    "kellyId": 4887,
+    "lemma": "nutid",
+    "examples": [
+      "Vi måste förstå historien för att förstå nutiden."
+    ]
+  },
+  {
+    "kellyId": 4889,
+    "lemma": "rumpa",
+    "examples": [
+      "Barnet föll och slog sig i rumpan."
+    ]
+  },
+  {
+    "kellyId": 4893,
+    "lemma": "moms",
+    "examples": [
+      "Priset är 250 kronor inklusive moms."
+    ]
+  },
+  {
+    "kellyId": 4894,
+    "lemma": "samspel",
+    "examples": [
+      "Ett gott samspel mellan lärare och elever är viktigt."
+    ]
+  },
+  {
+    "kellyId": 4895,
+    "lemma": "aktiebolag",
+    "examples": [
+      "De registrerade ett aktiebolag för att starta sin verksamhet."
+    ]
+  },
+  {
+    "kellyId": 4897,
+    "lemma": "ledighet",
+    "examples": [
+      "Hon tog tre dagars ledighet för att vila."
+    ]
+  },
+  {
+    "kellyId": 4898,
+    "lemma": "prat",
+    "examples": [
+      "Det var bara tomt prat — han menade ingenting."
+    ]
+  },
+  {
+    "kellyId": 4899,
+    "lemma": "uppför",
+    "examples": [
+      "De klättrade uppför berget i timmar."
+    ]
+  },
+  {
+    "kellyId": 4900,
+    "lemma": "riksdagsbeslut",
+    "examples": [
+      "Reformen bygger på ett riksdagsbeslut från förra året."
+    ]
+  },
+  {
+    "kellyId": 4901,
+    "lemma": "balkong",
+    "examples": [
+      "De satt på balkongen och drack kaffe på morgonen."
+    ]
+  },
+  {
+    "kellyId": 4903,
+    "lemma": "kallelse",
+    "examples": [
+      "Han fick en kallelse till rättegången."
+    ]
+  },
+  {
+    "kellyId": 4904,
+    "lemma": "omsätta",
+    "examples": [
+      "Företaget omsätter hundra miljoner kronor om året."
+    ]
+  },
+  {
+    "kellyId": 4905,
+    "lemma": "destruktiv",
+    "examples": [
+      "Hans destruktiva beteende skadade hela gruppen."
     ]
   },
   {
@@ -17466,10 +20826,192 @@
     ]
   },
   {
+    "kellyId": 4907,
+    "lemma": "sy",
+    "examples": [
+      "Hon sydde en klänning till festen."
+    ]
+  },
+  {
+    "kellyId": 4908,
+    "lemma": "virtuell",
+    "examples": [
+      "Mötet hölls i ett virtuellt rum."
+    ]
+  },
+  {
+    "kellyId": 4909,
+    "lemma": "ärkebiskop",
+    "examples": [
+      "Ärkebiskopen talade inför kyrkan."
+    ]
+  },
+  {
+    "kellyId": 4913,
+    "lemma": "upprörd",
+    "examples": [
+      "Han var upprörd efter nyheten."
+    ]
+  },
+  {
+    "kellyId": 4914,
+    "lemma": "koncern",
+    "examples": [
+      "Koncernen har kontor i hela Europa."
+    ]
+  },
+  {
+    "kellyId": 4916,
+    "lemma": "konvent",
+    "examples": [
+      "Delegaterna samlades till ett konvent."
+    ]
+  },
+  {
+    "kellyId": 4917,
+    "lemma": "fientlig",
+    "examples": [
+      "Mottagandet var oväntat fientligt."
+    ]
+  },
+  {
+    "kellyId": 4918,
+    "lemma": "förfader",
+    "examples": [
+      "Mina förfäder kom från Sverige."
+    ]
+  },
+  {
+    "kellyId": 4920,
+    "lemma": "vansinnig",
+    "examples": [
+      "Det vore vansinnigt att ge upp nu."
+    ]
+  },
+  {
+    "kellyId": 4921,
+    "lemma": "biografi",
+    "examples": [
+      "Han läste en biografi om Churchill."
+    ]
+  },
+  {
+    "kellyId": 4922,
+    "lemma": "räddning",
+    "examples": [
+      "Din hjälp var min räddning."
+    ]
+  },
+  {
+    "kellyId": 4924,
+    "lemma": "fiska",
+    "examples": [
+      "Vi brukade fiska i sjön om sommaren."
+    ]
+  },
+  {
+    "kellyId": 4925,
+    "lemma": "försämring",
+    "examples": [
+      "Läkarna oroade sig för en försämring."
+    ]
+  },
+  {
+    "kellyId": 4927,
+    "lemma": "programledare",
+    "examples": [
+      "Programledaren välkomnade gästerna."
+    ]
+  },
+  {
     "kellyId": 4929,
     "lemma": "genomgående",
     "examples": [
       "Tåget har en genomgående vagn till Malmö."
+    ]
+  },
+  {
+    "kellyId": 4932,
+    "lemma": "hämnd",
+    "examples": [
+      "Han ville ha hämnd för vad som hänt."
+    ]
+  },
+  {
+    "kellyId": 4934,
+    "lemma": "tidsperiod",
+    "examples": [
+      "Det var en lång och svår tidsperiod."
+    ]
+  },
+  {
+    "kellyId": 4936,
+    "lemma": "nyfikenhet",
+    "examples": [
+      "Hennes nyfikenhet drev henne framåt."
+    ]
+  },
+  {
+    "kellyId": 4937,
+    "lemma": "barnomsorg",
+    "examples": [
+      "Kommunen satsar mer på barnomsorg."
+    ]
+  },
+  {
+    "kellyId": 4938,
+    "lemma": "ggr",
+    "examples": [
+      "Dosen tas 3 ggr per dag."
+    ]
+  },
+  {
+    "kellyId": 4939,
+    "lemma": "framstående",
+    "examples": [
+      "Han var en framstående forskare."
+    ]
+  },
+  {
+    "kellyId": 4940,
+    "lemma": "innehavare",
+    "examples": [
+      "Innehavaren av kortet kan betala här."
+    ]
+  },
+  {
+    "kellyId": 4941,
+    "lemma": "funktionshindrad",
+    "examples": [
+      "Byggnaden är anpassad för funktionshindrade."
+    ]
+  },
+  {
+    "kellyId": 4942,
+    "lemma": "isolering",
+    "examples": [
+      "Husets isolering måste bytas ut."
+    ]
+  },
+  {
+    "kellyId": 4943,
+    "lemma": "kreditkort",
+    "examples": [
+      "Kan jag betala med kreditkort?"
+    ]
+  },
+  {
+    "kellyId": 4944,
+    "lemma": "otillräcklig",
+    "examples": [
+      "Resurserna visade sig vara otillräckliga."
+    ]
+  },
+  {
+    "kellyId": 4945,
+    "lemma": "arbetsmiljö",
+    "examples": [
+      "En bra arbetsmiljö ökar trivseln."
     ]
   },
   {
@@ -17480,10 +21022,388 @@
     ]
   },
   {
+    "kellyId": 4948,
+    "lemma": "nationalitet",
+    "examples": [
+      "Han har dubbel nationalitet."
+    ]
+  },
+  {
+    "kellyId": 4950,
+    "lemma": "tillträda",
+    "examples": [
+      "Hon tillträdde som minister i januari."
+    ]
+  },
+  {
+    "kellyId": 4951,
+    "lemma": "bänk",
+    "examples": [
+      "De satt på en bänk i parken."
+    ]
+  },
+  {
+    "kellyId": 4953,
+    "lemma": "kungarike",
+    "examples": [
+      "Sverige är ett konstitutionellt kungarike."
+    ]
+  },
+  {
+    "kellyId": 4954,
+    "lemma": "målvakt",
+    "examples": [
+      "Målvakten räddade straffet."
+    ]
+  },
+  {
     "kellyId": 4959,
     "lemma": "led",
     "examples": [
       "Han har ont i en led i knäet."
+    ]
+  },
+  {
+    "kellyId": 4960,
+    "lemma": "närstående",
+    "examples": [
+      "Han berättade nyheten för sina närstående."
+    ]
+  },
+  {
+    "kellyId": 4962,
+    "lemma": "plötslig",
+    "examples": [
+      "Hans plötsliga frånfälle chockade alla."
+    ]
+  },
+  {
+    "kellyId": 4966,
+    "lemma": "fruktan",
+    "examples": [
+      "Hon handlade av fruktan, inte av hat."
+    ]
+  },
+  {
+    "kellyId": 4967,
+    "lemma": "rekrytering",
+    "examples": [
+      "Rekryteringen av ny personal tar tid."
+    ]
+  },
+  {
+    "kellyId": 4968,
+    "lemma": "förövare",
+    "examples": [
+      "Polisen söker fortfarande efter förövaren."
+    ]
+  },
+  {
+    "kellyId": 4969,
+    "lemma": "popularitet",
+    "examples": [
+      "Musikens popularitet ökar ständigt."
+    ]
+  },
+  {
+    "kellyId": 4970,
+    "lemma": "symbolisera",
+    "examples": [
+      "Duvan symboliserar fred."
+    ]
+  },
+  {
+    "kellyId": 4971,
+    "lemma": "kollaps",
+    "examples": [
+      "Ekonomin stod inför en total kollaps."
+    ]
+  },
+  {
+    "kellyId": 4972,
+    "lemma": "kändis",
+    "examples": [
+      "Hon är en välkänd kändis i Sverige."
+    ]
+  },
+  {
+    "kellyId": 4974,
+    "lemma": "termin",
+    "examples": [
+      "Nästa termin börjar i januari."
+    ]
+  },
+  {
+    "kellyId": 4975,
+    "lemma": "tills vidare",
+    "examples": [
+      "Gränsen är stängd tills vidare."
+    ]
+  },
+  {
+    "kellyId": 4976,
+    "lemma": "dilemma",
+    "examples": [
+      "Vi stod inför ett svårt dilemma."
+    ]
+  },
+  {
+    "kellyId": 4977,
+    "lemma": "smärtsam",
+    "examples": [
+      "Återhämtningen var lång och smärtsam."
+    ]
+  },
+  {
+    "kellyId": 4978,
+    "lemma": "holländsk",
+    "examples": [
+      "Han talar holländska och tyska."
+    ]
+  },
+  {
+    "kellyId": 4980,
+    "lemma": "ateist",
+    "examples": [
+      "Min bror är övertygad ateist."
+    ]
+  },
+  {
+    "kellyId": 4982,
+    "lemma": "samverka",
+    "examples": [
+      "De två organisationerna samverkar tätt."
+    ]
+  },
+  {
+    "kellyId": 4985,
+    "lemma": "förpackning",
+    "examples": [
+      "Läs alltid texten på förpackningen."
+    ]
+  },
+  {
+    "kellyId": 4986,
+    "lemma": "överskrida",
+    "examples": [
+      "Kostnaderna fick inte överskrida budgeten."
+    ]
+  },
+  {
+    "kellyId": 4987,
+    "lemma": "aktivera",
+    "examples": [
+      "Du måste aktivera kontot via e-post."
+    ]
+  },
+  {
+    "kellyId": 4991,
+    "lemma": "förstörelse",
+    "examples": [
+      "Stormen orsakade stor förstörelse."
+    ]
+  },
+  {
+    "kellyId": 4992,
+    "lemma": "elegant",
+    "examples": [
+      "Hon bar en elegant klänning."
+    ]
+  },
+  {
+    "kellyId": 4994,
+    "lemma": "montera",
+    "examples": [
+      "Det tog en timme att montera hyllan."
+    ]
+  },
+  {
+    "kellyId": 4995,
+    "lemma": "polisman",
+    "examples": [
+      "En polisman stoppade bilen."
+    ]
+  },
+  {
+    "kellyId": 4996,
+    "lemma": "preliminär",
+    "examples": [
+      "Det är bara ett preliminärt schema."
+    ]
+  },
+  {
+    "kellyId": 4997,
+    "lemma": "primitiv",
+    "examples": [
+      "Verktyget var enkelt och primitivt."
+    ]
+  },
+  {
+    "kellyId": 4999,
+    "lemma": "nedåt",
+    "examples": [
+      "Priserna har gått nedåt den senaste månaden."
+    ]
+  },
+  {
+    "kellyId": 5000,
+    "lemma": "real",
+    "examples": [
+      "Den reala löneökningen var liten."
+    ]
+  },
+  {
+    "kellyId": 5001,
+    "lemma": "överväldigande",
+    "examples": [
+      "Stödet från allmänheten var överväldigande."
+    ]
+  },
+  {
+    "kellyId": 5002,
+    "lemma": "gym",
+    "examples": [
+      "Han tränar på gym tre gånger i veckan."
+    ]
+  },
+  {
+    "kellyId": 5003,
+    "lemma": "federation",
+    "examples": [
+      "Landet är en federation av delstater."
+    ]
+  },
+  {
+    "kellyId": 5004,
+    "lemma": "mötesplats",
+    "examples": [
+      "Torget är en naturlig mötesplats för invånarna."
+    ]
+  },
+  {
+    "kellyId": 5005,
+    "lemma": "öster",
+    "examples": [
+      "Solen går upp i öster."
+    ]
+  },
+  {
+    "kellyId": 5006,
+    "lemma": "beslutsfattande",
+    "examples": [
+      "Hon deltar aktivt i beslutsfattandet."
+    ]
+  },
+  {
+    "kellyId": 5007,
+    "lemma": "psykiatri",
+    "examples": [
+      "Han arbetar inom psykiatrin."
+    ]
+  },
+  {
+    "kellyId": 5008,
+    "lemma": "handläggning",
+    "examples": [
+      "Handläggningen av ärendet drog ut på tiden."
+    ]
+  },
+  {
+    "kellyId": 5010,
+    "lemma": "fientlighet",
+    "examples": [
+      "Det rådde öppen fientlighet mellan parterna."
+    ]
+  },
+  {
+    "kellyId": 5013,
+    "lemma": "identisk",
+    "examples": [
+      "De två avtalen är nästan identiska."
+    ]
+  },
+  {
+    "kellyId": 5014,
+    "lemma": "riksförbund",
+    "examples": [
+      "Hon är ordförande i riksförbundet."
+    ]
+  },
+  {
+    "kellyId": 5016,
+    "lemma": "förtjust",
+    "examples": [
+      "Hon log förtjust när hon fick blomman."
+    ]
+  },
+  {
+    "kellyId": 5017,
+    "lemma": "generalsekreterare",
+    "examples": [
+      "Generalsekreteraren höll ett tal vid mötet."
+    ]
+  },
+  {
+    "kellyId": 5019,
+    "lemma": "öppning",
+    "examples": [
+      "Det finns en liten öppning i väggen."
+    ]
+  },
+  {
+    "kellyId": 5020,
+    "lemma": "obefintlig",
+    "examples": [
+      "Trafiken på vägen var nästan obefintlig."
+    ]
+  },
+  {
+    "kellyId": 5021,
+    "lemma": "tillförlitlig",
+    "examples": [
+      "Det är viktigt att ha en tillförlitlig källa."
+    ]
+  },
+  {
+    "kellyId": 5022,
+    "lemma": "näringsminister",
+    "examples": [
+      "Näringsministern presenterade den nya planen."
+    ]
+  },
+  {
+    "kellyId": 5023,
+    "lemma": "protein",
+    "examples": [
+      "Ägg innehåller mycket protein."
+    ]
+  },
+  {
+    "kellyId": 5024,
+    "lemma": "applåd",
+    "examples": [
+      "Publiken gav honom en lång applåd."
+    ]
+  },
+  {
+    "kellyId": 5025,
+    "lemma": "ersättare",
+    "examples": [
+      "Han fick en ersättare under sjukdomen."
+    ]
+  },
+  {
+    "kellyId": 5026,
+    "lemma": "onödigt",
+    "examples": [
+      "Det är onödigt att stressa så mycket."
+    ]
+  },
+  {
+    "kellyId": 5027,
+    "lemma": "tjänstgöra",
+    "examples": [
+      "Han tjänstgör som officer i armén."
     ]
   },
   {
@@ -17494,10 +21414,241 @@
     ]
   },
   {
+    "kellyId": 5031,
+    "lemma": "gåta",
+    "examples": [
+      "Det är fortfarande en gåta vad som hände."
+    ]
+  },
+  {
+    "kellyId": 5033,
+    "lemma": "återuppta",
+    "examples": [
+      "Förhandlingarna återupptogs efter pausen."
+    ]
+  },
+  {
+    "kellyId": 5035,
+    "lemma": "hertig",
+    "examples": [
+      "Hertigen bodde i ett stort slott."
+    ]
+  },
+  {
+    "kellyId": 5037,
+    "lemma": "komplement",
+    "examples": [
+      "Rödvin är ett bra komplement till osten."
+    ]
+  },
+  {
+    "kellyId": 5038,
+    "lemma": "modersmål",
+    "examples": [
+      "Hennes modersmål är arabiska."
+    ]
+  },
+  {
+    "kellyId": 5039,
+    "lemma": "beröm",
+    "examples": [
+      "Läraren gav henne mycket beröm."
+    ]
+  },
+  {
+    "kellyId": 5040,
+    "lemma": "frö",
+    "examples": [
+      "Han sådde frön i trädgården."
+    ]
+  },
+  {
+    "kellyId": 5041,
+    "lemma": "installation",
+    "examples": [
+      "Installationen av programmet tog fem minuter."
+    ]
+  },
+  {
+    "kellyId": 5043,
+    "lemma": "odds",
+    "examples": [
+      "Oddsen för seger var låga."
+    ]
+  },
+  {
+    "kellyId": 5044,
+    "lemma": "årsmöte",
+    "examples": [
+      "Klubben håller sitt årsmöte i mars."
+    ]
+  },
+  {
     "kellyId": 5045,
     "lemma": "arm",
     "examples": [
       "Familjen var fattig och arm."
+    ]
+  },
+  {
+    "kellyId": 5046,
+    "lemma": "kommunstyrelse",
+    "examples": [
+      "Kommunstyrelsen beslutade att bygga ett nytt bibliotek."
+    ]
+  },
+  {
+    "kellyId": 5047,
+    "lemma": "mångkulturell",
+    "examples": [
+      "Stockholm är en mångkulturell stad."
+    ]
+  },
+  {
+    "kellyId": 5049,
+    "lemma": "horn",
+    "examples": [
+      "Tjuren hade långa horn."
+    ]
+  },
+  {
+    "kellyId": 5050,
+    "lemma": "sedel",
+    "examples": [
+      "Hon betalade med en hundralapps sedel."
+    ]
+  },
+  {
+    "kellyId": 5051,
+    "lemma": "valsedel",
+    "examples": [
+      "Han lade sin valsedel i urnan."
+    ]
+  },
+  {
+    "kellyId": 5053,
+    "lemma": "skinn",
+    "examples": [
+      "Jackan var gjord av tjockt skinn."
+    ]
+  },
+  {
+    "kellyId": 5054,
+    "lemma": "badrum",
+    "examples": [
+      "Det finns två badrum i lägenheten."
+    ]
+  },
+  {
+    "kellyId": 5055,
+    "lemma": "inbegripa",
+    "examples": [
+      "Priset inbegriper frukost och parkering."
+    ]
+  },
+  {
+    "kellyId": 5056,
+    "lemma": "sovrum",
+    "examples": [
+      "Barnen sover i samma sovrum."
+    ]
+  },
+  {
+    "kellyId": 5058,
+    "lemma": "opassande",
+    "examples": [
+      "Hans kommentar var helt opassande."
+    ]
+  },
+  {
+    "kellyId": 5059,
+    "lemma": "hårddisk",
+    "examples": [
+      "Filen är sparad på hårddisken."
+    ]
+  },
+  {
+    "kellyId": 5060,
+    "lemma": "insamling",
+    "examples": [
+      "De organiserade en insamling till de drabbade."
+    ]
+  },
+  {
+    "kellyId": 5061,
+    "lemma": "oändligt",
+    "examples": [
+      "Universum verkar vara oändligt stort."
+    ]
+  },
+  {
+    "kellyId": 5063,
+    "lemma": "marin",
+    "examples": [
+      "Forskarna studerade det marina ekosystemet."
+    ]
+  },
+  {
+    "kellyId": 5065,
+    "lemma": "aktieägare",
+    "examples": [
+      "Aktieägarna röstade för fusionen."
+    ]
+  },
+  {
+    "kellyId": 5066,
+    "lemma": "panel",
+    "examples": [
+      "En panel av experter svarade på frågor."
+    ]
+  },
+  {
+    "kellyId": 5067,
+    "lemma": "på något vis",
+    "examples": [
+      "Det löste sig på något vis till slut."
+    ]
+  },
+  {
+    "kellyId": 5068,
+    "lemma": "inflytelserik",
+    "examples": [
+      "Hon är en av de mest inflytelserika politikerna."
+    ]
+  },
+  {
+    "kellyId": 5069,
+    "lemma": "polismyndighet",
+    "examples": [
+      "Ärendet överlämnades till polismyndigheten."
+    ]
+  },
+  {
+    "kellyId": 5070,
+    "lemma": "vetenskapsman",
+    "examples": [
+      "Han är en välkänd vetenskapsman."
+    ]
+  },
+  {
+    "kellyId": 5071,
+    "lemma": "begåvad",
+    "examples": [
+      "Hon är en mycket begåvad musiker."
+    ]
+  },
+  {
+    "kellyId": 5072,
+    "lemma": "miljöfråga",
+    "examples": [
+      "Klimatet är vår tids viktigaste miljöfråga."
+    ]
+  },
+  {
+    "kellyId": 5073,
+    "lemma": "miste",
+    "examples": [
+      "Han miste sitt arbete under krisen."
     ]
   },
   {
@@ -17515,10 +21666,913 @@
     ]
   },
   {
+    "kellyId": 5080,
+    "lemma": "ambitiös",
+    "examples": [
+      "Han är ambitiös och jobbar hårt."
+    ]
+  },
+  {
+    "kellyId": 5081,
+    "lemma": "hebreisk",
+    "examples": [
+      "De läste texter på hebreiska."
+    ]
+  },
+  {
+    "kellyId": 5082,
+    "lemma": "växelkurs",
+    "examples": [
+      "Växelkursen mot euron sjönk i dag."
+    ]
+  },
+  {
+    "kellyId": 5084,
+    "lemma": "anklagad",
+    "examples": [
+      "Den anklagade förnekade all inblandning."
+    ]
+  },
+  {
+    "kellyId": 5085,
+    "lemma": "klassrum",
+    "examples": [
+      "Det satt tjugo elever i klassrummet."
+    ]
+  },
+  {
+    "kellyId": 5086,
+    "lemma": "kontinuerlig",
+    "examples": [
+      "Vi behöver en kontinuerlig uppföljning."
+    ]
+  },
+  {
+    "kellyId": 5087,
+    "lemma": "si",
+    "examples": [
+      "Det gick si och så med projektet."
+    ]
+  },
+  {
+    "kellyId": 5088,
+    "lemma": "entusiasm",
+    "examples": [
+      "Hon mötte uppdraget med stor entusiasm."
+    ]
+  },
+  {
+    "kellyId": 5089,
+    "lemma": "respons",
+    "examples": [
+      "Läsarnas respons på artikeln var positiv."
+    ]
+  },
+  {
+    "kellyId": 5092,
+    "lemma": "självkänsla",
+    "examples": [
+      "God självkänsla är viktigt för välmående."
+    ]
+  },
+  {
+    "kellyId": 5094,
+    "lemma": "sammanfalla",
+    "examples": [
+      "Våra intressen sammanfaller ofta."
+    ]
+  },
+  {
+    "kellyId": 5096,
+    "lemma": "intensivt",
+    "examples": [
+      "De tränade intensivt inför tävlingen."
+    ]
+  },
+  {
+    "kellyId": 5097,
+    "lemma": "optimal",
+    "examples": [
+      "Vi söker en optimal lösning för alla parter."
+    ]
+  },
+  {
+    "kellyId": 5098,
+    "lemma": "suverän",
+    "examples": [
+      "Landet är en suverän stat."
+    ]
+  },
+  {
+    "kellyId": 5100,
+    "lemma": "apotek",
+    "examples": [
+      "Du kan köpa det på apoteket."
+    ]
+  },
+  {
+    "kellyId": 5101,
+    "lemma": "hälla",
+    "examples": [
+      "Han hällde kaffe i koppen."
+    ]
+  },
+  {
+    "kellyId": 5103,
+    "lemma": "fäste",
+    "examples": [
+      "Klättrarens fäste i berget var ostadigt."
+    ]
+  },
+  {
+    "kellyId": 5104,
+    "lemma": "hastigt",
+    "examples": [
+      "Hon lämnade rummet hastigt utan ett ord."
+    ]
+  },
+  {
+    "kellyId": 5105,
+    "lemma": "livslång",
+    "examples": [
+      "Det var en livslång vänskap."
+    ]
+  },
+  {
+    "kellyId": 5108,
+    "lemma": "arbetsgivaravgift",
+    "examples": [
+      "Arbetsgivaren betalar arbetsgivaravgift för varje anställd."
+    ]
+  },
+  {
+    "kellyId": 5110,
+    "lemma": "fastighetsskatt",
+    "examples": [
+      "Fastighetsskatten höjdes av regeringen."
+    ]
+  },
+  {
+    "kellyId": 5111,
+    "lemma": "korridor",
+    "examples": [
+      "Barnen sprang längs korridoren."
+    ]
+  },
+  {
+    "kellyId": 5112,
+    "lemma": "stridsvagn",
+    "examples": [
+      "Armén sände stridsvagnar till gränsen."
+    ]
+  },
+  {
+    "kellyId": 5113,
+    "lemma": "tillvara",
+    "examples": [
+      "Vi måste ta tillvara de möjligheter som finns."
+    ]
+  },
+  {
+    "kellyId": 5114,
+    "lemma": "vittnesmål",
+    "examples": [
+      "Vittnesmålet var avgörande för domen."
+    ]
+  },
+  {
+    "kellyId": 5115,
+    "lemma": "ansvarsfull",
+    "examples": [
+      "Det är en ansvarsfull uppgift att leda ett land."
+    ]
+  },
+  {
+    "kellyId": 5116,
+    "lemma": "bagage",
+    "examples": [
+      "Hon hämtade sitt bagage vid bandet."
+    ]
+  },
+  {
+    "kellyId": 5117,
+    "lemma": "evigt",
+    "examples": [
+      "Ingenting varar evigt."
+    ]
+  },
+  {
+    "kellyId": 5118,
+    "lemma": "koldioxidutsläpp",
+    "examples": [
+      "Landet vill minska sina koldioxidutsläpp."
+    ]
+  },
+  {
+    "kellyId": 5119,
+    "lemma": "fängsla",
+    "examples": [
+      "Kungen lät fängsla sina motståndare."
+    ]
+  },
+  {
+    "kellyId": 5120,
+    "lemma": "utflykt",
+    "examples": [
+      "Klassen gjorde en utflykt till skogen."
+    ]
+  },
+  {
+    "kellyId": 5121,
+    "lemma": "gratulera",
+    "examples": [
+      "Jag vill gratulera dig till jobbet!"
+    ]
+  },
+  {
+    "kellyId": 5123,
+    "lemma": "upprop",
+    "examples": [
+      "Läraren höll upprop i början av lektionen."
+    ]
+  },
+  {
+    "kellyId": 5124,
+    "lemma": "utgåva",
+    "examples": [
+      "Det är den tredje utgåvan av boken."
+    ]
+  },
+  {
+    "kellyId": 5126,
+    "lemma": "finländsk",
+    "examples": [
+      "Det är en finländsk tradition."
+    ]
+  },
+  {
+    "kellyId": 5127,
+    "lemma": "morfar",
+    "examples": [
+      "Min morfar lärde mig att spela schack."
+    ]
+  },
+  {
+    "kellyId": 5129,
+    "lemma": "skandinavisk",
+    "examples": [
+      "Det är en typisk skandinavisk design."
+    ]
+  },
+  {
+    "kellyId": 5130,
+    "lemma": "tumme",
+    "examples": [
+      "Hon slog sig på tummen med hammaren."
+    ]
+  },
+  {
+    "kellyId": 5132,
+    "lemma": "familjemedlem",
+    "examples": [
+      "Varje familjemedlem fick ett rum."
+    ]
+  },
+  {
+    "kellyId": 5134,
+    "lemma": "ledarsida",
+    "examples": [
+      "Tidningen publicerade en debatterande ledarsida."
+    ]
+  },
+  {
+    "kellyId": 5138,
+    "lemma": "stort",
+    "examples": [
+      "Projektet handlar stort om kommunikation."
+    ]
+  },
+  {
+    "kellyId": 5139,
+    "lemma": "levnadsstandard",
+    "examples": [
+      "Levnadsstandarden har höjts kraftigt."
+    ]
+  },
+  {
+    "kellyId": 5140,
+    "lemma": "palats",
+    "examples": [
+      "Kungafamiljen bor i ett palats."
+    ]
+  },
+  {
+    "kellyId": 5142,
+    "lemma": "opinionsundersökning",
+    "examples": [
+      "Enligt den senaste opinionsundersökningen leder partiet."
+    ]
+  },
+  {
+    "kellyId": 5143,
+    "lemma": "vetenskapligt",
+    "examples": [
+      "Det finns inget vetenskapligt stöd för det."
+    ]
+  },
+  {
+    "kellyId": 5144,
+    "lemma": "revidera",
+    "examples": [
+      "Vi behöver revidera planen efter resultaten."
+    ]
+  },
+  {
+    "kellyId": 5145,
+    "lemma": "lovande",
+    "examples": [
+      "Det är ett lovande tecken för framtiden."
+    ]
+  },
+  {
+    "kellyId": 5146,
+    "lemma": "orolighet",
+    "examples": [
+      "Oroligheterna i landet oroade omvärlden."
+    ]
+  },
+  {
+    "kellyId": 5149,
+    "lemma": "klistra",
+    "examples": [
+      "Hon klistrade bilden på framsidan."
+    ]
+  },
+  {
+    "kellyId": 5154,
+    "lemma": "avslöjande",
+    "examples": [
+      "Avslöjandet om korruptionen chockade alla."
+    ]
+  },
+  {
+    "kellyId": 5155,
+    "lemma": "beskatta",
+    "examples": [
+      "Regeringen vill beskatta höga inkomster mer."
+    ]
+  },
+  {
+    "kellyId": 5158,
+    "lemma": "vakta",
+    "examples": [
+      "Soldaterna vaktade ingången till byggnaden."
+    ]
+  },
+  {
+    "kellyId": 5159,
+    "lemma": "arbetskamrat",
+    "examples": [
+      "Jag åt lunch med en arbetskamrat idag."
+    ]
+  },
+  {
+    "kellyId": 5161,
+    "lemma": "spontant",
+    "examples": [
+      "Vi bestämde oss spontant för att resa dit."
+    ]
+  },
+  {
+    "kellyId": 5164,
+    "lemma": "budgetår",
+    "examples": [
+      "Under det senaste budgetåret ökade kostnaderna."
+    ]
+  },
+  {
+    "kellyId": 5165,
+    "lemma": "förtrycka",
+    "examples": [
+      "Regimen förtryckte alla som protesterade."
+    ]
+  },
+  {
+    "kellyId": 5167,
+    "lemma": "atom",
+    "examples": [
+      "En atom består av en kärna och elektroner."
+    ]
+  },
+  {
+    "kellyId": 5169,
+    "lemma": "chips",
+    "examples": [
+      "Han åt ett paket chips framför tv:n."
+    ]
+  },
+  {
+    "kellyId": 5170,
+    "lemma": "markering",
+    "examples": [
+      "Det fanns en tydlig markering på kartan."
+    ]
+  },
+  {
+    "kellyId": 5171,
+    "lemma": "tillåten",
+    "examples": [
+      "Rökning är inte tillåten inne i byggnaden."
+    ]
+  },
+  {
+    "kellyId": 5173,
+    "lemma": "sammanhängande",
+    "examples": [
+      "Hon presenterade ett sammanhängande argument."
+    ]
+  },
+  {
+    "kellyId": 5176,
+    "lemma": "borgmästare",
+    "examples": [
+      "Stadens borgmästare öppnade det nya biblioteket."
+    ]
+  },
+  {
+    "kellyId": 5177,
+    "lemma": "förlorare",
+    "examples": [
+      "Förloraren tog ändå det hela med ett leende."
+    ]
+  },
+  {
+    "kellyId": 5178,
+    "lemma": "melodi",
+    "examples": [
+      "Melodin fastnade i huvudet på mig hela dagen."
+    ]
+  },
+  {
+    "kellyId": 5179,
+    "lemma": "senat",
+    "examples": [
+      "Senaten röstade emot det nya lagförslaget."
+    ]
+  },
+  {
+    "kellyId": 5180,
+    "lemma": "skarpt",
+    "examples": [
+      "Han svarade skarpt på kritiken."
+    ]
+  },
+  {
+    "kellyId": 5181,
+    "lemma": "sjöman",
+    "examples": [
+      "Sjömannen hade tillbringat tio år till sjöss."
+    ]
+  },
+  {
+    "kellyId": 5182,
+    "lemma": "bläddra",
+    "examples": [
+      "Hon bläddrade igenom tidningen vid frukost."
+    ]
+  },
+  {
+    "kellyId": 5183,
+    "lemma": "bärare",
+    "examples": [
+      "Han var bärare av ett sällsynt genetiskt anlag."
+    ]
+  },
+  {
+    "kellyId": 5184,
+    "lemma": "gissning",
+    "examples": [
+      "Det var bara en gissning, men den stämde."
+    ]
+  },
+  {
+    "kellyId": 5185,
+    "lemma": "i onödan",
+    "examples": [
+      "Du oroade dig i onödan — allt gick bra."
+    ]
+  },
+  {
+    "kellyId": 5187,
+    "lemma": "strålning",
+    "examples": [
+      "Strålningen från solen kan skada huden."
+    ]
+  },
+  {
+    "kellyId": 5188,
+    "lemma": "terräng",
+    "examples": [
+      "Soldaterna rörde sig försiktigt i den svåra terrängen."
+    ]
+  },
+  {
+    "kellyId": 5189,
+    "lemma": "väva",
+    "examples": [
+      "Hon vävde ett vackert tyg på sin vävstol."
+    ]
+  },
+  {
+    "kellyId": 5190,
+    "lemma": "skönt",
+    "examples": [
+      "Det var skönt att äntligen komma hem."
+    ]
+  },
+  {
+    "kellyId": 5191,
+    "lemma": "spricka",
+    "examples": [
+      "Isen börjar spricka när det blir varmare."
+    ]
+  },
+  {
+    "kellyId": 5192,
+    "lemma": "äldreomsorg",
+    "examples": [
+      "Kommunen satsar mer pengar på äldreomsorgen."
+    ]
+  },
+  {
+    "kellyId": 5194,
+    "lemma": "känslomässig",
+    "examples": [
+      "Det var ett känslomässigt svårt beslut att fatta."
+    ]
+  },
+  {
+    "kellyId": 5197,
+    "lemma": "spelregel",
+    "examples": [
+      "Man måste följa spelreglerna för att tävlingen ska vara rättvis."
+    ]
+  },
+  {
+    "kellyId": 5198,
+    "lemma": "bekymrad",
+    "examples": [
+      "Föräldrarna var bekymrade över barnets hälsa."
+    ]
+  },
+  {
+    "kellyId": 5199,
+    "lemma": "annonsera",
+    "examples": [
+      "Företaget annonserade efter en ny chef."
+    ]
+  },
+  {
+    "kellyId": 5201,
+    "lemma": "flock",
+    "examples": [
+      "En flock fåglar flög över sjön."
+    ]
+  },
+  {
+    "kellyId": 5202,
+    "lemma": "inspektion",
+    "examples": [
+      "Hälsoinspektörerna genomförde en inspektion av restaurangen."
+    ]
+  },
+  {
+    "kellyId": 5203,
+    "lemma": "laddning",
+    "examples": [
+      "Telefonens laddning tar ungefär en timme."
+    ]
+  },
+  {
+    "kellyId": 5205,
+    "lemma": "svek",
+    "examples": [
+      "Hans svek mot familjen var oförlåtligt."
+    ]
+  },
+  {
+    "kellyId": 5206,
+    "lemma": "aska",
+    "examples": [
+      "Det låg bara aska kvar efter branden."
+    ]
+  },
+  {
+    "kellyId": 5207,
+    "lemma": "bekymra",
+    "examples": [
+      "Det bekymrar mig att du inte sover bra."
+    ]
+  },
+  {
+    "kellyId": 5208,
+    "lemma": "finanspolitik",
+    "examples": [
+      "Regeringens finanspolitik kritiserades av oppositionen."
+    ]
+  },
+  {
+    "kellyId": 5209,
+    "lemma": "godtycklig",
+    "examples": [
+      "Beslutet verkade helt godtyckligt och orättvist."
+    ]
+  },
+  {
+    "kellyId": 5211,
+    "lemma": "distribuera",
+    "examples": [
+      "Företaget distribuerar varor till hela landet."
+    ]
+  },
+  {
+    "kellyId": 5213,
+    "lemma": "förlopp",
+    "examples": [
+      "Läkaren följde sjukdomens förlopp noga."
+    ]
+  },
+  {
+    "kellyId": 5218,
+    "lemma": "empati",
+    "examples": [
+      "En bra lärare behöver ha empati för sina elever."
+    ]
+  },
+  {
+    "kellyId": 5219,
+    "lemma": "sammansatt",
+    "examples": [
+      "Det är ett sammansatt problem utan enkel lösning."
+    ]
+  },
+  {
+    "kellyId": 5220,
+    "lemma": "avlyssning",
+    "examples": [
+      "Polisen misstänktes för olaglig avlyssning av medborgare."
+    ]
+  },
+  {
+    "kellyId": 5221,
+    "lemma": "dessförinnan",
+    "examples": [
+      "Han hade dessförinnan aldrig besökt landet."
+    ]
+  },
+  {
+    "kellyId": 5223,
+    "lemma": "rasande",
+    "examples": [
+      "Hon var rasande när hon fick reda på sanningen."
+    ]
+  },
+  {
+    "kellyId": 5224,
+    "lemma": "reaktionär",
+    "examples": [
+      "De reaktionära politikerna ville stoppa alla reformer."
+    ]
+  },
+  {
+    "kellyId": 5226,
+    "lemma": "överklagande",
+    "examples": [
+      "Advokaten lämnade in ett överklagande till hovrätten."
+    ]
+  },
+  {
+    "kellyId": 5228,
+    "lemma": "dominans",
+    "examples": [
+      "Lagets dominans på planen var tydlig."
+    ]
+  },
+  {
+    "kellyId": 5230,
+    "lemma": "organisering",
+    "examples": [
+      "Organiseringen av evenemanget tog flera månader."
+    ]
+  },
+  {
+    "kellyId": 5231,
+    "lemma": "gift",
+    "examples": [
+      "Ormen sprutar gift när den känner sig hotad."
+    ]
+  },
+  {
+    "kellyId": 5235,
+    "lemma": "medial",
+    "examples": [
+      "Skandalen fick stor medial uppmärksamhet."
+    ]
+  },
+  {
+    "kellyId": 5236,
+    "lemma": "entré",
+    "examples": [
+      "Vi möttes vid entrén till museet."
+    ]
+  },
+  {
+    "kellyId": 5237,
+    "lemma": "farbror",
+    "examples": [
+      "Min farbror bor i Göteborg och jobbar som läkare."
+    ]
+  },
+  {
+    "kellyId": 5238,
+    "lemma": "livlig",
+    "examples": [
+      "Det pågick en livlig diskussion i klassrummet."
+    ]
+  },
+  {
+    "kellyId": 5239,
+    "lemma": "packning",
+    "examples": [
+      "Packningen var klar kvällen innan resan."
+    ]
+  },
+  {
+    "kellyId": 5240,
+    "lemma": "essä",
+    "examples": [
+      "Studenten lämnade in sin essä i tid."
+    ]
+  },
+  {
+    "kellyId": 5242,
+    "lemma": "självständigt",
+    "examples": [
+      "Eleverna fick arbeta självständigt med uppgiften."
+    ]
+  },
+  {
+    "kellyId": 5243,
+    "lemma": "trötthet",
+    "examples": [
+      "Tröttheten efter långa arbetsdagar var påtaglig."
+    ]
+  },
+  {
     "kellyId": 5244,
     "lemma": "konsekvent",
     "examples": [
       "Han är konsekvent i sitt arbete."
+    ]
+  },
+  {
+    "kellyId": 5245,
+    "lemma": "rådgivning",
+    "examples": [
+      "Banken erbjuder gratis rådgivning till sina kunder."
+    ]
+  },
+  {
+    "kellyId": 5247,
+    "lemma": "journalistisk",
+    "examples": [
+      "Artikeln höll en hög journalistisk standard."
+    ]
+  },
+  {
+    "kellyId": 5248,
+    "lemma": "officerare",
+    "examples": [
+      "Officeraren ledde truppen genom skogen."
+    ]
+  },
+  {
+    "kellyId": 5252,
+    "lemma": "hänföra",
+    "examples": [
+      "Man kan hänföra dessa kostnader till projektet."
+    ]
+  },
+  {
+    "kellyId": 5253,
+    "lemma": "nationalstat",
+    "examples": [
+      "Nationalstaten är ett relativt modernt begrepp."
+    ]
+  },
+  {
+    "kellyId": 5254,
+    "lemma": "nedladdning",
+    "examples": [
+      "Nedladdningen av filen tog bara några sekunder."
+    ]
+  },
+  {
+    "kellyId": 5255,
+    "lemma": "växthuseffekt",
+    "examples": [
+      "Växthuseffekten bidrar till den globala uppvärmningen."
+    ]
+  },
+  {
+    "kellyId": 5256,
+    "lemma": "grotta",
+    "examples": [
+      "Utforskarna hittade en djup grotta i berget."
+    ]
+  },
+  {
+    "kellyId": 5257,
+    "lemma": "matematisk",
+    "examples": [
+      "Han hade en naturlig förmåga för matematiskt tänkande."
+    ]
+  },
+  {
+    "kellyId": 5259,
+    "lemma": "pärla",
+    "examples": [
+      "Halsbandet var gjort av äkta pärlor."
+    ]
+  },
+  {
+    "kellyId": 5260,
+    "lemma": "värk",
+    "examples": [
+      "Han hade svår värk i ryggen efter lyftet."
+    ]
+  },
+  {
+    "kellyId": 5262,
+    "lemma": "påtagligt",
+    "examples": [
+      "Kvaliteten på arbetet förbättrades påtagligt."
+    ]
+  },
+  {
+    "kellyId": 5265,
+    "lemma": "diskriminera",
+    "examples": [
+      "Det är olagligt att diskriminera någon på grund av kön."
+    ]
+  },
+  {
+    "kellyId": 5268,
+    "lemma": "fiktiv",
+    "examples": [
+      "Karaktärerna i romanen är helt fiktiva."
+    ]
+  },
+  {
+    "kellyId": 5271,
+    "lemma": "korv",
+    "examples": [
+      "Han grilllade en korv vid midsommarfesten."
+    ]
+  },
+  {
+    "kellyId": 5272,
+    "lemma": "reformera",
+    "examples": [
+      "Partiet vill reformera skattesystemet grundligt."
+    ]
+  },
+  {
+    "kellyId": 5274,
+    "lemma": "fördubbla",
+    "examples": [
+      "Företaget lyckades fördubbla sin vinst på ett år."
+    ]
+  },
+  {
+    "kellyId": 5275,
+    "lemma": "militant",
+    "examples": [
+      "Gruppen använde alltmer militant retorik."
+    ]
+  },
+  {
+    "kellyId": 5276,
+    "lemma": "sammantaget",
+    "examples": [
+      "Sammantaget var resultaten bättre än väntat."
+    ]
+  },
+  {
+    "kellyId": 5278,
+    "lemma": "incident",
+    "examples": [
+      "Polisen utreder en allvarlig incident på torget."
     ]
   },
   {
@@ -17529,10 +22583,493 @@
     ]
   },
   {
+    "kellyId": 5282,
+    "lemma": "stadigt",
+    "examples": [
+      "Priserna har stadigt ökat de senaste åren."
+    ]
+  },
+  {
+    "kellyId": 5283,
+    "lemma": "baka",
+    "examples": [
+      "Hon bakade ett bröd till söndagsmiddagen."
+    ]
+  },
+  {
+    "kellyId": 5286,
+    "lemma": "observatör",
+    "examples": [
+      "En internationell observatör bevakade valet."
+    ]
+  },
+  {
+    "kellyId": 5288,
+    "lemma": "gruva",
+    "examples": [
+      "Arbetarna i gruvan jobbade under farliga förhållanden."
+    ]
+  },
+  {
+    "kellyId": 5289,
+    "lemma": "obekväm",
+    "examples": [
+      "Stolen var obekväm att sitta i länge."
+    ]
+  },
+  {
+    "kellyId": 5290,
+    "lemma": "fossil",
+    "examples": [
+      "Samhällets beroende av fossila bränslen måste minska."
+    ]
+  },
+  {
+    "kellyId": 5291,
+    "lemma": "verkning",
+    "examples": [
+      "Medicinens verkning avtog efter några timmar."
+    ]
+  },
+  {
+    "kellyId": 5293,
+    "lemma": "konspirationsteori",
+    "examples": [
+      "Han trodde på konspirationsteorier om månlandningen."
+    ]
+  },
+  {
+    "kellyId": 5296,
+    "lemma": "tillstyrka",
+    "examples": [
+      "Kommittén valde att tillstyrka förslaget."
+    ]
+  },
+  {
+    "kellyId": 5298,
+    "lemma": "adressat",
+    "examples": [
+      "Brevet kom tillbaka eftersom adressaten hade flyttat."
+    ]
+  },
+  {
+    "kellyId": 5301,
+    "lemma": "njutning",
+    "examples": [
+      "En kopp kaffe på morgonen är en ren njutning."
+    ]
+  },
+  {
+    "kellyId": 5302,
+    "lemma": "utmärkt",
+    "examples": [
+      "Maten på restaurangen var utmärkt tillagad."
+    ]
+  },
+  {
+    "kellyId": 5303,
+    "lemma": "isländsk",
+    "examples": [
+      "Isländsk litteratur har blivit populär i hela världen."
+    ]
+  },
+  {
+    "kellyId": 5304,
+    "lemma": "skörda",
+    "examples": [
+      "Bönderna skördade vetet i slutet av sommaren."
+    ]
+  },
+  {
+    "kellyId": 5306,
+    "lemma": "sökmotor",
+    "examples": [
+      "Han använde en sökmotor för att hitta svaret."
+    ]
+  },
+  {
+    "kellyId": 5307,
+    "lemma": "drastiskt",
+    "examples": [
+      "Temperaturen sjönk drastiskt över natten."
+    ]
+  },
+  {
+    "kellyId": 5308,
+    "lemma": "dyrbar",
+    "examples": [
+      "Han bar på en dyrbar tavla ur museets samling."
+    ]
+  },
+  {
+    "kellyId": 5309,
+    "lemma": "haka",
+    "examples": [
+      "Han hakade fast remmen i spännet."
+    ]
+  },
+  {
+    "kellyId": 5310,
+    "lemma": "knacka",
+    "examples": [
+      "Han knackade på dörren men ingen svarade."
+    ]
+  },
+  {
+    "kellyId": 5311,
+    "lemma": "offentlighet",
+    "examples": [
+      "Beslutet fattades utan insyn från offentligheten."
+    ]
+  },
+  {
+    "kellyId": 5312,
+    "lemma": "sekretess",
+    "examples": [
+      "Dokumentet omfattades av strikt sekretess."
+    ]
+  },
+  {
+    "kellyId": 5314,
+    "lemma": "indelning",
+    "examples": [
+      "Klassen gjordes en ny indelning i arbetsgrupper."
+    ]
+  },
+  {
+    "kellyId": 5315,
+    "lemma": "utomordentligt",
+    "examples": [
+      "Hon presterade utomordentligt bra under tävlingen."
+    ]
+  },
+  {
+    "kellyId": 5317,
+    "lemma": "skryta",
+    "examples": [
+      "Han skröt gärna om sina framgångar på jobbet."
+    ]
+  },
+  {
+    "kellyId": 5318,
+    "lemma": "ankomma",
+    "examples": [
+      "Tåget ankom till stationen tjugo minuter försenat."
+    ]
+  },
+  {
+    "kellyId": 5319,
+    "lemma": "index",
+    "examples": [
+      "Priset justeras varje år efter ett index."
+    ]
+  },
+  {
+    "kellyId": 5321,
+    "lemma": "välsignad",
+    "examples": [
+      "De kände sig välsignade som hade fått ett friskt barn."
+    ]
+  },
+  {
+    "kellyId": 5322,
+    "lemma": "avsky",
+    "examples": [
+      "Han avskyr lögner och hyckleri."
+    ]
+  },
+  {
+    "kellyId": 5323,
+    "lemma": "förmoda",
+    "examples": [
+      "Jag förmoda att hon redan vet om det."
+    ]
+  },
+  {
+    "kellyId": 5324,
+    "lemma": "lyx",
+    "examples": [
+      "En varm dusch på morgonen är min lyx."
+    ]
+  },
+  {
+    "kellyId": 5328,
+    "lemma": "inbördes",
+    "examples": [
+      "Ländernas inbördes relationer förbättrades med åren."
+    ]
+  },
+  {
+    "kellyId": 5329,
+    "lemma": "indikation",
+    "examples": [
+      "Det finns inga indikationer på att situationen förbättras."
+    ]
+  },
+  {
+    "kellyId": 5330,
+    "lemma": "jämlik",
+    "examples": [
+      "Alla medborgare ska behandlas på ett jämlikt sätt."
+    ]
+  },
+  {
+    "kellyId": 5333,
+    "lemma": "överensstämmelse",
+    "examples": [
+      "Det råder god överensstämmelse mellan teori och praktik."
+    ]
+  },
+  {
+    "kellyId": 5334,
+    "lemma": "i grund och botten",
+    "examples": [
+      "Han är i grund och botten en snäll person."
+    ]
+  },
+  {
+    "kellyId": 5335,
+    "lemma": "puss",
+    "examples": [
+      "Hon gav barnet en puss på kinden."
+    ]
+  },
+  {
+    "kellyId": 5337,
+    "lemma": "kemikalier",
+    "examples": [
+      "Fabriken hanterade farliga kemikalier dagligen."
+    ]
+  },
+  {
+    "kellyId": 5338,
+    "lemma": "konkurrenskraftig",
+    "examples": [
+      "Företaget erbjöd ett konkurrenskraftigt pris."
+    ]
+  },
+  {
+    "kellyId": 5339,
+    "lemma": "tankegång",
+    "examples": [
+      "Jag förstår inte riktigt din tankegång här."
+    ]
+  },
+  {
+    "kellyId": 5340,
+    "lemma": "supporter",
+    "examples": [
+      "Tusentals supportrar mötte upp på arenan."
+    ]
+  },
+  {
+    "kellyId": 5341,
+    "lemma": "symbolisk",
+    "examples": [
+      "Gesten var symbolisk men ändå viktig."
+    ]
+  },
+  {
+    "kellyId": 5342,
+    "lemma": "mervärde",
+    "examples": [
+      "Tjänsten ger ett verkligt mervärde för kunderna."
+    ]
+  },
+  {
+    "kellyId": 5344,
+    "lemma": "misstro",
+    "examples": [
+      "Det växte fram en djup misstro mot politikerna."
+    ]
+  },
+  {
     "kellyId": 5345,
     "lemma": "fälla",
     "examples": [
       "Musen gick rakt in i fällan."
+    ]
+  },
+  {
+    "kellyId": 5346,
+    "lemma": "blues",
+    "examples": [
+      "Han spelade blues på gitarren hela kvällen."
+    ]
+  },
+  {
+    "kellyId": 5347,
+    "lemma": "jury",
+    "examples": [
+      "Juryn drog sig tillbaka för att överlägga."
+    ]
+  },
+  {
+    "kellyId": 5349,
+    "lemma": "lyckligtvis",
+    "examples": [
+      "Lyckligtvis kom ambulansen snabbt."
+    ]
+  },
+  {
+    "kellyId": 5350,
+    "lemma": "jordisk",
+    "examples": [
+      "Han hade avsagt sig alla jordiska ägodelar."
+    ]
+  },
+  {
+    "kellyId": 5351,
+    "lemma": "pumpa",
+    "examples": [
+      "Han pumpade upp cykeldäcken innan resan."
+    ]
+  },
+  {
+    "kellyId": 5352,
+    "lemma": "harmoni",
+    "examples": [
+      "De levde i harmoni med varandra och med naturen."
+    ]
+  },
+  {
+    "kellyId": 5354,
+    "lemma": "avvägning",
+    "examples": [
+      "Det krävs en svår avvägning mellan frihet och säkerhet."
+    ]
+  },
+  {
+    "kellyId": 5355,
+    "lemma": "markant",
+    "examples": [
+      "Antalet besökare ökade markant efter kampanjen."
+    ]
+  },
+  {
+    "kellyId": 5357,
+    "lemma": "stål",
+    "examples": [
+      "Broarna i staden är byggda av stål och betong."
+    ]
+  },
+  {
+    "kellyId": 5358,
+    "lemma": "vinning",
+    "examples": [
+      "Han handlade enbart för egen vinning."
+    ]
+  },
+  {
+    "kellyId": 5359,
+    "lemma": "främlingsfientlig",
+    "examples": [
+      "Partiet kritiserades för sin främlingsfientliga politik."
+    ]
+  },
+  {
+    "kellyId": 5361,
+    "lemma": "riksdagsman",
+    "examples": [
+      "Riksdagsmannen röstade mot sitt eget partis förslag."
+    ]
+  },
+  {
+    "kellyId": 5362,
+    "lemma": "runtom",
+    "examples": [
+      "Runtom i parken planterades nya träd."
+    ]
+  },
+  {
+    "kellyId": 5363,
+    "lemma": "skikt",
+    "examples": [
+      "Ett tjockt skikt av is täckte sjön."
+    ]
+  },
+  {
+    "kellyId": 5364,
+    "lemma": "avsevärd",
+    "examples": [
+      "Projektet krävde en avsevärd mängd tid och pengar."
+    ]
+  },
+  {
+    "kellyId": 5366,
+    "lemma": "dimma",
+    "examples": [
+      "Tät dimma låg över staden tidigt på morgonen."
+    ]
+  },
+  {
+    "kellyId": 5367,
+    "lemma": "förundersökning",
+    "examples": [
+      "Polisen inledde en förundersökning om bedrägeri."
+    ]
+  },
+  {
+    "kellyId": 5369,
+    "lemma": "ohälsa",
+    "examples": [
+      "Stress på arbetsplatsen leder ofta till ohälsa."
+    ]
+  },
+  {
+    "kellyId": 5370,
+    "lemma": "praktisera",
+    "examples": [
+      "Hon praktiserade som läkare i tio år."
+    ]
+  },
+  {
+    "kellyId": 5372,
+    "lemma": "subvention",
+    "examples": [
+      "Staten gav jordbruket en stor subvention det året."
+    ]
+  },
+  {
+    "kellyId": 5373,
+    "lemma": "prisa",
+    "examples": [
+      "Filmkritikern prisade regissörens mod."
+    ]
+  },
+  {
+    "kellyId": 5374,
+    "lemma": "odemokratisk",
+    "examples": [
+      "Metoden att utse ledaren ansågs vara odemokratisk."
+    ]
+  },
+  {
+    "kellyId": 5377,
+    "lemma": "mina",
+    "examples": [
+      "Soldaten klev på en mina och skadades allvarligt."
+    ]
+  },
+  {
+    "kellyId": 5380,
+    "lemma": "härom",
+    "examples": [
+      "Det råder delade meningar härom."
+    ]
+  },
+  {
+    "kellyId": 5381,
+    "lemma": "låga",
+    "examples": [
+      "Lågorna spred sig snabbt i den torra skogen."
+    ]
+  },
+  {
+    "kellyId": 5382,
+    "lemma": "vital",
+    "examples": [
+      "Han var fortfarande vital och aktiv vid nittio år."
     ]
   },
   {
@@ -17543,10 +23080,605 @@
     ]
   },
   {
+    "kellyId": 5384,
+    "lemma": "giftig",
+    "examples": [
+      "Den giftiga ormen lever i varma länder."
+    ]
+  },
+  {
+    "kellyId": 5386,
+    "lemma": "shopping",
+    "examples": [
+      "Vi tillbringade hela eftermiddagen med shopping i stan."
+    ]
+  },
+  {
+    "kellyId": 5387,
+    "lemma": "färga",
+    "examples": [
+      "Hon färgade håret mörkbrunt inför festen."
+    ]
+  },
+  {
+    "kellyId": 5391,
+    "lemma": "specialist",
+    "examples": [
+      "Läkaren remitterade henne till en specialist."
+    ]
+  },
+  {
+    "kellyId": 5392,
+    "lemma": "handlägga",
+    "examples": [
+      "Myndigheten handlägger tusentals ärenden varje år."
+    ]
+  },
+  {
+    "kellyId": 5393,
+    "lemma": "hyckleri",
+    "examples": [
+      "Att predika moral men inte följa den är rent hyckleri."
+    ]
+  },
+  {
+    "kellyId": 5394,
+    "lemma": "kännetecken",
+    "examples": [
+      "Ärlighet är ett utmärkande kännetecken hos henne."
+    ]
+  },
+  {
+    "kellyId": 5395,
+    "lemma": "överklass",
+    "examples": [
+      "Överklassen levde i lyx medan folket hade det svårt."
+    ]
+  },
+  {
+    "kellyId": 5396,
+    "lemma": "drivande",
+    "examples": [
+      "Båten låg drivande utan motor mitt på sjön."
+    ]
+  },
+  {
+    "kellyId": 5397,
+    "lemma": "arbetssätt",
+    "examples": [
+      "Teamet har utvecklat ett nytt arbetssätt som sparar tid."
+    ]
+  },
+  {
+    "kellyId": 5398,
+    "lemma": "hora",
+    "examples": [
+      "Han kallade henne en hora, vilket var djupt kränkande."
+    ]
+  },
+  {
+    "kellyId": 5399,
+    "lemma": "nobelpris",
+    "examples": [
+      "Hon fick ett nobelpris i litteratur förra året."
+    ]
+  },
+  {
+    "kellyId": 5400,
+    "lemma": "enkelhet",
+    "examples": [
+      "Designens enkelhet gör den lätt att använda."
+    ]
+  },
+  {
+    "kellyId": 5401,
+    "lemma": "förpliktelse",
+    "examples": [
+      "Vi har en förpliktelse att hjälpa de som behöver stöd."
+    ]
+  },
+  {
+    "kellyId": 5402,
+    "lemma": "larm",
+    "examples": [
+      "Larmet gick igång mitt i natten."
+    ]
+  },
+  {
+    "kellyId": 5403,
+    "lemma": "lättnad",
+    "examples": [
+      "Det var en stor lättnad att höra att hon var frisk."
+    ]
+  },
+  {
+    "kellyId": 5404,
+    "lemma": "predikan",
+    "examples": [
+      "Prästens predikan varade i över en timme."
+    ]
+  },
+  {
+    "kellyId": 5405,
+    "lemma": "ammunition",
+    "examples": [
+      "Soldaterna fick mer ammunition inför striden."
+    ]
+  },
+  {
+    "kellyId": 5406,
+    "lemma": "begär",
+    "examples": [
+      "Han kände ett starkt begär efter sötsaker."
+    ]
+  },
+  {
+    "kellyId": 5407,
+    "lemma": "entydig",
+    "examples": [
+      "Resultaten ger ett entydigt svar på frågan."
+    ]
+  },
+  {
+    "kellyId": 5408,
+    "lemma": "missförstå",
+    "examples": [
+      "Jag tror att du missförstår vad jag menar."
+    ]
+  },
+  {
+    "kellyId": 5409,
+    "lemma": "översvämning",
+    "examples": [
+      "Översvämningen förstörde många hus i byn."
+    ]
+  },
+  {
+    "kellyId": 5410,
+    "lemma": "matcha",
+    "examples": [
+      "Den blå jackan matchar inte dina byxor."
+    ]
+  },
+  {
+    "kellyId": 5411,
+    "lemma": "korrigera",
+    "examples": [
+      "Läraren korrigerade felen i uppsatsen."
+    ]
+  },
+  {
+    "kellyId": 5413,
+    "lemma": "frånvarande",
+    "examples": [
+      "Han verkade frånvarande under hela mötet."
+    ]
+  },
+  {
+    "kellyId": 5414,
+    "lemma": "inblick",
+    "examples": [
+      "Praktiken gav mig en värdefull inblick i yrket."
+    ]
+  },
+  {
+    "kellyId": 5416,
+    "lemma": "mjukvara",
+    "examples": [
+      "Den nya mjukvaran är snabbare och enklare att använda."
+    ]
+  },
+  {
+    "kellyId": 5417,
+    "lemma": "motpart",
+    "examples": [
+      "Advokaten förhandlade direkt med motparten."
+    ]
+  },
+  {
+    "kellyId": 5418,
+    "lemma": "riksdagsparti",
+    "examples": [
+      "Det finns åtta riksdagspartier i Sverige idag."
+    ]
+  },
+  {
+    "kellyId": 5419,
+    "lemma": "storskalig",
+    "examples": [
+      "De planerar en storskalig satsning på förnybar energi."
+    ]
+  },
+  {
+    "kellyId": 5420,
+    "lemma": "överflöd",
+    "examples": [
+      "Vi lever i ett samhälle präglat av överflöd."
+    ]
+  },
+  {
+    "kellyId": 5421,
+    "lemma": "gröda",
+    "examples": [
+      "Torkan förstörde hela årets gröda."
+    ]
+  },
+  {
+    "kellyId": 5422,
+    "lemma": "jacka",
+    "examples": [
+      "Hon hängde sin jacka på kroken vid dörren."
+    ]
+  },
+  {
+    "kellyId": 5423,
+    "lemma": "mottagande",
+    "examples": [
+      "Gästerna fick ett varmt mottagande av värdfamiljen."
+    ]
+  },
+  {
+    "kellyId": 5424,
+    "lemma": "spårvagn",
+    "examples": [
+      "Vi tog spårvagnen in till centrum."
+    ]
+  },
+  {
+    "kellyId": 5425,
+    "lemma": "återhämta",
+    "examples": [
+      "Det tog månader för honom att återhämta sig efter olyckan."
+    ]
+  },
+  {
+    "kellyId": 5426,
+    "lemma": "donera",
+    "examples": [
+      "Hon valde att donera pengar till välgörenhet."
+    ]
+  },
+  {
+    "kellyId": 5427,
+    "lemma": "sjukpenning",
+    "examples": [
+      "Under sjukdomen fick han sjukpenning från Försäkringskassan."
+    ]
+  },
+  {
+    "kellyId": 5428,
+    "lemma": "bevarande",
+    "examples": [
+      "Bevarandet av gamla byggnader är viktigt för kulturen."
+    ]
+  },
+  {
+    "kellyId": 5429,
+    "lemma": "bokhylla",
+    "examples": [
+      "Bokhyllan är full av gamla romaner."
+    ]
+  },
+  {
+    "kellyId": 5430,
+    "lemma": "insida",
+    "examples": [
+      "Insidan av väskan var fodrad med siden."
+    ]
+  },
+  {
+    "kellyId": 5431,
+    "lemma": "överraska",
+    "examples": [
+      "Hans svar överraskade hela gruppen."
+    ]
+  },
+  {
+    "kellyId": 5433,
+    "lemma": "relatera",
+    "examples": [
+      "Jag kan relatera till det du beskriver."
+    ]
+  },
+  {
+    "kellyId": 5435,
+    "lemma": "dynamik",
+    "examples": [
+      "Det råder en spännande dynamik i det här teamet."
+    ]
+  },
+  {
+    "kellyId": 5436,
+    "lemma": "anmälning",
+    "examples": [
+      "Skicka in din anmälning senast på fredag."
+    ]
+  },
+  {
+    "kellyId": 5437,
+    "lemma": "farhåga",
+    "examples": [
+      "Hennes farhågor om ekonomin visade sig vara befogade."
+    ]
+  },
+  {
+    "kellyId": 5439,
+    "lemma": "tillsynsmyndighet",
+    "examples": [
+      "Tillsynsmyndigheten granskar att företagen följer reglerna."
+    ]
+  },
+  {
+    "kellyId": 5440,
+    "lemma": "adoptera",
+    "examples": [
+      "De bestämde sig för att adoptera ett barn från utlandet."
+    ]
+  },
+  {
+    "kellyId": 5441,
+    "lemma": "administrera",
+    "examples": [
+      "Hon administrerar alla scheman och bokningar på kontoret."
+    ]
+  },
+  {
+    "kellyId": 5442,
+    "lemma": "alltihop",
+    "examples": [
+      "Jag förstår inte alltihop, men jag försöker."
+    ]
+  },
+  {
+    "kellyId": 5443,
+    "lemma": "dramatiskt",
+    "examples": [
+      "Priserna har sjunkit dramatiskt det senaste året."
+    ]
+  },
+  {
+    "kellyId": 5445,
+    "lemma": "marsch",
+    "examples": [
+      "Soldaterna tågade i marsch genom staden."
+    ]
+  },
+  {
+    "kellyId": 5446,
+    "lemma": "smäll",
+    "examples": [
+      "Vi hörde en hög smäll utifrån gatan."
+    ]
+  },
+  {
+    "kellyId": 5448,
+    "lemma": "följande",
+    "examples": [
+      "Svara på följande frågor med ja eller nej."
+    ]
+  },
+  {
+    "kellyId": 5451,
+    "lemma": "konvertera",
+    "examples": [
+      "Han konverterade filen till ett annat format."
+    ]
+  },
+  {
+    "kellyId": 5452,
+    "lemma": "i behov av",
+    "examples": [
+      "Många familjer är i behov av ekonomiskt stöd."
+    ]
+  },
+  {
+    "kellyId": 5453,
+    "lemma": "katastrofal",
+    "examples": [
+      "Följderna av beslutet blev katastrofala."
+    ]
+  },
+  {
+    "kellyId": 5454,
+    "lemma": "näringsidkare",
+    "examples": [
+      "Som näringsidkare måste du betala skatt varje kvartal."
+    ]
+  },
+  {
+    "kellyId": 5455,
+    "lemma": "otur",
+    "examples": [
+      "Det var ren otur att bilen gick sönder just då."
+    ]
+  },
+  {
+    "kellyId": 5457,
+    "lemma": "hierarki",
+    "examples": [
+      "Företaget har en tydlig hierarki med chefer på varje nivå."
+    ]
+  },
+  {
+    "kellyId": 5458,
+    "lemma": "magasin",
+    "examples": [
+      "Hon läste ett magasin om inredning medan hon väntade."
+    ]
+  },
+  {
+    "kellyId": 5460,
+    "lemma": "stadig",
+    "examples": [
+      "Håll i räcket, trappan är inte helt stadig."
+    ]
+  },
+  {
+    "kellyId": 5461,
+    "lemma": "krävande",
+    "examples": [
+      "Det är ett krävande jobb som kräver mycket energi."
+    ]
+  },
+  {
+    "kellyId": 5462,
+    "lemma": "täckt",
+    "examples": [
+      "Marken var täckt av snö på morgonen."
+    ]
+  },
+  {
+    "kellyId": 5463,
+    "lemma": "verifiera",
+    "examples": [
+      "Kan du verifiera att informationen stämmer?"
+    ]
+  },
+  {
+    "kellyId": 5464,
+    "lemma": "blek",
+    "examples": [
+      "Han såg blek och trött ut efter sjukdomen."
+    ]
+  },
+  {
+    "kellyId": 5465,
+    "lemma": "förbjuden",
+    "examples": [
+      "Rökning är förbjuden inomhus i Sverige."
+    ]
+  },
+  {
+    "kellyId": 5466,
+    "lemma": "förnybar",
+    "examples": [
+      "Sol och vind är förnybara energikällor."
+    ]
+  },
+  {
+    "kellyId": 5467,
+    "lemma": "kyrkogård",
+    "examples": [
+      "De lade blommor på graven på kyrkogården."
+    ]
+  },
+  {
+    "kellyId": 5468,
+    "lemma": "ovilja",
+    "examples": [
+      "Hans ovilja att samarbeta försvårade arbetet."
+    ]
+  },
+  {
+    "kellyId": 5469,
+    "lemma": "anarkist",
+    "examples": [
+      "Han kallade sig anarkist och trodde inte på staten."
+    ]
+  },
+  {
+    "kellyId": 5470,
+    "lemma": "kartläggning",
+    "examples": [
+      "En noggrann kartläggning av problemen gjordes av forskarna."
+    ]
+  },
+  {
+    "kellyId": 5473,
+    "lemma": "underskatta",
+    "examples": [
+      "Man ska aldrig underskatta sina motståndare."
+    ]
+  },
+  {
+    "kellyId": 5476,
+    "lemma": "auktion",
+    "examples": [
+      "Tavlan såldes på auktion för en miljon kronor."
+    ]
+  },
+  {
     "kellyId": 5479,
     "lemma": "sex",
     "examples": [
       "De pratade om sex och kärlek."
+    ]
+  },
+  {
+    "kellyId": 5481,
+    "lemma": "fascistisk",
+    "examples": [
+      "Partiet kritiserades för sin fascistiska ideologi."
+    ]
+  },
+  {
+    "kellyId": 5484,
+    "lemma": "bestraffning",
+    "examples": [
+      "Hård bestraffning löser sällan problemen med brott."
+    ]
+  },
+  {
+    "kellyId": 5486,
+    "lemma": "empirisk",
+    "examples": [
+      "Studien baseras på empiriska data från hundra deltagare."
+    ]
+  },
+  {
+    "kellyId": 5487,
+    "lemma": "felaktigt",
+    "examples": [
+      "Uppgifterna rapporterades felaktigt i tidningen."
+    ]
+  },
+  {
+    "kellyId": 5488,
+    "lemma": "konfrontera",
+    "examples": [
+      "Hon bestämde sig för att konfrontera sin chef om problemet."
+    ]
+  },
+  {
+    "kellyId": 5489,
+    "lemma": "materia",
+    "examples": [
+      "Allt vi ser runt oss består av materia."
+    ]
+  },
+  {
+    "kellyId": 5491,
+    "lemma": "övergiven",
+    "examples": [
+      "Den övergivna fabriken stod tom i många år."
+    ]
+  },
+  {
+    "kellyId": 5492,
+    "lemma": "tillfredsställa",
+    "examples": [
+      "Det är svårt att tillfredsställa alla kunder hela tiden."
+    ]
+  },
+  {
+    "kellyId": 5496,
+    "lemma": "förgäves",
+    "examples": [
+      "Han sökte förgäves efter sina nycklar i en timme."
+    ]
+  },
+  {
+    "kellyId": 5497,
+    "lemma": "hiv",
+    "examples": [
+      "Tidig behandling kan hålla hiv under kontroll."
+    ]
+  },
+  {
+    "kellyId": 5499,
+    "lemma": "projektledare",
+    "examples": [
+      "Projektledaren ansvarar för att hålla tidsplanen."
     ]
   },
   {
@@ -17557,10 +23689,577 @@
     ]
   },
   {
+    "kellyId": 5502,
+    "lemma": "klinik",
+    "examples": [
+      "Han sökte vård på en privat klinik i stan."
+    ]
+  },
+  {
+    "kellyId": 5503,
+    "lemma": "råtta",
+    "examples": [
+      "De hittade en råtta i källaren och ringde en skadedjursfirma."
+    ]
+  },
+  {
+    "kellyId": 5504,
+    "lemma": "strömning",
+    "examples": [
+      "Det finns en stark strömning i floden på det här stället."
+    ]
+  },
+  {
+    "kellyId": 5505,
+    "lemma": "kandidera",
+    "examples": [
+      "Hon bestämde sig för att kandidera till kommunstyrelsen."
+    ]
+  },
+  {
+    "kellyId": 5507,
+    "lemma": "ritning",
+    "examples": [
+      "Arkitekten visade ritningarna för det nya huset."
+    ]
+  },
+  {
+    "kellyId": 5508,
+    "lemma": "utmed",
+    "examples": [
+      "Det växer träd utmed hela vägen till sjön."
+    ]
+  },
+  {
+    "kellyId": 5510,
+    "lemma": "uppfostra",
+    "examples": [
+      "Det är föräldrarnas uppgift att uppfostra sina barn."
+    ]
+  },
+  {
+    "kellyId": 5511,
+    "lemma": "lagändring",
+    "examples": [
+      "Lagändringen trädde i kraft den första januari."
+    ]
+  },
+  {
+    "kellyId": 5512,
+    "lemma": "så länge",
+    "examples": [
+      "Du kan bo här så länge du vill."
+    ]
+  },
+  {
+    "kellyId": 5513,
+    "lemma": "kulturarv",
+    "examples": [
+      "Gamla städer är en del av vårt kulturarv."
+    ]
+  },
+  {
+    "kellyId": 5514,
+    "lemma": "nordlig",
+    "examples": [
+      "Den nordliga delen av landet har kallare vintrar."
+    ]
+  },
+  {
+    "kellyId": 5515,
+    "lemma": "plantera",
+    "examples": [
+      "Vi planterade rosor längs staketet i trädgården."
+    ]
+  },
+  {
+    "kellyId": 5518,
+    "lemma": "förbruka",
+    "examples": [
+      "Bilen förbrukar för mycket bensin."
+    ]
+  },
+  {
+    "kellyId": 5519,
+    "lemma": "budgetproposition",
+    "examples": [
+      "Regeringen lade fram sin budgetproposition i september."
+    ]
+  },
+  {
+    "kellyId": 5520,
+    "lemma": "ceremoni",
+    "examples": [
+      "Prisutdelningsceremonin hölls i Stockholm."
+    ]
+  },
+  {
+    "kellyId": 5521,
+    "lemma": "uran",
+    "examples": [
+      "Kärnkraftverk använder uran som bränsle."
+    ]
+  },
+  {
+    "kellyId": 5522,
+    "lemma": "aktualisera",
+    "examples": [
+      "Branden aktualiserade frågan om brandsäkerhet i äldre byggnader."
+    ]
+  },
+  {
+    "kellyId": 5523,
+    "lemma": "barnfamilj",
+    "examples": [
+      "Parken är perfekt för en barnfamilj på sommaren."
+    ]
+  },
+  {
+    "kellyId": 5524,
+    "lemma": "population",
+    "examples": [
+      "Forskarnas studie omfattade en population på tusen personer."
+    ]
+  },
+  {
+    "kellyId": 5525,
+    "lemma": "undanröja",
+    "examples": [
+      "Vi måste undanröja alla hinder för att nå målet."
+    ]
+  },
+  {
+    "kellyId": 5527,
+    "lemma": "entreprenörskap",
+    "examples": [
+      "Skolan uppmuntrar entreprenörskap bland sina studenter."
+    ]
+  },
+  {
+    "kellyId": 5528,
+    "lemma": "godtagbar",
+    "examples": [
+      "Resultaten är godtagbara men inte perfekta."
+    ]
+  },
+  {
+    "kellyId": 5531,
+    "lemma": "isolera",
+    "examples": [
+      "Vi behöver isolera väggarnar bättre för att spara värme."
+    ]
+  },
+  {
+    "kellyId": 5533,
+    "lemma": "kopiering",
+    "examples": [
+      "Kopiering av upphovsrättsskyddat material är olagligt."
+    ]
+  },
+  {
+    "kellyId": 5535,
+    "lemma": "shoppa",
+    "examples": [
+      "Vi shoppade i flera timmar på köpcentret."
+    ]
+  },
+  {
+    "kellyId": 5536,
+    "lemma": "språkbruk",
+    "examples": [
+      "Hennes språkbruk anpassar sig efter situationen."
+    ]
+  },
+  {
+    "kellyId": 5537,
+    "lemma": "diabetes",
+    "examples": [
+      "Han fick diagnosen diabetes och ändrade sin kost."
+    ]
+  },
+  {
+    "kellyId": 5538,
+    "lemma": "fortlöpande",
+    "examples": [
+      "Projektet utvärderas fortlöpande under hela perioden."
+    ]
+  },
+  {
+    "kellyId": 5540,
+    "lemma": "svagt",
+    "examples": [
+      "Lampan lyste svagt i det mörka rummet."
+    ]
+  },
+  {
+    "kellyId": 5541,
+    "lemma": "ämbete",
+    "examples": [
+      "Han innehade ämbetet som riksrevisor i tio år."
+    ]
+  },
+  {
+    "kellyId": 5542,
+    "lemma": "historik",
+    "examples": [
+      "Rapporten innehåller en kort historik över företaget."
+    ]
+  },
+  {
+    "kellyId": 5543,
+    "lemma": "intyg",
+    "examples": [
+      "Du måste visa ett läkarintyg för att få sjukledigt."
+    ]
+  },
+  {
+    "kellyId": 5547,
+    "lemma": "etablering",
+    "examples": [
+      "Etableringen av nya företag skapar arbetstillfällen."
+    ]
+  },
+  {
+    "kellyId": 5549,
+    "lemma": "hedra",
+    "examples": [
+      "Vi hedrar de som offrade sina liv för landet."
+    ]
+  },
+  {
+    "kellyId": 5551,
+    "lemma": "stundtals",
+    "examples": [
+      "Föreläsningen var stundtals svår att följa."
+    ]
+  },
+  {
+    "kellyId": 5552,
+    "lemma": "tjata",
+    "examples": [
+      "Sluta tjata om samma sak hela tiden!"
+    ]
+  },
+  {
+    "kellyId": 5553,
+    "lemma": "tjeckisk",
+    "examples": [
+      "Han är tjeckisk medborgare men bor i Sverige."
+    ]
+  },
+  {
+    "kellyId": 5555,
+    "lemma": "fördelaktig",
+    "examples": [
+      "Det är fördelaktigt att lära sig ett nytt språk tidigt."
+    ]
+  },
+  {
+    "kellyId": 5556,
+    "lemma": "assistent",
+    "examples": [
+      "Assistenten tog emot alla samtal och bokningar."
+    ]
+  },
+  {
+    "kellyId": 5557,
+    "lemma": "läskig",
+    "examples": [
+      "Filmen var så läskig att jag inte kunde sova efteråt."
+    ]
+  },
+  {
+    "kellyId": 5558,
+    "lemma": "nationalekonomi",
+    "examples": [
+      "Hon studerar nationalekonomi på universitetet."
+    ]
+  },
+  {
+    "kellyId": 5560,
+    "lemma": "övernaturlig",
+    "examples": [
+      "Karaktären i boken har övernaturliga krafter."
+    ]
+  },
+  {
+    "kellyId": 5561,
+    "lemma": "elektricitet",
+    "examples": [
+      "Utan elektricitet fungerar de flesta apparater inte."
+    ]
+  },
+  {
+    "kellyId": 5562,
+    "lemma": "grovt",
+    "examples": [
+      "Han hade grovt underskattat hur lång tid det skulle ta."
+    ]
+  },
+  {
+    "kellyId": 5564,
+    "lemma": "beskylla",
+    "examples": [
+      "Han beskyllde sin kollega för att ha stulit pengarna."
+    ]
+  },
+  {
+    "kellyId": 5565,
+    "lemma": "obegränsad",
+    "examples": [
+      "Abonnemanget ger obegränsad tillgång till alla filmer."
+    ]
+  },
+  {
+    "kellyId": 5566,
+    "lemma": "anordning",
+    "examples": [
+      "En liten anordning på dörren håller den öppen."
+    ]
+  },
+  {
+    "kellyId": 5568,
+    "lemma": "förråd",
+    "examples": [
+      "Vi förvarar gamla möbler i förrådet under trappan."
+    ]
+  },
+  {
+    "kellyId": 5570,
+    "lemma": "oönskad",
+    "examples": [
+      "Han fick massor av oönskad reklam i brevlådan."
+    ]
+  },
+  {
+    "kellyId": 5571,
+    "lemma": "marschera",
+    "examples": [
+      "Demonstranterna marscherade genom stadens gator."
+    ]
+  },
+  {
+    "kellyId": 5573,
+    "lemma": "till vara",
+    "examples": [
+      "Vi måste ta till vara de resurser vi har."
+    ]
+  },
+  {
+    "kellyId": 5576,
+    "lemma": "överdriva",
+    "examples": [
+      "Du överdriver — det var inte alls så illa."
+    ]
+  },
+  {
+    "kellyId": 5577,
+    "lemma": "reparera",
+    "examples": [
+      "Mekanikern reparerade bilen på en dag."
+    ]
+  },
+  {
     "kellyId": 5578,
     "lemma": "central",
     "examples": [
       "Vi möts vid den stora centralen."
+    ]
+  },
+  {
+    "kellyId": 5579,
+    "lemma": "erövring",
+    "examples": [
+      "Romarnas erövring av Gallien tog flera år."
+    ]
+  },
+  {
+    "kellyId": 5580,
+    "lemma": "justering",
+    "examples": [
+      "En liten justering av priset kan locka fler kunder."
+    ]
+  },
+  {
+    "kellyId": 5581,
+    "lemma": "nedanstående",
+    "examples": [
+      "Fyll i nedanstående formulär och skicka in det."
+    ]
+  },
+  {
+    "kellyId": 5582,
+    "lemma": "propagera",
+    "examples": [
+      "Organisationen propagerar för en rättvisare värld."
+    ]
+  },
+  {
+    "kellyId": 5583,
+    "lemma": "talesman",
+    "examples": [
+      "Talesmannen för partiet höll en presskonferens."
+    ]
+  },
+  {
+    "kellyId": 5584,
+    "lemma": "uppträdande",
+    "examples": [
+      "Hans uppträdande på festen var mycket olämpligt."
+    ]
+  },
+  {
+    "kellyId": 5585,
+    "lemma": "tandläkare",
+    "examples": [
+      "Jag har en tid hos tandläkaren på måndag."
+    ]
+  },
+  {
+    "kellyId": 5587,
+    "lemma": "utgivare",
+    "examples": [
+      "Utgivaren ansvarar för allt innehåll i tidningen."
+    ]
+  },
+  {
+    "kellyId": 5589,
+    "lemma": "explosion",
+    "examples": [
+      "Explosionen hördes flera kilometer bort."
+    ]
+  },
+  {
+    "kellyId": 5590,
+    "lemma": "fraktion",
+    "examples": [
+      "En liten fraktion av partiet röstade mot förslaget."
+    ]
+  },
+  {
+    "kellyId": 5591,
+    "lemma": "renovera",
+    "examples": [
+      "De renoverar köket och sätter in nya skåp."
+    ]
+  },
+  {
+    "kellyId": 5592,
+    "lemma": "snyggt",
+    "examples": [
+      "Du löste problemet riktigt snyggt."
+    ]
+  },
+  {
+    "kellyId": 5593,
+    "lemma": "beröva",
+    "examples": [
+      "Kriget berövade honom allt han hade."
+    ]
+  },
+  {
+    "kellyId": 5594,
+    "lemma": "japan",
+    "examples": [
+      "En japan i gruppen berättade om sin hemstad Tokyo."
+    ]
+  },
+  {
+    "kellyId": 5598,
+    "lemma": "förmögen",
+    "examples": [
+      "Han är förmögen nog att köpa en båt utan lån."
+    ]
+  },
+  {
+    "kellyId": 5599,
+    "lemma": "nedanför",
+    "examples": [
+      "Huset ligger precis nedanför berget."
+    ]
+  },
+  {
+    "kellyId": 5600,
+    "lemma": "oförmögen",
+    "examples": [
+      "Han verkade oförmögen att fatta ett beslut."
+    ]
+  },
+  {
+    "kellyId": 5602,
+    "lemma": "arbetsmarknadspolitik",
+    "examples": [
+      "Regeringens arbetsmarknadspolitik syftar till att minska arbetslösheten."
+    ]
+  },
+  {
+    "kellyId": 5603,
+    "lemma": "inkomstskatt",
+    "examples": [
+      "Alla som arbetar i Sverige betalar inkomstskatt."
+    ]
+  },
+  {
+    "kellyId": 5604,
+    "lemma": "skämta",
+    "examples": [
+      "Han skämtade om situationen för att lätta på stämningen."
+    ]
+  },
+  {
+    "kellyId": 5605,
+    "lemma": "underrätta",
+    "examples": [
+      "Vänligen underrätta oss om du inte kan komma."
+    ]
+  },
+  {
+    "kellyId": 5606,
+    "lemma": "världslig",
+    "examples": [
+      "Han förlorade intresset för världsliga ting och sökte sig till klostret."
+    ]
+  },
+  {
+    "kellyId": 5608,
+    "lemma": "hälsosam",
+    "examples": [
+      "Det är viktigt att ha en hälsosam livsstil."
+    ]
+  },
+  {
+    "kellyId": 5610,
+    "lemma": "spädbarn",
+    "examples": [
+      "Spädbarnet sov lugnt i sin vagga."
+    ]
+  },
+  {
+    "kellyId": 5611,
+    "lemma": "domslut",
+    "examples": [
+      "Domslutet förväntas komma nästa vecka."
+    ]
+  },
+  {
+    "kellyId": 5613,
+    "lemma": "utmärkelse",
+    "examples": [
+      "Hon fick en utmärkelse för sitt arbete inom vård och omsorg."
+    ]
+  },
+  {
+    "kellyId": 5615,
+    "lemma": "bredband",
+    "examples": [
+      "Utan bredband är det svårt att jobba hemifrån."
+    ]
+  },
+  {
+    "kellyId": 5616,
+    "lemma": "kemi",
+    "examples": [
+      "Kemi var hennes favoritämne i gymnasiet."
     ]
   },
   {
