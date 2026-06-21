@@ -1,0 +1,469 @@
+[
+  {
+    "kellyId": 5952,
+    "lemma": "utanför",
+    "decision": "fix",
+    "reason": "adv twin of prep utanför (552); they collapse into one card — drop its stale niche sub so the merged card keeps only 552's 'wide of the goal'",
+    "proposedTranslation": "outside",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8,
+    "lemma": "Europa",
+    "decision": "fix",
+    "reason": "drop mythological princess (trivia) and asteroid (trivia); keep Jupiter moon as a mildly useful aside but shorten",
+    "proposedTranslation": "Europe",
+    "proposedSubDefinitions": [
+      "Europa (moon of Jupiter)"
+    ]
+  },
+  {
+    "kellyId": 61,
+    "lemma": "Storbritannien",
+    "decision": "fix",
+    "reason": "sub restates primary with a long definition; shorten to add the UK gloss which is genuinely useful",
+    "proposedTranslation": "Great Britain",
+    "proposedSubDefinitions": [
+      "also used informally for the United Kingdom (UK)"
+    ]
+  },
+  {
+    "kellyId": 68,
+    "lemma": "tionde",
+    "decision": "fix",
+    "reason": "shorten verbose historical-tax definition",
+    "proposedTranslation": "tenth",
+    "proposedSubDefinitions": [
+      "tithe (historical church tax of one tenth)"
+    ]
+  },
+  {
+    "kellyId": 87,
+    "lemma": "och",
+    "decision": "fix",
+    "reason": "all four subs are redundant usage notes for a basic conjunction; drop them all",
+    "proposedTranslation": "and",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 89,
+    "lemma": "i",
+    "decision": "fix",
+    "reason": "trim verbose subs; keep genuinely instructive time and duration senses as short hints",
+    "proposedTranslation": "in",
+    "proposedSubDefinitions": [
+      "to; before a full hour (e.g. fem i tre = five to three)",
+      "for; duration (e.g. i tre dagar = for three days)"
+    ]
+  },
+  {
+    "kellyId": 92,
+    "lemma": "det",
+    "decision": "fix",
+    "reason": "shorten grammar-heavy subs to concise usage hints",
+    "proposedTranslation": "it",
+    "proposedSubDefinitions": [
+      "impersonal subject (e.g. det regnar = it is raining)",
+      "that (demonstrative)"
+    ]
+  },
+  {
+    "kellyId": 95,
+    "lemma": "på",
+    "decision": "fix",
+    "reason": "tighten verbose subs to short usage hints",
+    "proposedTranslation": "on, on top of",
+    "proposedSubDefinitions": [
+      "on, against (vertical surface, e.g. a wall)",
+      "on (a day of the week)",
+      "at (purpose-associated locations, e.g. på jobbet = at work)"
+    ]
+  },
+  {
+    "kellyId": 97,
+    "lemma": "av",
+    "decision": "fix",
+    "reason": "shorten verbose subs; remove trailing period artefact",
+    "proposedTranslation": "from",
+    "proposedSubDefinitions": [
+      "by (passive voice)",
+      "of (material, e.g. gjord av trä = made of wood)",
+      "of (part of a whole)"
+    ]
+  },
+  {
+    "kellyId": 105,
+    "lemma": "till",
+    "decision": "fix",
+    "reason": "shorten the time-usage sub; drop the wordy parenthetical rule-of-thumb",
+    "proposedTranslation": "to",
+    "proposedSubDefinitions": [
+      "for (e.g. en present till dig = a present for you)",
+      "with (e.g. potatis till maten = potatoes with the meal)",
+      "this coming (time period, e.g. till helgen = this weekend)"
+    ]
+  },
+  {
+    "kellyId": 113,
+    "lemma": "men",
+    "decision": "fix",
+    "reason": "first sub is a definition gloss, not a translation; second is a near-restatement; merge into one concise synonym",
+    "proposedTranslation": "but",
+    "proposedSubDefinitions": [
+      "yet, however"
+    ]
+  },
+  {
+    "kellyId": 114,
+    "lemma": "man",
+    "decision": "fix",
+    "reason": "first sub restates primary; second is a niche register note — shorten both",
+    "proposedTranslation": "people in general",
+    "proposedSubDefinitions": [
+      "one, you (impersonal pronoun)"
+    ]
+  },
+  {
+    "kellyId": 115,
+    "lemma": "de",
+    "decision": "fix",
+    "reason": "shorten grammar-note sub",
+    "proposedTranslation": "the",
+    "proposedSubDefinitions": [
+      "plural definite article (used with adjective + noun, e.g. de gröna bilarna)"
+    ]
+  },
+  {
+    "kellyId": 117,
+    "lemma": "så",
+    "decision": "fix",
+    "reason": "keep V2 word-order note but shorten drastically; keep 'alright' sense",
+    "proposedTranslation": "so, like that, in such a way",
+    "proposedSubDefinitions": [
+      "alright, done (indicating something is finished)",
+      "so (to such a degree)",
+      "then (V2 filler after sentence-initial adverbial; no direct English equivalent)"
+    ]
+  },
+  {
+    "kellyId": 134,
+    "lemma": "du",
+    "decision": "fix",
+    "reason": "sub is a niche vocative note; drop",
+    "proposedTranslation": "you",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 140,
+    "lemma": "måste",
+    "decision": "fix",
+    "reason": "sub is a noun gloss, not a verb usage hint — drop",
+    "proposedTranslation": "must, have to",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 176,
+    "lemma": "över",
+    "decision": "fix",
+    "reason": "keep useful senses, tighten wording",
+    "proposedTranslation": "above",
+    "proposedSubDefinitions": [
+      "over, across",
+      "over (covering something)",
+      "past; after the latest full hour (e.g. fem över tre = five past three)"
+    ]
+  },
+  {
+    "kellyId": 233,
+    "lemma": "ni",
+    "decision": "fix",
+    "reason": "tighten formal-pronoun sub",
+    "proposedTranslation": "you",
+    "proposedSubDefinitions": [
+      "formal singular 'you' (capitalized Ni, rare in modern Swedish)"
+    ]
+  },
+  {
+    "kellyId": 287,
+    "lemma": "hos",
+    "decision": "fix",
+    "reason": "sub is verbose; shorten",
+    "proposedTranslation": "at (someone's place), with",
+    "proposedSubDefinitions": [
+      "with (used with static verbs like 'stay', e.g. bo hos = stay with)"
+    ]
+  },
+  {
+    "kellyId": 315,
+    "lemma": "er",
+    "decision": "fix",
+    "reason": "shorten both subs; drop parenthetical cross-references",
+    "proposedTranslation": "you",
+    "proposedSubDefinitions": [
+      "your, yours (plural, common gender)",
+      "formal singular 'you' (capitalized Er, rare in modern Swedish)"
+    ]
+  },
+  {
+    "kellyId": 358,
+    "lemma": "ner",
+    "decision": "fix",
+    "reason": "first sub restates primary; second is useful — keep only the second",
+    "proposedTranslation": "down",
+    "proposedSubDefinitions": [
+      "off, down (turning off or shutting down)"
+    ]
+  },
+  {
+    "kellyId": 369,
+    "lemma": "igen",
+    "decision": "fix",
+    "reason": "keep closed/shut sense, merge the two very similar subs into one",
+    "proposedTranslation": "again",
+    "proposedSubDefinitions": [
+      "closed, shut (e.g. dörren är igen = the door is closed)"
+    ]
+  },
+  {
+    "kellyId": 644,
+    "lemma": "rätt",
+    "decision": "fix",
+    "reason": "tighten law sub; keep all four distinct senses",
+    "proposedTranslation": "right, correct",
+    "proposedSubDefinitions": [
+      "rightly, correctly (adverb)",
+      "rather, fairly, pretty (adverb of degree)",
+      "dish, course (a prepared food)",
+      "law, right (legal entitlement or the law as a system)"
+    ]
+  },
+  {
+    "kellyId": 519,
+    "lemma": "runt",
+    "decision": "fix",
+    "reason": "first two subs restate primary; keep the useful 'around a corner' and time senses",
+    "proposedTranslation": "around",
+    "proposedSubDefinitions": [
+      "around (a corner)",
+      "around, about (approximate time)"
+    ]
+  },
+  {
+    "kellyId": 552,
+    "lemma": "utanför",
+    "decision": "fix",
+    "reason": "fix niche football sub to clearer gloss",
+    "proposedTranslation": "outside",
+    "proposedSubDefinitions": [
+      "wide of the goal (in football)"
+    ]
+  },
+  {
+    "kellyId": 1033,
+    "lemma": "hem",
+    "decision": "fix",
+    "reason": "drop two subs that restate primary; keep institution sense; simplify destination sense",
+    "proposedTranslation": "home",
+    "proposedSubDefinitions": [
+      "care home, institution",
+      "home (as destination, directional use, e.g. gå hem = go home)"
+    ]
+  },
+  {
+    "kellyId": 600,
+    "lemma": "tjänst",
+    "decision": "fix",
+    "reason": "shorten first sub",
+    "proposedTranslation": "favor",
+    "proposedSubDefinitions": [
+      "post, public office",
+      "service"
+    ]
+  },
+  {
+    "kellyId": 1115,
+    "lemma": "jo",
+    "decision": "fix",
+    "reason": "shorten all subs; keep the key 'yes to a negative' sense which is the most important teaching point",
+    "proposedTranslation": "yes",
+    "proposedSubDefinitions": [
+      "yes (contradicting a negative question or statement; like French si or German doch)",
+      "oh (expressing a sudden realization)",
+      "well, so (filler at the start of an utterance)"
+    ]
+  },
+  {
+    "kellyId": 1732,
+    "lemma": "allting",
+    "decision": "fix",
+    "reason": "drop historical assembly sense — obscure etymology, not a real modern meaning",
+    "proposedTranslation": "everything",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 3637,
+    "lemma": "framställning",
+    "decision": "fix",
+    "reason": "shorten verbose subs",
+    "proposedTranslation": "production, manufacture",
+    "proposedSubDefinitions": [
+      "presentation, exposition",
+      "petition, formal request"
+    ]
+  },
+  {
+    "kellyId": 3855,
+    "lemma": "guide",
+    "decision": "fix",
+    "reason": "keep wizard/setup-wizard sense but tighten",
+    "proposedTranslation": "guide",
+    "proposedSubDefinitions": [
+      "wizard (software setup assistant)"
+    ]
+  },
+  {
+    "kellyId": 4424,
+    "lemma": "signatur",
+    "decision": "fix",
+    "reason": "shorten both subs",
+    "proposedTranslation": "signature",
+    "proposedSubDefinitions": [
+      "trademark, hallmark (distinguishing characteristic)",
+      "pseudonym, byline (especially journalistic)"
+    ]
+  },
+  {
+    "kellyId": 4954,
+    "lemma": "målvakt",
+    "decision": "fix",
+    "reason": "drop figurehead/criminal sense — too niche and potentially confusing",
+    "proposedTranslation": "goalkeeper",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5131,
+    "lemma": "utslag",
+    "decision": "fix",
+    "reason": "shorten all three subs",
+    "proposedTranslation": "rash",
+    "proposedSubDefinitions": [
+      "reading, deflection (on a meter or gauge)",
+      "ruling, verdict (from a court or authority)",
+      "tee shot (golf)"
+    ]
+  },
+  {
+    "kellyId": 5662,
+    "lemma": "fjäll",
+    "decision": "fix",
+    "reason": "sub is correct and concise; just tighten slightly",
+    "proposedTranslation": "mountain rising above the tree line",
+    "proposedSubDefinitions": [
+      "scale (of fish or reptiles)"
+    ]
+  },
+  {
+    "kellyId": 5670,
+    "lemma": "blixt",
+    "decision": "fix",
+    "reason": "merge two verbose subs into tighter versions; first restates primary — drop it; keep camera flash",
+    "proposedTranslation": "lightning, a lightning bolt",
+    "proposedSubDefinitions": [
+      "flash (camera flash or burst of light)"
+    ]
+  },
+  {
+    "kellyId": 5877,
+    "lemma": "prick",
+    "decision": "fix",
+    "reason": "subs are fine; tighten slightly",
+    "proposedTranslation": "dot",
+    "proposedSubDefinitions": [
+      "mark, stain (on a record)",
+      "guy, fellow (informal, especially a likeable one)"
+    ]
+  },
+  {
+    "kellyId": 6002,
+    "lemma": "otrogen",
+    "decision": "fix",
+    "reason": "sub is fine but tighten",
+    "proposedTranslation": "unfaithful",
+    "proposedSubDefinitions": [
+      "infidel, unbeliever"
+    ]
+  },
+  {
+    "kellyId": 6219,
+    "lemma": "bräda",
+    "decision": "fix",
+    "reason": "three subs but only two distinct senses; third is a duplicate of first — drop it",
+    "proposedTranslation": "board",
+    "proposedSubDefinitions": [
+      "riding board (snowboard, skateboard, etc.)",
+      "thin flat board (general)"
+    ]
+  },
+  {
+    "kellyId": 6290,
+    "lemma": "nagel",
+    "decision": "fix",
+    "reason": "sub is fine; tighten slightly",
+    "proposedTranslation": "nail",
+    "proposedSubDefinitions": [
+      "treenail, wooden peg (especially in boat-building)"
+    ]
+  },
+  {
+    "kellyId": 6358,
+    "lemma": "hallå",
+    "decision": "fix",
+    "reason": "three subs cover the same greeting function; collapse to two distinct uses",
+    "proposedTranslation": "hello",
+    "proposedSubDefinitions": [
+      "hey (to get someone's attention)",
+      "hello? (checking if someone is present or listening)"
+    ]
+  },
+  {
+    "kellyId": 6449,
+    "lemma": "gap",
+    "decision": "fix",
+    "reason": "shorten both subs; first is closer to primary sense",
+    "proposedTranslation": "chasm or abyss",
+    "proposedSubDefinitions": [
+      "gap, opening, breach",
+      "open mouth (wide open)"
+    ]
+  },
+  {
+    "kellyId": 7065,
+    "lemma": "fångst",
+    "decision": "fix",
+    "reason": "sub is good; tighten slightly",
+    "proposedTranslation": "catching",
+    "proposedSubDefinitions": [
+      "catch, haul (fish or animals caught)"
+    ]
+  },
+  {
+    "kellyId": 7210,
+    "lemma": "tillflykt",
+    "decision": "fix",
+    "reason": "shorten subs; second ('taking refuge') restates primary — drop it",
+    "proposedTranslation": "refuge",
+    "proposedSubDefinitions": [
+      "escape, solace (temporary relief from hardship)"
+    ]
+  },
+  {
+    "kellyId": 8262,
+    "lemma": "upphängning",
+    "decision": "fix",
+    "reason": "sub is fine; tighten slightly",
+    "proposedTranslation": "hanging, suspension",
+    "proposedSubDefinitions": [
+      "suspension system, mounting (mechanism for suspending something)"
+    ]
+  }
+]

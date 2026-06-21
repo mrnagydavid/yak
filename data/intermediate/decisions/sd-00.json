@@ -1,0 +1,1628 @@
+[
+  {
+    "kellyId": 50,
+    "lemma": "sexa",
+    "decision": "fix",
+    "reason": "sub-defs are verbose; keep only genuinely distinct useful senses",
+    "proposedTranslation": "Number six",
+    "proposedSubDefinitions": [
+      "sixth grade (school year)",
+      "a 6 cl shot of spirits"
+    ]
+  },
+  {
+    "kellyId": 66,
+    "lemma": "tia",
+    "decision": "fix",
+    "reason": "sub-defs overly verbose; shorten",
+    "proposedTranslation": "number 10",
+    "proposedSubDefinitions": [
+      "ten-kronor coin",
+      "player number ten; anything associated with the number ten"
+    ]
+  },
+  {
+    "kellyId": 90,
+    "lemma": "ha",
+    "decision": "fix",
+    "reason": "third sub-def is a grammatical usage note; first two restate primary; drop all",
+    "proposedTranslation": "have",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 2464,
+    "lemma": "till",
+    "decision": "fix",
+    "reason": "two sub-defs are lengthy grammatical usage notes; keep only 'in addition'",
+    "proposedTranslation": "another, more",
+    "proposedSubDefinitions": [
+      "in addition, also"
+    ]
+  },
+  {
+    "kellyId": 116,
+    "lemma": "få",
+    "decision": "fix",
+    "reason": "shorten verbose sub-defs",
+    "proposedTranslation": "get, to receive",
+    "proposedSubDefinitions": [
+      "be allowed to, may",
+      "have to, be forced to",
+      "make (someone do something), cause"
+    ]
+  },
+  {
+    "kellyId": 117,
+    "lemma": "så",
+    "decision": "fix",
+    "reason": "shorten and drop grammatical usage note",
+    "proposedTranslation": "so, like that, in such a way",
+    "proposedSubDefinitions": [
+      "so, alright (indicating something is finished)",
+      "so (to such a degree)"
+    ]
+  },
+  {
+    "kellyId": 122,
+    "lemma": "bli",
+    "decision": "fix",
+    "reason": "third sub-def is a grammatical usage note; shorten remaining",
+    "proposedTranslation": "become",
+    "proposedSubDefinitions": [
+      "stay, remain",
+      "will be (future sense)"
+    ]
+  },
+  {
+    "kellyId": 131,
+    "lemma": "göra",
+    "decision": "fix",
+    "reason": "last two sub-defs are grammatical usage notes; shorten first two",
+    "proposedTranslation": "do",
+    "proposedSubDefinitions": [
+      "make, produce, create",
+      "cause, have an effect"
+    ]
+  },
+  {
+    "kellyId": 140,
+    "lemma": "måste",
+    "decision": "fix",
+    "reason": "sole sub-def restates primary translation; drop it",
+    "proposedTranslation": "must, have to",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 143,
+    "lemma": "nu",
+    "decision": "fix",
+    "reason": "sole sub-def is a grammatical usage note; drop it",
+    "proposedTranslation": "now",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 182,
+    "lemma": "skriva",
+    "decision": "fix",
+    "reason": "shorten verbose sub-defs; drop trivial 'be literate' sense",
+    "proposedTranslation": "write, to type, to copy",
+    "proposedSubDefinitions": [
+      "author, compose, publish",
+      "sign (a contract)"
+    ]
+  },
+  {
+    "kellyId": 187,
+    "lemma": "riva",
+    "decision": "fix",
+    "reason": "shorten sub-defs slightly",
+    "proposedTranslation": "tear, to rip",
+    "proposedSubDefinitions": [
+      "grate (food)",
+      "scratch",
+      "demolish (a building)"
+    ]
+  },
+  {
+    "kellyId": 190,
+    "lemma": "dag",
+    "decision": "fix",
+    "reason": "first sub-def restates primary; last two are idiomatic/niche; keep daytime sense only",
+    "proposedTranslation": "day",
+    "proposedSubDefinitions": [
+      "daytime (as opposed to night)"
+    ]
+  },
+  {
+    "kellyId": 193,
+    "lemma": "land",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "country, a land",
+    "proposedSubDefinitions": [
+      "land (as opposed to sea)",
+      "countryside, rural area",
+      "plot, patch (of land)"
+    ]
+  },
+  {
+    "kellyId": 197,
+    "lemma": "tro",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "believe, to think",
+    "proposedSubDefinitions": [
+      "trust (think someone is telling the truth)",
+      "believe in (think someone/something will succeed)",
+      "have religious faith"
+    ]
+  },
+  {
+    "kellyId": 765,
+    "lemma": "tro",
+    "decision": "fix",
+    "reason": "shorten verbose sub-defs",
+    "proposedTranslation": "belief",
+    "proposedSubDefinitions": [
+      "trust, faith (in a person)",
+      "religious faith",
+      "allegiance"
+    ]
+  },
+  {
+    "kellyId": 199,
+    "lemma": "tycka",
+    "decision": "fix",
+    "reason": "shorten verbose sub-defs; merge sensory impression senses",
+    "proposedTranslation": "be of the opinion, to think",
+    "proposedSubDefinitions": [
+      "express an opinion",
+      "have the impression (that), find (something to be)",
+      "seem, appear"
+    ]
+  },
+  {
+    "kellyId": 218,
+    "lemma": "gång",
+    "decision": "fix",
+    "reason": "primary translation 'walking' is narrow; sub-defs cover the common 'time/instance' and 'path' senses — shorten",
+    "proposedTranslation": "walking",
+    "proposedSubDefinitions": [
+      "gait, manner of walking",
+      "path, walkway",
+      "aisle, corridor, passage"
+    ]
+  },
+  {
+    "kellyId": 224,
+    "lemma": "hålla",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "hold",
+    "proposedSubDefinitions": [
+      "hold, host (an event, meeting)",
+      "keep, maintain"
+    ]
+  },
+  {
+    "kellyId": 229,
+    "lemma": "väl",
+    "decision": "fix",
+    "reason": "shorten verbose sub-defs; drop grammatical usage note",
+    "proposedTranslation": "well",
+    "proposedSubDefinitions": [
+      "once, when (after something has happened)",
+      "on the other hand, however",
+      "I suppose, probably (expressing reservation)"
+    ]
+  },
+  {
+    "kellyId": 232,
+    "lemma": "tänka",
+    "decision": "fix",
+    "reason": "shorten verbose sub-defs; merge last two",
+    "proposedTranslation": "think",
+    "proposedSubDefinitions": [
+      "think hard, ponder",
+      "bear in mind, remember",
+      "intend to, plan to"
+    ]
+  },
+  {
+    "kellyId": 239,
+    "lemma": "värld",
+    "decision": "fix",
+    "reason": "all sub-defs are idiomatic/usage notes rather than distinct senses; drop all",
+    "proposedTranslation": "world",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 333,
+    "lemma": "lag",
+    "decision": "fix",
+    "reason": "first two sub-defs restate primary; shorten brine sense; also 'team' is a key missing sense but not in sub-defs — keep what's there",
+    "proposedTranslation": "law",
+    "proposedSubDefinitions": [
+      "team (in sports)",
+      "brine, pickling liquid"
+    ]
+  },
+  {
+    "kellyId": 273,
+    "lemma": "tal",
+    "decision": "fix",
+    "reason": "shorten sub-defs; drop range-notation note",
+    "proposedTranslation": "number",
+    "proposedSubDefinitions": [
+      "speech, the ability to speak",
+      "speech, address (public talk)",
+      "math problem, exercise"
+    ]
+  },
+  {
+    "kellyId": 300,
+    "lemma": "bära",
+    "decision": "fix",
+    "reason": "first sub-def restates primary; shorten others",
+    "proposedTranslation": "carry",
+    "proposedSubDefinitions": [
+      "wear (clothing, jewelry)",
+      "support, bear (weight)",
+      "bear (fruit)"
+    ]
+  },
+  {
+    "kellyId": 302,
+    "lemma": "väg",
+    "decision": "fix",
+    "reason": "shorten; last two sub-defs are idiomatic usage notes — drop them",
+    "proposedTranslation": "road",
+    "proposedSubDefinitions": [
+      "way, route, path"
+    ]
+  },
+  {
+    "kellyId": 303,
+    "lemma": "samhälle",
+    "decision": "fix",
+    "reason": "first three sub-defs restate primary; keep distinct 'community/place' sense",
+    "proposedTranslation": "society",
+    "proposedSubDefinitions": [
+      "community, locality (a place)"
+    ]
+  },
+  {
+    "kellyId": 304,
+    "lemma": "alltså",
+    "decision": "fix",
+    "reason": "shorten first sub-def; drop grammatical filler note",
+    "proposedTranslation": "therefore, thus, consequently",
+    "proposedSubDefinitions": [
+      "that is, in other words, I mean"
+    ]
+  },
+  {
+    "kellyId": 305,
+    "lemma": "stat",
+    "decision": "fix",
+    "reason": "shorten; drop archaic agricultural salary sense",
+    "proposedTranslation": "state",
+    "proposedSubDefinitions": [
+      "nation",
+      "government",
+      "state (part of a federation)"
+    ]
+  },
+  {
+    "kellyId": 307,
+    "lemma": "höra",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "hear",
+    "proposedSubDefinitions": [
+      "check with (someone)",
+      "interrogate, question",
+      "belong (to), be part of"
+    ]
+  },
+  {
+    "kellyId": 312,
+    "lemma": "ord",
+    "decision": "fix",
+    "reason": "third sub-def restates primary; shorten remaining",
+    "proposedTranslation": "word",
+    "proposedSubDefinitions": [
+      "promise, word (of honor)",
+      "the floor (turn to speak)"
+    ]
+  },
+  {
+    "kellyId": 317,
+    "lemma": "inlägg",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "insert",
+    "proposedSubDefinitions": [
+      "post, contribution (in a discussion or debate)",
+      "cross (in football)"
+    ]
+  },
+  {
+    "kellyId": 324,
+    "lemma": "tag",
+    "decision": "fix",
+    "reason": "shorten; first sub-def is idiomatic; last is usage note",
+    "proposedTranslation": "grip, a hold",
+    "proposedSubDefinitions": [
+      "stroke (with oar or paddle)",
+      "a while, a moment",
+      "a way of doing something, an approach"
+    ]
+  },
+  {
+    "kellyId": 336,
+    "lemma": "sätta",
+    "decision": "fix",
+    "reason": "primary 'sit' is misleading (sätta = put/set/seat); sub-defs cover the real senses — shorten",
+    "proposedTranslation": "sit",
+    "proposedSubDefinitions": [
+      "sit down (move into sitting position)",
+      "seat, show to a seat",
+      "put, place, set"
+    ]
+  },
+  {
+    "kellyId": 337,
+    "lemma": "plats",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "place",
+    "proposedSubDefinitions": [
+      "seat (on a bus, in a theater)",
+      "space, room",
+      "position, spot (on a team, course, etc.)"
+    ]
+  },
+  {
+    "kellyId": 340,
+    "lemma": "bygga",
+    "decision": "fix",
+    "reason": "first sub-def restates primary; drop archaic 'inhabit' sense",
+    "proposedTranslation": "build",
+    "proposedSubDefinitions": [
+      "be based on, rest on"
+    ]
+  },
+  {
+    "kellyId": 346,
+    "lemma": "leva",
+    "decision": "fix",
+    "reason": "shorten; drop 'be live (of a ball)' niche sense; 'leave' is incorrect — 'leva' does not mean leave",
+    "proposedTranslation": "live, to be alive",
+    "proposedSubDefinitions": [
+      "live on, live off (something)",
+      "be rowdy, be wild and noisy"
+    ]
+  },
+  {
+    "kellyId": 349,
+    "lemma": "vecka",
+    "decision": "fix",
+    "reason": "sole sub-def merely elaborates the primary; drop it",
+    "proposedTranslation": "week, a period of 7 days",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 369,
+    "lemma": "igen",
+    "decision": "fix",
+    "reason": "shorten sub-def",
+    "proposedTranslation": "again",
+    "proposedSubDefinitions": [
+      "closed, shut (e.g. a door)"
+    ]
+  },
+  {
+    "kellyId": 378,
+    "lemma": "slå",
+    "decision": "fix",
+    "reason": "first three sub-defs restate primary; keep only 'defeat'",
+    "proposedTranslation": "hit, punch or beat",
+    "proposedSubDefinitions": [
+      "defeat, beat (an opponent)"
+    ]
+  },
+  {
+    "kellyId": 395,
+    "lemma": "uppgift",
+    "decision": "fix",
+    "reason": "shorten sole sub-def",
+    "proposedTranslation": "task",
+    "proposedSubDefinitions": [
+      "piece of information, datum"
+    ]
+  },
+  {
+    "kellyId": 403,
+    "lemma": "sitta",
+    "decision": "fix",
+    "reason": "shorten; drop grammatical usage notes",
+    "proposedTranslation": "sit",
+    "proposedSubDefinitions": [
+      "fit (of clothing)"
+    ]
+  },
+  {
+    "kellyId": 404,
+    "lemma": "precis",
+    "decision": "fix",
+    "reason": "first two sub-defs restate primary; shorten remaining",
+    "proposedTranslation": "precisely",
+    "proposedSubDefinitions": [
+      "just, barely",
+      "just now, moments ago"
+    ]
+  },
+  {
+    "kellyId": 418,
+    "lemma": "jobb",
+    "decision": "fix",
+    "reason": "shorten; drop niche 'speculation' sense",
+    "proposedTranslation": "job",
+    "proposedSubDefinitions": [
+      "task, assignment",
+      "workplace"
+    ]
+  },
+  {
+    "kellyId": 421,
+    "lemma": "rätta",
+    "decision": "fix",
+    "reason": "last sub-def duplicates earlier ones; shorten",
+    "proposedTranslation": "correct, to rectify",
+    "proposedSubDefinitions": [
+      "mark, grade (a test)",
+      "align, adjust",
+      "conform, comply (with rules)"
+    ]
+  },
+  {
+    "kellyId": 428,
+    "lemma": "film",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "film",
+    "proposedSubDefinitions": [
+      "thin layer, film",
+      "photographic film",
+      "movie"
+    ]
+  },
+  {
+    "kellyId": 438,
+    "lemma": "ätt",
+    "decision": "fix",
+    "reason": "sub-defs are archaic/niche rune-row and time-unit senses; drop both",
+    "proposedTranslation": "family, a house",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 440,
+    "lemma": "verksamhet",
+    "decision": "fix",
+    "reason": "shorten sole sub-def",
+    "proposedTranslation": "goal-oriented activity",
+    "proposedSubDefinitions": [
+      "enterprise, business, organization"
+    ]
+  },
+  {
+    "kellyId": 441,
+    "lemma": "rätt",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "dish",
+    "proposedSubDefinitions": [
+      "law (as a system)",
+      "court (of law)",
+      "right, entitlement"
+    ]
+  },
+  {
+    "kellyId": 447,
+    "lemma": "åka",
+    "decision": "fix",
+    "reason": "sub-defs restate primary; keep only slide sense as distinct",
+    "proposedTranslation": "go, to travel, to ride",
+    "proposedSubDefinitions": [
+      "slide, glide"
+    ]
+  },
+  {
+    "kellyId": 466,
+    "lemma": "orm",
+    "decision": "fix",
+    "reason": "first sub-def is definitional; drop mythical worm; keep earthworm and larva",
+    "proposedTranslation": "snake",
+    "proposedSubDefinitions": [
+      "earthworm",
+      "larva, grub"
+    ]
+  },
+  {
+    "kellyId": 479,
+    "lemma": "riksdag",
+    "decision": "fix",
+    "reason": "sole sub-def is verbose; shorten",
+    "proposedTranslation": "parliament",
+    "proposedSubDefinitions": [
+      "the Swedish (or Finnish) parliament"
+    ]
+  },
+  {
+    "kellyId": 490,
+    "lemma": "medium",
+    "decision": "fix",
+    "reason": "shorten; drop 'middle voice' (grammar sense)",
+    "proposedTranslation": "medium",
+    "proposedSubDefinitions": [
+      "medium (physical substance)",
+      "medium (channel for transmitting information)",
+      "medium (person who communicates with spirits)"
+    ]
+  },
+  {
+    "kellyId": 496,
+    "lemma": "regel",
+    "decision": "fix",
+    "reason": "shorten sole sub-def",
+    "proposedTranslation": "rule or regulation",
+    "proposedSubDefinitions": [
+      "bolt, bar (for locking a door)"
+    ]
+  },
+  {
+    "kellyId": 499,
+    "lemma": "organisation",
+    "decision": "fix",
+    "reason": "sole sub-def restates primary; drop it",
+    "proposedTranslation": "organization",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 513,
+    "lemma": "hus",
+    "decision": "fix",
+    "reason": "shorten; drop zodiac sense",
+    "proposedTranslation": "house",
+    "proposedSubDefinitions": [
+      "house (theater, casino, restaurant)",
+      "(royal) house, dynasty"
+    ]
+  },
+  {
+    "kellyId": 518,
+    "lemma": "grund",
+    "decision": "fix",
+    "reason": "shorten verbose sub-defs",
+    "proposedTranslation": "ground, land",
+    "proposedSubDefinitions": [
+      "foundation (of a building)",
+      "basis, fundamentals",
+      "reason, cause",
+      "reef, shallow (in water)"
+    ]
+  },
+  {
+    "kellyId": 521,
+    "lemma": "köra",
+    "decision": "fix",
+    "reason": "shorten verbose sub-defs",
+    "proposedTranslation": "drive",
+    "proposedSubDefinitions": [
+      "run (machinery)",
+      "push, shove",
+      "kick out, drive away"
+    ]
+  },
+  {
+    "kellyId": 532,
+    "lemma": "ledning",
+    "decision": "fix",
+    "reason": "primary 'lead' is incomplete; sub-defs cover wire/pipe senses — keep both; also management is a key sense missing from primary but present here",
+    "proposedTranslation": "lead",
+    "proposedSubDefinitions": [
+      "wire, electrical conductor",
+      "pipe, pipeline"
+    ]
+  },
+  {
+    "kellyId": 559,
+    "lemma": "myndighet",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "authority",
+    "proposedSubDefinitions": [
+      "government agency, public authority",
+      "legal majority, adulthood"
+    ]
+  },
+  {
+    "kellyId": 567,
+    "lemma": "driva",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "drive",
+    "proposedSubDefinitions": [
+      "drift, wander",
+      "run, operate (a company, campaign)",
+      "tease, mock"
+    ]
+  },
+  {
+    "kellyId": 570,
+    "lemma": "program",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "program",
+    "proposedSubDefinitions": [
+      "program (leaflet for a show)",
+      "TV or radio program, show",
+      "software application",
+      "wash cycle (on a washing machine)"
+    ]
+  },
+  {
+    "kellyId": 592,
+    "lemma": "räkna",
+    "decision": "fix",
+    "reason": "first sub-def restates primary; shorten remaining",
+    "proposedTranslation": "count",
+    "proposedSubDefinitions": [
+      "count as, consider as",
+      "calculate",
+      "count on, rely on"
+    ]
+  },
+  {
+    "kellyId": 1033,
+    "lemma": "hem",
+    "decision": "fix",
+    "reason": "shorten; drop verbose sub-defs that restate primary",
+    "proposedTranslation": "home",
+    "proposedSubDefinitions": [
+      "institution, care home",
+      "to someone's home (destination)"
+    ]
+  },
+  {
+    "kellyId": 600,
+    "lemma": "tjänst",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "favor",
+    "proposedSubDefinitions": [
+      "position, job, post (especially public office)",
+      "service"
+    ]
+  },
+  {
+    "kellyId": 610,
+    "lemma": "lätt",
+    "decision": "fix",
+    "reason": "first sub-def restates primary; shorten remaining",
+    "proposedTranslation": "light",
+    "proposedSubDefinitions": [
+      "low-fat, lite",
+      "low-alcohol",
+      "easy, not difficult"
+    ]
+  },
+  {
+    "kellyId": 634,
+    "lemma": "håll",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "direction",
+    "proposedSubDefinitions": [
+      "distance, range",
+      "stitch (pain in the side from running)",
+      "place",
+      "stop, station"
+    ]
+  },
+  {
+    "kellyId": 637,
+    "lemma": "fatta",
+    "decision": "fix",
+    "reason": "first sub-def restates primary; shorten; drop 'be missing'",
+    "proposedTranslation": "grasp, take",
+    "proposedSubDefinitions": [
+      "make (a decision), take (a fancy)",
+      "understand, comprehend"
+    ]
+  },
+  {
+    "kellyId": 638,
+    "lemma": "jord",
+    "decision": "fix",
+    "reason": "first sub-def restates primary; drop alchemical and hypothetical-planet senses",
+    "proposedTranslation": "earth, soil",
+    "proposedSubDefinitions": [
+      "ground (as opposed to sky or sea)"
+    ]
+  },
+  {
+    "kellyId": 643,
+    "lemma": "enskild",
+    "decision": "fix",
+    "reason": "all sub-defs overlap; consolidate",
+    "proposedTranslation": "regarded separately",
+    "proposedSubDefinitions": [
+      "individual, separate, single",
+      "private (as opposed to public/state)"
+    ]
+  },
+  {
+    "kellyId": 651,
+    "lemma": "ort",
+    "decision": "fix",
+    "reason": "shorten; drop clipping note",
+    "proposedTranslation": "locality, place, location",
+    "proposedSubDefinitions": [
+      "settlement, village, town",
+      "adit (horizontal mine tunnel)"
+    ]
+  },
+  {
+    "kellyId": 654,
+    "lemma": "spel",
+    "decision": "fix",
+    "reason": "all sub-defs restate primary; drop all",
+    "proposedTranslation": "play, a game",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 662,
+    "lemma": "gräns",
+    "decision": "fix",
+    "reason": "consolidate overlapping sub-defs",
+    "proposedTranslation": "bound, boundary",
+    "proposedSubDefinitions": [
+      "border (between countries or areas)",
+      "limit, restriction"
+    ]
+  },
+  {
+    "kellyId": 667,
+    "lemma": "falla",
+    "decision": "fix",
+    "reason": "sole sub-def 'fall (die in battle)' is already concise and distinct",
+    "proposedTranslation": "fall",
+    "proposedSubDefinitions": [
+      "fall (die in battle)"
+    ]
+  },
+  {
+    "kellyId": 691,
+    "lemma": "port",
+    "decision": "fix",
+    "reason": "shorten sole sub-def",
+    "proposedTranslation": "larger entrance",
+    "proposedSubDefinitions": [
+      "port (computing, networking)"
+    ]
+  },
+  {
+    "kellyId": 692,
+    "lemma": "bero",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "depend",
+    "proposedSubDefinitions": [
+      "be caused by, be due to",
+      "be shelved, be set aside"
+    ]
+  },
+  {
+    "kellyId": 699,
+    "lemma": "lösning",
+    "decision": "fix",
+    "reason": "shorten sub-defs that restate primary",
+    "proposedTranslation": "solution",
+    "proposedSubDefinitions": [
+      "solution (chemistry: homogeneous mixture)"
+    ]
+  },
+  {
+    "kellyId": 700,
+    "lemma": "personlig",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "personal",
+    "proposedSubDefinitions": [
+      "intimate, private",
+      "natural, unaffected (in manner)"
+    ]
+  },
+  {
+    "kellyId": 705,
+    "lemma": "hjälp",
+    "decision": "fix",
+    "reason": "shorten sole sub-def",
+    "proposedTranslation": "help",
+    "proposedSubDefinitions": [
+      "helper, domestic help"
+    ]
+  },
+  {
+    "kellyId": 722,
+    "lemma": "effekt",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "effect",
+    "proposedSubDefinitions": [
+      "power (physics)",
+      "special effect (artistic)",
+      "belongings, effects (personal property)"
+    ]
+  },
+  {
+    "kellyId": 726,
+    "lemma": "takt",
+    "decision": "fix",
+    "reason": "shorten sub-defs; reorder",
+    "proposedTranslation": "tact, pace, rhythm",
+    "proposedSubDefinitions": [
+      "bar, measure (in music)",
+      "good speed, enthusiasm"
+    ]
+  },
+  {
+    "kellyId": 729,
+    "lemma": "sats",
+    "decision": "fix",
+    "reason": "shorten verbose sub-defs",
+    "proposedTranslation": "theorem, proposition",
+    "proposedSubDefinitions": [
+      "run-up (before a jump)",
+      "batch, portion",
+      "set (of tools)",
+      "clause (grammar)"
+    ]
+  },
+  {
+    "kellyId": 744,
+    "lemma": "drag",
+    "decision": "fix",
+    "reason": "shorten verbose sub-defs",
+    "proposedTranslation": "feature, trait, characteristic",
+    "proposedSubDefinitions": [
+      "move (in a game)",
+      "draft, draught (current of air)",
+      "lure, fishing spoon"
+    ]
+  },
+  {
+    "kellyId": 756,
+    "lemma": "ledare",
+    "decision": "fix",
+    "reason": "second sub-def restates primary; shorten others",
+    "proposedTranslation": "leader",
+    "proposedSubDefinitions": [
+      "race leader",
+      "conductor (electrical)"
+    ]
+  },
+  {
+    "kellyId": 768,
+    "lemma": "sann",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "true",
+    "proposedSubDefinitions": [
+      "genuine, undiluted",
+      "faithful, loyal"
+    ]
+  },
+  {
+    "kellyId": 774,
+    "lemma": "grad",
+    "decision": "fix",
+    "reason": "third sub-def restates primary; shorten",
+    "proposedTranslation": "degree",
+    "proposedSubDefinitions": [
+      "degree (temperature)",
+      "degree (angle)",
+      "rank, grade (military or academic)"
+    ]
+  },
+  {
+    "kellyId": 786,
+    "lemma": "bestå",
+    "decision": "fix",
+    "reason": "shorten sole sub-def",
+    "proposedTranslation": "consist, to be made of",
+    "proposedSubDefinitions": [
+      "endure, persist, survive"
+    ]
+  },
+  {
+    "kellyId": 792,
+    "lemma": "styra",
+    "decision": "fix",
+    "reason": "shorten; drop grammatical usage note",
+    "proposedTranslation": "govern, rule, control",
+    "proposedSubDefinitions": [
+      "steer, navigate"
+    ]
+  },
+  {
+    "kellyId": 793,
+    "lemma": "förlora",
+    "decision": "fix",
+    "reason": "first and third sub-defs restate primary; shorten",
+    "proposedTranslation": "lose",
+    "proposedSubDefinitions": [
+      "lose (a person, through death or estrangement)",
+      "lose value, depreciate"
+    ]
+  },
+  {
+    "kellyId": 795,
+    "lemma": "klocka",
+    "decision": "fix",
+    "reason": "first sub-def restates primary; shorten remaining",
+    "proposedTranslation": "clock, watch",
+    "proposedSubDefinitions": [
+      "the time (of day)",
+      "bell"
+    ]
+  },
+  {
+    "kellyId": 807,
+    "lemma": "plan",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "plan",
+    "proposedSubDefinitions": [
+      "field, court, rink (sports area)",
+      "floor plan, layout drawing"
+    ]
+  },
+  {
+    "kellyId": 814,
+    "lemma": "lek",
+    "decision": "fix",
+    "reason": "first two sub-defs restate primary; shorten remaining",
+    "proposedTranslation": "play",
+    "proposedSubDefinitions": [
+      "a game, a pastime",
+      "deck of cards"
+    ]
+  },
+  {
+    "kellyId": 818,
+    "lemma": "ange",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "indicate",
+    "proposedSubDefinitions": [
+      "point out",
+      "report (someone) to the police, turn in"
+    ]
+  },
+  {
+    "kellyId": 831,
+    "lemma": "stanna",
+    "decision": "fix",
+    "reason": "first sub-def restates primary; shorten remaining",
+    "proposedTranslation": "stay",
+    "proposedSubDefinitions": [
+      "stop, cease moving",
+      "stop (an engine or person)"
+    ]
+  },
+  {
+    "kellyId": 839,
+    "lemma": "bakgrund",
+    "decision": "fix",
+    "reason": "primary 'ground' is weak; sub-defs cover the real senses — shorten",
+    "proposedTranslation": "ground",
+    "proposedSubDefinitions": [
+      "background (of a picture)",
+      "background, origins (social heritage)"
+    ]
+  },
+  {
+    "kellyId": 848,
+    "lemma": "insats",
+    "decision": "fix",
+    "reason": "primary 'inset' is poor; sub-defs cover the real senses — shorten",
+    "proposedTranslation": "inset",
+    "proposedSubDefinitions": [
+      "stake, deposit (in a game or investment)",
+      "deployment (of police or troops)",
+      "effort, contribution"
+    ]
+  },
+  {
+    "kellyId": 852,
+    "lemma": "kolla",
+    "decision": "fix",
+    "reason": "sub-defs overlap; consolidate",
+    "proposedTranslation": "look, to watch",
+    "proposedSubDefinitions": [
+      "check, examine",
+      "look up, check out"
+    ]
+  },
+  {
+    "kellyId": 853,
+    "lemma": "fylla",
+    "decision": "fix",
+    "reason": "shorten sole sub-def",
+    "proposedTranslation": "fill, to make full",
+    "proposedSubDefinitions": [
+      "turn (an age), have a birthday"
+    ]
+  },
+  {
+    "kellyId": 857,
+    "lemma": "nät",
+    "decision": "fix",
+    "reason": "first two sub-defs restate primary; shorten remaining",
+    "proposedTranslation": "net",
+    "proposedSubDefinitions": [
+      "computer network, the internet"
+    ]
+  },
+  {
+    "kellyId": 866,
+    "lemma": "fru",
+    "decision": "fix",
+    "reason": "shorten sole sub-def",
+    "proposedTranslation": "wife",
+    "proposedSubDefinitions": [
+      "Mrs., madam (title for a married woman)"
+    ]
+  },
+  {
+    "kellyId": 917,
+    "lemma": "ordning",
+    "decision": "fix",
+    "reason": "shorten; drop mathematical/biological classification senses",
+    "proposedTranslation": "order",
+    "proposedSubDefinitions": [
+      "tidiness, orderliness"
+    ]
+  },
+  {
+    "kellyId": 921,
+    "lemma": "linje",
+    "decision": "fix",
+    "reason": "shorten; drop archaic unit-of-length sense",
+    "proposedTranslation": "line",
+    "proposedSubDefinitions": [
+      "bus or transit line",
+      "phone or network line",
+      "wrinkle (on face or hand)"
+    ]
+  },
+  {
+    "kellyId": 925,
+    "lemma": "studie",
+    "decision": "fix",
+    "reason": "shorten sole sub-def",
+    "proposedTranslation": "study, an investigation, a report",
+    "proposedSubDefinitions": [
+      "study (artwork as a practice piece)"
+    ]
+  },
+  {
+    "kellyId": 932,
+    "lemma": "röd",
+    "decision": "fix",
+    "reason": "sole sub-def is already concise and correct",
+    "proposedTranslation": "red",
+    "proposedSubDefinitions": [
+      "of or pertaining to leftist (communist, socialist) politics"
+    ]
+  },
+  {
+    "kellyId": 935,
+    "lemma": "verk",
+    "decision": "fix",
+    "reason": "shorten verbose sub-defs",
+    "proposedTranslation": "work",
+    "proposedSubDefinitions": [
+      "achievement, accomplishment",
+      "government agency",
+      "municipal utility (waterworks, power plant, etc.)"
+    ]
+  },
+  {
+    "kellyId": 968,
+    "lemma": "ställe",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "place, a location, a position",
+    "proposedSubDefinitions": [
+      "farm, country home, summer cottage",
+      "establishment (restaurant, club)"
+    ]
+  },
+  {
+    "kellyId": 970,
+    "lemma": "majoritet",
+    "decision": "fix",
+    "reason": "shorten sole sub-def",
+    "proposedTranslation": "majority",
+    "proposedSubDefinitions": [
+      "ruling majority (coalition in parliament or council)"
+    ]
+  },
+  {
+    "kellyId": 977,
+    "lemma": "förekomma",
+    "decision": "fix",
+    "reason": "last sub-def is junk; shorten others",
+    "proposedTranslation": "occur, to exist",
+    "proposedSubDefinitions": [
+      "get ahead of, anticipate, forestall",
+      "prevent, preempt",
+      "appear, seem"
+    ]
+  },
+  {
+    "kellyId": 983,
+    "lemma": "trycka",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "press, to push",
+    "proposedSubDefinitions": [
+      "print (with a press)",
+      "be oppressive, be stifling (of heat)",
+      "lurk, hole up"
+    ]
+  },
+  {
+    "kellyId": 1003,
+    "lemma": "list",
+    "decision": "fix",
+    "reason": "shorten verbose sub-defs",
+    "proposedTranslation": "smartness, trick, cunning",
+    "proposedSubDefinitions": [
+      "strip, beading, molding (thin piece of wood or metal)"
+    ]
+  },
+  {
+    "kellyId": 1016,
+    "lemma": "uttryck",
+    "decision": "fix",
+    "reason": "shorten verbose sub-defs",
+    "proposedTranslation": "expression",
+    "proposedSubDefinitions": [
+      "phrase, wording, idiom",
+      "facial expression",
+      "expression (mathematics or programming)"
+    ]
+  },
+  {
+    "kellyId": 1017,
+    "lemma": "lista",
+    "decision": "fix",
+    "reason": "sole sub-def restates primary; drop it",
+    "proposedTranslation": "list",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1022,
+    "lemma": "rysk",
+    "decision": "fix",
+    "reason": "shorten; add slang sense",
+    "proposedTranslation": "Russian",
+    "proposedSubDefinitions": [
+      "crazy, out of one's mind (slang)"
+    ]
+  },
+  {
+    "kellyId": 1035,
+    "lemma": "täcka",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "cover",
+    "proposedSubDefinitions": [
+      "cover (expenses), afford",
+      "cover (protect with force)"
+    ]
+  },
+  {
+    "kellyId": 1040,
+    "lemma": "ryck",
+    "decision": "fix",
+    "reason": "first two sub-defs restate primary; shorten remaining",
+    "proposedTranslation": "short, intense movement",
+    "proposedSubDefinitions": [
+      "sudden burst of speed, a dash",
+      "sudden impulse (to do something)"
+    ]
+  },
+  {
+    "kellyId": 1054,
+    "lemma": "erkänna",
+    "decision": "fix",
+    "reason": "shorten; drop grammatical usage note",
+    "proposedTranslation": "admit",
+    "proposedSubDefinitions": [
+      "acknowledge, concede",
+      "recognize (formally)"
+    ]
+  },
+  {
+    "kellyId": 1062,
+    "lemma": "teknisk",
+    "decision": "fix",
+    "reason": "shorten verbose sub-defs that largely restate primary",
+    "proposedTranslation": "technical, technological",
+    "proposedSubDefinitions": [
+      "technical (specialized, field-specific)",
+      "technically skilled"
+    ]
+  },
+  {
+    "kellyId": 1068,
+    "lemma": "läsare",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "reader",
+    "proposedSubDefinitions": [
+      "pietist (lay Bible reader)",
+      "reader device"
+    ]
+  },
+  {
+    "kellyId": 1073,
+    "lemma": "sol",
+    "decision": "fix",
+    "reason": "first sub-def restates primary; drop music note 'sol'",
+    "proposedTranslation": "sun",
+    "proposedSubDefinitions": [
+      "sunshine, sunlight",
+      "ray of sunshine (source of joy)"
+    ]
+  },
+  {
+    "kellyId": 1085,
+    "lemma": "teori",
+    "decision": "fix",
+    "reason": "sub-defs overlap; consolidate",
+    "proposedTranslation": "theory",
+    "proposedSubDefinitions": [
+      "hypothesis, conjecture",
+      "theoretical framework"
+    ]
+  },
+  {
+    "kellyId": 1100,
+    "lemma": "märka",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "notice",
+    "proposedSubDefinitions": [
+      "mark, label (for reference)",
+      "scar, leave a lasting mark on",
+      "mark out publicly, single out"
+    ]
+  },
+  {
+    "kellyId": 1102,
+    "lemma": "ösa",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "scoop, pour, serve",
+    "proposedSubDefinitions": [
+      "bail (a boat)",
+      "pour with rain, bucket down"
+    ]
+  },
+  {
+    "kellyId": 2607,
+    "lemma": "moderat",
+    "decision": "fix",
+    "reason": "shorten sole sub-def",
+    "proposedTranslation": "moderate",
+    "proposedSubDefinitions": [
+      "of or relating to the Swedish Moderate Party"
+    ]
+  },
+  {
+    "kellyId": 1131,
+    "lemma": "vikt",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "weight",
+    "proposedSubDefinitions": [
+      "weight (object used for weighing or training)",
+      "weight class",
+      "importance, significance"
+    ]
+  },
+  {
+    "kellyId": 1133,
+    "lemma": "region",
+    "decision": "fix",
+    "reason": "shorten sole sub-def",
+    "proposedTranslation": "region, area",
+    "proposedSubDefinitions": [
+      "county (Swedish administrative subdivision)"
+    ]
+  },
+  {
+    "kellyId": 1144,
+    "lemma": "skjuta",
+    "decision": "fix",
+    "reason": "first two sub-defs restate primary; shorten remaining",
+    "proposedTranslation": "shoot, to fire",
+    "proposedSubDefinitions": [
+      "shoot, move swiftly",
+      "jut out, protrude"
+    ]
+  },
+  {
+    "kellyId": 1170,
+    "lemma": "skada",
+    "decision": "fix",
+    "reason": "second sub-def is a verb sense listed under a noun entry — drop it; shorten first",
+    "proposedTranslation": "scathe",
+    "proposedSubDefinitions": [
+      "damage, injury, harm, wound"
+    ]
+  },
+  {
+    "kellyId": 1174,
+    "lemma": "tecken",
+    "decision": "fix",
+    "reason": "shorten verbose sub-defs",
+    "proposedTranslation": "visible indication",
+    "proposedSubDefinitions": [
+      "sign, signal",
+      "gesture",
+      "symbol, character (letter, etc.)"
+    ]
+  },
+  {
+    "kellyId": 1193,
+    "lemma": "strid",
+    "decision": "fix",
+    "reason": "shorten sole sub-def",
+    "proposedTranslation": "battle",
+    "proposedSubDefinitions": [
+      "in conflict with, contrary to, in breach of"
+    ]
+  },
+  {
+    "kellyId": 1202,
+    "lemma": "produktion",
+    "decision": "fix",
+    "reason": "shorten sub-defs; third restates primary",
+    "proposedTranslation": "production or manufacture",
+    "proposedSubDefinitions": [
+      "production (film, music, game)",
+      "output, body of work"
+    ]
+  },
+  {
+    "kellyId": 1205,
+    "lemma": "konst",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "art",
+    "proposedSubDefinitions": [
+      "skill, trick, know-how",
+      "artificial device, contraption (archaic)"
+    ]
+  },
+  {
+    "kellyId": 1213,
+    "lemma": "skydd",
+    "decision": "fix",
+    "reason": "shorten sole sub-def",
+    "proposedTranslation": "protection",
+    "proposedSubDefinitions": [
+      "protector, shield, guard (physical object)"
+    ]
+  },
+  {
+    "kellyId": 1216,
+    "lemma": "position",
+    "decision": "fix",
+    "reason": "shorten sole sub-def",
+    "proposedTranslation": "position, location",
+    "proposedSubDefinitions": [
+      "playing position (sports)"
+    ]
+  },
+  {
+    "kellyId": 1232,
+    "lemma": "funktion",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "function",
+    "proposedSubDefinitions": [
+      "purpose, use",
+      "feature (of a product)",
+      "function (mathematics or programming)"
+    ]
+  },
+  {
+    "kellyId": 1235,
+    "lemma": "råda",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "advise",
+    "proposedSubDefinitions": [
+      "rule, reign, decide",
+      "prevail, exist, be the case"
+    ]
+  },
+  {
+    "kellyId": 1236,
+    "lemma": "ersättning",
+    "decision": "fix",
+    "reason": "shorten sole sub-def",
+    "proposedTranslation": "replacement",
+    "proposedSubDefinitions": [
+      "compensation, payment, reimbursement"
+    ]
+  },
+  {
+    "kellyId": 1241,
+    "lemma": "minne",
+    "decision": "fix",
+    "reason": "shorten verbose sub-defs; merge computer memory senses",
+    "proposedTranslation": "memory",
+    "proposedSubDefinitions": [
+      "computer memory, RAM",
+      "faculty of remembering",
+      "a specific memory, a recollection"
+    ]
+  },
+  {
+    "kellyId": 1248,
+    "lemma": "lova",
+    "decision": "fix",
+    "reason": "shorten; drop niche nautical sense",
+    "proposedTranslation": "promise",
+    "proposedSubDefinitions": [
+      "assure, vouch",
+      "praise, laud"
+    ]
+  },
+  {
+    "kellyId": 1252,
+    "lemma": "spår",
+    "decision": "fix",
+    "reason": "first two sub-defs overlap; shorten all",
+    "proposedTranslation": "trail or trace",
+    "proposedSubDefinitions": [
+      "footprint, pawprint",
+      "railway track",
+      "audio track"
+    ]
+  },
+  {
+    "kellyId": 1269,
+    "lemma": "tolka",
+    "decision": "fix",
+    "reason": "shorten; drop niche skijoring sense",
+    "proposedTranslation": "interpret",
+    "proposedSubDefinitions": [
+      "interpret orally, act as interpreter",
+      "perform (a song or role)"
+    ]
+  },
+  {
+    "kellyId": 1276,
+    "lemma": "undantag",
+    "decision": "fix",
+    "reason": "shorten sole sub-def",
+    "proposedTranslation": "exception",
+    "proposedSubDefinitions": [
+      "granny flat (on a farm, reserved for previous owners)"
+    ]
+  },
+  {
+    "kellyId": 1281,
+    "lemma": "aktion",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "operation, an intervention",
+    "proposedSubDefinitions": [
+      "naval battle",
+      "legal action, prosecution",
+      "mechanical action (of a device)"
+    ]
+  },
+  {
+    "kellyId": 1300,
+    "lemma": "län",
+    "decision": "fix",
+    "reason": "primary 'fief, fiefdom' is archaic for A1; sub-def has the modern sense — shorten",
+    "proposedTranslation": "fief, fiefdom",
+    "proposedSubDefinitions": [
+      "county (Swedish administrative subdivision)"
+    ]
+  },
+  {
+    "kellyId": 1310,
+    "lemma": "tiga",
+    "decision": "fix",
+    "reason": "shorten verbose sub-defs",
+    "proposedTranslation": "keep silent, to stay silent",
+    "proposedSubDefinitions": [
+      "give the silent treatment, deliberately ignore",
+      "be quiet! (imperative)"
+    ]
+  },
+  {
+    "kellyId": 1317,
+    "lemma": "väcka",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "wake up, to wake, to awaken",
+    "proposedSubDefinitions": [
+      "arouse, evoke, raise (feelings, questions)",
+      "bring (charges), file (a case)"
+    ]
+  },
+  {
+    "kellyId": 1322,
+    "lemma": "följd",
+    "decision": "fix",
+    "reason": "shorten sub-defs",
+    "proposedTranslation": "series, sequence",
+    "proposedSubDefinitions": [
+      "consequence, result, outcome"
+    ]
+  },
+  {
+    "kellyId": 1329,
+    "lemma": "inkomst",
+    "decision": "fix",
+    "reason": "sole sub-def restates primary; drop it",
+    "proposedTranslation": "income",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 1381,
+    "lemma": "civil",
+    "decision": "fix",
+    "reason": "shorten verbose sub-def; second sub-def is a noun sense for an adj entry — keep if useful",
+    "proposedTranslation": "civil, civilian",
+    "proposedSubDefinitions": [
+      "non-military, non-police",
+      "civilian (noun)"
+    ]
+  },
+  {
+    "kellyId": 3066,
+    "lemma": "djup",
+    "decision": "fix",
+    "reason": "shorten sole sub-def",
+    "proposedTranslation": "depth",
+    "proposedSubDefinitions": [
+      "the deep, an abyss (area of sea much deeper than surroundings)"
+    ]
+  },
+  {
+    "kellyId": 1415,
+    "lemma": "vetenskap",
+    "decision": "fix",
+    "reason": "shorten sole sub-def",
+    "proposedTranslation": "science, scholarly knowledge, scholarship",
+    "proposedSubDefinitions": [
+      "academic discipline; the sciences and humanities broadly"
+    ]
+  }
+]

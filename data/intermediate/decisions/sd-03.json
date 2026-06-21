@@ -1,0 +1,1366 @@
+[
+  {
+    "kellyId": 5769,
+    "lemma": "association",
+    "decision": "fix",
+    "reason": "sub-def restates primary with verbose gloss",
+    "proposedTranslation": "association",
+    "proposedSubDefinitions": [
+      "association (keeping company or loose contact with someone)"
+    ]
+  },
+  {
+    "kellyId": 5785,
+    "lemma": "heja",
+    "decision": "fix",
+    "reason": "sub-def has unnecessary parenthetical comparison",
+    "proposedTranslation": "greet by saying \"hej\"",
+    "proposedSubDefinitions": [
+      "cheer on, root for"
+    ]
+  },
+  {
+    "kellyId": 5789,
+    "lemma": "lamm",
+    "decision": "fix",
+    "reason": "first sub-def verbose; second sub-def ('a sheep') is wrong/misleading — a lamb is not a sheep",
+    "proposedTranslation": "lamb",
+    "proposedSubDefinitions": [
+      "lamb (as meat)"
+    ]
+  },
+  {
+    "kellyId": 5805,
+    "lemma": "salong",
+    "decision": "fix",
+    "reason": "sub-defs verbose; third restates primary",
+    "proposedTranslation": "salon",
+    "proposedSubDefinitions": [
+      "auditorium (in a concert hall or theater)",
+      "large art exhibition"
+    ]
+  },
+  {
+    "kellyId": 5877,
+    "lemma": "prick",
+    "decision": "fix",
+    "reason": "third sub-def is obscure nautical trivia; others need shortening",
+    "proposedTranslation": "dot",
+    "proposedSubDefinitions": [
+      "a mark, a stain (on a record)",
+      "a guy, a person (especially a nice or funny one)"
+    ]
+  },
+  {
+    "kellyId": 5892,
+    "lemma": "prenumerera",
+    "decision": "fix",
+    "reason": "sub-def is a definition, not a gloss",
+    "proposedTranslation": "subscribe",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5953,
+    "lemma": "landshövding",
+    "decision": "fix",
+    "reason": "both sub-defs are verbose definitions; second is historical trivia",
+    "proposedTranslation": "county governor",
+    "proposedSubDefinitions": [
+      "province governor (in Finland, until 2009)"
+    ]
+  },
+  {
+    "kellyId": 5968,
+    "lemma": "härröra",
+    "decision": "fix",
+    "reason": "sub-def is better than the primary; primary is awkward — but per rules, copy primary verbatim; sub-def is verbose with repeated synonyms",
+    "proposedTranslation": "come from some source",
+    "proposedSubDefinitions": [
+      "originate from, stem from, derive from"
+    ]
+  },
+  {
+    "kellyId": 5981,
+    "lemma": "peta",
+    "decision": "fix",
+    "reason": "sub-def verbose with redundant parenthetical",
+    "proposedTranslation": "poke, to pick",
+    "proposedSubDefinitions": [
+      "drop, cut (remove someone from a team or position)"
+    ]
+  },
+  {
+    "kellyId": 5995,
+    "lemma": "pil",
+    "decision": "fix",
+    "reason": "first sub-def restates primary; third sub-def has unnecessary scientific name",
+    "proposedTranslation": "arrow",
+    "proposedSubDefinitions": [
+      "dart (as in darts)",
+      "willow (tree)"
+    ]
+  },
+  {
+    "kellyId": 6002,
+    "lemma": "otrogen",
+    "decision": "fix",
+    "reason": "sub-def is concise and correct",
+    "proposedTranslation": "unfaithful",
+    "proposedSubDefinitions": [
+      "infidel (especially in Islam)"
+    ]
+  },
+  {
+    "kellyId": 6003,
+    "lemma": "varva",
+    "decision": "fix",
+    "reason": "third sub-def is verbose niche gaming sense",
+    "proposedTranslation": "lap",
+    "proposedSubDefinitions": [
+      "layer",
+      "alternate, intersperse"
+    ]
+  },
+  {
+    "kellyId": 6014,
+    "lemma": "taktisk",
+    "decision": "fix",
+    "reason": "both sub-defs say essentially the same thing; first restates primary",
+    "proposedTranslation": "tactical",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6029,
+    "lemma": "sväva",
+    "decision": "fix",
+    "reason": "sub-def is an obscure rowing sense; drop it",
+    "proposedTranslation": "float, to hover, to soar",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6035,
+    "lemma": "impuls",
+    "decision": "fix",
+    "reason": "third sub-def just says 'impulse' (restates primary); first is verbose; second is useful",
+    "proposedTranslation": "impulse",
+    "proposedSubDefinitions": [
+      "impetus, stimulus",
+      "electrical impulse"
+    ]
+  },
+  {
+    "kellyId": 6045,
+    "lemma": "lur",
+    "decision": "fix",
+    "reason": "sub-defs verbose; second is convoluted",
+    "proposedTranslation": "simple, straight horn",
+    "proposedSubDefinitions": [
+      "lur (curved Bronze Age horn)",
+      "horn, trumpet (flared tube for conveying sound)"
+    ]
+  },
+  {
+    "kellyId": 6081,
+    "lemma": "bädda",
+    "decision": "fix",
+    "reason": "second sub-def verbose",
+    "proposedTranslation": "make",
+    "proposedSubDefinitions": [
+      "tuck (someone) into bed",
+      "pave the way for, set the stage for"
+    ]
+  },
+  {
+    "kellyId": 6111,
+    "lemma": "associera",
+    "decision": "fix",
+    "reason": "sub-def verbose parenthetical",
+    "proposedTranslation": "associate",
+    "proposedSubDefinitions": [
+      "associate (keep company with someone)"
+    ]
+  },
+  {
+    "kellyId": 6125,
+    "lemma": "migration",
+    "decision": "fix",
+    "reason": "all three sub-defs verbose",
+    "proposedTranslation": "migration",
+    "proposedSubDefinitions": [
+      "immigration, relocation",
+      "seasonal migration (of animals)",
+      "platform migration (IT)"
+    ]
+  },
+  {
+    "kellyId": 6130,
+    "lemma": "förorening",
+    "decision": "fix",
+    "reason": "first sub-def verbose 'the above'; second is a distinct technical sense",
+    "proposedTranslation": "pollution, contamination, tainting",
+    "proposedSubDefinitions": [
+      "a pollutant, a contaminant (single instance)",
+      "an additive, an impurity"
+    ]
+  },
+  {
+    "kellyId": 6149,
+    "lemma": "snus",
+    "decision": "fix",
+    "reason": "first sub-def has parenthetical qualification clutter",
+    "proposedTranslation": "snus",
+    "proposedSubDefinitions": [
+      "dip, snuff (American-style oral tobacco)",
+      "nicotine pouches (tobacco-free variants)",
+      "snuff (for snorting — now rare)"
+    ]
+  },
+  {
+    "kellyId": 6156,
+    "lemma": "avlyssna",
+    "decision": "fix",
+    "reason": "sub-def verbose definition",
+    "proposedTranslation": "eavesdrop",
+    "proposedSubDefinitions": [
+      "tap, wiretap"
+    ]
+  },
+  {
+    "kellyId": 6170,
+    "lemma": "parkera",
+    "decision": "fix",
+    "reason": "sub-def ends with a period mid-sentence and is verbose",
+    "proposedTranslation": "park",
+    "proposedSubDefinitions": [
+      "park oneself, plonk (sit or put somewhere with intent to stay)"
+    ]
+  },
+  {
+    "kellyId": 6187,
+    "lemma": "lök",
+    "decision": "fix",
+    "reason": "first two sub-defs are duplicates; fourth is vulgar and not teachable",
+    "proposedTranslation": "onion",
+    "proposedSubDefinitions": [
+      "bulb (of a tulip or similar plant)"
+    ]
+  },
+  {
+    "kellyId": 6192,
+    "lemma": "pedagog",
+    "decision": "fix",
+    "reason": "sub-defs are concise and represent distinct useful senses",
+    "proposedTranslation": "pedagogue, teacher",
+    "proposedSubDefinitions": [
+      "educationalist (researcher in pedagogy)",
+      "someone skilled at explaining"
+    ]
+  },
+  {
+    "kellyId": 6219,
+    "lemma": "bräda",
+    "decision": "fix",
+    "reason": "first sub-def restates primary; second is a useful distinct sense",
+    "proposedTranslation": "board",
+    "proposedSubDefinitions": [
+      "board (for riding): snowboard, skateboard, etc."
+    ]
+  },
+  {
+    "kellyId": 6235,
+    "lemma": "spruta",
+    "decision": "fix",
+    "reason": "first sub-def is better than the primary; second verbose; fourth is vulgar/drop",
+    "proposedTranslation": "be ejected as a jet",
+    "proposedSubDefinitions": [
+      "spray, squirt, spurt",
+      "inject, syringe"
+    ]
+  },
+  {
+    "kellyId": 6275,
+    "lemma": "duk",
+    "decision": "fix",
+    "reason": "first sub-def verbose; third vague",
+    "proposedTranslation": "tablecloth",
+    "proposedSubDefinitions": [
+      "cloth, cover (for a surface)",
+      "canvas"
+    ]
+  },
+  {
+    "kellyId": 6282,
+    "lemma": "insättning",
+    "decision": "fix",
+    "reason": "sub-defs are concise and represent distinct useful senses",
+    "proposedTranslation": "deposit",
+    "proposedSubDefinitions": [
+      "substitution (symbolic replacement in math/logic)",
+      "deployment (of police, troops, or resources)"
+    ]
+  },
+  {
+    "kellyId": 6285,
+    "lemma": "steka",
+    "decision": "fix",
+    "reason": "third sub-def is obscure slang requiring cultural context; drop it",
+    "proposedTranslation": "fry: to cook in hot fat",
+    "proposedSubDefinitions": [
+      "roast (in an oven)",
+      "sunbathe"
+    ]
+  },
+  {
+    "kellyId": 6290,
+    "lemma": "nagel",
+    "decision": "fix",
+    "reason": "sub-def verbose",
+    "proposedTranslation": "nail",
+    "proposedSubDefinitions": [
+      "treenail, rivet (especially in boat-building)"
+    ]
+  },
+  {
+    "kellyId": 6299,
+    "lemma": "kväva",
+    "decision": "fix",
+    "reason": "both sub-defs restate the primary",
+    "proposedTranslation": "suffocate, to asphyxiate",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6310,
+    "lemma": "oskuld",
+    "decision": "fix",
+    "reason": "sub-defs are concise and represent distinct useful senses",
+    "proposedTranslation": "virgin, someone sexually untouched",
+    "proposedSubDefinitions": [
+      "innocence (legal: absence of guilt)",
+      "innocence (naivety about sensitive subjects)"
+    ]
+  },
+  {
+    "kellyId": 6314,
+    "lemma": "bekantskap",
+    "decision": "fix",
+    "reason": "sub-def restates primary verbosely",
+    "proposedTranslation": "acquaintance",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6363,
+    "lemma": "stämpel",
+    "decision": "fix",
+    "reason": "sub-defs verbose",
+    "proposedTranslation": "stamp",
+    "proposedSubDefinitions": [
+      "stamped mark, imprint",
+      "label, brand (something persistently associated with someone)"
+    ]
+  },
+  {
+    "kellyId": 6373,
+    "lemma": "bokhandel",
+    "decision": "fix",
+    "reason": "sub-def is a concise distinct sense (the trade, not the shop)",
+    "proposedTranslation": "bookstore",
+    "proposedSubDefinitions": [
+      "bookselling (the trade)"
+    ]
+  },
+  {
+    "kellyId": 6381,
+    "lemma": "mottagning",
+    "decision": "fix",
+    "reason": "both sub-defs verbose and partially restate primary",
+    "proposedTranslation": "reception",
+    "proposedSubDefinitions": [
+      "clinic, office (healthcare reception area)",
+      "reception (social event)"
+    ]
+  },
+  {
+    "kellyId": 6412,
+    "lemma": "förvaltare",
+    "decision": "fix",
+    "reason": "sub-def verbose",
+    "proposedTranslation": "steward, manager",
+    "proposedSubDefinitions": [
+      "administrator, trustee"
+    ]
+  },
+  {
+    "kellyId": 6449,
+    "lemma": "gap",
+    "decision": "fix",
+    "reason": "sub-defs verbose; third is too technical",
+    "proposedTranslation": "chasm or abyss",
+    "proposedSubDefinitions": [
+      "gap, opening, breach",
+      "open mouth (especially wide open)"
+    ]
+  },
+  {
+    "kellyId": 6467,
+    "lemma": "anslå",
+    "decision": "fix",
+    "reason": "sub-defs are already concise",
+    "proposedTranslation": "allocate",
+    "proposedSubDefinitions": [
+      "post (a notice on a noticeboard)",
+      "strike (a key on an instrument)"
+    ]
+  },
+  {
+    "kellyId": 6470,
+    "lemma": "företräde",
+    "decision": "fix",
+    "reason": "first sub-def has a parenthetical correction note that doesn't belong; second sub-def ('trait, characteristic') is wrong for företräde — that would be 'företräden' as a separate word meaning advantages/merits; drop it",
+    "proposedTranslation": "priority",
+    "proposedSubDefinitions": [
+      "right of way (in traffic)"
+    ]
+  },
+  {
+    "kellyId": 6485,
+    "lemma": "disponera",
+    "decision": "fix",
+    "reason": "second sub-def is the medical 'predispose' sense — useful; first restates primary",
+    "proposedTranslation": "have disposal",
+    "proposedSubDefinitions": [
+      "arrange, organize",
+      "predispose (to a disease or condition)"
+    ]
+  },
+  {
+    "kellyId": 6512,
+    "lemma": "anstalt",
+    "decision": "fix",
+    "reason": "sub-def verbose with grammatical usage note",
+    "proposedTranslation": "institution",
+    "proposedSubDefinitions": [
+      "measures, preparations (toward a specific goal; chiefly plural)"
+    ]
+  },
+  {
+    "kellyId": 6525,
+    "lemma": "blinka",
+    "decision": "fix",
+    "reason": "second sub-def is a generalization of the first; merge/drop",
+    "proposedTranslation": "blink",
+    "proposedSubDefinitions": [
+      "flash, blink (cause a light to shine briefly or intermittently)"
+    ]
+  },
+  {
+    "kellyId": 6531,
+    "lemma": "nolla",
+    "decision": "fix",
+    "reason": "second restates primary; fourth is verbose and culture-specific",
+    "proposedTranslation": "zero",
+    "proposedSubDefinitions": [
+      "the digit '0'",
+      "loser, nobody",
+      "freshman (new student before orientation week)"
+    ]
+  },
+  {
+    "kellyId": 6544,
+    "lemma": "retur",
+    "decision": "fix",
+    "reason": "sub-defs concise and represent distinct senses",
+    "proposedTranslation": "return",
+    "proposedSubDefinitions": [
+      "return, refund (goods returned to seller)",
+      "recycling",
+      "carriage return (key/character)"
+    ]
+  },
+  {
+    "kellyId": 6551,
+    "lemma": "buske",
+    "decision": "fix",
+    "reason": "first sub-def verbose; second is colloquial but drop parenthetical",
+    "proposedTranslation": "bush",
+    "proposedSubDefinitions": [
+      "shrub",
+      "pubic hair (colloquial)"
+    ]
+  },
+  {
+    "kellyId": 6553,
+    "lemma": "spinna",
+    "decision": "fix",
+    "reason": "second sub-def verbose",
+    "proposedTranslation": "spin",
+    "proposedSubDefinitions": [
+      "spin (make yarn or thread)",
+      "expand on, build on (a story or idea)",
+      "purr (of a cat)"
+    ]
+  },
+  {
+    "kellyId": 6652,
+    "lemma": "helikopter",
+    "decision": "fix",
+    "reason": "sub-def is vulgar slang; drop it",
+    "proposedTranslation": "helicopter",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6653,
+    "lemma": "parasit",
+    "decision": "fix",
+    "reason": "sub-def verbose and restates primary",
+    "proposedTranslation": "parasite",
+    "proposedSubDefinitions": [
+      "freeloader, sponger (person who lives at others' expense)"
+    ]
+  },
+  {
+    "kellyId": 6655,
+    "lemma": "drake",
+    "decision": "fix",
+    "reason": "sub-defs 3 and 4 are very specific; keep main useful senses",
+    "proposedTranslation": "dragon",
+    "proposedSubDefinitions": [
+      "kite (toy)",
+      "drake (male duck)",
+      "longship (Viking dragon ship)"
+    ]
+  },
+  {
+    "kellyId": 6665,
+    "lemma": "anförtro",
+    "decision": "fix",
+    "reason": "sub-def concise and represents a distinct sense",
+    "proposedTranslation": "entrust",
+    "proposedSubDefinitions": [
+      "confide in (speak openly with trust)"
+    ]
+  },
+  {
+    "kellyId": 6670,
+    "lemma": "schack",
+    "decision": "fix",
+    "reason": "first sub-def restates primary verbosely",
+    "proposedTranslation": "chess",
+    "proposedSubDefinitions": [
+      "check (threat to the king in chess)"
+    ]
+  },
+  {
+    "kellyId": 6675,
+    "lemma": "blankett",
+    "decision": "fix",
+    "reason": "first and third sub-defs restate primary; fourth is obscure",
+    "proposedTranslation": "form",
+    "proposedSubDefinitions": [
+      "survey, questionnaire",
+      "blank template (to be filled in)"
+    ]
+  },
+  {
+    "kellyId": 6690,
+    "lemma": "bekvämlighet",
+    "decision": "fix",
+    "reason": "first sub-def verbose",
+    "proposedTranslation": "comfort, convenience",
+    "proposedSubDefinitions": [
+      "amenity, convenience (a comfort-providing feature or object)",
+      "laziness (from preferring comfort)"
+    ]
+  },
+  {
+    "kellyId": 6693,
+    "lemma": "bulle",
+    "decision": "fix",
+    "reason": "first sub-def verbose; second (taxi) is slang worth keeping short",
+    "proposedTranslation": "bun, a small bread roll",
+    "proposedSubDefinitions": [
+      "ball-shaped portion of food (e.g. a meatball)",
+      "cab, taxi (slang)"
+    ]
+  },
+  {
+    "kellyId": 6695,
+    "lemma": "stressa",
+    "decision": "fix",
+    "reason": "sub-def restates primary verbosely",
+    "proposedTranslation": "hurry under heavy stress",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6699,
+    "lemma": "utlopp",
+    "decision": "fix",
+    "reason": "first two sub-defs are near-identical; third is a distinct useful sense",
+    "proposedTranslation": "outlet",
+    "proposedSubDefinitions": [
+      "outflow, mouth (where a waterway meets a larger body)",
+      "drain"
+    ]
+  },
+  {
+    "kellyId": 6709,
+    "lemma": "broms",
+    "decision": "fix",
+    "reason": "first three sub-defs are verbose or restate primary; fourth is useful",
+    "proposedTranslation": "brake",
+    "proposedSubDefinitions": [
+      "brake pedal",
+      "brake (something that slows or halts progress)"
+    ]
+  },
+  {
+    "kellyId": 6735,
+    "lemma": "kuvert",
+    "decision": "fix",
+    "reason": "sub-def concise and represents a genuine distinct sense",
+    "proposedTranslation": "envelope",
+    "proposedSubDefinitions": [
+      "place setting, table setting"
+    ]
+  },
+  {
+    "kellyId": 6768,
+    "lemma": "avsättning",
+    "decision": "fix",
+    "reason": "third sub-def is a cross-reference ('synonym of avlagring') — unhelpful without context",
+    "proposedTranslation": "sales",
+    "proposedSubDefinitions": [
+      "removal, deposition (from a position)",
+      "provision, set-aside (for future use)",
+      "deposit, sediment (geological)"
+    ]
+  },
+  {
+    "kellyId": 6774,
+    "lemma": "fläkt",
+    "decision": "fix",
+    "reason": "sub-def verbose",
+    "proposedTranslation": "fan",
+    "proposedSubDefinitions": [
+      "breath of wind, light breeze"
+    ]
+  },
+  {
+    "kellyId": 6775,
+    "lemma": "högtalare",
+    "decision": "fix",
+    "reason": "sub-def restates primary verbosely",
+    "proposedTranslation": "loudspeaker",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6800,
+    "lemma": "förläggare",
+    "decision": "fix",
+    "reason": "sub-def restates primary verbosely",
+    "proposedTranslation": "publisher",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6804,
+    "lemma": "nål",
+    "decision": "fix",
+    "reason": "sub-defs are concise and represent distinct senses",
+    "proposedTranslation": "needle, a pin",
+    "proposedSubDefinitions": [
+      "needle (on a syringe)",
+      "needle, pointer (on a dial or gauge)"
+    ]
+  },
+  {
+    "kellyId": 6805,
+    "lemma": "talrik",
+    "decision": "fix",
+    "reason": "sub-def restates primary verbosely",
+    "proposedTranslation": "numerous",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6811,
+    "lemma": "klot",
+    "decision": "fix",
+    "reason": "first sub-def is a mathematical definition, not a gloss; second is very obscure",
+    "proposedTranslation": "solid ball, often harder than a boll",
+    "proposedSubDefinitions": [
+      "sphere, ball (geometric solid)"
+    ]
+  },
+  {
+    "kellyId": 6815,
+    "lemma": "fräck",
+    "decision": "fix",
+    "reason": "first two sub-defs overlap; 'cool, nice' is a distinct colloquial sense worth keeping",
+    "proposedTranslation": "brazen, shameless or impudent",
+    "proposedSubDefinitions": [
+      "audacious, bold (of a daring act)",
+      "cool, nice (colloquial)"
+    ]
+  },
+  {
+    "kellyId": 6847,
+    "lemma": "spalt",
+    "decision": "fix",
+    "reason": "two sub-defs are near-identical; merge",
+    "proposedTranslation": "gap",
+    "proposedSubDefinitions": [
+      "column (of text, or a regular column in a publication)"
+    ]
+  },
+  {
+    "kellyId": 6873,
+    "lemma": "kruka",
+    "decision": "fix",
+    "reason": "sub-def is a long etymology note about Hercules, not a usable gloss",
+    "proposedTranslation": "pot",
+    "proposedSubDefinitions": [
+      "coward, chicken (colloquial)"
+    ]
+  },
+  {
+    "kellyId": 6937,
+    "lemma": "garage",
+    "decision": "fix",
+    "reason": "sub-def restates primary verbosely",
+    "proposedTranslation": "garage",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6947,
+    "lemma": "tjur",
+    "decision": "fix",
+    "reason": "both sub-defs can be merged",
+    "proposedTranslation": "bull",
+    "proposedSubDefinitions": [
+      "bull (male of moose, reindeer, whale, seal, and other large animals)"
+    ]
+  },
+  {
+    "kellyId": 8088,
+    "lemma": "böna",
+    "decision": "fix",
+    "reason": "sub-def is an extremely obscure folk-craft sense; drop it",
+    "proposedTranslation": "plead",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 6966,
+    "lemma": "klump",
+    "decision": "fix",
+    "reason": "second sub-def is a postal classification note — not a useful gloss; first is useful",
+    "proposedTranslation": "lump",
+    "proposedSubDefinitions": [
+      "person who is in the way, obstruction"
+    ]
+  },
+  {
+    "kellyId": 6974,
+    "lemma": "orientering",
+    "decision": "fix",
+    "reason": "sub-defs 1, 3, and 4 overlap or restate primary",
+    "proposedTranslation": "orientation",
+    "proposedSubDefinitions": [
+      "orienteering (the sport)",
+      "sense of direction, ability to navigate"
+    ]
+  },
+  {
+    "kellyId": 6977,
+    "lemma": "embryo",
+    "decision": "fix",
+    "reason": "first sub-def restates primary verbosely",
+    "proposedTranslation": "embryo",
+    "proposedSubDefinitions": [
+      "embryo, germ (early beginning of something)"
+    ]
+  },
+  {
+    "kellyId": 6984,
+    "lemma": "fyr",
+    "decision": "fix",
+    "reason": "sub-defs are concise and represent the two main distinct senses",
+    "proposedTranslation": "fellow, a chap",
+    "proposedSubDefinitions": [
+      "lighthouse",
+      "fire (for heating)"
+    ]
+  },
+  {
+    "kellyId": 6989,
+    "lemma": "essens",
+    "decision": "fix",
+    "reason": "first sub-def restates primary verbosely",
+    "proposedTranslation": "essence",
+    "proposedSubDefinitions": [
+      "fragrance, perfume",
+      "extract, concentrate (of a plant or substance)"
+    ]
+  },
+  {
+    "kellyId": 7060,
+    "lemma": "stråle",
+    "decision": "fix",
+    "reason": "third sub-def is obscure anatomy; second is a mathematical definition",
+    "proposedTranslation": "ray, a beam",
+    "proposedSubDefinitions": [
+      "jet, squirt (narrow stream of liquid)",
+      "ray (geometric half-line from a point)"
+    ]
+  },
+  {
+    "kellyId": 7065,
+    "lemma": "fångst",
+    "decision": "fix",
+    "reason": "both sub-defs overlap; merge",
+    "proposedTranslation": "catching",
+    "proposedSubDefinitions": [
+      "catch, haul (animals caught, especially fish)"
+    ]
+  },
+  {
+    "kellyId": 7073,
+    "lemma": "gedigen",
+    "decision": "fix",
+    "reason": "sub-def concise and represents a distinct common sense",
+    "proposedTranslation": "pure, unadulterated, solid",
+    "proposedSubDefinitions": [
+      "thorough, solid (of work, education, or knowledge)"
+    ]
+  },
+  {
+    "kellyId": 7106,
+    "lemma": "tunna",
+    "decision": "fix",
+    "reason": "first sub-def verbose; second is a historical unit with too much detail",
+    "proposedTranslation": "barrel",
+    "proposedSubDefinitions": [
+      "drum (metal or plastic container)",
+      "barrel (historic unit of dry volume)"
+    ]
+  },
+  {
+    "kellyId": 7108,
+    "lemma": "avresa",
+    "decision": "fix",
+    "reason": "sub-def restates primary verbosely",
+    "proposedTranslation": "departure",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7114,
+    "lemma": "blotta",
+    "decision": "fix",
+    "reason": "both sub-defs are useful but wordy; shorten",
+    "proposedTranslation": "expose, to uncover",
+    "proposedSubDefinitions": [
+      "expose oneself (indecent exposure)",
+      "expose oneself (put oneself in a vulnerable position)"
+    ]
+  },
+  {
+    "kellyId": 7121,
+    "lemma": "kiosk",
+    "decision": "fix",
+    "reason": "sub-def restates primary verbosely",
+    "proposedTranslation": "kiosk, newsagent, corner shop",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7122,
+    "lemma": "galler",
+    "decision": "fix",
+    "reason": "first sub-def is a verbose description, not a gloss; second is technical",
+    "proposedTranslation": "grid, a lattice, bars",
+    "proposedSubDefinitions": [
+      "grille, grating, railing",
+      "grid (of a vacuum tube)"
+    ]
+  },
+  {
+    "kellyId": 7152,
+    "lemma": "kanna",
+    "decision": "fix",
+    "reason": "second sub-def has excessive historical detail; third is technical",
+    "proposedTranslation": "vessel with a handle and spout",
+    "proposedSubDefinitions": [
+      "jug, pot, pitcher",
+      "kanna (old Scandinavian unit of fluid measure, ~2.6 litres)",
+      "piston (in an engine or pump)"
+    ]
+  },
+  {
+    "kellyId": 7165,
+    "lemma": "repetition",
+    "decision": "fix",
+    "reason": "first sub-def restates primary; second is useful",
+    "proposedTranslation": "repetition",
+    "proposedSubDefinitions": [
+      "rehearsal"
+    ]
+  },
+  {
+    "kellyId": 7171,
+    "lemma": "reflex",
+    "decision": "fix",
+    "reason": "first sub-def verbose; second is just 'reflection'",
+    "proposedTranslation": "reflex, a reaction",
+    "proposedSubDefinitions": [
+      "reflector (worn by pedestrians/cyclists for visibility)",
+      "reflection"
+    ]
+  },
+  {
+    "kellyId": 7193,
+    "lemma": "läcker",
+    "decision": "fix",
+    "reason": "third sub-def is vague; first (hot/attractive) is useful colloquial sense",
+    "proposedTranslation": "delicious, scrumptious, delectable",
+    "proposedSubDefinitions": [
+      "hot, attractive (colloquial)"
+    ]
+  },
+  {
+    "kellyId": 7210,
+    "lemma": "tillflykt",
+    "decision": "fix",
+    "reason": "all three sub-defs overlap; merge into two",
+    "proposedTranslation": "refuge",
+    "proposedSubDefinitions": [
+      "escape, solace (something used to temporarily relieve pain or hardship)",
+      "taking refuge, seeking shelter"
+    ]
+  },
+  {
+    "kellyId": 7232,
+    "lemma": "kam",
+    "decision": "fix",
+    "reason": "all four sub-defs useful but wordy",
+    "proposedTranslation": "comb for grooming hair",
+    "proposedSubDefinitions": [
+      "comb, crest (on the head of a bird or reptile)",
+      "crest, ridge (of a hill or wave)",
+      "cam (engine part)"
+    ]
+  },
+  {
+    "kellyId": 7239,
+    "lemma": "handtag",
+    "decision": "fix",
+    "reason": "sub-def verbose",
+    "proposedTranslation": "handle",
+    "proposedSubDefinitions": [
+      "a hand, helping hand (brief assistance)"
+    ]
+  },
+  {
+    "kellyId": 7243,
+    "lemma": "tusental",
+    "decision": "fix",
+    "reason": "second sub-def is millennium trivia; first is just 'thousands' which largely restates primary",
+    "proposedTranslation": "around one thousand",
+    "proposedSubDefinitions": [
+      "thousands (plural: large numbers in the thousands)"
+    ]
+  },
+  {
+    "kellyId": 7257,
+    "lemma": "saft",
+    "decision": "fix",
+    "reason": "sub-def verbose",
+    "proposedTranslation": "juice",
+    "proposedSubDefinitions": [
+      "cordial, squash (fruit-based concentrate diluted with water)"
+    ]
+  },
+  {
+    "kellyId": 7259,
+    "lemma": "lekplats",
+    "decision": "fix",
+    "reason": "sub-def is a niche ornithology sense; drop it as it doesn't aid learners",
+    "proposedTranslation": "playground",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7283,
+    "lemma": "värka",
+    "decision": "fix",
+    "reason": "first sub-def restates primary verbosely; second is a very niche extended sense",
+    "proposedTranslation": "ache",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7287,
+    "lemma": "resebyrå",
+    "decision": "fix",
+    "reason": "first sub-def restates primary verbosely; second is obscure antique sense",
+    "proposedTranslation": "travel agency",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7295,
+    "lemma": "besiktning",
+    "decision": "fix",
+    "reason": "sub-def verbose with 'legally required annually' qualifier",
+    "proposedTranslation": "inspection",
+    "proposedSubDefinitions": [
+      "vehicle inspection, MOT (mandatory annual car inspection)"
+    ]
+  },
+  {
+    "kellyId": 7298,
+    "lemma": "smörja",
+    "decision": "fix",
+    "reason": "first sub-def restates primary; third verbose",
+    "proposedTranslation": "grease, to oil",
+    "proposedSubDefinitions": [
+      "apply ointment, smear",
+      "bribe, grease (make someone more receptive)"
+    ]
+  },
+  {
+    "kellyId": 7321,
+    "lemma": "geometri",
+    "decision": "fix",
+    "reason": "first sub-def restates primary; all four are verbose",
+    "proposedTranslation": "geometry",
+    "proposedSubDefinitions": [
+      "geometry (a specific set of spatial rules, e.g. Euclidean)",
+      "surveying (historical sense: land measurement)",
+      "shape, spatial configuration"
+    ]
+  },
+  {
+    "kellyId": 7383,
+    "lemma": "pinne",
+    "decision": "fix",
+    "reason": "sub-def verbose",
+    "proposedTranslation": "stick",
+    "proposedSubDefinitions": [
+      "point (in a sports league table)"
+    ]
+  },
+  {
+    "kellyId": 7414,
+    "lemma": "passning",
+    "decision": "fix",
+    "reason": "sub-def is concise and represents a key distinct sense",
+    "proposedTranslation": "supervision, care",
+    "proposedSubDefinitions": [
+      "pass (in ball sports)"
+    ]
+  },
+  {
+    "kellyId": 7423,
+    "lemma": "gås",
+    "decision": "fix",
+    "reason": "sub-defs 1–3 are obscure dairy/food senses; sub-def 4 is slang — all drop",
+    "proposedTranslation": "goose",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7443,
+    "lemma": "bokstavlig",
+    "decision": "fix",
+    "reason": "sub-def restates primary verbosely",
+    "proposedTranslation": "literal, true, veritable",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7452,
+    "lemma": "dricks",
+    "decision": "fix",
+    "reason": "sub-def restates primary verbosely and with an uppercase start",
+    "proposedTranslation": "tip",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7481,
+    "lemma": "kirurgi",
+    "decision": "fix",
+    "reason": "sub-def restates primary verbosely",
+    "proposedTranslation": "surgery",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7498,
+    "lemma": "disposition",
+    "decision": "fix",
+    "reason": "all sub-defs verbose",
+    "proposedTranslation": "disposal",
+    "proposedSubDefinitions": [
+      "arrangement, organization",
+      "planned measure (e.g. military deployment)",
+      "predisposition (susceptibility to a disease)"
+    ]
+  },
+  {
+    "kellyId": 7514,
+    "lemma": "förbipasserande",
+    "decision": "fix",
+    "reason": "sub-def verbose with grammatical parenthetical",
+    "proposedTranslation": "passing by, passing",
+    "proposedSubDefinitions": [
+      "passer-by, bystander (noun use)"
+    ]
+  },
+  {
+    "kellyId": 7516,
+    "lemma": "ljuda",
+    "decision": "fix",
+    "reason": "sub-def is a niche pedagogical sense about early reading instruction; drop",
+    "proposedTranslation": "sound, to resound",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7525,
+    "lemma": "korrespondent",
+    "decision": "fix",
+    "reason": "primary is verbose; sub-def is the more common modern meaning — but per rules copy primary verbatim; sub-def restates with slight narrowing",
+    "proposedTranslation": "correspondent, a letter-writer, someone who corresponds",
+    "proposedSubDefinitions": [
+      "correspondent, reporter (journalist reporting from abroad)"
+    ]
+  },
+  {
+    "kellyId": 7532,
+    "lemma": "ankare",
+    "decision": "fix",
+    "reason": "sub-def verbose with HTML-specific details",
+    "proposedTranslation": "anchor",
+    "proposedSubDefinitions": [
+      "anchor (HTML/hyperlink tag)"
+    ]
+  },
+  {
+    "kellyId": 7533,
+    "lemma": "åker",
+    "decision": "fix",
+    "reason": "sub-def restates primary verbosely",
+    "proposedTranslation": "field",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7550,
+    "lemma": "propp",
+    "decision": "fix",
+    "reason": "second sub-def has excessive technical detail about fuse types",
+    "proposedTranslation": "plug for stopping a hole",
+    "proposedSubDefinitions": [
+      "clot, clog, blockage (in a pipe, blood vessel, etc.)",
+      "fuse (electrical, to prevent overcurrent)",
+      "punch (a hit)"
+    ]
+  },
+  {
+    "kellyId": 7551,
+    "lemma": "automat",
+    "decision": "fix",
+    "reason": "sub-def verbose and restates primary; uppercase start",
+    "proposedTranslation": "automaton",
+    "proposedSubDefinitions": [
+      "vending machine, dispenser, ATM"
+    ]
+  },
+  {
+    "kellyId": 7583,
+    "lemma": "skruv",
+    "decision": "fix",
+    "reason": "first sub-def restates primary; fourth is a specific card game",
+    "proposedTranslation": "screw",
+    "proposedSubDefinitions": [
+      "twist, spin (rotation of the body when jumping or diving)",
+      "spin (rotation of a ball in flight)"
+    ]
+  },
+  {
+    "kellyId": 7596,
+    "lemma": "paj",
+    "decision": "fix",
+    "reason": "sub-defs 2–4 are slang/colloquial senses with no clear connection to 'pie'; drop",
+    "proposedTranslation": "pie",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 7605,
+    "lemma": "bestiga",
+    "decision": "fix",
+    "reason": "second sub-def is a vulgar animal sense; drop; others shorten",
+    "proposedTranslation": "climb, to scale, to get to the top of",
+    "proposedSubDefinitions": [
+      "mount (a riding animal)",
+      "ascend (a throne)"
+    ]
+  },
+  {
+    "kellyId": 7619,
+    "lemma": "åldring",
+    "decision": "fix",
+    "reason": "sub-def concise and represents a genuine distinct technical sense",
+    "proposedTranslation": "elderly person",
+    "proposedSubDefinitions": [
+      "aging (technical, e.g. of materials)"
+    ]
+  },
+  {
+    "kellyId": 7647,
+    "lemma": "kvarn",
+    "decision": "fix",
+    "reason": "first sub-def verbose; second is figurative",
+    "proposedTranslation": "mill",
+    "proposedSubDefinitions": [
+      "grinder, grinding apparatus",
+      "bureaucracy, red tape (figurative)"
+    ]
+  },
+  {
+    "kellyId": 7648,
+    "lemma": "gummi",
+    "decision": "fix",
+    "reason": "sub-defs are concise and represent distinct useful senses",
+    "proposedTranslation": "rubber",
+    "proposedSubDefinitions": [
+      "condom (colloquial)",
+      "eraser"
+    ]
+  },
+  {
+    "kellyId": 7724,
+    "lemma": "skaft",
+    "decision": "fix",
+    "reason": "sub-defs 3–4 are niche; keep the most useful",
+    "proposedTranslation": "handle, a grip, a shaft",
+    "proposedSubDefinitions": [
+      "stem (of a plant)",
+      "shaft (of a feather)",
+      "bootleg, leg (of a boot or sock)"
+    ]
+  },
+  {
+    "kellyId": 7795,
+    "lemma": "förtrolig",
+    "decision": "fix",
+    "reason": "sub-def verbose with hedging",
+    "proposedTranslation": "marked by openness and trust, intimate",
+    "proposedSubDefinitions": [
+      "confidential"
+    ]
+  },
+  {
+    "kellyId": 7834,
+    "lemma": "limma",
+    "decision": "fix",
+    "reason": "sub-def verbose with parenthetical explanation",
+    "proposedTranslation": "glue",
+    "proposedSubDefinitions": [
+      "hit on (someone), cling to (colloquial)"
+    ]
+  },
+  {
+    "kellyId": 7878,
+    "lemma": "inskrivning",
+    "decision": "fix",
+    "reason": "sub-def concise and represents a genuine distinct sense",
+    "proposedTranslation": "enlistment, enrollment, matriculation",
+    "proposedSubDefinitions": [
+      "land registration"
+    ]
+  },
+  {
+    "kellyId": 7922,
+    "lemma": "fyllning",
+    "decision": "fix",
+    "reason": "both sub-defs overlap or restate each other",
+    "proposedTranslation": "filling, stuffing",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8041,
+    "lemma": "kork",
+    "decision": "fix",
+    "reason": "first sub-def restates primary; second verbose",
+    "proposedTranslation": "cork",
+    "proposedSubDefinitions": [
+      "bottle stopper, cork",
+      "cap, lid (threaded, plastic or metal)"
+    ]
+  },
+  {
+    "kellyId": 8049,
+    "lemma": "antikvitet",
+    "decision": "fix",
+    "reason": "sub-def verbose and restates primary",
+    "proposedTranslation": "antique",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8105,
+    "lemma": "sparv",
+    "decision": "fix",
+    "reason": "sub-def is an extremely verbose ornithological taxonomy note",
+    "proposedTranslation": "sparrow",
+    "proposedSubDefinitions": [
+      "house sparrow (most common species, Passer domesticus)"
+    ]
+  },
+  {
+    "kellyId": 8121,
+    "lemma": "oxe",
+    "decision": "fix",
+    "reason": "all sub-defs verbose or overlap; drop Taurus as it is a proper noun zodiac sign",
+    "proposedTranslation": "ox",
+    "proposedSubDefinitions": [
+      "beef (meat from cattle)",
+      "bull (of cattle, reindeer, or moose)",
+      "bovine"
+    ]
+  },
+  {
+    "kellyId": 8164,
+    "lemma": "marmelad",
+    "decision": "fix",
+    "reason": "sub-def verbose with parenthetical",
+    "proposedTranslation": "marmalade",
+    "proposedSubDefinitions": [
+      "jam (when used for non-citrus fruit preserves)"
+    ]
+  },
+  {
+    "kellyId": 8185,
+    "lemma": "krage",
+    "decision": "fix",
+    "reason": "second sub-def is a financial derivative sense — very niche; keep first",
+    "proposedTranslation": "collar",
+    "proposedSubDefinitions": [
+      "collar (coloured ring on an animal's neck or a flower)"
+    ]
+  },
+  {
+    "kellyId": 8187,
+    "lemma": "tempus",
+    "decision": "fix",
+    "reason": "sub-def restates primary verbosely",
+    "proposedTranslation": "tense",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 8262,
+    "lemma": "upphängning",
+    "decision": "fix",
+    "reason": "sub-def verbose",
+    "proposedTranslation": "hanging, suspension",
+    "proposedSubDefinitions": [
+      "suspension system, mounting (device or mechanism for suspending something)"
+    ]
+  },
+  {
+    "kellyId": 8286,
+    "lemma": "genomfart",
+    "decision": "fix",
+    "reason": "sub-def largely restates primary",
+    "proposedTranslation": "passage, transit, thoroughfare",
+    "proposedSubDefinitions": []
+  }
+]

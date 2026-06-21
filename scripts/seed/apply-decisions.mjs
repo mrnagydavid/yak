@@ -56,7 +56,10 @@ function collapseDuplicates(entries) {
     }
     rows.sort((a, b) => CEFR_RANK[a.cefr] - CEFR_RANK[b.cefr] || richness(b) - richness(a))
     const keep = { ...rows[0] }
-    const subDefinitions = [...new Set(rows.flatMap((r) => r.subDefinitions ?? []))].slice(0, 4)
+    // Keep ONLY the survivor's sub-definitions — the merged-away rows are the same word+sense, so
+    // unioning their (often un-cleaned) sub-defs just re-injects noise. Examples DO union (more
+    // attested sentences is strictly better, and they carry no gloss-quality risk).
+    const subDefinitions = (rows[0].subDefinitions ?? []).slice(0, 4)
     const examples = [...new Set(rows.flatMap((r) => r.examples ?? []))].slice(0, 2)
     if (subDefinitions.length) keep.subDefinitions = subDefinitions
     else delete keep.subDefinitions
