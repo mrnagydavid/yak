@@ -13,6 +13,10 @@ const MAX_EXAMPLE_LEN = 160 // flashcard examples stay short — drop any longer
 
 const cleanTranslation = (t) => t.replace(/\s+/g, ' ').replace(/[\s:;,]+$/, '').trim()
 const cleanIpa = (ipa) => ipa.replace(/^\/+/, '').replace(/\/+$/, '').trim()
+// Short per-entry content hash. The runtime seed-sync compares it against the stored hash so only
+// the cards that actually changed are rewritten (instead of every matched card). Computed over the
+// entry *without* `h`, so it stays stable as long as the content does.
+const entryHash = (e) => createHash('sha256').update(JSON.stringify(e)).digest('hex').slice(0, 8)
 
 // Strip a leading article/particle so the native lemma is bare — the renderer re-adds it
 // (avoids "an a tour"). POS-aware: only what the English renderer would prepend.
@@ -169,16 +173,24 @@ async function main() {
   }
   await writeFile(AMBIGUOUS_OUT, JSON.stringify(ambiguous, null, 2))
 
-  const seedEntries = finalEntries.map(toSeedEntry)
+  // Stamp each entry with a per-entry content hash (`h`) for changed-only seed-sync. `h` is added
+  // after hashing so it never feeds into its own hash.
+  const seedEntries = finalEntries.map(toSeedEntry).map((e) => ({ ...e, h: entryHash(e) }))
   // Version = dump date + content hash, so any curation change flips the version and the runtime
   // seed-sync picks it up (the dump date alone never changes between curation revisions).
   const contentHash = createHash('sha256').update(JSON.stringify(seedEntries)).digest('hex').slice(0, 8)
   const version = `${SEED_VERSION}-${contentHash}`
   const seed = { version, generatedAt: new Date().toISOString(), count: seedEntries.length, entries: seedEntries }
   const json = JSON.stringify(seed)
+  // version.json is a few bytes: the runtime fetches it on every launch and only fetches/parses the
+  // 2.2MB seed when the version differs from the DB. Precached alongside the seed (vite globPatterns
+  // covers *.json), so the two update atomically.
+  const versionJson = JSON.stringify({ version })
   await mkdir('public', { recursive: true })
   await writeFile('data/seed-sv.json', json)
   await writeFile('public/seed-sv.json', json)
+  await writeFile('data/version.json', versionJson)
+  await writeFile('public/version.json', versionJson)
   console.log(`seed-sv.json: ${seedEntries.length} entries (dropped ${dropped}, omitted ${omitted} untranslated)`)
   console.log(`ambiguous cards: ${ambiguous.length} → ${AMBIGUOUS_OUT}`)
 }

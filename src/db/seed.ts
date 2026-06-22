@@ -17,6 +17,7 @@ interface SeedEntry {
   subDefinitions?: string[]
   examples?: string[]
   translation: string
+  h?: string // per-entry content hash (changed-only sync); absent on pre-hash seeds
 }
 interface SeedFile {
   version: string
@@ -31,6 +32,25 @@ async function fetchSeed(): Promise<SeedFile> {
   if (!res.ok) throw new Error(`seed HTTP ${res.status}`)
   return (await res.json()) as SeedFile
 }
+
+/** Fetch just the shipped seed version (a few bytes), avoiding the 2.2MB seed parse on the common
+ *  no-update launch. Returns undefined if version.json is unavailable, so the caller falls back to
+ *  the full fetch (whose own version guard then makes it a no-op). */
+async function fetchSeedVersion(): Promise<string | undefined> {
+  try {
+    const res = await fetch(`${import.meta.env.BASE_URL}version.json`)
+    if (!res.ok) return undefined
+    return ((await res.json()) as { version?: string }).version
+  } catch {
+    return undefined
+  }
+}
+
+// The seed version the DB has been synced to. Authoritative (unlike a per-entry seedVersion, which
+// changed-only sync leaves stale on untouched rows). Read by the startup gate, written after sync.
+const SEED_VERSION_KEY = 'seedVersion'
+const getSyncedSeedVersion = async (): Promise<string | undefined> => (await db.meta.get(SEED_VERSION_KEY))?.value
+const setSyncedSeedVersion = (version: string): Promise<string> => db.meta.put({ key: SEED_VERSION_KEY, value: version })
 
 /** Build the target entry, its native (translation) entry, and the link between them. */
 function buildPair(s: SeedEntry, version: string, now: number): { target: Entry; native: Entry; translation: Translation } {
@@ -48,6 +68,7 @@ function buildPair(s: SeedEntry, version: string, now: number): { target: Entry;
     source: 'seed',
     seedVersion: version,
     seedKey: s.seedKey,
+    seedHash: s.h,
     study: 'auto',
     createdAt: now,
     updatedAt: now,
@@ -83,6 +104,7 @@ async function importSeed(seed: SeedFile): Promise<void> {
     await db.entries.bulkAdd(entries)
     await db.translations.bulkAdd(translations)
   })
+  await setSyncedSeedVersion(seed.version)
 }
 
 /** True when the seed was imported fresh (first launch); false when the DB already had data — in
@@ -94,8 +116,14 @@ export async function loadSeedIfEmpty(): Promise<boolean> {
     return true
   }
   // Best-effort: sync a shipped wordlist update onto the existing DB. Never blocks startup.
+  // Fast path: compare the tiny version.json against the DB before touching the 2.2MB seed — on the
+  // common launch (no update) this skips the seed fetch+parse entirely.
   try {
-    await syncSeed(await fetchSeed())
+    const shippedVersion = await fetchSeedVersion()
+    const currentVersion = await getSyncedSeedVersion()
+    if (shippedVersion === undefined || shippedVersion !== currentVersion) {
+      await syncSeed(await fetchSeed())
+    }
   } catch (e) {
     console.warn('seed sync skipped:', e)
   }
@@ -108,6 +136,7 @@ export async function loadSeedIfEmpty(): Promise<boolean> {
 export interface SyncTarget {
   id: string
   seedKey?: number
+  seedHash?: string
   lemma: string
   pos: string
 }
@@ -118,9 +147,10 @@ export interface SyncPlan {
 }
 
 /** Pure diff of existing seed target-entries against a new seed, keyed by `seedKey`. Matched cards
- *  are updated in place (preserving progress); cards no longer in the seed are deleted (policy: a
- *  word removed from the seed should stop appearing); the rest are added. Every seed entry carries a
- *  seedKey from the build, so any existing entry without one is foreign/stale and is dropped — the
+ *  whose content hash changed are updated in place (preserving progress); a matched card with an
+ *  unchanged hash is left alone (changed-only sync). Cards no longer in the seed are deleted (policy:
+ *  a word removed from the seed should stop appearing); the rest are added. Every seed entry carries
+ *  a seedKey from the build, so any existing entry without one is foreign/stale and is dropped — the
  *  app is re-seeded once (resetYak) to establish the seedKey baseline. */
 export function planSeedSync(existing: SyncTarget[], seedEntries: SeedEntry[]): SyncPlan {
   const byKey = new Map<number, SeedEntry>()
@@ -134,7 +164,9 @@ export function planSeedSync(existing: SyncTarget[], seedEntries: SeedEntry[]): 
     const match = e.seedKey === undefined ? undefined : byKey.get(e.seedKey)
     if (match && claimed.has(match.seedKey) === false) {
       claimed.add(match.seedKey)
-      updates.push({ id: e.id, seed: match })
+      // Only rewrite when the content actually changed. An existing entry without a stored hash
+      // (pre-hash DB) has seedHash === undefined, so it updates once and backfills the hash.
+      if (e.seedHash !== match.h) updates.push({ id: e.id, seed: match })
     } else {
       deletes.push(e.id)
     }
@@ -144,12 +176,11 @@ export function planSeedSync(existing: SyncTarget[], seedEntries: SeedEntry[]): 
 }
 
 async function syncSeed(seed: SeedFile): Promise<void> {
-  const sample = await db.entries.where('source').equals('seed').first()
-  if (sample && sample.seedVersion === seed.version) return // already on this seed version
+  if ((await getSyncedSeedVersion()) === seed.version) return // already on this seed version
 
   const seedTargets = (await db.entries.where('source').equals('seed').toArray()).filter((e) => e.lang === TARGET_LANG)
   const plan = planSeedSync(
-    seedTargets.map((t) => ({ id: t.id, seedKey: t.seedKey, lemma: t.lemma, pos: t.pos })),
+    seedTargets.map((t) => ({ id: t.id, seedKey: t.seedKey, seedHash: t.seedHash, lemma: t.lemma, pos: t.pos })),
     seed.entries,
   )
 
@@ -163,6 +194,7 @@ async function syncSeed(seed: SeedFile): Promise<void> {
       await db.translations.add(translation)
     }
   })
+  await setSyncedSeedVersion(seed.version)
   console.info(`seed synced → ${seed.version}: +${plan.adds.length} ~${plan.updates.length} -${plan.deletes.length}`)
 }
 
@@ -180,6 +212,7 @@ async function updateSeedTarget(targetId: string, s: SeedEntry, version: string,
     examples: s.examples,
     seedVersion: version,
     seedKey: s.seedKey,
+    seedHash: s.h,
     updatedAt: now,
   })
   const tr = await db.translations.where('targetEntryId').equals(targetId).first()

@@ -3,6 +3,7 @@ import type {
   Entry,
   EntryOverlay,
   IpaDictRecord,
+  MetaRecord,
   Profile,
   ReviewState,
   SessionLog,
@@ -21,6 +22,7 @@ export class YakDB extends Dexie {
   sessionLogs!: EntityTable<SessionLog, 'id'>
   ipaDicts!: EntityTable<IpaDictRecord, 'lang'>
   wiktionaryCache!: EntityTable<WiktionaryCacheRecord, 'key'>
+  meta!: EntityTable<MetaRecord, 'key'>
 
   constructor() {
     super('yak')
@@ -66,6 +68,10 @@ export class YakDB extends Dexie {
       ipaDicts: 'lang',
       wiktionaryCache: 'key, lang',
     })
+    // v4: small key→value meta store. Holds the seed version the DB has been synced to, so the
+    // startup gate can skip the 2.2MB seed fetch/parse when nothing changed. (Unspecified tables are
+    // inherited from v3; the new store is created empty, no data migration needed.)
+    this.version(4).stores({ meta: 'key' })
   }
 }
 

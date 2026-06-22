@@ -55,11 +55,15 @@ export async function importData(bundle: ExportBundle, mode: 'merge' | 'replace'
     await db.reviewStates.bulkPut(bundle.reviewStates ?? [])
     await db.profiles.bulkPut(bundle.profiles ?? [])
     await db.sessionLogs.bulkPut(bundle.sessionLogs ?? [])
+    // Drop the seed-version marker: imported entries may be from an older seed, so force the next
+    // startup to re-sync against the served seed (changed-only, so it's cheap).
+    await db.meta.clear()
   })
 }
 
 export async function clearAllData(): Promise<void> {
   await db.transaction('rw', db.tables, async () => {
     await Promise.all(TABLES.map((t) => db.table(t).clear()))
+    await db.meta.clear()
   })
 }

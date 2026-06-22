@@ -51,6 +51,7 @@ export interface Entry {
   source: Source
   seedVersion?: string // when source = seed
   seedKey?: number // stable cross-version key (Kelly id) for seed sync; on the target entry only
+  seedHash?: string // per-entry content hash; seed-sync only rewrites a card when this changes
   study: StudyPref // per-word practice override (replaces the old userFlagged + hidden)
   createdAt: number
   updatedAt: number
@@ -110,6 +111,13 @@ export interface Profile {
   active: boolean
   createdAt: number
   updatedAt: number
+}
+
+/** Small key→value store for app-level metadata that isn't entity data — e.g. the seed version the
+ *  DB has been synced to (`seedVersion`), the authoritative marker the seed-sync gate reads. */
+export interface MetaRecord {
+  key: string
+  value: string
 }
 
 /** Parsed ipa-dict dictionary for a language, cached for offline use. (SPEC §10.1) */
