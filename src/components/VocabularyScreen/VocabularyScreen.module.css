@@ -56,6 +56,28 @@
   color: var(--color-text-secondary);
 }
 
+/* Loading spinner shown while the word list is being built (matches SeedLoading). */
+.loading {
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+}
+
+.spinner {
+  width: 28px;
+  height: 28px;
+  border: 3px solid var(--color-border);
+  border-top-color: var(--color-primary);
+  border-radius: 50%;
+  animation: vocab-spin 0.7s linear infinite;
+}
+
+@keyframes vocab-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .list {
   list-style: none;
   display: flex;

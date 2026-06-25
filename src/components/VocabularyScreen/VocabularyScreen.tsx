@@ -1,8 +1,10 @@
 import { useLiveQuery } from 'dexie-react-hooks'
 import { route } from 'preact-router'
-import { useMemo, useRef, useState } from 'preact/hooks'
+import { memo } from 'preact/compat'
+import { useEffect, useMemo, useRef, useState } from 'preact/hooks'
 import { getActiveProfile, listVocabulary, type Status, type VocabRow } from '../../db/queries'
-import { getRenderer } from '../../lang'
+import { getRenderer, type LanguageRenderer } from '../../lang'
+import { getFilters, type LevelFilter, type MatchMode, saveFilters, type SortOption, type SourceFilter } from './filter-store'
 import { FilterChip } from './FilterChip'
 import styles from './VocabularyScreen.module.css'
 
@@ -13,11 +15,6 @@ const STATUS_LABEL: Record<Status, string> = {
   learning: 'learning',
   solid: 'solid',
 }
-
-type SourceFilter = 'all' | 'study' | 'added'
-type LevelFilter = 'all' | 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2' | 'none'
-type SortOption = 'alphabetical' | 'practiced' | 'added' | 'hardest'
-type MatchMode = 'contains' | 'starts' | 'exact'
 
 const SOURCE_OPTIONS = [
   { value: 'all', label: 'All' },
@@ -91,26 +88,83 @@ function applyFilters(
   return sorted
 }
 
-export function VocabularyScreen() {
-  const profile = useLiveQuery(() => getActiveProfile(), [])
-  const rows = useLiveQuery(
-    () => (profile ? listVocabulary(profile.targetLang, profile.claimedLevel) : Promise.resolve([])),
-    [profile?.targetLang, profile?.claimedLevel],
-  )
+/** Lags `value` by `delayMs` so the (expensive) filter+sort over ~8.3k rows runs on a pause in
+ *  typing, not on every keystroke. The input stays bound to the live value, so typing feels instant. */
+function useDebouncedValue<T>(value: T, delayMs: number): T {
+  const [debounced, setDebounced] = useState(value)
+  useEffect(() => {
+    const handle = setTimeout(() => setDebounced(value), delayMs)
+    return () => clearTimeout(handle)
+  }, [value, delayMs])
+  return debounced
+}
 
-  const [search, setSearch] = useState('')
-  const [match, setMatch] = useState<MatchMode>('contains')
-  const [source, setSource] = useState<SourceFilter>('all')
-  const [level, setLevel] = useState<LevelFilter>('all')
-  const [sort, setSort] = useState<SortOption>('alphabetical')
+/** The word list, memoised on its props. Typing updates the parent's `search` state (so the input
+ *  stays responsive) but not `rows`/`renderer`, so memo skips re-rendering — without this, every
+ *  keystroke re-diffs all ~8.3k rows, which is what made the input lag. The filtered list arrives on
+ *  the debounce, when `rows` actually changes. */
+const VocabList = memo(function VocabList({ rows, renderer }: { rows: VocabRow[]; renderer?: LanguageRenderer }) {
+  return (
+    <ul class={styles.list}>
+      {rows.map(({ entry, native, inStudySet, recognize, produce }) => (
+        <li
+          key={entry.id}
+          class={`${styles.row} ${inStudySet ? '' : styles.dimmed}`}
+          onClick={() => route(`/word/${entry.id}`)}
+        >
+          <span class={styles.level}>{entry.source === 'user' ? '⚝' : (entry.cefr ?? '–')}</span>
+          <span
+            class={styles.status}
+            title={`recognise: ${STATUS_LABEL[recognize]} / produce: ${STATUS_LABEL[produce]}`}
+          >
+            {STATUS_GLYPH[recognize]}
+            {STATUS_GLYPH[produce]}
+          </span>
+          <span class={styles.lemma}>
+            {renderer ? renderer.renderLemma(entry) : entry.lemma}
+            {entry.disambiguator ? <span class={styles.disambiguator}> ({entry.disambiguator})</span> : null}
+          </span>
+          {native ? <span class={styles.native}>→ {native}</span> : null}
+        </li>
+      ))}
+    </ul>
+  )
+})
+
+export function VocabularyScreen() {
+  // Profile + vocabulary load in one reactive query. Chaining them as two queries briefly produced a
+  // defined-but-empty `rows` (the no-profile branch resolved to []) before the real list arrived,
+  // which flashed "No entries match your filter"; a single query has no such in-between state.
+  const data = useLiveQuery(async () => {
+    const profile = await getActiveProfile()
+    const rows = profile ? await listVocabulary(profile.targetLang, profile.claimedLevel) : []
+    return { profile, rows }
+  }, [])
+  const profile = data?.profile
+  const rows = data?.rows
+  const loading = data === undefined
+
+  // Initialised from the module-level store so search/filters survive leaving the screen (e.g.
+  // opening a word and coming back); `openFilter` is transient dropdown UI and isn't persisted.
+  const initial = getFilters()
+  const [search, setSearch] = useState(initial.search)
+  const [match, setMatch] = useState<MatchMode>(initial.match)
+  const [source, setSource] = useState<SourceFilter>(initial.source)
+  const [level, setLevel] = useState<LevelFilter>(initial.level)
+  const [sort, setSort] = useState<SortOption>(initial.sort)
   const [openFilter, setOpenFilter] = useState<string | null>(null)
   const searchRef = useRef<HTMLInputElement>(null)
 
+  useEffect(() => {
+    saveFilters({ search, match, source, level, sort })
+  }, [search, match, source, level, sort])
+
+  const debouncedSearch = useDebouncedValue(search, 500)
   const renderer = profile ? getRenderer(profile.targetLang) : undefined
   const lang = profile?.targetLang ?? 'en'
   const visible = useMemo(
-    () => (rows ? applyFilters(rows, search, match, source, level, sort, lang) : []),
-    [rows, search, match, source, level, sort, lang],
+    () => (rows ? applyFilters(rows, debouncedSearch, match, source, level, sort, lang) : []),
+    [rows, debouncedSearch, match, source, level, sort, lang],
   )
 
   return (
@@ -189,34 +243,14 @@ export function VocabularyScreen() {
         />
       </div>
 
-      {rows === undefined ? (
-        <p class={styles.placeholder}>Loading…</p>
+      {loading ? (
+        <div class={styles.loading} role="status" aria-label="Loading words">
+          <div class={styles.spinner} />
+        </div>
       ) : visible.length === 0 ? (
         <p class={styles.placeholder}>No entries match your filter.</p>
       ) : (
-        <ul class={styles.list}>
-          {visible.map(({ entry, native, inStudySet, recognize, produce }) => (
-            <li
-              key={entry.id}
-              class={`${styles.row} ${inStudySet ? '' : styles.dimmed}`}
-              onClick={() => route(`/word/${entry.id}`)}
-            >
-              <span class={styles.level}>{entry.source === 'user' ? '⚝' : (entry.cefr ?? '–')}</span>
-              <span
-                class={styles.status}
-                title={`recognise: ${STATUS_LABEL[recognize]} / produce: ${STATUS_LABEL[produce]}`}
-              >
-                {STATUS_GLYPH[recognize]}
-                {STATUS_GLYPH[produce]}
-              </span>
-              <span class={styles.lemma}>
-                {renderer ? renderer.renderLemma(entry) : entry.lemma}
-                {entry.disambiguator ? <span class={styles.disambiguator}> ({entry.disambiguator})</span> : null}
-              </span>
-              {native ? <span class={styles.native}>→ {native}</span> : null}
-            </li>
-          ))}
-        </ul>
+        <VocabList rows={visible} renderer={renderer} />
       )}
     </div>
   )
