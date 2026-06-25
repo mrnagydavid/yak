@@ -3,6 +3,7 @@ import { useState } from 'preact/hooks'
 import { getActiveProfile, updateProfile } from '../../db/queries'
 import { clearAllData, exportData, importData, isExportBundle, type ExportBundle } from '../../db/transfer'
 import type { Profile } from '../../db/types'
+import { Calibration } from '../Calibration/Calibration'
 import styles from './ProfileScreen.module.css'
 
 const LEVELS: Profile['claimedLevel'][] = ['below-A1', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2']
@@ -21,12 +22,26 @@ export function ProfileScreen() {
   const [pendingImport, setPendingImport] = useState<ExportBundle | null>(null)
   const [importError, setImportError] = useState<string | null>(null)
   const [confirmClear, setConfirmClear] = useState(false)
+  const [assessing, setAssessing] = useState(false)
 
   if (!profile) {
     return (
       <div class={styles.screen}>
         <p class={styles.muted}>No active profile. Reload to start fresh.</p>
       </div>
+    )
+  }
+
+  if (assessing) {
+    return (
+      <Calibration
+        targetLang={profile.targetLang}
+        onComplete={(lvl) => {
+          void updateProfile(profile.id, { claimedLevel: lvl })
+          setAssessing(false)
+        }}
+        onCancel={() => setAssessing(false)}
+      />
     )
   }
 
@@ -76,7 +91,9 @@ export function ProfileScreen() {
             </button>
           ))}
         </div>
-        <p class={styles.muted}>Not sure? A quick assessment is coming soon.</p>
+        <button class={styles.link} onClick={() => setAssessing(true)}>
+          Not sure? Run a quick assessment
+        </button>
       </section>
 
       <section class={styles.section}>

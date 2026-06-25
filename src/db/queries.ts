@@ -1,9 +1,11 @@
 import { db } from './schema'
 import { ulid } from './ids'
 import { getRenderer } from '../lang'
+import { applyRating, createReviewState } from '../srs/fsrs-adapter'
 import { cefrRank, levelRank } from '../srs/levels'
 import type { SessionCard } from '../srs/session-composer'
 import type {
+  Cefr,
   Entry,
   EntryOverlay,
   PartOfSpeech,
@@ -34,6 +36,82 @@ export async function getActiveProfile() {
 /** Patch the active profile (level, daily limits, …). */
 export function updateProfile(id: string, changes: Partial<Profile>): Promise<number> {
   return db.profiles.update(id, { ...changes, updatedAt: Date.now() })
+}
+
+/** Create the (single) active profile at the end of onboarding. Defaults match the former
+ *  auto-created profile. (SPEC §7.8) */
+export function createProfile(input: {
+  learnerLang: string
+  targetLang: string
+  claimedLevel: Profile['claimedLevel']
+}): Promise<string> {
+  const now = Date.now()
+  return db.profiles.add({
+    id: ulid(now),
+    learnerLang: input.learnerLang,
+    targetLang: input.targetLang,
+    claimedLevel: input.claimedLevel,
+    dailyLimits: { newPerDay: 20, practicePerDay: 200 },
+    active: true,
+    createdAt: now,
+    updatedAt: now,
+  })
+}
+
+// ---------- calibration sweep (SPEC §6.4) ----------
+
+export interface CalibrationItem {
+  translationId: string // seeded (both skills) when the user can produce it
+  prompt: string // the native-language meaning shown — the learner recalls the target word
+  answer: string // the target word, revealed so the learner can verify before rating
+  ipa?: string // target IPA, shown on reveal if available
+}
+
+function shuffle<T>(arr: T[]): T[] {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[arr[i], arr[j]] = [arr[j], arr[i]]
+  }
+  return arr
+}
+
+/** Up to `n` random seed words at a CEFR level, each as the native-language prompt the learner tries
+ *  to produce the target word for. Calibration tests production (the level that gates practice),
+ *  since recognition over-places — you understand far more than you can produce. (SPEC §6.4) */
+export async function drawCalibrationItems(targetLang: string, level: Cefr, n: number): Promise<CalibrationItem[]> {
+  const entries = (await db.entries.where('cefr').equals(level).toArray()).filter(
+    (e) => e.lang === targetLang && e.source === 'seed',
+  )
+  const picked = shuffle(entries).slice(0, n)
+  const translations = await db.translations.where('targetEntryId').anyOf(picked.map((e) => e.id)).toArray()
+  const firstTr = new Map<string, Translation>()
+  for (const t of translations) if (!firstTr.has(t.targetEntryId)) firstTr.set(t.targetEntryId, t)
+  const natives = await db.entries.bulkGet([...new Set([...firstTr.values()].map((t) => t.nativeEntryId))])
+  const nativeById = new Map(natives.filter((e): e is Entry => !!e).map((e) => [e.id, e]))
+  const targetRenderer = getRenderer(targetLang)
+  return picked.flatMap((entry) => {
+    const tr = firstTr.get(entry.id)
+    const native = tr ? nativeById.get(tr.nativeEntryId) : undefined
+    if (!tr || !native) return []
+    return [
+      {
+        translationId: tr.id,
+        prompt: getRenderer(native.lang).renderLemma(native),
+        answer: targetRenderer.renderLemma(entry),
+        ipa: targetRenderer.showIpa ? entry.pronunciation.ipa : undefined,
+      },
+    ]
+  })
+}
+
+/** Seed both skills as `Good` for a word the user can produce during calibration — producing it
+ *  implies recognising it. Additive: leaves any existing state untouched (a Don't-know writes
+ *  nothing at all). (SPEC §6.4) */
+export async function seedKnown(translationId: string, now: number = Date.now()): Promise<void> {
+  for (const skill of ['recognize', 'produce'] as const) {
+    if (await getReviewState(translationId, skill)) continue
+    await db.reviewStates.put(applyRating(createReviewState(translationId, skill, now), 'good', now))
+  }
 }
 
 export function getEntry(id: string) {

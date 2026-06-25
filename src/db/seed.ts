@@ -112,7 +112,6 @@ async function importSeed(seed: SeedFile): Promise<void> {
 export async function loadSeedIfEmpty(): Promise<boolean> {
   if ((await db.entries.count()) === 0) {
     await importSeed(await fetchSeed())
-    await ensureProfile()
     return true
   }
   // Best-effort: sync a shipped wordlist update onto the existing DB. Never blocks startup.
@@ -127,7 +126,6 @@ export async function loadSeedIfEmpty(): Promise<boolean> {
   } catch (e) {
     console.warn('seed sync skipped:', e)
   }
-  await ensureProfile()
   return false
 }
 
@@ -232,20 +230,4 @@ async function deleteSeedTarget(targetId: string): Promise<void> {
   const overlay = await db.entryOverlays.where('entryId').equals(targetId).first()
   if (overlay) await db.entryOverlays.delete(overlay.id)
   await db.entries.delete(targetId)
-}
-
-/** Ensure a single active profile exists (sv→en, A1) until onboarding is built. */
-async function ensureProfile(): Promise<void> {
-  if (await db.profiles.filter((p) => p.active).first()) return
-  const now = Date.now()
-  await db.profiles.add({
-    id: ulid(),
-    learnerLang: 'en',
-    targetLang: 'sv',
-    claimedLevel: 'A1',
-    dailyLimits: { newPerDay: 20, practicePerDay: 200 },
-    active: true,
-    createdAt: now,
-    updatedAt: now,
-  })
 }
