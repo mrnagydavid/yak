@@ -1,6 +1,7 @@
 import type { PracticeCardView } from '../../db/queries'
 import { getRenderer } from '../../lang'
 import type { InflectionDisplay } from '../../lang'
+import { SpeakButton } from '../WordActions/WordActions'
 import styles from './StudyCard.module.css'
 
 // The inflection block (verb principal parts as a one-liner, noun declension as a 2×2 grid).
@@ -63,6 +64,9 @@ export function StudyCard({ view, revealed }: { view: PracticeCardView; revealed
         <span class={styles.promptWord}>{promptWord}</span>
         {promptDisambig ? <span class={styles.disambig}>({promptDisambig})</span> : null}
         {isRecognition && targetIpa ? <span class={styles.ipa}>/{targetIpa}/</span> : null}
+        {/* Recognition shows the Swedish word on the prompt, so its pronunciation is available
+            immediately. (Production keeps it in the reveal, so it can't leak the answer.) */}
+        {isRecognition ? <SpeakButton text={target.lemma} lang={target.lang} /> : null}
         {/* Sense cue for homonyms — disambiguates which meaning is asked. Pre-reveal only; after
             reveal the example shows in its normal place under the translation. */}
         {cue && !revealed ? <span class={styles.promptExample}>{cue}</span> : null}
@@ -75,6 +79,8 @@ export function StudyCard({ view, revealed }: { view: PracticeCardView; revealed
           <div class={styles.answer}>
             <span class={styles.answerWord}>{answerWord}</span>
             {!isRecognition && targetIpa ? <span class={styles.ipa}>/{targetIpa}/</span> : null}
+            {/* Production reveals the Swedish word here, so its pronunciation lives with the answer. */}
+            {!isRecognition ? <SpeakButton text={target.lemma} lang={target.lang} /> : null}
           </div>
 
           {/* The user's note sits right under the meaning — it's their gloss on the word. */}

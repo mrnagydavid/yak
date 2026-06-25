@@ -14,6 +14,7 @@ import type { StudyPref } from '../../db/types'
 import { getRenderer } from '../../lang'
 import type { InflectionDisplay } from '../../lang'
 import { EntryEditor } from '../EntryEditor/EntryEditor'
+import { SpeakButton, WiktionaryLink } from '../WordActions/WordActions'
 import styles from './WordDetail.module.css'
 
 interface Pending {
@@ -145,11 +146,11 @@ export function WordDetail({ id }: { id?: string }) {
         </div>
       </header>
 
-      {ipa ? (
-        <section class={styles.section}>
-          <span class={styles.ipa}>/{ipa}/</span>
-        </section>
-      ) : null}
+      <section class={`${styles.section} ${styles.pronunciation}`}>
+        {ipa ? <span class={styles.ipa}>/{ipa}/</span> : null}
+        <SpeakButton text={entry.lemma} lang={entry.lang} />
+        <WiktionaryLink lemma={entry.lemma} lang={entry.lang} />
+      </section>
 
       {inflections.table || inflections.rows.length ? (
         <section class={styles.section}>

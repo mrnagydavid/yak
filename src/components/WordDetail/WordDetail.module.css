@@ -116,6 +116,15 @@
   color: var(--color-text-secondary);
 }
 
+/* Pronunciation & reference row: IPA (if any) + listen button + Wiktionary link, inline. Wraps on
+   a narrow screen so a long IPA doesn't crowd the link. */
+.pronunciation {
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
 .table {
   border-collapse: collapse;
   font-size: 15px;

@@ -1,6 +1,16 @@
 import { describe, expect, it } from 'vitest'
-import { getRenderer } from '../src/lang'
+import { getRenderer, wiktionaryUrl } from '../src/lang'
 import type { Entry, PartOfSpeech } from '../src/db/types'
+
+describe('wiktionaryUrl', () => {
+  it('links to the English Wiktionary page, jumped to the language section', () => {
+    expect(wiktionaryUrl('hund', 'sv')).toBe('https://en.wiktionary.org/wiki/hund#Swedish')
+  })
+
+  it('encodes special characters in the lemma', () => {
+    expect(wiktionaryUrl('gå på', 'sv')).toBe('https://en.wiktionary.org/wiki/g%C3%A5%20p%C3%A5#Swedish')
+  })
+})
 
 function entry(overrides: Partial<Entry> & { lemma: string; pos: PartOfSpeech }): Entry {
   return {

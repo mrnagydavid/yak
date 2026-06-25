@@ -1,0 +1,32 @@
+/* Both are icon buttons sized for thumbs: a ≥44px touch target (iOS HIG) around a 22px glyph, with
+   tap feedback and no default mobile tap-highlight rectangle. */
+
+.speak,
+.wikt {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  border-radius: 50%;
+  font-size: 22px;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.75;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.speak:hover,
+.wikt:hover {
+  opacity: 1;
+}
+
+.speak:active,
+.wikt:active {
+  background: var(--color-bg-secondary);
+}

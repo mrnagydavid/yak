@@ -54,6 +54,14 @@
   cursor: pointer;
 }
 
+/* Wiktionary icon sits between the (centred) card and the rating buttons, left-aligned.
+   Height comes from the icon's own 44px touch target. */
+.wiktFooter {
+  flex-shrink: 0;
+  padding: 0 2px;
+  text-align: left;
+}
+
 .caughtUp {
   flex: 1;
   display: flex;

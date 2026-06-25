@@ -38,4 +38,10 @@ export function languageName(lang: string): string {
   return LANGUAGE_NAMES[lang] ?? lang
 }
 
+/** English-Wiktionary page for a word, jumped to its language section (e.g. `#Swedish`). Offered
+ *  without an existence check — Wiktionary shows a helpful "no entry" page when the word is absent. */
+export function wiktionaryUrl(lemma: string, lang: string): string {
+  return `https://en.wiktionary.org/wiki/${encodeURIComponent(lemma)}#${encodeURIComponent(languageName(lang))}`
+}
+
 export type { FeatureBadge, InflectionDisplay, InflectionRow, LanguageRenderer } from './types'

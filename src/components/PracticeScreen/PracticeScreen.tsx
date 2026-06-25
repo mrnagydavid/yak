@@ -3,6 +3,7 @@ import { getPracticeCardView, type PracticeCardView } from '../../db/queries'
 import type { RatingLabel } from '../../srs/fsrs-adapter'
 import { composeSession, recordReview } from '../../srs/session-composer'
 import { EntryEditor } from '../EntryEditor/EntryEditor'
+import { WiktionaryLink } from '../WordActions/WordActions'
 import { ProgressBar } from './ProgressBar'
 import { RatingButtons } from './RatingButtons'
 import { dayKey, resumableSession, saveSession, setSessionIndex } from './session-store'
@@ -92,6 +93,13 @@ export function PracticeScreen() {
       >
         <StudyCard view={view} revealed={isRevealed} />
       </div>
+      {/* Wiktionary link for the Swedish word — pinned just above the rating buttons, and only once
+          revealed so it can't hint the answer in production. */}
+      {isRevealed ? (
+        <div class={styles.wiktFooter}>
+          <WiktionaryLink lemma={view.target.lemma} lang={view.target.lang} />
+        </div>
+      ) : null}
       <RatingButtons mode={view.card.mode} onRate={rate} />
 
       {editing ? (
