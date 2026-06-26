@@ -26,6 +26,7 @@ export default defineConfig({
       manifest: {
         name: 'Yak',
         short_name: 'Yak',
+        description: 'Learn vocabulary the way it sticks — a free, offline-first Swedish ↔ English vocabulary trainer.',
         start_url: '/',
         display: 'standalone',
         orientation: 'portrait',
@@ -41,6 +42,8 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg,json}'],
+        // The social preview image is for link-unfurl crawlers only — no need to precache it offline.
+        globIgnores: ['**/og-image.png'],
         // The Swedish seed (~2.1MB) is precached so the app works fully offline (SPEC §13).
         maximumFileSizeToCacheInBytes: 6 * 1024 * 1024,
       },
