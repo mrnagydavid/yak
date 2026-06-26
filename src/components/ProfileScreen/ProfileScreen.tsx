@@ -23,6 +23,7 @@ export function ProfileScreen() {
   const [importError, setImportError] = useState<string | null>(null)
   const [confirmClear, setConfirmClear] = useState(false)
   const [assessing, setAssessing] = useState(false)
+  const [legal, setLegal] = useState<'terms' | 'privacy' | null>(null)
 
   if (!profile) {
     return (
@@ -174,9 +175,45 @@ export function ProfileScreen() {
       </section>
 
       <section class={styles.section}>
+        <h2 class={styles.sectionTitle}>Legal</h2>
+        <button class={styles.action} onClick={() => setLegal((v) => (v === 'terms' ? null : 'terms'))}>
+          Terms & Conditions
+        </button>
+        {legal === 'terms' ? (
+          <div class={styles.legalText}>
+            <p>Yak is a free vocabulary trainer. It shows you words; you tell it whether you knew them. That's the whole deal.</p>
+            <p>
+              The word list, translations, pronunciations and examples come from the Swedish Kelly-list, Wiktionary (via
+              kaikki.org) and ipa-dict. We tidy them up, but they're approximate — a yak is not a certified translator. Don't
+              rely on it for anything that matters.
+            </p>
+            <p>Provided "as is", with no warranties.</p>
+          </div>
+        ) : null}
+        <button class={styles.action} onClick={() => setLegal((v) => (v === 'privacy' ? null : 'privacy'))}>
+          Privacy Policy
+        </button>
+        {legal === 'privacy' ? (
+          <div class={styles.legalText}>
+            <p>The short version: we don't collect anything. No account, no server, no analytics, no tracking, no cookies.</p>
+            <p>
+              Everything — your words, your progress, your settings — lives only in your browser's storage on this device.
+              Use "Export all data" above if you want a copy; nothing leaves your device on its own.
+            </p>
+            <p>
+              The app uses the network only to download the Swedish word list (and occasional updates), to fetch extra
+              details from Wiktionary / ipa-dict when you add your own word, and to open a word's Wiktionary page when you tap
+              that link. Pronunciation (🔊) uses your device's own text-to-speech.
+            </p>
+            <p>That's genuinely it — a refreshingly short privacy policy.</p>
+          </div>
+        ) : null}
+      </section>
+
+      <section class={styles.section}>
         <h2 class={styles.sectionTitle}>About</h2>
         <p class={styles.muted}>Yak · build {__COMMIT_HASH__}</p>
-        <p class={styles.muted}>Word data from the Kelly project, Wiktionary, and ipa-dict.</p>
+        <p class={styles.muted}>Word data from the Swedish Kelly-list, Wiktionary (via kaikki.org), and ipa-dict.</p>
       </section>
     </div>
   )
