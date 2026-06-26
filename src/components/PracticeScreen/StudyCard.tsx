@@ -60,6 +60,8 @@ export function StudyCard({ view, revealed }: { view: PracticeCardView; revealed
   return (
     <div class={styles.card}>
       {card.mode === 'new' ? <span class={styles.newBadge}>New word</span> : null}
+      {/* Prompt is anchored at the top and never changes on reveal — only the answer zone below
+          fills in, so the word the learner is looking at doesn't jump. */}
       <div class={styles.prompt}>
         <span class={styles.promptWord}>{promptWord}</span>
         {promptDisambig ? <span class={styles.disambig}>({promptDisambig})</span> : null}
@@ -67,47 +69,48 @@ export function StudyCard({ view, revealed }: { view: PracticeCardView; revealed
         {/* Recognition shows the Swedish word on the prompt, so its pronunciation is available
             immediately. (Production keeps it in the reveal, so it can't leak the answer.) */}
         {isRecognition ? <SpeakButton text={target.lemma} lang={target.lang} /> : null}
-        {/* Sense cue for homonyms — disambiguates which meaning is asked. Pre-reveal only; after
-            reveal the example shows in its normal place under the translation. */}
+        {/* Sense cue for homonyms — disambiguates which meaning is asked. Pre-reveal only. */}
         {cue && !revealed ? <span class={styles.promptExample}>{cue}</span> : null}
-        {/* Recognition: target's forms sit under the (target) prompt, once revealed. */}
-        {isRecognition && revealed ? <Inflections display={inflections} /> : null}
       </div>
 
-      {revealed ? (
-        <div class={styles.reveal}>
-          <div class={styles.answer}>
-            <span class={styles.answerWord}>{answerWord}</span>
-            {!isRecognition && targetIpa ? <span class={styles.ipa}>/{targetIpa}/</span> : null}
-            {/* Production reveals the Swedish word here, so its pronunciation lives with the answer. */}
-            {!isRecognition ? <SpeakButton text={target.lemma} lang={target.lang} /> : null}
+      {/* Persistent divider + revealable zone below it. All revealed content lives here (so it
+          appears in one place and fades in together) and the prompt above stays put. */}
+      <div class={styles.answerZone}>
+        {revealed ? (
+          <div class={styles.reveal}>
+            <div class={styles.answer}>
+              <span class={styles.answerWord}>{answerWord}</span>
+              {!isRecognition && targetIpa ? <span class={styles.ipa}>/{targetIpa}/</span> : null}
+              {/* Production reveals the Swedish word here, so its pronunciation lives with the answer. */}
+              {!isRecognition ? <SpeakButton text={target.lemma} lang={target.lang} /> : null}
+            </div>
+
+            {/* The user's note sits right under the meaning — it's their gloss on the word. */}
+            {overlay?.noteText ? <p class={styles.note}>{overlay.noteText}</p> : null}
+
+            {/* The target word's forms (renders nothing when it has none). */}
+            <Inflections display={inflections} />
+
+            {target.subDefinitions?.length ? (
+              <ul class={styles.subdefs}>
+                {target.subDefinitions.map((s, i) => (
+                  <li key={i}>{s}</li>
+                ))}
+              </ul>
+            ) : null}
+
+            {examples.length ? (
+              <ul class={styles.examples}>
+                {examples.map((e, i) => (
+                  <li key={i}>{e}</li>
+                ))}
+              </ul>
+            ) : null}
           </div>
-
-          {/* The user's note sits right under the meaning — it's their gloss on the word. */}
-          {overlay?.noteText ? <p class={styles.note}>{overlay.noteText}</p> : null}
-
-          {/* Production: target's forms sit under the (target) answer. */}
-          {!isRecognition ? <Inflections display={inflections} /> : null}
-
-          {target.subDefinitions?.length ? (
-            <ul class={styles.subdefs}>
-              {target.subDefinitions.map((s, i) => (
-                <li key={i}>{s}</li>
-              ))}
-            </ul>
-          ) : null}
-
-          {examples.length ? (
-            <ul class={styles.examples}>
-              {examples.map((e, i) => (
-                <li key={i}>{e}</li>
-              ))}
-            </ul>
-          ) : null}
-        </div>
-      ) : (
-        <span class={styles.revealHint}>Tap to reveal</span>
-      )}
+        ) : (
+          <span class={styles.revealHint}>Tap to reveal</span>
+        )}
+      </div>
     </div>
   )
 }

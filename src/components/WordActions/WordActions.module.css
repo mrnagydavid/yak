@@ -1,5 +1,5 @@
 /* Both are icon buttons sized for thumbs: a ≥44px touch target (iOS HIG) around a 22px glyph, with
-   tap feedback and no default mobile tap-highlight rectangle. */
+   :active feedback (the mobile tap-highlight is suppressed globally in global.css). */
 
 .speak,
 .wikt {
@@ -18,7 +18,6 @@
   text-decoration: none;
   cursor: pointer;
   opacity: 0.75;
-  -webkit-tap-highlight-color: transparent;
 }
 
 .speak:hover,

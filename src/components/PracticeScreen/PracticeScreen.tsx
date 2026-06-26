@@ -93,13 +93,12 @@ export function PracticeScreen() {
       >
         <StudyCard view={view} revealed={isRevealed} />
       </div>
-      {/* Wiktionary link for the Swedish word — pinned just above the rating buttons, and only once
-          revealed so it can't hint the answer in production. */}
-      {isRevealed ? (
-        <div class={styles.wiktFooter}>
-          <WiktionaryLink lemma={view.target.lemma} lang={view.target.lang} />
-        </div>
-      ) : null}
+      {/* Wiktionary link for the Swedish word — pinned just above the rating buttons; shown only once
+          revealed (so it can't hint the answer in production). The footer always reserves its space, so
+          revealing doesn't shrink the card area and nudge the prompt upward. */}
+      <div class={styles.wiktFooter}>
+        {isRevealed ? <WiktionaryLink lemma={view.target.lemma} lang={view.target.lang} /> : null}
+      </div>
       <RatingButtons mode={view.card.mode} onRate={rate} />
 
       {editing ? (

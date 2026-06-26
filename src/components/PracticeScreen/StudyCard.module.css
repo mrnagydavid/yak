@@ -1,9 +1,10 @@
 .card {
   width: 100%;
+  flex: 1;
+  min-height: 0;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  padding: 8px 4px;
+  padding: 16px 4px 0;
 }
 
 .newBadge {
@@ -15,10 +16,15 @@
   color: var(--color-primary);
 }
 
+/* Top 40% of the card; the question is centered within it. A hard basis with no grow/shrink means a
+   tall answer below can never squeeze it, so the question never moves on reveal. */
 .prompt {
+  flex: 0 0 40%;
+  min-height: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 6px;
   text-align: center;
 }
@@ -49,13 +55,36 @@
   color: var(--color-text-secondary);
 }
 
+/* Lower zone below a persistent divider: holds the reveal (or the "tap to reveal" hint). Fixed in
+   place, so revealing fills it without nudging the prompt; scrolls if the content is tall. */
+.answerZone {
+  flex: 1;
+  min-height: 0;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
 .reveal {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  border-top: 1px solid var(--color-border);
-  padding-top: 16px;
   text-align: center;
+  animation: reveal-in 180ms ease-out;
+}
+
+@keyframes reveal-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 .answer {
@@ -129,7 +158,7 @@
 }
 
 .revealHint {
-  align-self: center;
+  margin: auto; /* centered in the answer zone while collapsed */
   color: var(--color-primary);
   font-size: 15px;
   font-weight: 600;

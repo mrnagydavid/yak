@@ -2,7 +2,9 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  min-height: 100%;
+  /* Fixed to the viewport (not min-height) so the card area can't grow with the revealed content —
+     the answer zone scrolls inside a fixed card instead, keeping the prompt anchored. */
+  height: 100%;
   padding-bottom: 16px; /* a little breathing room above the nav */
 }
 
@@ -43,10 +45,9 @@
 
 .cardArea {
   flex: 1;
+  min-height: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  overflow-y: auto;
 }
 
 /* Whole area reveals the answer (the "Tap to reveal!" label is just a hint). */
@@ -54,12 +55,14 @@
   cursor: pointer;
 }
 
-/* Wiktionary icon sits between the (centred) card and the rating buttons, left-aligned.
-   Height comes from the icon's own 44px touch target. */
+/* Wiktionary icon sits between the card and the rating buttons, left-aligned. Always reserves its
+   height (even before reveal, when empty) so revealing doesn't resize the card area. */
 .wiktFooter {
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  min-height: 44px;
   padding: 0 2px;
-  text-align: left;
 }
 
 .caughtUp {

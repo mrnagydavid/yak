@@ -30,6 +30,8 @@
 html {
   height: 100%;
   -webkit-text-size-adjust: 100%;
+  /* No blue mobile tap-highlight anywhere; controls give their own :active feedback. (Inherited.) */
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
