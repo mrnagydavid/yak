@@ -1,0 +1,21 @@
+[
+  {
+    "kellyId": 100,
+    "lemma": "kunna",
+    "decision": "fix",
+    "reason": "gloss '\"to can\", to be able to' is broken English (\"to can\" has no infinitive; the en renderer also prepends 'to' → 'to \"to can\"'). Rewrite the gloss and split the sub-senses into knowledge / ability / permission",
+    "proposedTranslation": "to be able to, can",
+    "proposedSubDefinitions": [
+      "to know how to, to know (a skill or language)",
+      "can, could, might (ability or possibility)",
+      "may, to be allowed to (permission)"
+    ]
+  },
+  {
+    "kellyId": 3131,
+    "lemma": "exakt",
+    "decision": "fix",
+    "reason": "IPA had a spurious long /kː/ before the /t/ cluster (dump artifact) → /ɛkˈsakt/",
+    "proposedIpa": "ɛkˈsakt"
+  }
+]

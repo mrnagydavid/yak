@@ -679,6 +679,15 @@ Decisions are written to `data/intermediate/decisions/<n>.json`. The `apply-deci
 
 Bumping a source version is a deliberate act; the resulting seed is regenerated and reviewed before being committed.
 
+### 9.4 Fixes live in the inputs, never the output
+
+`seed-<lang>.json` is a **generated artifact**. Every correction to seed data — a wrong gloss, a bad example, an off IPA — must be encoded in a pipeline *input* (a `data/intermediate/decisions/*.json` entry, or a `data/intermediate/examples/*.json` entry), and the seed regenerated *through the pipeline*. Never hand-patch the generated `seed-<lang>.json` (or its `public/` copy). Two invariants must always hold for any fix:
+
+1. **Survives a full rebuild.** Running the full pipeline (`pnpm seed:build`) reproduces the fix, because it lives in an input the pipeline reads — not in the output it overwrites.
+2. **Reaches users on release.** The regenerated `seed-<lang>.json` + `version.json` (data + `public/`) are what the release builds and serves; the bumped version triggers seed-sync to update the affected cards **in place, preserving the learner's progress** (§4.2, the overlay model).
+
+A `fix` decision can override `proposedTranslation`, `proposedSubDefinitions`, and `proposedIpa`; curated example sentences are supplied per `kellyId` in `data/intermediate/examples/`. If a field you need to correct has no input hook yet, **add the hook to `apply-decisions`** rather than editing the output — that keeps the "all fixes are reproducible inputs" guarantee intact.
+
 ## 10. Runtime enrichment
 
 ### 10.1 ipa-dict at runtime

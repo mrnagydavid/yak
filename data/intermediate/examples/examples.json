@@ -1079,6 +1079,14 @@
     ]
   },
   {
+    "kellyId": 324,
+    "lemma": "tag",
+    "examples": [
+      "Släpp inte taget!",
+      "Det kommer att ta ett tag."
+    ]
+  },
+  {
     "kellyId": 326,
     "lemma": "leda",
     "examples": [
@@ -4659,7 +4667,7 @@
     "kellyId": 1345,
     "lemma": "exakt",
     "examples": [
-      "Vad är den exakta tiden?"
+      "Klockan är exakt tre."
     ]
   },
   {

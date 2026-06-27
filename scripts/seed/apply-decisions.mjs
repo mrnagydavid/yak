@@ -120,7 +120,7 @@ async function main() {
       dropped++
       continue
     }
-    // Only a "fix" supplies a new translation/sub-definitions; "keep" (and entries with no
+    // Only a "fix" supplies a new translation/sub-definitions/IPA; "keep" (and entries with no
     // decision) retain the candidate. Guards against "keep" decisions that carry an empty
     // proposedTranslation, which would otherwise blank the entry out.
     const isFix = d?.decision === 'fix'
@@ -129,6 +129,9 @@ async function main() {
     if (!translation) continue // no translation yet (unmatched, pending cleanup) → omit
     const subSource = isFix ? (d.proposedSubDefinitions ?? c.subDefinitions) : c.subDefinitions
     const subDefinitions = (subSource ?? []).map(cleanTranslation).filter(Boolean)
+    // IPA override: the dump's IPA is sometimes wrong (e.g. a long /kː/ before a /t/ cluster). A
+    // "fix" may supply proposedIpa to replace it; otherwise the candidate's IPA carries through.
+    const ipa = (isFix ? (d.proposedIpa ?? '').trim() : '') || c.ipa
     // Ambiguous cards use curated sense-specific examples (Step 15); all others keep Wiktionary's.
     const examples = (curatedExamples.get(c.kellyId) ?? c.examples ?? [])
       .filter((e) => e.length <= MAX_EXAMPLE_LEN)
@@ -139,7 +142,7 @@ async function main() {
       pos: c.pos,
       cefr: c.cefr,
       ...(c.gender ? { gender: c.gender } : {}),
-      ...(c.ipa ? { ipa: cleanIpa(c.ipa) } : {}),
+      ...(ipa ? { ipa: cleanIpa(ipa) } : {}),
       ...(Object.keys(c.inflections).length ? { inflections: c.inflections } : {}),
       ...(subDefinitions.length ? { subDefinitions } : {}),
       ...(examples.length ? { examples } : {}),

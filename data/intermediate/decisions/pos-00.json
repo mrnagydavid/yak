@@ -344,9 +344,10 @@
     "kellyId": 1345,
     "lemma": "exakt",
     "decision": "fix",
-    "reason": "adv entry glossed as adj 'exact'; should be adverb 'exactly'",
+    "reason": "adv entry glossed as adj 'exact'; should be adverb 'exactly'. IPA had a spurious long /kː/ before the /t/ cluster (dump artifact) → /ɛkˈsakt/",
     "proposedTranslation": "exactly",
-    "proposedSubDefinitions": []
+    "proposedSubDefinitions": [],
+    "proposedIpa": "ɛkˈsakt"
   },
   {
     "kellyId": 1367,
