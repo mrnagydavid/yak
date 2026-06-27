@@ -47,6 +47,11 @@ export function setSessionIndex(index: number): void {
   if (active) active.index = index
 }
 
+/** Swap in freshly-resolved views (e.g. after an in-session edit) so a tab-switch resume reflects it. */
+export function setSessionViews(views: PracticeCardView[]): void {
+  if (active) active.views = views
+}
+
 export function clearSession(): void {
   active = null
 }

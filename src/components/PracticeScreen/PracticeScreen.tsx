@@ -14,6 +14,7 @@ import {
   resumableSession,
   saveSession,
   setSessionIndex,
+  setSessionViews,
 } from './session-store'
 import { StudyCard } from './StudyCard'
 import styles from './PracticeScreen.module.css'
@@ -138,6 +139,19 @@ export function PracticeScreen() {
     })
   }
 
+  // After an in-session edit (note / examples / translation override), re-resolve just this
+  // card's view so the change shows without a refresh. The queue isn't recomposed — only this
+  // card's overlay is refreshed, in both component state and the tab-switch resume cache.
+  // (The persisted record stores lightweight cards, not views, so it re-resolves on its own.)
+  async function refreshCurrentView() {
+    if (!views) return
+    const refreshed = await getPracticeCardView(view.card)
+    if (!refreshed) return
+    const nextViews = views.map((v, i) => (i === index ? refreshed : v))
+    setViews(nextViews)
+    setSessionViews(nextViews)
+  }
+
   return (
     <div class={styles.screen}>
       <div class={styles.topbar}>
@@ -170,7 +184,10 @@ export function PracticeScreen() {
           entryId={view.target.id}
           translationLang={view.native?.lang ?? 'en'}
           title="Edit word"
-          onClose={() => setEditing(false)}
+          onClose={() => {
+            setEditing(false)
+            void refreshCurrentView()
+          }}
         />
       ) : null}
     </div>

@@ -94,9 +94,6 @@ export function StudyCard({ view, revealed }: { view: PracticeCardView; revealed
               {!isRecognition ? <SpeakButton text={target.lemma} lang={target.lang} /> : null}
             </div>
 
-            {/* The user's note sits right under the meaning — it's their gloss on the word. */}
-            {overlay?.noteText ? <p class={styles.note}>{overlay.noteText}</p> : null}
-
             {/* The target word's forms (renders nothing when it has none). Production only — in
                 recognition the Swedish word is on the prompt, so its forms ride along up there. */}
             {!isRecognition ? <Inflections display={inflections} /> : null}
@@ -108,6 +105,9 @@ export function StudyCard({ view, revealed }: { view: PracticeCardView; revealed
                 ))}
               </ul>
             ) : null}
+
+            {/* The user's note — their gloss on the word — sits under the meanings, above examples. */}
+            {overlay?.noteText ? <p class={styles.note}>{overlay.noteText}</p> : null}
 
             {examples.length ? (
               <ul class={styles.examples}>

@@ -189,6 +189,13 @@ export function WordDetail({ id }: { id?: string }) {
         ) : null}
       </section>
 
+      {overlay?.noteText ? (
+        <section class={styles.section}>
+          <h2 class={styles.sectionTitle}>Note</h2>
+          <p class={styles.note}>{overlay.noteText}</p>
+        </section>
+      ) : null}
+
       {examples.length ? (
         <section class={styles.section}>
           <h2 class={styles.sectionTitle}>Examples</h2>
@@ -197,13 +204,6 @@ export function WordDetail({ id }: { id?: string }) {
               <li key={i}>{e}</li>
             ))}
           </ul>
-        </section>
-      ) : null}
-
-      {overlay?.noteText ? (
-        <section class={styles.section}>
-          <h2 class={styles.sectionTitle}>Note</h2>
-          <p class={styles.note}>{overlay.noteText}</p>
         </section>
       ) : null}
 

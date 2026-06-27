@@ -201,6 +201,10 @@
   background: var(--color-bg-secondary);
   border-radius: var(--radius-sm);
   padding: 8px 10px;
+  /* Notes are free-form textarea input — keep the user's line breaks, and break long
+     unbroken tokens (e.g. a URL) so they can't overflow the box. */
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
 }
 
 .progress {
