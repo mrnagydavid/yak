@@ -47,4 +47,8 @@ export interface LanguageRenderer {
   inflectionSlots(pos: PartOfSpeech): InflectionSlot[]
   /** Whether to display IPA for this language (true for the target language). */
   showIpa: boolean
+  /** Correct a verb's IPA from a conjugated form back to the infinitive headword, when the
+   *  language's IPA source is prone to that (Swedish ipa-dict). Returns the corrected IPA, the
+   *  input unchanged, or undefined to drop it. Absent → no correction needed. */
+  fixVerbIpa?(ipa: string, lemma: string, presens?: string): string | undefined
 }

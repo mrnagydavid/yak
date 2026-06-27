@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { getRenderer, wiktionaryUrl } from '../src/lang'
+import { infinitivizeVerbIpa } from '../src/lang/sv/ipa'
 import type { Entry, PartOfSpeech } from '../src/db/types'
 
 describe('wiktionaryUrl', () => {
@@ -153,5 +154,35 @@ describe('getRenderer fallback', () => {
     const r = getRenderer('xx')
     expect(r.renderLemma(entry({ lemma: 'foo', pos: 'noun', lang: 'xx' }))).toBe('foo')
     expect(r.renderFeatures(entry({ lemma: 'foo', pos: 'noun', lang: 'xx' }))).toEqual([])
+  })
+})
+
+describe('infinitivizeVerbIpa', () => {
+  it('leaves an already-infinitive transcription (ends in a vowel) unchanged', () => {
+    expect(infinitivizeVerbIpa('²sprˈɪŋːa', 'springa', 'springer')).toBe('²sprˈɪŋːa')
+    expect(infinitivizeVerbIpa('²tˈɑːla', 'tala', 'talar')).toBe('²tˈɑːla')
+  })
+
+  it('drops the trailing r for -ar group / vowel-stems (presens = lemma + "r")', () => {
+    expect(infinitivizeVerbIpa('²stˈaʈːar', 'starta', 'startar')).toBe('²stˈaʈːa')
+    expect(infinitivizeVerbIpa('goːr', 'gå', 'går')).toBe('goː')
+    expect(infinitivizeVerbIpa('beːr', 'be', 'ber')).toBe('beː')
+  })
+
+  it('replaces the -er ending with -a for group 2/4 verbs', () => {
+    expect(infinitivizeVerbIpa('rˈiːvɛr', 'riva', 'river')).toBe('rˈiːva')
+    expect(infinitivizeVerbIpa('sˈɛtːɛr', 'sätta', 'sätter')).toBe('sˈɛtːa')
+    expect(infinitivizeVerbIpa('lˈɛːsɛr', 'läsa', 'läser')).toBe('lˈɛːsa')
+  })
+
+  it('appends -a for strong stem-present verbs (lemma = presens + "a")', () => {
+    expect(infinitivizeVerbIpa('føːr', 'föra', 'för')).toBe('føːra')
+    expect(infinitivizeVerbIpa('bɛːr', 'bära', 'bär')).toBe('bɛːra')
+    expect(infinitivizeVerbIpa('²jˈɛmːføːr', 'jämföra', 'jämför')).toBe('²jˈɛmːføːra')
+  })
+
+  it('drops the IPA when the form cannot be reconstructed', () => {
+    expect(infinitivizeVerbIpa('glˈɛːdɛr', 'glädja', 'gläder')).toBeUndefined()
+    expect(infinitivizeVerbIpa('²mˈuːtstoːr', 'motstå', undefined)).toBeUndefined()
   })
 })

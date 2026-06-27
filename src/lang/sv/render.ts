@@ -1,4 +1,5 @@
 import type { Entry, PartOfSpeech } from '../../db/types'
+import { infinitivizeVerbIpa } from './ipa'
 import type {
   FeatureBadge,
   InflectionDisplay,
@@ -61,6 +62,7 @@ function nounTable(entry: Entry): InflectionTable {
 
 export const svRenderer: LanguageRenderer = {
   showIpa: true,
+  fixVerbIpa: infinitivizeVerbIpa,
 
   renderLemma(entry: Entry): string {
     if (entry.pos === 'verb') return `att ${entry.lemma}`

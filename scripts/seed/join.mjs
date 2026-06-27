@@ -16,6 +16,20 @@ const has = (tags, ...need) => need.every((t) => tags.includes(t))
 const not = (tags, ...bad) => bad.every((t) => !tags.includes(t))
 const clean = (s) => s.replace(/\s+/g, ' ').trim()
 
+// ipa-dict frequently keys present-tense IPA (ending in -r / -ɛr) under the infinitive headword —
+// e.g. `riva` → /rˈiːvɛr/ ("river"). Rewrite to the infinitive using the lemma + present spelling.
+// Returns undefined when it can't be reconstructed (drop rather than show the present form).
+// NOTE: keep in sync with src/lang/sv/ipa.ts (this is a plain .mjs build script and can't import it).
+const infinitivizeVerbIpa = (ipa, lemma, presens) => {
+  if (!ipa.endsWith('r')) return ipa // already infinitive (ends in a vowel)
+  if (presens) {
+    if (presens === `${lemma}r`) return ipa.slice(0, -1) // group 1 (-ar) / vowel-stems: starta→startar, gå→går
+    if (lemma.endsWith('a') && presens === `${lemma.slice(0, -1)}er`) return ipa.replace(/ɛ?r$/, 'a') // group 2/4 (-er): riva→river
+    if (lemma === `${presens}a`) return `${ipa}a` // strong stem-present: bära→bär, föra→för
+  }
+  return undefined
+}
+
 // Remove balanced "(…)" clarification groups but KEEP the surrounding words — Wiktionary glosses
 // put clarifications inline ("a (male or female) teacher" → "a teacher", "to (gently) lead" →
 // "to lead"). Cutting at the first "(" instead (as before) truncated these to "a"/"to". An
@@ -128,6 +142,10 @@ async function main() {
     const primary = stripped || senses[0]
     const subDefinitions = [...senses.slice(1), ...glosses.slice(1)].slice(0, 4)
     const forms = preferred[0]?.forms ?? []
+    const infl = inflections(k.pos, forms)
+    let ipa = wiks[0]?.ipa || ipaMap[k.lemma.toLowerCase()]
+    // Verbs: ipa-dict often gives the present form's pronunciation; correct it to the infinitive.
+    if (ipa && k.pos === 'verb') ipa = infinitivizeVerbIpa(ipa, k.lemma, infl.presens)
     return {
       kellyId: k.kellyId,
       lemma: k.lemma,
@@ -136,8 +154,8 @@ async function main() {
       cefr: k.cefr,
       translation: primary,
       subDefinitions,
-      inflections: inflections(k.pos, forms),
-      ipa: wiks[0]?.ipa || ipaMap[k.lemma.toLowerCase()],
+      inflections: infl,
+      ipa,
       examples: wiks[0]?.examples ?? [],
       matched: wiks.length > 0,
     }

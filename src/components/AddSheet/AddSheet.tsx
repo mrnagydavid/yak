@@ -43,13 +43,18 @@ export function AddSheet({ onClose }: { onClose: () => void }) {
   if (!profile) return null
   const renderer = getRenderer(profile.targetLang)
 
-  function applyCandidate(c?: EnrichmentCandidate) {
+  function applyCandidate(c?: EnrichmentCandidate, word: string = lemma) {
     if (!c) return
     setPos(c.pos)
     setGender(c.gender)
     setInflections(c.inflections)
     // The gloss is the English definition — prefill the translation with it (editable).
     if (c.gloss) setTranslation(c.gloss)
+    // ipa-dict often returns a verb's present-tense pronunciation; correct it to the infinitive
+    // now that we know the POS and present form. (Same fix as the shipped seed.)
+    if (c.pos === 'verb' && renderer.fixVerbIpa) {
+      setIpa((prev) => (prev ? (renderer.fixVerbIpa!(prev, word, c.inflections?.presens) ?? '') : prev))
+    }
   }
 
   function startNew() {
@@ -69,7 +74,7 @@ export function AddSheet({ onClose }: { onClose: () => void }) {
         setCandidates(r.candidates)
         setPhase('picking')
       } else {
-        applyCandidate(r.candidates[0])
+        applyCandidate(r.candidates[0], word)
         setPhase('form')
       }
     })
