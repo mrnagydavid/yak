@@ -1,5 +1,7 @@
 // Entity interfaces for the Yak data model. See SPEC §4.
 
+import type { SessionCard } from '../srs/session-composer'
+
 export type Cefr = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2'
 
 export type PartOfSpeech =
@@ -148,6 +150,22 @@ export interface WiktionaryCacheRecord {
 export interface EnrichmentResult {
   ipa?: string
   candidates: EnrichmentCandidate[] // 0 = nothing found, 1 = auto-fill, many = let user pick
+}
+
+/**
+ * Persisted snapshot of the in-progress practice session, so a page refresh resumes the same queue
+ * at the same position instead of recomposing from scratch. Singleton — one active session at a time
+ * (keyed by the literal id `'active'`). The heavy display data isn't stored: only the lightweight
+ * `SessionCard[]` queue is, re-resolved to views via `getPracticeCardView` on load.
+ */
+export interface ActiveSessionRecord {
+  id: string // singleton key, always 'active'
+  profileId: string // validated on resume → recompose after a profile/language switch
+  dayKey: string // validated on resume → recompose on a new day
+  cards: SessionCard[] // the queue, in order
+  index: number // cursor — how far the user has progressed
+  canPushFurther: boolean
+  updatedAt: number
 }
 
 /** Lightweight session history. (SPEC §4.6) */

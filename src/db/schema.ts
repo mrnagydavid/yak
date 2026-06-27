@@ -1,5 +1,6 @@
 import Dexie, { type EntityTable } from 'dexie'
 import type {
+  ActiveSessionRecord,
   Entry,
   EntryOverlay,
   IpaDictRecord,
@@ -23,6 +24,7 @@ export class YakDB extends Dexie {
   ipaDicts!: EntityTable<IpaDictRecord, 'lang'>
   wiktionaryCache!: EntityTable<WiktionaryCacheRecord, 'key'>
   meta!: EntityTable<MetaRecord, 'key'>
+  activeSessions!: EntityTable<ActiveSessionRecord, 'id'>
 
   constructor() {
     super('yak')
@@ -72,6 +74,9 @@ export class YakDB extends Dexie {
     // startup gate can skip the 2.2MB seed fetch/parse when nothing changed. (Unspecified tables are
     // inherited from v3; the new store is created empty, no data migration needed.)
     this.version(4).stores({ meta: 'key' })
+    // v5: persisted in-progress session, so a page refresh resumes the same queue/position instead
+    // of recomposing. Singleton keyed by id ('active'). Created empty; no data migration needed.
+    this.version(5).stores({ activeSessions: 'id' })
   }
 }
 

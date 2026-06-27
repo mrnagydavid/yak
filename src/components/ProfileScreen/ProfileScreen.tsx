@@ -4,6 +4,7 @@ import { getActiveProfile, updateProfile } from '../../db/queries'
 import { clearAllData, exportData, importData, isExportBundle, type ExportBundle } from '../../db/transfer'
 import type { Profile } from '../../db/types'
 import { Calibration } from '../Calibration/Calibration'
+import { clearSession } from '../PracticeScreen/session-store'
 import styles from './ProfileScreen.module.css'
 
 const LEVELS: Profile['claimedLevel'][] = ['below-A1', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2']
@@ -162,7 +163,15 @@ export function ProfileScreen() {
               <button class={styles.action} onClick={() => setConfirmClear(false)}>
                 Cancel
               </button>
-              <button class={styles.danger} onClick={() => void clearAllData().then(() => setConfirmClear(false))}>
+              <button
+                class={styles.danger}
+                onClick={() =>
+                  void clearAllData().then(() => {
+                    clearSession() // also drop the in-memory session (clearAllData doesn't reload)
+                    setConfirmClear(false)
+                  })
+                }
+              >
                 Delete everything
               </button>
             </div>

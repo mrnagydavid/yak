@@ -6,13 +6,22 @@ import { EntryEditor } from '../EntryEditor/EntryEditor'
 import { WiktionaryLink } from '../WordActions/WordActions'
 import { ProgressBar } from './ProgressBar'
 import { RatingButtons } from './RatingButtons'
-import { dayKey, resumableSession, saveSession, setSessionIndex } from './session-store'
+import {
+  dayKey,
+  loadPersistedSession,
+  persistIndex,
+  persistSession,
+  resumableSession,
+  saveSession,
+  setSessionIndex,
+} from './session-store'
 import { StudyCard } from './StudyCard'
 import styles from './PracticeScreen.module.css'
 
 export function PracticeScreen() {
-  // The session is composed once per day and kept in a module-level store, so switching tabs (which
-  // unmounts this route) resumes the same queue and position instead of restarting. (SPEC §7.2)
+  // The session is composed once per day and kept alive across navigation/refresh (SPEC §7.2):
+  // the in-memory store resumes instantly on a tab switch; the persisted record resumes after a
+  // page refresh. Only when neither has a session for today do we compose a fresh one.
   const [resumed] = useState(() => resumableSession())
   const [views, setViews] = useState<PracticeCardView[] | null>(resumed?.views ?? null)
   const [index, setIndex] = useState(resumed?.index ?? 0)
@@ -32,10 +41,35 @@ export function PracticeScreen() {
     setRevealed(false)
     setCanPushFurther(nextCanPush)
     saveSession({ dayKey: dayKey(), views: resolved, index: 0, canPushFurther: nextCanPush })
+    void persistSession(resolved.map((v) => v.card), 0, nextCanPush)
+  }
+
+  // Re-hydrate a session saved before a page refresh: re-resolve its lightweight queue into views
+  // and restore the cursor. Falls back to composing a fresh session if there's nothing to resume.
+  async function resumeOrLoad() {
+    const persisted = await loadPersistedSession()
+    if (!persisted) {
+      await load()
+      return
+    }
+    const resolved = (await Promise.all(persisted.cards.map((c) => getPracticeCardView(c)))).filter(
+      (v): v is PracticeCardView => v !== null,
+    )
+    const restoredIndex = Math.min(persisted.index, resolved.length)
+    setViews(resolved)
+    setIndex(restoredIndex)
+    setRevealed(false)
+    setCanPushFurther(persisted.canPushFurther)
+    saveSession({
+      dayKey: persisted.dayKey,
+      views: resolved,
+      index: restoredIndex,
+      canPushFurther: persisted.canPushFurther,
+    })
   }
 
   useEffect(() => {
-    if (views === null) void load() // resume an existing session, otherwise compose a fresh one
+    if (views === null) void resumeOrLoad() // no in-memory session → try the persisted one, else compose
   }, [])
 
   if (views === null) {
@@ -72,7 +106,8 @@ export function PracticeScreen() {
     setRevealed(false)
     setIndex((i) => {
       const next = i + 1
-      setSessionIndex(next) // remember where we are, so leaving mid-session resumes here
+      setSessionIndex(next) // in-memory: leaving mid-session (tab switch) resumes here
+      void persistIndex(next) // persisted: a page refresh resumes here too
       return next
     })
   }

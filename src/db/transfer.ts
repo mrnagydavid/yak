@@ -58,6 +58,8 @@ export async function importData(bundle: ExportBundle, mode: 'merge' | 'replace'
     // Drop the seed-version marker: imported entries may be from an older seed, so force the next
     // startup to re-sync against the served seed (changed-only, so it's cheap).
     await db.meta.clear()
+    // The in-progress session references the replaced entities — drop it so it recomposes.
+    await db.activeSessions.clear()
   })
 }
 
@@ -65,5 +67,6 @@ export async function clearAllData(): Promise<void> {
   await db.transaction('rw', db.tables, async () => {
     await Promise.all(TABLES.map((t) => db.table(t).clear()))
     await db.meta.clear()
+    await db.activeSessions.clear()
   })
 }
