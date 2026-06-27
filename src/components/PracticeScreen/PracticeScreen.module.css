@@ -43,6 +43,28 @@
   background: var(--color-bg-secondary);
 }
 
+/* Undo control — a quiet icon button matching .edit. Sits between the progress bar and the
+   edit pencil, so (unlike .edit) it keeps no edge-hugging negative margin. */
+.undo {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  color: var(--color-text-secondary);
+}
+
+.undo svg {
+  width: 20px;
+  height: 20px;
+}
+
+.undo:active {
+  background: var(--color-bg-secondary);
+}
+
 .cardArea {
   flex: 1;
   min-height: 0;

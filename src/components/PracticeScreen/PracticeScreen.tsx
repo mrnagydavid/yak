@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'preact/hooks'
 import { getPracticeCardView, type PracticeCardView } from '../../db/queries'
 import type { RatingLabel } from '../../srs/fsrs-adapter'
-import { composeSession, recordReview } from '../../srs/session-composer'
+import { composeSession, recordReview, type ReviewUndo, undoReview } from '../../srs/session-composer'
 import { EntryEditor } from '../EntryEditor/EntryEditor'
 import { WiktionaryLink } from '../WordActions/WordActions'
 import { ProgressBar } from './ProgressBar'
@@ -29,6 +29,9 @@ export function PracticeScreen() {
   // False once a "Push further" yields nothing more, so the button stops being a no-op.
   const [canPushFurther, setCanPushFurther] = useState(resumed?.canPushFurther ?? true)
   const [editing, setEditing] = useState(false)
+  // One undo token per rating made this sitting; lets the user take back accidental taps,
+  // card by card. In-memory only — it's gone after a refresh or tab switch (SPEC §6.5).
+  const [undoStack, setUndoStack] = useState<ReviewUndo[]>([])
 
   async function load(pushFurther = false) {
     const cards = await composeSession(Date.now(), pushFurther)
@@ -40,6 +43,7 @@ export function PracticeScreen() {
     setIndex(0)
     setRevealed(false)
     setCanPushFurther(nextCanPush)
+    setUndoStack([]) // a fresh batch replaces the queue — prior tokens no longer map to it
     saveSession({ dayKey: dayKey(), views: resolved, index: 0, canPushFurther: nextCanPush })
     void persistSession(resolved.map((v) => v.card), 0, nextCanPush)
   }
@@ -60,6 +64,7 @@ export function PracticeScreen() {
     setIndex(restoredIndex)
     setRevealed(false)
     setCanPushFurther(persisted.canPushFurther)
+    setUndoStack([]) // undo history doesn't survive a refresh — start the resumed sitting clean
     saveSession({
       dayKey: persisted.dayKey,
       views: resolved,
@@ -92,6 +97,8 @@ export function PracticeScreen() {
           ) : (
             <p class={styles.caughtSub}>Nothing more to pull right now.</p>
           )}
+          {/* Keep the last rating reversible even after it tips you into "caught up". */}
+          {undoStack.length > 0 ? <UndoButton onClick={() => void undo()} /> : null}
         </div>
       </div>
     )
@@ -102,7 +109,8 @@ export function PracticeScreen() {
 
   async function rate(rating: RatingLabel) {
     navigator.vibrate?.(10)
-    await recordReview(view.card, rating)
+    const token = await recordReview(view.card, rating)
+    setUndoStack((s) => [...s, token])
     setRevealed(false)
     setIndex((i) => {
       const next = i + 1
@@ -112,10 +120,29 @@ export function PracticeScreen() {
     })
   }
 
+  // Take back the most recent rating: reverse its scheduling, step back to that card (shown
+  // revealed, ready to re-rate), and rewind the cursor. The stack and cursor move in lockstep
+  // — each rating pushes a token and advances one; each undo pops one and rewinds one.
+  async function undo() {
+    const token = undoStack[undoStack.length - 1]
+    if (!token) return
+    navigator.vibrate?.(10)
+    await undoReview(token)
+    setUndoStack((s) => s.slice(0, -1))
+    setRevealed(true)
+    setIndex((i) => {
+      const prev = i - 1
+      setSessionIndex(prev)
+      void persistIndex(prev)
+      return prev
+    })
+  }
+
   return (
     <div class={styles.screen}>
       <div class={styles.topbar}>
         <ProgressBar value={index} total={views.length} />
+        {undoStack.length > 0 ? <UndoButton onClick={() => void undo()} /> : null}
         <button class={styles.edit} aria-label="Edit note, examples, translation" onClick={() => setEditing(true)}>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M12 20h9M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z" />
@@ -147,5 +174,17 @@ export function PracticeScreen() {
         />
       ) : null}
     </div>
+  )
+}
+
+// A looping (counter-clockwise) arrow, so it reads as "undo" rather than a plain back chevron.
+function UndoButton({ onClick }: { onClick: () => void }) {
+  return (
+    <button class={styles.undo} aria-label="Undo last rating" onClick={onClick}>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M9 14 4 9l5-5" />
+        <path d="M4 9h10.5a5.5 5.5 0 0 1 5.5 5.5 5.5 5.5 0 0 1-5.5 5.5H11" />
+      </svg>
+    </button>
   )
 }

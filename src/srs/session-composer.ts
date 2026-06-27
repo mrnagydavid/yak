@@ -256,17 +256,38 @@ export async function composeSession(
   })
 }
 
+/** What `recordReview` wrote, enough for `undoReview` to reverse it exactly. */
+export interface ReviewUndo {
+  /** The pre-rating row to restore, or undefined if the rating created the row. */
+  previous: ReviewState | undefined
+  /** The id of the row `recordReview` wrote (the one to delete when there was no previous). */
+  writtenId: string
+}
+
 /**
  * Apply a self-evaluation rating to a session card and persist the result. Creates the
  * initial FSRS state for new/calibration cards (those without one yet), or updates the
- * existing state for practice cards.
+ * existing state for practice cards. Returns a token that `undoReview` can reverse, so an
+ * accidental tap can be taken back within the sitting (SPEC §6.5).
  */
 export async function recordReview(
   card: SessionCard,
   label: RatingLabel,
   now: number = Date.now(),
-): Promise<void> {
-  const base = card.reviewState ?? createReviewState(card.translationId, card.skill, now)
+): Promise<ReviewUndo> {
+  const previous = card.reviewState // undefined for new/calibration cards — no row existed yet
+  const base = previous ?? createReviewState(card.translationId, card.skill, now)
   const next = applyRating(base, label, now)
   await db.reviewStates.put(next)
+  return { previous, writtenId: next.id }
+}
+
+/**
+ * Reverse a `recordReview`: restore the exact pre-rating row, or — if the rating created the
+ * row (a card seen for the first time) — delete it so the word is unseen again. No FSRS math
+ * is involved; the prior row is a verbatim snapshot, so the reversal is exact.
+ */
+export async function undoReview(undo: ReviewUndo): Promise<void> {
+  if (undo.previous) await db.reviewStates.put(undo.previous)
+  else await db.reviewStates.delete(undo.writtenId)
 }
