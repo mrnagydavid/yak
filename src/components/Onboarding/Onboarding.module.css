@@ -101,6 +101,34 @@
   font-weight: 700;
 }
 
+/* Final step: the resulting level, shown as a labelled badge (this is *your* level — not a
+   target to learn toward). */
+.levelDisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.levelCaption {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+}
+
+.levelBadge {
+  min-width: 96px;
+  padding: 16px 28px;
+  border-radius: var(--radius-md);
+  background: var(--color-bg-secondary);
+  color: var(--color-primary);
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+
 .lede {
   font-size: 17px;
   color: var(--color-text);

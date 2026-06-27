@@ -35,6 +35,8 @@ const BACK: Partial<Record<Step, Step>> = {
 export function Onboarding() {
   const [step, setStep] = useState<Step>('welcome')
   const [level, setLevel] = useState<ClaimedLevel>('A1')
+  // Whether the level came from the quiz vs. being hand-picked — only changes the intro copy.
+  const [assessed, setAssessed] = useState(false)
 
   // Creating the profile flips the app shell's live query, which swaps Onboarding for the tabs,
   // landing on Practice with the first card ready.
@@ -61,6 +63,7 @@ export function Onboarding() {
           targetLang={TARGET_LANG}
           onComplete={(lvl) => {
             setLevel(lvl)
+            setAssessed(true)
             setStep('intro')
           }}
           onCancel={() => setStep('level')}
@@ -127,7 +130,13 @@ export function Onboarding() {
               Not sure? Take a quick assessment
             </button>
           </div>
-          <button class={styles.primary} onClick={() => setStep('intro')}>
+          <button
+            class={styles.primary}
+            onClick={() => {
+              setAssessed(false)
+              setStep('intro')
+            }}
+          >
             Continue
           </button>
         </div>
@@ -136,8 +145,16 @@ export function Onboarding() {
       {step === 'intro' ? (
         <div class={styles.step}>
           <div class={styles.body}>
-            <h2 class={styles.heading}>You're all set</h2>
-            <p class={styles.lede}>Open the app regularly to practice.</p>
+            <div class={styles.levelDisplay}>
+              <span class={styles.levelCaption}>Your level</span>
+              <span class={styles.levelBadge}>{LEVEL_LABEL[level]}</span>
+            </div>
+            <h2 class={styles.heading}>{assessed ? 'Nice work!' : "You're all set"}</h2>
+            <p class={styles.lede}>
+              {assessed
+                ? "Based on your answers, that's where we'll start you — we tailor each day's words to your level. You can change it anytime in your profile."
+                : "We'll tailor each day's words to your level. You can change it anytime in your profile."}
+            </p>
           </div>
           <button class={styles.primary} onClick={finish}>
             Start practising
