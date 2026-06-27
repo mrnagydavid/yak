@@ -60,8 +60,9 @@ export function StudyCard({ view, revealed }: { view: PracticeCardView; revealed
   return (
     <div class={styles.card}>
       {card.mode === 'new' ? <span class={styles.newBadge}>New word</span> : null}
-      {/* Prompt is anchored at the top and never changes on reveal — only the answer zone below
-          fills in, so the word the learner is looking at doesn't jump. */}
+      {/* Prompt is anchored at the top: in production it's unchanged on reveal (only the answer zone
+          below fills in). In recognition the Swedish word lives here, so its forms join it on reveal
+          and the centered group nudges to fit them — the only thing that moves up top. */}
       <div class={styles.prompt}>
         <span class={styles.promptWord}>{promptWord}</span>
         {promptDisambig ? <span class={styles.disambig}>({promptDisambig})</span> : null}
@@ -69,6 +70,14 @@ export function StudyCard({ view, revealed }: { view: PracticeCardView; revealed
         {/* Recognition shows the Swedish word on the prompt, so its pronunciation is available
             immediately. (Production keeps it in the reveal, so it can't leak the answer.) */}
         {isRecognition ? <SpeakButton text={target.lemma} lang={target.lang} /> : null}
+        {/* In recognition the Swedish word is the prompt, so its forms enrich it right here — shown
+            on reveal so the card stays clean until then. (In production the Swedish word is the
+            revealed answer, so its forms sit with it down in the reveal zone instead.) */}
+        {isRecognition && revealed ? (
+          <div class={styles.promptForms}>
+            <Inflections display={inflections} />
+          </div>
+        ) : null}
         {/* Sense cue for homonyms — disambiguates which meaning is asked. Pre-reveal only. */}
         {cue && !revealed ? <span class={styles.promptExample}>{cue}</span> : null}
       </div>
@@ -88,8 +97,9 @@ export function StudyCard({ view, revealed }: { view: PracticeCardView; revealed
             {/* The user's note sits right under the meaning — it's their gloss on the word. */}
             {overlay?.noteText ? <p class={styles.note}>{overlay.noteText}</p> : null}
 
-            {/* The target word's forms (renders nothing when it has none). */}
-            <Inflections display={inflections} />
+            {/* The target word's forms (renders nothing when it has none). Production only — in
+                recognition the Swedish word is on the prompt, so its forms ride along up there. */}
+            {!isRecognition ? <Inflections display={inflections} /> : null}
 
             {target.subDefinitions?.length ? (
               <ul class={styles.subdefs}>

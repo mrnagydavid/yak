@@ -126,7 +126,9 @@ export function PracticeScreen() {
         class={`${styles.cardArea} ${isRevealed ? '' : styles.tappable}`}
         onClick={isRevealed ? undefined : () => setRevealed(true)}
       >
-        <StudyCard view={view} revealed={isRevealed} />
+        {/* Keyed on the index so each question is a fresh mount — that's what triggers the
+            card-in animation when advancing past a rating (tap-to-reveal keeps the same key). */}
+        <StudyCard key={index} view={view} revealed={isRevealed} />
       </div>
       {/* Wiktionary link for the Swedish word — pinned just above the rating buttons; shown only once
           revealed (so it can't hint the answer in production). The footer always reserves its space, so

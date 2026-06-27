@@ -5,6 +5,21 @@
   display: flex;
   flex-direction: column;
   padding: 16px 4px 0;
+  /* Each new question fades + scales in (keyed on the session index in PracticeScreen) so advancing
+     past a rating isn't an abrupt swap. Re-revealing the same card doesn't remount, so this plays
+     once per question — not on tap-to-reveal. */
+  animation: card-in 240ms ease-out;
+}
+
+@keyframes card-in {
+  from {
+    opacity: 0;
+    transform: scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 .newBadge {
@@ -53,6 +68,16 @@
   font-size: 15px;
   font-style: italic;
   color: var(--color-text-secondary);
+}
+
+/* Recognition shows the target word's forms under the prompt word on reveal. They fade in (the
+   prompt re-centers to fit them) so the addition reads as intentional. Centered as a column so the
+   noun declension grid and the verb/adjective one-liner both sit under the word. */
+.promptForms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: reveal-in 180ms ease-out;
 }
 
 /* Lower zone below a persistent divider: holds the reveal (or the "tap to reveal" hint). Fixed in
