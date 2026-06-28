@@ -186,6 +186,14 @@
   color: #fff;
 }
 
+/* Kind explainer under the level chips: clarifies that "your level" is a starting point and the
+   words you learn come from one level up. */
+.levelHelp {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--color-text-secondary);
+}
+
 .link {
   align-self: flex-start;
   background: none;

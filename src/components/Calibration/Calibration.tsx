@@ -22,6 +22,9 @@ export function Calibration({
   const [items, setItems] = useState<CalibrationItem[] | null>(null)
   const [index, setIndex] = useState(0)
   const [revealed, setRevealed] = useState(false)
+  // An intro screen sets expectations before the sweep begins (it can run long for advanced users).
+  // The pool preloads in the background meanwhile, so the first word is ready the moment they start.
+  const [started, setStarted] = useState(false)
 
   // Draw a fresh pool whenever the tested level changes (and on mount).
   useEffect(() => {
@@ -52,6 +55,32 @@ export function Calibration({
   }, [items, index, state.done])
 
   if (state.done) return null
+
+  if (!started) {
+    return (
+      <div class={styles.screen}>
+        <div class={styles.intro}>
+          <h2 class={styles.introTitle}>Let's find your level</h2>
+          <p class={styles.introText}>
+            We'll show you words one level at a time — easy at first, then gradually harder. For each one, try to recall it
+            in {languageName(targetLang)}, then tell us whether you knew it.
+          </p>
+          <p class={styles.introText}>
+            When a level gets too tricky, we'll stop there — and that's your level. The more you know, the longer it runs, so
+            it can take a few minutes if you're already advanced. Not up for it right now? You can skip and pick your level by hand instead.
+          </p>
+        </div>
+        <div class={styles.buttons}>
+          <button type="button" class={styles.dunno} onClick={onCancel}>
+            Not now
+          </button>
+          <button type="button" class={styles.know} onClick={() => setStarted(true)}>
+            I'm ready
+          </button>
+        </div>
+      </div>
+    )
+  }
 
   const current = items?.[index]
 

@@ -126,6 +126,10 @@ export function Onboarding() {
                 </button>
               ))}
             </div>
+            <p class={styles.levelHelp}>
+              Pick the level you're already comfortable with — your daily new words come from the level just above.
+              Choose B1, for example, and you'll start learning B2 words.
+            </p>
             <button class={styles.link} onClick={() => setStep('calibrate')}>
               Not sure? Take a quick assessment
             </button>

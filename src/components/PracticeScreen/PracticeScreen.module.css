@@ -65,6 +65,14 @@
   background: var(--color-bg-secondary);
 }
 
+/* Keeps the undo control's place in the topbar when there's nothing to undo, so the flex:1
+   progress track doesn't widen (and the fill appear to jump) when the in-memory undo stack
+   resets on a tab switch. A <span>, not a <div> — `.topbar > div` would stretch it. */
+.undoSlot {
+  flex-shrink: 0;
+  width: 36px;
+}
+
 .cardArea {
   flex: 1;
   min-height: 0;

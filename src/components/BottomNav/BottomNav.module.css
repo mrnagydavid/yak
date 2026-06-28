@@ -1,6 +1,10 @@
 .nav {
   flex-shrink: 0;
-  height: var(--nav-height);
+  /* The safe-area inset is added *on top of* the nav height (not carved out of it via box-sizing),
+     so the content box stays a full --nav-height and the border-top sits at the true top edge. On
+     iOS, folding the inset into a fixed height shrank the content box and let the centered icons
+     overflow upward across the separator line. */
+  height: calc(var(--nav-height) + env(safe-area-inset-bottom));
   background: var(--color-surface);
   border-top: 1px solid var(--color-border);
   display: flex;

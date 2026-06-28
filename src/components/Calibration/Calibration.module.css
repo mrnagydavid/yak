@@ -13,6 +13,27 @@
   justify-content: space-between;
 }
 
+/* Intro / explainer shown before the sweep starts — content grows to fill, buttons anchor at the
+   bottom thumb zone (same shape as the quiz card layout). */
+.intro {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14px;
+}
+
+.introTitle {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.introText {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+}
+
 .level {
   font-size: 13px;
   font-weight: 700;

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'preact/hooks'
+import { useEffect, useRef, useState } from 'preact/hooks'
 import { getPracticeCardView, type PracticeCardView } from '../../db/queries'
 import type { RatingLabel } from '../../srs/fsrs-adapter'
 import { composeSession, recordReview, type ReviewUndo, undoReview } from '../../srs/session-composer'
@@ -33,6 +33,9 @@ export function PracticeScreen() {
   // One undo token per rating made this sitting; lets the user take back accidental taps,
   // card by card. In-memory only — it's gone after a refresh or tab switch (SPEC §6.5).
   const [undoStack, setUndoStack] = useState<ReviewUndo[]>([])
+  // The local day this session was composed for. If the app is left open past midnight (no
+  // remount), foregrounding it recomposes so "caught up" doesn't stick into the new day.
+  const loadedDayRef = useRef(resumed?.dayKey ?? dayKey())
 
   async function load(pushFurther = false) {
     const cards = await composeSession(Date.now(), pushFurther)
@@ -40,6 +43,7 @@ export function PracticeScreen() {
       (v): v is PracticeCardView => v !== null,
     )
     const nextCanPush = pushFurther ? resolved.length > 0 : true
+    loadedDayRef.current = dayKey()
     setViews(resolved)
     setIndex(0)
     setRevealed(false)
@@ -61,6 +65,7 @@ export function PracticeScreen() {
       (v): v is PracticeCardView => v !== null,
     )
     const restoredIndex = Math.min(persisted.index, resolved.length)
+    loadedDayRef.current = persisted.dayKey
     setViews(resolved)
     setIndex(restoredIndex)
     setRevealed(false)
@@ -76,6 +81,26 @@ export function PracticeScreen() {
 
   useEffect(() => {
     if (views === null) void resumeOrLoad() // no in-memory session → try the persisted one, else compose
+  }, [])
+
+  // Recompose if the app is foregrounded (or restored from bfcache) on a new local day while still
+  // mounted — switching tabs already remounts and handles this, but staying on Practice past
+  // midnight would otherwise keep showing the stale (often "caught up") session until a refresh.
+  // A ref keeps the latest resumeOrLoad so the once-registered listener never calls a stale closure.
+  const reloadRef = useRef(resumeOrLoad)
+  reloadRef.current = resumeOrLoad
+  useEffect(() => {
+    function check() {
+      if (document.visibilityState === 'visible' && dayKey() !== loadedDayRef.current) {
+        void reloadRef.current()
+      }
+    }
+    document.addEventListener('visibilitychange', check)
+    window.addEventListener('pageshow', check) // iOS PWA back-forward-cache restore
+    return () => {
+      document.removeEventListener('visibilitychange', check)
+      window.removeEventListener('pageshow', check)
+    }
   }, [])
 
   if (views === null) {
@@ -156,7 +181,9 @@ export function PracticeScreen() {
     <div class={styles.screen}>
       <div class={styles.topbar}>
         <ProgressBar value={index} total={views.length} />
-        {undoStack.length > 0 ? <UndoButton onClick={() => void undo()} /> : null}
+        {/* Always reserve the undo slot so the progress track's width stays put when the in-memory
+            undo stack resets on a tab switch (it's per-sitting, not part of the resumed session). */}
+        {undoStack.length > 0 ? <UndoButton onClick={() => void undo()} /> : <span class={styles.undoSlot} aria-hidden="true" />}
         <button class={styles.edit} aria-label="Edit note, examples, translation" onClick={() => setEditing(true)}>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M12 20h9M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z" />

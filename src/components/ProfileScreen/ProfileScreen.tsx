@@ -93,6 +93,9 @@ export function ProfileScreen() {
             </button>
           ))}
         </div>
+        <p class={styles.muted}>
+          Your daily new words come from the level just above this one — pick B1 and you'll start learning B2 words.
+        </p>
         <button class={styles.link} onClick={() => setAssessing(true)}>
           Not sure? Run a quick assessment
         </button>
