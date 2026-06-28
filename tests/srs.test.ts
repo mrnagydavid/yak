@@ -278,19 +278,58 @@ describe('session-composer', () => {
       expect([...day1a].sort()).toEqual([...day2].sort()) // same set, different order
     })
 
-    it('keeps lower CEFR bands ahead of higher ones', () => {
+    function bandPool(cefr: Cefr, n: number, prefix: string) {
+      const entries: Entry[] = []
+      const translations: Translation[] = []
+      for (let i = 0; i < n; i++) {
+        const e = entry(`${prefix}_${String(i).padStart(2, '0')}`, 'seed', cefr)
+        entries.push(e)
+        translations.push(translation(`t_${prefix}_${i}`, e.id))
+      }
+      return { entries, translations }
+    }
+
+    it('favours the near-level band but keeps a thin tail of the lower one', () => {
       seq = 0
-      const a1 = entry('zzz_a1', 'seed', 'A1') // alphabetically last, but lower band
-      const a2 = entry('aaa_a2', 'seed', 'A2') // alphabetically first, but higher band
+      const own = bandPool('A2', 60, 'a2') // user's own band (distance 0)
+      const lower = bandPool('A1', 60, 'a1') // one step below (distance 1)
+      const cefrById = new Map<string, Cefr>()
+      for (const e of own.entries) cefrById.set(e.id, 'A2')
+      for (const e of lower.entries) cefrById.set(e.id, 'A1')
       const cards = composeSessionPure(
         base({
-          entries: [a1, a2],
-          translations: [translation('t_a1', a1.id), translation('t_a2', a2.id)],
+          level: 'A2',
+          limits: { newPerDay: 100, practicePerDay: 60 }, // cap bites: 60 of 120
+          entries: [...own.entries, ...lower.entries],
+          translations: [...own.translations, ...lower.translations],
         }),
       )
-      const firstA1 = cards.findIndex((c) => c.targetEntryId === a1.id)
-      const firstA2 = cards.findIndex((c) => c.targetEntryId === a2.id)
-      expect(firstA1).toBeLessThan(firstA2)
+      const count = (c: Cefr) => cards.filter((x) => cefrById.get(x.targetEntryId) === c).length
+      expect(count('A2')).toBeGreaterThan(count('A1')) // near-level dominates the session
+      expect(count('A1')).toBeGreaterThan(0) // ...but the lower band is not starved
+    })
+
+    it('grades a multi-band backlog by proximity (B1 → B1 > A2 > A1)', () => {
+      seq = 0
+      const b1 = bandPool('B1', 60, 'b1') // distance 0
+      const a2 = bandPool('A2', 60, 'a2') // distance 1
+      const a1 = bandPool('A1', 60, 'a1') // distance 2
+      const cefrById = new Map<string, Cefr>()
+      for (const e of b1.entries) cefrById.set(e.id, 'B1')
+      for (const e of a2.entries) cefrById.set(e.id, 'A2')
+      for (const e of a1.entries) cefrById.set(e.id, 'A1')
+      const cards = composeSessionPure(
+        base({
+          level: 'B1',
+          limits: { newPerDay: 100, practicePerDay: 90 }, // 90 of 180
+          entries: [...b1.entries, ...a2.entries, ...a1.entries],
+          translations: [...b1.translations, ...a2.translations, ...a1.translations],
+        }),
+      )
+      const count = (c: Cefr) => cards.filter((x) => cefrById.get(x.targetEntryId) === c).length
+      expect(count('B1')).toBeGreaterThan(count('A2'))
+      expect(count('A2')).toBeGreaterThan(count('A1'))
+      expect(count('A1')).toBeGreaterThan(0) // tail still represented
     })
   })
 

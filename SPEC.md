@@ -285,6 +285,13 @@ Seed entries at `cefr ≤ UserLevel` that have no SRS state are still eligible f
 - `Easy` → seeded with a long interval (user knew it)
 - Functionally: every word at-or-below claimed level is "calibrated" on its first natural encounter, with no upfront ceremony
 
+**Backlog ordering.** A freshly-levelled profile has no SRS state for any at-or-below-level word, so the calibration backlog can be the entire A1–UserLevel range (thousands of words). §6.2 step 2 pins the order of cards *with* SRS state (by `due`); the no-SRS backlog is instead surfaced as a **weighted proximity mix** so the user practises mostly around their own level rather than grinding up from A1:
+
+- Each candidate gets a sampling weight that **halves per CEFR step below the claimed level** (the user's own band ≈ half the calibration slots, the next ≈ a quarter, and so on — at B1, B1:A2:A1 ≈ 4:2:1). Lower bands stay represented but thin; none are starved.
+- Within that weighting, order is a **stable-per-day, day-to-day-varying shuffle**, so a large backlog isn't surfaced in a fixed order and the daily mix rotates.
+- Scheduled (has-SRS, due) cards always come first; this weighting only governs how the remaining backlog fills the day's practice budget.
+- The decay is a single tunable constant (`CALIBRATION_BAND_DECAY`, default `0.5`); it is scale-invariant, so a higher claimed level simply yields a longer, thinner tail of lower bands.
+
 This is the default mechanism. The explicit calibration sweep (section 6.4) is optional.
 
 ### 6.4 Explicit calibration sweep

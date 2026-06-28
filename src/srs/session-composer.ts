@@ -30,6 +30,10 @@ import { cefrRank, levelRank } from './levels'
 //        shown review-style (SPEC §6.3); rating creates initial state
 //      - cefr == UserLevel+1, or user-added / study==='always' → new pool (new-card mode)
 //    This reconciles §6.1 (practice = has-SRS) with §6.3 (calibrate <=level on encounter).
+//    The calibration backlog can be huge (every band at-or-below level, with no SRS state
+//    on a freshly-levelled profile), so it is surfaced as a weighted proximity mix: each
+//    session is mostly the user's own band with a thinner tail of lower bands, rather than
+//    grinding through the lowest band first. See `calibrationWeight` / the practice sort.
 //
 // 3. Practice cards with SRS state are only included when due (due <= now); not-yet-due
 //    cards surface on the day they come due. (Drives the all-caught-up screen, §7.7.)
@@ -59,15 +63,34 @@ function productionUnlocked(recognize?: ReviewState): boolean {
   )
 }
 
-// FNV-1a 32-bit hash → [0, 1). Used to give calibration candidates a stable-per-day but
-// day-to-day-varying order, so a huge below-level pool isn't always surfaced alphabetically.
+// FNV-1a 32-bit hash + murmur3 avalanche → [0, 1). Gives calibration candidates a
+// stable-per-day but day-to-day-varying value. The avalanche finalizer matters: near-
+// identical inputs (`dayStart:id` for sequential ids) leave FNV's output clustered, which
+// would bias the weighted proximity draw; fmix32 decorrelates it to ~uniform.
 function hash01(s: string): number {
   let h = 2166136261 >>> 0
   for (let i = 0; i < s.length; i++) {
     h ^= s.charCodeAt(i)
     h = Math.imul(h, 16777619)
   }
+  // murmur3 fmix32 finalizer
+  h ^= h >>> 16
+  h = Math.imul(h, 0x85ebca6b)
+  h ^= h >>> 13
+  h = Math.imul(h, 0xc2b2ae35)
+  h ^= h >>> 16
   return (h >>> 0) / 4294967296
+}
+
+// How fast a calibration band's share of the session decays per CEFR step below the
+// claimed level. 0.5 → each step down gets half the weight of the one above, so the mix is
+// scale-invariant: the user's own band ≈ half the calibration slots, the next ≈ a quarter,
+// and so on (at B1, B1:A2:A1 ≈ 4:2:1). Lower bands stay represented but thin, never starved.
+const CALIBRATION_BAND_DECAY = 0.5
+
+/** Sampling weight for a calibration candidate `distance` CEFR steps below the claim. */
+function calibrationWeight(distance: number): number {
+  return CALIBRATION_BAND_DECAY ** distance
 }
 
 type Band = 'new' | 'calibration' | 'ineligible'
@@ -169,12 +192,16 @@ export function composeSessionPure(input: ComposerInput): SessionCard[] {
         if (rs.due <= now) practice.push({ card: { ...card, mode: 'practice' }, entry, userAdded, forced })
       } else if (entry.source === 'seed' && cefrRank(entry.cefr) <= lr) {
         // Calibration candidate — no SRS state yet, but practiced review-style (SPEC §6.3).
+        // Weighted per-day key (Efraimidis–Spirakis `u^(1/w)`, larger = earlier): near-level
+        // bands get a higher weight and dominate, lower bands form a thin tail. (SPEC §6.3)
+        const distance = lr - cefrRank(entry.cefr)
+        const u = hash01(`${dayStart}:${entry.id}`)
         practice.push({
           card: { ...card, mode: 'practice' },
           entry,
           userAdded,
           forced,
-          calibrationKey: hash01(`${dayStart}:${entry.id}`),
+          calibrationKey: u ** (1 / calibrationWeight(distance)),
         })
       } else {
         fresh.push({ card, entry, userAdded, forced })
@@ -183,17 +210,15 @@ export function composeSessionPure(input: ComposerInput): SessionCard[] {
   }
 
   // Practice order: due SRS cards by due asc then lastReview asc; calibration candidates
-  // (no SRS) after, by CEFR band then a per-day shuffle within the band. (SPEC §6.2 step 2)
+  // (no SRS) after, by weighted per-day key descending — a proximity mix that favours the
+  // user's own band with a thin tail of lower bands. (SPEC §6.2 step 2, §6.3)
   practice.sort((a, b) => {
     const ra = a.card.reviewState
     const rb = b.card.reviewState
     if (ra && rb) return ra.due - rb.due || (ra.lastReview ?? 0) - (rb.lastReview ?? 0)
     if (ra) return -1
     if (rb) return 1
-    return (
-      cefrRank(a.entry.cefr) - cefrRank(b.entry.cefr) ||
-      (a.calibrationKey ?? 0) - (b.calibrationKey ?? 0)
-    )
+    return (b.calibrationKey ?? 0) - (a.calibrationKey ?? 0)
   })
 
   // New order: user-added first, then force-studied (always), then progression
