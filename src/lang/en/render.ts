@@ -28,7 +28,8 @@ export const enRenderer: LanguageRenderer = {
       label,
       value,
     }))
-    return { summary: rows.map((r) => r.value).join(' · '), rows }
+    const line = rows.map((r) => r.value).join(' · ')
+    return { summary: line ? [line] : [], rows }
   },
 
   renderFeatures(): FeatureBadge[] {

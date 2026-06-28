@@ -64,7 +64,11 @@ function collapseDuplicates(entries) {
     // unioning their (often un-cleaned) sub-defs just re-injects noise. Examples DO union (more
     // attested sentences is strictly better, and they carry no gloss-quality risk).
     const subDefinitions = (rows[0].subDefinitions ?? []).slice(0, 4)
-    const examples = [...new Set(rows.flatMap((r) => r.examples ?? []))].slice(0, 2)
+    // Prefer the survivor's examples (rows[0] is the lowest-CEFR/richest row, and its kellyId is the
+    // one carried into the seed — so any curated example is keyed to it). Only fall back to the union
+    // of merged-away rows when the survivor has none. Unconditional unioning re-injected a sibling's
+    // long Wiktionary example over a curated short one (e.g. miljon num vs noun, tills).
+    const examples = (rows[0].examples?.length ? rows[0].examples : [...new Set(rows.flatMap((r) => r.examples ?? []))]).slice(0, 2)
     if (subDefinitions.length) keep.subDefinitions = subDefinitions
     else delete keep.subDefinitions
     if (examples.length) keep.examples = examples
@@ -176,6 +180,24 @@ async function main() {
   }
   await writeFile(AMBIGUOUS_OUT, JSON.stringify(ambiguous, null, 2))
 
+  // Flag lemmas pronounced differently across senses (e.g. kort kɔrt "short" vs kʊrt "card"). The
+  // per-sense IPA is correct, but browser TTS can't be steered to a sense, so the app suppresses the
+  // audio button for these (the IPA text still shows). Stamped on every entry of an affected lemma.
+  const ipaByLemma = new Map()
+  for (const e of finalEntries) {
+    if (!e.ipa) continue
+    const set = ipaByLemma.get(e.lemma) ?? new Set()
+    set.add(cleanIpa(e.ipa))
+    ipaByLemma.set(e.lemma, set)
+  }
+  let ipaAmbiguousCount = 0
+  for (const e of finalEntries) {
+    if (e.ipa && (ipaByLemma.get(e.lemma)?.size ?? 0) > 1) {
+      e.ipaAmbiguous = true
+      ipaAmbiguousCount++
+    }
+  }
+
   // Stamp each entry with a per-entry content hash (`h`) for changed-only seed-sync. `h` is added
   // after hashing so it never feeds into its own hash.
   const seedEntries = finalEntries.map(toSeedEntry).map((e) => ({ ...e, h: entryHash(e) }))
@@ -196,6 +218,7 @@ async function main() {
   await writeFile('public/version.json', versionJson)
   console.log(`seed-sv.json: ${seedEntries.length} entries (dropped ${dropped}, omitted ${omitted} untranslated)`)
   console.log(`ambiguous cards: ${ambiguous.length} → ${AMBIGUOUS_OUT}`)
+  console.log(`ipa-ambiguous entries (TTS suppressed): ${ipaAmbiguousCount}`)
 }
 
 main().catch((e) => {

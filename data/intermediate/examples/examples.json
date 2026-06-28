@@ -1384,7 +1384,7 @@
     "kellyId": 426,
     "lemma": "en",
     "examples": [
-      "Man vet aldrig vad som händer en."
+      "Musik gör en glad."
     ]
   },
   {
@@ -24968,6 +24968,3535 @@
     "lemma": "syra",
     "examples": [
       "De brukar syra kål inför vintern."
+    ]
+  },
+  {
+    "kellyId": 34,
+    "lemma": "miljon",
+    "examples": [
+      "Staden har en miljon invånare."
+    ]
+  },
+  {
+    "kellyId": 59,
+    "lemma": "Stockholm",
+    "examples": [
+      "Jag bor i Stockholm."
+    ]
+  },
+  {
+    "kellyId": 89,
+    "lemma": "i",
+    "examples": [
+      "Kim bor i Stockholm."
+    ]
+  },
+  {
+    "kellyId": 106,
+    "lemma": "liten",
+    "examples": [
+      "Katten är liten och söt."
+    ]
+  },
+  {
+    "kellyId": 110,
+    "lemma": "unna",
+    "examples": [
+      "Jag unnade mig en stor hamburgare efter löpturen."
+    ]
+  },
+  {
+    "kellyId": 112,
+    "lemma": "vi",
+    "examples": [
+      "Vi äter middag tillsammans."
+    ]
+  },
+  {
+    "kellyId": 122,
+    "lemma": "bli",
+    "examples": [
+      "Jag blev glad när jag fick klappa kaninen."
+    ]
+  },
+  {
+    "kellyId": 123,
+    "lemma": "komma",
+    "examples": [
+      "Kan du komma hem till mig imorgon?"
+    ]
+  },
+  {
+    "kellyId": 125,
+    "lemma": "sin",
+    "examples": [
+      "Han hämtade sin post för tio minuter sedan."
+    ]
+  },
+  {
+    "kellyId": 126,
+    "lemma": "eller",
+    "examples": [
+      "Vill du ha te eller kaffe?"
+    ]
+  },
+  {
+    "kellyId": 136,
+    "lemma": "finna",
+    "examples": [
+      "Var kan man finna en kopp kaffe här i närheten?"
+    ]
+  },
+  {
+    "kellyId": 140,
+    "lemma": "måste",
+    "examples": [
+      "Jag måste gå nu."
+    ]
+  },
+  {
+    "kellyId": 149,
+    "lemma": "äga",
+    "examples": [
+      "Hon äger ett stort hus."
+    ]
+  },
+  {
+    "kellyId": 152,
+    "lemma": "också",
+    "examples": [
+      "Jag gillar kaffe, och te också."
+    ]
+  },
+  {
+    "kellyId": 2660,
+    "lemma": "ju",
+    "examples": [
+      "Bussen går ju klockan tre."
+    ]
+  },
+  {
+    "kellyId": 196,
+    "lemma": "oss",
+    "examples": [
+      "Såg du oss där?"
+    ]
+  },
+  {
+    "kellyId": 198,
+    "lemma": "el",
+    "examples": [
+      "El kostar mer nu än förut."
+    ]
+  },
+  {
+    "kellyId": 199,
+    "lemma": "tycka",
+    "examples": [
+      "Vad tycker du om filmen?"
+    ]
+  },
+  {
+    "kellyId": 202,
+    "lemma": "idag",
+    "examples": [
+      "Jag ska dit idag."
+    ]
+  },
+  {
+    "kellyId": 208,
+    "lemma": "läsa",
+    "examples": [
+      "Jag läste en rolig bok."
+    ]
+  },
+  {
+    "kellyId": 210,
+    "lemma": "kanske",
+    "examples": [
+      "Kanske kommer hon imorgon."
+    ]
+  },
+  {
+    "kellyId": 213,
+    "lemma": "olik",
+    "examples": [
+      "Vi är olika, men vi är vänner."
+    ]
+  },
+  {
+    "kellyId": 214,
+    "lemma": "sådan",
+    "examples": [
+      "Jag har aldrig sett en sådan bil."
+    ]
+  },
+  {
+    "kellyId": 218,
+    "lemma": "gång",
+    "examples": [
+      "Efter en timmes gång kom de fram."
+    ]
+  },
+  {
+    "kellyId": 219,
+    "lemma": "stå",
+    "examples": [
+      "Hon står vid dörren."
+    ]
+  },
+  {
+    "kellyId": 220,
+    "lemma": "inom",
+    "examples": [
+      "Jag kommer inom fem minuter."
+    ]
+  },
+  {
+    "kellyId": 231,
+    "lemma": "enligt",
+    "examples": [
+      "Enligt läraren är provet på fredag."
+    ]
+  },
+  {
+    "kellyId": 233,
+    "lemma": "ni",
+    "examples": [
+      "Vad vill ni ha att äta?"
+    ]
+  },
+  {
+    "kellyId": 234,
+    "lemma": "viktig",
+    "examples": [
+      "Det är viktigt att sova."
+    ]
+  },
+  {
+    "kellyId": 236,
+    "lemma": "eftersom",
+    "examples": [
+      "Vi kommer inte in eftersom hon tappade bort nycklarna."
+    ]
+  },
+  {
+    "kellyId": 237,
+    "lemma": "liv",
+    "examples": [
+      "Han har ett bra liv."
+    ]
+  },
+  {
+    "kellyId": 240,
+    "lemma": "viss",
+    "examples": [
+      "I vissa städer är det varmt hela året."
+    ]
+  },
+  {
+    "kellyId": 241,
+    "lemma": "dock",
+    "examples": [
+      "Det är sent. Jag är dock inte trött."
+    ]
+  },
+  {
+    "kellyId": 245,
+    "lemma": "fram",
+    "examples": [
+      "Kom fram hit!"
+    ]
+  },
+  {
+    "kellyId": 250,
+    "lemma": "sak",
+    "examples": [
+      "Det ligger en massa saker på bänken."
+    ]
+  },
+  {
+    "kellyId": 267,
+    "lemma": "varje",
+    "examples": [
+      "Varje dag äter jag frukost."
+    ]
+  },
+  {
+    "kellyId": 269,
+    "lemma": "anse",
+    "examples": [
+      "Jag anser att det är en bra idé."
+    ]
+  },
+  {
+    "kellyId": 270,
+    "lemma": "öva",
+    "examples": [
+      "Jag kan inte spela gitarr än, men jag övar varje dag."
+    ]
+  },
+  {
+    "kellyId": 275,
+    "lemma": "nog",
+    "examples": [
+      "Har vi nog med mat för picknicken?"
+    ]
+  },
+  {
+    "kellyId": 292,
+    "lemma": "samt",
+    "examples": [
+      "Vi säljer bröd samt mjölk."
+    ]
+  },
+  {
+    "kellyId": 298,
+    "lemma": "verka",
+    "examples": [
+      "Det verkar som om han är trött."
+    ]
+  },
+  {
+    "kellyId": 304,
+    "lemma": "alltså",
+    "examples": [
+      "Han var sjuk, alltså stannade han hemma."
+    ]
+  },
+  {
+    "kellyId": 309,
+    "lemma": "genom att",
+    "examples": [
+      "Du lär dig svenska genom att öva varje dag."
+    ]
+  },
+  {
+    "kellyId": 311,
+    "lemma": "möjlighet",
+    "examples": [
+      "Det finns en möjlighet att vi vinner."
+    ]
+  },
+  {
+    "kellyId": 312,
+    "lemma": "ord",
+    "examples": [
+      "Hon sa inte ett ord."
+    ]
+  },
+  {
+    "kellyId": 321,
+    "lemma": "så att",
+    "examples": [
+      "Han stängde dörren så att katten inte kunde springa ut."
+    ]
+  },
+  {
+    "kellyId": 323,
+    "lemma": "hitta",
+    "examples": [
+      "Jag hittar inte nycklarna."
+    ]
+  },
+  {
+    "kellyId": 328,
+    "lemma": "ändå",
+    "examples": [
+      "Han är stark men ändå smidig."
+    ]
+  },
+  {
+    "kellyId": 334,
+    "lemma": "svår",
+    "examples": [
+      "Uppgift 3 på provet är svår."
+    ]
+  },
+  {
+    "kellyId": 337,
+    "lemma": "plats",
+    "examples": [
+      "Ursäkta, är den här platsen upptagen?"
+    ]
+  },
+  {
+    "kellyId": 341,
+    "lemma": "politik",
+    "examples": [
+      "Han gillar att prata om politik."
+    ]
+  },
+  {
+    "kellyId": 344,
+    "lemma": "peng",
+    "examples": [
+      "Jag har bara en peng kvar i plånboken."
+    ]
+  },
+  {
+    "kellyId": 355,
+    "lemma": "faktiskt",
+    "examples": [
+      "– Den där snubben är cool. – Ja, faktiskt!"
+    ]
+  },
+  {
+    "kellyId": 368,
+    "lemma": "namn",
+    "examples": [
+      "Vad heter du? Mitt namn är Anna."
+    ]
+  },
+  {
+    "kellyId": 392,
+    "lemma": "heller",
+    "examples": [
+      "Jag kan inte simma, och det kan inte Lisa heller."
+    ]
+  },
+  {
+    "kellyId": 394,
+    "lemma": "hand",
+    "examples": [
+      "Hon klappade hunden med handen."
+    ]
+  },
+  {
+    "kellyId": 395,
+    "lemma": "uppgift",
+    "examples": [
+      "Jag har en ny uppgift åt dig."
+    ]
+  },
+  {
+    "kellyId": 401,
+    "lemma": "bland",
+    "examples": [
+      "Hon är bland de bästa i klassen."
+    ]
+  },
+  {
+    "kellyId": 416,
+    "lemma": "inför",
+    "examples": [
+      "Carl läste upp sin dikt inför hela klassen."
+    ]
+  },
+  {
+    "kellyId": 417,
+    "lemma": "historia",
+    "examples": [
+      "Hon är professor i historia."
+    ]
+  },
+  {
+    "kellyId": 419,
+    "lemma": "berätta",
+    "examples": [
+      "Kan du berätta en saga för mig?"
+    ]
+  },
+  {
+    "kellyId": 881,
+    "lemma": "tillbaka",
+    "examples": [
+      "Har du fått tillbaka din plånbok än?"
+    ]
+  },
+  {
+    "kellyId": 452,
+    "lemma": "föra",
+    "examples": [
+      "Läraren förde barnen till klassrummet."
+    ]
+  },
+  {
+    "kellyId": 474,
+    "lemma": "vänta",
+    "examples": [
+      "Vi väntar på bussen."
+    ]
+  },
+  {
+    "kellyId": 475,
+    "lemma": "tidig",
+    "examples": [
+      "Jag tog en tidig lunch idag."
+    ]
+  },
+  {
+    "kellyId": 483,
+    "lemma": "klara",
+    "examples": [
+      "Klarar du av att simma en kilometer?"
+    ]
+  },
+  {
+    "kellyId": 488,
+    "lemma": "tur",
+    "examples": [
+      "Vi tog en tur i parken."
+    ]
+  },
+  {
+    "kellyId": 490,
+    "lemma": "medium",
+    "examples": [
+      "Tröjan finns i small, medium och large."
+    ]
+  },
+  {
+    "kellyId": 492,
+    "lemma": "varandra",
+    "examples": [
+      "Vi hjälper varandra."
+    ]
+  },
+  {
+    "kellyId": 498,
+    "lemma": "prata",
+    "examples": [
+      "Vad pratar ni om?"
+    ]
+  },
+  {
+    "kellyId": 502,
+    "lemma": "anmäla",
+    "examples": [
+      "Han anmälde stölden till polisen."
+    ]
+  },
+  {
+    "kellyId": 503,
+    "lemma": "nå",
+    "examples": [
+      "Kan du nå hyllan där uppe?"
+    ]
+  },
+  {
+    "kellyId": 504,
+    "lemma": "bo",
+    "examples": [
+      "Jag vill bo i en stor stad."
+    ]
+  },
+  {
+    "kellyId": 511,
+    "lemma": "därmed",
+    "examples": [
+      "Han bröt mot lagen och har därmed gjort sig skyldig."
+    ]
+  },
+  {
+    "kellyId": 523,
+    "lemma": "fri",
+    "examples": [
+      "Du är fri att göra som du vill."
+    ]
+  },
+  {
+    "kellyId": 527,
+    "lemma": "hoppas",
+    "examples": [
+      "Jag hoppas att du har trevligt."
+    ]
+  },
+  {
+    "kellyId": 534,
+    "lemma": "tvinga",
+    "examples": [
+      "Hon tvingade honom att städa huset."
+    ]
+  },
+  {
+    "kellyId": 535,
+    "lemma": "påverka",
+    "examples": [
+      "Låt honom inte påverka ditt beslut!"
+    ]
+  },
+  {
+    "kellyId": 536,
+    "lemma": "anledning",
+    "examples": [
+      "Anledningen till att jag är blöt är att det har regnat."
+    ]
+  },
+  {
+    "kellyId": 543,
+    "lemma": "bestämma",
+    "examples": [
+      "Vem bestämmer vad vi ska göra?"
+    ]
+  },
+  {
+    "kellyId": 549,
+    "lemma": "faktum",
+    "examples": [
+      "Det är ett faktum att vatten kokar vid 100 grader."
+    ]
+  },
+  {
+    "kellyId": 551,
+    "lemma": "mening",
+    "examples": [
+      "Vad är meningen med det?"
+    ]
+  },
+  {
+    "kellyId": 552,
+    "lemma": "utanför",
+    "examples": [
+      "Utanför köpcentret är det kallt."
+    ]
+  },
+  {
+    "kellyId": 557,
+    "lemma": "is",
+    "examples": [
+      "Det är is på sjön på vintern."
+    ]
+  },
+  {
+    "kellyId": 577,
+    "lemma": "tyda",
+    "examples": [
+      "Kan du tyda min handstil?"
+    ]
+  },
+  {
+    "kellyId": 589,
+    "lemma": "enkel",
+    "examples": [
+      "Den här uppgiften är enkel."
+    ]
+  },
+  {
+    "kellyId": 591,
+    "lemma": "pris",
+    "examples": [
+      "Vad är priset på den här jackan?"
+    ]
+  },
+  {
+    "kellyId": 595,
+    "lemma": "möta",
+    "examples": [
+      "Jag mötte honom vid bensinstationen."
+    ]
+  },
+  {
+    "kellyId": 596,
+    "lemma": "såsom",
+    "examples": [
+      "Han är känd såsom en bra lärare."
+    ]
+  },
+  {
+    "kellyId": 599,
+    "lemma": "förra",
+    "examples": [
+      "Vi träffades förra veckan."
+    ]
+  },
+  {
+    "kellyId": 600,
+    "lemma": "tjänst",
+    "examples": [
+      "Kan du göra mig en tjänst?"
+    ]
+  },
+  {
+    "kellyId": 601,
+    "lemma": "heta",
+    "examples": [
+      "Vad heter du?"
+    ]
+  },
+  {
+    "kellyId": 604,
+    "lemma": "syfte",
+    "examples": [
+      "Vad är syftet med det här projektet?"
+    ]
+  },
+  {
+    "kellyId": 606,
+    "lemma": "flytta",
+    "examples": [
+      "Han flyttade grejen till en ny plats."
+    ]
+  },
+  {
+    "kellyId": 619,
+    "lemma": "mängd",
+    "examples": [
+      "Det finns en stor mängd böcker i biblioteket."
+    ]
+  },
+  {
+    "kellyId": 621,
+    "lemma": "kristen",
+    "examples": [
+      "Min familj är kristen."
+    ]
+  },
+  {
+    "kellyId": 624,
+    "lemma": "allt",
+    "examples": [
+      "Det har blivit allt svårare att hitta bra mat."
+    ]
+  },
+  {
+    "kellyId": 625,
+    "lemma": "kväll",
+    "examples": [
+      "Vi ses ikväll."
+    ]
+  },
+  {
+    "kellyId": 627,
+    "lemma": "länk",
+    "examples": [
+      "Klicka på länken för att öppna sidan."
+    ]
+  },
+  {
+    "kellyId": 628,
+    "lemma": "växa",
+    "examples": [
+      "Blommorna växer i trädgården."
+    ]
+  },
+  {
+    "kellyId": 631,
+    "lemma": "såväl",
+    "examples": [
+      "Han talar såväl svenska som engelska."
+    ]
+  },
+  {
+    "kellyId": 633,
+    "lemma": "vatten",
+    "examples": [
+      "Kan jag få ett glas vatten?"
+    ]
+  },
+  {
+    "kellyId": 635,
+    "lemma": "mänsklig",
+    "examples": [
+      "Det är mänskligt att göra misstag."
+    ]
+  },
+  {
+    "kellyId": 643,
+    "lemma": "enskild",
+    "examples": [
+      "Vi kommenterar inte enskilda fall."
+    ]
+  },
+  {
+    "kellyId": 651,
+    "lemma": "ort",
+    "examples": [
+      "Han bor i en liten ort utanför Stockholm."
+    ]
+  },
+  {
+    "kellyId": 652,
+    "lemma": "anta",
+    "examples": [
+      "Anta att X är tre."
+    ]
+  },
+  {
+    "kellyId": 670,
+    "lemma": "ungefär",
+    "examples": [
+      "Mannen är ungefär fyrtio år gammal."
+    ]
+  },
+  {
+    "kellyId": 679,
+    "lemma": "öga",
+    "examples": [
+      "Hon har blå ögon."
+    ]
+  },
+  {
+    "kellyId": 680,
+    "lemma": "säkert",
+    "examples": [
+      "Det kommer säkert att regna."
+    ]
+  },
+  {
+    "kellyId": 686,
+    "lemma": "övrig",
+    "examples": [
+      "De övriga eleverna väntade utanför."
+    ]
+  },
+  {
+    "kellyId": 687,
+    "lemma": "dels",
+    "examples": [
+      "Paketet innehåller dels en bok, dels en penna."
+    ]
+  },
+  {
+    "kellyId": 692,
+    "lemma": "bero",
+    "examples": [
+      "Det beror på vädret."
+    ]
+  },
+  {
+    "kellyId": 703,
+    "lemma": "gilla",
+    "examples": [
+      "Du kommer säkert att gilla henne."
+    ]
+  },
+  {
+    "kellyId": 705,
+    "lemma": "hjälp",
+    "examples": [
+      "Tack för hjälpen!"
+    ]
+  },
+  {
+    "kellyId": 707,
+    "lemma": "innehålla",
+    "examples": [
+      "Apelsiner innehåller mycket C-vitamin."
+    ]
+  },
+  {
+    "kellyId": 709,
+    "lemma": "tillfälle",
+    "examples": [
+      "Det var ett bra tillfälle att öva."
+    ]
+  },
+  {
+    "kellyId": 714,
+    "lemma": "helt enkelt",
+    "examples": [
+      "Vi får helt enkelt vänta."
+    ]
+  },
+  {
+    "kellyId": 720,
+    "lemma": "hävda",
+    "examples": [
+      "Han hävdar att han är oskyldig."
+    ]
+  },
+  {
+    "kellyId": 722,
+    "lemma": "effekt",
+    "examples": [
+      "Åtgärderna har haft positiv effekt."
+    ]
+  },
+  {
+    "kellyId": 724,
+    "lemma": "det vill säga",
+    "examples": [
+      "Katten är ett däggdjur, det vill säga ett varmblodig djur."
+    ]
+  },
+  {
+    "kellyId": 727,
+    "lemma": "värde",
+    "examples": [
+      "Den här ringen har stort värde för mig."
+    ]
+  },
+  {
+    "kellyId": 729,
+    "lemma": "sats",
+    "examples": [
+      "Pytagoras sats är känd i hela världen."
+    ]
+  },
+  {
+    "kellyId": 731,
+    "lemma": "hinna",
+    "examples": [
+      "Bussen går om fem minuter, så vi hinner inte leka lekar just nu."
+    ]
+  },
+  {
+    "kellyId": 734,
+    "lemma": "källa",
+    "examples": [
+      "Var kom du fram till den informationen? Vad är din källa?"
+    ]
+  },
+  {
+    "kellyId": 735,
+    "lemma": "må",
+    "examples": [
+      "Må hon ha en trevlig dag!"
+    ]
+  },
+  {
+    "kellyId": 738,
+    "lemma": "förhållande",
+    "examples": [
+      "Olyckan ägde rum i svåra förhållanden."
+    ]
+  },
+  {
+    "kellyId": 743,
+    "lemma": "enbart",
+    "examples": [
+      "Hon ville enbart ha ketchup på burgaren."
+    ]
+  },
+  {
+    "kellyId": 757,
+    "lemma": "mamma",
+    "examples": [
+      "Han älskar sin mamma."
+    ]
+  },
+  {
+    "kellyId": 774,
+    "lemma": "grad",
+    "examples": [
+      "Det är tio grader ute idag."
+    ]
+  },
+  {
+    "kellyId": 784,
+    "lemma": "ingå",
+    "examples": [
+      "Frukost ingår i priset."
+    ]
+  },
+  {
+    "kellyId": 788,
+    "lemma": "konstatera",
+    "examples": [
+      "Vi konstaterade att dörren var låst."
+    ]
+  },
+  {
+    "kellyId": 792,
+    "lemma": "styra",
+    "examples": [
+      "Hon styrde båten mot land."
+    ]
+  },
+  {
+    "kellyId": 794,
+    "lemma": "vit",
+    "examples": [
+      "Snön är vit."
+    ]
+  },
+  {
+    "kellyId": 799,
+    "lemma": "befolkning",
+    "examples": [
+      "Sveriges befolkning uppgår till omkring tio miljoner personer."
+    ]
+  },
+  {
+    "kellyId": 806,
+    "lemma": "ond",
+    "examples": [
+      "Häxan i sagan är ond."
+    ]
+  },
+  {
+    "kellyId": 810,
+    "lemma": "hund",
+    "examples": [
+      "Hon klappade hunden."
+    ]
+  },
+  {
+    "kellyId": 829,
+    "lemma": "åtminstone",
+    "examples": [
+      "Det finns åtminstone fem godissorter på affären."
+    ]
+  },
+  {
+    "kellyId": 835,
+    "lemma": "ingenting",
+    "examples": [
+      "Jag vet ingenting om det."
+    ]
+  },
+  {
+    "kellyId": 837,
+    "lemma": "samla",
+    "examples": [
+      "Jag samlar på frimärken."
+    ]
+  },
+  {
+    "kellyId": 842,
+    "lemma": "kärlek",
+    "examples": [
+      "Kärlek är viktigt i livet."
+    ]
+  },
+  {
+    "kellyId": 845,
+    "lemma": "säker",
+    "examples": [
+      "Är kassaskåpet säkert?"
+    ]
+  },
+  {
+    "kellyId": 851,
+    "lemma": "lösa",
+    "examples": [
+      "Han kunde inte lösa det svåraste problemet."
+    ]
+  },
+  {
+    "kellyId": 854,
+    "lemma": "bestämmelse",
+    "examples": [
+      "Du måste följa bestämmelserna på jobbet."
+    ]
+  },
+  {
+    "kellyId": 856,
+    "lemma": "drabba",
+    "examples": [
+      "Han drabbades av en svår sjukdom."
+    ]
+  },
+  {
+    "kellyId": 865,
+    "lemma": "ren",
+    "examples": [
+      "En tvättmaskin gör kläder rena."
+    ]
+  },
+  {
+    "kellyId": 871,
+    "lemma": "ställning",
+    "examples": [
+      "Jag hittade ingen bekväm ställning att sova i."
+    ]
+  },
+  {
+    "kellyId": 872,
+    "lemma": "främst",
+    "examples": [
+      "Det här är främst en politisk fråga."
+    ]
+  },
+  {
+    "kellyId": 877,
+    "lemma": "sommar",
+    "examples": [
+      "På sommaren simmar vi i havet."
+    ]
+  },
+  {
+    "kellyId": 886,
+    "lemma": "uppstå",
+    "examples": [
+      "Det kan uppstå problem om du inte är försiktig."
+    ]
+  },
+  {
+    "kellyId": 888,
+    "lemma": "huvud",
+    "examples": [
+      "Hon skakade på huvudet."
+    ]
+  },
+  {
+    "kellyId": 900,
+    "lemma": "begrepp",
+    "examples": [
+      "Bråk är ett matematiskt begrepp."
+    ]
+  },
+  {
+    "kellyId": 905,
+    "lemma": "chans",
+    "examples": [
+      "Missa inte den här chansen!"
+    ]
+  },
+  {
+    "kellyId": 914,
+    "lemma": "styck",
+    "examples": [
+      "De kostar tio kronor styck."
+    ]
+  },
+  {
+    "kellyId": 918,
+    "lemma": "uppdrag",
+    "examples": [
+      "Hon fick i uppdrag att skriva rapporten."
+    ]
+  },
+  {
+    "kellyId": 919,
+    "lemma": "mark",
+    "examples": [
+      "Han lade sig platt på marken."
+    ]
+  },
+  {
+    "kellyId": 926,
+    "lemma": "fredag",
+    "examples": [
+      "Vi ses på fredag!"
+    ]
+  },
+  {
+    "kellyId": 935,
+    "lemma": "verk",
+    "examples": [
+      "Den här boken är ett vackert verk."
+    ]
+  },
+  {
+    "kellyId": 944,
+    "lemma": "befinna",
+    "examples": [
+      "Var befinner du dig nu?"
+    ]
+  },
+  {
+    "kellyId": 954,
+    "lemma": "bedömning",
+    "examples": [
+      "Läraren gjorde en bedömning av testet."
+    ]
+  },
+  {
+    "kellyId": 956,
+    "lemma": "betrakta",
+    "examples": [
+      "Katten betraktade honom misstänksamt."
+    ]
+  },
+  {
+    "kellyId": 960,
+    "lemma": "hänga",
+    "examples": [
+      "Jag hängde tavlan på väggen."
+    ]
+  },
+  {
+    "kellyId": 963,
+    "lemma": "aktuell",
+    "examples": [
+      "Det är ett aktuellt ämne."
+    ]
+  },
+  {
+    "kellyId": 964,
+    "lemma": "någonsin",
+    "examples": [
+      "Har du någonsin sett något liknande?"
+    ]
+  },
+  {
+    "kellyId": 977,
+    "lemma": "förekomma",
+    "examples": [
+      "Det förekom droger på festen."
+    ]
+  },
+  {
+    "kellyId": 983,
+    "lemma": "trycka",
+    "examples": [
+      "Du måste trycka på knappen."
+    ]
+  },
+  {
+    "kellyId": 994,
+    "lemma": "slutsats",
+    "examples": [
+      "Vad är din slutsats?"
+    ]
+  },
+  {
+    "kellyId": 1002,
+    "lemma": "rädda",
+    "examples": [
+      "Du har räddat mitt liv!"
+    ]
+  },
+  {
+    "kellyId": 1021,
+    "lemma": "därför att",
+    "examples": [
+      "Jag stannar hemma därför att jag är sjuk."
+    ]
+  },
+  {
+    "kellyId": 1024,
+    "lemma": "tills",
+    "examples": [
+      "Vänta här tills jag kommer tillbaka."
+    ]
+  },
+  {
+    "kellyId": 1031,
+    "lemma": "döma",
+    "examples": [
+      "Domaren dömde honom till böter."
+    ]
+  },
+  {
+    "kellyId": 1037,
+    "lemma": "inleda",
+    "examples": [
+      "Hon inledde mötet med ett tal."
+    ]
+  },
+  {
+    "kellyId": 1038,
+    "lemma": "helg",
+    "examples": [
+      "Nu tar jag helg, vi syns på måndag."
+    ]
+  },
+  {
+    "kellyId": 1040,
+    "lemma": "ryck",
+    "examples": [
+      "Han vaknade med ett ryck."
+    ]
+  },
+  {
+    "kellyId": 1045,
+    "lemma": "pappa",
+    "examples": [
+      "Hon älskar sin pappa."
+    ]
+  },
+  {
+    "kellyId": 1048,
+    "lemma": "råka",
+    "examples": [
+      "Jag råkade välta vasen."
+    ]
+  },
+  {
+    "kellyId": 1054,
+    "lemma": "erkänna",
+    "examples": [
+      "Hon gick till polisen och erkände allt."
+    ]
+  },
+  {
+    "kellyId": 1057,
+    "lemma": "historisk",
+    "examples": [
+      "Det här är en historisk seger."
+    ]
+  },
+  {
+    "kellyId": 1062,
+    "lemma": "teknisk",
+    "examples": [
+      "Det är ett tekniskt problem."
+    ]
+  },
+  {
+    "kellyId": 1065,
+    "lemma": "bedöma",
+    "examples": [
+      "Kan du bedöma situationen?"
+    ]
+  },
+  {
+    "kellyId": 1084,
+    "lemma": "utnyttja",
+    "examples": [
+      "Du borde utnyttja den här möjligheten."
+    ]
+  },
+  {
+    "kellyId": 1085,
+    "lemma": "teori",
+    "examples": [
+      "Det är bara en teori."
+    ]
+  },
+  {
+    "kellyId": 1089,
+    "lemma": "flertal",
+    "examples": [
+      "Ett flertal elever var sjuka i dag."
+    ]
+  },
+  {
+    "kellyId": 1093,
+    "lemma": "skön",
+    "examples": [
+      "Det var en skön sommardag."
+    ]
+  },
+  {
+    "kellyId": 1100,
+    "lemma": "märka",
+    "examples": [
+      "Märker du inte att båten sjunker?"
+    ]
+  },
+  {
+    "kellyId": 1109,
+    "lemma": "ägna",
+    "examples": [
+      "I somras ägnade vi oss mycket åt fiske."
+    ]
+  },
+  {
+    "kellyId": 1112,
+    "lemma": "satsa",
+    "examples": [
+      "Han satsade allt på svart på casinot."
+    ]
+  },
+  {
+    "kellyId": 1114,
+    "lemma": "rida",
+    "examples": [
+      "Hon rider på hästen varje dag."
+    ]
+  },
+  {
+    "kellyId": 1115,
+    "lemma": "jo",
+    "examples": [
+      "– Gillar du inte glass? – Jo, det gör jag!"
+    ]
+  },
+  {
+    "kellyId": 1125,
+    "lemma": "allvarlig",
+    "examples": [
+      "Han såg mycket allvarlig ut."
+    ]
+  },
+  {
+    "kellyId": 1128,
+    "lemma": "sjukdom",
+    "examples": [
+      "Det är en allvarlig sjukdom."
+    ]
+  },
+  {
+    "kellyId": 1133,
+    "lemma": "region",
+    "examples": [
+      "Hon bor i en varm region."
+    ]
+  },
+  {
+    "kellyId": 1134,
+    "lemma": "samtal",
+    "examples": [
+      "Vi hade ett trevligt samtal."
+    ]
+  },
+  {
+    "kellyId": 1144,
+    "lemma": "skjuta",
+    "examples": [
+      "Han sköt på måltavlan."
+    ]
+  },
+  {
+    "kellyId": 1146,
+    "lemma": "hämta",
+    "examples": [
+      "Jag hämtar dig på stationen."
+    ]
+  },
+  {
+    "kellyId": 1156,
+    "lemma": "utgå",
+    "examples": [
+      "Jag utgår från att du förstår."
+    ]
+  },
+  {
+    "kellyId": 1175,
+    "lemma": "siffra",
+    "examples": [
+      "Skriv siffran tre på pappret."
+    ]
+  },
+  {
+    "kellyId": 1182,
+    "lemma": "praktik",
+    "examples": [
+      "I praktiken är det svårare än det verkar."
+    ]
+  },
+  {
+    "kellyId": 1186,
+    "lemma": "tjej",
+    "examples": [
+      "Hon är en glad tjej."
+    ]
+  },
+  {
+    "kellyId": 1190,
+    "lemma": "avgöra",
+    "examples": [
+      "Det är svårt att avgöra vem som vann."
+    ]
+  },
+  {
+    "kellyId": 1193,
+    "lemma": "strid",
+    "examples": [
+      "Soldaterna stupade i strid."
+    ]
+  },
+  {
+    "kellyId": 1208,
+    "lemma": "grön",
+    "examples": [
+      "Gräset är grönt."
+    ]
+  },
+  {
+    "kellyId": 1213,
+    "lemma": "skydd",
+    "examples": [
+      "Vaccinet ger bra skydd mot sjukdomen."
+    ]
+  },
+  {
+    "kellyId": 1214,
+    "lemma": "hittills",
+    "examples": [
+      "Han har hittills aldrig kommit försent."
+    ]
+  },
+  {
+    "kellyId": 1235,
+    "lemma": "råda",
+    "examples": [
+      "Doktorn rådde mig att vila mer."
+    ]
+  },
+  {
+    "kellyId": 1252,
+    "lemma": "spår",
+    "examples": [
+      "Rävspåret var lätt att följa i snön."
+    ]
+  },
+  {
+    "kellyId": 1263,
+    "lemma": "rike",
+    "examples": [
+      "Kungen styrde ett stort rike."
+    ]
+  },
+  {
+    "kellyId": 1264,
+    "lemma": "framgå",
+    "examples": [
+      "Det framgår inte av texten."
+    ]
+  },
+  {
+    "kellyId": 1274,
+    "lemma": "visserligen",
+    "examples": [
+      "Det är visserligen dyrt, men det är bra."
+    ]
+  },
+  {
+    "kellyId": 1276,
+    "lemma": "undantag",
+    "examples": [
+      "Det finns alltid ett undantag."
+    ]
+  },
+  {
+    "kellyId": 1280,
+    "lemma": "dricka",
+    "examples": [
+      "Nej tack, jag dricker inte."
+    ]
+  },
+  {
+    "kellyId": 1287,
+    "lemma": "tvärtom",
+    "examples": [
+      "Säger man åt honom något så gör han tvärtom."
+    ]
+  },
+  {
+    "kellyId": 1290,
+    "lemma": "sänka",
+    "examples": [
+      "De sänkte priset på biljetter."
+    ]
+  },
+  {
+    "kellyId": 1292,
+    "lemma": "givare",
+    "examples": [
+      "Gud älskar en glad givare."
+    ]
+  },
+  {
+    "kellyId": 1294,
+    "lemma": "nyligen",
+    "examples": [
+      "Hon kom nyligen tillbaka från semestern."
+    ]
+  },
+  {
+    "kellyId": 1298,
+    "lemma": "ifrågasätta",
+    "examples": [
+      "Han ifrågasatte lärarens beslut."
+    ]
+  },
+  {
+    "kellyId": 1304,
+    "lemma": "rimlig",
+    "examples": [
+      "Det låter som en rimlig förklaring."
+    ]
+  },
+  {
+    "kellyId": 1311,
+    "lemma": "fot",
+    "examples": [
+      "Mina fötter gör ont."
+    ]
+  },
+  {
+    "kellyId": 1313,
+    "lemma": "vag",
+    "examples": [
+      "Svaret var ganska vagt."
+    ]
+  },
+  {
+    "kellyId": 1330,
+    "lemma": "nöjd",
+    "examples": [
+      "Du behöver inte ge mig mer – jag är nöjd."
+    ]
+  },
+  {
+    "kellyId": 1337,
+    "lemma": "bit",
+    "examples": [
+      "Vill du ha en bit tårta?"
+    ]
+  },
+  {
+    "kellyId": 1358,
+    "lemma": "världskrig",
+    "examples": [
+      "Det första världskriget började 1914."
+    ]
+  },
+  {
+    "kellyId": 1390,
+    "lemma": "fastställa",
+    "examples": [
+      "De fastställde ett datum för nästa möte."
+    ]
+  },
+  {
+    "kellyId": 1391,
+    "lemma": "parlament",
+    "examples": [
+      "Frågan debatteras i parlamentet."
+    ]
+  },
+  {
+    "kellyId": 1393,
+    "lemma": "levande",
+    "examples": [
+      "Är den här fisken levande?"
+    ]
+  },
+  {
+    "kellyId": 1402,
+    "lemma": "himmel",
+    "examples": [
+      "Det är en blå himmel i dag."
+    ]
+  },
+  {
+    "kellyId": 1407,
+    "lemma": "kurs",
+    "examples": [
+      "Jag gick en kurs i spanska."
+    ]
+  },
+  {
+    "kellyId": 1426,
+    "lemma": "någonstans",
+    "examples": [
+      "Jag glömde mina glasögon någonstans."
+    ]
+  },
+  {
+    "kellyId": 1429,
+    "lemma": "knappt",
+    "examples": [
+      "Jag kan knappt se utan glasögon."
+    ]
+  },
+  {
+    "kellyId": 1435,
+    "lemma": "begära",
+    "examples": [
+      "Jag har begärt ledigt i nästa vecka."
+    ]
+  },
+  {
+    "kellyId": 1445,
+    "lemma": "grunda",
+    "examples": [
+      "Staden grundades under medeltiden."
+    ]
+  },
+  {
+    "kellyId": 1455,
+    "lemma": "syfta",
+    "examples": [
+      "Lagen syftar till att skydda barn."
+    ]
+  },
+  {
+    "kellyId": 1456,
+    "lemma": "bror",
+    "examples": [
+      "Ey, bror, kom hit!"
+    ]
+  },
+  {
+    "kellyId": 1461,
+    "lemma": "allmänhet",
+    "examples": [
+      "Slottet är öppet för allmänheten."
+    ]
+  },
+  {
+    "kellyId": 1467,
+    "lemma": "bloggare",
+    "examples": [
+      "Hon är en känd bloggare."
+    ]
+  },
+  {
+    "kellyId": 1483,
+    "lemma": "förrän",
+    "examples": [
+      "Du får inte gå förrän du är klar."
+    ]
+  },
+  {
+    "kellyId": 1489,
+    "lemma": "uppmana",
+    "examples": [
+      "Bilister uppmanas att köra försiktigt i halkan."
+    ]
+  },
+  {
+    "kellyId": 1499,
+    "lemma": "fiende",
+    "examples": [
+      "De är bittra fiender."
+    ]
+  },
+  {
+    "kellyId": 1500,
+    "lemma": "lopp",
+    "examples": [
+      "Hon vann loppet med en sekund."
+    ]
+  },
+  {
+    "kellyId": 1510,
+    "lemma": "ana",
+    "examples": [
+      "Jag anar att något är fel."
+    ]
+  },
+  {
+    "kellyId": 1511,
+    "lemma": "inställning",
+    "examples": [
+      "Han har en positiv inställning till livet."
+    ]
+  },
+  {
+    "kellyId": 1514,
+    "lemma": "pröva",
+    "examples": [
+      "Vill du pröva det nya receptet?"
+    ]
+  },
+  {
+    "kellyId": 1515,
+    "lemma": "egenskap",
+    "examples": [
+      "Ärlighet är en bra egenskap."
+    ]
+  },
+  {
+    "kellyId": 1516,
+    "lemma": "rekommendera",
+    "examples": [
+      "Kan du rekommendera en bra restaurang?"
+    ]
+  },
+  {
+    "kellyId": 2227,
+    "lemma": "anställd",
+    "examples": [
+      "Hon är anställd på ett café."
+    ]
+  },
+  {
+    "kellyId": 1543,
+    "lemma": "påminna",
+    "examples": [
+      "Kan du påminna mig om mötet?"
+    ]
+  },
+  {
+    "kellyId": 1558,
+    "lemma": "något",
+    "examples": [
+      "Publiken var något större än förväntat."
+    ]
+  },
+  {
+    "kellyId": 1561,
+    "lemma": "scen",
+    "examples": [
+      "Sångaren gick upp på scenen."
+    ]
+  },
+  {
+    "kellyId": 1570,
+    "lemma": "fly",
+    "examples": [
+      "Fångarna försökte fly från fängelset."
+    ]
+  },
+  {
+    "kellyId": 1583,
+    "lemma": "herre",
+    "examples": [
+      "Mina damer och herrar!"
+    ]
+  },
+  {
+    "kellyId": 1591,
+    "lemma": "landsting",
+    "examples": [
+      "Landstinget ansvarar för sjukvården i regionen."
+    ]
+  },
+  {
+    "kellyId": 1613,
+    "lemma": "middag",
+    "examples": [
+      "Vad åt du till middag?"
+    ]
+  },
+  {
+    "kellyId": 1621,
+    "lemma": "upphovsrätt",
+    "examples": [
+      "Den här bilden skyddas av upphovsrätt."
+    ]
+  },
+  {
+    "kellyId": 1629,
+    "lemma": "kär",
+    "examples": [
+      "Jag tror jag börjar bli kär i honom."
+    ]
+  },
+  {
+    "kellyId": 1630,
+    "lemma": "äng",
+    "examples": [
+      "Det betade kor på ängen."
+    ]
+  },
+  {
+    "kellyId": 1632,
+    "lemma": "buss",
+    "examples": [
+      "Kommer inte bussen snart?"
+    ]
+  },
+  {
+    "kellyId": 1635,
+    "lemma": "make",
+    "examples": [
+      "Hon hade inte sett sin make på hela dagen."
+    ]
+  },
+  {
+    "kellyId": 1636,
+    "lemma": "antagligen",
+    "examples": [
+      "Han är antagligen hemma nu."
+    ]
+  },
+  {
+    "kellyId": 1641,
+    "lemma": "utöver",
+    "examples": [
+      "Utöver finska pratas även svenska i Finland."
+    ]
+  },
+  {
+    "kellyId": 1651,
+    "lemma": "äktenskap",
+    "examples": [
+      "De hade ett lyckligt äktenskap."
+    ]
+  },
+  {
+    "kellyId": 1653,
+    "lemma": "uppe",
+    "examples": [
+      "Katten sitter uppe på taket."
+    ]
+  },
+  {
+    "kellyId": 1663,
+    "lemma": "sjukhus",
+    "examples": [
+      "Han låg på sjukhus i en vecka."
+    ]
+  },
+  {
+    "kellyId": 1670,
+    "lemma": "gentemot",
+    "examples": [
+      "Du måste vara ärlig gentemot dina vänner."
+    ]
+  },
+  {
+    "kellyId": 1671,
+    "lemma": "tack vare",
+    "examples": [
+      "Tack vare dig klarade jag provet."
+    ]
+  },
+  {
+    "kellyId": 1695,
+    "lemma": "i första hand",
+    "examples": [
+      "Lägenheterna ska i första hand gå till studenter."
+    ]
+  },
+  {
+    "kellyId": 1696,
+    "lemma": "meddelande",
+    "examples": [
+      "Jag skickade ett meddelande till henne."
+    ]
+  },
+  {
+    "kellyId": 1724,
+    "lemma": "väder",
+    "examples": [
+      "Vilket fint väder i dag!"
+    ]
+  },
+  {
+    "kellyId": 1733,
+    "lemma": "artist",
+    "examples": [
+      "Det är min favoritartist."
+    ]
+  },
+  {
+    "kellyId": 1738,
+    "lemma": "ytterst",
+    "examples": [
+      "Han sitter ytterst i raden."
+    ]
+  },
+  {
+    "kellyId": 1746,
+    "lemma": "flyga",
+    "examples": [
+      "Vi flyger till Spanien i sommar."
+    ]
+  },
+  {
+    "kellyId": 1752,
+    "lemma": "fart",
+    "examples": [
+      "Bilen körde i hög fart."
+    ]
+  },
+  {
+    "kellyId": 1757,
+    "lemma": "opposition",
+    "examples": [
+      "Förslaget mötte stark opposition."
+    ]
+  },
+  {
+    "kellyId": 1772,
+    "lemma": "föremål",
+    "examples": [
+      "Han hittade ett okänt föremål på golvet."
+    ]
+  },
+  {
+    "kellyId": 1794,
+    "lemma": "organ",
+    "examples": [
+      "Hjärtat är ett viktigt organ i kroppen."
+    ]
+  },
+  {
+    "kellyId": 1804,
+    "lemma": "grej",
+    "examples": [
+      "Var vill du att jag lägger grejerna?"
+    ]
+  },
+  {
+    "kellyId": 1817,
+    "lemma": "leverera",
+    "examples": [
+      "Paketet levererades i dag."
+    ]
+  },
+  {
+    "kellyId": 1819,
+    "lemma": "var och en",
+    "examples": [
+      "Var och en måste ta sitt ansvar."
+    ]
+  },
+  {
+    "kellyId": 1827,
+    "lemma": "med andra ord",
+    "examples": [
+      "Han är trött, med andra ord vill han sova."
+    ]
+  },
+  {
+    "kellyId": 1833,
+    "lemma": "uppmärksamma",
+    "examples": [
+      "Hon uppmärksammade ett fel i texten."
+    ]
+  },
+  {
+    "kellyId": 1836,
+    "lemma": "skratta",
+    "examples": [
+      "Han skrattade åt det roliga skämtet."
+    ]
+  },
+  {
+    "kellyId": 1844,
+    "lemma": "svenska",
+    "examples": [
+      "Talar du svenska?"
+    ]
+  },
+  {
+    "kellyId": 1852,
+    "lemma": "regim",
+    "examples": [
+      "Den gamla regimen har störtats."
+    ]
+  },
+  {
+    "kellyId": 1853,
+    "lemma": "utöva",
+    "examples": [
+      "Hon utövar yoga varje morgon."
+    ]
+  },
+  {
+    "kellyId": 1859,
+    "lemma": "torde",
+    "examples": [
+      "Det torde inte innebära några problem."
+    ]
+  },
+  {
+    "kellyId": 1862,
+    "lemma": "närma",
+    "examples": [
+      "Det närmar sig läggdags."
+    ]
+  },
+  {
+    "kellyId": 1863,
+    "lemma": "vind",
+    "examples": [
+      "Det blåser en kall vind i dag."
+    ]
+  },
+  {
+    "kellyId": 1873,
+    "lemma": "samband",
+    "examples": [
+      "Finns det ett samband mellan rökning och cancer?"
+    ]
+  },
+  {
+    "kellyId": 1874,
+    "lemma": "lugn",
+    "examples": [
+      "Havet var lugnt i morse."
+    ]
+  },
+  {
+    "kellyId": 1878,
+    "lemma": "bestämd",
+    "examples": [
+      "Tidpunkten är bestämd sedan länge."
+    ]
+  },
+  {
+    "kellyId": 1884,
+    "lemma": "definiera",
+    "examples": [
+      "Hur definierar du ordet 'frihet'?"
+    ]
+  },
+  {
+    "kellyId": 1885,
+    "lemma": "fönster",
+    "examples": [
+      "Hon tittade ut genom fönstret."
+    ]
+  },
+  {
+    "kellyId": 1891,
+    "lemma": "papper",
+    "examples": [
+      "Skriv ditt namn på pappret."
+    ]
+  },
+  {
+    "kellyId": 1911,
+    "lemma": "skatta",
+    "examples": [
+      "Han skattade att kostnaden skulle bli runt 1000 kr."
+    ]
+  },
+  {
+    "kellyId": 1915,
+    "lemma": "ifall",
+    "examples": [
+      "Ta med regnkläder ifall det börjar regna."
+    ]
+  },
+  {
+    "kellyId": 1928,
+    "lemma": "överhuvudtaget",
+    "examples": [
+      "Jag hörde inte vad han sa överhuvudtaget."
+    ]
+  },
+  {
+    "kellyId": 1941,
+    "lemma": "så småningom",
+    "examples": [
+      "Vi hittade så småningom rätt väg."
+    ]
+  },
+  {
+    "kellyId": 1948,
+    "lemma": "nere",
+    "examples": [
+      "Barnen leker nere på gatan."
+    ]
+  },
+  {
+    "kellyId": 1957,
+    "lemma": "i själva verket",
+    "examples": [
+      "Han verkar snäll, men i själva verket är han inte det."
+    ]
+  },
+  {
+    "kellyId": 1959,
+    "lemma": "i fråga",
+    "examples": [
+      "Mannen i fråga ska ha luktat tonfisk."
+    ]
+  },
+  {
+    "kellyId": 1960,
+    "lemma": "stjärna",
+    "examples": [
+      "Det lyser många stjärnor på himlen i natt."
+    ]
+  },
+  {
+    "kellyId": 1963,
+    "lemma": "blå",
+    "examples": [
+      "Himlen är blå."
+    ]
+  },
+  {
+    "kellyId": 1968,
+    "lemma": "bibel",
+    "examples": [
+      "Hon hittade en gammal bibel på vinden."
+    ]
+  },
+  {
+    "kellyId": 1971,
+    "lemma": "slänga",
+    "examples": [
+      "Han slängde bollen till mig."
+    ]
+  },
+  {
+    "kellyId": 1984,
+    "lemma": "återstå",
+    "examples": [
+      "Det återstår bara en bit."
+    ]
+  },
+  {
+    "kellyId": 1993,
+    "lemma": "strand",
+    "examples": [
+      "Vi sitter på stranden och solar."
+    ]
+  },
+  {
+    "kellyId": 2003,
+    "lemma": "eld",
+    "examples": [
+      "Det brinner! Det är eld i huset!"
+    ]
+  },
+  {
+    "kellyId": 2011,
+    "lemma": "revolutionär",
+    "examples": [
+      "Det var en revolutionär idé."
+    ]
+  },
+  {
+    "kellyId": 2026,
+    "lemma": "fest",
+    "examples": [
+      "Vi har en fest på fredag."
+    ]
+  },
+  {
+    "kellyId": 2032,
+    "lemma": "dum",
+    "examples": [
+      "Det var ett dumt misstag."
+    ]
+  },
+  {
+    "kellyId": 2050,
+    "lemma": "stöta",
+    "examples": [
+      "Jag stötte emot bordet i mörkret."
+    ]
+  },
+  {
+    "kellyId": 2051,
+    "lemma": "förneka",
+    "examples": [
+      "Han förnekade att han hade ljugit."
+    ]
+  },
+  {
+    "kellyId": 2062,
+    "lemma": "främmande",
+    "examples": [
+      "En främmande man kom fram till mig."
+    ]
+  },
+  {
+    "kellyId": 2072,
+    "lemma": "höjd",
+    "examples": [
+      "Fågeln flyger på en höjd av tio meter."
+    ]
+  },
+  {
+    "kellyId": 2078,
+    "lemma": "mil",
+    "examples": [
+      "Vi körde tre mil till staden."
+    ]
+  },
+  {
+    "kellyId": 2080,
+    "lemma": "eventuellt",
+    "examples": [
+      "Han kommer eventuellt på festen."
+    ]
+  },
+  {
+    "kellyId": 2087,
+    "lemma": "lögn",
+    "examples": [
+      "Det är en lögn och det vet du."
+    ]
+  },
+  {
+    "kellyId": 2093,
+    "lemma": "gränsa",
+    "examples": [
+      "Sverige gränsar till Norge och Finland."
+    ]
+  },
+  {
+    "kellyId": 2113,
+    "lemma": "hur som helst",
+    "examples": [
+      "Hur som helst, nu måste jag åka hem."
+    ]
+  },
+  {
+    "kellyId": 2115,
+    "lemma": "osäker",
+    "examples": [
+      "Det är osäkert att gå ut ensam på natten."
+    ]
+  },
+  {
+    "kellyId": 2129,
+    "lemma": "boende",
+    "examples": [
+      "Vi söker ett billigt boende för semestern."
+    ]
+  },
+  {
+    "kellyId": 2131,
+    "lemma": "förvandla",
+    "examples": [
+      "Trollkarlen förvandlade henne till en fågel."
+    ]
+  },
+  {
+    "kellyId": 2137,
+    "lemma": "öra",
+    "examples": [
+      "Hon har ont i ett öra."
+    ]
+  },
+  {
+    "kellyId": 2143,
+    "lemma": "arg",
+    "examples": [
+      "Jag blev arg på honom."
+    ]
+  },
+  {
+    "kellyId": 2165,
+    "lemma": "tjänsteman",
+    "examples": [
+      "Han jobbar som tjänsteman på kommunen."
+    ]
+  },
+  {
+    "kellyId": 2173,
+    "lemma": "mörker",
+    "examples": [
+      "Det är svårt att se i mörkret."
+    ]
+  },
+  {
+    "kellyId": 2179,
+    "lemma": "dam",
+    "examples": [
+      "En äldre dam satt på bänken."
+    ]
+  },
+  {
+    "kellyId": 2180,
+    "lemma": "spansk",
+    "examples": [
+      "Jag tittar på en spansk film."
+    ]
+  },
+  {
+    "kellyId": 2189,
+    "lemma": "besökare",
+    "examples": [
+      "Museet hade många besökare i dag."
+    ]
+  },
+  {
+    "kellyId": 2197,
+    "lemma": "hat",
+    "examples": [
+      "Hat löser inga problem."
+    ]
+  },
+  {
+    "kellyId": 2208,
+    "lemma": "noga",
+    "examples": [
+      "Tänk igenom det noga."
+    ]
+  },
+  {
+    "kellyId": 2210,
+    "lemma": "till sist",
+    "examples": [
+      "Till sist hittade han nyckeln."
+    ]
+  },
+  {
+    "kellyId": 2212,
+    "lemma": "hamn",
+    "examples": [
+      "Båten låg i hamnen hela natten."
+    ]
+  },
+  {
+    "kellyId": 2220,
+    "lemma": "längd",
+    "examples": [
+      "Vad är längden på bordet?"
+    ]
+  },
+  {
+    "kellyId": 2236,
+    "lemma": "lust",
+    "examples": [
+      "Jag har ingen lust att städa idag."
+    ]
+  },
+  {
+    "kellyId": 2261,
+    "lemma": "semester",
+    "examples": [
+      "Vi åker på semester nästa vecka."
+    ]
+  },
+  {
+    "kellyId": 2268,
+    "lemma": "faktisk",
+    "examples": [
+      "Det är ett faktiskt problem."
+    ]
+  },
+  {
+    "kellyId": 2272,
+    "lemma": "angelägen",
+    "examples": [
+      "Han är angelägen om att lösa problemet."
+    ]
+  },
+  {
+    "kellyId": 2280,
+    "lemma": "hål",
+    "examples": [
+      "Det finns ett hål i min strumpa."
+    ]
+  },
+  {
+    "kellyId": 2288,
+    "lemma": "guld",
+    "examples": [
+      "Ringen är gjord av guld."
+    ]
+  },
+  {
+    "kellyId": 2316,
+    "lemma": "uppgå",
+    "examples": [
+      "Kostnaden uppgår till tusen kronor."
+    ]
+  },
+  {
+    "kellyId": 2331,
+    "lemma": "frid",
+    "examples": [
+      "Det råder frid och ro i huset."
+    ]
+  },
+  {
+    "kellyId": 2335,
+    "lemma": "förmå",
+    "examples": [
+      "Ingen förmår lyfta den stenen."
+    ]
+  },
+  {
+    "kellyId": 2341,
+    "lemma": "bränna",
+    "examples": [
+      "Jag råkade bränna maten."
+    ]
+  },
+  {
+    "kellyId": 2345,
+    "lemma": "föreställa",
+    "examples": [
+      "Tavlan föreställer ett bergslandskap."
+    ]
+  },
+  {
+    "kellyId": 2368,
+    "lemma": "tråd",
+    "examples": [
+      "Nålen hade en lång tråd."
+    ]
+  },
+  {
+    "kellyId": 2392,
+    "lemma": "ljuga",
+    "examples": [
+      "Han ljög för sina föräldrar."
+    ]
+  },
+  {
+    "kellyId": 2420,
+    "lemma": "ledig",
+    "examples": [
+      "Är den här stolen ledig?"
+    ]
+  },
+  {
+    "kellyId": 2436,
+    "lemma": "kors",
+    "examples": [
+      "Det hänger ett kors på väggen."
+    ]
+  },
+  {
+    "kellyId": 2439,
+    "lemma": "mod",
+    "examples": [
+      "Det krävs mod att säga sanningen."
+    ]
+  },
+  {
+    "kellyId": 2441,
+    "lemma": "överlämna",
+    "examples": [
+      "Hon överlämnade dokumenten till chefen."
+    ]
+  },
+  {
+    "kellyId": 2443,
+    "lemma": "oskyldig",
+    "examples": [
+      "Han är oskyldig – det vet alla."
+    ]
+  },
+  {
+    "kellyId": 2450,
+    "lemma": "fack",
+    "examples": [
+      "Lägg nycklarna i rätt fack."
+    ]
+  },
+  {
+    "kellyId": 2472,
+    "lemma": "saga",
+    "examples": [
+      "Mamma läser en saga för barnen."
+    ]
+  },
+  {
+    "kellyId": 2496,
+    "lemma": "äkta",
+    "examples": [
+      "Det är äkta guld."
+    ]
+  },
+  {
+    "kellyId": 2502,
+    "lemma": "uppträda",
+    "examples": [
+      "Bandet uppträder på fredag."
+    ]
+  },
+  {
+    "kellyId": 2503,
+    "lemma": "övergå",
+    "examples": [
+      "Hennes skönhet övergår allt jag sett."
+    ]
+  },
+  {
+    "kellyId": 2514,
+    "lemma": "ställningstagande",
+    "examples": [
+      "Det var ett tydligt politiskt ställningstagande."
+    ]
+  },
+  {
+    "kellyId": 2516,
+    "lemma": "frukost",
+    "examples": [
+      "Vad brukar du äta till frukost?"
+    ]
+  },
+  {
+    "kellyId": 2517,
+    "lemma": "förhoppning",
+    "examples": [
+      "Jag har en förhoppning om att det går bra."
+    ]
+  },
+  {
+    "kellyId": 2526,
+    "lemma": "röja",
+    "examples": [
+      "De röjde mark för att bygga ett hus."
+    ]
+  },
+  {
+    "kellyId": 2530,
+    "lemma": "i och för sig",
+    "examples": [
+      "Det är i och för sig en bra idé, men det kostar för mycket."
+    ]
+  },
+  {
+    "kellyId": 2536,
+    "lemma": "stjäla",
+    "examples": [
+      "Någon stjäl min cykel!"
+    ]
+  },
+  {
+    "kellyId": 2537,
+    "lemma": "online",
+    "examples": [
+      "Jag köper böcker online."
+    ]
+  },
+  {
+    "kellyId": 2550,
+    "lemma": "brinna",
+    "examples": [
+      "Det brinner! Ring brandkåren."
+    ]
+  },
+  {
+    "kellyId": 2551,
+    "lemma": "rinna",
+    "examples": [
+      "En liten bäck rinner genom skogen."
+    ]
+  },
+  {
+    "kellyId": 2552,
+    "lemma": "gärning",
+    "examples": [
+      "Det var en god gärning att hjälpa honom."
+    ]
+  },
+  {
+    "kellyId": 2561,
+    "lemma": "stryka",
+    "examples": [
+      "Jag måste stryka skjortan innan festen."
+    ]
+  },
+  {
+    "kellyId": 2586,
+    "lemma": "vittna",
+    "examples": [
+      "Hon vittnade om vad hon hade sett."
+    ]
+  },
+  {
+    "kellyId": 2590,
+    "lemma": "trivas",
+    "examples": [
+      "Jag trivs bra på mitt nya jobb."
+    ]
+  },
+  {
+    "kellyId": 2601,
+    "lemma": "från och med",
+    "examples": [
+      "Kursen börjar från och med måndag."
+    ]
+  },
+  {
+    "kellyId": 2612,
+    "lemma": "ängel",
+    "examples": [
+      "En ängel håller vakt över oss."
+    ]
+  },
+  {
+    "kellyId": 2615,
+    "lemma": "förhålla",
+    "examples": [
+      "Du måste förhålla dig lugn i den situationen."
+    ]
+  },
+  {
+    "kellyId": 2628,
+    "lemma": "återfinna",
+    "examples": [
+      "Han återfann sin gamla dagbok."
+    ]
+  },
+  {
+    "kellyId": 2647,
+    "lemma": "kopia",
+    "examples": [
+      "Kan jag få en kopia av kontraktet?"
+    ]
+  },
+  {
+    "kellyId": 2651,
+    "lemma": "egentlig",
+    "examples": [
+      "Vad är det egentliga problemet?"
+    ]
+  },
+  {
+    "kellyId": 2656,
+    "lemma": "längta",
+    "examples": [
+      "Barnen längtade till jullovet."
+    ]
+  },
+  {
+    "kellyId": 2673,
+    "lemma": "dansa",
+    "examples": [
+      "Vi dansade hela natten."
+    ]
+  },
+  {
+    "kellyId": 2678,
+    "lemma": "bro",
+    "examples": [
+      "Vi gick över bron till andra sidan."
+    ]
+  },
+  {
+    "kellyId": 2683,
+    "lemma": "innefatta",
+    "examples": [
+      "Priset innefattar frukost och middag."
+    ]
+  },
+  {
+    "kellyId": 2691,
+    "lemma": "nåd",
+    "examples": [
+      "Han bad om nåd."
+    ]
+  },
+  {
+    "kellyId": 2701,
+    "lemma": "utsikt",
+    "examples": [
+      "Rummet har en fin utsikt över sjön."
+    ]
+  },
+  {
+    "kellyId": 2718,
+    "lemma": "grundval",
+    "examples": [
+      "Tillit är grundvalen för ett bra samarbete."
+    ]
+  },
+  {
+    "kellyId": 2722,
+    "lemma": "föregående",
+    "examples": [
+      "Titta på föregående sida."
+    ]
+  },
+  {
+    "kellyId": 2728,
+    "lemma": "över huvud taget",
+    "examples": [
+      "Kan du över huvud taget simma?"
+    ]
+  },
+  {
+    "kellyId": 2729,
+    "lemma": "löpa",
+    "examples": [
+      "Vägen löper längs kusten."
+    ]
+  },
+  {
+    "kellyId": 2730,
+    "lemma": "blad",
+    "examples": [
+      "Löven tappade sina blad på hösten."
+    ]
+  },
+  {
+    "kellyId": 2736,
+    "lemma": "dans",
+    "examples": [
+      "Jag älskar dans."
+    ]
+  },
+  {
+    "kellyId": 2753,
+    "lemma": "tacksam",
+    "examples": [
+      "Jag är mycket tacksam för din hjälp."
+    ]
+  },
+  {
+    "kellyId": 2756,
+    "lemma": "utbilda",
+    "examples": [
+      "Skolan utbildar lärare och läkare."
+    ]
+  },
+  {
+    "kellyId": 2762,
+    "lemma": "skepp",
+    "examples": [
+      "Det stora skeppet lämnade hamnen."
+    ]
+  },
+  {
+    "kellyId": 2763,
+    "lemma": "utgång",
+    "examples": [
+      "Var är utgången?"
+    ]
+  },
+  {
+    "kellyId": 2773,
+    "lemma": "knä",
+    "examples": [
+      "Jag slog mig i knät."
+    ]
+  },
+  {
+    "kellyId": 2786,
+    "lemma": "smaka",
+    "examples": [
+      "Vill du smaka på soppan?"
+    ]
+  },
+  {
+    "kellyId": 2790,
+    "lemma": "värdera",
+    "examples": [
+      "Experten värderade tavlan till tio tusen kronor."
+    ]
+  },
+  {
+    "kellyId": 2796,
+    "lemma": "fördela",
+    "examples": [
+      "Vi fördelade arbetet mellan oss."
+    ]
+  },
+  {
+    "kellyId": 2801,
+    "lemma": "kopiera",
+    "examples": [
+      "Kan du kopiera det här dokumentet?"
+    ]
+  },
+  {
+    "kellyId": 2802,
+    "lemma": "övergång",
+    "examples": [
+      "Övergången till ett nytt system tar tid."
+    ]
+  },
+  {
+    "kellyId": 2812,
+    "lemma": "avgå",
+    "examples": [
+      "Ministern valde att avgå."
+    ]
+  },
+  {
+    "kellyId": 2817,
+    "lemma": "kunglig",
+    "examples": [
+      "Det var en kunglig middag."
+    ]
+  },
+  {
+    "kellyId": 2818,
+    "lemma": "anmälan",
+    "examples": [
+      "Skicka in din anmälan innan fredag."
+    ]
+  },
+  {
+    "kellyId": 2822,
+    "lemma": "förnuft",
+    "examples": [
+      "Använd ditt förnuft!"
+    ]
+  },
+  {
+    "kellyId": 2837,
+    "lemma": "exemplar",
+    "examples": [
+      "Boken såldes i tusen exemplar."
+    ]
+  },
+  {
+    "kellyId": 2851,
+    "lemma": "söt",
+    "examples": [
+      "Socker smakar sött."
+    ]
+  },
+  {
+    "kellyId": 2856,
+    "lemma": "ledsen",
+    "examples": [
+      "Du gör mig ledsen."
+    ]
+  },
+  {
+    "kellyId": 2870,
+    "lemma": "hals",
+    "examples": [
+      "Hon bar ett halsband runt halsen."
+    ]
+  },
+  {
+    "kellyId": 2871,
+    "lemma": "mån",
+    "examples": [
+      "I viss mån har han rätt."
+    ]
+  },
+  {
+    "kellyId": 2907,
+    "lemma": "fantasi",
+    "examples": [
+      "Barn har en rik fantasi."
+    ]
+  },
+  {
+    "kellyId": 2921,
+    "lemma": "sparka",
+    "examples": [
+      "Han sparkade bollen i mål."
+    ]
+  },
+  {
+    "kellyId": 2939,
+    "lemma": "axel",
+    "examples": [
+      "Hon bar väskan på axeln."
+    ]
+  },
+  {
+    "kellyId": 2947,
+    "lemma": "Sverige",
+    "examples": [
+      "Jag bor i Sverige."
+    ]
+  },
+  {
+    "kellyId": 2958,
+    "lemma": "snarast",
+    "examples": [
+      "Ring mig snarast!"
+    ]
+  },
+  {
+    "kellyId": 2969,
+    "lemma": "offra",
+    "examples": [
+      "Han offrade sin tid för att hjälpa oss."
+    ]
+  },
+  {
+    "kellyId": 2986,
+    "lemma": "dylik",
+    "examples": [
+      "En dylik situation har inte uppstått förut."
+    ]
+  },
+  {
+    "kellyId": 2999,
+    "lemma": "hundratal",
+    "examples": [
+      "Ett hundratal människor kom till mötet."
+    ]
+  },
+  {
+    "kellyId": 3021,
+    "lemma": "förebild",
+    "examples": [
+      "Han är en bra förebild för unga."
+    ]
+  },
+  {
+    "kellyId": 3046,
+    "lemma": "blandning",
+    "examples": [
+      "Det är en blandning av kaffe och mjölk."
+    ]
+  },
+  {
+    "kellyId": 3061,
+    "lemma": "avfall",
+    "examples": [
+      "Släng avfallet i rätt påse."
+    ]
+  },
+  {
+    "kellyId": 3073,
+    "lemma": "straffa",
+    "examples": [
+      "Det kan straffa sig att ljuga."
+    ]
+  },
+  {
+    "kellyId": 3079,
+    "lemma": "front",
+    "examples": [
+      "Bilen fick en skada på fronten."
+    ]
+  },
+  {
+    "kellyId": 3100,
+    "lemma": "lagom",
+    "examples": [
+      "Soppan är lagom saltad."
+    ]
+  },
+  {
+    "kellyId": 3126,
+    "lemma": "mysig",
+    "examples": [
+      "Det är mysigt hemma på kvällen."
+    ]
+  },
+  {
+    "kellyId": 3134,
+    "lemma": "akut",
+    "examples": [
+      "Det är akut – vi måste åka nu."
+    ]
+  },
+  {
+    "kellyId": 3152,
+    "lemma": "realistisk",
+    "examples": [
+      "Grafiken i spelet är mycket realistisk."
+    ]
+  },
+  {
+    "kellyId": 3156,
+    "lemma": "mobiltelefon",
+    "examples": [
+      "Jag glömde min mobiltelefon hemma."
+    ]
+  },
+  {
+    "kellyId": 3168,
+    "lemma": "presentation",
+    "examples": [
+      "Presentationen gick bra."
+    ]
+  },
+  {
+    "kellyId": 3170,
+    "lemma": "försörja",
+    "examples": [
+      "Han försörjer sin familj som lärare."
+    ]
+  },
+  {
+    "kellyId": 3191,
+    "lemma": "backa",
+    "examples": [
+      "Kan du backa bilen lite?"
+    ]
+  },
+  {
+    "kellyId": 3193,
+    "lemma": "samvete",
+    "examples": [
+      "Jag har dåligt samvete för vad jag gjorde."
+    ]
+  },
+  {
+    "kellyId": 3194,
+    "lemma": "fastän",
+    "examples": [
+      "Jag följde med fastän jag inte var hungrig."
+    ]
+  },
+  {
+    "kellyId": 3208,
+    "lemma": "olycklig",
+    "examples": [
+      "Han ser olycklig ut."
+    ]
+  },
+  {
+    "kellyId": 3220,
+    "lemma": "fet",
+    "examples": [
+      "Maten var god men ganska fet."
+    ]
+  },
+  {
+    "kellyId": 3222,
+    "lemma": "tiotal",
+    "examples": [
+      "Ett tiotal personer väntade utanför."
+    ]
+  },
+  {
+    "kellyId": 3238,
+    "lemma": "glädja",
+    "examples": [
+      "Det gladde mig att höra det."
+    ]
+  },
+  {
+    "kellyId": 3261,
+    "lemma": "välsignelse",
+    "examples": [
+      "Prästen gav dem sin välsignelse."
+    ]
+  },
+  {
+    "kellyId": 3263,
+    "lemma": "i förväg",
+    "examples": [
+      "Du måste boka i förväg."
+    ]
+  },
+  {
+    "kellyId": 3284,
+    "lemma": "motsvarighet",
+    "examples": [
+      "DSB är den danska motsvarigheten till SJ."
+    ]
+  },
+  {
+    "kellyId": 3288,
+    "lemma": "åtskillig",
+    "examples": [
+      "Det finns åtskilliga sätt att lösa det."
+    ]
+  },
+  {
+    "kellyId": 3354,
+    "lemma": "slump",
+    "examples": [
+      "Det var en ren slump att vi möttes."
+    ]
+  },
+  {
+    "kellyId": 3356,
+    "lemma": "återgå",
+    "examples": [
+      "Dags att återgå till arbetet."
+    ]
+  },
+  {
+    "kellyId": 3381,
+    "lemma": "vad som helst",
+    "examples": [
+      "Vad som helst kan hända."
+    ]
+  },
+  {
+    "kellyId": 3387,
+    "lemma": "gran",
+    "examples": [
+      "Vi klädde granen på julafton."
+    ]
+  },
+  {
+    "kellyId": 3393,
+    "lemma": "van",
+    "examples": [
+      "Han är van vid att stiga upp tidigt."
+    ]
+  },
+  {
+    "kellyId": 3394,
+    "lemma": "dubbelt",
+    "examples": [
+      "Han är dubbelt så lång som sin bror."
+    ]
+  },
+  {
+    "kellyId": 3403,
+    "lemma": "minsann",
+    "examples": [
+      "Det kan han minsann göra själv."
+    ]
+  },
+  {
+    "kellyId": 3422,
+    "lemma": "somlig",
+    "examples": [
+      "Somliga gillar kaffe, andra föredrar te."
+    ]
+  },
+  {
+    "kellyId": 3442,
+    "lemma": "lagra",
+    "examples": [
+      "Du kan lagra filer på datorn."
+    ]
+  },
+  {
+    "kellyId": 3446,
+    "lemma": "skita",
+    "examples": [
+      "Hunden skiter på gräsmattan."
+    ]
+  },
+  {
+    "kellyId": 3452,
+    "lemma": "ångra",
+    "examples": [
+      "Jag ångrar vad jag sa."
+    ]
+  },
+  {
+    "kellyId": 3462,
+    "lemma": "bosatt",
+    "examples": [
+      "Var är du bosatt?"
+    ]
+  },
+  {
+    "kellyId": 3465,
+    "lemma": "reell",
+    "examples": [
+      "Det är ett reellt problem."
+    ]
+  },
+  {
+    "kellyId": 3484,
+    "lemma": "ursäkta",
+    "examples": [
+      "Ursäkta, kan du hjälpa mig?"
+    ]
+  },
+  {
+    "kellyId": 3502,
+    "lemma": "avkastning",
+    "examples": [
+      "Investeringen gav en bra avkastning."
+    ]
+  },
+  {
+    "kellyId": 3519,
+    "lemma": "elände",
+    "examples": [
+      "Han levde i stort elände."
+    ]
+  },
+  {
+    "kellyId": 3520,
+    "lemma": "glida",
+    "examples": [
+      "Båten gled sakta över vattnet."
+    ]
+  },
+  {
+    "kellyId": 3534,
+    "lemma": "illustrera",
+    "examples": [
+      "Det här exemplet illustrerar problemet bra."
+    ]
+  },
+  {
+    "kellyId": 3544,
+    "lemma": "överföring",
+    "examples": [
+      "Jag gjorde en överföring av pengarna."
+    ]
+  },
+  {
+    "kellyId": 3558,
+    "lemma": "humör",
+    "examples": [
+      "Hon är på gott humör idag."
+    ]
+  },
+  {
+    "kellyId": 3560,
+    "lemma": "moment",
+    "examples": [
+      "Det här är ett viktigt moment i processen."
+    ]
+  },
+  {
+    "kellyId": 3590,
+    "lemma": "duga",
+    "examples": [
+      "Du duger som du är."
+    ]
+  },
+  {
+    "kellyId": 3607,
+    "lemma": "utbyggnad",
+    "examples": [
+      "Utbyggnaden av skolan är klar."
+    ]
+  },
+  {
+    "kellyId": 3617,
+    "lemma": "fan",
+    "examples": [
+      "Han trodde inte på fan eller Gud."
+    ]
+  },
+  {
+    "kellyId": 3641,
+    "lemma": "fästa",
+    "examples": [
+      "Han fäste bilden på väggen."
+    ]
+  },
+  {
+    "kellyId": 3680,
+    "lemma": "karl",
+    "examples": [
+      "Han är en snäll karl."
+    ]
+  },
+  {
+    "kellyId": 3703,
+    "lemma": "skynda",
+    "examples": [
+      "Skynda dig, annars missar vi bussen!"
+    ]
+  },
+  {
+    "kellyId": 3706,
+    "lemma": "bada",
+    "examples": [
+      "Vi badade i sjön hela dagen."
+    ]
+  },
+  {
+    "kellyId": 3729,
+    "lemma": "bad",
+    "examples": [
+      "Jag tar ett bad varje kväll."
+    ]
+  },
+  {
+    "kellyId": 3732,
+    "lemma": "upplösa",
+    "examples": [
+      "Regeringen upplöstes efter valet."
+    ]
+  },
+  {
+    "kellyId": 3748,
+    "lemma": "erinra",
+    "examples": [
+      "Jag vill erinra er om mötet imorgon."
+    ]
+  },
+  {
+    "kellyId": 3771,
+    "lemma": "näring",
+    "examples": [
+      "Barn behöver rätt näring för att växa."
+    ]
+  },
+  {
+    "kellyId": 3794,
+    "lemma": "osynlig",
+    "examples": [
+      "Bakterier är osynliga för ögat."
+    ]
+  },
+  {
+    "kellyId": 3804,
+    "lemma": "träff",
+    "examples": [
+      "Vi har en träff på fredag."
+    ]
+  },
+  {
+    "kellyId": 3807,
+    "lemma": "uppgörelse",
+    "examples": [
+      "De nådde en uppgörelse om priset."
+    ]
+  },
+  {
+    "kellyId": 3811,
+    "lemma": "lugna",
+    "examples": [
+      "Lugna dig!"
+    ]
+  },
+  {
+    "kellyId": 3827,
+    "lemma": "klapp",
+    "examples": [
+      "Barnen fick många klappar till jul."
+    ]
+  },
+  {
+    "kellyId": 3841,
+    "lemma": "beaktande",
+    "examples": [
+      "Vi beslutade med beaktande av alla fakta."
+    ]
+  },
+  {
+    "kellyId": 3851,
+    "lemma": "föregå",
+    "examples": [
+      "En lång diskussion föregick beslutet."
+    ]
+  },
+  {
+    "kellyId": 3854,
+    "lemma": "aktivist",
+    "examples": [
+      "Han är en känd aktivist för miljön."
+    ]
+  },
+  {
+    "kellyId": 3856,
+    "lemma": "smälta",
+    "examples": [
+      "Glassen smälter i solen."
+    ]
+  },
+  {
+    "kellyId": 3870,
+    "lemma": "nederlag",
+    "examples": [
+      "Laget led ett stort nederlag."
+    ]
+  },
+  {
+    "kellyId": 3873,
+    "lemma": "story",
+    "examples": [
+      "Hans story stämde inte."
+    ]
+  },
+  {
+    "kellyId": 3876,
+    "lemma": "smidig",
+    "examples": [
+      "Beställningen gick väldigt smidigt."
+    ]
+  },
+  {
+    "kellyId": 3916,
+    "lemma": "påvisa",
+    "examples": [
+      "Forskarna kunde påvisa ett samband."
+    ]
+  },
+  {
+    "kellyId": 3919,
+    "lemma": "torka",
+    "examples": [
+      "Hon torkade händerna med en handduk."
+    ]
+  },
+  {
+    "kellyId": 3934,
+    "lemma": "jämt",
+    "examples": [
+      "Han är jämt trött."
+    ]
+  },
+  {
+    "kellyId": 3945,
+    "lemma": "cool",
+    "examples": [
+      "Han är verkligen cool."
+    ]
+  },
+  {
+    "kellyId": 3965,
+    "lemma": "stolthet",
+    "examples": [
+      "Hon kände stolthet över sitt arbete."
+    ]
+  },
+  {
+    "kellyId": 4000,
+    "lemma": "baksida",
+    "examples": [
+      "Adressen finns på baksidan av kuvertet."
+    ]
+  },
+  {
+    "kellyId": 4022,
+    "lemma": "frälsning",
+    "examples": [
+      "Han sökte frälsning i kyrkan."
+    ]
+  },
+  {
+    "kellyId": 4035,
+    "lemma": "djävul",
+    "examples": [
+      "I filmen kämpar hjälten mot djävulen."
+    ]
+  },
+  {
+    "kellyId": 4053,
+    "lemma": "innanför",
+    "examples": [
+      "Barnen lekte innanför staketet."
+    ]
+  },
+  {
+    "kellyId": 4056,
+    "lemma": "kunnig",
+    "examples": [
+      "Han är väldigt kunnig inom fysik."
+    ]
+  },
+  {
+    "kellyId": 4076,
+    "lemma": "sms",
+    "examples": [
+      "Jag skickade ett sms till henne."
+    ]
+  },
+  {
+    "kellyId": 4077,
+    "lemma": "elektrisk",
+    "examples": [
+      "Vi har en elektrisk bil."
+    ]
+  },
+  {
+    "kellyId": 4111,
+    "lemma": "sprit",
+    "examples": [
+      "Han dricker inte sprit."
+    ]
+  },
+  {
+    "kellyId": 4115,
+    "lemma": "kind",
+    "examples": [
+      "Han kysste henne på kinden."
+    ]
+  },
+  {
+    "kellyId": 4122,
+    "lemma": "fordra",
+    "examples": [
+      "Jobbet fordrar mycket tålamod."
+    ]
+  },
+  {
+    "kellyId": 4123,
+    "lemma": "förhållningssätt",
+    "examples": [
+      "Vi behöver ett nytt förhållningssätt till problemet."
+    ]
+  },
+  {
+    "kellyId": 4146,
+    "lemma": "gnälla",
+    "examples": [
+      "Sluta gnälla och gör något istället!"
+    ]
+  },
+  {
+    "kellyId": 4162,
+    "lemma": "doft",
+    "examples": [
+      "Det är en fin doft av kaffe i köket."
+    ]
+  },
+  {
+    "kellyId": 4175,
+    "lemma": "uppgång",
+    "examples": [
+      "Priserna är på uppgång."
+    ]
+  },
+  {
+    "kellyId": 4188,
+    "lemma": "genomslag",
+    "examples": [
+      "Åtgärderna fick stort genomslag."
+    ]
+  },
+  {
+    "kellyId": 4190,
+    "lemma": "matta",
+    "examples": [
+      "Det ligger en stor matta i vardagsrummet."
+    ]
+  },
+  {
+    "kellyId": 4195,
+    "lemma": "födelsedag",
+    "examples": [
+      "Idag är det min födelsedag."
+    ]
+  },
+  {
+    "kellyId": 4205,
+    "lemma": "handlande",
+    "examples": [
+      "Vi måste förstå konsekvenserna av vårt handlande."
+    ]
+  },
+  {
+    "kellyId": 873,
+    "lemma": "räcka",
+    "examples": [
+      "räcka upp handen",
+      "Det räcker!"
     ]
   }
 ]

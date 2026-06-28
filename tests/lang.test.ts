@@ -46,7 +46,7 @@ describe('svRenderer', () => {
       inflections: { imperativ: 'spring', presens: 'springer', supinum: 'sprungit', preteritum: 'sprang' },
     })
     const display = sv.renderInflections(springa)
-    expect(display.summary).toBe('springer · sprang · sprungit · Spring!')
+    expect(display.summary).toEqual(['springer · sprang · sprungit · Spring!'])
     expect(display.rows.map((r) => r.label)).toEqual(['presens', 'preteritum', 'supinum', 'imperativ'])
   })
 
@@ -91,7 +91,29 @@ describe('svRenderer', () => {
       entry({ lemma: 'stor', pos: 'adj', inflections: { komparativ: 'större', superlativ: 'störst' } }),
     )
     expect(display.table).toBeUndefined()
-    expect(display.summary).toBe('större · störst')
+    expect(display.summary).toEqual(['större · störst'])
+  })
+
+  it('splits adjective forms into agreement and comparison lines', () => {
+    const display = sv.renderInflections(
+      entry({
+        lemma: 'liten',
+        pos: 'adj',
+        // intentionally out of order to prove the renderer groups + orders by GROUPS
+        inflections: { superlativ: 'minst', plural: 'små', komparativ: 'mindre', neutrum: 'litet' },
+      }),
+    )
+    // Two lines: agreement (neuter · plural), then comparison (comparative · superlative).
+    expect(display.summary).toEqual(['litet · små', 'mindre · minst'])
+    expect(display.rows.map((r) => r.label)).toEqual(['neutrum', 'plural', 'komparativ', 'superlativ'])
+  })
+
+  it('renders pronoun other forms on a single line (neuter · plural)', () => {
+    const display = sv.renderInflections(
+      entry({ lemma: 'min', pos: 'pron', inflections: { neutrum: 'mitt', plural: 'mina' } }),
+    )
+    expect(display.table).toBeUndefined()
+    expect(display.summary).toEqual(['mitt · mina'])
   })
 
   it('exposes POS-specific editable inflection slots', () => {
@@ -101,7 +123,8 @@ describe('svRenderer', () => {
       'definitePlural',
     ])
     expect(sv.inflectionSlots('verb').map((s) => s.key)).toEqual(['presens', 'preteritum', 'supinum', 'imperativ'])
-    expect(sv.inflectionSlots('adj').map((s) => s.key)).toEqual(['komparativ', 'superlativ'])
+    expect(sv.inflectionSlots('adj').map((s) => s.key)).toEqual(['neutrum', 'plural', 'komparativ', 'superlativ'])
+    expect(sv.inflectionSlots('pron').map((s) => s.key)).toEqual(['neutrum', 'plural'])
     expect(sv.inflectionSlots('interj')).toEqual([])
   })
 
@@ -114,7 +137,7 @@ describe('svRenderer', () => {
       }),
     )
     expect(display.table).toBeUndefined()
-    expect(display.summary).toBe('springer · sprang · sprungit · Spring!')
+    expect(display.summary).toEqual(['springer · sprang · sprungit · Spring!'])
   })
 
   it('exposes gender as a colour-codeable feature badge', () => {

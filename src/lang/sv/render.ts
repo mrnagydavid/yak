@@ -9,14 +9,20 @@ import type {
   LanguageRenderer,
 } from '../types'
 
-// Swedish principal forms, in the order they're conventionally taught. Unknown keys fall
-// back to insertion order after these.
-const VERB_ORDER = ['presens', 'preteritum', 'supinum', 'imperativ']
-// Noun declension: definite singular, indefinite plural, definite plural (the indefinite
-// singular is the lemma/headword). e.g. hund → hunden · hundar · hundarna.
-const NOUN_ORDER = ['definiteSingular', 'indefinitePlural', 'definitePlural']
-// Adjective: comparative, superlative. e.g. stor → större · störst.
-const ADJ_ORDER = ['komparativ', 'superlativ']
+// Swedish forms grouped by grammatical dimension, in the order they're conventionally taught.
+// Each group becomes one summary line on the card; flattened, a group list is also the display
+// order. Adjectives split agreement (neuter, plural) from comparison (comparative, superlative) so
+// the two dimensions read clearly on separate lines; every other POS is a single dimension → one
+// line. (Nouns render as a 2×2 grid instead of the summary, but keep the group for row ordering.)
+const GROUPS: Partial<Record<PartOfSpeech, string[][]>> = {
+  verb: [['presens', 'preteritum', 'supinum', 'imperativ']],
+  noun: [['definiteSingular', 'indefinitePlural', 'definitePlural']],
+  adj: [
+    ['neutrum', 'plural'],
+    ['komparativ', 'superlativ'],
+  ],
+  pron: [['neutrum', 'plural']],
+}
 
 const SLOTS: Partial<Record<PartOfSpeech, InflectionSlot[]>> = {
   noun: [
@@ -31,8 +37,14 @@ const SLOTS: Partial<Record<PartOfSpeech, InflectionSlot[]>> = {
     { key: 'imperativ', label: 'Imperative' },
   ],
   adj: [
+    { key: 'neutrum', label: 'Neuter' },
+    { key: 'plural', label: 'Plural' },
     { key: 'komparativ', label: 'Comparative' },
     { key: 'superlativ', label: 'Superlative' },
+  ],
+  pron: [
+    { key: 'neutrum', label: 'Neuter' },
+    { key: 'plural', label: 'Plural' },
   ],
 }
 
@@ -80,23 +92,19 @@ export const svRenderer: LanguageRenderer = {
   },
 
   renderInflections(entry: Entry): InflectionDisplay {
-    const keys = Object.keys(entry.inflections)
-    const order =
-      entry.pos === 'verb'
-        ? VERB_ORDER
-        : entry.pos === 'noun'
-          ? NOUN_ORDER
-          : entry.pos === 'adj'
-            ? ADJ_ORDER
-            : []
-    const ordered = order.length
-      ? [...order.filter((k) => k in entry.inflections), ...keys.filter((k) => !order.includes(k))]
-      : keys
-    const rows: InflectionRow[] = ordered.map((key) => ({
+    const groups = GROUPS[entry.pos] ?? []
+    const known = new Set(groups.flat())
+    // Any unknown keys trail as a final line so nothing is silently dropped.
+    const leftover = Object.keys(entry.inflections).filter((k) => !known.has(k))
+    const lines = [...groups, leftover]
+      .map((group) => group.filter((k) => k in entry.inflections))
+      .filter((group) => group.length > 0)
+    const rows: InflectionRow[] = lines.flat().map((key) => ({
       label: key,
       value: formatValue(key, entry.inflections[key]),
     }))
-    const summary = rows.map((r) => r.value).join(' · ')
+    // One summary line per dimension (e.g. adjective agreement vs comparison).
+    const summary = lines.map((group) => group.map((k) => formatValue(k, entry.inflections[k])).join(' · '))
     // Nouns read more clearly as a 2×2 declension grid (indefinite/definite × sg/pl).
     return entry.pos === 'noun'
       ? { summary, rows, table: nounTable(entry) }

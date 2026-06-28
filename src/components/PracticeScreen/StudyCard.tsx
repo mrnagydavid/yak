@@ -20,7 +20,14 @@ function Inflections({ display }: { display: InflectionDisplay }) {
       </div>
     )
   }
-  return display.summary ? <div class={styles.inflections}>{display.summary}</div> : null
+  // One line per grammatical dimension (adjectives split agreement from comparison; others = 1 line).
+  return display.summary.length ? (
+    <div class={styles.inflections}>
+      {display.summary.map((line, i) => (
+        <div key={i}>{line}</div>
+      ))}
+    </div>
+  ) : null
 }
 
 // The sense cue shown on the prompt of an ambiguous word in recognition (the first example) so the
@@ -41,6 +48,9 @@ export function StudyCard({ view, revealed }: { view: PracticeCardView; revealed
   const targetRenderer = getRenderer(target.lang)
   const targetLemma = targetRenderer.renderLemma(target)
   const targetIpa = targetRenderer.showIpa ? target.pronunciation.ipa : undefined
+  // Suppress the audio button when the lemma is pronounced differently across senses (kort, ton):
+  // browser TTS can't pick the right one. The per-sense IPA above still shows.
+  const ttsSuppressed = target.pronunciation.ambiguous === true
   const inflections = targetRenderer.renderInflections(target)
 
   const nativeLemma = native ? getRenderer(native.lang).renderLemma(native) : '—'
@@ -69,7 +79,7 @@ export function StudyCard({ view, revealed }: { view: PracticeCardView; revealed
         {isRecognition && targetIpa ? <span class={styles.ipa}>/{targetIpa}/</span> : null}
         {/* Recognition shows the Swedish word on the prompt, so its pronunciation is available
             immediately. (Production keeps it in the reveal, so it can't leak the answer.) */}
-        {isRecognition ? <SpeakButton text={target.lemma} lang={target.lang} /> : null}
+        {isRecognition && !ttsSuppressed ? <SpeakButton text={target.lemma} lang={target.lang} /> : null}
         {/* In recognition the Swedish word is the prompt, so its forms enrich it right here — shown
             on reveal so the card stays clean until then. (In production the Swedish word is the
             revealed answer, so its forms sit with it down in the reveal zone instead.) */}
@@ -91,7 +101,7 @@ export function StudyCard({ view, revealed }: { view: PracticeCardView; revealed
               <span class={styles.answerWord}>{answerWord}</span>
               {!isRecognition && targetIpa ? <span class={styles.ipa}>/{targetIpa}/</span> : null}
               {/* Production reveals the Swedish word here, so its pronunciation lives with the answer. */}
-              {!isRecognition ? <SpeakButton text={target.lemma} lang={target.lang} /> : null}
+              {!isRecognition && !ttsSuppressed ? <SpeakButton text={target.lemma} lang={target.lang} /> : null}
             </div>
 
             {/* The target word's forms (renders nothing when it has none). Production only — in

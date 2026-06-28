@@ -18,8 +18,10 @@ export interface InflectionTable {
 }
 
 export interface InflectionDisplay {
-  /** One-line summary for cards/rows, e.g. "springer · sprang · sprungit · Spring!". */
-  summary: string
+  /** Summary line(s) for the card — one entry per grammatical dimension. Most POS have a single
+   *  line ("springer · sprang · sprungit · Spring!"); adjectives split agreement from comparison
+   *  ("litet · små" / "mindre · minst"). Empty when there are no inflections. */
+  summary: string[]
   /** Flat key/value rows for a generic table view (Word Detail). */
   rows: InflectionRow[]
   /** Structured grid for forms that read better as a table (nouns). Absent for verbs. */

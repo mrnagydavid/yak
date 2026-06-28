@@ -148,7 +148,9 @@ export function WordDetail({ id }: { id?: string }) {
 
       <section class={`${styles.section} ${styles.pronunciation}`}>
         {ipa ? <span class={styles.ipa}>/{ipa}/</span> : null}
-        <SpeakButton text={entry.lemma} lang={entry.lang} />
+        {/* Suppressed when the lemma is pronounced differently across senses (kort, ton) — TTS can't
+            pick the right one; the per-sense IPA above still shows. */}
+        {entry.pronunciation.ambiguous ? null : <SpeakButton text={entry.lemma} lang={entry.lang} />}
         <WiktionaryLink lemma={entry.lemma} lang={entry.lang} />
       </section>
 

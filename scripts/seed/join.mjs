@@ -16,6 +16,15 @@ const has = (tags, ...need) => need.every((t) => tags.includes(t))
 const not = (tags, ...bad) => bad.every((t) => !tags.includes(t))
 const clean = (s) => s.replace(/\s+/g, ' ').trim()
 
+// Kelly stores correlative conjunctions ("antingen … eller", "varken … eller") with a U+0085 (NEL)
+// control character as the separator, which renders as a stray glyph. Turn any C1 control char /
+// NBSP separator into " ... " (matching the "either ... or" gloss style), then collapse whitespace.
+const normalizeLemma = (s) =>
+  (s ?? '')
+    .replace(/[\u0080-\u009f\u00a0]+/g, ' ... ')
+    .replace(/\s+/g, ' ')
+    .trim()
+
 // ipa-dict frequently keys present-tense IPA (ending in -r / -ɛr) under the infinitive headword —
 // e.g. `riva` → /rˈiːvɛr/ ("river"). Rewrite to the infinitive using the lemma + present spelling.
 // Returns undefined when it can't be reconstructed (drop rather than show the present form).
@@ -90,9 +99,33 @@ function inflections(pos, forms) {
       imperativ: pick(forms, (t) => has(t, 'imperative')),
     })
   if (pos === 'adj')
+    // Positive neuter ("litet", "stort") and positive plural ("små", "stora") in addition to the
+    // comparative/superlative — Swedish adjective agreement is core for a learner. Exclude the
+    // comparative/superlative/definite/genitive variants of the same number so we pick the plain forms.
     return compact({
+      neutrum: pick(forms, (t) => has(t, 'neuter') && not(t, 'comparative', 'superlative', 'definite', 'plural', 'genitive')),
+      plural: pick(forms, (t) => has(t, 'plural') && not(t, 'comparative', 'superlative', 'masculine', 'definite', 'genitive')),
       komparativ: pick(forms, (t) => has(t, 'comparative') && not(t, 'definite', 'indefinite', 'neuter', 'plural', 'superlative')),
       superlativ: pick(forms, (t) => has(t, 'superlative') && not(t, 'definite', 'indefinite', 'neuter', 'plural', 'comparative')),
+    })
+  if (pos === 'pron')
+    // Possessives / "annan" inflect for the modified noun: neuter ("mitt", "sitt", "annat") and
+    // plural ("mina", "sina", "andra"). Wiktionary attaches the entire personal-pronoun paradigm
+    // (jag/du/han…) to possessive entries — exclude those (they carry person/personal/possessive
+    // tags) so we keep only the headword's own neuter/plural agreement forms.
+    return compact({
+      neutrum: pick(
+        forms,
+        (t) =>
+          has(t, 'neuter') &&
+          not(t, 'personal', 'possessive', 'person', 'nominative', 'oblique', 'first-person', 'second-person', 'third-person', 'genitive', 'plural'),
+      ),
+      plural: pick(
+        forms,
+        (t) =>
+          has(t, 'plural') &&
+          not(t, 'personal', 'possessive', 'person', 'nominative', 'oblique', 'first-person', 'second-person', 'third-person', 'genitive', 'masculine', 'definite'),
+      ),
     })
   return {}
 }
@@ -148,7 +181,7 @@ async function main() {
     if (ipa && k.pos === 'verb') ipa = infinitivizeVerbIpa(ipa, k.lemma, infl.presens)
     return {
       kellyId: k.kellyId,
-      lemma: k.lemma,
+      lemma: normalizeLemma(k.lemma),
       pos: k.pos,
       gender: k.gender,
       cefr: k.cefr,

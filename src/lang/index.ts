@@ -14,7 +14,8 @@ const defaultRenderer: LanguageRenderer = {
   renderLemma: (entry: Entry) => entry.lemma,
   renderInflections: (entry: Entry): InflectionDisplay => {
     const rows = Object.entries(entry.inflections).map(([label, value]) => ({ label, value }))
-    return { summary: rows.map((r) => r.value).join(' · '), rows }
+    const line = rows.map((r) => r.value).join(' · ')
+    return { summary: line ? [line] : [], rows }
   },
   renderFeatures: () => [],
   inflectionSlots: () => [],

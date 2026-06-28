@@ -45,6 +45,9 @@ export interface Entry {
   pronunciation: {
     ipa?: string
     ipaSource?: IpaSource
+    // True when the same lemma has senses pronounced differently (e.g. kort kɔrt/kʊrt). Browser TTS
+    // can't be steered to a sense, so the audio button is suppressed — the per-sense IPA still shows.
+    ambiguous?: boolean
   }
   cefr?: Cefr // present for seed entries; absent for user entries
   disambiguator?: string // e.g. "datafil" when multiple senses share the lemma

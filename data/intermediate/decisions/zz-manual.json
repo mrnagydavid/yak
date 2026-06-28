@@ -1,0 +1,46 @@
+[
+  {
+    "kellyId": 914,
+    "lemma": "styck",
+    "decision": "fix",
+    "reason": "candidate 'apiece, each' renders as 'an apiece' (English renderer prepends an article to the noun gloss); use an article-safe count-noun gloss",
+    "proposedTranslation": "piece",
+    "proposedSubDefinitions": ["each, apiece (per unit, e.g. 25 kronor styck)"]
+  },
+  {
+    "kellyId": 3923,
+    "lemma": "halva",
+    "decision": "fix",
+    "reason": "Wiktionary's first gloss was the self-referential 'halva' (untranslated)",
+    "proposedTranslation": "half",
+    "proposedSubDefinitions": ["a half (of something)", "(colloquial) a half-bottle / shot of spirits in a series"]
+  },
+  {
+    "kellyId": 362,
+    "lemma": "mål",
+    "decision": "fix",
+    "reason": "primary sense was 'language' (a minor/literary sense); goal/target is the high-frequency meaning for a learner",
+    "proposedTranslation": "goal, target",
+    "proposedSubDefinitions": ["finish line (where a race ends)", "language, dialect", "court case (legal)"]
+  },
+  {
+    "kellyId": 943,
+    "lemma": "knappast",
+    "decision": "fix",
+    "reason": "the single sub-definition 'barely, scarcely (almost not)' just restates the primary 'hardly, scarcely'; drop the near-duplicate list",
+    "proposedSubDefinitions": []
+  },
+  {
+    "kellyId": 5045,
+    "lemma": "arm",
+    "decision": "drop",
+    "reason": "the adjective 'arm' (poor) is tagged dated by Wiktionary; 'fattig'/'stackars' cover this meaning. The noun 'arm' (body part, kellyId 1718) is unaffected."
+  },
+  {
+    "kellyId": 873,
+    "lemma": "räcka",
+    "decision": "fix",
+    "reason": "surface the common 'suffice' sense alongside 'stretch out' in the primary translation (it was only in the sub-definitions)",
+    "proposedTranslation": "stretch out in some direction, to suffice"
+  }
+]

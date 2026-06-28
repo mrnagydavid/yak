@@ -155,6 +155,7 @@
 .inflections {
   font-size: 14px;
   color: var(--color-text-secondary);
+  text-align: center; /* centers the per-dimension lines (adjective agreement / comparison) */
 }
 
 .declension {
