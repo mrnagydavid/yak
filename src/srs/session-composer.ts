@@ -17,13 +17,16 @@ import { cefrRank, levelRank } from './levels'
 // 1b. PRODUCTION GATING (confirmed design decision). The `produce` direction for a
 //    translation does not become eligible until its sibling `recognize` direction has
 //    graduated out of learning AND stabilised (recognition-before-production; avoids the
-//    "free" same-session reverse). Once a `produce` ReviewState exists it is independent
-//    and never re-locks. Threshold is `PRODUCTION_UNLOCK_*` below (could become a Profile
-//    setting later). This gate INTENTIONALLY also covers below-level calibration words:
-//    for a word the user overclaimed, showing production right after the recognition
-//    reveal would be the same trivial reverse; gating defers it to a later session. For
-//    words the user does know, recognition graduates on one "Easy", unlocking production
-//    on the next encounter — naturally spaced.
+//    "free" same-session reverse). It is ALSO held back on any day recognition is itself
+//    due — a session never asks both directions of the same word, since doing the reverse
+//    right after the recognition reveal is wasted effort; it slots into a later, naturally-
+//    spaced session instead. Once a `produce` ReviewState exists it is independent and never
+//    re-locks (two long-known directions may both come due together). Threshold is
+//    `PRODUCTION_UNLOCK_*` below (could become a Profile setting later). This gate
+//    INTENTIONALLY also covers below-level calibration words: for a word the user
+//    overclaimed, showing production right after the recognition reveal would be the same
+//    trivial reverse; gating defers it to a later session. For words the user does know,
+//    recognition graduates on one "Easy", unlocking production on a later encounter.
 //
 // 2. A no-SRS card is classified by the entry's CEFR relative to the claimed level:
 //      - seed entry with cefr <= UserLevel        → calibration candidate → practice pool,
@@ -172,8 +175,11 @@ export function composeSessionPure(input: ComposerInput): SessionCard[] {
       const rs = rsByKey.get(`${translation.id}:${skill}`)
 
       // Production is gated behind recognition until it has its own state (SPEC §6, 1b).
-      if (skill === 'produce' && !rs && !productionUnlocked(rsByKey.get(`${translation.id}:recognize`))) {
-        continue
+      if (skill === 'produce' && !rs) {
+        const rec = rsByKey.get(`${translation.id}:recognize`)
+        if (!productionUnlocked(rec)) continue // recognition not stabilised yet
+        if (rec && rec.due <= now) continue // ...and recognition isn't itself due today —
+        // defer the reverse to a naturally-spaced later session (no both-directions-in-one-day)
       }
 
       const eligible = forced || userAdded || !!rs || progression

@@ -275,6 +275,8 @@ A daily session is composed automatically when the user opens the app:
    - Pull from practice pool ordered by FSRS `due` ascending, then `lastReview` ascending
 3. **Interleave**: practice cards first, new cards mixed in at intervals. Anki's pattern: front-load reviews so the deck isn't overwhelmed by new items.
 
+**One direction per word per session.** A session never asks both the recognition and production direction of the same word — doing the reverse right after the answer was just revealed is wasted effort. Concretely, a word's *first* production card is introduced only once recognition has stabilised (recognition-before-production) **and** recognition is not itself due that day; otherwise it defers to a later, naturally-spaced session. Once both directions have their own SRS state they evolve independently (SPEC §4.4), so two long-known directions may occasionally both come due on the same day.
+
 ### 6.3 Just-in-time calibration
 
 Seed entries at `cefr ≤ UserLevel` that have no SRS state are still eligible for the practice pool. When such an entry is drawn:

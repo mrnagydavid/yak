@@ -349,20 +349,38 @@ describe('session-composer', () => {
       expect(locked.map((c) => c.skill)).toEqual(['recognize'])
     })
 
-    it('introduces production once recognition is graduated and stable', () => {
+    it('introduces production once recognition is graduated, stable, and not itself due', () => {
       seq = 0
       const w = entry('word', 'seed', 'B1')
       const t = translation('t_w', w.id)
+      // Recognition graduated and next due in the future → a later, naturally-spaced session.
       const unlocked = composeSessionPure(
+        base({
+          entries: [w],
+          translations: [t],
+          reviewStates: [srsState('t_w', 'recognize', { state: 'review', stability: 10, due: NOW + DAY })],
+        }),
+      )
+      const produce = unlocked.find((c) => c.skill === 'produce')
+      expect(produce).toBeDefined()
+      expect(produce?.mode).toBe('new') // first production attempt, no state yet
+      expect(unlocked.some((c) => c.skill === 'recognize')).toBe(false) // recognition not due → not shown
+    })
+
+    it('defers first production while recognition is also due the same session', () => {
+      seq = 0
+      const w = entry('word', 'seed', 'B1')
+      const t = translation('t_w', w.id)
+      // Recognition is stabilised (production unlocked) AND due today — don't ask both
+      // directions of the same word back-to-back; defer the reverse to a later session.
+      const cards = composeSessionPure(
         base({
           entries: [w],
           translations: [t],
           reviewStates: [srsState('t_w', 'recognize', { state: 'review', stability: 10, due: NOW - DAY })],
         }),
       )
-      const produce = unlocked.find((c) => c.skill === 'produce')
-      expect(produce).toBeDefined()
-      expect(produce?.mode).toBe('new') // first production attempt, no state yet
+      expect(cards.map((c) => c.skill)).toEqual(['recognize'])
     })
 
     it('keeps an existing production card independent even if recognition lapses', () => {
