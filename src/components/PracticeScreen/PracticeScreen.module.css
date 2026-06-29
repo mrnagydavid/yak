@@ -124,72 +124,22 @@
   padding: 10px 20px;
 }
 
-/* Multi-answer card: a tab strip under the rating buttons (which grade the active tab), plus a "Knew
-   all" shortcut. Not pills — a rail with the active tab marked by a coloured overline + bold label, so
-   it reads as "the answer above depends on the selected tab". */
-.groupTabs {
-  flex-shrink: 0;
+/* Rating buttons + the group "Knew all" as one footer block, so "Knew all" sits the same small gap
+   below the buttons as the buttons are apart (not the wider .screen gap). */
+.actions {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   gap: 8px;
-  margin-top: 8px;
 }
 
-.tabs {
-  flex: 1;
-  display: flex;
-  overflow-x: auto;
-  border-top: 1px solid var(--color-border); /* the rail the tabs sit on */
-}
-
-.tab {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  white-space: nowrap;
-  padding: 8px 14px;
-  font-size: 14px;
-  color: var(--color-text-secondary);
-  border-top: 2px solid transparent; /* indicator slot */
-  margin-top: -1px; /* overlap the rail so the active overline replaces it */
-}
-
-.tabActive {
-  color: var(--color-text);
-  font-weight: 600;
-  border-top-color: var(--color-primary);
-}
-
-/* Per-answer marker: grey while unrated, then the colour of the grade given (re-grading re-colours). */
-.tabDot {
-  font-size: 10px;
-  color: var(--color-border);
-}
-
-.dotAgain {
-  color: var(--color-red);
-}
-
-.dotHard {
-  color: var(--color-yellow);
-}
-
-.dotGood {
-  color: var(--color-green);
-}
-
-.dotEasy {
-  color: var(--color-blue);
-}
-
-/* Outlined so it reads as a button (and so the tab strip's stopping short clearly makes room for it). */
+/* Full-width "Knew all" under the rating buttons (the answer tabs render at the top of the card's
+   reveal). Outlined so it reads as a button. */
 .knewAll {
-  flex-shrink: 0;
-  align-self: center;
+  width: 100%;
   color: var(--color-primary);
   font-size: 14px;
   font-weight: 600;
   border: 1px solid var(--color-primary);
   border-radius: var(--radius-md);
-  padding: 8px 12px;
+  padding: 10px;
 }

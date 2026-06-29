@@ -17,6 +17,7 @@
     "seed:join": "node scripts/seed/join.mjs && node scripts/seed/flag.mjs",
     "seed:batch": "node scripts/seed/batch-for-cleanup.mjs",
     "seed:batch-senses": "node scripts/seed/batch-senses.mjs",
+    "seed:merge-senses": "node scripts/seed/merge-senses.mjs",
     "seed:apply": "node scripts/seed/apply-decisions.mjs",
     "seed:build": "pnpm seed:fetch && pnpm seed:join && pnpm seed:apply"
   },

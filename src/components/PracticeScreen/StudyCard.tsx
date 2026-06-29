@@ -2,6 +2,7 @@ import type { PracticeCardView } from '../../db/queries'
 import type { Entry, EntryOverlay } from '../../db/types'
 import { getRenderer } from '../../lang'
 import type { InflectionDisplay } from '../../lang'
+import type { RatingLabel } from '../../srs/fsrs-adapter'
 import { SpeakButton } from '../WordActions/WordActions'
 import styles from './StudyCard.module.css'
 
@@ -85,13 +86,17 @@ export function StudyCard({
   view,
   revealed,
   activeTab = 0,
+  ratings,
+  onSelectTab,
 }: {
   view: PracticeCardView
   revealed: boolean
   activeTab?: number
+  ratings?: Map<string, RatingLabel>
+  onSelectTab?: (i: number) => void
 }) {
   if (view.group) {
-    return <GroupCard view={view} revealed={revealed} activeTab={activeTab} />
+    return <GroupCard view={view} revealed={revealed} activeTab={activeTab} ratings={ratings} onSelectTab={onSelectTab} />
   }
 
   const { card, target, native, overlay, ambiguous } = view
@@ -109,7 +114,9 @@ export function StudyCard({
   // Prompt = target in recognition, native in production. The target's forms/IPA always travel with
   // the target word (under the prompt in recognition, the answer in production).
   const promptWord = isRecognition ? targetLemma : nativeLemma
-  const promptDisambig = isRecognition ? target.disambiguator : native?.disambiguator
+  // Production: the target word's sense gloss disambiguates which sense the prompt is asking for
+  // (e.g. "hand (body part)" vs "hand (of a clock)"). Empty for single-sense concepts. (Q-polysemy)
+  const promptDisambig = isRecognition ? target.disambiguator : target.sense?.gloss || native?.disambiguator
   const examples = [...(target.examples ?? []), ...(overlay?.customExamples ?? [])]
   // For an ambiguous word in recognition, the first example sits on the prompt as a sense cue (e.g.
   // fast conj vs adj). Pre-reveal only — once revealed, the full list renders in its normal place.
@@ -142,31 +149,39 @@ export function StudyCard({
       {/* Persistent divider + revealable zone below it. */}
       <div class={styles.answerZone}>
         {revealed ? (
-          isRecognition ? (
-            <div class={styles.reveal}>
-              <div class={styles.answer}>
-                <span class={styles.answerWord}>{translation}</span>
+          <>
+            {isRecognition ? (
+              <div class={styles.reveal}>
+                <div class={styles.answer}>
+                  <span class={styles.answerWord}>{translation}</span>
+                </div>
+                {target.subDefinitions?.length ? (
+                  <ul class={styles.subdefs}>
+                    {target.subDefinitions.map((s, i) => (
+                      <li key={i}>{s}</li>
+                    ))}
+                  </ul>
+                ) : null}
+                {overlay?.noteText ? <p class={styles.note}>{overlay.noteText}</p> : null}
+                {examples.length ? (
+                  <ul class={styles.examples}>
+                    {examples.map((e, i) => (
+                      <li key={i}>{e}</li>
+                    ))}
+                  </ul>
+                ) : null}
               </div>
-              {target.subDefinitions?.length ? (
-                <ul class={styles.subdefs}>
-                  {target.subDefinitions.map((s, i) => (
-                    <li key={i}>{s}</li>
-                  ))}
-                </ul>
-              ) : null}
-              {overlay?.noteText ? <p class={styles.note}>{overlay.noteText}</p> : null}
-              {examples.length ? (
-                <ul class={styles.examples}>
-                  {examples.map((e, i) => (
-                    <li key={i}>{e}</li>
-                  ))}
-                </ul>
-              ) : null}
-            </div>
-          ) : (
-            // Production: the target word's full record (the same block every group tab shows).
-            <TargetReveal target={target} overlay={overlay} />
-          )
+            ) : (
+              // Production: the target word's full record (the same block every group tab shows).
+              <TargetReveal target={target} overlay={overlay} />
+            )}
+            {/* New-word moment: relate this word to same-sense synonyms already learned. (Q1) */}
+            {card.mode === 'new' && view.senseSummary && view.senseSummary.synonyms.length > 0 ? (
+              <p class={styles.alsoKnow}>
+                Another way to say this — you already know {view.senseSummary.synonyms.join(', ')}.
+              </p>
+            ) : null}
+          </>
         ) : (
           <span class={styles.revealHint}>Tap to reveal</span>
         )}
@@ -175,17 +190,30 @@ export function StudyCard({
   )
 }
 
+// Dot colour per grade, matching the rating buttons (RatingButtons.module.css). A tab's dot takes the
+// colour of the grade given, so re-grading visibly re-colours it.
+const DOT_CLASS: Record<RatingLabel, string> = {
+  again: styles.dotAgain,
+  hard: styles.dotHard,
+  good: styles.dotGood,
+  easy: styles.dotEasy,
+}
+
 // A multi-answer production card: the concept is the fixed prompt; each valid answer lives on its own
-// tab, revealed as a full record (TargetReveal). The tab bar, rating buttons, and "Knew all" live in
-// PracticeScreen's footer — this just renders the active answer.
+// tab at the TOP of the reveal (just under the divider), with the active tab's full record below it.
+// Rating buttons + a full-width "Knew all" live in PracticeScreen's footer; rating grades the active tab.
 function GroupCard({
   view,
   revealed,
   activeTab,
+  ratings,
+  onSelectTab,
 }: {
   view: PracticeCardView
   revealed: boolean
   activeTab: number
+  ratings?: Map<string, RatingLabel>
+  onSelectTab?: (i: number) => void
 }) {
   const group = view.group!
   const concept = view.native ? getRenderer(view.native.lang).renderLemma(view.native) : '—'
@@ -200,9 +228,33 @@ function GroupCard({
         {!revealed ? <span class={styles.waysCue}>{`${group.members.length} ways to say it`}</span> : null}
       </div>
 
-      <div class={styles.answerZone}>
+      <div class={`${styles.answerZone} ${styles.answerZoneGrouped}`}>
         {revealed && active ? (
-          <TargetReveal target={active.target} overlay={active.overlay} />
+          <>
+            {/* Answer tabs at the top of the reveal: one per valid answer, each with a dot coloured by
+                its grade; the active tab is underlined. Tapping a tab switches the record shown below. */}
+            <div class={styles.tabs} role="tablist">
+              {group.members.map((m, i) => {
+                const label = ratings?.get(m.translationId)
+                return (
+                  <button
+                    key={m.translationId}
+                    type="button"
+                    role="tab"
+                    aria-selected={i === activeTab}
+                    class={`${styles.tab} ${i === activeTab ? styles.tabActive : ''}`}
+                    onClick={() => onSelectTab?.(i)}
+                  >
+                    <span class={`${styles.tabDot} ${label ? DOT_CLASS[label] : ''}`} aria-hidden="true">
+                      ●
+                    </span>
+                    {getRenderer(m.target.lang).renderLemma(m.target)}
+                  </button>
+                )
+              })}
+            </div>
+            <TargetReveal target={active.target} overlay={active.overlay} />
+          </>
         ) : (
           <span class={styles.revealHint}>Tap to reveal</span>
         )}

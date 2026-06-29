@@ -101,7 +101,7 @@ export function WordDetail({ id }: { id?: string }) {
   if (data === undefined) return <div class={styles.screen}>Loading…</div>
   if (data === null) return <div class={styles.screen}>Word not found.</div>
 
-  const { entry, natives, recognize, produce, lastPracticed, overlay, autoIncluded } = data
+  const { entry, natives, recognize, produce, lastPracticed, overlay, autoIncluded, senseSummary } = data
   const renderer = getRenderer(entry.lang)
   const inflections = renderer.renderInflections(entry)
   const features = renderer.renderFeatures(entry)
@@ -190,6 +190,18 @@ export function WordDetail({ id }: { id?: string }) {
           </ul>
         ) : null}
       </section>
+
+      {senseSummary && (senseSummary.synonyms.length > 0 || senseSummary.meaningsLearned > 1) ? (
+        <section class={styles.section}>
+          <h2 class={styles.sectionTitle}>In your vocabulary</h2>
+          {senseSummary.meaningsLearned > 1 ? (
+            <p class={styles.muted}>You’ve learned {senseSummary.meaningsLearned} meanings of “{senseSummary.concept}”.</p>
+          ) : null}
+          {senseSummary.synonyms.length > 0 ? (
+            <p class={styles.muted}>Synonyms you know: {senseSummary.synonyms.join(', ')}.</p>
+          ) : null}
+        </section>
+      ) : null}
 
       {overlay?.noteText ? (
         <section class={styles.section}>

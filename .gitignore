@@ -11,3 +11,4 @@ Swedish Kelly-20260602134631.apkg
 data/intermediate/*
 !data/intermediate/decisions/
 !data/intermediate/examples/
+!data/intermediate/sense-decisions.json

@@ -40,8 +40,8 @@ Write a JSON array — **one object per concept, in the same order** — to
 {
   "english": "clearly",
   "senses": [
-    { "gloss": "in a clear way", "members": [123, 456] },
-    { "gloss": "evidently, obviously", "members": [789, 1011] }
+    { "gloss": "visibly", "members": [123, 456] },
+    { "gloss": "evidently", "members": [789, 1011] }
   ]
 }
 ```
@@ -50,9 +50,12 @@ Write a JSON array — **one object per concept, in the same order** — to
 
 - **Every** member `kellyId` appears in **exactly one** sense. Never drop, duplicate, or invent ids.
   Keep them as integers, exactly as given.
-- `gloss`: a 1–4 word English hint that distinguishes this sense from the *other* senses of the same
-  English word (it's shown in parentheses on the prompt). When a concept has only **one** sense, set
-  `gloss` to the empty string `""` — there is nothing to disambiguate.
+- `gloss`: a SHORT tag (1–2 words, never more than 3) for what makes this sense different from the
+  OTHER senses of the same English word. It's shown in parentheses right after the word, e.g.
+  `hand (body part)`, `find (encounter)`. **Do NOT repeat the English headword, and do NOT restate the
+  part of speech** — write `body part`, not `hand (body part)`; `encounter`, not `to encounter`;
+  `origin`, not `from (origin, source)`. When a concept has only **one** sense, set `gloss` to the empty
+  string `""` — there is nothing to disambiguate.
 - Put two Swedish words in the same sense **only if** they are genuinely interchangeable for that
   meaning. When unsure, split them into separate senses. Over-splitting is safe (the app just won't
   group them); over-merging teaches a false synonym, which is not.

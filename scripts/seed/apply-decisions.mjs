@@ -9,7 +9,7 @@ const SEED_VERSION = 'sv-2026-06-01' // en.wiktionary dump date the kaikki extra
 const DECISIONS_DIR = 'data/intermediate/decisions'
 const EXAMPLES_DIR = 'data/intermediate/examples' // curated examples for ambiguous cards (Step 15)
 const AMBIGUOUS_OUT = 'data/intermediate/ambiguous.json' // emitted for the example-writer step
-const SENSE_DECISIONS_DIR = 'data/intermediate/sense-decisions' // sense pass output (production grouping)
+const SENSE_DECISIONS_FILE = 'data/intermediate/sense-decisions.json' // merged sense pass (production grouping)
 const MULTI_TRANSLATION_OUT = 'data/intermediate/multi-translation.json' // emitted for the sense pass
 const MAX_EXAMPLE_LEN = 160 // flashcard examples stay short — drop any longer (poetry/quote dumps)
 
@@ -112,18 +112,16 @@ async function loadExamples() {
 // concept list for batching.
 async function loadSenses() {
   const byId = new Map()
-  if (!existsSync(SENSE_DECISIONS_DIR)) return byId
-  for (const file of await readdir(SENSE_DECISIONS_DIR)) {
-    if (!file.endsWith('.json')) continue
-    for (const concept of JSON.parse(await readFile(`${SENSE_DECISIONS_DIR}/${file}`, 'utf-8'))) {
-      ;(concept.senses ?? []).forEach((s, i) => {
-        const members = s.members ?? []
-        if (members.length < 2) return // singleton sense → never groups → no marker
-        const key = `${concept.english}#${i}`
-        const gloss = (s.gloss ?? '').trim()
-        for (const kellyId of members) byId.set(kellyId, { key, gloss })
-      })
-    }
+  if (!existsSync(SENSE_DECISIONS_FILE)) return byId
+  for (const concept of JSON.parse(await readFile(SENSE_DECISIONS_FILE, 'utf-8'))) {
+    ;(concept.senses ?? []).forEach((s, i) => {
+      // Stamp every member of a multi-translation concept: a ≥2-member sense forms a runtime group, and
+      // any sense of a polysemous concept (>1 sense) carries a gloss to disambiguate the production
+      // prompt (e.g. "hand (body part)" vs "hand (of a clock)") even when its sense is a singleton.
+      const key = `${concept.english}#${i}`
+      const gloss = (s.gloss ?? '').trim()
+      for (const kellyId of s.members ?? []) byId.set(kellyId, { key, gloss })
+    })
   }
   return byId
 }
@@ -283,7 +281,7 @@ async function main() {
   console.log(`ambiguous cards: ${ambiguous.length} → ${AMBIGUOUS_OUT}`)
   console.log(`ipa-ambiguous entries (TTS suppressed): ${ipaAmbiguousCount}`)
   console.log(`multi-translation concepts: ${multiTranslation.length} → ${MULTI_TRANSLATION_OUT}`)
-  console.log(`sense-grouped entries: ${senseCount}`)
+  console.log(`sense-tagged entries: ${senseCount}`)
 }
 
 main().catch((e) => {

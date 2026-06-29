@@ -126,6 +126,51 @@ export function getReviewState(translationId: string, skill: Skill) {
   return db.reviewStates.where('[translationId+skill]').equals([translationId, skill]).first()
 }
 
+/** Concept-level "what you've learned" summary for a word that belongs to a sense group. (Q1) */
+export interface SenseSummary {
+  concept: string // the English word (clean label from the sense key), e.g. "clearly"
+  meaningsLearned: number // distinct senses of that concept you've learned at least one word for
+  synonyms: string[] // OTHER already-learned words in THIS word's sense (rendered), excluding itself
+}
+
+/**
+ * Summarise the concept a word belongs to (via its sense key): how many of its meanings you've learned,
+ * and the same-sense synonyms you already know. Returns null when the word has no sense or no sibling.
+ * Filters the language by sense-key prefix in memory — only called on new-card reveal / Word Detail, so
+ * the scan is fine (no index needed).
+ */
+export async function getSenseSummary(entry: Entry): Promise<SenseSummary | null> {
+  const key = entry.sense?.key
+  if (!key) return null
+  const hash = key.lastIndexOf('#')
+  if (hash < 0) return null
+  const prefix = key.slice(0, hash + 1) // "clearly#" — all senses of this concept
+  const concept = key.slice(0, hash).split(/[,(]/)[0].trim() // clean label for display
+  const siblings = (await db.entries.where('lang').equals(entry.lang).toArray()).filter((e) =>
+    e.sense?.key?.startsWith(prefix),
+  )
+  if (siblings.length < 2) return null
+
+  const trs = await db.translations.where('targetEntryId').anyOf(siblings.map((s) => s.id)).toArray()
+  const trsByTarget = new Map<string, string[]>()
+  for (const t of trs) {
+    const list = trsByTarget.get(t.targetEntryId) ?? []
+    list.push(t.id)
+    trsByTarget.set(t.targetEntryId, list)
+  }
+  const states = trs.length
+    ? await db.reviewStates.where('translationId').anyOf(trs.map((t) => t.id)).toArray()
+    : []
+  const learnedTr = new Set(states.map((s) => s.translationId))
+  const learned = siblings.filter((s) => (trsByTarget.get(s.id) ?? []).some((tid) => learnedTr.has(tid)))
+
+  const meaningsLearned = new Set(learned.map((s) => s.sense!.key)).size
+  const synonyms = learned
+    .filter((s) => s.sense!.key === key && s.id !== entry.id)
+    .map((s) => getRenderer(s.lang).renderLemma(s))
+  return { concept, meaningsLearned, synonyms }
+}
+
 /** One answer of a multi-answer production card: its translation + resolved target entry + overlay. */
 export interface PracticeGroupMember {
   translationId: string
@@ -147,6 +192,9 @@ export interface PracticeCardView {
   /** Present on a multi-answer PRODUCTION card (SessionCard.group): the concept's sense gloss and the
    *  resolved target entry for each valid answer, so the reveal can list them all. (plan) */
   group?: { gloss: string; members: PracticeGroupMember[] }
+  /** Attached on NEW cards whose word belongs to a sense group, so the reveal can relate it to
+   *  synonyms/meanings already learned. (Q1) */
+  senseSummary?: SenseSummary
 }
 
 /** Resolve a session card's display data. Returns null if the target entry is missing. */
@@ -177,7 +225,9 @@ export async function getPracticeCardView(card: SessionCard): Promise<PracticeCa
   const render = getRenderer(target.lang).renderLemma
   const targetForm = render(target)
   const sameForm = siblings.filter((e) => render(e) === targetForm).length
-  return { card, target, native, overlay, ambiguous: sameForm > 1 }
+  // On a new card, summarise the word's concept (synonyms/meanings already learned) for the reveal.
+  const senseSummary = card.mode === 'new' ? ((await getSenseSummary(target)) ?? undefined) : undefined
+  return { card, target, native, overlay, ambiguous: sameForm > 1, senseSummary }
 }
 
 /** Everything the Word Detail screen renders. (SPEC §7.5) */
@@ -190,6 +240,8 @@ export interface WordDetailData {
   overlay?: EntryOverlay
   /** What `study: 'auto'` resolves to for this word — i.e. is it in scope right now. */
   autoIncluded: boolean
+  /** Concept-level learning summary, when the word belongs to a sense group. (Q1) */
+  senseSummary?: SenseSummary
 }
 
 export async function getWordDetail(entryId: string): Promise<WordDetailData | null> {
@@ -229,6 +281,7 @@ export async function getWordDetail(entryId: string): Promise<WordDetailData | n
     lastPracticed,
     overlay,
     autoIncluded: autoInScope(entry, level, hasSrs),
+    senseSummary: (await getSenseSummary(entry)) ?? undefined,
   }
 }
 

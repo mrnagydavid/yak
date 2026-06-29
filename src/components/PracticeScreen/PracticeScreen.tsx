@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'preact/hooks'
 import { getPracticeCardView, type PracticeCardView, type PracticeGroupMember } from '../../db/queries'
-import { getRenderer } from '../../lang'
 import type { RatingLabel } from '../../srs/fsrs-adapter'
 import {
   composeSession,
@@ -258,7 +257,14 @@ export function PracticeScreen() {
       >
         {/* Keyed on the index so each question is a fresh mount — that's what triggers the
             card-in animation when advancing past a rating (tap-to-reveal keeps the same key). */}
-        <StudyCard key={index} view={view} revealed={isRevealed} activeTab={activeTab} />
+        <StudyCard
+          key={index}
+          view={view}
+          revealed={isRevealed}
+          activeTab={activeTab}
+          ratings={ratings}
+          onSelectTab={setActiveTab}
+        />
       </div>
       {/* Wiktionary link for the Swedish word — pinned just above the rating buttons; shown only once
           revealed (so it can't hint the answer in production). The footer always reserves its space, so
@@ -267,18 +273,16 @@ export function PracticeScreen() {
       <div class={styles.wiktFooter}>
         {isRevealed && !view.card.group ? <WiktionaryLink lemma={view.target.lemma} lang={view.target.lang} /> : null}
       </div>
-      <RatingButtons mode={view.card.mode} onRate={rate} />
-      {/* Multi-answer card: answer tabs sit *under* the rating buttons (which grade the active tab),
-          plus a one-tap "Knew all". Shown only once revealed — the tab labels are the answers. */}
-      {view.group && isRevealed ? (
-        <GroupTabs
-          members={view.group.members}
-          active={activeTab}
-          rated={ratings}
-          onSelect={setActiveTab}
-          onKnewAll={() => void knewAll()}
-        />
-      ) : null}
+      <div class={styles.actions}>
+        <RatingButtons mode={view.card.mode} onRate={rate} />
+        {/* Multi-answer card: a full-width "Knew all" right under the rating buttons (the answer tabs
+            live at the top of the card's reveal). Shown only once revealed. */}
+        {view.group && isRevealed ? (
+          <button type="button" class={styles.knewAll} onClick={() => void knewAll()}>
+            Knew all
+          </button>
+        ) : null}
+      </div>
 
       {editing ? (
         <EntryEditor
@@ -304,59 +308,5 @@ function UndoButton({ onClick }: { onClick: () => void }) {
         <path d="M4 9h10.5a5.5 5.5 0 0 1 5.5 5.5 5.5 5.5 0 0 1-5.5 5.5H11" />
       </svg>
     </button>
-  )
-}
-
-// Dot colour per grade, matching the rating buttons (RatingButtons.module.css). A tab's dot takes the
-// colour of the grade just given, so changing your mind on a tab visibly re-colours it.
-const DOT_CLASS: Record<RatingLabel, string> = {
-  again: styles.dotAgain,
-  hard: styles.dotHard,
-  good: styles.dotGood,
-  easy: styles.dotEasy,
-}
-
-// Answer tabs for a multi-answer card: a tab strip under the rating buttons (which grade the active
-// tab). Each tab carries a dot — grey while unrated, then coloured by the grade given. The active tab
-// is emphasised (overline + bold). "Knew all" grades every still-unrated answer at once.
-function GroupTabs({
-  members,
-  active,
-  rated,
-  onSelect,
-  onKnewAll,
-}: {
-  members: PracticeGroupMember[]
-  active: number
-  rated: Map<string, RatingLabel>
-  onSelect: (i: number) => void
-  onKnewAll: () => void
-}) {
-  return (
-    <div class={styles.groupTabs}>
-      <div class={styles.tabs} role="tablist">
-        {members.map((m, i) => {
-          const label = rated.get(m.translationId)
-          return (
-            <button
-              key={m.translationId}
-              type="button"
-              role="tab"
-              aria-selected={i === active}
-              class={`${styles.tab} ${i === active ? styles.tabActive : ''}`}
-              onClick={() => onSelect(i)}
-            >
-              <span class={`${styles.tabDot} ${label ? DOT_CLASS[label] : ''}`} aria-hidden="true">
-                ●
-              </span>
-              {getRenderer(m.target.lang).renderLemma(m.target)}
-            </button>
-          )
-        })}
-      </div>
-      <button type="button" class={styles.knewAll} onClick={onKnewAll}>
-        Knew all
-      </button>
-    </div>
   )
 }

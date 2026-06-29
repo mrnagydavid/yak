@@ -16,9 +16,10 @@ if (import.meta.env.DEV) {
     await db.delete()
     location.reload()
   }
-  // `demoGroup('clearly')` from the console surfaces a multi-answer production card for manual review.
+  // `demoSenses(['hand','clearly'])` (or no arg to sample) builds a practice session touring the sense
+  // feature — synonym groups + polysemy glosses — for manual review. Stripped from production.
   void import('./db/dev-tools').then((m) => {
-    ;(window as Window & { demoGroup?: typeof m.demoGroup }).demoGroup = m.demoGroup
+    ;(window as Window & { demoSenses?: typeof m.demoSenses }).demoSenses = m.demoSenses
   })
 }
 
