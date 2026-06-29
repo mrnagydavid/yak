@@ -17,6 +17,7 @@ interface SeedEntry {
   subDefinitions?: string[]
   examples?: string[]
   translation: string
+  sense?: { key: string; gloss: string } // production grouping: which sense of `translation` this is
   ipaAmbiguous?: boolean // same lemma pronounced differently across senses → suppress TTS
   h?: string // per-entry content hash (changed-only sync); absent on pre-hash seeds
 }
@@ -65,6 +66,7 @@ function buildPair(s: SeedEntry, version: string, now: number): { target: Entry;
     pronunciation: s.ipa ? { ipa: s.ipa, ipaSource: 'wiktionary', ...(s.ipaAmbiguous ? { ambiguous: true } : {}) } : {},
     cefr: s.cefr,
     subDefinitions: s.subDefinitions,
+    sense: s.sense,
     examples: s.examples,
     source: 'seed',
     seedVersion: version,
@@ -208,6 +210,7 @@ async function updateSeedTarget(targetId: string, s: SeedEntry, version: string,
     pronunciation: s.ipa ? { ipa: s.ipa, ipaSource: 'wiktionary', ...(s.ipaAmbiguous ? { ambiguous: true } : {}) } : {},
     cefr: s.cefr,
     subDefinitions: s.subDefinitions,
+    sense: s.sense,
     examples: s.examples,
     seedVersion: version,
     seedKey: s.seedKey,

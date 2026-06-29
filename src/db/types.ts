@@ -52,6 +52,11 @@ export interface Entry {
   cefr?: Cefr // present for seed entries; absent for user entries
   disambiguator?: string // e.g. "datafil" when multiple senses share the lemma
   subDefinitions?: string[] // when senses were merged at build time
+  // Production grouping (multi-answer cards): which sense of the shared native concept this answer
+  // belongs to. Target entries with the same `key` are asked as one production card and graded
+  // together; `gloss` is the short native hint shown on the prompt (empty when the concept has a
+  // single sense). Seed-generated; absent on entries the sense pass hasn't covered. (SPEC §6, plan)
+  sense?: { key: string; gloss: string }
   examples?: string[] // seed-provided example sentences (user examples live on the overlay)
   source: Source
   seedVersion?: string // when source = seed

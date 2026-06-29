@@ -1,7 +1,16 @@
 import { useEffect, useRef, useState } from 'preact/hooks'
-import { getPracticeCardView, type PracticeCardView } from '../../db/queries'
+import { getPracticeCardView, type PracticeCardView, type PracticeGroupMember } from '../../db/queries'
+import { getRenderer } from '../../lang'
 import type { RatingLabel } from '../../srs/fsrs-adapter'
-import { composeSession, recordReview, type ReviewUndo, undoReview } from '../../srs/session-composer'
+import {
+  composeSession,
+  type GroupReviewUndo,
+  recordGroupReview,
+  recordReview,
+  type ReviewUndo,
+  undoGroupReview,
+  undoReview,
+} from '../../srs/session-composer'
 import { EntryEditor } from '../EntryEditor/EntryEditor'
 import { WiktionaryLink } from '../WordActions/WordActions'
 import { ProgressBar } from './ProgressBar'
@@ -19,6 +28,10 @@ import {
 import { StudyCard } from './StudyCard'
 import styles from './PracticeScreen.module.css'
 
+// One reversible action this sitting: a single-card rating or a multi-answer group rating. Undo
+// dispatches on the kind. (In-memory only — gone after a refresh or tab switch, SPEC §6.5.)
+type UndoEntry = { kind: 'single'; token: ReviewUndo } | { kind: 'group'; token: GroupReviewUndo }
+
 export function PracticeScreen() {
   // The session is composed once per day and kept alive across navigation/refresh (SPEC §7.2):
   // the in-memory store resumes instantly on a tab switch; the persisted record resumes after a
@@ -32,7 +45,11 @@ export function PracticeScreen() {
   const [editing, setEditing] = useState(false)
   // One undo token per rating made this sitting; lets the user take back accidental taps,
   // card by card. In-memory only — it's gone after a refresh or tab switch (SPEC §6.5).
-  const [undoStack, setUndoStack] = useState<ReviewUndo[]>([])
+  const [undoStack, setUndoStack] = useState<UndoEntry[]>([])
+  // Per-tab state for the current multi-answer card: which answer tab is active, and the grade given to
+  // each answer so far. Both reset as each card resolves. (plan)
+  const [activeTab, setActiveTab] = useState(0)
+  const [ratings, setRatings] = useState<Map<string, RatingLabel>>(() => new Map())
   // The local day this session was composed for. If the app is left open past midnight (no
   // remount), foregrounding it recomposes so "caught up" doesn't stick into the new day.
   const loadedDayRef = useRef(resumed?.dayKey ?? dayKey())
@@ -49,6 +66,8 @@ export function PracticeScreen() {
     setRevealed(false)
     setCanPushFurther(nextCanPush)
     setUndoStack([]) // a fresh batch replaces the queue — prior tokens no longer map to it
+    setActiveTab(0)
+    setRatings(new Map())
     saveSession({ dayKey: dayKey(), views: resolved, index: 0, canPushFurther: nextCanPush })
     void persistSession(resolved.map((v) => v.card), 0, nextCanPush)
   }
@@ -71,6 +90,8 @@ export function PracticeScreen() {
     setRevealed(false)
     setCanPushFurther(persisted.canPushFurther)
     setUndoStack([]) // undo history doesn't survive a refresh — start the resumed sitting clean
+    setActiveTab(0)
+    setRatings(new Map())
     saveSession({
       dayKey: persisted.dayKey,
       views: resolved,
@@ -133,10 +154,10 @@ export function PracticeScreen() {
   const view = views[index]
   const isRevealed = revealed || view.card.mode === 'new'
 
-  async function rate(rating: RatingLabel) {
-    navigator.vibrate?.(10)
-    const token = await recordReview(view.card, rating)
-    setUndoStack((s) => [...s, token])
+  // Advance to the next card: step the cursor, reset per-card UI, persist the position.
+  function advance() {
+    setActiveTab(0)
+    setRatings(new Map())
     setRevealed(false)
     setIndex((i) => {
       const next = i + 1
@@ -146,15 +167,56 @@ export function PracticeScreen() {
     })
   }
 
+  // Commit a multi-answer card: persist every answer's own grade as one reversible step, then advance.
+  async function commitGroup(members: PracticeGroupMember[], graded: Map<string, RatingLabel>) {
+    const token = await recordGroupReview(
+      members.map((m) => ({ translationId: m.translationId, label: graded.get(m.translationId) ?? 'good' })),
+    )
+    setUndoStack((s) => [...s, { kind: 'group', token }])
+    advance()
+  }
+
+  async function rate(rating: RatingLabel) {
+    navigator.vibrate?.(10)
+    const card = view.card
+    if (!card.group || !view.group) {
+      const token = await recordReview(card, rating)
+      setUndoStack((s) => [...s, { kind: 'single', token }])
+      advance()
+      return
+    }
+    // Group: grade the active answer, then auto-advance to the next unrated tab — or commit if done.
+    const members = view.group.members
+    const graded = new Map(ratings).set(members[activeTab].translationId, rating)
+    const nextUnrated = members.findIndex((m) => !graded.has(m.translationId))
+    if (nextUnrated === -1) await commitGroup(members, graded)
+    else {
+      setRatings(graded)
+      setActiveTab(nextUnrated)
+    }
+  }
+
+  // "Knew all": grade every still-unrated answer Good, then commit.
+  async function knewAll() {
+    navigator.vibrate?.(10)
+    if (!view.group) return
+    const graded = new Map(ratings)
+    for (const m of view.group.members) if (!graded.has(m.translationId)) graded.set(m.translationId, 'good')
+    await commitGroup(view.group.members, graded)
+  }
+
   // Take back the most recent rating: reverse its scheduling, step back to that card (shown
   // revealed, ready to re-rate), and rewind the cursor. The stack and cursor move in lockstep
   // — each rating pushes a token and advances one; each undo pops one and rewinds one.
   async function undo() {
-    const token = undoStack[undoStack.length - 1]
-    if (!token) return
+    const entry = undoStack[undoStack.length - 1]
+    if (!entry) return
     navigator.vibrate?.(10)
-    await undoReview(token)
+    if (entry.kind === 'group') await undoGroupReview(entry.token)
+    else await undoReview(entry.token)
     setUndoStack((s) => s.slice(0, -1))
+    setActiveTab(0)
+    setRatings(new Map())
     setRevealed(true)
     setIndex((i) => {
       const prev = i - 1
@@ -196,15 +258,27 @@ export function PracticeScreen() {
       >
         {/* Keyed on the index so each question is a fresh mount — that's what triggers the
             card-in animation when advancing past a rating (tap-to-reveal keeps the same key). */}
-        <StudyCard key={index} view={view} revealed={isRevealed} />
+        <StudyCard key={index} view={view} revealed={isRevealed} activeTab={activeTab} />
       </div>
       {/* Wiktionary link for the Swedish word — pinned just above the rating buttons; shown only once
           revealed (so it can't hint the answer in production). The footer always reserves its space, so
-          revealing doesn't shrink the card area and nudge the prompt upward. */}
+          revealing doesn't shrink the card area and nudge the prompt upward. A multi-answer card has no
+          single Swedish word to link, so it's omitted there. */}
       <div class={styles.wiktFooter}>
-        {isRevealed ? <WiktionaryLink lemma={view.target.lemma} lang={view.target.lang} /> : null}
+        {isRevealed && !view.card.group ? <WiktionaryLink lemma={view.target.lemma} lang={view.target.lang} /> : null}
       </div>
       <RatingButtons mode={view.card.mode} onRate={rate} />
+      {/* Multi-answer card: answer tabs sit *under* the rating buttons (which grade the active tab),
+          plus a one-tap "Knew all". Shown only once revealed — the tab labels are the answers. */}
+      {view.group && isRevealed ? (
+        <GroupTabs
+          members={view.group.members}
+          active={activeTab}
+          rated={ratings}
+          onSelect={setActiveTab}
+          onKnewAll={() => void knewAll()}
+        />
+      ) : null}
 
       {editing ? (
         <EntryEditor
@@ -230,5 +304,59 @@ function UndoButton({ onClick }: { onClick: () => void }) {
         <path d="M4 9h10.5a5.5 5.5 0 0 1 5.5 5.5 5.5 5.5 0 0 1-5.5 5.5H11" />
       </svg>
     </button>
+  )
+}
+
+// Dot colour per grade, matching the rating buttons (RatingButtons.module.css). A tab's dot takes the
+// colour of the grade just given, so changing your mind on a tab visibly re-colours it.
+const DOT_CLASS: Record<RatingLabel, string> = {
+  again: styles.dotAgain,
+  hard: styles.dotHard,
+  good: styles.dotGood,
+  easy: styles.dotEasy,
+}
+
+// Answer tabs for a multi-answer card: a tab strip under the rating buttons (which grade the active
+// tab). Each tab carries a dot — grey while unrated, then coloured by the grade given. The active tab
+// is emphasised (overline + bold). "Knew all" grades every still-unrated answer at once.
+function GroupTabs({
+  members,
+  active,
+  rated,
+  onSelect,
+  onKnewAll,
+}: {
+  members: PracticeGroupMember[]
+  active: number
+  rated: Map<string, RatingLabel>
+  onSelect: (i: number) => void
+  onKnewAll: () => void
+}) {
+  return (
+    <div class={styles.groupTabs}>
+      <div class={styles.tabs} role="tablist">
+        {members.map((m, i) => {
+          const label = rated.get(m.translationId)
+          return (
+            <button
+              key={m.translationId}
+              type="button"
+              role="tab"
+              aria-selected={i === active}
+              class={`${styles.tab} ${i === active ? styles.tabActive : ''}`}
+              onClick={() => onSelect(i)}
+            >
+              <span class={`${styles.tabDot} ${label ? DOT_CLASS[label] : ''}`} aria-hidden="true">
+                ●
+              </span>
+              {getRenderer(m.target.lang).renderLemma(m.target)}
+            </button>
+          )
+        })}
+      </div>
+      <button type="button" class={styles.knewAll} onClick={onKnewAll}>
+        Knew all
+      </button>
+    </div>
   )
 }

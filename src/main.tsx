@@ -16,6 +16,10 @@ if (import.meta.env.DEV) {
     await db.delete()
     location.reload()
   }
+  // `demoGroup('clearly')` from the console surfaces a multi-answer production card for manual review.
+  void import('./db/dev-tools').then((m) => {
+    ;(window as Window & { demoGroup?: typeof m.demoGroup }).demoGroup = m.demoGroup
+  })
 }
 
 // Import the Swedish seed on first launch (shows a loading screen), then render the app.

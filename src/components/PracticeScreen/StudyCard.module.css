@@ -194,3 +194,10 @@
   font-weight: 600;
   padding: 10px 16px;
 }
+
+/* Multi-answer production: how many valid answers to recall, shown pre-reveal (no answer leaked). */
+.waysCue {
+  margin-top: 8px;
+  font-size: 14px;
+  color: var(--color-text-secondary);
+}

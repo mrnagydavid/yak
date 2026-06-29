@@ -9,6 +9,8 @@ const SEED_VERSION = 'sv-2026-06-01' // en.wiktionary dump date the kaikki extra
 const DECISIONS_DIR = 'data/intermediate/decisions'
 const EXAMPLES_DIR = 'data/intermediate/examples' // curated examples for ambiguous cards (Step 15)
 const AMBIGUOUS_OUT = 'data/intermediate/ambiguous.json' // emitted for the example-writer step
+const SENSE_DECISIONS_DIR = 'data/intermediate/sense-decisions' // sense pass output (production grouping)
+const MULTI_TRANSLATION_OUT = 'data/intermediate/multi-translation.json' // emitted for the sense pass
 const MAX_EXAMPLE_LEN = 160 // flashcard examples stay short — drop any longer (poetry/quote dumps)
 
 const cleanTranslation = (t) => t.replace(/\s+/g, ' ').replace(/[\s:;,]+$/, '').trim()
@@ -104,6 +106,28 @@ async function loadExamples() {
   return byId
 }
 
+// Sense partitions for multi-translation concepts (the sense pass), keyed kellyId → {key, gloss}.
+// Only members of a sense with ≥2 words are stamped — a singleton sense never groups at runtime, so it
+// needs no marker. Absent on the first pass (before the sense pass runs); apply then just emits the
+// concept list for batching.
+async function loadSenses() {
+  const byId = new Map()
+  if (!existsSync(SENSE_DECISIONS_DIR)) return byId
+  for (const file of await readdir(SENSE_DECISIONS_DIR)) {
+    if (!file.endsWith('.json')) continue
+    for (const concept of JSON.parse(await readFile(`${SENSE_DECISIONS_DIR}/${file}`, 'utf-8'))) {
+      ;(concept.senses ?? []).forEach((s, i) => {
+        const members = s.members ?? []
+        if (members.length < 2) return // singleton sense → never groups → no marker
+        const key = `${concept.english}#${i}`
+        const gloss = (s.gloss ?? '').trim()
+        for (const kellyId of members) byId.set(kellyId, { key, gloss })
+      })
+    }
+  }
+  return byId
+}
+
 // kellyId becomes the seed's stable cross-version key (seedKey) so a shipped update can be synced
 // onto an existing DB without resetting progress. (SPEC §9 / seed-sync)
 const toSeedEntry = (e) => {
@@ -115,6 +139,7 @@ async function main() {
   const candidates = JSON.parse(await readFile('data/intermediate/candidates.json', 'utf-8'))
   const decisions = await loadDecisions()
   const curatedExamples = await loadExamples()
+  const senses = await loadSenses()
 
   const entries = []
   let dropped = 0
@@ -198,6 +223,44 @@ async function main() {
     }
   }
 
+  // Production grouping (plan): a "concept" is one English translation carried by ≥2 Swedish answers
+  // (e.g. clearly → tydligt/klart/tydligen/uppenbarligen). Emit the concepts for the sense pass to
+  // partition into senses, and stamp the sense markers it produced so a runtime production card can
+  // group true synonyms by sense (kellyId → {key, gloss}). Grouped on the primary gloss (normTr), which
+  // is how same-meaning is judged elsewhere here.
+  const byTranslation = new Map()
+  for (const e of finalEntries) {
+    const k = normTr(e.translation)
+    if (!k) continue
+    if (byTranslation.has(k) === false) byTranslation.set(k, [])
+    byTranslation.get(k).push(e)
+  }
+  const multiTranslation = []
+  for (const rows of byTranslation.values()) {
+    if (rows.length < 2) continue
+    multiTranslation.push({
+      english: rows[0].translation,
+      members: rows.map((e) => ({
+        kellyId: e.kellyId,
+        lemma: e.lemma,
+        pos: e.pos,
+        cefr: e.cefr,
+        ...(e.subDefinitions?.length ? { subDefinitions: e.subDefinitions } : {}),
+        ...(e.examples?.length ? { examples: e.examples } : {}),
+      })),
+    })
+  }
+  await writeFile(MULTI_TRANSLATION_OUT, JSON.stringify(multiTranslation, null, 2))
+
+  let senseCount = 0
+  for (const e of finalEntries) {
+    const s = senses.get(e.kellyId)
+    if (s) {
+      e.sense = s
+      senseCount++
+    }
+  }
+
   // Stamp each entry with a per-entry content hash (`h`) for changed-only seed-sync. `h` is added
   // after hashing so it never feeds into its own hash.
   const seedEntries = finalEntries.map(toSeedEntry).map((e) => ({ ...e, h: entryHash(e) }))
@@ -219,6 +282,8 @@ async function main() {
   console.log(`seed-sv.json: ${seedEntries.length} entries (dropped ${dropped}, omitted ${omitted} untranslated)`)
   console.log(`ambiguous cards: ${ambiguous.length} → ${AMBIGUOUS_OUT}`)
   console.log(`ipa-ambiguous entries (TTS suppressed): ${ipaAmbiguousCount}`)
+  console.log(`multi-translation concepts: ${multiTranslation.length} → ${MULTI_TRANSLATION_OUT}`)
+  console.log(`sense-grouped entries: ${senseCount}`)
 }
 
 main().catch((e) => {

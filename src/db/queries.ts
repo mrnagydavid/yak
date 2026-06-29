@@ -126,6 +126,13 @@ export function getReviewState(translationId: string, skill: Skill) {
   return db.reviewStates.where('[translationId+skill]').equals([translationId, skill]).first()
 }
 
+/** One answer of a multi-answer production card: its translation + resolved target entry + overlay. */
+export interface PracticeGroupMember {
+  translationId: string
+  target: Entry
+  overlay?: EntryOverlay
+}
+
 /** Everything the Practice card needs to render: the session card plus resolved entities. */
 export interface PracticeCardView {
   card: SessionCard
@@ -137,6 +144,9 @@ export interface PracticeCardView {
    *  separates en val / ett val / att-verbs, so those don't count. The prompt then shows a
    *  sense-specific example so the recall is well-posed. (SPEC §7.2) */
   ambiguous: boolean
+  /** Present on a multi-answer PRODUCTION card (SessionCard.group): the concept's sense gloss and the
+   *  resolved target entry for each valid answer, so the reveal can list them all. (plan) */
+  group?: { gloss: string; members: PracticeGroupMember[] }
 }
 
 /** Resolve a session card's display data. Returns null if the target entry is missing. */
@@ -146,6 +156,21 @@ export async function getPracticeCardView(card: SessionCard): Promise<PracticeCa
   const translation = await db.translations.get(card.translationId)
   const native = translation ? await db.entries.get(translation.nativeEntryId) : undefined
   const overlay = await getOverlay(target.id)
+
+  // Multi-answer production: resolve every valid answer's target entry for the reveal. The prompt is
+  // the shared native concept (`native`); the sense gloss (from the representative target) says which
+  // sense. No homonym cue here — the group's count + gloss already disambiguate. (plan)
+  if (card.group) {
+    const targets = await db.entries.bulkGet(card.group.members.map((m) => m.targetEntryId))
+    const byId = new Map(targets.filter((e): e is Entry => Boolean(e)).map((e) => [e.id, e]))
+    const members: PracticeGroupMember[] = []
+    for (const m of card.group.members) {
+      const t = byId.get(m.targetEntryId)
+      if (t) members.push({ translationId: m.translationId, target: t, overlay: await getOverlay(t.id) })
+    }
+    return { card, target, native, overlay, ambiguous: false, group: { gloss: target.sense?.gloss ?? '', members } }
+  }
+
   // Ambiguous = the rendered prompt form collides with another same-lemma card. en/ett/att that
   // already disambiguate suppress it; only genuine same-form homonyms keep the cue.
   const siblings = await db.entries.where('[lang+lemma]').equals([target.lang, target.lemma]).toArray()

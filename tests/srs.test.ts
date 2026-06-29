@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { applyRating, createReviewState, isDue } from '../src/srs/fsrs-adapter'
-import { composeSessionPure, type ComposerInput } from '../src/srs/session-composer'
+import { composeSessionPure, gradeGroup, type ComposerInput } from '../src/srs/session-composer'
 import type { Entry, ReviewState, Source, Translation } from '../src/db/types'
 import type { Cefr } from '../src/db/types'
 
@@ -399,5 +399,150 @@ describe('session-composer', () => {
       )
       expect(cards.find((c) => c.skill === 'produce')).toBeDefined()
     })
+  })
+
+  describe('multi-answer production groups (plan)', () => {
+    const SENSE = { key: 'clearly#0', gloss: 'in a clear way' }
+
+    // tydligt + klart, both the "in a clear way" sense of "clearly". Recognition is stabilised but
+    // NOT due, so it stays out of the session; recognition stability is low enough (< unlock) that a
+    // sibling without a produce state is never introduced here, keeping the produce assertions clean.
+    function synonyms(produceStates: Record<string, Partial<ReviewState>>) {
+      seq = 0
+      const tyd = entry('tydligt', 'seed', 'A2', { sense: SENSE })
+      const kla = entry('klart', 'seed', 'A2', { sense: SENSE })
+      const reviewStates: ReviewState[] = [
+        srsState('t_tyd', 'recognize', { state: 'review', stability: 3, due: NOW + DAY }),
+        srsState('t_kla', 'recognize', { state: 'review', stability: 3, due: NOW + DAY }),
+      ]
+      for (const [tid, fields] of Object.entries(produceStates)) {
+        reviewStates.push(srsState(tid, 'produce', { state: 'review', stability: 12, ...fields }))
+      }
+      return base({
+        entries: [tyd, kla],
+        translations: [translation('t_tyd', tyd.id), translation('t_kla', kla.id)],
+        reviewStates,
+      })
+    }
+
+    it('asks two taught synonyms of one sense as a single grouped card', () => {
+      // tydligt due now, klart taught but due later → one card carrying both.
+      const cards = composeSessionPure(synonyms({ t_tyd: { due: NOW - DAY }, t_kla: { due: NOW + 2 * DAY } }))
+      const produce = cards.filter((c) => c.skill === 'produce')
+      expect(produce).toHaveLength(1)
+      expect(produce[0]?.group?.members.map((m) => m.translationId).sort()).toEqual(['t_kla', 't_tyd'])
+      expect(produce[0]?.translationId).toBe('t_tyd') // earliest-due member represents the group
+    })
+
+    it('collapses to one card even when both synonyms are due', () => {
+      const cards = composeSessionPure(synonyms({ t_tyd: { due: NOW - DAY }, t_kla: { due: NOW - 2 * DAY } }))
+      const produce = cards.filter((c) => c.skill === 'produce')
+      expect(produce).toHaveLength(1)
+      expect(produce[0]?.group?.members).toHaveLength(2)
+      expect(produce[0]?.translationId).toBe('t_kla') // klart is earliest-due → representative
+    })
+
+    it('pulls in a recognised sibling even before it has its own production state', () => {
+      // klart has only been recognised (taught as a new word); tydligt's production is due → ask both.
+      const cards = composeSessionPure(synonyms({ t_tyd: { due: NOW - DAY } }))
+      const produce = cards.filter((c) => c.skill === 'produce')
+      expect(produce).toHaveLength(1)
+      expect(produce[0]?.group?.members.map((m) => m.translationId).sort()).toEqual(['t_kla', 't_tyd'])
+      expect(produce[0]?.translationId).toBe('t_tyd') // tydligt has the due produce card; klart rides along
+    })
+
+    it('does not pull in a sibling the learner has never recognised or produced', () => {
+      seq = 0
+      const tyd = entry('tydligt', 'seed', 'A2', { sense: SENSE })
+      const kla = entry('klart', 'seed', 'A2', { sense: SENSE })
+      const cards = composeSessionPure(
+        base({
+          entries: [tyd, kla],
+          translations: [translation('t_tyd', tyd.id), translation('t_kla', kla.id)],
+          reviewStates: [
+            srsState('t_tyd', 'recognize', { state: 'review', stability: 3, due: NOW + DAY }),
+            srsState('t_tyd', 'produce', { state: 'review', stability: 12, due: NOW - DAY }),
+            // klart: no state at all — never taught, so it must not appear as an answer
+          ],
+        }),
+      )
+      const produce = cards.filter((c) => c.skill === 'produce')
+      expect(produce).toHaveLength(1)
+      expect(produce[0]?.group).toBeUndefined() // only one introduced member → ordinary card
+      expect(produce[0]?.translationId).toBe('t_tyd')
+    })
+
+    it('holds back a recognition-only sibling whose recognition is itself due this session', () => {
+      seq = 0
+      const tyd = entry('tydligt', 'seed', 'A2', { sense: SENSE })
+      const kla = entry('klart', 'seed', 'A2', { sense: SENSE })
+      const cards = composeSessionPure(
+        base({
+          entries: [tyd, kla],
+          translations: [translation('t_tyd', tyd.id), translation('t_kla', kla.id)],
+          reviewStates: [
+            srsState('t_tyd', 'recognize', { state: 'review', stability: 3, due: NOW + DAY }),
+            srsState('t_tyd', 'produce', { state: 'review', stability: 12, due: NOW - DAY }),
+            // klart recognised only AND its recognition is due today → don't also ask its production
+            srsState('t_kla', 'recognize', { state: 'review', stability: 3, due: NOW - DAY }),
+          ],
+        }),
+      )
+      const produce = cards.filter((c) => c.skill === 'produce')
+      expect(produce).toHaveLength(1)
+      expect(produce[0]?.group).toBeUndefined() // klart deferred → no group this session
+      expect(cards.some((c) => c.skill === 'recognize' && c.translationId === 't_kla')).toBe(true)
+    })
+
+    it('does not group when there is no sense data', () => {
+      seq = 0
+      const a = entry('snabbt', 'seed', 'A2') // no sense
+      const b = entry('fort', 'seed', 'A2') // no sense
+      const cards = composeSessionPure(
+        base({
+          entries: [a, b],
+          translations: [translation('t_a', a.id), translation('t_b', b.id)],
+          reviewStates: [
+            srsState('t_a', 'produce', { state: 'review', stability: 12, due: NOW - DAY }),
+            srsState('t_b', 'produce', { state: 'review', stability: 12, due: NOW - DAY }),
+          ],
+        }),
+      )
+      const produce = cards.filter((c) => c.skill === 'produce')
+      expect(produce).toHaveLength(2) // two ordinary cards, no grouping
+      expect(produce.every((c) => c.group === undefined)).toBe(true)
+    })
+  })
+})
+
+describe('gradeGroup (multi-answer grading)', () => {
+  // A realistic, FSRS-valid produce state: introduced then reviewed to maturity, so it's a 'review'
+  // card with valid difficulty/stability. (Hand-crafting {state:'review'} with difficulty 0 — fine for
+  // the composer, which does no FSRS math — is rejected by the scheduler the moment applyRating runs.)
+  const matured = (translationId: string) => {
+    let rs = createReviewState(translationId, 'produce', NOW - 40 * DAY)
+    for (const at of [NOW - 40 * DAY, NOW - 25 * DAY, NOW - 10 * DAY]) rs = applyRating(rs, 'good', at)
+    return { translationId, reviewState: rs }
+  }
+
+  it('grades each member with its own label', () => {
+    const [a, b] = gradeGroup([{ ...matured('t_a'), label: 'good' }, { ...matured('t_b'), label: 'again' }], NOW)
+    expect(a.due).toBeGreaterThan(NOW) // good → pushed out
+    expect(b.due).toBeLessThan(a.due) // again → comes back sooner
+    expect(b.lapses).toBe(1) // "again" on a review card is a lapse
+    expect(a.lapses).toBe(0) // the recalled one didn't lapse
+  })
+
+  it('advances every member when all are Good (the "Knew all" case)', () => {
+    const rows = gradeGroup([{ ...matured('t_a'), label: 'good' }, { ...matured('t_b'), label: 'good' }], NOW)
+    expect(rows.every((r) => r.due > NOW)).toBe(true)
+    expect(rows.every((r) => r.lapses === 0)).toBe(true)
+  })
+
+  it('creates fresh produce state for a member that has none', () => {
+    const [n] = gradeGroup([{ translationId: 't_new', label: 'good' }], NOW)
+    expect(n.translationId).toBe('t_new')
+    expect(n.skill).toBe('produce')
+    expect(n.reps).toBe(1)
   })
 })

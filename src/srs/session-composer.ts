@@ -1,5 +1,5 @@
 import { db } from '../db/schema'
-import { getActiveProfile } from '../db/queries'
+import { getActiveProfile, getReviewState } from '../db/queries'
 import type { Entry, Profile, ReviewState, Skill, Translation } from '../db/types'
 import { applyRating, createReviewState, type RatingLabel } from './fsrs-adapter'
 import { cefrRank, levelRank } from './levels'
@@ -50,6 +50,13 @@ export interface SessionCard {
   mode: CardMode
   /** Present for cards that already have FSRS state (i.e. genuine practice cards). */
   reviewState?: ReviewState
+  /**
+   * Present on a multi-answer PRODUCTION card: the taught sibling answers that share this answer's
+   * sense (e.g. "clearly (in a clear way)" → tydligt, klart). The concept is asked once and graded
+   * together; `translationId`/`targetEntryId`/`reviewState` above are the representative (earliest-due)
+   * member, which drives the card's scheduling slot. (plan, SPEC §6)
+   */
+  group?: { members: { translationId: string; targetEntryId: string }[] }
 }
 
 const SKILLS: Skill[] = ['recognize', 'produce']
@@ -232,10 +239,90 @@ export function composeSessionPure(input: ComposerInput): SessionCard[] {
   const newRank = (c: Candidate) => (c.userAdded ? 0 : c.forced ? 1 : 2)
   fresh.sort((a, b) => newRank(a) - newRank(b) || a.entry.createdAt - b.entry.createdAt)
 
-  const practiceCards = practice.slice(0, limits.practicePerDay).map((c) => c.card)
+  const practiceCards = groupProductionCards(
+    practice.slice(0, limits.practicePerDay).map((c) => c.card),
+    entryById,
+    input.translations,
+    rsByKey,
+    now,
+  )
   const newCards = fresh.slice(0, newBudget).map((c) => c.card)
 
   return interleave(practiceCards, newCards)
+}
+
+/**
+ * Collapse the production cards of one sense-group into a single multi-answer card. (plan, SPEC §6)
+ *
+ * The seed splits a native concept (e.g. "clearly") into senses; the Swedish answers of one sense
+ * ("in a clear way" → tydligt, klart) share their target Entry's `sense.key`. A member is any sibling
+ * the learner has been INTRODUCED to — recognised or produced (taught as a new word). When ≥2 members
+ * are introduced and at least one's production is due today, we ask the concept once: a single card
+ * carrying every introduced member, graded together (a recognition-only member's produce state is
+ * created when it's first graded). A sibling never seen in any skill is NOT pulled in; nor is a
+ * recognition-only member whose recognition is itself due this session — that would be the "free
+ * reverse" production gating avoids (§6 1b), so it joins a later session. Members not currently due add
+ * no session slot; they ride the group's reveal and grade.
+ */
+function groupProductionCards(
+  practiceCards: SessionCard[],
+  entryById: Map<string, Entry>,
+  translations: Translation[],
+  rsByKey: Map<string, ReviewState>,
+  now: number,
+): SessionCard[] {
+  // Introduced members per sense key: siblings the learner has seen in ANY skill (recognised or
+  // produced). `produceDue` is the member's production due, or Infinity if it has no produce state yet
+  // — such a member rides along as an answer but can't, on its own, surface the group.
+  const membersByKey = new Map<string, { translationId: string; targetEntryId: string; produceDue: number }[]>()
+  for (const t of translations) {
+    const key = entryById.get(t.targetEntryId)?.sense?.key
+    if (!key) continue
+    const rec = rsByKey.get(`${t.id}:recognize`)
+    const prod = rsByKey.get(`${t.id}:produce`)
+    if (!rec && !prod) continue // never introduced in any skill → not a member
+    // A recognition-only member whose recognition is due today is held back: asking its production in
+    // the same session would be the "free reverse" production gating avoids (§6 1b). It joins later.
+    if (!prod && rec && rec.due <= now) continue
+    const list = membersByKey.get(key) ?? []
+    list.push({ translationId: t.id, targetEntryId: t.targetEntryId, produceDue: prod ? prod.due : Infinity })
+    membersByKey.set(key, list)
+  }
+
+  // A group surfaces when ≥2 members are introduced and at least one's PRODUCTION is due today.
+  const groupCardByKey = new Map<string, SessionCard>()
+  const memberToKey = new Map<string, string>()
+  for (const [key, members] of membersByKey) {
+    if (members.length < 2 || !members.some((m) => m.produceDue <= now)) continue
+    const ordered = [...members].sort((a, b) => a.produceDue - b.produceDue || a.translationId.localeCompare(b.translationId))
+    const rep = ordered[0] // earliest produce-due member drives the slot (it has a real due card)
+    groupCardByKey.set(key, {
+      translationId: rep.translationId,
+      targetEntryId: rep.targetEntryId,
+      skill: 'produce',
+      mode: 'practice',
+      reviewState: rsByKey.get(`${rep.translationId}:produce`),
+      group: { members: ordered.map((m) => ({ translationId: m.translationId, targetEntryId: m.targetEntryId })) },
+    })
+    for (const m of members) memberToKey.set(m.translationId, key)
+  }
+  if (groupCardByKey.size === 0) return practiceCards
+
+  // Replace each group's member produce cards with one group card, at the first (earliest-due) slot.
+  const emitted = new Set<string>()
+  const out: SessionCard[] = []
+  for (const card of practiceCards) {
+    const key = card.skill === 'produce' ? memberToKey.get(card.translationId) : undefined
+    if (key) {
+      if (!emitted.has(key)) {
+        emitted.add(key)
+        out.push(groupCardByKey.get(key)!)
+      }
+      continue // drop redundant member cards
+    }
+    out.push(card)
+  }
+  return out
 }
 
 /** Front-load practice cards and sprinkle new cards in at regular intervals. (SPEC §6.2 step 3) */
@@ -321,4 +408,61 @@ export async function recordReview(
 export async function undoReview(undo: ReviewUndo): Promise<void> {
   if (undo.previous) await db.reviewStates.put(undo.previous)
   else await db.reviewStates.delete(undo.writtenId)
+}
+
+/** One answer's self-assessment in a multi-answer group: its translation + the grade given to it. */
+export interface GroupRating {
+  translationId: string
+  label: RatingLabel
+}
+
+/**
+ * Pure PER-WORD grading of a multi-answer production group: each member is graded with its OWN label
+ * (the learner rates each answer on its own tab; "Knew all" simply sends every remaining answer in as
+ * `good`). A member with no prior produce state gets a fresh one. Each member keeps its own independent
+ * ReviewState (SPEC §4.4). The caller persists the returned rows.
+ */
+export function gradeGroup(
+  members: { translationId: string; reviewState?: ReviewState; label: RatingLabel }[],
+  now: number = Date.now(),
+): ReviewState[] {
+  return members.map((m) => {
+    const base = m.reviewState ?? createReviewState(m.translationId, 'produce', now)
+    return applyRating(base, m.label, now)
+  })
+}
+
+/** What `recordGroupReview` wrote, enough for `undoGroupReview` to reverse it exactly. */
+export interface GroupReviewUndo {
+  writes: ReviewUndo[]
+}
+
+/**
+ * Grade a multi-answer production group (each answer with its own label) and persist every member's
+ * produce state. Re-reads each member's CURRENT state first — a member pulled into the group may not
+ * have been due, so the card's embedded snapshot can be stale. Returns a token `undoGroupReview`
+ * reverses exactly.
+ */
+export async function recordGroupReview(
+  ratings: GroupRating[],
+  now: number = Date.now(),
+): Promise<GroupReviewUndo> {
+  const graded = await Promise.all(
+    ratings.map(async (r) => ({
+      translationId: r.translationId,
+      reviewState: await getReviewState(r.translationId, 'produce'),
+      label: r.label,
+    })),
+  )
+  const next = gradeGroup(graded, now)
+  await db.reviewStates.bulkPut(next)
+  return { writes: next.map((row, i) => ({ previous: graded[i].reviewState, writtenId: row.id })) }
+}
+
+/** Reverse a `recordGroupReview`: restore each member's prior row, or delete rows the rating created. */
+export async function undoGroupReview(undo: GroupReviewUndo): Promise<void> {
+  for (const w of undo.writes) {
+    if (w.previous) await db.reviewStates.put(w.previous)
+    else await db.reviewStates.delete(w.writtenId)
+  }
 }
