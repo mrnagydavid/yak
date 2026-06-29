@@ -85,16 +85,6 @@
   cursor: pointer;
 }
 
-/* Wiktionary icon sits between the card and the rating buttons, left-aligned. Always reserves its
-   height (even before reveal, when empty) so revealing doesn't resize the card area. */
-.wiktFooter {
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  min-height: 44px;
-  padding: 0 2px;
-}
-
 .caughtUp {
   flex: 1;
   display: flex;

@@ -3,7 +3,7 @@ import type { Entry, EntryOverlay } from '../../db/types'
 import { getRenderer } from '../../lang'
 import type { InflectionDisplay } from '../../lang'
 import type { RatingLabel } from '../../srs/fsrs-adapter'
-import { SpeakButton } from '../WordActions/WordActions'
+import { SpeakButton, WiktionaryLink } from '../WordActions/WordActions'
 import styles from './StudyCard.module.css'
 
 // The inflection block (verb principal parts as a one-liner, noun declension as a 2×2 grid).
@@ -55,7 +55,10 @@ function TargetReveal({ target, overlay }: { target: Entry; overlay?: EntryOverl
       <div class={styles.answer}>
         <span class={styles.answerWord}>{r.renderLemma(target)}</span>
         {ipa ? <span class={styles.ipa}>/{ipa}/</span> : null}
-        {!ttsSuppressed ? <SpeakButton text={target.lemma} lang={target.lang} /> : null}
+        <div class={styles.wordActions}>
+          {!ttsSuppressed ? <SpeakButton text={target.lemma} lang={target.lang} /> : null}
+          <WiktionaryLink lemma={target.lemma} lang={target.lang} />
+        </div>
       </div>
       <Inflections display={r.renderInflections(target)} />
       {target.subDefinitions?.length ? (
@@ -132,9 +135,14 @@ export function StudyCard({
         <span class={styles.promptWord}>{promptWord}</span>
         {promptDisambig ? <span class={styles.disambig}>({promptDisambig})</span> : null}
         {isRecognition && targetIpa ? <span class={styles.ipa}>/{targetIpa}/</span> : null}
-        {/* Recognition shows the Swedish word on the prompt, so its pronunciation is available
-            immediately. (Production keeps it in the reveal, so it can't leak the answer.) */}
-        {isRecognition && !ttsSuppressed ? <SpeakButton text={target.lemma} lang={target.lang} /> : null}
+        {/* Recognition shows the Swedish word on the prompt, so its actions sit here. The Wiktionary
+            link is held back until reveal (it would otherwise give the meaning away). */}
+        {isRecognition ? (
+          <div class={styles.wordActions}>
+            {!ttsSuppressed ? <SpeakButton text={target.lemma} lang={target.lang} /> : null}
+            {revealed ? <WiktionaryLink lemma={target.lemma} lang={target.lang} /> : null}
+          </div>
+        ) : null}
         {/* In recognition the Swedish word is the prompt, so its forms enrich it right here — shown on
             reveal so the card stays clean until then. */}
         {isRecognition && revealed ? (

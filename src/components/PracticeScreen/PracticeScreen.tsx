@@ -11,7 +11,6 @@ import {
   undoReview,
 } from '../../srs/session-composer'
 import { EntryEditor } from '../EntryEditor/EntryEditor'
-import { WiktionaryLink } from '../WordActions/WordActions'
 import { ProgressBar } from './ProgressBar'
 import { RatingButtons } from './RatingButtons'
 import {
@@ -265,13 +264,6 @@ export function PracticeScreen() {
           ratings={ratings}
           onSelectTab={setActiveTab}
         />
-      </div>
-      {/* Wiktionary link for the Swedish word — pinned just above the rating buttons; shown only once
-          revealed (so it can't hint the answer in production). The footer always reserves its space, so
-          revealing doesn't shrink the card area and nudge the prompt upward. A multi-answer card has no
-          single Swedish word to link, so it's omitted there. */}
-      <div class={styles.wiktFooter}>
-        {isRevealed && !view.card.group ? <WiktionaryLink lemma={view.target.lemma} lang={view.target.lang} /> : null}
       </div>
       <div class={styles.actions}>
         <RatingButtons mode={view.card.mode} onRate={rate} />

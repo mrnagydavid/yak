@@ -119,6 +119,14 @@
   gap: 4px;
 }
 
+/* The word's actions (listen + Wiktionary) on one row, under its IPA. */
+.wordActions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
 .answerWord {
   font-size: 24px;
   font-weight: 600;
