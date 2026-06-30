@@ -12,3 +12,4 @@ data/intermediate/*
 !data/intermediate/decisions/
 !data/intermediate/examples/
 !data/intermediate/sense-decisions.json
+!data/intermediate/translation-decisions.json

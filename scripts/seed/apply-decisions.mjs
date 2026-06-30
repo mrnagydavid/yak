@@ -11,6 +11,7 @@ const EXAMPLES_DIR = 'data/intermediate/examples' // curated examples for ambigu
 const AMBIGUOUS_OUT = 'data/intermediate/ambiguous.json' // emitted for the example-writer step
 const SENSE_DECISIONS_FILE = 'data/intermediate/sense-decisions.json' // merged sense pass (production grouping)
 const MULTI_TRANSLATION_OUT = 'data/intermediate/multi-translation.json' // emitted for the sense pass
+const TRANSLATION_DECISIONS_FILE = 'data/intermediate/translation-decisions.json' // merged translation-curation pass
 const MAX_EXAMPLE_LEN = 160 // flashcard examples stay short — drop any longer (poetry/quote dumps)
 
 const cleanTranslation = (t) => t.replace(/\s+/g, ' ').replace(/[\s:;,]+$/, '').trim()
@@ -106,6 +107,20 @@ async function loadExamples() {
   return byId
 }
 
+// Translation-curation decisions (the main-translation + meaning-list quality pass), keyed by
+// kellyId. The merged file holds only `fix` objects — a reviewed-and-fine entry emits nothing — and
+// is absent before the pass has run. Each fix may carry: `translation` (the new bare primary, possibly
+// two co-equal meanings joined by "; "), `senses` (the COMPLETE meaning list, primary first; [] for a
+// monosemous word, which clears any stale sub-definitions), and `uncountable` (English noun → no article).
+async function loadTranslationDecisions() {
+  const byId = new Map()
+  if (!existsSync(TRANSLATION_DECISIONS_FILE)) return byId
+  for (const d of JSON.parse(await readFile(TRANSLATION_DECISIONS_FILE, 'utf-8'))) {
+    if (d.decision === 'fix') byId.set(d.kellyId, d)
+  }
+  return byId
+}
+
 // Sense partitions for multi-translation concepts (the sense pass), keyed kellyId → {key, gloss}.
 // Only members of a sense with ≥2 words are stamped — a singleton sense never groups at runtime, so it
 // needs no marker. Absent on the first pass (before the sense pass runs); apply then just emits the
@@ -136,6 +151,7 @@ const toSeedEntry = (e) => {
 async function main() {
   const candidates = JSON.parse(await readFile('data/intermediate/candidates.json', 'utf-8'))
   const decisions = await loadDecisions()
+  const translationDecisions = await loadTranslationDecisions()
   const curatedExamples = await loadExamples()
   const senses = await loadSenses()
 
@@ -152,10 +168,25 @@ async function main() {
     // proposedTranslation, which would otherwise blank the entry out.
     const isFix = d?.decision === 'fix'
     const fixTranslation = isFix ? (d.proposedTranslation ?? '').trim() : ''
-    const translation = bareNative(c.pos, cleanTranslation(fixTranslation || c.translation || ''))
+    // The translation-curation pass is the dedicated main+list quality pass; where it has an opinion
+    // on this entry it wins over the cleaner (and the candidate) for the translation and the list.
+    const td = translationDecisions.get(c.kellyId)
+    const curatedTranslation = (td?.translation ?? '').trim()
+    const translation = bareNative(c.pos, cleanTranslation(curatedTranslation || fixTranslation || c.translation || ''))
     if (!translation) continue // no translation yet (unmatched, pending cleanup) → omit
-    const subSource = isFix ? (d.proposedSubDefinitions ?? c.subDefinitions) : c.subDefinitions
-    const subDefinitions = (subSource ?? []).map(cleanTranslation).filter(Boolean)
+    // A curation fix rebuilds the complete meaning list (primary first). Enforce the pass's contract
+    // here so it holds regardless of agent slips: a list is shown ONLY when there are ≥2 distinct
+    // meanings — a 0/1-item curated list collapses to none (the headline alone says it). Without a
+    // curation fix, fall back to the cleaner/candidate sub-definitions unchanged.
+    let subDefinitions
+    if (td && Array.isArray(td.senses)) {
+      const list = td.senses.map(cleanTranslation).filter(Boolean)
+      subDefinitions = list.length >= 2 ? list : []
+    } else {
+      const subSource = isFix ? (d.proposedSubDefinitions ?? c.subDefinitions) : c.subDefinitions
+      subDefinitions = (subSource ?? []).map(cleanTranslation).filter(Boolean)
+    }
+    const enUncountable = td?.uncountable === true
     // IPA override: the dump's IPA is sometimes wrong (e.g. a long /kː/ before a /t/ cluster). A
     // "fix" may supply proposedIpa to replace it; otherwise the candidate's IPA carries through.
     const ipa = (isFix ? (d.proposedIpa ?? '').trim() : '') || c.ipa
@@ -172,6 +203,7 @@ async function main() {
       ...(ipa ? { ipa: cleanIpa(ipa) } : {}),
       ...(Object.keys(c.inflections).length ? { inflections: c.inflections } : {}),
       ...(subDefinitions.length ? { subDefinitions } : {}),
+      ...(enUncountable ? { enUncountable: true } : {}),
       ...(examples.length ? { examples } : {}),
       translation,
     })

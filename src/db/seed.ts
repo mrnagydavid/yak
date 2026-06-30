@@ -18,6 +18,7 @@ interface SeedEntry {
   examples?: string[]
   translation: string
   sense?: { key: string; gloss: string } // production grouping: which sense of `translation` this is
+  enUncountable?: boolean // English translation is an uncountable noun → renderer omits the article
   ipaAmbiguous?: boolean // same lemma pronounced differently across senses → suppress TTS
   h?: string // per-entry content hash (changed-only sync); absent on pre-hash seeds
 }
@@ -81,7 +82,8 @@ function buildPair(s: SeedEntry, version: string, now: number): { target: Entry;
     lang: NATIVE_LANG,
     lemma: s.translation,
     pos: s.pos,
-    features: {},
+    // Uncountable English nouns drop the "a/an" the renderer would otherwise add (e.g. "abuse").
+    features: s.enUncountable ? { countable: 'no' } : {},
     inflections: {},
     pronunciation: {},
     source: 'seed',
@@ -218,7 +220,14 @@ async function updateSeedTarget(targetId: string, s: SeedEntry, version: string,
     updatedAt: now,
   })
   const tr = await db.translations.where('targetEntryId').equals(targetId).first()
-  if (tr) await db.entries.update(tr.nativeEntryId, { lemma: s.translation, pos: s.pos, seedVersion: version, updatedAt: now })
+  if (tr)
+    await db.entries.update(tr.nativeEntryId, {
+      lemma: s.translation,
+      pos: s.pos,
+      features: s.enUncountable ? { countable: 'no' } : {},
+      seedVersion: version,
+      updatedAt: now,
+    })
 }
 
 /** Remove a seed target entirely — its translation(s), native entry, review states and overlay —

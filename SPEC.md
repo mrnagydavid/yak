@@ -697,6 +697,15 @@ Bumping a source version is a deliberate act; the resulting seed is regenerated 
 
 A `fix` decision can override `proposedTranslation`, `proposedSubDefinitions`, and `proposedIpa`; curated example sentences are supplied per `kellyId` in `data/intermediate/examples/`. If a field you need to correct has no input hook yet, **add the hook to `apply-decisions`** rather than editing the output — that keeps the "all fixes are reproducible inputs" guarantee intact.
 
+### 9.5 Translation-curation pass
+
+The mechanical primary-translation pick in `join.mjs` (first sub-sense of the first Wiktionary gloss) produces recurring weirdness that heuristic flags can't catch — definitions instead of translations (*misshandel* → "deliberately causing bodily harm to someone"), archaic primaries (*län* → "fief" instead of "county"), missing senses (*ras* lacks "collapse"), clumsy phrasing (*lämpa sig* → "to be suited"). The **translation-curation pass** is a full LLM sweep that improves the **main translation** and rebuilds the **meaning list**, following the same pattern as the cleaner/sense/example passes (agent + batch script + merge script + committed merged input + `apply-decisions` hook):
+
+- `.claude/agents/translation-curator.md` — the subagent. Picks the most important everyday meaning as the bare primary (two co-equal meanings joined by `"; "` when neither dominates); marks uncountable English nouns; and emits the **complete** meaning list (primary first) only when the word has ≥2 distinct meanings (`[]` otherwise). It reviews every entry but emits a `fix` object only for the ones it changes.
+- `pnpm seed:batch-translations` chunks the **built** `seed-sv.json` (CEFR-ordered) plus each entry's full Wiktionary sense list into `data/intermediate/tr-batches/`. You run the subagent over them into `data/intermediate/tr-decisions/`. `pnpm seed:merge-translations` keeps only the `fix` objects and writes the committed `data/intermediate/translation-decisions.json`.
+- `apply-decisions` applies it **after** the cleaner, so it wins on `translation`/`subDefinitions`; `uncountable: true` becomes the seed's `enUncountable`, which `seed.ts` maps to the native entry's `features.countable = "no"` so the renderer drops the article. Two co-equal meanings are one `"; "`-joined string; `en/render.ts` articles each side independently ("a duty; a tax").
+- **Ordering vs. the sense pass.** A changed primary changes how `multi-translation.json` groups, so re-run the sense pass (`seed:batch-senses` → `sense-partitioner` → `seed:merge-senses`) after a translation sweep to keep production grouping (§7.2) consistent.
+
 ## 10. Runtime enrichment
 
 ### 10.1 ipa-dict at runtime

@@ -167,6 +167,21 @@ describe('enRenderer', () => {
     )
   })
 
+  it('articles each co-equal meaning of a "; "-joined translation independently', () => {
+    expect(en.renderLemma(entry({ lemma: 'race; breed', pos: 'noun', lang: 'en' }))).toBe('a race; a breed')
+    expect(en.renderLemma(entry({ lemma: 'duty; tax', pos: 'noun', lang: 'en' }))).toBe('a duty; a tax')
+    expect(en.renderLemma(entry({ lemma: 'flee; race', pos: 'verb', lang: 'en' }))).toBe('to flee; to race')
+    // Uncountable applies across all meanings; comma-joined synonyms stay one meaning (one article).
+    expect(en.renderLemma(entry({ lemma: 'abuse; assault', pos: 'noun', lang: 'en', features: { countable: 'no' } }))).toBe(
+      'abuse; assault',
+    )
+    expect(en.renderLemma(entry({ lemma: 'big, large', pos: 'adj', lang: 'en' }))).toBe('big, large')
+  })
+
+  it('does not double an article a meaning already carries', () => {
+    expect(en.renderLemma(entry({ lemma: 'the police; a force', pos: 'noun', lang: 'en' }))).toBe('the police; a force')
+  })
+
   it('hides IPA for the native language', () => {
     expect(en.showIpa).toBe(false)
   })

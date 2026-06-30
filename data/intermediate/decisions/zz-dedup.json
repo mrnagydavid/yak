@@ -1,0 +1,7 @@
+[
+  {
+    "kellyId": 8412,
+    "decision": "drop",
+    "reason": "Duplicate of 'ett hurra' (8359): both gender variants translate to 'cheer, hooray' as identical noun cards. 'ett hurra' is the standard Swedish gender (ge ett trefaldigt hurra); the 'en hurra' variant is non-standard/redundant, so it is dropped to satisfy the same-lemma+POS uniqueness guard."
+  }
+]

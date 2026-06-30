@@ -1,0 +1,16 @@
+[
+  {
+    "kellyId": 1450,
+    "lemma": "skada",
+    "examples": ["Röken kan skada dina lungor."],
+    "kept": false,
+    "reason": "no existing examples; wrote a new sentence using skada as a verb (to harm/damage), clearly not the noun sense; all vocabulary is at A2 or below"
+  },
+  {
+    "kellyId": 3416,
+    "lemma": "mobil",
+    "examples": ["Den nya enheten är liten och mobil."],
+    "kept": false,
+    "reason": "no existing examples; wrote a new sentence using mobil as an adjective (mobile/portable), clearly not the noun phone sense; vocabulary is at B1 or below"
+  }
+]
