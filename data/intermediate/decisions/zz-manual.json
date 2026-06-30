@@ -42,5 +42,12 @@
     "decision": "fix",
     "reason": "surface the common 'suffice' sense alongside 'stretch out' in the primary translation (it was only in the sub-definitions)",
     "proposedTranslation": "stretch out in some direction, to suffice"
+  },
+  {
+    "kellyId": 243,
+    "lemma": "folk",
+    "decision": "fix",
+    "reason": "in its everyday 'people' sense folk is a mass noun (mycket folk, no plural count) — render it bare, not 'ett folk'",
+    "svUncountable": true
   }
 ]

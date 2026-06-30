@@ -19,6 +19,7 @@ interface SeedEntry {
   translation: string
   sense?: { key: string; gloss: string } // production grouping: which sense of `translation` this is
   enUncountable?: boolean // English translation is an uncountable noun → renderer omits the article
+  svUncountable?: boolean // Swedish lemma is a mass noun → renderer omits the article ("folk", not "ett folk")
   ipaAmbiguous?: boolean // same lemma pronounced differently across senses → suppress TTS
   h?: string // per-entry content hash (changed-only sync); absent on pre-hash seeds
 }
@@ -62,7 +63,7 @@ function buildPair(s: SeedEntry, version: string, now: number): { target: Entry;
     lang: TARGET_LANG,
     lemma: s.lemma,
     pos: s.pos,
-    features: s.gender ? { gender: s.gender } : {},
+    features: { ...(s.gender ? { gender: s.gender } : {}), ...(s.svUncountable ? { countable: 'no' } : {}) },
     inflections: s.inflections ?? {},
     pronunciation: s.ipa ? { ipa: s.ipa, ipaSource: 'wiktionary', ...(s.ipaAmbiguous ? { ambiguous: true } : {}) } : {},
     cefr: s.cefr,
@@ -207,7 +208,7 @@ async function updateSeedTarget(targetId: string, s: SeedEntry, version: string,
   await db.entries.update(targetId, {
     lemma: s.lemma,
     pos: s.pos,
-    features: s.gender ? { gender: s.gender } : {},
+    features: { ...(s.gender ? { gender: s.gender } : {}), ...(s.svUncountable ? { countable: 'no' } : {}) },
     inflections: s.inflections ?? {},
     pronunciation: s.ipa ? { ipa: s.ipa, ipaSource: 'wiktionary', ...(s.ipaAmbiguous ? { ambiguous: true } : {}) } : {},
     cefr: s.cefr,

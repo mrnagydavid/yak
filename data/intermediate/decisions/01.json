@@ -337,14 +337,6 @@
     "proposedTranslation": "this kind of, such a"
   },
   {
-    "kellyId": 2660,
-    "lemma": "ju",
-    "decision": "drop",
-    "reason": "redundant duplicate of the ju particle (184); ju is one word — Wiktionary has a single entry. Kept as the A1 adv card with the \"ju ... desto\" sense as a sub-definition.",
-    "proposedTranslation": "",
-    "proposedSubDefinitions": []
-  },
-  {
     "kellyId": 2662,
     "lemma": "då och då",
     "decision": "fix",

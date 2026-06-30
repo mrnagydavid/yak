@@ -1,5 +1,13 @@
 [
   {
+    "kellyId": 243,
+    "decision": "fix",
+    "reason": "folk = 'people' is an uncountable noun in English — render it bare, not 'a people'",
+    "translation": "people",
+    "uncountable": true,
+    "senses": []
+  },
+  {
     "kellyId": 887,
     "decision": "fix",
     "reason": "embedded 'to' in gloss; app adds 'to' automatically",
@@ -6884,8 +6892,8 @@
   {
     "kellyId": 2518,
     "decision": "fix",
-    "reason": "definition-like gloss; rephrase as a concise learner-friendly adjective phrase",
-    "translation": "trade-union",
+    "reason": "facklig is an adjective (en facklig representant); bare 'trade-union' reads as the noun. Qualify it as the relational adjective so it isn't mistaken for the organisation",
+    "translation": "trade-union (relating to labour unions)",
     "senses": []
   },
   {

@@ -47,6 +47,10 @@ const normTr = (s) =>
     .trim()
 const richness = (e) =>
   (e.subDefinitions?.length ?? 0) + (e.examples?.length ?? 0) + Object.keys(e.inflections ?? {}).length
+// Whole-string equality after lowercasing, dropping a leading article/"to", and flattening
+// punctuation/whitespace — used to detect a sense gloss that merely restates the full translation.
+const flatten = (s) => (s ?? '').toLowerCase().replace(/^(an?|the|to)\s+/, '').replace(/[\s.,;:()]+/g, ' ').trim()
+const sameText = (a, b) => flatten(a) === flatten(b)
 
 // Collapse "same word, multiple POS, same meaning" duplicates (e.g. mycket: adv/adj/pron all
 // "much, a lot") into one card. Conservative: only when every row shares an identical primary
@@ -90,10 +94,16 @@ function collapseDuplicates(entries) {
   return out
 }
 
+// All decision files in this dir are a single overlay layer keyed by kellyId; when two files set the
+// same kellyId the LAST one wins. Sort the filenames so that "last" is a stable, documented rule
+// (alphabetical — hence the `zz-` prefix on the override files) rather than raw readdir order, which is
+// not guaranteed across filesystems. (merge-translations.mjs sorts for the same reason.) The
+// decision-integrity test forbids a kellyId carrying contradictory verdicts across files, so this
+// ordering only ever breaks ties between same-verdict refinements.
 async function loadDecisions() {
   const byId = new Map()
   if (!existsSync(DECISIONS_DIR)) return byId
-  for (const file of await readdir(DECISIONS_DIR)) {
+  for (const file of (await readdir(DECISIONS_DIR)).sort()) {
     if (!file.endsWith('.json')) continue
     for (const d of JSON.parse(await readFile(`${DECISIONS_DIR}/${file}`, 'utf-8'))) byId.set(d.kellyId, d)
   }
@@ -105,7 +115,9 @@ async function loadDecisions() {
 async function loadExamples() {
   const byId = new Map()
   if (!existsSync(EXAMPLES_DIR)) return byId
-  for (const file of await readdir(EXAMPLES_DIR)) {
+  // Sorted so a later file (e.g. reconcile.json) deterministically overrides an earlier one's examples
+  // for the same kellyId, regardless of filesystem readdir order. (Same rule as loadDecisions.)
+  for (const file of (await readdir(EXAMPLES_DIR)).sort()) {
     if (!file.endsWith('.json')) continue
     for (const e of JSON.parse(await readFile(`${EXAMPLES_DIR}/${file}`, 'utf-8'))) {
       if (Array.isArray(e.examples)) byId.set(e.kellyId, e.examples)
@@ -142,7 +154,10 @@ async function loadSenses() {
       // prompt (e.g. "hand (body part)" vs "hand (of a clock)") even when its sense is a singleton.
       const key = `${concept.english}#${i}`
       const gloss = (s.gloss ?? '').trim()
-      for (const kellyId of s.members ?? []) byId.set(kellyId, { key, gloss })
+      // A singleton sense's gloss only ever labels a solo production prompt (no group tabs to tell
+      // apart), so a gloss equal to the card's own translation is pure repetition — suppressed in main().
+      const single = (s.members ?? []).length === 1
+      for (const kellyId of s.members ?? []) byId.set(kellyId, { key, gloss, single })
     })
   }
   return byId
@@ -194,6 +209,10 @@ async function main() {
       subDefinitions = (subSource ?? []).map(cleanTranslation).filter(Boolean)
     }
     const enUncountable = td?.uncountable === true
+    // Swedish mass nouns drop the indefinite article in the renderer ("folk", not "ett folk"). Distinct
+    // from enUncountable (English side) — countability doesn't always match across the two languages
+    // (English "advice" is uncountable, Swedish "ett råd" is not). Set via a decisions/ fix.
+    const svUncountable = d?.svUncountable === true
     // IPA override: the dump's IPA is sometimes wrong (e.g. a long /kː/ before a /t/ cluster). A
     // "fix" may supply proposedIpa to replace it; otherwise the candidate's IPA carries through.
     const ipa = (isFix ? (d.proposedIpa ?? '').trim() : '') || c.ipa
@@ -211,6 +230,7 @@ async function main() {
       ...(Object.keys(c.inflections).length ? { inflections: c.inflections } : {}),
       ...(subDefinitions.length ? { subDefinitions } : {}),
       ...(enUncountable ? { enUncountable: true } : {}),
+      ...(svUncountable ? { svUncountable: true } : {}),
       ...(examples.length ? { examples } : {}),
       translation,
     })
@@ -294,7 +314,13 @@ async function main() {
   for (const e of finalEntries) {
     const s = senses.get(e.kellyId)
     if (s) {
-      e.sense = s
+      // Drop a singleton sense's gloss when it just echoes the card's own translation (= the production
+      // prompt): "borgare" prompted "a bourgeois, citizen" with helper "(a bourgeois, citizen)" reads as
+      // confusing repetition. Full-string match (not just the primary sense) so a gloss that adds a real
+      // nuance — "help, aid (in emergency)" vs translation "help, assist" — is kept. The key is kept so
+      // grouping/sense tracking is unaffected; a ≥2-member sense keeps its gloss (it labels the group).
+      const gloss = s.single && sameText(s.gloss, e.translation) ? '' : s.gloss
+      e.sense = { key: s.key, gloss }
       senseCount++
     }
   }

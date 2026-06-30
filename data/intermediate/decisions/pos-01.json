@@ -392,14 +392,6 @@
     "proposedSubDefinitions": []
   },
   {
-    "kellyId": 5573,
-    "lemma": "till vara",
-    "decision": "fix",
-    "reason": "candidate is a usage note, not a translation; 'ta tillvara' = to make use of, to preserve",
-    "proposedTranslation": "to good use, preserve (in: ta till vara)",
-    "proposedSubDefinitions": []
-  },
-  {
     "kellyId": 5592,
     "lemma": "snyggt",
     "decision": "fix",
@@ -485,7 +477,9 @@
     "decision": "fix",
     "reason": "adv glossed as adjective; 'tråkigt' [adv] → boringly, tediously; also 'unfortunately' in expressions",
     "proposedTranslation": "boringly, tediously",
-    "proposedSubDefinitions": ["unfortunately (in expressions like 'tråkigt nog')"]
+    "proposedSubDefinitions": [
+      "unfortunately (in expressions like 'tråkigt nog')"
+    ]
   },
   {
     "kellyId": 5925,
@@ -589,7 +583,10 @@
     "decision": "fix",
     "reason": "noun glossed as interjection; as noun 'hallå' = hello (exclamation as a noun); subdefinitions are over-long",
     "proposedTranslation": "hello, hey",
-    "proposedSubDefinitions": ["hey (to get attention)", "hello (on phone)"]
+    "proposedSubDefinitions": [
+      "hey (to get attention)",
+      "hello (on phone)"
+    ]
   },
   {
     "kellyId": 7113,
@@ -701,7 +698,9 @@
     "decision": "fix",
     "reason": "Kelly POS is verb but lemma is clearly a noun; candidate 'a grade' is correct as noun translation",
     "proposedTranslation": "grade, mark",
-    "proposedSubDefinitions": ["diploma, certificate"]
+    "proposedSubDefinitions": [
+      "diploma, certificate"
+    ]
   },
   {
     "kellyId": 8059,
@@ -717,7 +716,9 @@
     "decision": "fix",
     "reason": "Kelly POS noun but 'sned' is an adjective; candidate mixes senses; core meaning is crooked/oblique",
     "proposedTranslation": "crooked, oblique, skewed",
-    "proposedSubDefinitions": ["angry, in a bad mood"]
+    "proposedSubDefinitions": [
+      "angry, in a bad mood"
+    ]
   },
   {
     "kellyId": 8193,
@@ -808,14 +809,6 @@
     "proposedSubDefinitions": []
   },
   {
-    "kellyId": 8412,
-    "lemma": "hurra",
-    "decision": "fix",
-    "reason": "Kelly POS noun; candidate 'hooray!' includes exclamation mark; as noun 'hurra' = cheer, hurray",
-    "proposedTranslation": "cheer, hooray",
-    "proposedSubDefinitions": ["to cheer, to shout hooray"]
-  },
-  {
     "kellyId": 8422,
     "lemma": "kvitt",
     "decision": "fix",
@@ -829,6 +822,8 @@
     "decision": "fix",
     "reason": "Kelly POS verb but lemma is a noun/verb; candidate 'plant' is correct but brief — keep as noun",
     "proposedTranslation": "plant, seedling",
-    "proposedSubDefinitions": ["to plant"]
+    "proposedSubDefinitions": [
+      "to plant"
+    ]
   }
 ]

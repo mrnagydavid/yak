@@ -668,14 +668,6 @@
     "proposedSubDefinitions": []
   },
   {
-    "kellyId": 2728,
-    "lemma": "över huvud taget",
-    "decision": "keep",
-    "reason": "candidate 'altogether' is acceptable; 'at all' is also common — fix to add it",
-    "proposedTranslation": "at all, altogether",
-    "proposedSubDefinitions": []
-  },
-  {
     "kellyId": 2767,
     "lemma": "rejält",
     "decision": "fix",
