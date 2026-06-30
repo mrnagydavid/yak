@@ -25,6 +25,9 @@ jobs:
       - name: Install deps
         run: pnpm install
 
+      - name: Test (includes the seed-reproducibility guard)
+        run: pnpm test
+
       - name: Build
         run: pnpm build
 

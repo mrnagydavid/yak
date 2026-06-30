@@ -14,6 +14,13 @@ const MULTI_TRANSLATION_OUT = 'data/intermediate/multi-translation.json' // emit
 const TRANSLATION_DECISIONS_FILE = 'data/intermediate/translation-decisions.json' // merged translation-curation pass
 const MAX_EXAMPLE_LEN = 160 // flashcard examples stay short — drop any longer (poetry/quote dumps)
 
+// Optional output redirect: when SEED_OUT_DIR is set, every generated file is written under that dir
+// (mirroring the repo layout) instead of in place. Inputs are always read from the repo. The
+// seed-reproducibility guard (tests/seed-reproducible.test.ts) uses this to re-run apply from the
+// committed inputs without clobbering the committed outputs, then diff the result.
+const OUT_DIR = process.env.SEED_OUT_DIR
+const outPath = (p) => (OUT_DIR ? `${OUT_DIR}/${p}` : p)
+
 const cleanTranslation = (t) => t.replace(/\s+/g, ' ').replace(/[\s:;,]+$/, '').trim()
 const cleanIpa = (ipa) => ipa.replace(/^\/+/, '').replace(/\/+$/, '').trim()
 // Short per-entry content hash. The runtime seed-sync compares it against the stored hash so only
@@ -233,7 +240,8 @@ async function main() {
         currentExamples: e.examples ?? [],
       })
   }
-  await writeFile(AMBIGUOUS_OUT, JSON.stringify(ambiguous, null, 2))
+  if (OUT_DIR) await mkdir(outPath('data/intermediate'), { recursive: true })
+  await writeFile(outPath(AMBIGUOUS_OUT), JSON.stringify(ambiguous, null, 2))
 
   // Flag lemmas pronounced differently across senses (e.g. kort kɔrt "short" vs kʊrt "card"). The
   // per-sense IPA is correct, but browser TTS can't be steered to a sense, so the app suppresses the
@@ -280,7 +288,7 @@ async function main() {
       })),
     })
   }
-  await writeFile(MULTI_TRANSLATION_OUT, JSON.stringify(multiTranslation, null, 2))
+  await writeFile(outPath(MULTI_TRANSLATION_OUT), JSON.stringify(multiTranslation, null, 2))
 
   let senseCount = 0
   for (const e of finalEntries) {
@@ -304,11 +312,11 @@ async function main() {
   // 2.2MB seed when the version differs from the DB. Precached alongside the seed (vite globPatterns
   // covers *.json), so the two update atomically.
   const versionJson = JSON.stringify({ version })
-  await mkdir('public', { recursive: true })
-  await writeFile('data/seed-sv.json', json)
-  await writeFile('public/seed-sv.json', json)
-  await writeFile('data/version.json', versionJson)
-  await writeFile('public/version.json', versionJson)
+  await mkdir(outPath('public'), { recursive: true })
+  await writeFile(outPath('data/seed-sv.json'), json)
+  await writeFile(outPath('public/seed-sv.json'), json)
+  await writeFile(outPath('data/version.json'), versionJson)
+  await writeFile(outPath('public/version.json'), versionJson)
   console.log(`seed-sv.json: ${seedEntries.length} entries (dropped ${dropped}, omitted ${omitted} untranslated)`)
   console.log(`ambiguous cards: ${ambiguous.length} → ${AMBIGUOUS_OUT}`)
   console.log(`ipa-ambiguous entries (TTS suppressed): ${ipaAmbiguousCount}`)

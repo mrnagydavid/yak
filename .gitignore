@@ -13,3 +13,6 @@ data/intermediate/*
 !data/intermediate/examples/
 !data/intermediate/sense-decisions.json
 !data/intermediate/translation-decisions.json
+# candidates.json pins the fetch+join output so `seed:apply` (and the seed-reproducibility test) run
+# from committed inputs alone — no network, no re-fetch. Regenerate with `pnpm seed:fetch && seed:join`.
+!data/intermediate/candidates.json
