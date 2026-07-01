@@ -1,0 +1,326 @@
+[
+  {
+    "kellyId": 4150,
+    "decision": "fix",
+    "reason": "embedded article 'a' in translation; reordered to put common term first",
+    "translation": "church service, divine service",
+    "senses": []
+  },
+  {
+    "kellyId": 3855,
+    "decision": "fix",
+    "reason": "senses list missing the primary meaning (person); only had the secondary wizard sense",
+    "translation": "guide",
+    "senses": [
+      "guide (person)",
+      "wizard (software setup assistant)"
+    ]
+  },
+  {
+    "kellyId": 4185,
+    "decision": "fix",
+    "reason": "senses are definition-like parentheticals; replace with concise sense items",
+    "translation": "golden, gold",
+    "senses": [
+      "golden, gold (made of or resembling gold)",
+      "golden (prosperous, glorious)",
+      "golden (opportune, ideal)"
+    ]
+  },
+  {
+    "kellyId": 3992,
+    "decision": "fix",
+    "reason": "missing common meanings: 'favorable, advantageous' are the most natural translations",
+    "translation": "favorable, advantageous",
+    "senses": [
+      "favorable, advantageous",
+      "beneficial"
+    ]
+  },
+  {
+    "kellyId": 4124,
+    "decision": "fix",
+    "reason": "senses are overlapping synonyms for entrance hall, and miss the 'large hall' sense (simhall, ishall)",
+    "translation": "hallway, entrance hall",
+    "senses": [
+      "hallway, entrance hall",
+      "large hall (sports hall, concert hall, etc.)"
+    ]
+  },
+  {
+    "kellyId": 3923,
+    "decision": "fix",
+    "reason": "senses include embedded article and a clumsy colloquial gloss; simplified",
+    "translation": "half",
+    "senses": [
+      "half (of something)",
+      "half-shot, snaps (colloquial, second drink in a series)"
+    ]
+  },
+  {
+    "kellyId": 4074,
+    "decision": "fix",
+    "reason": "translation 'half an hour, a half-hour' already contains articles; app would render 'a half an hour'; use bare form",
+    "translation": "half hour",
+    "senses": []
+  },
+  {
+    "kellyId": 4205,
+    "decision": "fix",
+    "reason": "senses contain embedded articles ('a businessman'); removed articles from senses",
+    "translation": "action",
+    "senses": [
+      "action, conduct",
+      "trade, business",
+      "businessman, merchant, trader (archaic)"
+    ]
+  },
+  {
+    "kellyId": 2979,
+    "decision": "fix",
+    "reason": "'velocity' is the technical physics term; 'speed' is the everyday meaning of hastighet",
+    "translation": "speed",
+    "senses": []
+  },
+  {
+    "kellyId": 3559,
+    "decision": "fix",
+    "reason": "sub-definition is a grammatical note about adjective use, not a distinct meaning for this adverb entry",
+    "translation": "terribly, awfully",
+    "senses": []
+  },
+  {
+    "kellyId": 3929,
+    "decision": "fix",
+    "reason": "senses list only had the secondary meaning; primary 'heavenly (of heaven)' was missing",
+    "translation": "heavenly",
+    "senses": [
+      "heavenly (of or from heaven)",
+      "heavenly (wonderful, divine)"
+    ]
+  },
+  {
+    "kellyId": 3549,
+    "decision": "fix",
+    "reason": "senses contains a definition; single-meaning word",
+    "translation": "historian",
+    "senses": []
+  },
+  {
+    "kellyId": 4006,
+    "decision": "fix",
+    "reason": "senses contains a definition; single-meaning word",
+    "translation": "wheel",
+    "senses": []
+  },
+  {
+    "kellyId": 4039,
+    "decision": "fix",
+    "reason": "senses had embedded articles; removed; also 'assistive device' is a subset, use 'aid, tool, means'",
+    "translation": "aid, tool",
+    "senses": []
+  },
+  {
+    "kellyId": 3003,
+    "decision": "fix",
+    "reason": "translation embeds 'a person of great bravery' (definition); bare 'hero' is cleaner; senses cover both meanings",
+    "translation": "hero",
+    "senses": [
+      "hero (brave person)",
+      "hero, protagonist (main male character in fiction)"
+    ]
+  },
+  {
+    "kellyId": 3816,
+    "decision": "fix",
+    "reason": "primary translation is definition-like; 'chop, hew' is the core everyday sense",
+    "translation": "chop, hew",
+    "senses": [
+      "chop, hew, cut (with axe or blade)",
+      "bite, claw (attack with teeth or claws)",
+      "grab, seize (forcefully)"
+    ]
+  },
+  {
+    "kellyId": 2999,
+    "decision": "fix",
+    "reason": "senses 'hundreds' and 'century' are correct but 'century' needs context; primary gloss is fine",
+    "translation": "around a hundred",
+    "senses": [
+      "around a hundred",
+      "hundreds",
+      "century (the 20th century, etc.)"
+    ]
+  },
+  {
+    "kellyId": 4154,
+    "decision": "fix",
+    "reason": "translation embeds 'a rack'; bare form needed; slang sense kept brief",
+    "translation": "shelf, rack",
+    "senses": [
+      "shelf, rack",
+      "rack (slang, women's breasts)"
+    ]
+  },
+  {
+    "kellyId": 3735,
+    "decision": "fix",
+    "reason": "senses item 'to harbor' has 'to' prefix; bare it",
+    "translation": "house",
+    "senses": [
+      "house (accommodate)",
+      "harbor, entertain (feelings, doubts)"
+    ]
+  },
+  {
+    "kellyId": 3623,
+    "decision": "fix",
+    "reason": "primary 'forceful or intense' is definition-like; 'intense, fierce' is the natural translation",
+    "translation": "intense, fierce",
+    "senses": [
+      "intense, fierce, violent",
+      "hot-tempered, volatile",
+      "cool, awesome (colloquial)"
+    ]
+  },
+  {
+    "kellyId": 3649,
+    "decision": "fix",
+    "reason": "translation embeds 'a redirection'; bare form",
+    "translation": "reference, redirection",
+    "senses": []
+  },
+  {
+    "kellyId": 4117,
+    "decision": "fix",
+    "reason": "senses item 'herefrom' is archaic and adds nothing; single-meaning adverb",
+    "translation": "from here",
+    "senses": []
+  },
+  {
+    "kellyId": 4166,
+    "decision": "fix",
+    "reason": "senses item 'to reign' has 'to' prefix; bare it",
+    "translation": "rule",
+    "senses": [
+      "rule, reign"
+    ]
+  },
+  {
+    "kellyId": 3654,
+    "decision": "fix",
+    "reason": "translation 'heave, to lift' embeds 'to lift'; senses also have 'to' prefixes",
+    "translation": "heave, lift",
+    "senses": [
+      "heave, lift",
+      "lift, annul, terminate (a contract, embargo, etc.)"
+    ]
+  },
+  {
+    "kellyId": 2862,
+    "decision": "fix",
+    "reason": "senses include mathematical jargon sense (marginal at CEFR B1); cleaned up",
+    "translation": "ideal",
+    "senses": []
+  },
+  {
+    "kellyId": 3534,
+    "decision": "fix",
+    "reason": "senses item has 'to illustrate (through examples...)' — 'to' prefix; and it can be collapsed",
+    "translation": "illustrate",
+    "senses": [
+      "illustrate (with pictures)",
+      "illustrate, demonstrate (with examples)"
+    ]
+  },
+  {
+    "kellyId": 3645,
+    "decision": "fix",
+    "reason": "first two senses overlap; consolidated to two clear senses",
+    "translation": "empire",
+    "senses": [
+      "empire (state)",
+      "empire (business empire or sphere of power)"
+    ]
+  },
+  {
+    "kellyId": 4052,
+    "decision": "fix",
+    "reason": "senses item is a definition; single-meaning verb",
+    "translation": "impress",
+    "senses": []
+  },
+  {
+    "kellyId": 3740,
+    "decision": "fix",
+    "reason": "senses item 'related to India' is a definition; single-meaning adjective",
+    "translation": "Indian",
+    "senses": []
+  },
+  {
+    "kellyId": 4026,
+    "decision": "fix",
+    "reason": "'flu' is the everyday English term; 'influenza' is formal/medical",
+    "translation": "flu, influenza",
+    "senses": []
+  },
+  {
+    "kellyId": 3329,
+    "decision": "fix",
+    "reason": "'clipping of information' is a grammatical label, not a meaning gloss",
+    "translation": "info",
+    "senses": []
+  },
+  {
+    "kellyId": 4053,
+    "decision": "fix",
+    "reason": "'on the inner side of' is definition-like; 'inside, within' is the natural translation",
+    "translation": "inside, within",
+    "senses": []
+  },
+  {
+    "kellyId": 2819,
+    "decision": "fix",
+    "reason": "translation embeds 'to keep, to possess' with 'to' prefixes; bare form",
+    "translation": "hold, possess",
+    "senses": []
+  },
+  {
+    "kellyId": 3241,
+    "decision": "fix",
+    "reason": "translation embeds 'to focus, to orient' with 'to' prefixes; bare form",
+    "translation": "direct, focus",
+    "senses": []
+  },
+  {
+    "kellyId": 2987,
+    "decision": "fix",
+    "reason": "senses items have 'to install; to...' format with embedded 'to' and definition-like parentheticals",
+    "translation": "install",
+    "senses": [
+      "install (software, hardware)",
+      "install, induct (formally into a position)",
+      "install, settle (into a place)"
+    ]
+  },
+  {
+    "kellyId": 2844,
+    "decision": "fix",
+    "reason": "senses items have 'to concur', 'to start singing' with 'to' prefixes; bare them",
+    "translation": "agree",
+    "senses": [
+      "agree, concur",
+      "join in singing"
+    ]
+  },
+  {
+    "kellyId": 3352,
+    "decision": "fix",
+    "reason": "senses has three items where first two overlap; 'to adopt to a new country' is a sub-case of integrate; senses have 'to' prefixes",
+    "translation": "integrate",
+    "senses": [
+      "integrate, include (blend into a group or society)",
+      "integrate (mathematics)"
+    ]
+  }
+]

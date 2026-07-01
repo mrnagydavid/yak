@@ -1,0 +1,322 @@
+[
+  {
+    "kellyId": 6692,
+    "decision": "fix",
+    "reason": "sub-def was a definition-like string; clean it to a short gloss",
+    "senses": ["sheet (of paper)", "signature (bookbinding)"]
+  },
+  {
+    "kellyId": 5940,
+    "decision": "fix",
+    "reason": "clumsy phrasing 'archaeological, or archeological' — just list both spellings cleanly",
+    "translation": "archaeological",
+    "senses": []
+  },
+  {
+    "kellyId": 6595,
+    "decision": "fix",
+    "reason": "'asphalt concrete' is a technical synonym; 'asphalt' alone is sufficient; uncountable noun",
+    "translation": "asphalt",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6587,
+    "decision": "fix",
+    "reason": "'assistance' is uncountable; missing uncountable flag",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5769,
+    "decision": "fix",
+    "reason": "two distinct senses (mental connection vs. social contact) but only one in sub-defs; list both",
+    "senses": ["association (mental connection)", "association (social contact or company)"]
+  },
+  {
+    "kellyId": 6111,
+    "decision": "fix",
+    "reason": "two senses but sub-def only has one; list both",
+    "senses": ["associate (connect in one's mind)", "associate (keep company with)"]
+  },
+  {
+    "kellyId": 6876,
+    "decision": "fix",
+    "reason": "embedded articles 'an' in translation; single unified concept",
+    "translation": "attack, assassination attempt",
+    "senses": []
+  },
+  {
+    "kellyId": 6364,
+    "decision": "fix",
+    "reason": "'autonomy' is uncountable; missing flag",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6325,
+    "decision": "fix",
+    "reason": "'to image' is clumsy and has embedded 'to'; 'portray' is cleaner",
+    "translation": "depict, portray",
+    "senses": []
+  },
+  {
+    "kellyId": 6223,
+    "decision": "fix",
+    "reason": "embedded 'to accomplish' — app adds 'to'; fix phrasing",
+    "translation": "carry out, accomplish",
+    "senses": []
+  },
+  {
+    "kellyId": 6541,
+    "decision": "fix",
+    "reason": "embedded 'to relieve, to take over'; app adds 'to'; also 'change' is misleading here",
+    "translation": "relieve, take over",
+    "senses": ["relieve, take over (replace another worker)", "come one after another", "absolve (give absolution)"]
+  },
+  {
+    "kellyId": 6877,
+    "decision": "fix",
+    "reason": "embedded 'to arrange'; app adds 'to'",
+    "translation": "agree, arrange",
+    "senses": []
+  },
+  {
+    "kellyId": 6484,
+    "decision": "fix",
+    "reason": "embedded 'an imprint'; senses should be clean and without embedded articles",
+    "translation": "impression, imprint",
+    "senses": ["impression, imprint (physical, e.g. fingerprint)", "impact (figurative)", "impression (mental)"]
+  },
+  {
+    "kellyId": 6279,
+    "decision": "fix",
+    "reason": "'envy' is uncountable; missing flag",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6913,
+    "decision": "fix",
+    "reason": "'bacon' is uncountable; 'streaky bacon' is a redundant UK variant; set uncountable",
+    "translation": "bacon",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6476,
+    "decision": "fix",
+    "reason": "'mercy' and 'kindness' in this sense are uncountable; missing flag",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6286,
+    "decision": "fix",
+    "reason": "sub-def has embedded 'to'; rephrase",
+    "senses": ["deceive", "cheat on (be sexually unfaithful)"]
+  },
+  {
+    "kellyId": 6411,
+    "decision": "fix",
+    "reason": "sub-defs include a definition-like string; replace with clean list",
+    "senses": ["feat, exploit", "achievement", "company, business"]
+  },
+  {
+    "kellyId": 6133,
+    "decision": "fix",
+    "reason": "four near-synonyms in primary is too many; trim to core two",
+    "translation": "post, position",
+    "senses": ["post, position (job or office)", "involvement, connection (with something)"]
+  },
+  {
+    "kellyId": 6404,
+    "decision": "fix",
+    "reason": "in modern Swedish 'befordra' primarily means promote; transport is secondary; also embedded 'to'",
+    "translation": "promote",
+    "senses": ["promote (give higher rank)", "transport, pass along (message or parcel)"]
+  },
+  {
+    "kellyId": 5668,
+    "decision": "fix",
+    "reason": "sub-def has embedded 'to consolidate, to cement'; fix list",
+    "senses": ["fortify (build defenses)", "consolidate, cement (abstract position)"]
+  },
+  {
+    "kellyId": 6144,
+    "decision": "fix",
+    "reason": "'initial (in compounds)' is a grammatical note, not a meaning; drop from senses",
+    "senses": []
+  },
+  {
+    "kellyId": 6588,
+    "decision": "fix",
+    "reason": "sub-defs are redundant and disorganised; rebuild cleanly",
+    "senses": ["talent, giftedness", "talented person"]
+  },
+  {
+    "kellyId": 6021,
+    "decision": "fix",
+    "reason": "'make familiar' is redundant with 'familiarize'; three items for one concept",
+    "translation": "acquaint, familiarize",
+    "senses": []
+  },
+  {
+    "kellyId": 6201,
+    "decision": "fix",
+    "reason": "'subject to a load' is a definition; primary should be 'load, burden'",
+    "translation": "load, burden",
+    "senses": ["load, burden (physically or abstractly)", "charge (money from an account)"]
+  },
+  {
+    "kellyId": 5758,
+    "decision": "fix",
+    "reason": "embedded 'to commend'; app adds 'to'",
+    "translation": "praise, commend",
+    "senses": []
+  },
+  {
+    "kellyId": 6386,
+    "decision": "fix",
+    "reason": "'protection' is uncountable; missing flag",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5963,
+    "decision": "fix",
+    "reason": "embedded 'to look at, to behold'; app adds 'to'",
+    "translation": "view, behold",
+    "senses": []
+  },
+  {
+    "kellyId": 5691,
+    "decision": "fix",
+    "reason": "embedded 'a mounting'; fix translation and senses",
+    "translation": "fitting, mounting",
+    "senses": ["fitting, mounting (metal hardware)", "coating, film (on a surface)", "seizure (of illegal goods)"]
+  },
+  {
+    "kellyId": 6750,
+    "decision": "fix",
+    "reason": "'decisiveness' is uncountable; missing flag",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5763,
+    "decision": "fix",
+    "reason": "embedded 'to penalize'; app adds 'to'",
+    "translation": "punish, penalize",
+    "senses": []
+  },
+  {
+    "kellyId": 5710,
+    "decision": "fix",
+    "reason": "embedded 'a set'; 'bestånd' = stock/population (of animals/plants); fix translation",
+    "translation": "stock, population",
+    "senses": ["stock, population (of animals or plants)", "continued existence"]
+  },
+  {
+    "kellyId": 6037,
+    "decision": "fix",
+    "reason": "embedded 'a part'; fix translation",
+    "translation": "component, part",
+    "senses": []
+  },
+  {
+    "kellyId": 6910,
+    "decision": "fix",
+    "reason": "embedded 'to wait on'; app adds 'to'; also fix sub-def",
+    "translation": "serve, wait on",
+    "senses": ["serve, wait on (a customer)", "make use (of something, with 'av')"]
+  },
+  {
+    "kellyId": 5934,
+    "decision": "fix",
+    "reason": "'concrete' is uncountable; slang sub-def is too marginal for a flashcard",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5782,
+    "decision": "fix",
+    "reason": "'accent' and 'stress' are synonyms for the same concept here; merge into one translation, no list needed",
+    "translation": "stress, accent",
+    "senses": []
+  },
+  {
+    "kellyId": 5671,
+    "decision": "fix",
+    "reason": "'apparently, obviously' is not a standard meaning of bevisligen; drop it",
+    "senses": []
+  },
+  {
+    "kellyId": 6169,
+    "decision": "fix",
+    "reason": "embedded 'to attach'; app adds 'to'",
+    "translation": "append, attach",
+    "senses": []
+  },
+  {
+    "kellyId": 6237,
+    "decision": "fix",
+    "reason": "embedded 'a movie theatre'; 'commonly contracted to bio' is a usage note, not a sense",
+    "translation": "cinema, movie theatre",
+    "senses": ["cinema, movie theatre", "biographer"]
+  },
+  {
+    "kellyId": 5960,
+    "decision": "fix",
+    "reason": "'biology' is uncountable; missing flag",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6675,
+    "decision": "fix",
+    "reason": "sub-defs are redundant with 'form'; single meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 5670,
+    "decision": "fix",
+    "reason": "'lightning, a lightning bolt' — 'blixt' is countable; 'lightning bolt' is the right countable primary; sub-def needs cleaning",
+    "translation": "lightning bolt",
+    "senses": ["lightning bolt", "flash (of light or camera)"]
+  },
+  {
+    "kellyId": 6253,
+    "decision": "fix",
+    "reason": "'put out flowers' is a definition; 'bloom, blossom' is the natural translation",
+    "translation": "bloom, blossom",
+    "senses": ["bloom, blossom", "flourish, thrive"]
+  },
+  {
+    "kellyId": 6128,
+    "decision": "fix",
+    "reason": "sub-defs restate the same meaning; single-meaning adjective",
+    "senses": []
+  },
+  {
+    "kellyId": 5999,
+    "decision": "fix",
+    "reason": "'lowly' implies low status, not modesty; misleading as primary",
+    "translation": "modest, humble",
+    "senses": []
+  },
+  {
+    "kellyId": 6814,
+    "decision": "fix",
+    "reason": "primary is a definition 'books: records of the accounts...'; 'bookkeeping' is the right translation; uncountable",
+    "translation": "bookkeeping",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6373,
+    "decision": "fix",
+    "reason": "sub-def 'bookselling (the trade)' is a legitimate secondary sense; keep clean list",
+    "senses": ["bookstore", "bookselling (the trade)"]
+  }
+]

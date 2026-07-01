@@ -1,0 +1,396 @@
+[
+  {
+    "kellyId": 606,
+    "decision": "fix",
+    "reason": "all sub-senses are aspects of the same core meaning 'move'; stale list should be cleared",
+    "translation": "move",
+    "senses": []
+  },
+  {
+    "kellyId": 465,
+    "decision": "fix",
+    "reason": "translation has embedded article 'a shape'; sense list has embedded articles too",
+    "translation": "form, shape",
+    "senses": ["form, shape", "mold, dish, tin, tray (baking or cooking)"]
+  },
+  {
+    "kellyId": 712,
+    "decision": "fix",
+    "reason": "'scientific research' is too narrow as primary; 'research' is the everyday sense and uncountable",
+    "translation": "research",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1165,
+    "decision": "fix",
+    "reason": "slash in 'quickly/quick' is awkward; clean up",
+    "translation": "quickly, fast",
+    "senses": []
+  },
+  {
+    "kellyId": 372,
+    "decision": "fix",
+    "reason": "sub-definition is a definition gloss, not a translation; 'still' is single-meaning here",
+    "translation": "still",
+    "senses": []
+  },
+  {
+    "kellyId": 359,
+    "decision": "fix",
+    "reason": "'to proceed' has 'to' embedded (app adds 'to' for verbs)",
+    "translation": "continue, proceed",
+    "senses": []
+  },
+  {
+    "kellyId": 1311,
+    "decision": "fix",
+    "reason": "senses list omits the primary body-part sense; list should be complete with primary first",
+    "translation": "foot",
+    "senses": ["foot (body part)", "foot (base of an object)", "foot (end opposite the head or top)", "foot (unit of length)"]
+  },
+  {
+    "kellyId": 1264,
+    "decision": "fix",
+    "reason": "'to be clear' has 'to' embedded; rephrase as bare verb gloss",
+    "translation": "be evident, be clear (from)",
+    "senses": []
+  },
+  {
+    "kellyId": 1268,
+    "decision": "fix",
+    "reason": "'progress' is secondary; primary everyday sense of framgång is 'success'",
+    "translation": "success",
+    "senses": ["success", "progress"]
+  },
+  {
+    "kellyId": 520,
+    "decision": "fix",
+    "reason": "'to postpone' belongs to 'skjuta fram', not 'framtid'; stale/wrong sub-sense should be removed",
+    "translation": "future",
+    "senses": []
+  },
+  {
+    "kellyId": 523,
+    "decision": "fix",
+    "reason": "senses list is missing the primary 'unconstrained' sense; add it first",
+    "translation": "free",
+    "senses": ["free (unconstrained)", "free (not imprisoned)", "free (without obligations)", "free (no cost)", "free (without, lacking)"]
+  },
+  {
+    "kellyId": 750,
+    "decision": "fix",
+    "reason": "'freedom, liberty' in its general sense is uncountable; mark accordingly",
+    "translation": "freedom, liberty",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 195,
+    "decision": "fix",
+    "reason": "senses list is missing the primary 'request for information' sense; add it first",
+    "translation": "question",
+    "senses": ["question (request for information)", "question, issue (matter under discussion)", "question (on a test)"]
+  },
+  {
+    "kellyId": 501,
+    "decision": "fix",
+    "reason": "'to inquire' has 'to' embedded (app adds 'to' for verbs)",
+    "translation": "ask, inquire",
+    "senses": []
+  },
+  {
+    "kellyId": 15,
+    "decision": "fix",
+    "reason": "current translation is a definition; 'front, forward' is the clean adjectival gloss",
+    "translation": "front, forward",
+    "senses": []
+  },
+  {
+    "kellyId": 875,
+    "decision": "fix",
+    "reason": "'ponder' is too elevated; everyday Swedish 'fundera' = think about, wonder, consider",
+    "translation": "think, wonder",
+    "senses": []
+  },
+  {
+    "kellyId": 396,
+    "decision": "fix",
+    "reason": "'function' as primary is slightly formal; 'work, function' captures the everyday sense better; clean definition-like senses",
+    "translation": "work, function",
+    "senses": ["work, function (operate correctly)", "work out, succeed"]
+  },
+  {
+    "kellyId": 1232,
+    "decision": "fix",
+    "reason": "senses list has verbose definition-like entries; simplify",
+    "translation": "function",
+    "senses": ["function, purpose (what something does)", "feature (of a product or software)", "function (mathematics or programming)"]
+  },
+  {
+    "kellyId": 853,
+    "decision": "fix",
+    "reason": "'to make full' has 'to' embedded; clean up and fix senses",
+    "translation": "fill",
+    "senses": ["fill (make full)", "turn (an age), have a birthday"]
+  },
+  {
+    "kellyId": 17,
+    "decision": "fix",
+    "reason": "sub-definition '40 in Arabic numerals' is redundant for a numeral; single meaning",
+    "translation": "forty",
+    "senses": []
+  },
+  {
+    "kellyId": 1385,
+    "decision": "fix",
+    "reason": "sub-definitions are definition-like expansions of a single meaning; 'physical' stands alone",
+    "translation": "physical",
+    "senses": []
+  },
+  {
+    "kellyId": 116,
+    "decision": "fix",
+    "reason": "'to receive' has 'to' embedded; clean senses list",
+    "translation": "get, receive",
+    "senses": ["get, receive", "be allowed to, may", "have to, be forced to", "make, cause (someone to do something)"]
+  },
+  {
+    "kellyId": 1372,
+    "decision": "fix",
+    "reason": "'a jail' has embedded article",
+    "translation": "prison, jail",
+    "senses": []
+  },
+  {
+    "kellyId": 1247,
+    "decision": "fix",
+    "reason": "senses list is overly granular with definition-like entries; simplify to meaningful distinctions",
+    "translation": "colour",
+    "senses": ["colour (visual property)", "colour, paint (substance)", "colour (skin tone)"]
+  },
+  {
+    "kellyId": 1141,
+    "decision": "fix",
+    "reason": "'feed' and 'give birth' are two distinct common meanings; use semicolon pairing",
+    "translation": "feed; give birth",
+    "senses": ["feed (provide with food)", "give birth (to)"]
+  },
+  {
+    "kellyId": 348,
+    "decision": "fix",
+    "reason": "senses list is too detailed and definition-like; simplify to core distinct meanings",
+    "translation": "follow",
+    "senses": ["follow, go after", "accompany, escort", "follow (come next in sequence)", "follow, comply with (rules, instructions)"]
+  },
+  {
+    "kellyId": 1322,
+    "decision": "fix",
+    "reason": "'consequence, result' is at least as common as 'series, sequence'; promote it and use semicolon for co-equal senses",
+    "translation": "consequence, result; series, sequence",
+    "senses": ["consequence, result", "series, sequence (in a row)"]
+  },
+  {
+    "kellyId": 301,
+    "decision": "fix",
+    "reason": "sub-definition is a definition gloss; 'too' is single-meaning",
+    "translation": "too",
+    "senses": []
+  },
+  {
+    "kellyId": 901,
+    "decision": "fix",
+    "reason": "'för att' primarily means 'in order to' (purpose); 'because' is a secondary sense — current primary is wrong",
+    "translation": "in order to",
+    "senses": ["in order to (purpose)", "because"]
+  },
+  {
+    "kellyId": 452,
+    "decision": "fix",
+    "reason": "current translation is definition-like; 'lead, bring' captures the core sense more helpfully",
+    "translation": "lead, bring",
+    "senses": ["lead, bring, take (move someone/something)", "conduct, carry out (actively perform)", "make (noise)"]
+  },
+  {
+    "kellyId": 1001,
+    "decision": "fix",
+    "reason": "'make better' is redundant alongside 'improve, enhance'; clean up the main translation and reflexive sense",
+    "translation": "improve, enhance",
+    "senses": ["improve, enhance", "improve oneself, get better"]
+  },
+  {
+    "kellyId": 1081,
+    "decision": "fix",
+    "reason": "senses are definition-like; simplify",
+    "translation": "advantage",
+    "senses": ["advantage, benefit", "advantage (tennis: score after deuce)"]
+  },
+  {
+    "kellyId": 586,
+    "decision": "fix",
+    "reason": "primary meaning of 'före' is temporal 'before', not positional 'in front of'",
+    "translation": "before",
+    "senses": ["before (time)", "in front of, ahead of (position)"]
+  },
+  {
+    "kellyId": 977,
+    "decision": "fix",
+    "reason": "'to exist' has 'to' embedded; clean senses list",
+    "translation": "occur, exist",
+    "senses": ["occur, exist (be present)", "anticipate, forestall (act before someone else)", "prevent, preempt", "appear, seem"]
+  },
+  {
+    "kellyId": 656,
+    "decision": "fix",
+    "reason": "senses are definition-like; 'suggest' is single-meaning here",
+    "translation": "suggest, propose",
+    "senses": []
+  },
+  {
+    "kellyId": 310,
+    "decision": "fix",
+    "reason": "embedded articles in translation; 'company' is the dominant everyday sense",
+    "translation": "company, business",
+    "senses": ["company, business", "project, venture (larger undertaking)"]
+  },
+  {
+    "kellyId": 746,
+    "decision": "fix",
+    "reason": "'a writer' has embedded article",
+    "translation": "author, writer",
+    "senses": []
+  },
+  {
+    "kellyId": 793,
+    "decision": "fix",
+    "reason": "senses list has verbose definition-like entries; simplify",
+    "translation": "lose",
+    "senses": ["lose (a competition)", "lose (something or someone)", "lose (value, depreciate)"]
+  },
+  {
+    "kellyId": 1147,
+    "decision": "fix",
+    "reason": "primary everyday sense of 'församling' is 'congregation/parish', not 'assembly'",
+    "translation": "congregation, parish",
+    "senses": ["congregation (church community)", "parish (church district)", "assembly, gathering"]
+  },
+  {
+    "kellyId": 329,
+    "decision": "fix",
+    "reason": "'estimate' and 'nomination' are misleading; primary sense is 'proposal, suggestion'; music sub-sense is too marginal",
+    "translation": "proposal, suggestion",
+    "senses": []
+  },
+  {
+    "kellyId": 390,
+    "decision": "fix",
+    "reason": "sub-definition is definition-like; clean senses to meaningful distinctions",
+    "translation": "first, firstly",
+    "senses": ["first, firstly (before others)", "only, not until (time: 'only now')"]
+  },
+  {
+    "kellyId": 18,
+    "decision": "fix",
+    "reason": "job-title senses are marginal; 'first' is single-meaning for a numeral",
+    "translation": "first",
+    "senses": []
+  },
+  {
+    "kellyId": 896,
+    "decision": "fix",
+    "reason": "'to vanish' has 'to' embedded",
+    "translation": "disappear, vanish",
+    "senses": []
+  },
+  {
+    "kellyId": 860,
+    "decision": "fix",
+    "reason": "'go' (British informal) is marginal; clean primary translation",
+    "translation": "attempt, try",
+    "senses": ["attempt, try", "trial, experiment"]
+  },
+  {
+    "kellyId": 203,
+    "decision": "fix",
+    "reason": "'to try' has 'to' embedded",
+    "translation": "attempt, try",
+    "senses": []
+  },
+  {
+    "kellyId": 912,
+    "decision": "fix",
+    "reason": "'förutom' also means 'besides, in addition to' — a genuinely distinct sense missing from current entry",
+    "translation": "except, apart from",
+    "senses": ["except, apart from", "besides, in addition to"]
+  },
+  {
+    "kellyId": 728,
+    "decision": "fix",
+    "reason": "'precondition' is formal; 'condition, prerequisite' is more natural and everyday",
+    "translation": "condition, prerequisite",
+    "senses": []
+  },
+  {
+    "kellyId": 817,
+    "decision": "fix",
+    "reason": "'to alter' has 'to' embedded; reflexive sub-sense is same meaning — single sense",
+    "translation": "change, alter",
+    "senses": []
+  },
+  {
+    "kellyId": 640,
+    "decision": "fix",
+    "reason": "'transformation' is secondary to plain 'change'; reorder",
+    "translation": "change, transformation",
+    "senses": []
+  },
+  {
+    "kellyId": 177,
+    "decision": "fix",
+    "reason": "senses list has definition-like entries; simplify",
+    "translation": "give",
+    "senses": ["give", "give up, surrender, quit", "yield, produce (a result)"]
+  },
+  {
+    "kellyId": 1101,
+    "decision": "fix",
+    "reason": "'a community' has embedded article",
+    "translation": "fellowship, community",
+    "senses": []
+  },
+  {
+    "kellyId": 309,
+    "decision": "fix",
+    "reason": "sub-definitions are definition-like glosses of the same meaning; 'by' is single-meaning",
+    "translation": "by (doing something)",
+    "senses": []
+  },
+  {
+    "kellyId": 583,
+    "decision": "fix",
+    "reason": "'to accomplish, to complete' have 'to' embedded; trim",
+    "translation": "carry out, accomplish",
+    "senses": []
+  },
+  {
+    "kellyId": 703,
+    "decision": "fix",
+    "reason": "senses list has definition-like entries; simplify",
+    "translation": "like",
+    "senses": ["like (enjoy)", "like (upvote on social media)", "approve of, accept"]
+  },
+  {
+    "kellyId": 1292,
+    "decision": "fix",
+    "reason": "senses list has a redundant first entry that duplicates the headline; fix list",
+    "translation": "giver, donor",
+    "senses": ["giver, donor", "sensor (measuring device)"]
+  },
+  {
+    "kellyId": 286,
+    "decision": "fix",
+    "reason": "'morally commendable' is too narrow and definition-like; 'good' covers all everyday senses",
+    "translation": "good",
+    "senses": ["good (in general)", "tasty, delicious", "good, proficient", "good, considerable (in extent)"]
+  }
+]

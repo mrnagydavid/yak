@@ -1,0 +1,347 @@
+[
+  {
+    "kellyId": 7489,
+    "decision": "fix",
+    "reason": "'peloton' needs to be in the senses list explicitly; tighten primary",
+    "translation": "huddle, bunch",
+    "senses": ["huddle, cluster, bunch", "peloton (cycling)"]
+  },
+  {
+    "kellyId": 8191,
+    "decision": "fix",
+    "reason": "primary is definition-like ('short, sharp bang, like a report'); 'bang, crack' is the natural flashcard gloss; 'a sensation' is vague — use 'thrill, kick'",
+    "translation": "bang, crack",
+    "senses": ["bang, crack (sharp sound)", "thrill, kick (sensation)"]
+  },
+  {
+    "kellyId": 7607,
+    "decision": "fix",
+    "reason": "senses list entry is overly definition-like; simplify",
+    "senses": ["soldier (historical foot soldier)", "jack (playing card)"]
+  },
+  {
+    "kellyId": 7853,
+    "decision": "fix",
+    "reason": "primary 'jam, a pinch' embeds an article; goldeneye is too obscure for the list on a single-sense card",
+    "translation": "jam, tight spot",
+    "senses": []
+  },
+  {
+    "kellyId": 8116,
+    "decision": "fix",
+    "reason": "'fascicle' is a highly technical/marginal sense; treat as single-meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 7277,
+    "decision": "fix",
+    "reason": "senses need both meanings labelled clearly",
+    "senses": ["knot (tied rope)", "knot (speed unit, nautical)"]
+  },
+  {
+    "kellyId": 7665,
+    "decision": "fix",
+    "reason": "'code, to encode' — the app adds 'to', so 'to encode' is wrong; bare it",
+    "translation": "code, encode",
+    "senses": []
+  },
+  {
+    "kellyId": 8276,
+    "decision": "fix",
+    "reason": "senses list conflates two meanings without labelling; restructure",
+    "senses": ["trunk (large suitcase or chest)", "trunk, boot (car storage)"]
+  },
+  {
+    "kellyId": 7615,
+    "decision": "fix",
+    "reason": "primary is definition-like ('a hut, a very primitive house'); 'hut, shack' is the natural gloss",
+    "translation": "hut, shack",
+    "senses": []
+  },
+  {
+    "kellyId": 7829,
+    "decision": "fix",
+    "reason": "senses list lacks the primary meaning entry; restructure to be complete",
+    "senses": ["faculty, staff (teaching or medical collective)", "staff meeting", "board, committee"]
+  },
+  {
+    "kellyId": 7547,
+    "decision": "fix",
+    "reason": "senses list has 'vertical pillar' as a sub-gloss but treats it as a separate entry; consolidate",
+    "senses": ["column, pillar (architectural)", "column (military formation)", "column (in a table or matrix)"]
+  },
+  {
+    "kellyId": 7403,
+    "decision": "fix",
+    "reason": "primary 'command, an order' embeds an article; bare it; senses list is verbose",
+    "translation": "command, order",
+    "senses": ["command, order (instruction)", "command (authority to command)", "commando (military unit)", "high command"]
+  },
+  {
+    "kellyId": 7765,
+    "decision": "fix",
+    "reason": "senses list entries have awkward parentheticals; clean up",
+    "senses": ["superintendent (Swedish police rank)", "chief inspector", "commissar, commissioner"]
+  },
+  {
+    "kellyId": 7525,
+    "decision": "fix",
+    "reason": "primary is clumsy and definition-like; journalist correspondent is the more common modern sense — promote it",
+    "translation": "correspondent",
+    "senses": ["correspondent, reporter (journalist abroad)", "correspondent (letter-writer)"]
+  },
+  {
+    "kellyId": 7282,
+    "decision": "fix",
+    "reason": "primary 'contour, an outline of an object' is definition-like; 'contour, outline' is enough",
+    "translation": "contour, outline",
+    "senses": []
+  },
+  {
+    "kellyId": 7885,
+    "decision": "fix",
+    "reason": "senses list has duplicate entries; single-meaning word — clear the list",
+    "senses": []
+  },
+  {
+    "kellyId": 7692,
+    "decision": "fix",
+    "reason": "Swedish 'konsistens' primarily means texture/viscosity; 'consistency' alone misleads towards logical consistency; add texture",
+    "translation": "consistency, texture",
+    "senses": []
+  },
+  {
+    "kellyId": 8041,
+    "decision": "fix",
+    "reason": "senses list needs the primary meaning (cork material) listed first clearly",
+    "senses": ["cork (material from cork oak)", "cork, stopper (bottle)", "cap, lid (threaded, plastic or metal)"]
+  },
+  {
+    "kellyId": 7972,
+    "decision": "fix",
+    "reason": "'corporative' is not a standard English adjective; 'corporatist' is the correct term",
+    "translation": "corporatist",
+    "senses": []
+  },
+  {
+    "kellyId": 7391,
+    "decision": "fix",
+    "reason": "primary 'alarm, to alert, give a danger signal' is clumsy and contains 'to'; the core sense is 'raise the alarm, alert'; collapse the many sub-senses",
+    "translation": "raise the alarm, alert",
+    "senses": ["raise the alarm, alert (give danger signal)", "sound an alarm", "make noise, cause a commotion"]
+  },
+  {
+    "kellyId": 8115,
+    "decision": "fix",
+    "reason": "senses list mixes device/technology/beam into separate entries unnecessarily; simplify",
+    "senses": ["laser (device or beam)", "Laser (type of sailing dinghy)"]
+  },
+  {
+    "kellyId": 7927,
+    "decision": "fix",
+    "reason": "primary is definition-like; 'guide, escort' is the natural gloss",
+    "translation": "guide, escort",
+    "senses": []
+  },
+  {
+    "kellyId": 7647,
+    "decision": "fix",
+    "reason": "senses list should be cleaner; 'bureaucracy, red tape' is a better secondary",
+    "senses": ["mill (grinding)", "bureaucracy, red tape (figurative)"]
+  },
+  {
+    "kellyId": 7273,
+    "decision": "fix",
+    "reason": "first two senses are basically the same; consolidate; keep dormer",
+    "senses": ["twig, small branch", "dormer (roof window)"]
+  },
+  {
+    "kellyId": 8422,
+    "decision": "fix",
+    "reason": "'quits, even, rid of' is an awkward triple; this word has two distinct uses — being rid of something, and being quits/even; use semicolon",
+    "translation": "rid of; quits, even",
+    "senses": ["rid of (be kvitt ngt = be rid of something)", "quits, even (settled up)"]
+  },
+  {
+    "kellyId": 7646,
+    "decision": "fix",
+    "reason": "'nitrogen' is an uncountable noun — no article should be prepended",
+    "translation": "nitrogen",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7657,
+    "decision": "fix",
+    "reason": "senses list entries are definition-like; cabbage is a single everyday sense",
+    "senses": []
+  },
+  {
+    "kellyId": 7262,
+    "decision": "fix",
+    "reason": "stick and cane are close enough synonyms in this context to join in the primary; no separate senses needed",
+    "translation": "stick, cane",
+    "senses": []
+  },
+  {
+    "kellyId": 7086,
+    "decision": "fix",
+    "reason": "senses list has two identical 'wake' entries; single-meaning — clear list",
+    "senses": []
+  },
+  {
+    "kellyId": 8141,
+    "decision": "fix",
+    "reason": "primary is a definition; 'estate, inheritance' is the natural gloss",
+    "translation": "estate, inheritance",
+    "senses": []
+  },
+  {
+    "kellyId": 8077,
+    "decision": "fix",
+    "reason": "primary 'lacking power' is definition-like; 'feeble, powerless' is more natural",
+    "translation": "feeble, powerless",
+    "senses": []
+  },
+  {
+    "kellyId": 7369,
+    "decision": "fix",
+    "reason": "primary 'crane' is correct but 'tap, faucet' is equally common in everyday Swedish; both belong in senses; nose/drug dealer are slang — drop them",
+    "senses": ["crane (machine)", "tap, faucet"]
+  },
+  {
+    "kellyId": 7292,
+    "decision": "fix",
+    "reason": "drug slang sense is too marginal; drop it",
+    "senses": ["crystal (mineral)", "crystal (fine glassware)"]
+  },
+  {
+    "kellyId": 7333,
+    "decision": "fix",
+    "reason": "primary 'collision, a crash' embeds an article; bare it",
+    "translation": "collision, crash",
+    "senses": []
+  },
+  {
+    "kellyId": 7952,
+    "decision": "fix",
+    "reason": "primary 'minor ailment, a complaint' embeds an article; bare it",
+    "translation": "minor ailment, complaint",
+    "senses": []
+  },
+  {
+    "kellyId": 7055,
+    "decision": "fix",
+    "reason": "'culminate, to peak' — the app adds 'to', making 'to peak' a double-to; bare it",
+    "translation": "culminate, peak",
+    "senses": []
+  },
+  {
+    "kellyId": 7169,
+    "decision": "fix",
+    "reason": "'announcement' is more everyday than 'proclamation'; promote it as primary; keep formal sense in list",
+    "translation": "announcement, notice",
+    "senses": ["announcement, notice", "proclamation, decree (official/formal)"]
+  },
+  {
+    "kellyId": 7908,
+    "decision": "fix",
+    "reason": "'coupon or voucher' — 'or' is awkward; comma form is cleaner",
+    "translation": "coupon, voucher",
+    "senses": []
+  },
+  {
+    "kellyId": 8157,
+    "decision": "fix",
+    "reason": "senses list needs primary sense first",
+    "senses": ["cure (treat illness)", "curate (act as curator)"]
+  },
+  {
+    "kellyId": 7338,
+    "decision": "fix",
+    "reason": "senses list repeats 'square' twice; also 'square meter' is an abbreviation usage, not a standalone sense; clean up",
+    "senses": ["square (shape)", "square (mathematics, power of two)"]
+  },
+  {
+    "kellyId": 8118,
+    "decision": "fix",
+    "reason": "'cyme' is an extremely technical botany term — drop it; 'tassel' is a real secondary sense",
+    "senses": ["broom (sweeping tool)", "tassel, tuft"]
+  },
+  {
+    "kellyId": 7666,
+    "decision": "fix",
+    "reason": "'Plantago' (plantain genus) is a highly marginal botanical sense; drop it — single-meaning card",
+    "senses": []
+  },
+  {
+    "kellyId": 7074,
+    "decision": "fix",
+    "reason": "senses list entry is definition-like; simplify",
+    "senses": ["sensitivity (emotional or technical)", "susceptibility (to illness or influence)"]
+  },
+  {
+    "kellyId": 7177,
+    "decision": "fix",
+    "reason": "senses list needs the primary first and cleaner phrasing",
+    "senses": ["ID, identification", "license (professional authorization)"]
+  },
+  {
+    "kellyId": 7870,
+    "decision": "fix",
+    "reason": "senses list needs the primary listed first",
+    "senses": ["limb (arm or leg)", "member (penis)"]
+  },
+  {
+    "kellyId": 7150,
+    "decision": "fix",
+    "reason": "senses list needs primary first; slang sense is fine as secondary",
+    "senses": ["sheet (bed linen)", "grand (1000 SEK, slang)"]
+  },
+  {
+    "kellyId": 7192,
+    "decision": "fix",
+    "reason": "senses list needs primary first; Cancer (star sign) should stay capitalised",
+    "senses": ["crayfish", "cancer (disease)", "Cancer (star sign)"]
+  },
+  {
+    "kellyId": 7524,
+    "decision": "fix",
+    "reason": "'cream, crème' — crème adds nothing for learners; 'cream' is the clear gloss; uncountable",
+    "translation": "cream",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7753,
+    "decision": "fix",
+    "reason": "'glue' is uncountable",
+    "translation": "glue",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7429,
+    "decision": "fix",
+    "reason": "'comfort' is uncountable",
+    "translation": "comfort",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7095,
+    "decision": "fix",
+    "reason": "'indifference' is uncountable",
+    "translation": "indifference",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 8008,
+    "decision": "fix",
+    "reason": "'legality' is uncountable",
+    "translation": "legality",
+    "uncountable": true,
+    "senses": []
+  }
+]

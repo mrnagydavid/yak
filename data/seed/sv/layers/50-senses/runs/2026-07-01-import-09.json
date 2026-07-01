@@ -1,0 +1,408 @@
+[
+  {
+    "english": "return",
+    "senses": [
+      { "gloss": "come back", "members": [1501, 1527] },
+      { "gloss": "comeback, return", "members": [4688] },
+      { "gloss": "reversion", "members": [6025] },
+      { "gloss": "product return", "members": [6544] },
+      { "gloss": "send back", "members": [7904] }
+    ]
+  },
+  {
+    "english": "challenge",
+    "senses": [
+      { "gloss": "noun", "members": [1502] },
+      { "gloss": "verb", "members": [2997] }
+    ]
+  },
+  {
+    "english": "dream",
+    "senses": [
+      { "gloss": "noun", "members": [1505] },
+      { "gloss": "verb", "members": [2357] }
+    ]
+  },
+  {
+    "english": "below, underneath",
+    "senses": [
+      { "gloss": "adverb", "members": [1507] },
+      { "gloss": "adjective", "members": [5581] },
+      { "gloss": "preposition", "members": [5599] }
+    ]
+  },
+  {
+    "english": "sense, suspect",
+    "senses": [
+      { "gloss": "intuit, suspect", "members": [1510] },
+      { "gloss": "bodily sense", "members": [2370] },
+      { "gloss": "meaning", "members": [4034] },
+      { "gloss": "reason, wits", "members": [4885, 6281] }
+    ]
+  },
+  {
+    "english": "attitude, position",
+    "senses": [
+      { "gloss": "", "members": [1511, 2066] }
+    ]
+  },
+  {
+    "english": "loose",
+    "senses": [
+      { "gloss": "adjective", "members": [1513] },
+      { "gloss": "free, detached", "members": [3192] }
+    ]
+  },
+  {
+    "english": "test, try",
+    "senses": [
+      { "gloss": "verb", "members": [1514] },
+      { "gloss": "noun", "members": [3316, 2369] }
+    ]
+  },
+  {
+    "english": "attribute, property",
+    "senses": [
+      { "gloss": "", "members": [1515, 6809] }
+    ]
+  },
+  {
+    "english": "employee",
+    "senses": [
+      { "gloss": "", "members": [1529, 2022] }
+    ]
+  },
+  {
+    "english": "investment",
+    "senses": [
+      { "gloss": "financial", "members": [1532] },
+      { "gloss": "venture, initiative", "members": [1682] }
+    ]
+  },
+  {
+    "english": "sales",
+    "senses": [
+      { "gloss": "activity, volume", "members": [1534] },
+      { "gloss": "market outlet", "members": [6768] }
+    ]
+  },
+  {
+    "english": "popular",
+    "senses": [
+      { "gloss": "widely liked", "members": [1535] },
+      { "gloss": "folk, traditional", "members": [3303] }
+    ]
+  },
+  {
+    "english": "Palestinian",
+    "senses": [
+      { "gloss": "noun", "members": [1538] },
+      { "gloss": "adjective", "members": [1550] }
+    ]
+  },
+  {
+    "english": "space",
+    "senses": [
+      { "gloss": "room, area", "members": [1539] },
+      { "gloss": "outer space", "members": [3727] }
+    ]
+  },
+  {
+    "english": "heavily, severely",
+    "senses": [
+      { "gloss": "severely", "members": [1541] },
+      { "gloss": "heavily", "members": [4638] }
+    ]
+  },
+  {
+    "english": "remind",
+    "senses": [
+      { "gloss": "", "members": [1543, 3748] }
+    ]
+  },
+  {
+    "english": "focus",
+    "senses": [
+      { "gloss": "noun", "members": [1547] },
+      { "gloss": "verb", "members": [1854] }
+    ]
+  },
+  {
+    "english": "minister",
+    "senses": [
+      { "gloss": "", "members": [1554, 2258] }
+    ]
+  },
+  {
+    "english": "joy, happiness",
+    "senses": [
+      { "gloss": "joy", "members": [1556] },
+      { "gloss": "happiness, luck", "members": [1626] }
+    ]
+  },
+  {
+    "english": "title",
+    "senses": [
+      { "gloss": "name, heading", "members": [1557] },
+      { "gloss": "ownership right", "members": [3737] }
+    ]
+  },
+  {
+    "english": "somewhat, to some extent",
+    "senses": [
+      { "gloss": "somewhat", "members": [1558] },
+      { "gloss": "reasonably, fairly", "members": [3634] }
+    ]
+  },
+  {
+    "english": "starting point",
+    "senses": [
+      { "gloss": "", "members": [1559, 7503] }
+    ]
+  },
+  {
+    "english": "stage",
+    "senses": [
+      { "gloss": "theatrical", "members": [1561] },
+      { "gloss": "phase, period", "members": [2574, 3424] }
+    ]
+  },
+  {
+    "english": "benefit",
+    "senses": [
+      { "gloss": "usefulness", "members": [1562, 2686] },
+      { "gloss": "to benefit", "members": [1914, 6209] }
+    ]
+  },
+  {
+    "english": "female",
+    "senses": [
+      { "gloss": "adjective", "members": [1567] },
+      { "gloss": "female animal", "members": [5876] }
+    ]
+  },
+  {
+    "english": "distance",
+    "senses": [
+      { "gloss": "measured gap", "members": [1569, 4517] },
+      { "gloss": "the far distance", "members": [8401] }
+    ]
+  },
+  {
+    "english": "significant, notable",
+    "senses": [
+      { "gloss": "", "members": [1571, 7899] }
+    ]
+  },
+  {
+    "english": "leg",
+    "senses": [
+      { "gloss": "body part", "members": [1575] },
+      { "gloss": "journey stage", "members": [4795] }
+    ]
+  },
+  {
+    "english": "load",
+    "senses": [
+      { "gloss": "charge, load data", "members": [1578] },
+      { "gloss": "load cargo", "members": [5133] },
+      { "gloss": "burden, strain", "members": [5200] },
+      { "gloss": "to burden", "members": [6201] }
+    ]
+  },
+  {
+    "english": "with regard to, in terms of",
+    "senses": [
+      { "gloss": "", "members": [1584, 2413, 4714] }
+    ]
+  },
+  {
+    "english": "promote, support",
+    "senses": [
+      { "gloss": "further, advance", "members": [1590] },
+      { "gloss": "give higher rank", "members": [6404] }
+    ]
+  },
+  {
+    "english": "reform",
+    "senses": [
+      { "gloss": "noun", "members": [1594] },
+      { "gloss": "verb", "members": [5272] }
+    ]
+  },
+  {
+    "english": "try, test",
+    "senses": [
+      { "gloss": "", "members": [1595, 2030] }
+    ]
+  },
+  {
+    "english": "concrete",
+    "senses": [
+      { "gloss": "specific, tangible", "members": [1596] },
+      { "gloss": "material", "members": [5934] }
+    ]
+  },
+  {
+    "english": "straight",
+    "senses": [
+      { "gloss": "adverb", "members": [1597] },
+      { "gloss": "adjective", "members": [2336] }
+    ]
+  },
+  {
+    "english": "obviously, clearly",
+    "senses": [
+      { "gloss": "", "members": [1598, 3022] }
+    ]
+  },
+  {
+    "english": "murder",
+    "senses": [
+      { "gloss": "noun", "members": [1608] },
+      { "gloss": "verb", "members": [2226] }
+    ]
+  },
+  {
+    "english": "document",
+    "senses": [
+      { "gloss": "noun", "members": [1609] },
+      { "gloss": "verb", "members": [4553] }
+    ]
+  },
+  {
+    "english": "southern",
+    "senses": [
+      { "gloss": "", "members": [1617, 6311] }
+    ]
+  },
+  {
+    "english": "trust",
+    "senses": [
+      { "gloss": "noun", "members": [1619, 4649] },
+      { "gloss": "verb", "members": [1712] }
+    ]
+  },
+  {
+    "english": "copyright",
+    "senses": [
+      { "gloss": "", "members": [1621, 6469] }
+    ]
+  },
+  {
+    "english": "in love",
+    "senses": [
+      { "gloss": "", "members": [1629, 6208] }
+    ]
+  },
+  {
+    "english": "refer, direct (to)",
+    "senses": [
+      { "gloss": "direct to", "members": [1631] },
+      { "gloss": "cite, refer to", "members": [3715] }
+    ]
+  },
+  {
+    "english": "northern",
+    "senses": [
+      { "gloss": "", "members": [1633, 5514] }
+    ]
+  },
+  {
+    "english": "completely",
+    "senses": [
+      { "gloss": "", "members": [1634, 3087] }
+    ]
+  },
+  {
+    "english": "opponent",
+    "senses": [
+      { "gloss": "", "members": [1644, 7898] }
+    ]
+  },
+  {
+    "english": "segment, feature",
+    "senses": [
+      { "gloss": "", "members": [1654, 7184] }
+    ]
+  },
+  {
+    "english": "split, division, separation",
+    "senses": [
+      { "gloss": "noun", "members": [1656] },
+      { "gloss": "verb", "members": [4549] }
+    ]
+  },
+  {
+    "english": "empty",
+    "senses": [
+      { "gloss": "adjective", "members": [1659] },
+      { "gloss": "verb", "members": [4434] }
+    ]
+  },
+  {
+    "english": "inhabitant",
+    "senses": [
+      { "gloss": "", "members": [1660, 7223] }
+    ]
+  },
+  {
+    "english": "structure",
+    "senses": [
+      { "gloss": "noun", "members": [1661] },
+      { "gloss": "verb", "members": [6946] }
+    ]
+  },
+  {
+    "english": "aspect",
+    "senses": [
+      { "gloss": "", "members": [1672, 4448] }
+    ]
+  },
+  {
+    "english": "worry, anxiety",
+    "senses": [
+      { "gloss": "noun", "members": [1676] },
+      { "gloss": "verb", "members": [2597, 5207] }
+    ]
+  },
+  {
+    "english": "wall",
+    "senses": [
+      { "gloss": "interior wall", "members": [1677] },
+      { "gloss": "fortification wall", "members": [2164] }
+    ]
+  },
+  {
+    "english": "constant, permanent",
+    "senses": [
+      { "gloss": "continual, ongoing", "members": [1679] },
+      { "gloss": "unchanging", "members": [3436] }
+    ]
+  },
+  {
+    "english": "calculate",
+    "senses": [
+      { "gloss": "", "members": [1684, 7808] }
+    ]
+  },
+  {
+    "english": "along",
+    "senses": [
+      { "gloss": "", "members": [1688, 5508] }
+    ]
+  },
+  {
+    "english": "fix, sort out",
+    "senses": [
+      { "gloss": "", "members": [1689, 4282] }
+    ]
+  },
+  {
+    "english": "primarily, first of all",
+    "senses": [
+      { "gloss": "first of all", "members": [1695] },
+      { "gloss": "preferably", "members": [6996] }
+    ]
+  }
+]

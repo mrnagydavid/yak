@@ -1,0 +1,462 @@
+[
+  {
+    "kellyId": 2775,
+    "decision": "fix",
+    "reason": "senses list is incomplete — missing the primary meaning",
+    "translation": "peaceful",
+    "senses": ["peaceful", "peace-loving"]
+  },
+  {
+    "kellyId": 1756,
+    "decision": "fix",
+    "reason": "'not sick' merely restates the primary and is definition-like; clean up senses",
+    "translation": "healthy",
+    "senses": ["healthy, well", "fresh, refreshing"]
+  },
+  {
+    "kellyId": 1791,
+    "decision": "fix",
+    "reason": "senses list is incomplete — missing the primary",
+    "translation": "freely",
+    "senses": ["freely", "freestyle"]
+  },
+  {
+    "kellyId": 2476,
+    "decision": "fix",
+    "reason": "senses list is incomplete — missing the primary",
+    "translation": "voluntary",
+    "senses": ["voluntary", "optional"]
+  },
+  {
+    "kellyId": 2286,
+    "decision": "fix",
+    "reason": "senses list is incomplete — missing the primary",
+    "translation": "fruit",
+    "senses": ["fruit (the food)", "fruit, result (positive outcome)"]
+  },
+  {
+    "kellyId": 1590,
+    "decision": "fix",
+    "reason": "clumsy phrasing: 'promote, to support' has embedded 'to' (app adds it for verbs)",
+    "translation": "promote, support",
+    "senses": []
+  },
+  {
+    "kellyId": 2062,
+    "decision": "fix",
+    "reason": "primary has three synonyms — trim to two; senses list is incomplete",
+    "translation": "strange, unfamiliar",
+    "senses": ["strange, unfamiliar, unknown", "foreign (from another country or culture)"]
+  },
+  {
+    "kellyId": 2481,
+    "decision": "fix",
+    "reason": "senses list is incomplete — missing the primary",
+    "translation": "ugly",
+    "senses": ["ugly", "dirty, dishonest (of behaviour)"]
+  },
+  {
+    "kellyId": 2192,
+    "decision": "fix",
+    "reason": "definition-like gloss 'with everything included'; 'complete' alone suffices",
+    "translation": "complete, thorough",
+    "senses": []
+  },
+  {
+    "kellyId": 2023,
+    "decision": "fix",
+    "reason": "senses list entry has embedded 'to'; also incomplete",
+    "translation": "catch",
+    "senses": ["catch", "capture (literally or figuratively)"]
+  },
+  {
+    "kellyId": 2467,
+    "decision": "fix",
+    "reason": "senses list is incomplete and has embedded article and definition-like phrasing",
+    "translation": "prisoner",
+    "senses": ["prisoner (in prison)", "prisoner, captive (held against their will)"]
+  },
+  {
+    "kellyId": 2785,
+    "decision": "fix",
+    "reason": "primary has embedded 'to' ('fell, to drop, to bring down'); senses list is incomplete",
+    "translation": "fell, cut down",
+    "senses": ["fell, cut down (a tree)", "trip (make someone fall)", "convict (find guilty)", "drop (a remark)", "be the deciding factor"]
+  },
+  {
+    "kellyId": 2361,
+    "decision": "fix",
+    "reason": "senses list is incomplete — missing the primary",
+    "translation": "field",
+    "senses": ["field (open area)", "field (physics, mathematics)", "field, sphere (of activity or interest)"]
+  },
+  {
+    "kellyId": 2055,
+    "decision": "fix",
+    "reason": "embedded article 'a' in primary: 'journey, a trip'",
+    "translation": "journey, trip",
+    "senses": []
+  },
+  {
+    "kellyId": 1860,
+    "decision": "fix",
+    "reason": "senses list is incomplete — missing the primary",
+    "translation": "finished",
+    "senses": ["finished, done", "ready, prepared", "skilled, accomplished"]
+  },
+  {
+    "kellyId": 1953,
+    "decision": "fix",
+    "reason": "senses list entry has embedded 'to'; also incomplete",
+    "translation": "prepare",
+    "senses": ["prepare (something)", "prepare oneself, get ready"]
+  },
+  {
+    "kellyId": 1446,
+    "decision": "fix",
+    "reason": "senses list is incomplete — missing the primary; two distinct meanings (spatial and temporal)",
+    "translation": "past, by",
+    "senses": ["past, by (drive past)", "over, past (temporal: Christmas is over)"]
+  },
+  {
+    "kellyId": 2469,
+    "decision": "fix",
+    "reason": "senses list is incomplete — missing the primary",
+    "translation": "connection",
+    "senses": ["connection, link (transport or communication)", "obligation, commitment"]
+  },
+  {
+    "kellyId": 1530,
+    "decision": "fix",
+    "reason": "primary has embedded 'to' ('forbid, to prohibit, to ban')",
+    "translation": "forbid, prohibit, ban",
+    "senses": []
+  },
+  {
+    "kellyId": 1739,
+    "decision": "fix",
+    "reason": "primary has embedded 'to' ('be, to stay, to remain'); cleaner phrasing",
+    "translation": "remain, stay",
+    "senses": []
+  },
+  {
+    "kellyId": 2796,
+    "decision": "fix",
+    "reason": "primary has embedded 'to' ('distribute, to divide'); senses list is incomplete",
+    "translation": "distribute, divide",
+    "senses": ["distribute, divide (share out)", "be distributed (have a certain distribution)"]
+  },
+  {
+    "kellyId": 2572,
+    "decision": "fix",
+    "reason": "senses list is incomplete — missing the primary",
+    "translation": "distribution",
+    "senses": ["distribution, allocation", "division (of labour, resources, or forces)"]
+  },
+  {
+    "kellyId": 2102,
+    "decision": "fix",
+    "reason": "primary has embedded 'to' ('prefer, to favor'); senses list incomplete and has embedded 'to' entries",
+    "translation": "prefer",
+    "senses": ["prefer, favour", "give a talk, lecture", "chair (a meeting), present agenda items"]
+  },
+  {
+    "kellyId": 1772,
+    "decision": "fix",
+    "reason": "embedded article 'an' in primary ('object, an item'); senses list also has embedded article",
+    "translation": "object, item",
+    "senses": ["object, item", "subject (focus of an activity)"]
+  },
+  {
+    "kellyId": 2419,
+    "decision": "fix",
+    "reason": "senses entry 'to join together' has embedded 'to' and is near-synonymous with 'unite' — single meaning",
+    "translation": "unite, join",
+    "senses": []
+  },
+  {
+    "kellyId": 2657,
+    "decision": "fix",
+    "reason": "embedded article 'a' in primary ('instruction, a regulation'); senses list also has embedded article",
+    "translation": "regulation, instruction",
+    "senses": ["regulation, instruction", "condition (a conditional requirement)"]
+  },
+  {
+    "kellyId": 2723,
+    "decision": "fix",
+    "reason": "primary has embedded 'to' ('prescribe, to instruct, to order')",
+    "translation": "prescribe, instruct, order",
+    "senses": []
+  },
+  {
+    "kellyId": 2345,
+    "decision": "fix",
+    "reason": "primary has embedded 'to' ('present, to show, to depict'); 'depict, represent' is the core sense; senses list incomplete",
+    "translation": "depict, represent",
+    "senses": ["depict, represent, show", "introduce (one person to another)", "imagine, picture (föreställa sig)", "make someone believe"]
+  },
+  {
+    "kellyId": 2067,
+    "decision": "fix",
+    "reason": "embedded articles in primary ('a notion, a conception'); senses list is incomplete",
+    "translation": "notion, idea",
+    "senses": ["notion, idea, conception", "performance, show (theatre or event)", "belief"]
+  },
+  {
+    "kellyId": 2649,
+    "decision": "fix",
+    "reason": "senses list has embedded article 'an'; entrepreneur and business owner are near-synonyms — collapse to single meaning",
+    "translation": "business owner, entrepreneur",
+    "senses": []
+  },
+  {
+    "kellyId": 1825,
+    "decision": "fix",
+    "reason": "embedded article 'an' in primary ('representative, an advocate'); senses list is incomplete",
+    "translation": "representative, advocate",
+    "senses": ["representative, advocate (spokesperson)", "predecessor"]
+  },
+  {
+    "kellyId": 2806,
+    "decision": "fix",
+    "reason": "primary has embedded 'to' ('negotiate, to bargain')",
+    "translation": "negotiate, bargain",
+    "senses": []
+  },
+  {
+    "kellyId": 1454,
+    "decision": "fix",
+    "reason": "senses list is incomplete — missing the primary",
+    "translation": "negotiation",
+    "senses": ["negotiation", "legal proceedings, parliamentary debate", "proceedings (written record, usually plural)"]
+  },
+  {
+    "kellyId": 2615,
+    "decision": "fix",
+    "reason": "primary has embedded 'to' ('behave, to conduct'); senses list is incomplete",
+    "translation": "behave, conduct oneself",
+    "senses": ["behave, conduct oneself", "remain, keep (calm etc.)", "relate to, be proportional to"]
+  },
+  {
+    "kellyId": 2614,
+    "decision": "fix",
+    "reason": "primary has embedded 'to' ('relate to, to position oneself (toward)')",
+    "translation": "relate to, position oneself toward",
+    "senses": []
+  },
+  {
+    "kellyId": 1605,
+    "decision": "fix",
+    "reason": "three distinct senses of 'loss' not captured in list; 'loss' is uncountable as the primary",
+    "translation": "loss",
+    "uncountable": true,
+    "senses": ["loss (defeat)", "loss (of something or someone)", "loss (financial)"]
+  },
+  {
+    "kellyId": 2211,
+    "decision": "fix",
+    "reason": "primary has embedded 'to' ('convey, to mediate')",
+    "translation": "convey, mediate",
+    "senses": []
+  },
+  {
+    "kellyId": 2257,
+    "decision": "fix",
+    "reason": "'forenoon' is archaic/obscure; 'morning' is what learners need; sub-definition '(abbreviated fm)' is not a meaning",
+    "translation": "morning, late morning",
+    "senses": []
+  },
+  {
+    "kellyId": 2335,
+    "decision": "fix",
+    "reason": "senses list entry has embedded 'to'; also incomplete",
+    "translation": "be capable, be able to",
+    "senses": ["be capable, be able to", "make, persuade (someone to do something)"]
+  },
+  {
+    "kellyId": 2051,
+    "decision": "fix",
+    "reason": "senses list entry has embedded 'to' and is definition-like; also incomplete",
+    "translation": "deny",
+    "senses": ["deny (assert something is not true)", "deny, disown (disclaim connection or responsibility)"]
+  },
+  {
+    "kellyId": 1540,
+    "decision": "fix",
+    "reason": "senses list is incomplete — missing the primary; merging with first sub",
+    "translation": "before, in the past",
+    "senses": ["before, in the past (at an earlier time)", "soon, early", "rather"]
+  },
+  {
+    "kellyId": 1483,
+    "decision": "fix",
+    "reason": "'ere' is archaic and unhelpful to learners",
+    "translation": "until, before",
+    "senses": []
+  },
+  {
+    "kellyId": 2721,
+    "decision": "fix",
+    "reason": "slash in primary is awkward; Finland-specific second Wiktionary sense is too obscure for a flashcard",
+    "translation": "preschool, nursery school",
+    "senses": []
+  },
+  {
+    "kellyId": 1945,
+    "decision": "fix",
+    "reason": "primary has embedded 'to' ('strengthen, to reinforce, to amplify')",
+    "translation": "strengthen, reinforce, amplify",
+    "senses": []
+  },
+  {
+    "kellyId": 1443,
+    "decision": "fix",
+    "reason": "primary has embedded 'to' ('break, to demolish'); 'destroy' is the core sense of förstöra",
+    "translation": "destroy, ruin",
+    "senses": []
+  },
+  {
+    "kellyId": 2298,
+    "decision": "fix",
+    "reason": "'insurance' is uncountable",
+    "translation": "insurance",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1534,
+    "decision": "fix",
+    "reason": "'selling' is an awkward primary; 'sales' is more natural and uncountable; senses list is incomplete",
+    "translation": "sales",
+    "uncountable": true,
+    "senses": ["sales (activity or volume)", "sale (individual transaction)", "turnover (annual sales volume)"]
+  },
+  {
+    "kellyId": 2112,
+    "decision": "fix",
+    "reason": "senses list entry has embedded 'to'; also incomplete",
+    "translation": "deserve",
+    "senses": ["deserve", "earn"]
+  },
+  {
+    "kellyId": 1619,
+    "decision": "fix",
+    "reason": "'trust' is uncountable as primary; senses list is incomplete",
+    "translation": "trust",
+    "uncountable": true,
+    "senses": ["trust", "confidence (something shared in secret)"]
+  },
+  {
+    "kellyId": 2352,
+    "decision": "fix",
+    "reason": "'oppression' is uncountable",
+    "translation": "oppression",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1726,
+    "decision": "fix",
+    "reason": "senses list has obscure nautical sense 'bowwards' — drop it; also incomplete",
+    "translation": "before",
+    "senses": ["before, previously (at an earlier time)"]
+  },
+  {
+    "kellyId": 1923,
+    "decision": "fix",
+    "reason": "'presume' is not the main meaning of förutsätta; 'assume, presuppose' and 'require' are more accurate; senses list is incomplete",
+    "translation": "assume, presuppose",
+    "senses": ["assume, presuppose, take for granted", "require, demand (as a prerequisite)"]
+  },
+  {
+    "kellyId": 2196,
+    "decision": "fix",
+    "reason": "senses list is incomplete and has embedded article 'an'",
+    "translation": "administration, management",
+    "senses": ["administration, management (of resources)", "authority, agency (administrative body)"]
+  },
+  {
+    "kellyId": 2131,
+    "decision": "fix",
+    "reason": "primary has embedded 'to' ('turn, to transform, to convert'); senses list is incomplete",
+    "translation": "transform, turn into",
+    "senses": ["transform, turn into (especially through magic or figuratively)", "commute (a legal sentence)"]
+  },
+  {
+    "kellyId": 2403,
+    "decision": "fix",
+    "reason": "four synonyms for one meaning is too many; trim to two",
+    "translation": "surprised, astonished",
+    "senses": []
+  },
+  {
+    "kellyId": 2160,
+    "decision": "fix",
+    "reason": "grammatical bracketed gloss in primary is clumsy; senses list is incomplete",
+    "translation": "crazy, mad",
+    "senses": ["crazy, mad, insane", "crazy about, mad about (very enthusiastic or in love)", "wrong, amiss"]
+  },
+  {
+    "kellyId": 1840,
+    "decision": "fix",
+    "reason": "senses list entry has embedded 'to'; also incomplete",
+    "translation": "guarantee",
+    "senses": ["guarantee", "warrant, issue a warranty"]
+  },
+  {
+    "kellyId": 2747,
+    "decision": "fix",
+    "reason": "senses list has embedded article 'a'; also incomplete",
+    "translation": "guarantee",
+    "senses": ["guarantee", "warranty"]
+  },
+  {
+    "kellyId": 2622,
+    "decision": "fix",
+    "reason": "senses list is repetitive and definition-like; 'gas pedal/accelerator' sense (shown in examples) is missing",
+    "translation": "gas",
+    "senses": ["gas (state of matter or fuel)", "gas pedal, accelerator (trampa på gasen)"]
+  },
+  {
+    "kellyId": 2373,
+    "decision": "fix",
+    "reason": "'publicly' is a misleading gloss for gemensamt; 'jointly' is more accurate",
+    "translation": "together, jointly",
+    "senses": []
+  },
+  {
+    "kellyId": 2658,
+    "decision": "fix",
+    "reason": "too many synonyms for one meaning; 'generally' alone is clear",
+    "translation": "generally",
+    "senses": []
+  },
+  {
+    "kellyId": 2690,
+    "decision": "fix",
+    "reason": "primary has too many synonyms; senses list is incomplete",
+    "translation": "go through, undergo",
+    "senses": ["go through, undergo, experience", "go through, go over, review"]
+  },
+  {
+    "kellyId": 1670,
+    "decision": "fix",
+    "reason": "senses list is incomplete — missing the primary",
+    "translation": "towards, in relation to",
+    "senses": ["towards, in relation to (attitude or behaviour)", "compared to, vis-à-vis"]
+  },
+  {
+    "kellyId": 2654,
+    "decision": "fix",
+    "reason": "senses are sub-types of the same meaning, not distinct meanings — collapse to single",
+    "translation": "gesture",
+    "senses": []
+  },
+  {
+    "kellyId": 1747,
+    "decision": "fix",
+    "reason": "senses list entry 'to get married' has embedded 'to' and is a near-restatement of the primary — single meaning",
+    "translation": "marry",
+    "senses": []
+  }
+]

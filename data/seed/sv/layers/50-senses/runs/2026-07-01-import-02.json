@@ -1,0 +1,416 @@
+[
+  {
+    "english": "blog",
+    "senses": [
+      { "gloss": "noun", "members": [293] },
+      { "gloss": "verb", "members": [2024] }
+    ]
+  },
+  {
+    "english": "before",
+    "senses": [
+      { "gloss": "conjunction", "members": [294] },
+      { "gloss": "ahead of", "members": [586] },
+      { "gloss": "in the past", "members": [1540] },
+      { "gloss": "previously", "members": [1726] }
+    ]
+  },
+  {
+    "english": "seem, appear",
+    "senses": [
+      { "gloss": "", "members": [298, 2296] }
+    ]
+  },
+  {
+    "english": "state",
+    "senses": [
+      { "gloss": "nation", "members": [305] },
+      { "gloss": "condition", "members": [952] },
+      { "gloss": "declare", "members": [1875] }
+    ]
+  },
+  {
+    "english": "by (doing something)",
+    "senses": [
+      { "gloss": "by means of", "members": [309] },
+      { "gloss": "beside, aid", "members": [8167] }
+    ]
+  },
+  {
+    "english": "company, business",
+    "senses": [
+      { "gloss": "firm", "members": [310, 771] },
+      { "gloss": "companionship", "members": [2020] },
+      { "gloss": "social circle", "members": [5320] },
+      { "gloss": "military unit", "members": [6685] }
+    ]
+  },
+  {
+    "english": "post, contribution",
+    "senses": [
+      { "gloss": "online post", "members": [317] },
+      { "gloss": "job position", "members": [6133] }
+    ]
+  },
+  {
+    "english": "play",
+    "senses": [
+      { "gloss": "game, instrument", "members": [320] },
+      { "gloss": "child's play", "members": [814, 1917] },
+      { "gloss": "theater piece", "members": [3982, 6483] }
+    ]
+  },
+  {
+    "english": "grip, hold",
+    "senses": [
+      { "gloss": "", "members": [324, 1161] }
+    ]
+  },
+  {
+    "english": "lead",
+    "senses": [
+      { "gloss": "guide, direct", "members": [326] },
+      { "gloss": "bring, take", "members": [452] },
+      { "gloss": "command", "members": [1198] }
+    ]
+  },
+  {
+    "english": "manage",
+    "senses": [
+      { "gloss": "succeed", "members": [330] },
+      { "gloss": "cope, handle", "members": [483] },
+      { "gloss": "take care of", "members": [1261] },
+      { "gloss": "be in charge", "members": [7891] }
+    ]
+  },
+  {
+    "english": "besides, moreover, in addition",
+    "senses": [
+      { "gloss": "moreover", "members": [331] },
+      { "gloss": "beside, next to", "members": [3996] }
+    ]
+  },
+  {
+    "english": "area",
+    "senses": [
+      { "gloss": "region", "members": [332, 3844] },
+      { "gloss": "measured surface", "members": [6908, 7513] }
+    ]
+  },
+  {
+    "english": "difficult, hard",
+    "senses": [
+      { "gloss": "", "members": [334, 3795] }
+    ]
+  },
+  {
+    "english": "teach, instruct",
+    "senses": [
+      { "gloss": "", "members": [335, 2923] }
+    ]
+  },
+  {
+    "english": "put, place",
+    "senses": [
+      { "gloss": "", "members": [336, 347] }
+    ]
+  },
+  {
+    "english": "place",
+    "senses": [
+      { "gloss": "spot, location", "members": [337, 968] },
+      { "gloss": "locality, town", "members": [651] },
+      { "gloss": "position, invest", "members": [1508] }
+    ]
+  },
+  {
+    "english": "leave",
+    "senses": [
+      { "gloss": "depart, drop off", "members": [339] },
+      { "gloss": "time off", "members": [6833] }
+    ]
+  },
+  {
+    "english": "build",
+    "senses": [
+      { "gloss": "construct", "members": [340, 3337] },
+      { "gloss": "lay out, establish", "members": [4210] }
+    ]
+  },
+  {
+    "english": "call, name",
+    "senses": [
+      { "gloss": "name, summon", "members": [343] },
+      { "gloss": "shout, cry out", "members": [1936] },
+      { "gloss": "appeal, urging", "members": [2959] }
+    ]
+  },
+  {
+    "english": "coin",
+    "senses": [
+      { "gloss": "money, penny", "members": [344] },
+      { "gloss": "coin", "members": [4197, 5574] }
+    ]
+  },
+  {
+    "english": "live, be alive",
+    "senses": [
+      { "gloss": "be alive", "members": [346] },
+      { "gloss": "reside", "members": [504] }
+    ]
+  },
+  {
+    "english": "follow",
+    "senses": [
+      { "gloss": "", "members": [348, 7690] }
+    ]
+  },
+  {
+    "english": "yes",
+    "senses": [
+      { "gloss": "affirmative", "members": [350] },
+      { "gloss": "contradicting negative", "members": [1115] }
+    ]
+  },
+  {
+    "english": "happen",
+    "senses": [
+      { "gloss": "", "members": [351, 381, 1691, 6150] }
+    ]
+  },
+  {
+    "english": "party",
+    "senses": [
+      { "gloss": "political, legal", "members": [352, 945] },
+      { "gloss": "celebration", "members": [2026, 4051, 5532] },
+      { "gloss": "celebrate", "members": [6429] }
+    ]
+  },
+  {
+    "english": "demand, require",
+    "senses": [
+      { "gloss": "verb: demand", "members": [353, 4122] },
+      { "gloss": "noun: demand", "members": [2056] }
+    ]
+  },
+  {
+    "english": "actually, for real",
+    "senses": [
+      { "gloss": "", "members": [355, 415] }
+    ]
+  },
+  {
+    "english": "unite",
+    "senses": [
+      { "gloss": "", "members": [356, 2419] }
+    ]
+  },
+  {
+    "english": "answer, reply",
+    "senses": [
+      { "gloss": "verb", "members": [357] },
+      { "gloss": "noun", "members": [387, 1930] }
+    ]
+  },
+  {
+    "english": "down",
+    "senses": [
+      { "gloss": "downward motion", "members": [358, 825] },
+      { "gloss": "at a lower level", "members": [1948] }
+    ]
+  },
+  {
+    "english": "continue, proceed",
+    "senses": [
+      { "gloss": "", "members": [359, 5863] }
+    ]
+  },
+  {
+    "english": "bad",
+    "senses": [
+      { "gloss": "adjective", "members": [367] },
+      { "gloss": "adverb", "members": [1580] }
+    ]
+  },
+  {
+    "english": "name",
+    "senses": [
+      { "gloss": "noun", "members": [368, 3835] },
+      { "gloss": "verb", "members": [3739] }
+    ]
+  },
+  {
+    "english": "again",
+    "senses": [
+      { "gloss": "", "members": [369, 1142] }
+    ]
+  },
+  {
+    "english": "really, truly",
+    "senses": [
+      { "gloss": "truly, indeed", "members": [370, 3872] },
+      { "gloss": "correctly, properly", "members": [393] }
+    ]
+  },
+  {
+    "english": "group",
+    "senses": [
+      { "gloss": "general group", "members": [373] },
+      { "gloss": "corporate group", "members": [4914] }
+    ]
+  },
+  {
+    "english": "decision, resolution",
+    "senses": [
+      { "gloss": "", "members": [374, 4367] }
+    ]
+  },
+  {
+    "english": "even though, although",
+    "senses": [
+      { "gloss": "", "members": [375, 653, 1103] }
+    ]
+  },
+  {
+    "english": "only, sole",
+    "senses": [
+      { "gloss": "adjective", "members": [376, 4436] },
+      { "gloss": "adverb", "members": [383, 743] }
+    ]
+  },
+  {
+    "english": "away, off",
+    "senses": [
+      { "gloss": "moving away", "members": [377, 1271] },
+      { "gloss": "gone, absent", "members": [1362] },
+      { "gloss": "aside, out of way", "members": [1519] }
+    ]
+  },
+  {
+    "english": "possible",
+    "senses": [
+      { "gloss": "feasible", "members": [379] },
+      { "gloss": "potential, if applicable", "members": [1397] }
+    ]
+  },
+  {
+    "english": "intend, plan to",
+    "senses": [
+      { "gloss": "plan to do", "members": [382] },
+      { "gloss": "mean, refer to", "members": [800] }
+    ]
+  },
+  {
+    "english": "further",
+    "senses": [
+      { "gloss": "additional", "members": [753] },
+      { "gloss": "further, more", "members": [2795] }
+    ]
+  },
+  {
+    "english": "hand",
+    "senses": [
+      { "gloss": "body part", "members": [394] },
+      { "gloss": "clock pointer", "members": [8134] }
+    ]
+  },
+  {
+    "english": "task",
+    "senses": [
+      { "gloss": "", "members": [395, 3318] }
+    ]
+  },
+  {
+    "english": "almost",
+    "senses": [
+      { "gloss": "", "members": [399, 3878] }
+    ]
+  },
+  {
+    "english": "exactly, just, precisely",
+    "senses": [
+      { "gloss": "", "members": [404, 1345] }
+    ]
+  },
+  {
+    "english": "take on, undertake",
+    "senses": [
+      { "gloss": "", "members": [406, 4775] }
+    ]
+  },
+  {
+    "english": "for example",
+    "senses": [
+      { "gloss": "", "members": [409, 716] }
+    ]
+  },
+  {
+    "english": "together",
+    "senses": [
+      { "gloss": "", "members": [410, 565, 1377, 2373] }
+    ]
+  },
+  {
+    "english": "choice",
+    "senses": [
+      { "gloss": "decision", "members": [413] },
+      { "gloss": "selection, assortment", "members": [3090] }
+    ]
+  },
+  {
+    "english": "in front of, before",
+    "senses": [
+      { "gloss": "", "members": [416, 892] }
+    ]
+  },
+  {
+    "english": "common, usual",
+    "senses": [
+      { "gloss": "ordinary, usual", "members": [420] },
+      { "gloss": "shared, mutual", "members": [554] }
+    ]
+  },
+  {
+    "english": "correct, rectify",
+    "senses": [
+      { "gloss": "verb: fix, grade", "members": [421, 5411] },
+      { "gloss": "adjective", "members": [1668] }
+    ]
+  },
+  {
+    "english": "information",
+    "senses": [
+      { "gloss": "", "members": [423, 3028] }
+    ]
+  },
+  {
+    "english": "back",
+    "senses": [
+      { "gloss": "return, backward", "members": [427] },
+      { "gloss": "body part", "members": [1807] },
+      { "gloss": "sports defender", "members": [3700] },
+      { "gloss": "rear side", "members": [4000] }
+    ]
+  },
+  {
+    "english": "film",
+    "senses": [
+      { "gloss": "noun", "members": [428] },
+      { "gloss": "verb", "members": [4523] }
+    ]
+  },
+  {
+    "english": "while",
+    "senses": [
+      { "gloss": "conjunction", "members": [430] },
+      { "gloss": "a moment", "members": [937] }
+    ]
+  },
+  {
+    "english": "end",
+    "senses": [
+      { "gloss": "conclusion", "members": [431] },
+      { "gloss": "tip, extremity", "members": [5378] }
+    ]
+  }
+]

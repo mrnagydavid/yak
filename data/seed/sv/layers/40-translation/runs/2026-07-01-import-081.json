@@ -1,0 +1,294 @@
+[
+  {
+    "kellyId": 7781,
+    "decision": "fix",
+    "reason": "The sub-def 'telescoping, telescopable' is an adjective sense that does not belong to this noun entry; clear it.",
+    "translation": "telescope",
+    "senses": []
+  },
+  {
+    "kellyId": 7801,
+    "decision": "fix",
+    "reason": "Sub-def is definition-like; rebuild as two concise senses.",
+    "translation": "terrace",
+    "senses": ["terrace, patio (outdoor area or ledge)", "rooftop terrace (flat roof used as outdoor space)"]
+  },
+  {
+    "kellyId": 8160,
+    "decision": "fix",
+    "reason": "'Terroristic' is rarely used in natural English; 'terrorist' is the standard adjective.",
+    "translation": "terrorist",
+    "senses": []
+  },
+  {
+    "kellyId": 8263,
+    "decision": "fix",
+    "reason": "Senses list should distinguish the utensil from the unit of measure clearly.",
+    "translation": "teaspoon",
+    "senses": ["teaspoon (utensil)", "teaspoon (unit of measure)"]
+  },
+  {
+    "kellyId": 7210,
+    "decision": "fix",
+    "reason": "Senses list should be complete and concise; current sub-def is definition-like.",
+    "translation": "refuge",
+    "senses": ["refuge (place of safety)", "escape, solace (temporary relief)"]
+  },
+  {
+    "kellyId": 7260,
+    "decision": "fix",
+    "reason": "Primary translation is an uncountable noun.",
+    "translation": "reliability, dependability",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7862,
+    "decision": "fix",
+    "reason": "'Tillgivenhet' primarily means affection/fondness; 'devotion' skews too religious/intense, and 'dedication' is a synonym not a distinct sense.",
+    "translation": "affection, fondness",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7543,
+    "decision": "fix",
+    "reason": "'Log to be used in construction' is definition-like; 'timber, lumber' is cleaner.",
+    "translation": "timber, lumber",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 8393,
+    "decision": "fix",
+    "reason": "'Timber log' is redundant; 'log' is the core word.",
+    "translation": "log",
+    "senses": []
+  },
+  {
+    "kellyId": 7098,
+    "decision": "fix",
+    "reason": "'Repetitious requests' is definition-like padding; 'nagging, harping' covers the sense.",
+    "translation": "nagging, harping",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 8386,
+    "decision": "fix",
+    "reason": "Senses list should not embed an article ('a henpecked guy'); rewrite concisely.",
+    "translation": "slipper",
+    "senses": ["slipper (footwear)", "henpecked man (colloquial)"]
+  },
+  {
+    "kellyId": 7702,
+    "decision": "fix",
+    "reason": "Senses list should be complete and concise.",
+    "translation": "trailer",
+    "senses": ["trailer (large vehicle or cargo unit)", "trailer (film or TV preview)"]
+  },
+  {
+    "kellyId": 7595,
+    "decision": "fix",
+    "reason": "'A stair' embeds an article; sub-def 'footstep' is the same meaning as primary, not distinct.",
+    "translation": "step, stair",
+    "senses": []
+  },
+  {
+    "kellyId": 7318,
+    "decision": "fix",
+    "reason": "'A rag' embeds an article; senses list should be rebuilt bare and concise.",
+    "translation": "cloth, rag",
+    "senses": ["cloth, rag (for cleaning)", "torn piece of cloth", "rags (tattered clothes)", "soccer ball (slang)"]
+  },
+  {
+    "kellyId": 7225,
+    "decision": "fix",
+    "reason": "Primary 'psychological trauma' is too narrow; 'trauma' covers both senses and is the everyday gloss.",
+    "translation": "trauma",
+    "senses": ["trauma (psychological)", "trauma (physical)"]
+  },
+  {
+    "kellyId": 7378,
+    "decision": "fix",
+    "reason": "Senses list should be complete and concise.",
+    "translation": "triangle",
+    "senses": ["triangle (shape)", "triangle (percussion instrument)"]
+  },
+  {
+    "kellyId": 8103,
+    "decision": "fix",
+    "reason": "'Faith, the act of believing' is a definition; as a noun 'troende' primarily means a believer (a person).",
+    "translation": "believer",
+    "senses": ["believer (person of faith)", "faith, belief (the act)"]
+  },
+  {
+    "kellyId": 7782,
+    "decision": "fix",
+    "reason": "Senses list should be complete and concise.",
+    "translation": "pressing",
+    "senses": ["pressing (pushing something)", "printing (of books, etc.)"]
+  },
+  {
+    "kellyId": 8139,
+    "decision": "fix",
+    "reason": "Senses list should be concise; 'a face (or nose or mouth)' is loose — tighten to 'face, mug (informal)'.",
+    "translation": "snout",
+    "senses": ["snout (pig's)", "face, mug (informal)"]
+  },
+  {
+    "kellyId": 8055,
+    "decision": "fix",
+    "reason": "'Boringness' is awkward; 'tedium, dullness' is more natural English.",
+    "translation": "tedium, dullness",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7805,
+    "decision": "fix",
+    "reason": "Primary translation is an uncountable noun.",
+    "translation": "chewing gum",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7106,
+    "decision": "fix",
+    "reason": "Senses list should be complete and concise.",
+    "translation": "barrel",
+    "senses": ["barrel (round wooden vessel)", "drum (metal or plastic container)", "barrel (historical unit of volume)"]
+  },
+  {
+    "kellyId": 8323,
+    "decision": "fix",
+    "reason": "Both wiktionary sub-senses are 'lucky' — they are not distinct meanings; single-meaning word.",
+    "translation": "lucky",
+    "senses": []
+  },
+  {
+    "kellyId": 7274,
+    "decision": "fix",
+    "reason": "Primary 'soap' is uncountable; 'a bar of soap' is a valid distinct countable sense.",
+    "translation": "soap",
+    "uncountable": true,
+    "senses": ["soap (substance)", "bar of soap (physical object)"]
+  },
+  {
+    "kellyId": 7820,
+    "decision": "fix",
+    "reason": "'Detergent, laundry detergent' is redundant — 'tvättmedel' specifically means laundry detergent.",
+    "translation": "laundry detergent",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 8258,
+    "decision": "fix",
+    "reason": "'Gravity' is the common everyday English word; 'gravitation' is technical/scientific.",
+    "translation": "gravity",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7910,
+    "decision": "fix",
+    "reason": "Sub-def 'device to make fire' is just a definition of 'match', not a distinct meaning.",
+    "translation": "match",
+    "senses": []
+  },
+  {
+    "kellyId": 7486,
+    "decision": "fix",
+    "reason": "Primary translation is an uncountable noun.",
+    "translation": "thirst",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7107,
+    "decision": "fix",
+    "reason": "Primary is uncountable; sub-def 'hair of sheep' is just a definition of wool, not a distinct sense.",
+    "translation": "wool",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7230,
+    "decision": "fix",
+    "reason": "Senses list should be complete and concise.",
+    "translation": "underside",
+    "senses": ["underside, bottom side", "subpage (web)"]
+  },
+  {
+    "kellyId": 7174,
+    "decision": "fix",
+    "reason": "'To assign, to instruct' embed 'to' — app adds 'to' for verbs; remove it.",
+    "translation": "commission, assign, instruct",
+    "senses": []
+  },
+  {
+    "kellyId": 7183,
+    "decision": "fix",
+    "reason": "Primary translation is an uncountable noun.",
+    "translation": "subsistence, livelihood",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 8418,
+    "decision": "fix",
+    "reason": "Sub-def 'to arouse' embeds 'to' — app adds 'to' for verbs; remove it.",
+    "translation": "excite",
+    "senses": ["excite (stimulate)", "arouse (sexually)"]
+  },
+  {
+    "kellyId": 7825,
+    "decision": "fix",
+    "reason": "'Upphetsning' more commonly means excitement/agitation; 'arousal' as primary skews too narrowly sexual. Swap order.",
+    "translation": "excitement",
+    "senses": ["excitement, agitation", "arousal (sexual)"]
+  },
+  {
+    "kellyId": 8262,
+    "decision": "fix",
+    "reason": "Senses list should be complete and concise.",
+    "translation": "hanging, suspension",
+    "senses": ["hanging, suspension (of something)", "suspension system, mounting (mechanism)"]
+  },
+  {
+    "kellyId": 7826,
+    "decision": "fix",
+    "reason": "'A procurement' embeds an article; rebuild bare.",
+    "translation": "purchase, procurement",
+    "senses": ["purchase, procurement (large or business)", "acquisition, buyout (of a company)"]
+  },
+  {
+    "kellyId": 8188,
+    "decision": "fix",
+    "reason": "'A store' embeds an article; write bare.",
+    "translation": "stock, store",
+    "senses": []
+  },
+  {
+    "kellyId": 7760,
+    "decision": "fix",
+    "reason": "'Permissible delay' is definition-like; 'postponement, deferral' is natural and concise.",
+    "translation": "postponement, deferral",
+    "senses": []
+  },
+  {
+    "kellyId": 7360,
+    "decision": "fix",
+    "reason": "'Scheme, a list, a chart, an organization' embeds articles and is too broad; cleaner as 'arrangement, layout' with lineup as secondary.",
+    "translation": "arrangement, layout",
+    "senses": ["arrangement, layout, chart", "lineup (of people)"]
+  },
+  {
+    "kellyId": 7709,
+    "decision": "fix",
+    "reason": "'A face' embeds an article; 'mien' is archaic; rebuild clean.",
+    "translation": "look, expression",
+    "senses": ["look, expression (on someone's face)", "supervision, oversight"]
+  }
+]

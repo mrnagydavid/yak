@@ -1,16 +1,16 @@
 // Join Kelly (list + CEFR + POS + gender) with Wiktionary (translation + forms + IPA + examples)
 // and ipa-dict (IPA fallback) into candidate entries.
-// Output: data/intermediate/candidates.json
+// Output: data/seed/sv/base.json (the immutable candidate wordlist; regenerated only on a dump bump)
 // Run: node scripts/seed/join.mjs
 import { createWriteStream, existsSync } from 'node:fs'
-import { readFile, writeFile } from 'node:fs/promises'
+import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { Readable } from 'node:stream'
 import { pipeline } from 'node:stream/promises'
 
 const IPA_DICT_COMMIT = '43c3570eb3553bdd19fccd2bd0091534889af023'
 const IPA_URL = `https://raw.githubusercontent.com/open-dict-data/ipa-dict/${IPA_DICT_COMMIT}/data/sv.txt`
-const IPA_CACHE = 'data/intermediate/ipa-sv.txt'
-const OUT = 'data/intermediate/candidates.json'
+const IPA_CACHE = 'data/scratch/sv/ipa-sv.txt'
+const OUT = 'data/seed/sv/base.json'
 
 const has = (tags, ...need) => need.every((t) => tags.includes(t))
 const not = (tags, ...bad) => bad.every((t) => !tags.includes(t))
@@ -132,6 +132,7 @@ function inflections(pos, forms) {
 
 async function loadIpa() {
   if (!existsSync(IPA_CACHE)) {
+    await mkdir('data/scratch/sv', { recursive: true })
     const res = await fetch(IPA_URL)
     if (!res.ok) throw new Error(`ipa-dict HTTP ${res.status}`)
     await pipeline(Readable.fromWeb(res.body), createWriteStream(IPA_CACHE))
@@ -148,8 +149,8 @@ async function loadIpa() {
 }
 
 async function main() {
-  const kelly = JSON.parse(await readFile('data/intermediate/kelly.json', 'utf-8'))
-  const wik = JSON.parse(await readFile('data/intermediate/wik.json', 'utf-8'))
+  const kelly = JSON.parse(await readFile('data/scratch/sv/kelly.json', 'utf-8'))
+  const wik = JSON.parse(await readFile('data/scratch/sv/wik.json', 'utf-8'))
   const ipaMap = await loadIpa()
 
   const candidates = kelly.map((k) => {

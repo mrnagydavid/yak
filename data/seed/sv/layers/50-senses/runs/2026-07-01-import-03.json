@@ -1,0 +1,440 @@
+[
+  {
+    "english": "mass",
+    "senses": [
+      { "gloss": "crowd, substance", "members": [432] },
+      { "gloss": "church service, expo", "members": [3290] }
+    ]
+  },
+  {
+    "english": "thought",
+    "senses": [
+      { "gloss": "", "members": [433, 2910] }
+    ]
+  },
+  {
+    "english": "act",
+    "senses": [
+      { "gloss": "theatrical, ceremony", "members": [434] },
+      { "gloss": "deed, action", "members": [695, 2552] },
+      { "gloss": "to act", "members": [1005] }
+    ]
+  },
+  {
+    "english": "last",
+    "senses": [
+      { "gloss": "adjective", "members": [437] },
+      { "gloss": "adverb", "members": [2377] }
+    ]
+  },
+  {
+    "english": "family, dynasty",
+    "senses": [
+      { "gloss": "lineage, dynasty", "members": [438] },
+      { "gloss": "household", "members": [445] }
+    ]
+  },
+  {
+    "english": "stop, end",
+    "senses": [
+      { "gloss": "cease, quit", "members": [439] },
+      { "gloss": "halt, block", "members": [978] },
+      { "gloss": "halt (noun)", "members": [2367] },
+      { "gloss": "transit stop", "members": [7037] }
+    ]
+  },
+  {
+    "english": "activity, operations",
+    "senses": [
+      { "gloss": "organized operations", "members": [440] },
+      { "gloss": "specific activity", "members": [1370] }
+    ]
+  },
+  {
+    "english": "dish",
+    "senses": [
+      { "gloss": "", "members": [441, 7278] }
+    ]
+  },
+  {
+    "english": "right, correct",
+    "senses": [
+      { "gloss": "correct (adj)", "members": [553] },
+      { "gloss": "correct (general)", "members": [644] },
+      { "gloss": "entitlement", "members": [507] },
+      { "gloss": "genuine, real", "members": [697] },
+      { "gloss": "right-hand, right-wing", "members": [1645] }
+    ]
+  },
+  {
+    "english": "towards, against",
+    "senses": [
+      { "gloss": "against, toward", "members": [443] },
+      { "gloss": "in relation to", "members": [1670] }
+    ]
+  },
+  {
+    "english": "support",
+    "senses": [
+      { "gloss": "support (noun)", "members": [444] },
+      { "gloss": "back, support", "members": [805, 3678] },
+      { "gloss": "provide for financially", "members": [3170] },
+      { "gloss": "formally recommend", "members": [5296] },
+      { "gloss": "support militarily", "members": [5632] }
+    ]
+  },
+  {
+    "english": "go, travel",
+    "senses": [
+      { "gloss": "", "members": [447, 861] }
+    ]
+  },
+  {
+    "english": "result",
+    "senses": [
+      { "gloss": "outcome (noun)", "members": [450] },
+      { "gloss": "to result in", "members": [2042] }
+    ]
+  },
+  {
+    "english": "help",
+    "senses": [
+      { "gloss": "to help", "members": [453] },
+      { "gloss": "help (noun)", "members": [705] }
+    ]
+  },
+  {
+    "english": "next",
+    "senses": [
+      { "gloss": "following (adj)", "members": [454] },
+      { "gloss": "second (adv)", "members": [2787] },
+      { "gloss": "adjacent", "members": [5279] }
+    ]
+  },
+  {
+    "english": "near, close",
+    "senses": [
+      { "gloss": "near (adj)", "members": [668] },
+      { "gloss": "in the vicinity of", "members": [2992] }
+    ]
+  },
+  {
+    "english": "debate",
+    "senses": [
+      { "gloss": "debate (noun)", "members": [460] },
+      { "gloss": "to debate", "members": [2846] }
+    ]
+  },
+  {
+    "english": "European",
+    "senses": [
+      { "gloss": "European (adj)", "members": [464] },
+      { "gloss": "a European", "members": [4686] }
+    ]
+  },
+  {
+    "english": "form, shape",
+    "senses": [
+      { "gloss": "shape, mold", "members": [465] },
+      { "gloss": "to form, create", "members": [894] },
+      { "gloss": "paper form", "members": [6448, 6675] }
+    ]
+  },
+  {
+    "english": "advice",
+    "senses": [
+      { "gloss": "piece of advice", "members": [467] },
+      { "gloss": "advisory service", "members": [5245] }
+    ]
+  },
+  {
+    "english": "win, defeat",
+    "senses": [
+      { "gloss": "to win", "members": [471, 3240] },
+      { "gloss": "victory, profit", "members": [1352] }
+    ]
+  },
+  {
+    "english": "left, remaining",
+    "senses": [
+      { "gloss": "remaining", "members": [472] },
+      { "gloss": "left direction", "members": [1315] }
+    ]
+  },
+  {
+    "english": "wait",
+    "senses": [
+      { "gloss": "to wait", "members": [474] },
+      { "gloss": "the wait (noun)", "members": [3063] }
+    ]
+  },
+  {
+    "english": "early",
+    "senses": [
+      { "gloss": "early (adj)", "members": [475] },
+      { "gloss": "early (adv)", "members": [1412] }
+    ]
+  },
+  {
+    "english": "action, measure",
+    "senses": [
+      { "gloss": "concrete measure", "members": [476] },
+      { "gloss": "conduct, action", "members": [4205] }
+    ]
+  },
+  {
+    "english": "requirement, demand",
+    "senses": [
+      { "gloss": "requirement, demand", "members": [477] },
+      { "gloss": "formal motion", "members": [1628] },
+      { "gloss": "decree, order", "members": [6781] }
+    ]
+  },
+  {
+    "english": "difference",
+    "senses": [
+      { "gloss": "", "members": [478, 2182] }
+    ]
+  },
+  {
+    "english": "around",
+    "senses": [
+      { "gloss": "around (prep)", "members": [485, 519] },
+      { "gloss": "approximately", "members": [1367] },
+      { "gloss": "all around (adv)", "members": [5362] }
+    ]
+  },
+  {
+    "english": "low, short",
+    "senses": [
+      { "gloss": "low (adj)", "members": [491] },
+      { "gloss": "low (adv)", "members": [4507] }
+    ]
+  },
+  {
+    "english": "rule",
+    "senses": [
+      { "gloss": "regulation (noun)", "members": [496] },
+      { "gloss": "to rule, reign", "members": [4166, 4183] }
+    ]
+  },
+  {
+    "english": "talk, speak",
+    "senses": [
+      { "gloss": "talk (informal)", "members": [498, 2209] },
+      { "gloss": "converse (formal)", "members": [4498] },
+      { "gloss": "lecture (noun)", "members": [3769] },
+      { "gloss": "talk, chatter (noun)", "members": [4898] }
+    ]
+  },
+  {
+    "english": "member",
+    "senses": [
+      { "gloss": "club member", "members": [500] },
+      { "gloss": "board member", "members": [1379] }
+    ]
+  },
+  {
+    "english": "report, notify authorities about",
+    "senses": [
+      { "gloss": "report to authorities", "members": [502] },
+      { "gloss": "report news", "members": [1428] },
+      { "gloss": "present, account for", "members": [1420] },
+      { "gloss": "report (noun)", "members": [698] },
+      { "gloss": "written summary", "members": [6983] }
+    ]
+  },
+  {
+    "english": "reach, attain",
+    "senses": [
+      { "gloss": "reach, attain a goal", "members": [503, 1009] },
+      { "gloss": "extend to, suffice", "members": [873] }
+    ]
+  },
+  {
+    "english": "krona",
+    "senses": [
+      { "gloss": "", "members": [1010, 5475] }
+    ]
+  },
+  {
+    "english": "voice",
+    "senses": [
+      { "gloss": "singing voice", "members": [3955] },
+      { "gloss": "speaking voice, vote", "members": [717] }
+    ]
+  },
+  {
+    "english": "behind",
+    "senses": [
+      { "gloss": "behind (prep)", "members": [509] },
+      { "gloss": "in the back (adv)", "members": [4672] }
+    ]
+  },
+  {
+    "english": "thereby",
+    "senses": [
+      { "gloss": "thereby, thus", "members": [511, 2262] },
+      { "gloss": "at that point", "members": [3277] }
+    ]
+  },
+  {
+    "english": "house",
+    "senses": [
+      { "gloss": "building (noun)", "members": [513] },
+      { "gloss": "to accommodate", "members": [3735, 6986] }
+    ]
+  },
+  {
+    "english": "friend",
+    "senses": [
+      { "gloss": "", "members": [514, 2696] }
+    ]
+  },
+  {
+    "english": "share, divide",
+    "senses": [
+      { "gloss": "to share, divide", "members": [515] },
+      { "gloss": "portion, share", "members": [1060] },
+      { "gloss": "stock, equity share", "members": [2109] }
+    ]
+  },
+  {
+    "english": "foundation, basis",
+    "senses": [
+      { "gloss": "base, basis", "members": [518, 6083] },
+      { "gloss": "charitable foundation", "members": [3521] }
+    ]
+  },
+  {
+    "english": "future",
+    "senses": [
+      { "gloss": "the future (noun)", "members": [520] },
+      { "gloss": "future (adj)", "members": [1341] },
+      { "gloss": "soon-to-be", "members": [3518] },
+      { "gloss": "better tomorrow", "members": [3909] }
+    ]
+  },
+  {
+    "english": "drive",
+    "senses": [
+      { "gloss": "drive a vehicle", "members": [521] },
+      { "gloss": "propel, operate, run", "members": [567] }
+    ]
+  },
+  {
+    "english": "free",
+    "senses": [
+      { "gloss": "free, unconstrained", "members": [523] },
+      { "gloss": "free of charge", "members": [1526] },
+      { "gloss": "vacant, off duty", "members": [2420] }
+    ]
+  },
+  {
+    "english": "hope",
+    "senses": [
+      { "gloss": "to hope", "members": [527] },
+      { "gloss": "hope (noun)", "members": [1503, 2517] }
+    ]
+  },
+  {
+    "english": "alone",
+    "senses": [
+      { "gloss": "alone (adj)", "members": [528] },
+      { "gloss": "alone (adv)", "members": [2372] }
+    ]
+  },
+  {
+    "english": "soon",
+    "senses": [
+      { "gloss": "", "members": [529, 2270] }
+    ]
+  },
+  {
+    "english": "management, leadership",
+    "senses": [
+      { "gloss": "management, lead", "members": [532] },
+      { "gloss": "upkeep, maintenance", "members": [6605] }
+    ]
+  },
+  {
+    "english": "interest",
+    "senses": [
+      { "gloss": "hobby, curiosity", "members": [533] },
+      { "gloss": "financial interest", "members": [1749] },
+      { "gloss": "to interest", "members": [2913] }
+    ]
+  },
+  {
+    "english": "force",
+    "senses": [
+      { "gloss": "to force, compel", "members": [534] },
+      { "gloss": "power, strength", "members": [713] }
+    ]
+  },
+  {
+    "english": "reason",
+    "senses": [
+      { "gloss": "cause, reason", "members": [536, 581] },
+      { "gloss": "to reason, discuss", "members": [2643] }
+    ]
+  },
+  {
+    "english": "look, watch",
+    "senses": [
+      { "gloss": "to look, watch", "members": [537, 852] },
+      { "gloss": "glance, gaze (noun)", "members": [1843] },
+      { "gloss": "check, inspection (noun)", "members": [2219] },
+      { "gloss": "peek, short visit", "members": [3921] },
+      { "gloss": "facial expression", "members": [7709] }
+    ]
+  },
+  {
+    "english": "reduce, decrease",
+    "senses": [
+      { "gloss": "", "members": [538, 2798] }
+    ]
+  },
+  {
+    "english": "direct",
+    "senses": [
+      { "gloss": "direct, immediate (adj)", "members": [1430] },
+      { "gloss": "aim, focus toward", "members": [1406, 3241] }
+    ]
+  },
+  {
+    "english": "decide",
+    "senses": [
+      { "gloss": "", "members": [543, 798] }
+    ]
+  },
+  {
+    "english": "send",
+    "senses": [
+      { "gloss": "send (everyday)", "members": [544] },
+      { "gloss": "send, broadcast", "members": [1194] }
+    ]
+  },
+  {
+    "english": "opinion, view",
+    "senses": [
+      { "gloss": "personal view", "members": [546, 769] },
+      { "gloss": "public opinion", "members": [2789] }
+    ]
+  },
+  {
+    "english": "purpose, point",
+    "senses": [
+      { "gloss": "purpose, meaning", "members": [551] },
+      { "gloss": "aim, goal", "members": [604, 2301] }
+    ]
+  },
+  {
+    "english": "outside",
+    "senses": [
+      { "gloss": "outside (prep)", "members": [552] },
+      { "gloss": "outdoors (adv)", "members": [607, 4792] },
+      { "gloss": "outer surface", "members": [6264] }
+    ]
+  }
+]

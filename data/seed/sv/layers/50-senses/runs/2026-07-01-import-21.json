@@ -1,0 +1,395 @@
+[
+  {
+    "english": "cheer, shout with joy",
+    "senses": [
+      { "gloss": "verb", "members": [5944, 6900] },
+      { "gloss": "noun", "members": [8359] }
+    ]
+  },
+  {
+    "english": "breath",
+    "senses": [
+      { "gloss": "single breath", "members": [5974] },
+      { "gloss": "breath quality", "members": [7793] }
+    ]
+  },
+  {
+    "english": "swing, oscillation",
+    "senses": [
+      { "gloss": "noun", "members": [5983] },
+      { "gloss": "verb", "members": [7175] }
+    ]
+  },
+  {
+    "english": "manifest",
+    "senses": [
+      { "gloss": "verb", "members": [6016] },
+      { "gloss": "adjective", "members": [6925] }
+    ]
+  },
+  {
+    "english": "filter",
+    "senses": [
+      { "gloss": "noun", "members": [6031] },
+      { "gloss": "verb", "members": [6683] }
+    ]
+  },
+  {
+    "english": "garment",
+    "senses": [
+      { "gloss": "", "members": [6034, 7837] }
+    ]
+  },
+  {
+    "english": "insist",
+    "senses": [
+      { "gloss": "", "members": [6049, 6076] }
+    ]
+  },
+  {
+    "english": "fist",
+    "senses": [
+      { "gloss": "", "members": [6068, 7916] }
+    ]
+  },
+  {
+    "english": "descendant",
+    "senses": [
+      { "gloss": "", "members": [6073, 7863] }
+    ]
+  },
+  {
+    "english": "endure, withstand, suffer",
+    "senses": [
+      { "gloss": "", "members": [6075, 6489] }
+    ]
+  },
+  {
+    "english": "embrace, arms",
+    "senses": [
+      { "gloss": "noun", "members": [6087] },
+      { "gloss": "verb", "members": [6702] }
+    ]
+  },
+  {
+    "english": "specify, clarify",
+    "senses": [
+      { "gloss": "", "members": [6102, 6708] }
+    ]
+  },
+  {
+    "english": "artificial, synthetic",
+    "senses": [
+      { "gloss": "", "members": [6113, 6681] }
+    ]
+  },
+  {
+    "english": "swimming pool",
+    "senses": [
+      { "gloss": "pool", "members": [6141, 7434, 8278] },
+      { "gloss": "indoor facility", "members": [7756] }
+    ]
+  },
+  {
+    "english": "outlet",
+    "senses": [
+      { "gloss": "socket, withdrawal", "members": [6143] },
+      { "gloss": "outflow, drain", "members": [6699] }
+    ]
+  },
+  {
+    "english": "major",
+    "senses": [
+      { "gloss": "military rank", "members": [6164] },
+      { "gloss": "university subject", "members": [7902] }
+    ]
+  },
+  {
+    "english": "dictionary",
+    "senses": [
+      { "gloss": "", "members": [6220, 6978] }
+    ]
+  },
+  {
+    "english": "appointment",
+    "senses": [
+      { "gloss": "", "members": [6224, 7415] }
+    ]
+  },
+  {
+    "english": "merger, unification",
+    "senses": [
+      { "gloss": "", "members": [6232, 7202] }
+    ]
+  },
+  {
+    "english": "deposit",
+    "senses": [
+      { "gloss": "bank payment", "members": [6282, 7748] },
+      { "gloss": "verb", "members": [7480] },
+      { "gloss": "wittiness", "members": [7883] }
+    ]
+  },
+  {
+    "english": "sock",
+    "senses": [
+      { "gloss": "", "members": [6320, 8073] }
+    ]
+  },
+  {
+    "english": "kiss",
+    "senses": [
+      { "gloss": "verb", "members": [6322] },
+      { "gloss": "noun", "members": [6995] }
+    ]
+  },
+  {
+    "english": "territorial",
+    "senses": [
+      { "gloss": "", "members": [6339, 8402] }
+    ]
+  },
+  {
+    "english": "repetition, reiteration",
+    "senses": [
+      { "gloss": "", "members": [6354, 7165] }
+    ]
+  },
+  {
+    "english": "emptiness",
+    "senses": [
+      { "gloss": "", "members": [6392, 6711] }
+    ]
+  },
+  {
+    "english": "faculty",
+    "senses": [
+      { "gloss": "university division", "members": [6426] },
+      { "gloss": "teaching staff", "members": [7829] }
+    ]
+  },
+  {
+    "english": "sketch, drawing, draft",
+    "senses": [
+      { "gloss": "noun", "members": [6427] },
+      { "gloss": "verb", "members": [7364] }
+    ]
+  },
+  {
+    "english": "reconstruction, conversion",
+    "senses": [
+      { "gloss": "building work", "members": [6440] },
+      { "gloss": "rebuilding", "members": [6929] }
+    ]
+  },
+  {
+    "english": "old woman, old lady",
+    "senses": [
+      { "gloss": "affectionate", "members": [6463] },
+      { "gloss": "pejorative", "members": [8110] }
+    ]
+  },
+  {
+    "english": "allocate",
+    "senses": [
+      { "gloss": "", "members": [6467, 7901] }
+    ]
+  },
+  {
+    "english": "delegate",
+    "senses": [
+      { "gloss": "noun", "members": [6492] },
+      { "gloss": "verb", "members": [6883] }
+    ]
+  },
+  {
+    "english": "goodbye, bye",
+    "senses": [
+      { "gloss": "", "members": [6506, 7261] }
+    ]
+  },
+  {
+    "english": "grain, cereal",
+    "senses": [
+      { "gloss": "cereal crops", "members": [6507] },
+      { "gloss": "single grain", "members": [6510] }
+    ]
+  },
+  {
+    "english": "cream",
+    "senses": [
+      { "gloss": "dairy", "members": [6548] },
+      { "gloss": "cosmetic", "members": [7524] }
+    ]
+  },
+  {
+    "english": "farewell, parting",
+    "senses": [
+      { "gloss": "", "members": [6557, 6707] }
+    ]
+  },
+  {
+    "english": "merchant, trader",
+    "senses": [
+      { "gloss": "", "members": [6575, 7159] }
+    ]
+  },
+  {
+    "english": "cathedral",
+    "senses": [
+      { "gloss": "", "members": [6582, 6631] }
+    ]
+  },
+  {
+    "english": "caravan, camper, trailer",
+    "senses": [
+      { "gloss": "trailer", "members": [6609] },
+      { "gloss": "convoy", "members": [8046] }
+    ]
+  },
+  {
+    "english": "advance",
+    "senses": [
+      { "gloss": "move forward", "members": [6618] },
+      { "gloss": "prepayment", "members": [6890] },
+      { "gloss": "approach", "members": [7482] }
+    ]
+  },
+  {
+    "english": "far away, distant",
+    "senses": [
+      { "gloss": "adjective", "members": [6632] },
+      { "gloss": "adverb", "members": [7349] }
+    ]
+  },
+  {
+    "english": "relaxed",
+    "senses": [
+      { "gloss": "", "members": [6637, 8082] }
+    ]
+  },
+  {
+    "english": "massage",
+    "senses": [
+      { "gloss": "noun", "members": [6644] },
+      { "gloss": "verb", "members": [7909] }
+    ]
+  },
+  {
+    "english": "insult, affront",
+    "senses": [
+      { "gloss": "noun", "members": [6684] },
+      { "gloss": "verb", "members": [6801] }
+    ]
+  },
+  {
+    "english": "sheet (of paper)",
+    "senses": [
+      { "gloss": "paper sheet", "members": [6692] },
+      { "gloss": "bed sheet", "members": [7150] }
+    ]
+  },
+  {
+    "english": "subscription",
+    "senses": [
+      { "gloss": "", "members": [6725, 7006] }
+    ]
+  },
+  {
+    "english": "cash",
+    "senses": [
+      { "gloss": "adjective", "members": [6762] },
+      { "gloss": "noun", "members": [6763] }
+    ]
+  },
+  {
+    "english": "logo, logotype",
+    "senses": [
+      { "gloss": "", "members": [6772, 7882] }
+    ]
+  },
+  {
+    "english": "usefulness",
+    "senses": [
+      { "gloss": "", "members": [6799, 7755] }
+    ]
+  },
+  {
+    "english": "intimate",
+    "senses": [
+      { "gloss": "personal, close", "members": [6835] },
+      { "gloss": "confidential", "members": [7795] }
+    ]
+  },
+  {
+    "english": "brush",
+    "senses": [
+      { "gloss": "verb", "members": [6855] },
+      { "gloss": "paintbrush", "members": [7436] },
+      { "gloss": "general brush", "members": [8104] }
+    ]
+  },
+  {
+    "english": "extraordinary, exceptional",
+    "senses": [
+      { "gloss": "", "members": [6859, 6991] }
+    ]
+  },
+  {
+    "english": "calendar",
+    "senses": [
+      { "gloss": "", "members": [6864, 7602] }
+    ]
+  },
+  {
+    "english": "sting, burn",
+    "senses": [
+      { "gloss": "verb", "members": [6892] },
+      { "gloss": "noun", "members": [7119] }
+    ]
+  },
+  {
+    "english": "decorate, adorn, grace",
+    "senses": [
+      { "gloss": "", "members": [6904, 7673] }
+    ]
+  },
+  {
+    "english": "timetable, schedule",
+    "senses": [
+      { "gloss": "", "members": [6921, 8173] }
+    ]
+  },
+  {
+    "english": "curtain",
+    "senses": [
+      { "gloss": "window curtain", "members": [6954] },
+      { "gloss": "stage curtain", "members": [7571] }
+    ]
+  },
+  {
+    "english": "jam, tight spot",
+    "senses": [
+      { "gloss": "", "members": [7853, 7803] }
+    ]
+  },
+  {
+    "english": "superintendent, manager",
+    "senses": [
+      { "gloss": "general manager", "members": [7024] },
+      { "gloss": "police rank", "members": [7765] }
+    ]
+  },
+  {
+    "english": "imitate, mimic",
+    "senses": [
+      { "gloss": "", "members": [7038, 7357] }
+    ]
+  },
+  {
+    "english": "coordinator, organizer",
+    "senses": [
+      { "gloss": "", "members": [7081, 8398] }
+    ]
+  }
+]

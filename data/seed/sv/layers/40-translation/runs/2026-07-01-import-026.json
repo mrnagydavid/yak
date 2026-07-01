@@ -1,0 +1,345 @@
+[
+  {
+    "kellyId": 1452,
+    "decision": "fix",
+    "reason": "senses list is clumsy mix of definitions; 'fill up' is a literal/archaic sense, dropping it; keeping 'fulfill' as primary",
+    "translation": "fulfill",
+    "senses": ["fulfill, meet (requirements)", "fulfil (a wish or dream)"]
+  },
+  {
+    "kellyId": 1875,
+    "decision": "fix",
+    "reason": "'give as a fact' is definition-like; 'state, declare' is the natural everyday gloss",
+    "translation": "state, declare",
+    "senses": []
+  },
+  {
+    "kellyId": 1621,
+    "decision": "fix",
+    "reason": "sub-definitions are definition-like padding; 'copyright' is a single-meaning word",
+    "translation": "copyright",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1610,
+    "decision": "fix",
+    "reason": "'cease, to end, to stop' has embedded 'to'; fix phrasing",
+    "translation": "cease, stop",
+    "senses": []
+  },
+  {
+    "kellyId": 1413,
+    "decision": "fix",
+    "reason": "'event' is wrong primary; 'experience' is the core everyday meaning of upplevelse",
+    "translation": "experience",
+    "senses": []
+  },
+  {
+    "kellyId": 1489,
+    "decision": "fix",
+    "reason": "'urge, to ask' has embedded 'to'; rephrase cleanly",
+    "translation": "urge, call on",
+    "senses": []
+  },
+  {
+    "kellyId": 2063,
+    "decision": "fix",
+    "reason": "senses list is definition-like restatements; 'encourage' is single-meaning",
+    "translation": "encourage",
+    "senses": []
+  },
+  {
+    "kellyId": 1577,
+    "decision": "fix",
+    "reason": "'attentiveness' is redundant; 'attention' is the core uncountable noun",
+    "translation": "attention",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1912,
+    "decision": "fix",
+    "reason": "'raise, to erect' has embedded 'to' and is not the dominant modern sense; 'establish' and 'draw up' are the core senses",
+    "translation": "establish; draw up",
+    "senses": ["establish (an organization, agreement)", "draw up, draft (a document)", "erect, raise (a structure)"]
+  },
+  {
+    "kellyId": 2502,
+    "decision": "fix",
+    "reason": "trailing period in a sense item; clean up list",
+    "translation": "perform",
+    "senses": ["perform (on stage)", "behave", "occur, arise"]
+  },
+  {
+    "kellyId": 2743,
+    "decision": "fix",
+    "reason": "'draw up, to develop' has embedded 'to'",
+    "translation": "draw up, develop",
+    "senses": []
+  },
+  {
+    "kellyId": 2756,
+    "decision": "fix",
+    "reason": "'educate, to instruct, to train' has embedded 'to' repeated; trim to cleaner pair",
+    "translation": "educate, train",
+    "senses": []
+  },
+  {
+    "kellyId": 2515,
+    "decision": "fix",
+    "reason": "'expel or exclude' — phrasing with 'or' is awkward; reorder and clean",
+    "translation": "exclude, expel",
+    "senses": ["exclude, expel (from a group)", "rule out"]
+  },
+  {
+    "kellyId": 2216,
+    "decision": "fix",
+    "reason": "'draft, to design, to shape' has embedded 'to'; reorder with most common sense first",
+    "translation": "design, draft",
+    "senses": []
+  },
+  {
+    "kellyId": 2343,
+    "decision": "fix",
+    "reason": "'expense' and 'expenditure' are near-synonyms; treat as single meaning",
+    "translation": "expense, expenditure",
+    "senses": []
+  },
+  {
+    "kellyId": 2763,
+    "decision": "fix",
+    "reason": "missing major sense 'outcome'; senses list is clunky with marginal game-move sense",
+    "translation": "exit, way out",
+    "senses": ["exit, way out", "outcome, result"]
+  },
+  {
+    "kellyId": 1559,
+    "decision": "fix",
+    "reason": "'origin, starting point, point of departure' is three near-synonyms; 'starting point' is the clearest single gloss",
+    "translation": "starting point",
+    "senses": []
+  },
+  {
+    "kellyId": 1502,
+    "decision": "fix",
+    "reason": "senses list is redundant definition-like restatement of 'challenge'; single meaning",
+    "translation": "challenge",
+    "senses": []
+  },
+  {
+    "kellyId": 2073,
+    "decision": "fix",
+    "reason": "'minister for foreign affairs' is long; 'foreign minister' is the natural everyday gloss; UK/US equivalents are regional labels, not separate meanings",
+    "translation": "foreign minister",
+    "senses": []
+  },
+  {
+    "kellyId": 2311,
+    "decision": "fix",
+    "reason": "'equipment' is uncountable",
+    "translation": "equipment",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1842,
+    "decision": "fix",
+    "reason": "'appoint, to choose, to elect' has embedded 'to'; trim to cleaner pair",
+    "translation": "appoint, choose",
+    "senses": []
+  },
+  {
+    "kellyId": 1438,
+    "decision": "fix",
+    "reason": "'extent, width, reach, stretch' — 'width' is wrong here; 'extent' is the core meaning (utsträckning = degree/extent)",
+    "translation": "extent",
+    "senses": []
+  },
+  {
+    "kellyId": 1531,
+    "decision": "fix",
+    "reason": "senses list is definition-like; clean to concise items",
+    "translation": "pronounce",
+    "senses": ["pronounce (a word)", "express (an opinion)", "give, pass (a verdict)"]
+  },
+  {
+    "kellyId": 1421,
+    "decision": "fix",
+    "reason": "'statement, a declaration' has embedded article",
+    "translation": "statement, declaration",
+    "senses": []
+  },
+  {
+    "kellyId": 2706,
+    "decision": "fix",
+    "reason": "'increase, expand, enlarge' — three synonyms is one too many; 'expand, enlarge' is cleaner",
+    "translation": "expand, enlarge",
+    "senses": []
+  },
+  {
+    "kellyId": 1853,
+    "decision": "fix",
+    "reason": "'exercise, to practise, to execute' has embedded 'to'",
+    "translation": "exercise, practise",
+    "senses": []
+  },
+  {
+    "kellyId": 2578,
+    "decision": "fix",
+    "reason": "current translation is a definition; 'carriage, wagon' is the natural everyday gloss",
+    "translation": "carriage, wagon",
+    "senses": []
+  },
+  {
+    "kellyId": 2805,
+    "decision": "fix",
+    "reason": "senses list is redundant (guard/guard); clarify person vs. duty distinction",
+    "translation": "guard",
+    "senses": ["guard (person)", "watch, guard duty (the act)"]
+  },
+  {
+    "kellyId": 2076,
+    "decision": "fix",
+    "reason": "'hike, a tour or journey, a long walk' has embedded article and is too long; horse-mill sense is archaic",
+    "translation": "hike, walk",
+    "senses": []
+  },
+  {
+    "kellyId": 1586,
+    "decision": "fix",
+    "reason": "primary 'each, every' misses the far more common 'where' (interrogative adv); both are everyday senses — co-equal split",
+    "translation": "where; each, every",
+    "senses": ["where (interrogative)", "each, every"]
+  },
+  {
+    "kellyId": 2353,
+    "decision": "fix",
+    "reason": "'creature, a being' has embedded article",
+    "translation": "creature, being",
+    "senses": []
+  },
+  {
+    "kellyId": 1849,
+    "decision": "fix",
+    "reason": "senses list includes very marginal tree/forestry and factory-reject senses; 'wolf' is single everyday meaning",
+    "translation": "wolf",
+    "senses": []
+  },
+  {
+    "kellyId": 2350,
+    "decision": "fix",
+    "reason": "sub-sense 'issue a warning' is a restatement of warn; single meaning",
+    "translation": "warn",
+    "senses": []
+  },
+  {
+    "kellyId": 1602,
+    "decision": "fix",
+    "reason": "'where (to), whither' — 'whither' is archaic; simplify; secondary 'where' (=var) is rare/informal usage",
+    "translation": "where to",
+    "senses": []
+  },
+  {
+    "kellyId": 2200,
+    "decision": "fix",
+    "reason": "'brand, a trademark' has embedded article",
+    "translation": "brand, trademark",
+    "senses": []
+  },
+  {
+    "kellyId": 2734,
+    "decision": "fix",
+    "reason": "'turn, revolution, a full circle' has embedded article; trim to core pair",
+    "translation": "turn, revolution",
+    "senses": ["turn, revolution (full circle)", "lap, circuit (in a race)", "layer (geology)", "wharf, shipyard"]
+  },
+  {
+    "kellyId": 2330,
+    "decision": "fix",
+    "reason": "sub-sense 'initialism of verkställande direktör' is meta-info, not a meaning; single meaning",
+    "translation": "CEO",
+    "senses": []
+  },
+  {
+    "kellyId": 2480,
+    "decision": "fix",
+    "reason": "'action' is not the primary meaning of verkan; 'effect, result' is the core everyday sense",
+    "translation": "effect, result",
+    "senses": []
+  },
+  {
+    "kellyId": 2134,
+    "decision": "fix",
+    "reason": "'wheat' is uncountable",
+    "translation": "wheat",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1415,
+    "decision": "fix",
+    "reason": "'science, scholarly knowledge, scholarship' is padded; 'science' is the everyday primary",
+    "translation": "science",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1985,
+    "decision": "fix",
+    "reason": "wiktionary senses list is long and definition-like; consolidate to clean items",
+    "translation": "rest",
+    "senses": ["rest, take a break", "rest, lean (be supported on something)"]
+  },
+  {
+    "kellyId": 2036,
+    "decision": "fix",
+    "reason": "'wine' is uncountable; vine/vinande senses are marginal; single primary meaning",
+    "translation": "wine",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1724,
+    "decision": "fix",
+    "reason": "'weather' is uncountable; secondary senses (wind, surrounding air, smell) are archaic/dialectal",
+    "translation": "weather",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1896,
+    "decision": "fix",
+    "reason": "senses list has redundancy ('weigh' appears twice); clean up",
+    "translation": "weigh",
+    "senses": ["weigh (measure weight)", "weigh, balance (rock on a chair)"]
+  },
+  {
+    "kellyId": 1760,
+    "decision": "fix",
+    "reason": "'song, ballad, tune' — 'ballad' mischaracterises visa; it is a simple Swedish song/ditty, not a ballad in the English sense",
+    "translation": "song, folk song",
+    "senses": []
+  },
+  {
+    "kellyId": 2094,
+    "decision": "fix",
+    "reason": "senses list items are definition-like; 'vision' covers both as a single word",
+    "translation": "vision",
+    "senses": []
+  },
+  {
+    "kellyId": 2586,
+    "decision": "fix",
+    "reason": "'testify, to bear witness' has embedded 'to'; sub-sense is just a restatement",
+    "translation": "testify, bear witness",
+    "senses": []
+  },
+  {
+    "kellyId": 2487,
+    "decision": "fix",
+    "reason": "senses list breaks 'wave' oddly into sub-types; consolidate cleanly",
+    "translation": "wave",
+    "senses": ["wave (of water or energy)", "scale, weighing device"]
+  }
+]

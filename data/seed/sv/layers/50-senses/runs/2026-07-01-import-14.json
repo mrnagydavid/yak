@@ -1,0 +1,412 @@
+[
+  {
+    "english": "institute",
+    "senses": [
+      { "gloss": "institution", "members": [2604] },
+      { "gloss": "establish", "members": [6980] }
+    ]
+  },
+  {
+    "english": "corner",
+    "senses": [
+      { "gloss": "angle, bend", "members": [2609] },
+      { "gloss": "nook, recess", "members": [7682] }
+    ]
+  },
+  {
+    "english": "domestic",
+    "senses": [
+      { "gloss": "national, home-grown", "members": [2610] },
+      { "gloss": "household, homely", "members": [8205] },
+      { "gloss": "inland (adverb)", "members": [8360] }
+    ]
+  },
+  {
+    "english": "behave, conduct oneself",
+    "senses": [
+      { "gloss": "", "members": [2615, 2667] }
+    ]
+  },
+  {
+    "english": "park",
+    "senses": [
+      { "gloss": "green space", "members": [2616] },
+      { "gloss": "to park", "members": [6170] }
+    ]
+  },
+  {
+    "english": "witness",
+    "senses": [
+      { "gloss": "person", "members": [2619] },
+      { "gloss": "to witness", "members": [4744] }
+    ]
+  },
+  {
+    "english": "rape",
+    "senses": [
+      { "gloss": "the act", "members": [2624] },
+      { "gloss": "to rape", "members": [4832] }
+    ]
+  },
+  {
+    "english": "organic",
+    "senses": [
+      { "gloss": "ecological, eco", "members": [2627] },
+      { "gloss": "chemical, biological", "members": [4613] }
+    ]
+  },
+  {
+    "english": "bring",
+    "senses": [
+      { "gloss": "carry, convey", "members": [2633] },
+      { "gloss": "add, contribute", "members": [2732] }
+    ]
+  },
+  {
+    "english": "praise",
+    "senses": [
+      { "gloss": "noun", "members": [5039] },
+      { "gloss": "celebrate, hail", "members": [2634] },
+      { "gloss": "laud, commend", "members": [5373, 5758] }
+    ]
+  },
+  {
+    "english": "summary",
+    "senses": [
+      { "gloss": "", "members": [2635, 7264, 7762] }
+    ]
+  },
+  {
+    "english": "castle, palace",
+    "senses": [
+      { "gloss": "palace, manor", "members": [2638] },
+      { "gloss": "fortress, stronghold", "members": [4784] }
+    ]
+  },
+  {
+    "english": "column",
+    "senses": [
+      { "gloss": "opinion column", "members": [2645] },
+      { "gloss": "text column", "members": [5800, 6847] },
+      { "gloss": "pillar, formation", "members": [7547] }
+    ]
+  },
+  {
+    "english": "copy, reproduction, duplicate",
+    "senses": [
+      { "gloss": "a copy", "members": [2647] },
+      { "gloss": "to copy", "members": [2801] },
+      { "gloss": "an issue, instance", "members": [2837] }
+    ]
+  },
+  {
+    "english": "integration",
+    "senses": [
+      { "gloss": "", "members": [2653, 6189] }
+    ]
+  },
+  {
+    "english": "regulation, instruction",
+    "senses": [
+      { "gloss": "rules, code", "members": [2657, 8064] },
+      { "gloss": "regulating, control", "members": [2664] }
+    ]
+  },
+  {
+    "english": "account",
+    "senses": [
+      { "gloss": "financial, user", "members": [2659] },
+      { "gloss": "report, description", "members": [4234] }
+    ]
+  },
+  {
+    "english": "package, parcel",
+    "senses": [
+      { "gloss": "parcel, bundle", "members": [2666] },
+      { "gloss": "product packaging", "members": [4985] }
+    ]
+  },
+  {
+    "english": "friendly, kind",
+    "senses": [
+      { "gloss": "", "members": [2670, 7291] }
+    ]
+  },
+  {
+    "english": "dance",
+    "senses": [
+      { "gloss": "to dance", "members": [2673] },
+      { "gloss": "the dance", "members": [2736] }
+    ]
+  },
+  {
+    "english": "addition, appendix, amendment",
+    "senses": [
+      { "gloss": "textual addition", "members": [2674] },
+      { "gloss": "new element, supplement", "members": [4765] }
+    ]
+  },
+  {
+    "english": "mandate",
+    "senses": [
+      { "gloss": "political mandate", "members": [2679] },
+      { "gloss": "power of attorney", "members": [7015] }
+    ]
+  },
+  {
+    "english": "introduction",
+    "senses": [
+      { "gloss": "opening section", "members": [2680, 4312] },
+      { "gloss": "implementation", "members": [2681] }
+    ]
+  },
+  {
+    "english": "justification",
+    "senses": [
+      { "gloss": "reasoning, grounds", "members": [2687] },
+      { "gloss": "moral justification", "members": [7746, 8059] }
+    ]
+  },
+  {
+    "english": "silence",
+    "senses": [
+      { "gloss": "noun", "members": [2688] },
+      { "gloss": "to silence", "members": [5688] }
+    ]
+  },
+  {
+    "english": "external",
+    "senses": [
+      { "gloss": "outside organization", "members": [2693] },
+      { "gloss": "on the outside", "members": [8280] }
+    ]
+  },
+  {
+    "english": "view",
+    "senses": [
+      { "gloss": "scenic view", "members": [2701, 6108] },
+      { "gloss": "to behold", "members": [5963] }
+    ]
+  },
+  {
+    "english": "defeat",
+    "senses": [
+      { "gloss": "to defeat", "members": [2702] },
+      { "gloss": "a defeat", "members": [3870] }
+    ]
+  },
+  {
+    "english": "issue",
+    "senses": [
+      { "gloss": "to issue", "members": [2703] },
+      { "gloss": "matter, concern", "members": [4105] },
+      { "gloss": "substantive question", "members": [4113] }
+    ]
+  },
+  {
+    "english": "expand, enlarge",
+    "senses": [
+      { "gloss": "", "members": [2706, 4426] }
+    ]
+  },
+  {
+    "english": "commonly, usually",
+    "senses": [
+      { "gloss": "", "members": [2711, 2799] }
+    ]
+  },
+  {
+    "english": "smooth, even",
+    "senses": [
+      { "gloss": "level, uniform", "members": [2715, 5645] },
+      { "gloss": "smooth-surfaced", "members": [7056] }
+    ]
+  },
+  {
+    "english": "exchange",
+    "senses": [
+      { "gloss": "the exchange", "members": [2716, 7981] },
+      { "gloss": "to exchange", "members": [5696] }
+    ]
+  },
+  {
+    "english": "openness",
+    "senses": [
+      { "gloss": "candour, transparency", "members": [2717] },
+      { "gloss": "public transparency", "members": [5311] }
+    ]
+  },
+  {
+    "english": "seed",
+    "senses": [
+      { "gloss": "pit, core", "members": [2727] },
+      { "gloss": "botanical seed", "members": [5040] }
+    ]
+  },
+  {
+    "english": "leaf",
+    "senses": [
+      { "gloss": "", "members": [2730, 5390] }
+    ]
+  },
+  {
+    "english": "key",
+    "senses": [
+      { "gloss": "door key", "members": [2745] },
+      { "gloss": "keyboard key", "members": [7340] }
+    ]
+  },
+  {
+    "english": "slowly",
+    "senses": [
+      { "gloss": "", "members": [2748, 2833] }
+    ]
+  },
+  {
+    "english": "compete, contend",
+    "senses": [
+      { "gloss": "in sports, contests", "members": [2754] },
+      { "gloss": "commercially", "members": [3186] }
+    ]
+  },
+  {
+    "english": "homeland",
+    "senses": [
+      { "gloss": "", "members": [2757, 6810] }
+    ]
+  },
+  {
+    "english": "potential",
+    "senses": [
+      { "gloss": "adjective", "members": [2760] },
+      { "gloss": "noun", "members": [2889] }
+    ]
+  },
+  {
+    "english": "partner",
+    "senses": [
+      { "gloss": "companion, spouse", "members": [2766] },
+      { "gloss": "business associate", "members": [7990] }
+    ]
+  },
+  {
+    "english": "average",
+    "senses": [
+      { "gloss": "noun", "members": [2769] },
+      { "gloss": "adjective", "members": [3503] }
+    ]
+  },
+  {
+    "english": "upper secondary school",
+    "senses": [
+      { "gloss": "", "members": [2771, 4354] }
+    ]
+  },
+  {
+    "english": "peaceful",
+    "senses": [
+      { "gloss": "", "members": [2775, 7221] }
+    ]
+  },
+  {
+    "english": "narrow",
+    "senses": [
+      { "gloss": "", "members": [2776, 6288] }
+    ]
+  },
+  {
+    "english": "final",
+    "senses": [
+      { "gloss": "definitive (adj)", "members": [2783, 4637] },
+      { "gloss": "sports final", "members": [3048] },
+      { "gloss": "ending, conclusion", "members": [3956] }
+    ]
+  },
+  {
+    "english": "doubt",
+    "senses": [
+      { "gloss": "the doubt (noun)", "members": [2784] },
+      { "gloss": "to doubt", "members": [3292, 6542] },
+      { "gloss": "distrust, suspicion", "members": [5344] }
+    ]
+  },
+  {
+    "english": "fell, cut down",
+    "senses": [
+      { "gloss": "to fell a tree", "members": [2785] },
+      { "gloss": "mountain, highland", "members": [5662] }
+    ]
+  },
+  {
+    "english": "distribute, divide",
+    "senses": [
+      { "gloss": "", "members": [2796, 5211, 6719] }
+    ]
+  },
+  {
+    "english": "guard",
+    "senses": [
+      { "gloss": "person, duty", "members": [2805] },
+      { "gloss": "surveillance, watch", "members": [4698] },
+      { "gloss": "to guard", "members": [5158] }
+    ]
+  },
+  {
+    "english": "drawing",
+    "senses": [
+      { "gloss": "hand-drawn", "members": [2811] },
+      { "gloss": "technical blueprint", "members": [5507] }
+    ]
+  },
+  {
+    "english": "agenda",
+    "senses": [
+      { "gloss": "", "members": [2814, 4268] }
+    ]
+  },
+  {
+    "english": "circle; circuit",
+    "senses": [
+      { "gloss": "", "members": [2816, 4032] }
+    ]
+  },
+  {
+    "english": "registration",
+    "senses": [
+      { "gloss": "", "members": [2818, 4081, 5436] }
+    ]
+  },
+  {
+    "english": "aforementioned, above",
+    "senses": [
+      { "gloss": "", "members": [2825, 5814] }
+    ]
+  },
+  {
+    "english": "academic",
+    "senses": [
+      { "gloss": "adjective", "members": [2828] },
+      { "gloss": "a scholar", "members": [5765] }
+    ]
+  },
+  {
+    "english": "useful",
+    "senses": [
+      { "gloss": "", "members": [2830, 3251] }
+    ]
+  },
+  {
+    "english": "resolution",
+    "senses": [
+      { "gloss": "formal decree", "members": [2838] },
+      { "gloss": "personal resolve", "members": [7747] }
+    ]
+  },
+  {
+    "english": "as well as",
+    "senses": [
+      { "gloss": "conjunction", "members": [2843] },
+      { "gloss": "likewise, also", "members": [4741] }
+    ]
+  }
+]

@@ -1,0 +1,269 @@
+[
+  {
+    "kellyId": 6282,
+    "decision": "fix",
+    "reason": "senses list was missing the 'deployment' meaning; now complete",
+    "senses": ["deposit (money in an account)", "substitution (math/logic)", "deployment (of police, troops, or resources)"]
+  },
+  {
+    "kellyId": 6672,
+    "decision": "fix",
+    "reason": "subDefs list just repeated 'intake'; single-meaning word — clear the list",
+    "senses": []
+  },
+  {
+    "kellyId": 6835,
+    "decision": "fix",
+    "reason": "senses list was missing the primary (personal/private) sense and was incomplete",
+    "senses": ["intimate (close, personal)", "intimate (relating to genitals or sexual matters)"]
+  },
+  {
+    "kellyId": 6405,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation; app adds 'to' automatically",
+    "translation": "attest, certify, confirm",
+    "senses": []
+  },
+  {
+    "kellyId": 6018,
+    "decision": "fix",
+    "reason": "senses list had only 'immigration politics' as a subdef without the primary; now complete",
+    "senses": ["immigration policy", "immigration politics"]
+  },
+  {
+    "kellyId": 6424,
+    "decision": "fix",
+    "reason": "irritation is an uncountable noun; needs uncountable:true",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6394,
+    "decision": "fix",
+    "reason": "senses list was missing the primary meaning; complete list should have both",
+    "senses": ["ice cold, freezing cold", "ice-cold, distant or coolheaded"]
+  },
+  {
+    "kellyId": 6086,
+    "decision": "fix",
+    "reason": "senses list had '(male) from Italy' which is redundant noise; cleaned up",
+    "senses": ["Italian (person from Italy)", "go commando (slang)"]
+  },
+  {
+    "kellyId": 6818,
+    "decision": "fix",
+    "reason": "subDef 'oh, really' is redundant with the primary; single-meaning interjection — clear the list",
+    "senses": []
+  },
+  {
+    "kellyId": 5900,
+    "decision": "fix",
+    "reason": "jazz is an uncountable noun",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5944,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation; app adds 'to' automatically",
+    "translation": "cheer, shout with joy",
+    "senses": []
+  },
+  {
+    "kellyId": 6277,
+    "decision": "fix",
+    "reason": "'young woman' is an archaic/historical primary; 'virgin' is the dominant modern meaning; also embedded article 'a' in old translation",
+    "translation": "virgin",
+    "senses": ["virgin", "young woman, maiden (archaic)", "maid, female servant (historical)", "Virgo (star sign)"]
+  },
+  {
+    "kellyId": 6924,
+    "decision": "fix",
+    "reason": "embedded article 'a' in translation",
+    "translation": "café, coffee shop",
+    "senses": []
+  },
+  {
+    "kellyId": 6864,
+    "decision": "fix",
+    "reason": "subDef had embedded article 'an'; clean it up",
+    "senses": ["calendar", "annual publication, almanac"]
+  },
+  {
+    "kellyId": 6112,
+    "decision": "fix",
+    "reason": "subDef had embedded article 'a calculus'",
+    "senses": ["calculation, estimate", "calculus (mathematical branch)"]
+  },
+  {
+    "kellyId": 5977,
+    "decision": "fix",
+    "reason": "'pertaining to Canada' is definitional padding; 'Canadian' alone is sufficient",
+    "translation": "Canadian",
+    "senses": []
+  },
+  {
+    "kellyId": 6658,
+    "decision": "fix",
+    "reason": "cardboard is uncountable as the primary; senses list needs cleanup",
+    "uncountable": true,
+    "senses": ["cardboard (material)", "cardboard box", "carton"]
+  },
+  {
+    "kellyId": 6741,
+    "decision": "fix",
+    "reason": "'lounge jacket' is obscure British English; 'suit jacket, blazer' is more helpful to learners",
+    "translation": "suit jacket, blazer",
+    "senses": []
+  },
+  {
+    "kellyId": 6183,
+    "decision": "fix",
+    "reason": "subDef had embedded article; senses list should be complete",
+    "senses": ["skirt (garment)", "skirt (lower part of a dress)"]
+  },
+  {
+    "kellyId": 6268,
+    "decision": "fix",
+    "reason": "'clang' is too narrow; klang is broadly used for sound, tone, ring, and figurative connotations — promote a better primary",
+    "translation": "sound, tone, ring",
+    "senses": ["sound, tone, ring (of an instrument, voice, or bell)", "connotations, ring (figurative)"]
+  },
+  {
+    "kellyId": 5992,
+    "decision": "fix",
+    "reason": "senses had embedded 'to' forms",
+    "senses": ["pat", "pet (an animal)", "clap (hands)"]
+  },
+  {
+    "kellyId": 6234,
+    "decision": "fix",
+    "reason": "embedded 'to categorize' in translation; app adds 'to' automatically",
+    "translation": "classify, categorize",
+    "senses": []
+  },
+  {
+    "kellyId": 6713,
+    "decision": "fix",
+    "reason": "senses had embedded 'to scratch an itch'",
+    "senses": ["itch", "scratch an itch"]
+  },
+  {
+    "kellyId": 5700,
+    "decision": "fix",
+    "reason": "embedded article 'a knob, a dab' in translation",
+    "translation": "dollop, knob, dab",
+    "senses": ["dollop, knob, dab (small mass of sticky substance)", "clique (closed group)"]
+  },
+  {
+    "kellyId": 6811,
+    "decision": "fix",
+    "reason": "translation was a definition; 'ball, sphere' is the clear everyday gloss",
+    "translation": "ball, sphere",
+    "senses": ["ball, sphere (solid, hard)", "sphere (geometric)"]
+  },
+  {
+    "kellyId": 6966,
+    "decision": "fix",
+    "reason": "senses had a vague/marginal postal sense; trim to meaningful senses only",
+    "senses": ["lump, chunk", "nuisance, person in the way (informal)"]
+  },
+  {
+    "kellyId": 6999,
+    "decision": "fix",
+    "reason": "embedded 'to squeeze' in translation; app adds 'to' automatically",
+    "translation": "pinch, squeeze",
+    "senses": []
+  },
+  {
+    "kellyId": 5663,
+    "decision": "fix",
+    "reason": "embedded 'to break, to snap' in translation; senses also had embedded 'to' forms",
+    "translation": "crack, break, snap",
+    "senses": ["crack, break, snap (physically)", "crack (a code or encryption)", "break (someone's will or spirit)"]
+  },
+  {
+    "kellyId": 6388,
+    "decision": "fix",
+    "reason": "embedded 'to button up' in translation; senses had embedded 'to' forms throughout",
+    "translation": "button up",
+    "senses": ["button up, fasten (buttons)", "unbutton, unfasten", "clasp, buckle (a locking mechanism)", "clasp (one's hands)"]
+  },
+  {
+    "kellyId": 6042,
+    "decision": "fix",
+    "reason": "embedded article 'a cook' in translation",
+    "translation": "chef, cook",
+    "senses": ["chef, cook (professional)", "coccus (biology)"]
+  },
+  {
+    "kellyId": 6538,
+    "decision": "fix",
+    "reason": "second sense 'something comedic' is vague and definition-like; remove it",
+    "senses": []
+  },
+  {
+    "kellyId": 5683,
+    "decision": "fix",
+    "reason": "'humorous' is slightly off as primary — komisk is more 'comical, funny'; senses list had redundant split between 'comical' and 'comic'",
+    "translation": "comical, funny",
+    "senses": ["comical, funny", "comic (relating to theatrical comedy)"]
+  },
+  {
+    "kellyId": 6685,
+    "decision": "fix",
+    "reason": "senses list was incomplete; kompani covers military company and commercial company; list needs both",
+    "senses": ["military company (troops)", "company, firm (commercial, archaic/formal)"]
+  },
+  {
+    "kellyId": 6491,
+    "decision": "fix",
+    "reason": "'complexity' is wrong; komplikation means 'complication', not complexity (that is komplexitet)",
+    "translation": "complication",
+    "senses": []
+  },
+  {
+    "kellyId": 6993,
+    "decision": "fix",
+    "reason": "subDef was a bare repeat of 'composition'; single-meaning word — clear the list",
+    "senses": []
+  },
+  {
+    "kellyId": 6762,
+    "decision": "fix",
+    "reason": "'on friendly terms' is wrong for kontant; the secondary sense is 'frank, direct, blunt'",
+    "senses": ["cash, paid in cash", "frank, direct, blunt"]
+  },
+  {
+    "kellyId": 6763,
+    "decision": "fix",
+    "reason": "kontanter (cash money) is an uncountable noun",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6510,
+    "decision": "fix",
+    "reason": "senses list had embedded articles throughout",
+    "senses": ["grain (seed of a cereal crop)", "grain, speck (small particle)", "barley (the plant)", "bead, front sight (of a gun)"]
+  },
+  {
+    "kellyId": 6533,
+    "decision": "fix",
+    "reason": "subDef was a redundant near-duplicate of the primary with an embedded article; single-meaning word — clear the list",
+    "senses": []
+  },
+  {
+    "kellyId": 5914,
+    "decision": "fix",
+    "reason": "embedded article 'a crossing' in translation; senses also had embedded articles",
+    "translation": "intersection, crossing",
+    "senses": ["intersection, crossing (of roads)", "crossbreed", "crossbreeding"]
+  },
+  {
+    "kellyId": 6791,
+    "decision": "fix",
+    "reason": "subDef was a definition, not a translation; single-meaning adjective — clear the list",
+    "senses": []
+  }
+]

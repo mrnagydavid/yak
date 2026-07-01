@@ -1,0 +1,285 @@
+[
+  {
+    "kellyId": 2097,
+    "decision": "fix",
+    "reason": "currentTranslation embeds articles ('an environment, a context'); bare form needed; 'surroundings' is the most natural primary",
+    "translation": "surroundings, environment",
+    "senses": []
+  },
+  {
+    "kellyId": 2538,
+    "decision": "fix",
+    "reason": "subDefinitions list has a definition-like entry with quoted explanation; tighten to clean sense list",
+    "senses": ["round, batch", "beating, reprimand (informal)"]
+  },
+  {
+    "kellyId": 2362,
+    "decision": "fix",
+    "reason": "currentTranslation embeds articles ('a ballot, a referendum'); bare form needed",
+    "translation": "vote, ballot",
+    "senses": []
+  },
+  {
+    "kellyId": 2346,
+    "decision": "fix",
+    "reason": "subDefinitions list is just 'an operation' — redundant single item with article; clear it",
+    "senses": []
+  },
+  {
+    "kellyId": 1757,
+    "decision": "fix",
+    "reason": "subDefinitions item is definition-like; tighten list; PhD defense sense is very niche, keep briefly",
+    "senses": ["opposition (resistance, objection)", "opposition (political, parliamentary)", "dissertation critique (PhD defense)"]
+  },
+  {
+    "kellyId": 2426,
+    "decision": "fix",
+    "reason": "subDefinitions has only one sense with article and definition; both senses are common — keep both clean",
+    "senses": ["order (command)", "order (commercial, for goods)"]
+  },
+  {
+    "kellyId": 1861,
+    "decision": "fix",
+    "reason": "currentTranslation embeds 'to' prefixes on synonyms; bare verb form needed",
+    "translation": "arrange, organize, sort out",
+    "senses": []
+  },
+  {
+    "kellyId": 1794,
+    "decision": "fix",
+    "reason": "subDefinitions list is cluttered with definition-like and marginal senses; tighten to the main everyday senses",
+    "senses": ["organ (body part)", "body, institution (official)", "voice (singer or actor)", "penis", "organ, mouthpiece (newspaper of an organization)"]
+  },
+  {
+    "kellyId": 1676,
+    "decision": "fix",
+    "reason": "primary 'unrest' is one meaning but 'worry, anxiety' is equally or more common in everyday use; promote worry as primary; drop clockwork sense as too marginal",
+    "translation": "worry, anxiety",
+    "uncountable": true,
+    "senses": ["worry, anxiety", "unrest (social, political)"]
+  },
+  {
+    "kellyId": 2597,
+    "decision": "fix",
+    "reason": "subDefinitions list has 'to worry' — redundant with primary and adds article-prefixed form; clear it",
+    "senses": []
+  },
+  {
+    "kellyId": 2443,
+    "decision": "fix",
+    "reason": "subDefinitions list has two senses but primary 'innocent' covers 'not guilty'; list items need slight cleanup — harmless and pure/sinless are real distinct senses worth keeping",
+    "senses": ["innocent (not guilty)", "innocent (harmless)", "innocent (pure, free from sin)"]
+  },
+  {
+    "kellyId": 2115,
+    "decision": "fix",
+    "reason": "four senses listed but 'hazardous, dangerous' is near-synonym of 'unsafe'; and 'unsure, doubtful' / 'uncertain' are near-synonyms; consolidate",
+    "senses": ["unsafe, insecure, hazardous", "unsure, uncertain, doubtful"]
+  },
+  {
+    "kellyId": 2666,
+    "decision": "fix",
+    "reason": "currentTranslation has three items but 'packet' is marginal and the list item 'wrapped gift' adds good nuance; simplify primary",
+    "translation": "package, parcel",
+    "senses": []
+  },
+  {
+    "kellyId": 2391,
+    "decision": "fix",
+    "reason": "subDefinitions missing the very common 'exercise session / workout session' sense (träningspass, löppass); also tighten definition-like entries",
+    "senses": ["passport", "session (exercise, work)", "mountain pass", "shift (of work)", "pace, gait"]
+  },
+  {
+    "kellyId": 1582,
+    "decision": "fix",
+    "reason": "subDefinitions entry is wordy/definition-like; tighten",
+    "senses": ["pass (go past)", "strain, sieve (food)"]
+  },
+  {
+    "kellyId": 1637,
+    "decision": "fix",
+    "reason": "primary 'plane' is ambiguous; the most common everyday use of 'plan' (ett) is airplane; also 'flat surface' is the geometrical sense; reorder and clean list",
+    "translation": "airplane; plane",
+    "senses": ["airplane, aeroplane", "plane, flat surface", "plane, level (of existence)"]
+  },
+  {
+    "kellyId": 2532,
+    "decision": "fix",
+    "reason": "subDefinitions item 'plus sign' and 'advantage, benefit' are noun senses while the entry is adv/conj; the list items need clean phrasing",
+    "senses": ["plus, and (conjunction/adverb)", "plus sign (noun use)", "advantage, benefit (noun use)"]
+  },
+  {
+    "kellyId": 1535,
+    "decision": "fix",
+    "reason": "subDefinitions has one item; tighten it — the 'aimed at ordinary people' sense is worth keeping",
+    "senses": ["popular (widely liked)", "popular (accessible, aimed at general public)"]
+  },
+  {
+    "kellyId": 1829,
+    "decision": "fix",
+    "reason": "currentTranslation 'put in the mail' is clumsy; 'mail, post' is cleaner; fix subDefinitions too",
+    "translation": "mail, post",
+    "senses": ["mail, post (send by post)", "post (on social media or a forum)"]
+  },
+  {
+    "kellyId": 1904,
+    "decision": "fix",
+    "reason": "subDefinitions include 'a front paw of a bear' and 'a large hand' — very marginal; trim list to real everyday senses",
+    "senses": ["frame (around a painting, window, etc.)", "frame, boundaries (scope of options)", "frame (conceptual context)", "bicycle frame"]
+  },
+  {
+    "kellyId": 2263,
+    "decision": "fix",
+    "reason": "primary 'race' covers the human-race sense but the senses list already has race/breed and collapse/landslide correctly; however the primary should reflect breed/race together since hundraser example shows that's typical use; keep list as-is but confirm primary is clear",
+    "translation": "race, breed",
+    "senses": ["race, breed", "collapse, landslide"]
+  },
+  {
+    "kellyId": 1858,
+    "decision": "fix",
+    "reason": "currentTranslation embeds 'to' in synonyms; clean to bare form; also 'make ready' is clunky — 'sort out, manage' better captures everyday use of 'reda ut'",
+    "translation": "sort out, manage",
+    "senses": ["sort out, manage, prepare", "thicken (a sauce, with flour or egg yolk)"]
+  },
+  {
+    "kellyId": 2281,
+    "decision": "fix",
+    "reason": "currentTranslation 'trying experience' is one sense; but 'legal review' is equally important and commonly encountered; split into two senses; primary is 'ordeal, trial' as the more everyday meaning",
+    "translation": "ordeal, trial",
+    "senses": ["ordeal, trial (difficult experience)", "legal review, examination"]
+  },
+  {
+    "kellyId": 2030,
+    "decision": "fix",
+    "reason": "currentTranslation embeds 'to make an attempt'; clean to bare verb; 'try on (clothes)' is also a real sense of prova worth adding",
+    "translation": "try",
+    "senses": ["try, attempt", "try on (clothes)", "sample, taste"]
+  },
+  {
+    "kellyId": 2031,
+    "decision": "fix",
+    "reason": "currentTranslation has three comma items making it unwieldy; most common everyday sense is 'shape, define, characterize'; also 'stamp' (literal) is secondary",
+    "translation": "shape, define, characterize",
+    "senses": ["shape, define, characterize (leave a lasting mark on)", "stamp, imprint (literal)", "mint (coins)"]
+  },
+  {
+    "kellyId": 1514,
+    "decision": "fix",
+    "reason": "currentTranslation has 'to' embedded in 'to try'; clean to bare form",
+    "translation": "test, try",
+    "senses": ["test, try (subject to a test)", "examine, review (legal investigation)", "audition (for a role or place)"]
+  },
+  {
+    "kellyId": 2692,
+    "decision": "fix",
+    "reason": "subDefinitions has definition-like entry; tighten 'editing (the act)' — fine but the list could be cleaner",
+    "senses": ["editorial office, newsroom", "editing (the act of editing)"]
+  },
+  {
+    "kellyId": 1994,
+    "decision": "fix",
+    "reason": "subDefinitions items have definition phrasing; 'pension (accommodation)' is marginal for Swedish CEFR context; keep the two main senses clean",
+    "senses": ["retirement (from work)", "pension (periodic payments)", "pension (guesthouse accommodation)"]
+  },
+  {
+    "kellyId": 2712,
+    "decision": "fix",
+    "reason": "currentTranslation embeds article 'a retiree'; bare form needed",
+    "translation": "pensioner, retiree",
+    "senses": ["pensioner, retiree", "elderly person (informal)"]
+  },
+  {
+    "kellyId": 2709,
+    "decision": "fix",
+    "reason": "currentTranslation embeds articles ('a stroll, a promenade'); bare form needed; simplify",
+    "translation": "walk, stroll",
+    "senses": []
+  },
+  {
+    "kellyId": 1750,
+    "decision": "fix",
+    "reason": "currentTranslation embeds article 'a government bill'; bare form needed; in Swedish 'proposition' primarily means a government bill",
+    "translation": "government bill",
+    "senses": []
+  },
+  {
+    "kellyId": 2452,
+    "decision": "fix",
+    "reason": "currentTranslation 'protocol, minutes from a meeting' is already two senses joined; main primary in everyday Swedish is 'minutes (of a meeting)'; split properly",
+    "translation": "minutes; protocol",
+    "senses": ["minutes (of a meeting)", "protocol (diplomatic conventions)", "protocol (technical/IT specification)"]
+  },
+  {
+    "kellyId": 2369,
+    "decision": "fix",
+    "reason": "currentTranslation 'test, a trial' embeds article; also the most common everyday sense is 'test, exam'; fix primary and tighten list",
+    "translation": "test, exam",
+    "senses": ["test, exam (school)", "trial, test (of endurance or equipment)", "sample"]
+  },
+  {
+    "kellyId": 1423,
+    "decision": "fix",
+    "reason": "currentTranslation 'pair, match into pairs' is fine but subDefinitions has two near-duplicate entries ('to breed' and 'to mate, breed'); merge",
+    "translation": "pair up, match",
+    "senses": ["pair up, match (into pairs)", "mate, breed (animals)"]
+  },
+  {
+    "kellyId": 2616,
+    "decision": "fix",
+    "reason": "subDefinitions has 'a park (set, in the UK sense)' — niche sense; the list entry can be dropped as the single common meaning dominates",
+    "senses": []
+  },
+  {
+    "kellyId": 1437,
+    "decision": "fix",
+    "reason": "currentTranslation 'produce or manufacture' is fine but 'or' phrasing is clunky; use comma; subDefinitions item is definition-like",
+    "translation": "produce, manufacture",
+    "senses": ["produce, manufacture (goods)", "produce (a film, album, game, etc.)"]
+  },
+  {
+    "kellyId": 2519,
+    "decision": "fix",
+    "reason": "subDefinitions has a definition-like second entry; simplify — 'forecast' covers both; keep medical sense briefly",
+    "senses": ["forecast, prognosis (general)", "prognosis (medical)"]
+  },
+  {
+    "kellyId": 1486,
+    "decision": "fix",
+    "reason": "currentTranslation 'order, orderliness' is fine but the wiktionary gloss 'a state with things in order' is definition-like; the noun reda is uncountable/mass in use — but in English 'order' here is uncountable; set uncountable",
+    "translation": "order, orderliness",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2384,
+    "decision": "fix",
+    "reason": "currentTranslation 'current, going on' — 'ongoing' is the more natural single English word for pågående",
+    "translation": "ongoing, current",
+    "senses": []
+  },
+  {
+    "kellyId": 1408,
+    "decision": "fix",
+    "reason": "currentTranslation 'claim, a statement' embeds article; bare form needed",
+    "translation": "claim, statement",
+    "senses": []
+  },
+  {
+    "kellyId": 2336,
+    "decision": "fix",
+    "reason": "subDefinitions have redundant and near-duplicate entries; 'straight' covers physical and directness/frankness; consolidate",
+    "senses": ["straight (not bent, not curved)", "straight, direct, frank (of manner)"]
+  },
+  {
+    "kellyId": 1809,
+    "decision": "fix",
+    "reason": "subDefinitions include definition-like entries; the most common everyday senses for Swedish learners are the press (journalism) and a press (tool/printing); tighten",
+    "senses": ["press (journalism, newspapers)", "press (printing press)", "press, presser (tool applying pressure)", "pressure", "press (exercise, e.g. bench press)"]
+  },
+  {
+    "kellyId": 2203,
+    "decision": "fix",
+    "reason": "subDefinitions has 'restless' as a single item — it is a genuine separate sense worth keeping; list is fine but confirm it's complete",
+    "senses": ["anxious, worried", "restless"]
+  }
+]

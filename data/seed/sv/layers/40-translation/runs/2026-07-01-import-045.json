@@ -1,0 +1,319 @@
+[
+  {
+    "kellyId": 5518,
+    "decision": "fix",
+    "reason": "'expend' is a near-synonym of 'use up'; fold it in and drop redundant sub-def to give a clean single-sense entry",
+    "translation": "consume, use up",
+    "senses": []
+  },
+  {
+    "kellyId": 5034,
+    "decision": "fix",
+    "reason": "'kill' is not a meaning of fördriva; the example shows the 'pass (time)' sense which was missing entirely",
+    "translation": "drive away, expel",
+    "senses": [
+      "drive away, expel",
+      "pass (time)"
+    ]
+  },
+  {
+    "kellyId": 4504,
+    "decision": "fix",
+    "reason": "clumsy 'to do' tag; app adds 'to'; trim to bare form",
+    "translation": "undertake",
+    "senses": []
+  },
+  {
+    "kellyId": 4918,
+    "decision": "fix",
+    "reason": "embedded article 'a forefather' in translation; bare it",
+    "translation": "ancestor, forefather",
+    "senses": []
+  },
+  {
+    "kellyId": 5213,
+    "decision": "fix",
+    "reason": "three-item translation is a bit long; 'course, progression' captures the core; trim",
+    "translation": "course, progression",
+    "senses": []
+  },
+  {
+    "kellyId": 5177,
+    "decision": "fix",
+    "reason": "sub-def list has two overlapping items; consolidate into clean two-sense list",
+    "translation": "loser",
+    "senses": [
+      "loser (someone who loses)",
+      "loser (hapless person, colloquial)"
+    ]
+  },
+  {
+    "kellyId": 4619,
+    "decision": "fix",
+    "reason": "clumsy 'to mislay' with 'to' prefix; also clean up the senses list",
+    "translation": "misplace, mislay",
+    "senses": [
+      "misplace, mislay (lose by putting in the wrong place)",
+      "place, relocate, station (troops, a meeting, etc.)",
+      "publish (books)"
+    ]
+  },
+  {
+    "kellyId": 5323,
+    "decision": "fix",
+    "reason": "clumsy 'to conjecture' with 'to' prefix; app adds 'to'",
+    "translation": "suppose, assume",
+    "senses": []
+  },
+  {
+    "kellyId": 4406,
+    "decision": "fix",
+    "reason": "clumsy 'to modernize, to innovate' with 'to' prefixes; app adds 'to'",
+    "translation": "renew, modernize",
+    "senses": []
+  },
+  {
+    "kellyId": 4985,
+    "decision": "fix",
+    "reason": "embedded article 'a pack' in translation; bare it; also sub-def is a distinct sense worth keeping",
+    "translation": "package, pack",
+    "senses": [
+      "package, pack (container for a product)",
+      "packaging (the process)"
+    ]
+  },
+  {
+    "kellyId": 4885,
+    "decision": "fix",
+    "reason": "sub-def is not a separate meaning — it restates the same sense with different words; collapse to single sense",
+    "translation": "sense, reason",
+    "senses": []
+  },
+  {
+    "kellyId": 4817,
+    "decision": "fix",
+    "reason": "försvarsminister is more naturally rendered as 'defence minister' than 'minister for defence'",
+    "translation": "defence minister",
+    "senses": []
+  },
+  {
+    "kellyId": 5412,
+    "decision": "fix",
+    "reason": "clumsy 'bring, to put'; core sense is putting something into a state; trim and reorder senses",
+    "translation": "put into (a state)",
+    "senses": [
+      "put, bring (into a state or situation)",
+      "move, relocate",
+      "waste (an opportunity or time)",
+      "mix up (with)"
+    ]
+  },
+  {
+    "kellyId": 4494,
+    "decision": "fix",
+    "reason": "primary sense 'provision, support, supply' is muddled; core everyday sense is 'livelihood'; supply/provision of utilities is secondary",
+    "translation": "livelihood, sustenance",
+    "senses": [
+      "livelihood, sustenance (financial/material support for basic needs)",
+      "supply, provision (of electricity, materials, etc.)"
+    ]
+  },
+  {
+    "kellyId": 5016,
+    "decision": "fix",
+    "reason": "'delightedly, with delight' is awkward and rare; 'delightedly' is unnatural; better as 'with delight, gleefully'",
+    "translation": "with delight, gleefully",
+    "senses": []
+  },
+  {
+    "kellyId": 4734,
+    "decision": "fix",
+    "reason": "clumsy 'to explain, to reiterate' with 'to' prefixes; app adds 'to'",
+    "translation": "clarify, explain",
+    "senses": []
+  },
+  {
+    "kellyId": 4929,
+    "decision": "fix",
+    "reason": "'going through' is a weak primary; the much more common sense is 'thorough, consistent'; swap them",
+    "translation": "thorough, consistent",
+    "senses": [
+      "thorough, consistent, throughout",
+      "going through (passing to the other side)"
+    ]
+  },
+  {
+    "kellyId": 5018,
+    "decision": "fix",
+    "reason": "'fill' is too vague as primary; 'permeate, pervade' is more accurate and helpful",
+    "translation": "permeate, pervade",
+    "senses": []
+  },
+  {
+    "kellyId": 4297,
+    "decision": "fix",
+    "reason": "embedded article 'a group' in translation; bare it",
+    "translation": "grouping, group",
+    "senses": []
+  },
+  {
+    "kellyId": 5384,
+    "decision": "fix",
+    "reason": "primary is a definition; 'poisonous, toxic' is the everyday translation",
+    "translation": "poisonous, toxic",
+    "senses": [
+      "poisonous, toxic",
+      "caustic, sharp (sarcastic or cutting in tone)"
+    ]
+  },
+  {
+    "kellyId": 4752,
+    "decision": "fix",
+    "reason": "sub-def is just a restatement/definition of 'happily', not a distinct sense; clear the list",
+    "senses": []
+  },
+  {
+    "kellyId": 5031,
+    "decision": "fix",
+    "reason": "sub-def 'verbal puzzle' is a definition of 'riddle', not a distinct sense; clear the list",
+    "senses": []
+  },
+  {
+    "kellyId": 4735,
+    "decision": "fix",
+    "reason": "'one who commits a crime' is a definition, not a gloss; drop it",
+    "translation": "perpetrator",
+    "senses": []
+  },
+  {
+    "kellyId": 5234,
+    "decision": "fix",
+    "reason": "in Swedish hacka primarily means to chop/cut (food, wood, etc.); computer hacking is secondary; reorder",
+    "translation": "chop, cut, mince",
+    "senses": [
+      "chop, cut, mince",
+      "pick on, find fault with",
+      "hack (a computer)",
+      "stutter, be choppy"
+    ]
+  },
+  {
+    "kellyId": 5392,
+    "decision": "fix",
+    "reason": "clumsy 'to handle, to administrate' with 'to' prefixes; app adds 'to'",
+    "translation": "process, handle",
+    "senses": []
+  },
+  {
+    "kellyId": 4354,
+    "decision": "fix",
+    "reason": "'secondary school, most commonly for grades 10-12' is definition-like; 'upper secondary school' is the standard translation",
+    "translation": "upper secondary school",
+    "senses": []
+  },
+  {
+    "kellyId": 4417,
+    "decision": "fix",
+    "reason": "sub-defs about semla and Hattpartiet are highly marginal; drop them for a clean single-sense entry",
+    "senses": []
+  },
+  {
+    "kellyId": 4316,
+    "decision": "fix",
+    "reason": "sub-def 'an extensive waste land' is just a definition of 'moor', not a distinct sense; clear the list",
+    "senses": []
+  },
+  {
+    "kellyId": 4407,
+    "decision": "fix",
+    "reason": "'not corrupt' is definitional padding; trim; 'traditional and valued' is a valid secondary sense",
+    "translation": "honest, honorable",
+    "senses": [
+      "honest, honorable",
+      "good, old-fashioned (traditional and valued)"
+    ]
+  },
+  {
+    "kellyId": 4390,
+    "decision": "fix",
+    "reason": "sub-def is a definition of 'worsen', not a distinct sense; clear the list",
+    "senses": []
+  },
+  {
+    "kellyId": 4968,
+    "decision": "fix",
+    "reason": "'committer' is not natural English; drop it",
+    "translation": "perpetrator, culprit",
+    "senses": []
+  },
+  {
+    "kellyId": 4631,
+    "decision": "fix",
+    "reason": "'guaranteedly' is not natural English; everyday equivalent is 'definitely, for sure'",
+    "translation": "definitely, for sure",
+    "senses": []
+  },
+  {
+    "kellyId": 4712,
+    "decision": "fix",
+    "reason": "current list is verbose and the three senses need cleaner labelling",
+    "senses": [
+      "wardrobe, closet (piece of furniture or small room for clothes)",
+      "wardrobe (one's collection of clothes)",
+      "cloakroom, coat check"
+    ]
+  },
+  {
+    "kellyId": 4472,
+    "decision": "fix",
+    "reason": "sub-defs are definition-like; replace with concise sense labels",
+    "senses": [
+      "wealth, fortune (state of being wealthy)",
+      "fortune (large sum of money)",
+      "capability, ability"
+    ]
+  },
+  {
+    "kellyId": 5568,
+    "decision": "fix",
+    "reason": "'storage' implies abstract concept; förråd is a physical storeroom; fix primary",
+    "translation": "storeroom, storage room",
+    "senses": [
+      "storeroom, storage room",
+      "stockpile, supply, inventory"
+    ]
+  },
+  {
+    "kellyId": 4296,
+    "decision": "fix",
+    "reason": "förhand primarily means 'advantage, upper hand'; 'lead (in cards and dominoes)' is too narrow; the wiktionary gloss is misleadingly specific",
+    "translation": "advantage, upper hand",
+    "senses": []
+  },
+  {
+    "kellyId": 4427,
+    "decision": "fix",
+    "reason": "sub-def 'to proclaim' has clumsy 'to' prefix (it's in the senses list, not the main translation — but the rendering should be bare)",
+    "senses": [
+      "preach",
+      "proclaim, announce"
+    ]
+  },
+  {
+    "kellyId": 5076,
+    "decision": "fix",
+    "reason": "senses list has a long definition-like item for wages; trim it",
+    "senses": [
+      "merit, credit",
+      "earnings, wages",
+      "profit"
+    ]
+  },
+  {
+    "kellyId": 5284,
+    "decision": "fix",
+    "reason": "recover pilot fix: 'God!, good God!' was awkward",
+    "translation": "oh God!",
+    "senses": []
+  }
+]

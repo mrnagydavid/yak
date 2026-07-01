@@ -1,12 +1,12 @@
 // Fetch + parse the Swedish Kelly list (LMF XML, CC-BY-4.0) into a normalised JSON list.
-// Output: data/intermediate/kelly.json — [{ kellyId, lemma, pos, gender, cefr, freq }]
+// Output: data/scratch/sv/kelly.json — [{ kellyId, lemma, pos, gender, cefr, freq }]
 // Run: node scripts/seed/fetch-kelly.mjs
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 
 const KELLY_URL = 'https://svn.spraakbanken.gu.se/sb-arkiv/pub/lmf/kelly/kelly.xml'
-const CACHE = 'data/intermediate/kelly.xml'
-const OUT = 'data/intermediate/kelly.json'
+const CACHE = 'data/scratch/sv/kelly.xml'
+const OUT = 'data/scratch/sv/kelly.json'
 
 const CEFR = { 1: 'A1', 2: 'A2', 3: 'B1', 4: 'B2', 5: 'C1', 6: 'C2' }
 
@@ -35,7 +35,7 @@ function gender(gram, kellyPos) {
 }
 
 async function main() {
-  await mkdir('data/intermediate', { recursive: true })
+  await mkdir('data/scratch/sv', { recursive: true })
   if (!existsSync(CACHE)) {
     process.stdout.write('downloading kelly.xml… ')
     const res = await fetch(KELLY_URL)

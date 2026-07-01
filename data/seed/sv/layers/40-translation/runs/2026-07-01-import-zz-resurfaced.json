@@ -1,0 +1,30 @@
+[
+  {
+    "kellyId": 908,
+    "decision": "fix",
+    "reason": "'incorrectly' and 'erroneously' are redundant alongside 'wrong, wrongly' for an A1 adverb; trim to the two core forms",
+    "translation": "wrong, wrongly",
+    "senses": []
+  },
+  {
+    "kellyId": 930,
+    "decision": "fix",
+    "reason": "'erroneous' is formal and marginal for an A1 adjective; 'wrong, incorrect' covers the everyday sense cleanly",
+    "translation": "wrong, incorrect",
+    "senses": []
+  },
+  {
+    "kellyId": 1450,
+    "decision": "fix",
+    "reason": "'scathe' is archaic and unknown to modern learners; 'harm, damage' is the everyday sense",
+    "translation": "harm, damage",
+    "senses": []
+  },
+  {
+    "kellyId": 3416,
+    "decision": "fix",
+    "reason": "single-meaning word; sub-definition 'capable of being moved' is a dictionary gloss, not a sense — clear it",
+    "translation": "mobile",
+    "senses": []
+  }
+]

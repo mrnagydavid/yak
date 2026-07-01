@@ -1,0 +1,344 @@
+[
+  {
+    "kellyId": 3279,
+    "decision": "fix",
+    "reason": "'pertaining to the mind' is a definition tail on a clean cognate; trim to just 'mental'",
+    "translation": "mental",
+    "senses": []
+  },
+  {
+    "kellyId": 2938,
+    "decision": "fix",
+    "reason": "embedded article 'a' in translation; bare form is 'reduction, decrease'",
+    "translation": "reduction, decrease",
+    "senses": []
+  },
+  {
+    "kellyId": 2956,
+    "decision": "fix",
+    "reason": "primary is a definition ('harmful or improper usage'); core translation is 'abuse, misuse'; primary is uncountable",
+    "translation": "abuse, misuse",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4196,
+    "decision": "fix",
+    "reason": "primary 'cause bodily harm to' is a definition phrase; natural verb glosses are 'beat up, assault'",
+    "translation": "beat up, assault",
+    "senses": [
+      "beat up, assault, abuse (a person)",
+      "damage, mistreat (an object)"
+    ]
+  },
+  {
+    "kellyId": 3891,
+    "decision": "fix",
+    "reason": "primary 'mobile, a hanging and moving sculpture' is the wrong sense entirely; in everyday Swedish 'mobil' (noun) means mobile phone",
+    "translation": "mobile phone, cell phone",
+    "senses": []
+  },
+  {
+    "kellyId": 3156,
+    "decision": "fix",
+    "reason": "embedded article 'a' in translation; bare form drops the article",
+    "translation": "cell phone, mobile phone",
+    "senses": []
+  },
+  {
+    "kellyId": 3793,
+    "decision": "fix",
+    "reason": "senses item 'ripe (ready for harvest)' is clear but terse; keep both senses with slightly better phrasing",
+    "senses": [
+      "mature (fully developed)",
+      "ripe (fruit, crops)"
+    ]
+  },
+  {
+    "kellyId": 3560,
+    "decision": "fix",
+    "reason": "second sense is definition-like; simplify senses to clean short glosses",
+    "senses": [
+      "step, stage (in a process)",
+      "element, factor",
+      "moment (physics)"
+    ]
+  },
+  {
+    "kellyId": 3909,
+    "decision": "fix",
+    "reason": "primary 'tomorrow' is marked archaic/poetic in Wiktionary; modern everyday use is figurative 'the future'; example confirms figurative use",
+    "translation": "the future",
+    "senses": [
+      "the future (better times ahead)",
+      "tomorrow (archaic, poetic)"
+    ]
+  },
+  {
+    "kellyId": 3459,
+    "decision": "fix",
+    "reason": "'recreational exerciser' is clunky; 'exerciser' is cleaner",
+    "translation": "exerciser",
+    "senses": [
+      "exerciser (person exercising for health)",
+      "mover (proposing a motion in an assembly)"
+    ]
+  },
+  {
+    "kellyId": 3911,
+    "decision": "fix",
+    "reason": "embedded article 'a' in translation; bare form is 'freeway, motorway'",
+    "translation": "freeway, motorway",
+    "senses": []
+  },
+  {
+    "kellyId": 3284,
+    "decision": "fix",
+    "reason": "senses list is present and correct; clean phrasing to remove any ambiguity",
+    "senses": [
+      "equivalent (counterpart)",
+      "correspondence, equivalence (abstract)"
+    ]
+  },
+  {
+    "kellyId": 2955,
+    "decision": "fix",
+    "reason": "'oppose, to object to' has embedded 'to'; bare form is 'oppose, object to'",
+    "translation": "oppose, object to",
+    "senses": []
+  },
+  {
+    "kellyId": 3355,
+    "decision": "fix",
+    "reason": "'receiver' and 'recipient' are distinct everyday senses (device/role vs. person receiving a gift/award); keep both in senses; promote 'recipient' as primary",
+    "translation": "recipient",
+    "senses": [
+      "recipient (person)",
+      "receiver (device or role)"
+    ]
+  },
+  {
+    "kellyId": 3943,
+    "decision": "fix",
+    "reason": "third sense 'reminiscent of music' is marginal; drop it; first sense should lead with the more common meaning (musically talented)",
+    "senses": [
+      "musical (related to music)",
+      "musically talented, gifted"
+    ]
+  },
+  {
+    "kellyId": 3642,
+    "decision": "fix",
+    "reason": "senses list has definition-like items from Wiktionary; simplify to clean short glosses",
+    "senses": [
+      "painting (artwork)",
+      "painting (applying paint)"
+    ]
+  },
+  {
+    "kellyId": 3290,
+    "decision": "fix",
+    "reason": "in modern Swedish 'mässa' is co-equally a trade fair/expo and a church mass; neither clearly dominates; use semicolon join",
+    "translation": "mass; fair, expo",
+    "senses": [
+      "mass (church service)",
+      "fair, expo, exhibition (trade show)"
+    ]
+  },
+  {
+    "kellyId": 2996,
+    "decision": "fix",
+    "reason": "senses list has embedded articles; clean them",
+    "senses": [
+      "master (expert)",
+      "master craftsman (tradesman)",
+      "champion (competition winner)"
+    ]
+  },
+  {
+    "kellyId": 3010,
+    "decision": "fix",
+    "reason": "embedded article 'a' and 'measure' is vague; 'measurement' is the cleaner primary",
+    "translation": "measurement",
+    "senses": []
+  },
+  {
+    "kellyId": 3126,
+    "decision": "fix",
+    "reason": "third sense 'Descriptive of smiling from contentedness or comfort' is too niche and definition-like; drop it; two senses remain",
+    "senses": [
+      "cosy, snug",
+      "pleasant, agreeable"
+    ]
+  },
+  {
+    "kellyId": 3762,
+    "decision": "fix",
+    "reason": "'arcane' is literary and marginal for a B1 learner; 'mysterious' alone is sufficient; 'strange' is a genuine second sense",
+    "translation": "mysterious",
+    "senses": [
+      "mysterious, eerie",
+      "strange, odd"
+    ]
+  },
+  {
+    "kellyId": 4082,
+    "decision": "fix",
+    "reason": "'a compass direction' is a definition tail; trim to just 'north'; second Wiktionary sense about Norden is a parsing artifact — 'nord' alone does not mean Norden; single meaning",
+    "translation": "north",
+    "senses": []
+  },
+  {
+    "kellyId": 3127,
+    "decision": "fix",
+    "reason": "senses list has 'one of the four major compass points' which is a definition; single meaning → senses: []",
+    "senses": []
+  },
+  {
+    "kellyId": 3474,
+    "decision": "fix",
+    "reason": "'seine' and 'groove' are very marginal technical meanings irrelevant to B1 learners; keep only the main senses",
+    "senses": [
+      "note (music)",
+      "note, short message",
+      "diplomatic note"
+    ]
+  },
+  {
+    "kellyId": 3907,
+    "decision": "fix",
+    "reason": "'childish' adds a pejorative shade not always present in 'naiv'; the core meaning is simply 'naive'",
+    "translation": "naive",
+    "senses": []
+  },
+  {
+    "kellyId": 3771,
+    "decision": "fix",
+    "reason": "senses were definition-like from dump; clean them; two distinct meanings: food/nourishment and trade/industry",
+    "senses": [
+      "nourishment, nutrition",
+      "trade, industry, livelihood"
+    ]
+  },
+  {
+    "kellyId": 3910,
+    "decision": "fix",
+    "reason": "'distress' is an uncountable noun primary; set uncountable: true",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3075,
+    "decision": "fix",
+    "reason": "senses list has 'the quality or state of being necessary' which is a definition; single meaning → senses: []",
+    "senses": []
+  },
+  {
+    "kellyId": 3171,
+    "decision": "fix",
+    "reason": "senses list duplicates the main translation; single meaning → senses: []",
+    "senses": []
+  },
+  {
+    "kellyId": 3122,
+    "decision": "fix",
+    "reason": "'disagreeable' is a third near-synonym that adds little; trim to the two most natural ones",
+    "translation": "unpleasant, uncomfortable",
+    "senses": []
+  },
+  {
+    "kellyId": 2920,
+    "decision": "fix",
+    "reason": "senses list has 'being on (a, the same) ship' which is a definition; single meaning → senses: []",
+    "senses": []
+  },
+  {
+    "kellyId": 3925,
+    "decision": "fix",
+    "reason": "embedded article 'a' in translation; bare form; senses already fine but clean embedded articles",
+    "translation": "representative, delegate",
+    "senses": [
+      "representative, delegate, proxy",
+      "agent (acting on behalf of principal)",
+      "legal representative, attorney"
+    ]
+  },
+  {
+    "kellyId": 4118,
+    "decision": "fix",
+    "reason": "'unknowledgeable' is unnatural; 'ignorant, uninformed' is clearer for learners",
+    "translation": "ignorant, uninformed",
+    "senses": []
+  },
+  {
+    "kellyId": 3208,
+    "decision": "fix",
+    "reason": "'discontented' is marginal; trim primary to 'unhappy, sad'; senses clean",
+    "translation": "unhappy, sad",
+    "senses": [
+      "unhappy, sad",
+      "unfortunate"
+    ]
+  },
+  {
+    "kellyId": 4068,
+    "decision": "fix",
+    "reason": "'inapposite' is very formal/rare; learners need 'inappropriate, unsuitable'; sub-definition sense is definition-like → senses: []",
+    "translation": "inappropriate, unsuitable",
+    "senses": []
+  },
+  {
+    "kellyId": 2967,
+    "decision": "fix",
+    "reason": "senses list restates the main translation without adding meaning; single meaning → senses: []",
+    "senses": []
+  },
+  {
+    "kellyId": 4160,
+    "decision": "fix",
+    "reason": "'missnöjd' primarily means dissatisfied/displeased; 'unhappy' is too broad; promote more accurate primary",
+    "translation": "dissatisfied, displeased",
+    "senses": []
+  },
+  {
+    "kellyId": 2951,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation ('to cultivate, to plant'); bare form drops the 'to' prefixes",
+    "translation": "grow, cultivate",
+    "senses": []
+  },
+  {
+    "kellyId": 3664,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation ('to make public'); bare form is 'publish, make public'",
+    "translation": "publish, make public",
+    "senses": []
+  },
+  {
+    "kellyId": 2969,
+    "decision": "fix",
+    "reason": "senses are definition-like from Wiktionary dump; clean them to short glosses",
+    "senses": [
+      "sacrifice (ritual)",
+      "sacrifice, give up (for a gain)",
+      "make a scapegoat of"
+    ]
+  },
+  {
+    "kellyId": 4119,
+    "decision": "fix",
+    "reason": "'unaltered, unmodified, unchanging' — 'unchanged' is the most natural everyday word; trim to it",
+    "translation": "unchanged",
+    "senses": []
+  },
+  {
+    "kellyId": 3159,
+    "decision": "fix",
+    "reason": "recover pilot fix lost on final rebuild: the full-sweep batch snapshotted the already-applied (but never-committed) pilot value 'assault', so the curator emitted no change and seed:apply reverted to the seed-cleaner definition phrase",
+    "translation": "assault",
+    "senses": [
+      "assault, battery (physical)",
+      "abuse (psychological, sexual, or of an object)"
+    ]
+  }
+]

@@ -1,0 +1,430 @@
+[
+  {
+    "english": "second",
+    "senses": [
+      { "gloss": "ordinal", "members": [1] },
+      { "gloss": "unit of time", "members": [1857] }
+    ]
+  },
+  {
+    "english": "one",
+    "senses": [
+      { "gloss": "numeral", "members": [7] },
+      { "gloss": "impersonal pronoun", "members": [426, 114] },
+      { "gloss": "the digit, noun", "members": [4236] }
+    ]
+  },
+  {
+    "english": "a, an",
+    "senses": [
+      { "gloss": "article", "members": [108] },
+      { "gloss": "pronoun", "members": [3418] }
+    ]
+  },
+  {
+    "english": "five",
+    "senses": [
+      { "gloss": "numeral", "members": [9] },
+      { "gloss": "the digit, noun", "members": [5843] }
+    ]
+  },
+  {
+    "english": "front, forward",
+    "senses": [
+      { "gloss": "foremost, adjective", "members": [15] },
+      { "gloss": "front side", "members": [3079, 6243] }
+    ]
+  },
+  {
+    "english": "first",
+    "senses": [
+      { "gloss": "ordinal", "members": [18] },
+      { "gloss": "firstly, adverb", "members": [390] }
+    ]
+  },
+  {
+    "english": "whole",
+    "senses": [
+      { "gloss": "entire, adjective", "members": [22, 189] },
+      { "gloss": "totality, noun", "members": [1681] }
+    ]
+  },
+  {
+    "english": "touch, sense of touch",
+    "senses": [
+      { "gloss": "sense of touch", "members": [31] },
+      { "gloss": "touch physically", "members": [1549, 7961] },
+      { "gloss": "act of touching", "members": [7248] },
+      { "gloss": "keystroke touch", "members": [2493] }
+    ]
+  },
+  {
+    "english": "snack",
+    "senses": [
+      { "gloss": "between-meal snack", "members": [32] },
+      { "gloss": "nibble with drinks", "members": [8123] }
+    ]
+  },
+  {
+    "english": "nine",
+    "senses": [
+      { "gloss": "numeral", "members": [40] },
+      { "gloss": "the digit, noun", "members": [39] }
+    ]
+  },
+  {
+    "english": "sex",
+    "senses": [
+      { "gloss": "sexual activity", "members": [5479] },
+      { "gloss": "gender", "members": [1706] }
+    ]
+  },
+  {
+    "english": "south",
+    "senses": [
+      { "gloss": "", "members": [62, 3647] }
+    ]
+  },
+  {
+    "english": "three",
+    "senses": [
+      { "gloss": "numeral", "members": [72] },
+      { "gloss": "the digit, noun", "members": [5353] }
+    ]
+  },
+  {
+    "english": "third",
+    "senses": [
+      { "gloss": "ordinal", "members": [73] },
+      { "gloss": "one third", "members": [2824] }
+    ]
+  },
+  {
+    "english": "two",
+    "senses": [
+      { "gloss": "numeral", "members": [77] },
+      { "gloss": "the digit, noun", "members": [3653] }
+    ]
+  },
+  {
+    "english": "weekday",
+    "senses": [
+      { "gloss": "named day", "members": [79] },
+      { "gloss": "working day", "members": [1525] }
+    ]
+  },
+  {
+    "english": "widower",
+    "senses": [
+      { "gloss": "", "members": [84, 85] }
+    ]
+  },
+  {
+    "english": "and",
+    "senses": [
+      { "gloss": "", "members": [87, 292] }
+    ]
+  },
+  {
+    "english": "in",
+    "senses": [
+      { "gloss": "location, preposition", "members": [89] },
+      { "gloss": "inward motion", "members": [174] }
+    ]
+  },
+  {
+    "english": "it",
+    "senses": [
+      { "gloss": "neuter gender", "members": [92] },
+      { "gloss": "common gender", "members": [146] }
+    ]
+  },
+  {
+    "english": "the",
+    "senses": [
+      { "gloss": "definite article", "members": [124, 107, 115] },
+      { "gloss": "the more…the more", "members": [1599] }
+    ]
+  },
+  {
+    "english": "who, which, that",
+    "senses": [
+      { "gloss": "relative pronoun", "members": [94] },
+      { "gloss": "interrogative", "members": [446] }
+    ]
+  },
+  {
+    "english": "as, like",
+    "senses": [
+      { "gloss": "", "members": [118, 4474, 596] }
+    ]
+  },
+  {
+    "english": "on, on top of",
+    "senses": [
+      { "gloss": "on, preposition", "members": [95, 96] },
+      { "gloss": "furthermore", "members": [385] },
+      { "gloss": "come on", "members": [1376] }
+    ]
+  },
+  {
+    "english": "from",
+    "senses": [
+      { "gloss": "origin, source", "members": [127, 571] },
+      { "gloss": "by, of", "members": [97] }
+    ]
+  },
+  {
+    "english": "for",
+    "senses": [
+      { "gloss": "beneficiary", "members": [98, 274] },
+      { "gloss": "because, conjunction", "members": [1305] }
+    ]
+  },
+  {
+    "english": "too",
+    "senses": [
+      { "gloss": "also", "members": [152] },
+      { "gloss": "excessively", "members": [301, 1173] }
+    ]
+  },
+  {
+    "english": "because",
+    "senses": [
+      { "gloss": "", "members": [1831, 236, 1021] }
+    ]
+  },
+  {
+    "english": "bow",
+    "senses": [
+      { "gloss": "ship's bow", "members": [4906] },
+      { "gloss": "arc, weapon", "members": [7109] }
+    ]
+  },
+  {
+    "english": "also, as well, too",
+    "senses": [
+      { "gloss": "also, likewise", "members": [181, 2632] },
+      { "gloss": "along, with", "members": [512] }
+    ]
+  },
+  {
+    "english": "to",
+    "senses": [
+      { "gloss": "destination", "members": [105] },
+      { "gloss": "toward, against", "members": [159] }
+    ]
+  },
+  {
+    "english": "small, little",
+    "senses": [
+      { "gloss": "small in size", "members": [106] },
+      { "gloss": "modest, humble", "members": [4414] }
+    ]
+  },
+  {
+    "english": "about",
+    "senses": [
+      { "gloss": "regarding", "members": [111, 1520] },
+      { "gloss": "approximately", "members": [670] }
+    ]
+  },
+  {
+    "english": "but",
+    "senses": [
+      { "gloss": "however", "members": [113] },
+      { "gloss": "but rather", "members": [249] }
+    ]
+  },
+  {
+    "english": "man",
+    "senses": [
+      { "gloss": "adult male", "members": [264, 3680] },
+      { "gloss": "to staff", "members": [7671] }
+    ]
+  },
+  {
+    "english": "get, receive",
+    "senses": [
+      { "gloss": "receive", "members": [116] },
+      { "gloss": "fetch, pick up", "members": [1146] },
+      { "gloss": "acquire, obtain", "members": [1155] }
+    ]
+  },
+  {
+    "english": "few",
+    "senses": [
+      { "gloss": "adjective", "members": [682] },
+      { "gloss": "a small number", "members": [2364] }
+    ]
+  },
+  {
+    "english": "become",
+    "senses": [
+      { "gloss": "", "members": [122, 4202] }
+    ]
+  },
+  {
+    "english": "his, her, its, their",
+    "senses": [
+      { "gloss": "reflexive possessive", "members": [125] },
+      { "gloss": "non-reflexive his", "members": [216] }
+    ]
+  },
+  {
+    "english": "will",
+    "senses": [
+      { "gloss": "determination", "members": [1072] },
+      { "gloss": "legal testament", "members": [2484] }
+    ]
+  },
+  {
+    "english": "all",
+    "senses": [
+      { "gloss": "", "members": [130, 1157] }
+    ]
+  },
+  {
+    "english": "other, else, other one",
+    "senses": [
+      { "gloss": "another, different", "members": [133] },
+      { "gloss": "remaining", "members": [686] }
+    ]
+  },
+  {
+    "english": "you",
+    "senses": [
+      { "gloss": "singular", "members": [134, 248] },
+      { "gloss": "plural", "members": [233, 315] }
+    ]
+  },
+  {
+    "english": "find, locate",
+    "senses": [
+      { "gloss": "discover, verb", "members": [136, 323, 6482, 8175] },
+      { "gloss": "locate", "members": [6777] },
+      { "gloss": "a discovery, noun", "members": [3896] }
+    ]
+  },
+  {
+    "english": "take",
+    "senses": [
+      { "gloss": "grab, take", "members": [137] },
+      { "gloss": "take measures", "members": [1485] },
+      { "gloss": "occupy, assume", "members": [2202] },
+      { "gloss": "a take, noun", "members": [7734] }
+    ]
+  },
+  {
+    "english": "present, now",
+    "senses": [
+      { "gloss": "the present moment", "members": [6046] },
+      { "gloss": "introduce, verb", "members": [830] },
+      { "gloss": "in attendance", "members": [2583] },
+      { "gloss": "present era", "members": [4887] }
+    ]
+  },
+  {
+    "english": "walk",
+    "senses": [
+      { "gloss": "to walk, verb", "members": [144] },
+      { "gloss": "a walk, noun", "members": [2709] }
+    ]
+  },
+  {
+    "english": "year",
+    "senses": [
+      { "gloss": "period of time", "members": [148] },
+      { "gloss": "calendar year number", "members": [6678] }
+    ]
+  },
+  {
+    "english": "own",
+    "senses": [
+      { "gloss": "to possess, verb", "members": [149, 4445] },
+      { "gloss": "one's own, adjective", "members": [242, 659] }
+    ]
+  },
+  {
+    "english": "mean",
+    "senses": [
+      { "gloss": "signify, entail", "members": [151, 308] },
+      { "gloss": "intend, think", "members": [371] },
+      { "gloss": "unkind, adjective", "members": [3936] }
+    ]
+  },
+  {
+    "english": "there",
+    "senses": [
+      { "gloss": "at that place", "members": [153] },
+      { "gloss": "toward that place", "members": [789] }
+    ]
+  },
+  {
+    "english": "then",
+    "senses": [
+      { "gloss": "at that time", "members": [154] },
+      { "gloss": "next, afterward", "members": [185] },
+      { "gloss": "of that time, adjective", "members": [2924] }
+    ]
+  },
+  {
+    "english": "just, only",
+    "senses": [
+      { "gloss": "only, merely", "members": [160] },
+      { "gloss": "exactly, precisely", "members": [257] },
+      { "gloss": "just now", "members": [2199] }
+    ]
+  },
+  {
+    "english": "next to, beside, by, at",
+    "senses": [
+      { "gloss": "at, by", "members": [164] },
+      { "gloss": "beside, next to", "members": [2355, 2849] }
+    ]
+  },
+  {
+    "english": "wide",
+    "senses": [
+      { "gloss": "loose, ample", "members": [3269] },
+      { "gloss": "broad in dimension", "members": [1150] }
+    ]
+  },
+  {
+    "english": "still, yet",
+    "senses": [
+      { "gloss": "not yet", "members": [1177] },
+      { "gloss": "continuing, ongoing", "members": [372, 3933] },
+      { "gloss": "motionless", "members": [3471, 3829] }
+    ]
+  },
+  {
+    "english": "good",
+    "senses": [
+      { "gloss": "", "members": [166, 286] }
+    ]
+  },
+  {
+    "english": "well",
+    "senses": [
+      { "gloss": "in a good way", "members": [400, 229] },
+      { "gloss": "well in taste", "members": [1808] },
+      { "gloss": "well, actually", "members": [2530] },
+      { "gloss": "water well", "members": [6680] }
+    ]
+  },
+  {
+    "english": "after",
+    "senses": [
+      { "gloss": "", "members": [169, 510] }
+    ]
+  },
+  {
+    "english": "up",
+    "senses": [
+      { "gloss": "upward motion", "members": [170] },
+      { "gloss": "elevated position", "members": [1653] },
+      { "gloss": "up along", "members": [4899] }
+    ]
+  }
+]

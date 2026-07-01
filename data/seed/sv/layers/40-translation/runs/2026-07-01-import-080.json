@@ -1,0 +1,308 @@
+[
+  {
+    "kellyId": 7623,
+    "decision": "fix",
+    "reason": "embedded article 'a' in main translation; senses had embedded articles",
+    "translation": "spectacle, scene",
+    "senses": ["spectacle, scene (commotion)", "spectacle (laughing stock)", "show, theatrical performance"]
+  },
+  {
+    "kellyId": 7034,
+    "decision": "fix",
+    "reason": "embedded article 'a' in main translation",
+    "translation": "spear, javelin",
+    "senses": ["spear, javelin", "javelin throw (athletics)"]
+  },
+  {
+    "kellyId": 8129,
+    "decision": "fix",
+    "reason": "senses list missing the primary sport meaning; needs complete list",
+    "translation": "squash",
+    "senses": ["squash (sport)", "squash (vegetable)"]
+  },
+  {
+    "kellyId": 7905,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation (app adds it for verbs)",
+    "translation": "confirm, ratify, enshrine",
+    "senses": []
+  },
+  {
+    "kellyId": 8130,
+    "decision": "fix",
+    "reason": "definition-like gloss; 'city dweller' is cleaner",
+    "translation": "city dweller",
+    "senses": []
+  },
+  {
+    "kellyId": 7500,
+    "decision": "fix",
+    "reason": "embedded article 'a' in main translation",
+    "translation": "fence, railing",
+    "senses": []
+  },
+  {
+    "kellyId": 8009,
+    "decision": "fix",
+    "reason": "'extra' is the most learner-friendly term; 'supernumerary' is obscure",
+    "translation": "extra, walk-on",
+    "senses": []
+  },
+  {
+    "kellyId": 7220,
+    "decision": "fix",
+    "reason": "embedded article 'a' in main translation; embedded articles throughout senses",
+    "translation": "staff, rod, pole",
+    "senses": ["staff, rod, pole (long slender stick)", "rod cell (in the eye)", "pole vault", "letter (in runic alphabet)"]
+  },
+  {
+    "kellyId": 8014,
+    "decision": "fix",
+    "reason": "embedded articles 'a' in main translation",
+    "translation": "steak, roast",
+    "senses": []
+  },
+  {
+    "kellyId": 7964,
+    "decision": "fix",
+    "reason": "embedded article 'a' in main translation",
+    "translation": "frying pan, skillet",
+    "senses": []
+  },
+  {
+    "kellyId": 7693,
+    "decision": "fix",
+    "reason": "sub-definition has embedded 'to'; senses need bare forms",
+    "translation": "solidify",
+    "senses": ["solidify (turn solid)", "stiffen (become stiff)"]
+  },
+  {
+    "kellyId": 7507,
+    "decision": "fix",
+    "reason": "the printing-plate and casting-department senses are archaic/technical; everyday meaning is the oversimplified conception",
+    "translation": "stereotype",
+    "senses": ["stereotype (oversimplified conception)", "stereotype plate (printing, historical)"]
+  },
+  {
+    "kellyId": 7119,
+    "decision": "fix",
+    "reason": "embedded article 'a' in sub; senses need clean bare forms",
+    "translation": "sting",
+    "senses": ["sting, bite (from an insect)", "trick (in card games)"]
+  },
+  {
+    "kellyId": 7555,
+    "decision": "fix",
+    "reason": "embedded 'to' in main translation",
+    "translation": "stink, reek",
+    "senses": ["stink, reek (smell bad)", "stink (suggest dishonesty)", "make something stink"]
+  },
+  {
+    "kellyId": 8236,
+    "decision": "fix",
+    "reason": "embedded article 'a' in main translation",
+    "translation": "stem, stalk",
+    "senses": []
+  },
+  {
+    "kellyId": 7549,
+    "decision": "fix",
+    "reason": "embedded 'to' in main translation; sub has embedded 'to'",
+    "translation": "strike, go on strike",
+    "senses": ["strike, go on strike (as protest)", "not work, break down (of machines)"]
+  },
+  {
+    "kellyId": 8020,
+    "decision": "fix",
+    "reason": "ironing is the most everyday meaning of 'strykning'; deletion/omission is secondary; embedded article in current primary",
+    "translation": "ironing",
+    "senses": ["ironing (with a flatiron)", "deletion, omission, cancellation", "stroke (gentle, with the hand)", "coating (of paint)"]
+  },
+  {
+    "kellyId": 7060,
+    "decision": "fix",
+    "reason": "embedded article 'a' in main translation; horse-hoof sense is too marginal to include",
+    "translation": "ray, beam",
+    "senses": ["ray, beam (of light or radiation)", "jet, squirt (narrow stream of liquid)", "ray (geometric half-line)"]
+  },
+  {
+    "kellyId": 8106,
+    "decision": "fix",
+    "reason": "primary nouns are uncountable in English",
+    "translation": "severity, strictness",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7749,
+    "decision": "fix",
+    "reason": "embedded 'to' in main translation",
+    "translation": "wander, roam, stroll",
+    "senses": []
+  },
+  {
+    "kellyId": 7155,
+    "decision": "fix",
+    "reason": "clumsy phrasing; 'board chair' is cleaner and gender-neutral; sub has embedded article",
+    "translation": "board chair",
+    "senses": ["board chair, chairman of the board", "company president"]
+  },
+  {
+    "kellyId": 7606,
+    "decision": "fix",
+    "reason": "first sub-sense is redundant with 'stiff'; senses need cleanup",
+    "translation": "stiff",
+    "senses": ["stiff, rigid", "skilled, impressive (colloquial)"]
+  },
+  {
+    "kellyId": 7301,
+    "decision": "fix",
+    "reason": "embedded article 'a' in main translation",
+    "translation": "pole, rod, bar",
+    "senses": []
+  },
+  {
+    "kellyId": 8090,
+    "decision": "fix",
+    "reason": "second sense is definition-like; 'outfit' captures it better",
+    "translation": "stand",
+    "senses": ["stand (to hold things upright)", "outfit, getup"]
+  },
+  {
+    "kellyId": 7708,
+    "decision": "fix",
+    "reason": "moan and groan are synonyms for the same meaning; collapse to single meaning",
+    "translation": "moan, groan",
+    "senses": []
+  },
+  {
+    "kellyId": 7082,
+    "decision": "fix",
+    "reason": "primary 'sharp impact' is definition-like; senses had embedded articles",
+    "translation": "knock, jolt",
+    "senses": ["knock, jolt, bump (physical impact)", "thrust, lunge", "electric shock", "blast, blow (on a horn etc.)"]
+  },
+  {
+    "kellyId": 7264,
+    "decision": "fix",
+    "reason": "'summering' in Swedish primarily means summary/summing-up, not mathematical summation",
+    "translation": "summary, summing-up",
+    "senses": []
+  },
+  {
+    "kellyId": 7053,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation; 'sough' is archaic for learners; better gloss for the wind-sound meaning",
+    "translation": "whoosh, rustle, sigh (of wind)",
+    "senses": []
+  },
+  {
+    "kellyId": 7344,
+    "decision": "fix",
+    "reason": "'jealousness' is rarely used; 'jealousy' is the natural word; uncountable",
+    "translation": "jealousy",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7859,
+    "decision": "fix",
+    "reason": "sub-definition is a redundant paraphrase of the main translation",
+    "translation": "sister-in-law",
+    "senses": []
+  },
+  {
+    "kellyId": 8252,
+    "decision": "fix",
+    "reason": "sub-definition is a redundant paraphrase of the main translation",
+    "translation": "daughter-in-law",
+    "senses": []
+  },
+  {
+    "kellyId": 8370,
+    "decision": "fix",
+    "reason": "sub-definition is a redundant paraphrase of the main translation",
+    "translation": "father-in-law",
+    "senses": []
+  },
+  {
+    "kellyId": 8330,
+    "decision": "fix",
+    "reason": "sub-definition is a redundant paraphrase of the main translation",
+    "translation": "mother-in-law",
+    "senses": []
+  },
+  {
+    "kellyId": 7967,
+    "decision": "fix",
+    "reason": "sub-definition is a redundant paraphrase of the main translation",
+    "translation": "son-in-law",
+    "senses": []
+  },
+  {
+    "kellyId": 8416,
+    "decision": "fix",
+    "reason": "embedded 'to' in main translation (app adds it for verbs)",
+    "translation": "make sour, acidify",
+    "senses": []
+  },
+  {
+    "kellyId": 8268,
+    "decision": "fix",
+    "reason": "'nibling' is a niche coined term; sub-definition is redundant; collapse to single meaning",
+    "translation": "niece or nephew",
+    "senses": []
+  },
+  {
+    "kellyId": 8074,
+    "decision": "fix",
+    "reason": "'sororal niece' is obscure; clearer as 'sister's daughter, niece'",
+    "translation": "sister's daughter, niece",
+    "senses": []
+  },
+  {
+    "kellyId": 8027,
+    "decision": "fix",
+    "reason": "'sororal nephew' is obscure; clearer as 'sister's son, nephew'",
+    "translation": "sister's son, nephew",
+    "senses": []
+  },
+  {
+    "kellyId": 8194,
+    "decision": "fix",
+    "reason": "'distinctiveness' is an uncountable noun in English",
+    "translation": "distinctiveness",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7457,
+    "decision": "fix",
+    "reason": "Latin species name is unnecessary; cleaner as 'pine, Scots pine'",
+    "translation": "pine, Scots pine",
+    "senses": []
+  },
+  {
+    "kellyId": 8257,
+    "decision": "fix",
+    "reason": "senses list needed to distinguish the two meanings more clearly",
+    "translation": "theatrical",
+    "senses": ["theatrical (over-dramatic, affected)", "theatrical (of or relating to the theater)"]
+  },
+  {
+    "kellyId": 7071,
+    "decision": "fix",
+    "reason": "'tegel' is a material noun; in English 'brick' as a material is uncountable",
+    "translation": "brick, tiles",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7161,
+    "decision": "fix",
+    "reason": "'telecommunication' is an uncountable noun in English",
+    "translation": "telecommunication",
+    "uncountable": true,
+    "senses": []
+  }
+]

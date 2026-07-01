@@ -1,0 +1,318 @@
+[
+  {
+    "kellyId": 4738,
+    "decision": "fix",
+    "reason": "single-meaning word; subDef is a definition clause, not a true second sense — clear the list",
+    "senses": []
+  },
+  {
+    "kellyId": 4566,
+    "decision": "fix",
+    "reason": "primary 'be informed' is the formal/secondary sense; everyday primary is 'learn, find out'. Senses items also had 'to' prefixes which the app adds.",
+    "translation": "learn, find out",
+    "senses": ["learn, find out, be informed", "experience"]
+  },
+  {
+    "kellyId": 5025,
+    "decision": "fix",
+    "reason": "embedded article in 'replacement, a substitute'; bare it",
+    "translation": "replacement, substitute",
+    "senses": []
+  },
+  {
+    "kellyId": 4795,
+    "decision": "fix",
+    "reason": "subDef is definition-like; rewrite as concise senses",
+    "senses": ["leg, stage (of a journey or race)", "stage (of a process)"]
+  },
+  {
+    "kellyId": 4627,
+    "decision": "fix",
+    "reason": "'ethnos' is a marginal academic term rarely used in English — drop it. Ethnicity is uncountable.",
+    "translation": "ethnicity",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4236,
+    "decision": "fix",
+    "reason": "senses list was incomplete — missing 'first gear' and 'studio apartment', both common everyday senses in Swedish. Existing items were also definition-padded.",
+    "senses": ["one, the digit 1", "first year (of school)", "first gear", "studio apartment (one room)"]
+  },
+  {
+    "kellyId": 5449,
+    "decision": "fix",
+    "reason": "translation 'expedition, a journey, a mission' has embedded articles; 'expedition' is the clear primary. SubDef is definition-like.",
+    "translation": "expedition",
+    "senses": ["expedition, journey, mission", "administration office (that processes requests)"]
+  },
+  {
+    "kellyId": 5287,
+    "decision": "fix",
+    "reason": "subDef items are definition-like sentences; rewrite as concise senses",
+    "senses": ["answer key", "hindsight (with the benefit of)"]
+  },
+  {
+    "kellyId": 4733,
+    "decision": "fix",
+    "reason": "primary 'father's father' and subDef 'paternal grandfather' say the same thing; use the cleaner term as primary, single meaning",
+    "translation": "paternal grandfather",
+    "senses": []
+  },
+  {
+    "kellyId": 4609,
+    "decision": "fix",
+    "reason": "primary 'facade, usually the front side' has a qualifier baked in making it clumsy; use bare 'facade' with clean senses",
+    "translation": "facade",
+    "senses": ["facade (of a building)", "facade, front (deceptive appearance)"]
+  },
+  {
+    "kellyId": 5268,
+    "decision": "fix",
+    "reason": "'fictitious' and 'fictional' are near-synonyms for Swedish 'fiktiv' and used almost interchangeably — merge into one sense, single-meaning word",
+    "translation": "fictitious, fictional",
+    "senses": []
+  },
+  {
+    "kellyId": 5208,
+    "decision": "fix",
+    "reason": "'fiscal policy' is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4523,
+    "decision": "fix",
+    "reason": "senses items had 'to' prefix which the app adds; clean them",
+    "senses": ["film, record", "dive, fake a foul (football)"]
+  },
+  {
+    "kellyId": 4561,
+    "decision": "fix",
+    "reason": "embedded article in 'firm, a company'; bare it",
+    "translation": "firm, company",
+    "senses": []
+  },
+  {
+    "kellyId": 4432,
+    "decision": "fix",
+    "reason": "'fardel' is archaic/obscure — drop it; keep 'quarter, fourth'",
+    "translation": "quarter, fourth",
+    "senses": []
+  },
+  {
+    "kellyId": 4315,
+    "decision": "fix",
+    "reason": "subDef is a definition clause, not a true second sense; single-meaning word — clear the list",
+    "senses": []
+  },
+  {
+    "kellyId": 5567,
+    "decision": "fix",
+    "reason": "current senses list was missing 'fly (insect)' as the primary/first sense",
+    "senses": ["fly (insect)", "fly (fishing lure)", "bowtie", "fad, craze"]
+  },
+  {
+    "kellyId": 5456,
+    "decision": "fix",
+    "reason": "primary 'flight, aviation, flying' over-synonymises; core primary is 'flight'. Two distinct meanings: the act of flying vs. a specific airline trip.",
+    "translation": "flight",
+    "senses": ["flight, flying (act of flying)", "flight (airline trip)"]
+  },
+  {
+    "kellyId": 4302,
+    "decision": "fix",
+    "reason": "last sense 'floating, present participle of flyta' is a grammatical note, not a meaning — remove it",
+    "senses": ["fluent", "flowing, fluid", "liquid (physical state)", "buoyant, floating"]
+  },
+  {
+    "kellyId": 4988,
+    "decision": "fix",
+    "reason": "embedded article in 'move, a relocation'; bare it",
+    "translation": "move, relocation",
+    "senses": []
+  },
+  {
+    "kellyId": 5174,
+    "decision": "fix",
+    "reason": "third subDef 'to not move an inch' is an idiom/phrase sense, not a standalone noun meaning — drop it from the noun's list",
+    "senses": ["stain", "spot, patch"]
+  },
+  {
+    "kellyId": 4680,
+    "decision": "fix",
+    "reason": "'folk highschool' should be 'folk high school' (standard English two-word form)",
+    "translation": "folk high school",
+    "senses": []
+  },
+  {
+    "kellyId": 4804,
+    "decision": "fix",
+    "reason": "subDef is a definition clause — 'folkrörelse' has one meaning; clear the list",
+    "senses": []
+  },
+  {
+    "kellyId": 5590,
+    "decision": "fix",
+    "reason": "in everyday Swedish political use 'fraktion' most commonly means a parliamentary faction/group, not a mathematical fraction. Promote the right primary.",
+    "translation": "faction",
+    "senses": ["faction (political group)", "fraction (portion of a whole)"]
+  },
+  {
+    "kellyId": 4340,
+    "decision": "fix",
+    "reason": "primary 'cause the emergence of' is a definition-like gloss; the core sense is 'induce, cause, evoke'",
+    "translation": "induce, cause, evoke",
+    "senses": ["induce, cause, evoke", "develop (photographic film)", "summon (a witness)"]
+  },
+  {
+    "kellyId": 4342,
+    "decision": "fix",
+    "reason": "'apparent' is wrong — 'framträdande' means prominent, conspicuous, striking",
+    "translation": "prominent, conspicuous",
+    "senses": []
+  },
+  {
+    "kellyId": 4501,
+    "decision": "fix",
+    "reason": "'frustration' is an uncountable English noun",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5299,
+    "decision": "fix",
+    "reason": "senses list items are definition-padded; clean them",
+    "senses": ["question mark (punctuation)", "unanswered question, uncertainty"]
+  },
+  {
+    "kellyId": 5413,
+    "decision": "fix",
+    "reason": "senses items 'absent; not present' and 'absent; preoccupied' restate 'absent' redundantly; rewrite as two clean distinct senses",
+    "senses": ["absent (not present)", "absent-minded, preoccupied"]
+  },
+  {
+    "kellyId": 4293,
+    "decision": "fix",
+    "reason": "senses list should have the generic sense first and the proper-noun (religious) sense second per rule 7",
+    "senses": ["savior", "Savior (Jesus Christ)"]
+  },
+  {
+    "kellyId": 4745,
+    "decision": "fix",
+    "reason": "senses items have definition-like parenthetical padding; clean them",
+    "senses": ["stranger (unfamiliar person)", "stranger (outsider, one who doesn't belong)"]
+  },
+  {
+    "kellyId": 5040,
+    "decision": "fix",
+    "reason": "subDef 'a seed (origin)' parenthetical should indicate figurative use more clearly",
+    "senses": ["seed", "seed (figurative)"]
+  },
+  {
+    "kellyId": 4562,
+    "decision": "fix",
+    "reason": "in modern everyday Swedish 'förankring' most commonly means grounding or stakeholder buy-in; 'anchorage' (nautical) is the literal but rarer sense. Promote the right primary.",
+    "translation": "grounding, buy-in",
+    "senses": ["grounding, buy-in (stakeholder support)", "anchorage (nautical)"]
+  },
+  {
+    "kellyId": 4377,
+    "decision": "fix",
+    "reason": "translation 'unite, to join' has 'to' prefix on the second item; also 'connect' is a more natural primary for this verb",
+    "translation": "connect, join",
+    "senses": ["connect, join, link", "bandage (a wound)", "pledge, commit (oneself)"]
+  },
+  {
+    "kellyId": 5003,
+    "decision": "fix",
+    "reason": "subDef 'an array of states or nations' is a definition clause — single-meaning word; clear the list",
+    "senses": []
+  },
+  {
+    "kellyId": 5028,
+    "decision": "fix",
+    "reason": "translation 'establish, to determine, to ascertain' has 'to' prefixes on second and third items; clean phrasing",
+    "translation": "establish, determine",
+    "senses": []
+  },
+  {
+    "kellyId": 5195,
+    "decision": "fix",
+    "reason": "first subDef 'a fever (various diseases)' is a near-duplicate of primary; senses should distinguish the two real meanings",
+    "senses": ["fever (high body temperature)", "fever (excited state)"]
+  },
+  {
+    "kellyId": 5126,
+    "decision": "fix",
+    "reason": "primary is a definition-like clause; the clean adjective translation is 'Finnish'",
+    "translation": "Finnish",
+    "senses": []
+  },
+  {
+    "kellyId": 5437,
+    "decision": "fix",
+    "reason": "'fear, misgiving, concern' — 'fear' is too strong for 'farhåga' which leans toward worry/misgiving; also app would render 'a fear, misgiving, concern' which is awkward",
+    "translation": "misgiving, concern",
+    "senses": []
+  },
+  {
+    "kellyId": 4812,
+    "decision": "fix",
+    "reason": "senses items had definition-like padding; clean them",
+    "senses": ["ancient past", "prehistory (before written records)"]
+  },
+  {
+    "kellyId": 4400,
+    "decision": "fix",
+    "reason": "the secondary senses 'rustling' and 'crunch' belong to a different homophonous word; for a CEFR vocab learner 'phrase' is the only relevant sense — clear the list",
+    "senses": []
+  },
+  {
+    "kellyId": 4762,
+    "decision": "fix",
+    "reason": "embedded article in 'disability, a handicap'; bare it",
+    "translation": "disability, handicap",
+    "senses": []
+  },
+  {
+    "kellyId": 5387,
+    "decision": "fix",
+    "reason": "primary 'colour, to dye, to taint, to paint' has 'to' prefixes and lists four synonyms; two distinct senses exist",
+    "translation": "colour, dye",
+    "senses": ["colour, dye, tint", "colour, influence (figurative)"]
+  },
+  {
+    "kellyId": 5103,
+    "decision": "fix",
+    "reason": "primary 'fastening, hold, attachment' is fine but imprecise; 'fäste' most concretely means a hold/grip or fixing point",
+    "translation": "hold, grip",
+    "senses": ["hold, grip, attachment point", "stronghold, fort", "firmament (archaic/biblical)"]
+  },
+  {
+    "kellyId": 4525,
+    "decision": "fix",
+    "reason": "'föda' has one core meaning; 'sustenance' is a near-synonym not a distinct sense. Also 'food' here is uncountable.",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4906,
+    "decision": "fix",
+    "reason": "subDef 'the front part of a boat or a ship' is a definition of 'bow', not a second sense — clear the list",
+    "senses": []
+  },
+  {
+    "kellyId": 5010,
+    "decision": "fix",
+    "reason": "'hostility' is uncountable; 'hostile speech' is a marginal subtype, not a distinct meaning — single sense",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4946,
+    "decision": "fix",
+    "reason": "'fake, simulated, faux' is an adjectival use, not a noun sense of 'fusk'; trim the list to the genuine noun senses",
+    "senses": ["cheating, fraud", "shoddy work, bad workmanship"]
+  }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "kellyId": 7834,
+    "decision": "fix",
+    "reason": "senses list item is slightly clumsy; clean to bare glosses",
+    "senses": ["glue", "hit on, cling to (colloquial)"]
+  },
+  {
+    "kellyId": 7160,
+    "decision": "fix",
+    "reason": "sub-definitions are definition-like expansions of the same word; 'linear' covers all for a flashcard",
+    "senses": []
+  },
+  {
+    "kellyId": 7376,
+    "decision": "fix",
+    "reason": "senses list items carry articles; bare them",
+    "senses": ["linen (fabric)", "tank top, singlet, vest", "camisole", "nightgown, nightdress"]
+  },
+  {
+    "kellyId": 7516,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary; also second sense (phonics teaching) is valid but very specialised",
+    "translation": "sound, resound",
+    "senses": ["sound, resound", "sound out letters (learn to read phonically)"]
+  },
+  {
+    "kellyId": 7263,
+    "decision": "fix",
+    "reason": "senses list items start with 'to'; verbs are listed bare in senses",
+    "senses": ["loosen, come loose", "unload (cargo from a ship)", "fire (a projectile)"]
+  },
+  {
+    "kellyId": 7966,
+    "decision": "fix",
+    "reason": "air conditioning is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7306,
+    "decision": "fix",
+    "reason": "senses list items carry articles; bare them; 'bald face' horse marking is very marginal, keep concise",
+    "senses": ["lantern", "lamp, light (encased, incl. electric)", "bald face (horse marking)"]
+  },
+  {
+    "kellyId": 7933,
+    "decision": "fix",
+    "reason": "primary is a definition-like gloss; clearer translation for a flashcard",
+    "translation": "lower primary school (grades 1–3)",
+    "senses": []
+  },
+  {
+    "kellyId": 7953,
+    "decision": "fix",
+    "reason": "slowness is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7193,
+    "decision": "fix",
+    "reason": "primary has redundant synonyms; 'delicious' is enough, 'scrumptious, delectable' add nothing for a learner; secondary sense is valid",
+    "translation": "delicious",
+    "senses": ["delicious, tasty", "hot, attractive (colloquial)"]
+  },
+  {
+    "kellyId": 7409,
+    "decision": "fix",
+    "reason": "leather is an uncountable noun",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7754,
+    "decision": "fix",
+    "reason": "primary has too many synonyms; sub-definition is definition-like; trim to core",
+    "translation": "timely, well-timed",
+    "senses": []
+  },
+  {
+    "kellyId": 8217,
+    "decision": "fix",
+    "reason": "medicine (as a field of study) is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7212,
+    "decision": "fix",
+    "reason": "senses list items are definition-like expansions; clean to concise glosses",
+    "senses": ["majesty (grandeur)", "majesty (power, authority)", "Majesty (royal title)"]
+  },
+  {
+    "kellyId": 8133,
+    "decision": "fix",
+    "reason": "corn/maize is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 8361,
+    "decision": "fix",
+    "reason": "primary has embedded 'to' and a parenthetical definition; fix phrasing",
+    "translation": "move, shift (something heavy)",
+    "senses": ["move, shift (something heavy)", "shuffle over, make room (for someone)"]
+  },
+  {
+    "kellyId": 8198,
+    "decision": "fix",
+    "reason": "sub-definition is a redundant repeat of the primary word",
+    "senses": []
+  },
+  {
+    "kellyId": 8164,
+    "decision": "fix",
+    "reason": "senses list item has definition-like phrasing; clean it",
+    "senses": ["marmalade", "jam (non-citrus fruit preserves)"]
+  },
+  {
+    "kellyId": 7822,
+    "decision": "fix",
+    "reason": "senses list items carry articles; bare them",
+    "senses": ["marshal", "best man (at a wedding)"]
+  },
+  {
+    "kellyId": 7979,
+    "decision": "fix",
+    "reason": "sub-definition is an exact repeat of the primary; clear it",
+    "senses": []
+  },
+  {
+    "kellyId": 7900,
+    "decision": "fix",
+    "reason": "senses list items are definition-like; clean to bare glosses",
+    "senses": ["matrix (mathematical)", "matrix (two-dimensional array)"]
+  },
+  {
+    "kellyId": 7490,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary; fix phrasing",
+    "translation": "accompany, be included",
+    "senses": []
+  },
+  {
+    "kellyId": 7136,
+    "decision": "fix",
+    "reason": "'senseless, insensible' is essentially a synonym of 'unconscious'; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 8062,
+    "decision": "fix",
+    "reason": "senses list item for the Egyptian history sense is very niche; keep but trim",
+    "senses": ["meantime, interim", "intermediate period (Egyptian history)"]
+  },
+  {
+    "kellyId": 8080,
+    "decision": "fix",
+    "reason": "senses list item contains redundant label; clean to concise glosses",
+    "senses": ["metallic (relating to metals)", "metallic (of a sound or voice)"]
+  },
+  {
+    "kellyId": 8390,
+    "decision": "fix",
+    "reason": "'metal thread' is just a literal gloss of the compound; 'wire' is the everyday meaning",
+    "translation": "wire",
+    "senses": []
+  },
+  {
+    "kellyId": 7494,
+    "decision": "fix",
+    "reason": "senses list item carries article; bare it",
+    "senses": ["monument", "memorial (in memory of someone)"]
+  },
+  {
+    "kellyId": 7928,
+    "decision": "fix",
+    "reason": "motherhood is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7802,
+    "decision": "fix",
+    "reason": "senses list item carries article; bare it",
+    "senses": ["display case", "exhibition stand, booth"]
+  },
+  {
+    "kellyId": 8066,
+    "decision": "fix",
+    "reason": "primary has multiple embedded 'to'; fix phrasing to single clean gloss",
+    "translation": "mash, squash, crush",
+    "senses": []
+  },
+  {
+    "kellyId": 7027,
+    "decision": "fix",
+    "reason": "senses list items carry articles and first two senses collapse into one; clean up",
+    "senses": ["mug, large cup", "toilet, loo (colloquial)"]
+  },
+  {
+    "kellyId": 8100,
+    "decision": "fix",
+    "reason": "senses list item has spurious capital A; clean it",
+    "senses": ["mosquito", "lavalier microphone, lapel mic"]
+  },
+  {
+    "kellyId": 7536,
+    "decision": "fix",
+    "reason": "senses list items carry articles; bare them",
+    "senses": ["opening, mouth (of a pipe or passage)", "mouth (of a river)", "muzzle (of a gun)"]
+  },
+  {
+    "kellyId": 8199,
+    "decision": "fix",
+    "reason": "primary has embedded article 'a' before 'moor'; fix",
+    "translation": "bog, moor, wetland",
+    "senses": []
+  },
+  {
+    "kellyId": 8321,
+    "decision": "fix",
+    "reason": "moonlight is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7672,
+    "decision": "fix",
+    "reason": "restraint/moderation as an uncountable noun concept; set uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 8265,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary; fix phrasing",
+    "translation": "aim, direct (a blow)",
+    "senses": ["aim, direct (a blow)", "estimate"]
+  },
+  {
+    "kellyId": 7392,
+    "decision": "fix",
+    "reason": "primary has multiple embedded 'to'; fix phrasing",
+    "translation": "satisfy, satiate, saturate",
+    "senses": []
+  },
+  {
+    "kellyId": 7064,
+    "decision": "fix",
+    "reason": "'nalle' in everyday Swedish primarily means teddy bear, not bear in general (that is 'björn'); promote teddy bear",
+    "translation": "teddy bear",
+    "senses": ["teddy bear", "bear (informal/childlike)", "cell phone, mobile (slang)"]
+  },
+  {
+    "kellyId": 7824,
+    "decision": "fix",
+    "reason": "senses list item has article and awkward '-aholic' phrasing; clean it",
+    "senses": ["drug addict", "addict (of an activity)"]
+  }
+]

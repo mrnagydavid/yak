@@ -1,0 +1,65 @@
+[
+  {
+    "id": 10,
+    "name": "cleaner",
+    "kind": "decisions",
+    "agent": "seed-cleaner",
+    "produces": ["translation", "subDefinitions", "drop"],
+    "input": "base",
+    "note": "Fix missing / definition-like translations on flagged words."
+  },
+  {
+    "id": 20,
+    "name": "pos",
+    "kind": "decisions",
+    "agent": "seed-cleaner",
+    "produces": ["translation", "subDefinitions", "ipa", "drop"],
+    "input": "base",
+    "note": "Fix part-of-speech-mismatch glosses."
+  },
+  {
+    "id": 30,
+    "name": "subdef",
+    "kind": "decisions",
+    "agent": "seed-cleaner",
+    "produces": ["translation", "subDefinitions"],
+    "input": "base",
+    "note": "Tidy sub-definitions (meaning lists)."
+  },
+  {
+    "id": 40,
+    "name": "translation",
+    "kind": "translation",
+    "agent": "translation-curator",
+    "produces": ["translation", "subDefinitions", "enUncountable"],
+    "input": "base + layers below",
+    "note": "Active quality pass: main translation + complete meaning list. Wins over the cleaner layers."
+  },
+  {
+    "id": 50,
+    "name": "senses",
+    "kind": "senses",
+    "agent": "sense-partitioner",
+    "produces": ["sense"],
+    "input": "base + layers below",
+    "note": "Group synonyms into senses for production cards. Orthogonal field — never conflicts."
+  },
+  {
+    "id": 60,
+    "name": "examples",
+    "kind": "examples",
+    "agent": "example-writer",
+    "produces": ["examples"],
+    "input": "base + layers below",
+    "note": "Sense-specific example sentences for ambiguous words."
+  },
+  {
+    "id": 90,
+    "name": "manual",
+    "kind": "decisions",
+    "agent": null,
+    "produces": ["translation", "subDefinitions", "ipa", "svUncountable", "drop"],
+    "input": null,
+    "note": "Human overrides — highest precedence."
+  }
+]

@@ -1,0 +1,326 @@
+[
+  {
+    "kellyId": 887,
+    "decision": "fix",
+    "reason": "embedded 'to' in gloss; app adds 'to' automatically",
+    "translation": "accept, approve, receive",
+    "senses": []
+  },
+  {
+    "kellyId": 1005,
+    "decision": "fix",
+    "reason": "subDef 'to take action' is redundant and definition-like for a single-meaning word",
+    "translation": "act",
+    "senses": []
+  },
+  {
+    "kellyId": 434,
+    "decision": "fix",
+    "reason": "list items are definition-like; clean to short translations",
+    "translation": "act",
+    "senses": ["act (theatrical)", "ceremony", "document", "attention, intent"]
+  },
+  {
+    "kellyId": 1281,
+    "decision": "fix",
+    "reason": "embedded article in translation; fix to bare form",
+    "translation": "operation, intervention",
+    "senses": ["operation, intervention (police or military)", "naval battle", "legal action, prosecution", "action (of a machine)"]
+  },
+  {
+    "kellyId": 963,
+    "decision": "fix",
+    "reason": "list primary was definition-like; third Wiktionary sense (proper noun news programme) is not a real adjectival sense",
+    "translation": "current, topical",
+    "senses": ["current, topical, up-to-date", "being planned, on the agenda"]
+  },
+  {
+    "kellyId": 561,
+    "decision": "fix",
+    "reason": "list items have definition-like parentheticals; clean to short translations",
+    "translation": "general",
+    "senses": ["general (universal)", "public, common"]
+  },
+  {
+    "kellyId": 304,
+    "decision": "fix",
+    "reason": "missing common filler/discourse-marker sense of 'alltså'",
+    "translation": "therefore, thus",
+    "senses": ["therefore, thus, consequently", "that is, in other words, I mean", "well, so (filler, discourse marker)"]
+  },
+  {
+    "kellyId": 1125,
+    "decision": "fix",
+    "reason": "list item has a definition-like parenthetical; clean it",
+    "translation": "serious",
+    "senses": ["serious (solemn, not joking)", "serious, severe, grave"]
+  },
+  {
+    "kellyId": 576,
+    "decision": "fix",
+    "reason": "list items have trailing periods and are definition-like",
+    "translation": "American",
+    "senses": ["American (of the USA)", "American (of the Americas)"]
+  },
+  {
+    "kellyId": 1075,
+    "decision": "fix",
+    "reason": "list item 'either of differential or integral calculus' is definition-like; clean it",
+    "translation": "analysis",
+    "senses": ["analysis", "calculus (differential or integral)"]
+  },
+  {
+    "kellyId": 893,
+    "decision": "fix",
+    "reason": "'spirit' appears in both translation and list; list is also incomplete — fix for completeness without duplication",
+    "translation": "spirit",
+    "senses": ["spirit (incorporeal being)", "ghost", "genie"]
+  },
+  {
+    "kellyId": 1060,
+    "decision": "fix",
+    "reason": "list items are definition-like; clean to short translations",
+    "translation": "share, proportion",
+    "senses": ["share (someone's part of something)", "proportion, share (more general)"]
+  },
+  {
+    "kellyId": 1,
+    "decision": "fix",
+    "reason": "subDef 'advance, set forth, state' belongs to the verb 'andra', not the numeral; clear the list",
+    "translation": "second",
+    "senses": []
+  },
+  {
+    "kellyId": 818,
+    "decision": "fix",
+    "reason": "'point out' is subsumed by 'indicate'; merge in primary, and keep 'report to police' as second sense",
+    "translation": "indicate, point out",
+    "senses": ["indicate, point out", "report (to the police), turn in"]
+  },
+  {
+    "kellyId": 1228,
+    "decision": "fix",
+    "reason": "embedded articles in translation; fix to bare form",
+    "translation": "suspicion, idea, notion",
+    "senses": ["suspicion, idea, notion", "a bit, a touch (small amount)"]
+  },
+  {
+    "kellyId": 502,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary gloss",
+    "translation": "report, notify authorities about",
+    "senses": ["report, notify authorities about (someone or something)", "sign up (for an activity)", "check in, announce one's arrival"]
+  },
+  {
+    "kellyId": 269,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation; rephrase to cleaner bare form",
+    "translation": "consider, think, believe",
+    "senses": []
+  },
+  {
+    "kellyId": 1368,
+    "decision": "fix",
+    "reason": "subDef is a definition, not a translation; single-meaning word",
+    "translation": "face",
+    "senses": []
+  },
+  {
+    "kellyId": 494,
+    "decision": "fix",
+    "reason": "subDef is definition-like and redundant; responsibility is uncountable",
+    "translation": "responsibility",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 652,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation; list 'guess, suppose' overlaps with primary; clean",
+    "translation": "assume, suppose",
+    "senses": ["assume, suppose", "accept (an offer)", "admit (to a school, programme)"]
+  },
+  {
+    "kellyId": 391,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary; list items are definition-like",
+    "translation": "work",
+    "senses": ["work (be employed)", "work (do a task)", "work (shape material)", "work (influence, affect)"]
+  },
+  {
+    "kellyId": 1143,
+    "decision": "fix",
+    "reason": "list items are definition-like; 'collective term for all employees' is a category sense, not a translation; clean list",
+    "translation": "worker",
+    "senses": ["worker, employee", "blue-collar worker, manual labourer"]
+  },
+  {
+    "kellyId": 290,
+    "decision": "fix",
+    "reason": "list items are definition-like; clean to short translations",
+    "translation": "work, job",
+    "senses": ["work, job (employment)", "work, effort (on a task)", "work (physics, energy)"]
+  },
+  {
+    "kellyId": 1384,
+    "decision": "fix",
+    "reason": "unemployment is an uncountable noun",
+    "translation": "unemployment",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 863,
+    "decision": "fix",
+    "reason": "primary is definition-like; clean to bare translation; two list items near-duplicate each other",
+    "translation": "argument",
+    "senses": ["argument (supporting a position)", "argument (programming, variable passed to a function)"]
+  },
+  {
+    "kellyId": 268,
+    "decision": "fix",
+    "reason": "list items are definition-like; clean to short translations",
+    "translation": "article",
+    "senses": ["article (in a newspaper or journal)", "article (in a legal document)", "article (item, product)", "article (grammar)"]
+  },
+  {
+    "kellyId": 800,
+    "decision": "fix",
+    "reason": "subDef 'to fix the mind upon' is definition-like and redundant; single effective meaning",
+    "translation": "intend, mean",
+    "senses": []
+  },
+  {
+    "kellyId": 839,
+    "decision": "fix",
+    "reason": "primary 'ground' is wrong — 'bakgrund' means 'background'",
+    "translation": "background",
+    "senses": ["background (of a picture or scene)", "background, origins (social heritage)"]
+  },
+  {
+    "kellyId": 3,
+    "decision": "fix",
+    "reason": "subDef is a definition, not a translation; single-meaning adjective",
+    "translation": "rear, back",
+    "senses": []
+  },
+  {
+    "kellyId": 986,
+    "decision": "fix",
+    "reason": "list is incomplete; 'band' also means volume (of a book), tape/ribbon, bond/tie in Swedish",
+    "translation": "band",
+    "senses": ["band (music, stripe, group)", "volume (of a book or series)", "tape, ribbon", "bond, tie"]
+  },
+  {
+    "kellyId": 230,
+    "decision": "fix",
+    "reason": "'pregnant, with child' is an idiom not a sense of 'barn' alone; 'barn (unit of area)' is too marginal for a flashcard; clean list",
+    "translation": "child",
+    "senses": ["child (person under adulthood)", "child, son or daughter", "child (figurative offspring)"]
+  },
+  {
+    "kellyId": 645,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation",
+    "translation": "ask, request",
+    "senses": ["ask, request", "pray", "beg, plead"]
+  },
+  {
+    "kellyId": 1196,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation",
+    "translation": "operate, run, manage",
+    "senses": []
+  },
+  {
+    "kellyId": 944,
+    "decision": "fix",
+    "reason": "list items are definition-like; clean to short translations",
+    "translation": "be located, be situated",
+    "senses": ["be located, be situated", "be in a (non-permanent) state or condition"]
+  },
+  {
+    "kellyId": 900,
+    "decision": "fix",
+    "reason": "list items are definition-like; clean to short translations",
+    "translation": "concept",
+    "senses": ["concept, notion", "understanding (of something)", "household name, well-known thing"]
+  },
+  {
+    "kellyId": 864,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation; list items are definition-like",
+    "translation": "treat, process",
+    "senses": ["treat, process (material)", "treat (medically)", "treat (someone a certain way)", "treat, deal with (a subject)"]
+  },
+  {
+    "kellyId": 1217,
+    "decision": "fix",
+    "reason": "list items are definition-like; clean to short translations",
+    "translation": "treatment, processing",
+    "senses": ["treatment, processing (of material)", "treatment (medical)", "treatment (of a person)", "treatment (of a subject)"]
+  },
+  {
+    "kellyId": 524,
+    "decision": "fix",
+    "reason": "embedded article in translation",
+    "translation": "need, requirement",
+    "senses": []
+  },
+  {
+    "kellyId": 1279,
+    "decision": "fix",
+    "reason": "subDef is definition-like; single-meaning word",
+    "translation": "keep",
+    "senses": []
+  },
+  {
+    "kellyId": 1201,
+    "decision": "fix",
+    "reason": "embedded articles in translation",
+    "translation": "story, narrative, account",
+    "senses": []
+  },
+  {
+    "kellyId": 798,
+    "decision": "fix",
+    "reason": "embedded 'to' and redundant phrase 'to make a decision' in translation",
+    "translation": "decide",
+    "senses": ["decide (make a decision)", "make up one's mind"]
+  },
+  {
+    "kellyId": 786,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation",
+    "translation": "consist of, be made of",
+    "senses": ["consist of, be made of", "endure, persist, survive"]
+  },
+  {
+    "kellyId": 543,
+    "decision": "fix",
+    "reason": "list items are definition-like; clean to short translations",
+    "translation": "decide",
+    "senses": ["decide, be in charge", "decide (as a group)", "determine (something)", "modify (grammar)"]
+  },
+  {
+    "kellyId": 397,
+    "decision": "fix",
+    "reason": "primary 'test software prior to release' is a niche tech sense; 'beta' primarily means 'graze' in Swedish",
+    "translation": "graze",
+    "senses": ["graze (eat grass)", "beta-test (software)", "steal (slang)"]
+  },
+  {
+    "kellyId": 956,
+    "decision": "fix",
+    "reason": "two distinct senses (observe vs. regard/consider); primary should be the more literal sense; list items clean",
+    "translation": "look at, observe",
+    "senses": ["look at, observe, contemplate", "regard, consider (as something)"]
+  },
+  {
+    "kellyId": 1190,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation",
+    "translation": "determine, decide",
+    "senses": ["determine, decide", "score the winning goal, be the deciding factor"]
+  }
+]

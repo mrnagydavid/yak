@@ -1,0 +1,303 @@
+[
+  {
+    "kellyId": 1342,
+    "decision": "fix",
+    "reason": "'proof' is the primary but 'evidence' is equally common for bevis; adding it as a synonym and noting both senses",
+    "translation": "proof, evidence",
+    "senses": []
+  },
+  {
+    "kellyId": 1070,
+    "decision": "fix",
+    "reason": "sub-definition had embedded article 'a'; cleaned up senses list",
+    "translation": "contribution",
+    "senses": ["contribution", "grant, subsidy, benefit (government or social)"]
+  },
+  {
+    "kellyId": 558,
+    "decision": "fix",
+    "reason": "truck/van as subcategories of bil is confusing Wiktionary trivia, not genuine polysemy; bil means car",
+    "translation": "car",
+    "senses": []
+  },
+  {
+    "kellyId": 280,
+    "decision": "fix",
+    "reason": "image and photo are near-synonyms of picture, not distinct meanings; cleared redundant list",
+    "translation": "picture, image",
+    "senses": []
+  },
+  {
+    "kellyId": 894,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary; fixed phrasing and cleaned senses",
+    "translation": "form, create",
+    "senses": ["form, create (build or establish)", "educate, cultivate (general knowledge)"]
+  },
+  {
+    "kellyId": 626,
+    "decision": "fix",
+    "reason": "primary sense wrong: bildning most commonly means education/culture/refinement; formation is the secondary sense; also had embedded 'a'",
+    "translation": "education, culture",
+    "senses": ["education, culture, refinement", "formation, buildup (geological, biological)"]
+  },
+  {
+    "kellyId": 1270,
+    "decision": "fix",
+    "reason": "sub-defs are archaic/rare senses (reasonable, fair, honest) that clutter the list; keeping only the common modern sense",
+    "translation": "cheap",
+    "senses": []
+  },
+  {
+    "kellyId": 1337,
+    "decision": "fix",
+    "reason": "embedded articles in senses list",
+    "translation": "piece",
+    "senses": ["piece, bit (fragment or portion)", "bit, stretch (a certain distance)", "piece, tune (music)"]
+  },
+  {
+    "kellyId": 718,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary; senses were bloated with redundant sub-senses",
+    "translation": "offer, treat",
+    "senses": ["offer, treat (give food/drink or pay for someone)", "invite", "bid (at auction)"]
+  },
+  {
+    "kellyId": 407,
+    "decision": "fix",
+    "reason": "'inter alia' sub-def is just a Latin synonym, not a distinct meaning; single sense",
+    "translation": "among other things",
+    "senses": []
+  },
+  {
+    "kellyId": 504,
+    "decision": "fix",
+    "reason": "embedded 'to' twice in primary; fixed phrasing",
+    "translation": "live, dwell",
+    "senses": []
+  },
+  {
+    "kellyId": 771,
+    "decision": "fix",
+    "reason": "'betting syndicate' and 'short for systembolag' are highly marginal; keeping only primary meaning",
+    "translation": "company, corporation",
+    "senses": []
+  },
+  {
+    "kellyId": 846,
+    "decision": "fix",
+    "reason": "senses list is definition-like; primary translation is reasonable; cleaned to concise list",
+    "translation": "bourgeois, citizen",
+    "senses": ["bourgeois, citizen (member of the middle class or town)", "non-socialist (in Swedish politics)"]
+  },
+  {
+    "kellyId": 1362,
+    "decision": "fix",
+    "reason": "sub-def phrasing is definition-like; cleaned",
+    "translation": "away, gone",
+    "senses": ["away, gone, lost (of a thing)", "out of it, absent-minded (of a person)"]
+  },
+  {
+    "kellyId": 166,
+    "decision": "fix",
+    "reason": "sub-defs are definition-like; cleaned senses",
+    "translation": "good",
+    "senses": ["good", "well, recovered (after illness)", "quite a lot (in extent or degree)"]
+  },
+  {
+    "kellyId": 400,
+    "decision": "fix",
+    "reason": "sub-def had embedded article 'a'; cleaned senses",
+    "translation": "well",
+    "senses": ["well", "quite, a good deal (to a large extent)"]
+  },
+  {
+    "kellyId": 1150,
+    "decision": "fix",
+    "reason": "sub-def 'broad (having great extent)' is a near-synonym, not a distinct meaning",
+    "translation": "wide, broad",
+    "senses": []
+  },
+  {
+    "kellyId": 1168,
+    "decision": "fix",
+    "reason": "embedded articles in senses; niche senses trimmed to meaningful ones",
+    "translation": "letter",
+    "senses": ["letter (written communication)", "legal document, certificate", "post (on an internet forum)"]
+  },
+  {
+    "kellyId": 959,
+    "decision": "fix",
+    "reason": "lack and deficiency are near-synonyms here, not distinct meanings",
+    "translation": "lack, shortage",
+    "senses": []
+  },
+  {
+    "kellyId": 715,
+    "decision": "fix",
+    "reason": "primary was wrong: brott most commonly means crime in everyday Swedish; break/fracture is secondary",
+    "translation": "crime",
+    "senses": ["crime (act that breaks the law)", "break, fracture (a point of breaking)"]
+  },
+  {
+    "kellyId": 361,
+    "decision": "fix",
+    "reason": "'use to' is a typo/error; should be 'used to' — the habitual past tense gloss",
+    "translation": "used to, tend to",
+    "senses": ["used to, tend to (habitual action)", "use, employ (for a purpose)"]
+  },
+  {
+    "kellyId": 704,
+    "decision": "fix",
+    "reason": "senses list is bloated and definition-like; consolidated to meaningful distinct senses",
+    "translation": "break",
+    "senses": ["break, end abruptly", "crack, fracture (under physical strain)", "violate (a law or rule)", "speak with an accent"]
+  },
+  {
+    "kellyId": 957,
+    "decision": "fix",
+    "reason": "'hamlet' is too narrow; by most commonly means village in Swedish",
+    "translation": "village",
+    "senses": ["village, hamlet (small settlement)", "farm (in place names)"]
+  },
+  {
+    "kellyId": 256,
+    "decision": "fix",
+    "reason": "sub-def 'each of (out of two)' is a restatement of 'both', not a distinct meaning",
+    "translation": "both",
+    "senses": []
+  },
+  {
+    "kellyId": 1154,
+    "decision": "fix",
+    "reason": "sub-def 'improve (oneself)' is a reflexive use, not a distinct meaning",
+    "translation": "improve",
+    "senses": []
+  },
+  {
+    "kellyId": 188,
+    "decision": "fix",
+    "reason": "'start' is a near-synonym of 'begin'; combined into one translation, cleared list",
+    "translation": "begin, start",
+    "senses": []
+  },
+  {
+    "kellyId": 1191,
+    "decision": "fix",
+    "reason": "sub-def is a definition, not a distinct meaning",
+    "translation": "boss, manager",
+    "senses": []
+  },
+  {
+    "kellyId": 1249,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary",
+    "translation": "cite, quote",
+    "senses": []
+  },
+  {
+    "kellyId": 1381,
+    "decision": "fix",
+    "reason": "sub-defs were definition-like or POS notes; cleaned",
+    "translation": "civil, civilian",
+    "senses": ["civil, civilian (non-military, non-police)", "civilian (noun — person not in military or police)"]
+  },
+  {
+    "kellyId": 115,
+    "decision": "fix",
+    "reason": "sub-def is a grammar definition, not a meaning; single-sense word",
+    "translation": "the",
+    "senses": []
+  },
+  {
+    "kellyId": 179,
+    "decision": "fix",
+    "reason": "part and share are near-synonyms here; single sense",
+    "translation": "part, share",
+    "senses": []
+  },
+  {
+    "kellyId": 515,
+    "decision": "fix",
+    "reason": "'deal, share' is a poor primary; dela means share/divide; senses cleaned",
+    "translation": "share, divide",
+    "senses": ["share, divide (distribute among recipients)", "share (have in common)", "split, divide (into parts)"]
+  },
+  {
+    "kellyId": 664,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary",
+    "translation": "participate, take part",
+    "senses": []
+  },
+  {
+    "kellyId": 168,
+    "decision": "fix",
+    "reason": "sub-def is a grammar note, not a meaning",
+    "translation": "them",
+    "senses": []
+  },
+  {
+    "kellyId": 636,
+    "decision": "fix",
+    "reason": "sub-defs are definition-like; democracy is single core meaning",
+    "translation": "democracy",
+    "senses": []
+  },
+  {
+    "kellyId": 238,
+    "decision": "fix",
+    "reason": "sub-def 'belonging to them' is a grammar definition, not a distinct meaning",
+    "translation": "their",
+    "senses": []
+  },
+  {
+    "kellyId": 91,
+    "decision": "fix",
+    "reason": "sub-defs are genuine distinct adverb senses (sen dess, till dess); cleaned to concise senses",
+    "translation": "its",
+    "senses": ["its (possessive, of a thing)", "then, by then (used in 'sen dess', 'till dess')"]
+  },
+  {
+    "kellyId": 248,
+    "decision": "fix",
+    "reason": "sub-def is a grammar note, not a distinct meaning",
+    "translation": "you",
+    "senses": []
+  },
+  {
+    "kellyId": 547,
+    "decision": "fix",
+    "reason": "'argument' as primary is misleading; diskussion is neutral (discussion, not argument/fight)",
+    "translation": "discussion",
+    "senses": []
+  },
+  {
+    "kellyId": 789,
+    "decision": "fix",
+    "reason": "'thither' is archaic; fixed to natural modern English",
+    "translation": "there, that way",
+    "senses": ["there, that way (movement toward a place)", "where (to the place where)"]
+  },
+  {
+    "kellyId": 1388,
+    "decision": "fix",
+    "reason": "sub-defs are near-synonyms/restatements of deep, not distinct meanings",
+    "translation": "deep",
+    "senses": []
+  },
+  {
+    "kellyId": 587,
+    "decision": "fix",
+    "reason": "senses needed cleaning; 'doomsday' is archaic; 'dome/cathedral' is a valid secondary",
+    "translation": "verdict, sentence",
+    "senses": ["verdict, sentence, judgement (legal)", "cathedral, dome (architecture)"]
+  },
+  {
+    "kellyId": 856,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary; trimmed to cleaner gloss",
+    "translation": "strike, affect, befall",
+    "senses": ["strike, affect, befall (of something negative)", "clash, battle (enter into combat)"]
+  }
+]

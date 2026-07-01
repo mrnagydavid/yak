@@ -1,0 +1,246 @@
+[
+  {
+    "kellyId": 4888,
+    "decision": "fix",
+    "reason": "senses list was incomplete — only had the second sense; both senses need to be listed",
+    "translation": "adjustment, transition",
+    "senses": [
+      "adjustment, transition (of important factors or circumstances)",
+      "adjustment (to new circumstances)"
+    ]
+  },
+  {
+    "kellyId": 4904,
+    "decision": "fix",
+    "reason": "currentTranslation embeds 'to' in a verb gloss",
+    "translation": "sell, turn over",
+    "senses": []
+  },
+  {
+    "kellyId": 4444,
+    "decision": "fix",
+    "reason": "senses list was incomplete — 'turnover (rate of replacement)' sense was missing",
+    "senses": [
+      "turnover, net sales (financial)",
+      "turnover (rate of replacement, e.g. of staff or players)"
+    ]
+  },
+  {
+    "kellyId": 5058,
+    "decision": "fix",
+    "reason": "'inapposite' is uncommon for learners; sub-def is definition-like",
+    "translation": "inappropriate, unsuitable",
+    "senses": []
+  },
+  {
+    "kellyId": 5064,
+    "decision": "fix",
+    "reason": "sub-defs have embedded articles; need cleaning",
+    "senses": [
+      "opera (genre)",
+      "opera, opera house (building)",
+      "opera (institution or company)"
+    ]
+  },
+  {
+    "kellyId": 4809,
+    "decision": "fix",
+    "reason": "currentTranslation embeds 'to' in a verb gloss; perform surgery is arguably primary for Swedish learners",
+    "translation": "operate, perform surgery",
+    "senses": [
+      "operate, perform surgery (medical)",
+      "operate, work, function (general)"
+    ]
+  },
+  {
+    "kellyId": 4556,
+    "decision": "fix",
+    "reason": "sub-def is definition-like",
+    "senses": [
+      "organism (living thing)",
+      "organism (complex interdependent system)"
+    ]
+  },
+  {
+    "kellyId": 5455,
+    "decision": "fix",
+    "reason": "'bad luck' is an uncountable noun phrase; app should not prepend 'a'",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4510,
+    "decision": "fix",
+    "reason": "sub-defs have embedded articles; list is redundant",
+    "senses": [
+      "parallel (line)",
+      "parallel, similarity"
+    ]
+  },
+  {
+    "kellyId": 4661,
+    "decision": "fix",
+    "reason": "sub-defs have embedded articles and are redundant/messy",
+    "senses": [
+      "passage, corridor (physical)",
+      "passage, transit (act of passing through)",
+      "passage (of text or music)"
+    ]
+  },
+  {
+    "kellyId": 5166,
+    "decision": "fix",
+    "reason": "sub-def is a definition phrase; should be cleared for a single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 4529,
+    "decision": "fix",
+    "reason": "sub-defs have embedded articles and style issues",
+    "senses": [
+      "passion (strong emotion or enthusiasm)",
+      "passion, great love (object of devotion)",
+      "the Passion (religious)"
+    ]
+  },
+  {
+    "kellyId": 4581,
+    "decision": "fix",
+    "reason": "primary is 'contour feather / penna' — a technical ornithological sense; everyday meaning is pen or pencil",
+    "translation": "pen, pencil",
+    "senses": [
+      "pen (writing instrument with ink)",
+      "pencil (writing instrument with graphite)",
+      "feather, quill (historical or technical)"
+    ]
+  },
+  {
+    "kellyId": 4663,
+    "decision": "fix",
+    "reason": "currentTranslation embeds 'to'; sub-def is definition-like",
+    "translation": "torment, torture",
+    "senses": []
+  },
+  {
+    "kellyId": 4716,
+    "decision": "fix",
+    "reason": "sub-defs are definition-like wiktionary dumps; simplify",
+    "senses": [
+      "pole (geographic or magnetic)",
+      "terminal (of a battery)",
+      "pole (mathematics)"
+    ]
+  },
+  {
+    "kellyId": 4995,
+    "decision": "fix",
+    "reason": "currentTranslation embeds 'a' in a noun gloss",
+    "translation": "policeman, police officer",
+    "senses": []
+  },
+  {
+    "kellyId": 5273,
+    "decision": "fix",
+    "reason": "pop music is uncountable; the Russian Orthodox priest sub-sense is highly marginal",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4458,
+    "decision": "fix",
+    "reason": "currentTranslation embeds 'to' in a verb gloss",
+    "translation": "emphasize, stress",
+    "senses": []
+  },
+  {
+    "kellyId": 4249,
+    "decision": "fix",
+    "reason": "currentTranslation is a definition; 'of principle, on principle' is how this adj is best taught",
+    "translation": "of principle, on principle",
+    "senses": []
+  },
+  {
+    "kellyId": 5373,
+    "decision": "fix",
+    "reason": "primary is 'award a prize' but everyday dominant meaning is 'praise'; praise should be primary",
+    "translation": "praise, laud",
+    "senses": [
+      "praise, laud",
+      "award a prize (to)"
+    ]
+  },
+  {
+    "kellyId": 4927,
+    "decision": "fix",
+    "reason": "currentTranslation is a definition-like phrase; 'TV/radio host' is cleaner",
+    "translation": "TV/radio host",
+    "senses": []
+  },
+  {
+    "kellyId": 4452,
+    "decision": "fix",
+    "reason": "currentTranslation embeds 'to'; 'to promenade' is also redundant",
+    "translation": "go for a walk",
+    "senses": []
+  },
+  {
+    "kellyId": 5582,
+    "decision": "fix",
+    "reason": "currentTranslation embeds 'to'",
+    "translation": "propagate, campaign (for)",
+    "senses": []
+  },
+  {
+    "kellyId": 4969,
+    "decision": "fix",
+    "reason": "'popularity' is an uncountable noun",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4384,
+    "decision": "fix",
+    "reason": "'privatization' is an uncountable noun",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5007,
+    "decision": "fix",
+    "reason": "'psychiatry' is an uncountable noun",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5023,
+    "decision": "fix",
+    "reason": "'protein' used in this general sense is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5137,
+    "decision": "fix",
+    "reason": "currentTranslation is definition-like; 'point out, flag' is cleaner",
+    "translation": "point out, flag (critically)",
+    "senses": []
+  },
+  {
+    "kellyId": 5259,
+    "decision": "fix",
+    "reason": "sub-defs are definition-like; simplify to clean glosses",
+    "senses": [
+      "pearl (from an oyster)",
+      "gem, jewel (figurative — a precious person or thing)"
+    ]
+  },
+  {
+    "kellyId": 5232,
+    "decision": "fix",
+    "reason": "sub-def has embedded article 'a prostitute'; pos is adj so primary 'prostituted' is correct but the sense list needs cleaning",
+    "senses": [
+      "prostituted (adjective)",
+      "prostitute (noun use)"
+    ]
+  }
+]

@@ -1,0 +1,214 @@
+[
+  {
+    "kellyId": 2713,
+    "decision": "fix",
+    "reason": "sub-definition was a definition, not a sense item; single meaning, clear senses: []",
+    "senses": []
+  },
+  {
+    "kellyId": 1420,
+    "decision": "fix",
+    "reason": "translation had embedded 'to'; fixed phrasing",
+    "translation": "report, account for, present",
+    "senses": []
+  },
+  {
+    "kellyId": 2798,
+    "decision": "fix",
+    "reason": "sub-definition was a definition-like description; cleaned up senses list",
+    "senses": ["reduce", "pull back the score (sports)"]
+  },
+  {
+    "kellyId": 1852,
+    "decision": "fix",
+    "reason": "embedded article 'a' in translation; removed it",
+    "translation": "regime, government",
+    "senses": ["regime, government (especially authoritarian)", "management, administration"]
+  },
+  {
+    "kellyId": 2169,
+    "decision": "fix",
+    "reason": "translation had embedded 'to'; fixed phrasing",
+    "translation": "regulate, control",
+    "senses": []
+  },
+  {
+    "kellyId": 2291,
+    "decision": "fix",
+    "reason": "primary was a definition; core everyday meaning is 'solid, hefty'",
+    "translation": "solid, hefty",
+    "senses": []
+  },
+  {
+    "kellyId": 1729,
+    "decision": "fix",
+    "reason": "Swedish 'reklam' is predominantly uncountable (advertising/ads in general); uncountable:true",
+    "translation": "advertising, ads",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1516,
+    "decision": "fix",
+    "reason": "'to bid farewell' is archaic/Wiktionary noise; 'register a letter' is real but minor; cleaned senses",
+    "senses": ["recommend", "register (a letter)"]
+  },
+  {
+    "kellyId": 2534,
+    "decision": "fix",
+    "reason": "translation had embedded definition fragment 'to remove impurities from'; fixed phrasing",
+    "translation": "purify, clean",
+    "senses": ["purify, clean (physically)", "purify (spiritually, religiously)"]
+  },
+  {
+    "kellyId": 1924,
+    "decision": "fix",
+    "reason": "second sense was a long parenthetical definition; cleaned up",
+    "senses": ["line, utterance (in a play or conversation)", "short reply (in a debate)", "replica"]
+  },
+  {
+    "kellyId": 1685,
+    "decision": "fix",
+    "reason": "embedded article 'a' in translation; removed it",
+    "translation": "argument, reasoning",
+    "senses": []
+  },
+  {
+    "kellyId": 2643,
+    "decision": "fix",
+    "reason": "translation had embedded 'to'; fixed phrasing",
+    "translation": "reason, argue",
+    "senses": []
+  },
+  {
+    "kellyId": 1427,
+    "decision": "fix",
+    "reason": "respect is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1422,
+    "decision": "fix",
+    "reason": "'Partner in marriage' is Wiktionary noise; removed from senses",
+    "senses": ["respectively", "respective"]
+  },
+  {
+    "kellyId": 2489,
+    "decision": "fix",
+    "reason": "primary 'reservation, reluctance' buries the most common sense (booking); promoted 'reservation, booking' as primary",
+    "translation": "reservation, booking",
+    "senses": ["reservation, booking", "reservation, reluctance (hesitation)", "dissenting opinion (formal)"]
+  },
+  {
+    "kellyId": 2002,
+    "decision": "fix",
+    "reason": "justice/fairness are uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2526,
+    "decision": "fix",
+    "reason": "translation had embedded 'to'; primary reordered to most common verb form; reveal is important second meaning",
+    "translation": "clear, remove obstacles",
+    "senses": ["clear, remove obstacles", "reveal, disclose (a secret)", "go wild, party hard (slang)"]
+  },
+  {
+    "kellyId": 2423,
+    "decision": "fix",
+    "reason": "verbose; 'male person from Russia' is redundant with 'Russian'; other senses (container etc.) are archaic/marginal",
+    "translation": "Russian",
+    "senses": []
+  },
+  {
+    "kellyId": 1749,
+    "decision": "fix",
+    "reason": "'guts of a slaughtered animal' is archaic/marginal; single modern meaning remains",
+    "senses": []
+  },
+  {
+    "kellyId": 2582,
+    "decision": "fix",
+    "reason": "primary was a definition; core everyday meaning is 'objective, matter-of-fact'",
+    "translation": "objective, matter-of-fact",
+    "senses": []
+  },
+  {
+    "kellyId": 2553,
+    "decision": "fix",
+    "reason": "'in particular among government agencies' was a parenthetical note, not a separate sense; collapsed into single meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 2261,
+    "decision": "fix",
+    "reason": "clunky gloss 'especially from work'; simplified; secondary senses were marginal",
+    "translation": "holiday, vacation",
+    "senses": []
+  },
+  {
+    "kellyId": 2388,
+    "decision": "fix",
+    "reason": "translation had embedded 'a' and extra synonyms; 'seminar' is the core; 'lecture, presentation' are restatements",
+    "translation": "seminar",
+    "senses": ["seminar", "seminary (school for priests or teachers)"]
+  },
+  {
+    "kellyId": 1988,
+    "decision": "fix",
+    "reason": "both senses are the same word 'independent'; distinction (person vs country) is minor and not worth a list",
+    "senses": []
+  },
+  {
+    "kellyId": 1940,
+    "decision": "fix",
+    "reason": "senses list was verbose; simplified",
+    "senses": ["lake", "sea, the open water (nautical/poetic)", "big wave"]
+  },
+  {
+    "kellyId": 2576,
+    "decision": "fix",
+    "reason": "sub-definition 'to shake, to tremble' is the same action (intransitive); single meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 2700,
+    "decision": "fix",
+    "reason": "senses were four near-identical 'scale' entries; consolidated into one",
+    "senses": ["scale (measurement, ratio, or range)", "scale (musical)"]
+  },
+  {
+    "kellyId": 1911,
+    "decision": "fix",
+    "reason": "translation had embedded 'to'; fixed phrasing; cleaned up senses",
+    "translation": "estimate, assess",
+    "senses": ["estimate, assess", "value, treasure", "pay tax"]
+  },
+  {
+    "kellyId": 2574,
+    "decision": "fix",
+    "reason": "embedded article 'a' in translation; removed it",
+    "translation": "stage, phase",
+    "senses": []
+  },
+  {
+    "kellyId": 1565,
+    "decision": "fix",
+    "reason": "'take aim' in senses is a verb phrase, not a noun sense; cleaned up sense list",
+    "senses": ["sight (visibility, view)", "sight (on a firearm)", "aim, goal"]
+  },
+  {
+    "kellyId": 2370,
+    "decision": "fix",
+    "reason": "third sense 'skill; sense, mind, eye, etc.' was clunky; cleaned up",
+    "senses": ["sense (sight, hearing, taste, etc.)", "mind", "feel, flair (for something)"]
+  },
+  {
+    "kellyId": 2116,
+    "decision": "fix",
+    "reason": "primary 'counting' is less common than 'bill/invoice' in everyday use; however counting is the literal root — but 'bill' is the most frequent everyday encounter; promote 'bill' as primary",
+    "translation": "bill, invoice",
+    "senses": ["bill, invoice", "counting, tally", "calculation"]
+  }
+]

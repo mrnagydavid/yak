@@ -1,0 +1,611 @@
+[
+  {
+    "kellyId": 2647,
+    "decision": "fix",
+    "reason": "embedded articles in the synonyms ('a reproduction, a duplicate'); strip them",
+    "translation": "copy, reproduction, duplicate",
+    "senses": []
+  },
+  {
+    "kellyId": 1966,
+    "decision": "fix",
+    "reason": "senses list has 'to connect' entries with 'to' prefix (the app adds that); clean them up",
+    "senses": [
+      "connect (physical)",
+      "connect (abstract, concepts)",
+      "put on a leash",
+      "understand"
+    ]
+  },
+  {
+    "kellyId": 1925,
+    "decision": "fix",
+    "reason": "primary has embedded article ('a coupling'); senses list also has one ('a clutch')",
+    "translation": "connection, coupling",
+    "senses": [
+      "connection, coupling",
+      "clutch (vehicle)"
+    ]
+  },
+  {
+    "kellyId": 2436,
+    "decision": "fix",
+    "reason": "senses list has duplicate bare 'cross' and a definition-like entry; consolidate",
+    "senses": [
+      "cross (shape)",
+      "cross (execution device)",
+      "dagger (typographic mark †)"
+    ]
+  },
+  {
+    "kellyId": 1881,
+    "decision": "fix",
+    "reason": "senses list entries are definition-like ('a piece of stiff paper...', 'a game involving...')",
+    "senses": [
+      "card",
+      "playing card",
+      "card game",
+      "photograph"
+    ]
+  },
+  {
+    "kellyId": 1785,
+    "decision": "fix",
+    "reason": "primary is a definition ('having great force'); 'powerful, strong' is the clean gloss",
+    "translation": "powerful, strong",
+    "senses": [
+      "powerful, strong",
+      "severe, sharp (of a change or impact)",
+      "sturdy, solid",
+      "heavy-set, stout"
+    ]
+  },
+  {
+    "kellyId": 2581,
+    "decision": "fix",
+    "reason": "senses list has embedded article ('a criminal'); strip it",
+    "senses": [
+      "criminal (adjective)",
+      "criminal (noun)"
+    ]
+  },
+  {
+    "kellyId": 1907,
+    "decision": "fix",
+    "reason": "'Christianity' is an uncountable proper noun — no article should be prepended",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2466,
+    "decision": "fix",
+    "reason": "senses list has definition-like primary entry; 'a preparatory horse race' has embedded article",
+    "senses": [
+      "criterion, requirement",
+      "preparatory horse race (equestrian)"
+    ]
+  },
+  {
+    "kellyId": 2605,
+    "decision": "fix",
+    "reason": "senses list is repetitive and definition-like; consolidate into two clean senses",
+    "senses": [
+      "critic (someone who criticizes)",
+      "critic (arts reviewer)"
+    ]
+  },
+  {
+    "kellyId": 1470,
+    "decision": "fix",
+    "reason": "senses list is definition-like and padded; condense",
+    "senses": [
+      "critical, exacting (careful in analysis)",
+      "critical (important, near crisis)",
+      "critical (opposed to something)",
+      "fatal (computing)"
+    ]
+  },
+  {
+    "kellyId": 2645,
+    "decision": "fix",
+    "reason": "in modern Swedish 'krönika' most commonly means a newspaper column; 'chronicle' is the secondary literary/historical sense; example confirms column use",
+    "translation": "column",
+    "senses": [
+      "column (newspaper, personal style)",
+      "chronicle (historical writing)"
+    ]
+  },
+  {
+    "kellyId": 1407,
+    "decision": "fix",
+    "reason": "senses list is definition-like with long Wiktionary-style descriptions",
+    "senses": [
+      "course, class (learning)",
+      "course, heading (navigation)",
+      "rate, exchange rate"
+    ]
+  },
+  {
+    "kellyId": 1567,
+    "decision": "fix",
+    "reason": "'kvinnlig' primarily means 'female' (as in 'en kvinnlig reporter' = a female reporter); 'feminin' is the Swedish word for 'feminine'; wrong primary promoted",
+    "translation": "female",
+    "senses": [
+      "female, woman",
+      "feminine (having feminine qualities)"
+    ]
+  },
+  {
+    "kellyId": 1629,
+    "decision": "fix",
+    "reason": "bracket notation '[with i]' is clunky on a flashcard; 'in love' is clear enough as the headline",
+    "translation": "in love",
+    "senses": [
+      "in love (kär i)",
+      "dear, beloved"
+    ]
+  },
+  {
+    "kellyId": 2727,
+    "decision": "fix",
+    "reason": "senses list has embedded articles ('a kernel', 'a churn'); strip them and clean up",
+    "senses": [
+      "seed, pit (of fruit)",
+      "core, nucleus (central part)",
+      "kernel (computing)",
+      "churn (for butter)"
+    ]
+  },
+  {
+    "kellyId": 2421,
+    "decision": "fix",
+    "reason": "'nuclear power' is an uncountable noun; sub-definition 'a nuclear force' has embedded article",
+    "uncountable": true,
+    "senses": [
+      "nuclear power",
+      "nuclear force (physics)"
+    ]
+  },
+  {
+    "kellyId": 2315,
+    "decision": "fix",
+    "reason": "senses list has definition-like entry ('a portable cooking apparatus'); strip embedded article and simplify",
+    "senses": [
+      "kitchen",
+      "cuisine",
+      "stove, camp stove"
+    ]
+  },
+  {
+    "kellyId": 1706,
+    "decision": "fix",
+    "reason": "'gender' is duplicated — once in the primary and once as a standalone sense; senses list needs restructuring",
+    "senses": [
+      "sex, gender",
+      "sex organ, genitalia"
+    ]
+  },
+  {
+    "kellyId": 1922,
+    "decision": "fix",
+    "reason": "'meat' is uncountable; senses list has 'flesh' as a separate entry that overlaps the primary — split into two clean senses instead",
+    "uncountable": true,
+    "senses": [
+      "meat (food)",
+      "flesh (body tissue)"
+    ]
+  },
+  {
+    "kellyId": 1578,
+    "decision": "fix",
+    "reason": "senses list has 'to load' / 'to charge' with 'to' prefix",
+    "senses": [
+      "load (a gun, data)",
+      "charge (electrically)"
+    ]
+  },
+  {
+    "kellyId": 2347,
+    "decision": "fix",
+    "reason": "senses list is bloated with near-identical definition-like entries; condense",
+    "senses": [
+      "land (arrive on ground)",
+      "land (reach harbour)",
+      "land (bring ashore)",
+      "acquire, secure"
+    ]
+  },
+  {
+    "kellyId": 2652,
+    "decision": "fix",
+    "reason": "'countryside' is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2440,
+    "decision": "fix",
+    "reason": "senses list has definition-like entries with long parentheticals",
+    "senses": [
+      "province, region (Scandinavian)",
+      "landscape (scenery)",
+      "landscape (painting)"
+    ]
+  },
+  {
+    "kellyId": 2595,
+    "decision": "fix",
+    "reason": "sub-definition 'to laugh' has 'to' prefix",
+    "senses": [
+      "smile",
+      "laugh"
+    ]
+  },
+  {
+    "kellyId": 2166,
+    "decision": "fix",
+    "reason": "primary 'queue, rank' is fine; senses list needs cleaner phrasing",
+    "senses": [
+      "row, rank (of people)",
+      "rank (group members)",
+      "term (mathematics)",
+      "stage, step"
+    ]
+  },
+  {
+    "kellyId": 2589,
+    "decision": "fix",
+    "reason": "'leadership' is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1917,
+    "decision": "fix",
+    "reason": "senses list has 'to pretend to be' / 'to lek' with 'to' prefix",
+    "senses": [
+      "play (like children)",
+      "pretend to be (in play)",
+      "lek (of animals)"
+    ]
+  },
+  {
+    "kellyId": 1466,
+    "decision": "fix",
+    "reason": "'liver (as food)' is the same word/meaning — liver is liver whether organ or food; single meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 1817,
+    "decision": "fix",
+    "reason": "senses list has definition-like entries with 'to deliver; to transport...' structure",
+    "senses": [
+      "deliver (transport)",
+      "deliver (produce results)"
+    ]
+  },
+  {
+    "kellyId": 1517,
+    "decision": "fix",
+    "reason": "senses list has definition-like sub-definition ('of or pertaining to the Liberals (Liberalerna (L))')",
+    "senses": [
+      "liberal",
+      "Liberal (Swedish Liberalerna party)"
+    ]
+  },
+  {
+    "kellyId": 1491,
+    "decision": "fix",
+    "reason": "senses list has 'to undergo hardship' / 'to feel pain' with 'to' prefixes and redundant split; Wiktionary sense 'stand, tolerate' is missing",
+    "senses": [
+      "suffer, endure",
+      "suffer from (a condition)",
+      "pass, go by (of time)",
+      "stand, tolerate"
+    ]
+  },
+  {
+    "kellyId": 2244,
+    "decision": "fix",
+    "reason": "'suffering' is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1711,
+    "decision": "fix",
+    "reason": "primary has 'to be similar to' with 'to' prefix; fix phrasing",
+    "translation": "resemble, be similar to",
+    "senses": [
+      "resemble, be similar to",
+      "liken, compare"
+    ]
+  },
+  {
+    "kellyId": 1712,
+    "decision": "fix",
+    "reason": "sub-definition 'to rely on' has 'to' prefix",
+    "senses": [
+      "trust (have confidence in)",
+      "rely on"
+    ]
+  },
+  {
+    "kellyId": 1509,
+    "decision": "fix",
+    "reason": "'literature' is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2392,
+    "decision": "fix",
+    "reason": "primary has 'to tell an untruth' with 'to' prefix; single meaning so clear list",
+    "translation": "lie, tell an untruth",
+    "senses": []
+  },
+  {
+    "kellyId": 1419,
+    "decision": "fix",
+    "reason": "primary has 'to lure, to entice' with 'to' prefixes",
+    "translation": "attract, lure, entice",
+    "senses": [
+      "attract, lure, entice",
+      "curl (hair)"
+    ]
+  },
+  {
+    "kellyId": 1999,
+    "decision": "fix",
+    "reason": "primary has 'to measure, to record' with 'to' prefixes; single core meaning",
+    "translation": "log, record",
+    "senses": []
+  },
+  {
+    "kellyId": 2642,
+    "decision": "fix",
+    "reason": "'logic' is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1976,
+    "decision": "fix",
+    "reason": "senses list is definition-like ('a building or room used for a specific purpose...')",
+    "senses": [
+      "venue, premises, room",
+      "habitat (plants/animals)"
+    ]
+  },
+  {
+    "kellyId": 1500,
+    "decision": "fix",
+    "reason": "senses list includes marginal 'bore (tunnel inside gun barrel)'; condense to main senses",
+    "senses": [
+      "race (competition)",
+      "run (act of running)",
+      "course (of river, time)"
+    ]
+  },
+  {
+    "kellyId": 2598,
+    "decision": "fix",
+    "reason": "senses list has trailing 'n' after entries ('break, vacation, holiday (from school) n', 'praise n')",
+    "senses": [
+      "permission",
+      "break, holiday (from school)",
+      "praise"
+    ]
+  },
+  {
+    "kellyId": 1447,
+    "decision": "fix",
+    "reason": "'air' is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1874,
+    "decision": "fix",
+    "reason": "senses list entry 'no worries' is an interjection use; clarify",
+    "senses": [
+      "calm, tranquil",
+      "no worries (exclamation: relax!)"
+    ]
+  },
+  {
+    "kellyId": 2145,
+    "decision": "fix",
+    "reason": "primary appends a definition ('a meal eaten around noon'); 'lunch' alone is sufficient",
+    "translation": "lunch",
+    "senses": []
+  },
+  {
+    "kellyId": 2381,
+    "decision": "fix",
+    "reason": "primary has 'to fool, to deceive, to lure' with 'to' prefixes",
+    "translation": "trick, fool, deceive",
+    "senses": [
+      "trick, fool, deceive",
+      "lurk, lie in wait",
+      "wonder, ponder",
+      "doze off"
+    ]
+  },
+  {
+    "kellyId": 2236,
+    "decision": "fix",
+    "reason": "primary is definition-like ('desire to do something'); 'desire, urge' is the clean gloss",
+    "translation": "desire, urge",
+    "senses": [
+      "desire, urge (to do something)",
+      "sexual desire",
+      "joy, delight"
+    ]
+  },
+  {
+    "kellyId": 1626,
+    "decision": "fix",
+    "reason": "senses list includes archaic/marginal 'a small farm field' and 'a loop (of string)'; drop them; these are not everyday meanings learners need",
+    "senses": [
+      "joy, happiness",
+      "luck, good fortune"
+    ]
+  },
+  {
+    "kellyId": 1795,
+    "decision": "fix",
+    "reason": "senses list has 'happy, joyous' and 'happy, joyous, enjoying peace...' as two separate entries — duplicate; condense",
+    "senses": [
+      "happy, joyful",
+      "lucky, fortunate"
+    ]
+  },
+  {
+    "kellyId": 2069,
+    "decision": "fix",
+    "reason": "sub-definition 'to sound, to be worded' has 'to' prefix",
+    "senses": [
+      "obey",
+      "be worded, read (of a text)"
+    ]
+  },
+  {
+    "kellyId": 2243,
+    "decision": "fix",
+    "reason": "senses list has 'to call out and make known, advertise, publish banns' with 'to' prefix and is definition-like",
+    "senses": [
+      "shine, give light",
+      "publish banns, advertise"
+    ]
+  },
+  {
+    "kellyId": 1698,
+    "decision": "fix",
+    "reason": "primary has 'to borrow' with 'to' prefix; both borrow and lend are co-equal senses of 'låna' — use semicolon split",
+    "translation": "borrow; lend",
+    "senses": [
+      "borrow (take temporarily)",
+      "lend (give temporarily)"
+    ]
+  },
+  {
+    "kellyId": 1493,
+    "decision": "fix",
+    "reason": "sub-definition 'possibility, occasion, opportunity' is an archaic/rare sense; label it",
+    "senses": [
+      "apartment, flat",
+      "opportunity, occasion (dated)"
+    ]
+  },
+  {
+    "kellyId": 2399,
+    "decision": "fix",
+    "reason": "sub-definition 'a (sleeping) quarter' has embedded article",
+    "senses": [
+      "camp",
+      "sleeping quarters"
+    ]
+  },
+  {
+    "kellyId": 2222,
+    "decision": "fix",
+    "reason": "sub-definition 'laying (to lay, etc.)' is definition-like with 'to' prefix",
+    "senses": [
+      "disposition, temperament",
+      "laying (act of laying)"
+    ]
+  },
+  {
+    "kellyId": 2220,
+    "decision": "fix",
+    "reason": "senses list has definition-like entries ('height of a human or other biped', 'part of something that’s long'); condense",
+    "senses": [
+      "length",
+      "height (of a person)",
+      "duration",
+      "stretch, portion"
+    ]
+  },
+  {
+    "kellyId": 2656,
+    "decision": "fix",
+    "reason": "primary 'long' is too bare; 'längta' means 'to long for, to yearn'; the sub-definition better captures it; single meaning",
+    "translation": "long for, yearn",
+    "senses": []
+  },
+  {
+    "kellyId": 2081,
+    "decision": "fix",
+    "reason": "'teachings' used as a mass noun does not take an article",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1962,
+    "decision": "fix",
+    "reason": "senses list is padded with definition-like descriptions; condense",
+    "senses": [
+      "reading (activity)",
+      "reading aloud, recital",
+      "reading material, literature",
+      "interpretation (of a text)",
+      "read, fetch (computing)"
+    ]
+  },
+  {
+    "kellyId": 1931,
+    "decision": "fix",
+    "reason": "primary has 'to lighten, to loosen' with 'to' prefixes; senses also need cleaning",
+    "translation": "ease, lighten",
+    "senses": [
+      "ease, lighten, loosen",
+      "subside (of a storm)",
+      "take off (from ground)"
+    ]
+  },
+  {
+    "kellyId": 2225,
+    "decision": "fix",
+    "reason": "sub-definition 'a vow' has embedded article and overlaps with 'promise'; single meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 2729,
+    "decision": "fix",
+    "reason": "senses list has 'to run free, to escape' with 'to' prefix; also condense",
+    "senses": [
+      "run along, stretch (of a road, path)",
+      "run free, escape",
+      "be in heat (of a female dog)"
+    ]
+  },
+  {
+    "kellyId": 1513,
+    "decision": "fix",
+    "reason": "senses list has four near-identical 'loose' entries that can be condensed; missing 'indiscreet/promiscuous' senses from Wiktionary",
+    "senses": [
+      "loose (not tight, free to move)",
+      "loose (not packaged)",
+      "loose (not leashed, unbound)",
+      "loose (not compact, granular)"
+    ]
+  },
+  {
+    "kellyId": 1635,
+    "decision": "fix",
+    "reason": "primary has embedded articles ('a husband, a married man'); simplify",
+    "translation": "husband, spouse",
+    "senses": [
+      "husband, spouse",
+      "match, equal (one's like)"
+    ]
+  },
+  {
+    "kellyId": 2379,
+    "decision": "fix",
+    "reason": "recover pilot fix: 'be suitable, to be suited' was clumsy and redundant",
+    "translation": "be suitable",
+    "senses": []
+  }
+]

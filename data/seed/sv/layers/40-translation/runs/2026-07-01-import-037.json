@@ -1,0 +1,264 @@
+[
+  {
+    "kellyId": 3367,
+    "decision": "fix",
+    "reason": "In Swedish, 'rationell' primarily means efficient/streamlined (rationell metod, rationell produktion), not logically rational — that's 'förnuftig'. Promote 'efficient' as primary.",
+    "translation": "efficient, rational",
+    "senses": ["efficient, rational (well-organised, making good use of resources)", "rational (logically sound)"]
+  },
+  {
+    "kellyId": 3152,
+    "decision": "fix",
+    "reason": "Single meaning; the sub-definition is just a restatement. Clear the list.",
+    "senses": []
+  },
+  {
+    "kellyId": 3023,
+    "decision": "fix",
+    "reason": "Sub has article embedded ('a prescription'). Fix to bare form.",
+    "senses": ["recipe", "prescription"]
+  },
+  {
+    "kellyId": 3271,
+    "decision": "fix",
+    "reason": "Main translation has 'to' embedded ('go over, to explain'). Verb — app adds 'to'.",
+    "translation": "go over, explain",
+    "senses": []
+  },
+  {
+    "kellyId": 3786,
+    "decision": "fix",
+    "reason": "Main has 'an' embedded ('tool, an instrument'). Sub is verbose and definition-like.",
+    "translation": "tool, instrument",
+    "senses": ["tool, instrument (physical)", "means, instrument (abstract)"]
+  },
+  {
+    "kellyId": 3465,
+    "decision": "fix",
+    "reason": "'really existing' is redundant padding. Trim to 'real, actual'.",
+    "translation": "real, actual",
+    "senses": ["real, actual", "real (mathematics: non-imaginary)"]
+  },
+  {
+    "kellyId": 3715,
+    "decision": "fix",
+    "reason": "'reference' as a verb is unnatural; 'refer' is the standard English verb.",
+    "translation": "refer",
+    "senses": []
+  },
+  {
+    "kellyId": 3230,
+    "decision": "fix",
+    "reason": "The list is missing the primary physical sense (reflect light/sound). Add it first.",
+    "senses": ["reflect (light, sound, etc.)", "reflect (give evidence of)", "reflect, ponder (think seriously)"]
+  },
+  {
+    "kellyId": 3298,
+    "decision": "fix",
+    "reason": "Sub ['reflection (careful consideration)'] is just a restatement. The word has two real senses — physical and contemplative. List them clearly.",
+    "senses": ["reflection (image or sound)", "reflection, thought (careful consideration)"]
+  },
+  {
+    "kellyId": 4125,
+    "decision": "fix",
+    "reason": "List has three marginal geometric/formal sub-senses that clutter the card. Keep only the everyday ones.",
+    "senses": ["regular, periodic (in time)", "regular (even in shape or appearance)"]
+  },
+  {
+    "kellyId": 4183,
+    "decision": "fix",
+    "reason": "Main has 'to' embedded ('rule, to govern, to be in government'). 'to be in government' is definition padding.",
+    "translation": "rule, govern",
+    "senses": []
+  },
+  {
+    "kellyId": 3200,
+    "decision": "fix",
+    "reason": "Sub is definition-like ('a machine that keeps a register'). Replace with plain 'cash register'.",
+    "senses": ["register, index, directory", "cash register"]
+  },
+  {
+    "kellyId": 3232,
+    "decision": "fix",
+    "reason": "'headmaster or headmistress' is clunky. 'headteacher, principal' is the natural modern English; add rector for university.",
+    "translation": "headteacher, principal",
+    "senses": ["headteacher, principal (school)", "rector (university)"]
+  },
+  {
+    "kellyId": 3247,
+    "decision": "fix",
+    "reason": "Single concept; sub ['body invited to comment on a proposal'] is a definition. Clear it.",
+    "senses": []
+  },
+  {
+    "kellyId": 3511,
+    "decision": "fix",
+    "reason": "Main is definition-like ('remove undesired things'). Better gloss: 'clean out, clear out'.",
+    "translation": "clean out, clear out",
+    "senses": []
+  },
+  {
+    "kellyId": 2838,
+    "decision": "fix",
+    "reason": "Parenthetical embedded in main translation. Strip it — 'resolution' alone is clear.",
+    "translation": "resolution",
+    "senses": []
+  },
+  {
+    "kellyId": 3843,
+    "decision": "fix",
+    "reason": "Sub phrasing is verbose ('to annoy or irritate or provoke; to make somebody or something irritated'). Tighten it.",
+    "senses": ["tease", "annoy, irritate, provoke"]
+  },
+  {
+    "kellyId": 3198,
+    "decision": "fix",
+    "reason": "Sub has 'to' embedded ('to design (by making a drawing)'). Fix to bare form.",
+    "senses": ["draw", "design (by drawing)"]
+  },
+  {
+    "kellyId": 3541,
+    "decision": "fix",
+    "reason": "Sub has 'a' embedded ('a Romani person'). Fix to bare senses.",
+    "senses": ["roe (fish eggs)", "rum (beverage)", "Romani person"]
+  },
+  {
+    "kellyId": 3302,
+    "decision": "fix",
+    "reason": "'foursquare' and 'rue (plant)' are marginal/irrelevant. Trim the list to everyday senses.",
+    "senses": ["square, tile, box (checkbox or grid cell)", "windowpane (pane of glass)", "panel (comic strip frame)"]
+  },
+  {
+    "kellyId": 3248,
+    "decision": "fix",
+    "reason": "Sub ['skill borne out of familiarity'] is definition-like. Rephrase concisely.",
+    "senses": ["routine", "experience, practiced skill"]
+  },
+  {
+    "kellyId": 3727,
+    "decision": "fix",
+    "reason": "Main has 'a' embedded ('space, a volume'). Also, outer space is at least as primary as interior volume for 'rymd'. Reorder.",
+    "translation": "space, volume",
+    "senses": ["space (outer space)", "space, volume (interior)"]
+  },
+  {
+    "kellyId": 3291,
+    "decision": "fix",
+    "reason": "List is definition-heavy and has four entries that largely overlap. Consolidate to cleaner senses; add 'tough, rough' from Wiktionary.",
+    "senses": ["raw (uncooked, untreated)", "rough, crude, coarse", "tough, rowdy"]
+  },
+  {
+    "kellyId": 3239,
+    "decision": "fix",
+    "reason": "Parenthetical in main is too long. Strip to 'red-green'; put political gloss in list.",
+    "translation": "red-green",
+    "senses": ["red-green (political: left-green coalition)", "red-green (literally: the colours red and green)"]
+  },
+  {
+    "kellyId": 3177,
+    "decision": "fix",
+    "reason": "Subs have 'to' embedded. Fix to bare forms.",
+    "senses": ["smoke (tobacco)", "smoke (food)", "smoke out"]
+  },
+  {
+    "kellyId": 3105,
+    "decision": "fix",
+    "reason": "'sammanlagt' primarily means 'in total', not 'together' (that's 'tillsammans'). Promote 'in total'.",
+    "translation": "in total",
+    "senses": []
+  },
+  {
+    "kellyId": 3830,
+    "decision": "fix",
+    "reason": "'sammansättning' means composition/makeup as much as compound. Broaden the primary.",
+    "translation": "composition, compound",
+    "senses": []
+  },
+  {
+    "kellyId": 3942,
+    "decision": "fix",
+    "reason": "Main has 'a' embedded ('meeting, a sitting'). Fix to bare.",
+    "translation": "meeting, sitting",
+    "senses": []
+  },
+  {
+    "kellyId": 3299,
+    "decision": "fix",
+    "reason": "'unison, consensus' is wrong for 'samråd'. It means consultation/deliberation.",
+    "translation": "consultation",
+    "senses": []
+  },
+  {
+    "kellyId": 4060,
+    "decision": "fix",
+    "reason": "'salt' is an uncountable noun in English.",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2815,
+    "decision": "fix",
+    "reason": "'samfund' means a community, society, or association (often religious) — not specifically a federation.",
+    "translation": "community, association",
+    "senses": []
+  },
+  {
+    "kellyId": 3240,
+    "decision": "fix",
+    "reason": "Sub ['to obtain a victory'] is a definition, redundant with 'win'. Clear it.",
+    "senses": []
+  },
+  {
+    "kellyId": 4016,
+    "decision": "fix",
+    "reason": "Primary meaning of 'sikta' is 'to aim' (med ett vapen), not 'to sight/spot'. Current main is wrong primary. Reorder.",
+    "translation": "aim",
+    "senses": ["aim (a weapon)", "aim for, strive toward", "spot, catch sight of", "sift"]
+  },
+  {
+    "kellyId": 3882,
+    "decision": "fix",
+    "reason": "Sub has 'to' embedded ('to take a bath, to bathe'). Fix to bare form.",
+    "senses": ["swim", "bathe, take a bath"]
+  },
+  {
+    "kellyId": 4072,
+    "decision": "fix",
+    "reason": "'income protection insurance' is too narrow. 'Sjukförsäkring' is health/sickness insurance.",
+    "translation": "health insurance, sickness insurance",
+    "senses": []
+  },
+  {
+    "kellyId": 3840,
+    "decision": "fix",
+    "reason": "'obviousness, self-evident truth' is abstract. 'Matter of course, obvious fact' is more natural and teachable.",
+    "translation": "matter of course, obvious fact",
+    "senses": []
+  },
+  {
+    "kellyId": 2895,
+    "decision": "fix",
+    "reason": "'skadad' applies to both objects (damaged) and people (injured). Add 'injured'.",
+    "translation": "damaged, injured",
+    "senses": []
+  },
+  {
+    "kellyId": 3035,
+    "decision": "fix",
+    "reason": "List is too long and definition-heavy. Consolidate to three clean senses; add 'live (ammunition)'.",
+    "senses": ["sharp (blade, wit, criticism)", "strong, pungent (smell)", "live (ammunition, as opposed to blank)"]
+  },
+  {
+    "kellyId": 3600,
+    "decision": "fix",
+    "reason": "'good' is too vague alongside the other synonyms. Drop it; keep the meaningful ones.",
+    "translation": "skilled, skillful, proficient",
+    "senses": []
+  },
+  {
+    "kellyId": 4061,
+    "decision": "fix",
+    "reason": "Sub ['of high probability'] is just a restatement of 'probable'. Clear it.",
+    "senses": []
+  }
+]

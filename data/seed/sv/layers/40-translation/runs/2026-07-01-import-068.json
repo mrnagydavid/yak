@@ -1,0 +1,251 @@
+[
+  {
+    "kellyId": 5688,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation; 'silence, mute' is the natural bare form",
+    "translation": "silence, mute",
+    "senses": []
+  },
+  {
+    "kellyId": 6330,
+    "decision": "fix",
+    "reason": "definition-like gloss with embedded 'to'; 'fall silent' is the natural bare translation",
+    "translation": "fall silent",
+    "senses": []
+  },
+  {
+    "kellyId": 6263,
+    "decision": "fix",
+    "reason": "embedded article 'a' in 'a torte, a layered cake'",
+    "translation": "cake, torte",
+    "senses": []
+  },
+  {
+    "kellyId": 6524,
+    "decision": "fix",
+    "reason": "primary was a definition; 'duvet, comforter' is the core everyday sense; two distinct senses",
+    "translation": "duvet, comforter",
+    "senses": [
+      "duvet, comforter, quilt",
+      "cover, covering (general)"
+    ]
+  },
+  {
+    "kellyId": 6511,
+    "decision": "fix",
+    "reason": "'coverage' is the more common everyday sense (mobile, insurance); subdef 'a coverage' had a stray article",
+    "translation": "coverage",
+    "senses": [
+      "coverage (signal, insurance, etc.)",
+      "cover, covering"
+    ]
+  },
+  {
+    "kellyId": 5779,
+    "decision": "fix",
+    "reason": "subdef 'a furnace' had embedded article",
+    "senses": [
+      "oven",
+      "furnace (industrial)"
+    ]
+  },
+  {
+    "kellyId": 6782,
+    "decision": "fix",
+    "reason": "primary was a definition-like description; 'underwear' is the clear everyday translation",
+    "translation": "underwear",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6596,
+    "decision": "fix",
+    "reason": "subdef 'to disapprove of, to reject' had embedded 'to'",
+    "senses": [
+      "fail (give a failing grade)",
+      "disapprove of, reject"
+    ]
+  },
+  {
+    "kellyId": 5632,
+    "decision": "fix",
+    "reason": "definition-like gloss; 'support' is the clear bare translation",
+    "translation": "support",
+    "senses": []
+  },
+  {
+    "kellyId": 5685,
+    "decision": "fix",
+    "reason": "wrongly capitalised; subdef had embedded article and trailing period",
+    "translation": "uniform",
+    "senses": []
+  },
+  {
+    "kellyId": 5939,
+    "decision": "fix",
+    "reason": "subdef 'to collect, levy' had embedded 'to'",
+    "senses": [
+      "receive (benefits, compensation)",
+      "collect, levy (taxes)"
+    ]
+  },
+  {
+    "kellyId": 6585,
+    "decision": "fix",
+    "reason": "primary 'raised up' is clumsy; three overlapping subdefs collapse to two clean senses",
+    "translation": "raised, elevated",
+    "senses": [
+      "raised, elevated",
+      "exalted, lofty (figurative)"
+    ]
+  },
+  {
+    "kellyId": 6062,
+    "decision": "fix",
+    "reason": "senses list had a definition-like Wiktionary entry (auction sense) and needed clean-up",
+    "senses": [
+      "idea, suggestion",
+      "double-page spread",
+      "entry (in a dictionary or encyclopedia)"
+    ]
+  },
+  {
+    "kellyId": 6058,
+    "decision": "fix",
+    "reason": "subdef 'to erode' had embedded 'to'",
+    "senses": [
+      "hollow out",
+      "erode, undermine"
+    ]
+  },
+  {
+    "kellyId": 5837,
+    "decision": "fix",
+    "reason": "subdef was definition-like with embedded 'to'; the two Wiktionary senses are very close — collapse to one",
+    "senses": [
+      "discern, distinguish, make out"
+    ]
+  },
+  {
+    "kellyId": 6214,
+    "decision": "fix",
+    "reason": "'propagation' is too technical; 'spread, distribution' is the everyday sense (e.g. artens utbredning)",
+    "translation": "spread, distribution",
+    "senses": []
+  },
+  {
+    "kellyId": 6019,
+    "decision": "fix",
+    "reason": "embedded 'to' in 'to burst out'",
+    "translation": "exclaim, burst out",
+    "senses": []
+  },
+  {
+    "kellyId": 5696,
+    "decision": "fix",
+    "reason": "embedded 'to' in 'to replace'",
+    "translation": "exchange, replace",
+    "senses": []
+  },
+  {
+    "kellyId": 5803,
+    "decision": "fix",
+    "reason": "embedded 'to' and clumsy phrasing; 'fail to happen' is cleaner",
+    "translation": "fail to happen, not materialize",
+    "senses": []
+  },
+  {
+    "kellyId": 6654,
+    "decision": "fix",
+    "reason": "embedded article 'a' in 'a dig'; fix senses too",
+    "translation": "excavation, dig",
+    "senses": [
+      "excavation, dig (archaeological)",
+      "archaeological site being excavated"
+    ]
+  },
+  {
+    "kellyId": 6489,
+    "decision": "fix",
+    "reason": "embedded 'to' in 'to endure, to prevail'",
+    "translation": "endure, stand, prevail",
+    "senses": []
+  },
+  {
+    "kellyId": 6324,
+    "decision": "fix",
+    "reason": "primary and subdef both said 'provocative', making them redundant; two distinct senses: sexy/provocative and defiant",
+    "senses": [
+      "provocative, suggestive (sexy)",
+      "provocative, defiant (challenging)"
+    ]
+  },
+  {
+    "kellyId": 6190,
+    "decision": "fix",
+    "reason": "embedded 'to' in 'to get done or over with'; 'accomplish' is cleaner",
+    "translation": "carry out, accomplish",
+    "senses": []
+  },
+  {
+    "kellyId": 6075,
+    "decision": "fix",
+    "reason": "embedded 'to' in 'to withstand, to suffer'",
+    "translation": "endure, withstand, suffer",
+    "senses": []
+  },
+  {
+    "kellyId": 6143,
+    "decision": "fix",
+    "reason": "subdef 'a withdrawal' had embedded article",
+    "senses": [
+      "outlet (electrical socket)",
+      "withdrawal (from bank account)"
+    ]
+  },
+  {
+    "kellyId": 6870,
+    "decision": "fix",
+    "reason": "subdef restated with embedded article; two clear distinct senses",
+    "senses": [
+      "veteran (former member of armed forces)",
+      "veteran (experienced person)"
+    ]
+  },
+  {
+    "kellyId": 6165,
+    "decision": "fix",
+    "reason": "embedded article 'a' in 'a vet'; single meaning",
+    "translation": "veterinarian, vet",
+    "senses": []
+  },
+  {
+    "kellyId": 5797,
+    "decision": "fix",
+    "reason": "embedded 'to' prefixes in translation (pos is adv, app adds no 'to')",
+    "translation": "give way, give in, fold",
+    "senses": []
+  },
+  {
+    "kellyId": 6872,
+    "decision": "fix",
+    "reason": "subdef 'a joke' had embedded article",
+    "senses": [
+      "point (purpose or use)",
+      "joke, wisecrack"
+    ]
+  },
+  {
+    "kellyId": 5998,
+    "decision": "fix",
+    "reason": "subdef was a definition restating 'cause'; single meaning, clear stale list",
+    "senses": []
+  },
+  {
+    "kellyId": 5833,
+    "decision": "fix",
+    "reason": "embedded article 'a' in 'a general practice clinic'; clumsy phrasing",
+    "translation": "health centre, GP clinic",
+    "senses": []
+  }
+]

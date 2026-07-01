@@ -1,0 +1,258 @@
+[
+  {
+    "kellyId": 5545,
+    "decision": "fix",
+    "reason": "'change (coins)' is the primary everyday meaning; the current list is definition-like and needs cleanup",
+    "translation": "change",
+    "senses": [
+      "change (coins)",
+      "gear (car or bike)",
+      "exchange (telephone)",
+      "switch (railroad)",
+      "bill of exchange (finance)"
+    ]
+  },
+  {
+    "kellyId": 4229,
+    "decision": "fix",
+    "reason": "currentTranslation has clumsy 'to change' with app-added 'to'; fix phrasing and clean up list",
+    "translation": "switch, change",
+    "senses": [
+      "switch, change (between things)",
+      "exchange",
+      "switch (train or phone call)"
+    ]
+  },
+  {
+    "kellyId": 4928,
+    "decision": "fix",
+    "reason": "single primary meaning; list is redundant (just restates the primary with parenthetical already conveyed)",
+    "translation": "superficial",
+    "senses": []
+  },
+  {
+    "kellyId": 4339,
+    "decision": "fix",
+    "reason": "currentTranslation is a definition-like phrase; 'impose, prescribe' is cleaner and more teachable",
+    "translation": "impose, prescribe",
+    "senses": []
+  },
+  {
+    "kellyId": 4775,
+    "decision": "fix",
+    "reason": "'take upon' is incomplete without 'oneself'; better phrased as 'take on, undertake'",
+    "translation": "take on, undertake",
+    "senses": []
+  },
+  {
+    "kellyId": 5554,
+    "decision": "fix",
+    "reason": "'åtanke' is only used in the phrase 'ha i åtanke' (bear in mind); the gloss 'in mind' without context is confusing; clarify as a phrase gloss",
+    "translation": "mind, consideration",
+    "senses": []
+  },
+  {
+    "kellyId": 5559,
+    "decision": "fix",
+    "reason": "two near-synonyms in list are really one meaning; collapse to single meaning",
+    "translation": "regain, get back",
+    "senses": []
+  },
+  {
+    "kellyId": 4667,
+    "decision": "fix",
+    "reason": "currentTranslation has clumsy 'to regain, to reclaim' with extra 'to'; app adds 'to'; fix phrasing",
+    "translation": "take back, regain, reclaim",
+    "senses": [
+      "take back, regain, reclaim",
+      "withdraw (a document)",
+      "resume"
+    ]
+  },
+  {
+    "kellyId": 5233,
+    "decision": "fix",
+    "reason": "currentTranslation has clumsy 'to re-establish' with extra 'to'; app adds 'to'",
+    "translation": "restore, re-establish",
+    "senses": []
+  },
+  {
+    "kellyId": 4282,
+    "decision": "fix",
+    "reason": "currentTranslation has clumsy 'make measures'; better as 'fix, remedy, address'",
+    "translation": "fix, remedy, address",
+    "senses": []
+  },
+  {
+    "kellyId": 4614,
+    "decision": "fix",
+    "reason": "'enjoy' is fine but the sub-definition 'to have the benefit of' is really a synonym of the same meaning; list should be collapsed",
+    "translation": "enjoy",
+    "senses": []
+  },
+  {
+    "kellyId": 4990,
+    "decision": "fix",
+    "reason": "'moose, elk, Alces alces' — 'Alces alces' is a scientific name not useful on a flashcard; list item 'moose meat' is a minor sense worth keeping",
+    "translation": "moose, elk",
+    "senses": [
+      "moose, elk (animal)",
+      "moose (as food)"
+    ]
+  },
+  {
+    "kellyId": 5541,
+    "decision": "fix",
+    "reason": "currentTranslation embeds 'a title' with implied article; bare form is 'public office, office'",
+    "translation": "public office",
+    "senses": []
+  },
+  {
+    "kellyId": 5019,
+    "decision": "fix",
+    "reason": "the sub-definition 'a movement, a defecation' is marginal/medical jargon; chess sense is minor but real; simplify list",
+    "translation": "opening",
+    "senses": [
+      "opening (hole, gap, or act of opening)",
+      "opening (chess)"
+    ]
+  },
+  {
+    "kellyId": 4758,
+    "decision": "fix",
+    "reason": "currentTranslation is a gloss with parenthetical which is helpful; but it is the only current meaning the learner needs — the historical senses (property, weight unit, fraction of mark) are archaic and marginal; clean to single sense",
+    "translation": "öre (1/100 of a krona)",
+    "senses": []
+  },
+  {
+    "kellyId": 5005,
+    "decision": "fix",
+    "reason": "single-meaning word; the sub-definition 'one of the four major compass points' is a definition, not a separate sense; clear the list",
+    "translation": "east",
+    "senses": []
+  },
+  {
+    "kellyId": 5333,
+    "decision": "fix",
+    "reason": "currentTranslation is a definition, not a translation; primary meaning is 'agreement, correspondence'; conformity/compliance is a secondary sense",
+    "translation": "agreement, correspondence",
+    "senses": [
+      "agreement, correspondence (between things)",
+      "conformity, compliance"
+    ]
+  },
+  {
+    "kellyId": 5420,
+    "decision": "fix",
+    "reason": "'opulence, overflow, abundance' — 'overflow' is a weak/literal gloss here; 'abundance' is the core meaning; 'opulence' is a good shade but 'overflow' is misleading",
+    "translation": "abundance, excess",
+    "senses": []
+  },
+  {
+    "kellyId": 5226,
+    "decision": "fix",
+    "reason": "'appeal, appealing' — 'appealing' (the gerund/adjective) is wrong here; it is a noun meaning the legal document/act; fix to just 'appeal'",
+    "translation": "appeal",
+    "senses": []
+  },
+  {
+    "kellyId": 4986,
+    "decision": "fix",
+    "reason": "two sub-definitions are really one meaning; collapse to single meaning",
+    "translation": "exceed, surpass",
+    "senses": []
+  },
+  {
+    "kellyId": 5409,
+    "decision": "fix",
+    "reason": "'flood' and 'flooding' in the list are the same meaning; clear the list",
+    "translation": "flood",
+    "senses": []
+  },
+  {
+    "kellyId": 5193,
+    "decision": "fix",
+    "reason": "'persuade' and 'convince' are near-synonyms; the list adds no real value; collapse to single meaning with both in translation",
+    "translation": "persuade, convince",
+    "senses": []
+  },
+  {
+    "kellyId": 4459,
+    "decision": "fix",
+    "reason": "currentTranslation has 'a violation' which embeds an article; bare form needed",
+    "translation": "transgression, violation",
+    "senses": []
+  },
+  {
+    "kellyId": 4710,
+    "decision": "fix",
+    "reason": "currentTranslation has clumsy 'to conquer' with extra 'to'; app adds 'to'",
+    "translation": "overcome, conquer",
+    "senses": []
+  },
+  {
+    "kellyId": 4288,
+    "decision": "fix",
+    "reason": "'recital (a telling in detail and due order)' is an archaic/marginal sense; drop it; single meaning",
+    "translation": "consideration",
+    "senses": []
+  },
+  {
+    "kellyId": 6479,
+    "decision": "fix",
+    "reason": "the sub-definitions are definition-like and the secondary sense (differential calculus) is highly marginal for a CEFR learner; primary is clean, clear the list",
+    "translation": "analytical",
+    "senses": []
+  },
+  {
+    "kellyId": 6023,
+    "decision": "fix",
+    "reason": "sub-definition is a meta-reference ('synonym of beträffa'), not a real sense entry; clear the list",
+    "translation": "concern",
+    "senses": []
+  },
+  {
+    "kellyId": 7014,
+    "decision": "fix",
+    "reason": "'predisposition, aptitude' is the primary everyday meaning; the biological senses are real but secondary; reorder list",
+    "translation": "predisposition, aptitude",
+    "senses": [
+      "predisposition, aptitude, talent",
+      "rudiment, embryonic stage (biology)"
+    ]
+  },
+  {
+    "kellyId": 6393,
+    "decision": "fix",
+    "reason": "currentTranslation embeds 'an attempt, an onset' with implied article; bare form needed",
+    "translation": "approach, attempt",
+    "senses": []
+  },
+  {
+    "kellyId": 5912,
+    "decision": "fix",
+    "reason": "currentTranslation has clumsy 'to write down' with extra 'to'; app adds 'to'",
+    "translation": "note down, write down",
+    "senses": []
+  },
+  {
+    "kellyId": 6456,
+    "decision": "fix",
+    "reason": "currentTranslation has clumsy 'to assign' with extra 'to'; app adds 'to'",
+    "translation": "show, assign",
+    "senses": [
+      "show, direct (to a seat or place)",
+      "allocate"
+    ]
+  },
+  {
+    "kellyId": 6397,
+    "decision": "fix",
+    "reason": "list has redundancy and a definition-like first sense; simplify",
+    "translation": "application",
+    "senses": [
+      "application (software or technical use)",
+      "applique (fabric decoration)"
+    ]
+  }
+]

@@ -1,0 +1,301 @@
+[
+  {
+    "kellyId": 3989,
+    "decision": "fix",
+    "reason": "'witness' is wrong — vittnesbörd means testimony/testament, not the person who witnesses (that is vittne).",
+    "translation": "testimony, testament",
+    "senses": ["testimony, testament (formal or religious statement of truth)"]
+  },
+  {
+    "kellyId": 2954,
+    "decision": "fix",
+    "reason": "'volume - any of' is a broken Wiktionary stub. The word has multiple real senses.",
+    "translation": "volume",
+    "senses": ["volume (sound level)", "volume (book in a series)", "volume (amount of space)"]
+  },
+  {
+    "kellyId": 3639,
+    "decision": "fix",
+    "reason": "Spurious 'to' in primary; sub-definition is not a distinct sense.",
+    "translation": "twist, turn",
+    "senses": []
+  },
+  {
+    "kellyId": 3781,
+    "decision": "fix",
+    "reason": "Primary is definition-like; core everyday sense is 'care for, nurse'. Sub-definitions are near-synonyms of the same idea.",
+    "translation": "care for, nurse",
+    "senses": ["care for, nurse (a patient)", "look after, tend (keep in good condition)"]
+  },
+  {
+    "kellyId": 3016,
+    "decision": "fix",
+    "reason": "Sub-definition 'of a very large size' is just a definition of 'huge', not a distinct sense — clear the stale list.",
+    "translation": "huge, enormous",
+    "senses": []
+  },
+  {
+    "kellyId": 4128,
+    "decision": "fix",
+    "reason": "'guidance' is an uncountable noun.",
+    "translation": "guidance",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3950,
+    "decision": "fix",
+    "reason": "Spurious 'to' in primary. The sub-definition duplicates the primary. Clarify the transitive vs reflexive split.",
+    "translation": "get used to, accustom",
+    "senses": ["get used to, get accustomed (reflexive: vänja sig)", "accustom someone to (transitive)"]
+  },
+  {
+    "kellyId": 3689,
+    "decision": "fix",
+    "reason": "Spurious 'to' in primary.",
+    "translation": "heat, warm",
+    "senses": ["heat, warm (make warmer)", "warm (make happy, figurative)"]
+  },
+  {
+    "kellyId": 4014,
+    "decision": "fix",
+    "reason": "Spurious 'to' in primary. The senses 'turn/twist' and 'disappear/vanish' are archaic/dialectal — not relevant for a B1 learner.",
+    "translation": "recruit",
+    "senses": []
+  },
+  {
+    "kellyId": 3838,
+    "decision": "fix",
+    "reason": "'Supernatural being' is not the dominant everyday sense. 'Noise/racket' (göra väsen av sig) is the most common use; reorder.",
+    "translation": "noise, racket",
+    "senses": ["noise, racket (loud disturbance)", "being, creature (supernatural or imaginary)", "nature, essence (formal)"]
+  },
+  {
+    "kellyId": 3288,
+    "decision": "fix",
+    "reason": "Sub-definition parenthetical is clunky; simplify the list.",
+    "translation": "several, quite a few",
+    "senses": ["several, quite a few (countable)", "much, a great deal of (uncountable)"]
+  },
+  {
+    "kellyId": 3538,
+    "decision": "fix",
+    "reason": "'ownership' is an uncountable noun.",
+    "translation": "ownership",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2899,
+    "decision": "fix",
+    "reason": "Three synonyms in primary — trim to two core ones. All refer to the same legal concept.",
+    "translation": "prosecution, indictment",
+    "senses": []
+  },
+  {
+    "kellyId": 3819,
+    "decision": "fix",
+    "reason": "Spurious 'to' in primary.",
+    "translation": "charge, prosecute, indict",
+    "senses": []
+  },
+  {
+    "kellyId": 3609,
+    "decision": "fix",
+    "reason": "Spurious 'to' in primary.",
+    "translation": "reproduce, recount",
+    "senses": []
+  },
+  {
+    "kellyId": 3797,
+    "decision": "fix",
+    "reason": "Embedded article 'an' in primary.",
+    "translation": "surplus, excess",
+    "senses": []
+  },
+  {
+    "kellyId": 3077,
+    "decision": "fix",
+    "reason": "Embedded article 'an' in primary; sub-definition is a Wiktionary synonym stub — drop it.",
+    "translation": "review, evaluation",
+    "senses": []
+  },
+  {
+    "kellyId": 3576,
+    "decision": "fix",
+    "reason": "Spurious 'to' in primary; all four items are near-synonyms for the same sense — single meaning.",
+    "translation": "agree, match, correspond",
+    "senses": []
+  },
+  {
+    "kellyId": 3368,
+    "decision": "fix",
+    "reason": "Spurious 'to' in primary.",
+    "translation": "exceed, surpass",
+    "senses": []
+  },
+  {
+    "kellyId": 3099,
+    "decision": "fix",
+    "reason": "'surveil' is awkward and unnatural; 'monitor, supervise' is clearer. All three originals are near-synonyms.",
+    "translation": "monitor, supervise",
+    "senses": []
+  },
+  {
+    "kellyId": 2882,
+    "decision": "fix",
+    "reason": "'convince' and 'persuade' are near-synonyms — not distinct senses. Combine.",
+    "translation": "convince, persuade",
+    "senses": []
+  },
+  {
+    "kellyId": 2886,
+    "decision": "fix",
+    "reason": "Embedded article 'a' in primary. 'Conviction' is the dominant everyday sense of övertygelse.",
+    "translation": "conviction",
+    "senses": ["conviction (firm belief)", "persuasion (act of convincing)"]
+  },
+  {
+    "kellyId": 2937,
+    "decision": "fix",
+    "reason": "Spurious 'to' in primary.",
+    "translation": "utter, say",
+    "senses": ["utter, say (express in words)", "manifest, show (reflexive: yttra sig som)"]
+  },
+  {
+    "kellyId": 3437,
+    "decision": "fix",
+    "reason": "Spurious 'to' in primary.",
+    "translation": "refer to, invoke",
+    "senses": []
+  },
+  {
+    "kellyId": 4084,
+    "decision": "fix",
+    "reason": "Three near-synonyms padded out; 'worldview' alone is the clear, natural gloss.",
+    "translation": "worldview",
+    "senses": []
+  },
+  {
+    "kellyId": 4410,
+    "decision": "fix",
+    "reason": "'abstract, i.e. not concrete' has a definition clause. 'abstract' alone is sufficient.",
+    "translation": "abstract",
+    "senses": []
+  },
+  {
+    "kellyId": 4304,
+    "decision": "fix",
+    "reason": "'nobility, aristocracy' are uncountable collective nouns in this use.",
+    "translation": "nobility, aristocracy",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4987,
+    "decision": "fix",
+    "reason": "Sub-definitions are elaborations of the same sense, not distinct meanings — single meaning.",
+    "translation": "activate",
+    "senses": []
+  },
+  {
+    "kellyId": 5522,
+    "decision": "fix",
+    "reason": "Primary is fine but sub-definitions collapse into one real secondary sense. Simplify.",
+    "translation": "make topical, bring to the fore",
+    "senses": ["make topical, bring to the fore (an issue or question)", "bring up to date"]
+  },
+  {
+    "kellyId": 5080,
+    "decision": "fix",
+    "reason": "Sub-definition 'possessing ambition' is just a definition of 'ambitious' — clear stale list.",
+    "translation": "ambitious",
+    "senses": []
+  },
+  {
+    "kellyId": 5405,
+    "decision": "fix",
+    "reason": "'ammunition' is uncountable; the figurative sense is worth listing.",
+    "translation": "ammunition",
+    "uncountable": true,
+    "senses": ["ammunition (for firearms)", "ammunition (arguments, information — figurative)"]
+  },
+  {
+    "kellyId": 4233,
+    "decision": "fix",
+    "reason": "'Domesticated duck' is over-specific — 'duck' is the natural everyday word. The tidningsanka synonym-sense is a compound, not an independent sense of anka.",
+    "translation": "duck",
+    "senses": []
+  },
+  {
+    "kellyId": 5436,
+    "decision": "fix",
+    "reason": "'signup' is too narrow — Swedish anmälning covers registration, enrollment, report, and formal complaints.",
+    "translation": "registration, signup",
+    "senses": []
+  },
+  {
+    "kellyId": 5493,
+    "decision": "fix",
+    "reason": "Primary is definition-like. Core senses are 'complaint, criticism' and 'remark, note'.",
+    "translation": "complaint, criticism",
+    "senses": ["complaint, criticism (pointing out a flaw)", "remark, note (short comment)"]
+  },
+  {
+    "kellyId": 4983,
+    "decision": "fix",
+    "reason": "Sub-definitions are messy elaborations. Swedish 'antik' has two distinct uses: ancient (det antika Grekland) and antique (collectible old object).",
+    "translation": "ancient, antique",
+    "senses": ["ancient (of classical antiquity)", "antique (old, collectible)"]
+  },
+  {
+    "kellyId": 4852,
+    "decision": "fix",
+    "reason": "Sub-definitions are just elaborations of the same concept — single meaning.",
+    "translation": "antiquity",
+    "senses": []
+  },
+  {
+    "kellyId": 4416,
+    "decision": "fix",
+    "reason": "The financial-communication sense is very marginal for a learner; 'instruction' as primary is fine — clear stale list.",
+    "translation": "instruction",
+    "senses": []
+  },
+  {
+    "kellyId": 4364,
+    "decision": "fix",
+    "reason": "Marginal senses (bad smell, sail) are irrelevant for learners. Keep monkey/ape and informal insult.",
+    "translation": "monkey, ape",
+    "senses": ["monkey, ape (primate)", "idiot, dimwit (informal insult)"]
+  },
+  {
+    "kellyId": 5100,
+    "decision": "fix",
+    "reason": "The home medicine cabinet and cruet-set senses are very marginal — drop them. Single meaning.",
+    "translation": "pharmacy",
+    "senses": []
+  },
+  {
+    "kellyId": 5024,
+    "decision": "fix",
+    "reason": "'applause' is an uncountable noun.",
+    "translation": "applause",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4223,
+    "decision": "fix",
+    "reason": "Spurious 'to' in primary; the sub-definition is not a truly distinct sense.",
+    "translation": "strain, exert",
+    "senses": []
+  },
+  {
+    "kellyId": 5227,
+    "decision": "fix",
+    "reason": "'ancestry, heritage, roots' — three near-synonyms padded out; 'roots, heritage' captures anor naturally.",
+    "translation": "roots, heritage",
+    "senses": []
+  }
+]

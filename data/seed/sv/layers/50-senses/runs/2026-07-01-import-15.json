@@ -1,0 +1,413 @@
+[
+  {
+    "english": "agree",
+    "senses": [
+      { "gloss": "concur, assent", "members": [2844] },
+      { "gloss": "correspond, match", "members": [3576] },
+      { "gloss": "arrange by contract", "members": [6877] }
+    ]
+  },
+  {
+    "english": "dry",
+    "senses": [
+      { "gloss": "not wet (adj)", "members": [2850] },
+      { "gloss": "make dry (verb)", "members": [3919] }
+    ]
+  },
+  {
+    "english": "sweet",
+    "senses": [
+      { "gloss": "sweet, cute (adj)", "members": [2851] },
+      { "gloss": "wonderfully (adv)", "members": [4572] }
+    ]
+  },
+  {
+    "english": "sad",
+    "senses": [
+      { "gloss": "feeling sad", "members": [2856] },
+      { "gloss": "causing sadness", "members": [3776] }
+    ]
+  },
+  {
+    "english": "ideal",
+    "senses": [
+      { "gloss": "principle (noun)", "members": [2862] },
+      { "gloss": "perfect (adj)", "members": [6520] }
+    ]
+  },
+  {
+    "english": "trunk",
+    "senses": [
+      { "gloss": "tree trunk, stem", "members": [2872] },
+      { "gloss": "large chest, car boot", "members": [8276] }
+    ]
+  },
+  {
+    "english": "reduction, lowering",
+    "senses": [
+      { "gloss": "decrease in amount", "members": [2888, 2938] },
+      { "gloss": "chemical or historical", "members": [7052] }
+    ]
+  },
+  {
+    "english": "assign",
+    "senses": [
+      { "gloss": "allocate, give out", "members": [2891] },
+      { "gloss": "attribute, classify", "members": [5252] }
+    ]
+  },
+  {
+    "english": "oppose",
+    "senses": [
+      { "gloss": "", "members": [2893, 2955] }
+    ]
+  },
+  {
+    "english": "imagination, fantasy",
+    "senses": [
+      { "gloss": "", "members": [2907, 7893] }
+    ]
+  },
+  {
+    "english": "watch",
+    "senses": [
+      { "gloss": "observe, look at", "members": [2912] },
+      { "gloss": "keep watch, guard", "members": [3053, 3343] }
+    ]
+  },
+  {
+    "english": "professional",
+    "senses": [
+      { "gloss": "skilled (adj)", "members": [2917] },
+      { "gloss": "skilled worker (noun)", "members": [8196] }
+    ]
+  },
+  {
+    "english": "kick",
+    "senses": [
+      { "gloss": "to kick (verb)", "members": [2921] },
+      { "gloss": "a kick (noun)", "members": [4633] }
+    ]
+  },
+  {
+    "english": "relative",
+    "senses": [
+      { "gloss": "family member", "members": [2930] },
+      { "gloss": "comparative (adj)", "members": [4237] }
+    ]
+  },
+  {
+    "english": "worsen",
+    "senses": [
+      { "gloss": "", "members": [2940, 4390] }
+    ]
+  },
+  {
+    "english": "construction",
+    "senses": [
+      { "gloss": "structure, design", "members": [2943] },
+      { "gloss": "building up", "members": [4479, 7195] }
+    ]
+  },
+  {
+    "english": "archive",
+    "senses": [
+      { "gloss": "collection (noun)", "members": [2944] },
+      { "gloss": "to archive (verb)", "members": [7545] }
+    ]
+  },
+  {
+    "english": "section, article, paragraph, clause",
+    "senses": [
+      { "gloss": "legal clause", "members": [2950] },
+      { "gloss": "document section", "members": [4594] }
+    ]
+  },
+  {
+    "english": "widen, expand",
+    "senses": [
+      { "gloss": "", "members": [2953, 6934] }
+    ]
+  },
+  {
+    "english": "extend, expand",
+    "senses": [
+      { "gloss": "expand in scope", "members": [2957] },
+      { "gloss": "extend in time or length", "members": [3306] }
+    ]
+  },
+  {
+    "english": "hug, embrace",
+    "senses": [
+      { "gloss": "a hug (noun)", "members": [2960] },
+      { "gloss": "to hug (verb)", "members": [4482] }
+    ]
+  },
+  {
+    "english": "sacrifice",
+    "senses": [
+      { "gloss": "to sacrifice (verb)", "members": [2969] },
+      { "gloss": "a sacrifice (noun)", "members": [6597] }
+    ]
+  },
+  {
+    "english": "consciousness",
+    "senses": [
+      { "gloss": "state of awareness", "members": [2981] },
+      { "gloss": "mindful awareness", "members": [4027] }
+    ]
+  },
+  {
+    "english": "master",
+    "senses": [
+      { "gloss": "expert, champion (noun)", "members": [2996] },
+      { "gloss": "to master, control (verb)", "members": [4256, 7240] }
+    ]
+  },
+  {
+    "english": "meaningful, significant",
+    "senses": [
+      { "gloss": "significant, important", "members": [3006] },
+      { "gloss": "purposeful, meaningful", "members": [4044] }
+    ]
+  },
+  {
+    "english": "branch",
+    "senses": [
+      { "gloss": "tree branch", "members": [3015] },
+      { "gloss": "branch office", "members": [6316] }
+    ]
+  },
+  {
+    "english": "role model",
+    "senses": [
+      { "gloss": "", "members": [3021, 6134] }
+    ]
+  },
+  {
+    "english": "lecture",
+    "senses": [
+      { "gloss": "a lecture (noun)", "members": [3024] },
+      { "gloss": "to lecture (verb)", "members": [6229] }
+    ]
+  },
+  {
+    "english": "sharp",
+    "senses": [
+      { "gloss": "", "members": [3035, 4532] }
+    ]
+  },
+  {
+    "english": "priority",
+    "senses": [
+      { "gloss": "ranked importance", "members": [3039, 5730] },
+      { "gloss": "right of way", "members": [6470] }
+    ]
+  },
+  {
+    "english": "Polish",
+    "senses": [
+      { "gloss": "relating to Poland", "members": [3054] },
+      { "gloss": "to polish, shine", "members": [7231] }
+    ]
+  },
+  {
+    "english": "bomb",
+    "senses": [
+      { "gloss": "explosive device (noun)", "members": [3055] },
+      { "gloss": "to bomb (verb)", "members": [4822] }
+    ]
+  },
+  {
+    "english": "waste, refuse, garbage",
+    "senses": [
+      { "gloss": "garbage, refuse (noun)", "members": [3061] },
+      { "gloss": "to waste, squander", "members": [5601] },
+      { "gloss": "wastefulness (noun)", "members": [5828] }
+    ]
+  },
+  {
+    "english": "constitution",
+    "senses": [
+      { "gloss": "", "members": [3070, 3151] }
+    ]
+  },
+  {
+    "english": "punish",
+    "senses": [
+      { "gloss": "", "members": [3073, 5763] }
+    ]
+  },
+  {
+    "english": "nicely, finely",
+    "senses": [
+      { "gloss": "neatly, finely", "members": [3082] },
+      { "gloss": "comfortably, pleasantly", "members": [5190] }
+    ]
+  },
+  {
+    "english": "creation",
+    "senses": [
+      { "gloss": "created thing or act", "members": [3083, 3431] },
+      { "gloss": "coming into being", "members": [5277] },
+      { "gloss": "formal establishment", "members": [5575] }
+    ]
+  },
+  {
+    "english": "collapse",
+    "senses": [
+      { "gloss": "to collapse (verb)", "members": [3084, 6417] },
+      { "gloss": "a collapse (noun)", "members": [4971, 5626] }
+    ]
+  },
+  {
+    "english": "float",
+    "senses": [
+      { "gloss": "on water", "members": [3089] },
+      { "gloss": "in air, hover", "members": [6029] }
+    ]
+  },
+  {
+    "english": "fat",
+    "senses": [
+      { "gloss": "fatty substance (noun)", "members": [3092] },
+      { "gloss": "fatty, fat (adj)", "members": [3220] }
+    ]
+  },
+  {
+    "english": "monitor, supervise",
+    "senses": [
+      { "gloss": "to supervise (verb)", "members": [3099] },
+      { "gloss": "display screen (noun)", "members": [7806, 8277] }
+    ]
+  },
+  {
+    "english": "export",
+    "senses": [
+      { "gloss": "goods exported (noun)", "members": [3109] },
+      { "gloss": "to export (verb)", "members": [4655] }
+    ]
+  },
+  {
+    "english": "experiment",
+    "senses": [
+      { "gloss": "a test (noun)", "members": [3112] },
+      { "gloss": "to experiment (verb)", "members": [6438] }
+    ]
+  },
+  {
+    "english": "block, boulder, cuboid",
+    "senses": [
+      { "gloss": "solid mass (noun)", "members": [3117] },
+      { "gloss": "to block, obstruct (verb)", "members": [3733, 6236] }
+    ]
+  },
+  {
+    "english": "north",
+    "senses": [
+      { "gloss": "", "members": [3127, 4082] }
+    ]
+  },
+  {
+    "english": "receive",
+    "senses": [
+      { "gloss": "get, accept", "members": [3129, 8381] },
+      { "gloss": "receive benefits, collect", "members": [5939] }
+    ]
+  },
+  {
+    "english": "sail",
+    "senses": [
+      { "gloss": "to sail (verb)", "members": [3144] },
+      { "gloss": "sail cloth (noun)", "members": [5902] }
+    ]
+  },
+  {
+    "english": "careful, cautious",
+    "senses": [
+      { "gloss": "cautious, safe", "members": [3145] },
+      { "gloss": "thorough, precise", "members": [3859] }
+    ]
+  },
+  {
+    "english": "competent",
+    "senses": [
+      { "gloss": "authorized, qualified", "members": [3164] },
+      { "gloss": "capable, skilled", "members": [3864] }
+    ]
+  },
+  {
+    "english": "cargo, load",
+    "senses": [
+      { "gloss": "", "members": [3165, 4199] }
+    ]
+  },
+  {
+    "english": "stress",
+    "senses": [
+      { "gloss": "mental pressure (noun)", "members": [3169] },
+      { "gloss": "linguistic emphasis", "members": [5782] },
+      { "gloss": "to rush, feel stressed", "members": [6695] }
+    ]
+  },
+  {
+    "english": "smoke",
+    "senses": [
+      { "gloss": "to smoke (verb)", "members": [3177] },
+      { "gloss": "smoke, fumes (noun)", "members": [4963] }
+    ]
+  },
+  {
+    "english": "edition, printing",
+    "senses": [
+      { "gloss": "", "members": [3182, 5124] }
+    ]
+  },
+  {
+    "english": "proper, decent",
+    "senses": [
+      { "gloss": "thorough, decent", "members": [3183] },
+      { "gloss": "by the rules, outright", "members": [6647] }
+    ]
+  },
+  {
+    "english": "dress, clothe",
+    "senses": [
+      { "gloss": "to dress (verb)", "members": [3184] },
+      { "gloss": "a dress (noun)", "members": [4007] }
+    ]
+  },
+  {
+    "english": "joke",
+    "senses": [
+      { "gloss": "a joke (noun)", "members": [3188] },
+      { "gloss": "to joke (verb)", "members": [5604, 6123] }
+    ]
+  },
+  {
+    "english": "reverse, back up",
+    "senses": [
+      { "gloss": "to reverse (verb)", "members": [3191] },
+      { "gloss": "reversed, opposite (adj)", "members": [4267] }
+    ]
+  },
+  {
+    "english": "liberate, free",
+    "senses": [
+      { "gloss": "", "members": [3204, 4066, 7087] }
+    ]
+  },
+  {
+    "english": "edge",
+    "senses": [
+      { "gloss": "rim, border", "members": [3227] },
+      { "gloss": "stripe, streak", "members": [6428] }
+    ]
+  },
+  {
+    "english": "preach",
+    "senses": [
+      { "gloss": "", "members": [3229, 4427] }
+    ]
+  }
+]

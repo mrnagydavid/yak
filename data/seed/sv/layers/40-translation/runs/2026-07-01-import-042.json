@@ -1,0 +1,339 @@
+[
+  {
+    "kellyId": 5159,
+    "decision": "fix",
+    "reason": "primary appends a definition clause; 'coworker, workmate' is the clean translation",
+    "translation": "coworker, workmate",
+    "senses": []
+  },
+  {
+    "kellyId": 5602,
+    "decision": "fix",
+    "reason": "'labor market policies' is plural/countable; the Swedish lemma is singular/uncountable — 'labor market policy' is the correct uncountable translation",
+    "translation": "labor market policy",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5397,
+    "decision": "fix",
+    "reason": "embedded article 'a' in primary; definition-like list; simplified to clean bare gloss",
+    "translation": "method, way of working",
+    "senses": []
+  },
+  {
+    "kellyId": 4403,
+    "decision": "fix",
+    "reason": "clumsy 'organiser, or organizer' phrasing; drop 'or'",
+    "translation": "organiser, organizer",
+    "senses": []
+  },
+  {
+    "kellyId": 4821,
+    "decision": "fix",
+    "reason": "primary includes Latin species name; 'ash tree' is the everyday sense; 'small box' is a distinct secondary meaning",
+    "translation": "ash tree; box",
+    "senses": ["ash tree (European ash)", "box (small, with loose lid)"]
+  },
+  {
+    "kellyId": 5206,
+    "decision": "fix",
+    "reason": "aska is uncountable in its primary sense; 'ashes' is the plural form but the lemma is singular — 'ash' is the correct bare uncountable",
+    "translation": "ash",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5556,
+    "decision": "fix",
+    "reason": "embedded article 'a' in primary; senses list has definition-like entries; clean up",
+    "translation": "assistant",
+    "senses": ["assistant (person)", "stand mixer (kitchen appliance)", "wizard (software setup)"]
+  },
+  {
+    "kellyId": 4604,
+    "decision": "fix",
+    "reason": "asylum is uncountable in its primary sense; 'refuge, sanctuary' are synonyms that belong in a single senses entry",
+    "translation": "asylum",
+    "uncountable": true,
+    "senses": ["asylum, refuge, sanctuary"]
+  },
+  {
+    "kellyId": 5167,
+    "decision": "fix",
+    "reason": "senses list is definition-heavy; atom has a single meaning",
+    "translation": "atom",
+    "senses": []
+  },
+  {
+    "kellyId": 4272,
+    "decision": "fix",
+    "reason": "senses list missing the 'deliver, submit' sense that is in the currentSubDefinitions; add it",
+    "translation": "emit, give off",
+    "senses": ["emit, give off", "deliver, submit (a report or statement)"]
+  },
+  {
+    "kellyId": 4993,
+    "decision": "fix",
+    "reason": "senses list 'resignation' entry is definition-heavy; trim",
+    "translation": "departure",
+    "senses": ["departure (of a vehicle)", "resignation (from a post)"]
+  },
+  {
+    "kellyId": 4367,
+    "decision": "fix",
+    "reason": "embedded article 'a' in primary",
+    "translation": "decision, deciding moment",
+    "senses": []
+  },
+  {
+    "kellyId": 4858,
+    "decision": "fix",
+    "reason": "deregulation is uncountable",
+    "translation": "deregulation",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5220,
+    "decision": "fix",
+    "reason": "wiretapping is uncountable; senses list is definition-heavy",
+    "translation": "wiretapping, surveillance",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4607,
+    "decision": "fix",
+    "reason": "senses list contains definition-like entries with embedded 'to' prefixes; clean up",
+    "translation": "remove",
+    "senses": ["remove, take away", "move away, distance oneself", "leave, depart"]
+  },
+  {
+    "kellyId": 4489,
+    "decision": "fix",
+    "reason": "dismantling is uncountable; 'phase-out' added as it better covers the nuclear/wind-down sense common in Swedish",
+    "translation": "dismantling, phase-out",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4998,
+    "decision": "fix",
+    "reason": "senses list is definition-heavy; execution is single meaning here",
+    "translation": "execution",
+    "senses": []
+  },
+  {
+    "kellyId": 4595,
+    "decision": "fix",
+    "reason": "abolition is uncountable; 'abolishing' is redundant gerund",
+    "translation": "abolition",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4727,
+    "decision": "fix",
+    "reason": "'as an end' is awkward; trim to cleaner gloss",
+    "translation": "in conclusion, finally",
+    "senses": []
+  },
+  {
+    "kellyId": 5168,
+    "decision": "fix",
+    "reason": "senses list needed to separate the two distinct meanings clearly",
+    "translation": "decrease, diminish, subside",
+    "senses": ["decrease, diminish, subside", "take off (clothes)"]
+  },
+  {
+    "kellyId": 5365,
+    "decision": "fix",
+    "reason": "primary has embedded 'to' prefixes ('to await', 'to stand by'); fix to clean bare gloss",
+    "translation": "wait and see, stand by",
+    "senses": []
+  },
+  {
+    "kellyId": 4545,
+    "decision": "fix",
+    "reason": "senses entry for deviation is definition-heavy; primary 'anomaly' is narrower than the more common 'deviation'; promote deviation",
+    "translation": "deviation, anomaly",
+    "senses": ["deviation, anomaly", "departure (from a norm)"]
+  },
+  {
+    "kellyId": 5354,
+    "decision": "fix",
+    "reason": "senses entry 'balancing (act of...)' is definition-heavy; primary gerund 'balancing' is awkward as a noun; 'trade-off, balance' is cleaner",
+    "translation": "trade-off, balance",
+    "senses": ["trade-off, balance", "balancing act"]
+  },
+  {
+    "kellyId": 4468,
+    "decision": "fix",
+    "reason": "liberation is uncountable",
+    "translation": "liberation",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4827,
+    "decision": "fix",
+    "reason": "primary appends definition 'a person being in command'; drop it",
+    "translation": "commander",
+    "senses": []
+  },
+  {
+    "kellyId": 4761,
+    "decision": "fix",
+    "reason": "senses list entries are definition-heavy; clean up",
+    "translation": "bury",
+    "senses": ["bury (a person)", "bury, cover (under earth or snow)", "bury, put an end to (figuratively)"]
+  },
+  {
+    "kellyId": 4256,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary ('to command'); fix bare",
+    "translation": "master, command",
+    "senses": ["master, command (a language, field, or territory)", "restrain oneself, control oneself"]
+  },
+  {
+    "kellyId": 5039,
+    "decision": "fix",
+    "reason": "beröm is uncountable; too many synonyms — trim to the most useful",
+    "translation": "praise",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4445,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary ('to possess'); fix bare",
+    "translation": "own, possess",
+    "senses": []
+  },
+  {
+    "kellyId": 5215,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary ('to dispute', 'to deny'); fix bare",
+    "translation": "contest, dispute, deny",
+    "senses": ["contest, dispute, deny", "cover, defray (an expense)", "carry out, provide"]
+  },
+  {
+    "kellyId": 4376,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary ('to direct', 'to instruct'); fix bare",
+    "translation": "order, direct, instruct",
+    "senses": []
+  },
+  {
+    "kellyId": 4462,
+    "decision": "fix",
+    "reason": "preparedness/readiness are uncountable",
+    "translation": "preparedness, readiness",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5251,
+    "decision": "fix",
+    "reason": "lighting is uncountable in its primary sense; senses third item is definition-heavy; trim",
+    "translation": "lighting, illumination",
+    "uncountable": true,
+    "senses": ["lighting, illumination", "light, lights (the fixtures)", "highlighting, shedding light on (figuratively)"]
+  },
+  {
+    "kellyId": 4242,
+    "decision": "fix",
+    "reason": "senses list entry has embedded 'to' ('to award'); fix bare",
+    "translation": "reward",
+    "senses": ["reward", "award"]
+  },
+  {
+    "kellyId": 4588,
+    "decision": "fix",
+    "reason": "gasoline/petrol are uncountable",
+    "translation": "gasoline, petrol",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4937,
+    "decision": "fix",
+    "reason": "childcare is uncountable",
+    "translation": "childcare",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4355,
+    "decision": "fix",
+    "reason": "'work, process' is vague; 'process, work on' better conveys the Swedish meaning (shaping material or processing emotions)",
+    "translation": "process, work on",
+    "senses": []
+  },
+  {
+    "kellyId": 4874,
+    "decision": "fix",
+    "reason": "'help and support' is a conjoined phrase rather than a clean verb gloss; 'assist, support' is cleaner; senses entry had embedded 'to'",
+    "translation": "assist, support",
+    "senses": ["assist, support", "stand by (someone)"]
+  },
+  {
+    "kellyId": 5182,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary ('to browse'); 'leaf' alone is not idiomatic without 'through'; fix",
+    "translation": "leaf through, browse",
+    "senses": []
+  },
+  {
+    "kellyId": 5464,
+    "decision": "fix",
+    "reason": "third sense 'fictional, mendacious' is a very marginal usage of 'blek'; drop it; primary 'pale' is single meaning",
+    "translation": "pale",
+    "senses": []
+  },
+  {
+    "kellyId": 5210,
+    "decision": "fix",
+    "reason": "senses list has capitalized entries and redundant/confusing items; consolidate",
+    "translation": "bluff",
+    "senses": ["bluff (an act of bluffing)", "bluffer (a person who bluffs)"]
+  },
+  {
+    "kellyId": 5432,
+    "decision": "fix",
+    "reason": "senses list is bloated with repeated and marginal entries; trim to genuinely distinct meanings",
+    "translation": "wet",
+    "senses": ["wet (soaked)", "boozy, with lots of alcohol", "soft, spineless (informal)"]
+  },
+  {
+    "kellyId": 5428,
+    "decision": "fix",
+    "reason": "preservation is uncountable",
+    "translation": "preservation",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5283,
+    "decision": "fix",
+    "reason": "senses entry 'to cook in an oven' has definition-like phrasing and embedded 'to'; baka is single meaning",
+    "translation": "bake",
+    "senses": []
+  },
+  {
+    "kellyId": 5346,
+    "decision": "fix",
+    "reason": "blues (music genre) clearly dominates; 'a blues composition' is too marginal; uncountable as a genre",
+    "translation": "blues",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4770,
+    "decision": "fix",
+    "reason": "senses list includes marginal '(nearby) ground' and 'hill (elevated landmass)' senses that overlap with kulle; trim to the two main senses",
+    "translation": "hill",
+    "senses": ["hill, slope (on a road)", "burial mound"]
+  }
+]

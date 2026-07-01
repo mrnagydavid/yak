@@ -1,0 +1,263 @@
+[
+  {
+    "kellyId": 2868,
+    "decision": "fix",
+    "reason": "clumsy phrasing with embedded 'to'; primary should be the personal-offense sense; violation sense goes in the list",
+    "translation": "offend, insult",
+    "senses": [
+      "offend, insult (a person)",
+      "violate, infringe (a right or airspace)"
+    ]
+  },
+  {
+    "kellyId": 3468,
+    "decision": "fix",
+    "reason": "missing the common 'insult, affront' sense; list only had legal synonyms",
+    "translation": "violation",
+    "senses": [
+      "violation, infringement (legal)",
+      "insult, affront (personal)"
+    ]
+  },
+  {
+    "kellyId": 2817,
+    "decision": "fix",
+    "reason": "sub-list senses 2–3 are marginal/technical; trimming to everyday meanings",
+    "translation": "royal, regal",
+    "senses": [
+      "royal, regal",
+      "great, magnificent (informal)"
+    ]
+  },
+  {
+    "kellyId": 4056,
+    "decision": "fix",
+    "reason": "single-meaning word; sub-def is a definition restatement, not a separate sense",
+    "translation": "knowledgeable, skilled",
+    "senses": []
+  },
+  {
+    "kellyId": 3135,
+    "decision": "fix",
+    "reason": "'remain' is the core meaning of kvarstå ('problemet kvarstår' = 'the problem remains'); 'continue' is secondary",
+    "translation": "remain",
+    "senses": [
+      "remain, persist",
+      "continue"
+    ]
+  },
+  {
+    "kellyId": 3800,
+    "decision": "fix",
+    "reason": "sub-list items are definition-like; archaic lodging sense is very marginal; simplify",
+    "translation": "quarter",
+    "senses": [
+      "quarter (one fourth)",
+      "quarter of an hour (15 minutes)"
+    ]
+  },
+  {
+    "kellyId": 3457,
+    "decision": "fix",
+    "reason": "archaic/technical senses (moon phase, unit of length/volume) trimmed; everyday senses kept",
+    "translation": "city block",
+    "senses": [
+      "city block",
+      "neighborhood, district",
+      "quarters (lodgings)"
+    ]
+  },
+  {
+    "kellyId": 3584,
+    "decision": "fix",
+    "reason": "'kännedom' means awareness/acquaintance, not general knowledge; also uncountable",
+    "translation": "awareness, acquaintance",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2980,
+    "decision": "fix",
+    "reason": "senses list was missing the primary 'queue (line of people)' sense; rebuilt complete list",
+    "translation": "queue",
+    "senses": [
+      "queue, line (of waiting people)",
+      "queue, waiting list",
+      "cue (billiard stick)"
+    ]
+  },
+  {
+    "kellyId": 2970,
+    "decision": "fix",
+    "reason": "embedded article 'a' in translation; senses list had definition-like entries; simplified",
+    "translation": "warehouse, stockroom",
+    "senses": [
+      "warehouse, stockroom",
+      "stock, supply",
+      "layer, stratum",
+      "bearing (mechanical)"
+    ]
+  },
+  {
+    "kellyId": 3165,
+    "decision": "fix",
+    "reason": "sub-list over-fragmented with technical senses; consolidated into everyday groupings; missing 'vice' sense from wiktionary added",
+    "translation": "cargo, load",
+    "senses": [
+      "cargo, load (freight or weight)",
+      "burden (figurative)",
+      "vice, bad habit"
+    ]
+  },
+  {
+    "kellyId": 3780,
+    "decision": "fix",
+    "reason": "'lorry' is a regional synonym for truck, not a separate sense; merge into translation",
+    "translation": "truck, lorry",
+    "senses": []
+  },
+  {
+    "kellyId": 4058,
+    "decision": "fix",
+    "reason": "primary was definition-like ('the act of delivering'); 'delivery' alone is clear",
+    "translation": "delivery",
+    "senses": []
+  },
+  {
+    "kellyId": 3167,
+    "decision": "fix",
+    "reason": "single-meaning word; sub-defs were redundant restatements",
+    "translation": "liberalism",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3987,
+    "decision": "fix",
+    "reason": "'league' (sports/organization) is at least as common as 'gang' in Swedish; neither dominates — use semicolon form",
+    "translation": "gang; league",
+    "senses": [
+      "gang (criminal group)",
+      "league (sports or organization)"
+    ]
+  },
+  {
+    "kellyId": 3574,
+    "decision": "fix",
+    "reason": "single meaning; sub-def was a restatement",
+    "translation": "similarly, in the same way",
+    "senses": []
+  },
+  {
+    "kellyId": 3782,
+    "decision": "fix",
+    "reason": "primary was definition-like; 'list' is the natural verb translation; sub-def was redundant",
+    "translation": "list",
+    "senses": []
+  },
+  {
+    "kellyId": 3155,
+    "decision": "fix",
+    "reason": "'pertaining to literature' is a definition appendage; 'literary' alone is sufficient",
+    "translation": "literary",
+    "senses": []
+  },
+  {
+    "kellyId": 4065,
+    "decision": "fix",
+    "reason": "semicolon form was wrong — 'local' is the adjectival form, not a second adverb meaning; just 'locally'",
+    "translation": "locally",
+    "senses": []
+  },
+  {
+    "kellyId": 3672,
+    "decision": "fix",
+    "reason": "'bust' is informal and opaque for learners; 'recession, downturn' is the everyday term",
+    "translation": "recession, downturn",
+    "senses": []
+  },
+  {
+    "kellyId": 3326,
+    "decision": "fix",
+    "reason": "sub-def for 'lock of hair' was in currentSubDefinitions but not surfaced cleanly; rebuilt senses list without marginal senses",
+    "translation": "lid, cover",
+    "senses": [
+      "lid, cover",
+      "lock, curl (of hair)"
+    ]
+  },
+  {
+    "kellyId": 3726,
+    "decision": "fix",
+    "reason": "single meaning; sub-def was a definition restatement",
+    "translation": "longing, yearning",
+    "senses": []
+  },
+  {
+    "kellyId": 3750,
+    "decision": "fix",
+    "reason": "'learning' as a noun is uncountable",
+    "translation": "learning",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3505,
+    "decision": "fix",
+    "reason": "primary was a definition; 'those in power' or 'ruler' is the learner-friendly gloss",
+    "translation": "ruler, those in power",
+    "senses": []
+  },
+  {
+    "kellyId": 3714,
+    "decision": "fix",
+    "reason": "senses list had definition-like wiktionary dump entries; trimmed to the two meaningful everyday senses",
+    "translation": "ore",
+    "senses": [
+      "ore (mineral)",
+      "urban district, suburb (in place names)"
+    ]
+  },
+  {
+    "kellyId": 4190,
+    "decision": "fix",
+    "reason": "senses list opened with a restatement of the primary; rebuilt without the redundant top item",
+    "translation": "carpet, rug",
+    "senses": [
+      "carpet, rug (floor covering)",
+      "mat (doormat or gym mat)"
+    ]
+  },
+  {
+    "kellyId": 3790,
+    "decision": "fix",
+    "reason": "'matte' most commonly means maths/math in everyday Swedish; female owner of a pet is a secondary/pet-context sense; archaic spelling sense dropped",
+    "translation": "maths, math",
+    "senses": [
+      "maths, math (informal)",
+      "female owner (of a pet)"
+    ]
+  },
+  {
+    "kellyId": 3069,
+    "decision": "fix",
+    "reason": "single meaning; sub-def was a definition restatement",
+    "translation": "maximal, maximum",
+    "senses": []
+  },
+  {
+    "kellyId": 3509,
+    "decision": "fix",
+    "reason": "'mathematics' is an uncountable noun",
+    "translation": "mathematics",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2936,
+    "decision": "fix",
+    "reason": "'meaningless' and 'pointless' are near-synonyms, not distinct senses; merge into single translation",
+    "translation": "meaningless, pointless",
+    "senses": []
+  }
+]

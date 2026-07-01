@@ -1,0 +1,399 @@
+[
+  {
+    "english": "following, subsequent",
+    "senses": [
+      { "gloss": "", "members": [4542, 5448, 6802] }
+    ]
+  },
+  {
+    "english": "confirmation",
+    "senses": [
+      { "gloss": "general", "members": [4551] },
+      { "gloss": "religious rite", "members": [7885] }
+    ]
+  },
+  {
+    "english": "ascribe, attribute",
+    "senses": [
+      { "gloss": "ascribe authorship", "members": [4558] },
+      { "gloss": "assign importance", "members": [6918] }
+    ]
+  },
+  {
+    "english": "at an angle, obliquely",
+    "senses": [
+      { "gloss": "adverb", "members": [4560] },
+      { "gloss": "adjective", "members": [7433] }
+    ]
+  },
+  {
+    "english": "intervention, interference",
+    "senses": [
+      { "gloss": "meddling", "members": [4567] },
+      { "gloss": "active stepping-in", "members": [4573, 5694] }
+    ]
+  },
+  {
+    "english": "analogy",
+    "senses": [
+      { "gloss": "parable, simile", "members": [4570] },
+      { "gloss": "abstract reasoning", "members": [7078] }
+    ]
+  },
+  {
+    "english": "thorough, detailed",
+    "senses": [
+      { "gloss": "thorough", "members": [4578, 6389] },
+      { "gloss": "consistent throughout", "members": [4929] }
+    ]
+  },
+  {
+    "english": "possession",
+    "senses": [
+      { "gloss": "", "members": [4585, 5715] }
+    ]
+  },
+  {
+    "english": "brake",
+    "senses": [
+      { "gloss": "to brake", "members": [4589] },
+      { "gloss": "brake device", "members": [6709] }
+    ]
+  },
+  {
+    "english": "executive",
+    "senses": [
+      { "gloss": "", "members": [4603, 7265] }
+    ]
+  },
+  {
+    "english": "ignorance",
+    "senses": [
+      { "gloss": "", "members": [4630, 5941] }
+    ]
+  },
+  {
+    "english": "in conclusion, in summary",
+    "senses": [
+      { "gloss": "in summary", "members": [4632, 5276] },
+      { "gloss": "finally, lastly", "members": [4727] }
+    ]
+  },
+  {
+    "english": "passage",
+    "senses": [
+      { "gloss": "corridor, transit, text", "members": [4661] },
+      { "gloss": "through-road", "members": [8286] }
+    ]
+  },
+  {
+    "english": "torment, torture",
+    "senses": [
+      { "gloss": "", "members": [4663, 8150] }
+    ]
+  },
+  {
+    "english": "rope, wire, line",
+    "senses": [
+      { "gloss": "", "members": [4679, 6028] }
+    ]
+  },
+  {
+    "english": "pole",
+    "senses": [
+      { "gloss": "geographic, magnetic", "members": [4716] },
+      { "gloss": "post, stick", "members": [6657, 7301] },
+      { "gloss": "Polish person", "members": [6114] }
+    ]
+  },
+  {
+    "english": "constitutional",
+    "senses": [
+      { "gloss": "", "members": [4726, 8419] }
+    ]
+  },
+  {
+    "english": "perpetrator",
+    "senses": [
+      { "gloss": "", "members": [4735, 4968] }
+    ]
+  },
+  {
+    "english": "comfort, consolation",
+    "senses": [
+      { "gloss": "consolation", "members": [4737] },
+      { "gloss": "to console", "members": [5733] },
+      { "gloss": "physical ease", "members": [6690, 7429] }
+    ]
+  },
+  {
+    "english": "wing",
+    "senses": [
+      { "gloss": "bird, aircraft", "members": [4755] },
+      { "gloss": "building, military", "members": [6973] }
+    ]
+  },
+  {
+    "english": "classify, class",
+    "senses": [
+      { "gloss": "", "members": [4756, 6234] }
+    ]
+  },
+  {
+    "english": "complaint",
+    "senses": [
+      { "gloss": "formal complaint", "members": [4766, 8421] },
+      { "gloss": "critical remark", "members": [5493] }
+    ]
+  },
+  {
+    "english": "hill",
+    "senses": [
+      { "gloss": "", "members": [4770, 6155] }
+    ]
+  },
+  {
+    "english": "cleaning, clearing, purge",
+    "senses": [
+      { "gloss": "clearing, purge", "members": [4794] },
+      { "gloss": "housecleaning", "members": [6418, 7410] }
+    ]
+  },
+  {
+    "english": "Latin",
+    "senses": [
+      { "gloss": "the language", "members": [4799] },
+      { "gloss": "of Latin origin", "members": [5751] }
+    ]
+  },
+  {
+    "english": "conspiracy",
+    "senses": [
+      { "gloss": "", "members": [4806, 7903] }
+    ]
+  },
+  {
+    "english": "shower",
+    "senses": [
+      { "gloss": "shower unit", "members": [4829] },
+      { "gloss": "to shower", "members": [5811] }
+    ]
+  },
+  {
+    "english": "screw",
+    "senses": [
+      { "gloss": "to fasten", "members": [4833] },
+      { "gloss": "fastener", "members": [7583] }
+    ]
+  },
+  {
+    "english": "sigh",
+    "senses": [
+      { "gloss": "a sigh", "members": [4841] },
+      { "gloss": "to sigh", "members": [6136] }
+    ]
+  },
+  {
+    "english": "remaining",
+    "senses": [
+      { "gloss": "", "members": [4847, 4866] }
+    ]
+  },
+  {
+    "english": "decay, downfall",
+    "senses": [
+      { "gloss": "noun", "members": [4870] },
+      { "gloss": "verb", "members": [5896] }
+    ]
+  },
+  {
+    "english": "assist, support",
+    "senses": [
+      { "gloss": "", "members": [4874, 7683] }
+    ]
+  },
+  {
+    "english": "adjustment, transition",
+    "senses": [
+      { "gloss": "major transition", "members": [4888] },
+      { "gloss": "fine-tuning", "members": [5580] }
+    ]
+  },
+  {
+    "english": "interaction, teamwork",
+    "senses": [
+      { "gloss": "", "members": [4894, 6554] }
+    ]
+  },
+  {
+    "english": "upset, distraught",
+    "senses": [
+      { "gloss": "adjective", "members": [4913] },
+      { "gloss": "to upset", "members": [5714] }
+    ]
+  },
+  {
+    "english": "pipe, tube",
+    "senses": [
+      { "gloss": "", "members": [4923, 6182] }
+    ]
+  },
+  {
+    "english": "curiosity",
+    "senses": [
+      { "gloss": "eagerness to know", "members": [4936] },
+      { "gloss": "oddity, curio", "members": [8232] }
+    ]
+  },
+  {
+    "english": "bark",
+    "senses": [
+      { "gloss": "to bark, scold", "members": [4964] },
+      { "gloss": "tree bark", "members": [7063] }
+    ]
+  },
+  {
+    "english": "painful",
+    "senses": [
+      { "gloss": "", "members": [4977, 6616] }
+    ]
+  },
+  {
+    "english": "departure",
+    "senses": [
+      { "gloss": "scheduled, vehicle", "members": [4993] },
+      { "gloss": "setting off", "members": [7108, 7411] }
+    ]
+  },
+  {
+    "english": "execution",
+    "senses": [
+      { "gloss": "putting to death", "members": [4998] },
+      { "gloss": "carrying out", "members": [5586] }
+    ]
+  },
+  {
+    "english": "opening",
+    "senses": [
+      { "gloss": "hole, gap", "members": [5019] },
+      { "gloss": "inauguration", "members": [5738] },
+      { "gloss": "gap in defense", "members": [8406] },
+      { "gloss": "mouth, muzzle", "members": [7536] }
+    ]
+  },
+  {
+    "english": "unnecessarily",
+    "senses": [
+      { "gloss": "", "members": [5026, 5185] }
+    ]
+  },
+  {
+    "english": "complement, supplement",
+    "senses": [
+      { "gloss": "", "members": [5037, 6806] }
+    ]
+  },
+  {
+    "english": "merit, qualification",
+    "senses": [
+      { "gloss": "", "members": [5052, 5076] }
+    ]
+  },
+  {
+    "english": "continuous",
+    "senses": [
+      { "gloss": "", "members": [5086, 5538] }
+    ]
+  },
+  {
+    "english": "enthusiasm",
+    "senses": [
+      { "gloss": "", "members": [5088, 8410] }
+    ]
+  },
+  {
+    "english": "monster",
+    "senses": [
+      { "gloss": "", "members": [5090, 7626] }
+    ]
+  },
+  {
+    "english": "excellent, brilliant",
+    "senses": [
+      { "gloss": "", "members": [5098, 6950] }
+    ]
+  },
+  {
+    "english": "tank",
+    "senses": [
+      { "gloss": "military vehicle", "members": [5112] },
+      { "gloss": "storage container", "members": [6502] }
+    ]
+  },
+  {
+    "english": "plead, appeal",
+    "senses": [
+      { "gloss": "", "members": [5125, 8088] }
+    ]
+  },
+  {
+    "english": "infect",
+    "senses": [
+      { "gloss": "", "members": [5136, 7832] }
+    ]
+  },
+  {
+    "english": "glue, paste",
+    "senses": [
+      { "gloss": "to glue", "members": [5149, 7834] },
+      { "gloss": "adhesive substance", "members": [7753] }
+    ]
+  },
+  {
+    "english": "fitting, appropriate",
+    "senses": [
+      { "gloss": "suitable", "members": [5166] },
+      { "gloss": "metal hardware", "members": [5691] },
+      { "gloss": "trying on", "members": [8326] }
+    ]
+  },
+  {
+    "english": "sailor, seaman",
+    "senses": [
+      { "gloss": "", "members": [5181, 7611] }
+    ]
+  },
+  {
+    "english": "weave",
+    "senses": [
+      { "gloss": "to weave", "members": [5189] },
+      { "gloss": "fabric, web", "members": [7608] }
+    ]
+  },
+  {
+    "english": "crack, fracture, split",
+    "senses": [
+      { "gloss": "", "members": [5191, 5663] }
+    ]
+  },
+  {
+    "english": "bang, slam, smack",
+    "senses": [
+      { "gloss": "to bang", "members": [5246] },
+      { "gloss": "loud noise", "members": [5446, 8191] }
+    ]
+  },
+  {
+    "english": "officer",
+    "senses": [
+      { "gloss": "", "members": [5248, 6780] }
+    ]
+  },
+  {
+    "english": "ache",
+    "senses": [
+      { "gloss": "pain, noun", "members": [5260] },
+      { "gloss": "to ache", "members": [7283] }
+    ]
+  }
+]

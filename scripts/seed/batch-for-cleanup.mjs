@@ -1,17 +1,17 @@
 // Write flagged entries needing cleanup into batches for the seed-cleaner subagent.
 // Scope: missing-translation, definition-like, over-long (the entries that are incomplete or
 // definition-y). Pure glued-senses are left as-is (comma/semicolon synonym lists are fine).
-// Output: data/intermediate/batches/<n>.json
+// Output: data/scratch/sv/cleanup-batches/<n>.json
 // Run: node scripts/seed/batch-for-cleanup.mjs
 import { mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 
-const BATCH_DIR = 'data/intermediate/batches'
+const BATCH_DIR = 'data/scratch/sv/cleanup-batches'
 const BATCH_SIZE = 120
 const CLEAN_FLAGS = new Set(['missing-translation', 'definition-like', 'over-long', 'abbreviation'])
 
 async function main() {
-  const flagged = JSON.parse(await readFile('data/intermediate/flagged.json', 'utf-8'))
+  const flagged = JSON.parse(await readFile('data/scratch/sv/flagged.json', 'utf-8'))
   const todo = flagged.filter((c) => c.flags.some((f) => CLEAN_FLAGS.has(f)))
 
   if (existsSync(BATCH_DIR)) for (const f of await readdir(BATCH_DIR)) await rm(`${BATCH_DIR}/${f}`)

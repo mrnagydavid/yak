@@ -1,0 +1,1097 @@
+[
+  {
+    "kellyId": 94,
+    "decision": "fix",
+    "reason": "sub-def is genuinely distinct (comparative conjunction 'as'); add complete senses list",
+    "translation": "who, which, that",
+    "senses": [
+      "who, which, that (relative pronoun)",
+      "as (to the same degree or extent)"
+    ]
+  },
+  {
+    "kellyId": 233,
+    "decision": "fix",
+    "reason": "formal Ni is a genuinely distinct sense; clean up the list item",
+    "translation": "you (plural)",
+    "senses": [
+      "you (plural)",
+      "you (formal singular, capitalized Ni; rare in modern Swedish)"
+    ]
+  },
+  {
+    "kellyId": 234,
+    "decision": "fix",
+    "reason": "pompous/self-important is genuinely distinct from 'important'; strip parenthetical clutter from list item",
+    "translation": "important",
+    "senses": [
+      "important",
+      "pompous, self-important"
+    ]
+  },
+  {
+    "kellyId": 237,
+    "decision": "fix",
+    "reason": "sub-def merely restates the main translation; drop list",
+    "translation": "life",
+    "uncountable": false,
+    "senses": []
+  },
+  {
+    "kellyId": 322,
+    "decision": "fix",
+    "reason": "sub-def is essentially the same meaning as the main; drop list",
+    "translation": "equally, just as",
+    "senses": []
+  },
+  {
+    "kellyId": 325,
+    "decision": "fix",
+    "reason": "secondary sense 'dra ett skämt' (tell a joke/story) is genuinely distinct; clean gloss",
+    "translation": "pull",
+    "senses": [
+      "pull, drag",
+      "tell, pull (as in 'pull a joke/story')"
+    ]
+  },
+  {
+    "kellyId": 358,
+    "decision": "fix",
+    "reason": "sub-def 'off/down (turning off)' shares 'down' with the main but is genuinely a distinct particle usage",
+    "translation": "down",
+    "senses": [
+      "down (direction)",
+      "off, down (turning off or shutting down)"
+    ]
+  },
+  {
+    "kellyId": 414,
+    "decision": "fix",
+    "reason": "building vs. institution are genuinely distinct senses; strip embedded article from list",
+    "translation": "church",
+    "senses": [
+      "church (building)",
+      "church (organization, institution)"
+    ]
+  },
+  {
+    "kellyId": 469,
+    "decision": "fix",
+    "reason": "a power (nation) is genuinely distinct from power/might; strip embedded article from list item",
+    "translation": "power, might",
+    "senses": [
+      "power, might",
+      "power (a nation with great influence)"
+    ]
+  },
+  {
+    "kellyId": 534,
+    "decision": "fix",
+    "reason": "sub-def merely restates — both senses are 'force'; drop list",
+    "translation": "force, compel",
+    "senses": []
+  },
+  {
+    "kellyId": 699,
+    "decision": "fix",
+    "reason": "chemical solution is genuinely distinct from problem solution; add senses",
+    "translation": "solution",
+    "senses": [
+      "solution (to a problem)",
+      "solution (chemistry: homogeneous mixture)"
+    ]
+  },
+  {
+    "kellyId": 770,
+    "decision": "fix",
+    "reason": "Democrat (US party member) is genuinely distinct from democrat (supporter of democracy); keep capitalization in list",
+    "translation": "democrat",
+    "senses": [
+      "democrat (supporter of democracy)",
+      "Democrat (member of the US Democratic Party)"
+    ]
+  },
+  {
+    "kellyId": 822,
+    "decision": "fix",
+    "reason": "make love is genuinely distinct from love; add senses",
+    "translation": "love",
+    "senses": [
+      "love",
+      "make love"
+    ]
+  },
+  {
+    "kellyId": 883,
+    "decision": "fix",
+    "reason": "Wiktionary primary is 'chairman' (of a court etc.), which is a distinct sense; current sub-def restates 'president'; restructure with both real senses",
+    "translation": "president",
+    "senses": [
+      "president (head of state)",
+      "chairman, presiding officer (of a court or assembly)"
+    ]
+  },
+  {
+    "kellyId": 899,
+    "decision": "fix",
+    "reason": "essential characteristics/nature is genuinely distinct from the natural environment; add senses",
+    "translation": "nature",
+    "uncountable": true,
+    "senses": [
+      "nature (the natural world, the outdoors)",
+      "nature (essential character or qualities)"
+    ]
+  },
+  {
+    "kellyId": 997,
+    "decision": "fix",
+    "reason": "chair as office/position is genuinely distinct from chair as furniture; strip embedded article",
+    "translation": "chair",
+    "senses": [
+      "chair (piece of furniture)",
+      "chair (office, position)"
+    ]
+  },
+  {
+    "kellyId": 1006,
+    "decision": "fix",
+    "reason": "central (important/key) is genuinely distinct from central (located in the centre); add senses",
+    "translation": "central",
+    "senses": [
+      "central (located in the centre)",
+      "central, key (important, main)"
+    ]
+  },
+  {
+    "kellyId": 1013,
+    "decision": "fix",
+    "reason": "natural (as expected/reasonable) is genuinely distinct from natural (relating to nature); add senses",
+    "translation": "natural",
+    "senses": [
+      "natural (relating to nature)",
+      "natural, expected (as expected; normal)"
+    ]
+  },
+  {
+    "kellyId": 1132,
+    "decision": "fix",
+    "reason": "sub-def 'rich (more generally)' is vague and essentially restates the main; drop list",
+    "translation": "rich, wealthy",
+    "senses": []
+  },
+  {
+    "kellyId": 1199,
+    "decision": "fix",
+    "reason": "warm/caring (emotional) is genuinely distinct from warm/hot (temperature); add senses",
+    "translation": "warm, hot",
+    "senses": [
+      "warm, hot (temperature)",
+      "warm, caring (emotionally warm)"
+    ]
+  },
+  {
+    "kellyId": 1206,
+    "decision": "fix",
+    "reason": "special (weird/odd) is genuinely distinct from special (distinguished/unique); add senses",
+    "translation": "special",
+    "senses": [
+      "special (unique, distinguished)",
+      "special, odd (a bit weird)"
+    ]
+  },
+  {
+    "kellyId": 1216,
+    "decision": "fix",
+    "reason": "sub-def playing position is just a specific instance of position/location, not truly distinct; drop list",
+    "translation": "position, location",
+    "senses": []
+  },
+  {
+    "kellyId": 1259,
+    "decision": "fix",
+    "reason": "sub-def merely defines 'foreign'; Wiktionary has only one sense; drop list",
+    "translation": "foreign",
+    "senses": []
+  },
+  {
+    "kellyId": 1263,
+    "decision": "fix",
+    "reason": "biological kingdom is genuinely distinct from realm/kingdom in the political sense; strip embedded article",
+    "translation": "realm, kingdom",
+    "senses": [
+      "realm, kingdom, empire",
+      "kingdom (biological classification)"
+    ]
+  },
+  {
+    "kellyId": 1315,
+    "decision": "fix",
+    "reason": "left-wing (political) is genuinely distinct from left (directional); add senses",
+    "translation": "left",
+    "senses": [
+      "left (direction)",
+      "left-wing (politics)"
+    ]
+  },
+  {
+    "kellyId": 1324,
+    "decision": "fix",
+    "reason": "a peace treaty is genuinely distinct from peace (the state); add senses",
+    "translation": "peace",
+    "senses": [
+      "peace",
+      "peace treaty"
+    ]
+  },
+  {
+    "kellyId": 1504,
+    "decision": "fix",
+    "reason": "the competitors (those competed against) is genuinely distinct from competition (the act); add senses",
+    "translation": "competition, rivalry",
+    "senses": [
+      "competition, rivalry (act of competing)",
+      "the competition (competitors, those competed against)"
+    ]
+  },
+  {
+    "kellyId": 1507,
+    "decision": "fix",
+    "reason": "below in a text (below, in the following) is genuinely distinct from spatial below; add senses",
+    "translation": "below",
+    "senses": [
+      "below, underneath (spatial)",
+      "below, as follows (in a text)"
+    ]
+  },
+  {
+    "kellyId": 1557,
+    "decision": "fix",
+    "reason": "title of a person is genuinely distinct from title of a work; strip embedded article from list",
+    "translation": "title",
+    "senses": [
+      "title (of a book, film, etc.)",
+      "title (of a person)"
+    ]
+  },
+  {
+    "kellyId": 1601,
+    "decision": "fix",
+    "reason": "a group of athletes/performers is genuinely distinct from a military troop/squad; clean senses",
+    "translation": "troop, squad",
+    "senses": [
+      "troop, squad (military or similar group)",
+      "team, squad (athletes or performers)"
+    ]
+  },
+  {
+    "kellyId": 1615,
+    "decision": "fix",
+    "reason": "brain as 'the brains behind something' is genuinely distinct from the physical organ; strip embedded article",
+    "translation": "brain",
+    "senses": [
+      "brain (organ)",
+      "brain, mastermind (the intelligence behind something)"
+    ]
+  },
+  {
+    "kellyId": 1645,
+    "decision": "fix",
+    "reason": "right-wing (political) is genuinely distinct from right (directional); add senses",
+    "translation": "right",
+    "senses": [
+      "right (direction)",
+      "right-wing (politics)"
+    ]
+  },
+  {
+    "kellyId": 1720,
+    "decision": "fix",
+    "reason": "the physical radio receiver is genuinely distinct from radio (the medium/broadcast); add senses",
+    "translation": "radio",
+    "senses": [
+      "radio (medium, broadcast)",
+      "radio, radio set (the physical receiver)"
+    ]
+  },
+  {
+    "kellyId": 1818,
+    "decision": "fix",
+    "reason": "legal authorization (jurisdiction) is genuinely distinct from general competence/ability; add senses",
+    "translation": "competence, skill",
+    "senses": [
+      "competence, skill (ability to perform a task)",
+      "competence, jurisdiction (legal authorization)"
+    ]
+  },
+  {
+    "kellyId": 1830,
+    "decision": "fix",
+    "reason": "main translation 'round, to make round' is clumsy (redundant); 'go around/pass' is genuinely distinct from 'make round'; clean up",
+    "translation": "round off, make round",
+    "senses": [
+      "round off, make round (shape)",
+      "go around, pass, round (navigate past something)"
+    ]
+  },
+  {
+    "kellyId": 1897,
+    "decision": "fix",
+    "reason": "phenomenon as a remarkable person is genuinely distinct from phenomenon as an event/occurrence; strip embedded article",
+    "translation": "phenomenon",
+    "senses": [
+      "phenomenon (event, occurrence)",
+      "phenomenon, prodigy (a remarkable person)"
+    ]
+  },
+  {
+    "kellyId": 2037,
+    "decision": "fix",
+    "reason": "identify (associate oneself with) is genuinely distinct from identify (determine identity of); add senses",
+    "translation": "identify",
+    "senses": [
+      "identify (determine the identity of)",
+      "identify with (associate oneself with a group or values)"
+    ]
+  },
+  {
+    "kellyId": 2098,
+    "decision": "fix",
+    "reason": "foreign development aid is a specific and common Swedish sense, genuinely distinct from general aid/support; add senses",
+    "translation": "aid, support",
+    "senses": [
+      "aid, support (general)",
+      "foreign aid, development aid"
+    ]
+  },
+  {
+    "kellyId": 2114,
+    "decision": "fix",
+    "reason": "mathematical norm is genuinely distinct from social norm; add senses",
+    "translation": "norm",
+    "senses": [
+      "norm (social standard)",
+      "norm (mathematics)"
+    ]
+  },
+  {
+    "kellyId": 2237,
+    "decision": "fix",
+    "reason": "main translation prioritizes checkout/till but fund/coffers is also common; both senses genuine — keep main as checkout but list both",
+    "translation": "checkout, cash register",
+    "senses": [
+      "checkout, cash register, till",
+      "fund, cash, coffers"
+    ]
+  },
+  {
+    "kellyId": 2248,
+    "decision": "fix",
+    "reason": "mathematical term (operand) is genuinely distinct from a terminology term; strip embedded article",
+    "translation": "term",
+    "senses": [
+      "term (word or phrase in a field)",
+      "term (operand in addition or subtraction)"
+    ]
+  },
+  {
+    "kellyId": 2560,
+    "decision": "fix",
+    "reason": "dig (do research, investigate) is genuinely distinct from dig (make a hole); add senses",
+    "translation": "dig",
+    "senses": [
+      "dig (make a hole in the ground)",
+      "dig into, dig up (investigate, research)"
+    ]
+  },
+  {
+    "kellyId": 2607,
+    "decision": "fix",
+    "reason": "relating to the Swedish Moderate Party is genuinely distinct from general 'moderate'; add senses",
+    "translation": "moderate",
+    "senses": [
+      "moderate (not extreme)",
+      "Moderate (of or relating to the Swedish Moderate Party)"
+    ]
+  },
+  {
+    "kellyId": 2663,
+    "decision": "fix",
+    "reason": "go up in smoke (be ruined/lost) is a genuinely distinct figurative sense from literal smoke emission; add senses",
+    "translation": "emit smoke, smoke",
+    "senses": [
+      "emit smoke, smoke",
+      "go up in smoke (be lost or ruined)"
+    ]
+  },
+  {
+    "kellyId": 2694,
+    "decision": "fix",
+    "reason": "sphere as a domain/field is genuinely distinct from a physical sphere; strip embedded article",
+    "translation": "sphere",
+    "senses": [
+      "sphere (round shape)",
+      "sphere (domain, field)"
+    ]
+  },
+  {
+    "kellyId": 2724,
+    "decision": "fix",
+    "reason": "inspiration (act of breathing in) is genuinely distinct from inspiration (creative influence); add senses",
+    "translation": "inspiration",
+    "senses": [
+      "inspiration (creative influence)",
+      "inspiration, inhalation (act of breathing in)"
+    ]
+  },
+  {
+    "kellyId": 2828,
+    "decision": "fix",
+    "reason": "overly academic/impractical (pejorative) is genuinely distinct from academic (belonging to academia); add senses",
+    "translation": "academic",
+    "senses": [
+      "academic (relating to higher education or an academy)",
+      "academic, impractical (overly theoretical; pejorative)"
+    ]
+  },
+  {
+    "kellyId": 3115,
+    "decision": "fix",
+    "reason": "flag as a boolean/memory variable is genuinely distinct from a physical flag; strip embedded article",
+    "translation": "flag",
+    "senses": [
+      "flag (piece of cloth, national symbol)",
+      "flag (boolean variable in computing)"
+    ]
+  },
+  {
+    "kellyId": 3425,
+    "decision": "fix",
+    "reason": "kindergarten (something immature) is genuinely distinct from daycare/preschool; add senses",
+    "translation": "daycare, preschool",
+    "senses": [
+      "daycare centre, preschool, kindergarten",
+      "kindergarten level (something childish or immature)"
+    ]
+  },
+  {
+    "kellyId": 3455,
+    "decision": "fix",
+    "reason": "get fed up (stronger negative connotation) is close enough to get tired that it's the same verb applied; drop list",
+    "translation": "get tired, get fed up",
+    "senses": []
+  },
+  {
+    "kellyId": 3485,
+    "decision": "fix",
+    "reason": "demonstrate (protest publicly) is genuinely distinct from demonstrate (show or explain); add senses",
+    "translation": "demonstrate",
+    "senses": [
+      "demonstrate (show, explain)",
+      "demonstrate, protest (take part in a public demonstration)"
+    ]
+  },
+  {
+    "kellyId": 3805,
+    "decision": "fix",
+    "reason": "flight (act of flying) is genuinely distinct from escape/fleeing; add senses",
+    "translation": "escape, flight",
+    "senses": [
+      "escape, flight (fleeing from danger)",
+      "flight (act of flying)"
+    ]
+  },
+  {
+    "kellyId": 3811,
+    "decision": "fix",
+    "reason": "calm (transitive) and calm down (reflexive) are the same verb in different constructions, not distinct meanings; drop list",
+    "translation": "calm, calm down",
+    "senses": []
+  },
+  {
+    "kellyId": 3901,
+    "decision": "fix",
+    "reason": "haughty/condescending is genuinely distinct from superior (objectively better); add senses",
+    "translation": "superior",
+    "senses": [
+      "superior (better, higher in quality or rank)",
+      "haughty, condescending (arrogantly superior in manner)"
+    ]
+  },
+  {
+    "kellyId": 3957,
+    "decision": "fix",
+    "reason": "tax declaration (tax return) is genuinely distinct from a formal political/legal declaration; strip embedded article",
+    "translation": "declaration",
+    "senses": [
+      "declaration (formal announcement)",
+      "tax return, tax declaration"
+    ]
+  },
+  {
+    "kellyId": 4142,
+    "decision": "fix",
+    "reason": "bear (gay slang: big hairy man) is genuinely distinct from the animal; strip embedded article",
+    "translation": "bear",
+    "senses": [
+      "bear (animal)",
+      "bear (big, hairy man; gay slang)"
+    ]
+  },
+  {
+    "kellyId": 4167,
+    "decision": "fix",
+    "reason": "sub-def 'a throw (sudden sharp movement)' is the same word and same core action; drop list",
+    "translation": "throw",
+    "senses": []
+  },
+  {
+    "kellyId": 4220,
+    "decision": "fix",
+    "reason": "tonight (future) and last night (past) are genuinely distinct temporal meanings; add senses",
+    "translation": "tonight; last night",
+    "senses": [
+      "tonight, this coming night",
+      "last night (the night just past)"
+    ]
+  },
+  {
+    "kellyId": 4240,
+    "decision": "fix",
+    "reason": "sub-def merely restates the main translation; drop list",
+    "translation": "meal",
+    "senses": []
+  },
+  {
+    "kellyId": 4286,
+    "decision": "fix",
+    "reason": "entry fee/admission is genuinely distinct from entry (act of entering); add senses",
+    "translation": "entry",
+    "senses": [
+      "entry (act of entering)",
+      "entry fee, admission"
+    ]
+  },
+  {
+    "kellyId": 4555,
+    "decision": "fix",
+    "reason": "tragedy (dramatic genre) is genuinely distinct from tragedy (a terrible event); add senses",
+    "translation": "tragedy",
+    "senses": [
+      "tragedy (terrible event)",
+      "tragedy (dramatic genre)"
+    ]
+  },
+  {
+    "kellyId": 4564,
+    "decision": "fix",
+    "reason": "secular (relating to a century/100 years) is genuinely distinct from secular (non-religious); add senses",
+    "translation": "secular",
+    "senses": [
+      "secular (non-religious)",
+      "secular (relating to a century; rare)"
+    ]
+  },
+  {
+    "kellyId": 4652,
+    "decision": "fix",
+    "reason": "main translation has embedded article 'a device'; apparatus as bureaucratic machine is genuinely distinct; fix translation and senses",
+    "translation": "apparatus, device",
+    "senses": [
+      "apparatus, device (machine or instrument)",
+      "apparatus (bureaucratic or political machinery)"
+    ]
+  },
+  {
+    "kellyId": 4701,
+    "decision": "fix",
+    "reason": "religious confession (profession of faith) is genuinely distinct from criminal confession; strip embedded article",
+    "translation": "confession",
+    "senses": [
+      "confession (admitting wrongdoing)",
+      "confession, profession (acknowledgment of religious belief)"
+    ]
+  },
+  {
+    "kellyId": 4723,
+    "decision": "fix",
+    "reason": "sub-def '(the) primary thing' is just the adjective used as a substantive, not a distinct meaning; drop list",
+    "translation": "primary",
+    "senses": []
+  },
+  {
+    "kellyId": 4724,
+    "decision": "fix",
+    "reason": "Republican (US party) is genuinely distinct from republican (anti-monarchy); strip embedded article",
+    "translation": "republican",
+    "senses": [
+      "republican (advocate of a republic, opposed to monarchy)",
+      "Republican (supporter of the US Republican Party)"
+    ]
+  },
+  {
+    "kellyId": 4757,
+    "decision": "fix",
+    "reason": "legend as a remarkable person is genuinely distinct from legend as a traditional story; strip embedded article",
+    "translation": "legend",
+    "senses": [
+      "legend (traditional story)",
+      "legend (a remarkably accomplished person)"
+    ]
+  },
+  {
+    "kellyId": 4777,
+    "decision": "fix",
+    "reason": "digital/general menu (list of choices) is genuinely distinct from a restaurant menu; strip embedded article",
+    "translation": "menu",
+    "senses": [
+      "menu (list of food at a restaurant)",
+      "menu (list of choices, e.g. on a computer)"
+    ]
+  },
+  {
+    "kellyId": 4902,
+    "decision": "fix",
+    "reason": "ice lolly/popsicle is genuinely distinct from ice cream; add senses",
+    "translation": "ice cream",
+    "senses": [
+      "ice cream",
+      "ice lolly, popsicle"
+    ]
+  },
+  {
+    "kellyId": 4934,
+    "decision": "fix",
+    "reason": "sub-def 'period, epoch, era' is essentially a synonym for 'time period'; drop list",
+    "translation": "time period, period",
+    "senses": []
+  },
+  {
+    "kellyId": 5012,
+    "decision": "fix",
+    "reason": "internet troll is genuinely distinct from mythical troll; strip embedded article",
+    "translation": "troll",
+    "senses": [
+      "troll (mythical creature)",
+      "troll (internet troll)"
+    ]
+  },
+  {
+    "kellyId": 5135,
+    "decision": "fix",
+    "reason": "debris/speck (in the eye) is a specific and genuinely distinct use from general trash/junk; add senses",
+    "translation": "trash, junk, litter",
+    "senses": [
+      "trash, junk, litter, rubbish",
+      "speck, bit of debris (something in the eye)"
+    ]
+  },
+  {
+    "kellyId": 5141,
+    "decision": "fix",
+    "reason": "German (language, uncountable) is genuinely distinct from a female German national; make language primary and note both",
+    "translation": "German (language)",
+    "uncountable": true,
+    "senses": [
+      "German (language)",
+      "German woman (female German national)"
+    ]
+  },
+  {
+    "kellyId": 5261,
+    "decision": "fix",
+    "reason": "half-time (the break) is genuinely distinct from a half (of a game); add senses",
+    "translation": "half (of a game)",
+    "senses": [
+      "half (one of two halves of a match)",
+      "half-time (the break between halves)"
+    ]
+  },
+  {
+    "kellyId": 5294,
+    "decision": "fix",
+    "reason": "back of the head is anatomically distinct from back of the neck/nape; add senses",
+    "translation": "back of the neck, nape",
+    "senses": [
+      "back of the neck, nape",
+      "back of the head"
+    ]
+  },
+  {
+    "kellyId": 5342,
+    "decision": "fix",
+    "reason": "surplus value (Marxist economics) is genuinely distinct from added value (business); add senses",
+    "translation": "added value",
+    "senses": [
+      "added value (benefit beyond the baseline)",
+      "surplus value (Marxist economics)"
+    ]
+  },
+  {
+    "kellyId": 5390,
+    "decision": "fix",
+    "reason": "sub-def merely restates with an article; drop list",
+    "translation": "leaf",
+    "senses": []
+  },
+  {
+    "kellyId": 5423,
+    "decision": "fix",
+    "reason": "reception (response/reaction) is genuinely distinct from reception (act of receiving); add senses",
+    "translation": "reception",
+    "senses": [
+      "reception (welcoming of a guest; act of receiving)",
+      "reception, response (reaction to something)"
+    ]
+  },
+  {
+    "kellyId": 5529,
+    "decision": "fix",
+    "reason": "nightmare (terrible situation) is genuinely distinct from nightmare (bad dream); strip embedded article",
+    "translation": "nightmare",
+    "senses": [
+      "nightmare (frightening dream)",
+      "nightmare (a very bad situation or experience)"
+    ]
+  },
+  {
+    "kellyId": 5661,
+    "decision": "fix",
+    "reason": "civilized (polite, refined) is genuinely distinct from civilized (having advanced civilization); add senses",
+    "translation": "civilized",
+    "senses": [
+      "civilized (having a highly developed society or culture)",
+      "civilized, civil (polite, well-mannered)"
+    ]
+  },
+  {
+    "kellyId": 5697,
+    "decision": "fix",
+    "reason": "swine/asshole (contemptible person) is genuinely distinct from pig/hog (animal); add senses",
+    "translation": "pig, hog, swine",
+    "senses": [
+      "pig, hog, swine (animal)",
+      "swine, bastard (contemptible person)"
+    ]
+  },
+  {
+    "kellyId": 5790,
+    "decision": "fix",
+    "reason": "enrich with nutrients is genuinely distinct from enrich in an abstract sense; add senses",
+    "translation": "enrich",
+    "senses": [
+      "enrich (make richer, add value to)",
+      "enrich (with nutrients or substances)"
+    ]
+  },
+  {
+    "kellyId": 5936,
+    "decision": "fix",
+    "reason": "financial ruin (bankruptcy) is genuinely distinct from physical ruins (remains of a building); add senses",
+    "translation": "ruin",
+    "senses": [
+      "ruin (remains of a destroyed building)",
+      "ruin (financial collapse, bankruptcy)"
+    ]
+  },
+  {
+    "kellyId": 5946,
+    "decision": "fix",
+    "reason": "sub-def 'a session (meeting)' merely restates the main translation; drop list",
+    "translation": "session",
+    "senses": []
+  },
+  {
+    "kellyId": 5953,
+    "decision": "fix",
+    "reason": "province governor (Finland) is genuinely distinct from county governor (Sweden); add senses",
+    "translation": "county governor",
+    "senses": [
+      "county governor (Sweden)",
+      "province governor (Finland, historical)"
+    ]
+  },
+  {
+    "kellyId": 6036,
+    "decision": "fix",
+    "reason": "parking garage is just a type of parking facility — the sub-def doesn't add a distinct meaning; Wiktionary has one sense; drop list",
+    "translation": "parking lot, car park",
+    "senses": []
+  },
+  {
+    "kellyId": 6057,
+    "decision": "fix",
+    "reason": "sub-def overlaps entirely with the main translation; drop list",
+    "translation": "do crafts, putter around",
+    "senses": []
+  },
+  {
+    "kellyId": 6170,
+    "decision": "fix",
+    "reason": "park oneself (informally sit/stay somewhere) is genuinely distinct from park a car; add senses",
+    "translation": "park",
+    "senses": [
+      "park (a vehicle)",
+      "park oneself, plonk (sit or place somewhere with intent to stay)"
+    ]
+  },
+  {
+    "kellyId": 6303,
+    "decision": "fix",
+    "reason": "hag/ugly old woman is genuinely distinct from witch (magic user); strip embedded article",
+    "translation": "witch",
+    "senses": [
+      "witch (woman who uses magic)",
+      "hag (ugly or unpleasant woman)"
+    ]
+  },
+  {
+    "kellyId": 6437,
+    "decision": "fix",
+    "reason": "signing electronically vs. signing by hand are the same act — not truly distinct meanings; drop list",
+    "translation": "sign",
+    "senses": []
+  },
+  {
+    "kellyId": 6495,
+    "decision": "fix",
+    "reason": "belt as a geographic/broad zone is genuinely distinct from a belt worn around the waist; strip embedded article",
+    "translation": "belt",
+    "senses": [
+      "belt (worn around the waist; also seat belt)",
+      "belt (long broad zone or area)"
+    ]
+  },
+  {
+    "kellyId": 6525,
+    "decision": "fix",
+    "reason": "flash/blink a light is genuinely distinct from blinking one's eyes; add senses",
+    "translation": "blink",
+    "senses": [
+      "blink (with the eyes)",
+      "flash, blink (cause a light to shine briefly or intermittently)"
+    ]
+  },
+  {
+    "kellyId": 6558,
+    "decision": "fix",
+    "reason": "slippery (evasive, dishonest) is genuinely distinct from slippery (physical, low friction); add senses",
+    "translation": "slippery",
+    "senses": [
+      "slippery (physically, easy to slip on)",
+      "slippery (evasive, dishonest)"
+    ]
+  },
+  {
+    "kellyId": 6573,
+    "decision": "fix",
+    "reason": "social gender (gender studies) is genuinely distinct from grammatical gender; add senses",
+    "translation": "gender",
+    "senses": [
+      "gender (grammatical category)",
+      "gender (social identity; man/woman)"
+    ]
+  },
+  {
+    "kellyId": 6589,
+    "decision": "fix",
+    "reason": "sub-def merely restates the main — both senses are 'painting'; drop list",
+    "translation": "painting",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6880,
+    "decision": "fix",
+    "reason": "sub-def is a technical extension of the same meaning, not a distinct sense; drop list",
+    "translation": "receipt",
+    "senses": []
+  },
+  {
+    "kellyId": 7022,
+    "decision": "fix",
+    "reason": "allergic (having an allergy) vs. allergic (pertaining to allergies) — in English 'allergic' covers both; sub-def restates; drop list",
+    "translation": "allergic",
+    "senses": []
+  },
+  {
+    "kellyId": 7290,
+    "decision": "fix",
+    "reason": "sub-def overlaps substantially with the main translation; drop list",
+    "translation": "handsome, stylish",
+    "senses": []
+  },
+  {
+    "kellyId": 7295,
+    "decision": "fix",
+    "reason": "vehicle inspection (MOT) is genuinely distinct from general inspection; add senses",
+    "translation": "inspection",
+    "senses": [
+      "inspection (of troops, buildings, etc.)",
+      "vehicle inspection, MOT (mandatory car inspection)"
+    ]
+  },
+  {
+    "kellyId": 7307,
+    "decision": "fix",
+    "reason": "acoustic (without amplification) is genuinely distinct from acoustic (relating to sound/hearing); add senses",
+    "translation": "acoustic",
+    "senses": [
+      "acoustic (relating to sound or hearing)",
+      "acoustic (unplugged, without electrical amplification)"
+    ]
+  },
+  {
+    "kellyId": 7374,
+    "decision": "fix",
+    "reason": "three-year (duration, as in a three-year contract) is genuinely distinct from three-year-old (age); add senses",
+    "translation": "three-year-old",
+    "senses": [
+      "three-year-old (of a person or animal)",
+      "three-year (lasting three years, as in a contract)"
+    ]
+  },
+  {
+    "kellyId": 7416,
+    "decision": "fix",
+    "reason": "home port is genuinely distinct from home town/place of residence; add senses",
+    "translation": "home town, place of residence",
+    "senses": [
+      "home town, place of residence",
+      "home port (of a vessel)"
+    ]
+  },
+  {
+    "kellyId": 7532,
+    "decision": "fix",
+    "reason": "anchor (HTML hyperlink) is genuinely distinct from a physical anchor; add senses",
+    "translation": "anchor",
+    "senses": [
+      "anchor (tool to moor a vessel)",
+      "anchor (HTML/hyperlink tag)"
+    ]
+  },
+  {
+    "kellyId": 7561,
+    "decision": "fix",
+    "reason": "puzzle (a mystery to solve) is genuinely distinct from a jigsaw puzzle; add senses",
+    "translation": "jigsaw puzzle",
+    "senses": [
+      "jigsaw puzzle",
+      "puzzle, mystery (something to figure out)"
+    ]
+  },
+  {
+    "kellyId": 7610,
+    "decision": "fix",
+    "reason": "eagle (heraldic charge) is the same word used in a specialized context — not meaningfully distinct for learners; drop list",
+    "translation": "eagle",
+    "senses": []
+  },
+  {
+    "kellyId": 7713,
+    "decision": "fix",
+    "reason": "sleepy (a sleepy town, humdrum) is genuinely distinct from sleepy (feeling tired); add senses",
+    "translation": "sleepy",
+    "senses": [
+      "sleepy (feeling the need to sleep)",
+      "sleepy, quiet (dull, without much activity)"
+    ]
+  },
+  {
+    "kellyId": 7729,
+    "decision": "fix",
+    "reason": "diverse/varied is genuinely distinct from manifold/numerous; add senses",
+    "translation": "manifold, numerous",
+    "senses": [
+      "manifold, numerous (occurring many times)",
+      "diverse, varied (of many different kinds)"
+    ]
+  },
+  {
+    "kellyId": 7730,
+    "decision": "fix",
+    "reason": "circulation (wide diffusion, e.g. currency in circulation) is genuinely distinct from orbit/circulation (movement in a loop); add senses",
+    "translation": "orbit, circulation",
+    "senses": [
+      "orbit, circulation (movement in a loop or path)",
+      "circulation (wide distribution or diffusion)"
+    ]
+  },
+  {
+    "kellyId": 7770,
+    "decision": "fix",
+    "reason": "alarm (state of alarm) is essentially restating 'alarm' — drop list",
+    "translation": "alarm",
+    "senses": []
+  },
+  {
+    "kellyId": 7793,
+    "decision": "fix",
+    "reason": "andedräkt primarily means breath as exhaled air/smell; a single breath (act of breathing in and out) is genuinely distinct; add senses",
+    "translation": "breath",
+    "senses": [
+      "breath (exhaled air, especially the smell of it)",
+      "breath (a single act of breathing in and out)"
+    ]
+  },
+  {
+    "kellyId": 7865,
+    "decision": "fix",
+    "reason": "judge at county administrative court is genuinely distinct from district court judge; strip embedded article",
+    "translation": "district court judge",
+    "senses": [
+      "district court judge (at a tingsrätt)",
+      "county administrative court judge (at a länsrätt)"
+    ]
+  },
+  {
+    "kellyId": 7893,
+    "decision": "fix",
+    "reason": "imagination/fancy (general creative faculty) is genuinely distinct from delusion (false belief); add senses",
+    "translation": "delusion, imagination",
+    "senses": [
+      "delusion (false belief, something imagined without basis in reality)",
+      "imagination, fancy (the creative faculty)"
+    ]
+  },
+  {
+    "kellyId": 7961,
+    "decision": "fix",
+    "reason": "touch upon (mention briefly) is genuinely distinct from physically touch; add senses",
+    "translation": "touch",
+    "senses": [
+      "touch (physically make contact with)",
+      "touch on, touch upon (mention briefly)"
+    ]
+  },
+  {
+    "kellyId": 7968,
+    "decision": "fix",
+    "reason": "magnetic tape (recording medium) is genuinely distinct from sticky tape; add senses",
+    "translation": "tape, sticky tape",
+    "senses": [
+      "tape, sticky tape (adhesive tape)",
+      "magnetic tape (recording medium)"
+    ]
+  },
+  {
+    "kellyId": 8184,
+    "decision": "fix",
+    "reason": "apricot (colour) is genuinely distinct from apricot (fruit); add senses",
+    "translation": "apricot",
+    "senses": [
+      "apricot (fruit)",
+      "apricot (colour)"
+    ]
+  },
+  {
+    "kellyId": 8185,
+    "decision": "fix",
+    "reason": "collar on an animal or plant is genuinely distinct from a clothing collar; add senses",
+    "translation": "collar",
+    "senses": [
+      "collar (part of a garment)",
+      "collar (coloured ring on an animal's neck or a flower)"
+    ]
+  }
+]

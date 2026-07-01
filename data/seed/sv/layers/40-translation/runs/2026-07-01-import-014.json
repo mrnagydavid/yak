@@ -1,0 +1,311 @@
+[
+  {
+    "kellyId": 2084,
+    "decision": "fix",
+    "reason": "subDef is a redundant parenthetical restatement of the same meaning; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 1461,
+    "decision": "fix",
+    "reason": "subDef is an etymology note, not a real sense; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 2228,
+    "decision": "fix",
+    "reason": "subDef has embedded article 'an'; clarify the two senses of American",
+    "senses": ["American (from the US)", "American (from the Americas, broadly)"]
+  },
+  {
+    "kellyId": 1510,
+    "decision": "fix",
+    "reason": "main translation has embedded 'to' before 'suspect' and 'to have a feeling'; clumsy phrasing",
+    "translation": "sense, suspect",
+    "senses": ["sense, suspect (have a feeling about something)", "make out, discern (with difficulty)"]
+  },
+  {
+    "kellyId": 2470,
+    "decision": "fix",
+    "reason": "main translation has embedded article 'an'; subDef also has embedded articles",
+    "translation": "attack, assault",
+    "senses": ["attack, assault (on someone)", "attack, infestation (e.g. rust or mold)"]
+  },
+  {
+    "kellyId": 2707,
+    "decision": "fix",
+    "reason": "main translation has embedded 'to' before 'assault'; subDef has embedded 'to'",
+    "translation": "attack, assault",
+    "senses": ["attack, assault (someone)", "attack, infest (e.g. rust or mold)"]
+  },
+  {
+    "kellyId": 2725,
+    "decision": "fix",
+    "reason": "main translation has embedded article 'a'; single meaning",
+    "translation": "follower, fan",
+    "senses": []
+  },
+  {
+    "kellyId": 2803,
+    "decision": "fix",
+    "reason": "main translation has embedded article 'a'; pos is adj but used as noun — remove article",
+    "translation": "close relative",
+    "senses": []
+  },
+  {
+    "kellyId": 1883,
+    "decision": "fix",
+    "reason": "'different' is the primary everyday meaning; 'abnormal, nonstandard' is listed first but is a secondary/stronger shade",
+    "translation": "different",
+    "senses": ["different, unusual", "abnormal, nonstandard", "eccentric, peculiar"]
+  },
+  {
+    "kellyId": 2493,
+    "decision": "fix",
+    "reason": "senses list has embedded articles throughout; clean up",
+    "senses": ["touch (way a key or string is struck)", "plot, conspiracy, attack", "poster, notice (on a wall)", "appropriation (state budget item)", "grant (project funding)"]
+  },
+  {
+    "kellyId": 2099,
+    "decision": "fix",
+    "reason": "main translation has embedded 'to' before 'join'; single meaning",
+    "translation": "connect, join",
+    "senses": []
+  },
+  {
+    "kellyId": 2639,
+    "decision": "fix",
+    "reason": "subDef is a phrasal/idiomatic usage note, not a distinct noun sense; single-meaning noun",
+    "senses": []
+  },
+  {
+    "kellyId": 2351,
+    "decision": "fix",
+    "reason": "main translation has embedded 'to' before 'employ'",
+    "translation": "hire, employ",
+    "senses": ["hire, employ", "conduct (a hearing or interrogation)"]
+  },
+  {
+    "kellyId": 2588,
+    "decision": "fix",
+    "reason": "main translation has embedded 'to' before 'be in charge'; single meaning",
+    "translation": "be responsible, be in charge",
+    "senses": []
+  },
+  {
+    "kellyId": 2682,
+    "decision": "fix",
+    "reason": "'hint about' is awkward; 'hint at' is natural English; subDefs are synonyms of the same meaning",
+    "translation": "hint at, imply",
+    "senses": []
+  },
+  {
+    "kellyId": 2086,
+    "decision": "fix",
+    "reason": "'working class' is an uncountable mass noun; needs uncountable flag",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2332,
+    "decision": "fix",
+    "reason": "'labour, manpower' are uncountable nouns; needs uncountable flag",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2022,
+    "decision": "fix",
+    "reason": "main translation has embedded article 'a'; single meaning",
+    "translation": "employee, worker",
+    "senses": []
+  },
+  {
+    "kellyId": 1718,
+    "decision": "fix",
+    "reason": "subDefs are oddly phrased ('the body part' is not a translation); clean up senses",
+    "senses": ["arm (body part)", "arm (branch or extension)"]
+  },
+  {
+    "kellyId": 2387,
+    "decision": "fix",
+    "reason": "subDefs are definition-like; replace with concise parentheticals",
+    "senses": ["inheritance (property, titles)", "inheritance (genetic)", "inheritance (computing)"]
+  },
+  {
+    "kellyId": 1672,
+    "decision": "fix",
+    "reason": "subDefs are redundant restatements of the same meaning; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 1774,
+    "decision": "fix",
+    "reason": "subDefs are definitional restatements of 'attack'; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 2559,
+    "decision": "fix",
+    "reason": "subDef is definitional; two genuinely distinct senses (cancel a process vs. interrupt someone)",
+    "senses": ["abort, cancel, cut short", "interrupt (someone speaking)"]
+  },
+  {
+    "kellyId": 1778,
+    "decision": "fix",
+    "reason": "'avgift' primarily means fee/charge, not cost; 'cost' is too broad; subDef has embedded article",
+    "translation": "fee, charge",
+    "senses": []
+  },
+  {
+    "kellyId": 1933,
+    "decision": "fix",
+    "reason": "'regard, respect' is more natural than 'aspect' for 'avseende'; subDef has embedded article",
+    "translation": "regard, respect",
+    "senses": []
+  },
+  {
+    "kellyId": 1755,
+    "decision": "fix",
+    "reason": "main translation has embedded article 'an' before 'intent'; single meaning",
+    "translation": "intention, intent",
+    "senses": []
+  },
+  {
+    "kellyId": 1498,
+    "decision": "fix",
+    "reason": "'reveal' and 'uncover' are synonyms for the same meaning; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 1416,
+    "decision": "fix",
+    "reason": "subDef 'piece of text' is redundant/definitional for paragraph; 'episode' is a genuinely distinct sense",
+    "senses": ["paragraph, section (in a text)", "episode (TV or radio)"]
+  },
+  {
+    "kellyId": 2759,
+    "decision": "fix",
+    "reason": "subDefs have embedded 'to' and are synonyms of the same meaning; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 2140,
+    "decision": "fix",
+    "reason": "Wiktionary senses are noisy duplicates; 'balance' is single-meaning for learners",
+    "senses": []
+  },
+  {
+    "kellyId": 1728,
+    "decision": "fix",
+    "reason": "main translation has embedded article 'a'; three genuinely distinct senses",
+    "translation": "path, trajectory",
+    "senses": ["path, trajectory, orbit (physics/astronomy)", "track, court, course (sports)", "career path"]
+  },
+  {
+    "kellyId": 2100,
+    "decision": "fix",
+    "reason": "Wiktionary dump has many noisy senses; consolidate to the key everyday meanings",
+    "senses": ["base, headquarters", "base, foundation", "bass (music)", "boss, supervisor (informal)"]
+  },
+  {
+    "kellyId": 2167,
+    "decision": "fix",
+    "reason": "main translation has embedded 'to' before 'take into account'; single meaning",
+    "translation": "consider, take into account",
+    "senses": []
+  },
+  {
+    "kellyId": 2151,
+    "decision": "fix",
+    "reason": "four synonyms for one meaning; simplify to the clearest pair",
+    "translation": "existing, present",
+    "senses": []
+  },
+  {
+    "kellyId": 2456,
+    "decision": "fix",
+    "reason": "main translation has embedded 'to' before 'head'; single meaning",
+    "translation": "set off, head (somewhere)",
+    "senses": []
+  },
+  {
+    "kellyId": 1564,
+    "decision": "fix",
+    "reason": "main translation has embedded 'to' before 'restrict'; single meaning",
+    "translation": "limit, restrict",
+    "senses": []
+  },
+  {
+    "kellyId": 1440,
+    "decision": "fix",
+    "reason": "main translation has embedded 'to' before 'perpetrate'; single meaning",
+    "translation": "commit, perpetrate",
+    "senses": []
+  },
+  {
+    "kellyId": 1435,
+    "decision": "fix",
+    "reason": "main translation has embedded 'to' before 'ask for'; single meaning",
+    "translation": "request, ask for",
+    "senses": []
+  },
+  {
+    "kellyId": 1723,
+    "decision": "fix",
+    "reason": "main translation has embedded 'to' before 'acknowledge'; single meaning",
+    "translation": "confirm, acknowledge",
+    "senses": []
+  },
+  {
+    "kellyId": 1937,
+    "decision": "fix",
+    "reason": "main translation is a definition ('fight and thus get rid of'); should be a short gloss",
+    "translation": "combat, fight",
+    "senses": []
+  },
+  {
+    "kellyId": 1855,
+    "decision": "fix",
+    "reason": "subDef is a redundant restatement; 'absolute value' is too technical for CEFR list; add 'amount' as synonym",
+    "translation": "sum, amount",
+    "senses": []
+  },
+  {
+    "kellyId": 2541,
+    "decision": "fix",
+    "reason": "main translation has embedded 'to' before 'address'; two distinct senses",
+    "translation": "respond to, address",
+    "senses": ["respond to, address (criticism or argument)", "treat, receive (someone)"]
+  },
+  {
+    "kellyId": 1575,
+    "decision": "fix",
+    "reason": "subDefs are verbose; consolidate into clean senses; leg of trousers and furniture can share one entry",
+    "senses": ["leg (body part)", "leg (of trousers or furniture)", "bone"]
+  },
+  {
+    "kellyId": 1643,
+    "decision": "fix",
+    "reason": "subDef 'a mountain (very large heap...)' has embedded article and is definitional; clean up",
+    "senses": ["mountain", "mountain (of things, figurative)", "rock, bedrock"]
+  },
+  {
+    "kellyId": 1549,
+    "decision": "fix",
+    "reason": "subDef has embedded 'to'; clean phrasing",
+    "senses": ["touch (physically or emotionally)", "concern, pertain to"]
+  },
+  {
+    "kellyId": 2702,
+    "decision": "fix",
+    "reason": "'defeat' and 'overcome' are synonyms for the same meaning; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 1930,
+    "decision": "fix",
+    "reason": "subDef is definitional; single-meaning word",
+    "senses": []
+  }
+]

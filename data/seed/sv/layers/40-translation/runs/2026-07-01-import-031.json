@@ -1,0 +1,368 @@
+[
+  {
+    "kellyId": 2910,
+    "decision": "fix",
+    "reason": "'thinking' is abstract; 'thought, query' is the concrete everyday sense of fundering (it's what you have when you wonder about something)",
+    "translation": "thought, query",
+    "senses": []
+  },
+  {
+    "kellyId": 4023,
+    "decision": "fix",
+    "reason": "embedded article 'a handicap' in translation",
+    "translation": "disability, handicap",
+    "senses": []
+  },
+  {
+    "kellyId": 3896,
+    "decision": "fix",
+    "reason": "embedded article 'a find'; reorder to lead with the more concrete core sense",
+    "translation": "find, discovery",
+    "senses": ["find, discovery", "bargain"]
+  },
+  {
+    "kellyId": 3656,
+    "decision": "fix",
+    "reason": "embedded article 'a skill'; single meaning",
+    "translation": "skill, capability",
+    "senses": []
+  },
+  {
+    "kellyId": 3641,
+    "decision": "fix",
+    "reason": "embedded 'to attach, to fix' in translation; 'synonym of trolova' is not a useful sense gloss; cleaned senses",
+    "translation": "fasten, attach, fix",
+    "senses": ["fasten, attach, fix", "pay attention to, attach (importance to something)", "fix, set (one's gaze on something)"]
+  },
+  {
+    "kellyId": 4195,
+    "decision": "fix",
+    "reason": "sub-def '(date of birth)' is a minor variant of the same meaning, not a distinct sense; clear the list",
+    "senses": []
+  },
+  {
+    "kellyId": 4182,
+    "decision": "fix",
+    "reason": "'contempt' is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3161,
+    "decision": "fix",
+    "reason": "'A curse.' is phrased as a definition and oddly capitalised; cleaned senses to concise glosses",
+    "senses": ["pissed off, furious", "damned, fucking (intensifier)"]
+  },
+  {
+    "kellyId": 3080,
+    "decision": "fix",
+    "reason": "'to despice' is a typo; 'to blame' is not accurate for fördöma; cleaned senses",
+    "senses": ["condemn, denounce", "find objectionable, despise"]
+  },
+  {
+    "kellyId": 3021,
+    "decision": "fix",
+    "reason": "sub-def has embedded articles 'an inspiration'",
+    "senses": ["role model", "model, inspiration (something imitated or modelled after)"]
+  },
+  {
+    "kellyId": 2968,
+    "decision": "fix",
+    "reason": "'a thing, an object' adds little and embeds articles; single meaning",
+    "translation": "phenomenon, occurrence",
+    "senses": []
+  },
+  {
+    "kellyId": 3449,
+    "decision": "fix",
+    "reason": "embedded 'to advocate' in translation",
+    "translation": "represent, advocate",
+    "senses": []
+  },
+  {
+    "kellyId": 3881,
+    "decision": "fix",
+    "reason": "definition-like gloss 'that has ended'; 'past' is the clear everyday translation",
+    "translation": "past",
+    "senses": []
+  },
+  {
+    "kellyId": 4158,
+    "decision": "fix",
+    "reason": "sub-def is reflexive use of the same verb, not a distinct meaning; clear list",
+    "senses": []
+  },
+  {
+    "kellyId": 3939,
+    "decision": "fix",
+    "reason": "'disposal' is uncountable as used (till förfogande = at one's disposal)",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4096,
+    "decision": "fix",
+    "reason": "embedded 'to stalk' in translation",
+    "translation": "pursue, stalk",
+    "senses": ["pursue, stalk (follow to capture or harm)", "persecute", "haunt"]
+  },
+  {
+    "kellyId": 4123,
+    "decision": "fix",
+    "reason": "embedded article 'an attitude' in translation; single meaning",
+    "translation": "approach, attitude",
+    "senses": []
+  },
+  {
+    "kellyId": 3557,
+    "decision": "fix",
+    "reason": "embedded 'to repudiate' in translation",
+    "translation": "reject, repudiate",
+    "senses": []
+  },
+  {
+    "kellyId": 4170,
+    "decision": "fix",
+    "reason": "embedded 'to connect' in translation; 'annex' is archaic/marginal and dropped",
+    "translation": "associate, connect",
+    "senses": []
+  },
+  {
+    "kellyId": 3104,
+    "decision": "fix",
+    "reason": "'abandon, to leave someone' is archaic; keep but mark as such",
+    "senses": ["forgive", "abandon, leave (archaic)"]
+  },
+  {
+    "kellyId": 3306,
+    "decision": "fix",
+    "reason": "embedded 'to lengthen, to prolong' in translation",
+    "translation": "extend, lengthen, prolong",
+    "senses": []
+  },
+  {
+    "kellyId": 2822,
+    "decision": "fix",
+    "reason": "'rationality, good sense' — 'good sense' is uncountable; noun is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3009,
+    "decision": "fix",
+    "reason": "embedded 'to equip, to supply' in translation",
+    "translation": "provide, equip, supply",
+    "senses": []
+  },
+  {
+    "kellyId": 3145,
+    "decision": "fix",
+    "reason": "trailing 'etc' is sloppy; the core meaning is well captured by 'careful, cautious'",
+    "translation": "careful, cautious",
+    "senses": []
+  },
+  {
+    "kellyId": 4139,
+    "decision": "fix",
+    "reason": "'emphasis, amplification, gain' mixes unrelated senses as the primary; 'reinforcement' is the dominant everyday meaning (military, structural); reorganised",
+    "translation": "reinforcement, amplification",
+    "senses": ["reinforcement (military, structural)", "amplification, gain (signal, sound)", "emphasis (linguistic)"]
+  },
+  {
+    "kellyId": 3280,
+    "decision": "fix",
+    "reason": "embedded article 'a military force'; 'armed forces' is a fixed plural, needs uncountable treatment",
+    "translation": "armed forces",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3528,
+    "decision": "fix",
+    "reason": "embedded 'to hamper' in translation",
+    "translation": "complicate, hamper",
+    "senses": []
+  },
+  {
+    "kellyId": 2940,
+    "decision": "fix",
+    "reason": "sub-def 'make worse' is a synonym of worsen, not a distinct sense; clear list",
+    "senses": []
+  },
+  {
+    "kellyId": 3170,
+    "decision": "fix",
+    "reason": "embedded 'to provide for' in translation",
+    "translation": "support, provide for",
+    "senses": ["support, provide for (financially)", "supply (electricity, resources)"]
+  },
+  {
+    "kellyId": 4140,
+    "decision": "fix",
+    "reason": "embedded articles 'a register, an index' in translation; single meaning",
+    "translation": "list, register",
+    "senses": []
+  },
+  {
+    "kellyId": 3676,
+    "decision": "fix",
+    "reason": "embedded 'to anticipate, to foresee' in translation",
+    "translation": "predict, anticipate, foresee",
+    "senses": []
+  },
+  {
+    "kellyId": 3255,
+    "decision": "fix",
+    "reason": "sub-def 'to surprise' is a near-synonym of the same meaning, not a distinct sense; clear list",
+    "senses": []
+  },
+  {
+    "kellyId": 3029,
+    "decision": "fix",
+    "reason": "sub-defs 'a military title' and 'an Air Chief Marshal' are not distinct senses — the first is a definition, the second a very specific mapping; clear list",
+    "senses": []
+  },
+  {
+    "kellyId": 3635,
+    "decision": "fix",
+    "reason": "embedded article 'a briefing, a summary' in translation; trimmed to core senses",
+    "translation": "walkthrough, briefing",
+    "senses": ["walkthrough, briefing, rundown", "review, inspection", "passage, way (through)"]
+  },
+  {
+    "kellyId": 4188,
+    "decision": "fix",
+    "reason": "senses 'electrical breakdown' and 'carbon copying' are technical/archaic and unhelpful for B1 learners; drop them",
+    "senses": ["impact, breakthrough"]
+  },
+  {
+    "kellyId": 3026,
+    "decision": "fix",
+    "reason": "sub-def 'related to geography' is a definition, not a gloss; 'or' should be comma; single meaning",
+    "translation": "geographical, geographic",
+    "senses": []
+  },
+  {
+    "kellyId": 3520,
+    "decision": "fix",
+    "reason": "definition-like gloss 'move smoothly along a surface'; 'slide, glide' is the natural translation",
+    "translation": "slide, glide",
+    "senses": ["slide, glide (on a surface)", "glide (through air or water)", "drift (figuratively)"]
+  },
+  {
+    "kellyId": 3120,
+    "decision": "fix",
+    "reason": "'globalization' is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3238,
+    "decision": "fix",
+    "reason": "embedded 'to gladden, to cheer' in translation",
+    "translation": "make happy, gladden",
+    "senses": ["make happy, gladden (someone)", "feel happy, rejoice (about something)"]
+  },
+  {
+    "kellyId": 4093,
+    "decision": "fix",
+    "reason": "'gladdening' is uncommon; 'pleasing, welcome' is clearer for learners",
+    "translation": "pleasing, welcome",
+    "senses": []
+  },
+  {
+    "kellyId": 4146,
+    "decision": "fix",
+    "reason": "cleaned senses: 'squeak, creak' is a distinct secondary meaning",
+    "senses": ["whine, complain, nag", "squeak, creak"]
+  },
+  {
+    "kellyId": 3914,
+    "decision": "fix",
+    "reason": "sub-defs repeat the same meaning with slight wording variations; single meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 3219,
+    "decision": "fix",
+    "reason": "'approval' is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4199,
+    "decision": "fix",
+    "reason": "current translation is description-like; 'cargo, freight' is the core everyday sense (farligt gods = dangerous goods/cargo); estate is a distinct secondary meaning",
+    "translation": "cargo, freight",
+    "senses": ["cargo, freight, goods (in transit)", "estate, manor (landed property)"]
+  },
+  {
+    "kellyId": 3389,
+    "decision": "fix",
+    "reason": "embedded article 'a boy' in translation; 'guy' is a distinct informal sense",
+    "translation": "lad, boy",
+    "senses": ["lad, boy", "guy (informal)"]
+  },
+  {
+    "kellyId": 3387,
+    "decision": "fix",
+    "reason": "the historical measurement senses are archaic curiosities, not useful for B1 learners; single modern meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 2857,
+    "decision": "fix",
+    "reason": "sub-def 'congrats' is just an informal synonym of congratulations, not a distinct sense",
+    "senses": []
+  },
+  {
+    "kellyId": 3902,
+    "decision": "fix",
+    "reason": "sub-def 'person from Greece' is a definition of the word, not a distinct sense",
+    "senses": []
+  },
+  {
+    "kellyId": 3015,
+    "decision": "fix",
+    "reason": "all three senses map to 'branch' (literal and figurative) — same English word, no disambiguation needed",
+    "senses": []
+  },
+  {
+    "kellyId": 3820,
+    "decision": "fix",
+    "reason": "cleaned senses: merged the two 'cop' entries into one",
+    "senses": ["pig (animal)", "pig, slob (dirty or nasty person)", "pig, cop (police slang)"]
+  },
+  {
+    "kellyId": 3151,
+    "decision": "fix",
+    "reason": "'fundamental law' is accurate but opaque; 'constitution' is the clearest headline; sub-def was definition-like",
+    "translation": "constitution, fundamental law",
+    "senses": []
+  },
+  {
+    "kellyId": 3636,
+    "decision": "fix",
+    "reason": "sub-def is a long definition; 'or' should be comma; single meaning",
+    "translation": "primary school, elementary school",
+    "senses": []
+  },
+  {
+    "kellyId": 3149,
+    "decision": "fix",
+    "reason": "'terribly, very (as an intensifier)' is the adverbial use, not a separate adj sense; cleaned to two adj senses",
+    "senses": ["cruel", "great, awesome (informal)"]
+  },
+  {
+    "kellyId": 3880,
+    "decision": "fix",
+    "reason": "sub-def 'any plant of the family Poaceae' is a definition; replaced with concise senses",
+    "senses": ["grass", "weed, grass (marijuana, slang)"]
+  },
+  {
+    "kellyId": 2933,
+    "decision": "fix",
+    "reason": "sub-def '(wonderful)' duplicates 'divine' without adding clarity; consolidated",
+    "senses": ["divine, godly (pertaining to a deity)", "divine, wonderful (informal)"]
+  }
+]

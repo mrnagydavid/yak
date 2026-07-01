@@ -1,0 +1,249 @@
+[
+  {
+    "kellyId": 8155,
+    "decision": "fix",
+    "reason": "saliva is uncountable",
+    "translation": "saliva",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7517,
+    "decision": "fix",
+    "reason": "coexistence is uncountable",
+    "translation": "coexistence",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7866,
+    "decision": "fix",
+    "reason": "clumsy: 'to merge' has embedded 'to'; app adds 'to' automatically",
+    "translation": "join, merge",
+    "senses": []
+  },
+  {
+    "kellyId": 8060,
+    "decision": "fix",
+    "reason": "'link together' is verbose; 'connect, link, couple' is cleaner",
+    "translation": "connect, link, couple",
+    "senses": []
+  },
+  {
+    "kellyId": 7704,
+    "decision": "fix",
+    "reason": "sub-def has embedded 'a' article and is definition-like; clean the senses list",
+    "senses": ["collision", "clash, confrontation (figurative)"]
+  },
+  {
+    "kellyId": 7138,
+    "decision": "fix",
+    "reason": "'to hold a meeting' has embedded 'to'; clumsy phrasing",
+    "translation": "meet, convene",
+    "senses": []
+  },
+  {
+    "kellyId": 7081,
+    "decision": "fix",
+    "reason": "'an organizer' has embedded article",
+    "translation": "coordinator, organizer",
+    "senses": []
+  },
+  {
+    "kellyId": 7182,
+    "decision": "fix",
+    "reason": "unanimity/consensus are uncountable; two distinct senses so list is kept",
+    "translation": "unanimity, consensus",
+    "uncountable": true,
+    "senses": ["unanimity, consensus, agreement", "coherence, consistency"]
+  },
+  {
+    "kellyId": 7506,
+    "decision": "fix",
+    "reason": "'a sandbeach' has embedded article and 'sandbeach' is not a real English word",
+    "translation": "sandy beach",
+    "senses": []
+  },
+  {
+    "kellyId": 7611,
+    "decision": "fix",
+    "reason": "sub-def has embedded 'a' and is definition-like; clean the senses list",
+    "senses": ["sailor", "swift (a bird)"]
+  },
+  {
+    "kellyId": 8102,
+    "decision": "fix",
+    "reason": "silk is uncountable",
+    "translation": "silk",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7774,
+    "decision": "fix",
+    "reason": "primary sense (matching collection) was missing from senses list; add it as first entry",
+    "senses": ["set (matching collection)", "set (in tennis or similar)", "set (musical performance)"]
+  },
+  {
+    "kellyId": 7102,
+    "decision": "fix",
+    "reason": "swimming is uncountable as an activity noun",
+    "translation": "swimming",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7224,
+    "decision": "fix",
+    "reason": "sub-def 'to launch' is redundant with the primary; clear the list",
+    "senses": []
+  },
+  {
+    "kellyId": 7724,
+    "decision": "fix",
+    "reason": "'a grip' and 'a shaft' have embedded articles; senses list is over-detailed",
+    "translation": "handle, grip, shaft",
+    "senses": ["handle, grip, shaft (of a tool)", "stem (of a plant or feather)", "leg, bootleg (of a boot or sock)"]
+  },
+  {
+    "kellyId": 7554,
+    "decision": "fix",
+    "reason": "shellfish is uncountable (collective/mass noun)",
+    "translation": "shellfish",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 8348,
+    "decision": "fix",
+    "reason": "'to crumple' has embedded 'to'; app adds 'to' automatically",
+    "translation": "wrinkle, crumple",
+    "senses": []
+  },
+  {
+    "kellyId": 8414,
+    "decision": "fix",
+    "reason": "'undesirable wrinkle' is definition-like; 'wrinkle' is the plain translation",
+    "translation": "wrinkle",
+    "senses": []
+  },
+  {
+    "kellyId": 7956,
+    "decision": "fix",
+    "reason": "wear and tear is uncountable",
+    "translation": "wear and tear",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 8272,
+    "decision": "fix",
+    "reason": "'to slant' has embedded 'to'; app adds 'to' automatically",
+    "translation": "slope, slant",
+    "senses": []
+  },
+  {
+    "kellyId": 7075,
+    "decision": "fix",
+    "reason": "sub-def 'a slope, a hillside' is redundant with the primary and has embedded articles",
+    "senses": []
+  },
+  {
+    "kellyId": 7130,
+    "decision": "fix",
+    "reason": "'stroke softly and tenderly' is definition-like; 'caress, stroke' is the natural translation",
+    "translation": "caress, stroke",
+    "senses": []
+  },
+  {
+    "kellyId": 7298,
+    "decision": "fix",
+    "reason": "'to oil' has embedded 'to'; app adds 'to' automatically",
+    "translation": "grease, oil",
+    "senses": ["grease, oil (lubricate)", "smear, apply ointment", "grease, bribe"]
+  },
+  {
+    "kellyId": 7401,
+    "decision": "fix",
+    "reason": "sub-defs are definition-like; clean the senses list",
+    "senses": ["crap, bullshit (nonsense)", "goo, muck (sticky substance)"]
+  },
+  {
+    "kellyId": 8122,
+    "decision": "fix",
+    "reason": "'a supermarket' has embedded article",
+    "translation": "grocery store, supermarket",
+    "senses": []
+  },
+  {
+    "kellyId": 7974,
+    "decision": "fix",
+    "reason": "sub-def 'to make noises while asleep' is a definition of snoring; redundant",
+    "senses": []
+  },
+  {
+    "kellyId": 7654,
+    "decision": "fix",
+    "reason": "'offensively foul' is definition-like; 'filthy, gross' is the natural translation",
+    "translation": "filthy, gross",
+    "senses": ["filthy, gross (dirty)", "dirty, vulgar (sexual)"]
+  },
+  {
+    "kellyId": 8244,
+    "decision": "fix",
+    "reason": "'socle' is obscure to most English learners; 'plinth, pedestal' is clearer",
+    "translation": "plinth, pedestal",
+    "senses": []
+  },
+  {
+    "kellyId": 7584,
+    "decision": "fix",
+    "reason": "sunshine is uncountable",
+    "translation": "sunshine",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7093,
+    "decision": "fix",
+    "reason": "slash notation is informal/clumsy; fix to comma-separated alternatives",
+    "translation": "summer vacation, summer break",
+    "senses": []
+  },
+  {
+    "kellyId": 8303,
+    "decision": "fix",
+    "reason": "sadness is uncountable",
+    "translation": "sadness",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7830,
+    "decision": "fix",
+    "reason": "sub-defs include 'any of various spade-like tools' which is too vague; clean up senses",
+    "senses": ["shovel (for digging)", "spade (garden or toy)"]
+  },
+  {
+    "kellyId": 8146,
+    "decision": "fix",
+    "reason": "frugality and thrift are uncountable",
+    "translation": "frugality, thrift",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 8105,
+    "decision": "fix",
+    "reason": "sub-def about house sparrow species is too technical; sparrow is single everyday meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 8409,
+    "decision": "fix",
+    "reason": "specificity is uncountable",
+    "translation": "specificity",
+    "uncountable": true,
+    "senses": []
+  }
+]

@@ -1,0 +1,325 @@
+[
+  {
+    "kellyId": 2568,
+    "decision": "fix",
+    "reason": "list missing the material sense; only vessel was listed, but glass (material) is the other primary sense",
+    "translation": "glass",
+    "senses": ["glass (material)", "glass (vessel)"]
+  },
+  {
+    "kellyId": 2460,
+    "decision": "fix",
+    "reason": "list includes a noun-like sense ('an approval, a passing grade') inside an adjective entry, and 'having received a passing grade' is definition-like",
+    "senses": ["approved, certified", "passing (having received a passing grade)"]
+  },
+  {
+    "kellyId": 1673,
+    "decision": "fix",
+    "reason": "'approve' is the more general and dominant meaning; 'pass (give a grade)' is the narrower educational sense and should be secondary",
+    "translation": "approve",
+    "senses": ["approve", "pass (give a passing grade)"]
+  },
+  {
+    "kellyId": 1808,
+    "decision": "fix",
+    "reason": "the sub-definition is a verbose restatement of the primary; 'gott' has two genuinely distinct uses: 'well/good' (tastes good) and a modal/permissive flavour ('you may as well, feel free to')",
+    "translation": "well, good",
+    "senses": ["well, good (tastes good, smells good, etc.)", "well, easily, feel free to (permissive: 'du kan gott vänta')"]
+  },
+  {
+    "kellyId": 2637,
+    "decision": "fix",
+    "reason": "', the set' is raw mathematical definition debris; the word simply means 'graph'",
+    "translation": "graph",
+    "senses": []
+  },
+  {
+    "kellyId": 1721,
+    "decision": "fix",
+    "reason": "'to' embedded in bare-verb translation",
+    "translation": "scrutinize, inspect, audit",
+    "senses": []
+  },
+  {
+    "kellyId": 2139,
+    "decision": "fix",
+    "reason": "articles embedded in primary ('an audit, a revision'); 'revision' is less natural than 'review'; the secondary sense (age rating) is marginal — drop it",
+    "translation": "inspection, audit, review",
+    "senses": []
+  },
+  {
+    "kellyId": 1804,
+    "decision": "fix",
+    "reason": "list is over-padded with overlapping senses; trim to the genuinely distinct ones",
+    "translation": "thing",
+    "senses": ["thing (object or concept)", "thing (subjective liking: 'that's my thing')", "thing, deal (point or appeal)"]
+  },
+  {
+    "kellyId": 1822,
+    "decision": "fix",
+    "reason": "'to seize' is a near-synonym of 'catch hold of' and redundant in the list; consolidate",
+    "translation": "grab, seize",
+    "senses": ["grab, seize, catch hold of", "arrest, detain (take into custody)", "move deeply, touch (emotionally)"]
+  },
+  {
+    "kellyId": 1445,
+    "decision": "fix",
+    "reason": "'to' embedded in bare-verb translation",
+    "translation": "found, establish",
+    "senses": ["found, establish (a company, city, etc.)", "base, ground (an argument or idea on something)", "prime (apply a base coat or primer)"]
+  },
+  {
+    "kellyId": 2718,
+    "decision": "fix",
+    "reason": "article embedded in primary ('a foundation')",
+    "translation": "basis, foundation",
+    "senses": []
+  },
+  {
+    "kellyId": 2321,
+    "decision": "fix",
+    "reason": "'to' embedded in bare-verb translation",
+    "translation": "cry, weep",
+    "senses": []
+  },
+  {
+    "kellyId": 2093,
+    "decision": "fix",
+    "reason": "'march' (share a border) is an archaic/highly technical English term; the natural translation is 'border on, adjoin'",
+    "translation": "border on, adjoin",
+    "senses": []
+  },
+  {
+    "kellyId": 2777,
+    "decision": "fix",
+    "reason": "primary 'older or elderly man' is definition-like; 'old man' is the natural flashcard gloss",
+    "translation": "old man",
+    "senses": ["old man", "husband (informal)", "little boy, little guy (affectionate)", "character, guy (in a game or artwork)"]
+  },
+  {
+    "kellyId": 2288,
+    "decision": "fix",
+    "reason": "primary 'gold' is uncountable (the metal); needs uncountable: true",
+    "translation": "gold",
+    "uncountable": true,
+    "senses": ["gold (metal)", "gold, fortune (wealth and luck)", "gold medal, gold (competition victory)"]
+  },
+  {
+    "kellyId": 2771,
+    "decision": "fix",
+    "reason": "'gymnasium' is a false friend in English (means a gym/sports hall); the Swedish word means upper secondary school",
+    "translation": "upper secondary school",
+    "senses": []
+  },
+  {
+    "kellyId": 1914,
+    "decision": "fix",
+    "reason": "sub-definition parenthetical is clumsy; trim to a clean gloss",
+    "translation": "benefit",
+    "senses": ["benefit (help or be good for)", "favor, show favoritism toward"]
+  },
+  {
+    "kellyId": 2731,
+    "decision": "fix",
+    "reason": "sub-definition is just a definition of 'yesterday'; single-meaning word",
+    "translation": "yesterday",
+    "senses": []
+  },
+  {
+    "kellyId": 2552,
+    "decision": "fix",
+    "reason": "article embedded in primary ('a deed')",
+    "translation": "act, deed",
+    "senses": ["act, deed", "body of work (the sum of one's career)"]
+  },
+  {
+    "kellyId": 2495,
+    "decision": "fix",
+    "reason": "'to' embedded in bare-verb translation",
+    "translation": "hide, conceal",
+    "senses": ["hide, conceal (something)", "hide (oneself)"]
+  },
+  {
+    "kellyId": 2212,
+    "decision": "fix",
+    "reason": "list has article embedded ('a harbor, a haven') and 'outward figure' is an archaic/very marginal sense; trim",
+    "translation": "port, harbor",
+    "senses": ["port, harbor", "haven, refuge (place of safety)"]
+  },
+  {
+    "kellyId": 1417,
+    "decision": "fix",
+    "reason": "primary 'trade, commerce' is uncountable; needs uncountable: true; senses need clean bare forms",
+    "translation": "trade, commerce",
+    "uncountable": true,
+    "senses": ["trade, commerce", "store, shop"]
+  },
+  {
+    "kellyId": 2197,
+    "decision": "fix",
+    "reason": "primary 'hate, hatred' is uncountable; needs uncountable: true; single meaning",
+    "translation": "hate, hatred",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1681,
+    "decision": "fix",
+    "reason": "article embedded in primary ('an entirety')",
+    "translation": "whole, entirety",
+    "senses": []
+  },
+  {
+    "kellyId": 2017,
+    "decision": "fix",
+    "reason": "the capitalized 'Hell' (theological proper noun) is the less common everyday use; lowercase 'hell' as general concept should be primary",
+    "translation": "hell",
+    "senses": ["hell (place or situation of great suffering)", "Hell (afterlife in some religions)"]
+  },
+  {
+    "kellyId": 2580,
+    "decision": "fix",
+    "reason": "three synonyms in primary is too many; 'terrible, awful' covers the core meaning; 'ghastly' is more formal and marginal; single meaning",
+    "translation": "terrible, awful",
+    "senses": []
+  },
+  {
+    "kellyId": 1583,
+    "decision": "fix",
+    "reason": "articles embedded in primary ('a gentleman, a sir'); trim to two clean synonyms",
+    "translation": "gentleman, sir",
+    "senses": ["gentleman, sir (respectful term for a man)", "men's room (short for herrarnas toalett)", "lord, master (person of authority)", "Lord (God)"]
+  },
+  {
+    "kellyId": 2504,
+    "decision": "fix",
+    "reason": "list is too granular — all senses are just 'hot' with a qualifier; trim to meaningfully distinct everyday uses",
+    "translation": "hot",
+    "senses": ["hot (temperature)", "spicy (food)", "hot, sexy (attractive)"]
+  },
+  {
+    "kellyId": 1725,
+    "decision": "fix",
+    "reason": "article embedded in primary ('an obstruction'); list has two near-synonym senses that should be consolidated",
+    "translation": "obstacle, obstruction",
+    "senses": ["obstacle, obstruction, hindrance", "steeplechase"]
+  },
+  {
+    "kellyId": 1503,
+    "decision": "fix",
+    "reason": "primary 'hope' (the concept) is uncountable; needs uncountable: true; senses need clean forms",
+    "translation": "hope",
+    "uncountable": true,
+    "senses": ["hope (the feeling or concept)", "hope (a person or thing that inspires hope)", "jump", "vault (sport)"]
+  },
+  {
+    "kellyId": 2113,
+    "decision": "fix",
+    "reason": "sub-definition is a definition-like restatement; the two uses are distinct enough to keep but trim",
+    "translation": "in any case, anyway, anyhow",
+    "senses": ["in any case, anyway, anyhow (discourse marker)", "in any way whatsoever"]
+  },
+  {
+    "kellyId": 2190,
+    "decision": "fix",
+    "reason": "article embedded in primary ('a home'); 'household' alone is the clearest primary",
+    "translation": "household",
+    "senses": ["household (unit of people sharing a home)", "housekeeping, domestic work"]
+  },
+  {
+    "kellyId": 1758,
+    "decision": "fix",
+    "reason": "four synonyms in primary is too many; trim to two; the literary/formal sense 'glorious, majestic' is genuinely distinct",
+    "translation": "lovely, wonderful",
+    "senses": ["lovely, wonderful, great", "glorious, majestic (literary)"]
+  },
+  {
+    "kellyId": 1790,
+    "decision": "fix",
+    "reason": "sub-definition is definition-like; single meaningful sense for learners",
+    "translation": "college, university college",
+    "senses": []
+  },
+  {
+    "kellyId": 2072,
+    "decision": "fix",
+    "reason": "three synonyms in primary; 'height' dominates; list is verbose and over-long",
+    "translation": "height",
+    "senses": ["height, altitude, elevation", "peak, height (figurative: 'at the height of')", "hill (a smaller elevation)"]
+  },
+  {
+    "kellyId": 1959,
+    "decision": "fix",
+    "reason": "'under consideration' is a near-synonym of 'in question'; single meaning",
+    "translation": "in question",
+    "senses": []
+  },
+  {
+    "kellyId": 1695,
+    "decision": "fix",
+    "reason": "sub-definition is a definition-like restatement; single meaning",
+    "translation": "primarily, first of all",
+    "senses": []
+  },
+  {
+    "kellyId": 2530,
+    "decision": "fix",
+    "reason": "primary 'Expresses concession' is a grammatical description, not a translation; replace with actual gloss",
+    "translation": "well, actually; in and of itself",
+    "senses": ["well, actually, come to think of it (concessive filler)", "in and of itself, as such"]
+  },
+  {
+    "kellyId": 1631,
+    "decision": "fix",
+    "reason": "'reference' as a verb is uncommon; 'to' embedded; the word means to refer/direct someone",
+    "translation": "refer, direct (to)",
+    "senses": []
+  },
+  {
+    "kellyId": 1793,
+    "decision": "fix",
+    "reason": "primary 'hair' is uncountable; needs uncountable: true",
+    "translation": "hair",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1458,
+    "decision": "fix",
+    "reason": "primary 'half, one of two roughly equal parts' is definition-like; 'half' alone is clear",
+    "translation": "half",
+    "senses": []
+  },
+  {
+    "kellyId": 1475,
+    "decision": "fix",
+    "reason": "primary 'health' is uncountable; needs uncountable: true",
+    "translation": "health",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1433,
+    "decision": "fix",
+    "reason": "primary 'respect, consideration' is uncountable in this usage; needs uncountable: true",
+    "translation": "respect, consideration",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1574,
+    "decision": "fix",
+    "reason": "primary 'inflation' is uncountable; needs uncountable: true",
+    "translation": "inflation",
+    "uncountable": true,
+    "senses": ["inflation (economic)", "inflation (of grades, standards, etc.)"]
+  },
+  {
+    "kellyId": 2397,
+    "decision": "fix",
+    "reason": "primary 'infrastructure' is uncountable; needs uncountable: true",
+    "translation": "infrastructure",
+    "uncountable": true,
+    "senses": []
+  }
+]

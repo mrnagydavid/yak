@@ -1,0 +1,429 @@
+[
+  {
+    "kellyId": 1238,
+    "decision": "fix",
+    "reason": "'self-evident' is a clunky synonym; the natural gloss for the adverb is 'of course, obviously'",
+    "translation": "of course, obviously",
+    "senses": []
+  },
+  {
+    "kellyId": 1170,
+    "decision": "fix",
+    "reason": "'scathe' is archaic and unknown to most learners; everyday primary is 'damage, injury'",
+    "translation": "damage, injury",
+    "senses": ["damage, injury, harm", "pity, shame (det är en skada = it's a pity)"]
+  },
+  {
+    "kellyId": 1155,
+    "decision": "fix",
+    "reason": "primary has embedded 'to'; secondary senses are very marginal/colloquial",
+    "translation": "get, acquire",
+    "senses": ["get, acquire, obtain", "get (a tattoo, a child, etc.)"]
+  },
+  {
+    "kellyId": 289,
+    "decision": "fix",
+    "reason": "primary is fine; sub-definitions are definition-like fragments, not sense labels",
+    "translation": "create",
+    "senses": []
+  },
+  {
+    "kellyId": 797,
+    "decision": "fix",
+    "reason": "sub-def 'a treasure; something of great value' has an embedded article and is definition-like",
+    "translation": "tax",
+    "senses": ["tax", "treasure"]
+  },
+  {
+    "kellyId": 351,
+    "decision": "fix",
+    "reason": "sub-def is a definition fragment; 'ske' has a single meaning",
+    "translation": "happen",
+    "senses": []
+  },
+  {
+    "kellyId": 544,
+    "decision": "fix",
+    "reason": "'behave oneself' is 'skicka sig', not 'skicka' alone — drop it; 'pass' at table is a real secondary sense",
+    "translation": "send",
+    "senses": ["send", "pass (at the table)"]
+  },
+  {
+    "kellyId": 948,
+    "decision": "fix",
+    "reason": "sub-defs are redundant and definition-like; 'divorce' (skilja sig) is missing from the list",
+    "translation": "separate",
+    "senses": ["separate, distinguish", "tell apart, differentiate", "differ, be different", "divorce (skilja sig)"]
+  },
+  {
+    "kellyId": 1366,
+    "decision": "fix",
+    "reason": "current translation is a definition; everyday meanings are 'slice', 'disc/record'",
+    "translation": "slice; disc, record",
+    "senses": ["slice (of bread, meat, etc.)", "disc, record (music)", "disc (flat circular object)"]
+  },
+  {
+    "kellyId": 1144,
+    "decision": "fix",
+    "reason": "'to fire' has embedded 'to'; senses need cleanup from definition-like wiktionary dump",
+    "translation": "shoot, fire",
+    "senses": ["shoot, fire (a weapon)", "shoot, move swiftly", "jut out, protrude"]
+  },
+  {
+    "kellyId": 101,
+    "decision": "fix",
+    "reason": "sub-def 'to school, to train' belongs to the verb sense but is very marginal for this modal; clear it",
+    "translation": "shall, will, be going to",
+    "senses": []
+  },
+  {
+    "kellyId": 360,
+    "decision": "fix",
+    "reason": "sub-def '(school of thought)' is fine but the parenthetical disambiguates well enough; keep concise",
+    "translation": "school",
+    "senses": ["school (institution)", "school of thought"]
+  },
+  {
+    "kellyId": 182,
+    "decision": "fix",
+    "reason": "'to type, to copy' have embedded 'to'; primary should be bare 'write'; senses need trimming",
+    "translation": "write",
+    "senses": ["write, type", "author, compose, publish", "sign (a contract)"]
+  },
+  {
+    "kellyId": 1213,
+    "decision": "fix",
+    "reason": "'protection' is uncountable in English; needs uncountable flag",
+    "uncountable": true,
+    "senses": ["protection", "protector, guard (physical object)"]
+  },
+  {
+    "kellyId": 581,
+    "decision": "fix",
+    "reason": "sub-defs 'parting of roads' and 'shed (warps)' are archaic/technical and clutter the card; drop them",
+    "translation": "reason",
+    "senses": []
+  },
+  {
+    "kellyId": 1093,
+    "decision": "fix",
+    "reason": "in modern Swedish 'skön' primarily means 'nice, pleasant, comfortable' — 'fair, beautiful' is literary/archaic as primary",
+    "translation": "nice, pleasant",
+    "senses": ["comfortable, pleasant, nice", "fair, beautiful (literary)", "cool, easy-going (colloquial)"]
+  },
+  {
+    "kellyId": 1261,
+    "decision": "fix",
+    "reason": "'to take care of, to handle' have embedded 'to'; sub-def phrasing is clunky",
+    "translation": "manage, take care of",
+    "senses": ["manage, take care of, handle", "behave (sköta sig)"]
+  },
+  {
+    "kellyId": 272,
+    "decision": "fix",
+    "reason": "primary 'hit' is fine but senses are definition-like with capital letters and periods",
+    "translation": "hit",
+    "senses": ["hit, punch, blow", "stroke (of a clock)", "battle (slag vid = battle of)", "stroke (medical)"]
+  },
+  {
+    "kellyId": 1237,
+    "decision": "fix",
+    "reason": "current gloss is clunky; 'not have to, be spared from' is cleaner and more teachable",
+    "translation": "not have to, be spared from",
+    "senses": []
+  },
+  {
+    "kellyId": 439,
+    "decision": "fix",
+    "reason": "'to end' has embedded 'to'; senses list is very long with definition-like and marginal entries",
+    "translation": "stop, end",
+    "senses": ["stop, end, finish", "quit (a job, habit, school)", "close, shut"]
+  },
+  {
+    "kellyId": 1336,
+    "decision": "fix",
+    "reason": "'slutligen' means 'finally, lastly' (at the end of a sequence) not 'eventually' (at some future point)",
+    "translation": "finally, lastly",
+    "senses": []
+  },
+  {
+    "kellyId": 378,
+    "decision": "fix",
+    "reason": "'punch or beat' is clunky; 'hit, strike' is cleaner; 'defeat' is an important secondary sense",
+    "translation": "hit, strike",
+    "senses": ["hit, strike, beat", "defeat, beat (an opponent)"]
+  },
+  {
+    "kellyId": 742,
+    "decision": "fix",
+    "reason": "senses list includes 'break wind' which is vulgar slang and not a core meaning to teach",
+    "translation": "let go",
+    "senses": ["let go, release (one's grip)", "let free, release (from captivity)", "release (make available, e.g. for sale)", "let, allow (to some place)"]
+  },
+  {
+    "kellyId": 890,
+    "decision": "fix",
+    "reason": "sub-defs 'fast-blow fuse' and 'instant food' are technical/compound-word senses, not standalone adjective meanings",
+    "translation": "fast, quick",
+    "senses": []
+  },
+  {
+    "kellyId": 574,
+    "decision": "fix",
+    "reason": "sub-def 'in a fast manner' is a definition fragment; single meaning",
+    "translation": "quickly",
+    "senses": []
+  },
+  {
+    "kellyId": 529,
+    "decision": "fix",
+    "reason": "sub-def 'within a short time' is a definition fragment; single meaning",
+    "translation": "soon",
+    "senses": []
+  },
+  {
+    "kellyId": 470,
+    "decision": "fix",
+    "reason": "sub-def has definition-like phrasing; simplify",
+    "translation": "social",
+    "senses": ["social (relating to society)", "social, outgoing, friendly (of a person)"]
+  },
+  {
+    "kellyId": 1073,
+    "decision": "fix",
+    "reason": "senses list includes 'sol' (the musical note) which is not a Swedish-specific meaning worth teaching; simplify",
+    "translation": "sun",
+    "senses": ["sun (the star)", "sunshine, sunlight", "ray of sunshine (source of joy)"]
+  },
+  {
+    "kellyId": 118,
+    "decision": "fix",
+    "reason": "sub-defs 'as (in the role of)' and 'as (the way)' are definition fragments of the same meaning",
+    "translation": "as, like",
+    "senses": []
+  },
+  {
+    "kellyId": 1332,
+    "decision": "fix",
+    "reason": "'to store for future use' is a definition fragment embedded in the primary; primary should be bare 'save'",
+    "translation": "save",
+    "senses": ["save, put aside (money, food)", "save (a file)", "spare, economise"]
+  },
+  {
+    "kellyId": 654,
+    "decision": "fix",
+    "reason": "'a game' has an embedded article; senses list is very long and definition-like",
+    "translation": "game, play",
+    "senses": ["game, play (activity for entertainment)", "game accessories (board game, etc.)", "performance, playing (music/sport)", "gambling"]
+  },
+  {
+    "kellyId": 320,
+    "decision": "fix",
+    "reason": "first sub-def is a definition fragment ('a game, a tune...'), not a sense; senses need cleanup",
+    "translation": "play",
+    "senses": ["play (a game, instrument, or role)", "gamble"]
+  },
+  {
+    "kellyId": 910,
+    "decision": "fix",
+    "reason": "'to spread, to disseminate' have embedded 'to'; primary should be bare",
+    "translation": "spread, distribute",
+    "senses": []
+  },
+  {
+    "kellyId": 1222,
+    "decision": "fix",
+    "reason": "'to jump' is a dialectal/archaic secondary sense of 'springa', not worth featuring",
+    "translation": "run",
+    "senses": []
+  },
+  {
+    "kellyId": 1252,
+    "decision": "fix",
+    "reason": "primary 'trail or trace' is fine; senses need minor cleanup from definition-like phrasing",
+    "translation": "trail, trace",
+    "senses": ["trail, trace (mark left behind)", "footprint, pawprint", "railway track", "audio track"]
+  },
+  {
+    "kellyId": 306,
+    "decision": "fix",
+    "reason": "'a town' has embedded article; archaic senses 'stead' and 'selvage' should be dropped",
+    "translation": "city, town",
+    "senses": []
+  },
+  {
+    "kellyId": 671,
+    "decision": "fix",
+    "reason": "'to start' has embedded 'to'; sub-defs are definition fragments of the same meaning",
+    "translation": "start",
+    "senses": []
+  },
+  {
+    "kellyId": 305,
+    "decision": "fix",
+    "reason": "historical 'salary in kind' sense is obsolete and should be dropped; senses simplified",
+    "translation": "state",
+    "senses": ["state, nation", "government", "state (part of a federation)"]
+  },
+  {
+    "kellyId": 928,
+    "decision": "fix",
+    "reason": "current translation is a definition; 'state-owned, governmental' is a clean adjective gloss",
+    "translation": "state-owned, governmental",
+    "senses": []
+  },
+  {
+    "kellyId": 1309,
+    "decision": "fix",
+    "reason": "sub-def 'to move the foot' is a definition fragment; 'rise, increase' is a real secondary sense",
+    "translation": "step, climb",
+    "senses": ["step, climb (move by foot)", "rise, increase"]
+  },
+  {
+    "kellyId": 978,
+    "decision": "fix",
+    "reason": "'to make a stop' is redundant with 'stop'; senses need trimming",
+    "translation": "stop",
+    "senses": ["stop, halt", "stuff, fill", "put, shove (into)", "darn (repair with stitching)"]
+  },
+  {
+    "kellyId": 142,
+    "decision": "fix",
+    "reason": "sub-defs are definition-like fragments; senses should be concise",
+    "translation": "big, large",
+    "senses": ["big, large", "grown-up, adult", "uppercase, capital (of a letter)", "great, grand, important"]
+  },
+  {
+    "kellyId": 60,
+    "decision": "fix",
+    "reason": "'an older sister' has embedded article; bare form needed",
+    "translation": "big sister, older sister",
+    "senses": []
+  },
+  {
+    "kellyId": 1193,
+    "decision": "fix",
+    "reason": "'in conflict with' is a prepositional phrase usage (i strid med), not a separate noun sense",
+    "translation": "battle",
+    "senses": []
+  },
+  {
+    "kellyId": 1266,
+    "decision": "fix",
+    "reason": "'to investigate' is a minor secondary sense; overall the word has two real senses worth listing",
+    "translation": "study",
+    "senses": ["study (at university)", "investigate, examine"]
+  },
+  {
+    "kellyId": 925,
+    "decision": "fix",
+    "reason": "'an investigation, a report' are definition-like; primary should be 'study, report'",
+    "translation": "study, report",
+    "senses": ["study, report, investigation", "study (artwork as practice piece)"]
+  },
+  {
+    "kellyId": 792,
+    "decision": "fix",
+    "reason": "grammatical sense (govern a case) is too technical to include; senses simplified",
+    "translation": "govern, control",
+    "senses": ["govern, rule, control", "steer, navigate, direct"]
+  },
+  {
+    "kellyId": 1333,
+    "decision": "fix",
+    "reason": "'council' is not the primary meaning; 'styrelse' is most commonly 'board (of directors)'",
+    "translation": "board",
+    "senses": ["board (of directors)", "council, committee"]
+  },
+  {
+    "kellyId": 219,
+    "decision": "fix",
+    "reason": "sub-defs are definition fragments; important secondary senses are 'say, read (of text)' and 'take place'",
+    "translation": "stand",
+    "senses": ["stand, be standing", "be at a standstill", "take place, be held", "say, read (of written text)"]
+  },
+  {
+    "kellyId": 952,
+    "decision": "fix",
+    "reason": "'existence' is not the primary meaning; 'stånd' means 'state, condition' or 'standing' (mostly in phrases)",
+    "translation": "state, condition",
+    "senses": ["state, condition", "standing, erection (upright position)", "penile erection"]
+  },
+  {
+    "kellyId": 347,
+    "decision": "fix",
+    "reason": "primary 'place (upright), to put, to set' has definition-like parenthetical and embedded 'to'; bare: 'put, place'",
+    "translation": "put, place",
+    "senses": ["put, place (upright)", "set, adjust (a clock or setting)", "take a position (on something)"]
+  },
+  {
+    "kellyId": 968,
+    "decision": "fix",
+    "reason": "'a location, a position' have embedded articles; primary bare: 'place, location'",
+    "translation": "place, location",
+    "senses": ["place, location, spot", "home, farm, cottage (in the countryside)", "establishment (restaurant, club)"]
+  },
+  {
+    "kellyId": 871,
+    "decision": "fix",
+    "reason": "'stand' is too narrow; 'ställning' primarily means 'position, posture' and 'scaffolding/frame'",
+    "translation": "position, posture",
+    "senses": ["position, posture (of the body)", "stance, stand (on an issue)", "scaffold, frame, rack"]
+  },
+  {
+    "kellyId": 506,
+    "decision": "fix",
+    "reason": "'to agree, to tally' have embedded 'to'; primary bare: 'be correct, match'",
+    "translation": "be correct, match",
+    "senses": ["be correct, match, tally", "tune (an instrument)", "summon, sue"]
+  },
+  {
+    "kellyId": 1251,
+    "decision": "fix",
+    "reason": "'ständigt' means 'constantly, continually' — 'steadily, always' misses the nuance of unbroken repetition",
+    "translation": "constantly, continually",
+    "senses": []
+  },
+  {
+    "kellyId": 1227,
+    "decision": "fix",
+    "reason": "'to shut' has embedded 'to'; sub-defs are definition fragments of the same core meaning",
+    "translation": "close, shut",
+    "senses": []
+  },
+  {
+    "kellyId": 444,
+    "decision": "fix",
+    "reason": "'support' is uncountable in English when meaning help/backing; needs uncountable flag",
+    "uncountable": true,
+    "senses": ["support (help, backing)", "support, prop (physical object)"]
+  },
+  {
+    "kellyId": 1260,
+    "decision": "fix",
+    "reason": "sub-defs are definition fragments; 'weak; regular in inflection' is a grammatical technicality not for learners",
+    "translation": "weak",
+    "senses": ["weak (lacking strength)", "weak, dilute (of a solution)"]
+  },
+  {
+    "kellyId": 357,
+    "decision": "fix",
+    "reason": "'to reply, to respond' have embedded 'to'; primary bare: 'answer, reply'",
+    "translation": "answer, reply",
+    "senses": []
+  },
+  {
+    "kellyId": 194,
+    "decision": "fix",
+    "reason": "sub-def is a definition fragment of the only meaning; single meaning",
+    "translation": "Swedish",
+    "senses": []
+  },
+  {
+    "kellyId": 759,
+    "decision": "fix",
+    "reason": "sub-def 'person from Sweden' is a definition fragment; single meaning",
+    "translation": "Swede",
+    "senses": []
+  }
+]

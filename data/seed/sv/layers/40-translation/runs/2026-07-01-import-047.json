@@ -1,0 +1,223 @@
+[
+  {
+    "kellyId": 5543,
+    "decision": "fix",
+    "reason": "'attestation' and 'testimonial' are marginal synonyms; 'certificate' is the core word",
+    "translation": "certificate",
+    "senses": []
+  },
+  {
+    "kellyId": 4788,
+    "decision": "fix",
+    "reason": "sub-def was definition-like; rewrite senses to be clean translations",
+    "senses": ["irony (the concept)", "ironic remark, instance of irony"]
+  },
+  {
+    "kellyId": 4855,
+    "decision": "fix",
+    "reason": "'Islamistic' is not standard English; 'Islamist' alone is correct",
+    "translation": "Islamist",
+    "senses": []
+  },
+  {
+    "kellyId": 5531,
+    "decision": "fix",
+    "reason": "embedded 'to' in secondary ('to insulate') is clumsy — app adds 'to'",
+    "translation": "isolate, insulate",
+    "senses": ["isolate (separate)", "insulate (against heat or electricity)"]
+  },
+  {
+    "kellyId": 5151,
+    "decision": "fix",
+    "reason": "sub-def 'into two or more pieces' is just a definition of 'apart'; single-meaning particle-like word",
+    "translation": "apart, asunder",
+    "senses": []
+  },
+  {
+    "kellyId": 5422,
+    "decision": "fix",
+    "reason": "embedded articles in 'a doublet, a jerkin'; those terms are archaic — 'jacket' is the everyday word",
+    "translation": "jacket",
+    "senses": []
+  },
+  {
+    "kellyId": 5594,
+    "decision": "fix",
+    "reason": "definition-like gloss; natural translation is 'Japanese person'",
+    "translation": "Japanese person",
+    "senses": []
+  },
+  {
+    "kellyId": 5563,
+    "decision": "fix",
+    "reason": "senses list had redundant first item and definition-like second item; clean up",
+    "senses": ["sure, absolutely, of course", "oh, right (sudden recollection)"]
+  },
+  {
+    "kellyId": 4612,
+    "decision": "fix",
+    "reason": "sub-def was a definition, not a translation; secondary sense is figurative use",
+    "senses": ["Christmas Eve", "windfall, stroke of luck (figurative)"]
+  },
+  {
+    "kellyId": 4303,
+    "decision": "fix",
+    "reason": "embedded 'to' is clumsy; drop marginal senses 'verify protocol' and 'injure someone'",
+    "translation": "adjust, modify",
+    "senses": ["adjust, modify", "align (text to margins)"]
+  },
+  {
+    "kellyId": 5505,
+    "decision": "fix",
+    "reason": "'candidate' is a noun; the verb means 'run for office, stand as a candidate'",
+    "translation": "run for office, stand as a candidate",
+    "senses": []
+  },
+  {
+    "kellyId": 4693,
+    "decision": "fix",
+    "reason": "embedded 'to' is clumsy; 'perform cartography' is too technical; add survey sense",
+    "translation": "map, map out, survey",
+    "senses": ["map, map out (cartography)", "survey, investigate (systematically)"]
+  },
+  {
+    "kellyId": 5470,
+    "decision": "fix",
+    "reason": "'cartography' is not the everyday primary; modern use is mostly 'mapping, survey'",
+    "translation": "mapping, survey",
+    "senses": ["mapping, survey (systematic investigation)", "cartography (literal mapmaking)"]
+  },
+  {
+    "kellyId": 5614,
+    "decision": "fix",
+    "reason": "embedded article 'a catalogue' is wrong — app adds one article",
+    "translation": "catalog, catalogue",
+    "senses": ["catalog, catalogue", "directory"]
+  },
+  {
+    "kellyId": 5616,
+    "decision": "fix",
+    "reason": "chemistry is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4221,
+    "decision": "fix",
+    "reason": "clarity is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4756,
+    "decision": "fix",
+    "reason": "embedded 'to' is clumsy",
+    "translation": "classify, class",
+    "senses": []
+  },
+  {
+    "kellyId": 4397,
+    "decision": "fix",
+    "reason": "embedded article 'a rock' is wrong",
+    "translation": "cliff, rock",
+    "senses": ["cliff, rock (steep rock formation)", "bedrock", "rock (reliable person, figurative)"]
+  },
+  {
+    "kellyId": 5149,
+    "decision": "fix",
+    "reason": "embedded 'to' is clumsy",
+    "translation": "glue, paste",
+    "senses": ["glue, paste (stick with adhesive)", "paste (cut, copy, paste)"]
+  },
+  {
+    "kellyId": 4593,
+    "decision": "fix",
+    "reason": "talon is just a bird's claw — merge into primary; pincer is distinct enough",
+    "senses": ["claw, talon", "pincer (of a crustacean or scorpion)"]
+  },
+  {
+    "kellyId": 4617,
+    "decision": "fix",
+    "reason": "kloster can also be a convent (for nuns); missing major sense",
+    "translation": "monastery, convent",
+    "senses": ["monastery (for monks)", "convent (for nuns)"]
+  },
+  {
+    "kellyId": 5310,
+    "decision": "fix",
+    "reason": "sub-defs were definition-like; simplify to clean translations",
+    "senses": ["knock (on a door)", "knock (engine fault)", "tap, click (sharp sound)"]
+  },
+  {
+    "kellyId": 4317,
+    "decision": "fix",
+    "reason": "for everyday learners 'coal' is the primary sense; 'carbon' is the chemical/scientific meaning — both are co-equal",
+    "translation": "coal; carbon",
+    "senses": ["coal", "carbon (chemical element)"]
+  },
+  {
+    "kellyId": 5046,
+    "decision": "fix",
+    "reason": "sub-def is essentially the same thing in big cities — drop it as unhelpfully marginal",
+    "senses": ["municipal executive board"]
+  },
+  {
+    "kellyId": 4914,
+    "decision": "fix",
+    "reason": "senses list is complete but the primary is most common; keep as-is but ensure senses are clean",
+    "senses": ["convention, meeting, gathering", "convent, monastery", "student union"]
+  },
+  {
+    "kellyId": 4276,
+    "decision": "fix",
+    "reason": "primary 'design' is too narrow; konstruera primarily means design and construct; fix senses",
+    "translation": "design, construct",
+    "senses": ["design, construct"]
+  },
+  {
+    "kellyId": 5451,
+    "decision": "fix",
+    "reason": "embedded 'to' is clumsy",
+    "translation": "convert, change",
+    "senses": ["convert, change (format, currency, etc.)", "convert (to a religion)"]
+  },
+  {
+    "kellyId": 5111,
+    "decision": "fix",
+    "reason": "sub-defs are definition-like; all senses use same word 'corridor' — simplify",
+    "senses": ["corridor, hallway", "corridor (strip of land)", "air corridor"]
+  },
+  {
+    "kellyId": 5411,
+    "decision": "fix",
+    "reason": "embedded 'to' is clumsy",
+    "translation": "correct, revise",
+    "senses": []
+  },
+  {
+    "kellyId": 4606,
+    "decision": "fix",
+    "reason": "sub-defs were definition-like; simplify to clean senses",
+    "senses": ["cross (fold arms, cross a street)", "crossbreed, hybridize", "mark with an X", "cross oneself"]
+  },
+  {
+    "kellyId": 4952,
+    "decision": "fix",
+    "reason": "'briefness' is redundant next to 'brevity'; simplify",
+    "translation": "brevity, shortness",
+    "senses": []
+  },
+  {
+    "kellyId": 4640,
+    "decision": "fix",
+    "reason": "embedded article 'a dress'; 'dress' is wrong — kostym means suit or theatrical costume",
+    "translation": "suit, costume",
+    "senses": ["suit (business)", "costume (theatrical or fancy dress)"]
+  },
+  {
+    "kellyId": 4896,
+    "decision": "fix",
+    "reason": "senses list needs cleaning; 'son of a bitch' etc. are over-specified; simplify",
+    "senses": ["bastard, devil (insult)", "person, soul (colloquial)", "stiff drink (colloquial)", "smack, whack"]
+  }
+]

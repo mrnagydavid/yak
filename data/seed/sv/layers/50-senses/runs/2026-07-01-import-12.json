@@ -1,0 +1,415 @@
+[
+  {
+    "english": "accuse",
+    "senses": [
+      { "gloss": "", "members": [2110, 5564] }
+    ]
+  },
+  {
+    "english": "bill, invoice",
+    "senses": [
+      { "gloss": "invoice, tally", "members": [2116] },
+      { "gloss": "legislative bill", "members": [3252] }
+    ]
+  },
+  {
+    "english": "excuse",
+    "senses": [
+      { "gloss": "apology (noun)", "members": [2133] },
+      { "gloss": "to apologize", "members": [3484] }
+    ]
+  },
+  {
+    "english": "communist",
+    "senses": [
+      { "gloss": "adjective", "members": [2136] },
+      { "gloss": "person", "members": [2146] }
+    ]
+  },
+  {
+    "english": "inspection, audit, review",
+    "senses": [
+      { "gloss": "review, scrutiny", "members": [2139] },
+      { "gloss": "official inspection", "members": [5202] },
+      { "gloss": "vehicle inspection", "members": [7295] }
+    ]
+  },
+  {
+    "english": "balance",
+    "senses": [
+      { "gloss": "equilibrium", "members": [2140] },
+      { "gloss": "to balance", "members": [4599] }
+    ]
+  },
+  {
+    "english": "draw",
+    "senses": [
+      { "gloss": "sign, depict", "members": [2142] },
+      { "gloss": "sketch, design", "members": [3198] },
+      { "gloss": "lottery draw", "members": [5721] }
+    ]
+  },
+  {
+    "english": "secure, guarantee",
+    "senses": [
+      { "gloss": "", "members": [2144, 6079] }
+    ]
+  },
+  {
+    "english": "gift",
+    "senses": [
+      { "gloss": "", "members": [2148, 3551] }
+    ]
+  },
+  {
+    "english": "original",
+    "senses": [
+      { "gloss": "initial, first", "members": [2154] },
+      { "gloss": "genuine article", "members": [3824] },
+      { "gloss": "creative, unique", "members": [6378] }
+    ]
+  },
+  {
+    "english": "protest",
+    "senses": [
+      { "gloss": "noun", "members": [2157] },
+      { "gloss": "to protest", "members": [2539] }
+    ]
+  },
+  {
+    "english": "crazy, mad",
+    "senses": [
+      { "gloss": "", "members": [2160, 4418] }
+    ]
+  },
+  {
+    "english": "hate",
+    "senses": [
+      { "gloss": "to hate", "members": [2162] },
+      { "gloss": "hatred (noun)", "members": [2197] }
+    ]
+  },
+  {
+    "english": "guess",
+    "senses": [
+      { "gloss": "to guess", "members": [2163] },
+      { "gloss": "a guess", "members": [5184] }
+    ]
+  },
+  {
+    "english": "queue, rank",
+    "senses": [
+      { "gloss": "row, formation", "members": [2166] },
+      { "gloss": "waiting line", "members": [2980] }
+    ]
+  },
+  {
+    "english": "heat, warmth",
+    "senses": [
+      { "gloss": "warmth (noun)", "members": [2175] },
+      { "gloss": "to warm", "members": [3689] },
+      { "gloss": "intense heat", "members": [6321] }
+    ]
+  },
+  {
+    "english": "abroad, overseas",
+    "senses": [
+      { "gloss": "adverb", "members": [2185] },
+      { "gloss": "foreign countries", "members": [3747] }
+    ]
+  },
+  {
+    "english": "terrorist",
+    "senses": [
+      { "gloss": "person", "members": [2188] },
+      { "gloss": "adjective", "members": [8160] }
+    ]
+  },
+  {
+    "english": "complete, thorough",
+    "senses": [
+      { "gloss": "adjective", "members": [2192, 3813] },
+      { "gloss": "to complement", "members": [2451] },
+      { "gloss": "to finish, accomplish", "members": [4003, 4834, 5750, 6604] }
+    ]
+  },
+  {
+    "english": "stable",
+    "senses": [
+      { "gloss": "steady, firm", "members": [2195] },
+      { "gloss": "horse stable", "members": [3659] }
+    ]
+  },
+  {
+    "english": "administration, management",
+    "senses": [
+      { "gloss": "", "members": [2196, 3030] }
+    ]
+  },
+  {
+    "english": "anxious, worried",
+    "senses": [
+      { "gloss": "", "members": [2203, 7466] }
+    ]
+  },
+  {
+    "english": "roll",
+    "senses": [
+      { "gloss": "to roll", "members": [2204] },
+      { "gloss": "reel, roll (noun)", "members": [7058] }
+    ]
+  },
+  {
+    "english": "justify; motivate",
+    "senses": [
+      { "gloss": "justify", "members": [2206, 6970] }
+    ]
+  },
+  {
+    "english": "carefully",
+    "senses": [
+      { "gloss": "", "members": [2208, 4110] }
+    ]
+  },
+  {
+    "english": "provide, supply",
+    "senses": [
+      { "gloss": "", "members": [2213, 3009] }
+    ]
+  },
+  {
+    "english": "inform",
+    "senses": [
+      { "gloss": "", "members": [2214, 5605] }
+    ]
+  },
+  {
+    "english": "map",
+    "senses": [
+      { "gloss": "map (noun)", "members": [2215] },
+      { "gloss": "to map out", "members": [4693] }
+    ]
+  },
+  {
+    "english": "design, draft",
+    "senses": [
+      { "gloss": "the design (noun)", "members": [2475, 2506] },
+      { "gloss": "to shape, style", "members": [2216, 8148] },
+      { "gloss": "to construct", "members": [4276] },
+      { "gloss": "technical planning", "members": [8044, 8113] }
+    ]
+  },
+  {
+    "english": "convention",
+    "senses": [
+      { "gloss": "international treaty", "members": [2217] },
+      { "gloss": "convent, assembly", "members": [4916] }
+    ]
+  },
+  {
+    "english": "poem",
+    "senses": [
+      { "gloss": "", "members": [2232, 7989] }
+    ]
+  },
+  {
+    "english": "coworker, colleague",
+    "senses": [
+      { "gloss": "", "members": [2235, 5159] }
+    ]
+  },
+  {
+    "english": "desire, urge",
+    "senses": [
+      { "gloss": "", "members": [2236, 5406] }
+    ]
+  },
+  {
+    "english": "shine, shed light, beam",
+    "senses": [
+      { "gloss": "emit light", "members": [2243, 6071] },
+      { "gloss": "gleam, reflect", "members": [7474] },
+      { "gloss": "sheen, gloss (noun)", "members": [7937] }
+    ]
+  },
+  {
+    "english": "inspect, scrutinize",
+    "senses": [
+      { "gloss": "", "members": [2245, 7128] }
+    ]
+  },
+  {
+    "english": "term",
+    "senses": [
+      { "gloss": "technical term", "members": [2248] },
+      { "gloss": "term of office", "members": [3482] }
+    ]
+  },
+  {
+    "english": "transport, transportation",
+    "senses": [
+      { "gloss": "transportation (noun)", "members": [2250] },
+      { "gloss": "to transport", "members": [3836, 6462] }
+    ]
+  },
+  {
+    "english": "serve, to wait on",
+    "senses": [
+      { "gloss": "serve food, customers", "members": [2253, 6910] },
+      { "gloss": "serve in a post", "members": [5027] }
+    ]
+  },
+  {
+    "english": "internal",
+    "senses": [
+      { "gloss": "organizational", "members": [2254] },
+      { "gloss": "physical interior", "members": [8226] }
+    ]
+  },
+  {
+    "english": "probable, plausible",
+    "senses": [
+      { "gloss": "", "members": [2255, 4061] }
+    ]
+  },
+  {
+    "english": "holiday, vacation",
+    "senses": [
+      { "gloss": "annual leave", "members": [2261] },
+      { "gloss": "festive occasion", "members": [4703] },
+      { "gloss": "public holiday", "members": [6753] }
+    ]
+  },
+  {
+    "english": "pain",
+    "senses": [
+      { "gloss": "hurting (adverb)", "members": [2274] },
+      { "gloss": "physical pain", "members": [2325] },
+      { "gloss": "anguish, torment", "members": [5853, 7706] }
+    ]
+  },
+  {
+    "english": "calculation",
+    "senses": [
+      { "gloss": "", "members": [2276, 6112] }
+    ]
+  },
+  {
+    "english": "complicated, difficult, convoluted",
+    "senses": [
+      { "gloss": "", "members": [2283, 4984] }
+    ]
+  },
+  {
+    "english": "signal",
+    "senses": [
+      { "gloss": "signal (noun)", "members": [2287] },
+      { "gloss": "to signal", "members": [6161] }
+    ]
+  },
+  {
+    "english": "solid, hefty",
+    "senses": [
+      { "gloss": "hearty, substantial", "members": [2291] },
+      { "gloss": "reliable, solvent", "members": [6519] },
+      { "gloss": "thorough, pure", "members": [7073] }
+    ]
+  },
+  {
+    "english": "Nazi",
+    "senses": [
+      { "gloss": "person", "members": [2295] },
+      { "gloss": "adjective", "members": [4759] }
+    ]
+  },
+  {
+    "english": "afterwards, after that",
+    "senses": [
+      { "gloss": "", "members": [2297, 2840] }
+    ]
+  },
+  {
+    "english": "equipment",
+    "senses": [
+      { "gloss": "gear, kit", "members": [2311] },
+      { "gloss": "military materiel", "members": [4644] },
+      { "gloss": "apparatus, machinery", "members": [8219] }
+    ]
+  },
+  {
+    "english": "wander",
+    "senses": [
+      { "gloss": "", "members": [2312, 7749] }
+    ]
+  },
+  {
+    "english": "register",
+    "senses": [
+      { "gloss": "to register", "members": [2313] },
+      { "gloss": "index, directory", "members": [3200] }
+    ]
+  },
+  {
+    "english": "argue",
+    "senses": [
+      { "gloss": "present arguments", "members": [2314] },
+      { "gloss": "quarrel, bicker", "members": [4590, 7512] }
+    ]
+  },
+  {
+    "english": "installation, industrial plant, facility",
+    "senses": [
+      { "gloss": "facility, plant", "members": [2319] },
+      { "gloss": "software installation", "members": [5041] }
+    ]
+  },
+  {
+    "english": "cry, weep",
+    "senses": [
+      { "gloss": "to weep", "members": [2321] },
+      { "gloss": "shout, cry (noun)", "members": [4683] }
+    ]
+  },
+  {
+    "english": "farmer",
+    "senses": [
+      { "gloss": "", "members": [2340, 6944] }
+    ]
+  },
+  {
+    "english": "burn",
+    "senses": [
+      { "gloss": "burn something", "members": [2341] },
+      { "gloss": "be on fire", "members": [2550] }
+    ]
+  },
+  {
+    "english": "Italian",
+    "senses": [
+      { "gloss": "adjective", "members": [2342] },
+      { "gloss": "Italian person", "members": [6086] }
+    ]
+  },
+  {
+    "english": "expense, expenditure",
+    "senses": [
+      { "gloss": "outgoing expense", "members": [2343] },
+      { "gloss": "at the cost of", "members": [3328] }
+    ]
+  },
+  {
+    "english": "depict, represent",
+    "senses": [
+      { "gloss": "show, represent", "members": [2345] },
+      { "gloss": "portray, narrate", "members": [3160] },
+      { "gloss": "make an image", "members": [6325] }
+    ]
+  },
+  {
+    "english": "service",
+    "senses": [
+      { "gloss": "maintenance, upkeep", "members": [2348] },
+      { "gloss": "staff attendance", "members": [8292] }
+    ]
+  }
+]

@@ -1,0 +1,408 @@
+[
+  {
+    "english": "origin",
+    "senses": [
+      { "gloss": "source, provenance", "members": [1877, 4127] },
+      { "gloss": "cause, originator", "members": [2867] }
+    ]
+  },
+  {
+    "english": "insight, understanding",
+    "senses": [
+      { "gloss": "deep understanding", "members": [1879, 5414] },
+      { "gloss": "transparency, access", "members": [3461] }
+    ]
+  },
+  {
+    "english": "prime minister",
+    "senses": [
+      { "gloss": "", "members": [1882, 2697] }
+    ]
+  },
+  {
+    "english": "definitely",
+    "senses": [
+      { "gloss": "", "members": [1893, 4631] }
+    ]
+  },
+  {
+    "english": "phenomenon",
+    "senses": [
+      { "gloss": "", "members": [1897, 2968] }
+    ]
+  },
+  {
+    "english": "decade",
+    "senses": [
+      { "gloss": "", "members": [1900, 3195] }
+    ]
+  },
+  {
+    "english": "fail",
+    "senses": [
+      { "gloss": "not succeed", "members": [1903] },
+      { "gloss": "neglect, omit", "members": [6040] },
+      { "gloss": "give failing grade", "members": [6596] }
+    ]
+  },
+  {
+    "english": "finance",
+    "senses": [
+      { "gloss": "to fund", "members": [1905] },
+      { "gloss": "finances, money", "members": [3595] }
+    ]
+  },
+  {
+    "english": "in relation to, compared to",
+    "senses": [
+      { "gloss": "", "members": [1909, 4695] }
+    ]
+  },
+  {
+    "english": "estimate, assess",
+    "senses": [
+      { "gloss": "to estimate", "members": [1911] },
+      { "gloss": "an estimate", "members": [3799] }
+    ]
+  },
+  {
+    "english": "independent",
+    "senses": [
+      { "gloss": "not dependent", "members": [1916, 1988] },
+      { "gloss": "free-standing", "members": [3661] }
+    ]
+  },
+  {
+    "english": "independence",
+    "senses": [
+      { "gloss": "", "members": [7320, 2781] }
+    ]
+  },
+  {
+    "english": "mark",
+    "senses": [
+      { "gloss": "to mark", "members": [2575] },
+      { "gloss": "brand, badge", "members": [1918] },
+      { "gloss": "marking, indicator", "members": [5170] }
+    ]
+  },
+  {
+    "english": "snow",
+    "senses": [
+      { "gloss": "noun", "members": [1919] },
+      { "gloss": "to snow", "members": [5911] }
+    ]
+  },
+  {
+    "english": "repeat",
+    "senses": [
+      { "gloss": "say again", "members": [1920] },
+      { "gloss": "rehearse", "members": [7042] }
+    ]
+  },
+  {
+    "english": "cut",
+    "senses": [
+      { "gloss": "cut with knife", "members": [2483] },
+      { "gloss": "cut with scissors", "members": [2918] },
+      { "gloss": "incision, cut", "members": [1926] },
+      { "gloss": "scissors cut, clip", "members": [3736] }
+    ]
+  },
+  {
+    "english": "occupation, job",
+    "senses": [
+      { "gloss": "employment, work", "members": [1929] },
+      { "gloss": "military occupation", "members": [2631] }
+    ]
+  },
+  {
+    "english": "ease, lighten",
+    "senses": [
+      { "gloss": "to ease", "members": [1931] },
+      { "gloss": "lightness", "members": [6705] }
+    ]
+  },
+  {
+    "english": "Catholic",
+    "senses": [
+      { "gloss": "adjective", "members": [1935] },
+      { "gloss": "a Catholic", "members": [3545] }
+    ]
+  },
+  {
+    "english": "lake",
+    "senses": [
+      { "gloss": "", "members": [1940, 7926] }
+    ]
+  },
+  {
+    "english": "eventually",
+    "senses": [
+      { "gloss": "gradually, over time", "members": [1941] },
+      { "gloss": "finally, at last", "members": [2210] }
+    ]
+  },
+  {
+    "english": "expert",
+    "senses": [
+      { "gloss": "", "members": [1950, 8084] }
+    ]
+  },
+  {
+    "english": "procedure",
+    "senses": [
+      { "gloss": "process, routine", "members": [1954, 6026] },
+      { "gloss": "medical procedure", "members": [4348] }
+    ]
+  },
+  {
+    "english": "Norwegian",
+    "senses": [
+      { "gloss": "adjective", "members": [1958] },
+      { "gloss": "a Norwegian", "members": [5128] }
+    ]
+  },
+  {
+    "english": "cloth, textile, fabric",
+    "senses": [
+      { "gloss": "fabric, textile", "members": [1961] },
+      { "gloss": "rag, cleaning cloth", "members": [7318] }
+    ]
+  },
+  {
+    "english": "reading",
+    "senses": [
+      { "gloss": "reading activity", "members": [1962] },
+      { "gloss": "meter reading", "members": [8190] }
+    ]
+  },
+  {
+    "english": "connect",
+    "senses": [
+      { "gloss": "plug in, join", "members": [1966, 2099, 4377, 8060] },
+      { "gloss": "relate, tie to", "members": [6474] }
+    ]
+  },
+  {
+    "english": "shape, form",
+    "senses": [
+      { "gloss": "mold, shape", "members": [1967] },
+      { "gloss": "define, characterize", "members": [2031] }
+    ]
+  },
+  {
+    "english": "deny, refuse",
+    "senses": [
+      { "gloss": "", "members": [1973, 2051] }
+    ]
+  },
+  {
+    "english": "disgusting, gross",
+    "senses": [
+      { "gloss": "", "members": [1979, 5597] }
+    ]
+  },
+  {
+    "english": "socialist",
+    "senses": [
+      { "gloss": "adjective", "members": [1989] },
+      { "gloss": "a socialist", "members": [2852] }
+    ]
+  },
+  {
+    "english": "retirement",
+    "senses": [
+      { "gloss": "", "members": [1994, 7326] }
+    ]
+  },
+  {
+    "english": "emission",
+    "senses": [
+      { "gloss": "environmental discharge", "members": [1998] },
+      { "gloss": "financial emission", "members": [7714] }
+    ]
+  },
+  {
+    "english": "log, record",
+    "senses": [
+      { "gloss": "to log", "members": [1999] },
+      { "gloss": "log file, record", "members": [7894] },
+      { "gloss": "timber log", "members": [8393] }
+    ]
+  },
+  {
+    "english": "medicine",
+    "senses": [
+      { "gloss": "drug, medication", "members": [2000, 2505] },
+      { "gloss": "medical science", "members": [8217] }
+    ]
+  },
+  {
+    "english": "sport",
+    "senses": [
+      { "gloss": "", "members": [2001, 3095] }
+    ]
+  },
+  {
+    "english": "fire",
+    "senses": [
+      { "gloss": "flames, blaze", "members": [2003] },
+      { "gloss": "destructive fire", "members": [2935] },
+      { "gloss": "dismiss, sack", "members": [6475] }
+    ]
+  },
+  {
+    "english": "revolutionary",
+    "senses": [
+      { "gloss": "", "members": [2011, 7066] }
+    ]
+  },
+  {
+    "english": "property",
+    "senses": [
+      { "gloss": "possessions, estate", "members": [2012] },
+      { "gloss": "real estate", "members": [2201] }
+    ]
+  },
+  {
+    "english": "purchase",
+    "senses": [
+      { "gloss": "a purchase", "members": [2013, 3868] },
+      { "gloss": "buyout, acquisition", "members": [7826] }
+    ]
+  },
+  {
+    "english": "welfare",
+    "senses": [
+      { "gloss": "wellbeing, welfare state", "members": [2014] },
+      { "gloss": "welfare payment", "members": [5667] }
+    ]
+  },
+  {
+    "english": "measure",
+    "senses": [
+      { "gloss": "to measure", "members": [2016] },
+      { "gloss": "a measure, dimension", "members": [2293] }
+    ]
+  },
+  {
+    "english": "tough",
+    "senses": [
+      { "gloss": "difficult, hard", "members": [2018, 2034] },
+      { "gloss": "chewy, resilient", "members": [4259] }
+    ]
+  },
+  {
+    "english": "agriculture",
+    "senses": [
+      { "gloss": "", "members": [2019, 6778] }
+    ]
+  },
+  {
+    "english": "catch",
+    "senses": [
+      { "gloss": "to catch", "members": [2023] },
+      { "gloss": "a catch, haul", "members": [7065] }
+    ]
+  },
+  {
+    "english": "west",
+    "senses": [
+      { "gloss": "the west", "members": [2028, 7531] },
+      { "gloss": "western", "members": [5761] }
+    ]
+  },
+  {
+    "english": "stupid, dumb",
+    "senses": [
+      { "gloss": "", "members": [2032, 3663, 5444] }
+    ]
+  },
+  {
+    "english": "rank, status",
+    "senses": [
+      { "gloss": "rank, standing", "members": [2041] },
+      { "gloss": "to rank, order", "members": [7629] }
+    ]
+  },
+  {
+    "english": "office",
+    "senses": [
+      { "gloss": "workplace office", "members": [2045] },
+      { "gloss": "administrative office", "members": [3983] }
+    ]
+  },
+  {
+    "english": "male",
+    "senses": [
+      { "gloss": "adjective", "members": [2053] },
+      { "gloss": "male animal", "members": [6646] }
+    ]
+  },
+  {
+    "english": "demonstration",
+    "senses": [
+      { "gloss": "", "members": [2054, 4368] }
+    ]
+  },
+  {
+    "english": "maintain, uphold",
+    "senses": [
+      { "gloss": "", "members": [2058, 3770] }
+    ]
+  },
+  {
+    "english": "implementation, realization, execution",
+    "senses": [
+      { "gloss": "", "members": [2064, 7440] }
+    ]
+  },
+  {
+    "english": "legal",
+    "senses": [
+      { "gloss": "relating to law", "members": [2070] },
+      { "gloss": "permitted by law", "members": [3235, 4248] }
+    ]
+  },
+  {
+    "english": "illegal",
+    "senses": [
+      { "gloss": "", "members": [2092, 3319] }
+    ]
+  },
+  {
+    "english": "aid, support",
+    "senses": [
+      { "gloss": "foreign aid", "members": [2098] },
+      { "gloss": "assistive device", "members": [4039] }
+    ]
+  },
+  {
+    "english": "base",
+    "senses": [
+      { "gloss": "noun", "members": [2100] },
+      { "gloss": "to base on", "members": [2473] }
+    ]
+  },
+  {
+    "english": "broken, out of order",
+    "senses": [
+      { "gloss": "", "members": [2104, 4880] }
+    ]
+  },
+  {
+    "english": "welcome",
+    "senses": [
+      { "gloss": "to welcome", "members": [2106] },
+      { "gloss": "adjective", "members": [2277] }
+    ]
+  },
+  {
+    "english": "manufacture, produce, make",
+    "senses": [
+      { "gloss": "to manufacture", "members": [2107] },
+      { "gloss": "manufacturing", "members": [3619] }
+    ]
+  }
+]

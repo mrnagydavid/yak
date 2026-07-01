@@ -1,0 +1,330 @@
+[
+  {
+    "kellyId": 4102,
+    "decision": "fix",
+    "reason": "translation embeds a definition parenthetical; the word is a specialist term best glossed as 'parliamentary question' for learners",
+    "translation": "parliamentary question",
+    "senses": []
+  },
+  {
+    "kellyId": 4179,
+    "decision": "fix",
+    "reason": "primary meaning wrong: Swedish 'journal' most commonly means a medical/patient record (as shown by the example); 'journal/magazine' is a secondary sense. Translation also had embedded article 'a'.",
+    "translation": "medical record",
+    "senses": ["medical record, patient file", "journal, periodical"]
+  },
+  {
+    "kellyId": 3849,
+    "decision": "fix",
+    "reason": "'jotun' is an archaic/mythological term; the everyday primary is 'giant'. Senses list had a definition-like entry.",
+    "translation": "giant",
+    "senses": ["giant", "jotun (Norse mythology)"]
+  },
+  {
+    "kellyId": 4208,
+    "decision": "fix",
+    "reason": "senses were definition-like with embedded articles; cleaned to concise bare glosses. 'cookie' is fine as primary (most common everyday use in Swedish).",
+    "translation": "cookie, biscuit",
+    "senses": ["cookie, biscuit", "cake (small or large)"]
+  },
+  {
+    "kellyId": 3983,
+    "decision": "fix",
+    "reason": "embedded article 'a' in translation",
+    "translation": "office, secretariat",
+    "senses": []
+  },
+  {
+    "kellyId": 3227,
+    "decision": "fix",
+    "reason": "senses list had a trailing period, a definition-like entry, and redundant entries; cleaned to concise bare glosses",
+    "translation": "edge",
+    "senses": ["edge, border, rim", "side, area (e.g. 'this neck of the woods')"]
+  },
+  {
+    "kellyId": 2995,
+    "decision": "fix",
+    "reason": "chaos is uncountable",
+    "translation": "chaos",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3295,
+    "decision": "fix",
+    "reason": "current translation is a definition; 'economic climate' is the natural everyday gloss for konjunktur",
+    "translation": "economic climate",
+    "senses": ["economic climate, business cycle", "economic outlook, prospects"]
+  },
+  {
+    "kellyId": 3341,
+    "decision": "fix",
+    "reason": "senses list had a definition-like entry; single meaning word — clear it",
+    "translation": "continent",
+    "senses": []
+  },
+  {
+    "kellyId": 3336,
+    "decision": "fix",
+    "reason": "corruption is uncountable in this sense",
+    "translation": "corruption",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3712,
+    "decision": "fix",
+    "reason": "creativity is uncountable",
+    "translation": "creativity",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3540,
+    "decision": "fix",
+    "reason": "credit is uncountable in the financial sense",
+    "translation": "credit",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4079,
+    "decision": "fix",
+    "reason": "criminality is uncountable; also 'crime' is the more natural everyday English word",
+    "translation": "crime, criminality",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3565,
+    "decision": "fix",
+    "reason": "competitiveness is uncountable",
+    "translation": "competitiveness",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2873,
+    "decision": "fix",
+    "reason": "journalism is uncountable",
+    "translation": "journalism",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4172,
+    "decision": "fix",
+    "reason": "Judaism is uncountable (and a proper noun — keep capitalised)",
+    "translation": "Judaism",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3587,
+    "decision": "fix",
+    "reason": "equality is uncountable",
+    "translation": "equality",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3184,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation ('to dress, to wear'); app adds 'to' for verbs",
+    "translation": "dress, clothe",
+    "senses": ["dress, clothe (put clothes on)", "decorate (a Christmas tree, maypole)"]
+  },
+  {
+    "kellyId": 3736,
+    "decision": "fix",
+    "reason": "primary translation is a definition; cleaned to concise glosses. Also added missing 'good deal' sense.",
+    "translation": "cut, clip",
+    "senses": ["cut (with scissors)", "clip (video or image)", "film cut (transition between shots)", "bargain, good deal"]
+  },
+  {
+    "kellyId": 3467,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation ('to creep'); senses were definition-like",
+    "translation": "crawl, creep",
+    "senses": ["crawl, creep (move on hands and knees)", "tingle, creep (uncomfortable sensation)", "creep, trail (of plants)", "creep, drift (move slowly)"]
+  },
+  {
+    "kellyId": 3441,
+    "decision": "fix",
+    "reason": "'jurist' is not a natural everyday English word for a learner; 'lawyer' is primary. List was redundant.",
+    "translation": "lawyer",
+    "senses": ["lawyer, legal professional", "jurist, legal scholar (academic)"]
+  },
+  {
+    "kellyId": 3019,
+    "decision": "fix",
+    "reason": "embedded article 'an' in translation",
+    "translation": "concept, idea",
+    "senses": ["concept, idea", "draft, sketch"]
+  },
+  {
+    "kellyId": 3281,
+    "decision": "fix",
+    "reason": "embedded article 'a' in translation; 'collective agreement' and 'collective bargaining agreement' are synonyms — keep one",
+    "translation": "collective agreement",
+    "senses": []
+  },
+  {
+    "kellyId": 3430,
+    "decision": "fix",
+    "reason": "senses were inconsistent; 'cleft/gorge' is a major everyday meaning missing from primary; cleaned senses",
+    "translation": "clove; cleft, gorge",
+    "senses": ["clove (of garlic)", "segment, wedge (of fruit)", "cleft, gorge, ravine"]
+  },
+  {
+    "kellyId": 3133,
+    "decision": "fix",
+    "reason": "influence is uncountable in this sense",
+    "translation": "influence",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4209,
+    "decision": "fix",
+    "reason": "public transportation is uncountable",
+    "translation": "public transport",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4129,
+    "decision": "fix",
+    "reason": "'kika' means specifically to peek or have a quick look, not just 'look' generically",
+    "translation": "peek, have a look",
+    "senses": []
+  },
+  {
+    "kellyId": 3702,
+    "decision": "fix",
+    "reason": "'anther' (botanical term) is highly technical/marginal; senses had definition-like entries with embedded articles",
+    "translation": "button",
+    "senses": ["button (on clothing)", "button (to press)"]
+  },
+  {
+    "kellyId": 4049,
+    "decision": "fix",
+    "reason": "'not much of something' is definition-like; 'scarce, tight' is cleaner",
+    "translation": "scarce, tight",
+    "senses": ["scarce, tight (not enough)", "just under, barely (somewhat less than)"]
+  },
+  {
+    "kellyId": 3377,
+    "decision": "fix",
+    "reason": "senses were definition-like; cleaned to concise glosses",
+    "translation": "code",
+    "senses": ["code (identifier, abbreviation)", "code (cipher, cryptographic)", "source code"]
+  },
+  {
+    "kellyId": 2911,
+    "decision": "fix",
+    "reason": "senses list was redundant (both entries said 'to combine'); single meaning — clear the list",
+    "translation": "combine",
+    "senses": []
+  },
+  {
+    "kellyId": 4099,
+    "decision": "fix",
+    "reason": "senses had an embedded article 'a'; city council sense is a clarification not a separate sense — merged",
+    "translation": "municipal council",
+    "senses": []
+  },
+  {
+    "kellyId": 2894,
+    "decision": "fix",
+    "reason": "senses were redundant (both 'complex'); single meaning — clear the list",
+    "translation": "complex",
+    "senses": []
+  },
+  {
+    "kellyId": 3670,
+    "decision": "fix",
+    "reason": "secondary sense was definition-like; cleaned",
+    "translation": "component",
+    "senses": ["component (self-contained part)", "component (mathematical, e.g. of a vector)"]
+  },
+  {
+    "kellyId": 3243,
+    "decision": "fix",
+    "reason": "senses had a definition-like entry; single core meaning — clear the list",
+    "translation": "competitor",
+    "senses": []
+  },
+  {
+    "kellyId": 3433,
+    "decision": "fix",
+    "reason": "'artful, artlike' is marginal and not a natural English phrase; single meaningful sense",
+    "translation": "artistic",
+    "senses": []
+  },
+  {
+    "kellyId": 2943,
+    "decision": "fix",
+    "reason": "senses list — 'construct' is marginal/technical; 'design' and 'structure' are legitimate. Cleaned.",
+    "translation": "construction",
+    "senses": ["construction, structure (built thing)", "design, engineering (process)", "construction (grammatical)"]
+  },
+  {
+    "kellyId": 3351,
+    "decision": "fix",
+    "reason": "'constructive (related to construction)' is a marginal technical sense not worth keeping at B1 level",
+    "translation": "constructive",
+    "senses": []
+  },
+  {
+    "kellyId": 2816,
+    "decision": "fix",
+    "reason": "'set' is not the most natural primary gloss for krets; 'circle' (of people) is more natural, and 'circuit' is a major distinct sense",
+    "translation": "circle; circuit",
+    "senses": ["circle, group (of people)", "circuit (electrical)", "integrated circuit"]
+  },
+  {
+    "kellyId": 3753,
+    "decision": "fix",
+    "reason": "senses were over-specified with near-identical sub-senses; simplified to meaningful distinctions",
+    "translation": "climb",
+    "senses": ["climb (with hands and feet)", "climb, rise (advance, move up)"]
+  },
+  {
+    "kellyId": 2960,
+    "decision": "fix",
+    "reason": "embedded article 'an' in translation; dated 'cheap goods' sense is marginal and should be dropped",
+    "translation": "hug, embrace",
+    "senses": []
+  },
+  {
+    "kellyId": 3289,
+    "decision": "fix",
+    "reason": "carbon dioxide is uncountable",
+    "translation": "carbon dioxide",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3887,
+    "decision": "fix",
+    "reason": "contrast is uncountable",
+    "translation": "contrast",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2879,
+    "decision": "fix",
+    "reason": "senses were definition-like; cleaned to concise glosses",
+    "translation": "crush",
+    "senses": ["crush, smash (physically)", "crush, overwhelm (opposition, resistance)"]
+  },
+  {
+    "kellyId": 3610,
+    "decision": "fix",
+    "reason": "senses had definition-like entries; cleaned",
+    "translation": "boil",
+    "senses": ["boil (of liquid)", "boil, cook (in boiling water)"]
+  }
+]

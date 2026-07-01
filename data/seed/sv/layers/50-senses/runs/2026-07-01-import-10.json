@@ -1,0 +1,405 @@
+[
+  {
+    "english": "possibly",
+    "senses": [
+      { "gloss": "perhaps, maybe", "members": [1700, 4121, 5802] },
+      { "gloss": "contingently", "members": [2080] }
+    ]
+  },
+  {
+    "english": "fish",
+    "senses": [
+      { "gloss": "animal", "members": [1701] },
+      { "gloss": "to fish", "members": [4924] }
+    ]
+  },
+  {
+    "english": "consumer",
+    "senses": [
+      { "gloss": "", "members": [1702, 8332] }
+    ]
+  },
+  {
+    "english": "emphasize, stress, point out",
+    "senses": [
+      { "gloss": "", "members": [1703, 1949, 4458] }
+    ]
+  },
+  {
+    "english": "repair",
+    "senses": [
+      { "gloss": "to fix", "members": [1708, 5577] },
+      { "gloss": "act of repairing", "members": [6375] }
+    ]
+  },
+  {
+    "english": "fear",
+    "senses": [
+      { "gloss": "feeling, noun", "members": [1714, 4966] },
+      { "gloss": "dread, terror", "members": [3812] },
+      { "gloss": "to fear, revere", "members": [3390] },
+      { "gloss": "to suspect, dread", "members": [4868] }
+    ]
+  },
+  {
+    "english": "shit",
+    "senses": [
+      { "gloss": "excrement, noun", "members": [1716] },
+      { "gloss": "to defecate", "members": [3446] }
+    ]
+  },
+  {
+    "english": "arm",
+    "senses": [
+      { "gloss": "body part", "members": [1718] },
+      { "gloss": "to arm, equip", "members": [5371, 7468] }
+    ]
+  },
+  {
+    "english": "confirm, acknowledge",
+    "senses": [
+      { "gloss": "", "members": [1723, 7905] }
+    ]
+  },
+  {
+    "english": "path, trajectory",
+    "senses": [
+      { "gloss": "orbit, track", "members": [1728] },
+      { "gloss": "narrow footpath", "members": [4722] }
+    ]
+  },
+  {
+    "english": "honest",
+    "senses": [
+      { "gloss": "", "members": [1731, 4407] }
+    ]
+  },
+  {
+    "english": "artist",
+    "senses": [
+      { "gloss": "performer", "members": [1733] },
+      { "gloss": "visual artist", "members": [1956] }
+    ]
+  },
+  {
+    "english": "extremely, very",
+    "senses": [
+      { "gloss": "", "members": [1738, 1986] }
+    ]
+  },
+  {
+    "english": "remain, stay",
+    "senses": [
+      { "gloss": "stay, continue", "members": [1739, 3135] },
+      { "gloss": "be left over", "members": [1984] }
+    ]
+  },
+  {
+    "english": "boring",
+    "senses": [
+      { "gloss": "dull, tedious", "members": [1740] },
+      { "gloss": "sad, unfortunate", "members": [2919] }
+    ]
+  },
+  {
+    "english": "secret",
+    "senses": [
+      { "gloss": "adjective", "members": [1741] },
+      { "gloss": "noun", "members": [2671] }
+    ]
+  },
+  {
+    "english": "spiritual",
+    "senses": [
+      { "gloss": "", "members": [1742, 7003] }
+    ]
+  },
+  {
+    "english": "concerning",
+    "senses": [
+      { "gloss": "", "members": [1743, 2418] }
+    ]
+  },
+  {
+    "english": "ship, vessel",
+    "senses": [
+      { "gloss": "", "members": [1745, 2762] }
+    ]
+  },
+  {
+    "english": "fly",
+    "senses": [
+      { "gloss": "to fly", "members": [1746] },
+      { "gloss": "insect, noun", "members": [5567] }
+    ]
+  },
+  {
+    "english": "marry",
+    "senses": [
+      { "gloss": "to get married", "members": [1747] },
+      { "gloss": "to officiate, devote", "members": [4430] }
+    ]
+  },
+  {
+    "english": "speed",
+    "senses": [
+      { "gloss": "", "members": [1752, 2979] }
+    ]
+  },
+  {
+    "english": "intention, intent",
+    "senses": [
+      { "gloss": "", "members": [1755, 4739] }
+    ]
+  },
+  {
+    "english": "healthy",
+    "senses": [
+      { "gloss": "well, not sick", "members": [1756] },
+      { "gloss": "health-promoting", "members": [5608] }
+    ]
+  },
+  {
+    "english": "impression",
+    "senses": [
+      { "gloss": "mental impression", "members": [1759] },
+      { "gloss": "physical imprint", "members": [6484] }
+    ]
+  },
+  {
+    "english": "capable, skilled",
+    "senses": [
+      { "gloss": "", "members": [1761, 4862] }
+    ]
+  },
+  {
+    "english": "representative, delegate",
+    "senses": [
+      { "gloss": "noun, person", "members": [1763, 1825, 3925] },
+      { "gloss": "adjective", "members": [4691] }
+    ]
+  },
+  {
+    "english": "commitment, involvement, dedication",
+    "senses": [
+      { "gloss": "involvement, dedication", "members": [1765] },
+      { "gloss": "undertaking, obligation", "members": [2993] }
+    ]
+  },
+  {
+    "english": "Finnish",
+    "senses": [
+      { "gloss": "", "members": [1766, 5126] }
+    ]
+  },
+  {
+    "english": "gang",
+    "senses": [
+      { "gloss": "", "members": [1769, 3987] }
+    ]
+  },
+  {
+    "english": "sink",
+    "senses": [
+      { "gloss": "to sink", "members": [1771] },
+      { "gloss": "washbasin", "members": [8040] }
+    ]
+  },
+  {
+    "english": "object, item",
+    "senses": [
+      { "gloss": "thing, noun", "members": [1772, 3171] },
+      { "gloss": "to object, protest", "members": [4910] }
+    ]
+  },
+  {
+    "english": "attack",
+    "senses": [
+      { "gloss": "assault, noun", "members": [1774, 2470, 2742] },
+      { "gloss": "to attack, verb", "members": [2707, 2719, 3179] },
+      { "gloss": "assassination attempt", "members": [6876] },
+      { "gloss": "mugging, assault", "members": [7148] }
+    ]
+  },
+  {
+    "english": "represent",
+    "senses": [
+      { "gloss": "", "members": [1776, 3449] }
+    ]
+  },
+  {
+    "english": "fee, charge",
+    "senses": [
+      { "gloss": "general fee", "members": [1778] },
+      { "gloss": "professional honorarium", "members": [7590] }
+    ]
+  },
+  {
+    "english": "immediately, now, as soon as possible",
+    "senses": [
+      { "gloss": "", "members": [1784, 1939, 4421] }
+    ]
+  },
+  {
+    "english": "powerful, strong",
+    "senses": [
+      { "gloss": "forceful, intense", "members": [1785, 2705] },
+      { "gloss": "mighty, authoritative", "members": [2193] }
+    ]
+  },
+  {
+    "english": "mix",
+    "senses": [
+      { "gloss": "to mix, verb", "members": [1788] },
+      { "gloss": "a mix, noun", "members": [6107] }
+    ]
+  },
+  {
+    "english": "organ",
+    "senses": [
+      { "gloss": "body organ", "members": [1794] },
+      { "gloss": "pipe organ", "members": [7319] }
+    ]
+  },
+  {
+    "english": "punishment, penalty",
+    "senses": [
+      { "gloss": "", "members": [1800, 5484] }
+    ]
+  },
+  {
+    "english": "tool",
+    "senses": [
+      { "gloss": "", "members": [1812, 3786] }
+    ]
+  },
+  {
+    "english": "grade",
+    "senses": [
+      { "gloss": "school mark, noun", "members": [1814] },
+      { "gloss": "to grade, verb", "members": [8069] }
+    ]
+  },
+  {
+    "english": "long-term",
+    "senses": [
+      { "gloss": "", "members": [1820, 7973] }
+    ]
+  },
+  {
+    "english": "duty, obligation",
+    "senses": [
+      { "gloss": "", "members": [1823, 3448] }
+    ]
+  },
+  {
+    "english": "enjoy, relish",
+    "senses": [
+      { "gloss": "take pleasure in", "members": [1828] },
+      { "gloss": "benefit from, formal", "members": [4614] }
+    ]
+  },
+  {
+    "english": "round, to make round",
+    "senses": [
+      { "gloss": "to go around", "members": [1830] },
+      { "gloss": "a round, batch", "members": [2538] },
+      { "gloss": "circular, adjective", "members": [3630] }
+    ]
+  },
+  {
+    "english": "prepare",
+    "senses": [
+      { "gloss": "", "members": [1832, 1953] }
+    ]
+  },
+  {
+    "english": "surface",
+    "senses": [
+      { "gloss": "top surface", "members": [1835] },
+      { "gloss": "base layer, foundation", "members": [2322] }
+    ]
+  },
+  {
+    "english": "application, use",
+    "senses": [
+      { "gloss": "formal request", "members": [2156, 3871] },
+      { "gloss": "implementation, use", "members": [1839] },
+      { "gloss": "software app", "members": [6397] }
+    ]
+  },
+  {
+    "english": "guarantee",
+    "senses": [
+      { "gloss": "to guarantee", "members": [1840] },
+      { "gloss": "warranty, noun", "members": [2747] }
+    ]
+  },
+  {
+    "english": "appoint, choose",
+    "senses": [
+      { "gloss": "", "members": [1842, 2749, 4854] }
+    ]
+  },
+  {
+    "english": "sum, amount",
+    "senses": [
+      { "gloss": "", "members": [1855, 1977] }
+    ]
+  },
+  {
+    "english": "finished",
+    "senses": [
+      { "gloss": "", "members": [1860, 3439] }
+    ]
+  },
+  {
+    "english": "arrange, organize, sort out",
+    "senses": [
+      { "gloss": "", "members": [1861, 2778, 2853] }
+    ]
+  },
+  {
+    "english": "farm, farmstead",
+    "senses": [
+      { "gloss": "", "members": [1864, 7342] }
+    ]
+  },
+  {
+    "english": "successful",
+    "senses": [
+      { "gloss": "", "members": [1866, 2594] }
+    ]
+  },
+  {
+    "english": "approach, to draw near",
+    "senses": [
+      { "gloss": "to draw near", "members": [1869] },
+      { "gloss": "viewpoint, attitude", "members": [3007, 4123] },
+      { "gloss": "method, procedure", "members": [5148] },
+      { "gloss": "attempt, run-up", "members": [6393] }
+    ]
+  },
+  {
+    "english": "scream, yell, shout",
+    "senses": [
+      { "gloss": "to scream", "members": [1870] },
+      { "gloss": "a scream, noun", "members": [6434] }
+    ]
+  },
+  {
+    "english": "connection, relation, link",
+    "senses": [
+      { "gloss": "correlation, abstract link", "members": [1873, 1925] },
+      { "gloss": "physical, transport link", "members": [2469, 3190] },
+      { "gloss": "personal tie, affiliation", "members": [3384] }
+    ]
+  },
+  {
+    "english": "calm, tranquil",
+    "senses": [
+      { "gloss": "adjective", "members": [1874] },
+      { "gloss": "to calm down", "members": [3811] }
+    ]
+  }
+]

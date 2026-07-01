@@ -1,0 +1,253 @@
+[
+  {
+    "kellyId": 7633,
+    "decision": "fix",
+    "reason": "senses list only had the secondary sense; the primary 'list of sources' sense was missing",
+    "translation": "bibliography",
+    "senses": [
+      "bibliography (list of sources)",
+      "bibliography (academic study of books)"
+    ]
+  },
+  {
+    "kellyId": 7470,
+    "decision": "fix",
+    "reason": "embedded article 'a beefsteak' in translation; senses had definition-like and redundant items",
+    "translation": "steak, beefsteak",
+    "senses": [
+      "steak, beefsteak",
+      "patty (minced meat)",
+      "beefy guy, hunk (colloquial)"
+    ]
+  },
+  {
+    "kellyId": 7806,
+    "decision": "fix",
+    "reason": "translation was definition-like; 'monitor, screen' is the clean everyday gloss",
+    "translation": "monitor, screen",
+    "senses": []
+  },
+  {
+    "kellyId": 7114,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation; app adds 'to' for verbs",
+    "translation": "expose, uncover",
+    "senses": [
+      "expose, uncover",
+      "expose oneself (indecent exposure)",
+      "expose oneself (put oneself in a vulnerable position)"
+    ]
+  },
+  {
+    "kellyId": 8111,
+    "decision": "fix",
+    "reason": "senses list only had the secondary sense; primary 'blouse' was missing from the list",
+    "translation": "blouse",
+    "senses": [
+      "blouse",
+      "smock"
+    ]
+  },
+  {
+    "kellyId": 7696,
+    "decision": "fix",
+    "reason": "senses were definition-like; ink is uncountable; two senses stated cleanly",
+    "translation": "ink",
+    "uncountable": true,
+    "senses": [
+      "ink (for writing or printing)",
+      "ink (ejected by squid or octopus)"
+    ]
+  },
+  {
+    "kellyId": 7126,
+    "decision": "fix",
+    "reason": "embedded article 'a reservation' in translation",
+    "translation": "booking, reservation",
+    "senses": []
+  },
+  {
+    "kellyId": 7443,
+    "decision": "fix",
+    "reason": "'true, veritable' are not standard translations of bokstavlig; the word simply means 'literal'",
+    "translation": "literal",
+    "senses": []
+  },
+  {
+    "kellyId": 7408,
+    "decision": "fix",
+    "reason": "first sense was a definition 'someone who oversees work' rather than a translation",
+    "translation": "boss, supervisor",
+    "senses": [
+      "boss, supervisor",
+      "boss (video game enemy)"
+    ]
+  },
+  {
+    "kellyId": 8394,
+    "decision": "fix",
+    "reason": "senses list had only the secondary sense (fess); primary 'beam' was missing from the list",
+    "translation": "beam",
+    "senses": [
+      "beam (wooden)",
+      "fess (heraldic band)"
+    ]
+  },
+  {
+    "kellyId": 7109,
+    "decision": "fix",
+    "reason": "'A story arc.' has wrong capitalisation; 'a bike (motorcycle)' is very informal slang — drop it",
+    "translation": "bow",
+    "senses": [
+      "bow (weapon)",
+      "arc, curve",
+      "frame (of glasses)",
+      "story arc (narrative)"
+    ]
+  },
+  {
+    "kellyId": 8239,
+    "decision": "fix",
+    "reason": "senses list was missing the board-game sense; only had the generic 'board' sense",
+    "translation": "board, plank",
+    "senses": [
+      "board, plank (flat piece of wood)",
+      "board (of a board game)"
+    ]
+  },
+  {
+    "kellyId": 7717,
+    "decision": "fix",
+    "reason": "senses list only had the secondary sense; the primary correspondence-via-mail sense was missing",
+    "translation": "correspondence",
+    "senses": [
+      "correspondence (exchange of letters)",
+      "correspondence (collection of mail)"
+    ]
+  },
+  {
+    "kellyId": 8171,
+    "decision": "fix",
+    "reason": "'punch' and 'a punch bowl' were listed as separate senses; merge them; 'bole' is marginal — drop",
+    "translation": "torso",
+    "senses": [
+      "torso",
+      "punch, punch bowl (drink)"
+    ]
+  },
+  {
+    "kellyId": 7823,
+    "decision": "fix",
+    "reason": "böjning also means physical bending/flexion — a common everyday meaning missing from the entry",
+    "translation": "inflection; bend",
+    "senses": [
+      "inflection (grammatical)",
+      "bend, curve (physical)"
+    ]
+  },
+  {
+    "kellyId": 8088,
+    "decision": "fix",
+    "reason": "second sense (purifying wooden buckets with juniper extract) is archaic and marginal — drop; single meaning",
+    "translation": "plead",
+    "senses": []
+  },
+  {
+    "kellyId": 8136,
+    "decision": "fix",
+    "reason": "embedded 'to' twice in translation; app adds 'to' for verbs",
+    "translation": "beg, implore, beseech",
+    "senses": []
+  },
+  {
+    "kellyId": 7874,
+    "decision": "fix",
+    "reason": "senses item 'to put in the center' is definition-like and redundant with the primary; single meaning",
+    "translation": "center",
+    "senses": []
+  },
+  {
+    "kellyId": 8211,
+    "decision": "fix",
+    "reason": "'fraternal niece' is overly technical; English speakers just say 'niece'",
+    "translation": "niece (brother's daughter)",
+    "senses": []
+  },
+  {
+    "kellyId": 8304,
+    "decision": "fix",
+    "reason": "'fraternal nephew' is overly technical; English speakers just say 'nephew'",
+    "translation": "nephew (brother's son)",
+    "senses": []
+  },
+  {
+    "kellyId": 8281,
+    "decision": "fix",
+    "reason": "senses had a definition-like parenthetical; clean it up; single meaning",
+    "translation": "groom, bridegroom",
+    "senses": []
+  },
+  {
+    "kellyId": 7039,
+    "decision": "fix",
+    "reason": "definition-like suffix 'organization or person that distributes' after the translation",
+    "translation": "distributor",
+    "senses": []
+  },
+  {
+    "kellyId": 8400,
+    "decision": "fix",
+    "reason": "sexual slang sense is extremely marginal; everyday meaning is just 'dock' (a ship or spacecraft)",
+    "translation": "dock",
+    "senses": []
+  },
+  {
+    "kellyId": 7269,
+    "decision": "fix",
+    "reason": "senses had duplicated wiktionary entries; the 'sprinkle over pastry' sense is very minor — drop; the primary meaning is 'smell pleasantly / be fragrant', which 'smell' alone doesn't capture",
+    "translation": "smell pleasant, be fragrant",
+    "senses": []
+  },
+  {
+    "kellyId": 7498,
+    "decision": "fix",
+    "reason": "senses list had definition-like items; clean up to key distinct meanings",
+    "translation": "disposal",
+    "senses": [
+      "disposal (at one's disposal)",
+      "arrangement, outline (of a text or plan)",
+      "predisposition (to a disease)"
+    ]
+  },
+  {
+    "kellyId": 8204,
+    "decision": "fix",
+    "reason": "'charging' as a standalone noun is a clumsy gerund; 'charge, billing' is cleaner for a noun",
+    "translation": "charge, billing",
+    "senses": []
+  },
+  {
+    "kellyId": 7644,
+    "decision": "fix",
+    "reason": "delikat means both 'delicious' and 'delicate' — both are common and co-equal; senses list was missing the primary",
+    "translation": "delicious; delicate",
+    "senses": [
+      "delicious (of food)",
+      "delicate (tricky, sensitive)"
+    ]
+  },
+  {
+    "kellyId": 8050,
+    "decision": "fix",
+    "reason": "'steep slope, precipice' works but 'steep slope, cliff' is cleaner for everyday use",
+    "translation": "steep slope, cliff",
+    "senses": []
+  },
+  {
+    "kellyId": 7523,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation; app adds 'to' for verbs; senses item was redundant",
+    "translation": "thunder, boom",
+    "senses": []
+  }
+]

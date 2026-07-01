@@ -1,0 +1,275 @@
+[
+  {
+    "kellyId": 5806,
+    "decision": "fix",
+    "reason": "'traffic at sea' is a definition-like gloss; 'shipping' is the natural everyday translation",
+    "translation": "shipping",
+    "senses": ["shipping, maritime transport", "seafaring, navigation"]
+  },
+  {
+    "kellyId": 6620,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary ('to scatter'); sub-def items are definition-like",
+    "translation": "disperse, scatter",
+    "senses": ["disperse, scatter (cause to spread out)", "dispel, dissipate"]
+  },
+  {
+    "kellyId": 6662,
+    "decision": "fix",
+    "reason": "sub-def has embedded article 'a buttock'",
+    "senses": ["ham", "buttock"]
+  },
+  {
+    "kellyId": 6427,
+    "decision": "fix",
+    "reason": "embedded articles in primary ('a drawing, a draft')",
+    "translation": "sketch, drawing, draft",
+    "senses": []
+  },
+  {
+    "kellyId": 6472,
+    "decision": "fix",
+    "reason": "'schooling' is uncountable; missing uncountable flag",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5906,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary ('to scratch')",
+    "translation": "scrape, scratch",
+    "senses": []
+  },
+  {
+    "kellyId": 5787,
+    "decision": "fix",
+    "reason": "modern primary meaning of 'skrivare' is 'printer' (the device); 'scribe' is historical/secondary",
+    "translation": "printer",
+    "senses": ["printer (device)", "scribe, copyist (historical)"]
+  },
+  {
+    "kellyId": 6072,
+    "decision": "fix",
+    "reason": "single-meaning word; sub-def just restates the primary with a parenthetical",
+    "senses": []
+  },
+  {
+    "kellyId": 6213,
+    "decision": "fix",
+    "reason": "sub-def is definition-like ('to be barely (and indistinctly) visible'); rephrase senses concisely",
+    "senses": ["catch a glimpse of", "be barely visible"]
+  },
+  {
+    "kellyId": 6483,
+    "decision": "fix",
+    "reason": "embedded articles ('a piece, a drama'); clunky phrasing",
+    "translation": "play, drama",
+    "senses": []
+  },
+  {
+    "kellyId": 6089,
+    "decision": "fix",
+    "reason": "sub-def item 'facial hair on chin, cheeks and jaw' is a definition that restates 'beard'; technical second sense needs cleaner phrasing",
+    "senses": ["beard", "flash (manufacturing excess material)"]
+  },
+  {
+    "kellyId": 6296,
+    "decision": "fix",
+    "reason": "senses list has embedded articles ('an escutcheon', 'a carapace') and duplicates the primary",
+    "senses": ["shield", "escutcheon (heraldry)", "carapace (shell)"]
+  },
+  {
+    "kellyId": 6146,
+    "decision": "fix",
+    "reason": "'slaughter' is uncountable; missing uncountable flag",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5713,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary ('to butcher')",
+    "translation": "slaughter, butcher",
+    "senses": []
+  },
+  {
+    "kellyId": 6090,
+    "decision": "fix",
+    "reason": "embedded 'to' items in primary ('to loosen, to go limp'); wiktionary sense is definition-like",
+    "translation": "relax, go limp",
+    "senses": []
+  },
+  {
+    "kellyId": 6827,
+    "decision": "fix",
+    "reason": "embedded article in primary ('a necktie')",
+    "translation": "tie, necktie",
+    "senses": []
+  },
+  {
+    "kellyId": 5828,
+    "decision": "fix",
+    "reason": "'wasting, expenditure' is clumsy; 'slöseri' means wastefulness/squandering; 'expenditure' is inaccurate",
+    "translation": "waste, wastefulness",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6421,
+    "decision": "fix",
+    "reason": "single-meaning word; sub-def is a definition, not a second sense",
+    "senses": []
+  },
+  {
+    "kellyId": 6162,
+    "decision": "fix",
+    "reason": "embedded article in primary ('a dude')",
+    "translation": "guy, dude",
+    "senses": []
+  },
+  {
+    "kellyId": 5911,
+    "decision": "fix",
+    "reason": "sub-def is a definition clause, not a distinct sense; single-meaning verb",
+    "senses": []
+  },
+  {
+    "kellyId": 5768,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary ('to bask in the sun')",
+    "translation": "sunbathe, bask in the sun",
+    "senses": []
+  },
+  {
+    "kellyId": 6519,
+    "decision": "fix",
+    "reason": "four synonyms in primary is too broad; trim to core sense; 'solvent' is a distinct secondary sense",
+    "translation": "solid, reliable",
+    "senses": ["solid, stable, reliable", "solvent (financially)"]
+  },
+  {
+    "kellyId": 6244,
+    "decision": "fix",
+    "reason": "'solidary' is rare in English; better as a short phrase",
+    "translation": "showing solidarity",
+    "senses": ["showing solidarity", "joint and several (legal)"]
+  },
+  {
+    "kellyId": 6847,
+    "decision": "fix",
+    "reason": "'column' is the more common everyday meaning of 'spalt' (newspaper/text); 'gap' is secondary",
+    "translation": "column",
+    "senses": ["column (in text or publication)", "gap, narrow opening"]
+  },
+  {
+    "kellyId": 5764,
+    "decision": "fix",
+    "reason": "senses list omits the primary 'nail' and only shows the secondary; rebuild complete list",
+    "senses": ["nail (metal fastener)", "sure thing, banker (near-certain bet)"]
+  },
+  {
+    "kellyId": 6902,
+    "decision": "fix",
+    "reason": "primary has definition-like qualifier ('accidentally pour out liquid'); 'spill' alone is clearer",
+    "translation": "spill",
+    "senses": ["spill (liquid)", "waste (time, resources)"]
+  },
+  {
+    "kellyId": 6319,
+    "decision": "fix",
+    "reason": "embedded article in primary ('a cooker'); 'meal' sense is archaic/marginal",
+    "translation": "stove, cooker",
+    "senses": ["stove, cooker", "fireplace"]
+  },
+  {
+    "kellyId": 6629,
+    "decision": "fix",
+    "reason": "embedded 'to' items in primary ('to rinse, to hose'); rebuild senses concisely",
+    "translation": "flush, rinse",
+    "senses": ["flush, rinse, hose off", "spool, reel (onto a reel)"]
+  },
+  {
+    "kellyId": 6844,
+    "decision": "fix",
+    "reason": "'sponsoring' is not standard English; 'sponsorship' is the correct noun",
+    "translation": "sponsorship",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6235,
+    "decision": "fix",
+    "reason": "primary is definition-like ('be ejected as a jet'); 'spray, squirt' is the natural translation",
+    "translation": "spray, squirt",
+    "senses": ["spray, squirt, spurt", "inject (with a syringe)"]
+  },
+  {
+    "kellyId": 6562,
+    "decision": "fix",
+    "reason": "senses list is incomplete; rebuild with primary meaning first",
+    "senses": ["syringe", "sprayer, squirt gun", "fire hose, water cannon"]
+  },
+  {
+    "kellyId": 6679,
+    "decision": "fix",
+    "reason": "embedded article in primary ('a bound'); 'running' and 'sheer' are marginal secondary senses",
+    "translation": "leap, bound",
+    "senses": ["leap, bound", "running, full sprint (in phrases)", "sheer (nautical)"]
+  },
+  {
+    "kellyId": 6953,
+    "decision": "fix",
+    "reason": "'stretched, spanning' is not the most common everyday sense; 'tense, taut' (physical or emotional) dominates",
+    "translation": "tense, taut",
+    "senses": ["tense, taut (physically)", "tense, nervous, on edge (emotionally)", "stretched, spanning"]
+  },
+  {
+    "kellyId": 6660,
+    "decision": "fix",
+    "reason": "primary is a definition; 'poor thing, poor soul' is the natural translation",
+    "translation": "poor thing, poor soul",
+    "senses": []
+  },
+  {
+    "kellyId": 6285,
+    "decision": "fix",
+    "reason": "primary has colon making it definition-like ('fry: to cook in hot fat'); 'fry' alone suffices",
+    "translation": "fry",
+    "senses": ["fry (in hot fat)", "roast (in oven)", "sunbathe (informal)"]
+  },
+  {
+    "kellyId": 6945,
+    "decision": "fix",
+    "reason": "embedded article in primary ('a grant')",
+    "translation": "scholarship, grant",
+    "senses": []
+  },
+  {
+    "kellyId": 6657,
+    "decision": "fix",
+    "reason": "embedded article in primary ('a post'); senses list has embedded articles and is redundant",
+    "translation": "pole, post",
+    "senses": ["pole, post", "pale (vertical heraldic band)", "utility pole"]
+  },
+  {
+    "kellyId": 5882,
+    "decision": "fix",
+    "reason": "'short line' undersells the primary; 'line, dash' is the natural translation",
+    "translation": "line, dash",
+    "senses": ["line, dash", "clothesline", "prank, mischievous act"]
+  },
+  {
+    "kellyId": 6695,
+    "decision": "fix",
+    "reason": "primary is definition-like ('hurry under heavy stress'); 'stress, rush' is the natural gloss",
+    "translation": "stress, rush",
+    "senses": []
+  },
+  {
+    "kellyId": 6946,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary ('to structurize'); 'structurize' is not standard English",
+    "translation": "structure, organize",
+    "senses": []
+  }
+]

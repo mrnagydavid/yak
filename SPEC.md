@@ -570,7 +570,17 @@ What the user sees instead:
 
 ## 9. Build pipeline (seed generation)
 
-A set of Node scripts under `scripts/seed/` that produce `data/seed-<lang>.json` for each supported language. Run manually; output is checked into source control.
+A set of Node scripts under `scripts/seed/` that produce `data/seed/<lang>/seed-<lang>.json` for each supported language (served copy at `public/seed-<lang>.json`). Run manually; output is checked into source control.
+
+> **⚠️ Restructured (2026-07).** The pipeline was reworked into an immutable base + manifest-ordered
+> correction layers + an append-only LLM run ledger + a deterministic compile + a staleness report.
+> **`SEED-PIPELINE-DESIGN.md` is the current authority** for the layout, precedence, and workflow —
+> where this section's paths or mechanics (e.g. the old flat `data/intermediate/`, the `merge-*`
+> scripts, "batch off the built seed") disagree with it, the design doc wins. Today's map: base =
+> `data/seed/sv/base.json`; layers = `data/seed/sv/layers/<n>-<name>/` (each LLM layer has `runs/` +
+> `decisions.json` + `stale.json`); reducer = `scripts/seed/apply-decisions.mjs` (reads
+> `layers.json`); compile = `scripts/seed/compile-layers.mjs`; regenerable caches/batches live under
+> the gitignored `data/scratch/sv/`.
 
 ### 9.1 Pipeline stages
 
@@ -690,12 +700,12 @@ Bumping a source version is a deliberate act; the resulting seed is regenerated 
 
 ### 9.4 Fixes live in the inputs, never the output
 
-`seed-<lang>.json` is a **generated artifact**. Every correction to seed data — a wrong gloss, a bad example, an off IPA — must be encoded in a pipeline *input* (a `data/intermediate/decisions/*.json` entry, or a `data/intermediate/examples/*.json` entry), and the seed regenerated *through the pipeline*. Never hand-patch the generated `seed-<lang>.json` (or its `public/` copy). Two invariants must always hold for any fix:
+`seed-<lang>.json` is a **generated artifact**. Every correction to seed data — a wrong gloss, a bad example, an off IPA — must be encoded in a pipeline *input* (a correction record in a `data/seed/<lang>/layers/<n>-<name>/` layer — an LLM layer's `runs/` ledger, or a human layer's file), and the seed regenerated *through the pipeline*. Never hand-patch the generated `seed-<lang>.json` (or its `public/` copy) — **nor the compiled `decisions.json`** (it is regenerated from `runs/` by `pnpm seed:compile`). Two invariants must always hold for any fix:
 
 1. **Survives a full rebuild.** Running the full pipeline (`pnpm seed:build`) reproduces the fix, because it lives in an input the pipeline reads — not in the output it overwrites.
 2. **Reaches users on release.** The regenerated `seed-<lang>.json` + `version.json` (data + `public/`) are what the release builds and serves; the bumped version triggers seed-sync to update the affected cards **in place, preserving the learner's progress** (§4.2, the overlay model).
 
-A `fix` decision can override `proposedTranslation`, `proposedSubDefinitions`, and `proposedIpa`; curated example sentences are supplied per `kellyId` in `data/intermediate/examples/`. If a field you need to correct has no input hook yet, **add the hook to `apply-decisions`** rather than editing the output — that keeps the "all fixes are reproducible inputs" guarantee intact.
+A `fix` decision in a cleaner layer can override `proposedTranslation`, `proposedSubDefinitions`, and `proposedIpa`; the translation layer (40) overrides `translation` + the meaning list; curated example sentences are supplied per `kellyId` in the examples layer (60). Each layer may only write the fields its manifest `produces` set declares (enforced by the field-ownership guard). If a field you need to correct has no input hook yet, **add the hook to `apply-decisions` + the manifest** rather than editing the output — that keeps the "all fixes are reproducible inputs" guarantee intact.
 
 ### 9.5 Translation-curation pass
 
@@ -809,8 +819,9 @@ yak/
 │       ├── join.ts
 │       ├── flag.ts
 │       ├── sense-group.ts
-│       ├── batch-for-cleanup.ts      (writes data/intermediate/batches/)
-│       └── apply-decisions.ts        (reads data/intermediate/decisions/)
+│       ├── batch-for-cleanup.mjs     (writes data/scratch/sv/cleanup-batches/)
+│       ├── compile-layers.mjs        (folds layer runs/ → decisions.json)
+│       └── apply-decisions.mjs       (reads data/seed/sv/ base+layers → seed)
 ├── .claude/
 │   └── agents/
 │       └── seed-cleaner.md           (the cleanup subagent)

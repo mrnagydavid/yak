@@ -1,0 +1,351 @@
+[
+  {
+    "kellyId": 3572,
+    "decision": "fix",
+    "reason": "verb translation embeds 'to'; bare form needed",
+    "translation": "hire, consult, call in",
+    "senses": []
+  },
+  {
+    "kellyId": 4210,
+    "decision": "fix",
+    "reason": "verb translation embeds 'to'; bare form needed; 'install' is not the best primary — 'anlägga' means to build/lay out (a road, park); tighten sense list",
+    "translation": "build, lay out",
+    "senses": ["build, lay out, establish (a road, park, etc.)", "light, set (a fire)"]
+  },
+  {
+    "kellyId": 2818,
+    "decision": "fix",
+    "reason": "sub-definitions were phrased with embedded articles and as definitions; tighten to clean short translations",
+    "senses": ["registration (for a course or event)", "report (to police or authority)", "review, announcement (of a book)"]
+  },
+  {
+    "kellyId": 4048,
+    "decision": "fix",
+    "reason": "sub-definition 'in another place' is redundant — 'elsewhere' already covers it; clear the stale list",
+    "senses": []
+  },
+  {
+    "kellyId": 2853,
+    "decision": "fix",
+    "reason": "verb translation embeds 'to'; bare form needed",
+    "translation": "arrange, organize",
+    "senses": []
+  },
+  {
+    "kellyId": 3125,
+    "decision": "fix",
+    "reason": "'integrated' is marginal and 'fit' is redundant alongside 'adapted'; trim to the clearest synonyms",
+    "translation": "adapted, adjusted",
+    "senses": []
+  },
+  {
+    "kellyId": 2890,
+    "decision": "fix",
+    "reason": "translation embeds article 'a hypothesis'; bare form needed",
+    "translation": "assumption, hypothesis",
+    "senses": []
+  },
+  {
+    "kellyId": 4008,
+    "decision": "fix",
+    "reason": "translation embeds article 'a memorandum'; bare form needed",
+    "translation": "note, memorandum",
+    "senses": []
+  },
+  {
+    "kellyId": 3025,
+    "decision": "fix",
+    "reason": "uncountable noun — app should not prepend 'an'",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3495,
+    "decision": "fix",
+    "reason": "'use, usage' is uncountable; app should not prepend 'an'",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3453,
+    "decision": "fix",
+    "reason": "primary 'Apostle' (capitalised, specific) should be the first sense; lowercase 'apostle' for the general sense; reorder and fix capitalisation in translation",
+    "translation": "apostle",
+    "senses": ["Apostle (disciple of Jesus)", "apostle (missionary or figurative)"]
+  },
+  {
+    "kellyId": 3318,
+    "decision": "fix",
+    "reason": "translation embeds articles ('a chore', 'a duty', 'an item in a job description'); bare form needed; trim to core senses",
+    "translation": "task, assignment",
+    "senses": []
+  },
+  {
+    "kellyId": 3581,
+    "decision": "fix",
+    "reason": "sub-definitions were definition-like; primary meaning of 'argumentation' in Swedish is 'line of reasoning'; secondary is 'argument/quarrel'; tighten",
+    "translation": "argumentation, line of reasoning",
+    "senses": ["argumentation, line of reasoning", "argument, quarrel"]
+  },
+  {
+    "kellyId": 3717,
+    "decision": "fix",
+    "reason": "second wiktionary sense is definition-like and redundant for B1; 'architecture' is uncountable in its primary use",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3438,
+    "decision": "fix",
+    "reason": "primary 'arranged social event or function' is definition-like; cleaner primary is 'event, function'",
+    "translation": "event, function",
+    "senses": ["event, function (organised occasion)", "arrangement"]
+  },
+  {
+    "kellyId": 3012,
+    "decision": "fix",
+    "reason": "sub-definitions list 'atmosphere' twice redundantly; rebuild as clean list covering the three distinct senses",
+    "senses": ["atmosphere (air layer around a planet)", "atmosphere (mood, ambience)", "atmosphere (unit of pressure)"]
+  },
+  {
+    "kellyId": 3061,
+    "decision": "fix",
+    "reason": "secondary sense 'falling away, apostasy' is archaic and marginal for B1; drop it; primary is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3573,
+    "decision": "fix",
+    "reason": "verb translation embeds 'to'; bare form needed",
+    "translation": "dismiss, reject",
+    "senses": []
+  },
+  {
+    "kellyId": 3913,
+    "decision": "fix",
+    "reason": "translation embeds article 'a dissertation'; bare form needed",
+    "translation": "thesis, dissertation",
+    "senses": []
+  },
+  {
+    "kellyId": 3086,
+    "decision": "fix",
+    "reason": "'avlida' is formal/literary — 'pass away' captures the register better than plain 'die'",
+    "translation": "pass away, die",
+    "senses": []
+  },
+  {
+    "kellyId": 3990,
+    "decision": "fix",
+    "reason": "verb translation embeds 'to'; bare form needed",
+    "translation": "execute, put to death",
+    "senses": []
+  },
+  {
+    "kellyId": 2909,
+    "decision": "fix",
+    "reason": "verb translation embeds 'to'; primary sense is 'remove from power'; tighten sense list",
+    "translation": "remove from power, oust",
+    "senses": ["remove from power, oust, depose", "sell off (goods)", "set aside (resources)"]
+  },
+  {
+    "kellyId": 4025,
+    "decision": "fix",
+    "reason": "sub-definition was definition-like; tighten to clean translations",
+    "senses": ["deviate, diverge", "leave without permission, abscond"]
+  },
+  {
+    "kellyId": 2939,
+    "decision": "fix",
+    "reason": "sense list had definition-like entries; collapse axis/axle/driveshaft/skating senses into clean groupings",
+    "senses": ["shoulder (body part)", "axis (of rotation or coordinates)", "axle, driveshaft"]
+  },
+  {
+    "kellyId": 3700,
+    "decision": "fix",
+    "reason": "sense list needed tightening — remove definition-like parentheticals",
+    "senses": ["back, defender (sports position)", "reverse (car gear)", "crate (storage box)"]
+  },
+  {
+    "kellyId": 3191,
+    "decision": "fix",
+    "reason": "verb translation embeds 'to'; bare form needed; 'back out' is a distinct sense to add",
+    "translation": "reverse, back up",
+    "senses": ["reverse, back up (a vehicle)", "back out, withdraw", "back, support"]
+  },
+  {
+    "kellyId": 3729,
+    "decision": "fix",
+    "reason": "primary 'bathing' is abstract; 'bath, swim' is clearer as the everyday noun; sub-definitions were verbose",
+    "translation": "bath, swim",
+    "senses": ["bath, swim (instance)", "bathing, swimming (activity)", "bath (place or liquid)"]
+  },
+  {
+    "kellyId": 4000,
+    "decision": "fix",
+    "reason": "primary 'backside' carries informal body-part connotation; 'back, rear' is cleaner; tighten senses",
+    "translation": "back, rear",
+    "senses": ["back, rear (of an object)", "downside, drawback"]
+  },
+  {
+    "kellyId": 3764,
+    "decision": "fix",
+    "reason": "sense list had inconsistent capitalisation ('A bar'); tighten",
+    "senses": ["bar (place serving drinks)", "bar counter", "bar (unit of pressure)"]
+  },
+  {
+    "kellyId": 3034,
+    "decision": "fix",
+    "reason": "primary 'legal right to do something' is definition-like; 'authority, power' is the clean translation",
+    "translation": "authority, power",
+    "senses": []
+  },
+  {
+    "kellyId": 3204,
+    "decision": "fix",
+    "reason": "verb translation embeds 'to'; bare form needed",
+    "translation": "liberate, free",
+    "senses": []
+  },
+  {
+    "kellyId": 2866,
+    "decision": "fix",
+    "reason": "verb translation embeds 'to'; bare form needed",
+    "translation": "grasp, understand",
+    "senses": []
+  },
+  {
+    "kellyId": 3739,
+    "decision": "fix",
+    "reason": "sub-definition 'to define a terminology' is definition-like; verb is single-meaning — clear the list",
+    "translation": "name, call",
+    "senses": []
+  },
+  {
+    "kellyId": 3835,
+    "decision": "fix",
+    "reason": "translation embeds articles ('a term', 'a title', 'a designation'); bare form needed",
+    "translation": "name, term, designation",
+    "senses": []
+  },
+  {
+    "kellyId": 3097,
+    "decision": "fix",
+    "reason": "verb translation embeds 'to'; both senses are common — keep the list",
+    "translation": "illuminate, light up",
+    "senses": ["illuminate, light up", "highlight, shed light on (a topic)"]
+  },
+  {
+    "kellyId": 4010,
+    "decision": "fix",
+    "reason": "sub-definitions were definition-like; tighten the list",
+    "senses": ["evidence, proof", "attestation (in records)", "coating", "brake pad"]
+  },
+  {
+    "kellyId": 3006,
+    "decision": "fix",
+    "reason": "both listed senses are near-synonyms ('meaningful/significant' vs 'momentous/important/significant'); collapse to single meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 3343,
+    "decision": "fix",
+    "reason": "verb translation embeds 'to'; bare form needed",
+    "translation": "watch, guard",
+    "senses": []
+  },
+  {
+    "kellyId": 3770,
+    "decision": "fix",
+    "reason": "sub-definition 'remain in its original condition' is definition-like; verb is single-meaning — clear the list; tighten translation",
+    "translation": "maintain, keep up",
+    "senses": []
+  },
+  {
+    "kellyId": 4015,
+    "decision": "fix",
+    "reason": "two senses ('relating to the Bible' vs 'suggestive of the Bible') are near-identical for a B1 learner; collapse to single meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 3363,
+    "decision": "fix",
+    "reason": "'formal approval' is the less common everyday sense of 'bifall'; the dominant everyday sense is applause/acclamation; promote it",
+    "translation": "applause, approval",
+    "senses": ["applause, acclamation", "approval (formal)", "agreement"]
+  },
+  {
+    "kellyId": 2892,
+    "decision": "fix",
+    "reason": "sub-definition 'an entitling pass' is definition-like; single-meaning word — clear the list",
+    "senses": []
+  },
+  {
+    "kellyId": 3091,
+    "decision": "fix",
+    "reason": "sub-definition 'to bind (similar senses to English)' is definition-like and useless; collapse to single meaning",
+    "translation": "tie, bind",
+    "senses": []
+  },
+  {
+    "kellyId": 3212,
+    "decision": "fix",
+    "reason": "verb translation embeds 'to'; bare form needed",
+    "translation": "denote, signify, designate",
+    "senses": []
+  },
+  {
+    "kellyId": 3995,
+    "decision": "fix",
+    "reason": "translation embeds article 'a mark'; bare form needed",
+    "translation": "designation, mark",
+    "senses": []
+  },
+  {
+    "kellyId": 3344,
+    "decision": "fix",
+    "reason": "two senses ('reduction in cost' vs 'something saved') are near-synonyms; collapse to single meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 4090,
+    "decision": "fix",
+    "reason": "translation embeds article 'a crew'; bare form needed; 'complement, hands' are marginal; tighten sense list",
+    "translation": "crew",
+    "senses": ["crew (of a ship, aircraft, etc.)", "cast (theatre)", "ensemble (orchestra or choir)", "herd, livestock"]
+  },
+  {
+    "kellyId": 3608,
+    "decision": "fix",
+    "reason": "uncountable noun — 'taxation' is uncountable; app should not prepend 'an'",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3897,
+    "decision": "fix",
+    "reason": "sub-definition 'something which causes worry' is definition-like; single meaning — clear the list",
+    "senses": []
+  },
+  {
+    "kellyId": 3479,
+    "decision": "fix",
+    "reason": "translation embeds article 'a problem'; bare form needed",
+    "translation": "trouble, problem",
+    "senses": ["trouble, problem", "appeal, complaint (legal)"]
+  },
+  {
+    "kellyId": 3754,
+    "decision": "fix",
+    "reason": "senses are distinct and well-phrased; rebuild clean list without embedded articles",
+    "senses": ["entitled (to something)", "justified, well-founded"]
+  },
+  {
+    "kellyId": 3164,
+    "decision": "fix",
+    "reason": "'competent' and 'qualified' overlap heavily; consolidate the four senses into three cleaner ones",
+    "senses": ["qualified, competent", "authorised", "appropriate, safe"]
+  }
+]

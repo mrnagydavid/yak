@@ -1,0 +1,400 @@
+[
+  {
+    "english": "reflect",
+    "senses": [
+      { "gloss": "ponder, think", "members": [3230] },
+      { "gloss": "mirror, show", "members": [3307, 4835, 5848] }
+    ]
+  },
+  {
+    "english": "clarify",
+    "senses": [
+      { "gloss": "", "members": [3233, 4734, 5860] }
+    ]
+  },
+  {
+    "english": "mutual",
+    "senses": [
+      { "gloss": "reciprocal", "members": [3254] },
+      { "gloss": "between members", "members": [5328] }
+    ]
+  },
+  {
+    "english": "pack",
+    "senses": [
+      { "gloss": "to pack", "members": [3257] },
+      { "gloss": "bundle, parcel", "members": [8329] }
+    ]
+  },
+  {
+    "english": "plate, slab, tile",
+    "senses": [
+      { "gloss": "flat slab, tile", "members": [3260] },
+      { "gloss": "dinner plate", "members": [6245] }
+    ]
+  },
+  {
+    "english": "cup",
+    "senses": [
+      { "gloss": "drinking vessel", "members": [3264, 6856] },
+      { "gloss": "sports trophy", "members": [4266] }
+    ]
+  },
+  {
+    "english": "reject, to refuse, to deny",
+    "senses": [
+      { "gloss": "", "members": [3273, 3557] }
+    ]
+  },
+  {
+    "english": "skin",
+    "senses": [
+      { "gloss": "body skin", "members": [3274] },
+      { "gloss": "hide, leather", "members": [5053] }
+    ]
+  },
+  {
+    "english": "accommodate, satisfy, fulfill",
+    "senses": [
+      { "gloss": "", "members": [3278, 7422] }
+    ]
+  },
+  {
+    "english": "in the end, ultimately",
+    "senses": [
+      { "gloss": "when all is done", "members": [3285] },
+      { "gloss": "finally, eventually", "members": [5888] }
+    ]
+  },
+  {
+    "english": "bitter",
+    "senses": [
+      { "gloss": "emotionally bitter", "members": [3286] },
+      { "gloss": "bitter tasting", "members": [7997] }
+    ]
+  },
+  {
+    "english": "ancient, former",
+    "senses": [
+      { "gloss": "former, bygone", "members": [3294] },
+      { "gloss": "classical antiquity", "members": [4983] },
+      { "gloss": "very old", "members": [6849] }
+    ]
+  },
+  {
+    "english": "reflection",
+    "senses": [
+      { "gloss": "thought, pondering", "members": [3298, 5267] }
+    ]
+  },
+  {
+    "english": "consultation",
+    "senses": [
+      { "gloss": "joint deliberation", "members": [3299] },
+      { "gloss": "expert consultation", "members": [7645] }
+    ]
+  },
+  {
+    "english": "square, tile, box",
+    "senses": [
+      { "gloss": "cell, checkbox", "members": [3302] },
+      { "gloss": "square shaped", "members": [7105] },
+      { "gloss": "geometric square", "members": [7338] }
+    ]
+  },
+  {
+    "english": "bag",
+    "senses": [
+      { "gloss": "handbag, satchel", "members": [3322] },
+      { "gloss": "paper or plastic bag", "members": [3999] }
+    ]
+  },
+  {
+    "english": "creator, author",
+    "senses": [
+      { "gloss": "", "members": [3325, 3834] }
+    ]
+  },
+  {
+    "english": "thesis, claim",
+    "senses": [
+      { "gloss": "proposition, claim", "members": [3327] },
+      { "gloss": "academic dissertation", "members": [3913] }
+    ]
+  },
+  {
+    "english": "stock market, stock exchange, bourse",
+    "senses": [
+      { "gloss": "", "members": [3334, 7009] }
+    ]
+  },
+  {
+    "english": "regret, to be sorry",
+    "senses": [
+      { "gloss": "express regret formally", "members": [3335] },
+      { "gloss": "feel personal regret", "members": [3452] }
+    ]
+  },
+  {
+    "english": "box, a case",
+    "senses": [
+      { "gloss": "", "members": [3342, 5913] }
+    ]
+  },
+  {
+    "english": "saving",
+    "senses": [
+      { "gloss": "cost reduction", "members": [3344] },
+      { "gloss": "act of saving", "members": [4101] }
+    ]
+  },
+  {
+    "english": "zero",
+    "senses": [
+      { "gloss": "numeral zero", "members": [3359] },
+      { "gloss": "digit, loser", "members": [6531] }
+    ]
+  },
+  {
+    "english": "storm",
+    "senses": [
+      { "gloss": "", "members": [3360, 7226] }
+    ]
+  },
+  {
+    "english": "applause, approval",
+    "senses": [
+      { "gloss": "", "members": [3363, 5024] }
+    ]
+  },
+  {
+    "english": "instruction",
+    "senses": [
+      { "gloss": "", "members": [3364, 4416] }
+    ]
+  },
+  {
+    "english": "code",
+    "senses": [
+      { "gloss": "noun, identifier", "members": [3377] },
+      { "gloss": "to code, program", "members": [7665] }
+    ]
+  },
+  {
+    "english": "magic, magical",
+    "senses": [
+      { "gloss": "magical adjective", "members": [3379] },
+      { "gloss": "magic noun", "members": [5241] }
+    ]
+  },
+  {
+    "english": "strict, stern",
+    "senses": [
+      { "gloss": "", "members": [3380, 4664] }
+    ]
+  },
+  {
+    "english": "dispute",
+    "senses": [
+      { "gloss": "", "members": [3391, 7191] }
+    ]
+  },
+  {
+    "english": "division",
+    "senses": [
+      { "gloss": "unit, league", "members": [3406] },
+      { "gloss": "act of dividing", "members": [3837, 5314] }
+    ]
+  },
+  {
+    "english": "tolerate, bear, endure",
+    "senses": [
+      { "gloss": "", "members": [3408, 5822] }
+    ]
+  },
+  {
+    "english": "supervision",
+    "senses": [
+      { "gloss": "official oversight", "members": [3417] },
+      { "gloss": "minding, childcare", "members": [7414] }
+    ]
+  },
+  {
+    "english": "fresh",
+    "senses": [
+      { "gloss": "not stale", "members": [3426] },
+      { "gloss": "clean, vibrant", "members": [5672] }
+    ]
+  },
+  {
+    "english": "running",
+    "senses": [
+      { "gloss": "ongoing, continuous", "members": [3435] },
+      { "gloss": "sport of running", "members": [6239] }
+    ]
+  },
+  {
+    "english": "store",
+    "senses": [
+      { "gloss": "", "members": [3442, 4361] }
+    ]
+  },
+  {
+    "english": "educational, pedagogical",
+    "senses": [
+      { "gloss": "teaching method", "members": [3445] },
+      { "gloss": "instructive, enlightening", "members": [4291, 6370] }
+    ]
+  },
+  {
+    "english": "expansion, extension",
+    "senses": [
+      { "gloss": "growth, widening", "members": [3456, 4054] },
+      { "gloss": "physical construction", "members": [3607] }
+    ]
+  },
+  {
+    "english": "generate",
+    "senses": [
+      { "gloss": "", "members": [3466, 7280] }
+    ]
+  },
+  {
+    "english": "uniform",
+    "senses": [
+      { "gloss": "consistent, homogeneous", "members": [3473] },
+      { "gloss": "outfit, dress uniform", "members": [5685] }
+    ]
+  },
+  {
+    "english": "smell",
+    "senses": [
+      { "gloss": "to smell", "members": [3476] },
+      { "gloss": "odor, scent", "members": [5905] }
+    ]
+  },
+  {
+    "english": "trouble, problem",
+    "senses": [
+      { "gloss": "", "members": [3479, 3897] }
+    ]
+  },
+  {
+    "english": "demonstrate",
+    "senses": [
+      { "gloss": "protest publicly", "members": [3485] },
+      { "gloss": "show, prove", "members": [3916] }
+    ]
+  },
+  {
+    "english": "fine",
+    "senses": [
+      { "gloss": "", "members": [3488, 4828] }
+    ]
+  },
+  {
+    "english": "learning, lesson",
+    "senses": [
+      { "gloss": "lesson, takeaway", "members": [3489] },
+      { "gloss": "process of learning", "members": [3750, 6754] }
+    ]
+  },
+  {
+    "english": "regular, ordinary",
+    "senses": [
+      { "gloss": "standard, default", "members": [3491] },
+      { "gloss": "periodic, recurrent", "members": [4125] }
+    ]
+  },
+  {
+    "english": "torture",
+    "senses": [
+      { "gloss": "noun", "members": [3499] },
+      { "gloss": "to torture", "members": [5976] }
+    ]
+  },
+  {
+    "english": "ruler, those in power",
+    "senses": [
+      { "gloss": "ruling class", "members": [3505] },
+      { "gloss": "sovereign ruler", "members": [4687, 6004] }
+    ]
+  },
+  {
+    "english": "silly, ridiculous",
+    "senses": [
+      { "gloss": "", "members": [3506, 6206] }
+    ]
+  },
+  {
+    "english": "complicate, hamper",
+    "senses": [
+      { "gloss": "", "members": [3528, 7228] }
+    ]
+  },
+  {
+    "english": "wealth, riches",
+    "senses": [
+      { "gloss": "", "members": [3531, 4472] }
+    ]
+  },
+  {
+    "english": "central bank",
+    "senses": [
+      { "gloss": "", "members": [3535, 4666] }
+    ]
+  },
+  {
+    "english": "ownership",
+    "senses": [
+      { "gloss": "", "members": [3538, 8120] }
+    ]
+  },
+  {
+    "english": "metropolis, big city",
+    "senses": [
+      { "gloss": "", "members": [3542, 7578] }
+    ]
+  },
+  {
+    "english": "photograph",
+    "senses": [
+      { "gloss": "photo, image", "members": [3547] },
+      { "gloss": "to photograph", "members": [3893] }
+    ]
+  },
+  {
+    "english": "driver",
+    "senses": [
+      { "gloss": "general operator", "members": [3548] },
+      { "gloss": "professional chauffeur", "members": [5516] }
+    ]
+  },
+  {
+    "english": "mood, temper",
+    "senses": [
+      { "gloss": "emotional mood", "members": [3558] },
+      { "gloss": "mode, manner", "members": [8334] }
+    ]
+  },
+  {
+    "english": "terribly, awfully",
+    "senses": [
+      { "gloss": "", "members": [3559, 3728] }
+    ]
+  },
+  {
+    "english": "everyone, all of them",
+    "senses": [
+      { "gloss": "all together", "members": [3561] },
+      { "gloss": "each and every one", "members": [6372] }
+    ]
+  },
+  {
+    "english": "director, executive",
+    "senses": [
+      { "gloss": "company executive", "members": [3568] },
+      { "gloss": "film or stage director", "members": [4152] }
+    ]
+  }
+]

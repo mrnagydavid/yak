@@ -1,0 +1,405 @@
+[
+  {
+    "kellyId": 5737,
+    "decision": "fix",
+    "reason": "imprisonment is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6604,
+    "decision": "fix",
+    "reason": "app adds 'to'; 'to finish' embedded is wrong",
+    "translation": "complete, finish",
+    "senses": []
+  },
+  {
+    "kellyId": 5637,
+    "decision": "fix",
+    "reason": "primary is a definition; 'fortress' is the core everyday sense",
+    "translation": "fortress",
+    "senses": [
+      "fortress, stronghold (defensive structure)",
+      "prison (historical, housed in a fortress)",
+      "prison sentence (historical)"
+    ]
+  },
+  {
+    "kellyId": 6439,
+    "decision": "fix",
+    "reason": "birth is uncountable in this sense",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5771,
+    "decision": "fix",
+    "reason": "embedded article 'a disclaimer'",
+    "translation": "reservation, disclaimer",
+    "senses": []
+  },
+  {
+    "kellyId": 6712,
+    "decision": "fix",
+    "reason": "consumption and expenditure are uncountable nouns",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6985,
+    "decision": "fix",
+    "reason": "combustion is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6454,
+    "decision": "fix",
+    "reason": "sub-def is definition-like; 'fossa' is marginal; cleaner senses list needed",
+    "senses": [
+      "recess, hollow, pit",
+      "in-depth study, specialization"
+    ]
+  },
+  {
+    "kellyId": 6134,
+    "decision": "fix",
+    "reason": "sub-def 'an example, a model' is just a restatement of the primary; single meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 6682,
+    "decision": "fix",
+    "reason": "entrepreneurship is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5896,
+    "decision": "fix",
+    "reason": "app adds 'to'; 'to degrade' embedded is wrong",
+    "translation": "decay, degrade",
+    "senses": [
+      "decay, degrade, fall into disrepair",
+      "expire, become due (of a deadline or bill)"
+    ]
+  },
+  {
+    "kellyId": 6167,
+    "decision": "fix",
+    "reason": "app adds 'to'; 'to write' embedded is wrong; cleaner order",
+    "translation": "write, author",
+    "senses": []
+  },
+  {
+    "kellyId": 5766,
+    "decision": "fix",
+    "reason": "authorship is uncountable; oeuvre is a genuine distinct second meaning",
+    "uncountable": true,
+    "senses": [
+      "authorship",
+      "oeuvre, body of work"
+    ]
+  },
+  {
+    "kellyId": 6599,
+    "decision": "fix",
+    "reason": "app adds 'to'; 'to pass, to go by' embedded is wrong",
+    "translation": "elapse, pass, go by",
+    "senses": []
+  },
+  {
+    "kellyId": 5784,
+    "decision": "fix",
+    "reason": "clumsy gloss; 'förfoga över' means to have at one's disposal",
+    "translation": "have at one's disposal",
+    "senses": []
+  },
+  {
+    "kellyId": 5916,
+    "decision": "fix",
+    "reason": "'terrific' is now positive in modern English; misleading",
+    "translation": "terrible, dreadful",
+    "senses": []
+  },
+  {
+    "kellyId": 6481,
+    "decision": "fix",
+    "reason": "sub-def has embedded 'to'; clean up senses",
+    "senses": [
+      "shorten, abbreviate",
+      "cancel, reduce (a fraction)"
+    ]
+  },
+  {
+    "kellyId": 6513,
+    "decision": "fix",
+    "reason": "'proxy' is not a natural translation; 'mediation' is clearer",
+    "translation": "mediation, brokerage",
+    "senses": [
+      "mediation, brokerage",
+      "agency (a business acting as intermediary)"
+    ]
+  },
+  {
+    "kellyId": 5842,
+    "decision": "fix",
+    "reason": "app adds 'to'; 'to decree, to instruct' embedded is wrong",
+    "translation": "decree, instruct",
+    "senses": [
+      "decree, instruct (send orders to a subordinate)",
+      "appoint (a person to a duty)"
+    ]
+  },
+  {
+    "kellyId": 6130,
+    "decision": "fix",
+    "reason": "pollution is uncountable as primary; senses list needs cleaning",
+    "uncountable": true,
+    "senses": [
+      "pollution, contamination",
+      "pollutant, contaminant (specific substance)"
+    ]
+  },
+  {
+    "kellyId": 6889,
+    "decision": "fix",
+    "reason": "'perfidy' is archaic and adds no real everyday value over treason/treachery",
+    "translation": "treason, treachery",
+    "senses": []
+  },
+  {
+    "kellyId": 6249,
+    "decision": "fix",
+    "reason": "caution is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6890,
+    "decision": "fix",
+    "reason": "embedded article 'a prepayment'",
+    "translation": "advance, prepayment",
+    "senses": []
+  },
+  {
+    "kellyId": 6834,
+    "decision": "fix",
+    "reason": "embedded articles 'an advantage, a leadership'; 'leadership' is unnatural here; cleaner primary",
+    "translation": "head start, lead",
+    "senses": [
+      "head start, lead (advantage over competitor)",
+      "lead distance (gap between leader and next)"
+    ]
+  },
+  {
+    "kellyId": 5927,
+    "decision": "fix",
+    "reason": "defamation is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6435,
+    "decision": "fix",
+    "reason": "primary is a definition; 'despairing, desperate' is the clear gloss",
+    "translation": "despairing, desperate",
+    "senses": []
+  },
+  {
+    "kellyId": 5648,
+    "decision": "fix",
+    "reason": "despair is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6010,
+    "decision": "fix",
+    "reason": "app adds 'to'; 'to anticipate' embedded is wrong",
+    "translation": "predict, anticipate",
+    "senses": []
+  },
+  {
+    "kellyId": 6309,
+    "decision": "fix",
+    "reason": "storage is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5917,
+    "decision": "fix",
+    "reason": "semicolon used for synonyms; should be comma-joined",
+    "translation": "surprisingly, remarkably",
+    "senses": []
+  },
+  {
+    "kellyId": 6064,
+    "decision": "fix",
+    "reason": "sub-def is a restatement of the same meaning; single sense word",
+    "senses": []
+  },
+  {
+    "kellyId": 6209,
+    "decision": "fix",
+    "reason": "'to be of gain' is clumsy",
+    "translation": "benefit, be of use",
+    "senses": []
+  },
+  {
+    "kellyId": 6342,
+    "decision": "fix",
+    "reason": "sub-def 'a large collection of stars' is a definition of galaxy, not a second meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 6054,
+    "decision": "fix",
+    "reason": "madness is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6059,
+    "decision": "fix",
+    "reason": "embedded article 'a madman'",
+    "translation": "lunatic, madman",
+    "senses": []
+  },
+  {
+    "kellyId": 6449,
+    "decision": "fix",
+    "reason": "'chasm or abyss' is not the primary everyday meaning; 'gap, opening' is the core sense",
+    "translation": "gap, opening",
+    "senses": [
+      "gap, opening",
+      "gaping mouth (wide open)",
+      "chasm, abyss (literary)"
+    ]
+  },
+  {
+    "kellyId": 6954,
+    "decision": "fix",
+    "reason": "sub-def 'curtain, drapery' is just a restatement; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 6931,
+    "decision": "fix",
+    "reason": "sub-def is definition-like; second sense (fishing net) is genuinely distinct",
+    "senses": [
+      "yarn (fiber for knitting or weaving)",
+      "fishing net"
+    ]
+  },
+  {
+    "kellyId": 6733,
+    "decision": "fix",
+    "reason": "quoted 'genius' with escaped quotes is awkward; cleaner phrasing",
+    "translation": "brilliant, genius-level",
+    "senses": []
+  },
+  {
+    "kellyId": 5780,
+    "decision": "fix",
+    "reason": "geography is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6473,
+    "decision": "fix",
+    "reason": "validity is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6696,
+    "decision": "fix",
+    "reason": "embedded article 'a glint' in primary; reorder to lead with the cleaner term",
+    "translation": "glint, flash",
+    "senses": [
+      "glint, brief flash of light",
+      "glimpse (brief visual impression)"
+    ]
+  },
+  {
+    "kellyId": 6942,
+    "decision": "fix",
+    "reason": "sub-def 'incandescent light bulb' is just a more specific form of the primary, not a distinct meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 5687,
+    "decision": "fix",
+    "reason": "primary 'goodness, moral commendability' is clumsy/definition-like; 'goodness' alone is fine as primary, with 'kindness' as second sense",
+    "translation": "goodness",
+    "senses": [
+      "goodness (moral quality)",
+      "kindness, graciousness"
+    ]
+  },
+  {
+    "kellyId": 6050,
+    "decision": "fix",
+    "reason": "graphics is uncountable in the primary sense",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6992,
+    "decision": "fix",
+    "reason": "sub-def is a genuine distinct meaning (book vs. rules); senses list should be clean",
+    "senses": [
+      "grammar (rules of a language)",
+      "grammar (reference book)"
+    ]
+  },
+  {
+    "kellyId": 5654,
+    "decision": "fix",
+    "reason": "senses list has embedded article 'an earl'; clean up",
+    "senses": [
+      "count",
+      "earl"
+    ]
+  },
+  {
+    "kellyId": 6085,
+    "decision": "fix",
+    "reason": "primary is a definition; 'grill, barbecue' is the natural gloss; sub-def has spurious capital",
+    "translation": "grill, barbecue",
+    "senses": [
+      "grill, barbecue",
+      "grill, interrogate (informal)"
+    ]
+  },
+  {
+    "kellyId": 6734,
+    "decision": "fix",
+    "reason": "sub-def has spurious capital 'A'; clean up senses",
+    "senses": [
+      "gate (in a fence or wall)",
+      "gate (logic, electronics)"
+    ]
+  },
+  {
+    "kellyId": 6250,
+    "decision": "fix",
+    "reason": "sub-def has embedded article 'a howler; a blooper'; clean up senses",
+    "senses": [
+      "frog",
+      "howler, blooper (embarrassing mistake)"
+    ]
+  },
+  {
+    "kellyId": 6943,
+    "decision": "fix",
+    "reason": "sub-def has embedded 'to brood, to ruminate'; clean up senses",
+    "senses": [
+      "ponder",
+      "brood, ruminate"
+    ]
+  }
+]

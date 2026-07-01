@@ -1,0 +1,273 @@
+[
+  {
+    "kellyId": 3878,
+    "decision": "fix",
+    "reason": "sub-definition list just restates synonyms for the same meaning; single-meaning word gets empty senses",
+    "senses": []
+  },
+  {
+    "kellyId": 3074,
+    "decision": "fix",
+    "reason": "'like that, so-so' misses the 'roughly/approximately' sense; senses should reflect all three distinct meanings",
+    "translation": "like that; so-so",
+    "senses": ["like that, in that way", "so-so, neither well nor poorly", "roughly, approximately"]
+  },
+  {
+    "kellyId": 3401,
+    "decision": "fix",
+    "reason": "parenthetical example in main translation is clumsy; gloss should be bare",
+    "translation": "as far as",
+    "senses": []
+  },
+  {
+    "kellyId": 3647,
+    "decision": "fix",
+    "reason": "sub-def 'one of the four major compass points' is a definition, not a gloss; single dominant meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 2884,
+    "decision": "fix",
+    "reason": "'grieve, to mourn' has 'to' embedded — app adds 'to' automatically",
+    "translation": "grieve, mourn",
+    "senses": ["grieve, mourn (someone's death)", "ensure, take care of"]
+  },
+  {
+    "kellyId": 3088,
+    "decision": "fix",
+    "reason": "'theoretic' is uncommon; 'theoretical' is the standard English word; sub-defs are definition-like with trailing periods",
+    "translation": "theoretical",
+    "senses": []
+  },
+  {
+    "kellyId": 3316,
+    "decision": "fix",
+    "reason": "primary 'test, an examination, a trial' has 'an' embedded; app adds articles",
+    "translation": "test, exam, trial",
+    "senses": ["test, exam, trial", "test, attempt, experiment"]
+  },
+  {
+    "kellyId": 3317,
+    "decision": "fix",
+    "reason": "parenthetical usage note in main translation is clumsy; bare gloss is cleaner",
+    "translation": "make known, express",
+    "senses": []
+  },
+  {
+    "kellyId": 2994,
+    "decision": "fix",
+    "reason": "'announce, to make known' has 'to' embedded",
+    "translation": "announce, make known",
+    "senses": []
+  },
+  {
+    "kellyId": 3804,
+    "decision": "fix",
+    "reason": "'meeting, a date, an appointment' has 'a'/'an' embedded",
+    "translation": "meeting, date, appointment",
+    "senses": ["meeting, date, appointment", "hit (when shooting, punching, or kicking)"]
+  },
+  {
+    "kellyId": 3494,
+    "decision": "fix",
+    "reason": "'trainer, a coach' has 'a' embedded",
+    "translation": "trainer, coach",
+    "senses": []
+  },
+  {
+    "kellyId": 3583,
+    "decision": "fix",
+    "reason": "senses list mixes definition-like items; trim to clean gloss list; add graffiti/blunder senses",
+    "senses": ["painting, picture (on a wall)", "board (blackboard, whiteboard)", "tablet (computing)", "blunder, gaffe (informal)"]
+  },
+  {
+    "kellyId": 2811,
+    "decision": "fix",
+    "reason": "senses list contains definition-like items; trim to concise glosses; drop announcement-of-stock sense as too marginal",
+    "senses": ["drawing (pencil, crayon)", "signing (of a contract)", "pattern (of colour or shape)"]
+  },
+  {
+    "kellyId": 3632,
+    "decision": "fix",
+    "reason": "'technology' as primary is uncountable in Swedish usage (teknologi = the field); set uncountable; the 'a technology' countable sense is minor",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3225,
+    "decision": "fix",
+    "reason": "sub-def 'tempo' just repeats the second word in the primary; single meaning, clear senses []",
+    "senses": []
+  },
+  {
+    "kellyId": 3844,
+    "decision": "fix",
+    "reason": "'area, a region, parts' has 'a' embedded",
+    "translation": "area, region, parts",
+    "senses": ["area, region, parts (rural, indefinite boundaries)", "tract, region (of the body)"]
+  },
+  {
+    "kellyId": 3917,
+    "decision": "fix",
+    "reason": "'step, to tramp' has 'to' embedded",
+    "translation": "step, tramp",
+    "senses": ["step, tramp (on foot)", "pedal (a bicycle)"]
+  },
+  {
+    "kellyId": 3836,
+    "decision": "fix",
+    "reason": "sub-def 'to transfer (debt...)' has 'to' embedded in list item",
+    "senses": ["transport (change location)", "transfer (debt, money, legal responsibility)"]
+  },
+  {
+    "kellyId": 3499,
+    "decision": "fix",
+    "reason": "'torture' is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2859,
+    "decision": "fix",
+    "reason": "sub-def 'relating to classical tragedy (literary)' is definition-like; trim to clean gloss",
+    "senses": ["tragic (very sad)", "tragic (classical literary genre)"]
+  },
+  {
+    "kellyId": 4009,
+    "decision": "fix",
+    "reason": "'wood' (the material) is uncountable; 'a tree' is an archaic/poetic secondary sense worth keeping",
+    "uncountable": true,
+    "senses": ["wood (the material)", "tree (archaic, poetic)"]
+  },
+  {
+    "kellyId": 3150,
+    "decision": "fix",
+    "reason": "sub-defs include 'having small thickness' which is a definition of 'thin' itself; trim to useful glosses",
+    "senses": ["thin, slim", "scanty, sparse", "diluted, diffuse, lacking substance"]
+  },
+  {
+    "kellyId": 3688,
+    "decision": "fix",
+    "reason": "'subway' and 'underground railway' are the same thing; single meaning gets empty senses",
+    "senses": []
+  },
+  {
+    "kellyId": 4153,
+    "decision": "fix",
+    "reason": "list has 'person from Turkey' which is redundant with 'Turk'; should add Turkish bath sense; drop pejorative slang sense as too offensive/marginal for a flashcard",
+    "senses": ["Turk (person from Turkey)", "Turkish bath (in compounds)"]
+  },
+  {
+    "kellyId": 3153,
+    "decision": "fix",
+    "reason": "'wash, to clean' has 'to' embedded",
+    "translation": "wash, clean",
+    "senses": ["wash, clean (with water)", "wash oneself", "launder (money)"]
+  },
+  {
+    "kellyId": 3543,
+    "decision": "fix",
+    "reason": "'hesitate, to waver' has 'to' embedded",
+    "translation": "hesitate, waver",
+    "senses": ["hesitate, waver (act)", "doubt, waver (on an idea)"]
+  },
+  {
+    "kellyId": 3292,
+    "decision": "fix",
+    "reason": "'doubt, to be in doubt' has 'to' embedded; 'be in doubt' is redundant with 'doubt'",
+    "translation": "doubt",
+    "senses": []
+  },
+  {
+    "kellyId": 3653,
+    "decision": "fix",
+    "reason": "senses list is incomplete (missing 'second gear', 'runner-up') and has a redundant sub-item; rebuild complete list",
+    "senses": ["two (the digit or number)", "second grade (second year of school)", "second gear", "runner-up (finishes second)"]
+  },
+  {
+    "kellyId": 3742,
+    "decision": "fix",
+    "reason": "senses list has 'liking' twice (redundant duplicate)",
+    "senses": ["taste, opinion", "liking, fondness"]
+  },
+  {
+    "kellyId": 4174,
+    "decision": "fix",
+    "reason": "sub-def 'pavilion or portable lodge' is definition-like; tent has one dominant everyday meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 3408,
+    "decision": "fix",
+    "reason": "'tolerate, to bear, to withstand' has 'to' embedded twice",
+    "translation": "tolerate, bear, endure",
+    "senses": []
+  },
+  {
+    "kellyId": 3101,
+    "decision": "fix",
+    "reason": "'sleep' as a noun (sömn) is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2888,
+    "decision": "fix",
+    "reason": "'lowering' and 'reduction' are near-synonyms for the same concept; single effective meaning",
+    "translation": "reduction, lowering",
+    "senses": []
+  },
+  {
+    "kellyId": 4042,
+    "decision": "fix",
+    "reason": "senses list missing graffiti tag sense present in wiktionary; spine/quill should be in same entry as thorn",
+    "senses": ["thorn, spine, quill (of plant or animal)", "tag (electronic tracking)", "tag (data label)", "tag (graffiti signature)"]
+  },
+  {
+    "kellyId": 3980,
+    "decision": "fix",
+    "reason": "sub-def 'a talent (talented person)' has 'a' embedded",
+    "senses": ["talent (skill, ability)", "talent (talented person)"]
+  },
+  {
+    "kellyId": 2860,
+    "decision": "fix",
+    "reason": "sub-def 'a theatre (building or institution)' has 'a' embedded",
+    "senses": ["theatre (art form)", "theatre (building or institution)"]
+  },
+  {
+    "kellyId": 3716,
+    "decision": "fix",
+    "reason": "'theology' is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4189,
+    "decision": "fix",
+    "reason": "'theologic' is not standard English; 'theological' is the correct and normal form",
+    "translation": "theological",
+    "senses": []
+  },
+  {
+    "kellyId": 3417,
+    "decision": "fix",
+    "reason": "'supervision' is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3861,
+    "decision": "fix",
+    "reason": "'access' is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3619,
+    "decision": "fix",
+    "reason": "'manufacture, production, making' — all uncountable in this sense",
+    "uncountable": true,
+    "senses": []
+  }
+]

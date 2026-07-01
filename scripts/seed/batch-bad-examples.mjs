@@ -2,15 +2,15 @@
 // example-writer subagent, which replaces them with short, level-appropriate Swedish sentences.
 // The earlier example passes only covered ambiguous cards and cards with NO example, so single-sense
 // beginner words that already had a (bad) Wiktionary example were skipped — this catches them.
-// Input:  data/seed-sv.json (the built seed) + data/intermediate/examples/*.json (already-curated)
-// Output: data/intermediate/bad-example-batches/<n>.json  (example-writer input shape)
+// Input:  data/seed/sv/seed-sv.json (the built seed) + the 60-examples layer (already-curated)
+// Output: data/scratch/sv/bad-example-batches/<n>.json  (example-writer input shape)
 // Run: node scripts/seed/batch-bad-examples.mjs
 import { existsSync } from 'node:fs'
 import { mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises'
 
-const SEED = 'data/seed-sv.json'
-const EXAMPLES_DIR = 'data/intermediate/examples'
-const BATCH_DIR = 'data/intermediate/bad-example-batches'
+const SEED = 'data/seed/sv/seed-sv.json'
+const CURATED = 'data/seed/sv/layers/60-examples/decisions.json'
+const BATCH_DIR = 'data/scratch/sv/bad-example-batches'
 const BATCH_SIZE = 150
 const LEVELS = new Set(['A1', 'A2', 'B1'])
 // "Complex" = too long for a flashcard, or carrying punctuation that signals a multi-clause/quoted
@@ -19,13 +19,8 @@ const isComplex = (ex) => ex.join(' ').length > 70 || /[;:("]/.test(ex.join(' ')
 
 async function loadCuratedIds() {
   const ids = new Set()
-  if (!existsSync(EXAMPLES_DIR)) return ids
-  for (const file of await readdir(EXAMPLES_DIR)) {
-    if (!file.endsWith('.json')) continue
-    for (const e of JSON.parse(await readFile(`${EXAMPLES_DIR}/${file}`, 'utf-8'))) {
-      if (Array.isArray(e.examples) && e.examples.length) ids.add(e.kellyId)
-    }
-  }
+  if (!existsSync(CURATED)) return ids
+  for (const e of JSON.parse(await readFile(CURATED, 'utf-8'))) if (Array.isArray(e.examples) && e.examples.length) ids.add(e.kellyId)
   return ids
 }
 

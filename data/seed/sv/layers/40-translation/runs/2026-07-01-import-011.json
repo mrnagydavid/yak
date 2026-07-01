@@ -1,0 +1,419 @@
+[
+  {
+    "kellyId": 604,
+    "decision": "fix",
+    "reason": "'purpose' is the dominant everyday meaning of 'syfte'; 'intention' is secondary. Both are near-synonyms here so combine as primary.",
+    "translation": "purpose, intention",
+    "senses": []
+  },
+  {
+    "kellyId": 811,
+    "decision": "fix",
+    "reason": "Senses list items have embedded articles ('a sight', 'a vision'); strip them as the app articles nouns.",
+    "translation": "sight, vision",
+    "senses": [
+      "sight, vision (ability to see)",
+      "sight, view",
+      "vision, revelation (of the future)"
+    ]
+  },
+  {
+    "kellyId": 65,
+    "decision": "fix",
+    "reason": "Senses 'niece' and 'the mother's niece' are archaic/dialectal and not relevant for modern learners; drop them.",
+    "translation": "second cousin",
+    "senses": [
+      "second cousin",
+      "third cousin (historical/regional)"
+    ]
+  },
+  {
+    "kellyId": 321,
+    "decision": "fix",
+    "reason": "Single meaning; sub-def just restates the primary. Clear the list.",
+    "translation": "so that",
+    "senses": []
+  },
+  {
+    "kellyId": 631,
+    "decision": "fix",
+    "reason": "'såväl' always appears in 'såväl … som' meaning 'both … and / as well as'; the gloss 'as well' is incomplete. The phrase is the best gloss.",
+    "translation": "both ... and, as well as",
+    "senses": []
+  },
+  {
+    "kellyId": 145,
+    "decision": "fix",
+    "reason": "Senses list items embed 'to' (verb prefix supplied by app); strip them.",
+    "translation": "say",
+    "senses": [
+      "say",
+      "tell",
+      "be said"
+    ]
+  },
+  {
+    "kellyId": 845,
+    "decision": "fix",
+    "reason": "List is padded with near-synonyms of 'safe/secure'; consolidate to two genuinely distinct senses.",
+    "translation": "safe, secure",
+    "senses": [
+      "safe, secure (not in danger)",
+      "sure, certain, reliable"
+    ]
+  },
+  {
+    "kellyId": 920,
+    "decision": "fix",
+    "reason": "Primary is uncountable; 'a security' in senses has embedded article.",
+    "translation": "safety, security",
+    "uncountable": true,
+    "senses": [
+      "safety, security",
+      "certainty, confidence",
+      "security, guarantee (for a loan)"
+    ]
+  },
+  {
+    "kellyId": 680,
+    "decision": "fix",
+    "reason": "'säkert' in everyday speech predominantly means 'probably, surely' (e.g. 'Det kommer säkert att regna' = 'It will probably rain'); 'safely' is the adverb of 'säker' but less frequent as a standalone adverb.",
+    "translation": "probably, surely",
+    "senses": [
+      "probably, surely, certainly",
+      "safely, securely"
+    ]
+  },
+  {
+    "kellyId": 1194,
+    "decision": "fix",
+    "reason": "'to transmit' embedded in main translation; app adds 'to'. Fix main and clean senses.",
+    "translation": "send, transmit",
+    "senses": [
+      "send, transmit",
+      "broadcast"
+    ]
+  },
+  {
+    "kellyId": 1290,
+    "decision": "fix",
+    "reason": "Senses list has 'move downwards' which is a definition of lower, not a distinct sense. Add missing sense 'turn down (volume etc.)'. Drop very marginal golf/basketball sense.",
+    "translation": "lower",
+    "senses": [
+      "lower, reduce",
+      "sink (a boat)",
+      "turn down (volume, intensity)",
+      "immerse (in liquid)"
+    ]
+  },
+  {
+    "kellyId": 578,
+    "decision": "fix",
+    "reason": "'special (of or related to unconventional warfare)' is a very marginal military jargon sense; drop it.",
+    "translation": "special, particular",
+    "senses": [
+      "special, particular, distinct",
+      "special (dear, beloved)"
+    ]
+  },
+  {
+    "kellyId": 459,
+    "decision": "fix",
+    "reason": "'in particular' is a synonym of 'particularly', not a distinct sense. Single-meaning word; clear senses.",
+    "translation": "particularly, especially",
+    "senses": []
+  },
+  {
+    "kellyId": 1392,
+    "decision": "fix",
+    "reason": "Sub-def 'a season of a TV series' has embedded article. Fix.",
+    "translation": "season",
+    "senses": [
+      "season (of the year or a sport)",
+      "season (of a TV series)"
+    ]
+  },
+  {
+    "kellyId": 215,
+    "decision": "fix",
+    "reason": "Primary 'manner' is less common than 'way'; sub-defs are definitional restatements. 'a set' is very marginal.",
+    "translation": "way, manner",
+    "senses": [
+      "way, manner (of behaving or doing something)",
+      "set (e.g. of cutlery)"
+    ]
+  },
+  {
+    "kellyId": 336,
+    "decision": "fix",
+    "reason": "'sätta' primarily means 'put, place, set' — not 'sit'. 'Sätta sig' means sit down, but the bare verb means to put/place. Wrong primary.",
+    "translation": "put, place",
+    "senses": [
+      "put, place, set",
+      "sit down (reflexive: sätta sig)",
+      "set, adjust (a value or setting)"
+    ]
+  },
+  {
+    "kellyId": 247,
+    "decision": "fix",
+    "reason": "'to seek' embedded in main; app adds 'to'.",
+    "translation": "search, seek",
+    "senses": []
+  },
+  {
+    "kellyId": 137,
+    "decision": "fix",
+    "reason": "Senses list items are definition-like; consolidate to clean translations.",
+    "translation": "take",
+    "senses": [
+      "take, grab",
+      "bring, carry",
+      "steal",
+      "catch"
+    ]
+  },
+  {
+    "kellyId": 324,
+    "decision": "fix",
+    "reason": "Primary has embedded article 'a hold'; senses list has definitional items. Clean up.",
+    "translation": "grip, hold",
+    "senses": [
+      "grip, hold",
+      "stroke (with oar or paddle)",
+      "while, moment"
+    ]
+  },
+  {
+    "kellyId": 726,
+    "decision": "fix",
+    "reason": "Primary 'tact, pace, rhythm' mixes two different meaning clusters. Core everyday meaning is 'beat, rhythm, pace'; 'tact' is also real. Restructure.",
+    "translation": "beat, rhythm; tact",
+    "senses": [
+      "beat, rhythm, pace",
+      "tact, good manners",
+      "bar, measure (in music)"
+    ]
+  },
+  {
+    "kellyId": 273,
+    "decision": "fix",
+    "reason": "Senses include definition-like items. Clean to concise translations.",
+    "translation": "number",
+    "senses": [
+      "number",
+      "speech, address (public talk)",
+      "math problem, exercise (school)"
+    ]
+  },
+  {
+    "kellyId": 299,
+    "decision": "fix",
+    "reason": "'to talk' embedded in main; app adds 'to'. Fix senses too.",
+    "translation": "speak, talk",
+    "senses": [
+      "speak, talk",
+      "speak (a language)",
+      "make a speech"
+    ]
+  },
+  {
+    "kellyId": 433,
+    "decision": "fix",
+    "reason": "Sub-def 'given, considering...' is a prepositional phrase sense (med tanke på), not a standalone meaning of 'tanke'. Drop it.",
+    "translation": "thought",
+    "senses": []
+  },
+  {
+    "kellyId": 186,
+    "decision": "fix",
+    "reason": "'to seem' embedded in main; app adds 'to'.",
+    "translation": "appear, seem",
+    "senses": []
+  },
+  {
+    "kellyId": 1174,
+    "decision": "fix",
+    "reason": "Primary 'visible indication' is a definition. Core meaning is 'sign, symbol'.",
+    "translation": "sign, symbol",
+    "senses": [
+      "sign, signal",
+      "symbol, character (letter etc.)",
+      "gesture"
+    ]
+  },
+  {
+    "kellyId": 858,
+    "decision": "fix",
+    "reason": "'teknik' is used equally for 'technique' and 'technology'; neither clearly dominates — use semicolon split.",
+    "translation": "technique; technology",
+    "senses": [
+      "technique (a method or skill)",
+      "technology"
+    ]
+  },
+  {
+    "kellyId": 1062,
+    "decision": "fix",
+    "reason": "Senses list is definition-padded. Trim to two clean senses.",
+    "translation": "technical, technological",
+    "senses": [
+      "technical, technological",
+      "technically skilled"
+    ]
+  },
+  {
+    "kellyId": 1085,
+    "decision": "fix",
+    "reason": "Senses list has multiple definition-like restatements of 'theory'. Single meaningful word — clear to empty.",
+    "translation": "theory",
+    "senses": []
+  },
+  {
+    "kellyId": 66,
+    "decision": "fix",
+    "reason": "Primary 'number 10' is clumsy; the coin sense is the dominant everyday usage. Main = 'ten-kronor coin' with 'ten' as primary sense.",
+    "translation": "ten-kronor coin",
+    "senses": [
+      "ten-kronor coin",
+      "the number ten, anything numbered ten"
+    ]
+  },
+  {
+    "kellyId": 475,
+    "decision": "fix",
+    "reason": "Senses items are definition-like restatements of 'early'. Single meaningful word — clear list.",
+    "translation": "early",
+    "senses": []
+  },
+  {
+    "kellyId": 550,
+    "decision": "fix",
+    "reason": "'a wet folden newspaper...' is an extremely marginal craft sense; drop it. 'magazine, journal' is the real second sense.",
+    "translation": "newspaper",
+    "senses": [
+      "newspaper",
+      "magazine, journal"
+    ]
+  },
+  {
+    "kellyId": 1310,
+    "decision": "fix",
+    "reason": "'to stay silent' embedded in main; app adds 'to'. Fix.",
+    "translation": "keep silent, stay quiet",
+    "senses": [
+      "keep silent, stay quiet",
+      "give the silent treatment, deliberately ignore"
+    ]
+  },
+  {
+    "kellyId": 409,
+    "decision": "fix",
+    "reason": "Sub-def 'e.g.' just restates the primary abbreviation. Single meaning — clear list.",
+    "translation": "for example",
+    "senses": []
+  },
+  {
+    "kellyId": 965,
+    "decision": "fix",
+    "reason": "'to permit' embedded in main; app adds 'to'.",
+    "translation": "allow, permit",
+    "senses": []
+  },
+  {
+    "kellyId": 1212,
+    "decision": "fix",
+    "reason": "'to use, to make use of' embedded in main; app adds 'to'. Single core meaning.",
+    "translation": "apply, implement",
+    "senses": []
+  },
+  {
+    "kellyId": 1240,
+    "decision": "fix",
+    "reason": "Primary 'thing, an individual object' has definition tail. Trim primary; keep the historical sense.",
+    "translation": "thing",
+    "senses": [
+      "thing, object",
+      "assembly, court (historical)"
+    ]
+  },
+  {
+    "kellyId": 68,
+    "decision": "fix",
+    "reason": "Senses list item for 'tithe' is definition-like. Trim.",
+    "translation": "tenth",
+    "senses": [
+      "tenth",
+      "tithe (historical church tax)"
+    ]
+  },
+  {
+    "kellyId": 1357,
+    "decision": "fix",
+    "reason": "Primary 'tip, as a small amount of information' is definition-like. Fix to bare translation.",
+    "translation": "tip, hint",
+    "senses": [
+      "tip, hint",
+      "football pools, betting"
+    ]
+  },
+  {
+    "kellyId": 537,
+    "decision": "fix",
+    "reason": "Senses items are definition-like. Trim to concise translations.",
+    "translation": "look, watch",
+    "senses": [
+      "look (use one's eyes)",
+      "watch (TV, a match etc.)"
+    ]
+  },
+  {
+    "kellyId": 1186,
+    "decision": "fix",
+    "reason": "Senses item 'a girl, a gal' has embedded article. Fix.",
+    "translation": "girl",
+    "senses": [
+      "girl (young girl or young woman)",
+      "girlfriend"
+    ]
+  },
+  {
+    "kellyId": 600,
+    "decision": "fix",
+    "reason": "Senses list item for job is definition-padded. Trim.",
+    "translation": "favour",
+    "senses": [
+      "favour",
+      "job, post, position",
+      "service"
+    ]
+  },
+  {
+    "kellyId": 1269,
+    "decision": "fix",
+    "reason": "Wiktionary has a very marginal 'skijor' sense that the current list rightly omits; but current sub-defs include 'perform (a song or role)' which is valid. Keep two real senses, drop skijor.",
+    "translation": "interpret",
+    "senses": [
+      "interpret (explain meaning or translate orally)",
+      "perform (a song or role)"
+    ]
+  },
+  {
+    "kellyId": 946,
+    "decision": "fix",
+    "reason": "Sub-def just restates primary with minor synonyms. Single meaningful sense — clear list.",
+    "translation": "nice, pleasant",
+    "senses": []
+  },
+  {
+    "kellyId": 197,
+    "decision": "fix",
+    "reason": "'to think' embedded in main; app adds 'to'. Fix senses too.",
+    "translation": "believe, think",
+    "senses": [
+      "believe, think (something is true)",
+      "trust, believe (someone)",
+      "have religious faith"
+    ]
+  }
+]

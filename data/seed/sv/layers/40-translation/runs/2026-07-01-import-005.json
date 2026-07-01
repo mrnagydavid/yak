@@ -1,0 +1,263 @@
+[
+  {
+    "kellyId": 1171,
+    "decision": "fix",
+    "reason": "senses list is just restatements of 'badly'; single meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 174,
+    "decision": "fix",
+    "reason": "'to in' is not natural English; correct form is 'in, into'",
+    "translation": "in, into",
+    "senses": []
+  },
+  {
+    "kellyId": 1354,
+    "decision": "fix",
+    "reason": "'influence' is uncountable in this usage",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 423,
+    "decision": "fix",
+    "reason": "'information' is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 416,
+    "decision": "fix",
+    "reason": "senses are definition-like; rewrite as clean short glosses",
+    "senses": ["in front of, before", "ahead of, in preparation for"]
+  },
+  {
+    "kellyId": 755,
+    "decision": "fix",
+    "reason": "sub-definition has embedded 'to'; senses items should be bare",
+    "senses": ["introduce", "import"]
+  },
+  {
+    "kellyId": 167,
+    "decision": "fix",
+    "reason": "sub-definition is a meta-linguistic gloss, not a translation; 'none' covers the word",
+    "senses": []
+  },
+  {
+    "kellyId": 784,
+    "decision": "fix",
+    "reason": "primary has embedded 'to be part of'; senses item has embedded 'to'; clumsy phrasing",
+    "translation": "be included, belong",
+    "senses": ["be included, belong", "enter into (an agreement or marriage)"]
+  },
+  {
+    "kellyId": 1037,
+    "decision": "fix",
+    "reason": "primary has embedded 'to introduce, to open'; secondary is marginal",
+    "translation": "begin, introduce, open",
+    "senses": ["begin, introduce, open", "lead (onto a path, figurative)"]
+  },
+  {
+    "kellyId": 317,
+    "decision": "fix",
+    "reason": "'insert' is not the most common everyday meaning; 'post, contribution' (debate, social media) is primary",
+    "translation": "post, contribution",
+    "senses": ["post, contribution (in discussion or online)", "insert (e.g. shoe insert)", "cross (in football)"]
+  },
+  {
+    "kellyId": 308,
+    "decision": "fix",
+    "reason": "primary has embedded 'to mean'; cleaner as 'mean, imply'; single meaning",
+    "translation": "mean, imply",
+    "senses": []
+  },
+  {
+    "kellyId": 898,
+    "decision": "fix",
+    "reason": "'content' is uncountable in this usage (content of a book)",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 707,
+    "decision": "fix",
+    "reason": "primary has embedded 'to include'; senses items should be bare",
+    "translation": "contain, include",
+    "senses": ["contain, include", "withhold (a payment)"]
+  },
+  {
+    "kellyId": 220,
+    "decision": "fix",
+    "reason": "sub-definition 'within (in space)' is redundant — 'within' covers both time and space; single meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 848,
+    "decision": "fix",
+    "reason": "'inset' is marginal; 'effort, contribution' is the primary everyday sense",
+    "translation": "effort, contribution",
+    "senses": ["effort, contribution", "stake, deposit (in a game or investment)", "deployment (of police or troops)", "insert (an added object)"]
+  },
+  {
+    "kellyId": 672,
+    "decision": "fix",
+    "reason": "sub-definition is a restatement of 'realize'; single meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 1115,
+    "decision": "fix",
+    "reason": "senses are definition-like; rewrite as clean short glosses",
+    "senses": ["yes (contradicting a negative statement)", "oh (sudden realization)", "well, so (filler)"]
+  },
+  {
+    "kellyId": 482,
+    "decision": "fix",
+    "reason": "sub-definition is a restatement of 'work'; single meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 557,
+    "decision": "fix",
+    "reason": "'ice' is uncountable; sub-definition is a restatement",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1023,
+    "decision": "fix",
+    "reason": "sub-definitions are definition-like restatements of 'compare'; single meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 1253,
+    "decision": "fix",
+    "reason": "senses items have trailing periods; rewrite cleanly",
+    "senses": ["cold (temperature)", "cold, unfriendly (emotionally distant)"]
+  },
+  {
+    "kellyId": 343,
+    "decision": "fix",
+    "reason": "primary is wordy; 'call, name' is cleaner and covers the main sense",
+    "translation": "call, name",
+    "senses": ["call, name", "call, summon"]
+  },
+  {
+    "kellyId": 778,
+    "decision": "fix",
+    "reason": "primary is a definition; 'struggle, fight' is the correct translation",
+    "translation": "struggle, fight",
+    "senses": ["struggle, fight", "old horse, nag (informal)"]
+  },
+  {
+    "kellyId": 1106,
+    "decision": "fix",
+    "reason": "'boy' understates it; 'kille' most often means 'guy' (young man) in modern Swedish",
+    "translation": "guy, boy",
+    "senses": ["guy, boy (male person)", "boyfriend"]
+  },
+  {
+    "kellyId": 366,
+    "decision": "fix",
+    "reason": "senses are definition-like with meta-linguistic labels; rewrite cleanly",
+    "senses": ["o'clock (abbreviation of klockan)", "class (abbreviation of klass)"]
+  },
+  {
+    "kellyId": 555,
+    "decision": "fix",
+    "reason": "senses list has redundant 'ready' (already in primary) and four overlapping items; consolidate",
+    "senses": ["ready, finished, done", "clear (sky or water)", "clear (unambiguous)"]
+  },
+  {
+    "kellyId": 483,
+    "decision": "fix",
+    "reason": "primary has embedded 'to succeed in doing'; rewrite as bare gloss",
+    "translation": "manage, cope",
+    "senses": ["manage, cope", "survive, come through (an accident)", "make do, get by"]
+  },
+  {
+    "kellyId": 795,
+    "decision": "fix",
+    "reason": "senses split 'bell' into two sub-items unnecessarily; consolidate",
+    "senses": ["clock, watch", "the time (of day)", "bell"]
+  },
+  {
+    "kellyId": 1331,
+    "decision": "fix",
+    "reason": "'garments, items of clothing' is redundant padding; 'clothes' is uncountable/plural",
+    "translation": "clothes",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 852,
+    "decision": "fix",
+    "reason": "primary has embedded 'to watch'; rewrite bare",
+    "translation": "look, watch",
+    "senses": ["look, watch", "check, examine", "look up, check out"]
+  },
+  {
+    "kellyId": 123,
+    "decision": "fix",
+    "reason": "senses are definition-like with embedded parentheticals; rewrite cleanly; orgasm sense should be noted",
+    "senses": ["come (move nearer, arrive)", "come (to orgasm)", "make, cause (to do)"]
+  },
+  {
+    "kellyId": 1189,
+    "decision": "fix",
+    "reason": "'arriving' is an odd gloss for an attributive adjective; 'upcoming' is cleaner",
+    "translation": "coming, upcoming",
+    "senses": []
+  },
+  {
+    "kellyId": 1205,
+    "decision": "fix",
+    "reason": "senses are definition-like; rewrite concisely",
+    "senses": ["art", "skill, trick (the knack of something)", "artificial device (archaic)"]
+  },
+  {
+    "kellyId": 1063,
+    "decision": "fix",
+    "reason": "senses items have embedded 'to'; rewrite as bare forms",
+    "senses": ["throw (an object)", "throw away, discard", "throw oneself", "cast (a shadow)", "shed, slough (skin)"]
+  },
+  {
+    "kellyId": 1320,
+    "decision": "fix",
+    "reason": "sub-definition is a redundant restatement; single meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 787,
+    "decision": "fix",
+    "reason": "slang and archaic senses are not useful for learners; single everyday meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 775,
+    "decision": "fix",
+    "reason": "slur sense should be dropped; the two remaining senses (religious and ethnic) merge to one",
+    "senses": []
+  },
+  {
+    "kellyId": 1245,
+    "decision": "fix",
+    "reason": "senses item is definition-like; rewrite concisely",
+    "senses": ["check, inspect", "control, have control over"]
+  },
+  {
+    "kellyId": 477,
+    "decision": "fix",
+    "reason": "primary has embedded article 'a necessity'; 'demand' is already the secondary so merge",
+    "translation": "requirement, demand",
+    "senses": []
+  },
+  {
+    "kellyId": 1329,
+    "decision": "fix",
+    "reason": "'income' is uncountable",
+    "uncountable": true,
+    "senses": []
+  }
+]

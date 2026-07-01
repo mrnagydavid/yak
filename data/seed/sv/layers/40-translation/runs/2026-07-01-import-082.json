@@ -1,0 +1,305 @@
+[
+  {
+    "kellyId": 7544,
+    "decision": "fix",
+    "reason": "urine is an uncountable noun",
+    "translation": "urine",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7375,
+    "decision": "fix",
+    "reason": "primary has too many synonyms; trimming to the core sense; senses list cleaned of embedded 'to'",
+    "translation": "hand out, deliver",
+    "senses": ["hand out, deliver", "disclose", "abandon", "extradite"]
+  },
+  {
+    "kellyId": 7043,
+    "decision": "fix",
+    "reason": "'extirpation' is obscure jargon; drop it in favour of the two clear synonyms",
+    "translation": "eradication, extinction",
+    "senses": []
+  },
+  {
+    "kellyId": 7203,
+    "decision": "fix",
+    "reason": "primary embedded article 'a'; sub-def embedded article 'a'; cleaned",
+    "translation": "printout, print job",
+    "senses": ["print job, printing (the activity)", "printout (the printed paper)"]
+  },
+  {
+    "kellyId": 7379,
+    "decision": "fix",
+    "reason": "'worn out' is the everyday primary; 'decrepit' is more formal — reorder",
+    "translation": "worn out, decrepit",
+    "senses": []
+  },
+  {
+    "kellyId": 7325,
+    "decision": "fix",
+    "reason": "clumsy: 'transmit, to emit' has embedded 'to'",
+    "translation": "transmit, emit",
+    "senses": []
+  },
+  {
+    "kellyId": 7201,
+    "decision": "fix",
+    "reason": "sub-defs are definitions not translations; replace with clean senses",
+    "translation": "vacuum",
+    "senses": ["vacuum (physics, empty space)", "vacuum (isolation from the world)"]
+  },
+  {
+    "kellyId": 7258,
+    "decision": "fix",
+    "reason": "'durableness' is archaic/rare; 'durability' alone is correct",
+    "translation": "durability",
+    "senses": []
+  },
+  {
+    "kellyId": 8306,
+    "decision": "fix",
+    "reason": "'quotidianness' is an obscure word; clearer gloss: 'ordinariness, everydayness'",
+    "translation": "ordinariness, everydayness",
+    "senses": []
+  },
+  {
+    "kellyId": 7189,
+    "decision": "fix",
+    "reason": "sub-def has embedded 'to'; cleaned",
+    "translation": "water",
+    "senses": ["water (plants or animals)", "water (of eyes or mouth)"]
+  },
+  {
+    "kellyId": 8035,
+    "decision": "fix",
+    "reason": "wax is an uncountable noun",
+    "translation": "wax",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7833,
+    "decision": "fix",
+    "reason": "primary is a definition; 'fold, crease, pleat' is the clear translation",
+    "translation": "fold, crease, pleat",
+    "senses": []
+  },
+  {
+    "kellyId": 7581,
+    "decision": "fix",
+    "reason": "primary embedded article 'a'; 'weekly magazine' is the clearest everyday gloss",
+    "translation": "weekly magazine, journal",
+    "senses": []
+  },
+  {
+    "kellyId": 7565,
+    "decision": "fix",
+    "reason": "'due' and 'appropriate' are synonyms for this adjective; merge as a single meaning",
+    "translation": "due, appropriate",
+    "senses": []
+  },
+  {
+    "kellyId": 7624,
+    "decision": "fix",
+    "reason": "sub-def has botanical detail that can be simplified",
+    "translation": "vein",
+    "senses": ["vein (anatomy)", "bentgrass (genus Agrostis)"]
+  },
+  {
+    "kellyId": 7718,
+    "decision": "fix",
+    "reason": "sub-defs need cleanup; 'porthole' sense has typo and is marginal",
+    "translation": "valve",
+    "senses": ["valve", "vent, air inlet or outlet"]
+  },
+  {
+    "kellyId": 7331,
+    "decision": "fix",
+    "reason": "primary embedded article 'a veranda'",
+    "translation": "porch, veranda",
+    "senses": []
+  },
+  {
+    "kellyId": 7387,
+    "decision": "fix",
+    "reason": "'alternate' is not natural British/Swedish-context English for vikarie; 'substitute' leads",
+    "translation": "substitute, temp",
+    "senses": []
+  },
+  {
+    "kellyId": 7936,
+    "decision": "fix",
+    "reason": "willingness is an uncountable noun",
+    "translation": "willingness",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 8417,
+    "decision": "fix",
+    "reason": "vinegar is an uncountable noun",
+    "translation": "vinegar",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7246,
+    "decision": "fix",
+    "reason": "Latin species name is not helpful on a flashcard; drop it",
+    "translation": "garlic",
+    "senses": []
+  },
+  {
+    "kellyId": 8295,
+    "decision": "fix",
+    "reason": "primary has definition-like 'using the voice' embedded; sub is redundant; single meaning word",
+    "translation": "vocal",
+    "senses": []
+  },
+  {
+    "kellyId": 7094,
+    "decision": "fix",
+    "reason": "modern everyday meaning of 'volontär' is volunteer; 'trainee' is the older/rarer sense",
+    "translation": "volunteer",
+    "senses": ["volunteer", "trainee (historical, apprentice role)"]
+  },
+  {
+    "kellyId": 7888,
+    "decision": "fix",
+    "reason": "primary embedded article 'a carer'; cleaned",
+    "translation": "caregiver, carer",
+    "senses": ["caregiver, carer (professional)", "caretaker (of things more generally)"]
+  },
+  {
+    "kellyId": 7032,
+    "decision": "fix",
+    "reason": "goodwill/benevolence is uncountable",
+    "translation": "goodwill, benevolence",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7446,
+    "decision": "fix",
+    "reason": "'weltanschauung' is German jargon; 'worldview' alone is sufficient",
+    "translation": "worldview",
+    "senses": []
+  },
+  {
+    "kellyId": 7531,
+    "decision": "fix",
+    "reason": "single-meaning word; sub-def is a definition, not a translation — clear it",
+    "translation": "west",
+    "senses": []
+  },
+  {
+    "kellyId": 7758,
+    "decision": "fix",
+    "reason": "hydrogen is an uncountable noun",
+    "translation": "hydrogen",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7608,
+    "decision": "fix",
+    "reason": "primary embedded article 'a fabric'; cleaned; three distinct meanings kept",
+    "translation": "weave, fabric",
+    "senses": ["weave, fabric (textile)", "web, spider's web", "tissue (biology, group of cells)"]
+  },
+  {
+    "kellyId": 7982,
+    "decision": "fix",
+    "reason": "primary embedded article 'a transmission'; cleaned",
+    "translation": "gearbox, transmission",
+    "senses": []
+  },
+  {
+    "kellyId": 7643,
+    "decision": "fix",
+    "reason": "yogurt is an uncountable noun",
+    "translation": "yogurt",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7299,
+    "decision": "fix",
+    "reason": "sub-def has embedded 'to'; cleaned",
+    "translation": "contract",
+    "senses": ["contract (a disease or injury)", "incur, expose oneself to (something harmful)"]
+  },
+  {
+    "kellyId": 7889,
+    "decision": "fix",
+    "reason": "last two senses are overly technical/marginal for a flashcard; trimmed to three main meanings",
+    "translation": "vein, blood vessel",
+    "senses": ["vein, blood vessel", "vein (in a leaf)", "vein, seam (mineral in rock)"]
+  },
+  {
+    "kellyId": 7300,
+    "decision": "fix",
+    "reason": "primary embedded article 'an affliction'; cleaned",
+    "translation": "condition, affliction",
+    "senses": []
+  },
+  {
+    "kellyId": 7402,
+    "decision": "fix",
+    "reason": "old age is uncountable",
+    "translation": "old age",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 8140,
+    "decision": "fix",
+    "reason": "fjord sense is archaic/dialectal and not useful on a modern flashcard; repentance and remorse/regret can be merged; cleaned",
+    "translation": "remorse, regret",
+    "uncountable": true,
+    "senses": ["remorse, regret", "repentance, contrition"]
+  },
+  {
+    "kellyId": 8174,
+    "decision": "fix",
+    "reason": "'a period of one thousand years' is a definition embedded in primary; 'millennium' alone is sufficient",
+    "translation": "millennium",
+    "senses": []
+  },
+  {
+    "kellyId": 7432,
+    "decision": "fix",
+    "reason": "clumsy: 'reimburse, to repay, to refund' has embedded 'to'; reordered naturally",
+    "translation": "repay, reimburse, refund",
+    "senses": []
+  },
+  {
+    "kellyId": 7520,
+    "decision": "fix",
+    "reason": "five near-synonyms is too many; trim to the two clearest everyday glosses",
+    "translation": "moderation, restraint",
+    "senses": []
+  },
+  {
+    "kellyId": 7219,
+    "decision": "fix",
+    "reason": "clumsy: 'hand back, to return' has embedded 'to'",
+    "translation": "hand back, return",
+    "senses": []
+  },
+  {
+    "kellyId": 7710,
+    "decision": "fix",
+    "reason": "sub-def has embedded 'to meet again'",
+    "translation": "see again",
+    "senses": ["see again", "meet again"]
+  },
+  {
+    "kellyId": 7303,
+    "decision": "fix",
+    "reason": "sub-def has embedded 'to revive'",
+    "translation": "resuscitate, revive",
+    "senses": ["resuscitate, revive (a person)", "revive (a tradition, idea, etc.)"]
+  }
+]

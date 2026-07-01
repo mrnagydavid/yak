@@ -1,0 +1,479 @@
+[
+  {
+    "kellyId": 621,
+    "decision": "fix",
+    "reason": "Sub-definition 'a Christian' is the noun sense; this entry is pos:adj. The adjective has one clean meaning. Clear the stale noun sub-definition.",
+    "translation": "Christian",
+    "senses": []
+  },
+  {
+    "kellyId": 773,
+    "decision": "fix",
+    "reason": "Sub-definition 'critique, criticism (critical appraisal)' is a near-restatement of the primary. Kritik covers both pointing out flaws and appreciative critique but these are the same English word; the distinction is too fine for a flashcard. Clear the redundant list.",
+    "translation": "criticism, critique",
+    "senses": []
+  },
+  {
+    "kellyId": 1220,
+    "decision": "fix",
+    "reason": "Sub-definition 'to critique, to review (critically appraise)' has 'to' embedded — violates bare rule. Fix phrasing.",
+    "translation": "criticize",
+    "senses": [
+      "criticize (point out flaws)",
+      "critique, review (critically appraise)"
+    ]
+  },
+  {
+    "kellyId": 505,
+    "decision": "fix",
+    "reason": "Primary 'crown' is correct for the headwear/symbol sense. But 'krona' (Swedish currency) is a major everyday sense missing from the list. Sub-definition 'the Crown (state)' is correct but 'the' should not appear. Rebuild the list.",
+    "translation": "crown",
+    "senses": [
+      "crown (headwear or symbol)",
+      "krona (Swedish currency)",
+      "Crown (state, government)"
+    ]
+  },
+  {
+    "kellyId": 1010,
+    "decision": "fix",
+    "reason": "Current translation 'krona (Swedish currency)' includes a parenthetical that reads definition-like. The bare translation is 'krona'; parenthetical context belongs in the list. Also the list should note the crown/headwear sense that is missing.",
+    "translation": "krona",
+    "senses": [
+      "krona (Swedish currency)",
+      "krone (Danish/Norwegian currency)",
+      "crown (headwear or symbol)"
+    ]
+  },
+  {
+    "kellyId": 693,
+    "decision": "fix",
+    "reason": "Sub-definitions 'a body (more generally)' nearly restates the primary; 'a field' is marginal/technical. The core sense is simply 'body'. Clear the distracting list.",
+    "translation": "body",
+    "senses": []
+  },
+  {
+    "kellyId": 353,
+    "decision": "fix",
+    "reason": "Current translation 'demand, to forcefully request' has 'to' embedded — violates bare rule. Also 'to forcefully request' is a definition fragment. Fix to bare 'demand, require'.",
+    "translation": "demand, require",
+    "senses": [
+      "demand, require (forcefully)",
+      "claim (cause the death of)"
+    ]
+  },
+  {
+    "kellyId": 815,
+    "decision": "fix",
+    "reason": "Sub-definition 'fun things' is a noun usage, not an adj sense. For pos:adj the real senses are 'fun' and 'funny'. Drop 'fun things'.",
+    "translation": "fun",
+    "senses": [
+      "fun (enjoyable)",
+      "funny (amusing)"
+    ]
+  },
+  {
+    "kellyId": 602,
+    "decision": "fix",
+    "reason": "Sub-definitions are padded — four entries including duplicates of the primary. Compress into distinct senses.",
+    "translation": "culture",
+    "senses": [
+      "culture (customs, way of life)",
+      "culture (arts and high culture)",
+      "a culture (distinct group or civilisation)"
+    ]
+  },
+  {
+    "kellyId": 785,
+    "decision": "fix",
+    "reason": "Sub-definition 'A component of certain games' is definition-like and vague. Rephrase as a clean short gloss.",
+    "translation": "king",
+    "senses": [
+      "king (royal)",
+      "king (chess or cards)"
+    ]
+  },
+  {
+    "kellyId": 100,
+    "decision": "fix",
+    "reason": "Senses list mixes translations and definitions. Clean up to bare glosses with short parentheticals.",
+    "translation": "be able to, can",
+    "senses": [
+      "be able to, can (ability)",
+      "know how to (a skill or language)",
+      "may, might (possibility)",
+      "may, be allowed to (permission)"
+    ]
+  },
+  {
+    "kellyId": 1257,
+    "decision": "fix",
+    "reason": "Primary 'quality' in the 'level of excellence' sense is uncountable. 'A quality, a property' is a distinct countable sense. Mark primary as uncountable.",
+    "translation": "quality",
+    "uncountable": true,
+    "senses": [
+      "quality (level of excellence)",
+      "a quality, a property"
+    ]
+  },
+  {
+    "kellyId": 271,
+    "decision": "fix",
+    "reason": "Current translation 'team, a workgroup' embeds 'a' — violates bare rule.",
+    "translation": "team, workgroup",
+    "senses": []
+  },
+  {
+    "kellyId": 333,
+    "decision": "fix",
+    "reason": "Sub-definitions include 'team (in sports)' which belongs to the other 'lag' entry (ett gender). This entry (en gender) is for law + brine. Remove the misplaced team sense.",
+    "translation": "law",
+    "senses": [
+      "law (body of rules)",
+      "a law (specific regulation)",
+      "brine, pickling liquid"
+    ]
+  },
+  {
+    "kellyId": 1077,
+    "decision": "fix",
+    "reason": "Sub-definition 'legislation (the resulting laws)' is near-identical to the primary. Both senses are captured by 'legislation'. Single meaning — clear the list.",
+    "translation": "legislation",
+    "senses": []
+  },
+  {
+    "kellyId": 193,
+    "decision": "fix",
+    "reason": "Current translation 'country, a land' embeds 'a' — violates bare rule.",
+    "translation": "country, land",
+    "senses": [
+      "country, land (nation)",
+      "land (as opposed to sea)",
+      "countryside, rural area",
+      "plot, patch (of land)"
+    ]
+  },
+  {
+    "kellyId": 326,
+    "decision": "fix",
+    "reason": "Sub-definitions have two near-duplicate 'guide/direct' entries. Rationalise into distinct senses.",
+    "translation": "lead",
+    "senses": [
+      "lead, guide (physically or generally)",
+      "lead (be ahead in competition)",
+      "lead, direct (an organisation)",
+      "be bored"
+    ]
+  },
+  {
+    "kellyId": 1379,
+    "decision": "fix",
+    "reason": "The parenthetical in the translation is helpful for this tricky word (ledamot is not the generic 'member'). Keep it, but simplify slightly. No senses list needed — the archaic 'body part/limb' sense is too marginal to include.",
+    "translation": "member (of a board or parliament)",
+    "senses": []
+  },
+  {
+    "kellyId": 756,
+    "decision": "fix",
+    "reason": "Sub-definition 'race leader' is too narrow — it's just 'leader (in a race)'. Rephrase the list cleanly.",
+    "translation": "leader",
+    "senses": [
+      "leader (person in charge)",
+      "leader (in a race or competition)",
+      "conductor (electrical)"
+    ]
+  },
+  {
+    "kellyId": 532,
+    "decision": "fix",
+    "reason": "Primary 'lead' is the sports/competition sense but 'ledning' in everyday Swedish most commonly means management/leadership of an organisation. Promote 'management, leadership' and keep 'lead' in the list.",
+    "translation": "management, leadership",
+    "senses": [
+      "management, leadership (of an organisation)",
+      "lead (being ahead)",
+      "wire, cable (electrical)",
+      "pipe, pipeline"
+    ]
+  },
+  {
+    "kellyId": 814,
+    "decision": "fix",
+    "reason": "Sub-definitions include 'a game, a pastime' and 'a game, playing' which overlap. Clean up and keep 'deck of cards' as real Swedish sense.",
+    "translation": "play",
+    "senses": [
+      "play (child's play, unstructured)",
+      "a game, activity (specific)",
+      "deck of cards"
+    ]
+  },
+  {
+    "kellyId": 1318,
+    "decision": "fix",
+    "reason": "Sub-definition 'look throughout (a place) for something' is a definition, not a translation. The verb means 'search, look for' — single meaning.",
+    "translation": "search, look for",
+    "senses": []
+  },
+  {
+    "kellyId": 346,
+    "decision": "fix",
+    "reason": "Current translation 'live, to be alive' has 'to' embedded — violates bare rule.",
+    "translation": "live, be alive",
+    "senses": [
+      "live, be alive",
+      "live on, live off (something)",
+      "be rowdy, be noisy"
+    ]
+  },
+  {
+    "kellyId": 254,
+    "decision": "fix",
+    "reason": "Sub-definition 'be in a horizontal position' is a definition of the primary sense 'lie', not a separate meaning. Fold it in. Remaining senses are distinct.",
+    "translation": "lie",
+    "senses": [
+      "lie (be horizontal or be located somewhere)",
+      "be enrolled (at university)",
+      "have sex (with)"
+    ]
+  },
+  {
+    "kellyId": 207,
+    "decision": "fix",
+    "reason": "Current translation 'feel, to sense' has 'to' embedded — violates bare rule.",
+    "translation": "feel, sense",
+    "senses": [
+      "feel, sense",
+      "know (a person)"
+    ]
+  },
+  {
+    "kellyId": 842,
+    "decision": "fix",
+    "reason": "Primary 'love' (mass noun, strong affection) is uncountable. 'A love' (darling/sweetheart) is a distinct countable sense. Mark primary uncountable.",
+    "translation": "love",
+    "uncountable": true,
+    "senses": [
+      "love (strong affection)",
+      "a love (darling, sweetheart)"
+    ]
+  },
+  {
+    "kellyId": 398,
+    "decision": "fix",
+    "reason": "Current translation 'buy, to purchase' has 'to' embedded — violates bare rule.",
+    "translation": "buy, purchase",
+    "senses": [
+      "buy, purchase (goods)",
+      "buy (accept an explanation)"
+    ]
+  },
+  {
+    "kellyId": 521,
+    "decision": "fix",
+    "reason": "Sub-definitions include very marginal senses (sing in choir, backing vocalist). Drop those. Keep the four main everyday senses.",
+    "translation": "drive",
+    "senses": [
+      "drive (a vehicle)",
+      "run (machinery)",
+      "push, shove",
+      "kick out, drive away"
+    ]
+  },
+  {
+    "kellyId": 335,
+    "decision": "fix",
+    "reason": "Current translation 'teach, to instruct' has 'to' embedded — violates bare rule. Also senses list needs cleaning.",
+    "translation": "teach, instruct",
+    "senses": [
+      "teach, instruct (someone)",
+      "learn, study (oneself)",
+      "be said to, supposedly",
+      "be likely to, bound to"
+    ]
+  },
+  {
+    "kellyId": 258,
+    "decision": "fix",
+    "reason": "Current translation 'lay, to put, to place' has 'to' embedded twice — violates bare rule. Core meaning is simple: lay, put, place.",
+    "translation": "lay, put, place",
+    "senses": []
+  },
+  {
+    "kellyId": 339,
+    "decision": "fix",
+    "reason": "Sub-definitions include 'to not take away with oneself but leave as available for others' which is a definition, not a translation. Clean the list.",
+    "translation": "leave",
+    "senses": [
+      "leave, drop off (deposit)",
+      "leave, hand over (transfer responsibility)",
+      "leave, depart from"
+    ]
+  },
+  {
+    "kellyId": 1239,
+    "decision": "fix",
+    "reason": "'Apposite' is a rare formal word adding little value for learners. Drop it.",
+    "translation": "suitable, appropriate",
+    "senses": []
+  },
+  {
+    "kellyId": 627,
+    "decision": "fix",
+    "reason": "Sub-definitions list 'a link (in a chain)' as primary and 'a link (connection)' and 'a chain' as separate senses, but chain = many links, and these are overlapping. Rationalise.",
+    "translation": "link",
+    "senses": [
+      "link (in a chain or web)",
+      "link, connection (abstract)",
+      "chain"
+    ]
+  },
+  {
+    "kellyId": 572,
+    "decision": "fix",
+    "reason": "Sub-definition 'to link (have or provide with a hyperlink)' restates the primary with 'to' embedded. Both senses of 'länka' are just 'link'. Single meaning — clear the list.",
+    "translation": "link",
+    "senses": []
+  },
+  {
+    "kellyId": 974,
+    "decision": "fix",
+    "reason": "Current translation 'song, a tune, a track, a musical piece' embeds 'a' and is over-long. Shorten to 'song, tune, track'.",
+    "translation": "song, tune, track",
+    "senses": [
+      "song, tune, track (music)",
+      "noise, ruckus (hullabaloo)"
+    ]
+  },
+  {
+    "kellyId": 212,
+    "decision": "fix",
+    "reason": "Primary 'make sound' is awkward phrasing. In Swedish 'låta' is most commonly used as 'sound' (låter bra = sounds good) and 'let, allow' (låt mig = let me). These are co-equal everyday senses; use semicolon form.",
+    "translation": "sound; let, allow",
+    "senses": [
+      "sound (produce or seem a certain sound)",
+      "let, allow (permit)"
+    ]
+  },
+  {
+    "kellyId": 909,
+    "decision": "fix",
+    "reason": "Sub-definition 'an opportunity (from notion of an (implied good) situation)' is definition-like. Shorten it. Also primary 'position' alone is slightly underspecific — 'position, location' captures the main sense better.",
+    "translation": "position, location",
+    "senses": [
+      "position, location (place or setting)",
+      "situation, state (of affairs)",
+      "opportunity (a favourable situation)"
+    ]
+  },
+  {
+    "kellyId": 610,
+    "decision": "fix",
+    "reason": "Primary 'light' alone misses that 'lätt' very commonly means 'easy' in Swedish. These two meanings (light in weight, easy) are nearly co-equal for this word. Use semicolon form.",
+    "translation": "light; easy",
+    "senses": [
+      "light (low weight)",
+      "easy, not difficult",
+      "light, low-fat",
+      "light, low-alcohol"
+    ]
+  },
+  {
+    "kellyId": 1056,
+    "decision": "fix",
+    "reason": "Sub-definition 'reward' should be in the list, and wiktionary lists it first (suggesting it may be the etymological primary), but in modern Swedish 'lön' overwhelmingly means salary/wage. Keep salary as primary, reward as secondary.",
+    "translation": "salary, wage",
+    "senses": [
+      "salary, wage, pay",
+      "reward (for a deed)"
+    ]
+  },
+  {
+    "kellyId": 851,
+    "decision": "fix",
+    "reason": "Sub-definitions include redundant near-duplicates and the wiktionary sense 'release, set free' is missing. Clean up.",
+    "translation": "solve",
+    "senses": [
+      "solve (a problem)",
+      "work out, resolve itself (of a problem)",
+      "dissolve (a substance)",
+      "loosen, release (something bound)"
+    ]
+  },
+  {
+    "kellyId": 970,
+    "decision": "fix",
+    "reason": "Sub-definition 'ruling majority (coalition in parliament or council)' is definition-like. Shorten it.",
+    "translation": "majority",
+    "senses": [
+      "majority (more than half)",
+      "ruling coalition (in parliament or council)"
+    ]
+  },
+  {
+    "kellyId": 114,
+    "decision": "fix",
+    "reason": "Sub-definition 'one, you (impersonal pronoun)' restates the primary as synonyms, not a different sense. But the primary 'people in general' alone doesn't show learners how to render it in English — adding 'one, you' to the primary is more helpful. Clear the sub-definition list.",
+    "translation": "one, you, people (impersonal)",
+    "senses": []
+  },
+  {
+    "kellyId": 919,
+    "decision": "fix",
+    "reason": "Sub-definitions have near-duplicate entries. Rationalise into clean distinct senses.",
+    "translation": "ground",
+    "senses": [
+      "ground (surface of the earth)",
+      "land, ground (an area or plot)",
+      "ground (distance or progress, figurative)"
+    ]
+  },
+  {
+    "kellyId": 612,
+    "decision": "fix",
+    "reason": "Sub-definitions list four glosses all translating as 'market' in different contexts. Compress into three meaningful sense groupings.",
+    "translation": "market",
+    "senses": [
+      "market (place or system for trading)",
+      "market (group of customers or economic area)",
+      "market (organised fair or event)"
+    ]
+  },
+  {
+    "kellyId": 432,
+    "decision": "fix",
+    "reason": "Sub-definitions include pulp/paper manufacturing which is very marginal. The colloquial 'a lot of' sense ('en massa saker') is very common and should be kept. Rationalise.",
+    "translation": "mass",
+    "senses": [
+      "mass (substance or physical property)",
+      "a mass, crowd (of people)",
+      "a lot of, loads of (colloquial)"
+    ]
+  },
+  {
+    "kellyId": 940,
+    "decision": "fix",
+    "reason": "Primary 'material' in the substance sense is uncountable. 'A matter, a subject' is a distinct countable sense. Mark primary uncountable.",
+    "translation": "material",
+    "uncountable": true,
+    "senses": [
+      "material (substance, stuff)",
+      "a matter, a subject (of study)"
+    ]
+  },
+  {
+    "kellyId": 430,
+    "decision": "fix",
+    "reason": "Sub-definition 'during the same time that' is a definition of 'while', not a separate sense. Single meaning — clear the list.",
+    "translation": "while",
+    "senses": []
+  },
+  {
+    "kellyId": 1300,
+    "decision": "fix",
+    "reason": "recover pilot fix: archaic 'fief, fiefdom' was primary; the real everyday meaning is the administrative 'county'",
+    "translation": "county",
+    "senses": [
+      "county (Swedish administrative region)",
+      "fief, fiefdom (historical)"
+    ]
+  }
+]

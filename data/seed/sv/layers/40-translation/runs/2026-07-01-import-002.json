@@ -1,0 +1,469 @@
+[
+  {
+    "kellyId": 153,
+    "decision": "fix",
+    "reason": "subDef 'at that place' is redundant padding; 'there' is a single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 540,
+    "decision": "fix",
+    "reason": "subDef 'thereagainst' is archaic and useless for learners; the primary gloss is already complete",
+    "senses": []
+  },
+  {
+    "kellyId": 1021,
+    "decision": "fix",
+    "reason": "primary 'for the reason that' is a definition; 'because, since, as' is the correct learner-facing gloss",
+    "translation": "because, since, as",
+    "senses": []
+  },
+  {
+    "kellyId": 511,
+    "decision": "fix",
+    "reason": "subDefs are definition-like contextual notes, not distinct meanings; 'thereby' covers all uses",
+    "senses": []
+  },
+  {
+    "kellyId": 677,
+    "decision": "fix",
+    "reason": "primary 'things dying' is wrong/odd; 'death' is the correct translation",
+    "translation": "death",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1031,
+    "decision": "fix",
+    "reason": "primary has embedded 'to'; cleaned phrasing and trimmed idiomatic 'imagine my surprise' sense which is too marginal",
+    "translation": "sentence, judge",
+    "senses": [
+      "sentence, judge (legally)",
+      "deem, judge (form an opinion)",
+      "referee, umpire (sports)"
+    ]
+  },
+  {
+    "kellyId": 1307,
+    "decision": "fix",
+    "reason": "subDef 'a doorway' has embedded article; 'doorway' as secondary sense is marginal but kept concisely",
+    "senses": [
+      "door",
+      "doorway"
+    ]
+  },
+  {
+    "kellyId": 1323,
+    "decision": "fix",
+    "reason": "subDef had embedded article; cleaned sense list",
+    "senses": [
+      "oath (solemn pledge)",
+      "oath, swear word (curse)"
+    ]
+  },
+  {
+    "kellyId": 722,
+    "decision": "fix",
+    "reason": "subDef 'special effect (artistic)' is imprecise; also cleaned list to remove embedded articles",
+    "senses": [
+      "effect (result)",
+      "effect, detail (artistic impression)",
+      "power (physics)",
+      "belongings, effects (personal property)"
+    ]
+  },
+  {
+    "kellyId": 999,
+    "decision": "fix",
+    "reason": "'effektiv' means both effective and efficient; the current gloss omits 'effective' which is the more common everyday sense",
+    "translation": "effective, efficient",
+    "senses": []
+  },
+  {
+    "kellyId": 169,
+    "decision": "fix",
+    "reason": "subDefs contain definition-like entries; cleaned to concise translations",
+    "senses": [
+      "after (time or sequence)",
+      "for (seeking, in pursuit of)",
+      "by (one by one, one after another)"
+    ]
+  },
+  {
+    "kellyId": 242,
+    "decision": "fix",
+    "reason": "senses list was missing the primary meaning; rebuilt complete list",
+    "senses": [
+      "own",
+      "peculiar, odd, eccentric"
+    ]
+  },
+  {
+    "kellyId": 415,
+    "decision": "fix",
+    "reason": "trailing definition fragment '\"in actual reality\"' is clutter; 'actually, really' is the clean gloss",
+    "translation": "actually, really",
+    "senses": []
+  },
+  {
+    "kellyId": 659,
+    "decision": "fix",
+    "reason": "'own; one's own' uses semicolon format for what is a single meaning with a paraphrase; 'own' alone suffices",
+    "translation": "own",
+    "senses": []
+  },
+  {
+    "kellyId": 1180,
+    "decision": "fix",
+    "reason": "subDef 'to yield an echo' is a paraphrase of the primary, not a distinct meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 198,
+    "decision": "fix",
+    "reason": "'electric current or power' is padding; 'electricity' alone is the clean primary. subDef about 'clipping of...' is metalinguistic noise",
+    "translation": "electricity",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 782,
+    "decision": "fix",
+    "reason": "embedded article 'a pupil' in translation; bare form required",
+    "translation": "student, pupil",
+    "senses": []
+  },
+  {
+    "kellyId": 126,
+    "decision": "fix",
+    "reason": "'nor' is a real secondary meaning; list was missing from output",
+    "senses": [
+      "or",
+      "nor"
+    ]
+  },
+  {
+    "kellyId": 884,
+    "decision": "fix",
+    "reason": "primary 'meanwhile, during the same time' is the archaic/literal sense; modern everyday meaning is 'however'",
+    "translation": "however",
+    "senses": []
+  },
+  {
+    "kellyId": 426,
+    "decision": "fix",
+    "reason": "subDef is identical to the translation; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 743,
+    "decision": "fix",
+    "reason": "'only, alone, just, solely' is four synonyms for one meaning; 'only, solely' is cleaner",
+    "translation": "only, solely",
+    "senses": []
+  },
+  {
+    "kellyId": 376,
+    "decision": "fix",
+    "reason": "subDefs are metalinguistic notes ('masculine form ende') and a usage note, not distinct meanings",
+    "senses": []
+  },
+  {
+    "kellyId": 1149,
+    "decision": "fix",
+    "reason": "subDef 'capacity to do work' is a physics definition, not a learner-facing translation; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 1181,
+    "decision": "fix",
+    "reason": "subDef 'of or pertaining to England' is a definition fragment; cleaned to concise senses",
+    "senses": [
+      "English (of England or the English language)",
+      "British (loosely, of Great Britain)"
+    ]
+  },
+  {
+    "kellyId": 723,
+    "decision": "fix",
+    "reason": "subDefs had embedded articles; cleaned list",
+    "senses": [
+      "unit (standard measure)",
+      "unit (organized group)",
+      "unit (item sold singly)",
+      "unity (state of being united)"
+    ]
+  },
+  {
+    "kellyId": 589,
+    "decision": "fix",
+    "reason": "subDef 'simple (not complex)' is redundant with primary; 'single (not double)' is the real distinct meaning",
+    "senses": [
+      "simple, easy",
+      "single (not double)"
+    ]
+  },
+  {
+    "kellyId": 1278,
+    "decision": "fix",
+    "reason": "'enormous, immense, vast' is three synonyms for one meaning; 'enormous' alone is sufficient",
+    "translation": "enormous",
+    "senses": []
+  },
+  {
+    "kellyId": 528,
+    "decision": "fix",
+    "reason": "two distinct meanings; list was missing",
+    "senses": [
+      "alone",
+      "lonely"
+    ]
+  },
+  {
+    "kellyId": 643,
+    "decision": "fix",
+    "reason": "primary 'regarded separately' is a definition; 'individual, private' are the clean learner-facing translations",
+    "translation": "individual, private",
+    "senses": [
+      "individual, separate",
+      "private (as opposed to public or state)"
+    ]
+  },
+  {
+    "kellyId": 315,
+    "decision": "fix",
+    "reason": "subDefs cleaned; formal singular sense is marginal in modern Swedish and simplified",
+    "senses": [
+      "you (plural object)",
+      "your, yours (plural)"
+    ]
+  },
+  {
+    "kellyId": 772,
+    "decision": "fix",
+    "reason": "two distinct meanings; list was missing",
+    "senses": [
+      "experience",
+      "expertise"
+    ]
+  },
+  {
+    "kellyId": 1054,
+    "decision": "fix",
+    "reason": "third Wiktionary sense (introducing a statement) is idiomatic/minor; cleaned to two real senses",
+    "senses": [
+      "admit, acknowledge",
+      "recognize (formally)"
+    ]
+  },
+  {
+    "kellyId": 1105,
+    "decision": "fix",
+    "reason": "two distinct meanings; list was missing",
+    "senses": [
+      "replace",
+      "compensate"
+    ]
+  },
+  {
+    "kellyId": 1236,
+    "decision": "fix",
+    "reason": "two distinct meanings; list was missing",
+    "senses": [
+      "replacement",
+      "compensation, payment"
+    ]
+  },
+  {
+    "kellyId": 522,
+    "decision": "fix",
+    "reason": "two distinct meanings; list was missing",
+    "senses": [
+      "label, tag",
+      "etiquette"
+    ]
+  },
+  {
+    "kellyId": 8,
+    "decision": "fix",
+    "reason": "subDef 'Europa (moon of Jupiter)' is too marginal for a vocabulary learner; Europa as a Greek mythological figure is also minor",
+    "senses": []
+  },
+  {
+    "kellyId": 1397,
+    "decision": "fix",
+    "reason": "'hypothetical' is a third synonym adding little; 'possible, potential' is cleaner",
+    "translation": "possible, potential",
+    "senses": []
+  },
+  {
+    "kellyId": 1231,
+    "decision": "fix",
+    "reason": "subDefs are garbled/redundant (repeating 'evolution'); single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 1256,
+    "decision": "fix",
+    "reason": "primary 'printer, the manager of a print shop' is an archaic/rare sense; 'factor' is the everyday meaning",
+    "translation": "factor",
+    "senses": [
+      "factor (contributing cause or element)",
+      "factor (operand in multiplication)",
+      "printer, print-shop manager (archaic)"
+    ]
+  },
+  {
+    "kellyId": 263,
+    "decision": "fix",
+    "reason": "senses cleaned to remove embedded articles and definition-like phrasing",
+    "senses": [
+      "fall (act of falling)",
+      "fall, downfall (loss of greatness)",
+      "slope, waterfall",
+      "case (legal)"
+    ]
+  },
+  {
+    "kellyId": 667,
+    "decision": "fix",
+    "reason": "subDef phrasing cleaned",
+    "senses": [
+      "fall",
+      "fall, die (in battle)"
+    ]
+  },
+  {
+    "kellyId": 1051,
+    "decision": "fix",
+    "reason": "two distinct meanings; list was missing",
+    "senses": [
+      "fantastic, amazing",
+      "fantastic, unreal"
+    ]
+  },
+  {
+    "kellyId": 861,
+    "decision": "fix",
+    "reason": "embedded 'to' in 'go, to travel'; bare form required",
+    "translation": "go, travel",
+    "senses": []
+  },
+  {
+    "kellyId": 1103,
+    "decision": "fix",
+    "reason": "two distinct meanings; list was missing",
+    "senses": [
+      "even though",
+      "but"
+    ]
+  },
+  {
+    "kellyId": 1152,
+    "decision": "fix",
+    "reason": "cleaned senses list; 'although, but' consolidated",
+    "senses": [
+      "caught, stuck",
+      "fixed, firm",
+      "although, but"
+    ]
+  },
+  {
+    "kellyId": 1343,
+    "decision": "fix",
+    "reason": "cleaned senses list phrasing",
+    "senses": [
+      "caught, captured",
+      "fixed, firm",
+      "solid (not liquid)"
+    ]
+  },
+  {
+    "kellyId": 1390,
+    "decision": "fix",
+    "reason": "embedded 'to' in 'establish, to determine'; bare form required",
+    "translation": "establish, determine",
+    "senses": [
+      "establish, determine",
+      "fix, set (decide finally)"
+    ]
+  },
+  {
+    "kellyId": 637,
+    "decision": "fix",
+    "reason": "built complete sense list; 'to be missing' sense from Wiktionary is too marginal",
+    "senses": [
+      "grasp, take (hold)",
+      "make (a decision), take (a fancy)",
+      "understand, comprehend"
+    ]
+  },
+  {
+    "kellyId": 897,
+    "decision": "fix",
+    "reason": "embedded article 'a mistake' in translation; primary should be 'mistake, error' as a bare noun",
+    "translation": "mistake, error",
+    "senses": []
+  },
+  {
+    "kellyId": 11,
+    "decision": "fix",
+    "reason": "subDef 'the number 50' is redundant with 'fifty'",
+    "senses": []
+  },
+  {
+    "kellyId": 428,
+    "decision": "fix",
+    "reason": "reordered senses so movie (most common learner meaning) comes first; cleaned phrasing",
+    "senses": [
+      "movie, film",
+      "film (thin layer)",
+      "film (photographic)"
+    ]
+  },
+  {
+    "kellyId": 582,
+    "decision": "fix",
+    "reason": "rebuilt sense list; 'of high social standing' and 'posh' consolidated; subDef 'nice, good' is redundant with primary",
+    "senses": [
+      "nice, fine, pretty",
+      "fine, fancy",
+      "posh, upper-class"
+    ]
+  },
+  {
+    "kellyId": 1250,
+    "decision": "fix",
+    "reason": "'pertaining to finance' is a definition fragment; 'financial' alone is sufficient",
+    "translation": "financial",
+    "senses": []
+  },
+  {
+    "kellyId": 136,
+    "decision": "fix",
+    "reason": "embedded 'to' in 'find, to locate, to discover'; bare form required; cleaned and trimmed marginal senses",
+    "translation": "find, locate",
+    "senses": [
+      "find, locate, discover",
+      "find (consider to be)",
+      "exist",
+      "find oneself (in a situation)"
+    ]
+  },
+  {
+    "kellyId": 227,
+    "decision": "fix",
+    "reason": "'fler' means 'more (in number)' only; 'and most' conflates it with 'flest' which is a separate word",
+    "translation": "more (in number)",
+    "senses": []
+  },
+  {
+    "kellyId": 1089,
+    "decision": "fix",
+    "reason": "cleaned senses list; 'several, (at least) more than one' is a usage note rather than a distinct meaning",
+    "senses": [
+      "plural",
+      "majority, the greater number"
+    ]
+  }
+]

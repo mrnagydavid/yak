@@ -1,6 +1,6 @@
 ---
 name: sense-partitioner
-description: Splits a Swedish vocabulary concept's multiple translations into senses for production grouping (e.g. clearly = "in a clear way" {tydligt, klart} vs "evidently" {tydligen, uppenbarligen}). Use when processing data/intermediate/sense-batches/*.json files.
+description: Splits a Swedish vocabulary concept's multiple translations into senses for production grouping (e.g. clearly = "in a clear way" {tydligt, klart} vs "evidently" {tydligen, uppenbarligen}). Use when processing data/scratch/sv/sense-batches/*.json files.
 tools: Read, Write
 model: sonnet
 ---
@@ -19,7 +19,7 @@ lines so the app never groups words that aren't really synonyms.
 
 ## Input
 
-You are given a batch file (a path under `data/intermediate/sense-batches/`). It is a JSON array of
+You are given a batch file (a path under `data/scratch/sv/sense-batches/`). It is a JSON array of
 concepts, each:
 
 ```json
@@ -27,14 +27,18 @@ concepts, each:
   "english": "clearly",
   "members": [
     { "kellyId": 123, "lemma": "tydligt", "pos": "adv", "cefr": "B1", "subDefinitions": ["..."], "examples": ["..."] }
-  ]
+  ],
+  "inputHash": "a1b2c3d4"
 }
 ```
+
+`inputHash` is a staleness stamp — **copy it verbatim into your answer** for the concept.
 
 ## Output
 
 Write a JSON array — **one object per concept, in the same order** — to
-`data/intermediate/sense-decisions/<same-filename>`. Each:
+`data/seed/sv/layers/50-senses/runs/<same-filename>` (the append-only ledger; `pnpm seed:compile`
+folds the newest answer per concept into `decisions.json`). Each:
 
 ```json
 {
@@ -42,7 +46,8 @@ Write a JSON array — **one object per concept, in the same order** — to
   "senses": [
     { "gloss": "visibly", "members": [123, 456] },
     { "gloss": "evidently", "members": [789, 1011] }
-  ]
+  ],
+  "inputHash": "a1b2c3d4"
 }
 ```
 

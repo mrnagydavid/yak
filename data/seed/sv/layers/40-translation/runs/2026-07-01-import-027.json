@@ -1,0 +1,327 @@
+[
+  {
+    "kellyId": 2014,
+    "decision": "fix",
+    "reason": "welfare is uncountable",
+    "translation": "welfare",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2106,
+    "decision": "fix",
+    "reason": "'greet welcome' is clumsy; 'welcome' covers both senses (greet and be happy about) — single clear translation",
+    "translation": "welcome",
+    "senses": []
+  },
+  {
+    "kellyId": 1744,
+    "decision": "fix",
+    "reason": "list contains noise ('way' as colloquial alt of 'på något sätt' is irrelevant); cleaned to meaningful senses only",
+    "translation": "left",
+    "senses": ["left (direction)", "the left (politics)"]
+  },
+  {
+    "kellyId": 2790,
+    "decision": "fix",
+    "reason": "'to appreciate, to like' has 'to' embedded; two distinct senses: appreciate vs. appraise/assess",
+    "translation": "value, appreciate",
+    "senses": ["value, appreciate, like", "assess, appraise (determine monetary value)"]
+  },
+  {
+    "kellyId": 2735,
+    "decision": "fix",
+    "reason": "dignity is uncountable; 'worthiness' is a near-synonym, not a distinct sense",
+    "translation": "dignity",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2175,
+    "decision": "fix",
+    "reason": "spurious 'c' and 'n' suffixes from Wiktionary in translation and list; cleaned",
+    "translation": "heat, warmth",
+    "uncountable": true,
+    "senses": ["heat, warmth (temperature)", "warmth (emotional)", "heat, energy (physics)"]
+  },
+  {
+    "kellyId": 2579,
+    "decision": "fix",
+    "reason": "'to safeguard, to defend' have 'to' embedded; single meaning, cleaned",
+    "translation": "protect, defend, safeguard",
+    "senses": []
+  },
+  {
+    "kellyId": 2194,
+    "decision": "fix",
+    "reason": "sub-defs are definitional restatements, not distinct meanings; single meaning word",
+    "translation": "growing, increasing",
+    "senses": []
+  },
+  {
+    "kellyId": 2453,
+    "decision": "fix",
+    "reason": "'World Wide Web' is the formal name, not the everyday translation; 'web' is what learners need",
+    "translation": "web",
+    "senses": ["the web (World Wide Web)", "website (short for webbplats)"]
+  },
+  {
+    "kellyId": 1628,
+    "decision": "fix",
+    "reason": "embedded 'a' in 'a demand'; bare translation needed",
+    "translation": "requirement, demand",
+    "senses": []
+  },
+  {
+    "kellyId": 1738,
+    "decision": "fix",
+    "reason": "'extremely, very' is the dominant everyday sense of ytterst; spatial sense is secondary",
+    "translation": "extremely, very",
+    "senses": ["extremely, very", "outermost, farthest out"]
+  },
+  {
+    "kellyId": 2088,
+    "decision": "fix",
+    "reason": "embedded 'an' in 'an expression'; bare translation needed",
+    "translation": "statement, expression",
+    "senses": []
+  },
+  {
+    "kellyId": 2007,
+    "decision": "fix",
+    "reason": "'kept outside' is clunky and adds nothing over 'outer, external'",
+    "translation": "outer, external",
+    "senses": []
+  },
+  {
+    "kellyId": 2804,
+    "decision": "fix",
+    "reason": "anxiety is uncountable; secondary sense 'deep, painful regret' is valid but a definitional phrase — better as 'anguish, dread'",
+    "translation": "anxiety",
+    "uncountable": true,
+    "senses": ["anxiety, anguish", "deep regret, remorse"]
+  },
+  {
+    "kellyId": 1805,
+    "decision": "fix",
+    "reason": "embedded 'to' in 'to accomplish'",
+    "translation": "achieve, accomplish",
+    "senses": []
+  },
+  {
+    "kellyId": 2628,
+    "decision": "fix",
+    "reason": "'refind' is not natural English; 'find again' or 'rediscover' is correct",
+    "translation": "find again, rediscover",
+    "senses": []
+  },
+  {
+    "kellyId": 1527,
+    "decision": "fix",
+    "reason": "embedded 'to' in 'to come back'",
+    "translation": "return, come back",
+    "senses": ["return, come back", "recur"]
+  },
+  {
+    "kellyId": 2496,
+    "decision": "fix",
+    "reason": "sub-def 'not faked or counterfeit' is a definition, not a translation; list cleaned to distinct senses",
+    "translation": "genuine, authentic",
+    "senses": ["genuine, authentic", "proper, pure", "married (in compounds, e.g. äkta make)"]
+  },
+  {
+    "kellyId": 1630,
+    "decision": "fix",
+    "reason": "embedded 'a field of grass' is a definition; 'meadow' alone is sufficient",
+    "translation": "meadow",
+    "senses": []
+  },
+  {
+    "kellyId": 2121,
+    "decision": "fix",
+    "reason": "sub-def 'an objectification of praiseworthiness' is a definition; cleared",
+    "translation": "honor, glory",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1731,
+    "decision": "fix",
+    "reason": "sub-defs 'scrupulous' and 'honest; true' are near-synonyms, not distinct senses; single meaning",
+    "translation": "honest",
+    "senses": []
+  },
+  {
+    "kellyId": 1972,
+    "decision": "fix",
+    "reason": "embedded 'an' and 'a' in sub-translations; 'blink of an eye' is a definition phrase",
+    "translation": "moment, instant",
+    "senses": []
+  },
+  {
+    "kellyId": 2611,
+    "decision": "fix",
+    "reason": "primary sense is countable/uncountable depending on usage; list had 'a feast' which is archaic/marginal",
+    "translation": "beer",
+    "senses": ["beer (the drink)", "beer, a beer (a serving or type)"]
+  },
+  {
+    "kellyId": 2717,
+    "decision": "fix",
+    "reason": "openness is uncountable",
+    "translation": "openness",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2137,
+    "decision": "fix",
+    "reason": "jellyfish sense is too marginal; list cleaned to the two common senses",
+    "translation": "ear",
+    "senses": ["ear (body part)", "handle (of a cup or mug)"]
+  },
+  {
+    "kellyId": 2096,
+    "decision": "fix",
+    "reason": "list item 'over the goal' is noise; cleaned to meaningful senses",
+    "translation": "over",
+    "senses": ["over, above", "over, across", "over (more than)", "over, transferred"]
+  },
+  {
+    "kellyId": 2728,
+    "decision": "fix",
+    "reason": "'altogether' is not accurate; 'över huvud taget' means 'at all' (e.g. 'kan du simma?' → 'can you swim at all?')",
+    "translation": "at all",
+    "senses": []
+  },
+  {
+    "kellyId": 1802,
+    "decision": "fix",
+    "reason": "embedded 'a' in 'a contract'",
+    "translation": "agreement, contract",
+    "senses": []
+  },
+  {
+    "kellyId": 2545,
+    "decision": "fix",
+    "reason": "'move from one point to another' is a definition; 'transfer, transmit' is the natural translation",
+    "translation": "transfer, transmit",
+    "senses": []
+  },
+  {
+    "kellyId": 2390,
+    "decision": "fix",
+    "reason": "'ravishment' is archaic; list cleaned",
+    "translation": "abuse, assault",
+    "uncountable": true,
+    "senses": ["abuse, assault, violation", "sexual assault (sexuellt övergrepp)"]
+  },
+  {
+    "kellyId": 2503,
+    "decision": "fix",
+    "reason": "embedded 'to' in 'to surpass'; list cleaned to natural bare translations",
+    "translation": "exceed, surpass",
+    "senses": ["exceed, surpass", "transition, turn into (another state)", "move on, proceed (to something else)"]
+  },
+  {
+    "kellyId": 1928,
+    "decision": "fix",
+    "reason": "'altogether' is not quite right for överhuvudtaget; like its twin phrase, primary meaning is 'at all'",
+    "translation": "at all, altogether",
+    "senses": []
+  },
+  {
+    "kellyId": 2441,
+    "decision": "fix",
+    "reason": "embedded 'to' in 'to deliver'",
+    "translation": "hand over, deliver",
+    "senses": ["hand over, deliver", "surrender, give oneself up"]
+  },
+  {
+    "kellyId": 2414,
+    "decision": "fix",
+    "reason": "sub-def is a definition of 'translate', not a distinct sense; cleared",
+    "translation": "translate",
+    "senses": []
+  },
+  {
+    "kellyId": 2383,
+    "decision": "fix",
+    "reason": "surveillance is uncountable",
+    "translation": "surveillance, monitoring",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2366,
+    "decision": "fix",
+    "reason": "'weigh over' is not natural English; 'weigh up' or 'consider' is correct; two distinct senses",
+    "translation": "consider, weigh up",
+    "senses": ["consider, weigh up (evaluate options)", "outweigh, predominate"]
+  },
+  {
+    "kellyId": 2033,
+    "decision": "fix",
+    "reason": "sub-def is a definition phrase; two senses: exercise (a task) and practice (skill development)",
+    "translation": "exercise",
+    "senses": ["exercise, drill (a task or activity)", "practice (repetition to improve a skill)"]
+  },
+  {
+    "kellyId": 3210,
+    "decision": "fix",
+    "reason": "'abort' as a noun is not standard English; 'abortion' is the correct primary; 'miscarriage' is an important secondary sense",
+    "translation": "abortion",
+    "senses": ["abortion (induced)", "miscarriage (spontaneous)"]
+  },
+  {
+    "kellyId": 3030,
+    "decision": "fix",
+    "reason": "administration is uncountable in primary sense; list cleaned",
+    "translation": "administration",
+    "uncountable": true,
+    "senses": ["administration (act of managing)", "administration, governing body", "administration (a specific government, e.g. the Biden administration)", "administration (of medicine)"]
+  },
+  {
+    "kellyId": 3854,
+    "decision": "fix",
+    "reason": "second Wiktionary sense (wartime non-pacifist) is historical/marginal; single clean meaning",
+    "translation": "activist",
+    "senses": []
+  },
+  {
+    "kellyId": 3134,
+    "decision": "fix",
+    "reason": "'critical' is slightly off; 'akut' primarily means urgent/acute; 'acute, urgent' is the core translation",
+    "translation": "acute, urgent",
+    "senses": ["acute, urgent (requiring immediate action)", "acute (medical)", "acute (of an accent)"]
+  },
+  {
+    "kellyId": 3561,
+    "decision": "fix",
+    "reason": "'all people' reads as a definition; 'all of them' is more natural for allihop which refers to a specific group",
+    "translation": "everyone, all of them",
+    "senses": []
+  },
+  {
+    "kellyId": 3933,
+    "decision": "fix",
+    "reason": "'steadily' is inaccurate; alltjämt means 'still, as before'",
+    "translation": "still, as before",
+    "senses": []
+  },
+  {
+    "kellyId": 3128,
+    "decision": "fix",
+    "reason": "breathing/respiration is uncountable",
+    "translation": "breathing, respiration",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3791,
+    "decision": "fix",
+    "reason": "embedded 'a' in 'a presentation, a lecture'",
+    "translation": "speech, presentation, lecture",
+    "senses": []
+  }
+]

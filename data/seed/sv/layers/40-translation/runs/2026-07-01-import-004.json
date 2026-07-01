@@ -1,0 +1,474 @@
+[
+  {
+    "kellyId": 1161,
+    "decision": "fix",
+    "reason": "sub-defs had embedded articles; 'hold' and 'grip' overlap so merged; list cleaned",
+    "translation": "grip, hold",
+    "senses": [
+      "grip, hold (physical)",
+      "approach, technique (way of doing something)"
+    ]
+  },
+  {
+    "kellyId": 518,
+    "decision": "fix",
+    "reason": "'ground, land' is not the primary everyday meaning; 'foundation, basis' dominates (på grund av, grunderna); senses rebuilt and de-definition-ified",
+    "translation": "foundation, basis",
+    "senses": [
+      "foundation, basis (physical or abstract)",
+      "reason, cause",
+      "ground, land",
+      "reef, shallow (in water)"
+    ]
+  },
+  {
+    "kellyId": 662,
+    "decision": "fix",
+    "reason": "'bound, boundary' is stilted; 'border, boundary' is the natural everyday gloss; senses cleaned of definition text",
+    "translation": "border, boundary",
+    "senses": [
+      "border, boundary",
+      "limit, restriction"
+    ]
+  },
+  {
+    "kellyId": 847,
+    "decision": "fix",
+    "reason": "senses were definition-like with embedded articles; cleaned to bare translations",
+    "senses": [
+      "god (deity)",
+      "God (the Christian God)"
+    ]
+  },
+  {
+    "kellyId": 144,
+    "decision": "fix",
+    "reason": "sub-defs had 'to' prefixes; removed them so list is bare",
+    "senses": [
+      "walk",
+      "go, leave",
+      "go; be given or allotted",
+      "go; extend between two points",
+      "go; lead (to)",
+      "go; elapse (of time)"
+    ]
+  },
+  {
+    "kellyId": 218,
+    "decision": "fix",
+    "reason": "'walking' is not the primary everyday sense; 'gång' most commonly means 'time/occasion' (en gång = once); that sense was missing entirely",
+    "translation": "time, occasion",
+    "senses": [
+      "time, occasion (en gång = once)",
+      "walk, walking",
+      "gait, manner of walking",
+      "path, walkway",
+      "aisle, corridor, passage"
+    ]
+  },
+  {
+    "kellyId": 297,
+    "decision": "fix",
+    "reason": "sub-defs had 'to' prefixes; removed; 'to geld' dropped as unrelated archaic homonym",
+    "senses": [
+      "be valid, apply",
+      "concern, be about"
+    ]
+  },
+  {
+    "kellyId": 1059,
+    "decision": "fix",
+    "reason": "sub-def was definition-like restatement of the main translation; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 721,
+    "decision": "fix",
+    "reason": "translation had embedded 'to' prefix; reordered for natural English",
+    "translation": "end up, land",
+    "senses": []
+  },
+  {
+    "kellyId": 394,
+    "decision": "fix",
+    "reason": "sub-def had embedded article; cleaned",
+    "senses": [
+      "hand",
+      "hand (set of cards)"
+    ]
+  },
+  {
+    "kellyId": 278,
+    "decision": "fix",
+    "reason": "sub-defs had 'to' prefixes; removed",
+    "senses": [
+      "shop, buy",
+      "act, take action",
+      "be about, deal with"
+    ]
+  },
+  {
+    "kellyId": 695,
+    "decision": "fix",
+    "reason": "translation had embedded article 'a deed'; senses had definition-like glosses; cleaned",
+    "translation": "act, deed",
+    "senses": [
+      "act, deed",
+      "document",
+      "action",
+      "plot, storyline (fiction)",
+      "shopping"
+    ]
+  },
+  {
+    "kellyId": 1027,
+    "decision": "fix",
+    "reason": "translation had embedded 'to' prefix",
+    "translation": "handle, manage",
+    "senses": []
+  },
+  {
+    "kellyId": 1162,
+    "decision": "fix",
+    "reason": "sub-defs 'An expression of intensity' and 'A filler' are definition-like; dropped as marginal; kept 'bye' as real distinct everyday sense",
+    "senses": [
+      "hi, hello",
+      "bye"
+    ]
+  },
+  {
+    "kellyId": 22,
+    "decision": "fix",
+    "reason": "translation 'whole, the whole' is redundant phrasing; sub-def 'to heal' belongs to a different lemma (verb); as a noun entry, single meaning",
+    "translation": "whole",
+    "senses": []
+  },
+  {
+    "kellyId": 1038,
+    "decision": "fix",
+    "reason": "in modern Swedish 'helg' primarily means 'weekend'; 'holiday' is secondary",
+    "translation": "weekend",
+    "senses": [
+      "weekend",
+      "holiday, public holiday"
+    ]
+  },
+  {
+    "kellyId": 392,
+    "decision": "fix",
+    "reason": "sub-def was a grammatical usage note, not a meaning; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 714,
+    "decision": "fix",
+    "reason": "sub-def was definition-like; rebuilt as clean sense pair",
+    "senses": [
+      "simply, just, plain and simple (dismissive or obvious)",
+      "simply (in a simple manner)"
+    ]
+  },
+  {
+    "kellyId": 1033,
+    "decision": "fix",
+    "reason": "sub-def about directional use is a usage note, not a meaning; real second sense is 'care home'",
+    "senses": [
+      "home",
+      "care home, institution"
+    ]
+  },
+  {
+    "kellyId": 760,
+    "decision": "fix",
+    "reason": "the two sub-defs are sub-senses of the same meaning, not distinct meanings",
+    "senses": []
+  },
+  {
+    "kellyId": 1064,
+    "decision": "fix",
+    "reason": "translation had embedded article 'a web page'; rewritten bare",
+    "translation": "homepage, website",
+    "senses": []
+  },
+  {
+    "kellyId": 411,
+    "decision": "fix",
+    "reason": "sub-def was a grammatical note, not a meaning; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 601,
+    "decision": "fix",
+    "reason": "first sub-def 'to have as one's name, to hight' is redundant with primary; 'to hight' is archaic; cleaned list",
+    "senses": [
+      "be called, be named",
+      "be claimed (of something dubious)",
+      "call, name; command"
+    ]
+  },
+  {
+    "kellyId": 1204,
+    "decision": "fix",
+    "reason": "translation had embedded 'to' prefix",
+    "translation": "prevent, hinder",
+    "senses": []
+  },
+  {
+    "kellyId": 417,
+    "decision": "fix",
+    "reason": "sub-defs had capital A mid-sentence and definition-like phrasing; cleaned",
+    "senses": [
+      "history",
+      "story, plot (fiction)",
+      "joke, anecdote",
+      "event, incident",
+      "thing, object"
+    ]
+  },
+  {
+    "kellyId": 1200,
+    "decision": "fix",
+    "reason": "'hither' is archaic; simplified to natural everyday English",
+    "translation": "here, this way",
+    "senses": []
+  },
+  {
+    "kellyId": 1214,
+    "decision": "fix",
+    "reason": "sub-def 'yet' is covered by 'so far'; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 705,
+    "decision": "fix",
+    "reason": "'help' as a noun is uncountable in its primary sense; sub-def cleaned of embedded article",
+    "uncountable": true,
+    "senses": [
+      "help, assistance",
+      "helper, domestic help"
+    ]
+  },
+  {
+    "kellyId": 453,
+    "decision": "fix",
+    "reason": "sub-defs are redundant restatements of the same meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 171,
+    "decision": "fix",
+    "reason": "sub-defs were definition-like or archaic; 'it (archaic)' is too marginal to list",
+    "senses": []
+  },
+  {
+    "kellyId": 246,
+    "decision": "fix",
+    "reason": "sub-def 'oblique of han' is a grammatical note, not a meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 527,
+    "decision": "fix",
+    "reason": "sub-defs are redundant restatements of the same meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 287,
+    "decision": "fix",
+    "reason": "sub-def was a usage note rather than a distinct meaning; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 674,
+    "decision": "fix",
+    "reason": "sub-defs were definition-like; cleaned",
+    "senses": [
+      "court (royal household and surroundings)",
+      "sense, judgement"
+    ]
+  },
+  {
+    "kellyId": 810,
+    "decision": "fix",
+    "reason": "'hound' is a redundant archaic synonym per rule 1; single-meaning word",
+    "translation": "dog",
+    "senses": []
+  },
+  {
+    "kellyId": 23,
+    "decision": "fix",
+    "reason": "sub-def 'in arabic numerals' is a definition, not a meaning; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 513,
+    "decision": "fix",
+    "reason": "sub-defs were definition-like; cleaned to concise sense list",
+    "senses": [
+      "house",
+      "house, venue (restaurant, theater, etc.)",
+      "house, dynasty (royal family)"
+    ]
+  },
+  {
+    "kellyId": 888,
+    "decision": "fix",
+    "reason": "sub-defs were granular and definition-like; consolidated",
+    "senses": [
+      "head",
+      "head (top of an object or tool)",
+      "main, chief (most important)"
+    ]
+  },
+  {
+    "kellyId": 634,
+    "decision": "fix",
+    "reason": "sub-defs were definition-like; cleaned",
+    "senses": [
+      "direction",
+      "distance, range",
+      "stitch (pain from running)",
+      "place",
+      "stop, station"
+    ]
+  },
+  {
+    "kellyId": 224,
+    "decision": "fix",
+    "reason": "sub-defs had definition-like phrasing; cleaned",
+    "senses": [
+      "hold, grip",
+      "hold, host (an event)",
+      "keep, maintain"
+    ]
+  },
+  {
+    "kellyId": 969,
+    "decision": "fix",
+    "reason": "sub-defs 'inflexible', 'rigid', 'unbending' are redundant sub-senses of 'hard'; consolidated; missing senses from wiktionary added",
+    "senses": [
+      "hard (not soft, inflexible)",
+      "hard, tough (demanding, severe)",
+      "hard (of water, high mineral content)"
+    ]
+  },
+  {
+    "kellyId": 1178,
+    "decision": "fix",
+    "reason": "'in a hard manner' is a definition, not a translation; natural English adverb is 'hard'",
+    "translation": "hard",
+    "senses": []
+  },
+  {
+    "kellyId": 1146,
+    "decision": "fix",
+    "reason": "translation had embedded 'to' prefix; rewritten bare",
+    "translation": "get, fetch",
+    "senses": [
+      "get, fetch, pick up",
+      "recover (from exertion or illness)"
+    ]
+  },
+  {
+    "kellyId": 381,
+    "decision": "fix",
+    "reason": "sub-def 'chiefly what happens quickly...' is a usage note, not a meaning; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 885,
+    "decision": "fix",
+    "reason": "'occurrence' is stilted; 'event' is the natural everyday translation",
+    "translation": "event",
+    "senses": [
+      "event, occurrence",
+      "chance, coincidence"
+    ]
+  },
+  {
+    "kellyId": 960,
+    "decision": "fix",
+    "reason": "sub-defs were acceptable but 'commit suicide by hanging' is a sub-sense of hang; 'stop responding' is slang worth keeping; cleaned",
+    "senses": [
+      "hang",
+      "hang (stop responding, of a computer)"
+    ]
+  },
+  {
+    "kellyId": 180,
+    "decision": "fix",
+    "reason": "sub-def was a definition-like restatement; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 1319,
+    "decision": "fix",
+    "reason": "sub-def 'a large mammal, Equus caballus' is a definition; 'horse (heroin)' is marginal slang; cleaned",
+    "senses": [
+      "horse",
+      "knight (chess)"
+    ]
+  },
+  {
+    "kellyId": 720,
+    "decision": "fix",
+    "reason": "sub-defs had 'to' prefixes; cleaned",
+    "senses": [
+      "claim, assert",
+      "assert oneself, hold one's own",
+      "maintain (a property)"
+    ]
+  },
+  {
+    "kellyId": 251,
+    "decision": "fix",
+    "reason": "sub-defs had definition-like text; 'tall' is a distinct everyday meaning; consolidated",
+    "senses": [
+      "high, tall",
+      "high, great (of quantity or value)",
+      "high-pitched",
+      "loud"
+    ]
+  },
+  {
+    "kellyId": 1044,
+    "decision": "fix",
+    "reason": "sub-defs were redundant sub-senses of 'raise'; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 25,
+    "decision": "fix",
+    "reason": "'hearing' as a noun is uncountable; single-meaning word",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 947,
+    "decision": "fix",
+    "reason": "sub-def about 'end of life' is a poetic/marginal sense; dropped",
+    "senses": []
+  },
+  {
+    "kellyId": 202,
+    "decision": "fix",
+    "reason": "sub-def was a definition-like restatement; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 1298,
+    "decision": "fix",
+    "reason": "translation had embedded 'to' prefixes and was too long; simplified to natural English; sub-def cleaned",
+    "translation": "question, challenge",
+    "senses": [
+      "question, challenge, call into doubt",
+      "propose, raise as an issue"
+    ]
+  },
+  {
+    "kellyId": 657,
+    "decision": "fix",
+    "reason": "sub-def 'a synonym of genom' is a grammatical note, not a meaning; single-meaning word",
+    "senses": []
+  }
+]

@@ -1,0 +1,407 @@
+[
+  {
+    "english": "lock",
+    "senses": [
+      { "gloss": "verb", "members": [2349] },
+      { "gloss": "noun", "members": [5897] }
+    ]
+  },
+  {
+    "english": "hire, employ",
+    "senses": [
+      { "gloss": "", "members": [2351, 3572] }
+    ]
+  },
+  {
+    "english": "field",
+    "senses": [
+      { "gloss": "open area, abstract", "members": [2361] },
+      { "gloss": "arable land", "members": [7533] }
+    ]
+  },
+  {
+    "english": "mental",
+    "senses": [
+      { "gloss": "", "members": [2363, 3279] }
+    ]
+  },
+  {
+    "english": "trick, fool, deceive",
+    "senses": [
+      { "gloss": "verb", "members": [2381] },
+      { "gloss": "noun", "members": [6539] }
+    ]
+  },
+  {
+    "english": "abuse, assault",
+    "senses": [
+      { "gloss": "assault, violation", "members": [2390] },
+      { "gloss": "substance abuse", "members": [2956] },
+      { "gloss": "to abuse", "members": [4389] }
+    ]
+  },
+  {
+    "english": "update",
+    "senses": [
+      { "gloss": "noun", "members": [2393] },
+      { "gloss": "verb", "members": [3116] }
+    ]
+  },
+  {
+    "english": "Greek",
+    "senses": [
+      { "gloss": "adjective", "members": [2394] },
+      { "gloss": "person", "members": [3902] }
+    ]
+  },
+  {
+    "english": "magazine, journal",
+    "senses": [
+      { "gloss": "", "members": [2396, 5458] }
+    ]
+  },
+  {
+    "english": "more and more, increasingly",
+    "senses": [
+      { "gloss": "with adjectives", "members": [2400] },
+      { "gloss": "with countables", "members": [4443] }
+    ]
+  },
+  {
+    "english": "address",
+    "senses": [
+      { "gloss": "location", "members": [2401] },
+      { "gloss": "speak to", "members": [4546, 7871] }
+    ]
+  },
+  {
+    "english": "gradually, with time",
+    "senses": [
+      { "gloss": "", "members": [2402, 3648, 3809] }
+    ]
+  },
+  {
+    "english": "contract",
+    "senses": [
+      { "gloss": "agreement", "members": [2406] },
+      { "gloss": "incur, catch", "members": [7299] }
+    ]
+  },
+  {
+    "english": "daily, day-to-day",
+    "senses": [
+      { "gloss": "adjective", "members": [2408] },
+      { "gloss": "adverb", "members": [2793] }
+    ]
+  },
+  {
+    "english": "include",
+    "senses": [
+      { "gloss": "", "members": [2416, 2683, 5055] }
+    ]
+  },
+  {
+    "english": "taste",
+    "senses": [
+      { "gloss": "flavor, preference", "members": [2425] },
+      { "gloss": "to taste", "members": [2786] },
+      { "gloss": "opinion, liking", "members": [3742] }
+    ]
+  },
+  {
+    "english": "participation",
+    "senses": [
+      { "gloss": "", "members": [2428, 3821, 4673] }
+    ]
+  },
+  {
+    "english": "add, amend",
+    "senses": [
+      { "gloss": "say in addition", "members": [2433] },
+      { "gloss": "inflict, attach", "members": [6353] },
+      { "gloss": "add numbers", "members": [7099] }
+    ]
+  },
+  {
+    "english": "cross",
+    "senses": [
+      { "gloss": "noun", "members": [2436] },
+      { "gloss": "verb", "members": [4606] }
+    ]
+  },
+  {
+    "english": "province, region",
+    "senses": [
+      { "gloss": "", "members": [2440, 3708] }
+    ]
+  },
+  {
+    "english": "hand over, deliver",
+    "senses": [
+      { "gloss": "hand over physically", "members": [2441, 8180] },
+      { "gloss": "transfer ownership", "members": [4087] }
+    ]
+  },
+  {
+    "english": "winner",
+    "senses": [
+      { "gloss": "", "members": [2442, 6414] }
+    ]
+  },
+  {
+    "english": "expectation",
+    "senses": [
+      { "gloss": "", "members": [2445, 5831] }
+    ]
+  },
+  {
+    "english": "comprehensive, overarching, overall",
+    "senses": [
+      { "gloss": "overarching, overall", "members": [2447] },
+      { "gloss": "all-encompassing", "members": [5450] },
+      { "gloss": "far-reaching, thorough", "members": [6088] }
+    ]
+  },
+  {
+    "english": "remedy",
+    "senses": [
+      { "gloss": "counteract", "members": [2448] },
+      { "gloss": "cure, medicine", "members": [7205] }
+    ]
+  },
+  {
+    "english": "cure, heal",
+    "senses": [
+      { "gloss": "", "members": [2454, 8157] }
+    ]
+  },
+  {
+    "english": "consumption",
+    "senses": [
+      { "gloss": "", "members": [2457, 6712] }
+    ]
+  },
+  {
+    "english": "diet, food",
+    "senses": [
+      { "gloss": "", "members": [2459, 6030] }
+    ]
+  },
+  {
+    "english": "date",
+    "senses": [
+      { "gloss": "noun", "members": [2461] },
+      { "gloss": "verb", "members": [3047] }
+    ]
+  },
+  {
+    "english": "in addition, besides",
+    "senses": [
+      { "gloss": "", "members": [2462, 4405] }
+    ]
+  },
+  {
+    "english": "review",
+    "senses": [
+      { "gloss": "critique, write-up", "members": [2463] },
+      { "gloss": "systematic examination", "members": [3077] },
+      { "gloss": "to critique", "members": [5264] }
+    ]
+  },
+  {
+    "english": "extreme",
+    "senses": [
+      { "gloss": "", "members": [2468, 8228] }
+    ]
+  },
+  {
+    "english": "launch",
+    "senses": [
+      { "gloss": "verb", "members": [2471, 7224] },
+      { "gloss": "noun", "members": [6611] }
+    ]
+  },
+  {
+    "english": "western",
+    "senses": [
+      { "gloss": "directional", "members": [2478] },
+      { "gloss": "occidental", "members": [2699] }
+    ]
+  },
+  {
+    "english": "wave",
+    "senses": [
+      { "gloss": "noun", "members": [2487] },
+      { "gloss": "verb", "members": [6406] }
+    ]
+  },
+  {
+    "english": "reservation, booking",
+    "senses": [
+      { "gloss": "booking", "members": [2489] },
+      { "gloss": "caveat, stipulation", "members": [5771] }
+    ]
+  },
+  {
+    "english": "fair",
+    "senses": [
+      { "gloss": "just, equitable", "members": [2490] },
+      { "gloss": "reasonable, adequate", "members": [4425] }
+    ]
+  },
+  {
+    "english": "century",
+    "senses": [
+      { "gloss": "", "members": [2492, 4499] }
+    ]
+  },
+  {
+    "english": "genuine, authentic",
+    "senses": [
+      { "gloss": "", "members": [2496, 4876] }
+    ]
+  },
+  {
+    "english": "exceed, surpass",
+    "senses": [
+      { "gloss": "", "members": [2503, 3368, 4986] }
+    ]
+  },
+  {
+    "english": "double",
+    "senses": [
+      { "gloss": "adjective", "members": [2511] },
+      { "gloss": "verb", "members": [5274] }
+    ]
+  },
+  {
+    "english": "originate",
+    "senses": [
+      { "gloss": "arise, come about", "members": [2512] },
+      { "gloss": "stem from", "members": [5968] }
+    ]
+  },
+  {
+    "english": "lawyer, attorney",
+    "senses": [
+      { "gloss": "", "members": [2521, 3441] }
+    ]
+  },
+  {
+    "english": "capitalist, capitalistic",
+    "senses": [
+      { "gloss": "adjective", "members": [2522] },
+      { "gloss": "noun", "members": [4187] }
+    ]
+  },
+  {
+    "english": "arrive",
+    "senses": [
+      { "gloss": "", "members": [2524, 5318] }
+    ]
+  },
+  {
+    "english": "rain",
+    "senses": [
+      { "gloss": "noun", "members": [2525] },
+      { "gloss": "verb", "members": [3723] }
+    ]
+  },
+  {
+    "english": "opposite",
+    "senses": [
+      { "gloss": "noun", "members": [2527] },
+      { "gloss": "adjective", "members": [2599] },
+      { "gloss": "across from", "members": [7650] }
+    ]
+  },
+  {
+    "english": "reference",
+    "senses": [
+      { "gloss": "citation, character", "members": [2528] },
+      { "gloss": "pointer, referral", "members": [3649] }
+    ]
+  },
+  {
+    "english": "permanent, lasting",
+    "senses": [
+      { "gloss": "", "members": [2543, 2829] }
+    ]
+  },
+  {
+    "english": "transfer, transmit",
+    "senses": [
+      { "gloss": "verb", "members": [2545] },
+      { "gloss": "noun", "members": [3544] }
+    ]
+  },
+  {
+    "english": "distribution",
+    "senses": [
+      { "gloss": "allocation, division", "members": [2572] },
+      { "gloss": "dividend, delivery", "members": [3825] },
+      { "gloss": "logistics distribution", "members": [4323] }
+    ]
+  },
+  {
+    "english": "terrible, awful",
+    "senses": [
+      { "gloss": "", "members": [2580, 5916] }
+    ]
+  },
+  {
+    "english": "criminal",
+    "senses": [
+      { "gloss": "adjective", "members": [2581, 6038] },
+      { "gloss": "noun", "members": [3755] }
+    ]
+  },
+  {
+    "english": "objective, matter-of-fact",
+    "senses": [
+      { "gloss": "factual, matter-of-fact", "members": [2582] },
+      { "gloss": "goal, aim", "members": [2865] },
+      { "gloss": "unbiased, objective", "members": [2934] }
+    ]
+  },
+  {
+    "english": "spend",
+    "senses": [
+      { "gloss": "money or time", "members": [2587] },
+      { "gloss": "time only", "members": [2646] }
+    ]
+  },
+  {
+    "english": "figure",
+    "senses": [
+      { "gloss": "", "members": [2591, 4725] }
+    ]
+  },
+  {
+    "english": "smile",
+    "senses": [
+      { "gloss": "verb", "members": [2595] },
+      { "gloss": "noun", "members": [3207] }
+    ]
+  },
+  {
+    "english": "payment",
+    "senses": [
+      { "gloss": "general payment", "members": [2596] },
+      { "gloss": "payout, disbursement", "members": [4535] }
+    ]
+  },
+  {
+    "english": "permission",
+    "senses": [
+      { "gloss": "", "members": [2598, 5596] }
+    ]
+  },
+  {
+    "english": "tie",
+    "senses": [
+      { "gloss": "bind, fasten", "members": [2600, 3091] },
+      { "gloss": "necktie", "members": [6827] }
+    ]
+  }
+]

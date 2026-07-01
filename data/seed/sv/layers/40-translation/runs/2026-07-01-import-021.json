@@ -1,0 +1,251 @@
+[
+  {
+    "kellyId": 2053,
+    "decision": "fix",
+    "reason": "primary 'manly' is the connotation sense; 'male' is the dominant everyday meaning (the example is 'a male reporter'). 'manly' demoted to list.",
+    "translation": "male",
+    "senses": ["male", "manly, masculine"]
+  },
+  {
+    "kellyId": 2575,
+    "decision": "fix",
+    "reason": "current has 'to sign' which is a weak synonym and the whole gloss reads 'mark, to sign' with 'to' embedded. 'mark, indicate' is cleaner and more accurate.",
+    "translation": "mark, indicate",
+    "senses": []
+  },
+  {
+    "kellyId": 2533,
+    "decision": "fix",
+    "reason": "marketing is an uncountable noun in English; needs uncountable:true.",
+    "translation": "marketing",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2082,
+    "decision": "fix",
+    "reason": "subDef is a definition ('to concede as true'), not a distinct meaning. Single-meaning word; clear the list.",
+    "translation": "admit, concede",
+    "senses": []
+  },
+  {
+    "kellyId": 2000,
+    "decision": "fix",
+    "reason": "two real meanings; subDef item 'a medicine, a drug' has embedded article. Fix senses to clean translations.",
+    "senses": ["medicine (field of healthcare)", "medicine, drug (substance taken)"]
+  },
+  {
+    "kellyId": 2021,
+    "decision": "fix",
+    "reason": "'participate, to contribute' has 'to' embedded. 'aid and abet' is a legal edge sense, demote or drop — dropping as it's marginal for A2 learners.",
+    "translation": "participate, contribute",
+    "senses": []
+  },
+  {
+    "kellyId": 1613,
+    "decision": "fix",
+    "reason": "in everyday Swedish 'middag' overwhelmingly means 'dinner' (the evening meal). 'midday/noon' is the literal etymology but rarely used. Promote 'dinner'.",
+    "translation": "dinner",
+    "senses": ["dinner (evening meal)", "midday, noon"]
+  },
+  {
+    "kellyId": 1554,
+    "decision": "fix",
+    "reason": "subDef 'a minister (in the foreign affairs administration)' is a definition with embedded article, not a distinct meaning. Single-meaning; clear list.",
+    "senses": []
+  },
+  {
+    "kellyId": 2177,
+    "decision": "fix",
+    "reason": "subDef 'less than one half of a group' is a definition, not a translation. Single-meaning; clear list.",
+    "senses": []
+  },
+  {
+    "kellyId": 2205,
+    "decision": "fix",
+    "reason": "'morality' is uncountable. Also four senses in list; 'morals' is a near-synonym of morality; 'morale' and 'moral (of a story)' are distinct. Rebuild senses and mark uncountable.",
+    "translation": "morality, morals",
+    "uncountable": true,
+    "senses": ["morality, morals", "morale (spirit, motivation)", "moral, lesson (of a story)"]
+  },
+  {
+    "kellyId": 2181,
+    "decision": "fix",
+    "reason": "subDefs are definition-like. Two real meanings: motive (reason) and motif (artistic subject). Fix senses.",
+    "senses": ["motive, reason", "motif, subject (of art or music)"]
+  },
+  {
+    "kellyId": 2206,
+    "decision": "fix",
+    "reason": "two co-equal everyday meanings: justify (explain reasons) and motivate (inspire). Neither clearly dominates; subDef needs cleaning.",
+    "translation": "justify; motivate",
+    "senses": ["justify (give reasons for)", "motivate (inspire someone to act)"]
+  },
+  {
+    "kellyId": 2439,
+    "decision": "fix",
+    "reason": "'courage' is primary. 'state of mind' is a real second sense. 'mod (modifications)' and 'mod (moderator)' are English loanwords marginally used in Swedish — drop for a vocabulary learner's card.",
+    "senses": ["courage", "spirit, state of mind"]
+  },
+  {
+    "kellyId": 1992,
+    "decision": "fix",
+    "reason": "'diversity, variety' is uncountable; needs uncountable:true. 'manifold' (mathematical) is a marginal sense — drop for A2.",
+    "translation": "diversity, variety",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2293,
+    "decision": "fix",
+    "reason": "subDefs are definition-like. Three real meanings: unit of measurement, physical measurement/dimension, and action/step taken. Fix senses.",
+    "senses": ["measure, unit (of measurement)", "measurement, dimension", "measure, step (action taken)"]
+  },
+  {
+    "kellyId": 1947,
+    "decision": "fix",
+    "reason": "'humanity, mankind' is uncountable; needs uncountable:true.",
+    "translation": "humanity, mankind",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2164,
+    "decision": "fix",
+    "reason": "subDefs are Wiktionary definition blurbs, not translations. 'mur' means wall — single meaning (a free-standing masonry wall). Clear list.",
+    "senses": []
+  },
+  {
+    "kellyId": 2207,
+    "decision": "fix",
+    "reason": "three subDefs are all definition-like variants of 'myth'; they are not distinct meanings but aspects of the same word. Single-meaning word; clear list.",
+    "senses": []
+  },
+  {
+    "kellyId": 2035,
+    "decision": "fix",
+    "reason": "two real meanings: paint (apply paint / create a painting) and score (a goal, in sports). Fix senses.",
+    "senses": ["paint (apply paint; create a painting)", "score (a goal, in sports)"]
+  },
+  {
+    "kellyId": 1492,
+    "decision": "fix",
+    "reason": "'resistance, opposition' are uncountable; needs uncountable:true. The list with electrical resistance and resistor is fine.",
+    "translation": "resistance, opposition",
+    "uncountable": true,
+    "senses": ["resistance, opposition", "electrical resistance", "resistor (electronic component)"]
+  },
+  {
+    "kellyId": 2198,
+    "decision": "fix",
+    "reason": "subDefs are definition-like Wiktionary blurbs. Two real distinct senses: visual/decorative pattern and an abstract pattern/template. Fix senses.",
+    "senses": ["pattern, design (decorative or visual)", "pattern, template (repeated structure or model)"]
+  },
+  {
+    "kellyId": 2226,
+    "decision": "fix",
+    "reason": "'murder, to assassinate' — 'assassinate' is not a separate Swedish meaning of mörda; it's a parenthetical qualifier from Wiktionary. Single meaning; fix to bare 'murder' and clear list.",
+    "translation": "murder",
+    "senses": []
+  },
+  {
+    "kellyId": 2173,
+    "decision": "fix",
+    "reason": "'darkness' is uncountable; needs uncountable:true.",
+    "translation": "darkness",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2429,
+    "decision": "fix",
+    "reason": "current has embedded articles 'a board, a jury'. Fix to bare translation.",
+    "translation": "committee, board, jury",
+    "senses": []
+  },
+  {
+    "kellyId": 1697,
+    "decision": "fix",
+    "reason": "four near-synonyms is too many. 'näringsliv' means the business sector of society; trim to two core terms.",
+    "translation": "business sector, industry",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1862,
+    "decision": "fix",
+    "reason": "'move closer, to approach' has 'to' embedded. Fix to bare form.",
+    "translation": "move closer, approach",
+    "senses": []
+  },
+  {
+    "kellyId": 1973,
+    "decision": "fix",
+    "reason": "'deny, to say no' has 'to' embedded and 'say no' is weak. Two real meanings: deny (a claim) and refuse (to do something). Fix.",
+    "translation": "deny, refuse",
+    "senses": ["deny (a claim, involvement)", "refuse (to do something)"]
+  },
+  {
+    "kellyId": 1828,
+    "decision": "fix",
+    "reason": "'enjoy, to indulge' has 'to' embedded. Fix phrasing. 'benefit from' is a secondary legal/formal sense — keep as second sense.",
+    "translation": "enjoy, relish",
+    "senses": ["enjoy, relish", "benefit from, enjoy (a right)"]
+  },
+  {
+    "kellyId": 1426,
+    "decision": "fix",
+    "reason": "subDef 'in, at or to any place' is a definition, not a distinct meaning. Single-meaning word; clear list.",
+    "senses": []
+  },
+  {
+    "kellyId": 2260,
+    "decision": "fix",
+    "reason": "'closeness' and 'vicinity, proximity' are two real distinct senses (emotional vs. spatial). Keep both but 'vicinity, proximity' is arguably the primary spatial sense while 'closeness' covers both. The current primary is fine; just confirm list is clean — it is. However 'closeness' as primary leaves spatial sense secondary; 'vicinity, proximity' could be listed first. Keep current order as closeness is broader.",
+    "senses": ["closeness, proximity", "vicinity, neighbourhood (nearby area)"]
+  },
+  {
+    "kellyId": 2395,
+    "decision": "fix",
+    "reason": "'presence' is uncountable; needs uncountable:true.",
+    "translation": "presence",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2182,
+    "decision": "fix",
+    "reason": "'olikhet' means 'difference, dissimilarity' — not 'inequality'. The Wiktionary sense (mathematical inequality) is a secondary/technical sense. The primary everyday meaning is 'difference'. Fix.",
+    "translation": "difference, dissimilarity",
+    "senses": ["difference, dissimilarity", "inequality (mathematical)"]
+  },
+  {
+    "kellyId": 1952,
+    "decision": "fix",
+    "reason": "'oil' is uncountable as primary; needs uncountable:true. Subdef 'an oil painting' has embedded article — fix.",
+    "translation": "oil",
+    "uncountable": true,
+    "senses": ["oil", "oil painting"]
+  },
+  {
+    "kellyId": 2571,
+    "decision": "fix",
+    "reason": "'enable, to make possible' has 'to' embedded. Fix to bare form.",
+    "translation": "enable, make possible",
+    "senses": []
+  },
+  {
+    "kellyId": 2676,
+    "decision": "fix",
+    "reason": "'be satisfied with, to settle for' has 'to' embedded. Fix to bare form.",
+    "translation": "be satisfied with, settle for",
+    "senses": []
+  },
+  {
+    "kellyId": 1780,
+    "decision": "fix",
+    "reason": "'correspond, to meet' has 'to' embedded. Fix to bare form. 'meet expectations' is the typical context — make that clear.",
+    "translation": "correspond to, match",
+    "senses": []
+  }
+]

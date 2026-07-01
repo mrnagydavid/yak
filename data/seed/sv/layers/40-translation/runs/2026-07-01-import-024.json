@@ -1,0 +1,491 @@
+[
+  {
+    "kellyId": 1716,
+    "decision": "fix",
+    "reason": "intensifier sense is not a noun sense; list trimmed to the two core noun meanings",
+    "translation": "shit",
+    "senses": [
+      "shit (excrement)",
+      "shit, crap (something bad or undesirable)"
+    ]
+  },
+  {
+    "kellyId": 2233,
+    "decision": "fix",
+    "reason": "subdef was definition-like; simplified to a clean two-sense list",
+    "senses": [
+      "shoe",
+      "lining, fitting (on a tool or hoof)"
+    ]
+  },
+  {
+    "kellyId": 1836,
+    "decision": "fix",
+    "reason": "bird-call sense is marginal and not useful at A2; clearing stale list",
+    "senses": []
+  },
+  {
+    "kellyId": 2746,
+    "decision": "fix",
+    "reason": "'professional writer' is a definition-like gloss; 'writer' is the clean primary",
+    "translation": "writer",
+    "senses": []
+  },
+  {
+    "kellyId": 1459,
+    "decision": "fix",
+    "reason": "'document' broadens the primary too far; 'writing, text' covers the core sense cleanly",
+    "translation": "writing, text",
+    "senses": []
+  },
+  {
+    "kellyId": 1870,
+    "decision": "fix",
+    "reason": "had 'to' embedded in synonyms",
+    "translation": "scream, yell, shout",
+    "senses": []
+  },
+  {
+    "kellyId": 1627,
+    "decision": "fix",
+    "reason": "subdef was definition-like; simplified sense list",
+    "senses": [
+      "writing",
+      "written exam"
+    ]
+  },
+  {
+    "kellyId": 2744,
+    "decision": "fix",
+    "reason": "had 'to' embedded; wiktionary extra senses are all phrasal intensifications, not distinct meanings",
+    "translation": "scare, frighten",
+    "senses": []
+  },
+  {
+    "kellyId": 2779,
+    "decision": "fix",
+    "reason": "'the darkness that follows' is definition-like; sense list restructured cleanly",
+    "senses": [
+      "shadow, shade",
+      "shadow, tail (a spy or follower)"
+    ]
+  },
+  {
+    "kellyId": 2273,
+    "decision": "fix",
+    "reason": "senses list had padded definition-like entry; owe/debt sense is archaic in modern Swedish",
+    "senses": [
+      "blame, accuse",
+      "owe (archaic)"
+    ]
+  },
+  {
+    "kellyId": 2585,
+    "decision": "fix",
+    "reason": "had 'to' embedded; phrasal subheadings in list cleaned up",
+    "translation": "spoil, ruin",
+    "senses": [
+      "spoil, ruin, dishonour",
+      "spoil (someone) (skämma bort)",
+      "embarrass (skämma ut)"
+    ]
+  },
+  {
+    "kellyId": 2483,
+    "decision": "fix",
+    "reason": "senses list items had 'to' embedded; restructured bare",
+    "senses": [
+      "cut (with a knife or blade)",
+      "cut oneself (accidentally)",
+      "cut, reduce (a budget)"
+    ]
+  },
+  {
+    "kellyId": 2720,
+    "decision": "fix",
+    "reason": "senses list items had 'to' embedded; restructured bare",
+    "senses": [
+      "wear out",
+      "grab, tear (pull forcefully)",
+      "toil, labor (work hard)"
+    ]
+  },
+  {
+    "kellyId": 2638,
+    "decision": "fix",
+    "reason": "had embedded article 'a' in translation and senses",
+    "translation": "castle, palace",
+    "senses": [
+      "castle, palace",
+      "manor, château (large grand estate)"
+    ]
+  },
+  {
+    "kellyId": 1707,
+    "decision": "fix",
+    "reason": "missing the 'exhausted' sense present in wiktionary and real in everyday Swedish",
+    "senses": [
+      "over, finished",
+      "run out, gone",
+      "end",
+      "exhausted, wiped out"
+    ]
+  },
+  {
+    "kellyId": 1971,
+    "decision": "fix",
+    "reason": "had 'to' embedded in translation and senses",
+    "translation": "throw, sling, toss",
+    "senses": [
+      "throw, sling, toss",
+      "throw away, discard",
+      "throw oneself",
+      "swing, flail"
+    ]
+  },
+  {
+    "kellyId": 2425,
+    "decision": "fix",
+    "reason": "'the sense of taste, gustation' is definition-like; sense list restructured",
+    "senses": [
+      "taste (flavor)",
+      "taste (the sense of taste)",
+      "taste (preference, style)"
+    ]
+  },
+  {
+    "kellyId": 2786,
+    "decision": "fix",
+    "reason": "senses list item was definition-like with 'to'; restructured bare",
+    "senses": [
+      "taste (sample the flavor of)",
+      "taste (have a flavor)"
+    ]
+  },
+  {
+    "kellyId": 2776,
+    "decision": "fix",
+    "reason": "'not wide, narrow' is a Wiktionary-style gloss; 'narrow' is the clean primary",
+    "translation": "narrow",
+    "senses": [
+      "narrow (not wide)",
+      "slim, slender (of a person)"
+    ]
+  },
+  {
+    "kellyId": 2123,
+    "decision": "fix",
+    "reason": "'clever' is a synonym of 'smart', not a distinct meaning; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 2209,
+    "decision": "fix",
+    "reason": "senses list items had 'to' embedded; restructured bare",
+    "senses": [
+      "talk, chat (colloquial)",
+      "boast, brag",
+      "rat, snitch (reveal secrets)"
+    ]
+  },
+  {
+    "kellyId": 1926,
+    "decision": "fix",
+    "reason": "'(sur)face, section, cut (as a suffix)' is definition-like and odd; sense list cleaned",
+    "senses": [
+      "cut",
+      "average",
+      "cross-section",
+      "canapé, open sandwich"
+    ]
+  },
+  {
+    "kellyId": 1566,
+    "decision": "fix",
+    "reason": "'handsome' and 'nice-looking' are synonyms of 'good-looking' — redundant in list; 'proper/tidy' is the real second sense",
+    "senses": [
+      "good-looking, handsome",
+      "neat, proper (clean and tidy)"
+    ]
+  },
+  {
+    "kellyId": 1919,
+    "decision": "fix",
+    "reason": "first subdef 'frozen crystalline water...' is a definition of snow itself — redundant; list restructured",
+    "senses": [
+      "snow (precipitation)",
+      "static, snow (TV noise)",
+      "snow (cocaine, slang)"
+    ]
+  },
+  {
+    "kellyId": 2513,
+    "decision": "fix",
+    "reason": "senses list item had 'to' embedded; restructured bare",
+    "senses": [
+      "fall asleep",
+      "go numb (of a limb)"
+    ]
+  },
+  {
+    "kellyId": 2371,
+    "decision": "fix",
+    "reason": "subdef 'a sorrow (something causing sorrow)' was definition-like; simplified",
+    "senses": [
+      "sorrow, sadness",
+      "sorrow (a cause of grief)"
+    ]
+  },
+  {
+    "kellyId": 2180,
+    "decision": "fix",
+    "reason": "subdef 'of or pertaining to Spain...' is a dictionary definition, not a sense; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 2001,
+    "decision": "fix",
+    "reason": "primary 'sports' would render as 'a sports'; the general sense is uncountable 'sport'; countable 'a sport' is the second sense",
+    "translation": "sport",
+    "uncountable": true,
+    "senses": [
+      "sport (physical activity in general)",
+      "sport (a specific sport)"
+    ]
+  },
+  {
+    "kellyId": 2741,
+    "decision": "fix",
+    "reason": "all three list items said 'tension' with different qualifiers — redundant and padded; also missing 'excitement/suspense' and 'voltage', both common Swedish meanings",
+    "senses": [
+      "tension (physical, in something taut)",
+      "tension (strained relations)",
+      "excitement, suspense",
+      "voltage (electrical)"
+    ]
+  },
+  {
+    "kellyId": 2246,
+    "decision": "fix",
+    "reason": "had embedded article 'a' in translation",
+    "translation": "standard, norm",
+    "senses": []
+  },
+  {
+    "kellyId": 1816,
+    "decision": "fix",
+    "reason": "subdefs were definition-like and both just mean 'start'; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 1683,
+    "decision": "fix",
+    "reason": "'statistics' is uncountable; app would otherwise render 'a statistics'",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2258,
+    "decision": "fix",
+    "reason": "senses cleaned up; council-of-state sense is now historical for Sweden (pre-1975)",
+    "senses": [
+      "minister (cabinet member)",
+      "council of state (formal name for Swedish/Finnish cabinet)",
+      "councillor of state (honorary title)"
+    ]
+  },
+  {
+    "kellyId": 2230,
+    "decision": "fix",
+    "reason": "subdef 'status (high social standing)' is a narrowing of the same word — redundant; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 2577,
+    "decision": "fix",
+    "reason": "subdef 'a rock' had embedded article; 'stone; rock' overlapped with primary; restructured into count vs. mass sense",
+    "senses": [
+      "stone, rock (an object)",
+      "stone (material)"
+    ]
+  },
+  {
+    "kellyId": 2015,
+    "decision": "fix",
+    "reason": "senses list items had 'to' embedded; restructured bare",
+    "senses": [
+      "knit",
+      "sting, prick",
+      "stick, insert",
+      "leave, head off (go somewhere)"
+    ]
+  },
+  {
+    "kellyId": 2536,
+    "decision": "fix",
+    "reason": "subdef had 'to' embedded; 'borrow' is informal/joking usage worth noting",
+    "senses": [
+      "steal",
+      "borrow (informal, joking)"
+    ]
+  },
+  {
+    "kellyId": 1960,
+    "decision": "fix",
+    "reason": "third list item 'a star' was redundant; horse-marking sense merged into a general shape/marking sense",
+    "senses": [
+      "star (celestial body)",
+      "star (famous person)",
+      "star (shape or marking)"
+    ]
+  },
+  {
+    "kellyId": 2367,
+    "decision": "fix",
+    "reason": "translation had artifact prefix 'n a'; subdefs had embedded articles",
+    "translation": "stop",
+    "senses": [
+      "stop (interruption of travel)",
+      "darn (repaired hole in a sock)",
+      "fill (of tobacco in a pipe)"
+    ]
+  },
+  {
+    "kellyId": 2271,
+    "decision": "fix",
+    "reason": "subdef had 'to' embedded and was definition-like; restructured bare",
+    "senses": [
+      "fight, battle",
+      "go against, conflict with"
+    ]
+  },
+  {
+    "kellyId": 2561,
+    "decision": "fix",
+    "reason": "had 'to' embedded; two co-equal everyday meanings (stroke and iron clothes); list restructured",
+    "translation": "stroke; iron",
+    "senses": [
+      "stroke (touch gently)",
+      "iron (clothes)",
+      "cross out, delete",
+      "spread (a substance on something)"
+    ]
+  },
+  {
+    "kellyId": 2039,
+    "decision": "fix",
+    "reason": "had embedded article 'a' in translation",
+    "translation": "stance, position",
+    "senses": []
+  },
+  {
+    "kellyId": 2514,
+    "decision": "fix",
+    "reason": "'taking a position' is a gerund gloss, not a helpful flashcard primary; 'position statement' is cleaner",
+    "translation": "position statement, stance",
+    "senses": []
+  },
+  {
+    "kellyId": 1424,
+    "decision": "fix",
+    "reason": "had 'to' embedded; pole-staking sense is archaic/marginal — dropped; single everyday meaning",
+    "translation": "disturb, interrupt, bother",
+    "senses": []
+  },
+  {
+    "kellyId": 2050,
+    "decision": "fix",
+    "reason": "primary was a dictionary-style definition; 'bump, knock' is the natural everyday gloss",
+    "translation": "bump, knock",
+    "senses": [
+      "bump, knock (against something)",
+      "push away, repel"
+    ]
+  },
+  {
+    "kellyId": 1977,
+    "decision": "fix",
+    "reason": "'sum, result of addition' — 'result of addition' is definition-like; simplified to 'sum, total'",
+    "translation": "sum, total",
+    "senses": [
+      "sum, total",
+      "sum, amount (of money)"
+    ]
+  },
+  {
+    "kellyId": 1455,
+    "decision": "fix",
+    "reason": "'have as intention, to aim' is clumsy and has 'to' embedded; 'aim, intend' is clean",
+    "translation": "aim, intend",
+    "senses": [
+      "aim, intend (syfta till — have as a purpose)",
+      "refer to",
+      "aim, take sight (literal)"
+    ]
+  },
+  {
+    "kellyId": 2245,
+    "decision": "fix",
+    "reason": "'examine by looking at, to scrutinize' is definition-like and has 'to' embedded",
+    "translation": "inspect, scrutinize",
+    "senses": [
+      "inspect, scrutinize",
+      "call (in poker)"
+    ]
+  },
+  {
+    "kellyId": 1890,
+    "decision": "fix",
+    "reason": "two subdef entries overlap (both 'pity/shame'); consolidated into one",
+    "senses": [
+      "sin",
+      "shame, pity (it's a pity)"
+    ]
+  },
+  {
+    "kellyId": 1938,
+    "decision": "fix",
+    "reason": "subdef 'sin' belongs to the noun entry, not this adverb entry; single adverbial meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 1518,
+    "decision": "fix",
+    "reason": "had embedded article 'an' in translation",
+    "translation": "comment, opinion",
+    "senses": []
+  },
+  {
+    "kellyId": 1929,
+    "decision": "fix",
+    "reason": "had embedded article 'a' in translation and senses; senses restructured bare",
+    "translation": "occupation, job",
+    "senses": [
+      "occupation, profession, job",
+      "hobby, pastime",
+      "employment (vs. unemployment)"
+    ]
+  },
+  {
+    "kellyId": 2356,
+    "decision": "fix",
+    "reason": "had 'to' embedded and was definition-like; 'busy oneself with' is the natural gloss",
+    "translation": "busy oneself with",
+    "senses": []
+  },
+  {
+    "kellyId": 2300,
+    "decision": "fix",
+    "reason": "'naturally' is a synonym of 'of course', not a distinct meaning; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 1868,
+    "decision": "fix",
+    "reason": "subdef 'a song' had embedded article; sense list restructured to distinguish the two real meanings",
+    "senses": [
+      "singing (the activity)",
+      "song (a piece of music)"
+    ]
+  }
+]

@@ -1,0 +1,396 @@
+[
+  {
+    "kellyId": 1041,
+    "decision": "fix",
+    "reason": "senses are definition-like phrases; replace with clean short glosses",
+    "translation": "pressure",
+    "senses": [
+      "pressure (physical or mental)",
+      "print, imprint (visible impression)"
+    ]
+  },
+  {
+    "kellyId": 983,
+    "decision": "fix",
+    "reason": "'to push' has embedded 'to' (verb; app adds it); senses need cleanup — drop obscure senses, keep core ones",
+    "translation": "press, push",
+    "senses": [
+      "press, push",
+      "print (with a press)",
+      "be oppressive, stifling (of heat)"
+    ]
+  },
+  {
+    "kellyId": 564,
+    "decision": "fix",
+    "reason": "'meet' is the dominant everyday meaning of träffa; 'hit a target' is secondary; senses had embedded 'to' prefixes",
+    "translation": "meet",
+    "senses": [
+      "meet (a person)",
+      "hit, strike (a target)",
+      "reach, enter into (an agreement)"
+    ]
+  },
+  {
+    "kellyId": 1284,
+    "decision": "fix",
+    "reason": "senses list includes 'phat' which is marginal slang; drop it; tighten the list",
+    "translation": "heavy",
+    "senses": [
+      "heavy (weight or difficulty)",
+      "important, major"
+    ]
+  },
+  {
+    "kellyId": 488,
+    "decision": "fix",
+    "reason": "'tour' is just one of three equally common meanings; 'luck' and 'turn' dominate everyday usage; promote those as co-primary",
+    "translation": "luck; turn",
+    "senses": [
+      "luck, good fortune",
+      "turn (one's go in a sequence)",
+      "trip, outing, tour"
+    ]
+  },
+  {
+    "kellyId": 1287,
+    "decision": "fix",
+    "reason": "senses list has one item that merely restates the main translation in different words; single-meaning word, clear senses",
+    "translation": "on the contrary",
+    "senses": []
+  },
+  {
+    "kellyId": 199,
+    "decision": "fix",
+    "reason": "'be of the opinion, to think' has embedded 'to' (verb); senses were definition-like",
+    "translation": "think, reckon",
+    "senses": [
+      "think, be of the opinion",
+      "find, feel (have a sensory impression of)",
+      "seem, appear"
+    ]
+  },
+  {
+    "kellyId": 577,
+    "decision": "fix",
+    "reason": "senses had embedded 'to' prefixes; also second sense can be phrased more concisely",
+    "translation": "interpret",
+    "senses": [
+      "interpret, decipher",
+      "indicate, suggest (point to an unknown fact)"
+    ]
+  },
+  {
+    "kellyId": 484,
+    "decision": "fix",
+    "reason": "senses entry is a long definition phrase; replace with a short gloss",
+    "translation": "type",
+    "senses": [
+      "type, sort",
+      "guy, character (informal, often negative)"
+    ]
+  },
+  {
+    "kellyId": 1276,
+    "decision": "fix",
+    "reason": "senses entry for 'granny flat' is a very long definition; shorten it",
+    "translation": "exception",
+    "senses": [
+      "exception",
+      "granny flat (reserved for previous farm owners)"
+    ]
+  },
+  {
+    "kellyId": 150,
+    "decision": "fix",
+    "reason": "senses broke 'under, below, beneath' into separate items; they are synonyms for one sense; merge them; keep 'during' as second sense",
+    "translation": "under, below",
+    "senses": [
+      "under, below, beneath",
+      "during, at the same time as"
+    ]
+  },
+  {
+    "kellyId": 1008,
+    "decision": "fix",
+    "reason": "'an examination, a survey' have embedded articles; write bare; single-meaning phrase",
+    "translation": "investigation, examination, survey",
+    "senses": []
+  },
+  {
+    "kellyId": 1224,
+    "decision": "fix",
+    "reason": "senses entry 'to read in a communication' is definition-like with embedded 'to'; word essentially has one sense (perceive/take in correctly)",
+    "translation": "perceive, take in",
+    "senses": []
+  },
+  {
+    "kellyId": 769,
+    "decision": "fix",
+    "reason": "'a standpoint, a understanding' have embedded articles; 'a understanding' is also ungrammatical; rephrase bare",
+    "translation": "opinion, view",
+    "senses": []
+  },
+  {
+    "kellyId": 395,
+    "decision": "fix",
+    "reason": "senses entry 'piece of information' is okay but can be tighter",
+    "translation": "task",
+    "senses": [
+      "task, assignment",
+      "piece of information, datum"
+    ]
+  },
+  {
+    "kellyId": 741,
+    "decision": "fix",
+    "reason": "senses over-split the same concept into three near-identical items; consolidate",
+    "translation": "youth",
+    "senses": [
+      "youth (stage of life)",
+      "young person, youngster"
+    ]
+  },
+  {
+    "kellyId": 1129,
+    "decision": "fix",
+    "reason": "'young, a baby' has embedded article 'a'; rephrase bare",
+    "translation": "young one, offspring (animal)",
+    "senses": [
+      "young one, offspring (of an animal)",
+      "kid, child"
+    ]
+  },
+  {
+    "kellyId": 110,
+    "decision": "fix",
+    "reason": "'allow oneself, to treat oneself to' has embedded 'to' (verb)",
+    "translation": "treat oneself, indulge",
+    "senses": [
+      "treat oneself (to something deserved), indulge",
+      "not begrudge, be happy for (someone getting something they deserve)"
+    ]
+  },
+  {
+    "kellyId": 918,
+    "decision": "fix",
+    "reason": "'commission, an assignment' has embedded article 'an'",
+    "translation": "commission, assignment",
+    "senses": []
+  },
+  {
+    "kellyId": 886,
+    "decision": "fix",
+    "reason": "'stand up, to rise' has embedded 'to' (verb); also the dominant everyday sense of uppstå is 'arise, come about' not literal rising",
+    "translation": "arise, come about",
+    "senses": [
+      "arise, come about, emerge",
+      "rise from the dead"
+    ]
+  },
+  {
+    "kellyId": 870,
+    "decision": "fix",
+    "reason": "'perform, to carry out, to execute' has embedded 'to' (verb)",
+    "translation": "perform, carry out",
+    "senses": [
+      "perform, carry out, execute",
+      "export"
+    ]
+  },
+  {
+    "kellyId": 1156,
+    "decision": "fix",
+    "reason": "'assume, to base, to start' has embedded 'to' (verb); rephrase cleanly",
+    "translation": "assume, presuppose",
+    "senses": [
+      "assume, presuppose, start from (a premise)",
+      "be discontinued, expire",
+      "set off, depart (on a journey)"
+    ]
+  },
+  {
+    "kellyId": 552,
+    "decision": "fix",
+    "reason": "senses list has a very marginal football-specific sense not worth showing; single-meaning word",
+    "translation": "outside",
+    "senses": []
+  },
+  {
+    "kellyId": 958,
+    "decision": "fix",
+    "reason": "missing common meaning: utifrån frequently means 'based on, from' (a starting point or perspective)",
+    "translation": "from the outside; based on",
+    "senses": [
+      "from the outside",
+      "based on, from (a starting point or perspective)"
+    ]
+  },
+  {
+    "kellyId": 1084,
+    "decision": "fix",
+    "reason": "'use, to take advantage of, to exploit' has embedded 'to' (verb); senses are definition-like",
+    "translation": "make use of, exploit",
+    "senses": [
+      "use, make use of (an opportunity or resource)",
+      "exploit, take advantage of (a person); abuse"
+    ]
+  },
+  {
+    "kellyId": 809,
+    "decision": "fix",
+    "reason": "'except for, but, beyond' — 'beyond' is idiosyncratic here; simplify primary to the core sense",
+    "translation": "except, except for",
+    "senses": [
+      "except, except for (excluding)",
+      "outside, out of (beyond a boundary)"
+    ]
+  },
+  {
+    "kellyId": 915,
+    "decision": "fix",
+    "reason": "'committee, a parliamentary committee' has embedded article; the qualifier 'parliamentary' is redundant detail",
+    "translation": "committee",
+    "senses": [
+      "committee (parliamentary or other)",
+      "protuberance, outgrowth"
+    ]
+  },
+  {
+    "kellyId": 1016,
+    "decision": "fix",
+    "reason": "senses are long definition-like phrases; replace with short glosses",
+    "translation": "expression",
+    "senses": [
+      "expression, phrase, idiom",
+      "facial expression",
+      "expression (math or programming)"
+    ]
+  },
+  {
+    "kellyId": 993,
+    "decision": "fix",
+    "reason": "'express, to utter, to voice' has embedded 'to' (verb); single-meaning verb",
+    "translation": "express, voice",
+    "senses": []
+  },
+  {
+    "kellyId": 608,
+    "decision": "fix",
+    "reason": "'consist' alone is wrong without 'of'; replace with 'make up'",
+    "translation": "constitute, make up",
+    "senses": []
+  },
+  {
+    "kellyId": 232,
+    "decision": "fix",
+    "reason": "senses are definition-like; simplify to short glosses",
+    "translation": "think",
+    "senses": [
+      "think, ponder",
+      "keep in mind, remember",
+      "intend to, plan to"
+    ]
+  },
+  {
+    "kellyId": 440,
+    "decision": "fix",
+    "reason": "'goal-oriented activity' is a definition, not a translation; replace with natural English",
+    "translation": "activity, operations",
+    "senses": [
+      "activity, operations (ongoing, organized)",
+      "enterprise, business, organization"
+    ]
+  },
+  {
+    "kellyId": 633,
+    "decision": "fix",
+    "reason": "water is uncountable; needs uncountable:true; senses can be slightly simplified",
+    "translation": "water",
+    "uncountable": true,
+    "senses": [
+      "water (substance)",
+      "body of water"
+    ]
+  },
+  {
+    "kellyId": 349,
+    "decision": "fix",
+    "reason": "'week, a period of 7 days' pads with a definition; 'week' alone is sufficient",
+    "translation": "week",
+    "senses": []
+  },
+  {
+    "kellyId": 267,
+    "decision": "fix",
+    "reason": "'each' and 'every' are synonyms here; should be comma-joined in translation, not split across senses",
+    "translation": "each, every",
+    "senses": []
+  },
+  {
+    "kellyId": 1034,
+    "decision": "fix",
+    "reason": "senses list just restates 'where' with a definition phrase; single-meaning word",
+    "translation": "where",
+    "senses": []
+  },
+  {
+    "kellyId": 88,
+    "decision": "fix",
+    "reason": "'generate pus' is a marginal medical sense that will confuse learners; drop it",
+    "translation": "be",
+    "senses": [
+      "be",
+      "last, go on (for a duration)",
+      "keep, stay fresh (not spoil)"
+    ]
+  },
+  {
+    "kellyId": 1275,
+    "decision": "fix",
+    "reason": "'care' is not the primary meaning of vara (noun); the commodity/goods sense is far more common in modern Swedish",
+    "translation": "goods, commodity",
+    "senses": [
+      "goods, commodity (something bought and sold)",
+      "care, keeping (as in ta vara på)"
+    ]
+  },
+  {
+    "kellyId": 935,
+    "decision": "fix",
+    "reason": "senses are long definition-like phrases; replace with short glosses; drop very marginal senses",
+    "translation": "work",
+    "senses": [
+      "work, piece (artistic or intellectual)",
+      "agency (government body)",
+      "utility, works (waterworks, power plant, etc.)"
+    ]
+  },
+  {
+    "kellyId": 298,
+    "decision": "fix",
+    "reason": "'work, to act' has embedded 'to'; 'seem, appear' is the most frequent modern sense of verka; promote it; drop the hoof-trimming sense",
+    "translation": "seem, appear",
+    "senses": [
+      "seem, appear (give the impression of)",
+      "work, act, operate"
+    ]
+  },
+  {
+    "kellyId": 1049,
+    "decision": "fix",
+    "reason": "senses contain definition phrases; simplify to short glosses",
+    "translation": "real, actual",
+    "senses": [
+      "real, actual (truly existing)",
+      "real, genuine, true"
+    ]
+  },
+  {
+    "kellyId": 201,
+    "decision": "fix",
+    "reason": "senses entry is a definition phrase; single-meaning verb — empty senses",
+    "translation": "know",
+    "senses": []
+  }
+]

@@ -1,0 +1,314 @@
+[
+  {
+    "kellyId": 5181,
+    "decision": "fix",
+    "reason": "embedded article in translation ('a seaman, a mariner'); bare form is 'sailor, seaman'",
+    "translation": "sailor, seaman",
+    "senses": []
+  },
+  {
+    "kellyId": 4226,
+    "decision": "fix",
+    "reason": "embedded article in translation ('a glow'); sense list items have embedded articles and 'bolting' needs brief context",
+    "translation": "light, glow",
+    "senses": ["light, glow", "appearance, guise", "bolting (runaway horse)"]
+  },
+  {
+    "kellyId": 5474,
+    "decision": "fix",
+    "reason": "sense list items have 'to' prefixes (app adds 'to' for verbs); consolidated and cleaned",
+    "translation": "shift, vary",
+    "senses": ["shift, vary (change continuously)", "change", "replace, switch out", "divide, distribute"]
+  },
+  {
+    "kellyId": 5363,
+    "decision": "fix",
+    "reason": "embedded article in translation ('a coating'); single meaning so senses cleared",
+    "translation": "layer, coating, stratum",
+    "senses": []
+  },
+  {
+    "kellyId": 4447,
+    "decision": "fix",
+    "reason": "'writing' is uncountable; needs uncountable flag",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5156,
+    "decision": "fix",
+    "reason": "sense list needs to be set explicitly with clean items",
+    "senses": ["desk (furniture)", "desktop (computer)"]
+  },
+  {
+    "kellyId": 4833,
+    "decision": "fix",
+    "reason": "sense list items are definition-like and have 'to' prefixes; cleaned to bare glosses",
+    "senses": ["screw, fasten with a screw", "spin, put spin on (a ball)", "squirm, wriggle (in discomfort)"]
+  },
+  {
+    "kellyId": 5317,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation ('to brag'); single meaning so senses cleared",
+    "translation": "boast, brag",
+    "senses": []
+  },
+  {
+    "kellyId": 5325,
+    "decision": "fix",
+    "reason": "embedded articles in translation ('a cupboard, a locker'); sense list cleaned",
+    "translation": "cabinet, cupboard, locker",
+    "senses": ["cabinet, cupboard, locker", "unattractive woman (slang)"]
+  },
+  {
+    "kellyId": 4964,
+    "decision": "fix",
+    "reason": "sense list items have 'to' prefixes; cleaned to bare glosses",
+    "senses": ["bark (dog sound)", "scold, tell off", "be called, be accused of being"]
+  },
+  {
+    "kellyId": 5604,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation ('to kid'); single meaning so senses cleared",
+    "translation": "joke, kid",
+    "senses": []
+  },
+  {
+    "kellyId": 5304,
+    "decision": "fix",
+    "reason": "sense list item has 'to' prefix; cleaned to bare glosses",
+    "senses": ["harvest", "reap, receive as a reward"]
+  },
+  {
+    "kellyId": 5574,
+    "decision": "fix",
+    "reason": "sense list item has embedded article ('a sum of money'); cleaned",
+    "senses": ["coin (small, low-value)", "sum of money, penny (informal)"]
+  },
+  {
+    "kellyId": 4338,
+    "decision": "fix",
+    "reason": "'slavery' is uncountable; needs uncountable flag",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5356,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation ('to abolish'); single meaning so senses cleared",
+    "translation": "scrap, abolish",
+    "senses": []
+  },
+  {
+    "kellyId": 5029,
+    "decision": "fix",
+    "reason": "sense list items are definition-like ('which has come to an end', 'of which the last has been taken'); replaced with concise glosses",
+    "senses": ["over, finished", "all gone, run out", "exhausted, worn out"]
+  },
+  {
+    "kellyId": 4834,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation ('to finish, to finish off'); single meaning so senses cleared",
+    "translation": "complete, finish",
+    "senses": []
+  },
+  {
+    "kellyId": 5042,
+    "decision": "fix",
+    "reason": "primary is a definition ('cause to stop burning'); 'put out, extinguish' is the natural translation",
+    "translation": "put out, extinguish",
+    "senses": ["put out, extinguish (fire)", "turn off, put out (light)", "slake (add water to quicklime)"]
+  },
+  {
+    "kellyId": 4287,
+    "decision": "fix",
+    "reason": "primary is definition-like ('drag over a surface'); 'drag, lug' is the natural translation",
+    "translation": "drag, lug",
+    "senses": ["drag, lug (move with difficulty)", "tow", "drag oneself (move strenuously)"]
+  },
+  {
+    "kellyId": 5601,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation ('to be wasteful'); 'squander' adds a useful synonym",
+    "translation": "waste, squander",
+    "senses": []
+  },
+  {
+    "kellyId": 5136,
+    "decision": "fix",
+    "reason": "sense list item has 'to' prefix; cleaned to bare glosses",
+    "senses": ["infect", "be contagious"]
+  },
+  {
+    "kellyId": 5446,
+    "decision": "fix",
+    "reason": "sense list mixes the primary gloss with definition-like expansions; rebuilt as clean concise senses",
+    "senses": ["bang, boom, smack (loud noise)", "hit, blow (on a person)", "corporal punishment, spanking"]
+  },
+  {
+    "kellyId": 4949,
+    "decision": "fix",
+    "reason": "'butter' is uncountable; needs uncountable flag; sense list cleaned",
+    "uncountable": true,
+    "senses": ["butter", "flattery, sucking up (colloquial)"]
+  },
+  {
+    "kellyId": 4357,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation ('to rotate, to turn'); single meaning so senses cleared",
+    "translation": "spin, rotate",
+    "senses": []
+  },
+  {
+    "kellyId": 4379,
+    "decision": "fix",
+    "reason": "'; social' appended to adverb is clumsy; this is an adverb, 'socially' is correct alone",
+    "translation": "socially",
+    "senses": []
+  },
+  {
+    "kellyId": 4557,
+    "decision": "fix",
+    "reason": "'social services' (plural) is more natural in English than 'social service'",
+    "translation": "social services",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4534,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation ('to scout'); single meaning so senses cleared",
+    "translation": "spy, scout",
+    "senses": []
+  },
+  {
+    "kellyId": 4633,
+    "decision": "fix",
+    "reason": "sense list item is awkwardly phrased with parenthetical '(to be given) the boot'; cleaned",
+    "senses": ["kick", "the boot, dismissal (from work)"]
+  },
+  {
+    "kellyId": 5197,
+    "decision": "fix",
+    "reason": "'game rule, gaming regulation' is wordy; 'game rule' suffices; sub-def 'rule' too vague — replaced with figurative sense",
+    "translation": "game rule",
+    "senses": ["game rule", "ground rule, rule of the game (figurative)"]
+  },
+  {
+    "kellyId": 4549,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation ('to shatter, to divide'); single meaning so senses cleared",
+    "translation": "split, shatter, divide",
+    "senses": []
+  },
+  {
+    "kellyId": 5191,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation ('to fracture, to split'); sense list items have 'to' and definition-like phrasing",
+    "translation": "crack, fracture, split",
+    "senses": ["crack, fracture, split", "burst (from internal pressure)"]
+  },
+  {
+    "kellyId": 4647,
+    "decision": "fix",
+    "reason": "capital S in 'Spread'; sub-definition is definition-like; single meaning so senses cleared",
+    "translation": "spread, scattered",
+    "senses": []
+  },
+  {
+    "kellyId": 5536,
+    "decision": "fix",
+    "reason": "'language use' is uncountable; needs uncountable flag",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5610,
+    "decision": "fix",
+    "reason": "embedded article in translation ('a baby'); bare form is 'infant, baby'",
+    "translation": "infant, baby",
+    "senses": []
+  },
+  {
+    "kellyId": 5475,
+    "decision": "fix",
+    "reason": "current translation is definition-like; 'krona' with informal note is cleaner",
+    "translation": "krona (informal)",
+    "senses": []
+  },
+  {
+    "kellyId": 5569,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation ('to tense'); sense list cleaned to bare glosses",
+    "translation": "tighten, tense",
+    "senses": ["tighten, tense (muscles, rope)", "draw (a bow)", "buckle, strap on", "span, stretch across"]
+  },
+  {
+    "kellyId": 5530,
+    "decision": "fix",
+    "reason": "embedded 'a' in translation ('a big brother'); sense list cleaned; Big Brother capitalised as proper noun",
+    "translation": "older brother, big brother",
+    "senses": ["older brother, big brother", "Big Brother (authoritarian surveillance)"]
+  },
+  {
+    "kellyId": 4246,
+    "decision": "fix",
+    "reason": "embedded article in translation ('a superpower'); single meaning so senses cleared",
+    "translation": "great power, superpower",
+    "senses": []
+  },
+  {
+    "kellyId": 5112,
+    "decision": "fix",
+    "reason": "sense list item 'a chariot used for fighting' is definition-like; cleaned",
+    "senses": ["tank (military vehicle)", "war chariot (historical)"]
+  },
+  {
+    "kellyId": 5187,
+    "decision": "fix",
+    "reason": "'radiation' is uncountable; needs uncountable flag",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4692,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation ('to stream'); sense list consolidated",
+    "translation": "flow, stream",
+    "senses": ["flow, stream", "pour, gush"]
+  },
+  {
+    "kellyId": 4547,
+    "decision": "fix",
+    "reason": "primary 'small, thin object' is a definition; 'pin, stylus' is the natural translation",
+    "translation": "pin, stylus",
+    "senses": ["pin, stylus, nib", "diocese, bishopric"]
+  },
+  {
+    "kellyId": 4602,
+    "decision": "fix",
+    "reason": "primary 'create or establish' is definition-like; 'found, establish' is more natural",
+    "translation": "found, establish",
+    "senses": ["found, establish (formally)", "become acquainted with"]
+  },
+  {
+    "kellyId": 4722,
+    "decision": "fix",
+    "reason": "embedded article in translation ('a trail'); single meaning so senses cleared",
+    "translation": "path, trail",
+    "senses": []
+  },
+  {
+    "kellyId": 5357,
+    "decision": "fix",
+    "reason": "'steel' is uncountable; needs uncountable flag; sub-def 'a tool of steel' is marginal",
+    "uncountable": true,
+    "senses": ["steel (metal)", "steel tool (dated)"]
+  },
+  {
+    "kellyId": 4433,
+    "decision": "fix",
+    "reason": "sense list item repeats the headword; parenthetical clarified",
+    "senses": ["substance (matter)", "substance, depth (meaningful content)"]
+  }
+]

@@ -1,0 +1,253 @@
+[
+  {
+    "kellyId": 4736,
+    "decision": "fix",
+    "reason": "sub-def 'a hit, a smash, etc.' is essentially a restatement of the same meaning; single sense",
+    "translation": "great success",
+    "senses": []
+  },
+  {
+    "kellyId": 4841,
+    "decision": "fix",
+    "reason": "sub-def 1 is a definition, not a translation; keep 'chance' as second sense",
+    "senses": ["sigh", "chance (in negatives: inte en suck)"]
+  },
+  {
+    "kellyId": 4453,
+    "decision": "fix",
+    "reason": "sub-def 'to drink, to booze' has embedded 'to'; second sense (eat liquid food) is archaic, trim to just the drinking sense",
+    "translation": "drink, booze",
+    "senses": ["drink, booze (excessively)"]
+  },
+  {
+    "kellyId": 4659,
+    "decision": "fix",
+    "reason": "sub-def 'to surf the internet' has embedded 'to'; fix phrasing",
+    "senses": ["surf (on a board)", "surf (the internet)"]
+  },
+  {
+    "kellyId": 5098,
+    "decision": "fix",
+    "reason": "everyday Swedish use of 'suverän' is overwhelmingly 'excellent, brilliant'; sovereign/authoritarian is the formal secondary sense",
+    "translation": "excellent, brilliant",
+    "senses": ["excellent, brilliant (colloquial)", "sovereign, supreme (formal)"]
+  },
+  {
+    "kellyId": 5540,
+    "decision": "fix",
+    "reason": "'silently' is wrong for 'svagt'; it means weakly, faintly, dimly",
+    "translation": "weakly, faintly"
+  },
+  {
+    "kellyId": 5295,
+    "decision": "fix",
+    "reason": "sub-defs 2 and 3 (accept, believe) are very similar figurative senses; merge; remove embedded 'to'",
+    "senses": ["swallow (physically)", "swallow (accept or believe, figuratively)"]
+  },
+  {
+    "kellyId": 4592,
+    "decision": "fix",
+    "reason": "primary 'starvation' is uncountable; 'famine' is a genuine second sense",
+    "uncountable": true,
+    "senses": ["starvation (personal)", "famine (widespread)"]
+  },
+  {
+    "kellyId": 5106,
+    "decision": "fix",
+    "reason": "'to hunger' has embedded 'to'; fix phrasing of both senses",
+    "translation": "starve, go hungry",
+    "senses": ["starve, go hungry", "starve (someone, by withholding food)"]
+  },
+  {
+    "kellyId": 4298,
+    "decision": "fix",
+    "reason": "sub-def 'in a technical or technological manner' is a definition; single meaning, clear list",
+    "senses": []
+  },
+  {
+    "kellyId": 4461,
+    "decision": "fix",
+    "reason": "'a telephone call' embeds the article; trim to bare form",
+    "translation": "phone call",
+    "senses": []
+  },
+  {
+    "kellyId": 4974,
+    "decision": "fix",
+    "reason": "sub-def embeds 'a'; fix phrasing",
+    "senses": ["semester, term (school)", "term, due date (finance)"]
+  },
+  {
+    "kellyId": 5305,
+    "decision": "fix",
+    "reason": "'to cut something with a saw' is a definition embedded in the primary; trim to bare verb; fix sub-def phrasing",
+    "translation": "saw",
+    "senses": ["saw (cut with a saw)", "pan, slate (criticize harshly)"]
+  },
+  {
+    "kellyId": 4347,
+    "decision": "fix",
+    "reason": "sub-def 'any bird in the family Sylviidae' is definition-like; simplify",
+    "senses": ["singer", "warbler (bird)"]
+  },
+  {
+    "kellyId": 4359,
+    "decision": "fix",
+    "reason": "'broadcast' is the most common everyday sense of 'sändning' (TV/radio); delivery/shipment is secondary; primary is also definition-like",
+    "translation": "broadcast",
+    "senses": ["broadcast (TV or radio)", "shipment, delivery (goods sent)"]
+  },
+  {
+    "kellyId": 5277,
+    "decision": "fix",
+    "reason": "escaped quotes look awkward; cleaner phrasing without the quote gimmick",
+    "translation": "creation, origin",
+    "senses": []
+  },
+  {
+    "kellyId": 4558,
+    "decision": "fix",
+    "reason": "four synonyms in primary is too many; trim to the two most useful; clean up sub-def",
+    "translation": "ascribe, attribute",
+    "senses": ["ascribe, attribute (characteristics or authorship)", "write to (formally)"]
+  },
+  {
+    "kellyId": 4950,
+    "decision": "fix",
+    "reason": "'accede, to enter an office or mission' has embedded 'to' and is definition-like; cleaner phrasing",
+    "translation": "take office, accede",
+    "senses": ["take office, accede (enter a post)", "accede to (sign an agreement)"]
+  },
+  {
+    "kellyId": 5148,
+    "decision": "fix",
+    "reason": "'a way' embeds article; trim to clean bare form; single core meaning",
+    "translation": "approach, method",
+    "senses": []
+  },
+  {
+    "kellyId": 5596,
+    "decision": "fix",
+    "reason": "'permission' is uncountable in English",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4879,
+    "decision": "fix",
+    "reason": "'a spectator' embeds article; remove it",
+    "translation": "viewer, spectator",
+    "senses": []
+  },
+  {
+    "kellyId": 5553,
+    "decision": "fix",
+    "reason": "sub-def 'which concerns the Czech Republic or the Czech language' is a definition; single meaning adjective",
+    "senses": []
+  },
+  {
+    "kellyId": 5249,
+    "decision": "fix",
+    "reason": "second sense 'a thief (something that takes away...)' is marginal figurative usage; single everyday meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 5027,
+    "decision": "fix",
+    "reason": "'service, to do service, to function, to work' is clumsy with embedded 'to' and redundant phrases",
+    "translation": "serve, be on duty",
+    "senses": []
+  },
+  {
+    "kellyId": 4418,
+    "decision": "fix",
+    "reason": "'humorously crazy' is an odd qualifier; 'tokig' just means crazy/nutty; sub-def is definition-like, simplify",
+    "translation": "crazy, nutty",
+    "senses": ["crazy, nutty, silly", "wrong, off (in a comical way)"]
+  },
+  {
+    "kellyId": 5150,
+    "decision": "fix",
+    "reason": "'ridiculous nonsense' is a restatement of 'silliness'; single meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 4880,
+    "decision": "fix",
+    "reason": "sub-def is definition-padded; simplify second sense",
+    "senses": ["broken (non-functional)", "tattered, torn (of fabric or clothes)"]
+  },
+  {
+    "kellyId": 5353,
+    "decision": "fix",
+    "reason": "current sub-def list is long and some items are very niche; trim to the most useful everyday senses",
+    "senses": ["three, the number 3", "third grade (school year)", "third gear"]
+  },
+  {
+    "kellyId": 5375,
+    "decision": "fix",
+    "reason": "'to fall, to roll' embeds 'to'; single core meaning (fall/tumble a short distance)",
+    "translation": "tumble, fall",
+    "senses": []
+  },
+  {
+    "kellyId": 5243,
+    "decision": "fix",
+    "reason": "'tiredness' is uncountable; mark accordingly",
+    "uncountable": true,
+    "senses": ["tiredness, fatigue, weariness", "sleepiness"]
+  },
+  {
+    "kellyId": 5130,
+    "decision": "fix",
+    "reason": "sub-def is definition-like; simplify",
+    "senses": ["thumb (digit)", "thumb (of a glove or mitten)"]
+  },
+  {
+    "kellyId": 4531,
+    "decision": "fix",
+    "reason": "'weight' sense is archaic (from adjective tung); drop it; simplify remaining senses",
+    "senses": ["tongue (organ)", "tongue (shoe flap)", "language, tongue (literary)"]
+  },
+  {
+    "kellyId": 4467,
+    "decision": "fix",
+    "reason": "'tourism' is uncountable in English",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5163,
+    "decision": "fix",
+    "reason": "'abeam' is nautical jargon not suited to a general learner flashcard",
+    "translation": "across, crosswise",
+    "senses": []
+  },
+  {
+    "kellyId": 5079,
+    "decision": "fix",
+    "reason": "'end' is too vague; 'undergång' means downfall/doom/destruction; primary should reflect that",
+    "translation": "downfall, doom",
+    "senses": ["downfall, doom, destruction", "underpass (pedestrian tunnel)"]
+  },
+  {
+    "kellyId": 4919,
+    "decision": "fix",
+    "reason": "sub-def 'to keep up (maintain) or perform upkeep on' has embedded 'to' and is verbose",
+    "senses": ["entertain", "maintain, keep up"]
+  },
+  {
+    "kellyId": 4478,
+    "decision": "fix",
+    "reason": "'entertainment' is uncountable in English",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5605,
+    "decision": "fix",
+    "reason": "'to notify' embeds 'to'",
+    "translation": "inform, notify",
+    "senses": []
+  }
+]

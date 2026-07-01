@@ -1,0 +1,342 @@
+[
+  {
+    "kellyId": 5918,
+    "decision": "fix",
+    "reason": "list items had spurious 'to' prefix (verb, app adds 'to'); merged orbit/circle into one sense",
+    "translation": "revolve, circle",
+    "senses": [
+      "revolve, circle (orbit a point)",
+      "revolve around, be centered on"
+    ]
+  },
+  {
+    "kellyId": 6335,
+    "decision": "fix",
+    "reason": "current translation embeds spurious 'to' prefix and is awkward; 'wage war, fight' is cleaner bare form",
+    "translation": "wage war, fight",
+    "senses": []
+  },
+  {
+    "kellyId": 6623,
+    "decision": "fix",
+    "reason": "spurious 'to crash' in primary; croquet sense too obscure for learner list",
+    "translation": "collide, crash",
+    "senses": []
+  },
+  {
+    "kellyId": 6994,
+    "decision": "fix",
+    "reason": "list only covered two hook sub-types; general hook sense should be primary; rebuild complete list",
+    "translation": "hook",
+    "senses": [
+      "hook (for hanging things, fishing, etc.)",
+      "hook (boxing punch)"
+    ]
+  },
+  {
+    "kellyId": 6140,
+    "decision": "fix",
+    "reason": "current translation is definition-like ('pertaining to the body'); 'bodily, physical' is the clean gloss",
+    "translation": "bodily, physical",
+    "senses": []
+  },
+  {
+    "kellyId": 6873,
+    "decision": "fix",
+    "reason": "list parenthetical is fine; pot sense should note general use; coward sense keep with label",
+    "translation": "pot",
+    "senses": [
+      "pot (plant pot, cooking pot)",
+      "coward, chicken (colloquial)"
+    ]
+  },
+  {
+    "kellyId": 6656,
+    "decision": "fix",
+    "reason": "primary is definition-like; 'tick, check (a box)' is the natural translation; sailing sense cleans trailing period",
+    "translation": "tick, check (a box)",
+    "senses": [
+      "tick, check (mark a box)",
+      "tack (sail zigzag upwind)"
+    ]
+  },
+  {
+    "kellyId": 6776,
+    "decision": "fix",
+    "reason": "spurious 'to' prefix in translation; app adds 'to' for verbs",
+    "translation": "throw up, vomit",
+    "senses": []
+  },
+  {
+    "kellyId": 6499,
+    "decision": "fix",
+    "reason": "list sense is definition-like with inline comparison note; trim to bare sense",
+    "translation": "pillow",
+    "senses": [
+      "pillow",
+      "cushion"
+    ]
+  },
+  {
+    "kellyId": 6352,
+    "decision": "fix",
+    "reason": "clumsy 'or' phrasing; use comma-joined form",
+    "translation": "square metre, square meter",
+    "senses": []
+  },
+  {
+    "kellyId": 5853,
+    "decision": "fix",
+    "reason": "four synonyms in primary is too many; 'pain, anguish' covers the core; 'qualification' is a distinct second sense",
+    "translation": "pain, anguish",
+    "senses": [
+      "pain, anguish, suffering",
+      "qualification (sports)"
+    ]
+  },
+  {
+    "kellyId": 6357,
+    "decision": "fix",
+    "reason": "'quotient' and 'quota' are two genuinely distinct everyday meanings of equal weight — use semicolon form; list redundant 'result of a division' sub-item removed",
+    "translation": "quotient; quota",
+    "senses": [
+      "quotient (result of division)",
+      "quota"
+    ]
+  },
+  {
+    "kellyId": 6299,
+    "decision": "fix",
+    "reason": "spurious 'to' prefix; the two wiktionary senses (active/passive) collapse to one meaning",
+    "translation": "suffocate, choke",
+    "senses": []
+  },
+  {
+    "kellyId": 6575,
+    "decision": "fix",
+    "reason": "embedded article 'a trader' in translation — strip to bare form",
+    "translation": "merchant, trader",
+    "senses": []
+  },
+  {
+    "kellyId": 6127,
+    "decision": "fix",
+    "reason": "'driving' as primary is uncountable (the activity); computer-run is a distinct second sense",
+    "translation": "driving",
+    "uncountable": true,
+    "senses": [
+      "driving (of a vehicle)",
+      "run (of a computer program)"
+    ]
+  },
+  {
+    "kellyId": 5873,
+    "decision": "fix",
+    "reason": "primary 'tense' is correct (laddad stämning); list should have 'charged/loaded' as secondary; 'high on cocaine' is too marginal",
+    "translation": "tense",
+    "senses": [
+      "tense, charged (emotionally)",
+      "loaded, charged (literally — weapon, battery)"
+    ]
+  },
+  {
+    "kellyId": 5789,
+    "decision": "fix",
+    "reason": "Wiktionary 'a sheep' sense is misleading/wrong for lamm; lamb-as-meat is a sub-sense of the same meaning — single concept",
+    "translation": "lamb",
+    "senses": []
+  },
+  {
+    "kellyId": 6795,
+    "decision": "fix",
+    "reason": "embedded article 'a countryman' in translation — strip to bare form",
+    "translation": "compatriot, countryman",
+    "senses": []
+  },
+  {
+    "kellyId": 6944,
+    "decision": "fix",
+    "reason": "embedded article 'a farmer'; 'agriculturist' is rare — 'farmer' is the natural everyday word",
+    "translation": "farmer",
+    "senses": []
+  },
+  {
+    "kellyId": 5945,
+    "decision": "fix",
+    "reason": "Latin binomial in primary is not learner-helpful; rebuild clean list",
+    "translation": "lion",
+    "senses": [
+      "lion (animal)",
+      "lion (heraldic symbol)",
+      "Leo (star sign)"
+    ]
+  },
+  {
+    "kellyId": 6132,
+    "decision": "fix",
+    "reason": "primary 'mud, in particular relatively dry' is definition-like; lera is primarily clay, with mud as a secondary sense",
+    "translation": "clay",
+    "senses": [
+      "clay",
+      "mud (relatively dry)"
+    ]
+  },
+  {
+    "kellyId": 6978,
+    "decision": "fix",
+    "reason": "embedded article 'a lexicon' in translation; trim to clean primary with complete list",
+    "translation": "dictionary",
+    "senses": [
+      "dictionary, lexicon",
+      "encyclopedia",
+      "vocabulary (of a person)"
+    ]
+  },
+  {
+    "kellyId": 6643,
+    "decision": "fix",
+    "reason": "embedded article 'a younger sister' in translation — bare form",
+    "translation": "little sister, younger sister",
+    "senses": []
+  },
+  {
+    "kellyId": 6497,
+    "decision": "fix",
+    "reason": "embedded article 'a younger brother' in translation — bare form",
+    "translation": "little brother, younger brother",
+    "senses": []
+  },
+  {
+    "kellyId": 5819,
+    "decision": "fix",
+    "reason": "primary 'make less painful' is definition-like; 'relieve, alleviate' is the clean translation",
+    "translation": "relieve, alleviate",
+    "senses": []
+  },
+  {
+    "kellyId": 5922,
+    "decision": "fix",
+    "reason": "primary 'of lethal danger, life-threatening' is definition-like; 'life-threatening' alone is the clean gloss",
+    "translation": "life-threatening",
+    "senses": []
+  },
+  {
+    "kellyId": 5844,
+    "decision": "fix",
+    "reason": "primary 'age' is too vague for livslängd; 'lifespan, lifetime' is the correct translation; sub-def is definition-like",
+    "translation": "lifespan, lifetime",
+    "senses": []
+  },
+  {
+    "kellyId": 6960,
+    "decision": "fix",
+    "reason": "list is redundant (just repeats 'a lobby'); single meaning — clear list",
+    "translation": "lobby",
+    "senses": []
+  },
+  {
+    "kellyId": 6777,
+    "decision": "fix",
+    "reason": "spurious 'to' prefix in primary; 'find, locate' is cleaner bare form",
+    "translation": "find, locate",
+    "senses": []
+  },
+  {
+    "kellyId": 6824,
+    "decision": "fix",
+    "reason": "spurious 'to' prefix in primary; 'come loose, detach' is cleaner bare form",
+    "translation": "come loose, detach",
+    "senses": []
+  },
+  {
+    "kellyId": 5965,
+    "decision": "fix",
+    "reason": "primary has four synonyms and is too broad; 'lot, share' is the core; three distinct senses in list",
+    "translation": "lot, share",
+    "senses": [
+      "lot, share, portion",
+      "lottery ticket, lot (drawn by chance)",
+      "plot, land lot"
+    ]
+  },
+  {
+    "kellyId": 5905,
+    "decision": "fix",
+    "reason": "list entry is a meta-note (synonym reference), not a real learner-facing sense — drop it; single meaning",
+    "translation": "smell, odour, scent",
+    "senses": []
+  },
+  {
+    "kellyId": 6045,
+    "decision": "fix",
+    "reason": "primary 'simple, straight horn' is the least common everyday meaning; the most frequent use is 'receiver/handset' (telephone); horn senses are secondary",
+    "translation": "receiver, handset",
+    "senses": [
+      "receiver, handset (telephone)",
+      "horn (simple wind instrument)",
+      "lur (curved Bronze Age horn)"
+    ]
+  },
+  {
+    "kellyId": 5979,
+    "decision": "fix",
+    "reason": "two distinct senses — sports stands dominate in everyday use; gallery/balcony secondary",
+    "translation": "stand, grandstand",
+    "senses": [
+      "stand, grandstand, bleachers (sports)",
+      "gallery, balcony (in a hall or church)"
+    ]
+  },
+  {
+    "kellyId": 6819,
+    "decision": "fix",
+    "reason": "four synonyms in primary is too many; 'suitability, appropriateness' covers it cleanly",
+    "translation": "suitability, appropriateness",
+    "senses": []
+  },
+  {
+    "kellyId": 6917,
+    "decision": "fix",
+    "reason": "primary is capitalised and definition-like; clean to lowercase bare form; sub-def is redundant",
+    "translation": "soda, fizzy drink",
+    "senses": []
+  },
+  {
+    "kellyId": 6187,
+    "decision": "fix",
+    "reason": "list contains slang senses ('female breast', '1000 SEK') too marginal for a learner card — drop them; bulb is a real secondary",
+    "translation": "onion",
+    "senses": [
+      "onion",
+      "bulb (of a tulip or similar plant)"
+    ]
+  },
+  {
+    "kellyId": 6239,
+    "decision": "fix",
+    "reason": "'running' as primary is uncountable (the sport/activity)",
+    "translation": "running",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6749,
+    "decision": "fix",
+    "reason": "primary 'lean, without fat' is definition-like; 'lean, thin' is the clean gloss; two distinct senses",
+    "translation": "lean, thin",
+    "senses": [
+      "lean, thin (of food or a person)",
+      "meagre, sparse (of land or results)"
+    ]
+  },
+  {
+    "kellyId": 6858,
+    "decision": "fix",
+    "reason": "list was a duplicate of the primary — redundant; vessel has two real senses worth distinguishing",
+    "translation": "vessel",
+    "senses": [
+      "vessel, container",
+      "vessel (blood vessel)"
+    ]
+  }
+]

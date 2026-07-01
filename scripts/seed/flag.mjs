@@ -1,8 +1,8 @@
 // Heuristic flagging — mark candidates whose translation looks suspect or is missing, so the
 // seed-cleaner only spends effort where it's needed (targeted cleanup). (SPEC §9.3)
-// Output: data/intermediate/flagged.json (candidates with a non-empty `flags` array)
+// Output: data/scratch/sv/flagged.json (candidates with a non-empty `flags` array)
 // Run: node scripts/seed/flag.mjs
-import { readFile, writeFile } from 'node:fs/promises'
+import { mkdir, readFile, writeFile } from 'node:fs/promises'
 
 function flagsFor(c) {
   const flags = []
@@ -43,7 +43,7 @@ function collisionIds(candidates) {
 }
 
 async function main() {
-  const candidates = JSON.parse(await readFile('data/intermediate/candidates.json', 'utf-8'))
+  const candidates = JSON.parse(await readFile('data/seed/sv/base.json', 'utf-8'))
   const collisions = collisionIds(candidates)
   const flagged = []
   const counts = {}
@@ -54,7 +54,8 @@ async function main() {
     flagged.push({ ...c, flags })
     for (const f of flags) counts[f] = (counts[f] ?? 0) + 1
   }
-  await writeFile('data/intermediate/flagged.json', JSON.stringify(flagged))
+  await mkdir('data/scratch/sv', { recursive: true })
+  await writeFile('data/scratch/sv/flagged.json', JSON.stringify(flagged))
   console.log(`flagged ${flagged.length}/${candidates.length} candidates`)
   console.log('by reason:', counts)
 }

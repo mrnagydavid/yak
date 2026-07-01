@@ -1,0 +1,339 @@
+[
+  {
+    "kellyId": 4213,
+    "decision": "fix",
+    "reason": "'reality, a real fact' is clumsy; primary is simply 'reality'",
+    "translation": "reality",
+    "senses": []
+  },
+  {
+    "kellyId": 5264,
+    "decision": "fix",
+    "reason": "'review, to write critique' — app adds 'to', making 'to to write'; fix phrasing",
+    "translation": "review, write a critique",
+    "senses": []
+  },
+  {
+    "kellyId": 5281,
+    "decision": "fix",
+    "reason": "sub-def 'to make changes to a text or a document' is a definition of the primary; single-meaning word",
+    "translation": "edit",
+    "senses": []
+  },
+  {
+    "kellyId": 4780,
+    "decision": "fix",
+    "reason": "sub-def '(abbreviated RF)' is a note, not a distinct sense; clear it",
+    "translation": "instrument of government",
+    "senses": []
+  },
+  {
+    "kellyId": 4708,
+    "decision": "fix",
+    "reason": "'rehabilitation' is uncountable in English",
+    "translation": "rehabilitation",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4967,
+    "decision": "fix",
+    "reason": "'recruitment' is uncountable in English",
+    "translation": "recruitment",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4538,
+    "decision": "fix",
+    "reason": "'relevance' is uncountable in English",
+    "translation": "relevance",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4563,
+    "decision": "fix",
+    "reason": "'repo rate' is the standard short everyday term; 'repurchase agreement rate' is the verbose expansion",
+    "translation": "repo rate",
+    "senses": []
+  },
+  {
+    "kellyId": 4798,
+    "decision": "fix",
+    "reason": "'representation' is uncountable in English (in its main abstract sense)",
+    "translation": "representation",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5361,
+    "decision": "fix",
+    "reason": "sub-def repeats the primary verbatim; single-meaning word",
+    "translation": "member of parliament",
+    "senses": []
+  },
+  {
+    "kellyId": 5418,
+    "decision": "fix",
+    "reason": "current translation is definition-like; shorter gloss is clearer",
+    "translation": "parliamentary party (in the Riksdag)",
+    "senses": []
+  },
+  {
+    "kellyId": 5507,
+    "decision": "fix",
+    "reason": "primary 'drawing' is too vague — ritning is specifically a technical drawing; sub-def also restates awkwardly",
+    "translation": "drawing, blueprint",
+    "senses": ["drawing, blueprint (technical)", "drawing (the art of)"]
+  },
+  {
+    "kellyId": 4584,
+    "decision": "fix",
+    "reason": "embedded article 'an overcoat' in primary",
+    "translation": "coat, overcoat",
+    "senses": ["coat, overcoat", "rock, rock and roll"]
+  },
+  {
+    "kellyId": 4683,
+    "decision": "fix",
+    "reason": "embedded articles 'a call, a shout' in primary; second wiktionary sense is idiomatic phrase not a noun sense",
+    "translation": "cry, call, shout",
+    "senses": []
+  },
+  {
+    "kellyId": 4363,
+    "decision": "fix",
+    "reason": "'rummage, to root' — app adds 'to', creating 'to to root'; fix phrasing",
+    "translation": "rummage, root around",
+    "senses": ["rummage, root around (search messily)", "root (gain device admin access)", "put down roots, settle"]
+  },
+  {
+    "kellyId": 5438,
+    "decision": "fix",
+    "reason": "sub-def 'Carnivora' needs parenthetical to be useful",
+    "translation": "predator",
+    "senses": ["predator (animal that preys on others)", "Carnivora (taxonomic order)"]
+  },
+  {
+    "kellyId": 4889,
+    "decision": "fix",
+    "reason": "embedded articles 'a backside, a rump' in primary",
+    "translation": "butt, backside, rump",
+    "senses": ["butt, backside, rump", "tail"]
+  },
+  {
+    "kellyId": 5371,
+    "decision": "fix",
+    "reason": "sub-defs contain definition-like phrasing; rebuild cleanly",
+    "translation": "arm, equip",
+    "senses": ["arm (with weapons)", "equip (for a situation)", "renovate (a building); also rusta upp"]
+  },
+  {
+    "kellyId": 5245,
+    "decision": "fix",
+    "reason": "'advice' is uncountable; senses list should reflect both senses",
+    "translation": "advice",
+    "uncountable": true,
+    "senses": ["advice", "counselling"]
+  },
+  {
+    "kellyId": 5503,
+    "decision": "fix",
+    "reason": "sub-def is a definition of 'rat', not a distinct sense; single-meaning word",
+    "translation": "rat",
+    "senses": []
+  },
+  {
+    "kellyId": 4922,
+    "decision": "fix",
+    "reason": "embedded article 'a save' in primary; 'rescue' is clearer than 'saving'",
+    "translation": "rescue, save",
+    "senses": ["rescue, save (from danger)", "save (in sports, preventing a goal)"]
+  },
+  {
+    "kellyId": 5297,
+    "decision": "fix",
+    "reason": "'the quality of being righteous' is a definition; 'righteousness' alone is sufficient and uncountable",
+    "translation": "righteousness",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4963,
+    "decision": "fix",
+    "reason": "'smoke' is uncountable as primary",
+    "translation": "smoke",
+    "uncountable": true,
+    "senses": ["smoke", "cigarette (informal)"]
+  },
+  {
+    "kellyId": 4923,
+    "decision": "fix",
+    "reason": "embedded article 'a tube' in primary; ice skate sense missing from sub-defs",
+    "translation": "pipe, tube",
+    "senses": ["pipe, tube", "reed, cane (bamboo, rattan, sugar cane)", "reed (woodwind instrument)", "vacuum tube", "ice skate (hockey/bandy, informal)"]
+  },
+  {
+    "kellyId": 5015,
+    "decision": "fix",
+    "reason": "embedded article 'a hall' in primary",
+    "translation": "hall, large room",
+    "senses": []
+  },
+  {
+    "kellyId": 5093,
+    "decision": "fix",
+    "reason": "'cohesion' is uncountable in English",
+    "translation": "cohesion",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4396,
+    "decision": "fix",
+    "reason": "sub-def is a definition; primary 'added together, taken together' is verbose — 'combined, total' is cleaner",
+    "translation": "combined, total",
+    "senses": []
+  },
+  {
+    "kellyId": 5219,
+    "decision": "fix",
+    "reason": "'compounded' is awkward as a standalone adjective; 'compound, composite' is cleaner; sub-defs are definition-like",
+    "translation": "compound, composite",
+    "senses": []
+  },
+  {
+    "kellyId": 5204,
+    "decision": "fix",
+    "reason": "embedded article 'a federation, a union' in primary",
+    "translation": "association, federation, union",
+    "senses": []
+  },
+  {
+    "kellyId": 4365,
+    "decision": "fix",
+    "reason": "'compile, to put together, to draw up' — app adds 'to', creating 'to to put'; fix phrasing",
+    "translation": "compile, put together",
+    "senses": []
+  },
+  {
+    "kellyId": 4477,
+    "decision": "fix",
+    "reason": "sub-def restates the primary with a definition appended; single-meaning word",
+    "translation": "compilation",
+    "senses": []
+  },
+  {
+    "kellyId": 4321,
+    "decision": "fix",
+    "reason": "'coordinate, to organize' — app adds 'to', creating 'to to organize'",
+    "translation": "coordinate, organize",
+    "senses": []
+  },
+  {
+    "kellyId": 4498,
+    "decision": "fix",
+    "reason": "'talk, to converse' — app adds 'to', creating 'to to converse'",
+    "translation": "talk, converse",
+    "senses": []
+  },
+  {
+    "kellyId": 4387,
+    "decision": "fix",
+    "reason": "'consent' is uncountable in English",
+    "translation": "consent",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4982,
+    "decision": "fix",
+    "reason": "'collaborate, to cooperate' — app adds 'to', creating 'to to cooperate'",
+    "translation": "collaborate, cooperate",
+    "senses": []
+  },
+  {
+    "kellyId": 4259,
+    "decision": "fix",
+    "reason": "wiktionary sense 'tough (of a person)' missing from sub-defs; add it",
+    "translation": "tough, leathery, rubbery",
+    "senses": ["tough, leathery, rubbery (texture)", "chewy", "slow-witted", "slow, boring", "tough (of a person, resilient)"]
+  },
+  {
+    "kellyId": 5312,
+    "decision": "fix",
+    "reason": "'secrecy' is uncountable in English",
+    "translation": "secrecy",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4801,
+    "decision": "fix",
+    "reason": "sub-def 'related to Serbia or the Serbian language' is a definition of the primary, not a distinct sense",
+    "translation": "Serbian",
+    "senses": []
+  },
+  {
+    "kellyId": 5479,
+    "decision": "fix",
+    "reason": "'sex' (intercourse) is uncountable in English",
+    "translation": "sex",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5386,
+    "decision": "fix",
+    "reason": "'shopping' is uncountable in English",
+    "translation": "shopping",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4671,
+    "decision": "fix",
+    "reason": "sub-def 'a play, dance, or other entertainment' is a definition of 'show', not a distinct sense",
+    "translation": "show",
+    "senses": []
+  },
+  {
+    "kellyId": 4568,
+    "decision": "fix",
+    "reason": "'SIGINT' is an opaque abbreviation for learners; 'signals intelligence' is clearer as primary",
+    "translation": "signals intelligence, SIGINT",
+    "senses": []
+  },
+  {
+    "kellyId": 4635,
+    "decision": "fix",
+    "reason": "'silver' is uncountable as primary material; sub-defs need cleaning",
+    "translation": "silver",
+    "uncountable": true,
+    "senses": ["silver (metal)", "silver, coins (collective)", "silver, cutlery (collective)", "silver medal (2nd place)"]
+  },
+  {
+    "kellyId": 4493,
+    "decision": "fix",
+    "reason": "sub-defs contain repetition ('a single' appears twice, 'singles, single' is garbled); rebuild cleanly",
+    "translation": "single",
+    "senses": ["single (person, not in a relationship)", "single (music release)", "singles (sport)", "coarse gravel, shingle"]
+  },
+  {
+    "kellyId": 5427,
+    "decision": "fix",
+    "reason": "'sick pay' is uncountable in English",
+    "translation": "sick pay",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5092,
+    "decision": "fix",
+    "reason": "'self-esteem' is uncountable in English",
+    "translation": "self-esteem",
+    "uncountable": true,
+    "senses": []
+  }
+]

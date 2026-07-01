@@ -1,6 +1,6 @@
 ---
 name: seed-cleaner
-description: Cleans/translates flagged Swedish vocabulary seed entries — supplies missing English translations, shortens definition-like glosses to concise translations, fixes abbreviation-expansion bugs, and improves weak sub-definitions. Use when processing data/intermediate/batches/*.json files.
+description: Cleans/translates flagged Swedish vocabulary seed entries — supplies missing English translations, shortens definition-like glosses to concise translations, fixes abbreviation-expansion bugs, and improves weak sub-definitions. Use when processing data/scratch/sv/cleanup-batches/*.json files.
 tools: Read, Write
 model: sonnet
 ---

@@ -1,0 +1,412 @@
+[
+  {
+    "english": "colour",
+    "senses": [
+      { "gloss": "noun", "members": [1247] },
+      { "gloss": "verb", "members": [5387] }
+    ]
+  },
+  {
+    "english": "promise",
+    "senses": [
+      { "gloss": "verb", "members": [1248, 4665] },
+      { "gloss": "noun", "members": [2225] }
+    ]
+  },
+  {
+    "english": "cold",
+    "senses": [
+      { "gloss": "adjective", "members": [1253] },
+      { "gloss": "coldness", "members": [3490] },
+      { "gloss": "illness", "members": [6158] }
+    ]
+  },
+  {
+    "english": "weak",
+    "senses": [
+      { "gloss": "lacking strength", "members": [1260] },
+      { "gloss": "listless", "members": [6933] }
+    ]
+  },
+  {
+    "english": "drink",
+    "senses": [
+      { "gloss": "to consume liquid", "members": [1280] },
+      { "gloss": "to booze", "members": [4453] },
+      { "gloss": "cocktail", "members": [5830] }
+    ]
+  },
+  {
+    "english": "operation, intervention",
+    "senses": [
+      { "gloss": "police or military", "members": [1281] },
+      { "gloss": "surgical", "members": [2346] }
+    ]
+  },
+  {
+    "english": "relatively",
+    "senses": [
+      { "gloss": "", "members": [1283, 3815] }
+    ]
+  },
+  {
+    "english": "lower",
+    "senses": [
+      { "gloss": "to reduce", "members": [1290] },
+      { "gloss": "bottom, beneath", "members": [4779, 6898] }
+    ]
+  },
+  {
+    "english": "correction, erratum",
+    "senses": [
+      { "gloss": "", "members": [1295, 6533] }
+    ]
+  },
+  {
+    "english": "by the way, incidentally",
+    "senses": [
+      { "gloss": "", "members": [1299, 1969] }
+    ]
+  },
+  {
+    "english": "reasonable, fair",
+    "senses": [
+      { "gloss": "", "members": [1304, 2282] }
+    ]
+  },
+  {
+    "english": "immigrant",
+    "senses": [
+      { "gloss": "", "members": [1306, 7013] }
+    ]
+  },
+  {
+    "english": "wake up",
+    "senses": [
+      { "gloss": "rouse someone", "members": [1317] },
+      { "gloss": "become awake", "members": [1474] }
+    ]
+  },
+  {
+    "english": "drop",
+    "senses": [
+      { "gloss": "to lose or let fall", "members": [1328] },
+      { "gloss": "droplet", "members": [7284] }
+    ]
+  },
+  {
+    "english": "board",
+    "senses": [
+      { "gloss": "of directors", "members": [1333] },
+      { "gloss": "plank", "members": [6219, 8239] }
+    ]
+  },
+  {
+    "english": "interview",
+    "senses": [
+      { "gloss": "noun", "members": [1334] },
+      { "gloss": "verb", "members": [2961] }
+    ]
+  },
+  {
+    "english": "strongly",
+    "senses": [
+      { "gloss": "", "members": [1335, 1612] }
+    ]
+  },
+  {
+    "english": "mail, post",
+    "senses": [
+      { "gloss": "noun", "members": [1348] },
+      { "gloss": "verb", "members": [1829] }
+    ]
+  },
+  {
+    "english": "extra",
+    "senses": [
+      { "gloss": "additional", "members": [1349] },
+      { "gloss": "film extra", "members": [8009] }
+    ]
+  },
+  {
+    "english": "influence",
+    "senses": [
+      { "gloss": "", "members": [1354, 2479, 3133] }
+    ]
+  },
+  {
+    "english": "message",
+    "senses": [
+      { "gloss": "communication", "members": [1355, 1696] },
+      { "gloss": "courier, bid", "members": [1648] }
+    ]
+  },
+  {
+    "english": "tip, hint",
+    "senses": [
+      { "gloss": "advice", "members": [1357] },
+      { "gloss": "to tip over", "members": [6098] },
+      { "gloss": "gratuity", "members": [7452] }
+    ]
+  },
+  {
+    "english": "obvious, self-explanatory",
+    "senses": [
+      { "gloss": "", "members": [1360, 1382] }
+    ]
+  },
+  {
+    "english": "forward, ahead",
+    "senses": [
+      { "gloss": "direction", "members": [1364] },
+      { "gloss": "to forward", "members": [6576] }
+    ]
+  },
+  {
+    "english": "establish, determine",
+    "senses": [
+      { "gloss": "determine, confirm", "members": [1390, 5028] },
+      { "gloss": "set up, found", "members": [1912, 2178, 2259] }
+    ]
+  },
+  {
+    "english": "season",
+    "senses": [
+      { "gloss": "", "members": [1392, 6039] }
+    ]
+  },
+  {
+    "english": "exist",
+    "senses": [
+      { "gloss": "", "members": [1400, 1838] }
+    ]
+  },
+  {
+    "english": "tired",
+    "senses": [
+      { "gloss": "sleepy", "members": [1401] },
+      { "gloss": "fed up", "members": [5447] }
+    ]
+  },
+  {
+    "english": "sky",
+    "senses": [
+      { "gloss": "heavens", "members": [1402] },
+      { "gloss": "cloud", "members": [4415] }
+    ]
+  },
+  {
+    "english": "course, class",
+    "senses": [
+      { "gloss": "learning", "members": [1407] },
+      { "gloss": "progression", "members": [5213] }
+    ]
+  },
+  {
+    "english": "strange, peculiar",
+    "senses": [
+      { "gloss": "odd, weird", "members": [1409, 3142] },
+      { "gloss": "unfamiliar, foreign", "members": [2062] }
+    ]
+  },
+  {
+    "english": "east",
+    "senses": [
+      { "gloss": "noun", "members": [1410, 5005] },
+      { "gloss": "adjective", "members": [6556] }
+    ]
+  },
+  {
+    "english": "science",
+    "senses": [
+      { "gloss": "general", "members": [1415] },
+      { "gloss": "natural science", "members": [6147] }
+    ]
+  },
+  {
+    "english": "route",
+    "senses": [
+      { "gloss": "", "members": [1418, 6767] }
+    ]
+  },
+  {
+    "english": "attract, lure, entice",
+    "senses": [
+      { "gloss": "", "members": [1419, 5812] }
+    ]
+  },
+  {
+    "english": "statement, declaration",
+    "senses": [
+      { "gloss": "", "members": [1421, 2088] }
+    ]
+  },
+  {
+    "english": "respect",
+    "senses": [
+      { "gloss": "esteem", "members": [1427, 7563] },
+      { "gloss": "consideration", "members": [1433, 3841] },
+      { "gloss": "verb", "members": [2191] }
+    ]
+  },
+  {
+    "english": "request, ask for",
+    "senses": [
+      { "gloss": "verb", "members": [1435] },
+      { "gloss": "formal request", "members": [2896, 8407] },
+      { "gloss": "wish, preference", "members": [3103] }
+    ]
+  },
+  {
+    "english": "produce, manufacture",
+    "senses": [
+      { "gloss": "", "members": [1437, 1990] }
+    ]
+  },
+  {
+    "english": "extent",
+    "senses": [
+      { "gloss": "degree", "members": [1438, 2871] },
+      { "gloss": "scope, scale", "members": [1894, 7322] }
+    ]
+  },
+  {
+    "english": "institution",
+    "senses": [
+      { "gloss": "organization", "members": [1442] },
+      { "gloss": "facility", "members": [6512] }
+    ]
+  },
+  {
+    "english": "ball",
+    "senses": [
+      { "gloss": "sports ball", "members": [1444] },
+      { "gloss": "marble, bullet", "members": [4591] },
+      { "gloss": "sphere", "members": [6811] },
+      { "gloss": "formal dance", "members": [7505] }
+    ]
+  },
+  {
+    "english": "found, establish",
+    "senses": [
+      { "gloss": "", "members": [1445, 4602] }
+    ]
+  },
+  {
+    "english": "past, by",
+    "senses": [
+      { "gloss": "preposition", "members": [1446] },
+      { "gloss": "adjective", "members": [3881] },
+      { "gloss": "noun", "members": [5725] }
+    ]
+  },
+  {
+    "english": "industry",
+    "senses": [
+      { "gloss": "", "members": [1448, 1856] }
+    ]
+  },
+  {
+    "english": "fulfill",
+    "senses": [
+      { "gloss": "", "members": [1452, 4380] }
+    ]
+  },
+  {
+    "english": "aim, intend",
+    "senses": [
+      { "gloss": "have as purpose", "members": [1455, 4016] },
+      { "gloss": "direct a blow", "members": [8265] }
+    ]
+  },
+  {
+    "english": "building",
+    "senses": [
+      { "gloss": "structure", "members": [1457] },
+      { "gloss": "act of building", "members": [3350] }
+    ]
+  },
+  {
+    "english": "writing, text",
+    "senses": [
+      { "gloss": "written text", "members": [1459] },
+      { "gloss": "written exam", "members": [1627] },
+      { "gloss": "act of writing", "members": [4447] }
+    ]
+  },
+  {
+    "english": "responsible",
+    "senses": [
+      { "gloss": "accountable", "members": [1460] },
+      { "gloss": "trustworthy", "members": [5115] }
+    ]
+  },
+  {
+    "english": "Israeli",
+    "senses": [
+      { "gloss": "adjective", "members": [1464] },
+      { "gloss": "noun", "members": [2431] }
+    ]
+  },
+  {
+    "english": "competition, contest",
+    "senses": [
+      { "gloss": "sporting event", "members": [1468] },
+      { "gloss": "market rivalry", "members": [1504] }
+    ]
+  },
+  {
+    "english": "patient",
+    "senses": [
+      { "gloss": "medical", "members": [1472] },
+      { "gloss": "tolerant", "members": [7614] }
+    ]
+  },
+  {
+    "english": "centre",
+    "senses": [
+      { "gloss": "", "members": [1477, 3138] }
+    ]
+  },
+  {
+    "english": "dark",
+    "senses": [
+      { "gloss": "lacking light", "members": [1480] },
+      { "gloss": "obscure, dubious", "members": [6374] }
+    ]
+  },
+  {
+    "english": "table",
+    "senses": [
+      { "gloss": "furniture", "members": [1482] },
+      { "gloss": "data table", "members": [2808] }
+    ]
+  },
+  {
+    "english": "urge, call on",
+    "senses": [
+      { "gloss": "exhort", "members": [1489] },
+      { "gloss": "formally demand", "members": [2752] }
+    ]
+  },
+  {
+    "english": "apartment, flat",
+    "senses": [
+      { "gloss": "dwelling", "members": [1493] },
+      { "gloss": "floor, storey", "members": [2832] }
+    ]
+  },
+  {
+    "english": "reveal",
+    "senses": [
+      { "gloss": "", "members": [1498, 4369] }
+    ]
+  },
+  {
+    "english": "race",
+    "senses": [
+      { "gloss": "competition", "members": [1500, 7897] },
+      { "gloss": "breed, ethnicity", "members": [2263] }
+    ]
+  }
+]

@@ -1,0 +1,320 @@
+[
+  {
+    "kellyId": 3376,
+    "decision": "fix",
+    "reason": "senses list omits the primary sense; both meanings must appear in the list with primary first",
+    "translation": "judgment, opinion",
+    "senses": ["judgment, opinion", "judgment, discretion"]
+  },
+  {
+    "kellyId": 3172,
+    "decision": "fix",
+    "reason": "senses list omits the primary sense and has embedded articles; needs primary-first complete list",
+    "translation": "cover",
+    "senses": ["cover (of a book, magazine, or record)", "wrapping, envelope", "sudden change, turn"]
+  },
+  {
+    "kellyId": 4097,
+    "decision": "fix",
+    "reason": "'pertaining to operations' is definition-like; 'operational' is the clean adjective",
+    "translation": "operational, operative",
+    "senses": []
+  },
+  {
+    "kellyId": 3497,
+    "decision": "fix",
+    "reason": "embedded articles 'a service provider, an ISP' in primary; bare translation needed",
+    "translation": "operator, service provider",
+    "senses": []
+  },
+  {
+    "kellyId": 3183,
+    "decision": "fix",
+    "reason": "'orderly, thorough, real, just' is a confusing dump; the core sense is 'proper, decent' with 'thorough' as a close second shade",
+    "translation": "proper, decent",
+    "senses": ["proper, decent, thorough", "real, proper (emphatic)"]
+  },
+  {
+    "kellyId": 3824,
+    "decision": "fix",
+    "reason": "senses list omits the primary sense; primary-first complete list required",
+    "senses": ["original (the genuine article)", "eccentric, character (quirky person)"]
+  },
+  {
+    "kellyId": 3508,
+    "decision": "fix",
+    "reason": "senses list omits the primary sense; primary-first complete list required",
+    "senses": ["unreasonable, absurd", "implausible"]
+  },
+  {
+    "kellyId": 3926,
+    "decision": "fix",
+    "reason": "senses list has embedded article 'an orthodox person'; bare form needed",
+    "senses": ["orthodox, Orthodox", "orthodox person, Orthodox (noun use)"]
+  },
+  {
+    "kellyId": 3187,
+    "decision": "fix",
+    "reason": "senses list contains only a definition, not a translation; single-meaning prep gets empty list",
+    "senses": []
+  },
+  {
+    "kellyId": 3257,
+    "decision": "fix",
+    "reason": "senses item has embedded 'to compress, to pack' with 'to' prefix; must be bare",
+    "senses": ["pack (luggage, bags)", "compress, pack (data)"]
+  },
+  {
+    "kellyId": 3954,
+    "decision": "fix",
+    "reason": "panic is an uncountable noun as primary",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4112,
+    "decision": "fix",
+    "reason": "senses list omits primary; boiler sense has a long definition; slang senses (bottle, amphetamine) are too marginal for a CEFR list",
+    "senses": ["forehead, brow", "pan, pot (cooking vessel)", "boiler (heating)"]
+  },
+  {
+    "kellyId": 3976,
+    "decision": "fix",
+    "reason": "'parallelly' is clumsy and non-standard; 'in parallel' is the natural English phrase",
+    "translation": "in parallel",
+    "senses": []
+  },
+  {
+    "kellyId": 2880,
+    "decision": "fix",
+    "reason": "'party leader or chairman' — 'or' should be a comma for consistent synonym format",
+    "translation": "party leader, chairman",
+    "senses": []
+  },
+  {
+    "kellyId": 4051,
+    "decision": "fix",
+    "reason": "senses list has only a clarification 'social gathering', not a distinct second meaning; single meaning, clear senses",
+    "senses": []
+  },
+  {
+    "kellyId": 4163,
+    "decision": "fix",
+    "reason": "senses list omits the primary sense; primary-first complete list required",
+    "senses": ["passive (not active)", "passive (grammar)", "passive, bottom (sexual)"]
+  },
+  {
+    "kellyId": 3615,
+    "decision": "fix",
+    "reason": "pasta is uncountable as primary; senses list needs primary first",
+    "uncountable": true,
+    "senses": ["pasta (food)", "paste"]
+  },
+  {
+    "kellyId": 3366,
+    "decision": "fix",
+    "reason": "embedded article 'a break' in primary; senses has embedded 'a rest'",
+    "translation": "pause, break",
+    "senses": ["pause, break", "rest (music)"]
+  },
+  {
+    "kellyId": 3361,
+    "decision": "fix",
+    "reason": "senses list has only a definition 'plunderer at sea'; pirate has one everyday meaning, clear senses",
+    "senses": []
+  },
+  {
+    "kellyId": 3982,
+    "decision": "fix",
+    "reason": "primary has embedded article 'a piece'; primary should be 'play' (theater); list needs primary first",
+    "translation": "play",
+    "senses": ["play (theater)", "piece, man (board game)", "artillery piece, cannon"]
+  },
+  {
+    "kellyId": 3260,
+    "decision": "fix",
+    "reason": "senses list omits the primary; embedded articles in Wiktionary senses need cleaning",
+    "senses": ["plate, slab, tile", "record, album (vinyl)"]
+  },
+  {
+    "kellyId": 3244,
+    "decision": "fix",
+    "reason": "senses list omits the primary (general platform) and is missing a sense; primary-first complete list needed",
+    "senses": ["platform (general, tech, political)", "platform (train station)"]
+  },
+  {
+    "kellyId": 3760,
+    "decision": "fix",
+    "reason": "the dominant everyday sense of 'plugga' in Swedish is 'study'; 'plug (a hole)' is secondary",
+    "translation": "study",
+    "senses": ["study, go to school", "cram (study intensively)", "plug (stop a hole)"]
+  },
+  {
+    "kellyId": 4001,
+    "decision": "fix",
+    "reason": "the second sense '(a type of notebook with erasable pages)' is an archaic/marginal sense; single meaning in modern use",
+    "senses": []
+  },
+  {
+    "kellyId": 3772,
+    "decision": "fix",
+    "reason": "poetry is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3806,
+    "decision": "fix",
+    "reason": "poker (the game) is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3451,
+    "decision": "fix",
+    "reason": "policy is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3054,
+    "decision": "fix",
+    "reason": "senses list has only a definition; single-meaning adjective gets empty list",
+    "senses": []
+  },
+  {
+    "kellyId": 4134,
+    "decision": "fix",
+    "reason": "three senses collapse to essentially one meaning (a measured amount of something); clear redundant list",
+    "senses": []
+  },
+  {
+    "kellyId": 4106,
+    "decision": "fix",
+    "reason": "'potatoes' as a second sense is just the plural/collective of the same word, not a distinct meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 2889,
+    "decision": "fix",
+    "reason": "senses list has a duplicate 'potential'; single meaning, clear list",
+    "senses": []
+  },
+  {
+    "kellyId": 4177,
+    "decision": "fix",
+    "reason": "senses list contains only a clarifying phrase, not a distinct second meaning; single meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 3039,
+    "decision": "fix",
+    "reason": "'prioritization' is clunky; 'priority' is the natural everyday noun",
+    "translation": "priority",
+    "senses": []
+  },
+  {
+    "kellyId": 3968,
+    "decision": "fix",
+    "reason": "'problem, group of cohesive issues' is definition-like; 'set of problems, issues' is cleaner",
+    "translation": "set of problems, issues",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2982,
+    "decision": "fix",
+    "reason": "'producer or manufacturer' — 'or' should be comma; senses list needs primary first",
+    "translation": "producer, manufacturer",
+    "senses": ["producer, manufacturer (of goods)", "producer (film, music, games)"]
+  },
+  {
+    "kellyId": 3885,
+    "decision": "fix",
+    "reason": "productivity is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2878,
+    "decision": "fix",
+    "reason": "the 'condom brand' sense is a proper brand name, too marginal for a vocabulary card; drop it",
+    "senses": ["profile", "public figure, notable name"]
+  },
+  {
+    "kellyId": 3585,
+    "decision": "fix",
+    "reason": "software is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2835,
+    "decision": "fix",
+    "reason": "propaganda is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3865,
+    "decision": "fix",
+    "reason": "senses list has a duplicate entry; single meaning, clear list",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4018,
+    "decision": "fix",
+    "reason": "embedded article 'a widget' in primary; senses need primary first and bare forms",
+    "translation": "gadget, widget",
+    "senses": ["gadget, widget", "thing, object (general)"]
+  },
+  {
+    "kellyId": 4005,
+    "decision": "fix",
+    "reason": "psychology is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3852,
+    "decision": "fix",
+    "reason": "'publishing' as primary is odd; 'publicering' means the act of publishing, i.e. publication; promote 'publication'",
+    "translation": "publication",
+    "senses": ["publication (act of publishing)", "publication (a published work)"]
+  },
+  {
+    "kellyId": 3977,
+    "decision": "fix",
+    "reason": "in modern Swedish 'påföljd' is primarily a legal term for penalty/sanction; 'result, consequence' is the secondary sense",
+    "translation": "sanction, penalty",
+    "senses": ["sanction, penalty, sentence (legal)", "consequence, result"]
+  },
+  {
+    "kellyId": 3916,
+    "decision": "fix",
+    "reason": "'prove something' is awkward as a bare verb gloss; 'demonstrate, show' is cleaner; single meaning",
+    "translation": "demonstrate, show",
+    "senses": []
+  },
+  {
+    "kellyId": 3383,
+    "decision": "fix",
+    "reason": "'to erase' has embedded 'to'; must be bare",
+    "translation": "delete, erase",
+    "senses": []
+  },
+  {
+    "kellyId": 3563,
+    "decision": "fix",
+    "reason": "reporting is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3833,
+    "decision": "fix",
+    "reason": "senses list omits the primary sense; primary-first complete list required",
+    "senses": ["break, rest (from work)", "recess, breaktime (school)"]
+  }
+]

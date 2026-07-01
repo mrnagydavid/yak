@@ -1,0 +1,427 @@
+[
+  {
+    "english": "slope",
+    "senses": [
+      { "gloss": "to tilt, lean", "members": [678] },
+      { "gloss": "a slope (noun)", "members": [7075] },
+      { "gloss": "to slope downward", "members": [8272] }
+    ]
+  },
+  {
+    "english": "probably, surely",
+    "senses": [
+      { "gloss": "", "members": [680, 1183, 1588, 1636, 1694, 3136] }
+    ]
+  },
+  {
+    "english": "subject, topic",
+    "senses": [
+      { "gloss": "topic, substance", "members": [681] },
+      { "gloss": "grammatical subject", "members": [6198] }
+    ]
+  },
+  {
+    "english": "gate, gateway",
+    "senses": [
+      { "gloss": "archway, entrance", "members": [691] },
+      { "gloss": "fence gate", "members": [6734] }
+    ]
+  },
+  {
+    "english": "vote",
+    "senses": [
+      { "gloss": "to vote", "members": [696] },
+      { "gloss": "a vote, ballot", "members": [2362] }
+    ]
+  },
+  {
+    "english": "like",
+    "senses": [
+      { "gloss": "to enjoy", "members": [703] },
+      { "gloss": "similarly to", "members": [2187, 3357] },
+      { "gloss": "an equal, match", "members": [2949] }
+    ]
+  },
+  {
+    "english": "break",
+    "senses": [
+      { "gloss": "to break, end", "members": [704] },
+      { "gloss": "a rest, recess", "members": [3833] },
+      { "gloss": "to burst, snap", "members": [4085] }
+    ]
+  },
+  {
+    "english": "known",
+    "senses": [
+      { "gloss": "famous", "members": [711] },
+      { "gloss": "familiar, acquainted", "members": [1767] }
+    ]
+  },
+  {
+    "english": "research",
+    "senses": [
+      { "gloss": "research (noun)", "members": [712] },
+      { "gloss": "to research", "members": [3501] }
+    ]
+  },
+  {
+    "english": "simply, just, plain and simple",
+    "senses": [
+      { "gloss": "just, plain and simple", "members": [714] },
+      { "gloss": "in a simple way", "members": [1431] }
+    ]
+  },
+  {
+    "english": "crime",
+    "senses": [
+      { "gloss": "criminal act", "members": [715] },
+      { "gloss": "criminality", "members": [2290, 4079] }
+    ]
+  },
+  {
+    "english": "offer, treat",
+    "senses": [
+      { "gloss": "to treat, host", "members": [718] },
+      { "gloss": "to offer", "members": [777] },
+      { "gloss": "an offer (noun)", "members": [2952] },
+      { "gloss": "a quote, bid", "members": [7204] }
+    ]
+  },
+  {
+    "english": "even",
+    "senses": [
+      { "gloss": "even, as far as", "members": [719] },
+      { "gloss": "not even", "members": [949] },
+      { "gloss": "downright", "members": [4245] }
+    ]
+  },
+  {
+    "english": "claim",
+    "senses": [
+      { "gloss": "to assert", "members": [720, 796] },
+      { "gloss": "an assertion", "members": [1408] },
+      { "gloss": "entitlement, demand", "members": [2639] }
+    ]
+  },
+  {
+    "english": "effect",
+    "senses": [
+      { "gloss": "", "members": [722, 2480, 5291] }
+    ]
+  },
+  {
+    "english": "contact",
+    "senses": [
+      { "gloss": "a contact (noun)", "members": [725] },
+      { "gloss": "to contact", "members": [2077] }
+    ]
+  },
+  {
+    "english": "value, worth",
+    "senses": [
+      { "gloss": "value (noun)", "members": [727] },
+      { "gloss": "values, appraisal", "members": [1234] },
+      { "gloss": "to value, appraise", "members": [2790, 7062] }
+    ]
+  },
+  {
+    "english": "condition, prerequisite",
+    "senses": [
+      { "gloss": "prerequisite, requirement", "members": [728, 880, 7142] },
+      { "gloss": "circumstances", "members": [738] },
+      { "gloss": "state, shape", "members": [988, 3866] },
+      { "gloss": "ailment", "members": [7300] },
+      { "gloss": "to condition, fetch", "members": [7815] }
+    ]
+  },
+  {
+    "english": "cost",
+    "senses": [
+      { "gloss": "a cost (noun)", "members": [736] },
+      { "gloss": "to cost", "members": [985] }
+    ]
+  },
+  {
+    "english": "youth",
+    "senses": [
+      { "gloss": "", "members": [741, 8229] }
+    ]
+  },
+  {
+    "english": "reality",
+    "senses": [
+      { "gloss": "", "members": [745, 4213] }
+    ]
+  },
+  {
+    "english": "supply",
+    "senses": [
+      { "gloss": "", "members": [747, 2788, 7658] }
+    ]
+  },
+  {
+    "english": "full",
+    "senses": [
+      { "gloss": "filled up", "members": [749] },
+      { "gloss": "satiated", "members": [3867] }
+    ]
+  },
+  {
+    "english": "introduce",
+    "senses": [
+      { "gloss": "implement, bring in", "members": [755] },
+      { "gloss": "present, introduce", "members": [3523] }
+    ]
+  },
+  {
+    "english": "context",
+    "senses": [
+      { "gloss": "", "members": [758, 4678] }
+    ]
+  },
+  {
+    "english": "match",
+    "senses": [
+      { "gloss": "game, contest", "members": [764] },
+      { "gloss": "to match, fit", "members": [5410] },
+      { "gloss": "matchstick", "members": [7910] }
+    ]
+  },
+  {
+    "english": "experience",
+    "senses": [
+      { "gloss": "expertise, background", "members": [772] },
+      { "gloss": "to experience", "members": [836] },
+      { "gloss": "an event, adventure", "members": [1413] }
+    ]
+  },
+  {
+    "english": "player",
+    "senses": [
+      { "gloss": "sports, game, media", "members": [781] },
+      { "gloss": "participant, actor", "members": [1544] }
+    ]
+  },
+  {
+    "english": "student, pupil",
+    "senses": [
+      { "gloss": "school pupil", "members": [782] },
+      { "gloss": "university student", "members": [1272, 5122] }
+    ]
+  },
+  {
+    "english": "investigation",
+    "senses": [
+      { "gloss": "", "members": [783, 1008] }
+    ]
+  },
+  {
+    "english": "king",
+    "senses": [
+      { "gloss": "", "members": [785, 2299] }
+    ]
+  },
+  {
+    "english": "note",
+    "senses": [
+      { "gloss": "to observe, establish", "members": [788] },
+      { "gloss": "to note down", "members": [1288] },
+      { "gloss": "musical note", "members": [3474] },
+      { "gloss": "written note, slip", "members": [3571, 4008] },
+      { "gloss": "notation, listing", "members": [6803] }
+    ]
+  },
+  {
+    "english": "clearly",
+    "senses": [
+      { "gloss": "", "members": [790, 1176] }
+    ]
+  },
+  {
+    "english": "current, present",
+    "senses": [
+      { "gloss": "prevailing, existing", "members": [791, 3180] },
+      { "gloss": "topical, up to date", "members": [963] },
+      { "gloss": "flow, current", "members": [3008] }
+    ]
+  },
+  {
+    "english": "lose",
+    "senses": [
+      { "gloss": "", "members": [793, 4441] }
+    ]
+  },
+  {
+    "english": "tax",
+    "senses": [
+      { "gloss": "a tax (noun)", "members": [797] },
+      { "gloss": "to tax", "members": [5155] }
+    ]
+  },
+  {
+    "english": "population",
+    "senses": [
+      { "gloss": "", "members": [799, 5524] }
+    ]
+  },
+  {
+    "english": "step",
+    "senses": [
+      { "gloss": "a step (noun)", "members": [803] },
+      { "gloss": "stair step", "members": [7595] },
+      { "gloss": "to step, climb", "members": [1309] },
+      { "gloss": "to step ceremonially", "members": [1770] },
+      { "gloss": "to stride, step into", "members": [2677] },
+      { "gloss": "to tramp, pedal", "members": [3917] }
+    ]
+  },
+  {
+    "english": "evil",
+    "senses": [
+      { "gloss": "evil (adjective)", "members": [806] },
+      { "gloss": "evil (noun)", "members": [3123] }
+    ]
+  },
+  {
+    "english": "plan",
+    "senses": [
+      { "gloss": "a plan (noun)", "members": [807] },
+      { "gloss": "to plan", "members": [1246, 7986] }
+    ]
+  },
+  {
+    "english": "airplane; plane",
+    "senses": [
+      { "gloss": "", "members": [1637, 2695] }
+    ]
+  },
+  {
+    "english": "travel",
+    "senses": [
+      { "gloss": "", "members": [1000, 4083] }
+    ]
+  },
+  {
+    "english": "except, except for",
+    "senses": [
+      { "gloss": "", "members": [809, 912] }
+    ]
+  },
+  {
+    "english": "sight, vision",
+    "senses": [
+      { "gloss": "eyesight, faculty", "members": [811] },
+      { "gloss": "line of sight, aim", "members": [1565] }
+    ]
+  },
+  {
+    "english": "agreement, contract",
+    "senses": [
+      { "gloss": "deal, settlement", "members": [813, 1802, 3807] },
+      { "gloss": "consensus, unanimity", "members": [3554, 5899] },
+      { "gloss": "correspondence, conformity", "members": [5333] }
+    ]
+  },
+  {
+    "english": "fun",
+    "senses": [
+      { "gloss": "", "members": [815, 1479, 6315] }
+    ]
+  },
+  {
+    "english": "indicate, point out",
+    "senses": [
+      { "gloss": "", "members": [818, 4401] }
+    ]
+  },
+  {
+    "english": "love",
+    "senses": [
+      { "gloss": "to love", "members": [822] },
+      { "gloss": "love (noun)", "members": [842] }
+    ]
+  },
+  {
+    "english": "exercise",
+    "senses": [
+      { "gloss": "physical activity", "members": [823] },
+      { "gloss": "to train, work out", "members": [1481, 1853] },
+      { "gloss": "a drill, task", "members": [2033] }
+    ]
+  },
+  {
+    "english": "happy, glad",
+    "senses": [
+      { "gloss": "", "members": [824, 1795] }
+    ]
+  },
+  {
+    "english": "stay",
+    "senses": [
+      { "gloss": "to stop, halt", "members": [831] },
+      { "gloss": "to reside, dwell", "members": [3040, 5057] },
+      { "gloss": "a sojourn, visit", "members": [4228, 5327] }
+    ]
+  },
+  {
+    "english": "switch",
+    "senses": [
+      { "gloss": "to exchange, change", "members": [832, 4229] },
+      { "gloss": "electrical switch", "members": [8156] }
+    ]
+  },
+  {
+    "english": "collect, gather",
+    "senses": [
+      { "gloss": "to gather, assemble", "members": [837] },
+      { "gloss": "to collect money", "members": [8007] }
+    ]
+  },
+  {
+    "english": "method",
+    "senses": [
+      { "gloss": "", "members": [843, 5397] }
+    ]
+  },
+  {
+    "english": "safe, secure",
+    "senses": [
+      { "gloss": "safe, not in danger", "members": [845, 2386] },
+      { "gloss": "a safe, strongbox", "members": [7977] }
+    ]
+  },
+  {
+    "english": "bourgeois, citizen",
+    "senses": [
+      { "gloss": "a bourgeois, citizen", "members": [846] },
+      { "gloss": "bourgeois, civil", "members": [1036] }
+    ]
+  },
+  {
+    "english": "effort, contribution",
+    "senses": [
+      { "gloss": "", "members": [848, 2603] }
+    ]
+  },
+  {
+    "english": "German",
+    "senses": [
+      { "gloss": "German (adjective)", "members": [849] },
+      { "gloss": "German language, woman", "members": [5141] }
+    ]
+  },
+  {
+    "english": "provision",
+    "senses": [
+      { "gloss": "", "members": [854, 8260] }
+    ]
+  },
+  {
+    "english": "strike, affect, befall",
+    "senses": [
+      { "gloss": "to befall, afflict", "members": [856] },
+      { "gloss": "a labor strike", "members": [3625] },
+      { "gloss": "to go on strike", "members": [7549] }
+    ]
+  }
+]

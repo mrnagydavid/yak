@@ -1,0 +1,271 @@
+[
+  {
+    "kellyId": 2535,
+    "decision": "fix",
+    "reason": "embedded article 'a' in 'implication, a meaning'; bare form required",
+    "translation": "implication, meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 2683,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary ('include, to involve'); senses list also has embedded 'to'",
+    "translation": "include, involve",
+    "senses": ["include, involve (as a constituent part)", "include, cover (of a price)"]
+  },
+  {
+    "kellyId": 1497,
+    "decision": "fix",
+    "reason": "'kept inside' is a definition fragment, not a synonym; trim to 'inner, internal'",
+    "translation": "inner, internal",
+    "senses": []
+  },
+  {
+    "kellyId": 1902,
+    "decision": "fix",
+    "reason": "four-synonym string blends two distinct senses: general direction/focus vs. field of specialization",
+    "translation": "direction, orientation",
+    "senses": ["direction, orientation, focus", "specialization, field (of study or work)"]
+  },
+  {
+    "kellyId": 2259,
+    "decision": "fix",
+    "reason": "embedded 'to set up, to institute' in primary; verb bare form required",
+    "translation": "establish, set up",
+    "senses": []
+  },
+  {
+    "kellyId": 1879,
+    "decision": "fix",
+    "reason": "'knowledge' is the secondary sense; 'insight, understanding' is the core everyday meaning of insikt",
+    "translation": "insight, understanding",
+    "senses": ["insight, understanding", "knowledge (solid, deep)"]
+  },
+  {
+    "kellyId": 1654,
+    "decision": "fix",
+    "reason": "embedded 'a' in 'segment, a feature'; senses list also has embedded articles and definition-like phrasing",
+    "translation": "segment, feature",
+    "senses": ["segment, feature (in a broadcast or programme)", "element, component (part of something)", "weft (in weaving)"]
+  },
+  {
+    "kellyId": 2202,
+    "decision": "fix",
+    "reason": "embedded 'to occupy, to assume' in primary; verb bare form required; senses need clean rebuild",
+    "translation": "take, occupy, assume",
+    "senses": ["take, occupy, assume (a position or seat)", "eat, have (a meal)"]
+  },
+  {
+    "kellyId": 2653,
+    "decision": "fix",
+    "reason": "sub-defs list 'an integration' is redundant with the primary; clean the list",
+    "translation": "integration",
+    "uncountable": true,
+    "senses": ["integration (combining parts into a whole)", "integration (of immigrants)"]
+  },
+  {
+    "kellyId": 2085,
+    "decision": "fix",
+    "reason": "immigration is an uncountable noun; needs uncountable: true",
+    "translation": "immigration",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2431,
+    "decision": "fix",
+    "reason": "sub-def 'person from Israel' is just a restatement of 'Israeli'; redundant list",
+    "translation": "Israeli",
+    "senses": []
+  },
+  {
+    "kellyId": 2046,
+    "decision": "fix",
+    "reason": "sub-def 'to hunt (prey)' has embedded 'to'; fix sense phrasing",
+    "senses": ["chase, pursue", "hunt (prey)"]
+  },
+  {
+    "kellyId": 1841,
+    "decision": "fix",
+    "reason": "primary 'hunting' is uncountable; also 'a hunt, a chase' has embedded articles in senses",
+    "translation": "hunting",
+    "uncountable": true,
+    "senses": ["hunting (the activity)", "hunt, chase", "yacht"]
+  },
+  {
+    "kellyId": 2070,
+    "decision": "fix",
+    "reason": "'pertaining to law' is a definition fragment appended to 'legal'; 'legal' alone is sufficient",
+    "translation": "legal",
+    "senses": []
+  },
+  {
+    "kellyId": 2338,
+    "decision": "fix",
+    "reason": "jämställdhet specifically means gender equality (not general equality); sub-def 'equality' is imprecise and not a true second sense — clear list",
+    "translation": "gender equality",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2715,
+    "decision": "fix",
+    "reason": "the math sense 'even (fulfilling f(-x)=f(x))' is too technical/marginal to include in a CEFR vocabulary app; drop it",
+    "senses": ["smooth, even", "even (divisible by 2)"]
+  },
+  {
+    "kellyId": 2294,
+    "decision": "fix",
+    "reason": "embedded 'a small room' in primary reads as definition; 'chamber' is the clean primary; fix senses articles",
+    "translation": "chamber",
+    "senses": ["chamber, small room", "chamber, cavity (heart etc.)", "office"]
+  },
+  {
+    "kellyId": 2219,
+    "decision": "fix",
+    "reason": "embedded 'a' in 'look, a check, an inspection'; fix bare form and clean sub-def",
+    "translation": "look, check",
+    "senses": ["look, check, inspection", "track, grip (keeping tabs on something)"]
+  },
+  {
+    "kellyId": 1429,
+    "decision": "fix",
+    "reason": "sub-def 'see also knappast' is a cross-reference, not a sense; clear list",
+    "senses": []
+  },
+  {
+    "kellyId": 2677,
+    "decision": "fix",
+    "reason": "sub-def 'to step onto/off/into' has embedded 'to'; 'murder' in Wiktionary dump is a clear error for this lemma — drop it",
+    "senses": ["step, stride", "step onto, off, into (something)"]
+  },
+  {
+    "kellyId": 1536,
+    "decision": "fix",
+    "reason": "sub-def 'a club (nightclub, jazz club, etc.)' has embedded 'a'; fix senses",
+    "senses": ["club (association)", "club (nightclub, venue)"]
+  },
+  {
+    "kellyId": 2600,
+    "decision": "fix",
+    "reason": "'to go to bed' is not a standard sense of knyta — likely Wiktionary dump error; drop it; fix sub-def 'to clench' embedded 'to'",
+    "senses": ["tie, knot", "clench (a fist)", "forge, establish (ties, connections)"]
+  },
+  {
+    "kellyId": 2773,
+    "decision": "fix",
+    "reason": "sub-def 'a lap (the upper legs)' has embedded 'a'; fix sense",
+    "senses": ["knee", "lap (the upper legs)"]
+  },
+  {
+    "kellyId": 2438,
+    "decision": "fix",
+    "reason": "sub-def 'combined' is not a sense of the noun kombination — it's a sport name fragment (Nordic Combined); clear list",
+    "senses": []
+  },
+  {
+    "kellyId": 1910,
+    "decision": "fix",
+    "reason": "sub-def 'to wail, to whimper, to moan' has embedded 'to'; fix sense phrasing",
+    "senses": ["complain", "wail, whimper, moan"]
+  },
+  {
+    "kellyId": 1545,
+    "decision": "fix",
+    "reason": "senses list has three items but the first two are essentially the same sense; consolidate: classical (general) + classical (antiquity) + classic (timeless) are worth distinguishing",
+    "senses": ["classical (music, art, etc.)", "classical (of antiquity)", "classic (old and highly regarded)"]
+  },
+  {
+    "kellyId": 2696,
+    "decision": "fix",
+    "reason": "two comrade sub-defs are really one sense (comrade); consolidate",
+    "senses": ["friend, mate, companion", "comrade (fellow socialist or leftist)"]
+  },
+  {
+    "kellyId": 2057,
+    "decision": "fix",
+    "reason": "sub-def 'a bachelor (college degree)' has embedded 'a'; fix sense",
+    "senses": ["candidate", "bachelor (college degree)"]
+  },
+  {
+    "kellyId": 1552,
+    "decision": "fix",
+    "reason": "sub-def 'money and wealth' is a definition fragment of 'capital', not a second sense; clear list",
+    "translation": "capital",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1657,
+    "decision": "fix",
+    "reason": "capitalism is an uncountable noun; needs uncountable: true",
+    "translation": "capitalism",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2043,
+    "decision": "fix",
+    "reason": "'horse career' is an extremely marginal/archaic sense; drop it from the list",
+    "senses": []
+  },
+  {
+    "kellyId": 2215,
+    "decision": "fix",
+    "reason": "sub-def has a long definition-like description of blister pack; tighten to clean sense",
+    "senses": ["map", "blister pack, card (holding tablets or buttons)"]
+  },
+  {
+    "kellyId": 2451,
+    "decision": "fix",
+    "reason": "embedded 'to make complete' in primary; verb bare form required; senses also have embedded 'to'",
+    "translation": "complete, supplement",
+    "senses": ["complete, make complete", "complement, add a missing part"]
+  },
+  {
+    "kellyId": 1596,
+    "decision": "fix",
+    "reason": "sub-defs 'particular, perceivable, real' and 'concrete; tangible' are restatements of the same meaning, not distinct senses; clear list",
+    "senses": []
+  },
+  {
+    "kellyId": 2065,
+    "decision": "fix",
+    "reason": "senses list has 'conservative' repeated as first item (redundant with primary) and 'a conservative' (noun sense for an adj entry) — clean it up",
+    "senses": ["conservative (resisting change)", "conservative (not including surgery)"]
+  },
+  {
+    "kellyId": 2304,
+    "decision": "fix",
+    "reason": "communism is an uncountable noun; needs uncountable: true",
+    "translation": "communism",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2659,
+    "decision": "fix",
+    "reason": "sub-def 'a registry of pecuniary transactions, or more generally' is a definition fragment, not a second sense; clear list",
+    "senses": []
+  },
+  {
+    "kellyId": 2045,
+    "decision": "fix",
+    "reason": "sub-def 'building or room' is a definition fragment of 'office', not a second sense; clear list",
+    "senses": []
+  },
+  {
+    "kellyId": 1442,
+    "decision": "fix",
+    "reason": "senses list has embedded 'an' articles throughout; clean them; 'established organization' sense should be the primary in the list",
+    "senses": ["institution (established organization)", "institution (entrenched custom)", "institution (prominent person)", "department (at a university)"]
+  },
+  {
+    "kellyId": 1944,
+    "decision": "fix",
+    "reason": "coffee is an uncountable noun; needs uncountable: true",
+    "translation": "coffee",
+    "uncountable": true,
+    "senses": []
+  }
+]

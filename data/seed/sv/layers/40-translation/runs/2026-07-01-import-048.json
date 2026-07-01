@@ -1,0 +1,233 @@
+[
+  {
+    "kellyId": 5471,
+    "decision": "fix",
+    "reason": "subDefinitions list only shows the 'make smaller' sense; list should include both 'become smaller' (intransitive) and 'make smaller' (transitive).",
+    "senses": ["shrink (become smaller)", "shrink (make smaller)"]
+  },
+  {
+    "kellyId": 4591,
+    "decision": "fix",
+    "reason": "List included highly marginal senses (testicle, den, money, roundel). Keeping the three everyday senses only.",
+    "translation": "ball, marble",
+    "senses": ["ball, marble (small round object)", "bullet"]
+  },
+  {
+    "kellyId": 4866,
+    "decision": "fix",
+    "reason": "'kvarvarande' has one meaning; the subDefinitions list redundantly restates the primary. Clear the list.",
+    "translation": "remaining, residual",
+    "senses": []
+  },
+  {
+    "kellyId": 5389,
+    "decision": "fix",
+    "reason": "'kyckling' primarily means 'chicken' (both the bird and the meat); 'chick' (young bird) is secondary. Primary promoted to 'chicken'.",
+    "translation": "chicken",
+    "senses": ["chicken (bird or meat)", "chick (young chicken)"]
+  },
+  {
+    "kellyId": 5467,
+    "decision": "fix",
+    "reason": "Current translation 'cemetery, a graveyard' embeds an article. Bare form needed.",
+    "translation": "cemetery, graveyard",
+    "senses": []
+  },
+  {
+    "kellyId": 5102,
+    "decision": "fix",
+    "reason": "'käka' is informal for 'eat'; the sub-sense 'chew on something chewy' is too marginal to list. Single everyday meaning.",
+    "translation": "eat (informal)",
+    "senses": []
+  },
+  {
+    "kellyId": 4513,
+    "decision": "fix",
+    "reason": "subDefinition 'cellar (enclosed underground space; used for storage or shelter)' is definition-like. Tighten to bare translation.",
+    "senses": ["basement", "cellar"]
+  },
+  {
+    "kellyId": 5394,
+    "decision": "fix",
+    "reason": "Current translation 'characteristic, an identifying property' embeds an article. Bare form needed.",
+    "translation": "characteristic, distinguishing feature",
+    "senses": []
+  },
+  {
+    "kellyId": 5194,
+    "decision": "fix",
+    "reason": "Two sub-senses ('relating to emotions', 'based on emotions') are near-synonyms — effectively one meaning. Clear the redundant list.",
+    "senses": []
+  },
+  {
+    "kellyId": 4873,
+    "decision": "fix",
+    "reason": "Current translation 'coup, a revolt' embeds an article. Bare form needed.",
+    "translation": "coup, revolt",
+    "senses": []
+  },
+  {
+    "kellyId": 4808,
+    "decision": "fix",
+    "reason": "subDefinition 'a bend of a road' has an embedded article. Tighten to bare form.",
+    "senses": ["curve, arc", "bend (in a road)"]
+  },
+  {
+    "kellyId": 4897,
+    "decision": "fix",
+    "reason": "'freeness' is not natural English. The primary everyday meaning of 'ledighet' is 'time off' or 'leave' (from work/school). 'Availability' is a secondary abstract sense.",
+    "translation": "time off, leave",
+    "senses": ["time off, leave (from work or school)", "availability, vacancy"]
+  },
+  {
+    "kellyId": 4947,
+    "decision": "fix",
+    "reason": "Current translation 'corpse, a dead body' embeds an article. The sailing-edge sense is far too specialised to include. Single everyday meaning.",
+    "translation": "corpse, dead body",
+    "senses": []
+  },
+  {
+    "kellyId": 4679,
+    "decision": "fix",
+    "reason": "Current translation 'wire, a rope, a line' embeds an article. Bare form needed.",
+    "translation": "rope, wire, line",
+    "senses": []
+  },
+  {
+    "kellyId": 5203,
+    "decision": "fix",
+    "reason": "List missed the most everyday sense (charging a phone/battery). Rebuilt to cover charge (electrical) and the act of loading/charging.",
+    "senses": ["charge (battery, electrical)", "loading, charging (act of)"]
+  },
+  {
+    "kellyId": 5511,
+    "decision": "fix",
+    "reason": "'law change, change in legislation' is clunky. 'Amendment' is the natural, concise English term.",
+    "translation": "amendment, change in law",
+    "senses": []
+  },
+  {
+    "kellyId": 5402,
+    "decision": "fix",
+    "reason": "subDefinitions are definition-like ('a warning sound', 'device intended to yield a warning sound under certain circumstances', 'strong noise; a disturbance, a noisy row'). Rebuilt concisely.",
+    "senses": ["alarm (signal or device)", "noise, racket, commotion"]
+  },
+  {
+    "kellyId": 5133,
+    "decision": "fix",
+    "reason": "subDefinitions are definition-like (ending with periods, overly wordy). Rebuilt concisely.",
+    "senses": ["load, fill (with cargo)", "blame (put blame on someone)"]
+  },
+  {
+    "kellyId": 4799,
+    "decision": "fix",
+    "reason": "'Latin language' is redundant — 'Latin' already denotes the language. Single clear word.",
+    "translation": "Latin",
+    "senses": []
+  },
+  {
+    "kellyId": 5229,
+    "decision": "fix",
+    "reason": "subDefinitions list had 'A thousand of some unit of currency, typically SEK' which is definition-like. Rebuilt concisely.",
+    "senses": ["salmon (fish or meat)", "grand, thousand (slang: 1000 SEK)"]
+  },
+  {
+    "kellyId": 4959,
+    "decision": "fix",
+    "reason": "subDefinitions are slightly definition-like. Tightened to clean bare translations.",
+    "senses": ["joint (knee, wrist, etc.)", "trail, route (walking or cycling)"]
+  },
+  {
+    "kellyId": 5381,
+    "decision": "fix",
+    "reason": "'flame, a blaze, a flare' has an embedded article. 'Fallen tree' sense is extremely marginal; dropped. Bare form and cleaner list.",
+    "translation": "flame, blaze",
+    "senses": ["flame, blaze (fire)", "flame (intense love)"]
+  },
+  {
+    "kellyId": 4507,
+    "decision": "fix",
+    "reason": "subDefinition 'lowly, meanly' is marginal and nearly identical to the primary. Single core meaning.",
+    "senses": []
+  },
+  {
+    "kellyId": 4310,
+    "decision": "fix",
+    "reason": "subDefinitions are definition-like (wordy, ending with periods). Rebuilt concisely.",
+    "senses": ["leak (of fluid)", "leak (reveal secret information)"]
+  },
+  {
+    "kellyId": 4713,
+    "decision": "fix",
+    "reason": "'homework' as primary is uncountable. Secondary sense 'lesson' is valid.",
+    "uncountable": true,
+    "senses": ["homework", "lesson (cautionary or instructive experience)"]
+  },
+  {
+    "kellyId": 5458,
+    "decision": "fix",
+    "reason": "In modern Swedish 'magasin' most commonly means magazine (publication). 'Warehouse' is a secondary sense. Gun magazine is a third sense. Primary promoted to 'magazine'.",
+    "translation": "magazine",
+    "senses": ["magazine (publication)", "warehouse, depot", "magazine (of a firearm)"]
+  },
+  {
+    "kellyId": 4368,
+    "decision": "fix",
+    "reason": "Current translation lists three near-synonyms in primary; 'manifestation (of something)' is a distinct second sense not shown. Rebuilt with two clear senses.",
+    "translation": "demonstration, rally",
+    "senses": ["demonstration, rally (public protest)", "manifestation (of something)"]
+  },
+  {
+    "kellyId": 4789,
+    "decision": "fix",
+    "reason": "Current translation 'manipulate, to control, to plot' embeds 'to' before synonyms. Bare single primary; synonyms are close enough to drop from a list.",
+    "translation": "manipulate",
+    "senses": []
+  },
+  {
+    "kellyId": 5063,
+    "decision": "fix",
+    "reason": "subDefinitions list only showed one sub-sense; both 'sea' and 'navy' senses should be explicit.",
+    "senses": ["marine (relating to the sea)", "marine (relating to the navy)"]
+  },
+  {
+    "kellyId": 4225,
+    "decision": "fix",
+    "reason": "Current translation 'gap, an opening' embeds an article. Bare form needed. Also 'whitespace, space' is a valid second sense.",
+    "translation": "gap, space",
+    "senses": ["gap, space (between objects)", "whitespace (typography)"]
+  },
+  {
+    "kellyId": 5257,
+    "decision": "fix",
+    "reason": "subDefinition 'having to do with mathematics' is definition-like. Single meaning; clear the list.",
+    "senses": []
+  },
+  {
+    "kellyId": 5489,
+    "decision": "fix",
+    "reason": "'matter' (physics/material substance) is uncountable as primary.",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4935,
+    "decision": "fix",
+    "reason": "subDefinition 'an average age' had an embedded article. Bare form in list.",
+    "senses": ["middle age (life stage)", "average age"]
+  },
+  {
+    "kellyId": 4371,
+    "decision": "fix",
+    "reason": "Current translation 'fellow human, a fellow man' embeds an article. Bare form needed.",
+    "translation": "fellow human being",
+    "senses": []
+  },
+  {
+    "kellyId": 4260,
+    "decision": "fix",
+    "reason": "Current translation 'license, a permit, an authorization' embeds articles. Bare form needed.",
+    "translation": "license, permit",
+    "senses": ["license, permit (to own or operate something)", "license fee (paid to obtain the license)"]
+  }
+]

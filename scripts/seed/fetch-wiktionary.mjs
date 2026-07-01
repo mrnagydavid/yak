@@ -1,16 +1,16 @@
 // Stream the kaikki.org Swedish extract (en.wiktionary via wiktextract, CC-BY-SA), keep only
 // entries whose word is a Kelly lemma, and trim to what the seed needs.
-// Output: data/intermediate/wik.json — { [lemma]: [{ pos, glosses, forms, ipa, examples }] }
+// Output: data/scratch/sv/wik.json — { [lemma]: [{ pos, glosses, forms, ipa, examples }] }
 // Run: node scripts/seed/fetch-wiktionary.mjs   (downloads ~334MB on first run, then caches)
 import { createReadStream, createWriteStream, existsSync, statSync } from 'node:fs'
-import { readFile, writeFile } from 'node:fs/promises'
+import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { createInterface } from 'node:readline'
 import { Readable } from 'node:stream'
 import { pipeline } from 'node:stream/promises'
 
 const KAIKKI_URL = 'https://kaikki.org/dictionary/Swedish/kaikki.org-dictionary-Swedish.jsonl'
-const CACHE = 'data/intermediate/kaikki-sv.jsonl'
-const OUT = 'data/intermediate/wik.json'
+const CACHE = 'data/scratch/sv/kaikki-sv.jsonl'
+const OUT = 'data/scratch/sv/wik.json'
 // Flashcard example sentences must stay short — Wiktionary mixes in poetry/song-lyric quotes
 // (hundreds of chars). Drop anything longer; a one- or two-clause sentence is well under this.
 const MAX_EXAMPLE_LEN = 160
@@ -54,6 +54,7 @@ function keepForm(f) {
 }
 
 async function main() {
+  await mkdir('data/scratch/sv', { recursive: true })
   if (!existsSync(CACHE)) {
     process.stdout.write('downloading kaikki Swedish extract (~334MB)… ')
     const res = await fetch(KAIKKI_URL)
@@ -63,7 +64,7 @@ async function main() {
   }
   console.log('cache size:', (statSync(CACHE).size / 1e6).toFixed(0), 'MB')
 
-  const kelly = JSON.parse(await readFile('data/intermediate/kelly.json', 'utf-8'))
+  const kelly = JSON.parse(await readFile('data/scratch/sv/kelly.json', 'utf-8'))
   const wanted = new Set(kelly.map((e) => e.lemma))
 
   const out = {}

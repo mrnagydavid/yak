@@ -1,0 +1,91 @@
+[
+  {
+    "kellyId": 7529,
+    "decision": "fix",
+    "reason": "austerity is an uncountable noun as primary",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7847,
+    "decision": "fix",
+    "reason": "'honourable' is a near-synonym of 'noble', not a distinct sense — stale subdef list",
+    "senses": []
+  },
+  {
+    "kellyId": 8179,
+    "decision": "fix",
+    "reason": "'owneress' is archaic and unnatural; 'female owner' is the clear, natural gloss",
+    "translation": "female owner",
+    "senses": []
+  },
+  {
+    "kellyId": 8120,
+    "decision": "fix",
+    "reason": "ownership is an uncountable noun",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7779,
+    "decision": "fix",
+    "reason": "subdef is a dictionary definition, not a translation; word has a single meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 7976,
+    "decision": "fix",
+    "reason": "subdef 'edible seed' is a definition, not a useful sense gloss; single meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 7156,
+    "decision": "fix",
+    "reason": "embedded 'to' is clumsy for a verb entry; two senses (physical destruction vs. abstract ruin) should be distinguished cleanly",
+    "translation": "devastate, lay waste to",
+    "senses": [
+      "devastate, lay waste to (physical)",
+      "ruin, devastate (abstract)"
+    ]
+  },
+  {
+    "kellyId": 7475,
+    "decision": "fix",
+    "reason": "three subdefs collapse to two real senses: emotional warmth and physical soreness; definition-like wording cleaned up",
+    "senses": [
+      "tenderness (emotional warmth)",
+      "tenderness, soreness (physical)"
+    ]
+  },
+  {
+    "kellyId": 7397,
+    "decision": "fix",
+    "reason": "embedded 'to' is clumsy for a verb entry; single meaning",
+    "translation": "stay overnight",
+    "senses": []
+  },
+  {
+    "kellyId": 8200,
+    "decision": "fix",
+    "reason": "embedded 'to' is clumsy for a verb entry; two genuine senses cleaned up",
+    "translation": "overlook, turn a blind eye to",
+    "senses": [
+      "overlook, turn a blind eye to (forgive, disregard)",
+      "oversee, review, inspect"
+    ]
+  },
+  {
+    "kellyId": 7021,
+    "decision": "fix",
+    "reason": "overtime is an uncountable noun",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7351,
+    "decision": "fix",
+    "reason": "embedded 'to' is clumsy for a verb entry; single meaning",
+    "translation": "transgress, violate, overstep",
+    "senses": []
+  }
+]

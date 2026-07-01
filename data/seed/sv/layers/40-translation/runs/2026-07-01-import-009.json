@@ -1,0 +1,305 @@
+[
+  {
+    "kellyId": 1047,
+    "decision": "fix",
+    "reason": "senses are two sub-aspects of the same word 'religious', not distinct meanings; clear the list",
+    "translation": "religious",
+    "senses": []
+  },
+  {
+    "kellyId": 808,
+    "decision": "fix",
+    "reason": "senses list is a definition-like sentence; also trim translation to drop 'voyage' (slightly formal/rare)",
+    "translation": "trip, journey",
+    "senses": []
+  },
+  {
+    "kellyId": 1000,
+    "decision": "fix",
+    "reason": "primary 'travel, be on a journey' is clumsy/definition-like; fix to bare verb; secondary senses (erect, put forth) are real but marginal",
+    "translation": "travel",
+    "senses": ["travel, go (on a journey)", "erect, raise (something upright)"]
+  },
+  {
+    "kellyId": 1058,
+    "decision": "fix",
+    "reason": "senses list has 'remainder' listed twice (redundant); distinguish math remainder from general 'rest'",
+    "translation": "remainder, rest",
+    "senses": ["remainder, rest (what is left over)", "remainder (math: left after division)"]
+  },
+  {
+    "kellyId": 450,
+    "decision": "fix",
+    "reason": "translation embeds 'an effect' with article; senses are capitalised and definition-like",
+    "translation": "result",
+    "senses": ["result, outcome", "score, result (of a test or game)"]
+  },
+  {
+    "kellyId": 479,
+    "decision": "fix",
+    "reason": "sub-def is just a usage note, not a distinct sense; also the primary should note this is a proper Swedish institution name",
+    "translation": "Riksdag, parliament",
+    "senses": []
+  },
+  {
+    "kellyId": 1304,
+    "decision": "fix",
+    "reason": "senses list is a restated parenthetical of the same meaning; single-meaning word",
+    "translation": "reasonable, fair",
+    "senses": []
+  },
+  {
+    "kellyId": 235,
+    "decision": "fix",
+    "reason": "senses list has definition-like items and marginal technical senses; trim to everyday meanings",
+    "translation": "ring",
+    "senses": ["ring (circular object, jewellery)", "ring (sports arena, boxing)", "ring (school year, Swedish gymnasium)"]
+  },
+  {
+    "kellyId": 955,
+    "decision": "fix",
+    "reason": "senses are definition-like; clean into concise list; 'ring' and 'call' are co-equal everyday meanings",
+    "translation": "ring, call",
+    "senses": ["ring (a bell, phone)", "call, phone (someone)"]
+  },
+  {
+    "kellyId": 855,
+    "decision": "fix",
+    "reason": "primary 'rice' is fine; but senses miss the very common shrub/bush meaning shown in examples, and 'flak' gloss is clearer",
+    "translation": "rice",
+    "senses": ["rice (food)", "shrub, bush (blueberry, lingonberry plant)", "criticism, flak (informal)"]
+  },
+  {
+    "kellyId": 873,
+    "decision": "fix",
+    "reason": "primary 'stretch out in some direction, to suffice' is clumsy and definition-like; core meanings are 'reach' and 'be enough'",
+    "translation": "reach; be enough",
+    "senses": ["reach (stretch out toward, extend to)", "be enough, suffice"]
+  },
+  {
+    "kellyId": 1002,
+    "decision": "fix",
+    "reason": "senses sub-def is definition-like; simplify",
+    "translation": "save",
+    "senses": ["save, rescue", "save (a shot, in sports)"]
+  },
+  {
+    "kellyId": 421,
+    "decision": "fix",
+    "reason": "translation embeds 'to rectify' with redundant 'to'; fix phrasing",
+    "translation": "correct, rectify",
+    "senses": ["correct, rectify", "mark, grade (a test)", "align, adjust", "conform, comply (with rules)"]
+  },
+  {
+    "kellyId": 1295,
+    "decision": "fix",
+    "reason": "translation embeds 'an erratum' with article; fix phrasing",
+    "translation": "correction, erratum",
+    "senses": []
+  },
+  {
+    "kellyId": 932,
+    "decision": "fix",
+    "reason": "senses sub-def is definition-like; simplify",
+    "translation": "red",
+    "senses": ["red (colour)", "left-wing, socialist (politics)"]
+  },
+  {
+    "kellyId": 467,
+    "decision": "fix",
+    "reason": "senses list has definition-like and unclear glosses; also primary 'advice' is uncountable",
+    "translation": "advice",
+    "uncountable": true,
+    "senses": ["advice, counsel", "way, means (to solve a problem)", "council, board (advisory body)"]
+  },
+  {
+    "kellyId": 1235,
+    "decision": "fix",
+    "reason": "senses are definition-like; clean into concise translations",
+    "translation": "advise",
+    "senses": ["advise (give advice)", "rule, reign, decide", "prevail, exist (be the case)"]
+  },
+  {
+    "kellyId": 1048,
+    "decision": "fix",
+    "reason": "primary 'happen to do, to accidentally do' is clumsy with embedded 'to'; fix phrasing and clear redundant sub-def",
+    "translation": "happen to, do by accident",
+    "senses": ["happen to do, do by accident", "encounter, run into (someone)"]
+  },
+  {
+    "kellyId": 250,
+    "decision": "fix",
+    "reason": "senses list is too long and definition-like; trim to distinct meaningful groupings",
+    "translation": "thing",
+    "senses": ["thing, object (concrete)", "matter, issue (abstract)", "case, dispute (legal)"]
+  },
+  {
+    "kellyId": 569,
+    "decision": "fix",
+    "reason": "translation embeds redundant 'to lack, to want, to be without'; two core senses are 'miss' and 'lack'",
+    "translation": "miss; lack",
+    "senses": ["miss (feel the absence of someone/something)", "lack, be without"]
+  },
+  {
+    "kellyId": 837,
+    "decision": "fix",
+    "reason": "translation embeds 'to gather, to organize' with redundant 'to'; fix phrasing",
+    "translation": "collect, gather",
+    "senses": ["collect, gather, assemble", "pull oneself together"]
+  },
+  {
+    "kellyId": 1040,
+    "decision": "fix",
+    "reason": "primary 'short, intense movement' is a definition; core translation is 'jolt, jerk'",
+    "translation": "jolt, jerk",
+    "senses": ["jolt, jerk, yank (sudden movement)", "burst, dash (sudden increase in speed)", "impulse, urge (sudden)"]
+  },
+  {
+    "kellyId": 982,
+    "decision": "fix",
+    "reason": "translation embeds 'to jerk, to pull quickly' with redundant 'to'; fix phrasing",
+    "translation": "yank, jerk, pull",
+    "senses": ["yank, jerk, pull (suddenly)", "twitch (of the body)", "move quickly, dart"]
+  },
+  {
+    "kellyId": 441,
+    "decision": "fix",
+    "reason": "senses are definition-like; clean up",
+    "translation": "dish",
+    "senses": ["dish, course (food)", "law (as a system)", "court (of law)", "right, entitlement (legal)"]
+  },
+  {
+    "kellyId": 644,
+    "decision": "fix",
+    "reason": "senses list has definition-like items; clean up to concise translations for this catch-all 'other' entry",
+    "translation": "right, correct",
+    "senses": ["right, correct (adjective)", "correctly, rightly (adverb)", "rather, pretty, fairly (degree adverb)", "dish, course (food)", "law, right (legal)"]
+  },
+  {
+    "kellyId": 801,
+    "decision": "fix",
+    "reason": "'peace, quiet, tranquility' — 'peace' is uncountable; mark uncountable and trim",
+    "translation": "peace, tranquility",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 669,
+    "decision": "fix",
+    "reason": "senses 'space, room' and 'a space' are near-identical; collapse",
+    "translation": "room",
+    "senses": ["room (in a building)", "space, room (empty area)"]
+  },
+  {
+    "kellyId": 292,
+    "decision": "fix",
+    "reason": "senses sub-def is a meta-definition ('synonym of och'); single-meaning conjunction",
+    "translation": "and, as well as",
+    "senses": []
+  },
+  {
+    "kellyId": 1303,
+    "decision": "fix",
+    "reason": "senses items are definition-like; clean up to concise translations",
+    "translation": "series",
+    "senses": ["series, sequence", "TV series, show", "comic strip", "league (sports)"]
+  },
+  {
+    "kellyId": 50,
+    "decision": "fix",
+    "reason": "translation 'Number six' is unnecessarily capitalised; senses need cleanup",
+    "translation": "number six",
+    "senses": ["number six, the digit 6", "sixth grade (school year)", "a six-centilitre shot (drink)"]
+  },
+  {
+    "kellyId": 51,
+    "decision": "fix",
+    "reason": "'the number 60' in senses is a definition, not a distinct sense; single-meaning numeral",
+    "translation": "sixty",
+    "senses": []
+  },
+  {
+    "kellyId": 1344,
+    "decision": "fix",
+    "reason": "senses sub-def is definition-like; single-meaning adjective",
+    "translation": "sexual",
+    "senses": []
+  },
+  {
+    "kellyId": 281,
+    "decision": "fix",
+    "reason": "senses list is definition-like and missing the important 'page' meaning (see example: 'sida 42'); add and clean",
+    "translation": "side",
+    "senses": ["side (edge, surface, direction)", "page (of a book)", "side (team, faction)", "website, page (online)"]
+  },
+  {
+    "kellyId": 1175,
+    "decision": "fix",
+    "reason": "primary 'single digit' is too narrow; siffra means digit or figure/number more broadly",
+    "translation": "digit, figure",
+    "senses": ["digit (single numeral)", "figure, number (statistic)"]
+  },
+  {
+    "kellyId": 119,
+    "decision": "fix",
+    "reason": "senses sub-def is a grammatical meta-note, not a translation; clear",
+    "translation": "himself, herself, themselves",
+    "senses": []
+  },
+  {
+    "kellyId": 1166,
+    "decision": "fix",
+    "reason": "senses include 'a sift' and 'sifted flour' which are marginal and confusing; trim to meaningful everyday senses",
+    "translation": "visibility",
+    "senses": ["visibility (how far you can see)", "timeframe, horizon (short-term/long-term)"]
+  },
+  {
+    "kellyId": 403,
+    "decision": "fix",
+    "reason": "senses items are definition-like; trim to concise distinct meanings",
+    "translation": "sit",
+    "senses": ["sit (be seated)", "fit (of clothing)"]
+  },
+  {
+    "kellyId": 54,
+    "decision": "fix",
+    "reason": "translation 'seven' duplicates the numeral entry; 'sjua' as noun means 'the seven' (bus number, grade level, etc.)",
+    "translation": "number seven",
+    "senses": ["number seven, the digit 7", "seventh grade (school year)", "seventh place (competition)"]
+  },
+  {
+    "kellyId": 1128,
+    "decision": "fix",
+    "reason": "senses 'sickness' is a synonym of 'illness', not a distinct meaning; single meaning",
+    "translation": "disease, illness",
+    "senses": []
+  },
+  {
+    "kellyId": 508,
+    "decision": "fix",
+    "reason": "senses sub-def 'from a given point in time' is a definition of 'since', not a distinct sense",
+    "translation": "since",
+    "senses": []
+  },
+  {
+    "kellyId": 1351,
+    "decision": "fix",
+    "reason": "senses sub-def is just the same word with a usage note, not a distinct meaning",
+    "translation": "sector",
+    "senses": []
+  },
+  {
+    "kellyId": 729,
+    "decision": "fix",
+    "reason": "senses miss the important 'clause/sentence' (grammar) meaning; definition-like items cleaned up",
+    "translation": "theorem, proposition",
+    "senses": ["theorem, proposition (mathematics)", "clause, sentence (grammar)", "run-up (before a jump)", "batch, set (of similar objects)"]
+  },
+  {
+    "kellyId": 1112,
+    "decision": "fix",
+    "reason": "senses include a vulgar meaning too marginal for a CEFR flashcard; drop it; also fix translation phrasing (remove embedded 'to')",
+    "translation": "go for, invest, bet on",
+    "senses": []
+  }
+]

@@ -1,0 +1,339 @@
+[
+  {
+    "kellyId": 6581,
+    "decision": "fix",
+    "reason": "sub-def list is redundant and definition-like; consolidate to two meaningful senses",
+    "senses": ["radiate, shine", "beam (smile broadly)"]
+  },
+  {
+    "kellyId": 6363,
+    "decision": "fix",
+    "reason": "sub-def list is definition-like; consolidate to two clear senses",
+    "senses": ["stamp (tool or mark)", "label, brand (mark on a person's reputation)"]
+  },
+  {
+    "kellyId": 5701,
+    "decision": "fix",
+    "reason": "sub-def list needs cleaner phrasing",
+    "senses": ["stamp (use a stamp tool)", "label, brand (denounce)", "sign on (register as unemployed)"]
+  },
+  {
+    "kellyId": 6668,
+    "decision": "fix",
+    "reason": "embedded article 'a' in translation; single meaning",
+    "translation": "closing, shutting",
+    "senses": []
+  },
+  {
+    "kellyId": 6663,
+    "decision": "fix",
+    "reason": "sub-def list has definition-like third entry; consolidate to two clean senses",
+    "senses": ["messy, untidy", "rowdy, disorderly"]
+  },
+  {
+    "kellyId": 6136,
+    "decision": "fix",
+    "reason": "'heave a sigh' is definition-like; 'sigh' is the natural bare verb translation",
+    "translation": "sigh",
+    "senses": []
+  },
+  {
+    "kellyId": 5736,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation",
+    "translation": "sum up, summarize",
+    "senses": []
+  },
+  {
+    "kellyId": 5951,
+    "decision": "fix",
+    "reason": "primary 'sovereignty' is uncountable; list is clean",
+    "uncountable": true,
+    "senses": ["sovereignty", "excellency, brilliance"]
+  },
+  {
+    "kellyId": 6131,
+    "decision": "fix",
+    "reason": "'Swedophone' is obscure; noun sub-def doesn't belong under an adjective; cleaner two-word gloss covers both uses",
+    "translation": "Swedish-speaking, Swedish-language",
+    "senses": []
+  },
+  {
+    "kellyId": 6400,
+    "decision": "fix",
+    "reason": "'sweat' is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6892,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation; 'dress up' sense is archaic/erroneous — drop it",
+    "translation": "sting, burn",
+    "senses": ["sting, burn (physical pain)", "sting, hurt (emotionally)"]
+  },
+  {
+    "kellyId": 5983,
+    "decision": "fix",
+    "reason": "'turning' is too narrow; core meaning is swing/oscillation",
+    "translation": "swing, oscillation",
+    "senses": ["swing, oscillation, turn", "undulation"]
+  },
+  {
+    "kellyId": 6029,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation; rowing sense is too marginal to list",
+    "translation": "float, hover, soar",
+    "senses": []
+  },
+  {
+    "kellyId": 5985,
+    "decision": "fix",
+    "reason": "'sympathetic' is a false friend; Swedish 'sympatisk' means likeable/nice",
+    "translation": "likeable, nice",
+    "senses": []
+  },
+  {
+    "kellyId": 6297,
+    "decision": "fix",
+    "reason": "'oxygen' is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6126,
+    "decision": "fix",
+    "reason": "embedded article 'a' in translation; single meaning",
+    "translation": "sack, bag",
+    "senses": []
+  },
+  {
+    "kellyId": 6820,
+    "decision": "fix",
+    "reason": "both senses are the same concept; single meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 6341,
+    "decision": "fix",
+    "reason": "'or' in primary is clumsy; 'for example' in list is definition-like",
+    "translation": "tablet, pill",
+    "senses": ["tablet, pill", "place mat, small cloth"]
+  },
+  {
+    "kellyId": 5643,
+    "decision": "fix",
+    "reason": "'gratitude' is uncountable; single meaning",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6333,
+    "decision": "fix",
+    "reason": "embedded article 'a' in translation; 'lectern, podium' is more natural than listing three near-synonyms including 'pulpit' (too religious)",
+    "translation": "lectern, podium",
+    "senses": []
+  },
+  {
+    "kellyId": 6245,
+    "decision": "fix",
+    "reason": "embedded article 'a' in translation; second sub-def is definition-like and odd for a noun",
+    "translation": "plate, dish",
+    "senses": []
+  },
+  {
+    "kellyId": 5984,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation; list senses need cleaner phrasing",
+    "translation": "refuel, fill up",
+    "senses": ["refuel, fill up", "drink heavily, booze", "download (large amounts of data)"]
+  },
+  {
+    "kellyId": 6555,
+    "decision": "fix",
+    "reason": "'terminology' is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6274,
+    "decision": "fix",
+    "reason": "'terror' is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5888,
+    "decision": "fix",
+    "reason": "'in the end' and 'eventually' are near-synonyms, not distinct meanings; combine in primary",
+    "translation": "in the end, eventually",
+    "senses": []
+  },
+  {
+    "kellyId": 5933,
+    "decision": "fix",
+    "reason": "embedded article 'an' in list sense",
+    "senses": ["accessory", "accompaniment (to food)"]
+  },
+  {
+    "kellyId": 6830,
+    "decision": "fix",
+    "reason": "too many synonyms in primary; core meaning is allocation/assignment",
+    "translation": "allocation, assignment",
+    "senses": []
+  },
+  {
+    "kellyId": 5865,
+    "decision": "fix",
+    "reason": "'satisfaction' is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5618,
+    "decision": "fix",
+    "reason": "embedded article 'a' in translation; 'happenstance' is uncommon",
+    "translation": "coincidence, chance",
+    "senses": []
+  },
+  {
+    "kellyId": 6714,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation; single meaning",
+    "translation": "resort to, seize",
+    "senses": []
+  },
+  {
+    "kellyId": 6150,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation",
+    "translation": "happen, come about",
+    "senses": ["happen, come about", "be available"]
+  },
+  {
+    "kellyId": 6572,
+    "decision": "fix",
+    "reason": "list has three overlapping 'acquire' senses; consolidate",
+    "senses": ["dedicate (a book, etc.)", "acquire, assimilate (knowledge, skills)"]
+  },
+  {
+    "kellyId": 6098,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation; list senses need consolidation and cleaner phrasing",
+    "translation": "tip, tip over",
+    "senses": ["tip over, topple", "tilt, dump (a truck bed)", "guess, predict (an outcome)", "bet (on sports results)"]
+  },
+  {
+    "kellyId": 6947,
+    "decision": "fix",
+    "reason": "list sense is definition-like; consolidate to two clean senses",
+    "senses": ["bull (cattle)", "bull (moose, reindeer, whale, and other large animals)"]
+  },
+  {
+    "kellyId": 5840,
+    "decision": "fix",
+    "reason": "'tobacco' is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6529,
+    "decision": "fix",
+    "reason": "sub-def list just repeats the primary; clear it",
+    "senses": []
+  },
+  {
+    "kellyId": 6392,
+    "decision": "fix",
+    "reason": "'emptiness' is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6711,
+    "decision": "fix",
+    "reason": "embedded article 'an' in list sense",
+    "senses": ["emptiness, void", "empty space, gap"]
+  },
+  {
+    "kellyId": 6959,
+    "decision": "fix",
+    "reason": "'emphasis' is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6965,
+    "decision": "fix",
+    "reason": "embedded article 'a' in translation",
+    "translation": "chart, top list",
+    "senses": []
+  },
+  {
+    "kellyId": 6967,
+    "decision": "fix",
+    "reason": "'homish' is not a real English word; 'trivsam' means cozy/pleasant",
+    "translation": "cozy, pleasant",
+    "senses": []
+  },
+  {
+    "kellyId": 6761,
+    "decision": "fix",
+    "reason": "list is redundant — 'faithfulness' is a synonym of 'fidelity', not a distinct sense; consolidate",
+    "senses": ["fidelity, loyalty, faithfulness", "fealty, allegiance"]
+  },
+  {
+    "kellyId": 6617,
+    "decision": "fix",
+    "reason": "embedded article 'a' in translation; list senses need cleaner phrasing",
+    "translation": "wizard, sorcerer",
+    "senses": ["wizard, sorcerer (supernatural magic)", "magician, conjurer (stage magic)"]
+  },
+  {
+    "kellyId": 5621,
+    "decision": "fix",
+    "reason": "'defiance' is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6826,
+    "decision": "fix",
+    "reason": "'pavement' alone is British-only; add 'sidewalk' for full coverage; single meaning",
+    "translation": "pavement, sidewalk",
+    "senses": []
+  },
+  {
+    "kellyId": 6079,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation; single meaning",
+    "translation": "secure, safeguard",
+    "senses": []
+  },
+  {
+    "kellyId": 6359,
+    "decision": "fix",
+    "reason": "embedded article 'a' in translation; both literal and figurative uses are the same word 'threshold'",
+    "translation": "threshold, doorstep",
+    "senses": []
+  },
+  {
+    "kellyId": 5733,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation; 'trust in someone' sense is archaic but worth noting",
+    "translation": "comfort, console",
+    "senses": ["comfort, console", "trust (archaic, to trust in someone)"]
+  },
+  {
+    "kellyId": 5657,
+    "decision": "fix",
+    "reason": "sub-def list repeats the same meaning for a different subject — not a distinct sense",
+    "senses": []
+  },
+  {
+    "kellyId": 6196,
+    "decision": "fix",
+    "reason": "all three listed senses mean 'abruptly' — redundant; single meaning",
+    "senses": []
+  }
+]

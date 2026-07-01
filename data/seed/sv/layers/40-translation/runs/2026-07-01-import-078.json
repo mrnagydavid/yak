@@ -1,0 +1,180 @@
+[
+  {
+    "kellyId": 7511,
+    "decision": "fix",
+    "reason": "primary is a definition; the translation should be the sounds it makes",
+    "translation": "squeak, peep, beep",
+    "senses": []
+  },
+  {
+    "kellyId": 7986,
+    "decision": "fix",
+    "reason": "primary 'lay out a plan' is a definition-like phrase; 'plan' is the clean gloss",
+    "translation": "plan, devise",
+    "senses": []
+  },
+  {
+    "kellyId": 8206,
+    "decision": "fix",
+    "reason": "embedded article in primary ('a letterbox'); bare form required",
+    "translation": "mailbox, letterbox",
+    "senses": ["mailbox, letterbox (delivery point)", "post box (collection point for mail)"]
+  },
+  {
+    "kellyId": 7424,
+    "decision": "fix",
+    "reason": "'programming' as an activity is uncountable in English",
+    "translation": "programming",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 8113,
+    "decision": "fix",
+    "reason": "current has embedded 'to' (clumsy for a verb card); projektera means to plan/design technically",
+    "translation": "design, plan",
+    "senses": []
+  },
+  {
+    "kellyId": 7550,
+    "decision": "fix",
+    "reason": "primary 'plug for stopping a hole' is a definition; 'plug' is the clean everyday word",
+    "translation": "plug",
+    "senses": ["plug, stopper (for a hole or drain)", "clot, blockage (in pipe or blood vessel)", "fuse (electrical)", "punch (a hit)"]
+  },
+  {
+    "kellyId": 7698,
+    "decision": "fix",
+    "reason": "sub-definition 'fine particles' is redundant — that is what powder is; single meaning",
+    "translation": "powder",
+    "senses": []
+  },
+  {
+    "kellyId": 7231,
+    "decision": "fix",
+    "reason": "embedded 'to' in 'polish, to shine'; bare verb form required",
+    "translation": "polish, shine",
+    "senses": ["polish, shine (make clean and shiny)", "groom (make even, tidy)", "polish, touch up (make improvements)"]
+  },
+  {
+    "kellyId": 7186,
+    "decision": "fix",
+    "reason": "sub-def 'short for realisation' is an etymology note, not a separate meaning; single sense",
+    "translation": "sale",
+    "senses": []
+  },
+  {
+    "kellyId": 8087,
+    "decision": "fix",
+    "reason": "'sell at a reduced price' is a definition; cleaner gloss is 'sell on sale'",
+    "translation": "sell on sale",
+    "senses": []
+  },
+  {
+    "kellyId": 8241,
+    "decision": "fix",
+    "reason": "embedded article in 'an implementation'; sub-def is redundant restatement of the primary",
+    "translation": "realization, implementation",
+    "senses": []
+  },
+  {
+    "kellyId": 7132,
+    "decision": "fix",
+    "reason": "embedded article in 'a front desk'; two distinct senses deserve semicolon split or clean list",
+    "translation": "reception desk; reception",
+    "senses": ["reception desk, front desk", "reception (social welcoming event)"]
+  },
+  {
+    "kellyId": 7171,
+    "decision": "fix",
+    "reason": "embedded article in 'a reaction'; primary should be bare",
+    "translation": "reflex",
+    "senses": ["reflex, reaction (quick and spontaneous)", "reflector (worn by pedestrians/cyclists)", "reflection"]
+  },
+  {
+    "kellyId": 8186,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary; reklamera's primary sense is consumer complaint, advertise is secondary",
+    "translation": "make a complaint (about a purchase)",
+    "senses": ["make a complaint, return a purchase (consumer)", "advertise"]
+  },
+  {
+    "kellyId": 7699,
+    "decision": "fix",
+    "reason": "embedded article in 'a tape'; bare form required",
+    "translation": "strip, tape",
+    "senses": ["strip, tape (narrow piece)", "strip (of land)"]
+  },
+  {
+    "kellyId": 8235,
+    "decision": "fix",
+    "reason": "'cleanliness' is an uncountable noun in English",
+    "translation": "cleanliness",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 8169,
+    "decision": "fix",
+    "reason": "embedded article in 'a courier'; reseledare primarily means tour guide",
+    "translation": "tour guide, courier",
+    "senses": []
+  },
+  {
+    "kellyId": 7253,
+    "decision": "fix",
+    "reason": "embedded article in 'a travel bag'; suitcase is the clearest primary; 'travel bag' adds little",
+    "translation": "suitcase",
+    "senses": []
+  },
+  {
+    "kellyId": 7483,
+    "decision": "fix",
+    "reason": "primary 'central island of a traffic circle' is definition-like; everyday word is 'roundabout'",
+    "translation": "roundabout",
+    "senses": ["roundabout, traffic circle", "central island of a roundabout (strictly)"]
+  },
+  {
+    "kellyId": 8312,
+    "decision": "fix",
+    "reason": "embedded article in 'a runaway'; bare form required",
+    "translation": "escapee, runaway",
+    "senses": []
+  },
+  {
+    "kellyId": 7572,
+    "decision": "fix",
+    "reason": "sub-def 'to consult' has embedded 'to'; the two glosses are near-synonyms; single clean primary",
+    "translation": "consult, ask for advice",
+    "senses": []
+  },
+  {
+    "kellyId": 7146,
+    "decision": "fix",
+    "reason": "Latin binomial is inappropriate for a flashcard; 'roe deer' is the complete useful gloss",
+    "translation": "roe deer",
+    "senses": []
+  },
+  {
+    "kellyId": 7817,
+    "decision": "fix",
+    "reason": "'crude oil' is an uncountable noun in English",
+    "translation": "crude oil",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7601,
+    "decision": "fix",
+    "reason": "'saver' is not a natural equivalent for räddare; 'savior, rescuer' covers it cleanly",
+    "translation": "savior, rescuer",
+    "senses": []
+  },
+  {
+    "kellyId": 7199,
+    "decision": "fix",
+    "reason": "embedded article in 'a prawn'; bare form required; mephedrone sense is marginal slang",
+    "translation": "shrimp, prawn",
+    "senses": ["shrimp, prawn", "mephedrone (slang)"]
+  }
+]

@@ -1,0 +1,345 @@
+[
+  {
+    "kellyId": 6764,
+    "decision": "fix",
+    "reason": "bomull = cotton (plant and textile). The sub-definition is a definition of the word, not a separate sense. Single meaning; clear the stale list. Uncountable noun.",
+    "translation": "cotton",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6419,
+    "decision": "fix",
+    "reason": "current 'drill, to bore' embeds 'to' — app adds 'to', so it would render 'to drill, to to bore'. Remove the explicit 'to'.",
+    "translation": "drill, bore",
+    "senses": []
+  },
+  {
+    "kellyId": 6855,
+    "decision": "fix",
+    "reason": "borsta: primary 'brush' is correct. Secondary 'to booze' has explicit 'to' — fix phrasing in list.",
+    "translation": "brush",
+    "senses": ["brush", "booze, drink alcohol (slang)"]
+  },
+  {
+    "kellyId": 6569,
+    "decision": "fix",
+    "reason": "boskap = livestock (all farm animals), which is broader than just cattle. 'Livestock' is the better primary; 'cattle' is a near-synonym. Both are uncountable. Merge as primary; single sense.",
+    "translation": "livestock, cattle",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5704,
+    "decision": "fix",
+    "reason": "bostadsrätt has two genuine senses: (1) the apartment/dwelling itself, (2) the legal right of tenancy. The sub-definition as written is definition-like. Rebuild cleanly.",
+    "translation": "co-op apartment",
+    "senses": ["co-op apartment, condominium (the dwelling)", "tenant-owner's right (legal right to occupy)"]
+  },
+  {
+    "kellyId": 5913,
+    "decision": "fix",
+    "reason": "box: one sub-definition 'a cuboid container' is a definition of 'box', not a separate sense. The genuine second sense is 'blow with the fist'. Fix the list.",
+    "translation": "box, crate",
+    "senses": ["box, crate (container)", "box, punch (blow with the fist)"]
+  },
+  {
+    "kellyId": 6934,
+    "decision": "fix",
+    "reason": "bredda: two real senses — make physically wider, and broaden figuratively. Current sub-definition is phrased as a definition. Clean up.",
+    "translation": "widen, broaden",
+    "senses": ["widen (make physically wider)", "broaden (extend scope or knowledge)"]
+  },
+  {
+    "kellyId": 5783,
+    "decision": "fix",
+    "reason": "brevlåda: two senses — delivery point at home vs collection post box on the street. Current sub-definition is definition-like. Rebuild with the delivery sense as primary (more everyday).",
+    "translation": "mailbox, letterbox",
+    "senses": ["mailbox, letterbox (delivery point at your door)", "post box (collection point on the street)"]
+  },
+  {
+    "kellyId": 6532,
+    "decision": "fix",
+    "reason": "bricka: 'card' in the current list is vague — bricka means a tile or token (e.g. board-game piece), not a playing card. Clarify that sense.",
+    "translation": "tray",
+    "senses": ["tray", "badge", "washer (metal disk)", "tile, token (board-game piece)"]
+  },
+  {
+    "kellyId": 6709,
+    "decision": "fix",
+    "reason": "broms = brake (primary). Also means horsefly — a common everyday meaning missing from the current list. 'Something that slows progress' is figurative extension of brake, not a separate lexical sense worth listing separately.",
+    "translation": "brake",
+    "senses": ["brake (on a vehicle or figuratively)", "horsefly"]
+  },
+  {
+    "kellyId": 5791,
+    "decision": "fix",
+    "reason": "brytning: primary 'break, a breaking, a rupture' is clumsy and embeds an article. Everyday senses are accent (foreign) and mining/extraction. Neither clearly dominates; use semicolon. List all four senses.",
+    "translation": "accent; break",
+    "senses": ["accent (foreign)", "break, rupture", "mining, extraction", "refraction (of light)"]
+  },
+  {
+    "kellyId": 6968,
+    "decision": "fix",
+    "reason": "brådskande: current primary is a definition ('needing to be done soon'). 'Urgent' is the clean one-word gloss.",
+    "translation": "urgent",
+    "senses": []
+  },
+  {
+    "kellyId": 6503,
+    "decision": "fix",
+    "reason": "bråkdel: 'fraction' is correct. Sub-definition 'a fractional part (of a mixed number)' is a restatement/definition, not a distinct sense. Single meaning.",
+    "translation": "fraction",
+    "senses": []
+  },
+  {
+    "kellyId": 5808,
+    "decision": "fix",
+    "reason": "bråttom is an adverb used in 'ha bråttom' (to be in a hurry). Current gloss 'urgency due to lack of time, hurry' is definition-like. Better phrase: 'in a hurry' conveys the usage naturally.",
+    "translation": "in a hurry, hurriedly",
+    "senses": []
+  },
+  {
+    "kellyId": 6219,
+    "decision": "fix",
+    "reason": "bräda: core meaning is a plank/board (piece of wood). Current sub-definitions are muddled. Rebuild cleanly with the two real senses.",
+    "translation": "board, plank",
+    "senses": ["board, plank (piece of wood)", "board (snowboard, skateboard, etc.)"]
+  },
+  {
+    "kellyId": 6751,
+    "decision": "fix",
+    "reason": "brödraskap: 'close friendship between men or boys' is a paraphrase of brotherhood, not a genuinely distinct sense. Single meaning.",
+    "translation": "brotherhood",
+    "senses": []
+  },
+  {
+    "kellyId": 6184,
+    "decision": "fix",
+    "reason": "bubbla: 'a Bug, a Beetle (VW car)' is very marginal slang. Keep the two main senses: bubble (physical) and bubble (financial).",
+    "translation": "bubble",
+    "senses": ["bubble (spherical gas pocket)", "bubble (financial speculation)"]
+  },
+  {
+    "kellyId": 6730,
+    "decision": "fix",
+    "reason": "bukt: sub-definition 'bend, loop' is phrased adequately but the overall list can be cleaner.",
+    "translation": "bay, gulf",
+    "senses": ["bay, gulf (coastal indentation)", "bend, loop (in a path or rope)"]
+  },
+  {
+    "kellyId": 6693,
+    "decision": "fix",
+    "reason": "bulle: current 'bun, a small bread roll' embeds an article. Fix phrasing. Keep the secondary senses.",
+    "translation": "bun, roll",
+    "senses": ["bun, roll (bread)", "ball-shaped portion (of food)", "cab, taxi (slang)"]
+  },
+  {
+    "kellyId": 5693,
+    "decision": "fix",
+    "reason": "buller: current primary 'unpleasant noise' is a definition. The clean translation is 'noise, din'. Uncountable. The second sense 'loud rumble' is a specific subset, not a genuinely distinct sense — drop it.",
+    "translation": "noise, din",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6005,
+    "decision": "fix",
+    "reason": "bunt: current 'bundle, a bunch' embeds an article. Fix. Single meaning.",
+    "translation": "bundle, bunch",
+    "senses": []
+  },
+  {
+    "kellyId": 5910,
+    "decision": "fix",
+    "reason": "bur: current sub-definition 'a prison, a jail, an arrest' embeds articles. Clean up.",
+    "translation": "cage",
+    "senses": ["cage", "prison, jail (slang)"]
+  },
+  {
+    "kellyId": 5926,
+    "decision": "fix",
+    "reason": "bäck: current 'small stream or brook' is a definition. 'Brook, stream' is the clean bare translation.",
+    "translation": "brook, stream",
+    "senses": []
+  },
+  {
+    "kellyId": 6081,
+    "decision": "fix",
+    "reason": "bädda: primary 'make' is too bare — it only means 'make' in the fixed phrase 'make the bed'. The true primary is 'make the bed'. Secondary senses: tuck in, pave the way for.",
+    "translation": "make the bed",
+    "senses": ["make the bed", "tuck in (put someone to bed)", "pave the way for (figurative)"]
+  },
+  {
+    "kellyId": 6856,
+    "decision": "fix",
+    "reason": "bägare: current 'cup, a beaker, a goblet' embeds an article. Fix phrasing. Secondary sense (container for e.g. ice cream) is real.",
+    "translation": "cup, goblet, beaker",
+    "senses": ["cup, goblet, beaker (drinking vessel)", "cup (container, e.g. for ice cream)"]
+  },
+  {
+    "kellyId": 6488,
+    "decision": "fix",
+    "reason": "charm: the sub-definition is a definition of the word, not a separate sense. Single meaning. Uncountable.",
+    "translation": "charm",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6067,
+    "decision": "fix",
+    "reason": "cyklist: current 'cyclist, one who rides a bicycle' — 'one who rides a bicycle' is a definition of cyclist. Single meaning.",
+    "translation": "cyclist",
+    "senses": []
+  },
+  {
+    "kellyId": 7004,
+    "decision": "fix",
+    "reason": "dagsljus: primary 'daylight' is fine (uncountable). The figurative second sense (public exposure) is real. Fix the list.",
+    "translation": "daylight",
+    "uncountable": true,
+    "senses": ["daylight (light from the sun)", "light, spotlight (public exposure, figurative)"]
+  },
+  {
+    "kellyId": 6972,
+    "decision": "fix",
+    "reason": "darra: current 'shiver, to tremble' embeds 'to' — app adds 'to'. Fix.",
+    "translation": "shiver, tremble",
+    "senses": []
+  },
+  {
+    "kellyId": 5724,
+    "decision": "fix",
+    "reason": "deckare: current 'crime novel, a whodunit' embeds an article. Fix. Keep both senses (crime novel and detective).",
+    "translation": "crime novel, detective story",
+    "senses": ["crime novel, detective story", "detective, investigator (person)"]
+  },
+  {
+    "kellyId": 6255,
+    "decision": "fix",
+    "reason": "deg: sub-definition 'a thick mix of flour and water' is a definition of dough, not a distinct sense. The slang sense 'dough (money)' is real and should be kept. Fix list.",
+    "translation": "dough",
+    "uncountable": true,
+    "senses": ["dough (for baking)", "dough (money, slang)"]
+  },
+  {
+    "kellyId": 6154,
+    "decision": "fix",
+    "reason": "diamant: sub-definition 'a diamond (gemstone)' is a restatement of the primary — not a distinct sense. Single meaning.",
+    "translation": "diamond",
+    "senses": []
+  },
+  {
+    "kellyId": 6788,
+    "decision": "fix",
+    "reason": "dike: sub-definition 'a small canal, for irrigation or drainage' is a definition of ditch. Single meaning.",
+    "translation": "ditch",
+    "senses": []
+  },
+  {
+    "kellyId": 6369,
+    "decision": "fix",
+    "reason": "diktera: both senses are genuine. Sub-definitions had clumsy parentheticals. Rebuild cleanly.",
+    "translation": "dictate",
+    "senses": ["dictate (speak for someone to write down)", "dictate (impose, decide)"]
+  },
+  {
+    "kellyId": 6485,
+    "decision": "fix",
+    "reason": "disponera: current primary 'have disposal' is clumsy. Three real senses. Neither of the first two clearly dominates, so use semicolon.",
+    "translation": "have use of; organize",
+    "senses": ["have use of (be able to use without owning)", "organize, structure (a text or plan)", "predispose (to illness)"]
+  },
+  {
+    "kellyId": 6432,
+    "decision": "fix",
+    "reason": "djärv: 'venturesome' is marginal and old-fashioned. 'Bold, daring' is sufficient and clean.",
+    "translation": "bold, daring",
+    "senses": []
+  },
+  {
+    "kellyId": 6376,
+    "decision": "fix",
+    "reason": "docka: current 'doll, a puppet' embeds an article. Fix. Two genuine senses.",
+    "translation": "doll, puppet",
+    "senses": ["doll, puppet", "dock (at a shipyard)"]
+  },
+  {
+    "kellyId": 5721,
+    "decision": "fix",
+    "reason": "dragning: in everyday Swedish, dragning most commonly means a draw (lottery) or an attraction/inclination towards something. Current 'drawing, drag' is vague. Neither sense clearly dominates; use semicolon.",
+    "translation": "draw; attraction",
+    "senses": ["draw, lottery draw", "attraction, inclination (towards something)"]
+  },
+  {
+    "kellyId": 6655,
+    "decision": "fix",
+    "reason": "drake: primary 'dragon' is correct. The keelboat and fierce-woman senses are too marginal. Keep: dragon, kite, dragon ship, drake (duck).",
+    "translation": "dragon",
+    "senses": ["dragon (mythical creature)", "kite (toy)", "dragon ship (Viking longship)", "drake (male duck)"]
+  },
+  {
+    "kellyId": 6327,
+    "decision": "fix",
+    "reason": "drastisk: sub-definition 'drastically' is the adverb form, not a sense of this adjective. Drop it.",
+    "translation": "drastic",
+    "senses": []
+  },
+  {
+    "kellyId": 5851,
+    "decision": "fix",
+    "reason": "droppa: two Wiktionary senses are essentially the same action phrased differently. Single meaning; clear the list.",
+    "translation": "drip",
+    "senses": []
+  },
+  {
+    "kellyId": 6053,
+    "decision": "fix",
+    "reason": "dräkt: 'outer form' is an archaic/literary figurative sense; 'a draw, a pull' appears to be an error (that is dragning). Drop those. Core meanings: costume/dress and suit.",
+    "translation": "costume, dress",
+    "senses": ["costume, dress (clothing)", "suit (jacket with skirt or trousers)"]
+  },
+  {
+    "kellyId": 5811,
+    "decision": "fix",
+    "reason": "duscha: current sub-definitions include restatements of the primary. The genuine second sense is 'shower (spray someone with something)'. Fix list.",
+    "translation": "shower",
+    "senses": ["shower (wash oneself)", "shower (spray someone with something)"]
+  },
+  {
+    "kellyId": 6903,
+    "decision": "fix",
+    "reason": "duva: 'dove, friend of peace' is a figurative extension of the dove sense, not a wholly separate meaning. But the figurative 'dove' (pacifist) is common enough in political contexts to list.",
+    "translation": "dove, pigeon",
+    "senses": ["dove, pigeon (bird)", "dove (peace advocate, figurative)"]
+  },
+  {
+    "kellyId": 5725,
+    "decision": "fix",
+    "reason": "dåtid: two genuine senses — the past (time period) and past tense (grammar). Neither clearly dominates. Use semicolon.",
+    "translation": "the past; past tense",
+    "senses": ["the past (historical time)", "past tense (grammar)"]
+  },
+  {
+    "kellyId": 5947,
+    "decision": "fix",
+    "reason": "effektivisera: current 'make something more efficient' is definition-like. 'Streamline' is clean and common; add 'make more efficient' as clarifier.",
+    "translation": "streamline, make more efficient",
+    "senses": []
+  },
+  {
+    "kellyId": 6163,
+    "decision": "fix",
+    "reason": "eftergift: two genuine senses — concession (yielding to demands) and waiver/remission (legal/financial). Current sub-definition phrasing is acceptable but can be cleaner.",
+    "translation": "concession",
+    "senses": ["concession (yielding to demands)", "waiver, remission (legal or financial)"]
+  },
+  {
+    "kellyId": 6638,
+    "decision": "fix",
+    "reason": "efterlevnad: 'compliance' is the more common English term in regulatory/legal contexts; 'adherence' is also valid. Combine both. Uncountable.",
+    "translation": "compliance, adherence",
+    "uncountable": true,
+    "senses": []
+  }
+]

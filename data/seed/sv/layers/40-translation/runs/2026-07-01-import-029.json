@@ -1,0 +1,303 @@
+[
+  {
+    "kellyId": 3286,
+    "decision": "fix",
+    "reason": "sub-defs are definitions not translations; all three senses collapse into one English word 'bitter'",
+    "translation": "bitter",
+    "senses": []
+  },
+  {
+    "kellyId": 3046,
+    "decision": "fix",
+    "reason": "primary 'mixing' is the process/gerund sense; 'mixture, blend' is the far more common everyday meaning",
+    "translation": "mixture, blend",
+    "senses": [
+      "mixture, blend",
+      "mixing (the process)",
+      "compound",
+      "cross, hybrid"
+    ]
+  },
+  {
+    "kellyId": 3078,
+    "decision": "fix",
+    "reason": "sub-defs are definitions; senses list should be clean translations",
+    "senses": [
+      "blind (unable to see)",
+      "dead-end, closed at one end"
+    ]
+  },
+  {
+    "kellyId": 3117,
+    "decision": "fix",
+    "reason": "main translation embeds article 'a boulder, a cuboid'; must be bare",
+    "translation": "block, boulder, cuboid",
+    "senses": [
+      "block, boulder, cuboid (solid mass)",
+      "block, pad, notebook",
+      "block, pulley",
+      "block (data storage)",
+      "bloc (political)"
+    ]
+  },
+  {
+    "kellyId": 3733,
+    "decision": "fix",
+    "reason": "main translation embeds 'to prevent'; also single meaning — sub-def is just a restatement",
+    "translation": "block, obstruct",
+    "senses": []
+  },
+  {
+    "kellyId": 4132,
+    "decision": "fix",
+    "reason": "sub-def 'rare' is too bare — needs context that it means underdone meat",
+    "senses": [
+      "bloody, covered in blood",
+      "rare, underdone (of meat)"
+    ]
+  },
+  {
+    "kellyId": 4011,
+    "decision": "fix",
+    "reason": "'keep one's eyes shut' is essentially same as primary; second real sense is 'turn a blind eye'",
+    "senses": [
+      "close one's eyes",
+      "turn a blind eye, ignore"
+    ]
+  },
+  {
+    "kellyId": 3265,
+    "decision": "fix",
+    "reason": "main translation embeds 'to neglect'; sub-def is a definition fragment",
+    "translation": "disregard, ignore",
+    "senses": []
+  },
+  {
+    "kellyId": 4085,
+    "decision": "fix",
+    "reason": "main translation embeds 'to burst'; app adds 'to' for verbs",
+    "translation": "break, burst",
+    "senses": [
+      "break, burst",
+      "be lacking, fall short"
+    ]
+  },
+  {
+    "kellyId": 3340,
+    "decision": "fix",
+    "reason": "sub-def 'a Briton' is essentially a synonym — single meaning, list should be empty",
+    "senses": []
+  },
+  {
+    "kellyId": 4013,
+    "decision": "fix",
+    "reason": "senses list reorganised: trouble belongs with quarrel cluster; fraction is distinct",
+    "senses": [
+      "quarrel, row, trouble",
+      "fraction (math)"
+    ]
+  },
+  {
+    "kellyId": 2973,
+    "decision": "fix",
+    "reason": "fuel is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4212,
+    "decision": "fix",
+    "reason": "senses list tidied; dialect sense dropped as marginal; 'lay it on thick' kept",
+    "senses": [
+      "spread",
+      "butter, make (a sandwich)",
+      "lay it on thick, exaggerate"
+    ]
+  },
+  {
+    "kellyId": 3350,
+    "decision": "fix",
+    "reason": "'building' as activity noun is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3768,
+    "decision": "fix",
+    "reason": "sub-def 'something which is constructed' is definition-like",
+    "senses": [
+      "construction site",
+      "construction, build (the thing built)"
+    ]
+  },
+  {
+    "kellyId": 3874,
+    "decision": "fix",
+    "reason": "main translation embeds articles 'a dresser, a chest of drawers'; must be bare",
+    "translation": "bureau, dresser, chest of drawers",
+    "senses": [
+      "bureau, dresser, chest of drawers",
+      "bureau, office, agency"
+    ]
+  },
+  {
+    "kellyId": 3415,
+    "decision": "fix",
+    "reason": "bureaucracy is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3334,
+    "decision": "fix",
+    "reason": "sub-def embeds article 'a purse, a wallet'",
+    "senses": [
+      "stock market, stock exchange",
+      "purse, wallet (archaic)"
+    ]
+  },
+  {
+    "kellyId": 3413,
+    "decision": "fix",
+    "reason": "cancer is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3262,
+    "decision": "fix",
+    "reason": "sub-defs are definition-like with embedded capitals; replace with clean sense list covering main uses",
+    "senses": [
+      "cell (biological)",
+      "cell (prison)",
+      "cell (organization)",
+      "cell (monastery)"
+    ]
+  },
+  {
+    "kellyId": 3945,
+    "decision": "fix",
+    "reason": "sub-def is definition-like; both wiktionary senses collapse into one English word",
+    "senses": []
+  },
+  {
+    "kellyId": 2964,
+    "decision": "fix",
+    "reason": "main translation embeds 'to ride a bike'; app adds 'to' for verbs",
+    "translation": "cycle, ride a bike",
+    "senses": []
+  },
+  {
+    "kellyId": 3047,
+    "decision": "fix",
+    "reason": "parenthetical is definition-like; bare 'date' suffices",
+    "translation": "date",
+    "senses": []
+  },
+  {
+    "kellyId": 4043,
+    "decision": "fix",
+    "reason": "sub-def has cross-reference 'see självdeklaration' which is not useful in a flashcard",
+    "senses": [
+      "declare",
+      "file a tax return"
+    ]
+  },
+  {
+    "kellyId": 3492,
+    "decision": "fix",
+    "reason": "both senses are covered by the same English word 'delegation'; no need for a list",
+    "senses": []
+  },
+  {
+    "kellyId": 3532,
+    "decision": "fix",
+    "reason": "primary is definition-like; 'federal state' is the natural translation",
+    "translation": "federal state",
+    "senses": []
+  },
+  {
+    "kellyId": 3042,
+    "decision": "fix",
+    "reason": "sub 'a depression' is just the same word with an article — redundant; single primary covers all senses",
+    "senses": []
+  },
+  {
+    "kellyId": 3568,
+    "decision": "fix",
+    "reason": "'manager' undersells direktör; 'director, executive' is more accurate for a company leader",
+    "translation": "director, executive",
+    "senses": [
+      "director, executive (company leader)",
+      "director (EU official title)"
+    ]
+  },
+  {
+    "kellyId": 4162,
+    "decision": "fix",
+    "reason": "'doft' connotes a pleasant smell; 'scent, fragrance' is more accurate than bare 'smell'",
+    "translation": "scent, fragrance",
+    "senses": []
+  },
+  {
+    "kellyId": 3203,
+    "decision": "fix",
+    "reason": "four near-synonyms is too many; 'hidden, concealed' captures the core cleanly",
+    "translation": "hidden, concealed",
+    "senses": []
+  },
+  {
+    "kellyId": 3140,
+    "decision": "fix",
+    "reason": "sub-def is definition-like; 'dramatic' covers all uses",
+    "senses": []
+  },
+  {
+    "kellyId": 2998,
+    "decision": "fix",
+    "reason": "senses list reorganised; 'mockery/teasing' is marginal for 'drift' alone (it belongs to 'driva med'); 'operation' sense added clearly",
+    "senses": [
+      "drift (uncontrolled movement)",
+      "urge, instinct, drive",
+      "operation, running (of a system)"
+    ]
+  },
+  {
+    "kellyId": 3875,
+    "decision": "fix",
+    "reason": "primary 'any liquid consumed' is a definition; 'beverage, drink' is the natural translation",
+    "translation": "beverage, drink",
+    "senses": []
+  },
+  {
+    "kellyId": 3697,
+    "decision": "fix",
+    "reason": "the most common everyday sense of 'dryg' in modern Swedish is condescending/smug, not 'lasting'",
+    "translation": "condescending, smug",
+    "senses": [
+      "condescending, smug (of a person)",
+      "lasting, economical (of a product)",
+      "just over, a good (approximately exceeding)"
+    ]
+  },
+  {
+    "kellyId": 3590,
+    "decision": "fix",
+    "reason": "sub-def is a definition restatement; single meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 2924,
+    "decision": "fix",
+    "reason": "primary is a definition; 'then, of that time' is the natural gloss for this attributive adjective",
+    "translation": "then, of that time",
+    "senses": []
+  },
+  {
+    "kellyId": 2823,
+    "decision": "fix",
+    "reason": "'thereof' is formal/archaic; the common meanings are 'from that, hence, therefore'",
+    "translation": "from that, hence, therefore",
+    "senses": []
+  }
+]

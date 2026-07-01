@@ -1,0 +1,184 @@
+[
+  {
+    "kellyId": 7059,
+    "decision": "fix",
+    "reason": "senses list had only one item but two distinct senses exist; clarify both",
+    "translation": "nocturnal",
+    "senses": ["nocturnal (by night, of animals)", "nightly (happening every night)"]
+  },
+  {
+    "kellyId": 8372,
+    "decision": "fix",
+    "reason": "verb translation 'reset, to calibrate to zero' has embedded 'to' and is definition-like; sub-defs had embedded articles and clumsy phrasing",
+    "translation": "reset, zero out",
+    "senses": ["reset, zero out (calibrate to zero)", "haze (initiate a new student)", "shut out (prevent an opponent from scoring)"]
+  },
+  {
+    "kellyId": 7377,
+    "decision": "fix",
+    "reason": "'usually a homesteader' is definition-like padding; 'settler, homesteader' is cleaner",
+    "translation": "settler, homesteader",
+    "senses": []
+  },
+  {
+    "kellyId": 7435,
+    "decision": "fix",
+    "reason": "'adjacent, located nearby' is definition-like; 'nearby, adjacent' is cleaner",
+    "translation": "nearby, adjacent",
+    "senses": []
+  },
+  {
+    "kellyId": 7625,
+    "decision": "fix",
+    "reason": "'nut, a hard-shelled seed' has definition padding; sub-def too long; simplify",
+    "translation": "nut",
+    "senses": ["nut (hard-shelled seed)", "tough problem (hard nut to crack)"]
+  },
+  {
+    "kellyId": 7906,
+    "decision": "fix",
+    "reason": "primary is a long definition 'not concluded, not decided, not settled'; core senses are 'undecided' and 'tied' (sports)",
+    "translation": "undecided; tied",
+    "senses": ["undecided, unresolved", "tied, drawn (sports)"]
+  },
+  {
+    "kellyId": 7651,
+    "decision": "fix",
+    "reason": "'disagreeing, not in agreement' — 'not in agreement' is redundant padding",
+    "translation": "disagreeing, at odds",
+    "senses": []
+  },
+  {
+    "kellyId": 7204,
+    "decision": "fix",
+    "reason": "'offer, a bid' has embedded article; should be bare",
+    "translation": "offer, bid",
+    "senses": []
+  },
+  {
+    "kellyId": 7652,
+    "decision": "fix",
+    "reason": "primary 'never changing' is weak/definition-like; sub-def lists better synonyms; collapse to single clean translation",
+    "translation": "unchanging, immutable",
+    "senses": []
+  },
+  {
+    "kellyId": 7187,
+    "decision": "fix",
+    "reason": "sub-defs were definition-like ('a fruit from the tree Olea europaea', 'a greyish green colour'); simplify",
+    "translation": "olive",
+    "senses": ["olive (fruit)", "olive (grey-green colour)"]
+  },
+  {
+    "kellyId": 8067,
+    "decision": "fix",
+    "reason": "translation 'olive' is ambiguous for a tree; 'olive tree' is clearer; sub-def was a definition",
+    "translation": "olive tree",
+    "senses": []
+  },
+  {
+    "kellyId": 7955,
+    "decision": "fix",
+    "reason": "sub-def 'loud and unpleasant sound' is a definition of the primary; single meaning, clear it",
+    "translation": "noise, racket",
+    "senses": []
+  },
+  {
+    "kellyId": 8238,
+    "decision": "fix",
+    "reason": "two genuinely distinct senses; sub-def was bare 'Olympic Games' without context",
+    "translation": "olympiad",
+    "senses": ["olympiad (four-year period between Games)", "Olympic Games"]
+  },
+  {
+    "kellyId": 7214,
+    "decision": "fix",
+    "reason": "'reorganizing, restructuring' uses verb forms for a noun; should be 'reorganization, restructuring'",
+    "translation": "reorganization, restructuring",
+    "senses": []
+  },
+  {
+    "kellyId": 7322,
+    "decision": "fix",
+    "reason": "too many synonyms strung together; core senses are extent/scope and vocal range",
+    "translation": "extent, scope",
+    "senses": ["extent, scope, range", "range (of a voice or instrument)"]
+  },
+  {
+    "kellyId": 7769,
+    "decision": "fix",
+    "reason": "'mention, a reference' has embedded article; should be bare",
+    "translation": "mention, reference",
+    "senses": []
+  },
+  {
+    "kellyId": 7215,
+    "decision": "fix",
+    "reason": "sub-def repeats the primary verbatim; single meaning, clear the list",
+    "translation": "disputed, controversial",
+    "senses": []
+  },
+  {
+    "kellyId": 7538,
+    "decision": "fix",
+    "reason": "sub-def 'immensely, extremely' is an adverbial gloss on the adj form, not a distinct noun/adj sense; single adj meaning",
+    "translation": "immoderate, excessive",
+    "senses": []
+  },
+  {
+    "kellyId": 7226,
+    "decision": "fix",
+    "reason": "sub-defs split 'storm' and 'bad weather' but they are the same thing; single meaning, clear the list",
+    "translation": "storm, bad weather",
+    "senses": []
+  },
+  {
+    "kellyId": 7835,
+    "decision": "fix",
+    "reason": "primary 'unpleasant and usually loud noise' is a definition; sub-def has the right translations",
+    "translation": "din, racket",
+    "senses": []
+  },
+  {
+    "kellyId": 8121,
+    "decision": "fix",
+    "reason": "sub-defs too long and definition-like; 'Taurus' is marginal; simplify to core senses",
+    "translation": "ox",
+    "senses": ["ox (castrated bull)", "beef (as food or in dish names)", "bull (cattle, reindeer, or moose)"]
+  },
+  {
+    "kellyId": 7596,
+    "decision": "fix",
+    "reason": "Wiktionary lists jacket/snow/snus as senses but those are slang/dialect; pie is the only standard sense",
+    "translation": "pie",
+    "senses": []
+  },
+  {
+    "kellyId": 7326,
+    "decision": "fix",
+    "reason": "sub-def repeats the primary; single meaning, clear the list",
+    "translation": "retirement",
+    "senses": []
+  },
+  {
+    "kellyId": 7129,
+    "decision": "fix",
+    "reason": "verb translation 'orient, to find one's way' has embedded 'to'; senses list had clumsy phrasing",
+    "translation": "orient, find one's way",
+    "senses": ["orient, find one's way (navigate, do orienteering)", "brief, give an overview (of a subject)"]
+  },
+  {
+    "kellyId": 8001,
+    "decision": "fix",
+    "reason": "'sequence, an ordering' has embedded article; should be bare",
+    "translation": "sequence, ordering",
+    "senses": []
+  },
+  {
+    "kellyId": 8057,
+    "decision": "fix",
+    "reason": "'personnel, staffing' reads as nouns but this is an adjective; 'personnel-related' is clumsy — 'relating to staff' is clearer",
+    "translation": "relating to staff, personnel",
+    "senses": []
+  }
+]

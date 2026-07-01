@@ -1,0 +1,426 @@
+[
+  {
+    "kellyId": 2241,
+    "decision": "fix",
+    "reason": "verb gloss has 'to' prefixes; 'ensure, make sure' is cleaner and captures the primary meaning",
+    "translation": "ensure, make sure",
+    "senses": []
+  },
+  {
+    "kellyId": 2144,
+    "decision": "fix",
+    "reason": "verb gloss has 'to' prefix on second word; fix phrasing and keep all senses",
+    "translation": "secure, guarantee",
+    "senses": [
+      "secure, guarantee",
+      "put on safety (a firearm)",
+      "install an electrical fuse"
+    ]
+  },
+  {
+    "kellyId": 1617,
+    "decision": "fix",
+    "reason": "sub-definition is just a restatement/definition of 'southern'; single-meaning adjective needs no list",
+    "senses": []
+  },
+  {
+    "kellyId": 2104,
+    "decision": "fix",
+    "reason": "'broken, apart' — 'apart' is misleading; 'out of order' captures the adverbial/particle sense better",
+    "translation": "broken, out of order",
+    "senses": []
+  },
+  {
+    "kellyId": 1764,
+    "decision": "fix",
+    "reason": "embedded article 'a thanks' in translation; write bare",
+    "translation": "thank you, thanks",
+    "senses": []
+  },
+  {
+    "kellyId": 2753,
+    "decision": "fix",
+    "reason": "sub-definition is capitalized and definition-like; rephrase as clean sense",
+    "senses": [
+      "grateful",
+      "rewarding (giving results with little effort)"
+    ]
+  },
+  {
+    "kellyId": 2172,
+    "decision": "fix",
+    "reason": "sub-definitions are definition-like ('someone who...'); rephrase as clean translations",
+    "senses": [
+      "speaker (giving a speech)",
+      "speaker (of a language)"
+    ]
+  },
+  {
+    "kellyId": 1705,
+    "decision": "fix",
+    "reason": "embedded article 'a telephone' in translation; write bare",
+    "translation": "phone, telephone",
+    "senses": [
+      "phone, telephone (device)",
+      "phone, telephone (as a medium)"
+    ]
+  },
+  {
+    "kellyId": 1680,
+    "decision": "fix",
+    "reason": "embedded article 'a topic' in translation; write bare",
+    "translation": "theme, topic",
+    "senses": []
+  },
+  {
+    "kellyId": 1981,
+    "decision": "fix",
+    "reason": "embedded article 'a trend' in translation; write bare",
+    "translation": "tendency, trend",
+    "senses": []
+  },
+  {
+    "kellyId": 2025,
+    "decision": "fix",
+    "reason": "'terrorism' is an uncountable noun in English",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1595,
+    "decision": "fix",
+    "reason": "verb gloss has 'to attempt' with 'to' prefix; 'try, test' is cleaner and more natural",
+    "translation": "try, test",
+    "senses": []
+  },
+  {
+    "kellyId": 2396,
+    "decision": "fix",
+    "reason": "'periodical' is correct but unhelpfully formal; 'magazine, journal' are more learner-friendly with periodical as clarifier",
+    "translation": "magazine, journal",
+    "senses": []
+  },
+  {
+    "kellyId": 2089,
+    "decision": "fix",
+    "reason": "sub-definition is definition-like; single-meaning adjective needs no list",
+    "senses": []
+  },
+  {
+    "kellyId": 2732,
+    "decision": "fix",
+    "reason": "verb gloss has 'to supply' with 'to' prefix; write bare",
+    "translation": "bring, supply",
+    "senses": []
+  },
+  {
+    "kellyId": 2213,
+    "decision": "fix",
+    "reason": "verb gloss has 'to supply' with 'to' prefix; write bare",
+    "translation": "provide, supply",
+    "senses": []
+  },
+  {
+    "kellyId": 2107,
+    "decision": "fix",
+    "reason": "verb gloss has 'to produce, to make' with 'to' prefixes; write bare",
+    "translation": "manufacture, produce, make",
+    "senses": []
+  },
+  {
+    "kellyId": 2674,
+    "decision": "fix",
+    "reason": "embedded articles 'an appendix, an amendment' in translation; write bare",
+    "translation": "addition, appendix, amendment",
+    "senses": [
+      "addition, appendix, amendment",
+      "add-on, supplement"
+    ]
+  },
+  {
+    "kellyId": 2433,
+    "decision": "fix",
+    "reason": "verb gloss has 'to amend' with 'to' prefix; write bare",
+    "translation": "add, amend",
+    "senses": []
+  },
+  {
+    "kellyId": 1839,
+    "decision": "fix",
+    "reason": "embedded article 'a use' in translation; write bare",
+    "translation": "application, use",
+    "senses": [
+      "application, use",
+      "implementation",
+      "application, app (computer program)"
+    ]
+  },
+  {
+    "kellyId": 2239,
+    "decision": "fix",
+    "reason": "sub-definitions are overlapping and definition-like; consolidate into clean senses",
+    "senses": [
+      "district court",
+      "city court (Stockholm, Gothenburg, Malmö)"
+    ]
+  },
+  {
+    "kellyId": 2623,
+    "decision": "fix",
+    "reason": "current gloss is definition-like; 'tip off, give a tip' is a more natural learner-facing translation",
+    "translation": "give a tip, tip off",
+    "senses": []
+  },
+  {
+    "kellyId": 2165,
+    "decision": "fix",
+    "reason": "sub-definition 'white-collar worker' overlaps heavily with the primary; wiktionary second sense (collective management/admin) is different but marginal — simplify senses",
+    "senses": [
+      "civil servant, official",
+      "white-collar worker"
+    ]
+  },
+  {
+    "kellyId": 1640,
+    "decision": "fix",
+    "reason": "wiktionary 'skijoring' sense is noise; sub-definition 'rendition' is a real sense; clean up list",
+    "senses": [
+      "interpretation (of a law, text, concept)",
+      "interpretation, rendition (of music or art)"
+    ]
+  },
+  {
+    "kellyId": 1587,
+    "decision": "fix",
+    "reason": "embedded article 'a peak' in translation; write bare; consolidate redundant senses",
+    "translation": "top, peak",
+    "senses": []
+  },
+  {
+    "kellyId": 1859,
+    "decision": "fix",
+    "reason": "current gloss 'should and also probably is' is awkward; better as a concise modal gloss",
+    "translation": "probably is, should be",
+    "senses": []
+  },
+  {
+    "kellyId": 1730,
+    "decision": "fix",
+    "reason": "'traffic' is uncountable in English",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2250,
+    "decision": "fix",
+    "reason": "'transport, something to be moved' mixes the act with the cargo; primary should be the act of transport",
+    "translation": "transport, transportation",
+    "senses": [
+      "transport, transportation (the act)",
+      "carried sum (accounting, amount carried to next page)",
+      "transfer, promotion (to a new post)"
+    ]
+  },
+  {
+    "kellyId": 2590,
+    "decision": "fix",
+    "reason": "verb gloss has 'to feel at home, to enjoy oneself' with 'to' prefixes; rephrase bare; 'feel at home' is the most everyday sense",
+    "translation": "feel at home, enjoy oneself",
+    "senses": [
+      "feel at home, enjoy oneself",
+      "thrive (of plants or animals)"
+    ]
+  },
+  {
+    "kellyId": 1588,
+    "decision": "fix",
+    "reason": "sub-definition 'which makes sense to believe' is a definition; single-meaning adverb needs no list",
+    "senses": []
+  },
+  {
+    "kellyId": 2733,
+    "decision": "fix",
+    "reason": "'credibility, trustworthiness' are uncountable nouns in English",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2368,
+    "decision": "fix",
+    "reason": "'wire' is listed as primary but 'thread' (textile) is the more everyday meaning of 'tråd'; promote thread, demote wire",
+    "translation": "thread",
+    "senses": [
+      "thread (textile, yarn)",
+      "wire (electrical)",
+      "thread, theme (narrative)",
+      "thread (online discussion)"
+    ]
+  },
+  {
+    "kellyId": 1740,
+    "decision": "fix",
+    "reason": "'boring' is the most common everyday meaning of 'tråkig'; 'unpleasant, unfortunate' is a secondary sense — promote 'boring'",
+    "translation": "boring",
+    "senses": [
+      "boring, dull",
+      "unpleasant, unfortunate"
+    ]
+  },
+  {
+    "kellyId": 1770,
+    "decision": "fix",
+    "reason": "'walk' is incomplete — 'träda' is most commonly encountered in set phrases (träda i kraft = come into effect); rephrase",
+    "translation": "step, enter",
+    "senses": [
+      "step, walk (in a dignified manner)",
+      "come into effect, enter into (set phrases)",
+      "thread (beads on a string)",
+      "fallow (leave farmland unplanted)"
+    ]
+  },
+  {
+    "kellyId": 1481,
+    "decision": "fix",
+    "reason": "verb gloss has 'to practice' with 'to' prefix; write bare",
+    "translation": "exercise, practice",
+    "senses": []
+  },
+  {
+    "kellyId": 2542,
+    "decision": "fix",
+    "reason": "verb gloss has 'to push, to cram' with 'to' prefixes; write bare",
+    "translation": "press, push, cram",
+    "senses": []
+  },
+  {
+    "kellyId": 1649,
+    "decision": "fix",
+    "reason": "'training, exercise' — 'training' is uncountable in English as the primary sense",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2754,
+    "decision": "fix",
+    "reason": "verb gloss has 'to contend, to race' with 'to' prefixes; write bare",
+    "translation": "compete, contend",
+    "senses": []
+  },
+  {
+    "kellyId": 1468,
+    "decision": "fix",
+    "reason": "embedded article 'a contest' in translation; write bare",
+    "translation": "competition, contest",
+    "senses": []
+  },
+  {
+    "kellyId": 2772,
+    "decision": "fix",
+    "reason": "sub-definitions are redundant and definition-like; single core meaning, clear list",
+    "senses": []
+  },
+  {
+    "kellyId": 2322,
+    "decision": "fix",
+    "reason": "'base, foundation, surface' mixes physical and figurative meanings; add the 'basis for a decision' sense clearly in list",
+    "translation": "surface, base, foundation",
+    "senses": [
+      "surface, base, foundation (physical layer)",
+      "basis, supporting data (for a decision)"
+    ]
+  },
+  {
+    "kellyId": 2567,
+    "decision": "fix",
+    "reason": "the two senses should be listed as distinct items — physical underline vs. figurative emphasis",
+    "senses": [
+      "underline, underscore (literal)",
+      "emphasize, stress (figurative)"
+    ]
+  },
+  {
+    "kellyId": 1592,
+    "decision": "fix",
+    "reason": "verb gloss has 'to examine, to explore' with 'to' prefixes; write bare; 'examine' is most everyday (e.g. doctor examining patient)",
+    "translation": "examine, investigate",
+    "senses": []
+  },
+  {
+    "kellyId": 1921,
+    "decision": "fix",
+    "reason": "'teaching, instruction, lessons' is the more concrete everyday meaning; 'education, training, schooling' is broader/secondary",
+    "translation": "teaching, instruction",
+    "senses": [
+      "teaching, instruction, lessons",
+      "education, schooling (broader)"
+    ]
+  },
+  {
+    "kellyId": 1961,
+    "decision": "fix",
+    "reason": "wiktionary has 'undesirable behavior' sense ('vad är det för tyg!') — add to senses; current list is missing it",
+    "senses": [
+      "cloth, textile, fabric",
+      "gear, equipment (military)",
+      "bad behavior (idiomatic)"
+    ]
+  },
+  {
+    "kellyId": 2354,
+    "decision": "fix",
+    "reason": "sub-definition 'quiet (not talking much)' is definition-like; rephrase as clean sense",
+    "senses": [
+      "quiet, silent (no sound)",
+      "quiet, reserved (not talking much)"
+    ]
+  },
+  {
+    "kellyId": 2655,
+    "decision": "fix",
+    "reason": "sub-definition 'causing little or no sound' is definition-like; single-meaning adverb needs no list",
+    "senses": []
+  },
+  {
+    "kellyId": 2688,
+    "decision": "fix",
+    "reason": "'silence' is uncountable in English as primary; also has second sense (a pause)",
+    "uncountable": true,
+    "senses": [
+      "silence",
+      "pause, moment of silence"
+    ]
+  },
+  {
+    "kellyId": 1449,
+    "decision": "fix",
+    "reason": "current list includes too many archaic/marginal senses; trim to the meaningful everyday ones",
+    "senses": [
+      "train (railway)",
+      "procession, march",
+      "rope, line (thick)"
+    ]
+  },
+  {
+    "kellyId": 1717,
+    "decision": "fix",
+    "reason": "'thinking' is uncountable in English",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1653,
+    "decision": "fix",
+    "reason": "sub-definition 'up, awake' should be listed as a distinct sense — the 'awake' meaning is genuinely different",
+    "senses": [
+      "up (elevated position)",
+      "up, awake"
+    ]
+  },
+  {
+    "kellyId": 1955,
+    "decision": "fix",
+    "reason": "'security, safety' are uncountable in English as used here",
+    "uncountable": true,
+    "senses": []
+  }
+]

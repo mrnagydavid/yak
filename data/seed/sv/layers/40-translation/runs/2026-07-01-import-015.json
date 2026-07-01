@@ -1,0 +1,206 @@
+[
+  {
+    "kellyId": 2543,
+    "decision": "fix",
+    "reason": "'permanent' and 'prevailing' are not synonyms — they are distinct senses. Fix list to reflect this clearly.",
+    "translation": "permanent, lasting",
+    "senses": ["permanent, lasting", "prevailing, dominant (current)"]
+  },
+  {
+    "kellyId": 1878,
+    "decision": "fix",
+    "reason": "currentSubDefinitions are definition-like fragments. Replace with concise sense list.",
+    "senses": ["definite, fixed", "firm, determined (in character)", "set, decided"]
+  },
+  {
+    "kellyId": 2189,
+    "decision": "fix",
+    "reason": "'customs agent, customs inspector' is a Wiktionary error — besökare means visitor only; the customs sense belongs to another word entirely.",
+    "senses": []
+  },
+  {
+    "kellyId": 1814,
+    "decision": "fix",
+    "reason": "currentSubDefinitions item is definition-like. Clean the sense list.",
+    "senses": ["grade (school)", "diploma, certificate"]
+  },
+  {
+    "kellyId": 1895,
+    "decision": "fix",
+    "reason": "currentSubDefinitions 'to keep' and 'to protect' are listed as separate senses but should be a clean concise list.",
+    "senses": ["preserve, keep", "protect, conserve"]
+  },
+  {
+    "kellyId": 2333,
+    "decision": "fix",
+    "reason": "'grant' is the more precise and common translation of bevilja (grant a loan, grant permission); 'allow' is secondary.",
+    "translation": "grant",
+    "senses": ["grant (a request, loan, permission)", "allow, approve"]
+  },
+  {
+    "kellyId": 1963,
+    "decision": "fix",
+    "reason": "Secondary sense 'of or pertaining to conservatives/liberals in European politics' is marginal and political-jargon. Drop it — single everyday meaning.",
+    "senses": []
+  },
+  {
+    "kellyId": 2434,
+    "decision": "fix",
+    "reason": "Missing common sense 'cheat, swindle' (bli blåst = get duped), which appears in the examples. Also clean up the list.",
+    "senses": ["blow", "play (a wind instrument)", "cheat, swindle, dupe"]
+  },
+  {
+    "kellyId": 2129,
+    "decision": "fix",
+    "reason": "Primary 'residence, life, dwelling' is clunky — three non-synonymous words. Core everyday sense is housing/accommodation.",
+    "translation": "housing, accommodation",
+    "senses": ["housing, accommodation", "care home, shelter (institutional)", "resident"]
+  },
+  {
+    "kellyId": 2625,
+    "decision": "fix",
+    "reason": "Current translation 'book, to reserve' embeds 'to' which the app adds automatically.",
+    "translation": "book, reserve",
+    "senses": []
+  },
+  {
+    "kellyId": 1524,
+    "decision": "fix",
+    "reason": "'home, residence, dwelling' is three near-synonyms for one concept. Trim to two clear options.",
+    "translation": "home, residence",
+    "senses": []
+  },
+  {
+    "kellyId": 2454,
+    "decision": "fix",
+    "reason": "currentSubDefinitions 'to restore to good health' and 'to relieve from a disease' are definition fragments, not distinct senses. Single meaning.",
+    "senses": []
+  },
+  {
+    "kellyId": 2698,
+    "decision": "fix",
+    "reason": "'something very bad' is a very marginal slang sense. Drop it — single everyday meaning.",
+    "senses": []
+  },
+  {
+    "kellyId": 2633,
+    "decision": "fix",
+    "reason": "currentSubDefinitions are definition fragments. Replace with clean concise sense list.",
+    "senses": ["bring (formal, literary)", "get, cause (someone to do something)"]
+  },
+  {
+    "kellyId": 2550,
+    "decision": "fix",
+    "reason": "'burn, to be on fire' embeds 'to' which the app adds automatically.",
+    "translation": "burn, be on fire",
+    "senses": []
+  },
+  {
+    "kellyId": 1456,
+    "decision": "fix",
+    "reason": "Primary 'brother, a contracted form of broder' includes dictionary metadata. Just 'brother'. Clean sense list.",
+    "translation": "brother",
+    "senses": ["brother", "bro (informal address)"]
+  },
+  {
+    "kellyId": 2341,
+    "decision": "fix",
+    "reason": "currentSubDefinitions include 'to overheat food; to heat the food until it is blackened' — a definition fragment. Clean sense list.",
+    "senses": ["burn (something)", "fire, bake (pottery, ceramics)", "scorch, char (food)"]
+  },
+  {
+    "kellyId": 1632,
+    "decision": "fix",
+    "reason": "Primary 'bus, a vehicle to transport people' is definition-like. Senses list duplicates the primary and includes very marginal senses.",
+    "translation": "bus",
+    "senses": []
+  },
+  {
+    "kellyId": 2641,
+    "decision": "fix",
+    "reason": "'change' is misleading — byte means swap/exchange (not change in the sense of förändring). Core sense is replacing one thing with another.",
+    "translation": "swap, exchange",
+    "senses": ["swap, exchange", "prey", "catch, loot, plunder"]
+  },
+  {
+    "kellyId": 2544,
+    "decision": "fix",
+    "reason": "'wife' is a very colloquial/marginal secondary sense of blomma. Drop it — single everyday meaning.",
+    "senses": []
+  },
+  {
+    "kellyId": 2474,
+    "decision": "fix",
+    "reason": "Primary 'bicycle, a bike' embeds article 'a'. Write bare.",
+    "translation": "bicycle, bike",
+    "senses": ["bicycle, bike", "cycle, period"]
+  },
+  {
+    "kellyId": 2736,
+    "decision": "fix",
+    "reason": "Sub-senses 'a dance (type)' and 'a dance (social gathering)' are minor sub-distinctions of the same word — not meaningfully distinct from the primary. Single meaning.",
+    "senses": []
+  },
+  {
+    "kellyId": 1484,
+    "decision": "fix",
+    "reason": "currentSubDefinitions 'of or pertaining to Denmark' is a definition of 'Danish', not a separate sense. Single meaning.",
+    "senses": []
+  },
+  {
+    "kellyId": 2461,
+    "decision": "fix",
+    "reason": "currentSubDefinitions '(day, month and year)' is an explanatory parenthetical, not a distinct sense. Single meaning.",
+    "senses": []
+  },
+  {
+    "kellyId": 1893,
+    "decision": "fix",
+    "reason": "currentSubDefinitions 'with certainty' and 'for sure' are synonymous paraphrases of 'definitely', not distinct senses. Single meaning.",
+    "senses": []
+  },
+  {
+    "kellyId": 1656,
+    "decision": "fix",
+    "reason": "Primary 'split, a division, a separation' embeds article 'a'. Write bare. Clean sense list.",
+    "translation": "split, division, separation",
+    "senses": ["split, division, separation", "share (social media)", "circulation (for comments)"]
+  },
+  {
+    "kellyId": 2782,
+    "decision": "fix",
+    "reason": "currentSubDefinitions 'see also detsamma, desamma' is a cross-reference, not a sense. Single meaning.",
+    "senses": []
+  },
+  {
+    "kellyId": 1815,
+    "decision": "fix",
+    "reason": "currentSubDefinitions 'see also densamma, desamma' is a cross-reference, not a sense. Single meaning.",
+    "senses": []
+  },
+  {
+    "kellyId": 1810,
+    "decision": "fix",
+    "reason": "currentSubDefinitions 'in (or using) digital form' is a definition of 'digital', not a separate sense. Single meaning.",
+    "senses": []
+  },
+  {
+    "kellyId": 1666,
+    "decision": "fix",
+    "reason": "'profoundly' is a near-synonym of 'deeply', not a distinct sense. Merge. 'fast (of sleeping)' is a distinct secondary sense.",
+    "senses": ["deeply, profoundly", "fast, soundly (asleep)"]
+  },
+  {
+    "kellyId": 2091,
+    "decision": "fix",
+    "reason": "currentSubDefinitions has 'physician' as a separate item which is a synonym of 'doctor', not a distinct sense. Clean list.",
+    "senses": ["doctor, physician", "doctor, PhD (academic title)"]
+  },
+  {
+    "kellyId": 2494,
+    "decision": "fix",
+    "reason": "Primary 'drug, a narcotic' embeds article 'a'. Write bare. Single meaning.",
+    "translation": "drug, narcotic",
+    "senses": []
+  }
+]

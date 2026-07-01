@@ -1,0 +1,348 @@
+[
+  {
+    "kellyId": 6517,
+    "decision": "fix",
+    "reason": "senses list has definition-style first item; clean to two plain senses distinguishing abstract quality from concrete act.",
+    "translation": "cruelty",
+    "uncountable": true,
+    "senses": ["cruelty (quality of being cruel)", "atrocity (a cruel act)"]
+  },
+  {
+    "kellyId": 6648,
+    "decision": "fix",
+    "reason": "senses list is definition-like; clean to two short items.",
+    "translation": "dawn",
+    "senses": ["dawn (morning twilight)", "dawn (beginning, start)"]
+  },
+  {
+    "kellyId": 6460,
+    "decision": "fix",
+    "reason": "senses list has definition-like parenthetical with embedded article; clean to two plain senses.",
+    "translation": "pot",
+    "senses": ["pot (cooking vessel)", "stew (dish)"]
+  },
+  {
+    "kellyId": 6523,
+    "decision": "fix",
+    "reason": "gråt is uncountable (the act of crying, not a countable thing); mark uncountable, single meaning.",
+    "translation": "crying, weeping",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6548,
+    "decision": "fix",
+    "reason": "cream is uncountable.",
+    "translation": "cream",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6914,
+    "decision": "fix",
+    "reason": "'argument' and 'row' are synonyms for the same meaning (a quarrel); senses list with just 'row' is redundant. Merge into one translation, clear senses.",
+    "translation": "argument, row",
+    "senses": []
+  },
+  {
+    "kellyId": 6526,
+    "decision": "fix",
+    "reason": "translation has embedded article ('a narrow street'). Strip it.",
+    "translation": "alley, narrow street",
+    "senses": []
+  },
+  {
+    "kellyId": 6857,
+    "decision": "fix",
+    "reason": "'borderless' is a marginal literal sense; the sub-definition is definition-like. Keep two main senses, rephrased concisely.",
+    "translation": "limitless, boundless",
+    "senses": ["limitless, boundless", "unrestrained, over the top (socially)"]
+  },
+  {
+    "kellyId": 6168,
+    "decision": "fix",
+    "reason": "senses list should be present since there are two distinct meanings; list is correct in content.",
+    "translation": "lawn",
+    "senses": ["lawn", "sod, turf"]
+  },
+  {
+    "kellyId": 6771,
+    "decision": "fix",
+    "reason": "porridge is uncountable.",
+    "translation": "porridge",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6649,
+    "decision": "fix",
+    "reason": "senses list has definition-like embedded articles; clean to two short senses.",
+    "translation": "deity",
+    "senses": ["deity (a god)", "divinity (divine nature or being)"]
+  },
+  {
+    "kellyId": 6463,
+    "decision": "fix",
+    "reason": "translation has embedded article ('an old lady'). Strip it. Senses list has definition-like and overly specific items; trim to the two most useful senses.",
+    "translation": "old woman, old lady",
+    "senses": ["old woman, old lady", "wife, missus (informal/affectionate)"]
+  },
+  {
+    "kellyId": 6358,
+    "decision": "fix",
+    "reason": "senses list is good but 'hello (used sarcastically)' is marginal; the three main senses cover everyday usage well.",
+    "translation": "hello",
+    "senses": ["hello (greeting)", "hey (to get attention)", "hello? (checking if someone is there)"]
+  },
+  {
+    "kellyId": 6879,
+    "decision": "fix",
+    "reason": "halvtid has two genuinely distinct meanings: halftime (in sport) and part-time (work). Use semicolon format for co-equal senses.",
+    "translation": "halftime; part-time",
+    "senses": ["halftime (in a game)", "part-time (work schedule)"]
+  },
+  {
+    "kellyId": 5990,
+    "decision": "fix",
+    "reason": "translation has embedded articles ('an instructor, a mentor'). Strip them.",
+    "translation": "guide, instructor, mentor",
+    "senses": []
+  },
+  {
+    "kellyId": 6600,
+    "decision": "fix",
+    "reason": "handledning is uncountable in its primary sense (guidance/instruction); 'mentoring' is covered by the other two terms already.",
+    "translation": "guidance, instruction",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6927,
+    "decision": "fix",
+    "reason": "translation is definition-like ('glove, traditionally made of leather'). The material note is unnecessary. Just 'glove'.",
+    "translation": "glove",
+    "senses": []
+  },
+  {
+    "kellyId": 6646,
+    "decision": "fix",
+    "reason": "senses list has embedded articles and definition-like items; clean up. Drop 'cock (on a gun)' as marginal — the primary three senses are what matter.",
+    "translation": "male",
+    "senses": ["male (animal)", "plug, male connector (electrical)", "rooster, cock (male chicken)"]
+  },
+  {
+    "kellyId": 5748,
+    "decision": "fix",
+    "reason": "senses list has definition-like items; simplify.",
+    "translation": "handicraft, craft",
+    "senses": ["handicraft, craft (physical)", "craft (non-physical, e.g. writing)", "craftsmanship"]
+  },
+  {
+    "kellyId": 5711,
+    "decision": "fix",
+    "reason": "'artisan' alone is slightly narrow for everyday use; 'craftsman' is clearer. The second sense 'manual laborer' is distinct.",
+    "translation": "craftsman, artisan",
+    "senses": ["craftsman, artisan", "manual laborer, tradesperson"]
+  },
+  {
+    "kellyId": 6060,
+    "decision": "fix",
+    "reason": "translation has embedded article ('a blow'). Strip it.",
+    "translation": "stab, blow",
+    "senses": ["stab, blow (with something sharp)", "bite (from fish or snake)", "sting (sudden sharp pain)"]
+  },
+  {
+    "kellyId": 5630,
+    "decision": "fix",
+    "reason": "hunger is uncountable.",
+    "translation": "hunger",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6900,
+    "decision": "fix",
+    "reason": "'to hooray' is not natural English. Fix to 'cheer'.",
+    "translation": "cheer",
+    "senses": []
+  },
+  {
+    "kellyId": 6390,
+    "decision": "fix",
+    "reason": "senses list has embedded article; clean it.",
+    "translation": "pet",
+    "senses": ["pet (companion animal)", "domestic animal (livestock, farm animal)"]
+  },
+  {
+    "kellyId": 6609,
+    "decision": "fix",
+    "reason": "translation has embedded articles ('a camper, a trailer'). Strip them.",
+    "translation": "caravan, camper, trailer",
+    "senses": []
+  },
+  {
+    "kellyId": 5754,
+    "decision": "fix",
+    "reason": "translation has embedded articles ('a leading role, a starring role'). Strip them.",
+    "translation": "lead role, leading role",
+    "senses": ["lead role, starring role (in film or play)", "key role, leading role (figurative)"]
+  },
+  {
+    "kellyId": 5958,
+    "decision": "fix",
+    "reason": "hyllning is essentially one meaning (public praise/tribute); confirm senses:[].",
+    "translation": "tribute, homage",
+    "senses": []
+  },
+  {
+    "kellyId": 7016,
+    "decision": "fix",
+    "reason": "translation has embedded article ('a lessor'). Strip it.",
+    "translation": "landlord, lessor",
+    "senses": []
+  },
+  {
+    "kellyId": 6241,
+    "decision": "fix",
+    "reason": "two genuinely distinct senses; senses list should be explicit.",
+    "translation": "sustainability",
+    "senses": ["sustainability", "shelf life"]
+  },
+  {
+    "kellyId": 5972,
+    "decision": "fix",
+    "reason": "'upper part of transom' and 'bum, buttock' are marginal senses; drop them. Keep hedge and hurdle/hurdling as the main senses.",
+    "translation": "hedge",
+    "senses": ["hedge (plants)", "hurdle (athletics)", "hurdling (the sport)"]
+  },
+  {
+    "kellyId": 5772,
+    "decision": "fix",
+    "reason": "'inhibit' is correct but adding 'hold back' makes it more accessible to learners.",
+    "translation": "inhibit, hold back",
+    "senses": []
+  },
+  {
+    "kellyId": 5653,
+    "decision": "fix",
+    "reason": "translation has 'to derive' — app adds 'to' for verbs, so this would render 'to to derive'. Strip 'to'.",
+    "translation": "deduce, derive",
+    "senses": []
+  },
+  {
+    "kellyId": 5968,
+    "decision": "fix",
+    "reason": "translation is definition-like ('come from some source'). Better: 'originate, stem from'.",
+    "translation": "originate, stem from",
+    "senses": []
+  },
+  {
+    "kellyId": 5755,
+    "decision": "fix",
+    "reason": "translation has embedded article ('a heap'). Strip it.",
+    "translation": "pile, heap",
+    "senses": []
+  },
+  {
+    "kellyId": 6765,
+    "decision": "fix",
+    "reason": "senses list has a definition-like item ('in particular a female chicken'). Single meaning — clear senses:[].",
+    "translation": "hen",
+    "senses": []
+  },
+  {
+    "kellyId": 6829,
+    "decision": "fix",
+    "reason": "'feeling sick' in the translation is definition-like padding. Nausea alone is the right translation; it is uncountable.",
+    "translation": "nausea",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6423,
+    "decision": "fix",
+    "reason": "'autochthonous' is obscure jargon; 'native' alone suffices for learners.",
+    "translation": "native",
+    "senses": []
+  },
+  {
+    "kellyId": 5642,
+    "decision": "fix",
+    "reason": "translation is definition-like ('take over and incorporate'). Better: 'incorporate, absorb'.",
+    "translation": "incorporate, absorb",
+    "senses": []
+  },
+  {
+    "kellyId": 6754,
+    "decision": "fix",
+    "reason": "learning is uncountable.",
+    "translation": "learning",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5884,
+    "decision": "fix",
+    "reason": "'Insecta' as a sub-definition is a taxonomic label, not a translation. Drop it. Single meaning.",
+    "translation": "insect",
+    "senses": []
+  },
+  {
+    "kellyId": 6035,
+    "decision": "fix",
+    "reason": "current sub-definitions are inconsistent; clean up to three clear senses.",
+    "translation": "impulse",
+    "senses": ["impulse (sudden urge)", "impetus, stimulus (driving force)", "electrical impulse"]
+  },
+  {
+    "kellyId": 5883,
+    "decision": "fix",
+    "reason": "ikon: modern everyday sense (symbol/idol or screen icon) should lead over the religious painting sense. Reorder and clean.",
+    "translation": "icon",
+    "senses": ["icon (symbol, idol)", "icon (small picture, e.g. on screen)", "icon (religious painting)"]
+  },
+  {
+    "kellyId": 6625,
+    "decision": "fix",
+    "reason": "translation is overlong ('dominion, superiority, control, influence'); trim to the core two senses.",
+    "translation": "dominion, rule",
+    "senses": ["dominion, rule (power over others)", "control (of something or oneself)"]
+  },
+  {
+    "kellyId": 6321,
+    "decision": "fix",
+    "reason": "heat is uncountable.",
+    "translation": "heat",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6345,
+    "decision": "fix",
+    "reason": "senses list has a redundant duplicate entry; single meaning, clear senses:[].",
+    "translation": "helmet",
+    "senses": []
+  },
+  {
+    "kellyId": 5778,
+    "decision": "fix",
+    "reason": "the two sub-definitions are not meaningfully distinct (amount in hand = a small quantity); single meaning.",
+    "translation": "handful",
+    "senses": []
+  },
+  {
+    "kellyId": 6228,
+    "decision": "fix",
+    "reason": "'heap, collection' and 'a whole bunch' are the same meaning; single sense.",
+    "translation": "heap, bunch",
+    "senses": []
+  },
+  {
+    "kellyId": 6593,
+    "decision": "fix",
+    "reason": "health care is uncountable.",
+    "translation": "health care",
+    "uncountable": true,
+    "senses": []
+  }
+]

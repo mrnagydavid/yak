@@ -1,0 +1,331 @@
+[
+  {
+    "kellyId": 6841,
+    "decision": "fix",
+    "reason": "primary 'male teacher' is incomplete — 'magister' also means holder of a master's degree; senses list was missing the teacher sense and only had the degree sense",
+    "translation": "male teacher",
+    "senses": [
+      "male teacher (form of address)",
+      "magister (holder of a master's degree)"
+    ]
+  },
+  {
+    "kellyId": 6164,
+    "decision": "fix",
+    "reason": "senses list had one marginal British-military-specific item; 'major' is a single primary meaning for everyday use, list should be empty",
+    "translation": "major",
+    "senses": []
+  },
+  {
+    "kellyId": 6797,
+    "decision": "fix",
+    "reason": "'maka' specifically means 'wife' (female spouse), not gender-neutral 'spouse'; the current translation is misleadingly broad",
+    "translation": "wife",
+    "senses": []
+  },
+  {
+    "kellyId": 6894,
+    "decision": "fix",
+    "reason": "senses list items are definition-like; cleaned to concise translations",
+    "translation": "grind",
+    "senses": [
+      "grind (crush into particles)",
+      "go on and on, drone on"
+    ]
+  },
+  {
+    "kellyId": 6755,
+    "decision": "fix",
+    "reason": "primary 'manuscript, something written by hand' contains a definition phrase; trim to 'manuscript'",
+    "translation": "manuscript",
+    "senses": [
+      "manuscript",
+      "screenplay"
+    ]
+  },
+  {
+    "kellyId": 7010,
+    "decision": "fix",
+    "reason": "senses list had one item identical to the primary (just with article); single-meaning word should have empty list",
+    "senses": []
+  },
+  {
+    "kellyId": 6846,
+    "decision": "fix",
+    "reason": "'machinery' is uncountable; senses list was missing the primary sense and only had sub-senses",
+    "translation": "machinery",
+    "uncountable": true,
+    "senses": [
+      "machinery (machines collectively)",
+      "machinery (working parts of a machine)",
+      "machinery (workings of a system)"
+    ]
+  },
+  {
+    "kellyId": 6644,
+    "decision": "fix",
+    "reason": "'massage' is uncountable",
+    "translation": "massage",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6093,
+    "decision": "fix",
+    "reason": "'cooking' is uncountable",
+    "translation": "cooking",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6688,
+    "decision": "fix",
+    "reason": "senses list item is definition-like; cleaned up",
+    "translation": "dining room",
+    "senses": [
+      "dining room",
+      "canteen, cafeteria (school or workplace)"
+    ]
+  },
+  {
+    "kellyId": 6933,
+    "decision": "fix",
+    "reason": "senses list third item is definition-like; cleaned up",
+    "translation": "weak, listless",
+    "senses": [
+      "weak, listless",
+      "matte (non-shiny)",
+      "checkmate (in göra någon matt)"
+    ]
+  },
+  {
+    "kellyId": 5743,
+    "decision": "fix",
+    "reason": "primary 'concession, a confession' has embedded article; also 'concession' and 'confession' are quite different — 'concession' (admitting something) is the closer primary meaning of 'medgivande'",
+    "translation": "concession, admission",
+    "senses": [
+      "concession, admission",
+      "permission, consent"
+    ]
+  },
+  {
+    "kellyId": 5993,
+    "decision": "fix",
+    "reason": "'media' is uncountable in this usage",
+    "translation": "media",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5781,
+    "decision": "fix",
+    "reason": "'meditation' is uncountable",
+    "translation": "meditation",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6952,
+    "decision": "fix",
+    "reason": "'compassion' is uncountable",
+    "translation": "compassion",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6125,
+    "decision": "fix",
+    "reason": "senses list items are definition-like; cleaned to concise translations",
+    "translation": "migration",
+    "uncountable": true,
+    "senses": [
+      "migration (of people)",
+      "migration (of animals, seasonal)",
+      "migration (IT, platform change)"
+    ]
+  },
+  {
+    "kellyId": 5839,
+    "decision": "fix",
+    "reason": "senses list item 'pertaining to money' is just a definition of 'monetary'; single-meaning adjective should have empty list",
+    "translation": "monetary",
+    "senses": []
+  },
+  {
+    "kellyId": 6051,
+    "decision": "fix",
+    "reason": "senses list items are definition-like or padded; cleaned to concise translations",
+    "translation": "monk",
+    "senses": [
+      "monk",
+      "doughnut (deep-fried)",
+      "chocolate teacake (marshmallow treat)"
+    ]
+  },
+  {
+    "kellyId": 5674,
+    "decision": "fix",
+    "reason": "senses list items had definition-like phrasing; cleaned up",
+    "translation": "mouse",
+    "senses": [
+      "mouse (animal)",
+      "mouse (computer)"
+    ]
+  },
+  {
+    "kellyId": 6888,
+    "decision": "fix",
+    "reason": "primary 'having reached the age of majority' is a definition; fix to concise 'of legal age'; two 'authoritative' sub-senses are the same core meaning, merged",
+    "translation": "of legal age",
+    "senses": [
+      "of legal age, adult (legally)",
+      "authoritative, commanding"
+    ]
+  },
+  {
+    "kellyId": 5908,
+    "decision": "fix",
+    "reason": "primary 'broker, a mediator' has embedded article; senses list item also has embedded article",
+    "translation": "broker, mediator",
+    "senses": [
+      "broker, mediator",
+      "real estate agent, realtor"
+    ]
+  },
+  {
+    "kellyId": 5624,
+    "decision": "fix",
+    "reason": "senses list has three definition-like items for what is a single-meaning compound; cleared",
+    "translation": "view of humanity, view of human nature",
+    "senses": []
+  },
+  {
+    "kellyId": 6273,
+    "decision": "fix",
+    "reason": "primary 'mastership, mastery, superior skill' is long and 'mastership' is rarely used; 'mastery' is the cleaner primary; 'championship' stays as second sense",
+    "translation": "mastery",
+    "senses": [
+      "mastery, superior skill",
+      "championship"
+    ]
+  },
+  {
+    "kellyId": 5924,
+    "decision": "fix",
+    "reason": "primary 'that stays within fairly narrow bounds' is a definition; fix to concise 'moderate, modest'",
+    "translation": "moderate, modest",
+    "senses": []
+  },
+  {
+    "kellyId": 5938,
+    "decision": "fix",
+    "reason": "senses list first item was definition-like; cleaned up; 'nuance' is a genuinely distinct second meaning",
+    "translation": "shade",
+    "senses": [
+      "shade, hue (of colour)",
+      "nuance"
+    ]
+  },
+  {
+    "kellyId": 5935,
+    "decision": "fix",
+    "reason": "primary 'beginner, a newcomer, a newbie, a novice' has embedded articles and is padded; trimmed",
+    "translation": "beginner, newcomer, novice",
+    "senses": []
+  },
+  {
+    "kellyId": 6724,
+    "decision": "fix",
+    "reason": "primary 'newcomer, a new arrival' has embedded article",
+    "translation": "newcomer, new arrival",
+    "senses": []
+  },
+  {
+    "kellyId": 6518,
+    "decision": "fix",
+    "reason": "senses list items had clumsy phrasing; cleaned up",
+    "translation": "sober",
+    "senses": [
+      "sober (not drunk)",
+      "sober, abstaining (teetotal)",
+      "sober, level-headed (realistic, down-to-earth)"
+    ]
+  },
+  {
+    "kellyId": 6804,
+    "decision": "fix",
+    "reason": "primary 'needle, a pin' has embedded article; senses cleaned up",
+    "translation": "needle, pin",
+    "senses": [
+      "needle, pin (sewing, attaching)",
+      "needle (on a syringe)",
+      "needle, pointer (on a dial)"
+    ]
+  },
+  {
+    "kellyId": 5994,
+    "decision": "fix",
+    "reason": "'anywhen' is archaic/very rare and unhelpful on a flashcard; removed",
+    "translation": "anytime, at any moment, whenever",
+    "senses": []
+  },
+  {
+    "kellyId": 6531,
+    "decision": "fix",
+    "reason": "senses list fourth item is definition-like; cleaned up",
+    "translation": "zero",
+    "senses": [
+      "zero, the digit 0",
+      "loser, nobody",
+      "freshman (new student at orientation)"
+    ]
+  },
+  {
+    "kellyId": 6803,
+    "decision": "fix",
+    "reason": "senses list was missing despite two distinct meanings; added",
+    "translation": "note, notation",
+    "senses": [
+      "note, notation",
+      "listing, quotation (stock exchange)"
+    ]
+  },
+  {
+    "kellyId": 5767,
+    "decision": "fix",
+    "reason": "senses list items are definition-like; cleaned up",
+    "translation": "be present",
+    "senses": [
+      "be present (at a place)",
+      "be present, be mindful (mentally attentive)"
+    ]
+  },
+  {
+    "kellyId": 6068,
+    "decision": "fix",
+    "reason": "senses list first item had definition-like phrasing; 'näve' refers to the hand/fist more broadly; cleaned up",
+    "translation": "fist",
+    "senses": [
+      "fist, hand",
+      "handful, fistful"
+    ]
+  },
+  {
+    "kellyId": 6377,
+    "decision": "fix",
+    "reason": "'discomfort' is uncountable; trimmed the three-synonym primary to two cleaner terms",
+    "translation": "discomfort, unease",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6066,
+    "decision": "fix",
+    "reason": "senses list was missing the main sense (large body of water) and only had sub-senses; fixed",
+    "translation": "ocean",
+    "senses": [
+      "ocean (large body of water)",
+      "ocean (immense expanse, figurative)"
+    ]
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "kellyId": 6301,
+    "decision": "fix",
+    "reason": "primary 'guard, member of security' is clumsy; 'security guard' is the natural everyday term. List sense 'guardian, keeper' is a distinct meaning worth keeping.",
+    "translation": "security guard",
+    "senses": ["security guard, guard", "guardian, keeper"]
+  },
+  {
+    "kellyId": 5669,
+    "decision": "fix",
+    "reason": "sub-def has embedded article 'a mistress'; bare it. Primary 'female friend' is correct.",
+    "translation": "female friend",
+    "senses": ["female friend", "mistress (of a man)"]
+  },
+  {
+    "kellyId": 6678,
+    "decision": "fix",
+    "reason": "'reckoning by years' is a wrong/archaic primary; 'årtal' in everyday Swedish means a specific calendar year (e.g. 'vilket årtal?' = 'what year?'). The Wiktionary dump is unreliable here.",
+    "translation": "year",
+    "senses": []
+  },
+  {
+    "kellyId": 5866,
+    "decision": "fix",
+    "reason": "list sense 'flush, rich, affluent' is redundant synonyms of the primary 'well-off'; the senses are not meaningfully distinct — collapse into one.",
+    "translation": "well-off, prosperous",
+    "senses": []
+  },
+  {
+    "kellyId": 6461,
+    "decision": "fix",
+    "reason": "'regain' is a secondary/marginal sense; the dominant everyday meaning of 'återvinna' is 'recycle'. Promote recycle; keep regain in list.",
+    "translation": "recycle",
+    "senses": ["recycle (reprocess materials)", "regain, recover (health, strength)"]
+  },
+  {
+    "kellyId": 5651,
+    "decision": "fix",
+    "reason": "primary 'be greater in some respect' is a vague definition-like gloss; 'surpass, exceed' is the natural flashcard translation.",
+    "translation": "surpass, exceed",
+    "senses": []
+  },
+  {
+    "kellyId": 7461,
+    "decision": "fix",
+    "reason": "primary is a sentence-style definition with capital letter; should be a bare adjective gloss.",
+    "translation": "noble, of noble birth",
+    "senses": []
+  },
+  {
+    "kellyId": 7771,
+    "decision": "fix",
+    "reason": "primary is a long descriptive definition; 'avenue' or 'tree-lined avenue' is the natural translation.",
+    "translation": "avenue, tree-lined road",
+    "senses": []
+  },
+  {
+    "kellyId": 7099,
+    "decision": "fix",
+    "reason": "'add, to sum' has a stray 'to' before 'sum' (app adds 'to' for verbs). Fix to 'add, sum up'.",
+    "translation": "add, sum up",
+    "senses": []
+  },
+  {
+    "kellyId": 7308,
+    "decision": "fix",
+    "reason": "primary 'hint, suggestion, hint' repeats 'hint' twice. Remove duplicate.",
+    "translation": "hint, suggestion",
+    "senses": []
+  },
+  {
+    "kellyId": 8175,
+    "decision": "fix",
+    "reason": "'find, to encounter' has a stray 'to' before 'encounter'. Fix phrasing.",
+    "translation": "find, encounter",
+    "senses": []
+  },
+  {
+    "kellyId": 7381,
+    "decision": "fix",
+    "reason": "'cancel, to revoke' has a stray 'to' before 'revoke'. Fix phrasing.",
+    "translation": "cancel, revoke",
+    "senses": []
+  },
+  {
+    "kellyId": 6292,
+    "decision": "fix",
+    "reason": "'superordinate' is linguistic jargon; 'superior, higher-ranking' is what a learner needs. 'Superior' as noun sense (e.g. 'lyda sina överordnade') is captured by the primary.",
+    "translation": "superior, higher-ranking",
+    "senses": []
+  },
+  {
+    "kellyId": 7603,
+    "decision": "fix",
+    "reason": "primary 'accent, an emphasis, a stress' has embedded articles before 'emphasis' and 'stress'. Remove them. Keep all three distinct senses in the list.",
+    "translation": "accent, stress",
+    "senses": ["accent, stress, emphasis (spoken)", "accent mark (on a letter)", "accent (foreign or regional)"]
+  },
+  {
+    "kellyId": 6416,
+    "decision": "fix",
+    "reason": "'overweight' used as the primary for this noun is uncountable in English ('she has overweight' is not idiomatic, but 'overweight' functions as a mass noun/adj-used-as-noun here). However in Swedish övervikt is commonly used countably too (en övervikt av = a preponderance of). The primary meaning is the uncountable health sense; set uncountable.",
+    "translation": "overweight",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7072,
+    "decision": "fix",
+    "reason": "sub-def 'to accelerate' is a redundant duplicate of the primary 'accelerate' (app adds 'to' for verbs). Remove the list.",
+    "translation": "accelerate",
+    "senses": []
+  },
+  {
+    "kellyId": 8405,
+    "decision": "fix",
+    "reason": "'attacking player' is accurate but wordy; 'striker, forward' is the natural football term and cleaner. Keep 'attacking player' as a clarifying item in the list.",
+    "translation": "striker, forward",
+    "senses": ["striker, forward (football)", "attacking player"]
+  },
+  {
+    "kellyId": 6919,
+    "decision": "fix",
+    "reason": "sub-def has embedded article 'a jackass'; bare it.",
+    "translation": "donkey, ass",
+    "senses": ["donkey, ass (animal)", "jackass, idiot (insult)"]
+  },
+  {
+    "kellyId": 6233,
+    "decision": "fix",
+    "reason": "sub-def has embedded article 'a youngster'; primary and list should be bare. Also 'young man' and 'youngster' are nearly synonymous — collapse into one primary.",
+    "translation": "young man, youngster",
+    "senses": []
+  },
+  {
+    "kellyId": 6650,
+    "decision": "fix",
+    "reason": "sub-def 'a group captain' has embedded article. Bare it.",
+    "translation": "colonel",
+    "senses": ["colonel (army)", "group captain (air force, British)"]
+  },
+  {
+    "kellyId": 5757,
+    "decision": "fix",
+    "reason": "'overview, a perspective' has embedded article 'a perspective'. Remove it.",
+    "translation": "overview, perspective",
+    "senses": []
+  },
+  {
+    "kellyId": 6922,
+    "decision": "fix",
+    "reason": "'reimbursement' is slightly narrow; 'återbetalning' also means repayment and refund in everyday contexts. Better primary: 'repayment, refund'.",
+    "translation": "repayment, refund",
+    "senses": []
+  },
+  {
+    "kellyId": 7679,
+    "decision": "fix",
+    "reason": "sub-def 'an antenna, an aerial' has embedded article. Bare it. Primary 'antenna' is fine (insect sense).",
+    "translation": "antenna",
+    "senses": ["antenna (insect feeler)", "antenna, aerial (for radio/TV)"]
+  },
+  {
+    "kellyId": 7930,
+    "decision": "fix",
+    "reason": "'quotidian' is an obscure word for language learners; 'everyday, ordinary' is clearer.",
+    "translation": "everyday, ordinary",
+    "senses": []
+  },
+  {
+    "kellyId": 6494,
+    "decision": "fix",
+    "reason": "the two senses listed are muddled — they overlap but represent distinct meanings: (1) physically sore/tender, (2) emotionally tender/gentle. Clarify the list.",
+    "translation": "sore, tender",
+    "senses": ["sore, tender (physical pain)", "tender, gentle (emotional)"]
+  },
+  {
+    "kellyId": 5650,
+    "decision": "fix",
+    "reason": "'years' alone is too vague — 'åratal' specifically means 'years on end, for years' (always implying a long stretch). A gloss captures this better.",
+    "translation": "years on end, years",
+    "senses": []
+  },
+  {
+    "kellyId": 7526,
+    "decision": "fix",
+    "reason": "sub-def 'something currently (or at some given time) topical' is a definition phrase. Tighten it. Also 'up-to-dateness, timeliness' is cleaner already.",
+    "translation": "topicality, relevance",
+    "senses": ["topicality, current relevance", "current event, topical issue", "timeliness, up-to-dateness"]
+  }
+]

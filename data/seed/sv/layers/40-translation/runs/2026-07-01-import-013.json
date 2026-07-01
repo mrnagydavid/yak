@@ -1,0 +1,395 @@
+[
+  {
+    "kellyId": 1030,
+    "decision": "fix",
+    "reason": "sub-defs are definition-like and include archaic 'dedicate' senses; real everyday senses are fold, give way, turn",
+    "translation": "fold",
+    "senses": [
+      "fold",
+      "give way, give in (under pressure)",
+      "turn (slightly, while moving)"
+    ]
+  },
+  {
+    "kellyId": 1131,
+    "decision": "fix",
+    "reason": "sub-defs are definition-like; list should be concise",
+    "translation": "weight",
+    "senses": [
+      "weight (how heavy something is)",
+      "weight (object for training or measuring)",
+      "importance, significance"
+    ]
+  },
+  {
+    "kellyId": 129,
+    "decision": "fix",
+    "reason": "'desire' is redundant next to 'want'; phrasing cleaner without it; list entry had embedded 'to'",
+    "translation": "want",
+    "senses": [
+      "want",
+      "intend, be going to"
+    ]
+  },
+  {
+    "kellyId": 1072,
+    "decision": "fix",
+    "reason": "sub-def is a definition restating the same meaning; single meaning word",
+    "translation": "will",
+    "senses": []
+  },
+  {
+    "kellyId": 161,
+    "decision": "fix",
+    "reason": "translation is overloaded; 'which, what' covers the interrogative primary; relative pronoun use belongs in list",
+    "translation": "which, what",
+    "senses": [
+      "which, what (interrogative)",
+      "which, who, whom (relative)"
+    ]
+  },
+  {
+    "kellyId": 880,
+    "decision": "fix",
+    "reason": "embedded article 'a' in translation; single meaning",
+    "translation": "condition, precondition",
+    "senses": []
+  },
+  {
+    "kellyId": 471,
+    "decision": "fix",
+    "reason": "'to defeat, to beat' in translation has embedded 'to'; bare: 'win, defeat'; secondary sense needs clean list",
+    "translation": "win, defeat",
+    "senses": [
+      "win, defeat",
+      "gain, profit from"
+    ]
+  },
+  {
+    "kellyId": 1352,
+    "decision": "fix",
+    "reason": "list entries had embedded articles ('a gain', 'a prize'); clean to bare",
+    "translation": "win",
+    "senses": [
+      "win (victory)",
+      "gain, profit",
+      "prize"
+    ]
+  },
+  {
+    "kellyId": 221,
+    "decision": "fix",
+    "reason": "'to display' in translation has embedded 'to'; bare: 'show, display'",
+    "translation": "show, display",
+    "senses": [
+      "show, display",
+      "show, prove"
+    ]
+  },
+  {
+    "kellyId": 240,
+    "decision": "fix",
+    "reason": "'viss' most commonly means 'certain, some' (as in 'vissa städer'); 'convinced' is a secondary meaning",
+    "translation": "certain, some",
+    "senses": [
+      "certain, some, particular",
+      "certain, convinced (of something)"
+    ]
+  },
+  {
+    "kellyId": 794,
+    "decision": "fix",
+    "reason": "sub-defs are highly marginal or specialized (snus, signifying honesty); 'white' is effectively a single everyday meaning",
+    "translation": "white",
+    "senses": []
+  },
+  {
+    "kellyId": 1254,
+    "decision": "fix",
+    "reason": "sub-def 'an adult' has embedded article and just restates the adj meaning as a noun; single meaning for the adjective",
+    "translation": "adult",
+    "senses": []
+  },
+  {
+    "kellyId": 632,
+    "decision": "fix",
+    "reason": "'to have enough courage' is definition-like padding; bare primary 'dare'; keep the marginal wave sense",
+    "translation": "dare",
+    "senses": [
+      "dare",
+      "wave, style in waves (hair)"
+    ]
+  },
+  {
+    "kellyId": 178,
+    "decision": "fix",
+    "reason": "sub-def 'belonging to us' just restates the pronoun; single meaning",
+    "translation": "our",
+    "senses": []
+  },
+  {
+    "kellyId": 1107,
+    "decision": "fix",
+    "reason": "'care' is uncountable; sub-def 'memorial (inscribed stone)' is archaic/marginal — drop it; mark uncountable",
+    "translation": "care",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1317,
+    "decision": "fix",
+    "reason": "'to wake, to awaken' redundant in translation; clean primary 'wake up'; list needs clean senses without embedded 'to'",
+    "translation": "wake up",
+    "senses": [
+      "wake up (rouse from sleep)",
+      "arouse, evoke (feelings, memories, questions)",
+      "bring, press (charges)"
+    ]
+  },
+  {
+    "kellyId": 514,
+    "decision": "fix",
+    "reason": "sub-def 'a supporter, a friend' has embedded article and partially restates primary; clean list",
+    "translation": "friend",
+    "senses": [
+      "friend",
+      "supporter, backer"
+    ]
+  },
+  {
+    "kellyId": 223,
+    "decision": "fix",
+    "reason": "third sub-def 'a swing by, a pop, a (short) trip' is a noun usage mixed into a verb entry; 'flip' is a genuine secondary verb sense",
+    "translation": "turn",
+    "senses": [
+      "turn",
+      "flip (e.g. food in a pan)"
+    ]
+  },
+  {
+    "kellyId": 474,
+    "decision": "fix",
+    "reason": "list entries had embedded 'to'; second and third senses overlap — merge",
+    "translation": "wait",
+    "senses": [
+      "wait",
+      "wait for, expect"
+    ]
+  },
+  {
+    "kellyId": 989,
+    "decision": "fix",
+    "reason": "sub-defs 'worthy' and 'having a value' restate the same idea; single meaning",
+    "translation": "worth",
+    "senses": []
+  },
+  {
+    "kellyId": 1234,
+    "decision": "fix",
+    "reason": "'värdering' most commonly means 'values, beliefs' in everyday Swedish (e.g. 'våra värderingar'); 'appraisal' is the narrower financial sense — demote it",
+    "translation": "value, belief",
+    "senses": [
+      "value, belief (as in core values)",
+      "appraisal, valuation (of property or price)",
+      "evaluation, assessment"
+    ]
+  },
+  {
+    "kellyId": 1358,
+    "decision": "fix",
+    "reason": "'the Great War' specifically refers to WWI; this is a generic noun meaning any world war — drop that gloss",
+    "translation": "world war",
+    "senses": []
+  },
+  {
+    "kellyId": 628,
+    "decision": "fix",
+    "reason": "sub-defs both say 'grow' and are redundant; 'grow' is a single core meaning",
+    "translation": "grow",
+    "senses": []
+  },
+  {
+    "kellyId": 447,
+    "decision": "fix",
+    "reason": "'to travel, to ride' in translation has embedded 'to'; clean to bare; 'slide, glide' is real secondary",
+    "translation": "go, travel",
+    "senses": [
+      "go, travel (by vehicle, skis, etc.)",
+      "slide, glide"
+    ]
+  },
+  {
+    "kellyId": 1014,
+    "decision": "fix",
+    "reason": "sub-def 'how old something is' is definition-like; replace with clean list",
+    "translation": "age",
+    "senses": [
+      "age (of a person or thing)",
+      "age, era (a historical period)"
+    ]
+  },
+  {
+    "kellyId": 148,
+    "decision": "fix",
+    "reason": "sub-def 'a year (length of time)' is redundant restatement; single meaning",
+    "translation": "year",
+    "senses": []
+  },
+  {
+    "kellyId": 546,
+    "decision": "fix",
+    "reason": "embedded article 'a' in 'a view'; single meaning",
+    "translation": "opinion, view",
+    "senses": []
+  },
+  {
+    "kellyId": 406,
+    "decision": "fix",
+    "reason": "'to undertake' has embedded 'to' feel; bare: 'take on, undertake'",
+    "translation": "take on, undertake",
+    "senses": []
+  },
+  {
+    "kellyId": 476,
+    "decision": "fix",
+    "reason": "embedded article 'a' in 'a measure'; single meaning",
+    "translation": "action, measure",
+    "senses": []
+  },
+  {
+    "kellyId": 149,
+    "decision": "fix",
+    "reason": "'pwn' is gaming slang — too marginal for a flashcard; single core meaning",
+    "translation": "own",
+    "senses": []
+  },
+  {
+    "kellyId": 318,
+    "decision": "fix",
+    "reason": "egg cell and needle-eye senses are marginal; 'egg' is effectively a single everyday meaning",
+    "translation": "egg",
+    "senses": []
+  },
+  {
+    "kellyId": 1109,
+    "decision": "fix",
+    "reason": "'engage oneself, to spend time' is clunky; 'synonym of lämpa sig' is unhelpful to learners; better primary is 'devote, spend time on'",
+    "translation": "devote, spend time on",
+    "senses": []
+  },
+  {
+    "kellyId": 844,
+    "decision": "fix",
+    "reason": "'äldre' primarily means 'older' (comparative of gammal); 'elderly' is one usage but not the primary meaning",
+    "translation": "older, elder",
+    "senses": [
+      "older, elder (comparative of old)",
+      "elderly (used as noun: the elderly)"
+    ]
+  },
+  {
+    "kellyId": 382,
+    "decision": "fix",
+    "reason": "'to purpose' is archaic/odd phrasing; clean: 'intend, plan to'",
+    "translation": "intend, plan to",
+    "senses": []
+  },
+  {
+    "kellyId": 681,
+    "decision": "fix",
+    "reason": "'ämne' most commonly means 'subject' (school subject, topic) in everyday Swedish; 'substance' is a real but secondary sense",
+    "translation": "subject, topic",
+    "senses": [
+      "subject, topic",
+      "substance, material"
+    ]
+  },
+  {
+    "kellyId": 563,
+    "decision": "fix",
+    "reason": "'to alter' has embedded 'to' feel in translation; bare: 'change, alter'",
+    "translation": "change, alter",
+    "senses": [
+      "change, alter",
+      "change one's mind"
+    ]
+  },
+  {
+    "kellyId": 647,
+    "decision": "fix",
+    "reason": "embedded articles 'a modification, an alteration' in translation; clean to bare",
+    "translation": "change, modification",
+    "senses": []
+  },
+  {
+    "kellyId": 328,
+    "decision": "fix",
+    "reason": "'still, yet' doesn't capture 'ändå' best; primary meaning is 'anyway, still, even so' (despite what was said)",
+    "translation": "anyway, still, even so",
+    "senses": [
+      "anyway, still, even so (despite something)",
+      "after all (contrary to what was expected)",
+      "even, still (to a further degree)"
+    ]
+  },
+  {
+    "kellyId": 438,
+    "decision": "fix",
+    "reason": "embedded article 'a house' in translation; rune/time senses are archaic — drop; 'dynasty' better than just 'house'",
+    "translation": "family, dynasty",
+    "senses": []
+  },
+  {
+    "kellyId": 675,
+    "decision": "fix",
+    "reason": "all sub-defs are shades of 'open'; single core meaning for a flashcard",
+    "translation": "open",
+    "senses": []
+  },
+  {
+    "kellyId": 270,
+    "decision": "fix",
+    "reason": "'to train' has embedded 'to'; bare: 'practice, train'",
+    "translation": "practice, train",
+    "senses": []
+  },
+  {
+    "kellyId": 2521,
+    "decision": "fix",
+    "reason": "embedded article 'an attorney' in translation; clean to bare",
+    "translation": "lawyer, attorney",
+    "senses": [
+      "lawyer, attorney",
+      "advocate (who argues another's case)"
+    ]
+  },
+  {
+    "kellyId": 1411,
+    "decision": "fix",
+    "reason": "embedded article 'a store' in translation; clean to bare; list needs clean senses",
+    "translation": "shop, store",
+    "senses": [
+      "shop, store",
+      "deal, transaction",
+      "business (commercial activity)",
+      "affair, matter (of concern)"
+    ]
+  },
+  {
+    "kellyId": 2176,
+    "decision": "fix",
+    "reason": "'agerande' means conduct/behavior/way of acting, not just 'action'; better gloss: 'conduct, behavior'",
+    "translation": "conduct, behavior",
+    "senses": []
+  },
+  {
+    "kellyId": 1544,
+    "decision": "fix",
+    "reason": "'operator' is an odd gloss; primary sense is 'player, actor (in a context)'; performing-actor is secondary",
+    "translation": "player, actor",
+    "senses": [
+      "player, actor (participant in affairs)",
+      "actor (performing a role)"
+    ]
+  }
+]

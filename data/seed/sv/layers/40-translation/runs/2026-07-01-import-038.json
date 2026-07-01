@@ -1,0 +1,408 @@
+[
+  {
+    "kellyId": 3160,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary; bare verb needed",
+    "translation": "depict, portray, describe",
+    "senses": []
+  },
+  {
+    "kellyId": 3446,
+    "decision": "fix",
+    "reason": "sub-definitions are definition-like; clean to short senses",
+    "translation": "shit",
+    "senses": [
+      "shit (defecate)",
+      "not give a damn about, ignore, skip",
+      "mess up, make dirty",
+      "go wrong, backfire"
+    ]
+  },
+  {
+    "kellyId": 3348,
+    "decision": "fix",
+    "reason": "primary is uncountable; list item 'a laugh' has embedded article",
+    "translation": "laughter",
+    "uncountable": true,
+    "senses": [
+      "laughter (in general)",
+      "laugh (a single instance)"
+    ]
+  },
+  {
+    "kellyId": 3312,
+    "decision": "fix",
+    "reason": "embedded article 'a' in primary",
+    "translation": "writ, written communication",
+    "senses": []
+  },
+  {
+    "kellyId": 3703,
+    "decision": "fix",
+    "reason": "sub-definitions are all restatements of 'hurry'; single meaning",
+    "translation": "hurry",
+    "senses": []
+  },
+  {
+    "kellyId": 3004,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary",
+    "translation": "give, donate",
+    "senses": []
+  },
+  {
+    "kellyId": 3894,
+    "decision": "fix",
+    "reason": "sub-definition items are definition-like; clean list",
+    "translation": "screen",
+    "senses": [
+      "screen, monitor (display)",
+      "screen, divider (physical partition)",
+      "visor (on a cap)"
+    ]
+  },
+  {
+    "kellyId": 3507,
+    "decision": "fix",
+    "reason": "primary is uncountable; list item 'a beauty' has embedded article",
+    "translation": "beauty",
+    "uncountable": true,
+    "senses": [
+      "beauty (quality)",
+      "beauty (a beautiful person or thing)"
+    ]
+  },
+  {
+    "kellyId": 3106,
+    "decision": "fix",
+    "reason": "list item 'a Slav' has embedded article; bare needed",
+    "translation": "slave",
+    "senses": [
+      "slave",
+      "Slav (person of Slavic origin)"
+    ]
+  },
+  {
+    "kellyId": 3285,
+    "decision": "fix",
+    "reason": "'slutändan' is only used in 'i slutändan'; primary should reflect its real use as a phrase meaning",
+    "translation": "in the end, ultimately",
+    "senses": []
+  },
+  {
+    "kellyId": 4076,
+    "decision": "fix",
+    "reason": "embedded article 'an' in primary",
+    "translation": "text message",
+    "senses": []
+  },
+  {
+    "kellyId": 3773,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary",
+    "translation": "sneak, creep, steal",
+    "senses": []
+  },
+  {
+    "kellyId": 3975,
+    "decision": "fix",
+    "reason": "'talk, speech' conflates two senses; cleaner primary and list",
+    "translation": "chat, talk",
+    "senses": [
+      "chat, talk (informal conversation)",
+      "nonsense, empty talk"
+    ]
+  },
+  {
+    "kellyId": 4206,
+    "decision": "fix",
+    "reason": "primary is uncountable; needs uncountable flag and clean senses",
+    "translation": "sugar",
+    "uncountable": true,
+    "senses": [
+      "sugar",
+      "diabetes (colloquial)"
+    ]
+  },
+  {
+    "kellyId": 2820,
+    "decision": "fix",
+    "reason": "embedded article 'a' in primary",
+    "translation": "couch, sofa",
+    "senses": []
+  },
+  {
+    "kellyId": 2921,
+    "decision": "fix",
+    "reason": "sub-definition has embedded 'to' and is definition-like",
+    "translation": "kick",
+    "senses": [
+      "kick",
+      "fire, dismiss (from a job)"
+    ]
+  },
+  {
+    "kellyId": 3307,
+    "decision": "fix",
+    "reason": "sub-definition has embedded 'to'; senses should be bare",
+    "translation": "reflect",
+    "senses": [
+      "reflect",
+      "mirror (literally or figuratively)"
+    ]
+  },
+  {
+    "kellyId": 3922,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary; senses need cleanup",
+    "translation": "blow up, blast",
+    "senses": [
+      "blow up, blast (with explosives)",
+      "break up, dismantle (an organisation)",
+      "burst (from internal pressure)"
+    ]
+  },
+  {
+    "kellyId": 3181,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary; sub-definition has idiomatic gloss",
+    "translation": "track, trace",
+    "senses": [
+      "track, trace",
+      "go off the rails, go crazy (from 'spåra ur')"
+    ]
+  },
+  {
+    "kellyId": 3424,
+    "decision": "fix",
+    "reason": "embedded article 'a' in primary",
+    "translation": "stage, phase",
+    "senses": []
+  },
+  {
+    "kellyId": 3659,
+    "decision": "fix",
+    "reason": "primary is definition-like; fix to bare noun",
+    "translation": "stable",
+    "senses": [
+      "stable (for horses)",
+      "team (in racing)",
+      "bridge (of a violin)"
+    ]
+  },
+  {
+    "kellyId": 3360,
+    "decision": "fix",
+    "reason": "sub-definitions are restatements of 'storm'; single everyday meaning",
+    "translation": "storm",
+    "senses": []
+  },
+  {
+    "kellyId": 3542,
+    "decision": "fix",
+    "reason": "sub-definition is just a definition of 'metropolis'",
+    "translation": "metropolis, big city",
+    "senses": []
+  },
+  {
+    "kellyId": 3073,
+    "decision": "fix",
+    "reason": "sub-definition has embedded 'to'",
+    "translation": "punish",
+    "senses": [
+      "punish",
+      "backfire, have negative consequences"
+    ]
+  },
+  {
+    "kellyId": 3169,
+    "decision": "fix",
+    "reason": "primary is uncountable",
+    "translation": "stress",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 2827,
+    "decision": "fix",
+    "reason": "awkward parenthetical and embedded 'to'; simplify",
+    "translation": "not care about, ignore",
+    "senses": []
+  },
+  {
+    "kellyId": 3380,
+    "decision": "fix",
+    "reason": "sub-definitions are just synonyms of 'strict'; consolidate",
+    "translation": "strict, stern",
+    "senses": [
+      "strict, stern (of a person)",
+      "strict, severe (of rules or conditions)"
+    ]
+  },
+  {
+    "kellyId": 3008,
+    "decision": "fix",
+    "reason": "sub-definitions are wordy; condense to core senses",
+    "translation": "current, flow",
+    "senses": [
+      "current, flow (of water or air)",
+      "electric current",
+      "stream (of data, traffic, words)"
+    ]
+  },
+  {
+    "kellyId": 3722,
+    "decision": "fix",
+    "reason": "embedded article 'a' in primary; archaic senses should be dropped",
+    "translation": "cottage, cabin",
+    "senses": []
+  },
+  {
+    "kellyId": 3224,
+    "decision": "fix",
+    "reason": "sub-definitions include archaic (cannon) and can be consolidated",
+    "translation": "piece",
+    "senses": [
+      "piece (of something)",
+      "piece (of music or theatre)",
+      "paragraph (of text)"
+    ]
+  },
+  {
+    "kellyId": 3857,
+    "decision": "fix",
+    "reason": "sub-definition has embedded 'to'",
+    "translation": "strengthen",
+    "senses": [
+      "strengthen",
+      "authenticate, verify"
+    ]
+  },
+  {
+    "kellyId": 3320,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary",
+    "translation": "clean, tidy",
+    "senses": []
+  },
+  {
+    "kellyId": 3955,
+    "decision": "fix",
+    "reason": "sub-definition items have embedded articles",
+    "translation": "voice",
+    "senses": [
+      "voice (singing or speaking)",
+      "pitch, part (musical)",
+      "meeting, assembly"
+    ]
+  },
+  {
+    "kellyId": 3564,
+    "decision": "fix",
+    "reason": "primary is uncountable",
+    "translation": "theft",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3601,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary; split senses more clearly",
+    "translation": "crash, plunge",
+    "senses": [
+      "crash, plunge (fall uncontrollably)",
+      "overthrow (a government or leader)",
+      "rush, run hurriedly"
+    ]
+  },
+  {
+    "kellyId": 3493,
+    "decision": "fix",
+    "reason": "sub-definition is definition-like with 'to' embedded",
+    "translation": "suck",
+    "senses": [
+      "suck",
+      "suck, be terrible (colloquial)"
+    ]
+  },
+  {
+    "kellyId": 3419,
+    "decision": "fix",
+    "reason": "Wiktionary sense 'wet, damp' missing from list; add it",
+    "translation": "sour",
+    "senses": [
+      "sour (taste)",
+      "sour, rancid (gone off)",
+      "acidic",
+      "angry, annoyed",
+      "wet, damp (of soil or weather)"
+    ]
+  },
+  {
+    "kellyId": 3282,
+    "decision": "fix",
+    "reason": "first sub-def is a definition; second is a real distinct sense; clean up",
+    "translation": "weakness",
+    "senses": [
+      "weakness (lack of strength)",
+      "weakness (a soft spot, fondness)"
+    ]
+  },
+  {
+    "kellyId": 4136,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary twice",
+    "translation": "betray, let down, disappoint",
+    "senses": []
+  },
+  {
+    "kellyId": 3958,
+    "decision": "fix",
+    "reason": "sub-definition items have embedded articles; trim to core senses",
+    "translation": "turn",
+    "senses": [
+      "turn, bend (in a road)",
+      "brief trip",
+      "instance of dancing"
+    ]
+  },
+  {
+    "kellyId": 4041,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary; sub-definitions wordy",
+    "translation": "swear, curse",
+    "senses": [
+      "swear, curse (use offensive language)",
+      "swear, take an oath"
+    ]
+  },
+  {
+    "kellyId": 4168,
+    "decision": "fix",
+    "reason": "primary is uncountable",
+    "translation": "sympathy",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3007,
+    "decision": "fix",
+    "reason": "sub-definition duplicates the primary; single meaning word",
+    "translation": "approach, view, outlook",
+    "senses": []
+  },
+  {
+    "kellyId": 3877,
+    "decision": "fix",
+    "reason": "embedded article 'a' in primary",
+    "translation": "point of view, perspective",
+    "senses": []
+  },
+  {
+    "kellyId": 3860,
+    "decision": "fix",
+    "reason": "'following a system' is a definition of 'systematic', not a helpful addition",
+    "translation": "systematic",
+    "senses": []
+  }
+]

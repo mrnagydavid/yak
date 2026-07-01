@@ -1,0 +1,372 @@
+[
+  {
+    "kellyId": 3189,
+    "decision": "fix",
+    "reason": "currentTranslation has embedded 'to ignite'; remove it",
+    "translation": "light, ignite",
+    "senses": [
+      "light, ignite; turn on (lights or flames)",
+      "become sexually aroused",
+      "become enthusiastic"
+    ]
+  },
+  {
+    "kellyId": 3546,
+    "decision": "fix",
+    "reason": "primary gloss 'dense, thick or crowded' is slightly clumsy; tighten; sub-defs are definition-like",
+    "translation": "dense, thick",
+    "senses": [
+      "dense, thick, crowded",
+      "tight, airtight, watertight",
+      "action-packed, packed (figuratively)"
+    ]
+  },
+  {
+    "kellyId": 3898,
+    "decision": "fix",
+    "reason": "underhåll also means alimony/child support — a major everyday meaning the current entry misses",
+    "translation": "maintenance",
+    "senses": [
+      "maintenance (upkeep)",
+      "alimony, child support"
+    ]
+  },
+  {
+    "kellyId": 2923,
+    "decision": "fix",
+    "reason": "currentTranslation has embedded 'to educate, to tutor'; sub-def is a definition not a sense",
+    "translation": "teach, tutor",
+    "senses": []
+  },
+  {
+    "kellyId": 3960,
+    "decision": "fix",
+    "reason": "currentTranslation has embedded 'to escape'",
+    "translation": "evade, escape",
+    "senses": []
+  },
+  {
+    "kellyId": 3470,
+    "decision": "fix",
+    "reason": "'undersign' is barely used; 'underwrite' is wrong here; the word simply means to sign (formally)",
+    "translation": "sign",
+    "senses": []
+  },
+  {
+    "kellyId": 3337,
+    "decision": "fix",
+    "reason": "primary 'bring forth, to build' has embedded 'to'; 'bring forth' is odd — core sense is to erect/construct",
+    "translation": "build, erect",
+    "senses": [
+      "build, erect (a structure)",
+      "perform, stage (a play)",
+      "behave"
+    ]
+  },
+  {
+    "kellyId": 4175,
+    "decision": "fix",
+    "reason": "'increasing or upward movement' is a definition; core sense is 'rise, upswing'",
+    "translation": "rise, upswing",
+    "senses": [
+      "rise, upswing (upward movement or trend)",
+      "staircase, entrance (way into a building)"
+    ]
+  },
+  {
+    "kellyId": 3807,
+    "decision": "fix",
+    "reason": "currentTranslation embeds articles 'a contract, a settlement'",
+    "translation": "agreement, settlement",
+    "senses": [
+      "agreement, settlement",
+      "confrontation, showdown"
+    ]
+  },
+  {
+    "kellyId": 3325,
+    "decision": "fix",
+    "reason": "currentTranslation embeds articles 'an author, an owner of copyright'",
+    "translation": "creator, author",
+    "senses": []
+  },
+  {
+    "kellyId": 3655,
+    "decision": "fix",
+    "reason": "'abate or repeal' is clumsy and legalistic; core everyday sense is to revoke or lift",
+    "translation": "repeal, revoke",
+    "senses": [
+      "repeal, revoke (a law or decision)",
+      "lift, cancel (a ban or restriction)"
+    ]
+  },
+  {
+    "kellyId": 3028,
+    "decision": "fix",
+    "reason": "the most common everyday sense of 'upplysning' is 'information, tip', not 'enlightenment' (which is the historical movement); promote information as primary",
+    "translation": "information, tip",
+    "senses": [
+      "information, tip (a piece of information)",
+      "public education, awareness",
+      "Enlightenment (historical movement)",
+      "lighting, illumination"
+    ]
+  },
+  {
+    "kellyId": 4073,
+    "decision": "fix",
+    "reason": "currentTranslation has embedded 'to inform'",
+    "translation": "enlighten, inform",
+    "senses": [
+      "enlighten, inform (tell someone something useful)",
+      "light up, illuminate"
+    ]
+  },
+  {
+    "kellyId": 3905,
+    "decision": "fix",
+    "reason": "'uppenbarelse' also means an apparition/vision — a distinct sense missing from the current entry",
+    "translation": "revelation",
+    "senses": [
+      "revelation, insight",
+      "apparition, vision"
+    ]
+  },
+  {
+    "kellyId": 3799,
+    "decision": "fix",
+    "reason": "currentTranslation embeds article 'an approximation'",
+    "translation": "estimate, approximation",
+    "senses": [
+      "estimate, approximation",
+      "appreciation"
+    ]
+  },
+  {
+    "kellyId": 4002,
+    "decision": "fix",
+    "reason": "sub-def is definition-like; replace with concise senses",
+    "translation": "notice, layoff",
+    "senses": [
+      "notice, layoff (employment termination)",
+      "notice of termination (contract or lease)"
+    ]
+  },
+  {
+    "kellyId": 3321,
+    "decision": "fix",
+    "reason": "currentTranslation has embedded 'to present'",
+    "translation": "show, present",
+    "senses": [
+      "show, present (an ID, evidence)",
+      "exhibit, display (a property or symptom)"
+    ]
+  },
+  {
+    "kellyId": 4144,
+    "decision": "fix",
+    "reason": "'ejaculate' is archaic/startling as a gloss for exclaim; drop it",
+    "translation": "exclaim, cry out",
+    "senses": [
+      "exclaim, cry out",
+      "proclaim, declare"
+    ]
+  },
+  {
+    "kellyId": 4037,
+    "decision": "fix",
+    "reason": "'lead' (card game) is marginal; in modern Swedish 'utspel' most commonly means a public move or statement",
+    "translation": "move, statement",
+    "senses": [
+      "move, statement (public political initiative)",
+      "lead (first card played)"
+    ]
+  },
+  {
+    "kellyId": 3130,
+    "decision": "fix",
+    "reason": "currentTranslation has embedded 'to unfold'",
+    "translation": "take place, unfold",
+    "senses": []
+  },
+  {
+    "kellyId": 4178,
+    "decision": "fix",
+    "reason": "sub-definitions are definition-like or mathematical; replace with concise senses",
+    "translation": "odd",
+    "senses": [
+      "odd (not even, of a number)",
+      "odd, strange, unusual"
+    ]
+  },
+  {
+    "kellyId": 3085,
+    "decision": "fix",
+    "reason": "'busy, working in some area' is definition-like; trim",
+    "translation": "active, working",
+    "senses": [
+      "active, working (professionally, in a field)",
+      "effective (producing an effect)"
+    ]
+  },
+  {
+    "kellyId": 4038,
+    "decision": "fix",
+    "reason": "four near-synonyms is excessive; trim to the two clearest",
+    "translation": "carry out, execute",
+    "senses": []
+  },
+  {
+    "kellyId": 3440,
+    "decision": "fix",
+    "reason": "sub-definitions are redundant repetitions of the main gloss; clear the list",
+    "translation": "from where, whence",
+    "senses": []
+  },
+  {
+    "kellyId": 2957,
+    "decision": "fix",
+    "reason": "currentTranslation has embedded 'to expand'",
+    "translation": "extend, expand",
+    "senses": []
+  },
+  {
+    "kellyId": 2953,
+    "decision": "fix",
+    "reason": "currentTranslation has embedded 'to make wider, to expand'",
+    "translation": "widen, expand",
+    "senses": []
+  },
+  {
+    "kellyId": 4012,
+    "decision": "fix",
+    "reason": "currentTranslation embeds articles 'an inlet, a creek'",
+    "translation": "bay, inlet, creek",
+    "senses": []
+  },
+  {
+    "kellyId": 2834,
+    "decision": "fix",
+    "reason": "sub-definition 'not tame or domesticated' is a definition of 'wild', not a second meaning; single sense",
+    "translation": "wild",
+    "senses": []
+  },
+  {
+    "kellyId": 3696,
+    "decision": "fix",
+    "reason": "currentTranslation embeds article 'a house'; 'incorrect perception' sense is archaic/marginal",
+    "translation": "villa, house",
+    "senses": [
+      "villa, house (detached family home)",
+      "summerhouse"
+    ]
+  },
+  {
+    "kellyId": 2928,
+    "decision": "fix",
+    "reason": "the sexually-willing sense is marginal for a CEFR B1 card; single everyday sense",
+    "translation": "willing",
+    "senses": []
+  },
+  {
+    "kellyId": 2863,
+    "decision": "fix",
+    "reason": "'vice-' with hyphen is odd as a standalone gloss",
+    "translation": "deputy, vice, acting",
+    "senses": []
+  },
+  {
+    "kellyId": 3217,
+    "decision": "fix",
+    "reason": "'alien' leads with a sci-fi connotation; 'foreigner' is the clearer primary",
+    "translation": "foreigner, alien",
+    "senses": []
+  },
+  {
+    "kellyId": 3018,
+    "decision": "fix",
+    "reason": "'commonly' is not the best translation; 'vanligen' means 'usually, normally'",
+    "translation": "usually, normally",
+    "senses": []
+  },
+  {
+    "kellyId": 3287,
+    "decision": "fix",
+    "reason": "'outsideness' is not a real English word; social exclusion covers the full meaning — single sense",
+    "translation": "social exclusion, alienation",
+    "senses": []
+  },
+  {
+    "kellyId": 3607,
+    "decision": "fix",
+    "reason": "the two listed senses are the same concept (physical and figurative expansion); single meaning",
+    "translation": "expansion",
+    "senses": []
+  },
+  {
+    "kellyId": 3906,
+    "decision": "fix",
+    "reason": "currentTranslation embeds article 'a result'",
+    "translation": "outcome, result",
+    "senses": [
+      "outcome, result",
+      "attack, assault"
+    ]
+  },
+  {
+    "kellyId": 3423,
+    "decision": "fix",
+    "reason": "currentTranslation embeds article 'an analyst'",
+    "translation": "investigator, analyst",
+    "senses": []
+  },
+  {
+    "kellyId": 3912,
+    "decision": "fix",
+    "reason": "currentTranslation embeds article 'a third-world country'; 'third-world' is also dated",
+    "translation": "developing country",
+    "senses": []
+  },
+  {
+    "kellyId": 3862,
+    "decision": "fix",
+    "reason": "'the fallen; casualties of a war or battle' is archaic/poetic and not an everyday meaning; single sense",
+    "translation": "whale",
+    "senses": []
+  },
+  {
+    "kellyId": 3393,
+    "decision": "fix",
+    "reason": "sub-definition says 'practiced' but wiktionary/correct gloss is 'adept'; tighten",
+    "translation": "accustomed, used to",
+    "senses": [
+      "accustomed, used to (having the habit)",
+      "experienced, adept"
+    ]
+  },
+  {
+    "kellyId": 3404,
+    "decision": "fix",
+    "reason": "sub-definition is a dictionary definition, not a sense; single meaning",
+    "translation": "vaccine",
+    "senses": []
+  },
+  {
+    "kellyId": 3928,
+    "decision": "fix",
+    "reason": "computer virus is just one application of 'virus', not a distinct meaning; single sense",
+    "translation": "virus",
+    "senses": []
+  },
+  {
+    "kellyId": 3365,
+    "decision": "fix",
+    "reason": "'busy, engaged in activity' is definition-like; sub-definitions are partly redundant; restructure cleanly",
+    "translation": "busy",
+    "senses": [
+      "busy (doing something)",
+      "occupied, taken (not vacant)",
+      "engaged (of a phone line)"
+    ]
+  }
+]

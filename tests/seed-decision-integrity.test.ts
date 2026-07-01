@@ -1,74 +1,132 @@
-import { readFileSync, readdirSync } from 'node:fs'
+import { execFileSync } from 'node:child_process'
+import { existsSync, mkdtempSync, readFileSync, readdirSync, rmSync } from 'node:fs'
+import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { describe, expect, it } from 'vitest'
+import { afterAll, describe, expect, it } from 'vitest'
 
 // Companion to seed-reproducible.test.ts. That test proves the seed is *reproducible* from the
-// committed inputs (no hand-patched output). This one proves the inputs don't silently *cancel each
-// other out* — the failure mode where a fix is authored in one overlay but never reaches production
-// because another overlay outranks it (SPEC §9.4). Reproducibility can't catch this: a seed built
-// from contradictory inputs is still perfectly deterministic, it just doesn't match intent.
+// committed inputs (no hand-patched output). This one proves the layer inputs are internally sound:
+// keys point at real base words, each layer owns only its declared fields, no key is duplicated
+// within a layer, a dropped word never ships, and a clean build has nothing stale.
 //
-// The decision overlays (`decisions/*.json` + `translation-decisions.json`) are all keyed by kellyId
-// and merged with a fixed precedence in apply-decisions.mjs. The invariants below keep that merge
-// honest.
+// The old "no contradictory verdicts" check is gone: precedence is now explicit (higher layer wins
+// wholesale, SEED-PIPELINE-DESIGN.md §4.4), so a higher `keep` legitimately overrides a lower `drop`.
 const repoRoot = fileURLToPath(new URL('..', import.meta.url))
 const read = (p: string) => JSON.parse(readFileSync(join(repoRoot, p), 'utf-8'))
 
-type Decision = { kellyId: number; lemma?: string; decision: 'keep' | 'fix' | 'drop' }
+const SEED_DIR = 'data/seed/sv'
+type Layer = { id: number; name: string; kind: string; produces: string[] }
+const manifest = read(`${SEED_DIR}/layers.json`) as Layer[]
+const layerDir = (l: Layer) => `${SEED_DIR}/layers/${l.id}-${l.name}`
+const keyName = (l: Layer) => (l.kind === 'senses' ? 'english' : 'kellyId')
 
-const DECISIONS_DIR = 'data/intermediate/decisions'
-const decisionFiles = readdirSync(join(repoRoot, DECISIONS_DIR))
-  .filter((f) => f.endsWith('.json'))
-  .sort()
+// A layer's top-level decision file(s), the same set the reducer's loadLayerById reads: decisions.json
+// for the LLM layers (40/50/60), the numbered files for the human/cleaner layers (10/20/30/90). runs/
+// (a subdir) and the generated stale.json are excluded.
+function layerFiles(l: Layer): string[] {
+  const dir = join(repoRoot, layerDir(l))
+  if (!existsSync(dir)) return []
+  return readdirSync(dir)
+    .filter((f) => f.endsWith('.json') && f !== 'stale.json')
+    .sort()
+}
+const layerRecords = (l: Layer) => layerFiles(l).flatMap((f) => read(`${layerDir(l)}/${f}`) as Record<string, unknown>[])
 
-// kellyId -> { file, decision } across every decisions/ file (the cleaner/pos/subdef/manual passes).
-const decisionsByFile: { file: string; d: Decision }[] = []
-for (const file of decisionFiles) {
-  for (const d of read(`${DECISIONS_DIR}/${file}`) as Decision[]) decisionsByFile.push({ file, d })
+// Which seed fields a record writes — used to enforce the manifest's `produces` ownership.
+function writesOf(l: Layer, r: Record<string, unknown>): string[] {
+  if (l.kind === 'decisions') {
+    const w: string[] = []
+    if (r.decision === 'drop') w.push('drop')
+    if (r.proposedTranslation) w.push('translation')
+    if (r.proposedSubDefinitions) w.push('subDefinitions')
+    if (r.proposedIpa) w.push('ipa')
+    if (r.svUncountable) w.push('svUncountable')
+    return w
+  }
+  if (l.kind === 'translation') {
+    const w: string[] = []
+    if (r.translation) w.push('translation')
+    if (Array.isArray(r.senses)) w.push('subDefinitions')
+    if (r.uncountable) w.push('enUncountable')
+    return w
+  }
+  if (l.kind === 'senses') return ['sense']
+  if (l.kind === 'examples') return Array.isArray(r.examples) ? ['examples'] : []
+  return []
 }
 
-const translationDecisions = read('data/intermediate/translation-decisions.json') as Decision[]
-const candidateIds = new Set((read('data/intermediate/candidates.json') as { kellyId: number }[]).map((c) => c.kellyId))
-const seed = read('data/seed-sv.json') as { entries: { seedKey: number; lemma: string }[] }
-const seedKeys = new Set(seed.entries.map((e) => e.seedKey))
+const baseIds = new Set((read(`${SEED_DIR}/base.json`) as { kellyId: number }[]).map((c) => c.kellyId))
+const seedKeys = new Set((read(`${SEED_DIR}/seed-sv.json`) as { entries: { seedKey: number }[] }).entries.map((e) => e.seedKey))
+const decisionLayers = manifest.filter((l) => l.kind === 'decisions')
+const llmLayers = manifest.filter((l) => ['translation', 'senses', 'examples'].includes(l.kind))
 
-describe('seed decision overlays are internally consistent', () => {
-  it('no kellyId carries contradictory verdicts (drop vs keep/fix) across decisions/ files', () => {
-    // A later pass that emits keep/fix for a kellyId an earlier pass dropped (or vice versa) silently
-    // resurrects or kills a card depending only on filename order. Force a human to resolve it by
-    // editing the inputs so exactly one verdict survives.
-    const verdicts = new Map<number, { file: string; decision: string; lemma?: string }[]>()
-    for (const { file, d } of decisionsByFile) {
-      if (!verdicts.has(d.kellyId)) verdicts.set(d.kellyId, [])
-      verdicts.get(d.kellyId)!.push({ file, decision: d.decision, lemma: d.lemma })
+describe('seed layer inputs are internally consistent', () => {
+  it('every layer record references a kellyId present in base.json', () => {
+    const orphans: string[] = []
+    for (const l of manifest)
+      for (const f of layerFiles(l))
+        for (const r of read(`${layerDir(l)}/${f}`) as { kellyId?: number; english?: string; senses?: { members?: number[] }[] }[]) {
+          if (l.kind === 'senses') {
+            for (const s of r.senses ?? []) for (const m of s.members ?? []) if (!baseIds.has(m)) orphans.push(`${l.name}/${f}: member ${m} (${r.english})`)
+          } else if (!baseIds.has(r.kellyId!)) orphans.push(`${l.name}/${f}: id ${r.kellyId}`)
+        }
+    expect(orphans, `Layer records point at kellyIds absent from base.json (stale after a dump bump?): ${orphans.slice(0, 20).join(', ')}`).toEqual([])
+  })
+
+  it('no layer writes a field outside its manifest `produces` set (kills the #4 two-layers-fight-over-the-list bug)', () => {
+    const violations: string[] = []
+    for (const l of manifest) {
+      const allowed = new Set(l.produces)
+      if (allowed.has('*')) continue // manual may override anything
+      for (const r of layerRecords(l))
+        for (const f of writesOf(l, r)) if (!allowed.has(f)) violations.push(`${l.name} writes '${f}' (allowed: ${l.produces.join(', ')}) on ${keyName(l)}=${r[keyName(l)]}`)
     }
-    const conflicts: string[] = []
-    for (const [kellyId, vs] of verdicts) {
-      const kinds = new Set(vs.map((v) => v.decision))
-      if (kinds.has('drop') && (kinds.has('keep') || kinds.has('fix'))) {
-        const lemma = vs.find((v) => v.lemma)?.lemma ?? '?'
-        conflicts.push(`${lemma} (id ${kellyId}): ${vs.map((v) => `${v.file}=${v.decision}`).join(', ')}`)
+    expect(violations, `Layers writing fields they don't own:\n  ${violations.slice(0, 20).join('\n  ')}`).toEqual([])
+  })
+
+  it('the compiled view of each layer has a key at most once (replaces the brittle contradictory-verdict check)', () => {
+    // The reducer merges a layer's files last-wins, so the *compiled view* is what matters. For the LLM
+    // layers that view is the committed decisions.json — a dup there is a compile bug (ambiguous which
+    // answer wins). The human/cleaner layers legitimately refine a word across batch files (last wins),
+    // so only a dup *within a single file* is a fault there.
+    const dupes: string[] = []
+    for (const l of manifest) {
+      const files = l.kind === 'decisions' ? layerFiles(l) : ['decisions.json'] // LLM layer's compiled view is one file
+      for (const f of files) {
+        if (!existsSync(join(repoRoot, layerDir(l), f))) continue
+        const seen = new Set<unknown>()
+        for (const r of read(`${layerDir(l)}/${f}`) as Record<string, unknown>[]) {
+          const k = r[keyName(l)]
+          if (seen.has(k)) dupes.push(`${l.name}/${f}: duplicate ${keyName(l)}=${k}`)
+          seen.add(k)
+        }
       }
     }
-    expect(conflicts, `Contradictory verdicts — resolve in the input files so one verdict remains:\n  ${conflicts.join('\n  ')}`).toEqual([])
+    expect(dupes, `A key is written twice in one file — merge the records:\n  ${dupes.slice(0, 20).join('\n  ')}`).toEqual([])
   })
 
-  it('every dropped kellyId is actually absent from the built seed', () => {
-    // Output-side check: even if precedence or collapseDuplicates changes, a card marked drop must not
-    // ship. (Catches the same class as the verdict check, from the other end.)
-    const leaked = decisionsByFile
-      .filter(({ d }) => d.decision === 'drop' && seedKeys.has(d.kellyId))
-      .map(({ d }) => `${d.lemma ?? '?'} (id ${d.kellyId})`)
+  it('every kellyId resolved to drop is absent from the built seed', () => {
+    const resolved = new Map<number, string>()
+    for (const l of decisionLayers) for (const r of layerRecords(l) as { kellyId: number; decision: string }[]) resolved.set(r.kellyId, r.decision)
+    const leaked = [...resolved].filter(([id, d]) => d === 'drop' && seedKeys.has(id)).map(([id]) => `id ${id}`)
     expect(leaked, `These cards are marked drop but still appear in seed-sv.json: ${leaked.join(', ')}`).toEqual([])
   })
+})
 
-  it('every decision references a kellyId that still exists in candidates.json', () => {
-    // Decisions are keyed by kellyId; if a source-dump refresh reshuffles ids, a decision can orphan
-    // (target nothing) or, worse, hit the wrong word. This pins the keys to the committed candidates.
-    const orphans: string[] = []
-    for (const { file, d } of decisionsByFile) if (!candidateIds.has(d.kellyId)) orphans.push(`${file}: id ${d.kellyId}`)
-    for (const d of translationDecisions) if (!candidateIds.has(d.kellyId)) orphans.push(`translation-decisions.json: id ${d.kellyId}`)
-    expect(orphans, `Decisions point at kellyIds absent from candidates.json (stale after a dump bump?): ${orphans.slice(0, 20).join(', ')}`).toEqual([])
-  })
+describe('a clean build has nothing stale', () => {
+  const outDir = mkdtempSync(join(tmpdir(), 'seed-stale-'))
+  afterAll(() => rmSync(outDir, { recursive: true, force: true }))
+
+  it('every committed LLM answer is based on current input (stale.json empty for all layers)', () => {
+    // Recompute staleness fresh (SEED_OUT_DIR redirects the reports off the repo copy), then assert
+    // each layer's report is empty. Turns "did we forget to re-curate after a change?" into red/green.
+    execFileSync('node', ['scripts/seed/stale.mjs'], { cwd: repoRoot, env: { ...process.env, SEED_OUT_DIR: outDir }, stdio: 'ignore' })
+    const stale: string[] = []
+    for (const l of llmLayers) {
+      const report = JSON.parse(readFileSync(join(outDir, layerDir(l), 'stale.json'), 'utf-8')) as unknown[]
+      if (report.length) stale.push(`${l.name}: ${report.length} stale`)
+    }
+    expect(stale, `Layers have stale decisions — run \`pnpm seed:stale\` and re-curate the listed words: ${stale.join(', ')}`).toEqual([])
+  }, 60_000)
 })

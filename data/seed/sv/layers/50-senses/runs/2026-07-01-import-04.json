@@ -1,0 +1,418 @@
+[
+  {
+    "english": "ready, finished, done",
+    "senses": [
+      { "gloss": "ready, done", "members": [555] },
+      { "gloss": "prepared, ready", "members": [2713] }
+    ]
+  },
+  {
+    "english": "authority",
+    "senses": [
+      { "gloss": "government agency", "members": [559] },
+      { "gloss": "mandate, powers", "members": [3034] },
+      { "gloss": "expert authority", "members": [3272] }
+    ]
+  },
+  {
+    "english": "general",
+    "senses": [
+      { "gloss": "universal, common", "members": [561, 2303] },
+      { "gloss": "military rank", "members": [3029] }
+    ]
+  },
+  {
+    "english": "change, alter",
+    "senses": [
+      { "gloss": "to change (verb)", "members": [563, 817] },
+      { "gloss": "a change (noun)", "members": [640, 647] },
+      { "gloss": "shift, transition", "members": [3853] },
+      { "gloss": "coins; gear; exchange", "members": [5545] }
+    ]
+  },
+  {
+    "english": "meet",
+    "senses": [
+      { "gloss": "encounter a person", "members": [564, 595] },
+      { "gloss": "convene formally", "members": [7138] }
+    ]
+  },
+  {
+    "english": "sell",
+    "senses": [
+      { "gloss": "sell goods", "members": [568] },
+      { "gloss": "turn over revenue", "members": [4904] }
+    ]
+  },
+  {
+    "english": "miss; lack",
+    "senses": [
+      { "gloss": "feel absence of", "members": [569] },
+      { "gloss": "fail to catch", "members": [1195] },
+      { "gloss": "Miss, title", "members": [3734] },
+      { "gloss": "mistake", "members": [4527] }
+    ]
+  },
+  {
+    "english": "program",
+    "senses": [
+      { "gloss": "show, software", "members": [570] },
+      { "gloss": "to program", "members": [7286] }
+    ]
+  },
+  {
+    "english": "link",
+    "senses": [
+      { "gloss": "to link (verb)", "members": [572] },
+      { "gloss": "a link (noun)", "members": [627] }
+    ]
+  },
+  {
+    "english": "knowledge",
+    "senses": [
+      { "gloss": "acquired knowledge", "members": [573] },
+      { "gloss": "awareness, knowing", "members": [2984, 4515] }
+    ]
+  },
+  {
+    "english": "quickly",
+    "senses": [
+      { "gloss": "fast, rapidly", "members": [574, 1165] },
+      { "gloss": "hastily, abruptly", "members": [5104] }
+    ]
+  },
+  {
+    "english": "May",
+    "senses": [
+      { "gloss": "month", "members": [575] },
+      { "gloss": "may, feel (verb)", "members": [735] }
+    ]
+  },
+  {
+    "english": "American",
+    "senses": [
+      { "gloss": "American (adjective)", "members": [576] },
+      { "gloss": "an American (noun)", "members": [2228] }
+    ]
+  },
+  {
+    "english": "interpret",
+    "senses": [
+      { "gloss": "", "members": [577, 1269] }
+    ]
+  },
+  {
+    "english": "special, particular",
+    "senses": [
+      { "gloss": "", "members": [578, 1206] }
+    ]
+  },
+  {
+    "english": "beginning, start",
+    "senses": [
+      { "gloss": "", "members": [579, 6144] }
+    ]
+  },
+  {
+    "english": "nice, fine, pretty",
+    "senses": [
+      { "gloss": "nice, attractive", "members": [582] },
+      { "gloss": "pleasant, agreeable", "members": [946] },
+      { "gloss": "comfortable, cool", "members": [1093] }
+    ]
+  },
+  {
+    "english": "carry out, accomplish",
+    "senses": [
+      { "gloss": "execute a plan", "members": [583, 4038] },
+      { "gloss": "carry out tasks", "members": [6190] },
+      { "gloss": "sit an exam, pay a visit", "members": [6223] }
+    ]
+  },
+  {
+    "english": "verdict, sentence",
+    "senses": [
+      { "gloss": "", "members": [587, 5611] }
+    ]
+  },
+  {
+    "english": "risk",
+    "senses": [
+      { "gloss": "a risk (noun)", "members": [588] },
+      { "gloss": "to risk (verb)", "members": [1327] }
+    ]
+  },
+  {
+    "english": "at all",
+    "senses": [
+      { "gloss": "", "members": [590, 1928, 2728] }
+    ]
+  },
+  {
+    "english": "count",
+    "senses": [
+      { "gloss": "to count (verb)", "members": [592] },
+      { "gloss": "nobleman (noun)", "members": [5654] }
+    ]
+  },
+  {
+    "english": "home",
+    "senses": [
+      { "gloss": "", "members": [1033, 1524] }
+    ]
+  },
+  {
+    "english": "idea",
+    "senses": [
+      { "gloss": "", "members": [597, 6062] }
+    ]
+  },
+  {
+    "english": "eat",
+    "senses": [
+      { "gloss": "", "members": [603, 5102] }
+    ]
+  },
+  {
+    "english": "move",
+    "senses": [
+      { "gloss": "relocate (verb)", "members": [606, 4158] },
+      { "gloss": "touch, stir", "members": [616] },
+      { "gloss": "political initiative", "members": [4037] },
+      { "gloss": "relocation (noun)", "members": [4988] },
+      { "gloss": "shift, shuffle over", "members": [8361] }
+    ]
+  },
+  {
+    "english": "light; easy",
+    "senses": [
+      { "gloss": "not heavy; easy", "members": [610] },
+      { "gloss": "light, glow (noun)", "members": [1127, 4226] },
+      { "gloss": "to light, ignite", "members": [3189] }
+    ]
+  },
+  {
+    "english": "market",
+    "senses": [
+      { "gloss": "a market (noun)", "members": [612] },
+      { "gloss": "to market (verb)", "members": [4214] }
+    ]
+  },
+  {
+    "english": "clear",
+    "senses": [
+      { "gloss": "unambiguous (adj)", "members": [614] },
+      { "gloss": "clear away (verb)", "members": [2526] }
+    ]
+  },
+  {
+    "english": "education",
+    "senses": [
+      { "gloss": "", "members": [615, 626] }
+    ]
+  },
+  {
+    "english": "mess, disorder",
+    "senses": [
+      { "gloss": "", "members": [5997, 7454] }
+    ]
+  },
+  {
+    "english": "amount, quantity",
+    "senses": [
+      { "gloss": "an amount (noun)", "members": [619] },
+      { "gloss": "to amount to (verb)", "members": [2316] }
+    ]
+  },
+  {
+    "english": "die",
+    "senses": [
+      { "gloss": "", "members": [622, 6338] }
+    ]
+  },
+  {
+    "english": "March",
+    "senses": [
+      { "gloss": "month", "members": [623] },
+      { "gloss": "a march (noun)", "members": [5445] },
+      { "gloss": "to march (verb)", "members": [5571] }
+    ]
+  },
+  {
+    "english": "increasingly, more and more",
+    "senses": [
+      { "gloss": "", "members": [624, 2218] }
+    ]
+  },
+  {
+    "english": "evening",
+    "senses": [
+      { "gloss": "", "members": [625, 4311] }
+    ]
+  },
+  {
+    "english": "grow",
+    "senses": [
+      { "gloss": "grow (intransitive)", "members": [628] },
+      { "gloss": "cultivate, grow plants", "members": [2951] }
+    ]
+  },
+  {
+    "english": "public",
+    "senses": [
+      { "gloss": "public (adjective)", "members": [630] },
+      { "gloss": "the public (noun)", "members": [1461] }
+    ]
+  },
+  {
+    "english": "water",
+    "senses": [
+      { "gloss": "water (noun)", "members": [633] },
+      { "gloss": "to water (verb)", "members": [7189] }
+    ]
+  },
+  {
+    "english": "direction",
+    "senses": [
+      { "gloss": "spatial direction", "members": [634, 1414] },
+      { "gloss": "orientation, focus", "members": [1902] },
+      { "gloss": "film direction", "members": [4232] }
+    ]
+  },
+  {
+    "english": "grasp, take",
+    "senses": [
+      { "gloss": "take hold, decide", "members": [637] },
+      { "gloss": "understand", "members": [2866] }
+    ]
+  },
+  {
+    "english": "earth, soil",
+    "senses": [
+      { "gloss": "soil, ground", "members": [638] },
+      { "gloss": "the planet", "members": [6817] }
+    ]
+  },
+  {
+    "english": "mention, name",
+    "senses": [
+      { "gloss": "to mention (verb)", "members": [641, 5826] },
+      { "gloss": "a mention (noun)", "members": [7769] }
+    ]
+  },
+  {
+    "english": "unfortunately",
+    "senses": [
+      { "gloss": "", "members": [642, 2966] }
+    ]
+  },
+  {
+    "english": "individual, private",
+    "senses": [
+      { "gloss": "individual (adjective)", "members": [643, 2004] },
+      { "gloss": "an individual (noun)", "members": [821] }
+    ]
+  },
+  {
+    "english": "dot, full stop",
+    "senses": [
+      { "gloss": "", "members": [646, 5877] }
+    ]
+  },
+  {
+    "english": "yesterday",
+    "senses": [
+      { "gloss": "yesterday (adverb)", "members": [649] },
+      { "gloss": "yesterday (noun)", "members": [2731] }
+    ]
+  },
+  {
+    "english": "commission",
+    "senses": [
+      { "gloss": "committee, body", "members": [650] },
+      { "gloss": "assignment, task", "members": [918] },
+      { "gloss": "to commission (verb)", "members": [7174] },
+      { "gloss": "fee, percentage", "members": [7495] }
+    ]
+  },
+  {
+    "english": "assume, suppose",
+    "senses": [
+      { "gloss": "", "members": [652, 1156, 1923] }
+    ]
+  },
+  {
+    "english": "language",
+    "senses": [
+      { "gloss": "a language", "members": [655] },
+      { "gloss": "wording, phrasing", "members": [2547] }
+    ]
+  },
+  {
+    "english": "meeting",
+    "senses": [
+      { "gloss": "informal meeting", "members": [660, 3804] },
+      { "gloss": "formal session", "members": [3942] }
+    ]
+  },
+  {
+    "english": "food",
+    "senses": [
+      { "gloss": "", "members": [661, 4525, 2962] }
+    ]
+  },
+  {
+    "english": "participate, take part",
+    "senses": [
+      { "gloss": "", "members": [664, 2021] }
+    ]
+  },
+  {
+    "english": "collaboration, cooperation",
+    "senses": [
+      { "gloss": "", "members": [665, 2553] }
+    ]
+  },
+  {
+    "english": "otherwise, or else",
+    "senses": [
+      { "gloss": "or else, if not", "members": [666] },
+      { "gloss": "in other respects", "members": [1573, 2931] }
+    ]
+  },
+  {
+    "english": "start",
+    "senses": [
+      { "gloss": "to start (verb)", "members": [671, 2132] },
+      { "gloss": "a start (noun)", "members": [1816] }
+    ]
+  },
+  {
+    "english": "realize",
+    "senses": [
+      { "gloss": "become aware", "members": [672] },
+      { "gloss": "make real, bring about", "members": [3038, 6211] }
+    ]
+  },
+  {
+    "english": "court",
+    "senses": [
+      { "gloss": "royal court", "members": [674] },
+      { "gloss": "court of law", "members": [971] }
+    ]
+  },
+  {
+    "english": "open",
+    "senses": [
+      { "gloss": "open (adjective)", "members": [675] },
+      { "gloss": "to open (verb)", "members": [754] }
+    ]
+  },
+  {
+    "english": "death",
+    "senses": [
+      { "gloss": "death (noun)", "members": [677, 3627] },
+      { "gloss": "to death (particle)", "members": [2842] }
+    ]
+  }
+]

@@ -6,12 +6,12 @@ import { fileURLToPath } from 'node:url'
 import { afterAll, describe, expect, it } from 'vitest'
 
 // Guard against the SPEC §9.4 invariant "fixes live in the inputs, never the output": the committed
-// data/seed-sv.json must be exactly what `seed:apply` produces from the committed inputs
-// (candidates.json + the decisions/examples/sense/translation files). If a fix is ever applied to the
-// output but not saved as a decision — as happened with the lost pilot fixes for misshandel/län/gud/
-// lämpa sig — this test fails, because re-applying from the inputs no longer reproduces the seed.
+// data/seed/sv/seed-sv.json must be exactly what `seed:apply` produces from the committed inputs
+// (base.json + the manifest-ordered layers). If a fix is ever applied to the output but not saved as a
+// layer decision — as happened with the lost pilot fixes for misshandel/län/gud/lämpa sig — this test
+// fails, because re-applying from the inputs no longer reproduces the seed.
 const repoRoot = fileURLToPath(new URL('..', import.meta.url))
-const committed = JSON.parse(readFileSync(join(repoRoot, 'data/seed-sv.json'), 'utf-8'))
+const committed = JSON.parse(readFileSync(join(repoRoot, 'data/seed/sv/seed-sv.json'), 'utf-8'))
 
 describe('seed-sv.json is reproducible from committed inputs', () => {
   const outDir = mkdtempSync(join(tmpdir(), 'seed-verify-'))
@@ -24,7 +24,7 @@ describe('seed-sv.json is reproducible from committed inputs', () => {
       env: { ...process.env, SEED_OUT_DIR: outDir },
       stdio: 'ignore',
     })
-    const regenerated = JSON.parse(readFileSync(join(outDir, 'data/seed-sv.json'), 'utf-8'))
+    const regenerated = JSON.parse(readFileSync(join(outDir, 'data/seed/sv/seed-sv.json'), 'utf-8'))
 
     expect(regenerated.count).toBe(committed.count)
 

@@ -1,0 +1,389 @@
+[
+  {
+    "english": "sanction, penalty",
+    "senses": [
+      { "gloss": "", "members": [3977, 4442] }
+    ]
+  },
+  {
+    "english": "talent",
+    "senses": [
+      { "gloss": "", "members": [3980, 6588] }
+    ]
+  },
+  {
+    "english": "testimony, testament",
+    "senses": [
+      { "gloss": "", "members": [3989, 5114] }
+    ]
+  },
+  {
+    "english": "join, attach, append",
+    "senses": [
+      { "gloss": "", "members": [4004, 7866] }
+    ]
+  },
+  {
+    "english": "bay, inlet, creek",
+    "senses": [
+      { "gloss": "", "members": [4012, 6730] }
+    ]
+  },
+  {
+    "english": "recruit",
+    "senses": [
+      { "gloss": "", "members": [4014, 4470] }
+    ]
+  },
+  {
+    "english": "width, breadth",
+    "senses": [
+      { "gloss": "physical dimension", "members": [4021] },
+      { "gloss": "extent, expanse", "members": [5250] }
+    ]
+  },
+  {
+    "english": "disability, handicap",
+    "senses": [
+      { "gloss": "", "members": [4023, 4762] }
+    ]
+  },
+  {
+    "english": "provided that",
+    "senses": [
+      { "gloss": "", "members": [4024, 4539] }
+    ]
+  },
+  {
+    "english": "knowledgeable, skilled",
+    "senses": [
+      { "gloss": "generally knowledgeable", "members": [4056] },
+      { "gloss": "subject-matter expert", "members": [5982] }
+    ]
+  },
+  {
+    "english": "performance, achievement",
+    "senses": [
+      { "gloss": "accomplishment", "members": [4067] },
+      { "gloss": "public appearance", "members": [6853] },
+      { "gloss": "technical capability", "members": [6431] }
+    ]
+  },
+  {
+    "english": "inappropriate, unsuitable",
+    "senses": [
+      { "gloss": "", "members": [4068, 5058] }
+    ]
+  },
+  {
+    "english": "reward",
+    "senses": [
+      { "gloss": "noun", "members": [4069] },
+      { "gloss": "verb", "members": [4242] }
+    ]
+  },
+  {
+    "english": "seat",
+    "senses": [
+      { "gloss": "headquarters", "members": [4071] },
+      { "gloss": "place to sit", "members": [7236] }
+    ]
+  },
+  {
+    "english": "set",
+    "senses": [
+      { "gloss": "", "members": [4075, 7774] }
+    ]
+  },
+  {
+    "english": "birth",
+    "senses": [
+      { "gloss": "", "members": [4080, 6439] }
+    ]
+  },
+  {
+    "english": "worldview",
+    "senses": [
+      { "gloss": "", "members": [4084, 7446] }
+    ]
+  },
+  {
+    "english": "consume",
+    "senses": [
+      { "gloss": "", "members": [4088, 5518] }
+    ]
+  },
+  {
+    "english": "everyday, casual, mundane",
+    "senses": [
+      { "gloss": "", "members": [4089, 7930] }
+    ]
+  },
+  {
+    "english": "ministry",
+    "senses": [
+      { "gloss": "", "members": [4095, 7386] }
+    ]
+  },
+  {
+    "english": "guidance",
+    "senses": [
+      { "gloss": "", "members": [4128, 6600] }
+    ]
+  },
+  {
+    "english": "betray, let down, disappoint",
+    "senses": [
+      { "gloss": "", "members": [4136, 7251] }
+    ]
+  },
+  {
+    "english": "exclaim, cry out",
+    "senses": [
+      { "gloss": "", "members": [4144, 6019] }
+    ]
+  },
+  {
+    "english": "pot, kitty",
+    "senses": [
+      { "gloss": "prize pool", "members": [4151] },
+      { "gloss": "can, jar", "members": [4439] },
+      { "gloss": "cooking pot", "members": [6460, 6873] }
+    ]
+  },
+  {
+    "english": "invention",
+    "senses": [
+      { "gloss": "technical device", "members": [4164] },
+      { "gloss": "creative idea", "members": [6590] }
+    ]
+  },
+  {
+    "english": "qualification, competence, authority",
+    "senses": [
+      { "gloss": "authorization", "members": [4169] },
+      { "gloss": "qualifying credential", "members": [6317, 8324] }
+    ]
+  },
+  {
+    "english": "associate, connect",
+    "senses": [
+      { "gloss": "", "members": [4170, 6111] }
+    ]
+  },
+  {
+    "english": "nurse",
+    "senses": [
+      { "gloss": "", "members": [4173, 8384] }
+    ]
+  },
+  {
+    "english": "processing",
+    "senses": [
+      { "gloss": "administrative handling", "members": [4200, 5008] },
+      { "gloss": "material reworking", "members": [6100] }
+    ]
+  },
+  {
+    "english": "widely",
+    "senses": [
+      { "gloss": "", "members": [4215, 4989] }
+    ]
+  },
+  {
+    "english": "clarity",
+    "senses": [
+      { "gloss": "", "members": [4221, 4251] }
+    ]
+  },
+  {
+    "english": "acquire, get, purchase",
+    "senses": [
+      { "gloss": "", "members": [4231, 7597] }
+    ]
+  },
+  {
+    "english": "contemporary",
+    "senses": [
+      { "gloss": "of the same era", "members": [4247] },
+      { "gloss": "of the present", "members": [4773] }
+    ]
+  },
+  {
+    "english": "savior",
+    "senses": [
+      { "gloss": "", "members": [4293, 7601] }
+    ]
+  },
+  {
+    "english": "cult",
+    "senses": [
+      { "gloss": "religious splinter group", "members": [4307] },
+      { "gloss": "devotion, cult", "members": [6537] }
+    ]
+  },
+  {
+    "english": "upbringing",
+    "senses": [
+      { "gloss": "childhood years", "members": [4318] },
+      { "gloss": "raising, education", "members": [5702] }
+    ]
+  },
+  {
+    "english": "coordinate, organize",
+    "senses": [
+      { "gloss": "", "members": [4321, 7499] }
+    ]
+  },
+  {
+    "english": "observation",
+    "senses": [
+      { "gloss": "noticing, remark", "members": [4327, 5705] },
+      { "gloss": "contemplation", "members": [5862] }
+    ]
+  },
+  {
+    "english": "restriction, limitation",
+    "senses": [
+      { "gloss": "", "members": [4329, 4911] }
+    ]
+  },
+  {
+    "english": "prominent, conspicuous",
+    "senses": [
+      { "gloss": "", "members": [4342, 4939] }
+    ]
+  },
+  {
+    "english": "spin, rotate",
+    "senses": [
+      { "gloss": "rotate, whirl", "members": [4357] },
+      { "gloss": "make yarn", "members": [6553] }
+    ]
+  },
+  {
+    "english": "broadcast",
+    "senses": [
+      { "gloss": "", "members": [4359, 7935] }
+    ]
+  },
+  {
+    "english": "baby",
+    "senses": [
+      { "gloss": "", "members": [4360, 5628] }
+    ]
+  },
+  {
+    "english": "palm",
+    "senses": [
+      { "gloss": "palm tree", "members": [4382] },
+      { "gloss": "palm of hand", "members": [7892] }
+    ]
+  },
+  {
+    "english": "shock",
+    "senses": [
+      { "gloss": "noun", "members": [4385] },
+      { "gloss": "verb", "members": [7941] }
+    ]
+  },
+  {
+    "english": "consent",
+    "senses": [
+      { "gloss": "noun", "members": [4387] },
+      { "gloss": "verb", "members": [6592] }
+    ]
+  },
+  {
+    "english": "cinema, movie theater, the movies",
+    "senses": [
+      { "gloss": "", "members": [4394, 6237] }
+    ]
+  },
+  {
+    "english": "knot",
+    "senses": [
+      { "gloss": "", "members": [4399, 7277] }
+    ]
+  },
+  {
+    "english": "acquisition",
+    "senses": [
+      { "gloss": "", "members": [4419, 8068] }
+    ]
+  },
+  {
+    "english": "signature",
+    "senses": [
+      { "gloss": "written signature", "members": [7166, 8056] },
+      { "gloss": "hallmark, byline", "members": [4424] }
+    ]
+  },
+  {
+    "english": "stem, descend",
+    "senses": [
+      { "gloss": "to descend from", "members": [4449] },
+      { "gloss": "plant stem", "members": [8236] }
+    ]
+  },
+  {
+    "english": "occupy",
+    "senses": [
+      { "gloss": "", "members": [4465, 7190] }
+    ]
+  },
+  {
+    "english": "liberation",
+    "senses": [
+      { "gloss": "", "members": [4468, 5838] }
+    ]
+  },
+  {
+    "english": "highlight, high point",
+    "senses": [
+      { "gloss": "noun", "members": [4476] },
+      { "gloss": "verb", "members": [6137] }
+    ]
+  },
+  {
+    "english": "establishment",
+    "senses": [
+      { "gloss": "power structure", "members": [4480] },
+      { "gloss": "act of founding", "members": [5547] }
+    ]
+  },
+  {
+    "english": "nationalist, nationalistic",
+    "senses": [
+      { "gloss": "adjective", "members": [4484] },
+      { "gloss": "noun", "members": [5665] }
+    ]
+  },
+  {
+    "english": "single",
+    "senses": [
+      { "gloss": "noun", "members": [4493] },
+      { "gloss": "adjective", "members": [4860] }
+    ]
+  },
+  {
+    "english": "surround",
+    "senses": [
+      { "gloss": "", "members": [4503, 7154] }
+    ]
+  },
+  {
+    "english": "Iraqi",
+    "senses": [
+      { "gloss": "adjective", "members": [4509] },
+      { "gloss": "noun", "members": [5886] }
+    ]
+  },
+  {
+    "english": "spy, scout",
+    "senses": [
+      { "gloss": "verb", "members": [4534] },
+      { "gloss": "noun", "members": [7227] }
+    ]
+  }
+]

@@ -1,0 +1,432 @@
+[
+  {
+    "english": "a little, to a small extent",
+    "senses": [
+      { "gloss": "", "members": [172, 4957] }
+    ]
+  },
+  {
+    "english": "above",
+    "senses": [
+      { "gloss": "spatially over", "members": [176, 3187] },
+      { "gloss": "as mentioned above", "members": [1076] }
+    ]
+  },
+  {
+    "english": "over",
+    "senses": [
+      { "gloss": "past, beyond", "members": [2096] },
+      { "gloss": "finished, done", "members": [1707, 5029] }
+    ]
+  },
+  {
+    "english": "give",
+    "senses": [
+      { "gloss": "hand over", "members": [177] },
+      { "gloss": "donate, bestow", "members": [3004] }
+    ]
+  },
+  {
+    "english": "part, share",
+    "senses": [
+      { "gloss": "portion", "members": [179] },
+      { "gloss": "partly, and also", "members": [687] }
+    ]
+  },
+  {
+    "english": "here",
+    "senses": [
+      { "gloss": "at this place", "members": [180] },
+      { "gloss": "to this place", "members": [1200] }
+    ]
+  },
+  {
+    "english": "write",
+    "senses": [
+      { "gloss": "write, type", "members": [182] },
+      { "gloss": "author, compose", "members": [6167] }
+    ]
+  },
+  {
+    "english": "time",
+    "senses": [
+      { "gloss": "duration, period", "members": [183] },
+      { "gloss": "occasion, instance", "members": [218] }
+    ]
+  },
+  {
+    "english": "of course, you know, after all",
+    "senses": [
+      { "gloss": "as you know", "members": [2660] },
+      { "gloss": "of course, naturally", "members": [580, 820, 924, 1238, 2300, 3253] }
+    ]
+  },
+  {
+    "english": "since",
+    "senses": [
+      { "gloss": "since (time)", "members": [508] },
+      { "gloss": "since (causal)", "members": [1123] }
+    ]
+  },
+  {
+    "english": "appear, seem",
+    "senses": [
+      { "gloss": "come across as", "members": [186, 1811] },
+      { "gloss": "perform, appear publicly", "members": [3304] },
+      { "gloss": "be published", "members": [5313] }
+    ]
+  },
+  {
+    "english": "tear, to rip",
+    "senses": [
+      { "gloss": "rip, shred", "members": [187] },
+      { "gloss": "teardrop", "members": [3056] }
+    ]
+  },
+  {
+    "english": "begin, start",
+    "senses": [
+      { "gloss": "start, commence", "members": [188] },
+      { "gloss": "open, introduce", "members": [1037] }
+    ]
+  },
+  {
+    "english": "Swedish",
+    "senses": [
+      { "gloss": "adjective", "members": [194] },
+      { "gloss": "language or woman", "members": [1844] }
+    ]
+  },
+  {
+    "english": "question",
+    "senses": [
+      { "gloss": "inquiry, issue", "members": [195] },
+      { "gloss": "challenge, call into doubt", "members": [1298] }
+    ]
+  },
+  {
+    "english": "ask, inquire",
+    "senses": [
+      { "gloss": "ask for information", "members": [501] },
+      { "gloss": "ask, request", "members": [645] }
+    ]
+  },
+  {
+    "english": "electricity",
+    "senses": [
+      { "gloss": "", "members": [198, 5561] }
+    ]
+  },
+  {
+    "english": "think, reckon",
+    "senses": [
+      { "gloss": "have an opinion", "members": [199] },
+      { "gloss": "ponder, consider", "members": [232, 875] }
+    ]
+  },
+  {
+    "english": "comment",
+    "senses": [
+      { "gloss": "noun: remark", "members": [200] },
+      { "gloss": "verb: remark on", "members": [701] },
+      { "gloss": "viewpoint", "members": [1518] }
+    ]
+  },
+  {
+    "english": "attempt, try",
+    "senses": [
+      { "gloss": "verb: try", "members": [203] },
+      { "gloss": "noun: attempt", "members": [860] }
+    ]
+  },
+  {
+    "english": "need",
+    "senses": [
+      { "gloss": "verb: require", "members": [204] },
+      { "gloss": "noun: necessity", "members": [524] }
+    ]
+  },
+  {
+    "english": "same",
+    "senses": [
+      { "gloss": "the same (pronoun)", "members": [205, 1815, 2782] },
+      { "gloss": "identical, alike", "members": [3582] }
+    ]
+  },
+  {
+    "english": "between",
+    "senses": [
+      { "gloss": "", "members": [206, 3098] }
+    ]
+  },
+  {
+    "english": "row",
+    "senses": [
+      { "gloss": "row a boat", "members": [209] },
+      { "gloss": "line, a note", "members": [548] }
+    ]
+  },
+  {
+    "english": "peace, tranquility",
+    "senses": [
+      { "gloss": "calm, serenity", "members": [801, 2331] },
+      { "gloss": "peace, no war", "members": [1324] }
+    ]
+  },
+  {
+    "english": "sound; let, allow",
+    "senses": [
+      { "gloss": "verb: sound, resound", "members": [212, 7516] },
+      { "gloss": "noun: sound, tone", "members": [1888, 6268] },
+      { "gloss": "healthy, wholesome", "members": [2284] }
+    ]
+  },
+  {
+    "english": "different",
+    "senses": [
+      { "gloss": "", "members": [213, 1883] }
+    ]
+  },
+  {
+    "english": "such, such a",
+    "senses": [
+      { "gloss": "", "members": [214, 2986] }
+    ]
+  },
+  {
+    "english": "way, manner",
+    "senses": [
+      { "gloss": "", "members": [215, 1192] }
+    ]
+  },
+  {
+    "english": "stand",
+    "senses": [
+      { "gloss": "be standing", "members": [219] },
+      { "gloss": "spectator stand", "members": [5979] },
+      { "gloss": "rack, holder", "members": [8090] }
+    ]
+  },
+  {
+    "english": "show, display",
+    "senses": [
+      { "gloss": "verb: show, exhibit", "members": [221, 3321] },
+      { "gloss": "noun: viewing, event", "members": [1667] },
+      { "gloss": "noun: performance", "members": [4671] },
+      { "gloss": "direct, allocate", "members": [6456] }
+    ]
+  },
+  {
+    "english": "song, folk song",
+    "senses": [
+      { "gloss": "folk song, ballad", "members": [1760] },
+      { "gloss": "song, track", "members": [974] }
+    ]
+  },
+  {
+    "english": "use",
+    "senses": [
+      { "gloss": "verb: use", "members": [222, 1083] },
+      { "gloss": "noun: usage", "members": [1326, 3495] },
+      { "gloss": "noun: custom, practice", "members": [1719] }
+    ]
+  },
+  {
+    "english": "turn",
+    "senses": [
+      { "gloss": "verb: turn, flip", "members": [223, 3362] },
+      { "gloss": "turn of events", "members": [1139] },
+      { "gloss": "revolution, lap", "members": [2734] },
+      { "gloss": "bend, curve", "members": [3958] }
+    ]
+  },
+  {
+    "english": "hold",
+    "senses": [
+      { "gloss": "grip, keep", "members": [224] },
+      { "gloss": "contain, fit", "members": [2554] },
+      { "gloss": "possess a position", "members": [2819] },
+      { "gloss": "noun: grip, stronghold", "members": [5103] }
+    ]
+  },
+  {
+    "english": "through",
+    "senses": [
+      { "gloss": "", "members": [225, 657] }
+    ]
+  },
+  {
+    "english": "important",
+    "senses": [
+      { "gloss": "significant", "members": [234] },
+      { "gloss": "urgent, keen", "members": [2272] }
+    ]
+  },
+  {
+    "english": "ring",
+    "senses": [
+      { "gloss": "circular object", "members": [235] },
+      { "gloss": "call, phone", "members": [955] }
+    ]
+  },
+  {
+    "english": "government",
+    "senses": [
+      { "gloss": "cabinet, administration", "members": [244] },
+      { "gloss": "rule, governance", "members": [3660] }
+    ]
+  },
+  {
+    "english": "search, seek",
+    "senses": [
+      { "gloss": "verb: look for", "members": [247, 1318] },
+      { "gloss": "noun: query", "members": [889, 1019] },
+      { "gloss": "noun: quest", "members": [4471] }
+    ]
+  },
+  {
+    "english": "thing",
+    "senses": [
+      { "gloss": "object, matter", "members": [250, 1240, 1804] },
+      { "gloss": "a bit, a whit", "members": [4335] }
+    ]
+  },
+  {
+    "english": "lie",
+    "senses": [
+      { "gloss": "lie down, be located", "members": [254] },
+      { "gloss": "noun: untruth", "members": [2087] },
+      { "gloss": "verb: tell a lie", "members": [2392] }
+    ]
+  },
+  {
+    "english": "both",
+    "senses": [
+      { "gloss": "both…and (conjunction)", "members": [256] },
+      { "gloss": "both (pronoun)", "members": [486] }
+    ]
+  },
+  {
+    "english": "number, quantity, amount",
+    "senses": [
+      { "gloss": "count, quantity", "members": [259] },
+      { "gloss": "mathematical number", "members": [273] },
+      { "gloss": "identifier number", "members": [560] }
+    ]
+  },
+  {
+    "english": "problem, issue",
+    "senses": [
+      { "gloss": "problem, difficulty", "members": [262] },
+      { "gloss": "question, issue", "members": [3283] }
+    ]
+  },
+  {
+    "english": "fall",
+    "senses": [
+      { "gloss": "noun: fall, case", "members": [263] },
+      { "gloss": "verb: fall, tumble", "members": [667, 3695] }
+    ]
+  },
+  {
+    "english": "each, every",
+    "senses": [
+      { "gloss": "each, every", "members": [267] },
+      { "gloss": "each of two", "members": [4402] },
+      { "gloss": "one each, apiece", "members": [4760] }
+    ]
+  },
+  {
+    "english": "article",
+    "senses": [
+      { "gloss": "newspaper article", "members": [268] },
+      { "gloss": "essay", "members": [3930] }
+    ]
+  },
+  {
+    "english": "consider, think, believe",
+    "senses": [
+      { "gloss": "hold the opinion", "members": [269] },
+      { "gloss": "take into account", "members": [2167] },
+      { "gloss": "weigh up, deliberate", "members": [2366] }
+    ]
+  },
+  {
+    "english": "practice, train",
+    "senses": [
+      { "gloss": "verb: drill, rehearse", "members": [270] },
+      { "gloss": "noun: practice vs theory", "members": [1182, 3067] },
+      { "gloss": "verb: practice profession", "members": [5370] }
+    ]
+  },
+  {
+    "english": "team, workgroup",
+    "senses": [
+      { "gloss": "", "members": [271, 7752] }
+    ]
+  },
+  {
+    "english": "law",
+    "senses": [
+      { "gloss": "rule, regulation", "members": [333] },
+      { "gloss": "jurisprudence, field", "members": [4746] }
+    ]
+  },
+  {
+    "english": "hit",
+    "senses": [
+      { "gloss": "noun: blow, stroke", "members": [272] },
+      { "gloss": "verb: strike, beat", "members": [378] },
+      { "gloss": "verb: hit a target", "members": [4856] }
+    ]
+  },
+  {
+    "english": "book",
+    "senses": [
+      { "gloss": "noun: book", "members": [276] },
+      { "gloss": "verb: reserve", "members": [2625] }
+    ]
+  },
+  {
+    "english": "shop, buy",
+    "senses": [
+      { "gloss": "verb: go shopping", "members": [278, 5535] },
+      { "gloss": "noun: store", "members": [1411, 1737] }
+    ]
+  },
+  {
+    "english": "increase",
+    "senses": [
+      { "gloss": "verb: grow, rise", "members": [283] },
+      { "gloss": "noun: rise, growth", "members": [1020] }
+    ]
+  },
+  {
+    "english": "therefore",
+    "senses": [
+      { "gloss": "", "members": [284, 304] }
+    ]
+  },
+  {
+    "english": "late",
+    "senses": [
+      { "gloss": "adjective", "members": [285] },
+      { "gloss": "adverb", "members": [364] }
+    ]
+  },
+  {
+    "english": "always",
+    "senses": [
+      { "gloss": "", "members": [288, 3934] }
+    ]
+  },
+  {
+    "english": "work, job",
+    "senses": [
+      { "gloss": "verb: be employed", "members": [391, 482] },
+      { "gloss": "verb: function", "members": [396] },
+      { "gloss": "noun: job, effort", "members": [290] },
+      { "gloss": "noun: artistic work", "members": [935, 5920] }
+    ]
+  }
+]

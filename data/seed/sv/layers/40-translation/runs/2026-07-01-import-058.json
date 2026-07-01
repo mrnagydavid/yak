@@ -1,0 +1,316 @@
+[
+  {
+    "kellyId": 6737,
+    "decision": "fix",
+    "reason": "electronics (the field/subject) is uncountable",
+    "translation": "electronics",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6977,
+    "decision": "fix",
+    "reason": "senses list was incomplete — only one item listed despite two distinct meanings",
+    "translation": "embryo",
+    "senses": ["embryo (unborn organism)", "embryo, germ (early stage of something)"]
+  },
+  {
+    "kellyId": 5690,
+    "decision": "fix",
+    "reason": "senses list included a noun use ('an English speaker') which is wrong for an adjective; restructured to the two main adjectival uses",
+    "translation": "English-speaking, English-language",
+    "senses": ["English-speaking, Anglophone (of people)", "English-language, in English (of texts, media)"]
+  },
+  {
+    "kellyId": 6041,
+    "decision": "fix",
+    "reason": "senses list first item was a definition ('something that took place'), not a translation; primary sense missing from list",
+    "senses": ["episode (event, incident)", "episode (in a TV or radio series)"]
+  },
+  {
+    "kellyId": 6989,
+    "decision": "fix",
+    "reason": "senses list was incomplete — three distinct meanings but only two in the list; primary sense missing",
+    "senses": ["essence (inherent nature)", "essence, fragrance, perfume", "essence, extract, concentrate (of a plant)"]
+  },
+  {
+    "kellyId": 6276,
+    "decision": "fix",
+    "reason": "expertise is uncountable",
+    "translation": "expertise",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6426,
+    "decision": "fix",
+    "reason": "senses list items were definition-like; primary missing from list",
+    "senses": ["faculty (university division)", "factorial (mathematics)"]
+  },
+  {
+    "kellyId": 6087,
+    "decision": "fix",
+    "reason": "senses list was missing the primary meaning",
+    "senses": ["embrace, arms", "fathom (unit of length)"]
+  },
+  {
+    "kellyId": 6199,
+    "decision": "fix",
+    "reason": "translation had embedded article 'a' — app adds the article",
+    "translation": "banner, flag",
+    "senses": []
+  },
+  {
+    "kellyId": 5629,
+    "decision": "fix",
+    "reason": "senses list was missing the primary meaning",
+    "senses": ["saucer (small dish)", "plate, platter (for serving)", "barrel, cask (for oil, wine, beer)", "barrel (unit of volume)"]
+  },
+  {
+    "kellyId": 6200,
+    "decision": "fix",
+    "reason": "senses list was missing the primary meaning; two distinct uses (document vs machine)",
+    "senses": ["fax (document, message)", "fax machine"]
+  },
+  {
+    "kellyId": 5843,
+    "decision": "fix",
+    "reason": "senses list was missing the primary meaning; trimmed to most useful senses",
+    "senses": ["five (the digit, or 5-kronor coin)", "fifth-grader; pupil in year 5", "fifth year (in school)", "fifth gear"]
+  },
+  {
+    "kellyId": 6940,
+    "decision": "fix",
+    "reason": "senses list was missing the primary meaning",
+    "senses": ["festive", "amusing, comical, funny"]
+  },
+  {
+    "kellyId": 6624,
+    "decision": "fix",
+    "reason": "senses list was missing the primary meaning",
+    "senses": ["felt (cloth)", "blanket"]
+  },
+  {
+    "kellyId": 6257,
+    "decision": "fix",
+    "reason": "translation had embedded article 'a' — app adds the article",
+    "translation": "fisherman, fisher",
+    "senses": []
+  },
+  {
+    "kellyId": 5662,
+    "decision": "fix",
+    "reason": "primary was a definition; 'fell, mountain' is the natural translation; senses list was missing the primary",
+    "translation": "fell, mountain",
+    "senses": ["fell, mountain (treeless Nordic highland)", "scale (of fish or reptiles)"]
+  },
+  {
+    "kellyId": 6779,
+    "decision": "fix",
+    "reason": "senses list was missing the primary meaning",
+    "senses": ["butterfly", "moth, lepidopteran", "butterfly stroke (swimming)"]
+  },
+  {
+    "kellyId": 6632,
+    "decision": "fix",
+    "reason": "primary was definition-like; 'far away, distant' is the natural gloss for this adjective",
+    "translation": "far away, distant",
+    "senses": []
+  },
+  {
+    "kellyId": 6884,
+    "decision": "fix",
+    "reason": "diligence is uncountable; single meaning",
+    "translation": "diligence, industriousness",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5652,
+    "decision": "fix",
+    "reason": "senses list was missing the primary meaning",
+    "senses": ["diligent, hard-working", "prolific, frequent (of creative workers)"]
+  },
+  {
+    "kellyId": 6973,
+    "decision": "fix",
+    "reason": "senses list was missing the primary meaning",
+    "senses": ["wing (of a building)", "grand piano", "flank (military)"]
+  },
+  {
+    "kellyId": 5792,
+    "decision": "fix",
+    "reason": "refugee policy is uncountable in this context",
+    "translation": "refugee policy",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6774,
+    "decision": "fix",
+    "reason": "senses list was missing the primary meaning",
+    "senses": ["fan (electric device)", "breath of wind, light breeze"]
+  },
+  {
+    "kellyId": 5794,
+    "decision": "fix",
+    "reason": "primary was definition-like; simplified to natural verb gloss; senses list was missing the primary",
+    "translation": "flow freely, flow abundantly",
+    "senses": ["flow freely, pour (in great quantities)", "run wild", "prime (a carburetor)"]
+  },
+  {
+    "kellyId": 6242,
+    "decision": "fix",
+    "reason": "senses list was missing the primary meaning",
+    "senses": ["feed, fodder (animal food)", "lining (of textile or wood)", "calyx (botany)"]
+  },
+  {
+    "kellyId": 5829,
+    "decision": "fix",
+    "reason": "subDef was a definition of the word, not a distinct meaning; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 6448,
+    "decision": "fix",
+    "reason": "senses list was missing the primary meaning",
+    "senses": ["form (paper to fill out)", "protocol, convention, tradition"]
+  },
+  {
+    "kellyId": 5617,
+    "decision": "fix",
+    "reason": "senses list was missing the primary meaning",
+    "senses": ["fetus", "product, creation (intellectual)"]
+  },
+  {
+    "kellyId": 6006,
+    "decision": "fix",
+    "reason": "translation had 'to' embedded in two places — clumsy phrasing",
+    "translation": "raise, bring up, nurture",
+    "senses": []
+  },
+  {
+    "kellyId": 6727,
+    "decision": "fix",
+    "reason": "subDef was just a regional variant note, not a distinct meaning; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 6676,
+    "decision": "fix",
+    "reason": "senses list was missing the primary meaning",
+    "senses": ["photography, photographing, shooting (activity)", "photo shoot, photo session"]
+  },
+  {
+    "kellyId": 6462,
+    "decision": "fix",
+    "reason": "translation had 'to' embedded — clumsy phrasing; app adds 'to'",
+    "translation": "transport, freight",
+    "senses": []
+  },
+  {
+    "kellyId": 6137,
+    "decision": "fix",
+    "reason": "'hold up' is an odd gloss here (confusing); 'highlight, emphasize' covers the core meaning cleanly",
+    "translation": "highlight, emphasize",
+    "senses": []
+  },
+  {
+    "kellyId": 6243,
+    "decision": "fix",
+    "reason": "primary 'front side' is fine but senses list was missing the primary; 'upside' sense clarified",
+    "translation": "front, front side",
+    "senses": ["front, front side", "upside, advantage (figurative)"]
+  },
+  {
+    "kellyId": 6055,
+    "decision": "fix",
+    "reason": "senses list first item was a definition; replaced with clean translations; primary missing from list",
+    "senses": ["French (the language)", "French bread, baguette"]
+  },
+  {
+    "kellyId": 5732,
+    "decision": "fix",
+    "reason": "subDefs were not distinct meanings — all three items are just 'temptation'; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 5838,
+    "decision": "fix",
+    "reason": "liberation/emancipation are near-synonyms of the same concept; liberation is uncountable",
+    "translation": "liberation, emancipation",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6895,
+    "decision": "fix",
+    "reason": "translation had embedded article 'a' — app adds the article",
+    "translation": "hairdresser, barber",
+    "senses": []
+  },
+  {
+    "kellyId": 6815,
+    "decision": "fix",
+    "reason": "primary phrasing was clumsy ('or impudent'); senses list was missing the primary",
+    "translation": "brazen, impudent, cheeky",
+    "senses": ["brazen, impudent, cheeky", "audacious, bold (daring act)", "cool, nice (colloquial)"]
+  },
+  {
+    "kellyId": 7005,
+    "decision": "fix",
+    "reason": "moisture and dampness are the same concept; moisture is uncountable; single-meaning word",
+    "translation": "moisture, dampness",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6082,
+    "decision": "fix",
+    "reason": "senses list was missing the primary meaning",
+    "senses": ["damp, moist", "humid", "dank"]
+  },
+  {
+    "kellyId": 5750,
+    "decision": "fix",
+    "reason": "translation had 'to' embedded — clumsy phrasing; app adds 'to'",
+    "translation": "complete, finish",
+    "senses": []
+  },
+  {
+    "kellyId": 7015,
+    "decision": "fix",
+    "reason": "translation had embedded article 'a' — app adds the article",
+    "translation": "mandate, power of attorney",
+    "senses": []
+  },
+  {
+    "kellyId": 6007,
+    "decision": "fix",
+    "reason": "subDef was a definition of the word, not a distinct meaning; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 6984,
+    "decision": "fix",
+    "reason": "translation had embedded article 'a'; senses list was missing the primary",
+    "translation": "fellow, chap",
+    "senses": ["fellow, chap (informal)", "lighthouse", "fire (for heating)"]
+  },
+  {
+    "kellyId": 6445,
+    "decision": "fix",
+    "reason": "captivity is uncountable; single-meaning word",
+    "translation": "captivity",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5770,
+    "decision": "fix",
+    "reason": "exile (the state of being exiled) is uncountable; single-meaning word",
+    "translation": "exile",
+    "uncountable": true,
+    "senses": []
+  }
+]

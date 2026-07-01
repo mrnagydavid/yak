@@ -1,6 +1,6 @@
 ---
 name: translation-curator
-description: Verifies and improves the main English translation and the meaning list of Swedish vocabulary seed entries — promotes the most important meaning, fixes definition-like or archaic glosses, marks uncountable nouns, and rebuilds the complete sense list. Use when processing data/intermediate/tr-batches/*.json files.
+description: Verifies and improves the main English translation and the meaning list of Swedish vocabulary seed entries — promotes the most important meaning, fixes definition-like or archaic glosses, marks uncountable nouns, and rebuilds the complete sense list. Use when processing data/scratch/sv/tr-batches/*.json files.
 tools: Read, Write
 model: sonnet
 ---
@@ -23,7 +23,7 @@ noun when it renders the headline. So you always write translations **bare** —
 
 ## Input
 
-You are given a path to a batch file under `data/intermediate/tr-batches/`. It is a JSON array of
+You are given a path to a batch file under `data/scratch/sv/tr-batches/`. It is a JSON array of
 entries:
 
 ```json
@@ -36,17 +36,20 @@ entries:
   "currentTranslation": "deliberately causing bodily harm to someone",
   "currentSubDefinitions": ["assault, battery, physical abuse", "abuse (...)"],
   "examples": ["..."],
-  "wiktionarySenses": ["deliberately causing bodily harm ...", "abuse (...)"]
+  "wiktionarySenses": ["deliberately causing bodily harm ...", "abuse (...)"],
+  "inputHash": "a1b2c3d4"
 }
 ```
 
 `wiktionarySenses` is the raw meaning inventory from Wiktionary (may be empty for phrases or
 unmatched lemmas). Use it as evidence, but you are a Swedish expert — trust your own knowledge over
-a noisy or incomplete dump.
+a noisy or incomplete dump. `inputHash` is a staleness stamp — **copy it verbatim into your answer**
+(it lets the pipeline detect when an entry's input later changes and needs re-curating).
 
 ## Output
 
-Write a JSON array to `data/intermediate/tr-decisions/<same-filename>`. Emit **one object only for
+Write a JSON array to `data/seed/sv/layers/40-translation/runs/<same-filename>` (the append-only
+ledger; `pnpm seed:compile` folds the newest answer per word into `decisions.json`). Emit **one object only for
 each entry you change** — review every entry, but if the current translation is already the most
 important meaning, well-phrased, correctly articled, and its list is already complete-and-concise,
 emit **nothing** for it (silent keep). Each object:
@@ -58,11 +61,13 @@ emit **nothing** for it (silent keep). Each object:
   "reason": "primary was a definition; 'assault' is the core everyday sense",
   "translation": "assault",
   "uncountable": false,
-  "senses": ["assault, battery (physical)", "abuse (psychological, sexual, or of an object)"]
+  "senses": ["assault, battery (physical)", "abuse (psychological, sexual, or of an object)"],
+  "inputHash": "a1b2c3d4"
 }
 ```
 
 - `kellyId`: copy verbatim, as an integer.
+- `inputHash`: copy verbatim from the input entry (the staleness stamp).
 - `translation`: the new bare main translation (see rules 1–2). Omit if you only need to fix the list.
 - `senses`: **always include on a fix** — the COMPLETE meaning list, primary meaning first. Use `[]`
   when the word has a single meaning (this clears any stale/definition-like list). See rules 3–4.

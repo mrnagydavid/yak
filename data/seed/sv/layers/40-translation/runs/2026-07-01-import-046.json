@@ -1,0 +1,293 @@
+[
+  {
+    "kellyId": 5450,
+    "decision": "fix",
+    "reason": "primary was a definition; 'comprehensive, full' is the clean adjective gloss",
+    "translation": "comprehensive, full",
+    "senses": []
+  },
+  {
+    "kellyId": 5482,
+    "decision": "fix",
+    "reason": "embedded article 'a lift' in the translation; bare form required",
+    "translation": "elevator, lift",
+    "senses": []
+  },
+  {
+    "kellyId": 5542,
+    "decision": "fix",
+    "reason": "embedded article in 'history, a historical account'; 'historik' means a historical account/background, not history in general",
+    "translation": "historical account, background",
+    "senses": []
+  },
+  {
+    "kellyId": 4978,
+    "decision": "fix",
+    "reason": "primary was a definition 'of the Netherlands'; 'Dutch' is the clean adjective",
+    "translation": "Dutch",
+    "senses": []
+  },
+  {
+    "kellyId": 4258,
+    "decision": "fix",
+    "reason": "uncountable noun — app should not prepend 'a'",
+    "translation": "homosexuality",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5049,
+    "decision": "fix",
+    "reason": "sense list merges two distinct senses (drinking/storage vessel vs. sound-making device) and duplicates the horn-as-instrument sense; rebuild cleanly",
+    "translation": "horn",
+    "senses": [
+      "horn (on an animal's head)",
+      "horn (drinking vessel or storage vessel)",
+      "horn, hooter (sound-making device)"
+    ]
+  },
+  {
+    "kellyId": 5216,
+    "decision": "fix",
+    "reason": "sub-def is a definition-like phrase; replace with a concise gloss",
+    "translation": "principal",
+    "senses": [
+      "principal (person who authorizes another to act for them)",
+      "governing body, authority (responsible for an activity)"
+    ]
+  },
+  {
+    "kellyId": 5368,
+    "decision": "fix",
+    "reason": "sub-def has embedded article 'a headache (problem)'; fix to bare form",
+    "translation": "headache",
+    "senses": [
+      "headache (pain in the head)",
+      "headache (problem)"
+    ]
+  },
+  {
+    "kellyId": 5393,
+    "decision": "fix",
+    "reason": "uncountable noun — app should not prepend 'a'",
+    "translation": "hypocrisy",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5379,
+    "decision": "fix",
+    "reason": "sub-def is a definition-like phrase; rebuild senses concisely",
+    "translation": "rental apartment, tenancy",
+    "senses": [
+      "rental apartment (rented from a landlord)",
+      "tenancy right (tenant's right to occupy)"
+    ]
+  },
+  {
+    "kellyId": 4932,
+    "decision": "fix",
+    "reason": "uncountable noun — app should not prepend 'a'",
+    "translation": "revenge, vengeance",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5196,
+    "decision": "fix",
+    "reason": "embedded 'to' in 'ravage, to wreak havoc'; app adds 'to' for verbs",
+    "translation": "ravage, wreak havoc",
+    "senses": []
+  },
+  {
+    "kellyId": 5380,
+    "decision": "fix",
+    "reason": "'hereof' is archaic/formal legalese; modern 'härom' = 'about this'",
+    "translation": "about this",
+    "senses": []
+  },
+  {
+    "kellyId": 4687,
+    "decision": "fix",
+    "reason": "'someone who rules or governs' is padding; 'ruler' alone is clear",
+    "translation": "ruler",
+    "senses": []
+  },
+  {
+    "kellyId": 4476,
+    "decision": "fix",
+    "reason": "everyday primary sense of 'höjdpunkt' is 'highlight' (high point of an event); 'summit, peak' is the literal/geographic sense",
+    "translation": "highlight, high point",
+    "senses": [
+      "highlight, high point (of an event)",
+      "summit, peak (geographic)"
+    ]
+  },
+  {
+    "kellyId": 4623,
+    "decision": "fix",
+    "reason": "sub-defs are definition-like; replace with concise glosses",
+    "translation": "observe, watch",
+    "senses": [
+      "observe, watch (look at carefully)",
+      "observe, follow (a rule or custom)",
+      "consider, take into account"
+    ]
+  },
+  {
+    "kellyId": 5013,
+    "decision": "fix",
+    "reason": "sub-def 'exactly equivalent' is a restatement of 'identical'; single-meaning word",
+    "translation": "identical",
+    "senses": []
+  },
+  {
+    "kellyId": 5217,
+    "decision": "fix",
+    "reason": "current 'catching up, even' is unclear; primary sense is catching up/racing to catch up",
+    "translation": "catching up",
+    "senses": []
+  },
+  {
+    "kellyId": 4243,
+    "decision": "fix",
+    "reason": "sub-def is definition-like; rebuild as concise senses",
+    "translation": "import",
+    "senses": [
+      "import (goods from another country)",
+      "import (files, data)"
+    ]
+  },
+  {
+    "kellyId": 5055,
+    "decision": "fix",
+    "reason": "embedded 'to' in 'include, to involve'; app adds 'to' for verbs",
+    "translation": "include, involve",
+    "senses": []
+  },
+  {
+    "kellyId": 4271,
+    "decision": "fix",
+    "reason": "sub-def 'to convince (of something false)' has embedded 'to'; fix phrasing",
+    "translation": "imagine",
+    "senses": [
+      "imagine, falsely believe",
+      "convince (of something false)"
+    ]
+  },
+  {
+    "kellyId": 4567,
+    "decision": "fix",
+    "reason": "sub-def is a pure duplicate of the primary; single-meaning word",
+    "translation": "intervention, interference",
+    "senses": []
+  },
+  {
+    "kellyId": 5328,
+    "decision": "fix",
+    "reason": "sub-def 'still in the compound inbördeskrig' is a meta-note, not a translation; primary 'mutual, internal, reciprocal' is slightly padded — 'mutual, reciprocal' covers it",
+    "translation": "mutual, reciprocal",
+    "senses": []
+  },
+  {
+    "kellyId": 5329,
+    "decision": "fix",
+    "reason": "sub-def is definition-like; rebuild senses concisely",
+    "translation": "indication",
+    "senses": [
+      "indication, sign",
+      "indication (medical, directing to suitable treatment)"
+    ]
+  },
+  {
+    "kellyId": 4772,
+    "decision": "fix",
+    "reason": "sub-defs are definition-like and redundant; single core sense",
+    "translation": "indicator",
+    "senses": []
+  },
+  {
+    "kellyId": 5068,
+    "decision": "fix",
+    "reason": "'seminal' is a stretch for 'inflytelserik'; 'influential' alone is correct",
+    "translation": "influential",
+    "senses": []
+  },
+  {
+    "kellyId": 4348,
+    "decision": "fix",
+    "reason": "everyday primary of 'ingrepp' is a medical procedure/operation; 'intervention' is less common",
+    "translation": "procedure, operation",
+    "senses": [
+      "procedure, operation (medical or surgical)",
+      "intervention (political or legal)",
+      "encroachment"
+    ]
+  },
+  {
+    "kellyId": 4578,
+    "decision": "fix",
+    "reason": "'intensive' is misleading for 'ingående'; the word means thorough/in-depth",
+    "translation": "thorough, detailed",
+    "senses": []
+  },
+  {
+    "kellyId": 5603,
+    "decision": "fix",
+    "reason": "uncountable noun — app should not prepend 'a'",
+    "translation": "income tax",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4585,
+    "decision": "fix",
+    "reason": "'detention' and 'custody' are not accurate for 'innehav'; it means possession (legal holding); single-meaning word",
+    "translation": "possession",
+    "senses": []
+  },
+  {
+    "kellyId": 4940,
+    "decision": "fix",
+    "reason": "'possessor' is awkward; 'holder, owner' is more natural; sub-def has embedded articles",
+    "translation": "holder, owner",
+    "senses": []
+  },
+  {
+    "kellyId": 5011,
+    "decision": "fix",
+    "reason": "primary 'furnishing' sounds like the act; 'inredning' is the interior decor/furnishings of a space",
+    "translation": "interior decor, furnishings",
+    "senses": []
+  },
+  {
+    "kellyId": 5060,
+    "decision": "fix",
+    "reason": "sub-def 'the activity to gather and collect' is redundant with primary; rebuild senses cleanly",
+    "translation": "collection, fundraiser",
+    "senses": [
+      "collection, gathering",
+      "fundraiser, fundraising campaign"
+    ]
+  },
+  {
+    "kellyId": 5202,
+    "decision": "fix",
+    "reason": "sub-def has embedded article 'an inspectorate'; fix to bare form",
+    "translation": "inspection",
+    "senses": [
+      "inspection (official visit)",
+      "inspectorate (office of an inspector)"
+    ]
+  },
+  {
+    "kellyId": 4670,
+    "decision": "fix",
+    "reason": "embedded 'to' in 'step in, to enter'; app adds 'to' for verbs",
+    "translation": "step in, enter",
+    "senses": [
+      "step into, enter (a place)",
+      "occur, come into effect"
+    ]
+  }
+]

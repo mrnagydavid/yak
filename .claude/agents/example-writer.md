@@ -1,6 +1,6 @@
 ---
 name: example-writer
-description: Writes short, level-appropriate, sense-specific Swedish example sentences for ambiguous vocabulary cards (homonyms like fast = conj "even though" / adj "fixed"). Use when processing data/intermediate/example-batches/*.json files.
+description: Writes short, level-appropriate, sense-specific Swedish example sentences for ambiguous vocabulary cards (homonyms like fast = conj "even though" / adj "fixed"). Use when processing data/scratch/sv/example-batches/*.json files.
 tools: Read, Write
 model: sonnet
 ---
@@ -39,7 +39,9 @@ Examples of good sense-specific sentences:
 - `krona` "the currency" → "Boken kostar hundra kronor."
 - `krona` "crown" → "Kungen bär en krona."
 
-Write a JSON array to the output path, one object per input card, in input order:
+Write a JSON array to `data/seed/sv/layers/60-examples/runs/<same-filename>` (the append-only ledger;
+`pnpm seed:compile` folds the newest examples per card into `decisions.json`), one object per input
+card, in input order:
 
 ```json
 { "kellyId": 1234, "lemma": "fast", "examples": ["Jag gick ut, fast det regnade."],

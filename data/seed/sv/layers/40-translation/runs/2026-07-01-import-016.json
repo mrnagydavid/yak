@@ -1,0 +1,307 @@
+[
+  {
+    "kellyId": 2501,
+    "decision": "fix",
+    "reason": "senses list just repeats the primary ('queen') — single-meaning word, clear it",
+    "translation": "queen",
+    "senses": []
+  },
+  {
+    "kellyId": 2558,
+    "decision": "fix",
+    "reason": "primary is a definition; core senses are 'take time' and 'linger, wait'",
+    "translation": "take time; linger, wait",
+    "senses": ["take time, be delayed", "linger, wait, hold on"]
+  },
+  {
+    "kellyId": 1505,
+    "decision": "fix",
+    "reason": "senses list is missing the primary sleeping-dream sense; cookie sense is too marginal for a learner list",
+    "translation": "dream",
+    "senses": ["dream (while sleeping)", "dream, wish (hope or aspiration)"]
+  },
+  {
+    "kellyId": 2357,
+    "decision": "fix",
+    "reason": "senses list is definition-like and redundant; consolidate into clean two-item list",
+    "translation": "dream",
+    "senses": ["dream (while sleeping)", "dream, hope, wish"]
+  },
+  {
+    "kellyId": 1761,
+    "decision": "fix",
+    "reason": "primary 'good' is vague; 'capable, skilled' is what duktig actually means in Swedish",
+    "translation": "capable, skilled",
+    "senses": []
+  },
+  {
+    "kellyId": 2111,
+    "decision": "fix",
+    "reason": "'nychthemeron' is impenetrable jargon for a learner; rephrase as '24-hour period'",
+    "translation": "24-hour period",
+    "senses": []
+  },
+  {
+    "kellyId": 2462,
+    "decision": "fix",
+    "reason": "'thereto' is archaic; 'in addition, besides' is what a learner needs",
+    "translation": "in addition, besides",
+    "senses": []
+  },
+  {
+    "kellyId": 2305,
+    "decision": "fix",
+    "reason": "verb translation embeds 'to' ('conceal, to hide'); bare form needed",
+    "translation": "conceal, hide",
+    "senses": []
+  },
+  {
+    "kellyId": 2012,
+    "decision": "fix",
+    "reason": "primary 'property' is uncountable in this sense; senses list has stale article-embedded form",
+    "translation": "property",
+    "uncountable": true,
+    "senses": ["property (owned possessions)", "estate, property (land and buildings)"]
+  },
+  {
+    "kellyId": 2651,
+    "decision": "fix",
+    "reason": "third sense is a padded re-statement of the second; drop it",
+    "translation": "real, actual",
+    "senses": ["real, actual", "proper, in the strict sense"]
+  },
+  {
+    "kellyId": 2738,
+    "decision": "fix",
+    "reason": "primary 'unique' is wrong — enstaka means 'occasional, isolated, scattered'; 'unique' is a false friend here",
+    "translation": "occasional, isolated",
+    "senses": ["occasional, isolated, scattered", "individual, single (one at a time)"]
+  },
+  {
+    "kellyId": 1946,
+    "decision": "fix",
+    "reason": "senses list is definition-like filler; 'euro' has one meaning for a learner",
+    "translation": "euro",
+    "senses": []
+  },
+  {
+    "kellyId": 2358,
+    "decision": "fix",
+    "reason": "senses list has redundant 'gospel' entries; consolidate into distinct senses",
+    "translation": "gospel, good news",
+    "senses": ["gospel, good news", "gospel (core doctrine or belief)", "Gospel (book of the New Testament)"]
+  },
+  {
+    "kellyId": 2080,
+    "decision": "fix",
+    "reason": "senses 'hypothetically (as a possibility, in the most neutral sense)' is definition-like padding; single-meaning adverb",
+    "translation": "possibly, perhaps",
+    "senses": []
+  },
+  {
+    "kellyId": 2339,
+    "decision": "fix",
+    "reason": "second sense 'the state of being' is a definition fragment, not a gloss; senses list needs cleaning",
+    "translation": "existence",
+    "uncountable": true,
+    "senses": ["existence (the state of being)", "character, individual (conspicuous person)"]
+  },
+  {
+    "kellyId": 2529,
+    "decision": "fix",
+    "reason": "translation 'factory, a plant' embeds article 'a'; write bare",
+    "translation": "factory, plant",
+    "senses": []
+  },
+  {
+    "kellyId": 2450,
+    "decision": "fix",
+    "reason": "translation 'compartment, a box, a slot' embeds article 'a'; senses gloss is definition-like",
+    "translation": "compartment, slot",
+    "senses": ["compartment, slot, box", "trade, field (of expertise)"]
+  },
+  {
+    "kellyId": 2518,
+    "decision": "fix",
+    "reason": "definition-like gloss; rephrase as a concise learner-friendly adjective phrase",
+    "translation": "trade-union",
+    "senses": []
+  },
+  {
+    "kellyId": 1752,
+    "decision": "fix",
+    "reason": "second sense is a raw Wiktionary definition fragment, not a usable gloss; drop it — 'speed, pace' covers everyday use",
+    "translation": "speed",
+    "senses": ["speed", "momentum, pace"]
+  },
+  {
+    "kellyId": 1745,
+    "decision": "fix",
+    "reason": "translation 'ship or boat, a vessel' embeds article 'a'; 'vessel' is a synonym — 'ship' is the core word",
+    "translation": "ship, vessel",
+    "senses": []
+  },
+  {
+    "kellyId": 2275,
+    "decision": "fix",
+    "reason": "verb translation embeds 'to' ('engage, to enthuse'); write bare",
+    "translation": "engage, enthuse",
+    "senses": ["engage, enthuse", "hire (an actor or performer)"]
+  },
+  {
+    "kellyId": 2251,
+    "decision": "fix",
+    "reason": "senses list is redundant — both items say 'ethical'; single-meaning adjective",
+    "translation": "ethical",
+    "senses": []
+  },
+  {
+    "kellyId": 1826,
+    "decision": "fix",
+    "reason": "senses list is redundant — both items say 'ethnic'; single primary meaning",
+    "translation": "ethnic",
+    "senses": []
+  },
+  {
+    "kellyId": 2591,
+    "decision": "fix",
+    "reason": "senses list is missing the primary 'shape' sense; rebuild with primary first",
+    "translation": "figure",
+    "senses": ["figure, shape (geometric or visual)", "figure (representation, model, or illustration)", "figure (body shape)", "figure (person, character)"]
+  },
+  {
+    "kellyId": 2101,
+    "decision": "fix",
+    "reason": "senses include definition-like items; primary in everyday Swedish is 'file' (computer); clean up list",
+    "translation": "file",
+    "senses": ["file (computer or document)", "lane (traffic)", "row, queue", "soured milk (dairy product)"]
+  },
+  {
+    "kellyId": 1689,
+    "decision": "fix",
+    "reason": "verb translation embeds 'to' ('fix, to organize, to solve'); write bare",
+    "translation": "fix, sort out",
+    "senses": ["fix, sort out, organize", "manage, handle", "kill (slang)"]
+  },
+  {
+    "kellyId": 1570,
+    "decision": "fix",
+    "reason": "verb translation embeds 'to' ('flee, to run away, to escape'); write bare",
+    "translation": "flee, escape",
+    "senses": ["flee, run away, escape", "pass, go by (of time)"]
+  },
+  {
+    "kellyId": 1746,
+    "decision": "fix",
+    "reason": "senses list has definition-like entries; clean to concise glosses",
+    "translation": "fly",
+    "senses": ["fly (through air, on a plane, etc.)", "be on the road, rove (field work)", "be well above standard"]
+  },
+  {
+    "kellyId": 2573,
+    "decision": "fix",
+    "reason": "senses 'direct vote' is a definition fragment embedded in list; single primary meaning",
+    "translation": "referendum",
+    "senses": []
+  },
+  {
+    "kellyId": 2675,
+    "decision": "fix",
+    "reason": "translation 'vehicle, a conveyance' embeds article 'a'; write bare",
+    "translation": "vehicle",
+    "senses": []
+  },
+  {
+    "kellyId": 1967,
+    "decision": "fix",
+    "reason": "verb translation 'shape, give form' embeds a second verb phrase inconsistently; 'shape' is the clean gloss",
+    "translation": "shape, form",
+    "senses": []
+  },
+  {
+    "kellyId": 2337,
+    "decision": "fix",
+    "reason": "verb translation embeds 'to' ('formulate, to put in words'); write bare",
+    "translation": "formulate, put into words",
+    "senses": []
+  },
+  {
+    "kellyId": 2048,
+    "decision": "fix",
+    "reason": "senses 'something which is continued' is a definition fragment; 'sequel, continuation' is the whole meaning",
+    "translation": "sequel, continuation",
+    "senses": []
+  },
+  {
+    "kellyId": 1880,
+    "decision": "fix",
+    "reason": "senses list is redundant (both items say 'forum'); single-meaning word",
+    "translation": "forum",
+    "senses": []
+  },
+  {
+    "kellyId": 1964,
+    "decision": "fix",
+    "reason": "'soccer, football' (the sport) is uncountable; also senses list should reflect the two meanings cleanly",
+    "translation": "soccer, football",
+    "uncountable": true,
+    "senses": ["soccer, football (the sport)", "football (the ball)"]
+  },
+  {
+    "kellyId": 1846,
+    "decision": "fix",
+    "reason": "verb translation embeds 'to' ('express, to deliver'); write bare",
+    "translation": "express, convey",
+    "senses": ["express, convey (an opinion, message, thanks)", "perform (in front of an audience)", "drive (a vehicle)"]
+  },
+  {
+    "kellyId": 1703,
+    "decision": "fix",
+    "reason": "verb translation embeds 'to' ('emphasize, to stress, to point out'); write bare",
+    "translation": "emphasize, stress, point out",
+    "senses": []
+  },
+  {
+    "kellyId": 2266,
+    "decision": "fix",
+    "reason": "'progress' is uncountable; set uncountable flag",
+    "translation": "progress, improvement",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 1990,
+    "decision": "fix",
+    "reason": "verb translation embeds 'to' ('produce, to manufacture'); senses has definition-like second item",
+    "translation": "produce, manufacture",
+    "senses": ["produce, manufacture (goods)", "present, describe, portray"]
+  },
+  {
+    "kellyId": 2297,
+    "decision": "fix",
+    "reason": "'behind' as a sense of efteråt is very marginal/archaic; drop it — the word means 'afterwards'",
+    "translation": "afterwards, after that",
+    "senses": []
+  },
+  {
+    "kellyId": 2009,
+    "decision": "fix",
+    "reason": "verb translation embeds 'to' ('obtain, to receive'); write bare",
+    "translation": "obtain, receive",
+    "senses": []
+  },
+  {
+    "kellyId": 2320,
+    "decision": "fix",
+    "reason": "senses list is fine but 'philosophy (academic discipline)' has definition-like parenthetical that adds nothing; simplify",
+    "translation": "philosophy",
+    "senses": ["philosophy (academic subject)", "philosophy (personal outlook)"]
+  },
+  {
+    "kellyId": 1854,
+    "decision": "fix",
+    "reason": "senses sub-definition 'to focus, to concentrate (attention on a subject, resources to a goal)' is definition-like; clean it",
+    "translation": "focus",
+    "senses": ["focus (a lens or camera)", "focus, concentrate (on a task or goal)"]
+  }
+]

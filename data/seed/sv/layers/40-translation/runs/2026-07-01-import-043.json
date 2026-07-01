@@ -1,0 +1,317 @@
+[
+  {
+    "kellyId": 5429,
+    "decision": "fix",
+    "reason": "embedded articles in translation; single meaning word",
+    "translation": "bookcase, bookshelf",
+    "senses": []
+  },
+  {
+    "kellyId": 5485,
+    "decision": "fix",
+    "reason": "senses list contains definition-like English usage notes, not distinct Swedish meanings",
+    "senses": []
+  },
+  {
+    "kellyId": 4822,
+    "decision": "fix",
+    "reason": "senses list incomplete — missing the primary meaning as first entry",
+    "senses": ["bomb (attack with bombs)", "bomb (cover with graffiti)"]
+  },
+  {
+    "kellyId": 4784,
+    "decision": "fix",
+    "reason": "'a borg' is a Wiktionary artifact (English sci-fi borrowing), not a real Swedish sense to teach",
+    "translation": "castle, fortress",
+    "senses": []
+  },
+  {
+    "kellyId": 4522,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation ('to move'); app adds 'to' for verbs",
+    "translation": "settle, move",
+    "senses": []
+  },
+  {
+    "kellyId": 5615,
+    "decision": "fix",
+    "reason": "broadband is an uncountable noun in English",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5147,
+    "decision": "fix",
+    "reason": "senses list missing the primary meaning as first entry",
+    "senses": ["bride", "girl, chick (informal)"]
+  },
+  {
+    "kellyId": 5388,
+    "decision": "fix",
+    "reason": "senses list missing the primary meaning as first entry",
+    "senses": ["jetty, dock, pier", "bridge (nautical)"]
+  },
+  {
+    "kellyId": 4590,
+    "decision": "fix",
+    "reason": "senses list missing primary as first entry; 'brake flax' is archaic/specialist",
+    "senses": ["argue, quarrel, make trouble", "brake flax (archaic, textile)"]
+  },
+  {
+    "kellyId": 4439,
+    "decision": "fix",
+    "reason": "senses list missing primary meaning as first entry",
+    "senses": ["pot, can, jar", "TV set (colloquial)", "computer case (colloquial)"]
+  },
+  {
+    "kellyId": 4951,
+    "decision": "fix",
+    "reason": "primary includes definition-like filler 'a long sofa without bolster'",
+    "translation": "bench",
+    "senses": ["bench", "bench (sports substitutes)", "workbench", "school desk", "kitchen worktop"]
+  },
+  {
+    "kellyId": 4428,
+    "decision": "fix",
+    "reason": "embedded 'to' in 'to bow'; senses list needs restructuring",
+    "translation": "bend, bow",
+    "senses": ["bend, bow", "lean, stoop", "inflect (grammar)"]
+  },
+  {
+    "kellyId": 4450,
+    "decision": "fix",
+    "reason": "censorship is an uncountable noun in English",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5516,
+    "decision": "fix",
+    "reason": "senses list redundant — driver and chauffeur are the same meaning, not distinct",
+    "senses": []
+  },
+  {
+    "kellyId": 5169,
+    "decision": "fix",
+    "reason": "embedded article 'a crisp' in translation",
+    "translation": "chip, crisp",
+    "senses": []
+  },
+  {
+    "kellyId": 4717,
+    "decision": "fix",
+    "reason": "chocolate is an uncountable noun in English",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5383,
+    "decision": "fix",
+    "reason": "senses list missing primary as first entry",
+    "senses": ["dam", "pond, pool"]
+  },
+  {
+    "kellyId": 5501,
+    "decision": "fix",
+    "reason": "dust is an uncountable noun in English",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4516,
+    "decision": "fix",
+    "reason": "embedded article 'a shareholder' in translation",
+    "translation": "part owner, shareholder",
+    "senses": []
+  },
+  {
+    "kellyId": 5109,
+    "decision": "fix",
+    "reason": "senses list splits one concept (demon) into overly fine sub-types; single core meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 4314,
+    "decision": "fix",
+    "reason": "embedded article 'a protester' in translation",
+    "translation": "demonstrator, protester",
+    "senses": []
+  },
+  {
+    "kellyId": 4343,
+    "decision": "fix",
+    "reason": "senses list splits one adjective into same-word usage notes, not distinct meanings",
+    "senses": []
+  },
+  {
+    "kellyId": 4905,
+    "decision": "fix",
+    "reason": "senses list missing primary as first entry",
+    "senses": ["destructive", "lossy (data compression)"]
+  },
+  {
+    "kellyId": 5537,
+    "decision": "fix",
+    "reason": "diabetes is an uncountable noun in English",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4350,
+    "decision": "fix",
+    "reason": "embedded articles 'a graph, a drawing' in translation",
+    "translation": "diagram, graph",
+    "senses": []
+  },
+  {
+    "kellyId": 4653,
+    "decision": "fix",
+    "reason": "first sense is definition-like; senses need restructuring",
+    "senses": ["counter (in a shop or bar)", "dishwashing, dirty dishes", "disc, disk"]
+  },
+  {
+    "kellyId": 4517,
+    "decision": "fix",
+    "reason": "embedded article 'a range' in translation",
+    "translation": "distance, range",
+    "senses": []
+  },
+  {
+    "kellyId": 4323,
+    "decision": "fix",
+    "reason": "senses list has redundant/confusing math entries; needs clean primary-first structure",
+    "senses": ["distribution", "distribution (mathematics, statistics)"]
+  },
+  {
+    "kellyId": 4668,
+    "decision": "fix",
+    "reason": "documentation is an uncountable noun in English",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5228,
+    "decision": "fix",
+    "reason": "senses list is just the primary repeated; single meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 5611,
+    "decision": "fix",
+    "reason": "senses list is just the primary repeated with '(more generally)'; single meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 5396,
+    "decision": "fix",
+    "reason": "in modern Swedish 'drivande' primarily means driving/motivating (a force, a person); drifting is the literal/nautical sense",
+    "translation": "driving, motivating",
+    "senses": ["driving, motivating (force, person)", "drifting, adrift (ships, ice)"]
+  },
+  {
+    "kellyId": 4829,
+    "decision": "fix",
+    "reason": "senses list splits one word (shower) into usage variants, not distinct meanings",
+    "senses": []
+  },
+  {
+    "kellyId": 5308,
+    "decision": "fix",
+    "reason": "'high-end' is an odd synonym; 'precious, valuable' is cleaner and more accurate",
+    "translation": "precious, valuable",
+    "senses": ["precious, valuable", "costly, expensive"]
+  },
+  {
+    "kellyId": 4629,
+    "decision": "fix",
+    "reason": "sub-sense is same adjective applied to situations rather than people — not a distinct meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 4326,
+    "decision": "fix",
+    "reason": "senses list missing primary as first entry; adding both spellings tyre/tire",
+    "senses": ["tyre, tire", "deck"]
+  },
+  {
+    "kellyId": 4411,
+    "decision": "fix",
+    "reason": "'damp' alone is too narrow/technical; everyday sense is dampen, reduce, soften (lights, pain, noise)",
+    "translation": "dampen, reduce",
+    "senses": ["dampen, reduce, soften", "damp, suppress (vibrations, technical)"]
+  },
+  {
+    "kellyId": 4405,
+    "decision": "fix",
+    "reason": "'thereover' is archaic English; natural gloss is 'in addition, moreover'",
+    "translation": "in addition, moreover",
+    "senses": []
+  },
+  {
+    "kellyId": 4319,
+    "decision": "fix",
+    "reason": "primary is definition-like; cleaner gloss needed",
+    "translation": "put out an appeal for, want",
+    "senses": ["put out an appeal for (witnesses, suspects)", "call for, seek"]
+  },
+  {
+    "kellyId": 4751,
+    "decision": "fix",
+    "reason": "sub-definition is just a definition of 'Egyptian', not a distinct sense",
+    "senses": []
+  },
+  {
+    "kellyId": 4836,
+    "decision": "fix",
+    "reason": "sub-definition 'a reflected sound' is just a definition of echo, not a distinct sense",
+    "senses": []
+  },
+  {
+    "kellyId": 5561,
+    "decision": "fix",
+    "reason": "electricity is an uncountable noun in English",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5218,
+    "decision": "fix",
+    "reason": "empathy is an uncountable noun in English",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5400,
+    "decision": "fix",
+    "reason": "'simpleness' is redundant alongside 'simplicity'; simplicity is the standard word",
+    "translation": "simplicity",
+    "senses": []
+  },
+  {
+    "kellyId": 4860,
+    "decision": "fix",
+    "reason": "'sole' is wrong here — ensamstående means single/lone, not sole; senses need restructuring",
+    "translation": "single",
+    "senses": ["single (not in a relationship)", "lone (parent, without close family)"]
+  },
+  {
+    "kellyId": 5236,
+    "decision": "fix",
+    "reason": "senses list splits one word (entrance) into usage variants, not distinct meanings",
+    "senses": []
+  },
+  {
+    "kellyId": 5527,
+    "decision": "fix",
+    "reason": "entrepreneurship is an uncountable noun in English",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5088,
+    "decision": "fix",
+    "reason": "enthusiasm is an uncountable noun in English",
+    "uncountable": true,
+    "senses": []
+  }
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "kellyId": 6738,
+    "decision": "fix",
+    "reason": "publicity is uncountable as primary",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5827,
+    "decision": "fix",
+    "reason": "two distinct senses (unit of mass and currency); list was missing the mass sense; both belong in senses",
+    "senses": ["pound (unit of mass)", "pound (currency)"]
+  },
+  {
+    "kellyId": 6521,
+    "decision": "fix",
+    "reason": "currentSubDefinitions is a redundant echo of the translation; list should be cleared for a single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 6590,
+    "decision": "fix",
+    "reason": "current primary is a clumsy definition; 'invention, idea' is cleaner and 'fabrication' captures the second sense better",
+    "translation": "invention, bright idea",
+    "senses": ["invention, bright idea (something new someone came up with)", "fabrication (something made up, a lie)"]
+  },
+  {
+    "kellyId": 5707,
+    "decision": "fix",
+    "reason": "primary is a clumsy definition; 'speed up, accelerate' is the natural gloss; sub-definitions list was definition-like",
+    "translation": "speed up, accelerate",
+    "senses": []
+  },
+  {
+    "kellyId": 6887,
+    "decision": "fix",
+    "reason": "'the barrel of a clarinet' is too marginal a sense for a CEFR list; drop it; 'parent' is colloquial but common enough to keep",
+    "senses": ["pear (fruit)", "parent (colloquial)"]
+  },
+  {
+    "kellyId": 6004,
+    "decision": "fix",
+    "reason": "primary has an embedded article 'a' and is definition-like; 'ruler, monarch' is cleaner",
+    "translation": "ruler, monarch",
+    "senses": []
+  },
+  {
+    "kellyId": 6639,
+    "decision": "fix",
+    "reason": "'tourist' is a poor primary — resande primarily means 'traveller/passenger'; tourist is a sub-type",
+    "translation": "traveller, passenger",
+    "senses": []
+  },
+  {
+    "kellyId": 6842,
+    "decision": "fix",
+    "reason": "embedded article 'a' in primary; clean it up",
+    "translation": "reserve, spare",
+    "senses": []
+  },
+  {
+    "kellyId": 6232,
+    "decision": "fix",
+    "reason": "primary has embedded article 'a merging' phrasing is clumsy; clean to 'merger, merger, unification'",
+    "translation": "merger, unification",
+    "senses": []
+  },
+  {
+    "kellyId": 5996,
+    "decision": "fix",
+    "reason": "primary is a definition; 'constitutional state, rule-of-law state' is the standard term",
+    "translation": "constitutional state",
+    "senses": []
+  },
+  {
+    "kellyId": 5997,
+    "decision": "fix",
+    "reason": "primary embeds article 'a disorder'; should be bare 'mess, disorder'",
+    "translation": "mess, disorder",
+    "senses": ["mess, disorder", "mix, mixture"]
+  },
+  {
+    "kellyId": 6343,
+    "decision": "fix",
+    "reason": "currentSubDefinitions is a definition not a translation; second sense (lettuce) is worth keeping short",
+    "senses": ["salad", "lettuce, salad leaves"]
+  },
+  {
+    "kellyId": 5805,
+    "decision": "fix",
+    "reason": "list is incomplete (premise for establishments sense missing) and items are definition-like; tighten",
+    "senses": ["salon (room for socializing)", "auditorium (in a theatre or concert hall)", "hair salon, beauty parlour (commercial premises)"]
+  },
+  {
+    "kellyId": 5899,
+    "decision": "fix",
+    "reason": "'collusion' as a second sense is misleading — samförstånd means consensus/mutual understanding, not collusion (which is negative). Drop or reframe.",
+    "senses": ["agreement, understanding, accord", "consensus, mutual understanding"]
+  },
+  {
+    "kellyId": 6670,
+    "decision": "fix",
+    "reason": "chess is uncountable as primary",
+    "uncountable": true,
+    "senses": ["chess (game)", "check (threat to the king)"]
+  },
+  {
+    "kellyId": 5902,
+    "decision": "fix",
+    "reason": "currentSubDefinitions is a definition, not a translation; single sense — clear the list",
+    "senses": []
+  },
+  {
+    "kellyId": 6414,
+    "decision": "fix",
+    "reason": "embedded article 'a victor' in primary; bare 'winner, victor'",
+    "translation": "winner, victor",
+    "senses": []
+  },
+  {
+    "kellyId": 6323,
+    "decision": "fix",
+    "reason": "currentSubDefinitions is a redundant echo; single meaning — clear the list",
+    "senses": []
+  },
+  {
+    "kellyId": 6178,
+    "decision": "fix",
+    "reason": "'advising' reads oddly as an adjective translation; 'advisory' is the natural English adjective",
+    "translation": "advisory",
+    "senses": []
+  },
+  {
+    "kellyId": 6664,
+    "decision": "fix",
+    "reason": "currentSubDefinitions is a definition; single meaning — clear the list",
+    "senses": []
+  },
+  {
+    "kellyId": 6455,
+    "decision": "fix",
+    "reason": "currentSubDefinitions is a definition-like gloss; trim to a short sense",
+    "senses": ["fox (animal)", "sly old fox (cunning or experienced person)"]
+  },
+  {
+    "kellyId": 6177,
+    "decision": "fix",
+    "reason": "current translation has 3 synonyms that slightly differ in register; 'rerun, repeat' covers everyday use best; 'replay' is a different nuance worth keeping",
+    "translation": "rerun, repeat",
+    "senses": ["rerun, repeat (TV/radio)", "replay (sports slow-motion)", "revival, comeback (theatre)"]
+  },
+  {
+    "kellyId": 7003,
+    "decision": "fix",
+    "reason": "both senses are definition-like with 'relating to'; trim to natural adjective translations",
+    "senses": ["spiritual, of the soul", "mental, psychological"]
+  },
+  {
+    "kellyId": 6698,
+    "decision": "fix",
+    "reason": "currentSubDefinitions is a definition not a translation; single core meaning — clear the list",
+    "senses": []
+  },
+  {
+    "kellyId": 6105,
+    "decision": "fix",
+    "reason": "two genuine senses; list items have embedded articles — clean them",
+    "senses": ["audit (financial)", "revision (change, amendment)"]
+  },
+  {
+    "kellyId": 6225,
+    "decision": "fix",
+    "reason": "list has three senses but the first (armoured mounted warrior) is the primary everyday meaning and is missing; list should lead with it",
+    "senses": ["knight (medieval warrior)", "knight (nobleman by obligation)", "knight (of an order)"]
+  },
+  {
+    "kellyId": 6211,
+    "decision": "fix",
+    "reason": "primary 'realize' matches English 'make real'; the financial and sales senses are secondary; list had definition-like items — trim",
+    "senses": ["realize, bring about", "organize a sale (liquidate stock)", "liquidate (convert an asset to cash)"]
+  },
+  {
+    "kellyId": 6544,
+    "decision": "fix",
+    "reason": "list items are definition-like; trim to concise sense labels",
+    "senses": ["return (going back; getting something back)", "return, refund (goods returned to seller)", "recycling", "carriage return (key or character)"]
+  }
+]

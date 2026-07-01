@@ -1,0 +1,384 @@
+[
+  {
+    "kellyId": 7501,
+    "decision": "fix",
+    "reason": "definition-like gloss; core meaning is 'cabin' (ship/car/aircraft compartment)",
+    "translation": "cabin, cab",
+    "senses": ["cabin (ship or aircraft)", "cab (driver's compartment)"]
+  },
+  {
+    "kellyId": 8364,
+    "decision": "fix",
+    "reason": "sub-def is definition-like noise; hyvel has one core meaning",
+    "translation": "plane",
+    "senses": []
+  },
+  {
+    "kellyId": 8240,
+    "decision": "fix",
+    "reason": "embedded article 'a' in translation",
+    "translation": "cavity, hollow",
+    "senses": []
+  },
+  {
+    "kellyId": 7037,
+    "decision": "fix",
+    "reason": "embedded article 'a' in translation",
+    "translation": "stop, station",
+    "senses": []
+  },
+  {
+    "kellyId": 7040,
+    "decision": "fix",
+    "reason": "hardware is uncountable; sub-def is definition-like noise",
+    "translation": "hardware",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7819,
+    "decision": "fix",
+    "reason": "sub-def is definition-like noise; single-meaning adjective",
+    "translation": "hairy",
+    "senses": []
+  },
+  {
+    "kellyId": 7939,
+    "decision": "fix",
+    "reason": "senses list incomplete; Wiktionary notes a third sense (soft-cover book) missing from list",
+    "translation": "booklet, pamphlet",
+    "senses": ["booklet, pamphlet, notebook", "fascicle, issue (of a journal)", "book (soft-cover)"]
+  },
+  {
+    "kellyId": 7145,
+    "decision": "fix",
+    "reason": "definition-like primary; 'remand' is the standard legal translation",
+    "translation": "remand",
+    "senses": []
+  },
+  {
+    "kellyId": 7310,
+    "decision": "fix",
+    "reason": "devotion is uncountable; single meaning",
+    "translation": "devotion",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7535,
+    "decision": "fix",
+    "reason": "sub-def is a restatement of the primary; single meaning",
+    "translation": "astonishment, amazement",
+    "senses": []
+  },
+  {
+    "kellyId": 7038,
+    "decision": "fix",
+    "reason": "embedded 'to' in translation ('to mimic'); app adds 'to'",
+    "translation": "imitate, mimic",
+    "senses": []
+  },
+  {
+    "kellyId": 7958,
+    "decision": "fix",
+    "reason": "senses list missing the primary (bird) meaning",
+    "translation": "hawk",
+    "senses": ["hawk (bird of prey)", "hawk (advocate of aggressive policy)"]
+  },
+  {
+    "kellyId": 8301,
+    "decision": "fix",
+    "reason": "courtesy and politeness are uncountable nouns; single meaning",
+    "translation": "courtesy, politeness",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 8108,
+    "decision": "fix",
+    "reason": "definition-like gloss; standard phrase is 'the day after tomorrow'",
+    "translation": "the day after tomorrow",
+    "senses": []
+  },
+  {
+    "kellyId": 7965,
+    "decision": "fix",
+    "reason": "sub-def lists only the religious sense; senses list should include the primary (admired person) first",
+    "translation": "idol",
+    "senses": ["idol (admired person or role model)", "idol (religious image or effigy)"]
+  },
+  {
+    "kellyId": 7844,
+    "decision": "fix",
+    "reason": "definition-like primary; 'sportsman, athlete' is the natural translation",
+    "translation": "sportsman, athlete",
+    "senses": []
+  },
+  {
+    "kellyId": 8031,
+    "decision": "fix",
+    "reason": "idrottsplats is a general sports ground/venue, not specifically a stadium",
+    "translation": "sports ground, sports venue",
+    "senses": []
+  },
+  {
+    "kellyId": 7877,
+    "decision": "fix",
+    "reason": "definition-like primary; 'malice, spite, ill will' is the natural translation; uncountable",
+    "translation": "malice, spite, ill will",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7213,
+    "decision": "fix",
+    "reason": "immunity is uncountable; single meaning",
+    "translation": "immunity",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7440,
+    "decision": "fix",
+    "reason": "implementation is uncountable; single meaning",
+    "translation": "implementation",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7748,
+    "decision": "fix",
+    "reason": "'cash receipt' is an odd lead term; 'deposit, payment' is cleaner; 'cash inflow' is a distinct accounting sense",
+    "translation": "deposit, payment",
+    "senses": ["deposit, payment (money paid in)", "cash inflow (accounting)"]
+  },
+  {
+    "kellyId": 7635,
+    "decision": "fix",
+    "reason": "indignation is uncountable; single meaning",
+    "translation": "indignation",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7390,
+    "decision": "fix",
+    "reason": "inflammation is uncountable; single meaning",
+    "translation": "inflammation",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7579,
+    "decision": "fix",
+    "reason": "the mathematical 'injection' sense is highly technical and marginal; senses list should be cleared",
+    "translation": "injection",
+    "senses": []
+  },
+  {
+    "kellyId": 7836,
+    "decision": "fix",
+    "reason": "embedded 'to contain' and 'to surround' in translation; app adds 'to'",
+    "translation": "enclose, contain, surround",
+    "senses": []
+  },
+  {
+    "kellyId": 8282,
+    "decision": "fix",
+    "reason": "containment is uncountable; single meaning",
+    "translation": "containment",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7172,
+    "decision": "fix",
+    "reason": "embedded 'an' in translation; senses list should be cleaner",
+    "translation": "inspector",
+    "senses": ["inspector (official or manager)", "sergeant (police rank, in some contexts)"]
+  },
+  {
+    "kellyId": 7417,
+    "decision": "fix",
+    "reason": "embedded 'to teach' in translation; app adds 'to'",
+    "translation": "instruct, teach",
+    "senses": []
+  },
+  {
+    "kellyId": 7285,
+    "decision": "fix",
+    "reason": "embedded 'to call off' in translation; app adds 'to'",
+    "translation": "cancel, call off",
+    "senses": ["cancel, call off (something planned)", "present oneself, appear (when summoned)"]
+  },
+  {
+    "kellyId": 7687,
+    "decision": "fix",
+    "reason": "intelligence is uncountable; sub-def is definition-like noise",
+    "translation": "intelligence",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7085,
+    "decision": "fix",
+    "reason": "internationalization is uncountable; single meaning",
+    "translation": "internationalization",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 8181,
+    "decision": "fix",
+    "reason": "botanical name embedded in primary; botanical variety sub-defs are not useful for learners",
+    "translation": "strawberry",
+    "senses": []
+  },
+  {
+    "kellyId": 7479,
+    "decision": "fix",
+    "reason": "juice is uncountable; single meaning",
+    "translation": "juice",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7669,
+    "decision": "fix",
+    "reason": "embedded 'a' in translation ('a gem'); senses list needs clean form",
+    "translation": "jewel, gem",
+    "senses": ["jewel, gem (precious stone)", "jewel, gem (highly valued person or thing)"]
+  },
+  {
+    "kellyId": 7784,
+    "decision": "fix",
+    "reason": "embedded 'a' in translation ('a storage closet'); all three senses should be in the list",
+    "translation": "cabinet",
+    "senses": ["cabinet (storage furniture)", "cabinet (small room)", "cabinet (government)"]
+  },
+  {
+    "kellyId": 7912,
+    "decision": "fix",
+    "reason": "cocoa is uncountable; single meaning",
+    "translation": "cocoa, cacao",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 8021,
+    "decision": "fix",
+    "reason": "calcium is uncountable; single meaning",
+    "translation": "calcium",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7232,
+    "decision": "fix",
+    "reason": "definition-like primary; 'comb' is the core meaning; senses should cover all meanings cleanly",
+    "translation": "comb",
+    "senses": ["comb (for hair)", "comb, crest (on head of bird or reptile)", "crest, ridge (of hill or wave)", "cam (engine part)"]
+  },
+  {
+    "kellyId": 7266,
+    "decision": "fix",
+    "reason": "candidacy is uncountable; single meaning",
+    "translation": "candidacy",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7152,
+    "decision": "fix",
+    "reason": "definition-like primary; 'jug, pot, pitcher' is natural; archaic unit and piston senses should be noted",
+    "translation": "jug, pot, pitcher",
+    "senses": ["jug, pot, pitcher", "kanna (old unit, ~2.6 litres)", "piston (archaic)"]
+  },
+  {
+    "kellyId": 7600,
+    "decision": "fix",
+    "reason": "embedded 'a' in translation ('a cartridge'); senses list needed",
+    "translation": "cassette, cartridge",
+    "senses": ["cassette, cartridge (tape or media)", "coffer (small box)"]
+  },
+  {
+    "kellyId": 7502,
+    "decision": "fix",
+    "reason": "embedded 'a' in translation ('a pot, a pan')",
+    "translation": "saucepan, pot, pan",
+    "senses": []
+  },
+  {
+    "kellyId": 8369,
+    "decision": "fix",
+    "reason": "definition-like primary; 'case' with a parenthetical is cleaner",
+    "translation": "case (grammar)",
+    "senses": []
+  },
+  {
+    "kellyId": 8310,
+    "decision": "fix",
+    "reason": "embedded 'the' in translation ('the realm of an emperor'); 'empire' is the core word",
+    "translation": "empire",
+    "senses": []
+  },
+  {
+    "kellyId": 8052,
+    "decision": "fix",
+    "reason": "sub-def is definition-like noise; single meaning",
+    "translation": "chemical",
+    "senses": []
+  },
+  {
+    "kellyId": 7731,
+    "decision": "fix",
+    "reason": "sub-def is definition-like noise; single meaning",
+    "translation": "chemist",
+    "senses": []
+  },
+  {
+    "kellyId": 7405,
+    "decision": "fix",
+    "reason": "keramik as a material is uncountable; single meaning",
+    "translation": "ceramics",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7140,
+    "decision": "fix",
+    "reason": "kidnapping is uncountable; single meaning",
+    "translation": "kidnapping",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 7804,
+    "decision": "fix",
+    "reason": "current gloss is slightly definition-like; 'dash off, hurry away' is snappier; wedge is a distinct second sense",
+    "translation": "dash off, hurry away",
+    "senses": ["dash off, hurry away (leave quickly)", "wedge (fix with a wedge)"]
+  },
+  {
+    "kellyId": 7481,
+    "decision": "fix",
+    "reason": "surgery is uncountable; the two Wiktionary senses collapse to one English word",
+    "translation": "surgery",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 8166,
+    "decision": "fix",
+    "reason": "embedded 'a' in translation ('a kettle')",
+    "translation": "cauldron, kettle",
+    "senses": []
+  },
+  {
+    "kellyId": 8145,
+    "decision": "fix",
+    "reason": "embedded 'to be sticky' in translation; app adds 'to'",
+    "translation": "stick, be sticky",
+    "senses": []
+  }
+]

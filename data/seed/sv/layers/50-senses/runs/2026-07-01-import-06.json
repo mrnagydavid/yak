@@ -1,0 +1,424 @@
+[
+  {
+    "english": "argument",
+    "senses": [
+      { "gloss": "reasoning, point", "members": [863, 1685] },
+      { "gloss": "quarrel", "members": [6914] }
+    ]
+  },
+  {
+    "english": "clean",
+    "senses": [
+      { "gloss": "not dirty", "members": [865] },
+      { "gloss": "tidy up", "members": [3320] },
+      { "gloss": "cleanse", "members": [7418] }
+    ]
+  },
+  {
+    "english": "wife",
+    "senses": [
+      { "gloss": "spouse, formal", "members": [2075, 6797] },
+      { "gloss": "Mrs., title", "members": [866] }
+    ]
+  },
+  {
+    "english": "perform, carry out",
+    "senses": [
+      { "gloss": "carry out, execute", "members": [870] },
+      { "gloss": "perform on stage", "members": [2502] }
+    ]
+  },
+  {
+    "english": "position, posture",
+    "senses": [
+      { "gloss": "body posture", "members": [871] },
+      { "gloss": "location, situation", "members": [909, 7761] },
+      { "gloss": "playing position", "members": [1216] }
+    ]
+  },
+  {
+    "english": "mainly, primarily",
+    "senses": [
+      { "gloss": "", "members": [872, 2378, 2629] }
+    ]
+  },
+  {
+    "english": "sure",
+    "senses": [
+      { "gloss": "", "members": [2317, 5563] }
+    ]
+  },
+  {
+    "english": "movement",
+    "senses": [
+      { "gloss": "social movement", "members": [878, 4804] },
+      { "gloss": "physical relocation", "members": [6566] }
+    ]
+  },
+  {
+    "english": "event",
+    "senses": [
+      { "gloss": "occurrence", "members": [885] },
+      { "gloss": "organised occasion", "members": [3438, 4253] }
+    ]
+  },
+  {
+    "english": "accept, approve, receive",
+    "senses": [
+      { "gloss": "", "members": [887, 3486] }
+    ]
+  },
+  {
+    "english": "head",
+    "senses": [
+      { "gloss": "body part", "members": [888] },
+      { "gloss": "supreme leader", "members": [7158] }
+    ]
+  },
+  {
+    "english": "fast, quick",
+    "senses": [
+      { "gloss": "speedy", "members": [890] },
+      { "gloss": "fasting", "members": [7849] }
+    ]
+  },
+  {
+    "english": "spirit",
+    "senses": [
+      { "gloss": "ghost, being", "members": [893] },
+      { "gloss": "ethos, breath", "members": [2159] }
+    ]
+  },
+  {
+    "english": "cause",
+    "senses": [
+      { "gloss": "reason, noun", "members": [895] },
+      { "gloss": "bring about", "members": [1462, 5971, 5998] }
+    ]
+  },
+  {
+    "english": "mistake, error",
+    "senses": [
+      { "gloss": "", "members": [897, 1796] }
+    ]
+  },
+  {
+    "english": "wrong, wrongly",
+    "senses": [
+      { "gloss": "wrongly, adverb", "members": [908] },
+      { "gloss": "incorrect", "members": [930, 1674] },
+      { "gloss": "unjust", "members": [7759] }
+    ]
+  },
+  {
+    "english": "content",
+    "senses": [
+      { "gloss": "what's inside", "members": [898] },
+      { "gloss": "concentration, level", "members": [4783] },
+      { "gloss": "satisfied", "members": [7556, 7890] }
+    ]
+  },
+  {
+    "english": "concept",
+    "senses": [
+      { "gloss": "", "members": [900, 3019] }
+    ]
+  },
+  {
+    "english": "conflict",
+    "senses": [
+      { "gloss": "", "members": [902, 2640] }
+    ]
+  },
+  {
+    "english": "chance",
+    "senses": [
+      { "gloss": "opportunity", "members": [905] },
+      { "gloss": "coincidence", "members": [3354] }
+    ]
+  },
+  {
+    "english": "spread, distribute",
+    "senses": [
+      { "gloss": "spread, verb", "members": [910] },
+      { "gloss": "smear, butter", "members": [4212] },
+      { "gloss": "spreading, noun", "members": [2593, 6214] },
+      { "gloss": "scattered, adj", "members": [4647] }
+    ]
+  },
+  {
+    "english": "plant",
+    "senses": [
+      { "gloss": "living plant", "members": [911] },
+      { "gloss": "seedling", "members": [6443] },
+      { "gloss": "to plant", "members": [5515] }
+    ]
+  },
+  {
+    "english": "in connection with",
+    "senses": [
+      { "gloss": "", "members": [913, 4045] }
+    ]
+  },
+  {
+    "english": "piece",
+    "senses": [
+      { "gloss": "per unit, each", "members": [914] },
+      { "gloss": "fragment, portion", "members": [1337, 3224] }
+    ]
+  },
+  {
+    "english": "committee",
+    "senses": [
+      { "gloss": "parliamentary", "members": [915] },
+      { "gloss": "general body", "members": [1787, 2429] }
+    ]
+  },
+  {
+    "english": "Muslim",
+    "senses": [
+      { "gloss": "noun", "members": [916] },
+      { "gloss": "adjective", "members": [1338] }
+    ]
+  },
+  {
+    "english": "order",
+    "senses": [
+      { "gloss": "tidiness", "members": [917, 1486] },
+      { "gloss": "command, noun", "members": [2426, 6181] },
+      { "gloss": "to command", "members": [4376, 5989] },
+      { "gloss": "to order goods", "members": [1889] },
+      { "gloss": "commercial order", "members": [4608] }
+    ]
+  },
+  {
+    "english": "line",
+    "senses": [
+      { "gloss": "geometric, transit", "members": [921] },
+      { "gloss": "spoken line", "members": [1924] },
+      { "gloss": "dash, stroke", "members": [5882] }
+    ]
+  },
+  {
+    "english": "wish",
+    "senses": [
+      { "gloss": "to wish", "members": [923] },
+      { "gloss": "a wish", "members": [2809] }
+    ]
+  },
+  {
+    "english": "study, report",
+    "senses": [
+      { "gloss": "a study, noun", "members": [925, 7552] },
+      { "gloss": "to study", "members": [1266, 3760] }
+    ]
+  },
+  {
+    "english": "publish",
+    "senses": [
+      { "gloss": "publish a work", "members": [936, 2988] },
+      { "gloss": "make public", "members": [3664] }
+    ]
+  },
+  {
+    "english": "hardly, scarcely",
+    "senses": [
+      { "gloss": "almost certainly not", "members": [943] },
+      { "gloss": "barely", "members": [1429] }
+    ]
+  },
+  {
+    "english": "separate",
+    "senses": [
+      { "gloss": "to separate", "members": [948, 5956, 7061] },
+      { "gloss": "distinct, adj", "members": [3575] }
+    ]
+  },
+  {
+    "english": "point",
+    "senses": [
+      { "gloss": "to point", "members": [953] },
+      { "gloss": "score, argument", "members": [1111] },
+      { "gloss": "tip, sharp end", "members": [2908] },
+      { "gloss": "purpose, joke", "members": [6872] }
+    ]
+  },
+  {
+    "english": "lack, shortage",
+    "senses": [
+      { "gloss": "", "members": [959, 3683] }
+    ]
+  },
+  {
+    "english": "consequence",
+    "senses": [
+      { "gloss": "", "members": [967, 1322] }
+    ]
+  },
+  {
+    "english": "hard",
+    "senses": [
+      { "gloss": "not soft, adj", "members": [969] },
+      { "gloss": "intensely, adv", "members": [1178] }
+    ]
+  },
+  {
+    "english": "majority",
+    "senses": [
+      { "gloss": "", "members": [970, 4514] }
+    ]
+  },
+  {
+    "english": "sequence",
+    "senses": [
+      { "gloss": "", "members": [976, 8001] }
+    ]
+  },
+  {
+    "english": "press, push",
+    "senses": [
+      { "gloss": "push a button", "members": [983] },
+      { "gloss": "journalism, tool", "members": [1809] },
+      { "gloss": "crowd, force through", "members": [2542] },
+      { "gloss": "iron, apply pressure", "members": [2780] }
+    ]
+  },
+  {
+    "english": "band",
+    "senses": [
+      { "gloss": "music, tape, volume", "members": [986] },
+      { "gloss": "bandage", "members": [8243] }
+    ]
+  },
+  {
+    "english": "nowadays",
+    "senses": [
+      { "gloss": "", "members": [987, 4730] }
+    ]
+  },
+  {
+    "english": "worth",
+    "senses": [
+      { "gloss": "", "members": [989, 3199] }
+    ]
+  },
+  {
+    "english": "express, voice",
+    "senses": [
+      { "gloss": "convey, verb", "members": [993, 1846] },
+      { "gloss": "express train", "members": [6302] },
+      { "gloss": "explicit, adj", "members": [6436] }
+    ]
+  },
+  {
+    "english": "improve, enhance",
+    "senses": [
+      { "gloss": "", "members": [1001, 1154] }
+    ]
+  },
+  {
+    "english": "save",
+    "senses": [
+      { "gloss": "rescue", "members": [1002] },
+      { "gloss": "store, put aside", "members": [1332] }
+    ]
+  },
+  {
+    "english": "age",
+    "senses": [
+      { "gloss": "how old", "members": [1014] },
+      { "gloss": "lifetime", "members": [4313] }
+    ]
+  },
+  {
+    "english": "process",
+    "senses": [
+      { "gloss": "a process, noun", "members": [1015] },
+      { "gloss": "work through", "members": [4355] },
+      { "gloss": "handle administratively", "members": [5392] }
+    ]
+  },
+  {
+    "english": "expression",
+    "senses": [
+      { "gloss": "phrase, general", "members": [1016] },
+      { "gloss": "facial expression", "members": [7447] }
+    ]
+  },
+  {
+    "english": "list",
+    "senses": [
+      { "gloss": "", "members": [1017, 4140] }
+    ]
+  },
+  {
+    "english": "Russian",
+    "senses": [
+      { "gloss": "adjective", "members": [1022] },
+      { "gloss": "a Russian", "members": [2423] }
+    ]
+  },
+  {
+    "english": "until",
+    "senses": [
+      { "gloss": "up to that time", "members": [1024, 2563] },
+      { "gloss": "not before", "members": [1483] }
+    ]
+  },
+  {
+    "english": "handle, manage",
+    "senses": [
+      { "gloss": "to manage", "members": [1027] },
+      { "gloss": "physical handle", "members": [7239, 7724] }
+    ]
+  },
+  {
+    "english": "fold",
+    "senses": [
+      { "gloss": "to fold", "members": [1030] },
+      { "gloss": "a fold, crease", "members": [7833] }
+    ]
+  },
+  {
+    "english": "visit",
+    "senses": [
+      { "gloss": "to visit", "members": [1032] },
+      { "gloss": "a visit", "members": [1061] }
+    ]
+  },
+  {
+    "english": "cover",
+    "senses": [
+      { "gloss": "to cover", "members": [1035] },
+      { "gloss": "book cover", "members": [3172] },
+      { "gloss": "animal mating", "members": [8210] }
+    ]
+  },
+  {
+    "english": "weekend",
+    "senses": [
+      { "gloss": "", "members": [1038, 7873] }
+    ]
+  },
+  {
+    "english": "pressure",
+    "senses": [
+      { "gloss": "", "members": [1041, 4541] }
+    ]
+  },
+  {
+    "english": "active",
+    "senses": [
+      { "gloss": "energetic, busy", "members": [1043] },
+      { "gloss": "professionally active", "members": [3085] }
+    ]
+  },
+  {
+    "english": "raise",
+    "senses": [
+      { "gloss": "to increase", "members": [1044] },
+      { "gloss": "an increase", "members": [3293] },
+      { "gloss": "bring up, nurture", "members": [6006] }
+    ]
+  }
+]

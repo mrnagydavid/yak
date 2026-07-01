@@ -12,7 +12,7 @@ interface SeedEntry {
 }
 
 const seed = JSON.parse(
-  readFileSync(fileURLToPath(new URL('../data/seed-sv.json', import.meta.url)), 'utf-8'),
+  readFileSync(fileURLToPath(new URL('../data/seed/sv/seed-sv.json', import.meta.url)), 'utf-8'),
 ) as { entries: SeedEntry[] }
 
 const byLemma = new Map<string, SeedEntry[]>()

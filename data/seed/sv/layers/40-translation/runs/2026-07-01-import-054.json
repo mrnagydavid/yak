@@ -1,0 +1,340 @@
+[
+  {
+    "kellyId": 5280,
+    "decision": "fix",
+    "reason": "embedded article 'a' in primary; senses list needs bare forms",
+    "translation": "notification, notice",
+    "senses": [
+      "notification, notice",
+      "intelligence (secret information gathering)"
+    ]
+  },
+  {
+    "kellyId": 5099,
+    "decision": "fix",
+    "reason": "senses list has definition-like third entry; trim to the two real meanings",
+    "senses": [
+      "upside down",
+      "up and down"
+    ]
+  },
+  {
+    "kellyId": 5327,
+    "decision": "fix",
+    "reason": "embedded articles in primary and senses",
+    "translation": "stay, visit",
+    "senses": [
+      "stay, visit (in a place)",
+      "pause, break, intermission"
+    ]
+  },
+  {
+    "kellyId": 5057,
+    "decision": "fix",
+    "reason": "senses list has embedded 'to' in two items; also add missing fifth sense; clean up phrasing",
+    "senses": [
+      "stay, reside (in a place)",
+      "dwell on (a topic)",
+      "maintain, keep up",
+      "delay, stall",
+      "act for, stand in for (temporarily)"
+    ]
+  },
+  {
+    "kellyId": 4369,
+    "decision": "fix",
+    "reason": "primary is a definition-like gloss; 'reveal, show' is the natural single-meaning translation",
+    "translation": "reveal, show",
+    "senses": []
+  },
+  {
+    "kellyId": 5510,
+    "decision": "fix",
+    "reason": "primary has embedded 'to'; core meaning is 'bring up, raise'",
+    "translation": "bring up, raise",
+    "senses": []
+  },
+  {
+    "kellyId": 4899,
+    "decision": "fix",
+    "reason": "'up, along' is vague; 'up, uphill' captures the directional sense better",
+    "translation": "up, uphill",
+    "senses": []
+  },
+  {
+    "kellyId": 5332,
+    "decision": "fix",
+    "reason": "'behaviour/conduct' is the most everyday sense of uppförande; 'building' (construction) is more formal/technical",
+    "translation": "behaviour, conduct",
+    "senses": [
+      "behaviour, conduct",
+      "performance (theatrical or public)",
+      "construction, erection (of a building)"
+    ]
+  },
+  {
+    "kellyId": 4524,
+    "decision": "fix",
+    "reason": "senses list has redundant and definition-like entries; trim to distinct meanings",
+    "senses": [
+      "setup, structure, approach",
+      "tuck (folded edge on fabric)",
+      "casting on (knitting)"
+    ]
+  },
+  {
+    "kellyId": 4227,
+    "decision": "fix",
+    "reason": "last sense 'resolution' is a bare duplicate of the screen-resolution sense; remove it",
+    "senses": [
+      "dissolution, disbanding, disintegration",
+      "resolution, denouement (of a story)",
+      "resolution (of a screen or image)"
+    ]
+  },
+  {
+    "kellyId": 4337,
+    "decision": "fix",
+    "reason": "everyday Swedish 'uppståndelse' most often means stir/commotion; 'resurrection' is the theological sense — demote it",
+    "translation": "stir, commotion",
+    "senses": [
+      "stir, commotion, fuss",
+      "resurrection (religious)"
+    ]
+  },
+  {
+    "kellyId": 5584,
+    "decision": "fix",
+    "reason": "example shows 'conduct/behaviour' is the dominant everyday sense; 'performance' is secondary",
+    "translation": "behaviour, conduct",
+    "senses": [
+      "behaviour, conduct",
+      "performance, appearance (public)"
+    ]
+  },
+  {
+    "kellyId": 5521,
+    "decision": "fix",
+    "reason": "uranium is an uncountable noun",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5153,
+    "decision": "fix",
+    "reason": "senses list has definition-like sub-entries; strip them to clean translations",
+    "senses": [
+      "ugh, yuck (disgust)",
+      "ooh, oh (fear or discomfort)"
+    ]
+  },
+  {
+    "kellyId": 4505,
+    "decision": "fix",
+    "reason": "embedded article 'an' in primary",
+    "translation": "excerpt, extract",
+    "senses": []
+  },
+  {
+    "kellyId": 5120,
+    "decision": "fix",
+    "reason": "embedded articles in primary",
+    "translation": "excursion, outing",
+    "senses": []
+  },
+  {
+    "kellyId": 5587,
+    "decision": "fix",
+    "reason": "sub-definition 'person or company which publishes' is a definition, not a translation; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 5313,
+    "decision": "fix",
+    "reason": "embedded 'to be' in primary; app adds 'to' so 'appear, be published' is correct bare form",
+    "translation": "appear, be published",
+    "senses": []
+  },
+  {
+    "kellyId": 4842,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary",
+    "translation": "trigger, set off",
+    "senses": []
+  },
+  {
+    "kellyId": 4435,
+    "decision": "fix",
+    "reason": "senses list has definition-like entries; trim to clean translations",
+    "senses": [
+      "distinguish, characterise (set apart)",
+      "mark out (a path or border)",
+      "distinguish, honour (award)"
+    ]
+  },
+  {
+    "kellyId": 4854,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary",
+    "translation": "appoint, name",
+    "senses": []
+  },
+  {
+    "kellyId": 4787,
+    "decision": "fix",
+    "reason": "adj with embedded article 'an' in translation; remove it",
+    "translation": "outsider, third party",
+    "senses": []
+  },
+  {
+    "kellyId": 4353,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary",
+    "translation": "exterminate, erase",
+    "senses": []
+  },
+  {
+    "kellyId": 5157,
+    "decision": "fix",
+    "reason": "primary is a definition-like phrase; 'relating to foreign policy' is cleaner",
+    "translation": "foreign-policy, international",
+    "senses": []
+  },
+  {
+    "kellyId": 4956,
+    "decision": "fix",
+    "reason": "senses has embedded 'to' in sub-def",
+    "senses": [
+      "expel, deport (from a country)",
+      "send off, eject (from a game)"
+    ]
+  },
+  {
+    "kellyId": 4747,
+    "decision": "fix",
+    "reason": "second sense parenthetical is definition-like; simplify",
+    "senses": [
+      "expulsion, deportation (from a country)",
+      "ejection, sending off (sport)"
+    ]
+  },
+  {
+    "kellyId": 5526,
+    "decision": "fix",
+    "reason": "senses list duplicates the primary; the two senses are the same meaning (physical exit vs figurative escape) — keep both distinct",
+    "senses": [
+      "way out (means of exit)",
+      "way out, escape (solution to a problem)"
+    ]
+  },
+  {
+    "kellyId": 5376,
+    "decision": "fix",
+    "reason": "primary is a definition-like phrase; 'optional' is the natural translation",
+    "translation": "optional, of your choice",
+    "senses": []
+  },
+  {
+    "kellyId": 4965,
+    "decision": "fix",
+    "reason": "senses list includes 'whelp' (archaic synonym of puppy) and 'young upstart' (marginal); simplify",
+    "senses": [
+      "puppy (young dog)",
+      "young upstart (informal)"
+    ]
+  },
+  {
+    "kellyId": 4532,
+    "decision": "fix",
+    "reason": "senses list just repeats 'sharp' twice; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 5415,
+    "decision": "fix",
+    "reason": "firewood is uncountable; also fix senses",
+    "uncountable": true,
+    "senses": [
+      "firewood",
+      "wood (inner material of a tree)"
+    ]
+  },
+  {
+    "kellyId": 5291,
+    "decision": "fix",
+    "reason": "'activity, reach' are not natural English glosses for verkning; trim to core meaning; hoof-trimming sense is highly marginal",
+    "translation": "effect, influence",
+    "senses": []
+  },
+  {
+    "kellyId": 5250,
+    "decision": "fix",
+    "reason": "third sense is definition-like; simplify to 'expanse, plain'",
+    "senses": [
+      "width, extent",
+      "expanse, plain (open landscape)"
+    ]
+  },
+  {
+    "kellyId": 4430,
+    "decision": "fix",
+    "reason": "senses list has definition-like entries; simplify",
+    "senses": [
+      "marry, officiate (a wedding)",
+      "devote, dedicate (to a purpose)",
+      "ordain (into ministry)"
+    ]
+  },
+  {
+    "kellyId": 4238,
+    "decision": "fix",
+    "reason": "wind power is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5509,
+    "decision": "fix",
+    "reason": "sub-def 'synonym of vishet' is a dictionary note, not a translation; single-meaning word",
+    "senses": []
+  },
+  {
+    "kellyId": 5382,
+    "decision": "fix",
+    "reason": "Swedish 'vital' means energetic/full of life, not 'vital' (essential) as in English; 'vigorous, sprightly' is the correct gloss",
+    "translation": "vigorous, sprightly",
+    "senses": []
+  },
+  {
+    "kellyId": 4215,
+    "decision": "fix",
+    "reason": "secondary senses are highly marginal/confusing; 'white; legally' makes no useful standalone sense for a learner — keep primary only",
+    "senses": []
+  },
+  {
+    "kellyId": 5260,
+    "decision": "fix",
+    "reason": "first sense in list is a definition of the primary; clean up",
+    "senses": [
+      "ache, pain (dull and continuous)",
+      "labour contraction (childbirth)"
+    ]
+  },
+  {
+    "kellyId": 5125,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary",
+    "translation": "plead, appeal",
+    "senses": []
+  },
+  {
+    "kellyId": 5107,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary; also 'to fell' is less common — simplify",
+    "translation": "tip over, topple",
+    "senses": [
+      "tip over, topple, knock over",
+      "flatten with a roller (road or agricultural)"
+    ]
+  }
+]

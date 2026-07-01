@@ -6,13 +6,11 @@ dist
 *.local
 dev-dist/
 Swedish Kelly-20260602134631.apkg
-# Large/derived seed build artifacts are ignored; the LLM cleanup decisions and generated
-# example sentences are kept so the seed stays regenerable (re-run fetch → join → flag → apply).
-data/intermediate/*
-!data/intermediate/decisions/
-!data/intermediate/examples/
-!data/intermediate/sense-decisions.json
-!data/intermediate/translation-decisions.json
-# candidates.json pins the fetch+join output so `seed:apply` (and the seed-reproducibility test) run
-# from committed inputs alone — no network, no re-fetch. Regenerate with `pnpm seed:fetch && seed:join`.
-!data/intermediate/candidates.json
+# Regenerable seed build artifacts: fetch/join caches (kelly, kaikki dump, wik, ipa), the emitted
+# batching inputs (ambiguous/multi-translation/flagged), and all batch dirs. Disposable — reproducible
+# by re-running fetch → join → apply → stale → batch. The COMMITTED inputs (base + the per-layer
+# ledgers + decisions + stale) live under data/seed/sv/ and are intentionally NOT ignored.
+data/scratch/
+# Legacy pre-refactor working dir; its contents were relocated into data/seed/sv/ (tracked) or are
+# disposable. Ignored until the directory is removed.
+data/intermediate/

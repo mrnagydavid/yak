@@ -1,0 +1,268 @@
+[
+  {
+    "kellyId": 2906,
+    "decision": "fix",
+    "reason": "embedded 'to' before christen (app adds 'to' for verbs); also secondary sense 'name' needs to be in list",
+    "translation": "baptize, christen",
+    "senses": [
+      "baptize, christen (perform the rite of baptism)",
+      "name, call (give a name to)"
+    ]
+  },
+  {
+    "kellyId": 3043,
+    "decision": "fix",
+    "reason": "'effektivitet' primarily means efficiency (productive output per input), not 'efficacy/effectivity' which are rarer English words; efficiency is the everyday sense",
+    "translation": "efficiency",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4157,
+    "decision": "fix",
+    "reason": "embedded 'to pursue, to strive for' with 'to' prefix (app adds 'to'); phrasing clumsy",
+    "translation": "strive for, pursue",
+    "senses": []
+  },
+  {
+    "kellyId": 3519,
+    "decision": "fix",
+    "reason": "sub-def 'something that causes misery or is miserable' is a definition, not a translation; collapse into a clean list",
+    "translation": "misery",
+    "uncountable": true,
+    "senses": [
+      "misery, wretchedness",
+      "mess, nuisance (something miserable or wretched)"
+    ]
+  },
+  {
+    "kellyId": 3098,
+    "decision": "fix",
+    "reason": "'in between' and 'between' are the same meaning; emellan is a straightforward preposition with one core sense; no list needed",
+    "translation": "between, in between",
+    "senses": []
+  },
+  {
+    "kellyId": 2952,
+    "decision": "fix",
+    "reason": "sub-defs are both definition-like restatements of 'offer'; single meaning, clear senses",
+    "senses": []
+  },
+  {
+    "kellyId": 3748,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary ('to point out, to reiterate'); clumsy phrasing",
+    "translation": "remind, point out",
+    "senses": [
+      "remind, point out, reiterate",
+      "be reminiscent of, recall (erinra om)",
+      "object, raise a formal objection",
+      "recall, recollect, remember (reflexive)"
+    ]
+  },
+  {
+    "kellyId": 3093,
+    "decision": "fix",
+    "reason": "embedded article 'a' in 'acknowledgement, a recognition'; write bare",
+    "translation": "acknowledgement, recognition",
+    "senses": [
+      "acknowledgement, recognition",
+      "confession"
+    ]
+  },
+  {
+    "kellyId": 3050,
+    "decision": "fix",
+    "reason": "embedded 'to' in 'conquer, to seize'",
+    "translation": "conquer, seize",
+    "senses": []
+  },
+  {
+    "kellyId": 3266,
+    "decision": "fix",
+    "reason": "ethics is an uncountable noun; app would prepend 'an' incorrectly without this flag",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3553,
+    "decision": "fix",
+    "reason": "sub-def 'all senses of the word' is a meta-note, not a sense; clear the list",
+    "senses": []
+  },
+  {
+    "kellyId": 2837,
+    "decision": "fix",
+    "reason": "embedded article 'a' in 'copy, a specimen'; write bare",
+    "translation": "copy, specimen",
+    "senses": []
+  },
+  {
+    "kellyId": 3057,
+    "decision": "fix",
+    "reason": "embedded article 'a' in 'trade union, a labor union'; write bare",
+    "translation": "trade union, labor union",
+    "senses": []
+  },
+  {
+    "kellyId": 2907,
+    "decision": "fix",
+    "reason": "'a fantasy' in sub-defs is the same as 'fantasy' already in primary; 'a fantasia' (musical form) is marginal for B1 learners; clean up",
+    "senses": [
+      "imagination, fantasy (the faculty)",
+      "fantasy, daydream (an imagined scenario)"
+    ]
+  },
+  {
+    "kellyId": 2915,
+    "decision": "fix",
+    "reason": "'a time period' is an explanatory gloss embedded in primary; 'phase, stage' is cleaner",
+    "translation": "phase, stage",
+    "senses": [
+      "phase, stage (a period or step)",
+      "phase (angular difference in waves, technical)",
+      "chamfer, bevel (sloping edge)"
+    ]
+  },
+  {
+    "kellyId": 4145,
+    "decision": "fix",
+    "reason": "fascism is uncountable; app would prepend 'a' incorrectly",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3194,
+    "decision": "fix",
+    "reason": "'even though' and 'although' are the same meaning; single-meaning conjunction; clear the list",
+    "translation": "although, even though",
+    "senses": []
+  },
+  {
+    "kellyId": 3118,
+    "decision": "fix",
+    "reason": "feminism is uncountable; app would prepend 'a' incorrectly",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3092,
+    "decision": "fix",
+    "reason": "fat (the substance) is uncountable; app would prepend 'a' incorrectly",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 3048,
+    "decision": "fix",
+    "reason": "Swedish 'final' primarily means a sports/competition final (see example); 'finale' is mostly musical and should be secondary",
+    "translation": "final",
+    "senses": [
+      "final (sports or competition)",
+      "finale (musical or theatrical)"
+    ]
+  },
+  {
+    "kellyId": 3577,
+    "decision": "fix",
+    "reason": "'finance minister' is more natural English than 'minister for finance'",
+    "translation": "finance minister",
+    "senses": []
+  },
+  {
+    "kellyId": 3991,
+    "decision": "fix",
+    "reason": "sub-def is a definition of 'fishing', not a second sense; single meaning, clear list",
+    "senses": []
+  },
+  {
+    "kellyId": 3971,
+    "decision": "fix",
+    "reason": "embedded article 'a' in 'flow, a flux, a stream'; write bare",
+    "translation": "flow, flux, stream",
+    "senses": []
+  },
+  {
+    "kellyId": 4122,
+    "decision": "fix",
+    "reason": "'demand, to ask' has embedded 'to'; 'ask' is too weak — 'require' better captures fordra",
+    "translation": "demand, require",
+    "senses": []
+  },
+  {
+    "kellyId": 3294,
+    "decision": "fix",
+    "reason": "'belonging to the past' is a definition; 'forn' means ancient/of old — translate it",
+    "translation": "ancient, former",
+    "senses": []
+  },
+  {
+    "kellyId": 3158,
+    "decision": "fix",
+    "reason": "embedded 'to' in 'emerge, to be revealed'; cleaner phrasing",
+    "translation": "emerge, come to light",
+    "senses": []
+  },
+  {
+    "kellyId": 3304,
+    "decision": "fix",
+    "reason": "embedded 'to reveal oneself'; framträda primarily means to perform/appear in public; cleaner phrasing",
+    "translation": "appear, perform",
+    "senses": []
+  },
+  {
+    "kellyId": 4066,
+    "decision": "fix",
+    "reason": "embedded 'to free' with 'to' (app adds 'to' for verbs)",
+    "translation": "liberate, free",
+    "senses": [
+      "liberate, free (a person or group)",
+      "release (energy, resources)"
+    ]
+  },
+  {
+    "kellyId": 3079,
+    "decision": "fix",
+    "reason": "'front end or side of something' is a definition; 'front' is the translation",
+    "translation": "front",
+    "senses": [
+      "front (of a vehicle or building)",
+      "front (military battle line)",
+      "front (weather system)",
+      "front (aspect of a larger effort)"
+    ]
+  },
+  {
+    "kellyId": 3390,
+    "decision": "fix",
+    "reason": "embedded 'to dread, to be afraid' with 'to' prefix; app adds 'to' once",
+    "translation": "fear, dread",
+    "senses": []
+  },
+  {
+    "kellyId": 3858,
+    "decision": "fix",
+    "reason": "'feel cold, to the point of discomfort' is a definition-like gloss; clean phrasing needed",
+    "translation": "be cold; freeze",
+    "senses": [
+      "be cold, feel cold (of a person)",
+      "freeze (become solid from cold)",
+      "freeze (become or make motionless)",
+      "freeze (halt, stop something)"
+    ]
+  },
+  {
+    "kellyId": 3283,
+    "decision": "fix",
+    "reason": "embedded article 'an' in 'problem, an issue'; write bare",
+    "translation": "problem, issue",
+    "senses": []
+  },
+  {
+    "kellyId": 4003,
+    "decision": "fix",
+    "reason": "embedded 'to finish off' with 'to'; sub-defs include a definition-like gloss",
+    "translation": "complete, follow through",
+    "senses": []
+  }
+]

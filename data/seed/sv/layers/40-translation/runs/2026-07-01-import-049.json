@@ -1,0 +1,213 @@
+[
+  {
+    "kellyId": 4846,
+    "decision": "fix",
+    "reason": "single meaning; redundant duplicate in list; clear it",
+    "senses": []
+  },
+  {
+    "kellyId": 5343,
+    "decision": "fix",
+    "reason": "translation mixes capitalised and lowercase awkwardly; 'Midsummer' is the standard English term covering both the holiday and the season",
+    "translation": "Midsummer",
+    "senses": []
+  },
+  {
+    "kellyId": 5275,
+    "decision": "fix",
+    "reason": "single effective meaning; sub-definition just restates with a parenthetical; clear list",
+    "senses": []
+  },
+  {
+    "kellyId": 4915,
+    "decision": "fix",
+    "reason": "list items are definitions not short translations",
+    "senses": []
+  },
+  {
+    "kellyId": 4423,
+    "decision": "fix",
+    "reason": "list item is a definition; single meaning for practical purposes",
+    "senses": []
+  },
+  {
+    "kellyId": 4926,
+    "decision": "fix",
+    "reason": "embedded article 'a' in 'a fashion trend'; bare noun required",
+    "translation": "fashion, fashion trend",
+    "senses": []
+  },
+  {
+    "kellyId": 4527,
+    "decision": "fix",
+    "reason": "list mixes two distinct Miss senses that can be combined; cleaner list",
+    "senses": ["miss, mistake", "Miss (title for an unmarried woman or beauty pageant winner)"]
+  },
+  {
+    "kellyId": 4626,
+    "decision": "fix",
+    "reason": "dissatisfaction and discontent are both uncountable English nouns; set uncountable; single meaning so clear list",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5344,
+    "decision": "fix",
+    "reason": "distrust and doubt are uncountable; set uncountable; single meaning so clear list",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5416,
+    "decision": "fix",
+    "reason": "software is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4645,
+    "decision": "fix",
+    "reason": "bullying is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4994,
+    "decision": "fix",
+    "reason": "primary 'mount' is less common than assemble/install for montera; list items are definition-like; 'montera ner' (dismantle) is a derived phrasal use, not a standalone sense of montera",
+    "translation": "assemble, install",
+    "senses": []
+  },
+  {
+    "kellyId": 4883,
+    "decision": "fix",
+    "reason": "single meaning; wiktionary parenthetical in list is just a restatement; clear list",
+    "senses": []
+  },
+  {
+    "kellyId": 5127,
+    "decision": "fix",
+    "reason": "list just restates primary in different words; single meaning; clear list",
+    "senses": []
+  },
+  {
+    "kellyId": 4893,
+    "decision": "fix",
+    "reason": "VAT / value added tax is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4352,
+    "decision": "fix",
+    "reason": "motivation is uncountable; list item was just a parenthetical restatement",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5083,
+    "decision": "fix",
+    "reason": "current primary embeds article 'a' and is clunky; 'toil, effort' is cleaner and more natural",
+    "translation": "toil, effort",
+    "senses": []
+  },
+  {
+    "kellyId": 5360,
+    "decision": "fix",
+    "reason": "list items are definition-like; two real senses: warm winter hat and any brimless soft hat (e.g. police cap)",
+    "senses": ["hat, beanie, knit cap (warm winter headwear)", "cap (brimless soft hat of other kinds)"]
+  },
+  {
+    "kellyId": 5004,
+    "decision": "fix",
+    "reason": "list items are definition-like; two real senses: meeting place and passing place for vehicles",
+    "senses": ["meeting place, gathering spot", "passing place (for vehicles on a narrow road)"]
+  },
+  {
+    "kellyId": 5558,
+    "decision": "fix",
+    "reason": "economics is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5599,
+    "decision": "fix",
+    "reason": "list item is a definition; single meaning; clear list",
+    "senses": []
+  },
+  {
+    "kellyId": 5214,
+    "decision": "fix",
+    "reason": "embedded article 'a' in 'a closing down'; bare translation required",
+    "translation": "closure, shutdown",
+    "senses": []
+  },
+  {
+    "kellyId": 4778,
+    "decision": "fix",
+    "reason": "'oral, in spoken words' is wordy; 'oral, verbal' is cleaner and equally clear",
+    "translation": "oral, verbal",
+    "senses": []
+  },
+  {
+    "kellyId": 4773,
+    "decision": "fix",
+    "reason": "list has two nearly identical definition-like entries; single effective meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 4936,
+    "decision": "fix",
+    "reason": "curiosity is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4486,
+    "decision": "fix",
+    "reason": "list item is a definition restating the primary; single meaning; clear list",
+    "senses": []
+  },
+  {
+    "kellyId": 4395,
+    "decision": "fix",
+    "reason": "'incapability' is awkward; 'inability, incapacity' is more natural English",
+    "translation": "inability, incapacity",
+    "senses": []
+  },
+  {
+    "kellyId": 5316,
+    "decision": "fix",
+    "reason": "list items are definition-like; three real senses: Olympic Games, Greek mythology, and figurative lofty",
+    "senses": ["Olympic (of the Olympic Games)", "Olympian (of the Greek gods)", "Olympian, lofty (figuratively calm and superior)"]
+  },
+  {
+    "kellyId": 5311,
+    "decision": "fix",
+    "reason": "'publicity, transparency' mixes two different concepts; primary sense in Swedish is openness/public transparency; list item 'public scrutiny' overlaps; simplify",
+    "translation": "openness, transparency",
+    "senses": ["openness, transparency (public access to information)", "public eye, public scrutiny"]
+  },
+  {
+    "kellyId": 4421,
+    "decision": "fix",
+    "reason": "three-synonym gloss is redundant; 'immediately, at once' is sufficient",
+    "translation": "immediately, at once",
+    "senses": []
+  },
+  {
+    "kellyId": 5369,
+    "decision": "fix",
+    "reason": "ill health is uncountable",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 4630,
+    "decision": "fix",
+    "reason": "ignorance is uncountable",
+    "uncountable": true,
+    "senses": []
+  }
+]

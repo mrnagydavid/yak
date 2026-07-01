@@ -1,0 +1,228 @@
+[
+  {
+    "kellyId": 6780,
+    "decision": "fix",
+    "reason": "sub-definition contained Swedish words; cleaned senses to English only",
+    "translation": "officer",
+    "senses": ["officer (military)", "official, public servant"]
+  },
+  {
+    "kellyId": 6433,
+    "decision": "fix",
+    "reason": "sub-definition 'disliked, unpopular' is the antonym of 'omtyckt', not a second sense — dropped",
+    "translation": "well-liked, popular",
+    "senses": []
+  },
+  {
+    "kellyId": 5625,
+    "decision": "fix",
+    "reason": "sub-definition had trailing period and 'to' prefix; cleaned phrasing",
+    "translation": "convert",
+    "senses": ["convert (religious or general)", "reverse, transform"]
+  },
+  {
+    "kellyId": 6402,
+    "decision": "fix",
+    "reason": "optimism is uncountable",
+    "translation": "optimism",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6807,
+    "decision": "fix",
+    "reason": "'saying' and 'proverb' are synonyms for the same meaning; merge into one primary",
+    "translation": "saying, proverb",
+    "senses": []
+  },
+  {
+    "kellyId": 6974,
+    "decision": "fix",
+    "reason": "list was incomplete; missing the 'briefing/overview' sense common in Swedish",
+    "translation": "orientation",
+    "senses": ["orientation, direction", "orienteering (sport)", "briefing, overview"]
+  },
+  {
+    "kellyId": 6310,
+    "decision": "fix",
+    "reason": "'oskuld' is commonly used for both innocence (legal/moral) and virgin; innocence is the more everyday primary (cf. example 'bedyrade sin oskuld'); main translation definition-like",
+    "translation": "innocence; virgin",
+    "senses": ["innocence (legal or moral)", "virgin (sexually inexperienced person)"]
+  },
+  {
+    "kellyId": 5814,
+    "decision": "fix",
+    "reason": "'aforesaid' is archaic; trim to the two common forms",
+    "translation": "aforementioned, above-mentioned",
+    "senses": []
+  },
+  {
+    "kellyId": 6759,
+    "decision": "fix",
+    "reason": "current primary is a definition; 'unaware' is the natural flashcard gloss",
+    "translation": "unaware, unknowing",
+    "senses": []
+  },
+  {
+    "kellyId": 6422,
+    "decision": "fix",
+    "reason": "'parentes' in Swedish means round brackets specifically; 'parenthesis' is the correct primary term",
+    "translation": "parenthesis, bracket",
+    "senses": []
+  },
+  {
+    "kellyId": 6789,
+    "decision": "fix",
+    "reason": "perfume is uncountable",
+    "translation": "perfume",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6077,
+    "decision": "fix",
+    "reason": "pedagogy is uncountable; senses list contained definition-like items rather than clean translations",
+    "translation": "pedagogy",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6307,
+    "decision": "fix",
+    "reason": "'swing like a pendulum' is definition-like; 'commute' is the dominant everyday sense in modern Swedish; 'oscillate/fluctuate' is the other distinct meaning",
+    "translation": "commute; oscillate",
+    "senses": ["commute (travel regularly to work)", "oscillate, fluctuate (swing between states)"]
+  },
+  {
+    "kellyId": 6627,
+    "decision": "fix",
+    "reason": "pepper is uncountable",
+    "translation": "pepper",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5981,
+    "decision": "fix",
+    "reason": "current translation embeds 'to' in 'to pick'; app adds 'to' for verbs",
+    "translation": "poke, pick",
+    "senses": ["poke, pick (lightly touch or prod)", "drop, cut (remove from a team or position)"]
+  },
+  {
+    "kellyId": 6056,
+    "decision": "fix",
+    "reason": "'pistole (Spanish coin)' is archaic/marginal; drop from a learner list",
+    "translation": "pistol",
+    "senses": []
+  },
+  {
+    "kellyId": 6160,
+    "decision": "fix",
+    "reason": "primary embedded articles ('a plague', 'a torment'); 'torment, nuisance' is the core everyday sense; plague/epidemic are secondary",
+    "translation": "torment, nuisance",
+    "senses": ["torment, nuisance (suffering or annoying thing)", "plague, epidemic"]
+  },
+  {
+    "kellyId": 6616,
+    "decision": "fix",
+    "reason": "sub-definition is a restatement of the translation; single-meaning word",
+    "translation": "painful, agonizing",
+    "senses": []
+  },
+  {
+    "kellyId": 5793,
+    "decision": "fix",
+    "reason": "porn/pornography is uncountable",
+    "translation": "porn, pornography",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6760,
+    "decision": "fix",
+    "reason": "Wiktionary lists briefcase first; 'portfölj' means briefcase (physical) as well as portfolio (figurative); both are primary; senses had embedded articles",
+    "translation": "briefcase; portfolio",
+    "senses": ["briefcase", "portfolio (artistic or financial)", "portfolio (government minister's)"]
+  },
+  {
+    "kellyId": 6102,
+    "decision": "fix",
+    "reason": "'define precisely' is wordy padding; trim to clean synonyms",
+    "translation": "specify, clarify",
+    "senses": []
+  },
+  {
+    "kellyId": 6466,
+    "decision": "fix",
+    "reason": "senses list had a bare 'precision' duplicate of the primary; single-meaning word",
+    "translation": "precision",
+    "senses": []
+  },
+  {
+    "kellyId": 6148,
+    "decision": "fix",
+    "reason": "translation and senses embedded articles ('a prize', 'an award', 'a bonus', 'a premium', 'an insurance fee'); stripped to bare forms",
+    "translation": "premium, prize",
+    "senses": ["premium, prize, award (reward)", "premium, bonus (extra payment)", "premium (insurance fee)"]
+  },
+  {
+    "kellyId": 6431,
+    "decision": "fix",
+    "reason": "performance (technical/system sense) is uncountable",
+    "translation": "performance",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6528,
+    "decision": "fix",
+    "reason": "prestige is uncountable",
+    "translation": "prestige",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5898,
+    "decision": "fix",
+    "reason": "current primary is a definition; 'on principle; in principle' is the natural gloss",
+    "translation": "on principle; in principle",
+    "senses": []
+  },
+  {
+    "kellyId": 6175,
+    "decision": "fix",
+    "reason": "'a dab' is obscure British slang; 'a professional' has embedded article; trim to 'pro, professional'",
+    "translation": "pro, professional",
+    "senses": []
+  },
+  {
+    "kellyId": 6240,
+    "decision": "fix",
+    "reason": "'unearned income' is not a synonym for profit; 'profit' alone is correct and uncountable here",
+    "translation": "profit",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 6955,
+    "decision": "fix",
+    "reason": "'someone who writes programs' is redundant padding after 'programmer'",
+    "translation": "programmer",
+    "senses": []
+  },
+  {
+    "kellyId": 6798,
+    "decision": "fix",
+    "reason": "prose is uncountable",
+    "translation": "prose",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 5855,
+    "decision": "fix",
+    "reason": "translation embedded article ('a church song'); primary is 'hymn'; psalm is a secondary sense",
+    "translation": "hymn",
+    "senses": ["hymn, church hymn", "psalm (biblical)"]
+  }
+]

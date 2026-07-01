@@ -1,0 +1,402 @@
+[
+  {
+    "english": "real, actual",
+    "senses": [
+      { "gloss": "genuinely existing", "members": [1049, 3465, 5000] },
+      { "gloss": "proper, strict sense", "members": [2651] }
+    ]
+  },
+  {
+    "english": "admit",
+    "senses": [
+      { "gloss": "", "members": [1054, 2082] }
+    ]
+  },
+  {
+    "english": "half, ½",
+    "senses": [
+      { "gloss": "adjective", "members": [1059] },
+      { "gloss": "a half (noun)", "members": [1458, 3923] },
+      { "gloss": "halftime", "members": [5261] }
+    ]
+  },
+  {
+    "english": "throw",
+    "senses": [
+      { "gloss": "verb", "members": [1063, 1971] },
+      { "gloss": "noun", "members": [4167] }
+    ]
+  },
+  {
+    "english": "top",
+    "senses": [
+      { "gloss": "verb", "members": [1079] },
+      { "gloss": "noun", "members": [1587] }
+    ]
+  },
+  {
+    "english": "kind, sort",
+    "senses": [
+      { "gloss": "type, variety", "members": [1080] },
+      { "gloss": "well-behaved", "members": [1748] }
+    ]
+  },
+  {
+    "english": "advantage",
+    "senses": [
+      { "gloss": "", "members": [1081, 4296] }
+    ]
+  },
+  {
+    "english": "protect",
+    "senses": [
+      { "gloss": "", "members": [1082, 2579, 7104] }
+    ]
+  },
+  {
+    "english": "make use of, exploit",
+    "senses": [
+      { "gloss": "verb", "members": [1084] },
+      { "gloss": "particle", "members": [5113] }
+    ]
+  },
+  {
+    "english": "French",
+    "senses": [
+      { "gloss": "adjective", "members": [1086] },
+      { "gloss": "the language", "members": [6055] }
+    ]
+  },
+  {
+    "english": "collection",
+    "senses": [
+      { "gloss": "gathered set", "members": [1088] },
+      { "gloss": "fundraising drive", "members": [5060] }
+    ]
+  },
+  {
+    "english": "rather, sooner, more likely, better",
+    "senses": [
+      { "gloss": "more accurately", "members": [1090] },
+      { "gloss": "fairly, quite", "members": [2661, 4611] },
+      { "gloss": "particularly", "members": [2991] }
+    ]
+  },
+  {
+    "english": "thus, therefore",
+    "senses": [
+      { "gloss": "", "members": [1095, 2565] }
+    ]
+  },
+  {
+    "english": "association",
+    "senses": [
+      { "gloss": "organization", "members": [1096, 5204] },
+      { "gloss": "mental connection", "members": [5769] }
+    ]
+  },
+  {
+    "english": "lift",
+    "senses": [
+      { "gloss": "verb", "members": [1097] },
+      { "gloss": "noun", "members": [6594] }
+    ]
+  },
+  {
+    "english": "soldier",
+    "senses": [
+      { "gloss": "modern", "members": [1099] },
+      { "gloss": "historical", "members": [7607] }
+    ]
+  },
+  {
+    "english": "notice",
+    "senses": [
+      { "gloss": "become aware", "members": [1100, 1833] },
+      { "gloss": "layoff warning", "members": [4002, 5932] },
+      { "gloss": "summons", "members": [4903] }
+    ]
+  },
+  {
+    "english": "caught, stuck",
+    "senses": [
+      { "gloss": "", "members": [1152, 1343] }
+    ]
+  },
+  {
+    "english": "strengthen",
+    "senses": [
+      { "gloss": "", "members": [3857, 1158, 1945] }
+    ]
+  },
+  {
+    "english": "guy, boy",
+    "senses": [
+      { "gloss": "", "members": [1106, 6162] }
+    ]
+  },
+  {
+    "english": "care",
+    "senses": [
+      { "gloss": "to mind, to care (verb)", "members": [1282] },
+      { "gloss": "nursing care", "members": [1107, 7103] },
+      { "gloss": "careful attention", "members": [2465] }
+    ]
+  },
+  {
+    "english": "fully",
+    "senses": [
+      { "gloss": "", "members": [1108, 4797] }
+    ]
+  },
+  {
+    "english": "moderate",
+    "senses": [
+      { "gloss": "", "members": [2607, 5924] }
+    ]
+  },
+  {
+    "english": "generally",
+    "senses": [
+      { "gloss": "", "members": [1118, 2658] }
+    ]
+  },
+  {
+    "english": "close, cancel, terminate",
+    "senses": [
+      { "gloss": "conclude, end", "members": [1119] },
+      { "gloss": "shut, close physically", "members": [1227] }
+    ]
+  },
+  {
+    "english": "sleep",
+    "senses": [
+      { "gloss": "verb", "members": [1120] },
+      { "gloss": "noun", "members": [3101] }
+    ]
+  },
+  {
+    "english": "inside, indoors",
+    "senses": [
+      { "gloss": "adverb", "members": [1121, 4861] },
+      { "gloss": "preposition", "members": [4053, 5517] },
+      { "gloss": "inner surface", "members": [5430] }
+    ]
+  },
+  {
+    "english": "girl",
+    "senses": [
+      { "gloss": "", "members": [1122, 1186] }
+    ]
+  },
+  {
+    "english": "serious",
+    "senses": [
+      { "gloss": "", "members": [1125, 1783] }
+    ]
+  },
+  {
+    "english": "weight",
+    "senses": [
+      { "gloss": "", "members": [1131, 4292] }
+    ]
+  },
+  {
+    "english": "conversation",
+    "senses": [
+      { "gloss": "", "members": [1134, 5544] }
+    ]
+  },
+  {
+    "english": "in motion, moving, running",
+    "senses": [
+      { "gloss": "", "members": [1138, 3899] }
+    ]
+  },
+  {
+    "english": "feed; give birth",
+    "senses": [
+      { "gloss": "feed (verb)", "members": [1141, 4330] },
+      { "gloss": "fodder (noun)", "members": [6242] }
+    ]
+  },
+  {
+    "english": "point out, note",
+    "senses": [
+      { "gloss": "", "members": [1153, 5137] }
+    ]
+  },
+  {
+    "english": "doctor, physician",
+    "senses": [
+      { "gloss": "", "members": [1159, 2091] }
+    ]
+  },
+  {
+    "english": "poor",
+    "senses": [
+      { "gloss": "lacking money", "members": [1160] },
+      { "gloss": "pitiable", "members": [2887] }
+    ]
+  },
+  {
+    "english": "expose",
+    "senses": [
+      { "gloss": "subject to risk", "members": [1163, 6570] },
+      { "gloss": "uncover, reveal", "members": [7114] }
+    ]
+  },
+  {
+    "english": "letter",
+    "senses": [
+      { "gloss": "written message", "members": [1168] },
+      { "gloss": "alphabet character", "members": [3310] }
+    ]
+  },
+  {
+    "english": "staff",
+    "senses": [
+      { "gloss": "personnel", "members": [1169] },
+      { "gloss": "rod, pole", "members": [6886, 7220] }
+    ]
+  },
+  {
+    "english": "fight",
+    "senses": [
+      { "gloss": "verb", "members": [1172] },
+      { "gloss": "noun", "members": [6367] }
+    ]
+  },
+  {
+    "english": "sign, symbol",
+    "senses": [
+      { "gloss": "indication, symbol", "members": [1174] },
+      { "gloss": "placard, sign board", "members": [3259] },
+      { "gloss": "to sign (verb)", "members": [3470, 6437] }
+    ]
+  },
+  {
+    "english": "echo",
+    "senses": [
+      { "gloss": "verb", "members": [1180] },
+      { "gloss": "noun", "members": [4836] }
+    ]
+  },
+  {
+    "english": "English",
+    "senses": [
+      { "gloss": "adjective", "members": [1181] },
+      { "gloss": "the language", "members": [1927] }
+    ]
+  },
+  {
+    "english": "morning",
+    "senses": [
+      { "gloss": "early morning", "members": [1185] },
+      { "gloss": "late morning", "members": [2257] }
+    ]
+  },
+  {
+    "english": "union",
+    "senses": [
+      { "gloss": "", "members": [1188, 1639] }
+    ]
+  },
+  {
+    "english": "boss, manager",
+    "senses": [
+      { "gloss": "", "members": [1191, 7408] }
+    ]
+  },
+  {
+    "english": "wise",
+    "senses": [
+      { "gloss": "", "members": [3305, 1851] }
+    ]
+  },
+  {
+    "english": "battle",
+    "senses": [
+      { "gloss": "noun", "members": [1193] },
+      { "gloss": "verb", "members": [2271] }
+    ]
+  },
+  {
+    "english": "operate, run, manage",
+    "senses": [
+      { "gloss": "run a business", "members": [1196] },
+      { "gloss": "perform surgery", "members": [4809] }
+    ]
+  },
+  {
+    "english": "story, narrative, account",
+    "senses": [
+      { "gloss": "", "members": [1201, 3873] }
+    ]
+  },
+  {
+    "english": "production",
+    "senses": [
+      { "gloss": "", "members": [1202, 3637] }
+    ]
+  },
+  {
+    "english": "prevent, hinder",
+    "senses": [
+      { "gloss": "block, stop", "members": [1204, 1655] },
+      { "gloss": "forestall, preclude", "members": [3475] }
+    ]
+  },
+  {
+    "english": "green",
+    "senses": [
+      { "gloss": "adjective", "members": [1208] },
+      { "gloss": "greenery (noun)", "members": [7168] }
+    ]
+  },
+  {
+    "english": "apply, implement",
+    "senses": [
+      { "gloss": "put into practice", "members": [1212, 5867] },
+      { "gloss": "apply for", "members": [3331] }
+    ]
+  },
+  {
+    "english": "protection",
+    "senses": [
+      { "gloss": "", "members": [1213, 6386] }
+    ]
+  },
+  {
+    "english": "so far, until now",
+    "senses": [
+      { "gloss": "", "members": [1214, 3139] }
+    ]
+  },
+  {
+    "english": "run",
+    "senses": [
+      { "gloss": "on foot", "members": [1222] },
+      { "gloss": "flow (liquid)", "members": [2551] }
+    ]
+  },
+  {
+    "english": "enormously, incredibly",
+    "senses": [
+      { "gloss": "", "members": [1223, 3154] }
+    ]
+  },
+  {
+    "english": "suspicion, idea, notion",
+    "senses": [
+      { "gloss": "", "members": [1228, 3375] }
+    ]
+  },
+  {
+    "english": "replacement",
+    "senses": [
+      { "gloss": "compensation, substitute thing", "members": [1236] },
+      { "gloss": "substitute person", "members": [5025] }
+    ]
+  }
+]

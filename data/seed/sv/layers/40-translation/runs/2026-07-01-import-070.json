@@ -1,0 +1,291 @@
+[
+  {
+    "kellyId": 7752,
+    "decision": "fix",
+    "reason": "embedded article 'a' in 'a gang'",
+    "translation": "team, gang",
+    "senses": []
+  },
+  {
+    "kellyId": 7513,
+    "decision": "fix",
+    "reason": "subdef is a definition of the same word, not a second meaning; area is a single-meaning cognate",
+    "translation": "area",
+    "senses": []
+  },
+  {
+    "kellyId": 7067,
+    "decision": "fix",
+    "reason": "primary 'ark, a box' embeds an article and lists are definition-like; 'ark' is the clear primary",
+    "translation": "ark",
+    "senses": ["ark (Noah's or Ark of the Covenant)", "box, chest"]
+  },
+  {
+    "kellyId": 7487,
+    "decision": "fix",
+    "reason": "'architectonic' is a rare technical synonym; 'architectural' alone is cleaner",
+    "translation": "architectural",
+    "senses": []
+  },
+  {
+    "kellyId": 8033,
+    "decision": "fix",
+    "reason": "subdef restates the primary; cleaned senses to distinguish concept vs. place",
+    "translation": "detention, custody",
+    "senses": ["detention, custody", "detention cell, lockup (the place)"]
+  },
+  {
+    "kellyId": 7938,
+    "decision": "fix",
+    "reason": "'inheritor' is redundant alongside 'heir, heiress'",
+    "translation": "heir, heiress",
+    "senses": []
+  },
+  {
+    "kellyId": 7590,
+    "decision": "fix",
+    "reason": "'emolument' is archaic/formal; 'fee' is the everyday primary",
+    "translation": "fee",
+    "senses": []
+  },
+  {
+    "kellyId": 7388,
+    "decision": "fix",
+    "reason": "primary is a definition; 'asthma' is the word itself and is uncountable",
+    "translation": "asthma",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 8201,
+    "decision": "fix",
+    "reason": "currentSubDefinitions not reflected in senses; 'brawny' is a distinct secondary meaning",
+    "translation": "athletic",
+    "senses": ["athletic", "brawny, muscular"]
+  },
+  {
+    "kellyId": 8096,
+    "decision": "fix",
+    "reason": "subdef 'related to the atmosphere' is a definition of the same word, not a second meaning",
+    "translation": "atmospheric",
+    "senses": []
+  },
+  {
+    "kellyId": 7551,
+    "decision": "fix",
+    "reason": "everyday sense is vending machine/slot machine; 'automaton' is rarer — promote common sense",
+    "translation": "vending machine, slot machine",
+    "senses": ["vending machine, slot machine, ATM", "automaton (self-operating machine)"]
+  },
+  {
+    "kellyId": 7944,
+    "decision": "fix",
+    "reason": "primary is a narrow bureaucratic sense; everyday meaning is 'department head'",
+    "translation": "department head",
+    "senses": ["department head, head of department", "deputy director-general (Swedish government)", "head of division (EU)"]
+  },
+  {
+    "kellyId": 7574,
+    "decision": "fix",
+    "reason": "primary is uncountable; 'fecal matter' is redundant; senses cleaned",
+    "translation": "feces, stool",
+    "uncountable": true,
+    "senses": ["feces, stool", "defecation (the act)"]
+  },
+  {
+    "kellyId": 7863,
+    "decision": "fix",
+    "reason": "embedded article 'an' in 'an offspring'",
+    "translation": "descendant, offspring",
+    "senses": []
+  },
+  {
+    "kellyId": 8314,
+    "decision": "fix",
+    "reason": "subdef is a definition of the verb, not a second meaning; single-meaning word",
+    "translation": "depart",
+    "senses": []
+  },
+  {
+    "kellyId": 7796,
+    "decision": "fix",
+    "reason": "currentSubDefinitions not in senses; providing complete senses list",
+    "translation": "dismissal, firing",
+    "senses": ["dismissal, firing", "redundancy, layoff"]
+  },
+  {
+    "kellyId": 7659,
+    "decision": "fix",
+    "reason": "embedded article 'a' in 'a write-off'",
+    "translation": "depreciation, write-off",
+    "senses": []
+  },
+  {
+    "kellyId": 8082,
+    "decision": "fix",
+    "reason": "'not tense' is a definition fragment, not a synonym",
+    "translation": "relaxed, laid-back",
+    "senses": []
+  },
+  {
+    "kellyId": 8094,
+    "decision": "fix",
+    "reason": "subdef is a definition of the same verb, not a distinct second meaning",
+    "translation": "unveil",
+    "senses": []
+  },
+  {
+    "kellyId": 7872,
+    "decision": "fix",
+    "reason": "currentSubDefinitions not in senses; 'krona, SEK' is genuine slang sense",
+    "translation": "baker",
+    "senses": ["baker", "krona, SEK (slang)"]
+  },
+  {
+    "kellyId": 7789,
+    "decision": "fix",
+    "reason": "subdef is a definition, not a second meaning; single-meaning word",
+    "translation": "trifle, triviality",
+    "senses": []
+  },
+  {
+    "kellyId": 8270,
+    "decision": "fix",
+    "reason": "'to slander' has spurious 'to' prefix; app adds 'to' for verbs",
+    "translation": "malign, slander",
+    "senses": []
+  },
+  {
+    "kellyId": 7505,
+    "decision": "fix",
+    "reason": "everyday primary is the formal dance; 'bale' is a secondary sense; subdef capitalisation fixed",
+    "translation": "ball (formal dance)",
+    "senses": ["ball, formal dance", "bale, bundle"]
+  },
+  {
+    "kellyId": 7618,
+    "decision": "fix",
+    "reason": "primary 'wooden or metal beam' is definition-like; 'beam' is clear; 'penis' is marginal slang — dropped",
+    "translation": "beam",
+    "senses": ["beam (structural)", "code (section of legislation)", "bend (heraldic diagonal band)"]
+  },
+  {
+    "kellyId": 7083,
+    "decision": "fix",
+    "reason": "embedded article 'an' in 'an outlaw'",
+    "translation": "bandit, outlaw",
+    "senses": []
+  },
+  {
+    "kellyId": 7100,
+    "decision": "fix",
+    "reason": "embedded articles 'a pram, a stroller'; reordered to most common British/international terms first",
+    "translation": "pram, stroller",
+    "senses": []
+  },
+  {
+    "kellyId": 7407,
+    "decision": "fix",
+    "reason": "'a ruler of a barony' is a definition; 'baron' alone is the clear translation",
+    "translation": "baron",
+    "senses": []
+  },
+  {
+    "kellyId": 7869,
+    "decision": "fix",
+    "reason": "subdefs are redundant (herb vs plant) and list is incomplete; two real meanings are basil and basilica",
+    "translation": "basil",
+    "senses": ["basil (herb)", "basilica (large church)"]
+  },
+  {
+    "kellyId": 7434,
+    "decision": "fix",
+    "reason": "'pool' is just a shorter synonym of 'swimming pool', not a second meaning",
+    "translation": "swimming pool",
+    "senses": []
+  },
+  {
+    "kellyId": 7558,
+    "decision": "fix",
+    "reason": "clumsy 'fertilisation / fertilization' slash formatting",
+    "translation": "fertilization",
+    "senses": []
+  },
+  {
+    "kellyId": 7240,
+    "decision": "fix",
+    "reason": "subdef 'to overcome, control' has spurious 'to'; senses rebuilt",
+    "translation": "master",
+    "senses": ["master (learn thoroughly)", "overcome, control"]
+  },
+  {
+    "kellyId": 8005,
+    "decision": "fix",
+    "reason": "subdef is definition-like; cleaned to short parenthetical",
+    "translation": "mountainous",
+    "senses": ["mountainous", "rocky (exposed bedrock)"]
+  },
+  {
+    "kellyId": 7244,
+    "decision": "fix",
+    "reason": "'to entitle' has spurious 'to'; primary rephrased more naturally",
+    "translation": "entitle, give the right to",
+    "senses": ["entitle, give the right to", "justify"]
+  },
+  {
+    "kellyId": 8374,
+    "decision": "fix",
+    "reason": "subdef 'bitter (adjective)' is a cross-reference, not a second meaning of the noun",
+    "translation": "bitters, wormwood liquor",
+    "senses": []
+  },
+  {
+    "kellyId": 7181,
+    "decision": "fix",
+    "reason": "subdefs embed articles 'a guardian', 'a patron'; rebuilt senses bare",
+    "translation": "protector",
+    "senses": ["protector", "guardian", "patron"]
+  },
+  {
+    "kellyId": 7605,
+    "decision": "fix",
+    "reason": "primary 'climb, to scale, to get to the top of' has spurious 'to' prefixes and is definition-like",
+    "translation": "climb, scale",
+    "senses": ["climb, scale (a mountain)", "mount (a horse)", "ascend (a throne)"]
+  },
+  {
+    "kellyId": 7790,
+    "decision": "fix",
+    "reason": "'definiteness' is the rarer sense; 'determination, resolve' is the everyday primary",
+    "translation": "determination, resolve",
+    "senses": ["determination, resolve", "definiteness"]
+  },
+  {
+    "kellyId": 7170,
+    "decision": "fix",
+    "reason": "'to trouble, to inconvenience' have spurious 'to' prefixes",
+    "translation": "bother, trouble",
+    "senses": []
+  },
+  {
+    "kellyId": 7190,
+    "decision": "fix",
+    "reason": "subdef 'to man (a crew)' has spurious 'to'; senses rebuilt",
+    "translation": "occupy",
+    "senses": ["occupy (a country)", "man, crew (staff a vessel)"]
+  },
+  {
+    "kellyId": 7815,
+    "decision": "fix",
+    "reason": "primary 'condition, to be conditioned' has spurious 'to'; senses rebuilt cleaner",
+    "translation": "condition, be conditioned by",
+    "senses": ["condition, be conditioned by", "fetch, carry (a price)"]
+  },
+  {
+    "kellyId": 8011,
+    "decision": "fix",
+    "reason": "subdef is definition-like; cleaned to short gloss",
+    "translation": "arming",
+    "senses": ["arming", "armament (weapons of a force or vessel)"]
+  }
+]

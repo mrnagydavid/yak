@@ -1,0 +1,375 @@
+[
+  {
+    "kellyId": 1210,
+    "decision": "fix",
+    "reason": "clumsy phrasing: 'communicate, to notify' embeds 'to' — app adds it; drop redundant 'communicate' since 'notify' is the core transitive sense of meddela",
+    "translation": "notify, inform",
+    "senses": []
+  },
+  {
+    "kellyId": 1029,
+    "decision": "fix",
+    "reason": "senses list items are definition-like ('an agent (substance used for a specific purpose)') and one has an embedded article; rebuild cleanly",
+    "translation": "means",
+    "senses": [
+      "means (way to achieve something)",
+      "agent, substance (for a specific purpose)",
+      "funds, money",
+      "mean, average"
+    ]
+  },
+  {
+    "kellyId": 1297,
+    "decision": "fix",
+    "reason": "primary 'imply' is misleading — medföra chiefly means 'entail, bring about'; 'bring along' is secondary. Senses list item had embedded 'to'.",
+    "translation": "entail, bring about",
+    "senses": [
+      "entail, bring about, result in",
+      "bring along (e.g. luggage)"
+    ]
+  },
+  {
+    "kellyId": 490,
+    "decision": "fix",
+    "reason": "senses list omits the dominant everyday sense (medium as a size/scale), has definition-like entries, and includes marginal grammatical senses ('middle voice', 'a mean') not worth teaching",
+    "translation": "medium",
+    "senses": [
+      "medium (size or scale)",
+      "medium (substance or channel)",
+      "medium (person communicating with spirits)"
+    ]
+  },
+  {
+    "kellyId": 1302,
+    "decision": "fix",
+    "reason": "senses list items are definition-like ('having knowledge of', 'having experiences'); should be clean short translations",
+    "translation": "conscious, aware",
+    "senses": [
+      "aware, conscious (knowing about something)",
+      "conscious (having experiences, sentient)"
+    ]
+  },
+  {
+    "kellyId": 113,
+    "decision": "fix",
+    "reason": "senses list is redundant — 'yet, however' restates 'but'; the word has one core meaning with near-synonyms, no need for a list",
+    "translation": "but",
+    "senses": []
+  },
+  {
+    "kellyId": 371,
+    "decision": "fix",
+    "reason": "senses list items have definition-like parentheticals ('(convey, express)', '(hold an opinion)', '(have a purpose)') — trim to clean short glosses",
+    "translation": "mean",
+    "senses": [
+      "mean, convey",
+      "think, believe (hold an opinion)",
+      "mean, intend"
+    ]
+  },
+  {
+    "kellyId": 551,
+    "decision": "fix",
+    "reason": "currentTranslation has embedded article 'a' ('purpose, a point'); bare form needed",
+    "translation": "purpose, point",
+    "senses": [
+      "purpose, point (the meaning or use of something)",
+      "sentence (grammatical)",
+      "meaning, sense (intended)",
+      "opinion"
+    ]
+  },
+  {
+    "kellyId": 1230,
+    "decision": "fix",
+    "reason": "senses list has definition-like items ('Rhythm or measure in verse', 'a device that measures things') and embedded articles; simplify",
+    "translation": "metre",
+    "senses": [
+      "metre (unit of length)",
+      "metre (rhythm in verse)",
+      "meter (measuring device)"
+    ]
+  },
+  {
+    "kellyId": 843,
+    "decision": "fix",
+    "reason": "senses list has a single redundant item 'a method' — single-meaning word should have empty list",
+    "translation": "method",
+    "senses": []
+  },
+  {
+    "kellyId": 33,
+    "decision": "fix",
+    "reason": "currentTranslation is a definition ('A thousand million, 10⁹, a milliard'); primary everyday translation is 'billion'",
+    "translation": "billion",
+    "senses": []
+  },
+  {
+    "kellyId": 34,
+    "decision": "fix",
+    "reason": "currentTranslation is a definition ('A million, 10⁶'); primary translation is 'million'",
+    "translation": "million",
+    "senses": []
+  },
+  {
+    "kellyId": 827,
+    "decision": "fix",
+    "reason": "senses list is missing the primary 'environment (general surroundings)' sense as first item; list should start with primary",
+    "translation": "environment",
+    "senses": [
+      "environment (surroundings, setting)",
+      "the natural environment, nature",
+      "milieu (social setting)"
+    ]
+  },
+  {
+    "kellyId": 694,
+    "decision": "fix",
+    "reason": "clumsy phrasing: 'remember, to recall' embeds 'to'; single-meaning word gets empty senses",
+    "translation": "remember, recall",
+    "senses": []
+  },
+  {
+    "kellyId": 1241,
+    "decision": "fix",
+    "reason": "senses list items are definition-like and verbose; rebuild with clean short glosses; 'memory' (faculty) is the primary everyday sense",
+    "translation": "memory",
+    "senses": [
+      "memory (faculty of remembering)",
+      "memory, recollection (a specific remembered event)",
+      "computer memory, RAM",
+      "remembrance, souvenir"
+    ]
+  },
+  {
+    "kellyId": 538,
+    "decision": "fix",
+    "reason": "senses list has a redundant near-synonym 'decrease' — minska means both 'reduce (transitive)' and 'decrease (intransitive)'; these are genuinely distinct uses worth showing",
+    "translation": "reduce, decrease",
+    "senses": []
+  },
+  {
+    "kellyId": 834,
+    "decision": "fix",
+    "reason": "senses list items are definition-like; primary everyday sense should lead cleanly",
+    "translation": "minute",
+    "senses": [
+      "minute (unit of time)",
+      "minute (unit of angle)",
+      "moment, minute (short unspecified time)"
+    ]
+  },
+  {
+    "kellyId": 1195,
+    "decision": "fix",
+    "reason": "senses list items are definition-like with long parentheticals; word has one core meaning 'miss' — collapse list",
+    "translation": "miss",
+    "senses": []
+  },
+  {
+    "kellyId": 648,
+    "decision": "fix",
+    "reason": "senses list items are definition-like; rebuild cleanly",
+    "translation": "mission",
+    "senses": [
+      "mission, task",
+      "mission (religious evangelism)"
+    ]
+  },
+  {
+    "kellyId": 1092,
+    "decision": "fix",
+    "reason": "senses list is missing the miniature/scale-model sense as first item and items are definition-like; rebuild",
+    "translation": "model",
+    "senses": [
+      "model (miniature or simplified representation)",
+      "model (abstract or mathematical)",
+      "model, type (of a product)",
+      "role model, example",
+      "model (fashion or photo)"
+    ]
+  },
+  {
+    "kellyId": 1113,
+    "decision": "fix",
+    "reason": "senses list is redundant — it just restates the translation; single-meaning entry should have empty list",
+    "translation": "Moderate Party member",
+    "senses": []
+  },
+  {
+    "kellyId": 780,
+    "decision": "fix",
+    "reason": "'in fashion' is a close secondary sense worth noting but senses list should be clean",
+    "translation": "modern",
+    "senses": [
+      "modern (of the present time)",
+      "fashionable, trendy"
+    ]
+  },
+  {
+    "kellyId": 1375,
+    "decision": "fix",
+    "reason": "'Moor' is a marginal/archaic sense — drop it; single-meaning word gets empty list",
+    "translation": "mother",
+    "senses": []
+  },
+  {
+    "kellyId": 159,
+    "decision": "fix",
+    "reason": "senses list items use 'vs.' abbreviation — fine, but 'versus, vs., v.' is cluttered; trim",
+    "translation": "to, toward",
+    "senses": [
+      "to, toward (direction)",
+      "against",
+      "versus, vs."
+    ]
+  },
+  {
+    "kellyId": 1135,
+    "decision": "fix",
+    "reason": "primary 'less than zero' is a marginal mathematical sense; everyday primary is 'negative' (pessimistic/unfavorable)",
+    "translation": "negative",
+    "senses": [
+      "negative (pessimistic, unfavorable)",
+      "negative (less than zero)"
+    ]
+  },
+  {
+    "kellyId": 380,
+    "decision": "fix",
+    "reason": "senses sub-item 'plural of mången' is a grammar note, not a translation sense — drop it; single-meaning word",
+    "translation": "many",
+    "senses": []
+  },
+  {
+    "kellyId": 619,
+    "decision": "fix",
+    "reason": "senses list items are definition-like; primary 'amount, quantity' dominates; 'crowd' and 'set' are secondary",
+    "translation": "amount, quantity",
+    "senses": [
+      "amount, quantity",
+      "crowd, large group",
+      "set (mathematics)"
+    ]
+  },
+  {
+    "kellyId": 192,
+    "decision": "fix",
+    "reason": "currentTranslation 'human, a human being' has embedded article 'a'; bare form needed",
+    "translation": "human being, person",
+    "senses": [
+      "human being, person",
+      "mankind, humanity (collective)"
+    ]
+  },
+  {
+    "kellyId": 559,
+    "decision": "fix",
+    "reason": "primary 'authority' (abstract quality) is less everyday than 'authority, agency' (government body); promote government body sense; senses list items are definition-like",
+    "translation": "authority",
+    "senses": [
+      "authority, government agency",
+      "authority (power, influence)",
+      "legal majority, adulthood"
+    ]
+  },
+  {
+    "kellyId": 362,
+    "decision": "fix",
+    "reason": "currentTranslation 'goal, target' is fine but senses list is missing 'goal (sports)' and 'meal', which are major everyday meanings; list is incomplete",
+    "translation": "goal, target",
+    "senses": [
+      "goal, target (aim)",
+      "goal (sports)",
+      "finish line",
+      "meal",
+      "language, dialect",
+      "court case (legal)"
+    ]
+  },
+  {
+    "kellyId": 987,
+    "decision": "fix",
+    "reason": "senses sub-item 'in the present time or era' is a definition restatement, not a translation — drop it; single-meaning word",
+    "translation": "nowadays",
+    "senses": []
+  },
+  {
+    "kellyId": 560,
+    "decision": "fix",
+    "reason": "senses list has marginal sense 'sexual intercourse' and 'item on a numbered list' which are minor; also 'size of shoes or gloves' is clunky — trim to most relevant",
+    "translation": "number",
+    "senses": [
+      "number (identifier)",
+      "act, number (in a show)",
+      "issue (of a magazine)",
+      "size (shoes, gloves)"
+    ]
+  },
+  {
+    "kellyId": 791,
+    "decision": "fix",
+    "reason": "senses sub-item 'relating to now' is a definition, not a translation — drop it; single-meaning word",
+    "translation": "current, present",
+    "senses": []
+  },
+  {
+    "kellyId": 979,
+    "decision": "fix",
+    "reason": "currentTranslation 'news, piece of news' is slightly redundant; 'news item' and 'novelty' are the real two senses worth distinguishing",
+    "translation": "news item",
+    "senses": [
+      "news item, piece of news",
+      "novelty, new thing"
+    ]
+  },
+  {
+    "kellyId": 1083,
+    "decision": "fix",
+    "reason": "currentTranslation 'use, to make use of for benefit' embeds 'to' and is definition-like; trim to bare 'use'",
+    "translation": "use, make use of",
+    "senses": [
+      "use, make use of",
+      "use (legal drugs, e.g. tobacco)"
+    ]
+  },
+  {
+    "kellyId": 641,
+    "decision": "fix",
+    "reason": "currentTranslation 'mention, to name' embeds 'to'; single-meaning verb — remove list",
+    "translation": "mention, name",
+    "senses": []
+  },
+  {
+    "kellyId": 138,
+    "decision": "fix",
+    "reason": "senses sub-item 'synonym of nära (\"close\")' is a dictionary cross-reference, not a translation — drop it; 'when' and 'as' are the two real senses",
+    "translation": "when",
+    "senses": [
+      "when (interrogative and temporal)",
+      "as (while, at the time)"
+    ]
+  },
+  {
+    "kellyId": 39,
+    "decision": "fix",
+    "reason": "senses list includes very marginal senses ('a person who finishes ninth', 'a face') — drop them; keep core senses",
+    "translation": "nine",
+    "senses": [
+      "nine, the digit 9",
+      "ninth-grader (pupil in final compulsory year)",
+      "ninth year (class or school year)"
+    ]
+  },
+  {
+    "kellyId": 1288,
+    "decision": "fix",
+    "reason": "senses list items are definition-like ('to notice', 'to note down') — these are all facets of one core meaning 'note'; collapse to single meaning",
+    "translation": "note, notice",
+    "senses": [
+      "note, notice (observe)",
+      "note down, record",
+      "list (on the stock market)"
+    ]
+  }
+]

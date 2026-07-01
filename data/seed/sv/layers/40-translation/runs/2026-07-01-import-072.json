@@ -1,0 +1,261 @@
+[
+  {
+    "kellyId": 7732,
+    "decision": "fix",
+    "reason": "subDef 'a dive (with diving gear)' is just restating the primary — single meaning, clear the list",
+    "translation": "diving",
+    "senses": []
+  },
+  {
+    "kellyId": 7962,
+    "decision": "fix",
+    "reason": "subDef 'a low, loud sound' is a definition, not a translation — single meaning, clear the list",
+    "translation": "din, rumble, roar",
+    "senses": []
+  },
+  {
+    "kellyId": 7690,
+    "decision": "fix",
+    "reason": "clumsy phrasing — 'to succeed' already has 'to' but app adds it; fix to bare form",
+    "translation": "follow, succeed",
+    "senses": []
+  },
+  {
+    "kellyId": 7398,
+    "decision": "fix",
+    "reason": "'ownness' is not a real English word; the core meaning is 'peculiarity, quirk'; other senses in the dump are near-synonyms of the same concept",
+    "translation": "peculiarity, quirk",
+    "senses": []
+  },
+  {
+    "kellyId": 7848,
+    "decision": "fix",
+    "reason": "'a narrative poem' has an embedded article; fix to bare form",
+    "translation": "epic, narrative poem",
+    "senses": []
+  },
+  {
+    "kellyId": 7942,
+    "decision": "fix",
+    "reason": "senses list is incomplete — missing the primary sense; rebuild complete list",
+    "translation": "escort",
+    "senses": [
+      "escort (accompanying guard)",
+      "protection by an escort",
+      "escort (sex worker)"
+    ]
+  },
+  {
+    "kellyId": 7856,
+    "decision": "fix",
+    "reason": "subDef 'to escort (lead)' is the same meaning as the primary — single sense, clear the list",
+    "translation": "escort",
+    "senses": []
+  },
+  {
+    "kellyId": 8395,
+    "decision": "fix",
+    "reason": "senses list should be complete with both meanings; rebuild",
+    "translation": "Excellency",
+    "senses": [
+      "Excellency (form of address for dignitaries)",
+      "excellence"
+    ]
+  },
+  {
+    "kellyId": 7816,
+    "decision": "fix",
+    "reason": "subDef 'either of the parents of one's father' is a definition of the primary — single meaning, clear the list",
+    "translation": "paternal grandparent",
+    "senses": []
+  },
+  {
+    "kellyId": 7849,
+    "decision": "fix",
+    "reason": "senses list missing; 'fasta' has two distinct senses: fasting generally and Lent specifically",
+    "translation": "fast, fasting",
+    "senses": [
+      "fast, fasting",
+      "Lent"
+    ]
+  },
+  {
+    "kellyId": 7978,
+    "decision": "fix",
+    "reason": "clumsy phrasing — 'to commit a fault' is wordy and 'to' is added by app; clean up and rebuild senses",
+    "translation": "do wrong, err",
+    "senses": [
+      "do wrong, err (morally)",
+      "be missing, be wanting"
+    ]
+  },
+  {
+    "kellyId": 8341,
+    "decision": "fix",
+    "reason": "'a violin' has an embedded article; fix to bare form",
+    "translation": "fiddle, violin",
+    "senses": []
+  },
+  {
+    "kellyId": 7987,
+    "decision": "fix",
+    "reason": "subDef 'feminine' is identical to the primary — redundant list; single meaning, clear it",
+    "translation": "feminine",
+    "senses": []
+  },
+  {
+    "kellyId": 8401,
+    "decision": "fix",
+    "reason": "current translation is a definition; 'the distance' is the natural English equivalent for this noun use",
+    "translation": "the distance, the far-off",
+    "senses": []
+  },
+  {
+    "kellyId": 7668,
+    "decision": "fix",
+    "reason": "'a remote' has an embedded article; fix to bare form",
+    "translation": "remote control, remote",
+    "senses": [
+      "remote control, remote (device)",
+      "remote control (act of controlling from a distance)"
+    ]
+  },
+  {
+    "kellyId": 7372,
+    "decision": "fix",
+    "reason": "clumsy phrasing — 'to flame' already has 'to' sense added by app; also fix senses list",
+    "translation": "blaze, flame",
+    "senses": [
+      "blaze, flame",
+      "flare up"
+    ]
+  },
+  {
+    "kellyId": 8309,
+    "decision": "fix",
+    "reason": "subDef elaborates the same single meaning — not a distinct sense; clear the list",
+    "translation": "foil",
+    "senses": []
+  },
+  {
+    "kellyId": 7875,
+    "decision": "fix",
+    "reason": "'infantry' is the more basic literal meaning; 'foot soldiers' covers both senses well as primary",
+    "translation": "infantry, foot soldiers",
+    "senses": [
+      "infantry (military)",
+      "rank and file (low-ranking members of an organization)"
+    ]
+  },
+  {
+    "kellyId": 7087,
+    "decision": "fix",
+    "reason": "subDef 'free, release' is a near-synonym of the primary — single meaning, clear the list",
+    "translation": "liberate, set free",
+    "senses": []
+  },
+  {
+    "kellyId": 8342,
+    "decision": "fix",
+    "reason": "'a barbershop' has an embedded article; fix to bare form",
+    "translation": "hair salon, barbershop",
+    "senses": []
+  },
+  {
+    "kellyId": 8006,
+    "decision": "fix",
+    "reason": "the three senses are all the same concept of wetness/moisture; collapse to single meaningful primary",
+    "translation": "humidity, moisture",
+    "senses": []
+  },
+  {
+    "kellyId": 7202,
+    "decision": "fix",
+    "reason": "Swedish 'fusion' most commonly means a business merger in everyday use; nuclear fusion is technical secondary",
+    "translation": "merger; nuclear fusion",
+    "senses": [
+      "merger (of companies)",
+      "nuclear fusion (physics)"
+    ]
+  },
+  {
+    "kellyId": 7922,
+    "decision": "fix",
+    "reason": "wiktionary senses are all restatements of the same meaning — single sense, clear the list",
+    "translation": "filling, stuffing",
+    "senses": []
+  },
+  {
+    "kellyId": 7105,
+    "decision": "fix",
+    "reason": "three near-synonyms in primary is too many; simplify to the most useful pair; keep secondary sense",
+    "translation": "square, rectangular",
+    "senses": [
+      "square, rectangular (in shape)",
+      "square, uncool (informal)"
+    ]
+  },
+  {
+    "kellyId": 7828,
+    "decision": "fix",
+    "reason": "subDef is just restating the same meaning — single sense, clear the list",
+    "translation": "fireworks",
+    "senses": []
+  },
+  {
+    "kellyId": 8099,
+    "decision": "fix",
+    "reason": "subDef 'person who studies or specializes in physics' is a definition of 'physicist' — clear the list",
+    "translation": "physicist",
+    "senses": []
+  },
+  {
+    "kellyId": 7065,
+    "decision": "fix",
+    "reason": "'catching' as a standalone noun is awkward; the word means the catch/haul (result), not the act",
+    "translation": "catch, haul",
+    "senses": []
+  },
+  {
+    "kellyId": 8343,
+    "decision": "fix",
+    "reason": "'interior window sill' is overly specific; 'window sill' is the natural translation a learner needs",
+    "translation": "window sill",
+    "senses": []
+  },
+  {
+    "kellyId": 8079,
+    "decision": "fix",
+    "reason": "'embitterment' is rare in everyday English; 'bitterness, resentment' is more natural",
+    "translation": "bitterness, resentment",
+    "senses": []
+  },
+  {
+    "kellyId": 8221,
+    "decision": "fix",
+    "reason": "clumsy phrasing — 'to astound' already has 'to' added by app; fix to bare form",
+    "translation": "baffle, astound",
+    "senses": []
+  },
+  {
+    "kellyId": 7860,
+    "decision": "fix",
+    "reason": "clumsy phrasing — 'to confuse' already has 'to' added by app; fix to bare form",
+    "translation": "puzzle, confuse",
+    "senses": []
+  },
+  {
+    "kellyId": 7891,
+    "decision": "fix",
+    "reason": "clumsy phrasing — 'to lead, to be in charge' has 'to' embedded; fix to bare form",
+    "translation": "manage, lead, be in charge of",
+    "senses": []
+  },
+  {
+    "kellyId": 7024,
+    "decision": "fix",
+    "reason": "'a manager' has an embedded article; subDef is a qualifier not a separate sense; fix to bare form",
+    "translation": "superintendent, manager",
+    "senses": []
+  }
+]

@@ -1,13 +1,13 @@
 // Write the ambiguous cards (from apply-decisions) into batches for the example-writer subagent,
 // which produces one short, level-appropriate, sense-specific Swedish example per card. (Step 15)
-// Input:  data/intermediate/ambiguous.json
-// Output: data/intermediate/example-batches/<n>.json
+// Input:  data/scratch/sv/ambiguous.json
+// Output: data/scratch/sv/example-batches/<n>.json
 // Run: node scripts/seed/batch-examples.mjs
 import { mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 
-const IN = 'data/intermediate/ambiguous.json'
-const BATCH_DIR = 'data/intermediate/example-batches'
+const IN = 'data/scratch/sv/ambiguous.json'
+const BATCH_DIR = 'data/scratch/sv/example-batches'
 const BATCH_SIZE = 150
 
 async function main() {

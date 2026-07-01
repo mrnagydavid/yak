@@ -1,0 +1,480 @@
+[
+  {
+    "kellyId": 857,
+    "decision": "fix",
+    "reason": "sub-definitions are verbose and definition-like; clean list needed",
+    "translation": "net",
+    "senses": [
+      "net (mesh for catching fish, sport, etc.)",
+      "internet, network (computing)"
+    ]
+  },
+  {
+    "kellyId": 1330,
+    "decision": "fix",
+    "reason": "'pleased' and 'satisfied' are near-synonyms for the same meaning — merge into primary and clear list",
+    "translation": "pleased, satisfied",
+    "senses": []
+  },
+  {
+    "kellyId": 1350,
+    "decision": "fix",
+    "reason": "both 'victim' and 'sacrifice' are common everyday senses; neither clearly dominates — use semicolon form; sub-def had embedded article",
+    "translation": "victim; sacrifice",
+    "senses": [
+      "victim (of a crime, accident, etc.)",
+      "sacrifice (ritual or figurative)"
+    ]
+  },
+  {
+    "kellyId": 630,
+    "decision": "fix",
+    "reason": "single-item sub-def is redundant with main; both senses reduce to the same English word — no list needed",
+    "translation": "public",
+    "senses": []
+  },
+  {
+    "kellyId": 132,
+    "decision": "fix",
+    "reason": "sub-def 'whether introduces an indirect question' is definition-like phrasing",
+    "translation": "if",
+    "senses": [
+      "if (conditional)",
+      "whether (indirect question)"
+    ]
+  },
+  {
+    "kellyId": 939,
+    "decision": "fix",
+    "reason": "translation 'comprise, to span, to include' embeds 'to' — app adds one; strip the embedded ones",
+    "translation": "comprise, span, include",
+    "senses": []
+  },
+  {
+    "kellyId": 332,
+    "decision": "fix",
+    "reason": "'sphere' is not the most important everyday meaning of 'område' — 'area, region' dominates; sub-defs had embedded articles",
+    "translation": "area",
+    "senses": [
+      "area, region (geographical or physical)",
+      "area, field (of activity or expertise)"
+    ]
+  },
+  {
+    "kellyId": 806,
+    "decision": "fix",
+    "reason": "sub-defs 'hurting, making pain' and 'pain' are definition-like and wrong part of speech for an adj entry; 'angry' and 'sore/painful' are real distinct senses — rewrite cleanly",
+    "translation": "evil",
+    "senses": [
+      "evil, wicked",
+      "angry",
+      "sore, painful (colloquial: det gör ont)"
+    ]
+  },
+  {
+    "kellyId": 972,
+    "decision": "fix",
+    "reason": "'chairman' is gendered; 'chairperson' in sub-def is just the gender-neutral synonym — use it as primary; clean list",
+    "translation": "chairperson",
+    "senses": [
+      "chairperson, chair",
+      "president (EU institutions)"
+    ]
+  },
+  {
+    "kellyId": 312,
+    "decision": "fix",
+    "reason": "sub-def 'the floor (turn to speak)' has embedded article; rewrite list cleanly",
+    "translation": "word",
+    "senses": [
+      "word (unit of language)",
+      "word, promise",
+      "floor (turn to speak, in formal settings)"
+    ]
+  },
+  {
+    "kellyId": 651,
+    "decision": "fix",
+    "reason": "'adit (horizontal mine tunnel)' is a very marginal technical sense not useful for learners; 'place, town' is the clear primary",
+    "translation": "place, town",
+    "senses": []
+  },
+  {
+    "kellyId": 196,
+    "decision": "fix",
+    "reason": "sub-def 'reflexive case of vi; compare ourselves' is a grammar note, not a translation — replace with actual translation",
+    "translation": "us",
+    "senses": [
+      "us (objective)",
+      "ourselves (reflexive)"
+    ]
+  },
+  {
+    "kellyId": 213,
+    "decision": "fix",
+    "reason": "'unlike, different, dissimilar' conflates two senses; sub-def 'different, various' is a genuinely distinct meaning (plural use) — separate them",
+    "translation": "different",
+    "senses": [
+      "different, unlike, dissimilar",
+      "various, different kinds of (plural use)"
+    ]
+  },
+  {
+    "kellyId": 111,
+    "decision": "fix",
+    "reason": "sub-def list missing 'of' and 'in (language)' senses noted in Wiktionary",
+    "translation": "about",
+    "senses": [
+      "about, regarding",
+      "in, within (time: om en timme = in an hour)",
+      "around (encircling)",
+      "in, during (seasons or times of day)",
+      "a, per (frequency: en gång om dagen = once a day)",
+      "of (in some fixed expressions)"
+    ]
+  },
+  {
+    "kellyId": 363,
+    "decision": "fix",
+    "reason": "'pair, a couple' embeds an article; fix to bare form",
+    "translation": "pair, couple",
+    "senses": [
+      "pair, couple (two or a few things)",
+      "couple (two people in a relationship)"
+    ]
+  },
+  {
+    "kellyId": 629,
+    "decision": "fix",
+    "reason": "'For each' is capitalized; should be lowercase",
+    "translation": "per, for each",
+    "senses": []
+  },
+  {
+    "kellyId": 779,
+    "decision": "fix",
+    "reason": "'period, a limited amount of time' embeds an article and is wordy; primary should be just 'period'; sub-defs overlap",
+    "translation": "period",
+    "senses": [
+      "period (span of time)",
+      "period, quarter (sports)"
+    ]
+  },
+  {
+    "kellyId": 253,
+    "decision": "fix",
+    "reason": "'person, people' — plural in primary is odd; Holy Trinity sub-def is marginal for learners; single clean primary",
+    "translation": "person",
+    "senses": []
+  },
+  {
+    "kellyId": 1169,
+    "decision": "fix",
+    "reason": "'staff' is an uncountable noun; needs uncountable: true",
+    "translation": "staff",
+    "uncountable": true,
+    "senses": []
+  },
+  {
+    "kellyId": 700,
+    "decision": "fix",
+    "reason": "sub-def 'natural, unaffected (in manner)' is marginal; keep two main senses only",
+    "translation": "personal",
+    "senses": [
+      "personal (pertaining to or tailored to a specific person)",
+      "personal, private, intimate"
+    ]
+  },
+  {
+    "kellyId": 313,
+    "decision": "fix",
+    "reason": "'political, having to do with politics' — the gloss part reads like a definition; 'political' alone suffices",
+    "translation": "political",
+    "senses": []
+  },
+  {
+    "kellyId": 691,
+    "decision": "fix",
+    "reason": "'larger entrance' is definition-like; 'gate, gateway' is the natural translation",
+    "translation": "gate, gateway",
+    "senses": [
+      "gate, gateway, entrance (large door or archway)",
+      "port (computing/networking)"
+    ]
+  },
+  {
+    "kellyId": 1348,
+    "decision": "fix",
+    "reason": "'postal office' is unnatural English; the word has several co-equal senses; primary should be 'mail, post'; 'position/post' is equally important",
+    "translation": "mail, post",
+    "senses": [
+      "mail, post (letters and parcels)",
+      "post (assigned position or job)",
+      "item (on a list or agenda)"
+    ]
+  },
+  {
+    "kellyId": 1087,
+    "decision": "fix",
+    "reason": "translation 'proceed, to go on, to continue' embeds 'to'; rephrase naturally",
+    "translation": "go on, be in progress",
+    "senses": []
+  },
+  {
+    "kellyId": 1153,
+    "decision": "fix",
+    "reason": "translation 'point out, to note' embeds 'to'",
+    "translation": "point out, note",
+    "senses": []
+  },
+  {
+    "kellyId": 796,
+    "decision": "fix",
+    "reason": "translation 'claim, to state' embeds 'to'; 'assert' is a better second synonym than 'state'",
+    "translation": "claim, assert",
+    "senses": []
+  },
+  {
+    "kellyId": 535,
+    "decision": "fix",
+    "reason": "translation 'affect, to influence' embeds 'to'",
+    "translation": "affect, influence",
+    "senses": []
+  },
+  {
+    "kellyId": 1202,
+    "decision": "fix",
+    "reason": "'production or manufacture' is clumsy; primary should be just 'production'; sub-defs needed",
+    "translation": "production",
+    "senses": [
+      "production, manufacturing (of goods)",
+      "production (film, music, etc.)",
+      "output, body of work"
+    ]
+  },
+  {
+    "kellyId": 498,
+    "decision": "fix",
+    "reason": "translation 'talk, to speak' embeds 'to'",
+    "translation": "talk, speak",
+    "senses": []
+  },
+  {
+    "kellyId": 404,
+    "decision": "fix",
+    "reason": "'precisely' alone misses the very common 'just/exactly' usage of 'precis'; broader primary is more helpful",
+    "translation": "exactly, just, precisely",
+    "senses": []
+  },
+  {
+    "kellyId": 1182,
+    "decision": "fix",
+    "reason": "'practice, actual operation' is wordy; primary should be bare 'practice'; sub-defs reordered for clarity",
+    "translation": "practice",
+    "senses": [
+      "practice (as opposed to theory)",
+      "internship, work placement",
+      "practice, clinic (doctor's or lawyer's office)"
+    ]
+  },
+  {
+    "kellyId": 262,
+    "decision": "fix",
+    "reason": "'problem, an issue' embeds an article",
+    "translation": "problem, issue",
+    "senses": [
+      "problem, issue",
+      "problem, exercise (schoolwork puzzle)"
+    ]
+  },
+  {
+    "kellyId": 341,
+    "decision": "fix",
+    "reason": "'politics' is uncountable; needs uncountable: true; 'policy' is a distinct countable sense",
+    "translation": "politics",
+    "uncountable": true,
+    "senses": [
+      "politics (the practice of government)",
+      "policy (a course of action)"
+    ]
+  },
+  {
+    "kellyId": 489,
+    "decision": "fix",
+    "reason": "'police' as a collective organisation is uncountable; needs uncountable: true; 'police officer' is a distinct countable sense",
+    "translation": "police",
+    "uncountable": true,
+    "senses": [
+      "police (the organisation)",
+      "police officer"
+    ]
+  },
+  {
+    "kellyId": 1111,
+    "decision": "fix",
+    "reason": "'point, a score' embeds an article; clean up",
+    "translation": "point, score",
+    "senses": [
+      "point, score (in a game or competition)",
+      "point, argument (in a discussion)",
+      "point, punchline (of a joke)"
+    ]
+  },
+  {
+    "kellyId": 1391,
+    "decision": "fix",
+    "reason": "sub-defs 'council meeting' and 'row, noise, quarrel, racket' are archaic/dialectal senses of 'parlament' — not useful for learners",
+    "translation": "parliament",
+    "senses": []
+  },
+  {
+    "kellyId": 945,
+    "decision": "fix",
+    "reason": "the examples show the legal/stakeholder sense dominates this lemma ('part i målet', 'arbetsmarknadens parter'); promote it",
+    "translation": "party, stakeholder",
+    "senses": [
+      "party, stakeholder (legal or negotiating)",
+      "part, piece"
+    ]
+  },
+  {
+    "kellyId": 698,
+    "decision": "fix",
+    "reason": "sub-def 'Rapport (a news program)' is a proper noun / Swedish TV brand — not a useful translation sense for learners",
+    "translation": "report",
+    "senses": []
+  },
+  {
+    "kellyId": 1403,
+    "decision": "fix",
+    "reason": "sub-def 'political reaction; reactionaries' is a marginal formal/political sense not useful for learners",
+    "translation": "reaction",
+    "senses": []
+  },
+  {
+    "kellyId": 496,
+    "decision": "fix",
+    "reason": "'rule or regulation' is slightly verbose; 'bolt, bar' sense is real — keep it; clean up phrasing",
+    "translation": "rule",
+    "senses": [
+      "rule, regulation",
+      "bolt, bar (door fastener)"
+    ]
+  },
+  {
+    "kellyId": 244,
+    "decision": "fix",
+    "reason": "sub-def 'the executive body of a country's governmental system' is a definition, not a translation",
+    "translation": "government",
+    "senses": []
+  },
+  {
+    "kellyId": 1004,
+    "decision": "fix",
+    "reason": "sub-defs 'set of ordered tuples' and 'retrievable by a database' are technical/marginal; 'relationship' is a common synonym worth adding",
+    "translation": "relation, relationship",
+    "senses": []
+  },
+  {
+    "kellyId": 1363,
+    "decision": "fix",
+    "reason": "sub-def 'pertaining to a region or regions' is a definition; single-meaning adjective needs no list",
+    "translation": "regional",
+    "senses": []
+  },
+  {
+    "kellyId": 751,
+    "decision": "fix",
+    "reason": "sub-def list was missing 'look after' sense present in Wiktionary; 'be suitable' and 'fit' are near-synonyms — merge; add missing sense",
+    "translation": "fit, suit",
+    "senses": [
+      "fit, suit (be suitable or the right size)",
+      "pass (ball/puck to a teammate)",
+      "look after (children, pets)",
+      "hand over, give"
+    ]
+  },
+  {
+    "kellyId": 466,
+    "decision": "fix",
+    "reason": "mythical senses are not useful for learners; keep 'earthworm' as it is a real secondary sense; drop 'larva, grub' (marginal)",
+    "translation": "snake",
+    "senses": [
+      "snake",
+      "earthworm (informal)"
+    ]
+  },
+  {
+    "kellyId": 917,
+    "decision": "fix",
+    "reason": "mathematical and biological senses of 'ordning' are marginal for learners; keep everyday senses only",
+    "translation": "order",
+    "senses": [
+      "order, sequence, arrangement",
+      "order, tidiness"
+    ]
+  },
+  {
+    "kellyId": 689,
+    "decision": "fix",
+    "reason": "sub-def 'positive (optimistic, supporting)' is redundant — same English word covers both; single meaning needs no list",
+    "translation": "positive",
+    "senses": []
+  },
+  {
+    "kellyId": 646,
+    "decision": "fix",
+    "reason": "primary 'period, a full stop' is American English first, 'dot' is more universal; sub-def list had a redundant bare 'a point' entry; clean up",
+    "translation": "dot, full stop",
+    "senses": [
+      "dot, full stop, period (punctuation)",
+      "item (on a list or agenda)",
+      "point, spot (location)",
+      "point in time (as in 'tidpunkt')"
+    ]
+  },
+  {
+    "kellyId": 1371,
+    "decision": "fix",
+    "reason": "'east' is a genuine second meaning of 'ost' (homograph) — sub-def is present but list needs to be explicit",
+    "translation": "cheese",
+    "senses": [
+      "cheese",
+      "east (archaic/poetic, as in Östergötland)"
+    ]
+  },
+  {
+    "kellyId": 591,
+    "decision": "fix",
+    "reason": "sub-def 'praise' is archaic/marginal for this lemma; 'prize' is a real second meaning worth keeping",
+    "translation": "price",
+    "senses": [
+      "price (cost)",
+      "prize (award)"
+    ]
+  },
+  {
+    "kellyId": 761,
+    "decision": "fix",
+    "reason": "sub-defs are definition-like; chemical and mathematical senses are real but secondary — merge into one catch-all",
+    "translation": "product",
+    "senses": [
+      "product (item for sale)",
+      "product (result: of a process, reaction, or multiplication)"
+    ]
+  },
+  {
+    "kellyId": 1218,
+    "decision": "fix",
+    "reason": "'comprehensive, large' — these suggest different things; 'extensive' better captures the Swedish sense; single meaning",
+    "translation": "extensive, wide-ranging",
+    "senses": []
+  },
+  {
+    "kellyId": 1244,
+    "decision": "fix",
+    "reason": "'have the energy/strength (to)' has slash and parenthetical — rephrase more naturally",
+    "translation": "have the energy to, manage to",
+    "senses": []
+  }
+]

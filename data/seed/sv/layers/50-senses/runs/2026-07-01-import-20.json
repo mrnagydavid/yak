@@ -1,0 +1,398 @@
+[
+  {
+    "english": "nearby",
+    "senses": [
+      { "gloss": "", "members": [5269, 7435] }
+    ]
+  },
+  {
+    "english": "notification, notice",
+    "senses": [
+      { "gloss": "notification", "members": [5280] },
+      { "gloss": "service of process", "members": [7296] }
+    ]
+  },
+  {
+    "english": "bake",
+    "senses": [
+      { "gloss": "", "members": [5283, 7638] }
+    ]
+  },
+  {
+    "english": "observer",
+    "senses": [
+      { "gloss": "", "members": [5286, 8095] }
+    ]
+  },
+  {
+    "english": "mine",
+    "senses": [
+      { "gloss": "excavation", "members": [5288] },
+      { "gloss": "explosive", "members": [5377] }
+    ]
+  },
+  {
+    "english": "harvest",
+    "senses": [
+      { "gloss": "to harvest", "members": [5304] },
+      { "gloss": "the harvest", "members": [6052] }
+    ]
+  },
+  {
+    "english": "saw",
+    "senses": [
+      { "gloss": "to saw", "members": [5305] },
+      { "gloss": "tool", "members": [7812] }
+    ]
+  },
+  {
+    "english": "hook",
+    "senses": [
+      { "gloss": "to hook", "members": [5309] },
+      { "gloss": "hook object", "members": [6994] },
+      { "gloss": "snag, catch", "members": [8234] }
+    ]
+  },
+  {
+    "english": "knock",
+    "senses": [
+      { "gloss": "to knock", "members": [5310] },
+      { "gloss": "a knock, jolt", "members": [7082] }
+    ]
+  },
+  {
+    "english": "cabinet, cupboard, locker",
+    "senses": [
+      { "gloss": "", "members": [5325, 7784] }
+    ]
+  },
+  {
+    "english": "behaviour, conduct",
+    "senses": [
+      { "gloss": "", "members": [5332, 5584] }
+    ]
+  },
+  {
+    "english": "pump",
+    "senses": [
+      { "gloss": "to pump", "members": [5351] },
+      { "gloss": "pump device", "members": [6564] }
+    ]
+  },
+  {
+    "english": "member of parliament",
+    "senses": [
+      { "gloss": "", "members": [5361, 7018] }
+    ]
+  },
+  {
+    "english": "flame, blaze",
+    "senses": [
+      { "gloss": "fire flame", "members": [5381] },
+      { "gloss": "romance, sweetheart", "members": [7050] }
+    ]
+  },
+  {
+    "english": "characteristic, distinguishing feature",
+    "senses": [
+      { "gloss": "distinguishing feature", "members": [5394] },
+      { "gloss": "characteristic (adj)", "members": [7162] }
+    ]
+  },
+  {
+    "english": "driving, motivating",
+    "senses": [
+      { "gloss": "driving force", "members": [5396] },
+      { "gloss": "act of driving", "members": [6127] }
+    ]
+  },
+  {
+    "english": "alarm",
+    "senses": [
+      { "gloss": "", "members": [5402, 7770] }
+    ]
+  },
+  {
+    "english": "flood",
+    "senses": [
+      { "gloss": "a flood", "members": [5409] },
+      { "gloss": "to flood", "members": [7609] }
+    ]
+  },
+  {
+    "english": "reception",
+    "senses": [
+      { "gloss": "welcome, response", "members": [5423] },
+      { "gloss": "clinic, social event", "members": [6381] }
+    ]
+  },
+  {
+    "english": "wet",
+    "senses": [
+      { "gloss": "", "members": [5432, 6444] }
+    ]
+  },
+  {
+    "english": "adopt",
+    "senses": [
+      { "gloss": "adopt a child", "members": [5440] },
+      { "gloss": "embrace, take on", "members": [5633] }
+    ]
+  },
+  {
+    "english": "trader, businessman",
+    "senses": [
+      { "gloss": "", "members": [5454, 6451] }
+    ]
+  },
+  {
+    "english": "forbidden",
+    "senses": [
+      { "gloss": "", "members": [5465, 6527] }
+    ]
+  },
+  {
+    "english": "underestimate",
+    "senses": [
+      { "gloss": "", "members": [5473, 8151] }
+    ]
+  },
+  {
+    "english": "shift, vary",
+    "senses": [
+      { "gloss": "to shift, vary", "members": [5474] },
+      { "gloss": "work shift", "members": [7707] }
+    ]
+  },
+  {
+    "english": "fascist, fascistic",
+    "senses": [
+      { "gloss": "fascistic (adj)", "members": [5481] },
+      { "gloss": "a fascist", "members": [5731] }
+    ]
+  },
+  {
+    "english": "satisfy",
+    "senses": [
+      { "gloss": "satisfy, please", "members": [5492] },
+      { "gloss": "satiate, saturate", "members": [7392] }
+    ]
+  },
+  {
+    "english": "entrepreneurship",
+    "senses": [
+      { "gloss": "", "members": [5527, 6682] }
+    ]
+  },
+  {
+    "english": "slogan, catchword",
+    "senses": [
+      { "gloss": "", "members": [5534, 6602] }
+    ]
+  },
+  {
+    "english": "certificate",
+    "senses": [
+      { "gloss": "", "members": [5543, 6936] }
+    ]
+  },
+  {
+    "english": "honour",
+    "senses": [
+      { "gloss": "to honour", "members": [5549] },
+      { "gloss": "honour (noun)", "members": [7276] }
+    ]
+  },
+  {
+    "english": "unaware",
+    "senses": [
+      { "gloss": "", "members": [5550, 6759] }
+    ]
+  },
+  {
+    "english": "publisher",
+    "senses": [
+      { "gloss": "", "members": [5587, 6800] }
+    ]
+  },
+  {
+    "english": "subordinate",
+    "senses": [
+      { "gloss": "subordinate (adj/person)", "members": [5588, 7920] },
+      { "gloss": "to subordinate", "members": [6621] }
+    ]
+  },
+  {
+    "english": "transformation",
+    "senses": [
+      { "gloss": "", "members": [5595, 6287] }
+    ]
+  },
+  {
+    "english": "worship",
+    "senses": [
+      { "gloss": "to worship", "members": [5612, 6293] },
+      { "gloss": "worship (noun)", "members": [8376] }
+    ]
+  },
+  {
+    "english": "coincidence, chance",
+    "senses": [
+      { "gloss": "", "members": [5618, 7587] }
+    ]
+  },
+  {
+    "english": "arrest",
+    "senses": [
+      { "gloss": "to arrest", "members": [5634] },
+      { "gloss": "an arrest", "members": [7509] }
+    ]
+  },
+  {
+    "english": "diligent, hard-working",
+    "senses": [
+      { "gloss": "", "members": [5652, 7971] }
+    ]
+  },
+  {
+    "english": "announcement",
+    "senses": [
+      { "gloss": "", "members": [5675, 7169] }
+    ]
+  },
+  {
+    "english": "storage",
+    "senses": [
+      { "gloss": "", "members": [5695, 6309] }
+    ]
+  },
+  {
+    "english": "stamp",
+    "senses": [
+      { "gloss": "to stamp", "members": [5701] },
+      { "gloss": "stamp tool, mark", "members": [6363] },
+      { "gloss": "character, imprint", "members": [6267] }
+    ]
+  },
+  {
+    "english": "sponsor",
+    "senses": [
+      { "gloss": "to sponsor", "members": [5708] },
+      { "gloss": "a sponsor", "members": [6313] }
+    ]
+  },
+  {
+    "english": "stock, population",
+    "senses": [
+      { "gloss": "animal population", "members": [5710] },
+      { "gloss": "stockpile, supply", "members": [8188] }
+    ]
+  },
+  {
+    "english": "slaughter, butcher",
+    "senses": [
+      { "gloss": "to slaughter", "members": [5713] },
+      { "gloss": "slaughter (noun)", "members": [6146] }
+    ]
+  },
+  {
+    "english": "concession, admission",
+    "senses": [
+      { "gloss": "yielding, admission", "members": [5743, 6163] },
+      { "gloss": "license, permit", "members": [7845] }
+    ]
+  },
+  {
+    "english": "overview, perspective",
+    "senses": [
+      { "gloss": "", "members": [5757, 5986] }
+    ]
+  },
+  {
+    "english": "nail",
+    "senses": [
+      { "gloss": "metal fastener", "members": [5764] },
+      { "gloss": "fingernail, toenail", "members": [6290] }
+    ]
+  },
+  {
+    "english": "whisper",
+    "senses": [
+      { "gloss": "to whisper", "members": [5774] },
+      { "gloss": "a whisper", "members": [7969] }
+    ]
+  },
+  {
+    "english": "mailbox, letterbox",
+    "senses": [
+      { "gloss": "", "members": [5783, 8206] }
+    ]
+  },
+  {
+    "english": "accent; break",
+    "senses": [
+      { "gloss": "", "members": [5791, 7603] }
+    ]
+  },
+  {
+    "english": "kindly",
+    "senses": [
+      { "gloss": "", "members": [5796, 6516] }
+    ]
+  },
+  {
+    "english": "submit, yield",
+    "senses": [
+      { "gloss": "submit, subjugate", "members": [5804] },
+      { "gloss": "hand in, submit", "members": [8043] }
+    ]
+  },
+  {
+    "english": "relieve, alleviate",
+    "senses": [
+      { "gloss": "alleviate pain", "members": [5819] },
+      { "gloss": "relieve, replace", "members": [6541] }
+    ]
+  },
+  {
+    "english": "stiff, rigid",
+    "senses": [
+      { "gloss": "", "members": [5859, 7606] }
+    ]
+  },
+  {
+    "english": "tense",
+    "senses": [
+      { "gloss": "taut, on edge", "members": [6926, 6953] },
+      { "gloss": "charged, loaded", "members": [5873] },
+      { "gloss": "grammatical tense", "members": [8187] }
+    ]
+  },
+  {
+    "english": "monument",
+    "senses": [
+      { "gloss": "", "members": [5874, 7494] }
+    ]
+  },
+  {
+    "english": "delay",
+    "senses": [
+      { "gloss": "a delay", "members": [5889, 6547] },
+      { "gloss": "to delay", "members": [7019] }
+    ]
+  },
+  {
+    "english": "upgrade",
+    "senses": [
+      { "gloss": "to upgrade", "members": [5907] },
+      { "gloss": "an upgrade", "members": [6403] }
+    ]
+  },
+  {
+    "english": "reserve",
+    "senses": [
+      { "gloss": "to reserve", "members": [5909] },
+      { "gloss": "a reserve", "members": [6842] }
+    ]
+  }
+]

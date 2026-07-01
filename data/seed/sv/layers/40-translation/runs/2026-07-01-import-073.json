@@ -1,0 +1,250 @@
+[
+  {
+    "kellyId": 7167,
+    "decision": "fix",
+    "reason": "sub-def is clumsy/definition-like; the figurative sense needs a cleaner gloss",
+    "senses": ["foreground", "in the fore, in the spotlight (figurative)"]
+  },
+  {
+    "kellyId": 7821,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary verb translation",
+    "translation": "pollute, contaminate",
+    "senses": []
+  },
+  {
+    "kellyId": 8177,
+    "decision": "fix",
+    "reason": "'sacrifice, forsaking, forgoing' is clumsy; försakelse means self-denial/renunciation",
+    "translation": "self-denial, renunciation",
+    "senses": []
+  },
+  {
+    "kellyId": 7373,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary verb translation",
+    "translation": "reconcile, redeem",
+    "senses": []
+  },
+  {
+    "kellyId": 7795,
+    "decision": "fix",
+    "reason": "primary is definition-like; core sense is 'intimate, familiar' (close and open)",
+    "translation": "intimate, familiar",
+    "senses": ["intimate, familiar (close and trusting)", "confidential"]
+  },
+  {
+    "kellyId": 7476,
+    "decision": "fix",
+    "reason": "pos is adj; 'orphan' is a noun — the adjective form is 'orphaned'",
+    "translation": "orphaned",
+    "senses": []
+  },
+  {
+    "kellyId": 7674,
+    "decision": "fix",
+    "reason": "sub-def 'a pronged tool' is redundant — adds nothing a learner needs",
+    "senses": []
+  },
+  {
+    "kellyId": 7122,
+    "decision": "fix",
+    "reason": "primary has embedded article 'a'; senses cleaned up",
+    "translation": "grid, lattice, bars",
+    "senses": ["grid, lattice, bars (crossed-bar pattern)", "grid (electronics, vacuum tube)"]
+  },
+  {
+    "kellyId": 7073,
+    "decision": "fix",
+    "reason": "everyday sense is 'solid, thorough' (of work/knowledge); the metals sense is secondary",
+    "translation": "solid, thorough",
+    "senses": ["solid, thorough (of work, knowledge, education)", "pure, solid (of precious metals)"]
+  },
+  {
+    "kellyId": 7321,
+    "decision": "fix",
+    "reason": "sub-def list has three items, some definition-like; thinned and cleaned",
+    "senses": ["geometry (mathematics)", "geometry, shape (spatial configuration)", "surveying (historical)"]
+  },
+  {
+    "kellyId": 7297,
+    "decision": "fix",
+    "reason": "list item 'to pour' has embedded 'to'",
+    "senses": ["cast (in a mold)", "pour"]
+  },
+  {
+    "kellyId": 7937,
+    "decision": "fix",
+    "reason": "list has three items; third overlaps primary — consolidated and cleaned",
+    "senses": ["shine, gloss, sheen", "radiance (of the moon, stars)", "splendor, glory (figurative)"]
+  },
+  {
+    "kellyId": 7985,
+    "decision": "fix",
+    "reason": "sub-def 'unnatural transition' is vague/definition-like; better gloss is 'drift, shift'",
+    "senses": ["sliding, glide", "drift, shift (gradual or unnatural change)"]
+  },
+  {
+    "kellyId": 7474,
+    "decision": "fix",
+    "reason": "list item 'to shine (excel)' has embedded 'to'",
+    "senses": ["shine (reflect light)", "shine, excel (figurative)"]
+  },
+  {
+    "kellyId": 7288,
+    "decision": "fix",
+    "reason": "list items had embedded articles and definition-like phrasing",
+    "senses": ["spark (glowing particle)", "spark (electric discharge)"]
+  },
+  {
+    "kellyId": 8003,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary verb translation",
+    "translation": "sparkle, emit sparks",
+    "senses": []
+  },
+  {
+    "kellyId": 8069,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary verb translation",
+    "translation": "grade, rank",
+    "senses": []
+  },
+  {
+    "kellyId": 7028,
+    "decision": "fix",
+    "reason": "list had five items including 'pomegranate (tree)' which is too marginal; tightened",
+    "senses": ["grenade", "shell (artillery)", "pomegranate", "garnet (mineral)"]
+  },
+  {
+    "kellyId": 8354,
+    "decision": "fix",
+    "reason": "list item 'to encumber' has embedded 'to'",
+    "senses": ["engrave", "encumber (legal, archaic)"]
+  },
+  {
+    "kellyId": 7041,
+    "decision": "fix",
+    "reason": "primary is slightly long; 'pit, hole' is cleaner; second sense cleaned up",
+    "translation": "pit, hole",
+    "senses": ["pit, hole (in the ground)", "hollow, dip (sunken area in a surface)"]
+  },
+  {
+    "kellyId": 7638,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary verb translation",
+    "translation": "bake, fry",
+    "senses": []
+  },
+  {
+    "kellyId": 7512,
+    "decision": "fix",
+    "reason": "list item 'to scold, tell off' has embedded 'to'",
+    "senses": ["argue, quarrel", "scold, tell off"]
+  },
+  {
+    "kellyId": 8333,
+    "decision": "fix",
+    "reason": "embedded 'to' in primary verb translation",
+    "translation": "flourish, bloom",
+    "senses": []
+  },
+  {
+    "kellyId": 7175,
+    "decision": "fix",
+    "reason": "list item is very long and definition-like",
+    "senses": ["swing (on a swing)", "rock, sway (in a chair, boat, etc.)"]
+  },
+  {
+    "kellyId": 8012,
+    "decision": "fix",
+    "reason": "'gymnasiast' is obscure in English; the primary should be more learner-friendly",
+    "translation": "upper secondary student",
+    "senses": []
+  },
+  {
+    "kellyId": 7423,
+    "decision": "fix",
+    "reason": "senses list has very marginal/archaic Swedish slang meanings not useful on a flashcard",
+    "senses": []
+  },
+  {
+    "kellyId": 7884,
+    "decision": "fix",
+    "reason": "'hospitableness' is redundant alongside 'hospitality'",
+    "translation": "hospitality",
+    "senses": []
+  },
+  {
+    "kellyId": 8040,
+    "decision": "fix",
+    "reason": "primary has embedded article 'a washbasin'",
+    "translation": "sink, washbasin",
+    "senses": []
+  },
+  {
+    "kellyId": 7239,
+    "decision": "fix",
+    "reason": "list item 'a hand, helping hand' has embedded article",
+    "senses": ["handle", "helping hand, assist (brief)"]
+  },
+  {
+    "kellyId": 7276,
+    "decision": "fix",
+    "reason": "sub-def 'what makes a person praiseworthy' is definition-like; heder is single-meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 7656,
+    "decision": "fix",
+    "reason": "primary has embedded article 'a shepherd'; second sense cleaned up",
+    "translation": "herder, shepherd",
+    "senses": ["herder, shepherd", "boy, lad (dialectal, archaic)"]
+  },
+  {
+    "kellyId": 7631,
+    "decision": "fix",
+    "reason": "sub-def 'a number of beasts gathered' is definition-like; herd is single-meaning",
+    "senses": []
+  },
+  {
+    "kellyId": 7521,
+    "decision": "fix",
+    "reason": "list item is long and definition-like; shortened",
+    "senses": ["deer", "hart, stag (adult male deer)"]
+  },
+  {
+    "kellyId": 8359,
+    "decision": "fix",
+    "reason": "pos is noun but primary 'hooray!' is an interjection; noun sense is 'cheer'",
+    "translation": "cheer, hooray",
+    "senses": []
+  },
+  {
+    "kellyId": 8412,
+    "decision": "fix",
+    "reason": "sub-def 'to cheer, to shout hooray' is a verb gloss in a noun entry; cleared",
+    "senses": []
+  },
+  {
+    "kellyId": 8248,
+    "decision": "fix",
+    "reason": "current translation is definition-like; 'household utensils, kitchenware' is cleaner",
+    "translation": "household utensils, kitchenware",
+    "senses": []
+  },
+  {
+    "kellyId": 8076,
+    "decision": "fix",
+    "reason": "primary has embedded article 'a/the'; 'lead actor' is cleaner and bare",
+    "translation": "lead actor",
+    "senses": []
+  },
+  {
+    "kellyId": 7441,
+    "decision": "fix",
+    "reason": "primary has embedded article 'a cabin'",
+    "translation": "hut, cabin",
+    "senses": []
+  }
+]
