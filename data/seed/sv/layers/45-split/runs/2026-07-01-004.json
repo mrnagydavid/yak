@@ -1,0 +1,66 @@
+[
+  {
+    "kellyId": 467,
+    "decision": "split",
+    "reason": "'council/board' (statsråd, kommunråd) is a distinct, common everyday sense unrelated to 'advice'",
+    "altMeanings": [{ "translation": "council, board", "gloss": "advisory body" }],
+    "subDefinitions": ["way, means (to solve a problem)"],
+    "inputHash": "9c9bbf73"
+  },
+  {
+    "kellyId": 441,
+    "decision": "split",
+    "reason": "'right/entitlement' (ha rätt till) is a very common, distinct legal/everyday sense separate from 'dish'",
+    "altMeanings": [{ "translation": "right, entitlement", "gloss": "legal" }],
+    "subDefinitions": ["law (as a system)", "court (of law)"],
+    "inputHash": "8dff2317"
+  },
+  {
+    "kellyId": 717,
+    "decision": "split",
+    "reason": "'vote' is a distinct, common sense unrelated to 'voice'",
+    "altMeanings": [{ "translation": "vote", "gloss": "" }],
+    "subDefinitions": [],
+    "inputHash": "29db4ec5"
+  },
+  {
+    "kellyId": 1303,
+    "decision": "split",
+    "reason": "'comic strip' (serier, serietidning) is a distinct, common everyday sense unrelated to 'series'",
+    "altMeanings": [{ "translation": "comic strip", "gloss": "" }],
+    "subDefinitions": ["TV series, show", "league (sports)"],
+    "inputHash": "9bb8ad15"
+  },
+  {
+    "kellyId": 281,
+    "decision": "split",
+    "reason": "'page' (of a book) is a very common, distinct sense separate from 'side'",
+    "altMeanings": [{ "translation": "page", "gloss": "of a book" }],
+    "subDefinitions": ["side (team, faction)", "website, page (online)"],
+    "inputHash": "e4128b63"
+  },
+  {
+    "kellyId": 797,
+    "decision": "split",
+    "reason": "'treasure' is a distinct, common sense unrelated to 'tax'",
+    "altMeanings": [{ "translation": "treasure", "gloss": "" }],
+    "subDefinitions": [],
+    "inputHash": "1c20cf2a"
+  },
+  {
+    "kellyId": 272,
+    "decision": "split",
+    "reason": "'battle' (slaget vid) is a distinct, common sense separate from the everyday 'hit/blow'",
+    "altMeanings": [{ "translation": "battle", "gloss": "military" }],
+    "subDefinitions": ["stroke (of a clock)", "stroke (medical)"],
+    "inputHash": "c2e05ab0"
+  },
+  {
+    "kellyId": 1252,
+    "decision": "split",
+    "reason": "'railway track' (spår 3) is a distinct, common everyday sense separate from 'trail/trace'",
+    "altMeanings": [{ "translation": "track", "gloss": "railway" }],
+    "subDefinitions": ["footprint, pawprint", "audio track"],
+    "inputHash": "4b6afeda"
+  }
+]

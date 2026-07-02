@@ -1,0 +1,82 @@
+[
+  {
+    "kellyId": 3734,
+    "decision": "split",
+    "reason": "fröken as 'female teacher' (how schoolchildren address a teacher) is a distinct, everyday Swedish sense separate from 'Miss'",
+    "altMeanings": [{ "translation": "teacher", "gloss": "female, addressed by schoolchildren" }],
+    "subDefinitions": ["young woman, miss", "Miss (beauty pageant title)"],
+    "inputHash": "091142a2"
+  },
+  {
+    "kellyId": 3149,
+    "decision": "split",
+    "reason": "grym as informal 'awesome/great' is an extremely common colloquial sense wholly distinct from 'cruel'",
+    "altMeanings": [{ "translation": "great, awesome", "gloss": "informal" }],
+    "subDefinitions": [],
+    "inputHash": "e2aacbf2"
+  },
+  {
+    "kellyId": 4199,
+    "decision": "split",
+    "reason": "gods as 'estate, manor' (landed property) is a distinct, common sense unrelated to freight/cargo",
+    "altMeanings": [{ "translation": "estate, manor", "gloss": "landed property" }],
+    "subDefinitions": [],
+    "inputHash": "90f7a2cf"
+  },
+  {
+    "kellyId": 4208,
+    "decision": "split",
+    "reason": "kaka covers both 'cookie/biscuit' and 'cake' — distinct everyday food senses worth their own card",
+    "altMeanings": [{ "translation": "cake", "gloss": "" }],
+    "subDefinitions": [],
+    "inputHash": "32acfe89"
+  },
+  {
+    "kellyId": 2980,
+    "decision": "split",
+    "reason": "kö as 'cue' (billiard stick) is a distinct homograph sense unrelated to queue/line",
+    "altMeanings": [{ "translation": "cue", "gloss": "billiard stick" }],
+    "subDefinitions": [],
+    "inputHash": "c5c489ac"
+  },
+  {
+    "kellyId": 2970,
+    "decision": "split",
+    "reason": "lager as 'layer, stratum' is a very common distinct sense unrelated to warehouse/stock",
+    "altMeanings": [{ "translation": "layer, stratum", "gloss": "" }],
+    "subDefinitions": ["stock, supply", "bearing (mechanical)"],
+    "inputHash": "aa9306d9"
+  },
+  {
+    "kellyId": 2870,
+    "decision": "split",
+    "reason": "hals as 'throat' (ont i halsen = sore throat) is a common everyday sense distinct from the anatomical neck",
+    "altMeanings": [{ "translation": "throat", "gloss": "" }],
+    "subDefinitions": ["neck (of a bottle or the like)"],
+    "inputHash": "1e6a9bfd"
+  },
+  {
+    "kellyId": 4179,
+    "decision": "split",
+    "reason": "journal as 'journal, periodical' is a distinct common sense separate from the primary 'medical record'",
+    "altMeanings": [{ "translation": "journal, periodical", "gloss": "" }],
+    "subDefinitions": [],
+    "inputHash": "51da5ea5"
+  },
+  {
+    "kellyId": 3736,
+    "decision": "split",
+    "reason": "klipp as 'bargain, good deal' (ett riktigt klipp) is a common distinct sense beyond cut/clip",
+    "altMeanings": [{ "translation": "bargain, good deal", "gloss": "" }],
+    "subDefinitions": ["film cut (transition between shots)"],
+    "inputHash": "ef855875"
+  },
+  {
+    "kellyId": 3800,
+    "decision": "split",
+    "reason": "kvart as 'quarter of an hour' (kvart i tre) is a distinct high-frequency time sense separate from the fraction",
+    "altMeanings": [{ "translation": "quarter of an hour", "gloss": "15 minutes" }],
+    "subDefinitions": [],
+    "inputHash": "f6d5308a"
+  }
+]

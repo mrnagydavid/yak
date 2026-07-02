@@ -1,0 +1,1029 @@
+[
+  {
+    "kellyId": 2972,
+    "decision": "fix",
+    "reason": "'glowing'/'shining' restate luminous; keep the distinct figurative sense",
+    "translation": "luminous, light emitting",
+    "senses": [
+      "great, brilliant, splendid"
+    ],
+    "inputHash": "8643bc35"
+  },
+  {
+    "kellyId": 3342,
+    "decision": "fix",
+    "reason": "dropped 'box, case' (restates main); kept distinct senses",
+    "translation": "box, a case",
+    "senses": [
+      "drawer",
+      "Q&A column or segment"
+    ],
+    "inputHash": "7220f66c"
+  },
+  {
+    "kellyId": 3213,
+    "decision": "fix",
+    "reason": "kept the distinct 'pupil' sense",
+    "translation": "disciple",
+    "senses": [
+      "pupil, student"
+    ],
+    "inputHash": "fadf9f79"
+  },
+  {
+    "kellyId": 3435,
+    "decision": "fix",
+    "reason": "kept the distinct 'continuous' sense",
+    "translation": "running",
+    "senses": [
+      "continuous, ongoing, current"
+    ],
+    "inputHash": "fef7c987"
+  },
+  {
+    "kellyId": 3714,
+    "decision": "fix",
+    "reason": "dropped 'ore' (restates main); the suburb sense is a proper-noun element, marginal but distinct",
+    "translation": "ore",
+    "senses": [
+      "urban district, suburb (in place names)"
+    ],
+    "inputHash": "01c46b46"
+  },
+  {
+    "kellyId": 3011,
+    "decision": "fix",
+    "reason": "kept the distinct 'solid' sense",
+    "translation": "massive",
+    "senses": [
+      "solid (of one substance, without holes)"
+    ],
+    "inputHash": "4c858da0"
+  },
+  {
+    "kellyId": 4190,
+    "decision": "fix",
+    "reason": "dropped 'carpet, rug' (restates main); kept the mat sense",
+    "translation": "carpet, rug",
+    "senses": [
+      "mat (doormat or gym mat)"
+    ],
+    "inputHash": "d162c409"
+  },
+  {
+    "kellyId": 3821,
+    "decision": "fix",
+    "reason": "kept the distinct legal 'aiding and abetting' sense",
+    "translation": "participation, contribution",
+    "senses": [
+      "aiding and abetting (legal)"
+    ],
+    "inputHash": "0780cce3"
+  },
+  {
+    "kellyId": 3159,
+    "decision": "fix",
+    "reason": "dropped 'assault, battery' (restates main); kept the abuse sense",
+    "translation": "assault",
+    "senses": [
+      "abuse (psychological, sexual, or of an object)"
+    ],
+    "inputHash": "ec799e90"
+  },
+  {
+    "kellyId": 4196,
+    "decision": "fix",
+    "reason": "dropped 'beat up, assault' (restates main); kept the object sense",
+    "translation": "beat up, assault",
+    "senses": [
+      "damage, mistreat (an object)"
+    ],
+    "inputHash": "fce155df"
+  },
+  {
+    "kellyId": 3793,
+    "decision": "fix",
+    "reason": "dropped 'mature' (restates main); kept the ripe sense",
+    "translation": "mature",
+    "senses": [
+      "ripe (fruit, crops)"
+    ],
+    "inputHash": "21d84fad"
+  },
+  {
+    "kellyId": 3560,
+    "decision": "fix",
+    "reason": "main is the step/stage sense; kept the other distinct senses",
+    "translation": "step in a process",
+    "senses": [
+      "element, factor",
+      "moment (physics)"
+    ],
+    "inputHash": "96445995"
+  },
+  {
+    "kellyId": 3909,
+    "decision": "fix",
+    "reason": "dropped 'the future' (restates main); kept the literal tomorrow sense",
+    "translation": "the future",
+    "senses": [
+      "tomorrow (literal, poetic)"
+    ],
+    "inputHash": "bcde9987"
+  },
+  {
+    "kellyId": 3459,
+    "decision": "fix",
+    "reason": "dropped 'exerciser' (restates main); kept the mover sense",
+    "translation": "exerciser",
+    "senses": [
+      "mover (person proposing a motion)"
+    ],
+    "inputHash": "519fae65"
+  },
+  {
+    "kellyId": 3284,
+    "decision": "fix",
+    "reason": "dropped 'equivalent'; kept the abstract correspondence sense",
+    "translation": "equivalent",
+    "senses": [
+      "correspondence, equivalence (abstract)"
+    ],
+    "inputHash": "8313c806"
+  },
+  {
+    "kellyId": 3355,
+    "decision": "fix",
+    "reason": "dropped 'recipient'; kept the device/receiver sense",
+    "translation": "recipient",
+    "senses": [
+      "receiver (device or role)"
+    ],
+    "inputHash": "a7b7f9ab"
+  },
+  {
+    "kellyId": 3943,
+    "decision": "fix",
+    "reason": "dropped 'musical' (restates main); kept the talented sense",
+    "translation": "musical",
+    "senses": [
+      "musically talented, gifted"
+    ],
+    "inputHash": "92de4806"
+  },
+  {
+    "kellyId": 3126,
+    "decision": "fix",
+    "reason": "dropped 'cosy, snug' (restates main); kept the pleasant sense",
+    "translation": "cosy",
+    "senses": [
+      "pleasant, agreeable, nice"
+    ],
+    "inputHash": "79a22524"
+  },
+  {
+    "kellyId": 3762,
+    "decision": "fix",
+    "reason": "dropped 'mysterious'; kept the strange sense",
+    "translation": "mysterious",
+    "senses": [
+      "strange, odd"
+    ],
+    "inputHash": "f840355b"
+  },
+  {
+    "kellyId": 3642,
+    "decision": "fix",
+    "reason": "kept the distinct 'act of painting' sense",
+    "translation": "painting",
+    "senses": [
+      "painting (the act of applying paint)"
+    ],
+    "inputHash": "47f8d87c"
+  },
+  {
+    "kellyId": 2871,
+    "decision": "fix",
+    "reason": "'margin' is a genuine distinct sense of mån",
+    "translation": "extent, degree",
+    "senses": [
+      "margin"
+    ],
+    "inputHash": "873020d1"
+  },
+  {
+    "kellyId": 3290,
+    "decision": "fix",
+    "reason": "main already carries both meanings; sub-defs merely restate them",
+    "translation": "mass; fair, expo",
+    "senses": [],
+    "inputHash": "7158f18a"
+  },
+  {
+    "kellyId": 2996,
+    "decision": "fix",
+    "reason": "dropped 'master' (restates main); kept the other distinct senses",
+    "translation": "master",
+    "senses": [
+      "master craftsman (tradesman)",
+      "champion (competition winner)"
+    ],
+    "inputHash": "0668196a"
+  },
+  {
+    "kellyId": 3110,
+    "decision": "fix",
+    "reason": "dropped 'descent' (restates main); kept the decrease/decline sense as one entry",
+    "translation": "descent",
+    "senses": [
+      "decrease, decline, slump"
+    ],
+    "inputHash": "b98a1471"
+  },
+  {
+    "kellyId": 3234,
+    "decision": "fix",
+    "reason": "'intransitive' is a rare grammatical sense beyond a learner's needs",
+    "translation": "neutral",
+    "senses": [],
+    "inputHash": "66661829"
+  },
+  {
+    "kellyId": 3859,
+    "decision": "fix",
+    "reason": "kept the distinct 'accurate, precise' sense",
+    "translation": "careful, scrupulous",
+    "senses": [
+      "accurate, precise"
+    ],
+    "inputHash": "45d97757"
+  },
+  {
+    "kellyId": 3474,
+    "decision": "fix",
+    "reason": "main is generic note; kept the distinct specialised senses",
+    "translation": "note",
+    "senses": [
+      "musical note",
+      "diplomatic note"
+    ],
+    "inputHash": "bfce7efe"
+  },
+  {
+    "kellyId": 2830,
+    "decision": "fix",
+    "reason": "kept the distinct 'healthy' sense",
+    "translation": "useful",
+    "senses": [
+      "healthy, nutritious (of food)"
+    ],
+    "inputHash": "b84582f9"
+  },
+  {
+    "kellyId": 3771,
+    "decision": "fix",
+    "reason": "dropped 'nourishment' (restates main); kept the trade/industry sense",
+    "translation": "nourishment, food",
+    "senses": [
+      "trade, industry, livelihood"
+    ],
+    "inputHash": "e4c9d344"
+  },
+  {
+    "kellyId": 2969,
+    "decision": "fix",
+    "reason": "main covers sacrifice generally; kept the distinct scapegoat sense",
+    "translation": "sacrifice",
+    "senses": [
+      "make a scapegoat of"
+    ],
+    "inputHash": "90166ec4"
+  },
+  {
+    "kellyId": 3579,
+    "decision": "fix",
+    "reason": "kept the distinct 'disapprove' sense",
+    "translation": "dislike",
+    "senses": [
+      "disapprove"
+    ],
+    "inputHash": "47f2729b"
+  },
+  {
+    "kellyId": 2946,
+    "decision": "fix",
+    "reason": "main is oh/wow/gosh; kept the distinct oops and ow senses",
+    "translation": "oh, wow, gosh",
+    "senses": [
+      "oops (after a mistake)",
+      "ow (expressing pain)"
+    ],
+    "inputHash": "bfbffa57"
+  },
+  {
+    "kellyId": 3208,
+    "decision": "fix",
+    "reason": "dropped 'unhappy, sad' (restates main); kept the unfortunate sense",
+    "translation": "unhappy, sad",
+    "senses": [
+      "unfortunate"
+    ],
+    "inputHash": "74e345d1"
+  },
+  {
+    "kellyId": 3925,
+    "decision": "fix",
+    "reason": "dropped 'representative, delegate' (restates main); kept the other distinct senses",
+    "translation": "representative, delegate",
+    "senses": [
+      "agent (acting on behalf of a principal)",
+      "legal representative, attorney"
+    ],
+    "inputHash": "c583bea9"
+  },
+  {
+    "kellyId": 3376,
+    "decision": "fix",
+    "reason": "dropped 'judgment, opinion' (restates main); kept the discretion sense",
+    "translation": "judgment, opinion",
+    "senses": [
+      "judgment, discretion (good sense)"
+    ],
+    "inputHash": "deed5b9d"
+  },
+  {
+    "kellyId": 3172,
+    "decision": "fix",
+    "reason": "dropped 'cover' (restates main); kept the other distinct senses",
+    "translation": "cover",
+    "senses": [
+      "wrapping, envelope",
+      "sudden change, turn"
+    ],
+    "inputHash": "28a3eea4"
+  },
+  {
+    "kellyId": 3183,
+    "decision": "fix",
+    "reason": "dropped 'proper, decent' (restates main); kept the emphatic sense",
+    "translation": "proper, decent",
+    "senses": [
+      "real, proper (emphatic)"
+    ],
+    "inputHash": "ca127477"
+  },
+  {
+    "kellyId": 3824,
+    "decision": "fix",
+    "reason": "dropped 'original' (restates main); kept the eccentric-person sense",
+    "translation": "original",
+    "senses": [
+      "eccentric, character (quirky person)"
+    ],
+    "inputHash": "cf9b743e"
+  },
+  {
+    "kellyId": 3508,
+    "decision": "fix",
+    "reason": "dropped 'unreasonable, absurd' (restates main); kept the implausible sense",
+    "translation": "unreasonable, absurd",
+    "senses": [
+      "implausible"
+    ],
+    "inputHash": "2339bccc"
+  },
+  {
+    "kellyId": 3926,
+    "decision": "fix",
+    "reason": "dropped 'orthodox' (restates main); kept the noun-use sense",
+    "translation": "orthodox, Orthodox",
+    "senses": [
+      "orthodox person, Orthodox (noun use)"
+    ],
+    "inputHash": "947b6b2b"
+  },
+  {
+    "kellyId": 3257,
+    "decision": "fix",
+    "reason": "dropped 'pack luggage' (restates main); kept the compress/data sense",
+    "translation": "pack",
+    "senses": [
+      "compress, pack (data)"
+    ],
+    "inputHash": "4ca769f4"
+  },
+  {
+    "kellyId": 4163,
+    "decision": "fix",
+    "reason": "dropped 'passive not active' (restates main); kept the distinct grammar and sexual senses",
+    "translation": "passive",
+    "senses": [
+      "passive (grammar)",
+      "passive, bottom (sexual)"
+    ],
+    "inputHash": "c98a8ac9"
+  },
+  {
+    "kellyId": 3615,
+    "decision": "fix",
+    "reason": "kept the distinct 'paste' sense",
+    "translation": "pasta",
+    "senses": [
+      "paste"
+    ],
+    "uncountable": true,
+    "inputHash": "631004f1"
+  },
+  {
+    "kellyId": 3366,
+    "decision": "fix",
+    "reason": "dropped 'pause, break' (restates main); kept the music-rest sense",
+    "translation": "pause, break",
+    "senses": [
+      "rest (music)"
+    ],
+    "inputHash": "16d8d545"
+  },
+  {
+    "kellyId": 3059,
+    "decision": "fix",
+    "reason": "main covers placement/location; kept the distinct finance and competition senses",
+    "translation": "placement, place, location",
+    "senses": [
+      "investment (of money)",
+      "place, rank (in a competition)"
+    ],
+    "inputHash": "9ae25a05"
+  },
+  {
+    "kellyId": 3260,
+    "decision": "fix",
+    "reason": "dropped 'plate, slab, tile' (restates main); kept the vinyl-record sense",
+    "translation": "plate, slab, tile",
+    "senses": [
+      "record, album (vinyl)"
+    ],
+    "inputHash": "eb199c3d"
+  },
+  {
+    "kellyId": 3244,
+    "decision": "fix",
+    "reason": "kept the distinct train-station platform sense",
+    "translation": "platform",
+    "senses": [
+      "platform (train station)"
+    ],
+    "inputHash": "030d0004"
+  },
+  {
+    "kellyId": 3760,
+    "decision": "fix",
+    "reason": "dropped 'study' (restates main); kept the cram and plug senses",
+    "translation": "study",
+    "senses": [
+      "cram (study intensively)",
+      "plug (stop a hole)"
+    ],
+    "inputHash": "708e1514"
+  },
+  {
+    "kellyId": 3067,
+    "decision": "fix",
+    "reason": "kept the distinct legal case-law sense",
+    "translation": "practice, custom",
+    "senses": [
+      "case law, precedent (legal)"
+    ],
+    "inputHash": "5d6958f0"
+  },
+  {
+    "kellyId": 2982,
+    "decision": "fix",
+    "reason": "dropped 'producer of goods' (restates main); kept the film/music producer sense",
+    "translation": "producer, manufacturer",
+    "senses": [
+      "producer (film, music, games)"
+    ],
+    "inputHash": "b5d912ec"
+  },
+  {
+    "kellyId": 2878,
+    "decision": "fix",
+    "reason": "dropped 'profile' (restates main); kept the public-figure sense",
+    "translation": "profile",
+    "senses": [
+      "public figure, notable name"
+    ],
+    "inputHash": "7a3a9327"
+  },
+  {
+    "kellyId": 3889,
+    "decision": "fix",
+    "reason": "dropped the generic 'progressive'; kept the distinct political and tax senses",
+    "translation": "progressive",
+    "senses": [
+      "progressive (politically liberal)",
+      "progressive (increasing tax rate)"
+    ],
+    "inputHash": "dc6f1be3"
+  },
+  {
+    "kellyId": 4018,
+    "decision": "fix",
+    "reason": "dropped 'gadget, widget' (restates main); kept the general thing sense",
+    "translation": "gadget, widget",
+    "senses": [
+      "thing, object (general)"
+    ],
+    "inputHash": "2641e64e"
+  },
+  {
+    "kellyId": 3852,
+    "decision": "fix",
+    "reason": "kept the distinct 'a published work' sense",
+    "translation": "publication",
+    "senses": [
+      "a published work"
+    ],
+    "inputHash": "cfb64222"
+  },
+  {
+    "kellyId": 3977,
+    "decision": "fix",
+    "reason": "dropped 'sanction, penalty' (restates main); kept the consequence sense",
+    "translation": "sanction, penalty",
+    "senses": [
+      "consequence, result"
+    ],
+    "inputHash": "c39aa8ba"
+  },
+  {
+    "kellyId": 3443,
+    "decision": "fix",
+    "reason": "kept the distinct 'substantial' sense",
+    "translation": "tangible, palpable, noticeable",
+    "senses": [
+      "fairly significant, substantial"
+    ],
+    "inputHash": "6637a5f0"
+  },
+  {
+    "kellyId": 3695,
+    "decision": "fix",
+    "reason": "dropped 'fall' (restates main); kept the noise/rumble sense",
+    "translation": "fall",
+    "senses": [
+      "make noise, rumble, rattle"
+    ],
+    "inputHash": "b79f84d0"
+  },
+  {
+    "kellyId": 3084,
+    "decision": "fix",
+    "reason": "dropped 'plummet' (near-restates main); kept the rage/storm and anger senses",
+    "translation": "collapse",
+    "senses": [
+      "rage (of a storm)",
+      "rage, rail, be furious",
+      "play wildly, romp"
+    ],
+    "inputHash": "0ed27559"
+  },
+  {
+    "kellyId": 3833,
+    "decision": "fix",
+    "reason": "dropped 'break' (restates main); kept the school-recess sense",
+    "translation": "break",
+    "senses": [
+      "recess, breaktime (school)"
+    ],
+    "inputHash": "80b101ec"
+  },
+  {
+    "kellyId": 3367,
+    "decision": "fix",
+    "reason": "dropped 'efficient, rational' (restates main); kept the logically-sound sense",
+    "translation": "efficient, rational",
+    "senses": [
+      "rational (logically sound)"
+    ],
+    "inputHash": "1ac69b28"
+  },
+  {
+    "kellyId": 3786,
+    "decision": "fix",
+    "reason": "dropped 'tool, instrument' (restates main); kept the abstract means sense",
+    "translation": "tool, instrument",
+    "senses": [
+      "means, instrument (abstract)"
+    ],
+    "inputHash": "8971205c"
+  },
+  {
+    "kellyId": 3465,
+    "decision": "fix",
+    "reason": "dropped 'real, actual' (restates main); kept the mathematics sense",
+    "translation": "real, actual",
+    "senses": [
+      "real (mathematics: non-imaginary)"
+    ],
+    "inputHash": "6864d121"
+  },
+  {
+    "kellyId": 3230,
+    "decision": "fix",
+    "reason": "main is the physical reflect; kept the distinct evidence and ponder senses",
+    "translation": "reflect",
+    "senses": [
+      "reflect, give evidence of",
+      "reflect, ponder (think seriously)"
+    ],
+    "inputHash": "22bc15cf"
+  },
+  {
+    "kellyId": 3298,
+    "decision": "fix",
+    "reason": "main is the physical reflection; kept the thought/consideration sense",
+    "translation": "reflection",
+    "senses": [
+      "reflection, thought (careful consideration)"
+    ],
+    "inputHash": "edea9902"
+  },
+  {
+    "kellyId": 4125,
+    "decision": "fix",
+    "reason": "dropped 'regular, periodic in time' (restates main); kept the even-shape sense",
+    "translation": "regular, periodic",
+    "senses": [
+      "regular (even in shape or appearance)"
+    ],
+    "inputHash": "92e75df7"
+  },
+  {
+    "kellyId": 3200,
+    "decision": "fix",
+    "reason": "dropped 'register, index, directory' (restates main); kept the cash-register sense",
+    "translation": "register, index, directory",
+    "senses": [
+      "cash register"
+    ],
+    "inputHash": "226f47b1"
+  },
+  {
+    "kellyId": 3232,
+    "decision": "fix",
+    "reason": "dropped 'headteacher, principal' (restates main); kept the university-rector sense",
+    "translation": "headteacher, principal",
+    "senses": [
+      "rector (university head)"
+    ],
+    "inputHash": "d4196cc2"
+  },
+  {
+    "kellyId": 3843,
+    "decision": "fix",
+    "reason": "dropped 'tease' (restates main); kept the annoy/provoke sense",
+    "translation": "tease",
+    "senses": [
+      "annoy, irritate, provoke"
+    ],
+    "inputHash": "768cd376"
+  },
+  {
+    "kellyId": 3198,
+    "decision": "fix",
+    "reason": "dropped 'draw' (restates main); kept the design sense",
+    "translation": "draw",
+    "senses": [
+      "design (by drawing)"
+    ],
+    "inputHash": "472993ef"
+  },
+  {
+    "kellyId": 3630,
+    "decision": "fix",
+    "reason": "main is round (shape); kept the plump and round-number senses",
+    "translation": "round",
+    "senses": [
+      "plump, chubby",
+      "round (of a number)"
+    ],
+    "inputHash": "5cccf426"
+  },
+  {
+    "kellyId": 3302,
+    "decision": "fix",
+    "reason": "dropped 'square, tile, box' (restates main); kept the windowpane and comic-panel senses",
+    "translation": "square, tile, box",
+    "senses": [
+      "windowpane",
+      "panel (comic strip frame)"
+    ],
+    "inputHash": "a54aea07"
+  },
+  {
+    "kellyId": 3248,
+    "decision": "fix",
+    "reason": "dropped 'routine' (restates main); kept the experience sense",
+    "translation": "routine",
+    "senses": [
+      "experience, practised skill"
+    ],
+    "inputHash": "423096c6"
+  },
+  {
+    "kellyId": 3727,
+    "decision": "fix",
+    "reason": "main is space/volume; kept the distinct outer-space sense",
+    "translation": "space, volume",
+    "senses": [
+      "space (outer space)"
+    ],
+    "inputHash": "b42eef46"
+  },
+  {
+    "kellyId": 3291,
+    "decision": "fix",
+    "reason": "dropped 'raw uncooked' (restates main); kept the rough and tough senses",
+    "translation": "raw",
+    "senses": [
+      "rough, crude, coarse",
+      "tough, rowdy"
+    ],
+    "inputHash": "c2c16f9b"
+  },
+  {
+    "kellyId": 3239,
+    "decision": "fix",
+    "reason": "main is the literal colour; kept the distinct political-coalition sense",
+    "translation": "red-green",
+    "senses": [
+      "red-green (political: left-green coalition)"
+    ],
+    "inputHash": "48d414cb"
+  },
+  {
+    "kellyId": 3177,
+    "decision": "fix",
+    "reason": "main is smoke (tobacco); kept the distinct food-smoking and smoke-out senses",
+    "translation": "smoke",
+    "senses": [
+      "smoke (food, e.g. fish)",
+      "smoke out"
+    ],
+    "inputHash": "e601d050"
+  },
+  {
+    "kellyId": 4113,
+    "decision": "fix",
+    "reason": "'matter of fact' merely defines the substantive-issue sense",
+    "translation": "issue",
+    "senses": [],
+    "inputHash": "b8ecb9ac"
+  },
+  {
+    "kellyId": 3685,
+    "decision": "fix",
+    "reason": "kept the distinct 'lack, absence' sense",
+    "translation": "longing, loss",
+    "senses": [
+      "lack, absence (of something)"
+    ],
+    "inputHash": "78dfd9e5"
+  },
+  {
+    "kellyId": 4016,
+    "decision": "fix",
+    "reason": "main is aim (a weapon); kept the aim-for, spot and sift senses",
+    "translation": "aim",
+    "senses": [
+      "aim for, strive toward",
+      "spot, catch sight of",
+      "sift (flour)"
+    ],
+    "inputHash": "22e5e546"
+  },
+  {
+    "kellyId": 3882,
+    "decision": "fix",
+    "reason": "kept the distinct 'bathe' sense",
+    "translation": "swim",
+    "senses": [
+      "bathe, take a dip"
+    ],
+    "inputHash": "2f9d1510"
+  },
+  {
+    "kellyId": 3599,
+    "decision": "fix",
+    "reason": "main is shame (the feeling); kept the distinct disgrace and pity senses",
+    "translation": "shame",
+    "senses": [
+      "a disgrace, a shameful thing",
+      "a pity, a shame (expressing regret)"
+    ],
+    "inputHash": "a6424abb"
+  },
+  {
+    "kellyId": 3035,
+    "decision": "fix",
+    "reason": "dropped 'sharp' (restates main); kept the pungent and live-ammo senses",
+    "translation": "sharp",
+    "senses": [
+      "strong, pungent (smell)",
+      "live (ammunition, not blank)"
+    ],
+    "inputHash": "cdcc6a02"
+  },
+  {
+    "kellyId": 3866,
+    "decision": "fix",
+    "reason": "main is condition/state; kept the distinct behaviour and custom senses",
+    "translation": "condition, state",
+    "senses": [
+      "behaviour, manners",
+      "custom, practice"
+    ],
+    "inputHash": "a3b78643"
+  },
+  {
+    "kellyId": 3853,
+    "decision": "fix",
+    "reason": "kept the distinct distribution/partition sense (esp. land)",
+    "translation": "change, changeover",
+    "senses": [
+      "distribution, partition (of land or an estate)"
+    ],
+    "inputHash": "667faea3"
+  },
+  {
+    "kellyId": 3446,
+    "decision": "fix",
+    "reason": "dropped 'shit defecate' (restates main); kept the idiomatic senses",
+    "translation": "shit",
+    "senses": [
+      "not give a damn, ignore, skip",
+      "mess up, make dirty",
+      "go wrong, backfire"
+    ],
+    "inputHash": "c73014b1"
+  },
+  {
+    "kellyId": 3348,
+    "decision": "fix",
+    "reason": "dropped 'laughter in general' (restates main); kept the single-instance sense",
+    "translation": "laughter",
+    "senses": [
+      "a laugh (a single instance)"
+    ],
+    "uncountable": true,
+    "inputHash": "bf5bbb4d"
+  },
+  {
+    "kellyId": 3894,
+    "decision": "fix",
+    "reason": "dropped 'screen, monitor' (restates main); kept the partition and visor senses",
+    "translation": "screen",
+    "senses": [
+      "screen, divider (physical partition)",
+      "visor (on a cap)"
+    ],
+    "inputHash": "086a50a5"
+  },
+  {
+    "kellyId": 3370,
+    "decision": "fix",
+    "reason": "main is sharpen; kept the tighten and pull-together senses",
+    "translation": "sharpen",
+    "senses": [
+      "tighten, make stricter",
+      "straighten up, pull oneself together"
+    ],
+    "inputHash": "a864f22c"
+  },
+  {
+    "kellyId": 3507,
+    "decision": "fix",
+    "reason": "kept the distinct 'a beautiful person or thing' sense",
+    "translation": "beauty",
+    "senses": [
+      "a beauty (a beautiful person or thing)"
+    ],
+    "uncountable": true,
+    "inputHash": "5170a5a8"
+  },
+  {
+    "kellyId": 3106,
+    "decision": "fix",
+    "reason": "kept the distinct 'Slav' sense",
+    "translation": "slave",
+    "senses": [
+      "Slav (person of Slavic origin)"
+    ],
+    "inputHash": "2e54a021"
+  },
+  {
+    "kellyId": 3354,
+    "decision": "fix",
+    "reason": "dropped 'coincidence' (near-restates main); kept the remainder/residual-stock sense",
+    "translation": "chance, randomness, happenstance",
+    "senses": [
+      "a remainder, residual stock (of goods)"
+    ],
+    "inputHash": "80fa7731"
+  },
+  {
+    "kellyId": 3876,
+    "decision": "fix",
+    "reason": "kept the distinct 'pliable' sense (dough, metal)",
+    "translation": "agile, supple, smooth",
+    "senses": [
+      "flexible, pliable (of dough or metal)"
+    ],
+    "inputHash": "c63b41ce"
+  },
+  {
+    "kellyId": 3527,
+    "decision": "fix",
+    "reason": "kept the figurative 'tiny bit' sense",
+    "translation": "crumb",
+    "senses": [
+      "a tiny bit, a little"
+    ],
+    "inputHash": "c6c76d6d"
+  },
+  {
+    "kellyId": 4137,
+    "decision": "fix",
+    "reason": "main is slightly/a bit; kept the distinct slowly and idiomatic 'pretty' senses",
+    "translation": "slightly, a bit",
+    "senses": [
+      "slowly",
+      "pretty, quite (idiomatic)"
+    ],
+    "inputHash": "0ee3b4b3"
+  },
+  {
+    "kellyId": 3856,
+    "decision": "fix",
+    "reason": "main is melt; kept the distinct digest senses",
+    "translation": "melt",
+    "senses": [
+      "digest (food)",
+      "process, digest (mentally)"
+    ],
+    "inputHash": "5b05347d"
+  },
+  {
+    "kellyId": 3975,
+    "decision": "fix",
+    "reason": "dropped 'chat, talk' (restates main); kept the nonsense sense",
+    "translation": "chat, talk",
+    "senses": [
+      "nonsense, empty talk"
+    ],
+    "inputHash": "4476d1fe"
+  },
+  {
+    "kellyId": 2958,
+    "decision": "fix",
+    "reason": "kept the distinct 'rather, preferably' sense",
+    "translation": "as soon as possible",
+    "senses": [
+      "rather, preferably, if anything"
+    ],
+    "inputHash": "f079f7f9"
+  },
+  {
+    "kellyId": 4206,
+    "decision": "fix",
+    "reason": "kept the distinct colloquial diabetes sense",
+    "translation": "sugar",
+    "senses": [
+      "diabetes (colloquial)"
+    ],
+    "uncountable": true,
+    "inputHash": "8d9e8b03"
+  },
+  {
+    "kellyId": 3776,
+    "decision": "fix",
+    "reason": "kept the distinct 'pitiful' sense",
+    "translation": "sad",
+    "senses": [
+      "pitiful, pathetic, wretched"
+    ],
+    "inputHash": "459ec65a"
+  },
+  {
+    "kellyId": 3307,
+    "decision": "fix",
+    "reason": "dropped 'reflect' (restates main); kept the mirror sense",
+    "translation": "reflect",
+    "senses": [
+      "mirror (literally or figuratively)"
+    ],
+    "inputHash": "b240b45b"
+  }
+]

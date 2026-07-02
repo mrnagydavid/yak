@@ -1,0 +1,98 @@
+[
+  {
+    "kellyId": 1841,
+    "decision": "split",
+    "reason": "yacht is a completely unrelated homonym of hunting — common enough sailing word to warrant its own card",
+    "altMeanings": [{ "translation": "yacht", "gloss": "sailing boat" }],
+    "subDefinitions": ["hunt, chase"],
+    "inputHash": "787df432"
+  },
+  {
+    "kellyId": 1850,
+    "decision": "split",
+    "reason": "channel (TV/radio) is a distinct everyday sense unrelated to the waterway canal",
+    "altMeanings": [{ "translation": "channel", "gloss": "TV, radio, or information" }],
+    "subDefinitions": ["channel (waterway, e.g. English Channel)"],
+    "inputHash": "e6c605ce"
+  },
+  {
+    "kellyId": 2237,
+    "decision": "split",
+    "reason": "fund/cash/coffers is a distinct common sense (e.g. lagkassa) separate from the checkout register",
+    "altMeanings": [{ "translation": "fund, cash", "gloss": "money on hand, coffers" }],
+    "subDefinitions": [],
+    "inputHash": "8dfc82b2"
+  },
+  {
+    "kellyId": 1925,
+    "decision": "split",
+    "reason": "clutch (vehicle) is a distinct concrete everyday sense unrelated to abstract connection",
+    "altMeanings": [{ "translation": "clutch", "gloss": "vehicle" }],
+    "subDefinitions": [],
+    "inputHash": "63f7684f"
+  },
+  {
+    "kellyId": 1407,
+    "decision": "split",
+    "reason": "exchange rate is a distinct common financial sense unrelated to a study course",
+    "altMeanings": [{ "translation": "rate, exchange rate", "gloss": "currency, stocks" }],
+    "subDefinitions": ["course, heading (navigation)"],
+    "inputHash": "2bb27a50"
+  },
+  {
+    "kellyId": 1708,
+    "decision": "split",
+    "reason": "laga mat (to cook) is an extremely common everyday sense, unrelated to repair",
+    "altMeanings": [{ "translation": "cook, prepare", "gloss": "food" }],
+    "subDefinitions": ["to arrange, set up"],
+    "inputHash": "848bc87d"
+  },
+  {
+    "kellyId": 2598,
+    "decision": "split",
+    "reason": "school break/holiday (sportlov, sommarlov) is a very common distinct sense separate from permission",
+    "altMeanings": [{ "translation": "break, holiday", "gloss": "from school" }],
+    "subDefinitions": ["praise"],
+    "inputHash": "d41bdeca"
+  },
+  {
+    "kellyId": 1626,
+    "decision": "split",
+    "reason": "luck/good fortune is a distinct common sense (lycka till) separate from happiness",
+    "altMeanings": [{ "translation": "luck, good fortune", "gloss": "" }],
+    "subDefinitions": [],
+    "inputHash": "878d4598"
+  },
+  {
+    "kellyId": 1613,
+    "decision": "split",
+    "reason": "midday/noon is a distinct common sense unrelated to the evening meal dinner",
+    "altMeanings": [{ "translation": "midday, noon", "gloss": "time of day" }],
+    "subDefinitions": [],
+    "inputHash": "cbbf9e17"
+  },
+  {
+    "kellyId": 2727,
+    "decision": "split",
+    "reason": "core/nucleus is a distinct common abstract sense separate from a fruit seed/pit",
+    "altMeanings": [{ "translation": "core, nucleus", "gloss": "central part" }],
+    "subDefinitions": ["kernel (computing)", "churn (for butter)"],
+    "inputHash": "afde9067"
+  },
+  {
+    "kellyId": 1881,
+    "decision": "split",
+    "reason": "photograph is a distinct common sense of kort separate from a card",
+    "altMeanings": [{ "translation": "photograph", "gloss": "photo" }],
+    "subDefinitions": ["playing card", "card game"],
+    "inputHash": "c0f0ecc1"
+  },
+  {
+    "kellyId": 2440,
+    "decision": "split",
+    "reason": "landscape (scenery) is a distinct common sense separate from a Swedish province",
+    "altMeanings": [{ "translation": "landscape", "gloss": "scenery" }],
+    "subDefinitions": ["landscape (painting)"],
+    "inputHash": "d7f40f97"
+  }
+]

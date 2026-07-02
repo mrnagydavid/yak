@@ -1,0 +1,53 @@
+[
+  {
+    "kellyId": 2101,
+    "decision": "split",
+    "reason": "fil = traffic lane and fil = soured milk (a staple Swedish dairy product) are both common, unrelated everyday senses a learner must produce",
+    "altMeanings": [
+      { "translation": "lane", "gloss": "traffic" },
+      { "translation": "soured milk", "gloss": "dairy product" }
+    ],
+    "subDefinitions": ["row, queue"],
+    "inputHash": "97294034"
+  },
+  {
+    "kellyId": 2510,
+    "decision": "split",
+    "reason": "fond = broth/stock is a common, unrelated cooking sense distinct from the financial fund",
+    "altMeanings": [
+      { "translation": "broth, stock", "gloss": "cooking" }
+    ],
+    "subDefinitions": ["backdrop; a theatrical scenery"],
+    "inputHash": "e141758b"
+  },
+  {
+    "kellyId": 2622,
+    "decision": "split",
+    "reason": "gas = accelerator/gas pedal is a very common everyday driving sense distinct from gas the substance",
+    "altMeanings": [
+      { "translation": "gas pedal, accelerator", "gloss": "trampa på gasen" }
+    ],
+    "subDefinitions": [],
+    "inputHash": "fc9bac2b"
+  },
+  {
+    "kellyId": 1864,
+    "decision": "split",
+    "reason": "gård = yard/courtyard is a common everyday sense distinct from farm/farmstead",
+    "altMeanings": [
+      { "translation": "yard, courtyard", "gloss": "" }
+    ],
+    "subDefinitions": [],
+    "inputHash": "93acdcab"
+  },
+  {
+    "kellyId": 1645,
+    "decision": "split",
+    "reason": "höger = right-wing (politics) is a common, distinct sense from right the direction",
+    "altMeanings": [
+      { "translation": "right-wing", "gloss": "politics" }
+    ],
+    "subDefinitions": [],
+    "inputHash": "d9742707"
+  }
+]

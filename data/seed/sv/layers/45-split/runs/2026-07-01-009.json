@@ -1,0 +1,63 @@
+[
+  {
+    "kellyId": 2391,
+    "decision": "split",
+    "reason": "pass has several distinct, unrelated everyday senses: passport (primary), a workout/work session (träningspass, löppass — very common), and a mountain pass. Both are worth their own cards.",
+    "altMeanings": [
+      { "translation": "session", "gloss": "exercise or work" },
+      { "translation": "mountain pass", "gloss": "" }
+    ],
+    "subDefinitions": ["shift (of work)", "pace, gait"],
+    "inputHash": "6a765d20"
+  },
+  {
+    "kellyId": 2263,
+    "decision": "split",
+    "reason": "ras = race/breed (primary) and collapse/landslide are two completely unrelated common senses; jordras/prisras is everyday vocabulary.",
+    "altMeanings": [
+      { "translation": "collapse, landslide", "gloss": "" }
+    ],
+    "subDefinitions": [],
+    "inputHash": "200e7d26"
+  },
+  {
+    "kellyId": 2118,
+    "decision": "split",
+    "reason": "rykte = rumor (primary) and reputation (gott/dåligt rykte) are distinct, both very common everyday senses.",
+    "altMeanings": [
+      { "translation": "reputation", "gloss": "" }
+    ],
+    "subDefinitions": [],
+    "inputHash": "c952e3ff"
+  },
+  {
+    "kellyId": 2554,
+    "decision": "split",
+    "reason": "rymma = hold/have capacity (primary) and escape/run away are two unrelated common senses; rymma från fängelset is basic vocabulary.",
+    "altMeanings": [
+      { "translation": "escape, run away", "gloss": "" }
+    ],
+    "subDefinitions": [],
+    "inputHash": "4725cced"
+  },
+  {
+    "kellyId": 1622,
+    "decision": "split",
+    "reason": "skuld = debt (primary) and guilt/blame are distinct, both common everyday senses (skuldkänslor, det är ditt fel/din skuld).",
+    "altMeanings": [
+      { "translation": "guilt, blame", "gloss": "" }
+    ],
+    "subDefinitions": [],
+    "inputHash": "ba75398d"
+  },
+  {
+    "kellyId": 1940,
+    "decision": "split",
+    "reason": "sjö = lake (primary) and sea/open water (till sjöss, sjöfart, ute på sjön) are distinct and both very common in Swedish.",
+    "altMeanings": [
+      { "translation": "sea", "gloss": "open water" }
+    ],
+    "subDefinitions": ["big wave"],
+    "inputHash": "2c4bac75"
+  }
+]

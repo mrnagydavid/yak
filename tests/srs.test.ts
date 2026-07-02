@@ -65,7 +65,14 @@ function entry(lemma: string, source: Source, cefr?: Cefr, extra: Partial<Entry>
 }
 
 function translation(id: string, targetEntryId: string): Translation {
-  return { id, targetEntryId, nativeEntryId: `n_${targetEntryId}`, source: 'seed', createdAt: 0 }
+  return { id, targetEntryId, nativeEntryId: `n_${targetEntryId}`, meaningKey: 0, primary: true, source: 'seed', createdAt: 0 }
+}
+
+// A non-primary meaning of a multi-meaning word (production-only card). (multi-meaning design)
+// A `senseKey` marks the promoted meaning as part of a partitioned concept, so it groups with the
+// other Swedish words of that sense (§12 grouping follow-up).
+function altTranslation(id: string, targetEntryId: string, meaningKey: number, senseKey?: string): Translation {
+  return { id, targetEntryId, nativeEntryId: `n_${id}`, meaningKey, primary: false, source: 'seed', createdAt: 0, ...(senseKey ? { senseKey } : {}) }
 }
 
 function dueState(translationId: string, skill: 'recognize' | 'produce', dueAt: number): ReviewState {
@@ -401,6 +408,58 @@ describe('session-composer', () => {
     })
   })
 
+  describe('multi-meaning words (multi-meaning design)', () => {
+    it('asks recognition once per word — only the primary meaning gets a recognize card', () => {
+      seq = 0
+      const w = entry('led', 'seed', 'B1') // progression at A2 → new cards
+      const cards = composeSessionPure(
+        base({
+          entries: [w],
+          translations: [translation('t_joint', w.id), altTranslation('t_route', w.id, 1)],
+        }),
+      )
+      const recognize = cards.filter((c) => c.skill === 'recognize')
+      expect(recognize).toHaveLength(1)
+      expect(recognize[0]?.translationId).toBe('t_joint') // the primary meaning carries recognition
+      // The extra meaning contributes no recognition card at all.
+      expect(cards.some((c) => c.translationId === 't_route' && c.skill === 'recognize')).toBe(false)
+    })
+
+    it("unlocks EVERY meaning's production once the WORD's recognition stabilises", () => {
+      seq = 0
+      const w = entry('led', 'seed', 'B1')
+      // The word's recognition (on the primary meaning) is graduated, stable, and not itself due.
+      const cards = composeSessionPure(
+        base({
+          entries: [w],
+          translations: [translation('t_joint', w.id), altTranslation('t_route', w.id, 1)],
+          reviewStates: [srsState('t_joint', 'recognize', { state: 'review', stability: 10, due: NOW + DAY })],
+        }),
+      )
+      const produce = cards.filter((c) => c.skill === 'produce')
+      // Both the primary and the extra meaning surface production — the extra one gates behind the
+      // WORD's recognition even though it has no recognition state of its own.
+      expect(produce.map((c) => c.translationId).sort()).toEqual(['t_joint', 't_route'])
+      expect(produce.every((c) => c.mode === 'new')).toBe(true)
+      expect(cards.some((c) => c.skill === 'recognize')).toBe(false) // recognition not due → not shown
+    })
+
+    it("holds an extra meaning's production while the word's recognition is unstable", () => {
+      seq = 0
+      const w = entry('led', 'seed', 'B1')
+      const cards = composeSessionPure(
+        base({
+          entries: [w],
+          translations: [translation('t_joint', w.id), altTranslation('t_route', w.id, 1)],
+          // Recognition graduated but not stable enough (< 7 days) → no production unlocks yet.
+          reviewStates: [srsState('t_joint', 'recognize', { state: 'review', stability: 3, due: NOW - DAY })],
+        }),
+      )
+      expect(cards.map((c) => c.skill)).toEqual(['recognize']) // only the word's recognition
+      expect(cards.some((c) => c.skill === 'produce')).toBe(false)
+    })
+  })
+
   describe('multi-answer production groups (plan)', () => {
     const SENSE = { key: 'clearly#0', gloss: 'in a clear way' }
 
@@ -511,6 +570,79 @@ describe('session-composer', () => {
       const produce = cards.filter((c) => c.skill === 'produce')
       expect(produce).toHaveLength(2) // two ordinary cards, no grouping
       expect(produce.every((c) => c.group === undefined)).toBe(true)
+    })
+  })
+
+  // A promoted meaning of one word shares a sense with the PRIMARY of another word (e.g. English
+  // "husband" is make's primary + man's promoted meaning). The grouping key of a promoted meaning
+  // lives on its link's `senseKey`; a primary's lives on its entry's `sense.key`. When they match, the
+  // composer asks them together as one multi-answer card — exactly like a plain synonym group, but
+  // spanning a primary and a promoted meaning of different words. (§12 grouping follow-up)
+  describe('multi-answer groups spanning a promoted meaning (§12 grouping follow-up)', () => {
+    it('groups a word\'s primary with another word\'s promoted meaning (husband → make + man)', () => {
+      seq = 0
+      // make → "husband, spouse" (primary of that sense); man → primary "man" + promoted "husband".
+      const make = entry('make', 'seed', 'A2', { sense: { key: 'husband, spouse#0', gloss: '' } })
+      const man = entry('man', 'seed', 'A2', { sense: { key: 'man#0', gloss: 'adult male' } })
+      const cards = composeSessionPure(
+        base({
+          entries: [make, man],
+          translations: [
+            translation('t_make', make.id),
+            translation('t_man', man.id),
+            altTranslation('t_man_husband', man.id, 1, 'husband, spouse#0'),
+          ],
+          reviewStates: [
+            // Words recognised + stabilised but not due (so no recognition card, no fresh unlock).
+            srsState('t_make', 'recognize', { state: 'review', stability: 3, due: NOW + DAY }),
+            srsState('t_man', 'recognize', { state: 'review', stability: 3, due: NOW + DAY }),
+            // make's husband production is due; man's husband production is taught but due later.
+            srsState('t_make', 'produce', { state: 'review', stability: 12, due: NOW - DAY }),
+            srsState('t_man_husband', 'produce', { state: 'review', stability: 12, due: NOW + 2 * DAY }),
+          ],
+        }),
+      )
+      const produce = cards.filter((c) => c.skill === 'produce')
+      expect(produce).toHaveLength(1) // one grouped card (man's plain "man" production isn't unlocked)
+      expect(produce[0]?.group?.members.map((m) => m.translationId).sort()).toEqual(['t_make', 't_man_husband'])
+      expect(produce[0]?.translationId).toBe('t_make') // earliest-due member (a primary) represents the group
+    })
+
+    it('groups same-sense answers but keeps a distinct sense separate (right: entitlement vs direction)', () => {
+      seq = 0
+      // rätt (noun): primary "dish" + promoted "right, entitlement". rättighet: primary "right"
+      // (entitlement). höger: primary "right" (the direction) — a DIFFERENT sense of the same phrase.
+      const rattighet = entry('rättighet', 'seed', 'A2', { sense: { key: 'right, correct#1', gloss: 'an entitlement' } })
+      const ratt = entry('rätt', 'seed', 'A2', { sense: { key: 'dish#0', gloss: '' } })
+      const hoger = entry('höger', 'seed', 'A2', { sense: { key: 'right, correct#3', gloss: 'right-hand side' } })
+      const cards = composeSessionPure(
+        base({
+          entries: [rattighet, ratt, hoger],
+          translations: [
+            translation('t_rattighet', rattighet.id),
+            translation('t_ratt', ratt.id),
+            altTranslation('t_ratt_ent', ratt.id, 1, 'right, correct#1'),
+            translation('t_hoger', hoger.id),
+          ],
+          reviewStates: [
+            srsState('t_rattighet', 'recognize', { state: 'review', stability: 3, due: NOW + DAY }),
+            srsState('t_ratt', 'recognize', { state: 'review', stability: 3, due: NOW + DAY }),
+            srsState('t_hoger', 'recognize', { state: 'review', stability: 3, due: NOW + DAY }),
+            // entitlement group (rättighet + rätt's promoted meaning) both due; höger (direction) due too.
+            srsState('t_rattighet', 'produce', { state: 'review', stability: 12, due: NOW - DAY }),
+            srsState('t_ratt_ent', 'produce', { state: 'review', stability: 12, due: NOW - DAY }),
+            srsState('t_hoger', 'produce', { state: 'review', stability: 12, due: NOW - DAY }),
+          ],
+        }),
+      )
+      const produce = cards.filter((c) => c.skill === 'produce')
+      expect(produce).toHaveLength(2) // the entitlement GROUP + höger as its own card
+      const group = produce.find((c) => c.group)
+      expect(group?.group?.members.map((m) => m.translationId).sort()).toEqual(['t_ratt_ent', 't_rattighet'])
+      // höger is the "direction" sense (different key) → a solo card, never pulled into the entitlement group.
+      const solo = produce.find((c) => !c.group)
+      expect(solo?.translationId).toBe('t_hoger')
+      expect(group?.group?.members.some((m) => m.translationId === 't_hoger')).toBe(false)
     })
   })
 })

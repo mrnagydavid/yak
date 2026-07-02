@@ -1,0 +1,50 @@
+[
+  {
+    "kellyId": 551,
+    "decision": "split",
+    "reason": "\"sentence\" (grammatical) is a distinct, unrelated, everyday sense a beginner needs to produce, separate from purpose/point",
+    "altMeanings": [{ "translation": "sentence", "gloss": "grammatical" }],
+    "subDefinitions": ["meaning, sense (intended)", "opinion"],
+    "inputHash": "3f2f0e70"
+  },
+  {
+    "kellyId": 362,
+    "decision": "split",
+    "reason": "\"meal\" is a distinct, very common everyday sense unrelated to goal/target",
+    "altMeanings": [{ "translation": "meal", "gloss": "" }],
+    "subDefinitions": ["goal (sports)", "finish line", "language, dialect", "court case (legal)"],
+    "inputHash": "2c37ea6d"
+  },
+  {
+    "kellyId": 857,
+    "decision": "split",
+    "reason": "\"internet/web\" is a distinct, common everyday sense unrelated to a physical net",
+    "altMeanings": [{ "translation": "internet, network", "gloss": "computing" }],
+    "subDefinitions": [],
+    "inputHash": "4bc0e159"
+  },
+  {
+    "kellyId": 591,
+    "decision": "split",
+    "reason": "\"prize/award\" is a distinct, common everyday sense unrelated to price/cost",
+    "altMeanings": [{ "translation": "prize", "gloss": "award" }],
+    "subDefinitions": [],
+    "inputHash": "234568bc"
+  },
+  {
+    "kellyId": 807,
+    "decision": "split",
+    "reason": "\"field, court, pitch\" (sports area, e.g. fotbollsplan) is a common everyday sense in Sweden, unrelated to plan",
+    "altMeanings": [{ "translation": "field, court, pitch", "gloss": "sports area" }],
+    "subDefinitions": ["floor plan, layout drawing"],
+    "inputHash": "b3651ce5"
+  },
+  {
+    "kellyId": 496,
+    "decision": "split",
+    "reason": "\"bolt, bar\" (door fastener) is a distinct concrete everyday sense unrelated to rule/regulation",
+    "altMeanings": [{ "translation": "bolt, bar", "gloss": "door fastener" }],
+    "subDefinitions": [],
+    "inputHash": "d8f82ef9"
+  }
+]

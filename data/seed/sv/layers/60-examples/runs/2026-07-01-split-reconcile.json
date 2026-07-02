@@ -1,0 +1,478 @@
+[
+  {
+    "kellyId": 264,
+    "examples": [
+      "En man går på gatan."
+    ],
+    "inputHash": "4b53b97c"
+  },
+  {
+    "kellyId": 362,
+    "examples": [
+      "Svenska är ett vackert mål."
+    ],
+    "inputHash": "855f001d"
+  },
+  {
+    "kellyId": 413,
+    "examples": [
+      "Har du gjort ditt val?"
+    ],
+    "inputHash": "f4704964"
+  },
+  {
+    "kellyId": 417,
+    "examples": [
+      "Hon är professor i historia."
+    ],
+    "inputHash": "1a2171a8"
+  },
+  {
+    "kellyId": 441,
+    "examples": [
+      "Det här är en god rätt."
+    ],
+    "inputHash": "29ccdbcd"
+  },
+  {
+    "kellyId": 488,
+    "examples": [
+      "Vi tog en tur i parken."
+    ],
+    "inputHash": "94e68a79"
+  },
+  {
+    "kellyId": 496,
+    "examples": [
+      "Det är en viktig regel."
+    ],
+    "inputHash": "c9438efe"
+  },
+  {
+    "kellyId": 502,
+    "examples": [
+      "Han anmälde stölden till polisen."
+    ],
+    "inputHash": "6c030544"
+  },
+  {
+    "kellyId": 505,
+    "examples": [
+      "Kungen bär en krona av guld."
+    ],
+    "inputHash": "469ec0c5"
+  },
+  {
+    "kellyId": 522,
+    "examples": [
+      "Det finns en etikett på flaskan."
+    ],
+    "inputHash": "1b13c9ec"
+  },
+  {
+    "kellyId": 551,
+    "examples": [
+      "Vad är meningen med det?"
+    ],
+    "inputHash": "932f23a5"
+  },
+  {
+    "kellyId": 587,
+    "examples": [
+      "Domaren läser upp domen."
+    ],
+    "inputHash": "4d264489"
+  },
+  {
+    "kellyId": 591,
+    "examples": [
+      "Vad är priset på den här jackan?"
+    ],
+    "inputHash": "710c82b3"
+  },
+  {
+    "kellyId": 600,
+    "examples": [
+      "Kan du göra mig en tjänst?"
+    ],
+    "inputHash": "f7a87ccf"
+  },
+  {
+    "kellyId": 717,
+    "examples": [
+      "Hon har en fin röst."
+    ],
+    "inputHash": "de397578"
+  },
+  {
+    "kellyId": 738,
+    "examples": [
+      "Olyckan ägde rum i svåra förhållanden."
+    ],
+    "inputHash": "ffdaa45a"
+  },
+  {
+    "kellyId": 749,
+    "examples": [
+      "Glaset är fullt med vatten."
+    ],
+    "inputHash": "86189237"
+  },
+  {
+    "kellyId": 797,
+    "examples": [
+      "Vi betalar skatt varje år."
+    ],
+    "inputHash": "ae14cb6f"
+  },
+  {
+    "kellyId": 807,
+    "examples": [
+      "Jag har en bra plan."
+    ],
+    "inputHash": "a0e78b5d"
+  },
+  {
+    "kellyId": 857,
+    "examples": [
+      "Fisken är i nätet."
+    ],
+    "inputHash": "1cf96ce0"
+  },
+  {
+    "kellyId": 1252,
+    "examples": [
+      "Rävspåret var lätt att följa i snön."
+    ],
+    "inputHash": "f24fb226"
+  },
+  {
+    "kellyId": 1292,
+    "examples": [
+      "Gud älskar en glad givare."
+    ],
+    "inputHash": "cee67a23"
+  },
+  {
+    "kellyId": 1303,
+    "examples": [
+      "Det är en lång serie av händelser."
+    ],
+    "inputHash": "7243397a"
+  },
+  {
+    "kellyId": 1402,
+    "examples": [
+      "Det är en blå himmel i dag."
+    ],
+    "inputHash": "36ff9586"
+  },
+  {
+    "kellyId": 1407,
+    "examples": [
+      "Jag gick en kurs i spanska."
+    ],
+    "inputHash": "12dd07cd"
+  },
+  {
+    "kellyId": 1575,
+    "examples": [
+      "Mitt ben gör ont."
+    ],
+    "inputHash": "813b43d1"
+  },
+  {
+    "kellyId": 1613,
+    "examples": [
+      "Vad åt du till middag?"
+    ],
+    "inputHash": "60e69fa2"
+  },
+  {
+    "kellyId": 1622,
+    "examples": [
+      "Han har stora skulder till banken."
+    ],
+    "inputHash": "70922db7"
+  },
+  {
+    "kellyId": 1626,
+    "examples": [
+      "Pengar ger inte lycka."
+    ],
+    "inputHash": "cd016adb"
+  },
+  {
+    "kellyId": 1645,
+    "examples": [
+      "Ta den högra dörren."
+    ],
+    "inputHash": "41e2b90f"
+  },
+  {
+    "kellyId": 1708,
+    "examples": [
+      "Han lagade cykeln på en timme."
+    ],
+    "inputHash": "25581df2"
+  },
+  {
+    "kellyId": 1738,
+    "examples": [
+      "Han sitter ytterst i raden."
+    ],
+    "inputHash": "7c28b4c3"
+  },
+  {
+    "kellyId": 1841,
+    "examples": [
+      "Jakt på älg är vanligt i Sverige."
+    ],
+    "inputHash": "6f034a6e"
+  },
+  {
+    "kellyId": 1863,
+    "examples": [
+      "Det blåser en kall vind i dag."
+    ],
+    "inputHash": "14663d2a"
+  },
+  {
+    "kellyId": 1881,
+    "examples": [
+      "Ska vi spela kort?"
+    ],
+    "inputHash": "6ee7d648"
+  },
+  {
+    "kellyId": 1926,
+    "examples": [
+      "Hon fick ett snitt i fingret."
+    ],
+    "inputHash": "918b9588"
+  },
+  {
+    "kellyId": 1991,
+    "examples": [
+      "Han ramlade och slog sin ända."
+    ],
+    "inputHash": "b3e06ab6"
+  },
+  {
+    "kellyId": 2028,
+    "examples": [
+      "Solen går ner i väst."
+    ],
+    "inputHash": "03eb1d23"
+  },
+  {
+    "kellyId": 2100,
+    "examples": [
+      "Stockholm är vår bas."
+    ],
+    "inputHash": "fe9b52cb"
+  },
+  {
+    "kellyId": 2101,
+    "examples": [
+      "Spara filen på datorn."
+    ],
+    "inputHash": "c3aaf958"
+  },
+  {
+    "kellyId": 2137,
+    "examples": [
+      "Hon har ont i ett öra."
+    ],
+    "inputHash": "23765596"
+  },
+  {
+    "kellyId": 2237,
+    "examples": [
+      "Jag betalar vid kassan."
+    ],
+    "inputHash": "42a5cd4a"
+  },
+  {
+    "kellyId": 2440,
+    "examples": [
+      "Skåne är ett landskap i söder."
+    ],
+    "inputHash": "da36dffc"
+  },
+  {
+    "kellyId": 2510,
+    "examples": [
+      "De sparar pengar i en fond."
+    ],
+    "inputHash": "fde03487"
+  },
+  {
+    "kellyId": 2561,
+    "examples": [
+      "Jag måste stryka skjortan innan festen."
+    ],
+    "inputHash": "f9c910aa"
+  },
+  {
+    "kellyId": 2812,
+    "examples": [
+      "Ministern valde att avgå."
+    ],
+    "inputHash": "391cff4e"
+  },
+  {
+    "kellyId": 2870,
+    "examples": [
+      "Hon bar ett halsband runt halsen."
+    ],
+    "inputHash": "576f15b3"
+  },
+  {
+    "kellyId": 2921,
+    "examples": [
+      "Han sparkade bollen i mål."
+    ],
+    "inputHash": "e9e64ccf"
+  },
+  {
+    "kellyId": 2939,
+    "examples": [
+      "Hon bar väskan på axeln."
+    ],
+    "inputHash": "9ee0a6f5"
+  },
+  {
+    "kellyId": 2970,
+    "examples": [
+      "Varorna finns i lagret."
+    ],
+    "inputHash": "77e5ff89"
+  },
+  {
+    "kellyId": 3023,
+    "examples": [
+      "Jag följde ett recept för att baka bröd."
+    ],
+    "inputHash": "39c94bc2"
+  },
+  {
+    "kellyId": 3384,
+    "examples": [
+      "Han har en stark anknytning till Sverige."
+    ],
+    "inputHash": "65317191"
+  },
+  {
+    "kellyId": 3541,
+    "examples": [
+      "Löjrommen är en delikatess i Sverige."
+    ],
+    "inputHash": "e96041b3"
+  },
+  {
+    "kellyId": 3583,
+    "examples": [
+      "Det hänger en tavla på väggen."
+    ],
+    "inputHash": "1761f216"
+  },
+  {
+    "kellyId": 3700,
+    "examples": [
+      "Han fick ont i backen efter lyftet."
+    ],
+    "inputHash": "b3b52142"
+  },
+  {
+    "kellyId": 3955,
+    "examples": [
+      "Hon har en vacker stämma."
+    ],
+    "inputHash": "eefa3b49"
+  },
+  {
+    "kellyId": 3957,
+    "examples": [
+      "Landet antog en deklaration om fred."
+    ],
+    "inputHash": "b1e24ea9"
+  },
+  {
+    "kellyId": 4013,
+    "examples": [
+      "Det uppstod ett bråk på gatan."
+    ],
+    "inputHash": "df1d8e80"
+  },
+  {
+    "kellyId": 4043,
+    "examples": [
+      "Alla måste deklarera sina inkomster varje år."
+    ],
+    "inputHash": "54bbedd5"
+  },
+  {
+    "kellyId": 4175,
+    "examples": [
+      "Priserna är på uppgång."
+    ],
+    "inputHash": "03e07906"
+  },
+  {
+    "kellyId": 4179,
+    "examples": [
+      "Läkaren läste igenom patientens journal."
+    ],
+    "inputHash": "845c5138"
+  },
+  {
+    "kellyId": 4584,
+    "examples": [
+      "Han hängde av sig rocken i hallen."
+    ],
+    "inputHash": "bc74e9d8"
+  },
+  {
+    "kellyId": 4653,
+    "examples": [
+      "Hon stod bakom disken och väntade på kunder."
+    ],
+    "inputHash": "17913e11"
+  },
+  {
+    "kellyId": 4659,
+    "examples": [
+      "Hon surfar ofta på nätet för att hitta recept."
+    ],
+    "inputHash": "21db6998"
+  },
+  {
+    "kellyId": 4821,
+    "examples": [
+      "Asken är ett vanligt träd i svenska skogar."
+    ],
+    "inputHash": "ced1960c"
+  },
+  {
+    "kellyId": 5335,
+    "examples": [
+      "Hon gav barnet en puss på kinden."
+    ],
+    "inputHash": "acb5e95e"
+  },
+  {
+    "kellyId": 5383,
+    "examples": [
+      "De byggde en stor damm i floden."
+    ],
+    "inputHash": "116b8b0a"
+  },
+  {
+    "kellyId": 5458,
+    "examples": [
+      "Hon läste ett magasin om inredning medan hon väntade."
+    ],
+    "inputHash": "8196126b"
+  }
+]

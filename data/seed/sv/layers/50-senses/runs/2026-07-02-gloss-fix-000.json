@@ -1,0 +1,407 @@
+[
+  {
+    "english": "each, every",
+    "senses": [
+      { "gloss": "", "members": [
+        { "kellyId": 267, "meaningKey": 0 },
+        { "kellyId": 4402, "meaningKey": 0 },
+        { "kellyId": 4760, "meaningKey": 0 }
+      ] }
+    ],
+    "inputHash": "d65fe1e8"
+  },
+  {
+    "english": "experience",
+    "senses": [
+      { "gloss": "expertise, know-how", "members": [{ "kellyId": 772, "meaningKey": 0 }] },
+      { "gloss": "go through, live through", "members": [{ "kellyId": 836, "meaningKey": 0 }] },
+      { "gloss": "an event you live through", "members": [{ "kellyId": 1413, "meaningKey": 0 }] }
+    ],
+    "inputHash": "ed3973ff"
+  },
+  {
+    "english": "fold",
+    "senses": [
+      { "gloss": "bend over on itself", "members": [{ "kellyId": 1030, "meaningKey": 0 }] },
+      { "gloss": "a crease, pleat", "members": [{ "kellyId": 7833, "meaningKey": 0 }] }
+    ],
+    "inputHash": "7e6e4fd4"
+  },
+  {
+    "english": "form, shape",
+    "senses": [
+      { "gloss": "outward shape", "members": [{ "kellyId": 465, "meaningKey": 0 }] },
+      { "gloss": "create, establish", "members": [{ "kellyId": 894, "meaningKey": 0 }] },
+      { "gloss": "paper to fill out", "members": [
+        { "kellyId": 6448, "meaningKey": 0 },
+        { "kellyId": 6675, "meaningKey": 0 }
+      ] }
+    ],
+    "inputHash": "b9d3f4f4"
+  },
+  {
+    "english": "help",
+    "senses": [
+      { "gloss": "assist someone", "members": [{ "kellyId": 453, "meaningKey": 0 }] },
+      { "gloss": "assistance", "members": [{ "kellyId": 705, "meaningKey": 0 }] }
+    ],
+    "inputHash": "f9c0445f"
+  },
+  {
+    "english": "hope",
+    "senses": [
+      { "gloss": "wish for, expect", "members": [{ "kellyId": 527, "meaningKey": 0 }] },
+      { "gloss": "the feeling of hope", "members": [
+        { "kellyId": 1503, "meaningKey": 0 },
+        { "kellyId": 2517, "meaningKey": 0 }
+      ] }
+    ],
+    "inputHash": "be7d897d"
+  },
+  {
+    "english": "light; easy",
+    "senses": [
+      { "gloss": "not heavy; simple", "members": [{ "kellyId": 610, "meaningKey": 0 }] },
+      { "gloss": "brightness you see by", "members": [
+        { "kellyId": 1127, "meaningKey": 0 },
+        { "kellyId": 4226, "meaningKey": 0 }
+      ] },
+      { "gloss": "set alight, ignite", "members": [{ "kellyId": 3189, "meaningKey": 0 }] }
+    ],
+    "inputHash": "b771fdc4"
+  },
+  {
+    "english": "look, watch",
+    "senses": [
+      { "gloss": "use your eyes; watch TV", "members": [
+        { "kellyId": 537, "meaningKey": 0 },
+        { "kellyId": 852, "meaningKey": 0 }
+      ] },
+      { "gloss": "a glance, gaze", "members": [{ "kellyId": 1843, "meaningKey": 0 }] },
+      { "gloss": "a check, keeping tabs", "members": [{ "kellyId": 2219, "meaningKey": 0 }] },
+      { "gloss": "a quick peek", "members": [{ "kellyId": 3921, "meaningKey": 0 }] },
+      { "gloss": "expression on a face", "members": [{ "kellyId": 7709, "meaningKey": 0 }] }
+    ],
+    "inputHash": "ac097767"
+  },
+  {
+    "english": "love",
+    "senses": [
+      { "gloss": "feel love for", "members": [{ "kellyId": 822, "meaningKey": 0 }] },
+      { "gloss": "the feeling of love", "members": [{ "kellyId": 842, "meaningKey": 0 }] }
+    ],
+    "inputHash": "5790af62"
+  },
+  {
+    "english": "of course, you know, after all",
+    "senses": [
+      { "gloss": "as you know (in a sentence)", "members": [{ "kellyId": 2660, "meaningKey": 0 }] },
+      { "gloss": "certainly, naturally", "members": [
+        { "kellyId": 580, "meaningKey": 0 },
+        { "kellyId": 820, "meaningKey": 0 },
+        { "kellyId": 924, "meaningKey": 0 },
+        { "kellyId": 1238, "meaningKey": 0 },
+        { "kellyId": 2300, "meaningKey": 0 },
+        { "kellyId": 3253, "meaningKey": 0 }
+      ] }
+    ],
+    "inputHash": "c4a8ac1c"
+  },
+  {
+    "english": "plan",
+    "senses": [
+      { "gloss": "a scheme, layout", "members": [{ "kellyId": 807, "meaningKey": 0 }] },
+      { "gloss": "work out in advance", "members": [
+        { "kellyId": 1246, "meaningKey": 0 },
+        { "kellyId": 7986, "meaningKey": 0 }
+      ] }
+    ],
+    "inputHash": "f5f1a4f6"
+  },
+  {
+    "english": "plant",
+    "senses": [
+      { "gloss": "a growing plant", "members": [{ "kellyId": 911, "meaningKey": 0 }] },
+      { "gloss": "put in the ground", "members": [{ "kellyId": 5515, "meaningKey": 0 }] },
+      { "gloss": "a young seedling", "members": [{ "kellyId": 6443, "meaningKey": 0 }] }
+    ],
+    "inputHash": "6dc57e8e"
+  },
+  {
+    "english": "requirement, demand",
+    "senses": [
+      { "gloss": "something required", "members": [{ "kellyId": 477, "meaningKey": 0 }] },
+      { "gloss": "a formal motion, claim", "members": [{ "kellyId": 1628, "meaningKey": 0 }] },
+      { "gloss": "a decree, order", "members": [{ "kellyId": 6781, "meaningKey": 0 }] }
+    ],
+    "inputHash": "2a04899c"
+  },
+  {
+    "english": "share, divide",
+    "senses": [
+      { "gloss": "split up, have in common", "members": [{ "kellyId": 515, "meaningKey": 0 }] },
+      { "gloss": "a portion, proportion", "members": [{ "kellyId": 1060, "meaningKey": 0 }] },
+      { "gloss": "stock, equity", "members": [{ "kellyId": 2109, "meaningKey": 0 }] }
+    ],
+    "inputHash": "4f7fff37"
+  },
+  {
+    "english": "visit",
+    "senses": [
+      { "gloss": "go and see someone", "members": [{ "kellyId": 1032, "meaningKey": 0 }] },
+      { "gloss": "a social call", "members": [{ "kellyId": 1061, "meaningKey": 0 }] }
+    ],
+    "inputHash": "d784e3ec"
+  },
+  {
+    "english": "wait",
+    "senses": [
+      { "gloss": "stay until something happens", "members": [{ "kellyId": 474, "meaningKey": 0 }] },
+      { "gloss": "the waiting period", "members": [{ "kellyId": 3063, "meaningKey": 0 }] }
+    ],
+    "inputHash": "11526b41"
+  },
+  {
+    "english": "win, defeat",
+    "senses": [
+      { "gloss": "come out on top", "members": [
+        { "kellyId": 471, "meaningKey": 0 },
+        { "kellyId": 3240, "meaningKey": 0 }
+      ] },
+      { "gloss": "a victory, winnings", "members": [{ "kellyId": 1352, "meaningKey": 0 }] }
+    ],
+    "inputHash": "6279a004"
+  },
+  {
+    "english": "wish",
+    "senses": [
+      { "gloss": "want, desire", "members": [{ "kellyId": 923, "meaningKey": 0 }] },
+      { "gloss": "a desire, longing", "members": [{ "kellyId": 2809, "meaningKey": 0 }] }
+    ],
+    "inputHash": "5bb1649d"
+  },
+  {
+    "english": "cut",
+    "senses": [
+      { "gloss": "an incision, cross-section", "members": [{ "kellyId": 1926, "meaningKey": 0 }] },
+      { "gloss": "slice with a knife", "members": [{ "kellyId": 2483, "meaningKey": 0 }] },
+      { "gloss": "cut with scissors", "members": [{ "kellyId": 2918, "meaningKey": 0 }] },
+      { "gloss": "a snip, clip", "members": [{ "kellyId": 3736, "meaningKey": 0 }] }
+    ],
+    "inputHash": "998a03c9"
+  },
+  {
+    "english": "dance",
+    "senses": [
+      { "gloss": "move to music", "members": [{ "kellyId": 2673, "meaningKey": 0 }] },
+      { "gloss": "a dance event", "members": [{ "kellyId": 2736, "meaningKey": 0 }] }
+    ],
+    "inputHash": "4b772726"
+  },
+  {
+    "english": "fish",
+    "senses": [
+      { "gloss": "the animal", "members": [{ "kellyId": 1701, "meaningKey": 0 }] },
+      { "gloss": "catch fish", "members": [{ "kellyId": 4924, "meaningKey": 0 }] }
+    ],
+    "inputHash": "5644540c"
+  },
+  {
+    "english": "fly",
+    "senses": [
+      { "gloss": "move through the air", "members": [{ "kellyId": 1746, "meaningKey": 0 }] },
+      { "gloss": "the insect", "members": [{ "kellyId": 5567, "meaningKey": 0 }] }
+    ],
+    "inputHash": "b5e01d4b"
+  },
+  {
+    "english": "guarantee",
+    "senses": [
+      { "gloss": "promise, assure", "members": [{ "kellyId": 1840, "meaningKey": 0 }] },
+      { "gloss": "a warranty", "members": [{ "kellyId": 2747, "meaningKey": 0 }] }
+    ],
+    "inputHash": "741b6a4c"
+  },
+  {
+    "english": "guess",
+    "senses": [
+      { "gloss": "take a stab at it", "members": [{ "kellyId": 2163, "meaningKey": 0 }] },
+      { "gloss": "a hunch", "members": [{ "kellyId": 5184, "meaningKey": 0 }] }
+    ],
+    "inputHash": "a52de654"
+  },
+  {
+    "english": "hate",
+    "senses": [
+      { "gloss": "detest, loathe", "members": [{ "kellyId": 2162, "meaningKey": 0 }] },
+      { "gloss": "the feeling of hatred", "members": [{ "kellyId": 2197, "meaningKey": 0 }] }
+    ],
+    "inputHash": "6f0251ef"
+  },
+  {
+    "english": "measure",
+    "senses": [
+      { "gloss": "find the size of", "members": [{ "kellyId": 2016, "meaningKey": 0 }] },
+      { "gloss": "a dimension, unit", "members": [{ "kellyId": 2293, "meaningKey": 0 }] }
+    ],
+    "inputHash": "86eb4814"
+  },
+  {
+    "english": "protest",
+    "senses": [
+      { "gloss": "an objection, demonstration", "members": [{ "kellyId": 2157, "meaningKey": 0 }] },
+      { "gloss": "object, speak out", "members": [{ "kellyId": 2539, "meaningKey": 0 }] }
+    ],
+    "inputHash": "3b2df41a"
+  },
+  {
+    "english": "rape",
+    "senses": [
+      { "gloss": "the crime", "members": [{ "kellyId": 2624, "meaningKey": 0 }] },
+      { "gloss": "commit the act", "members": [{ "kellyId": 4832, "meaningKey": 0 }] }
+    ],
+    "inputHash": "6f1b07f9"
+  },
+  {
+    "english": "roll",
+    "senses": [
+      { "gloss": "turn over and over", "members": [{ "kellyId": 2204, "meaningKey": 0 }] },
+      { "gloss": "a reel, wrapped cylinder", "members": [{ "kellyId": 7058, "meaningKey": 0 }] }
+    ],
+    "inputHash": "0e1b74a8"
+  },
+  {
+    "english": "signal",
+    "senses": [
+      { "gloss": "a sign, cue", "members": [{ "kellyId": 2287, "meaningKey": 0 }] },
+      { "gloss": "give a sign", "members": [{ "kellyId": 6161, "meaningKey": 0 }] }
+    ],
+    "inputHash": "7529a0a9"
+  },
+  {
+    "english": "snow",
+    "senses": [
+      { "gloss": "the white stuff", "members": [{ "kellyId": 1919, "meaningKey": 0 }] },
+      { "gloss": "snow is falling", "members": [{ "kellyId": 5911, "meaningKey": 0 }] }
+    ],
+    "inputHash": "34a02287"
+  },
+  {
+    "english": "torture",
+    "senses": [
+      { "gloss": "the cruelty inflicted", "members": [{ "kellyId": 3499, "meaningKey": 0 }] },
+      { "gloss": "inflict pain on", "members": [{ "kellyId": 5976, "meaningKey": 0 }] }
+    ],
+    "inputHash": "68edfa7a"
+  },
+  {
+    "english": "ache",
+    "senses": [
+      { "gloss": "dull, lasting pain", "members": [{ "kellyId": 5260, "meaningKey": 0 }] },
+      { "gloss": "hurt, throb", "members": [{ "kellyId": 7283, "meaningKey": 0 }] }
+    ],
+    "inputHash": "32b057a7"
+  },
+  {
+    "english": "flood",
+    "senses": [
+      { "gloss": "rising water disaster", "members": [{ "kellyId": 5409, "meaningKey": 0 }] },
+      { "gloss": "swamp with water", "members": [{ "kellyId": 7609, "meaningKey": 0 }] }
+    ],
+    "inputHash": "09b6082d"
+  },
+  {
+    "english": "pump",
+    "senses": [
+      { "gloss": "force fluid or air", "members": [{ "kellyId": 5351, "meaningKey": 0 }] },
+      { "gloss": "the device", "members": [{ "kellyId": 6564, "meaningKey": 0 }] }
+    ],
+    "inputHash": "d318c879"
+  },
+  {
+    "english": "shower",
+    "senses": [
+      { "gloss": "the bathroom fixture", "members": [{ "kellyId": 4829, "meaningKey": 0 }] },
+      { "gloss": "wash under water", "members": [{ "kellyId": 5811, "meaningKey": 0 }] }
+    ],
+    "inputHash": "d1e0ffc7"
+  },
+  {
+    "english": "sigh",
+    "senses": [
+      { "gloss": "a weary breath", "members": [{ "kellyId": 4841, "meaningKey": 0 }] },
+      { "gloss": "breathe out wearily", "members": [{ "kellyId": 6136, "meaningKey": 0 }] }
+    ],
+    "inputHash": "42e489d8"
+  },
+  {
+    "english": "weave",
+    "senses": [
+      { "gloss": "interlace threads", "members": [{ "kellyId": 5189, "meaningKey": 0 }] },
+      { "gloss": "woven fabric", "members": [{ "kellyId": 7608, "meaningKey": 0 }] }
+    ],
+    "inputHash": "c3a29041"
+  },
+  {
+    "english": "worship",
+    "senses": [
+      { "gloss": "adore, revere", "members": [
+        { "kellyId": 5612, "meaningKey": 0 },
+        { "kellyId": 6293, "meaningKey": 0 }
+      ] },
+      { "gloss": "adoration, reverence", "members": [{ "kellyId": 8376, "meaningKey": 0 }] }
+    ],
+    "inputHash": "0aa28109"
+  },
+  {
+    "english": "arrest",
+    "senses": [
+      { "gloss": "take into custody", "members": [{ "kellyId": 5634, "meaningKey": 0 }] },
+      { "gloss": "the act of arresting", "members": [{ "kellyId": 7509, "meaningKey": 0 }] }
+    ],
+    "inputHash": "f7ac1ff8"
+  },
+  {
+    "english": "delay",
+    "senses": [
+      { "gloss": "a hold-up, lateness", "members": [
+        { "kellyId": 5889, "meaningKey": 0 },
+        { "kellyId": 6547, "meaningKey": 0 }
+      ] },
+      { "gloss": "hold up, make late", "members": [{ "kellyId": 7019, "meaningKey": 0 }] }
+    ],
+    "inputHash": "2db46851"
+  },
+  {
+    "english": "sponsor",
+    "senses": [
+      { "gloss": "fund, back", "members": [{ "kellyId": 5708, "meaningKey": 0 }] },
+      { "gloss": "a backer, patron", "members": [{ "kellyId": 6313, "meaningKey": 0 }] }
+    ],
+    "inputHash": "07ddfbc6"
+  },
+  {
+    "english": "upgrade",
+    "senses": [
+      { "gloss": "improve, level up", "members": [{ "kellyId": 5907, "meaningKey": 0 }] },
+      { "gloss": "an improvement", "members": [{ "kellyId": 6403, "meaningKey": 0 }] }
+    ],
+    "inputHash": "ed77fd2b"
+  },
+  {
+    "english": "whisper",
+    "senses": [
+      { "gloss": "speak very softly", "members": [{ "kellyId": 5774, "meaningKey": 0 }] },
+      { "gloss": "a hushed voice", "members": [{ "kellyId": 7969, "meaningKey": 0 }] }
+    ],
+    "inputHash": "d8e157f0"
+  },
+  {
+    "english": "escort",
+    "senses": [
+      { "gloss": "accompany, guide", "members": [{ "kellyId": 7856, "meaningKey": 0 }] },
+      { "gloss": "an accompanying guard", "members": [{ "kellyId": 7942, "meaningKey": 0 }] }
+    ],
+    "inputHash": "92a26874"
+  }
+]

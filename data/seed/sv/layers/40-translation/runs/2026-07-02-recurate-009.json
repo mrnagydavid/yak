@@ -1,0 +1,1022 @@
+[
+  {
+    "kellyId": 1830,
+    "decision": "fix",
+    "reason": "stripped main; kept the distinct 'navigate past' sense",
+    "translation": "round off, make round",
+    "senses": [
+      "go around, pass (navigate past something)"
+    ],
+    "inputHash": "aeab1984"
+  },
+  {
+    "kellyId": 1807,
+    "decision": "fix",
+    "reason": "kept distinct ridge/rear senses beyond 'back'",
+    "translation": "back",
+    "senses": [
+      "ridge (where two slopes meet)",
+      "spine (of a book)"
+    ],
+    "inputHash": "bb27bcd6"
+  },
+  {
+    "kellyId": 2663,
+    "decision": "fix",
+    "reason": "stripped main; kept idiomatic 'go up in smoke'",
+    "translation": "emit smoke, smoke",
+    "senses": [
+      "go up in smoke (be lost or ruined)"
+    ],
+    "inputHash": "9a6d0b29"
+  },
+  {
+    "kellyId": 1495,
+    "decision": "fix",
+    "reason": "kept distinct 'careful/protective' sense",
+    "translation": "afraid, scared",
+    "senses": [
+      "careful, protective (of something)"
+    ],
+    "inputHash": "4cae59d3"
+  },
+  {
+    "kellyId": 2116,
+    "decision": "fix",
+    "reason": "stripped main bill/invoice; kept counting and calculation",
+    "translation": "bill, invoice",
+    "senses": [
+      "counting, tally",
+      "calculation, arithmetic"
+    ],
+    "inputHash": "862257f0"
+  },
+  {
+    "kellyId": 2526,
+    "decision": "fix",
+    "reason": "stripped main; kept reveal and slang party senses",
+    "translation": "clear, remove obstacles",
+    "senses": [
+      "reveal, disclose (a secret)",
+      "go wild, party hard (slang)"
+    ],
+    "inputHash": "8a23609e"
+  },
+  {
+    "kellyId": 2472,
+    "decision": "fix",
+    "reason": "kept broader story sense; saga merely restates the word",
+    "translation": "fairy tale",
+    "senses": [
+      "story, tale (more generally)"
+    ],
+    "inputHash": "7244aac2"
+  },
+  {
+    "kellyId": 1873,
+    "decision": "fix",
+    "reason": "kept distinct communication/liaison sense",
+    "translation": "connection, relation, link",
+    "senses": [
+      "communication, liaison"
+    ],
+    "inputHash": "d1b40909"
+  },
+  {
+    "kellyId": 1561,
+    "decision": "fix",
+    "reason": "stripped main stage; kept the scene senses",
+    "translation": "stage",
+    "senses": [
+      "scene (in a film or play)",
+      "scene (angry public display)"
+    ],
+    "inputHash": "9d5665de"
+  },
+  {
+    "kellyId": 1857,
+    "decision": "fix",
+    "reason": "kept distinct angular-measure and 'moment' senses",
+    "translation": "second",
+    "senses": [
+      "second (unit of angular measure)",
+      "moment, instant (short time)"
+    ],
+    "inputHash": "6054b143"
+  },
+  {
+    "kellyId": 2388,
+    "decision": "fix",
+    "reason": "kept distinct 'seminary' sense",
+    "translation": "seminar",
+    "senses": [
+      "seminary (school for priests or teachers)"
+    ],
+    "inputHash": "d001e33b"
+  },
+  {
+    "kellyId": 2348,
+    "decision": "fix",
+    "reason": "kept distinct maintenance/servicing sense",
+    "translation": "service",
+    "senses": [
+      "maintenance, servicing"
+    ],
+    "inputHash": "e86086e3"
+  },
+  {
+    "kellyId": 2694,
+    "decision": "fix",
+    "reason": "kept the figurative domain/field sense; shape restates main",
+    "translation": "sphere",
+    "senses": [
+      "sphere (domain, field)"
+    ],
+    "inputHash": "180867b0"
+  },
+  {
+    "kellyId": 1565,
+    "decision": "fix",
+    "reason": "stripped main; kept firearm-sight and aim/goal senses",
+    "translation": "sight",
+    "senses": [
+      "sight (on a firearm)",
+      "aim, goal"
+    ],
+    "inputHash": "c6ac08f1"
+  },
+  {
+    "kellyId": 2370,
+    "decision": "fix",
+    "reason": "kept distinct mind and flair senses",
+    "translation": "sense",
+    "senses": [
+      "mind",
+      "feel, flair (for something)"
+    ],
+    "inputHash": "5f08a731"
+  },
+  {
+    "kellyId": 1771,
+    "decision": "fix",
+    "reason": "kept distinct lower/decrease and collapse senses",
+    "translation": "sink",
+    "senses": [
+      "fall, drop, decrease",
+      "collapse, slump (of a person)"
+    ],
+    "inputHash": "a9a59122"
+  },
+  {
+    "kellyId": 2700,
+    "decision": "fix",
+    "reason": "kept distinct musical-scale sense",
+    "translation": "scale",
+    "senses": [
+      "scale (musical)"
+    ],
+    "inputHash": "8f99ac1c"
+  },
+  {
+    "kellyId": 1911,
+    "decision": "fix",
+    "reason": "stripped main; kept treasure and pay-tax senses",
+    "translation": "estimate, assess",
+    "senses": [
+      "value, treasure, cherish",
+      "pay tax"
+    ],
+    "inputHash": "bbe7562b"
+  },
+  {
+    "kellyId": 2762,
+    "decision": "fix",
+    "reason": "kept distinct architectural 'nave' sense",
+    "translation": "ship",
+    "senses": [
+      "nave (central hall of a church)"
+    ],
+    "inputHash": "6bfb14f0"
+  },
+  {
+    "kellyId": 1716,
+    "decision": "fix",
+    "reason": "kept figurative 'something bad' sense; excrement restates main",
+    "translation": "shit",
+    "senses": [
+      "crap, junk (something bad or worthless)"
+    ],
+    "inputHash": "d7345c1f"
+  },
+  {
+    "kellyId": 2233,
+    "decision": "fix",
+    "reason": "kept distinct fitting/shoe-on-a-tool sense",
+    "translation": "shoe",
+    "senses": [
+      "lining, fitting (on a tool or hoof)"
+    ],
+    "inputHash": "8f0548e8"
+  },
+  {
+    "kellyId": 1627,
+    "decision": "fix",
+    "reason": "kept distinct written-exam sense",
+    "translation": "writing",
+    "senses": [
+      "written exam"
+    ],
+    "inputHash": "89d4e888"
+  },
+  {
+    "kellyId": 2779,
+    "decision": "fix",
+    "reason": "kept the 'tail/follower' sense; shade restates main",
+    "translation": "shadow",
+    "senses": [
+      "tail, follower (someone shadowing you)"
+    ],
+    "inputHash": "8066ad11"
+  },
+  {
+    "kellyId": 1572,
+    "decision": "fix",
+    "reason": "kept distinct owed/indebted sense",
+    "translation": "guilty",
+    "senses": [
+      "owed, due, indebted"
+    ],
+    "inputHash": "06699505"
+  },
+  {
+    "kellyId": 2273,
+    "decision": "fix",
+    "reason": "stripped main; kept archaic 'owe' sense",
+    "translation": "blame",
+    "senses": [
+      "owe (archaic)"
+    ],
+    "inputHash": "6ea128a2"
+  },
+  {
+    "kellyId": 2585,
+    "decision": "fix",
+    "reason": "kept distinct pamper and embarrass phrasal senses",
+    "translation": "spoil, ruin",
+    "senses": [
+      "pamper, spoil someone (skämma bort)",
+      "embarrass (skämma ut)"
+    ],
+    "inputHash": "8fd35ceb"
+  },
+  {
+    "kellyId": 2483,
+    "decision": "fix",
+    "reason": "stripped main; kept accidental-cut and budget-cut senses",
+    "translation": "cut",
+    "senses": [
+      "cut oneself (accidentally)",
+      "cut, reduce (a budget)"
+    ],
+    "inputHash": "fe7803cf"
+  },
+  {
+    "kellyId": 2720,
+    "decision": "fix",
+    "reason": "kept distinct grab/tear and toil senses",
+    "translation": "wear",
+    "senses": [
+      "grab, tear (pull forcefully)",
+      "toil, work hard"
+    ],
+    "inputHash": "b8a279d6"
+  },
+  {
+    "kellyId": 2638,
+    "decision": "fix",
+    "reason": "kept manor/château sense as a distinct shade",
+    "translation": "castle, palace",
+    "senses": [
+      "manor, château (large grand estate)"
+    ],
+    "inputHash": "7dd9b30d"
+  },
+  {
+    "kellyId": 1707,
+    "decision": "fix",
+    "reason": "kept distinct run-out, end, and exhausted senses",
+    "translation": "over, finished",
+    "senses": [
+      "run out, sold out, gone",
+      "end",
+      "exhausted, worn out"
+    ],
+    "inputHash": "78644881"
+  },
+  {
+    "kellyId": 1971,
+    "decision": "fix",
+    "reason": "kept distinct discard, throw-oneself, and swing senses",
+    "translation": "throw, sling, toss",
+    "senses": [
+      "throw away, discard",
+      "throw oneself",
+      "swing, flail"
+    ],
+    "inputHash": "f0dc6437"
+  },
+  {
+    "kellyId": 2425,
+    "decision": "fix",
+    "reason": "kept the sense-of-taste and preference senses; flavor restates main",
+    "translation": "taste",
+    "senses": [
+      "taste (the sense)",
+      "taste (preference, style)"
+    ],
+    "inputHash": "885665a9"
+  },
+  {
+    "kellyId": 2786,
+    "decision": "fix",
+    "reason": "kept the intransitive 'have a flavor' sense",
+    "translation": "taste",
+    "senses": [
+      "taste, have a flavor (of something)"
+    ],
+    "inputHash": "47c65f07"
+  },
+  {
+    "kellyId": 2776,
+    "decision": "fix",
+    "reason": "kept the slim/slender-of-a-person sense",
+    "translation": "narrow",
+    "senses": [
+      "slim, slender (of a person)"
+    ],
+    "inputHash": "a8a03737"
+  },
+  {
+    "kellyId": 2209,
+    "decision": "fix",
+    "reason": "kept distinct boast and snitch senses",
+    "translation": "talk",
+    "senses": [
+      "boast, brag",
+      "rat, snitch (reveal secrets)"
+    ],
+    "inputHash": "bde2f678"
+  },
+  {
+    "kellyId": 1566,
+    "decision": "fix",
+    "reason": "kept the neat/tidy sense",
+    "translation": "good-looking",
+    "senses": [
+      "neat, tidy (clean and orderly)"
+    ],
+    "inputHash": "4a85196f"
+  },
+  {
+    "kellyId": 1748,
+    "decision": "fix",
+    "reason": "kept the well-behaved sense",
+    "translation": "kind, nice",
+    "senses": [
+      "well-behaved, obedient"
+    ],
+    "inputHash": "b25815a2"
+  },
+  {
+    "kellyId": 1919,
+    "decision": "fix",
+    "reason": "kept distinct TV-static and cocaine slang senses",
+    "translation": "snow",
+    "senses": [
+      "static, snow (TV noise)",
+      "snow (cocaine, slang)"
+    ],
+    "inputHash": "fd3b40fd"
+  },
+  {
+    "kellyId": 2513,
+    "decision": "fix",
+    "reason": "kept the 'go numb' sense",
+    "translation": "fall asleep",
+    "senses": [
+      "go numb (of a limb)"
+    ],
+    "inputHash": "1ecf4e89"
+  },
+  {
+    "kellyId": 2371,
+    "decision": "fix",
+    "reason": "second item merely restates main; no distinct sense",
+    "translation": "sorrow, sadness",
+    "senses": [],
+    "inputHash": "e4543738"
+  },
+  {
+    "kellyId": 2001,
+    "decision": "fix",
+    "reason": "both items restate the main; no distinct sense",
+    "translation": "sport",
+    "senses": [],
+    "uncountable": true,
+    "inputHash": "a9f0e851"
+  },
+  {
+    "kellyId": 2258,
+    "decision": "fix",
+    "reason": "kept distinct council-of-state and honorary-title senses",
+    "translation": "minister",
+    "senses": [
+      "council of state (Swedish/Finnish cabinet)",
+      "councillor of state (honorary title)"
+    ],
+    "inputHash": "304a4e01"
+  },
+  {
+    "kellyId": 2577,
+    "decision": "fix",
+    "reason": "kept the material sense; object restates main",
+    "translation": "stone",
+    "senses": [
+      "stone (material)"
+    ],
+    "inputHash": "7e9732fd"
+  },
+  {
+    "kellyId": 2536,
+    "decision": "fix",
+    "reason": "kept the joking 'borrow' sense",
+    "translation": "steal",
+    "senses": [
+      "borrow (informal, joking)"
+    ],
+    "inputHash": "067b056b"
+  },
+  {
+    "kellyId": 1960,
+    "decision": "fix",
+    "reason": "kept famous-person and shape senses; celestial restates main",
+    "translation": "star",
+    "senses": [
+      "star (famous person)",
+      "star (shape or marking)"
+    ],
+    "inputHash": "e9b660db"
+  },
+  {
+    "kellyId": 2367,
+    "decision": "fix",
+    "reason": "kept distinct darn and pipe-fill senses",
+    "translation": "stop",
+    "senses": [
+      "darn (repaired hole in a sock)",
+      "fill (of tobacco in a pipe)"
+    ],
+    "inputHash": "1f0cd89a"
+  },
+  {
+    "kellyId": 1800,
+    "decision": "fix",
+    "reason": "kept the legal 'sentence' sense",
+    "translation": "punishment, penalty",
+    "senses": [
+      "sentence (in law)"
+    ],
+    "inputHash": "afcc141a"
+  },
+  {
+    "kellyId": 1993,
+    "decision": "fix",
+    "reason": "kept the shore sense as a distinct shade",
+    "translation": "beach",
+    "senses": [
+      "shore"
+    ],
+    "inputHash": "423a9ad2"
+  },
+  {
+    "kellyId": 2271,
+    "decision": "fix",
+    "reason": "kept the 'conflict with/go against' sense",
+    "translation": "battle",
+    "senses": [
+      "go against, conflict with"
+    ],
+    "inputHash": "7a7b8db7"
+  },
+  {
+    "kellyId": 1418,
+    "decision": "fix",
+    "reason": "kept the muscle-strain sense",
+    "translation": "route",
+    "senses": [
+      "strain (muscle injury)"
+    ],
+    "inputHash": "9e05403e"
+  },
+  {
+    "kellyId": 2308,
+    "decision": "fix",
+    "reason": "kept distinct mood and legal-subpoena senses",
+    "translation": "ambiance",
+    "senses": [
+      "mood (mental state)",
+      "subpoena, summons (legal)"
+    ],
+    "inputHash": "2a61bfb0"
+  },
+  {
+    "kellyId": 2050,
+    "decision": "fix",
+    "reason": "kept the push-away/repel sense",
+    "translation": "bump, knock",
+    "senses": [
+      "push away, repel; offend"
+    ],
+    "inputHash": "c048b14a"
+  },
+  {
+    "kellyId": 1977,
+    "decision": "fix",
+    "reason": "second item merely narrows main to money; no distinct sense",
+    "translation": "sum, total",
+    "senses": [],
+    "inputHash": "b0b0dad2"
+  },
+  {
+    "kellyId": 1844,
+    "decision": "fix",
+    "reason": "kept the 'female Swede' sense distinct from the language",
+    "translation": "Swedish",
+    "senses": [
+      "Swedish woman"
+    ],
+    "inputHash": "576c4969"
+  },
+  {
+    "kellyId": 1455,
+    "decision": "fix",
+    "reason": "kept the 'refer to' sense; literal aim is rare/marginal",
+    "translation": "aim, intend",
+    "senses": [
+      "refer to, allude to"
+    ],
+    "inputHash": "94aa5746"
+  },
+  {
+    "kellyId": 2245,
+    "decision": "fix",
+    "reason": "kept the poker 'call' sense",
+    "translation": "inspect, scrutinize",
+    "senses": [
+      "call (in poker)"
+    ],
+    "inputHash": "538ff302"
+  },
+  {
+    "kellyId": 1929,
+    "decision": "fix",
+    "reason": "kept hobby and employment-rate senses; profession restates main",
+    "translation": "occupation, job",
+    "senses": [
+      "hobby, pastime",
+      "employment (level of, vs. unemployment)"
+    ],
+    "inputHash": "38deea9d"
+  },
+  {
+    "kellyId": 1642,
+    "decision": "fix",
+    "reason": "kept distinct nurse and nun senses",
+    "translation": "sister",
+    "senses": [
+      "nurse (esp. as a form of address)",
+      "nun, sister (religious)"
+    ],
+    "inputHash": "da0860e2"
+  },
+  {
+    "kellyId": 1868,
+    "decision": "fix",
+    "reason": "both items restate the main singing/song; no distinct sense",
+    "translation": "singing, song",
+    "senses": [],
+    "inputHash": "ec9009da"
+  },
+  {
+    "kellyId": 2144,
+    "decision": "fix",
+    "reason": "kept distinct firearm-safety and fuse senses",
+    "translation": "secure, guarantee",
+    "senses": [
+      "put on safety (a firearm)",
+      "fit a fuse (electrical)"
+    ],
+    "inputHash": "9a0a902d"
+  },
+  {
+    "kellyId": 2020,
+    "decision": "fix",
+    "reason": "kept distinct society/club and party/group senses",
+    "translation": "company, companionship",
+    "senses": [
+      "society, association, club",
+      "party, group (of people)"
+    ],
+    "inputHash": "e9dc5aad"
+  },
+  {
+    "kellyId": 2753,
+    "decision": "fix",
+    "reason": "kept the 'rewarding' sense",
+    "translation": "grateful",
+    "senses": [
+      "rewarding (giving results with little effort)"
+    ],
+    "inputHash": "70fad9f5"
+  },
+  {
+    "kellyId": 1799,
+    "decision": "fix",
+    "reason": "kept the ceiling sense",
+    "translation": "roof",
+    "senses": [
+      "ceiling"
+    ],
+    "inputHash": "380d7d16"
+  },
+  {
+    "kellyId": 2172,
+    "decision": "fix",
+    "reason": "kept the 'speaker of a language' sense",
+    "translation": "speaker",
+    "senses": [
+      "speaker (of a language)"
+    ],
+    "inputHash": "f304ee28"
+  },
+  {
+    "kellyId": 2751,
+    "decision": "fix",
+    "reason": "kept distinct saw-tooth, cog, and prong senses",
+    "translation": "tooth",
+    "senses": [
+      "tooth (on a saw)",
+      "cog (on a gearwheel)",
+      "tine, prong (on a fork or comb)"
+    ],
+    "inputHash": "163df02c"
+  },
+  {
+    "kellyId": 1753,
+    "decision": "fix",
+    "reason": "kept the 'older woman/old lady' sense",
+    "translation": "aunt",
+    "senses": [
+      "older woman, old lady"
+    ],
+    "inputHash": "c9951440"
+  },
+  {
+    "kellyId": 2142,
+    "decision": "fix",
+    "reason": "kept distinct signal/gesture and sign-up senses",
+    "translation": "draw",
+    "senses": [
+      "signal (with hand or gesture)",
+      "sign, sign up, take out (a policy or subscription)"
+    ],
+    "inputHash": "5413f8f5"
+  },
+  {
+    "kellyId": 1705,
+    "decision": "fix",
+    "reason": "both items restate the main phone; no distinct sense",
+    "translation": "phone, telephone",
+    "senses": [],
+    "inputHash": "09ef0a96"
+  },
+  {
+    "kellyId": 2248,
+    "decision": "fix",
+    "reason": "kept the mathematical 'term' sense",
+    "translation": "term",
+    "senses": [
+      "term (operand in addition or subtraction)"
+    ],
+    "inputHash": "c18f5119"
+  },
+  {
+    "kellyId": 2484,
+    "decision": "fix",
+    "reason": "kept the biblical 'testament' sense",
+    "translation": "will",
+    "senses": [
+      "testament (of the Bible)"
+    ],
+    "inputHash": "ab75e5b7"
+  },
+  {
+    "kellyId": 2464,
+    "decision": "fix",
+    "reason": "kept the 'in addition/also' sense",
+    "translation": "another, more",
+    "senses": [
+      "in addition, also"
+    ],
+    "inputHash": "e5c00c28"
+  },
+  {
+    "kellyId": 2210,
+    "decision": "fix",
+    "reason": "'for last/finally' merely restates main; no distinct sense",
+    "translation": "eventually",
+    "senses": [],
+    "inputHash": "dc0de106"
+  },
+  {
+    "kellyId": 2540,
+    "decision": "fix",
+    "reason": "kept the 'be due to someone' sense; 'appear as addition' restates main",
+    "translation": "come about",
+    "senses": [
+      "be due to, be the right of (someone)"
+    ],
+    "inputHash": "47b51226"
+  },
+  {
+    "kellyId": 2749,
+    "decision": "fix",
+    "reason": "kept the 'add ingredients' sense",
+    "translation": "appoint",
+    "senses": [
+      "add (ingredients or components to a mix)"
+    ],
+    "inputHash": "98e8a9e6"
+  },
+  {
+    "kellyId": 2674,
+    "decision": "fix",
+    "reason": "second item merely restates main; no distinct sense",
+    "translation": "addition, appendix, amendment",
+    "senses": [],
+    "inputHash": "f50018f5"
+  },
+  {
+    "kellyId": 1839,
+    "decision": "fix",
+    "reason": "kept implementation and computer-app senses",
+    "translation": "application, use",
+    "senses": [
+      "implementation",
+      "application, app (computer program)"
+    ],
+    "inputHash": "ae918812"
+  },
+  {
+    "kellyId": 2239,
+    "decision": "fix",
+    "reason": "'city court' merely restates the main district court; no distinct sense",
+    "translation": "district court",
+    "senses": [],
+    "inputHash": "5cc19f0b"
+  },
+  {
+    "kellyId": 1557,
+    "decision": "fix",
+    "reason": "kept distinct title-of-a-work and title-of-a-person senses",
+    "translation": "title",
+    "senses": [
+      "title (of a book, film, etc.)",
+      "title (of a person)"
+    ],
+    "inputHash": "0479c346"
+  },
+  {
+    "kellyId": 2165,
+    "decision": "fix",
+    "reason": "kept the white-collar worker sense",
+    "translation": "civil servant, clerk, official",
+    "senses": [
+      "white-collar worker, salaried employee"
+    ],
+    "inputHash": "3f157c54"
+  },
+  {
+    "kellyId": 1640,
+    "decision": "fix",
+    "reason": "kept the artistic rendition sense; text interpretation restates main",
+    "translation": "interpretation",
+    "senses": [
+      "rendition, performance (of music or art)"
+    ],
+    "inputHash": "8c7bc7f5"
+  },
+  {
+    "kellyId": 1980,
+    "decision": "fix",
+    "reason": "kept distinct tint/tone and 'sound' senses",
+    "translation": "slowly emerge",
+    "senses": [
+      "tone, tint (give a shade of color)",
+      "sound, resound (in tones)"
+    ],
+    "inputHash": "3946f3ce"
+  },
+  {
+    "kellyId": 2250,
+    "decision": "fix",
+    "reason": "kept accounting carried-sum and transfer senses",
+    "translation": "transport, transportation",
+    "senses": [
+      "carried sum (accounting)",
+      "transfer, reassignment (to a new post)"
+    ],
+    "inputHash": "6f8989b5"
+  },
+  {
+    "kellyId": 2590,
+    "decision": "fix",
+    "reason": "kept the 'thrive of plants/animals' sense",
+    "translation": "feel at home, enjoy oneself",
+    "senses": [
+      "thrive (of plants or animals)"
+    ],
+    "inputHash": "73a5e04d"
+  },
+  {
+    "kellyId": 1601,
+    "decision": "fix",
+    "reason": "kept the sports team sense; military restates main",
+    "translation": "troop, squad",
+    "senses": [
+      "team, squad (athletes or performers)"
+    ],
+    "inputHash": "7fa8a02c"
+  },
+  {
+    "kellyId": 2368,
+    "decision": "fix",
+    "reason": "kept wire, narrative-thread, and online-thread senses",
+    "translation": "thread",
+    "senses": [
+      "wire (electrical)",
+      "thread, theme (narrative)",
+      "thread (online discussion)"
+    ],
+    "inputHash": "f00649a0"
+  },
+  {
+    "kellyId": 1740,
+    "decision": "fix",
+    "reason": "kept the unpleasant/unfortunate sense",
+    "translation": "boring",
+    "senses": [
+      "unpleasant, sad, unfortunate"
+    ],
+    "inputHash": "cfe57948"
+  },
+  {
+    "kellyId": 1770,
+    "decision": "fix",
+    "reason": "kept come-into-effect, thread, and fallow senses",
+    "translation": "step, enter",
+    "senses": [
+      "come into effect (set phrases)",
+      "thread (beads on a string)",
+      "leave fallow (farmland)"
+    ],
+    "inputHash": "b03da57b"
+  },
+  {
+    "kellyId": 2018,
+    "decision": "fix",
+    "reason": "kept the slang 'cool' sense",
+    "translation": "tough",
+    "senses": [
+      "cool, badass (slang)"
+    ],
+    "inputHash": "0fdd6174"
+  },
+  {
+    "kellyId": 2750,
+    "decision": "fix",
+    "reason": "'doubt' merely restates the main hesitation; no distinct sense",
+    "translation": "hesitation",
+    "senses": [],
+    "inputHash": "59317c8b"
+  },
+  {
+    "kellyId": 1961,
+    "decision": "fix",
+    "reason": "kept military-gear and idiomatic bad-behavior senses",
+    "translation": "cloth, textile, fabric",
+    "senses": [
+      "gear, equipment (military)",
+      "mischief, bad behavior (idiomatic)"
+    ],
+    "inputHash": "a83805c5"
+  },
+  {
+    "kellyId": 2354,
+    "decision": "fix",
+    "reason": "kept the reserved/not-talkative sense; no-sound restates main",
+    "translation": "quiet, silent",
+    "senses": [
+      "quiet, reserved (not talking much)"
+    ],
+    "inputHash": "725affbb"
+  },
+  {
+    "kellyId": 2688,
+    "decision": "fix",
+    "reason": "'pause/moment of silence' merely restates main; no distinct sense",
+    "translation": "silence",
+    "senses": [],
+    "uncountable": true,
+    "inputHash": "df6f9a65"
+  },
+  {
+    "kellyId": 1449,
+    "decision": "fix",
+    "reason": "kept distinct procession and rope senses",
+    "translation": "train",
+    "senses": [
+      "procession, march",
+      "rope, line (thick)"
+    ],
+    "inputHash": "bd9dc6d3"
+  },
+  {
+    "kellyId": 2322,
+    "decision": "fix",
+    "reason": "kept the figurative 'basis/supporting data' sense",
+    "translation": "surface, base, foundation",
+    "senses": [
+      "basis, supporting data (for a decision)"
+    ],
+    "inputHash": "3d542402"
+  },
+  {
+    "kellyId": 2567,
+    "decision": "fix",
+    "reason": "kept the figurative emphasize/stress sense",
+    "translation": "underline, underscore",
+    "senses": [
+      "emphasize, stress (figurative)"
+    ],
+    "inputHash": "929052a6"
+  },
+  {
+    "kellyId": 1921,
+    "decision": "fix",
+    "reason": "kept the broader education/schooling sense",
+    "translation": "teaching, instruction",
+    "senses": [
+      "education, schooling (broader)"
+    ],
+    "inputHash": "c6de1ba8"
+  },
+  {
+    "kellyId": 1653,
+    "decision": "fix",
+    "reason": "kept the 'up, awake' sense; elevated restates main",
+    "translation": "up",
+    "senses": [
+      "up, awake (out of bed)"
+    ],
+    "inputHash": "3753be07"
+  },
+  {
+    "kellyId": 1452,
+    "decision": "fix",
+    "reason": "both items are the same fulfill sense; no distinct sense",
+    "translation": "fulfill",
+    "senses": [],
+    "inputHash": "31aa99f7"
+  },
+  {
+    "kellyId": 2316,
+    "decision": "fix",
+    "reason": "kept the 'join/merge into' sense",
+    "translation": "amount",
+    "senses": [
+      "join, merge (into)"
+    ],
+    "inputHash": "0787b7f6"
+  },
+  {
+    "kellyId": 1833,
+    "decision": "fix",
+    "reason": "kept the 'make aware, draw attention to' sense",
+    "translation": "notice",
+    "senses": [
+      "draw attention to, make aware"
+    ],
+    "inputHash": "a5e0c34e"
+  }
+]

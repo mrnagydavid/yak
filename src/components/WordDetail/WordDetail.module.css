@@ -166,24 +166,19 @@
   font-size: 16px;
 }
 
-.subdefs {
-  list-style: none;
-  counter-reset: sense;
-  font-size: 14px;
+/* Small lead-in above the reference list; only rendered when the list is non-empty. */
+.subdefsLabel {
+  font-size: 13px;
   color: var(--color-text-secondary);
 }
 
-.subdefs li {
-  counter-increment: sense;
-}
-
-.subdefs li::before {
-  content: counter(sense) ') ';
-}
-
-/* A lone meaning needs no "1)" — only number when there are several to tell apart. */
-.subdefs li:only-child::before {
-  content: '';
+/* Reference-only "can also mean" meanings (never practiced) — a plain bulleted list. The
+   primary and any promoted meanings are shown above in Translations, so these never repeat them. */
+.subdefs {
+  list-style: disc;
+  padding-left: 20px;
+  font-size: 14px;
+  color: var(--color-text-secondary);
 }
 
 .examples {
@@ -212,6 +207,18 @@
   flex-direction: column;
   gap: 4px;
   font-size: 15px;
+}
+
+/* "Production" heading above the per-meaning production lines of a multi-meaning word. */
+.progressLabel {
+  color: var(--color-text-secondary);
+  font-size: 13px;
+  margin-top: 2px;
+}
+
+/* One production status line per meaning, indented under the "Production" heading. */
+.progressMeaning {
+  padding-left: 12px;
 }
 
 .muted {

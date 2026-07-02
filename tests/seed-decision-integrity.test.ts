@@ -42,6 +42,9 @@ function writesOf(l: Layer, r: Record<string, unknown>): string[] {
     if (r.proposedSubDefinitions) w.push('subDefinitions')
     if (r.proposedIpa) w.push('ipa')
     if (r.svUncountable) w.push('svUncountable')
+    // A human may also author a meaning split (decision: split → altMeanings + a repartitioned list).
+    if (Array.isArray(r.altMeanings)) w.push('altMeanings')
+    if (r.decision === 'split' && Array.isArray(r.subDefinitions)) w.push('subDefinitions')
     return w
   }
   if (l.kind === 'translation') {
@@ -49,6 +52,12 @@ function writesOf(l: Layer, r: Record<string, unknown>): string[] {
     if (r.translation) w.push('translation')
     if (Array.isArray(r.senses)) w.push('subDefinitions')
     if (r.uncountable) w.push('enUncountable')
+    return w
+  }
+  if (l.kind === 'split') {
+    const w: string[] = []
+    if (Array.isArray(r.altMeanings)) w.push('altMeanings')
+    if (Array.isArray(r.subDefinitions)) w.push('subDefinitions')
     return w
   }
   if (l.kind === 'senses') return ['sense']
@@ -59,16 +68,19 @@ function writesOf(l: Layer, r: Record<string, unknown>): string[] {
 const baseIds = new Set((read(`${SEED_DIR}/base.json`) as { kellyId: number }[]).map((c) => c.kellyId))
 const seedKeys = new Set((read(`${SEED_DIR}/seed-sv.json`) as { entries: { seedKey: number }[] }).entries.map((e) => e.seedKey))
 const decisionLayers = manifest.filter((l) => l.kind === 'decisions')
-const llmLayers = manifest.filter((l) => ['translation', 'senses', 'examples'].includes(l.kind))
+const llmLayers = manifest.filter((l) => ['translation', 'split', 'senses', 'examples'].includes(l.kind))
 
 describe('seed layer inputs are internally consistent', () => {
   it('every layer record references a kellyId present in base.json', () => {
+    // A senses (gloss) member is a bare kellyId (legacy primary-only answers) or {kellyId, meaningKey}
+    // (the §12 expansion, which can point at a promoted altMeaning) — both resolve to a base kellyId.
+    const memberId = (m: number | { kellyId: number }) => (typeof m === 'number' ? m : m.kellyId)
     const orphans: string[] = []
     for (const l of manifest)
       for (const f of layerFiles(l))
-        for (const r of read(`${layerDir(l)}/${f}`) as { kellyId?: number; english?: string; senses?: { members?: number[] }[] }[]) {
+        for (const r of read(`${layerDir(l)}/${f}`) as { kellyId?: number; english?: string; senses?: { members?: (number | { kellyId: number })[] }[] }[]) {
           if (l.kind === 'senses') {
-            for (const s of r.senses ?? []) for (const m of s.members ?? []) if (!baseIds.has(m)) orphans.push(`${l.name}/${f}: member ${m} (${r.english})`)
+            for (const s of r.senses ?? []) for (const m of s.members ?? []) if (!baseIds.has(memberId(m))) orphans.push(`${l.name}/${f}: member ${memberId(m)} (${r.english})`)
           } else if (!baseIds.has(r.kellyId!)) orphans.push(`${l.name}/${f}: id ${r.kellyId}`)
         }
     expect(orphans, `Layer records point at kellyIds absent from base.json (stale after a dump bump?): ${orphans.slice(0, 20).join(', ')}`).toEqual([])
@@ -129,4 +141,23 @@ describe('a clean build has nothing stale', () => {
     }
     expect(stale, `Layers have stale decisions — run \`pnpm seed:stale\` and re-curate the listed words: ${stale.join(', ')}`).toEqual([])
   }, 60_000)
+})
+
+describe('the shipped seed obeys the "other meanings only" policy', () => {
+  it('no subDefinitions list bare-repeats the main or a promoted meaning (audit-subdefs)', () => {
+    // Reference-list analogue of the gloss / token-synonym audits (SEED-PIPELINE-DESIGN.md §4.8):
+    // subDefinitions holds the word's OTHER meanings, so a shipped item that is a BARE
+    // (parenthetical-free) restatement of the main translation or a promoted altMeaning is a policy
+    // violation a future curator re-run or manual edit could quietly reintroduce. Parenthetical-
+    // distinguished senses (`article (grammar)` beside primary `article`) are legitimate and exempt.
+    // The script exits non-zero on any violation but still prints its JSON report either way.
+    let out = ''
+    try {
+      out = execFileSync('node', ['scripts/seed/audit-subdefs.mjs', '--json'], { cwd: repoRoot, encoding: 'utf-8' })
+    } catch (e) {
+      out = (e as { stdout?: string }).stdout ?? ''
+    }
+    const { count, violations } = JSON.parse(out) as { count: number; violations: string[] }
+    expect(count, `subDefinitions items repeating the main/promoted meaning:\n  ${violations.slice(0, 20).join('\n  ')}`).toBe(0)
+  })
 })

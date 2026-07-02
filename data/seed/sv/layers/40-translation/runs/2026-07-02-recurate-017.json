@@ -1,0 +1,1026 @@
+[
+  {
+    "kellyId": 4715,
+    "decision": "fix",
+    "reason": "dropped restatement of main; kept distinct machine-part and conduit senses",
+    "translation": "drum",
+    "senses": [
+      "drum (cylindrical machine part)",
+      "duct, culvert (large conduit or tube)"
+    ],
+    "inputHash": "4eda4b7d"
+  },
+  {
+    "kellyId": 4737,
+    "decision": "fix",
+    "reason": "kept distinct pacifier sense",
+    "translation": "comfort, consolation",
+    "senses": [
+      "pacifier (baby's)"
+    ],
+    "inputHash": "c3425a78"
+  },
+  {
+    "kellyId": 5243,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept sleepiness shade",
+    "translation": "tiredness, fatigue, weariness",
+    "senses": [
+      "sleepiness"
+    ],
+    "uncountable": true,
+    "inputHash": "0fd7b690"
+  },
+  {
+    "kellyId": 5130,
+    "decision": "fix",
+    "reason": "both items restate the main thumb sense (glove part is not a distinct meaning)",
+    "translation": "thumb",
+    "senses": [],
+    "inputHash": "700295d8"
+  },
+  {
+    "kellyId": 4531,
+    "decision": "fix",
+    "reason": "kept distinct shoe-flap and language senses",
+    "translation": "tongue",
+    "senses": [
+      "tongue (shoe flap)",
+      "language, tongue (literary)"
+    ],
+    "inputHash": "1e0ee4e5"
+  },
+  {
+    "kellyId": 4292,
+    "decision": "fix",
+    "reason": "kept concrete weight-object and figurative importance senses",
+    "translation": "weight, heaviness",
+    "senses": [
+      "weight (object for weighing down or training)",
+      "importance (figurative)"
+    ],
+    "inputHash": "724f931f"
+  },
+  {
+    "kellyId": 5320,
+    "decision": "fix",
+    "reason": "kept distinct social-circle sense",
+    "translation": "company, socializing",
+    "senses": [
+      "social circle, acquaintances"
+    ],
+    "inputHash": "cbcd1a27"
+  },
+  {
+    "kellyId": 5525,
+    "decision": "fix",
+    "reason": "kept distinct obviate and legal quash senses",
+    "translation": "clear away",
+    "senses": [
+      "obviate",
+      "set aside, quash (a verdict)"
+    ],
+    "inputHash": "544c9cb9"
+  },
+  {
+    "kellyId": 5588,
+    "decision": "fix",
+    "reason": "dropped nominal restatement; kept distinct secondary sense",
+    "translation": "subordinate",
+    "senses": [
+      "secondary (of lesser importance)"
+    ],
+    "inputHash": "36da219c"
+  },
+  {
+    "kellyId": 5280,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept intelligence sense",
+    "translation": "notification, notice",
+    "senses": [
+      "intelligence (secret information gathering)"
+    ],
+    "inputHash": "a007069c"
+  },
+  {
+    "kellyId": 5099,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept literal up-and-down sense",
+    "translation": "upside down",
+    "senses": [
+      "up and down"
+    ],
+    "inputHash": "d3ea48c2"
+  },
+  {
+    "kellyId": 4479,
+    "decision": "fix",
+    "reason": "kept distinct structure sense",
+    "translation": "construction",
+    "senses": [
+      "structure"
+    ],
+    "inputHash": "4f5201cc"
+  },
+  {
+    "kellyId": 5327,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept pause/break sense",
+    "translation": "stay, visit",
+    "senses": [
+      "pause, break, intermission"
+    ],
+    "inputHash": "da4d26ab"
+  },
+  {
+    "kellyId": 5057,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept distinct verb senses",
+    "translation": "stay",
+    "senses": [
+      "dwell on (a topic)",
+      "maintain, keep up",
+      "delay, stall",
+      "act for, stand in for (temporarily)"
+    ],
+    "inputHash": "fb625a6e"
+  },
+  {
+    "kellyId": 5332,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept performance and construction senses",
+    "translation": "behaviour, conduct",
+    "senses": [
+      "performance (theatrical or public)",
+      "construction, erection (of a building)"
+    ],
+    "inputHash": "5bb4da2f"
+  },
+  {
+    "kellyId": 4524,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept sewing and knitting senses",
+    "translation": "setup, structure, arrangement",
+    "senses": [
+      "tuck (folded edge on fabric)",
+      "casting on (knitting)"
+    ],
+    "inputHash": "8aa3d3d5"
+  },
+  {
+    "kellyId": 4227,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept story-denouement and screen-resolution senses",
+    "translation": "dissolution, disbanding, disintegration",
+    "senses": [
+      "resolution, denouement (of a story)",
+      "resolution (of a screen or image)"
+    ],
+    "inputHash": "5ac739b9"
+  },
+  {
+    "kellyId": 5123,
+    "decision": "fix",
+    "reason": "kept distinct matriculation and appeal senses",
+    "translation": "roll call",
+    "senses": [
+      "matriculation",
+      "appeal (public call to act)"
+    ],
+    "inputHash": "0a033ce4"
+  },
+  {
+    "kellyId": 4337,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept religious resurrection sense",
+    "translation": "stir, commotion",
+    "senses": [
+      "resurrection (religious)"
+    ],
+    "inputHash": "8d502d7b"
+  },
+  {
+    "kellyId": 5584,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept public performance sense",
+    "translation": "behaviour, conduct",
+    "senses": [
+      "performance, appearance (public)"
+    ],
+    "inputHash": "64e7d882"
+  },
+  {
+    "kellyId": 5153,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept fear/discomfort sense",
+    "translation": "ugh, yuck",
+    "senses": [
+      "ooh, oh (fear or discomfort)"
+    ],
+    "inputHash": "1d2ce90b"
+  },
+  {
+    "kellyId": 4535,
+    "decision": "fix",
+    "reason": "cash outflow merely defines the main payment sense",
+    "translation": "payment, disbursement",
+    "senses": [],
+    "inputHash": "3d744c9b"
+  },
+  {
+    "kellyId": 4651,
+    "decision": "fix",
+    "reason": "kept distinct emotional outburst and outbreak senses",
+    "translation": "eruption",
+    "senses": [
+      "outburst (of anger)",
+      "outbreak (of war or disease)"
+    ],
+    "inputHash": "dde3826d"
+  },
+  {
+    "kellyId": 5586,
+    "decision": "fix",
+    "reason": "kept distinct delivery and design/model senses",
+    "translation": "execution, implementation, configuration",
+    "senses": [
+      "delivery",
+      "design, model"
+    ],
+    "inputHash": "9ba3ae9d"
+  },
+  {
+    "kellyId": 4435,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept mark-out and honour senses",
+    "translation": "distinguish",
+    "senses": [
+      "mark out (a path or border)",
+      "honour, single out (with an award)"
+    ],
+    "inputHash": "3a1df14b"
+  },
+  {
+    "kellyId": 5131,
+    "decision": "fix",
+    "reason": "kept distinct meter-reading, court-ruling and golf senses",
+    "translation": "rash",
+    "senses": [
+      "reading, deflection (on a meter or gauge)",
+      "ruling, verdict (from a court or authority)",
+      "tee shot (golf)"
+    ],
+    "inputHash": "282ca26d"
+  },
+  {
+    "kellyId": 4956,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept sports send-off sense",
+    "translation": "expel, deport",
+    "senses": [
+      "send off, eject (from a game)"
+    ],
+    "inputHash": "9cec332b"
+  },
+  {
+    "kellyId": 4747,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept sports ejection sense",
+    "translation": "expulsion, deportation",
+    "senses": [
+      "ejection, sending off (sport)"
+    ],
+    "inputHash": "d6b8d9c8"
+  },
+  {
+    "kellyId": 5526,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept figurative escape/solution sense",
+    "translation": "way out",
+    "senses": [
+      "escape, solution (to a problem)"
+    ],
+    "inputHash": "f5356072"
+  },
+  {
+    "kellyId": 4392,
+    "decision": "fix",
+    "reason": "kept distinct careful and sweet-response senses",
+    "translation": "beautifully",
+    "senses": [
+      "carefully, cautiously",
+      "sweet, nice (as a response to good news)"
+    ],
+    "inputHash": "6a24a58b"
+  },
+  {
+    "kellyId": 4965,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept informal upstart sense",
+    "translation": "puppy",
+    "senses": [
+      "young upstart (informal)"
+    ],
+    "inputHash": "5ccefc0d"
+  },
+  {
+    "kellyId": 5048,
+    "decision": "fix",
+    "reason": "durable merely restates the lasting sense",
+    "translation": "lasting",
+    "senses": [],
+    "inputHash": "bfb5dc18"
+  },
+  {
+    "kellyId": 5415,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept wood-material sense",
+    "translation": "firewood",
+    "senses": [
+      "wood (inner material of a tree)"
+    ],
+    "uncountable": true,
+    "inputHash": "f0422baa"
+  },
+  {
+    "kellyId": 4463,
+    "decision": "fix",
+    "reason": "kept distinct stanza and short-poem senses; stich is too technical",
+    "translation": "verse",
+    "senses": [
+      "stanza (of a poem)",
+      "short poem"
+    ],
+    "inputHash": "30a5a435"
+  },
+  {
+    "kellyId": 5250,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept open-landscape expanse sense",
+    "translation": "width",
+    "senses": [
+      "expanse, plain (open landscape)"
+    ],
+    "inputHash": "23b8fbb9"
+  },
+  {
+    "kellyId": 5597,
+    "decision": "fix",
+    "reason": "kept distinct 'in violation of' sense (vidrig prepositional use)",
+    "translation": "disgusting, repulsive, vile",
+    "senses": [
+      "contrary to, in violation of"
+    ],
+    "inputHash": "f0eadd90"
+  },
+  {
+    "kellyId": 4430,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept devote and ordain senses",
+    "translation": "marry",
+    "senses": [
+      "devote, dedicate (to a purpose)",
+      "ordain (into ministry)"
+    ],
+    "inputHash": "ef234e27"
+  },
+  {
+    "kellyId": 4867,
+    "decision": "fix",
+    "reason": "kept distinct official-capacity sense",
+    "translation": "on someone's behalf",
+    "senses": [
+      "by virtue of one's office, in the line of duty"
+    ],
+    "inputHash": "3321841a"
+  },
+  {
+    "kellyId": 5107,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept road-roller flatten sense",
+    "translation": "tip over, topple",
+    "senses": [
+      "flatten with a roller (road or agricultural)"
+    ],
+    "inputHash": "2b5bea30"
+  },
+  {
+    "kellyId": 5260,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept childbirth contraction sense",
+    "translation": "ache",
+    "senses": [
+      "labour contraction (childbirth)"
+    ],
+    "inputHash": "06d5e489"
+  },
+  {
+    "kellyId": 4229,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept currency-exchange and train/call switch senses",
+    "translation": "switch, change",
+    "senses": [
+      "exchange (money)",
+      "switch (a train or phone call)"
+    ],
+    "inputHash": "23696ecb"
+  },
+  {
+    "kellyId": 4667,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept withdraw and resume senses",
+    "translation": "take back, regain, reclaim",
+    "senses": [
+      "withdraw, retract (a statement or document)",
+      "resume"
+    ],
+    "inputHash": "da7c1252"
+  },
+  {
+    "kellyId": 4990,
+    "decision": "fix",
+    "reason": "'moose as food' merely restates the animal sense",
+    "translation": "moose, elk",
+    "senses": [],
+    "inputHash": "379136d7"
+  },
+  {
+    "kellyId": 5019,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept chess-opening sense",
+    "translation": "opening",
+    "senses": [
+      "opening (chess)"
+    ],
+    "inputHash": "ce07f536"
+  },
+  {
+    "kellyId": 5333,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept conformity/compliance sense",
+    "translation": "agreement, correspondence",
+    "senses": [
+      "conformity, compliance"
+    ],
+    "inputHash": "98c265db"
+  },
+  {
+    "kellyId": 6665,
+    "decision": "fix",
+    "reason": "kept distinct confide-in sense",
+    "translation": "entrust",
+    "senses": [
+      "confide in (speak openly with trust)"
+    ],
+    "inputHash": "27aca35e"
+  },
+  {
+    "kellyId": 7014,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept biology rudiment sense",
+    "translation": "predisposition, aptitude",
+    "senses": [
+      "rudiment, embryonic stage (biology)"
+    ],
+    "inputHash": "010ec6ed"
+  },
+  {
+    "kellyId": 5893,
+    "decision": "fix",
+    "reason": "kept distinct trade-union member sense",
+    "translation": "connected",
+    "senses": [
+      "member (of a trade union)"
+    ],
+    "inputHash": "8f7fdbae"
+  },
+  {
+    "kellyId": 6467,
+    "decision": "fix",
+    "reason": "kept distinct post-a-notice and strike-a-key senses",
+    "translation": "allocate",
+    "senses": [
+      "post (a notice on a noticeboard)",
+      "strike (a key on an instrument)"
+    ],
+    "inputHash": "7aaffe7e"
+  },
+  {
+    "kellyId": 6512,
+    "decision": "fix",
+    "reason": "kept distinct measures/preparations sense",
+    "translation": "institution",
+    "senses": [
+      "measures, preparations (toward a goal; chiefly plural)"
+    ],
+    "inputHash": "eaea11b2"
+  },
+  {
+    "kellyId": 6456,
+    "decision": "fix",
+    "reason": "kept distinct direct-to-a-seat and allocate senses",
+    "translation": "show, assign",
+    "senses": [
+      "direct (to a seat or place)",
+      "allocate"
+    ],
+    "inputHash": "a3cf06d3"
+  },
+  {
+    "kellyId": 6397,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept applique fabric sense",
+    "translation": "application",
+    "senses": [
+      "applique (fabric decoration)"
+    ],
+    "inputHash": "291d6be6"
+  },
+  {
+    "kellyId": 6692,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept bookbinding signature sense",
+    "translation": "sheet (of paper)",
+    "senses": [
+      "signature (bookbinding)"
+    ],
+    "inputHash": "fd09dafe"
+  },
+  {
+    "kellyId": 5769,
+    "decision": "fix",
+    "reason": "kept distinct mental-connection and social-contact senses",
+    "translation": "association",
+    "senses": [
+      "association (mental connection)",
+      "association (social contact or company)"
+    ],
+    "inputHash": "dac7a646"
+  },
+  {
+    "kellyId": 6111,
+    "decision": "fix",
+    "reason": "kept distinct connect-in-mind and keep-company senses",
+    "translation": "associate",
+    "senses": [
+      "associate (connect in one's mind)",
+      "associate (keep company with)"
+    ],
+    "inputHash": "88b1f874"
+  },
+  {
+    "kellyId": 6156,
+    "decision": "fix",
+    "reason": "kept distinct wiretap sense",
+    "translation": "eavesdrop",
+    "senses": [
+      "tap, wiretap"
+    ],
+    "inputHash": "a04c0582"
+  },
+  {
+    "kellyId": 6541,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept succession and absolution senses",
+    "translation": "relieve, take over",
+    "senses": [
+      "come one after another, succeed",
+      "absolve (give absolution)"
+    ],
+    "inputHash": "ede400c8"
+  },
+  {
+    "kellyId": 6557,
+    "decision": "fix",
+    "reason": "kept distinct dismissal (from employment) sense",
+    "translation": "farewell, parting",
+    "senses": [
+      "dismissal (from employment)"
+    ],
+    "inputHash": "5271ef31"
+  },
+  {
+    "kellyId": 6768,
+    "decision": "fix",
+    "reason": "kept distinct removal-from-office, provision and sediment senses",
+    "translation": "sales",
+    "senses": [
+      "removal, deposition (from a position)",
+      "provision, set-aside (for future use)",
+      "deposit, sediment (geological)"
+    ],
+    "inputHash": "a5e6aff2"
+  },
+  {
+    "kellyId": 6484,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept figurative impact and mental impression senses",
+    "translation": "impression, imprint",
+    "senses": [
+      "impact (figurative)",
+      "impression (mental)"
+    ],
+    "inputHash": "8feaed46"
+  },
+  {
+    "kellyId": 6097,
+    "decision": "fix",
+    "reason": "kept distinct charge and artillery-group senses",
+    "translation": "battery, accumulator",
+    "senses": [
+      "charge (of a battery)",
+      "battery (coordinated group of artillery)"
+    ],
+    "inputHash": "59936c2d"
+  },
+  {
+    "kellyId": 6286,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept sexual-infidelity sense",
+    "translation": "deceive",
+    "senses": [
+      "cheat on (be sexually unfaithful)"
+    ],
+    "inputHash": "efed37e6"
+  },
+  {
+    "kellyId": 6411,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept achievement and business senses",
+    "translation": "feat, exploit",
+    "senses": [
+      "achievement",
+      "company, business"
+    ],
+    "inputHash": "1f4fd83b"
+  },
+  {
+    "kellyId": 6133,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept involvement/connection sense",
+    "translation": "post, position",
+    "senses": [
+      "involvement, connection (with something)"
+    ],
+    "inputHash": "caf381b2"
+  },
+  {
+    "kellyId": 6404,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept transport/forward sense",
+    "translation": "promote",
+    "senses": [
+      "transport, forward (a message or parcel)"
+    ],
+    "inputHash": "19888120"
+  },
+  {
+    "kellyId": 5668,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept abstract consolidate sense",
+    "translation": "fortify",
+    "senses": [
+      "consolidate, cement (an abstract position)"
+    ],
+    "inputHash": "4e22a361"
+  },
+  {
+    "kellyId": 6588,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept talented-person sense",
+    "translation": "talent",
+    "senses": [
+      "talented person"
+    ],
+    "inputHash": "0e837bfa"
+  },
+  {
+    "kellyId": 6690,
+    "decision": "fix",
+    "reason": "kept distinct amenity and laziness senses",
+    "translation": "comfort, convenience",
+    "senses": [
+      "amenity (comfort-providing feature)",
+      "laziness, love of comfort"
+    ],
+    "inputHash": "f9c3197f"
+  },
+  {
+    "kellyId": 6201,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept charge-an-account sense",
+    "translation": "load, burden",
+    "senses": [
+      "charge (money from an account)"
+    ],
+    "inputHash": "8d491931"
+  },
+  {
+    "kellyId": 5790,
+    "decision": "fix",
+    "reason": "both items restate the main enrich sense",
+    "translation": "enrich",
+    "senses": [],
+    "inputHash": "378f584b"
+  },
+  {
+    "kellyId": 5975,
+    "decision": "fix",
+    "reason": "drunk merely restates the intoxicated sense",
+    "translation": "intoxicated",
+    "senses": [],
+    "inputHash": "3b214279"
+  },
+  {
+    "kellyId": 5691,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept coating and seizure senses",
+    "translation": "fitting, mounting",
+    "senses": [
+      "coating, film (on a surface)",
+      "seizure (of goods)"
+    ],
+    "inputHash": "fceb7898"
+  },
+  {
+    "kellyId": 5710,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept continued-existence sense",
+    "translation": "stock, population",
+    "senses": [
+      "continued existence, survival"
+    ],
+    "inputHash": "633b2bc1"
+  },
+  {
+    "kellyId": 6910,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept make-use-of sense",
+    "translation": "serve, wait on",
+    "senses": [
+      "make use (of something, with 'av')"
+    ],
+    "inputHash": "0ca9300a"
+  },
+  {
+    "kellyId": 5862,
+    "decision": "fix",
+    "reason": "kept distinct contemplation/reflection sense",
+    "translation": "observation, consideration",
+    "senses": [
+      "contemplation, reflection"
+    ],
+    "inputHash": "d3c8f8c8"
+  },
+  {
+    "kellyId": 6237,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept biographer sense",
+    "translation": "cinema, movie theatre",
+    "senses": [
+      "biographer"
+    ],
+    "inputHash": "efd4a4e3"
+  },
+  {
+    "kellyId": 6525,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept cause-a-light-to-flash sense",
+    "translation": "blink",
+    "senses": [
+      "flash, blink (a light)"
+    ],
+    "inputHash": "08b08045"
+  },
+  {
+    "kellyId": 5670,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept flash-of-light/camera sense",
+    "translation": "lightning bolt",
+    "senses": [
+      "flash (of light or camera)"
+    ],
+    "inputHash": "bbffa024"
+  },
+  {
+    "kellyId": 6253,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept flourish/thrive sense",
+    "translation": "bloom, blossom",
+    "senses": [
+      "flourish, thrive"
+    ],
+    "inputHash": "b44092d4"
+  },
+  {
+    "kellyId": 6373,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept the book trade sense",
+    "translation": "bookstore",
+    "senses": [
+      "bookselling (the trade)"
+    ],
+    "inputHash": "d2a904d8"
+  },
+  {
+    "kellyId": 6855,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept slang booze sense",
+    "translation": "brush",
+    "senses": [
+      "booze, drink alcohol (slang)"
+    ],
+    "inputHash": "046c9cc0"
+  },
+  {
+    "kellyId": 5704,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept legal tenant-owner's-right sense",
+    "translation": "co-op apartment",
+    "senses": [
+      "tenant-owner's right (legal right to occupy)"
+    ],
+    "inputHash": "1eafb608"
+  },
+  {
+    "kellyId": 5913,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept punch/blow sense",
+    "translation": "box, crate",
+    "senses": [
+      "box, punch (blow with the fist)"
+    ],
+    "inputHash": "6857b97e"
+  },
+  {
+    "kellyId": 6934,
+    "decision": "fix",
+    "reason": "both items restate the widen/broaden sense already in the main",
+    "translation": "widen, broaden",
+    "senses": [],
+    "inputHash": "a071def2"
+  },
+  {
+    "kellyId": 5783,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept street post-box sense",
+    "translation": "mailbox, letterbox",
+    "senses": [
+      "post box (collection point on the street)"
+    ],
+    "inputHash": "37584696"
+  },
+  {
+    "kellyId": 6532,
+    "decision": "fix",
+    "reason": "kept distinct badge, washer and game-piece senses",
+    "translation": "tray",
+    "senses": [
+      "badge",
+      "washer (metal disk)",
+      "tile, token (board-game piece)"
+    ],
+    "inputHash": "067c4391"
+  },
+  {
+    "kellyId": 6709,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept horsefly sense",
+    "translation": "brake",
+    "senses": [
+      "horsefly"
+    ],
+    "inputHash": "0ae47c51"
+  },
+  {
+    "kellyId": 6680,
+    "decision": "fix",
+    "reason": "kept distinct spa/health-resort sense",
+    "translation": "well",
+    "senses": [
+      "spa, health resort"
+    ],
+    "inputHash": "8d160c27"
+  },
+  {
+    "kellyId": 5791,
+    "decision": "fix",
+    "reason": "main is accent; break; kept remaining mining and refraction senses",
+    "translation": "accent; break",
+    "senses": [
+      "mining, extraction",
+      "refraction (of light)"
+    ],
+    "inputHash": "fcce4204"
+  },
+  {
+    "kellyId": 6219,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept sports board sense",
+    "translation": "board, plank",
+    "senses": [
+      "board (snowboard, skateboard, etc.)"
+    ],
+    "inputHash": "a3c21810"
+  },
+  {
+    "kellyId": 6184,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept financial bubble sense",
+    "translation": "bubble",
+    "senses": [
+      "bubble (financial speculation)"
+    ],
+    "inputHash": "d6cfaef1"
+  },
+  {
+    "kellyId": 6730,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept bend/loop sense",
+    "translation": "bay, gulf",
+    "senses": [
+      "bend, loop (in a path or rope)"
+    ],
+    "inputHash": "0c495081"
+  },
+  {
+    "kellyId": 6693,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept ball-shaped portion and slang cab senses",
+    "translation": "bun, roll",
+    "senses": [
+      "ball-shaped portion (of food)",
+      "cab, taxi (slang)"
+    ],
+    "inputHash": "749da30f"
+  },
+  {
+    "kellyId": 5910,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept slang jail sense",
+    "translation": "cage",
+    "senses": [
+      "prison, jail (slang)"
+    ],
+    "inputHash": "28fb13f2"
+  },
+  {
+    "kellyId": 6551,
+    "decision": "fix",
+    "reason": "shrub restates the main bush sense; kept colloquial pubic-hair sense",
+    "translation": "bush",
+    "senses": [
+      "pubic hair (colloquial)"
+    ],
+    "inputHash": "4220fa85"
+  },
+  {
+    "kellyId": 6081,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept tuck-in and pave-the-way senses",
+    "translation": "make the bed",
+    "senses": [
+      "tuck in (put someone to bed)",
+      "pave the way for (figurative)"
+    ],
+    "inputHash": "02fa231c"
+  },
+  {
+    "kellyId": 6856,
+    "decision": "fix",
+    "reason": "both items restate the same cup/vessel sense",
+    "translation": "cup, goblet, beaker",
+    "senses": [],
+    "inputHash": "1b169f7c"
+  },
+  {
+    "kellyId": 6495,
+    "decision": "fix",
+    "reason": "stripped restatement of main; kept broad-zone/area sense",
+    "translation": "belt",
+    "senses": [
+      "belt, zone (long broad area)"
+    ],
+    "inputHash": "93b10925"
+  },
+  {
+    "kellyId": 6948,
+    "decision": "fix",
+    "reason": "kept distinct slang babe/chick sense",
+    "translation": "bean",
+    "senses": [
+      "babe, chick (younger woman, slang)"
+    ],
+    "inputHash": "64e8fe11"
+  },
+  {
+    "kellyId": 6355,
+    "decision": "fix",
+    "reason": "kept distinct police 'move along' sense",
+    "translation": "circulate",
+    "senses": [
+      "move along (as commanded by police)"
+    ],
+    "inputHash": "4ea6262b"
+  }
+]

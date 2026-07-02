@@ -1,0 +1,50 @@
+[
+  {
+    "kellyId": 4362,
+    "decision": "split",
+    "reason": "rabatt also means flowerbed — a distinct, unrelated, everyday sense worth its own card",
+    "altMeanings": [{ "translation": "flowerbed", "gloss": "garden bed" }],
+    "subDefinitions": ["a reduced (for example shorter) sentence (punishment)"],
+    "inputHash": "7a4856ad"
+  },
+  {
+    "kellyId": 4584,
+    "decision": "split",
+    "reason": "rock is both a coat/overcoat and the music genre rock — two distinct common senses",
+    "altMeanings": [{ "translation": "rock, rock and roll", "gloss": "music genre" }],
+    "subDefinitions": [],
+    "inputHash": "4901c60f"
+  },
+  {
+    "kellyId": 4415,
+    "decision": "split",
+    "reason": "sky also means gravy/meat juices (jus), a very common cooking sense unrelated to sky",
+    "altMeanings": [{ "translation": "gravy, meat juices", "gloss": "pan drippings" }],
+    "subDefinitions": ["cloud"],
+    "inputHash": "979a7321"
+  },
+  {
+    "kellyId": 5091,
+    "decision": "split",
+    "reason": "rån is both robbery and a wafer biscuit — two distinct, common, unrelated senses",
+    "altMeanings": [{ "translation": "wafer", "gloss": "type of biscuit" }],
+    "subDefinitions": [],
+    "inputHash": "fa3b989a"
+  },
+  {
+    "kellyId": 5335,
+    "decision": "split",
+    "reason": "puss means both a peck/kiss and a puddle — distinct, unrelated, everyday senses",
+    "altMeanings": [{ "translation": "puddle", "gloss": "of water" }],
+    "subDefinitions": [],
+    "inputHash": "8c74f31c"
+  },
+  {
+    "kellyId": 4964,
+    "decision": "split",
+    "reason": "skälla means both (a dog) barking and scolding/telling off someone — distinct common senses",
+    "altMeanings": [{ "translation": "scold, tell off", "gloss": "reprimand" }],
+    "subDefinitions": ["be called, be accused of being"],
+    "inputHash": "01f2f0c0"
+  }
+]

@@ -1,0 +1,1009 @@
+[
+  {
+    "kellyId": 7321,
+    "decision": "fix",
+    "reason": "sub-defs merely restate/define geometry; surveying is archaic-rare",
+    "translation": "geometry",
+    "senses": [
+      "shape, spatial configuration"
+    ],
+    "inputHash": "a245ef57"
+  },
+  {
+    "kellyId": 7297,
+    "decision": "fix",
+    "reason": "kept distinct 'pour' sense; dropped restatement of main",
+    "translation": "cast",
+    "senses": [
+      "pour"
+    ],
+    "inputHash": "d6d3a921"
+  },
+  {
+    "kellyId": 7937,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct radiance and figurative senses",
+    "translation": "shine, gloss, sheen",
+    "senses": [
+      "radiance (of the moon, stars)",
+      "splendor, glory (figurative)"
+    ],
+    "inputHash": "a48b89ed"
+  },
+  {
+    "kellyId": 7985,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct figurative shift sense",
+    "translation": "sliding",
+    "senses": [
+      "drift, shift (gradual change)"
+    ],
+    "inputHash": "201efbf9"
+  },
+  {
+    "kellyId": 7474,
+    "decision": "fix",
+    "reason": "stripped restated main; kept figurative excel sense",
+    "translation": "shine",
+    "senses": [
+      "excel, stand out (figurative)"
+    ],
+    "inputHash": "c9fbd063"
+  },
+  {
+    "kellyId": 7288,
+    "decision": "fix",
+    "reason": "both items are the same 'spark' sense as main; nothing distinct",
+    "translation": "spark",
+    "senses": [],
+    "inputHash": "93ceb461"
+  },
+  {
+    "kellyId": 7028,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct shell, pomegranate, garnet senses",
+    "translation": "grenade",
+    "senses": [
+      "shell (artillery)",
+      "pomegranate",
+      "garnet (mineral)"
+    ],
+    "inputHash": "8f4aef11"
+  },
+  {
+    "kellyId": 8354,
+    "decision": "fix",
+    "reason": "stripped restated main; encumber is archaic-legal, dropped",
+    "translation": "engrave",
+    "senses": [],
+    "inputHash": "e3f61c9c"
+  },
+  {
+    "kellyId": 7041,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct hollow/dip sense",
+    "translation": "pit, hole",
+    "senses": [
+      "hollow, dip (in a surface)"
+    ],
+    "inputHash": "cda6c398"
+  },
+  {
+    "kellyId": 7512,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct scold sense",
+    "translation": "argue, row, quarrel",
+    "senses": [
+      "scold, tell off"
+    ],
+    "inputHash": "5d1cf6ad"
+  },
+  {
+    "kellyId": 7648,
+    "decision": "fix",
+    "reason": "condom and eraser are distinct from material 'rubber'",
+    "translation": "rubber",
+    "senses": [
+      "condom (colloquial)",
+      "eraser"
+    ],
+    "inputHash": "f145643d"
+  },
+  {
+    "kellyId": 7175,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct rock/sway sense",
+    "translation": "swing",
+    "senses": [
+      "rock, sway (in a chair, boat)"
+    ],
+    "inputHash": "f0e92265"
+  },
+  {
+    "kellyId": 7764,
+    "decision": "fix",
+    "reason": "physical education is a distinct school-subject sense",
+    "translation": "gymnastics",
+    "senses": [
+      "physical education (school subject)"
+    ],
+    "inputHash": "ac5aea1c"
+  },
+  {
+    "kellyId": 8234,
+    "decision": "fix",
+    "reason": "catch/snag is a distinct figurative sense from 'hook'",
+    "translation": "hook",
+    "senses": [
+      "catch, snag (drawback)"
+    ],
+    "inputHash": "486305f2"
+  },
+  {
+    "kellyId": 7239,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct helping-hand sense",
+    "translation": "handle",
+    "senses": [
+      "helping hand (brief assist)"
+    ],
+    "inputHash": "290cb893"
+  },
+  {
+    "kellyId": 7416,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct home-port sense",
+    "translation": "home town, place of residence",
+    "senses": [
+      "home port (of a vessel)"
+    ],
+    "inputHash": "ccb63b49"
+  },
+  {
+    "kellyId": 7656,
+    "decision": "fix",
+    "reason": "stripped restated main; boy/lad is archaic-dialectal, dropped",
+    "translation": "herder, shepherd",
+    "senses": [],
+    "inputHash": "79a11872"
+  },
+  {
+    "kellyId": 7412,
+    "decision": "fix",
+    "reason": "alcohol/vodka is a distinct slang sense from 'bucket'",
+    "translation": "bucket",
+    "senses": [
+      "alcohol, booze (slang)"
+    ],
+    "inputHash": "af657666"
+  },
+  {
+    "kellyId": 7521,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct stag sense",
+    "translation": "deer",
+    "senses": [
+      "hart, stag (adult male)"
+    ],
+    "inputHash": "f3073424"
+  },
+  {
+    "kellyId": 7501,
+    "decision": "fix",
+    "reason": "both items are the cabin/cab senses already in main; nothing distinct",
+    "translation": "cabin, cab",
+    "senses": [],
+    "inputHash": "7d5becce"
+  },
+  {
+    "kellyId": 7939,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct fascicle/issue and soft-cover book",
+    "translation": "booklet, pamphlet",
+    "senses": [
+      "fascicle, issue (of a journal)",
+      "notebook",
+      "soft-cover book"
+    ],
+    "inputHash": "7bbe650b"
+  },
+  {
+    "kellyId": 7958,
+    "decision": "fix",
+    "reason": "stripped literal bird; kept figurative political sense",
+    "translation": "hawk",
+    "senses": [
+      "hawk (advocate of aggressive policy)"
+    ],
+    "inputHash": "399d62e8"
+  },
+  {
+    "kellyId": 7965,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct religious-image sense",
+    "translation": "idol",
+    "senses": [
+      "idol (religious image, effigy)"
+    ],
+    "inputHash": "36502db0"
+  },
+  {
+    "kellyId": 7634,
+    "decision": "fix",
+    "reason": "diligent/industrious is a genuinely distinct shade from 'tenacious'",
+    "translation": "tenacious",
+    "senses": [
+      "diligent, industrious"
+    ],
+    "inputHash": "325ae8d9"
+  },
+  {
+    "kellyId": 7748,
+    "decision": "fix",
+    "reason": "cash inflow is a distinct accounting sense",
+    "translation": "deposit, payment",
+    "senses": [
+      "cash inflow (accounting)"
+    ],
+    "inputHash": "53639f2e"
+  },
+  {
+    "kellyId": 7893,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct imagination/fancy faculty sense",
+    "translation": "delusion, imagination",
+    "senses": [
+      "imagination, fancy (creative faculty)"
+    ],
+    "inputHash": "aab2ad5e"
+  },
+  {
+    "kellyId": 7878,
+    "decision": "fix",
+    "reason": "land registration is a distinct legal sense",
+    "translation": "enlistment, enrollment, matriculation",
+    "senses": [
+      "land registration"
+    ],
+    "inputHash": "3f668a93"
+  },
+  {
+    "kellyId": 7172,
+    "decision": "fix",
+    "reason": "stripped restated main; police-rank sense is marginal/contextual, dropped",
+    "translation": "inspector",
+    "senses": [],
+    "inputHash": "585a43e8"
+  },
+  {
+    "kellyId": 7285,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct present-oneself sense",
+    "translation": "cancel, call off",
+    "senses": [
+      "present oneself, appear (when summoned)"
+    ],
+    "inputHash": "6c5d0cf9"
+  },
+  {
+    "kellyId": 7669,
+    "decision": "fix",
+    "reason": "figurative 'jewel = prized person/thing' is a distinct shade",
+    "translation": "jewel, gem",
+    "senses": [
+      "jewel, gem (highly valued person or thing)"
+    ],
+    "inputHash": "1087a1bf"
+  },
+  {
+    "kellyId": 8230,
+    "decision": "fix",
+    "reason": "cable car is a distinct sense; boat-cabin restates main, dropped",
+    "translation": "cabin",
+    "senses": [
+      "cable car (hanging carriage)"
+    ],
+    "inputHash": "f6ed64c5"
+  },
+  {
+    "kellyId": 7784,
+    "decision": "fix",
+    "reason": "stripped restated furniture sense; kept distinct small-room and government",
+    "translation": "cabinet",
+    "senses": [
+      "cabinet (small room)",
+      "cabinet (government)"
+    ],
+    "inputHash": "89df3a75"
+  },
+  {
+    "kellyId": 7232,
+    "decision": "fix",
+    "reason": "stripped hair-comb; kept crest (bird), ridge, cam senses",
+    "translation": "comb",
+    "senses": [
+      "comb, crest (on a bird or reptile)",
+      "crest, ridge (of a hill or wave)",
+      "cam (engine part)"
+    ],
+    "inputHash": "9439e6cd"
+  },
+  {
+    "kellyId": 7152,
+    "decision": "fix",
+    "reason": "stripped restated main; kept old volume unit; piston is archaic-rare, dropped",
+    "translation": "jug, pot, pitcher",
+    "senses": [
+      "kanna (old unit, ~2.6 litres)"
+    ],
+    "inputHash": "5a3f540c"
+  },
+  {
+    "kellyId": 7600,
+    "decision": "fix",
+    "reason": "stripped restated main; coffer/small-box is a distinct sense",
+    "translation": "cassette, cartridge",
+    "senses": [
+      "coffer, small box"
+    ],
+    "inputHash": "5b961ab8"
+  },
+  {
+    "kellyId": 7804,
+    "decision": "fix",
+    "reason": "stripped restated main; wedge is a distinct sense",
+    "translation": "dash off, hurry away",
+    "senses": [
+      "wedge (fix with a wedge)"
+    ],
+    "inputHash": "117abb56"
+  },
+  {
+    "kellyId": 8421,
+    "decision": "fix",
+    "reason": "lament is a distinct emotional shade from formal 'complaint'",
+    "translation": "complaint",
+    "senses": [
+      "lament, wail"
+    ],
+    "inputHash": "b49a5a5e"
+  },
+  {
+    "kellyId": 7209,
+    "decision": "fix",
+    "reason": "tactless/uncouth is a distinct social sense from physical 'clumsy'",
+    "translation": "clumsy",
+    "senses": [
+      "tactless, uncouth"
+    ],
+    "inputHash": "dbe34aef"
+  },
+  {
+    "kellyId": 7489,
+    "decision": "fix",
+    "reason": "stripped restated main; peloton is a distinct cycling sense",
+    "translation": "huddle, bunch",
+    "senses": [
+      "peloton (cycling)"
+    ],
+    "inputHash": "ccc16d38"
+  },
+  {
+    "kellyId": 8191,
+    "decision": "fix",
+    "reason": "stripped restated main; thrill/kick is a distinct sensation sense",
+    "translation": "bang, crack",
+    "senses": [
+      "thrill, kick (sensation)"
+    ],
+    "inputHash": "2836432e"
+  },
+  {
+    "kellyId": 7607,
+    "decision": "fix",
+    "reason": "stripped restated main; jack (playing card) is a distinct sense",
+    "translation": "soldier",
+    "senses": [
+      "jack (playing card)"
+    ],
+    "inputHash": "ec7fddd1"
+  },
+  {
+    "kellyId": 7277,
+    "decision": "fix",
+    "reason": "stripped restated main; kept nautical speed-unit sense",
+    "translation": "knot",
+    "senses": [
+      "knot (speed unit, nautical)"
+    ],
+    "inputHash": "75a85921"
+  },
+  {
+    "kellyId": 8276,
+    "decision": "fix",
+    "reason": "stripped restated main; car boot is a distinct sense",
+    "translation": "trunk",
+    "senses": [
+      "boot (car storage)"
+    ],
+    "inputHash": "b63b89fe"
+  },
+  {
+    "kellyId": 7829,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct meeting and board/committee senses",
+    "translation": "faculty, teaching staff",
+    "senses": [
+      "staff meeting",
+      "board, committee"
+    ],
+    "inputHash": "5799f4f4"
+  },
+  {
+    "kellyId": 7547,
+    "decision": "fix",
+    "reason": "stripped architectural sense; kept military-formation and table-column senses",
+    "translation": "column",
+    "senses": [
+      "column (military formation)",
+      "column (in a table or matrix)"
+    ],
+    "inputHash": "35aafc79"
+  },
+  {
+    "kellyId": 7403,
+    "decision": "fix",
+    "reason": "stripped restated instruction sense; kept authority, commando unit, high command",
+    "translation": "command, order",
+    "senses": [
+      "command (authority)",
+      "commando (military unit)",
+      "high command"
+    ],
+    "inputHash": "ae568e98"
+  },
+  {
+    "kellyId": 7765,
+    "decision": "fix",
+    "reason": "stripped restated main; kept chief inspector and commissar/commissioner",
+    "translation": "superintendent",
+    "senses": [
+      "chief inspector",
+      "commissar, commissioner"
+    ],
+    "inputHash": "5f45251c"
+  },
+  {
+    "kellyId": 7990,
+    "decision": "fix",
+    "reason": "comrade/companion is a distinct social sense from business 'partner'",
+    "translation": "partner",
+    "senses": [
+      "comrade, companion"
+    ],
+    "inputHash": "f99a27cc"
+  },
+  {
+    "kellyId": 8041,
+    "decision": "fix",
+    "reason": "stripped material sense; kept stopper and cap/lid senses",
+    "translation": "cork",
+    "senses": [
+      "stopper (of a bottle)",
+      "cap, lid (screw-top)"
+    ],
+    "inputHash": "084fd399"
+  },
+  {
+    "kellyId": 7525,
+    "decision": "fix",
+    "reason": "stripped journalist sense; kept letter-writer sense",
+    "translation": "correspondent",
+    "senses": [
+      "correspondent (letter-writer)"
+    ],
+    "inputHash": "00038413"
+  },
+  {
+    "kellyId": 8185,
+    "decision": "fix",
+    "reason": "stripped garment sense; kept animal/flower collar sense",
+    "translation": "collar",
+    "senses": [
+      "collar (ring on an animal's neck or a flower)"
+    ],
+    "inputHash": "80067f5a"
+  },
+  {
+    "kellyId": 7369,
+    "decision": "fix",
+    "reason": "tap/faucet is a distinct everyday sense from lifting 'crane'",
+    "translation": "crane",
+    "senses": [
+      "tap, faucet"
+    ],
+    "inputHash": "e5994e30"
+  },
+  {
+    "kellyId": 7292,
+    "decision": "fix",
+    "reason": "stripped mineral sense; kept fine-glassware sense",
+    "translation": "crystal",
+    "senses": [
+      "crystal (fine glassware)"
+    ],
+    "inputHash": "a49d0f22"
+  },
+  {
+    "kellyId": 7192,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct disease and star-sign senses",
+    "translation": "crayfish",
+    "senses": [
+      "cancer (disease)",
+      "Cancer (star sign)"
+    ],
+    "inputHash": "d3c40852"
+  },
+  {
+    "kellyId": 7169,
+    "decision": "fix",
+    "reason": "stripped restated main; proclamation/decree is a distinct formal sense",
+    "translation": "announcement, notice",
+    "senses": [
+      "proclamation, decree (official)"
+    ],
+    "inputHash": "b0f2fcdf"
+  },
+  {
+    "kellyId": 8157,
+    "decision": "fix",
+    "reason": "stripped illness sense; curate is a distinct sense",
+    "translation": "cure",
+    "senses": [
+      "curate (act as curator)"
+    ],
+    "inputHash": "c03385bc"
+  },
+  {
+    "kellyId": 7338,
+    "decision": "fix",
+    "reason": "stripped shape sense; kept math power-of-two sense",
+    "translation": "square",
+    "senses": [
+      "square (mathematics, power of two)"
+    ],
+    "inputHash": "6e17e1a2"
+  },
+  {
+    "kellyId": 7647,
+    "decision": "fix",
+    "reason": "stripped grinding sense; kept figurative bureaucracy sense",
+    "translation": "mill",
+    "senses": [
+      "bureaucracy, red tape (figurative)"
+    ],
+    "inputHash": "8ab80abc"
+  },
+  {
+    "kellyId": 8118,
+    "decision": "fix",
+    "reason": "stripped sweeping-tool sense; kept tassel/tuft sense",
+    "translation": "broom",
+    "senses": [
+      "tassel, tuft"
+    ],
+    "inputHash": "26c1311d"
+  },
+  {
+    "kellyId": 7273,
+    "decision": "fix",
+    "reason": "stripped restated main; dormer (roof window) is a distinct sense",
+    "translation": "twig",
+    "senses": [
+      "dormer (roof window)"
+    ],
+    "inputHash": "aa7e57c4"
+  },
+  {
+    "kellyId": 8422,
+    "decision": "fix",
+    "reason": "both items are the two senses already in main; nothing distinct",
+    "translation": "rid of; quits, even",
+    "senses": [],
+    "inputHash": "f923c9be"
+  },
+  {
+    "kellyId": 8311,
+    "decision": "fix",
+    "reason": "mandible (of an arthropod) is a distinct zoological sense",
+    "translation": "jaw",
+    "senses": [
+      "mandible (of an arthropod)"
+    ],
+    "inputHash": "77df11ca"
+  },
+  {
+    "kellyId": 7074,
+    "decision": "fix",
+    "reason": "stripped restated main; susceptibility (to illness) is a distinct sense",
+    "translation": "sensitivity",
+    "senses": [
+      "susceptibility (to illness or influence)"
+    ],
+    "inputHash": "56303a4a"
+  },
+  {
+    "kellyId": 8110,
+    "decision": "fix",
+    "reason": "wife and cowardly-man are distinct senses from 'old woman'",
+    "translation": "old woman",
+    "senses": [
+      "wife (colloquial)",
+      "coward, wimp (of a man)"
+    ],
+    "inputHash": "448db3c2"
+  },
+  {
+    "kellyId": 7150,
+    "decision": "fix",
+    "reason": "grand (1000 SEK) is a distinct slang sense from bed 'sheet'",
+    "translation": "sheet",
+    "senses": [
+      "grand (1000 SEK, slang)"
+    ],
+    "inputHash": "4484bf0a"
+  },
+  {
+    "kellyId": 7391,
+    "decision": "fix",
+    "reason": "stripped restated main; make-noise/commotion is a distinct sense",
+    "translation": "raise the alarm, alert",
+    "senses": [
+      "make noise, cause a commotion"
+    ],
+    "inputHash": "0ea79d53"
+  },
+  {
+    "kellyId": 8115,
+    "decision": "fix",
+    "reason": "stripped device sense; sailing-dinghy is a distinct proper sense",
+    "translation": "laser",
+    "senses": [
+      "Laser (type of sailing dinghy)"
+    ],
+    "inputHash": "5685ed85"
+  },
+  {
+    "kellyId": 7177,
+    "decision": "fix",
+    "reason": "stripped restated main; professional license is a distinct sense",
+    "translation": "ID",
+    "senses": [
+      "license (professional authorization)"
+    ],
+    "inputHash": "5505657c"
+  },
+  {
+    "kellyId": 7870,
+    "decision": "fix",
+    "reason": "stripped arm/leg sense; kept member (penis) euphemism",
+    "translation": "limb",
+    "senses": [
+      "member (penis)"
+    ],
+    "inputHash": "130077cb"
+  },
+  {
+    "kellyId": 7834,
+    "decision": "fix",
+    "reason": "stripped restated main; hit-on/cling-to is a distinct colloquial sense",
+    "translation": "glue",
+    "senses": [
+      "hit on, cling to (colloquial)"
+    ],
+    "inputHash": "dac01315"
+  },
+  {
+    "kellyId": 7376,
+    "decision": "fix",
+    "reason": "stripped fabric sense; kept garment senses (tank top, camisole, nightgown)",
+    "translation": "linen",
+    "senses": [
+      "tank top, singlet, vest",
+      "camisole",
+      "nightgown, nightdress"
+    ],
+    "inputHash": "7fd9afc5"
+  },
+  {
+    "kellyId": 7516,
+    "decision": "fix",
+    "reason": "stripped restated main; sound-out-letters (phonics) is a distinct sense",
+    "translation": "sound, resound",
+    "senses": [
+      "sound out letters (learn to read phonically)"
+    ],
+    "inputHash": "9abe372f"
+  },
+  {
+    "kellyId": 7263,
+    "decision": "fix",
+    "reason": "stripped restated main; kept unload and fire senses",
+    "translation": "loosen",
+    "senses": [
+      "unload (cargo)",
+      "fire (a projectile)"
+    ],
+    "inputHash": "30d9d548"
+  },
+  {
+    "kellyId": 7306,
+    "decision": "fix",
+    "reason": "stripped restated main; kept lamp/light and horse-marking senses",
+    "translation": "lantern",
+    "senses": [
+      "lamp, light (encased, incl. electric)",
+      "bald face (horse marking)"
+    ],
+    "inputHash": "014e5904"
+  },
+  {
+    "kellyId": 7193,
+    "decision": "fix",
+    "reason": "stripped tasty sense; hot/attractive is a distinct colloquial sense",
+    "translation": "delicious",
+    "senses": [
+      "hot, attractive (colloquial)"
+    ],
+    "inputHash": "9e2da1f4"
+  },
+  {
+    "kellyId": 7212,
+    "decision": "fix",
+    "reason": "stripped restated grandeur sense; kept power/authority and royal-title senses",
+    "translation": "majesty",
+    "senses": [
+      "majesty (power, authority)",
+      "Majesty (royal title)"
+    ],
+    "inputHash": "a5089b9a"
+  },
+  {
+    "kellyId": 8361,
+    "decision": "fix",
+    "reason": "stripped restated main; shuffle-over/make-room is a distinct sense",
+    "translation": "move, shift (something heavy)",
+    "senses": [
+      "shuffle over, make room (for someone)"
+    ],
+    "inputHash": "32163ad6"
+  },
+  {
+    "kellyId": 8164,
+    "decision": "fix",
+    "reason": "jam (non-citrus preserves) is a distinct sense from citrus 'marmalade'",
+    "translation": "marmalade",
+    "senses": [
+      "jam (non-citrus fruit preserves)"
+    ],
+    "inputHash": "04bccb37"
+  },
+  {
+    "kellyId": 7822,
+    "decision": "fix",
+    "reason": "best man is a distinct wedding sense from military 'marshal'",
+    "translation": "marshal",
+    "senses": [
+      "best man (at a wedding)"
+    ],
+    "inputHash": "efa1048f"
+  },
+  {
+    "kellyId": 7900,
+    "decision": "fix",
+    "reason": "both items are the same 'matrix' sense as main; nothing distinct",
+    "translation": "matrix",
+    "senses": [],
+    "inputHash": "45f9e83b"
+  },
+  {
+    "kellyId": 8062,
+    "decision": "fix",
+    "reason": "stripped restated main; Egyptian-history period is rare-technical, dropped",
+    "translation": "meantime, meanwhile, interim",
+    "senses": [],
+    "inputHash": "42a451b6"
+  },
+  {
+    "kellyId": 8080,
+    "decision": "fix",
+    "reason": "stripped restated main; metallic sound/voice is a distinct sense",
+    "translation": "metallic",
+    "senses": [
+      "metallic (of a sound or voice)"
+    ],
+    "inputHash": "3b6692a7"
+  },
+  {
+    "kellyId": 7494,
+    "decision": "fix",
+    "reason": "memorial (in memory of someone) is a distinct shade from 'monument'",
+    "translation": "monument",
+    "senses": [
+      "memorial (in memory of someone)"
+    ],
+    "inputHash": "b0f5ccd0"
+  },
+  {
+    "kellyId": 7234,
+    "decision": "fix",
+    "reason": "center/middle is a distinct spatial sense from football 'midfield'",
+    "translation": "midfield",
+    "senses": [
+      "center, middle (spatial)"
+    ],
+    "inputHash": "7935b47f"
+  },
+  {
+    "kellyId": 7802,
+    "decision": "fix",
+    "reason": "stripped restated main; exhibition stand/booth is a distinct sense",
+    "translation": "display case",
+    "senses": [
+      "exhibition stand, booth"
+    ],
+    "inputHash": "4ab2e01f"
+  },
+  {
+    "kellyId": 7027,
+    "decision": "fix",
+    "reason": "stripped restated main; toilet/loo is a distinct colloquial sense",
+    "translation": "mug",
+    "senses": [
+      "toilet, loo (colloquial)"
+    ],
+    "inputHash": "604b558c"
+  },
+  {
+    "kellyId": 8100,
+    "decision": "fix",
+    "reason": "stripped insect sense; lavalier mic is a distinct sense",
+    "translation": "mosquito",
+    "senses": [
+      "lavalier microphone, lapel mic"
+    ],
+    "inputHash": "998123d8"
+  },
+  {
+    "kellyId": 7536,
+    "decision": "fix",
+    "reason": "stripped restated main; kept river-mouth and gun-muzzle senses",
+    "translation": "opening",
+    "senses": [
+      "mouth (of a river)",
+      "muzzle (of a gun)"
+    ],
+    "inputHash": "1b4340ca"
+  },
+  {
+    "kellyId": 7729,
+    "decision": "fix",
+    "reason": "stripped restated main; diverse/varied is a distinct shade",
+    "translation": "manifold, numerous",
+    "senses": [
+      "diverse, varied (of many kinds)"
+    ],
+    "inputHash": "e498d0a3"
+  },
+  {
+    "kellyId": 8265,
+    "decision": "fix",
+    "reason": "stripped restated main; estimate/gauge is a distinct sense",
+    "translation": "aim, direct (a blow)",
+    "senses": [
+      "estimate, gauge"
+    ],
+    "inputHash": "d0807d2d"
+  },
+  {
+    "kellyId": 7954,
+    "decision": "fix",
+    "reason": "geometer moth is a distinct zoological sense from measuring 'meter'",
+    "translation": "meter",
+    "senses": [
+      "geometer moth (Geometridae)"
+    ],
+    "inputHash": "1538380a"
+  },
+  {
+    "kellyId": 8285,
+    "decision": "fix",
+    "reason": "stripped sore/tender; kept figurative worn-down/docile sense",
+    "translation": "tender",
+    "senses": [
+      "worn down, ready to give in (after pressure)"
+    ],
+    "inputHash": "01800f74"
+  },
+  {
+    "kellyId": 7064,
+    "decision": "fix",
+    "reason": "stripped restated main; kept informal 'bear' and slang cell-phone senses",
+    "translation": "teddy bear",
+    "senses": [
+      "bear (informal, childlike)",
+      "cell phone, mobile (slang)"
+    ],
+    "inputHash": "801ca030"
+  },
+  {
+    "kellyId": 7824,
+    "decision": "fix",
+    "reason": "stripped drug sense; addict-of-an-activity is a distinct figurative sense",
+    "translation": "drug addict",
+    "senses": [
+      "addict (of an activity)"
+    ],
+    "inputHash": "7555bc69"
+  },
+  {
+    "kellyId": 7059,
+    "decision": "fix",
+    "reason": "stripped animal-nocturnal sense; nightly (every night) is a distinct sense",
+    "translation": "nocturnal",
+    "senses": [
+      "nightly (happening every night)"
+    ],
+    "inputHash": "622e03ea"
+  },
+  {
+    "kellyId": 8372,
+    "decision": "fix",
+    "reason": "stripped restated main; kept haze (initiate student) and shut-out senses",
+    "translation": "reset, zero out",
+    "senses": [
+      "haze (initiate a new student)",
+      "shut out (keep an opponent scoreless)"
+    ],
+    "inputHash": "b5871014"
+  },
+  {
+    "kellyId": 7755,
+    "decision": "fix",
+    "reason": "utility merely restates 'usefulness'; nothing distinct",
+    "translation": "usefulness",
+    "senses": [],
+    "inputHash": "3f7b0140"
+  },
+  {
+    "kellyId": 7625,
+    "decision": "fix",
+    "reason": "stripped restated main; tough problem (hard nut) is a distinct figurative sense",
+    "translation": "nut",
+    "senses": [
+      "tough problem (hard nut to crack)"
+    ],
+    "inputHash": "08e328ad"
+  },
+  {
+    "kellyId": 7906,
+    "decision": "fix",
+    "reason": "stripped undecided sense; tied/drawn (sports) is a distinct sense",
+    "translation": "undecided; tied",
+    "senses": [
+      "tied, drawn (sports)"
+    ],
+    "inputHash": "0eb0ea71"
+  },
+  {
+    "kellyId": 7354,
+    "decision": "fix",
+    "reason": "illiterate is a distinct sense from 'uneducated'",
+    "translation": "uneducated",
+    "senses": [
+      "illiterate"
+    ],
+    "inputHash": "2bcc9f31"
+  }
+]

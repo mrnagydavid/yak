@@ -1,0 +1,26 @@
+[
+  {
+    "kellyId": 681,
+    "decision": "split",
+    "reason": "substance/material is a distinct, common everyday sense unrelated to subject/topic",
+    "altMeanings": [{ "translation": "substance, material", "gloss": "" }],
+    "subDefinitions": [],
+    "inputHash": "14dadcf1"
+  },
+  {
+    "kellyId": 1575,
+    "decision": "split",
+    "reason": "bone is a distinct, very common everyday sense unrelated to leg",
+    "altMeanings": [{ "translation": "bone", "gloss": "" }],
+    "subDefinitions": ["leg (of trousers or furniture)"],
+    "inputHash": "5541555a"
+  },
+  {
+    "kellyId": 2100,
+    "decision": "split",
+    "reason": "bass (music) is a distinct, common sense unrelated to base/foundation",
+    "altMeanings": [{ "translation": "bass", "gloss": "music" }],
+    "subDefinitions": ["base, headquarters", "base, foundation", "boss, supervisor (informal)"],
+    "inputHash": "fcee0819"
+  }
+]

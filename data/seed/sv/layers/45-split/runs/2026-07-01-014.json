@@ -1,0 +1,74 @@
+[
+  {
+    "kellyId": 2921,
+    "decision": "split",
+    "reason": "'fire/dismiss from a job' is a common everyday sense entirely distinct from physically kicking",
+    "altMeanings": [{ "translation": "fire, dismiss", "gloss": "from a job" }],
+    "subDefinitions": [],
+    "inputHash": "368c8180"
+  },
+  {
+    "kellyId": 2908,
+    "decision": "split",
+    "reason": "'lace' (the fabric) is a common everyday noun completely unrelated to point/tip",
+    "altMeanings": [{ "translation": "lace", "gloss": "fabric" }],
+    "subDefinitions": ["spitz (dog breed)"],
+    "inputHash": "16291f65"
+  },
+  {
+    "kellyId": 2872,
+    "decision": "split",
+    "reason": "'tribe' is a distinct, common meaning unrelated to a tree trunk/stem",
+    "altMeanings": [{ "translation": "tribe", "gloss": "" }],
+    "subDefinitions": ["stem (of a plant)", "stem (branching structure, also abstract)"],
+    "inputHash": "844a9d44"
+  },
+  {
+    "kellyId": 3955,
+    "decision": "split",
+    "reason": "'meeting, assembly' (bolagsstämma etc.) is a common, distinct sense unrelated to voice",
+    "altMeanings": [{ "translation": "meeting, assembly", "gloss": "" }],
+    "subDefinitions": ["pitch, part (musical)"],
+    "inputHash": "26ca245e"
+  },
+  {
+    "kellyId": 3601,
+    "decision": "split",
+    "reason": "'overthrow' (a government) is a distinct, common transitive sense unrelated to crashing/plunging",
+    "altMeanings": [{ "translation": "overthrow", "gloss": "a government or leader" }],
+    "subDefinitions": ["rush, run hurriedly"],
+    "inputHash": "da3cfec7"
+  },
+  {
+    "kellyId": 3419,
+    "decision": "split",
+    "reason": "'angry, annoyed' is an extremely common everyday sense entirely distinct from the taste 'sour'",
+    "altMeanings": [{ "translation": "angry, annoyed", "gloss": "" }],
+    "subDefinitions": ["sour, rancid (gone off)", "acidic", "wet, damp (of soil or weather)"],
+    "inputHash": "1f816de9"
+  },
+  {
+    "kellyId": 3583,
+    "decision": "split",
+    "reason": "'board' (blackboard/whiteboard) is a common everyday sense distinct from a painting/picture",
+    "altMeanings": [{ "translation": "board", "gloss": "blackboard, whiteboard" }],
+    "subDefinitions": ["tablet (computing)", "blunder, gaffe (informal)"],
+    "inputHash": "06aa0816"
+  },
+  {
+    "kellyId": 3898,
+    "decision": "split",
+    "reason": "'alimony, child support' is a distinct, common sense unrelated to maintenance/upkeep",
+    "altMeanings": [{ "translation": "alimony, child support", "gloss": "" }],
+    "subDefinitions": [],
+    "inputHash": "0ceb2568"
+  },
+  {
+    "kellyId": 4175,
+    "decision": "split",
+    "reason": "'staircase, entrance' (a way into a building) is a common concrete sense unrelated to a rise/upswing",
+    "altMeanings": [{ "translation": "staircase, entrance", "gloss": "way into a building" }],
+    "subDefinitions": [],
+    "inputHash": "a7af57fa"
+  }
+]

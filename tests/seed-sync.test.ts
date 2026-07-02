@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { planSeedSync, type SyncTarget } from '../src/db/seed'
+import { planMeaningSync, planSeedSync, type SyncTarget } from '../src/db/seed'
 
 // Minimal seed-entry factory (only the fields planSeedSync reads matter: seedKey + `h`).
 const seed = (seedKey: number, lemma: string, pos = 'noun', translation = 'x', h = 'h') =>
@@ -58,5 +58,52 @@ describe('planSeedSync — changed-only update/add/delete by seedKey', () => {
     expect(plan.deletes).toEqual(['a'])
     expect(plan.adds.map((s) => s.seedKey)).toEqual([5])
     expect(plan.updates).toEqual([])
+  })
+})
+
+// The multi-meaning upgrade path: when a synced entry's meanings change, reconcile the set of
+// translation links by meaningKey so a learner's progress on a KEPT meaning is never lost.
+describe('planMeaningSync — reconcile a word’s meaning links by meaningKey', () => {
+  const ex = (id: string, meaningKey: number, primary: boolean) => ({ id, nativeEntryId: `n_${id}`, meaningKey, primary })
+  const m = (key: number, translation: string, enUncountable = false) => ({ key, translation, enUncountable })
+
+  it('updates matched meanings in place — the link id (and its ReviewState) survives', () => {
+    const existing = [ex('t0', 0, true), ex('t1', 1, false)]
+    const plan = planMeaningSync(existing, [m(0, 'joint'), m(1, 'route, trail')])
+    expect(plan.updates.map((u) => u.id)).toEqual(['t0', 't1']) // both kept, same ids
+    expect(plan.updates.map((u) => u.meaning.translation)).toEqual(['joint', 'route, trail'])
+    expect(plan.adds).toEqual([])
+    expect(plan.deletes).toEqual([])
+  })
+
+  it('adds a newly-promoted meaning (a fresh key not present today)', () => {
+    const plan = planMeaningSync([ex('t0', 0, true)], [m(0, 'joint'), m(1, 'route, trail')])
+    expect(plan.updates.map((u) => u.id)).toEqual(['t0'])
+    expect(plan.adds).toEqual([m(1, 'route, trail')])
+    expect(plan.deletes).toEqual([])
+  })
+
+  it('deletes a meaning removed from the seed (its native entry + review states go with it)', () => {
+    const existing = [ex('t0', 0, true), ex('t1', 1, false)]
+    const plan = planMeaningSync(existing, [m(0, 'forehead, brow')])
+    expect(plan.updates.map((u) => u.id)).toEqual(['t0'])
+    expect(plan.adds).toEqual([])
+    expect(plan.deletes).toEqual([{ id: 't1', nativeEntryId: 'n_t1' }])
+  })
+
+  it('backfills the primary flag on a matched link only when it must flip', () => {
+    // A pre-v6 link that was never stamped primary (defensive) flips; a correct one is left untouched.
+    const plan = planMeaningSync([ex('t0', 0, false), ex('t1', 1, false)], [m(0, 'x'), m(1, 'y')])
+    expect(plan.updates.find((u) => u.id === 't0')?.setPrimary).toBe(true) // meaningKey 0 → primary
+    expect(plan.updates.find((u) => u.id === 't1')).toMatchObject({ id: 't1' })
+    expect(plan.updates.find((u) => u.id === 't1')?.setPrimary).toBeUndefined() // already correct
+  })
+
+  it('handles a full reshuffle: keep primary, drop one meaning, add another', () => {
+    const existing = [ex('t0', 0, true), ex('t1', 1, false)]
+    const plan = planMeaningSync(existing, [m(0, 'pan'), m(2, 'boiler')])
+    expect(plan.updates.map((u) => u.id)).toEqual(['t0'])
+    expect(plan.deletes).toEqual([{ id: 't1', nativeEntryId: 'n_t1' }])
+    expect(plan.adds).toEqual([m(2, 'boiler')])
   })
 })

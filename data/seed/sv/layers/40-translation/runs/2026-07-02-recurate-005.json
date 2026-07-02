@@ -1,0 +1,1008 @@
+[
+  {
+    "kellyId": 484,
+    "decision": "fix",
+    "reason": "stripped leading restatement of 'type'; kept the distinct informal person sense",
+    "translation": "type",
+    "senses": [
+      "guy, character (informal, often negative)"
+    ],
+    "inputHash": "c943432c"
+  },
+  {
+    "kellyId": 1035,
+    "decision": "fix",
+    "reason": "both items are specialized uses of 'cover'; kept the distinct financial and protective shades",
+    "translation": "cover",
+    "senses": [
+      "cover, afford (expenses)",
+      "cover, protect (with force)"
+    ],
+    "inputHash": "1079a031"
+  },
+  {
+    "kellyId": 232,
+    "decision": "fix",
+    "reason": "stripped leading restatement of 'think'; kept the two distinct senses",
+    "translation": "think",
+    "senses": [
+      "keep in mind, remember",
+      "intend to, plan to"
+    ],
+    "inputHash": "710532b0"
+  },
+  {
+    "kellyId": 1276,
+    "decision": "fix",
+    "reason": "stripped leading restatement; kept the distinct granny-flat sense",
+    "translation": "exception",
+    "senses": [
+      "granny flat (reserved for previous farm owners)"
+    ],
+    "inputHash": "f6516092"
+  },
+  {
+    "kellyId": 150,
+    "decision": "fix",
+    "reason": "stripped restatement of under/below; kept the distinct temporal sense",
+    "translation": "under, below",
+    "senses": [
+      "during, at the same time as"
+    ],
+    "inputHash": "cdb64130"
+  },
+  {
+    "kellyId": 1039,
+    "decision": "fix",
+    "reason": "'prevent' merely restates 'avoid'; no distinct meaning",
+    "translation": "avoid",
+    "senses": [],
+    "inputHash": "393853ea"
+  },
+  {
+    "kellyId": 741,
+    "decision": "fix",
+    "reason": "stripped leading restatement of 'youth' (life-stage); kept the distinct young-person sense",
+    "translation": "youth",
+    "senses": [
+      "young person, youngster"
+    ],
+    "inputHash": "ebec7edc"
+  },
+  {
+    "kellyId": 1129,
+    "decision": "fix",
+    "reason": "stripped leading restatement of the animal-offspring main; kept the distinct child sense",
+    "translation": "young one, offspring (animal)",
+    "senses": [
+      "kid, child"
+    ],
+    "inputHash": "042c7178"
+  },
+  {
+    "kellyId": 110,
+    "decision": "fix",
+    "reason": "stripped leading restatement of 'treat oneself'; kept the distinct not-begrudge sense",
+    "translation": "treat oneself, indulge",
+    "senses": [
+      "not begrudge, be happy for (someone getting something deserved)"
+    ],
+    "inputHash": "5598bb06"
+  },
+  {
+    "kellyId": 170,
+    "decision": "fix",
+    "reason": "kept the distinct 'open' sense beyond 'up'",
+    "translation": "up",
+    "senses": [
+      "open (to an open position or state)"
+    ],
+    "inputHash": "6c26377d"
+  },
+  {
+    "kellyId": 395,
+    "decision": "fix",
+    "reason": "stripped leading restatement of 'task'; kept the distinct information sense",
+    "translation": "task",
+    "senses": [
+      "piece of information, datum"
+    ],
+    "inputHash": "15e948f7"
+  },
+  {
+    "kellyId": 886,
+    "decision": "fix",
+    "reason": "stripped leading restatement of 'arise'; kept the distinct resurrection sense",
+    "translation": "arise, come about",
+    "senses": [
+      "rise from the dead"
+    ],
+    "inputHash": "b0bf3795"
+  },
+  {
+    "kellyId": 1053,
+    "decision": "fix",
+    "reason": "reflexive 'reveal oneself' is a marginal/rare use of discover; no distinct learner-level meaning",
+    "translation": "discover",
+    "senses": [],
+    "inputHash": "9427e098"
+  },
+  {
+    "kellyId": 607,
+    "decision": "fix",
+    "reason": "kept two distinct senses beyond outside/outdoors",
+    "translation": "outside, outdoors",
+    "senses": [
+      "at a distance, out",
+      "on the right track"
+    ],
+    "inputHash": "f9f31c51"
+  },
+  {
+    "kellyId": 870,
+    "decision": "fix",
+    "reason": "stripped leading restatement of 'perform'; kept the distinct export sense",
+    "translation": "perform, carry out",
+    "senses": [
+      "export"
+    ],
+    "inputHash": "8fb6d84d"
+  },
+  {
+    "kellyId": 1156,
+    "decision": "fix",
+    "reason": "stripped leading restatement of 'assume'; kept the two distinct senses",
+    "translation": "assume, presuppose",
+    "senses": [
+      "be discontinued, expire",
+      "set off, depart (on a journey)"
+    ],
+    "inputHash": "6488369c"
+  },
+  {
+    "kellyId": 958,
+    "decision": "fix",
+    "reason": "main gives both senses (from the outside; based on); nothing distinct left",
+    "translation": "from the outside; based on",
+    "senses": [],
+    "inputHash": "1abee463"
+  },
+  {
+    "kellyId": 1084,
+    "decision": "fix",
+    "reason": "stripped leading restatement (make use of); kept the distinct exploit-a-person sense",
+    "translation": "make use of, exploit",
+    "senses": [
+      "exploit, take advantage of (a person); abuse"
+    ],
+    "inputHash": "93c3f551"
+  },
+  {
+    "kellyId": 809,
+    "decision": "fix",
+    "reason": "stripped leading restatement of 'except'; kept the distinct spatial sense",
+    "translation": "except, except for",
+    "senses": [
+      "outside, out of (beyond a boundary)"
+    ],
+    "inputHash": "a34869ff"
+  },
+  {
+    "kellyId": 783,
+    "decision": "fix",
+    "reason": "kept two distinct metonymic senses beyond 'investigation'",
+    "translation": "investigation",
+    "senses": [
+      "committee (appointed to investigate)",
+      "report (resulting from an investigation)"
+    ],
+    "inputHash": "80cceb85"
+  },
+  {
+    "kellyId": 915,
+    "decision": "fix",
+    "reason": "stripped leading restatement of 'committee'; kept the distinct outgrowth sense",
+    "translation": "committee",
+    "senses": [
+      "protuberance, outgrowth"
+    ],
+    "inputHash": "ac33e62b"
+  },
+  {
+    "kellyId": 1163,
+    "decision": "fix",
+    "reason": "'subject' merely restates 'expose'; no distinct meaning",
+    "translation": "expose",
+    "senses": [],
+    "inputHash": "6a4c11a5"
+  },
+  {
+    "kellyId": 1016,
+    "decision": "fix",
+    "reason": "stripped leading restatement of 'expression'; kept the distinct facial and math/programming senses",
+    "translation": "expression",
+    "senses": [
+      "facial expression",
+      "expression (math or programming)"
+    ],
+    "inputHash": "d993d5fd"
+  },
+  {
+    "kellyId": 451,
+    "decision": "fix",
+    "reason": "stripped leading restatement of 'develop'; kept the distinct elaborate sense",
+    "translation": "develop",
+    "senses": [
+      "elaborate, expand on"
+    ],
+    "inputHash": "593a6610"
+  },
+  {
+    "kellyId": 776,
+    "decision": "fix",
+    "reason": "kept the distinct 'considerable' sense (of an amount)",
+    "translation": "beautiful",
+    "senses": [
+      "considerable, tidy (of an amount)"
+    ],
+    "inputHash": "894a2b26"
+  },
+  {
+    "kellyId": 420,
+    "decision": "fix",
+    "reason": "'ordinary' merely restates common/usual; no distinct meaning",
+    "translation": "common, usual",
+    "senses": [],
+    "inputHash": "db21dd9c"
+  },
+  {
+    "kellyId": 1094,
+    "decision": "fix",
+    "reason": "'arms' restates weapon; kept the distinct military-branch sense",
+    "translation": "weapon",
+    "senses": [
+      "military branch, service arm"
+    ],
+    "inputHash": "5c1b764c"
+  },
+  {
+    "kellyId": 88,
+    "decision": "fix",
+    "reason": "stripped leading restatement of 'be'; kept the two distinct senses",
+    "translation": "be",
+    "senses": [
+      "last, go on (for a duration)",
+      "keep, stay fresh (not spoil)"
+    ],
+    "inputHash": "884aa267"
+  },
+  {
+    "kellyId": 1275,
+    "decision": "fix",
+    "reason": "stripped leading restatement of goods/commodity; kept the distinct care/keeping sense",
+    "translation": "goods, commodity",
+    "senses": [
+      "care, keeping (as in ta vara på)"
+    ],
+    "inputHash": "258c8a06"
+  },
+  {
+    "kellyId": 1199,
+    "decision": "fix",
+    "reason": "stripped leading restatement (temperature); kept the distinct emotional-warmth sense",
+    "translation": "warm, hot",
+    "senses": [
+      "warm, caring (emotionally)"
+    ],
+    "inputHash": "e6a5775c"
+  },
+  {
+    "kellyId": 633,
+    "decision": "fix",
+    "reason": "stripped leading restatement of the substance; kept the distinct body-of-water sense",
+    "translation": "water",
+    "senses": [
+      "body of water"
+    ],
+    "uncountable": true,
+    "inputHash": "06d4efa5"
+  },
+  {
+    "kellyId": 935,
+    "decision": "fix",
+    "reason": "stripped leading restatement of 'work'; kept the two distinct institutional senses",
+    "translation": "work",
+    "senses": [
+      "agency (government body)",
+      "utility, works (waterworks, power plant, etc.)"
+    ],
+    "inputHash": "4e1bc9de"
+  },
+  {
+    "kellyId": 298,
+    "decision": "fix",
+    "reason": "stripped leading restatement of seem/appear; kept the distinct work/act sense",
+    "translation": "seem, appear",
+    "senses": [
+      "work, act, operate"
+    ],
+    "inputHash": "ba701a77"
+  },
+  {
+    "kellyId": 1049,
+    "decision": "fix",
+    "reason": "both items restate real/actual; no genuinely distinct meaning",
+    "translation": "real, actual",
+    "senses": [],
+    "inputHash": "661a0f79"
+  },
+  {
+    "kellyId": 440,
+    "decision": "fix",
+    "reason": "stripped leading restatement of activity/operations; kept the distinct enterprise sense",
+    "translation": "activity, operations",
+    "senses": [
+      "enterprise, business, organization"
+    ],
+    "inputHash": "134f97f5"
+  },
+  {
+    "kellyId": 164,
+    "decision": "fix",
+    "reason": "kept the distinct temporal and attachment senses; dropped the archaic oath use as marginal",
+    "translation": "next to, beside, by, at",
+    "senses": [
+      "at (a point in time)",
+      "by, in the presence of (attachment)"
+    ],
+    "inputHash": "bff1ea27"
+  },
+  {
+    "kellyId": 385,
+    "decision": "fix",
+    "reason": "kept the two distinct senses beyond on/further/along",
+    "translation": "on, further, along",
+    "senses": [
+      "furthermore",
+      "not very (as in inte vidare)"
+    ],
+    "inputHash": "9081860f"
+  },
+  {
+    "kellyId": 1030,
+    "decision": "fix",
+    "reason": "stripped leading restatement of 'fold'; kept the two distinct senses",
+    "translation": "fold",
+    "senses": [
+      "give way, give in (under pressure)",
+      "turn (slightly, while moving)"
+    ],
+    "inputHash": "47438b28"
+  },
+  {
+    "kellyId": 1131,
+    "decision": "fix",
+    "reason": "stripped leading restatement of literal weight; kept the training-weight and importance senses",
+    "translation": "weight",
+    "senses": [
+      "weight (object for training or measuring)",
+      "importance, significance"
+    ],
+    "inputHash": "adc2a5a7"
+  },
+  {
+    "kellyId": 234,
+    "decision": "fix",
+    "reason": "stripped leading restatement of 'important'; kept the distinct pompous sense",
+    "translation": "important",
+    "senses": [
+      "pompous, self-important"
+    ],
+    "inputHash": "b80ae0a3"
+  },
+  {
+    "kellyId": 129,
+    "decision": "fix",
+    "reason": "stripped leading restatement of 'want'; kept the distinct intend sense",
+    "translation": "want",
+    "senses": [
+      "intend, be going to"
+    ],
+    "inputHash": "dc09d92e"
+  },
+  {
+    "kellyId": 161,
+    "decision": "fix",
+    "reason": "stripped leading interrogative restatement; kept the distinct relative use",
+    "translation": "which, what",
+    "senses": [
+      "which, who, whom (relative)"
+    ],
+    "inputHash": "df833b3e"
+  },
+  {
+    "kellyId": 471,
+    "decision": "fix",
+    "reason": "stripped leading restatement of win/defeat; kept the distinct gain sense",
+    "translation": "win, defeat",
+    "senses": [
+      "gain, profit from"
+    ],
+    "inputHash": "39d90fab"
+  },
+  {
+    "kellyId": 1352,
+    "decision": "fix",
+    "reason": "stripped leading restatement of 'win'; kept the two distinct senses",
+    "translation": "win",
+    "senses": [
+      "gain, profit",
+      "prize"
+    ],
+    "inputHash": "251000ce"
+  },
+  {
+    "kellyId": 221,
+    "decision": "fix",
+    "reason": "stripped leading restatement of show/display; kept the distinct prove sense",
+    "translation": "show, display",
+    "senses": [
+      "show, prove, demonstrate"
+    ],
+    "inputHash": "132f82d7"
+  },
+  {
+    "kellyId": 240,
+    "decision": "fix",
+    "reason": "stripped leading restatement of certain/some; kept the distinct convinced sense",
+    "translation": "certain, some",
+    "senses": [
+      "certain, convinced (of something)"
+    ],
+    "inputHash": "8257fdeb"
+  },
+  {
+    "kellyId": 876,
+    "decision": "fix",
+    "reason": "kept the distinct 'apparently' sense beyond certainly",
+    "translation": "with certainty, certainly",
+    "senses": [
+      "apparently, I gather"
+    ],
+    "inputHash": "0a0083dc"
+  },
+  {
+    "kellyId": 632,
+    "decision": "fix",
+    "reason": "stripped leading restatement of 'dare'; kept the distinct homograph wave-hair sense",
+    "translation": "dare",
+    "senses": [
+      "wave, style in waves (hair)"
+    ],
+    "inputHash": "073de4e7"
+  },
+  {
+    "kellyId": 869,
+    "decision": "fix",
+    "reason": "kept the distinct 'force' sense (physical/legal power) beyond violence",
+    "translation": "violence",
+    "senses": [
+      "force, power (physical or coercive)"
+    ],
+    "inputHash": "9f4d366b"
+  },
+  {
+    "kellyId": 1317,
+    "decision": "fix",
+    "reason": "stripped leading restatement of wake up; kept the arouse and press-charges senses",
+    "translation": "wake up",
+    "senses": [
+      "arouse, evoke (feelings, memories, questions)",
+      "bring, press (charges)"
+    ],
+    "inputHash": "9a15dde7"
+  },
+  {
+    "kellyId": 302,
+    "decision": "fix",
+    "reason": "kept the distinct way/route sense beyond 'road'",
+    "translation": "road",
+    "senses": [
+      "way, route, path"
+    ],
+    "inputHash": "382a4e6d"
+  },
+  {
+    "kellyId": 229,
+    "decision": "fix",
+    "reason": "väl the particle: kept the distinct discourse senses beyond the adverb 'well'",
+    "translation": "well",
+    "senses": [
+      "once, when (after something has happened)",
+      "I suppose, probably (reservation)",
+      "surely, isn't it? (seeking confirmation)"
+    ],
+    "inputHash": "89445a41"
+  },
+  {
+    "kellyId": 314,
+    "decision": "fix",
+    "reason": "kept the distinct 'elect' sense (vote into office) beyond 'choose'",
+    "translation": "choose",
+    "senses": [
+      "elect (vote into office)"
+    ],
+    "inputHash": "ddcd1a61"
+  },
+  {
+    "kellyId": 514,
+    "decision": "fix",
+    "reason": "stripped leading restatement of 'friend'; kept the distinct supporter sense",
+    "translation": "friend",
+    "senses": [
+      "supporter, backer, well-wisher"
+    ],
+    "inputHash": "ce7f63d1"
+  },
+  {
+    "kellyId": 223,
+    "decision": "fix",
+    "reason": "stripped leading restatement of 'turn'; kept the distinct flip sense",
+    "translation": "turn",
+    "senses": [
+      "flip, turn over (e.g. food in a pan)"
+    ],
+    "inputHash": "3f82c3c3"
+  },
+  {
+    "kellyId": 1139,
+    "decision": "fix",
+    "reason": "kept two distinct collocational senses beyond turn/pivot",
+    "translation": "turn, pivot",
+    "senses": [
+      "turn of events",
+      "turn of phrase, expression"
+    ],
+    "inputHash": "4564555b"
+  },
+  {
+    "kellyId": 1315,
+    "decision": "fix",
+    "reason": "stripped leading restatement of the direction; kept the distinct political sense",
+    "translation": "left",
+    "senses": [
+      "left-wing (politics)"
+    ],
+    "inputHash": "9143a968"
+  },
+  {
+    "kellyId": 474,
+    "decision": "fix",
+    "reason": "stripped leading restatement of 'wait'; kept the distinct wait-for/expect sense",
+    "translation": "wait",
+    "senses": [
+      "wait for, expect, await"
+    ],
+    "inputHash": "49851da9"
+  },
+  {
+    "kellyId": 727,
+    "decision": "fix",
+    "reason": "kept the distinct plural 'values' (principles) sense beyond value/worth",
+    "translation": "value, worth",
+    "senses": [
+      "values, principles (ethical)"
+    ],
+    "inputHash": "5a6d9e62"
+  },
+  {
+    "kellyId": 1234,
+    "decision": "fix",
+    "reason": "stripped leading restatement of value/belief; kept the appraisal and evaluation senses",
+    "translation": "value, belief",
+    "senses": [
+      "appraisal, valuation (of property or price)",
+      "evaluation, assessment"
+    ],
+    "inputHash": "8e236488"
+  },
+  {
+    "kellyId": 911,
+    "decision": "fix",
+    "reason": "kept the distinct growth/stature sense beyond 'plant'",
+    "translation": "plant",
+    "senses": [
+      "growth; stature, build (of a body)"
+    ],
+    "inputHash": "cc90c8e0"
+  },
+  {
+    "kellyId": 447,
+    "decision": "fix",
+    "reason": "stripped leading restatement of go/travel; kept the distinct slide sense",
+    "translation": "go, travel",
+    "senses": [
+      "slide, glide"
+    ],
+    "inputHash": "306217ab"
+  },
+  {
+    "kellyId": 1014,
+    "decision": "fix",
+    "reason": "stripped leading restatement of a person's age; kept the distinct historical-era sense",
+    "translation": "age",
+    "senses": [
+      "age, era (a historical period)"
+    ],
+    "inputHash": "f02dc700"
+  },
+  {
+    "kellyId": 274,
+    "decision": "fix",
+    "reason": "main is 'for'; kept the distinct benefit and directional senses",
+    "translation": "for",
+    "senses": [
+      "on someone's behalf, for someone's benefit",
+      "to, towards (a direction)"
+    ],
+    "inputHash": "4772982e"
+  },
+  {
+    "kellyId": 1142,
+    "decision": "fix",
+    "reason": "kept the distinct 'back' (return) sense beyond 'again'",
+    "translation": "again",
+    "senses": [
+      "back (in return, to a former place)"
+    ],
+    "inputHash": "4c390709"
+  },
+  {
+    "kellyId": 80,
+    "decision": "fix",
+    "reason": "'digit 8' restates the number; kept the distinct school-year senses collapsed to one learner-level item",
+    "translation": "eight",
+    "senses": [
+      "eighth-grader; the eighth school year"
+    ],
+    "inputHash": "d1d8e690"
+  },
+  {
+    "kellyId": 844,
+    "decision": "fix",
+    "reason": "stripped leading restatement (comparative); kept the distinct nominal elderly sense",
+    "translation": "older, elder",
+    "senses": [
+      "elderly (the elderly, as a group)"
+    ],
+    "inputHash": "976dbed1"
+  },
+  {
+    "kellyId": 822,
+    "decision": "fix",
+    "reason": "stripped leading restatement of 'love'; kept the distinct make-love sense",
+    "translation": "love",
+    "senses": [
+      "make love"
+    ],
+    "inputHash": "2fd146b9"
+  },
+  {
+    "kellyId": 1177,
+    "decision": "fix",
+    "reason": "kept two distinct senses beyond still/yet",
+    "translation": "still, yet",
+    "senses": [
+      "yet, even (with comparatives, e.g. än mer)",
+      "no matter (as in vem det än är)"
+    ],
+    "inputHash": "5b065c07"
+  },
+  {
+    "kellyId": 563,
+    "decision": "fix",
+    "reason": "stripped leading restatement of change/alter; kept the distinct change-one's-mind sense",
+    "translation": "change, alter",
+    "senses": [
+      "change one's mind"
+    ],
+    "inputHash": "f14d7406"
+  },
+  {
+    "kellyId": 328,
+    "decision": "fix",
+    "reason": "stripped leading restatement (despite something); kept the two distinct discourse senses",
+    "translation": "anyway, still, even so",
+    "senses": [
+      "after all (contrary to expectation)",
+      "even, still (to a further degree)"
+    ],
+    "inputHash": "89cc0cb5"
+  },
+  {
+    "kellyId": 679,
+    "decision": "fix",
+    "reason": "all items are technical/metaphorical extensions of 'eye' beyond a learner's needs",
+    "translation": "eye",
+    "senses": [],
+    "inputHash": "63d3a70b"
+  },
+  {
+    "kellyId": 1102,
+    "decision": "fix",
+    "reason": "kept two distinct senses beyond scoop/pour/serve",
+    "translation": "scoop, pour, serve",
+    "senses": [
+      "bail (water from a boat)",
+      "pour with rain, bucket down"
+    ],
+    "inputHash": "e4623b38"
+  },
+  {
+    "kellyId": 176,
+    "decision": "fix",
+    "reason": "kept distinct senses beyond 'above'; over/across and the clock-time sense",
+    "translation": "above",
+    "senses": [
+      "over, across",
+      "past (in telling time, e.g. fem över tre)"
+    ],
+    "inputHash": "45db4cc6"
+  },
+  {
+    "kellyId": 2521,
+    "decision": "fix",
+    "reason": "stripped leading restatement of lawyer/attorney; kept the distinct advocate sense",
+    "translation": "lawyer, attorney",
+    "senses": [
+      "advocate (who argues another's case)"
+    ],
+    "inputHash": "2cb737bd"
+  },
+  {
+    "kellyId": 1411,
+    "decision": "fix",
+    "reason": "stripped leading restatement of shop/store; kept the three distinct senses",
+    "translation": "shop, store",
+    "senses": [
+      "deal, transaction",
+      "business (commercial activity)",
+      "affair, matter (of concern)"
+    ],
+    "inputHash": "c8358689"
+  },
+  {
+    "kellyId": 1453,
+    "decision": "fix",
+    "reason": "kept the distinct respect/esteem sense beyond be-careful-with",
+    "translation": "be careful with, to watch, to mind",
+    "senses": [
+      "respect, esteem (value highly)"
+    ],
+    "inputHash": "a387a4e5"
+  },
+  {
+    "kellyId": 1544,
+    "decision": "fix",
+    "reason": "stripped leading restatement (participant); kept the distinct stage-actor sense",
+    "translation": "player, actor",
+    "senses": [
+      "actor (performing a role)"
+    ],
+    "inputHash": "9916af7d"
+  },
+  {
+    "kellyId": 2569,
+    "decision": "fix",
+    "reason": "both items are just kinds of 'album'; no distinct meaning",
+    "translation": "album",
+    "senses": [],
+    "inputHash": "0bfe1f1e"
+  },
+  {
+    "kellyId": 2228,
+    "decision": "fix",
+    "reason": "both items are the same nationality sense; no genuinely distinct meaning",
+    "translation": "American",
+    "senses": [],
+    "inputHash": "18cfffa9"
+  },
+  {
+    "kellyId": 1510,
+    "decision": "fix",
+    "reason": "stripped leading restatement of sense/suspect; kept the distinct discern sense",
+    "translation": "sense, suspect",
+    "senses": [
+      "make out, discern (with difficulty)"
+    ],
+    "inputHash": "47e66e7c"
+  },
+  {
+    "kellyId": 2159,
+    "decision": "fix",
+    "reason": "kept the distinct literal 'breath' sense beyond 'spirit'",
+    "translation": "spirit",
+    "senses": [
+      "breath (as in hålla andan)"
+    ],
+    "inputHash": "2e09cb50"
+  },
+  {
+    "kellyId": 2742,
+    "decision": "fix",
+    "reason": "kept the distinct medical 'fit' sense beyond attack/assault",
+    "translation": "attack, assault",
+    "senses": [
+      "fit, seizure (medical)"
+    ],
+    "inputHash": "cb204448"
+  },
+  {
+    "kellyId": 2272,
+    "decision": "fix",
+    "reason": "kept the distinct 'keen/anxious' sense beyond important/urgent",
+    "translation": "important, urgent",
+    "senses": [
+      "keen, anxious (that something be achieved or prevented)"
+    ],
+    "inputHash": "a34f6f0e"
+  },
+  {
+    "kellyId": 2470,
+    "decision": "fix",
+    "reason": "stripped leading restatement (on someone); kept the distinct infestation sense",
+    "translation": "attack, assault",
+    "senses": [
+      "attack, infestation (e.g. rust or mold)"
+    ],
+    "inputHash": "7b5a11bc"
+  },
+  {
+    "kellyId": 2707,
+    "decision": "fix",
+    "reason": "stripped leading restatement (someone); kept the distinct infest sense",
+    "translation": "attack, assault",
+    "senses": [
+      "attack, infest (e.g. rust or mold)"
+    ],
+    "inputHash": "5a8a3c04"
+  },
+  {
+    "kellyId": 2319,
+    "decision": "fix",
+    "reason": "kept the distinct venue/establishment sense beyond installation/facility",
+    "translation": "installation, industrial plant, facility",
+    "senses": [
+      "venue, establishment"
+    ],
+    "inputHash": "3b42fa97"
+  },
+  {
+    "kellyId": 1883,
+    "decision": "fix",
+    "reason": "stripped leading restatement of 'different'; kept the distinct abnormal and eccentric shades",
+    "translation": "different",
+    "senses": [
+      "abnormal, nonstandard",
+      "eccentric, peculiar"
+    ],
+    "inputHash": "d6de7a58"
+  },
+  {
+    "kellyId": 1555,
+    "decision": "fix",
+    "reason": "'make fit' merely restates adapt/adjust; no distinct meaning",
+    "translation": "adapt, adjust",
+    "senses": [],
+    "inputHash": "ec76ca16"
+  },
+  {
+    "kellyId": 2493,
+    "decision": "fix",
+    "reason": "stripped leading restatement of 'touch'; kept the distinct plot, notice, and funding senses",
+    "translation": "touch",
+    "senses": [
+      "plot, conspiracy, attack",
+      "poster, notice (on a wall)",
+      "grant, appropriation (funding)"
+    ],
+    "inputHash": "88452d00"
+  },
+  {
+    "kellyId": 2351,
+    "decision": "fix",
+    "reason": "stripped leading restatement of hire/employ; kept the distinct conduct-a-hearing sense",
+    "translation": "hire, employ",
+    "senses": [
+      "conduct (a hearing or interrogation)"
+    ],
+    "inputHash": "d4611477"
+  },
+  {
+    "kellyId": 2227,
+    "decision": "fix",
+    "reason": "kept the distinct nominal 'employee' use beyond the adjective employed/hired",
+    "translation": "employed, hired",
+    "senses": [
+      "employee (used as a noun)"
+    ],
+    "inputHash": "9f96df4d"
+  },
+  {
+    "kellyId": 1636,
+    "decision": "fix",
+    "reason": "'presumably' merely restates probably; no distinct meaning",
+    "translation": "probably",
+    "senses": [],
+    "inputHash": "051bc69c"
+  },
+  {
+    "kellyId": 1718,
+    "decision": "fix",
+    "reason": "stripped leading restatement of the body part; kept the distinct branch/extension sense",
+    "translation": "arm",
+    "senses": [
+      "arm (branch or extension)"
+    ],
+    "inputHash": "4b735fb0"
+  },
+  {
+    "kellyId": 2387,
+    "decision": "fix",
+    "reason": "kept the distinct genetic sense; dropped the computing sense as too technical for a learner",
+    "translation": "inheritance",
+    "senses": [
+      "inheritance (genetic, of traits)"
+    ],
+    "inputHash": "4e483b2c"
+  },
+  {
+    "kellyId": 2559,
+    "decision": "fix",
+    "reason": "stripped leading restatement of abort/cancel; kept the distinct interrupt-a-speaker sense",
+    "translation": "abort, cancel",
+    "senses": [
+      "interrupt (someone speaking)"
+    ],
+    "inputHash": "50d2933a"
+  },
+  {
+    "kellyId": 2240,
+    "decision": "fix",
+    "reason": "'division' merely restates department; no distinct meaning",
+    "translation": "department",
+    "senses": [],
+    "inputHash": "79aa1daa"
+  },
+  {
+    "kellyId": 1416,
+    "decision": "fix",
+    "reason": "stripped leading restatement (text section); kept the distinct TV/radio episode sense",
+    "translation": "paragraph",
+    "senses": [
+      "episode (TV or radio)"
+    ],
+    "inputHash": "1ffe21cd"
+  },
+  {
+    "kellyId": 1728,
+    "decision": "fix",
+    "reason": "stripped leading restatement of path/trajectory; kept the sports-track and career senses",
+    "translation": "path, trajectory",
+    "senses": [
+      "track, court, course (sports)",
+      "career path"
+    ],
+    "inputHash": "c9cf1dc9"
+  },
+  {
+    "kellyId": 1767,
+    "decision": "fix",
+    "reason": "kept the distinct 'acquainted' (of a person) sense beyond known/familiar",
+    "translation": "known, familiar",
+    "senses": [
+      "acquainted (with someone)"
+    ],
+    "inputHash": "b9a09518"
+  }
+]

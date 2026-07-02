@@ -13,6 +13,7 @@ import { layerDir, loadManifest } from './lib/layers.mjs'
 const byKellyId = (a, b) => a.kellyId - b.kellyId
 const KINDS = {
   translation: { keyOf: (e) => e.kellyId, keep: (e) => e.decision === 'fix', sort: byKellyId },
+  split: { keyOf: (e) => e.kellyId, keep: (e) => e.decision === 'split', sort: byKellyId },
   examples: { keyOf: (e) => e.kellyId, keep: (e) => Array.isArray(e.examples), sort: byKellyId },
   senses: { keyOf: (e) => e.english, keep: () => true, sort: (a, b) => a.english.localeCompare(b.english, 'sv') },
 }

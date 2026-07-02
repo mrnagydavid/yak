@@ -1,0 +1,1044 @@
+[
+  {
+    "kellyId": 4781,
+    "decision": "fix",
+    "reason": "unpleasant is a distinct shade beyond rude",
+    "translation": "rude",
+    "senses": [
+      "unpleasant, nasty"
+    ],
+    "inputHash": "aa5d9c27"
+  },
+  {
+    "kellyId": 5258,
+    "decision": "fix",
+    "reason": "'worn outermost' is a definition-like restatement, not a distinct meaning",
+    "translation": "on top of",
+    "senses": [],
+    "inputHash": "135affc4"
+  },
+  {
+    "kellyId": 5468,
+    "decision": "fix",
+    "reason": "animosity is a distinct sense beyond unwillingness",
+    "translation": "unwillingness",
+    "senses": [
+      "animosity, aversion"
+    ],
+    "inputHash": "c2e19d42"
+  },
+  {
+    "kellyId": 5239,
+    "decision": "fix",
+    "reason": "baggage and gasket are distinct from the act of packing",
+    "translation": "packing",
+    "senses": [
+      "baggage, luggage",
+      "gasket, seal (between pipes)"
+    ],
+    "inputHash": "a73426de"
+  },
+  {
+    "kellyId": 4510,
+    "decision": "fix",
+    "reason": "line of latitude and similarity are distinct from generic parallel",
+    "translation": "parallel",
+    "senses": [
+      "parallel (line of latitude)",
+      "similarity, analogy"
+    ],
+    "inputHash": "bef9a526"
+  },
+  {
+    "kellyId": 5534,
+    "decision": "fix",
+    "reason": "motto is a distinct shade beyond slogan",
+    "translation": "slogan, catchword",
+    "senses": [
+      "motto"
+    ],
+    "inputHash": "acbb7cef"
+  },
+  {
+    "kellyId": 4661,
+    "decision": "fix",
+    "reason": "corridor, transit, and text/music excerpt are distinct from generic passage",
+    "translation": "passage",
+    "senses": [
+      "corridor, passageway",
+      "transit, passing through",
+      "excerpt (of text or music)"
+    ],
+    "inputHash": "82de1232"
+  },
+  {
+    "kellyId": 4529,
+    "decision": "fix",
+    "reason": "object of devotion and religious Passion are distinct from the emotion",
+    "translation": "passion",
+    "senses": [
+      "great love, object of devotion",
+      "the Passion (of Christ)"
+    ],
+    "inputHash": "10ddc613"
+  },
+  {
+    "kellyId": 4581,
+    "decision": "fix",
+    "reason": "main already covers pen/pencil; feather/quill is a distinct rare sense",
+    "translation": "pen, pencil",
+    "senses": [
+      "feather, quill (historical)"
+    ],
+    "inputHash": "4b222ecf"
+  },
+  {
+    "kellyId": 4574,
+    "decision": "fix",
+    "reason": "keen/up for is a distinct sense beyond alert/fresh",
+    "translation": "alert, fresh",
+    "senses": [
+      "up for, keen on"
+    ],
+    "inputHash": "56356ebb"
+  },
+  {
+    "kellyId": 4334,
+    "decision": "fix",
+    "reason": "benefit/advantage is distinct from the plus sign",
+    "translation": "plus sign",
+    "senses": [
+      "benefit, advantage"
+    ],
+    "inputHash": "6b4a885a"
+  },
+  {
+    "kellyId": 4716,
+    "decision": "fix",
+    "reason": "battery terminal is a distinct sense; math pole is rare",
+    "translation": "pole",
+    "senses": [
+      "terminal (of a battery)"
+    ],
+    "inputHash": "bbd69e50"
+  },
+  {
+    "kellyId": 4856,
+    "decision": "fix",
+    "reason": "mark with dots and reprimand are distinct from hit",
+    "translation": "hit",
+    "senses": [
+      "mark with dots",
+      "give a warning, reprimand"
+    ],
+    "inputHash": "bae0bbdf"
+  },
+  {
+    "kellyId": 5373,
+    "decision": "fix",
+    "reason": "first item restates main; award-a-prize is a distinct sense",
+    "translation": "praise, laud",
+    "senses": [
+      "award a prize to"
+    ],
+    "inputHash": "13783833"
+  },
+  {
+    "kellyId": 5232,
+    "decision": "fix",
+    "reason": "both items merely restate the main adjective / its noun use",
+    "translation": "prostituted",
+    "senses": [
+      "prostitute (as a noun)"
+    ],
+    "inputHash": "3ebec270"
+  },
+  {
+    "kellyId": 4933,
+    "decision": "fix",
+    "reason": "both items restate or define the main pulse",
+    "translation": "pulse",
+    "senses": [],
+    "inputHash": "ff38b9d0"
+  },
+  {
+    "kellyId": 5036,
+    "decision": "fix",
+    "reason": "Passover is a distinct sense beyond Easter",
+    "translation": "Easter",
+    "senses": [
+      "Passover"
+    ],
+    "inputHash": "e26b89d4"
+  },
+  {
+    "kellyId": 5572,
+    "decision": "fix",
+    "reason": "pelt is a distinct shade; fur coat restates main",
+    "translation": "fur, coat",
+    "senses": [
+      "pelt, hide (of an animal)"
+    ],
+    "inputHash": "202ea9fa"
+  },
+  {
+    "kellyId": 5259,
+    "decision": "fix",
+    "reason": "figurative gem/precious thing is distinct from literal pearl",
+    "translation": "pearl",
+    "senses": [
+      "gem, treasure (a precious person or thing)"
+    ],
+    "inputHash": "cdc1d944"
+  },
+  {
+    "kellyId": 4825,
+    "decision": "fix",
+    "reason": "knob/dial is a distinct sense; slang breast is coarse but real",
+    "translation": "steering wheel",
+    "senses": [
+      "knob, dial (e.g. on a radio)"
+    ],
+    "inputHash": "d54f6e68"
+  },
+  {
+    "kellyId": 4742,
+    "decision": "fix",
+    "reason": "consultation proposal is a distinct sense beyond medical referral",
+    "translation": "referral",
+    "senses": [
+      "proposal sent out for consultation"
+    ],
+    "inputHash": "3d0e4dd7"
+  },
+  {
+    "kellyId": 4245,
+    "decision": "fix",
+    "reason": "downright is a distinct shade beyond even",
+    "translation": "even",
+    "senses": [
+      "downright, positively"
+    ],
+    "inputHash": "8b76d3ff"
+  },
+  {
+    "kellyId": 4724,
+    "decision": "fix",
+    "reason": "US Republican Party sense is distinct from the general republican",
+    "translation": "republican",
+    "senses": [
+      "Republican (US party supporter)"
+    ],
+    "inputHash": "564aa6c8"
+  },
+  {
+    "kellyId": 5144,
+    "decision": "fix",
+    "reason": "audit is a distinct sense beyond revise",
+    "translation": "revise",
+    "senses": [
+      "audit"
+    ],
+    "inputHash": "ddc39da3"
+  },
+  {
+    "kellyId": 4414,
+    "decision": "fix",
+    "reason": "lowly/humble is a distinct shade beyond small/little",
+    "translation": "small, little",
+    "senses": [
+      "lowly, humble, modest"
+    ],
+    "inputHash": "85e077c0"
+  },
+  {
+    "kellyId": 5507,
+    "decision": "fix",
+    "reason": "the art of drawing is distinct from a drawing/blueprint",
+    "translation": "drawing, blueprint",
+    "senses": [
+      "drawing (the act or art of)"
+    ],
+    "inputHash": "16afa013"
+  },
+  {
+    "kellyId": 4816,
+    "decision": "fix",
+    "reason": "guided missile is a distinct Swedish sense beyond robot",
+    "translation": "robot",
+    "senses": [
+      "missile, guided missile"
+    ],
+    "inputHash": "eb8337f8"
+  },
+  {
+    "kellyId": 4577,
+    "decision": "fix",
+    "reason": "Romanticism sense is distinct; idealistic restates main",
+    "translation": "romantic",
+    "senses": [
+      "Romantic (of the artistic movement)"
+    ],
+    "inputHash": "996260f7"
+  },
+  {
+    "kellyId": 4363,
+    "decision": "fix",
+    "reason": "first restates main; root a device and settle are distinct",
+    "translation": "rummage, root around",
+    "senses": [
+      "root (gain admin access to a device)",
+      "put down roots, settle"
+    ],
+    "inputHash": "4f4ff0b2"
+  },
+  {
+    "kellyId": 5438,
+    "decision": "fix",
+    "reason": "first restates main; Carnivora is a technical taxonomic sense",
+    "translation": "predator",
+    "senses": [
+      "Carnivora (the taxonomic order)"
+    ],
+    "inputHash": "b234ca92"
+  },
+  {
+    "kellyId": 4889,
+    "decision": "fix",
+    "reason": "first restates main; tail is a distinct sense",
+    "translation": "butt, backside, rump",
+    "senses": [
+      "tail (of an animal)"
+    ],
+    "inputHash": "93eb02e8"
+  },
+  {
+    "kellyId": 5371,
+    "decision": "fix",
+    "reason": "renovate is distinct; arm/equip restate the main",
+    "translation": "arm, equip",
+    "senses": [
+      "renovate, do up (a building)"
+    ],
+    "inputHash": "f7bcf2e5"
+  },
+  {
+    "kellyId": 5245,
+    "decision": "fix",
+    "reason": "counselling is a distinct shade; first item restates main",
+    "translation": "advice",
+    "senses": [
+      "counselling"
+    ],
+    "uncountable": true,
+    "inputHash": "467e9c1e"
+  },
+  {
+    "kellyId": 4922,
+    "decision": "fix",
+    "reason": "first restates main; the sports save is distinct",
+    "translation": "rescue, save",
+    "senses": [
+      "save (in sports, stopping a goal)"
+    ],
+    "inputHash": "5655f070"
+  },
+  {
+    "kellyId": 4963,
+    "decision": "fix",
+    "reason": "first restates main; informal cigarette is distinct",
+    "translation": "smoke",
+    "senses": [
+      "cigarette, smoke (informal)"
+    ],
+    "uncountable": true,
+    "inputHash": "9240e086"
+  },
+  {
+    "kellyId": 4923,
+    "decision": "fix",
+    "reason": "first restates main; reed, vacuum tube, ice skate are distinct senses",
+    "translation": "pipe, tube",
+    "senses": [
+      "reed, cane (bamboo, rattan)",
+      "reed (of a woodwind instrument)",
+      "vacuum tube",
+      "ice skate (hockey slang)"
+    ],
+    "inputHash": "23b95c35"
+  },
+  {
+    "kellyId": 4247,
+    "decision": "fix",
+    "reason": "of the same era is a distinct shade beyond contemporary",
+    "translation": "contemporary",
+    "senses": [
+      "of the same era, coeval"
+    ],
+    "inputHash": "bd4ace33"
+  },
+  {
+    "kellyId": 4217,
+    "decision": "fix",
+    "reason": "expletive use is distinct from the proper noun Satan",
+    "translation": "Satan",
+    "senses": [
+      "damn!, hell! (as a curse)"
+    ],
+    "inputHash": "1265b2df"
+  },
+  {
+    "kellyId": 4641,
+    "decision": "fix",
+    "reason": "scheme and diagram are distinct from a schedule",
+    "translation": "schedule",
+    "senses": [
+      "scheme (systematic arrangement)",
+      "diagram"
+    ],
+    "inputHash": "02af7926"
+  },
+  {
+    "kellyId": 5050,
+    "decision": "fix",
+    "reason": "slip/small piece of paper is distinct from banknote",
+    "translation": "banknote",
+    "senses": [
+      "slip, small piece of paper"
+    ],
+    "inputHash": "dd3024c0"
+  },
+  {
+    "kellyId": 4259,
+    "decision": "fix",
+    "reason": "first restates main; chewy, slow-witted, slow/boring, resilient are distinct",
+    "translation": "tough, leathery, rubbery",
+    "senses": [
+      "chewy (of food)",
+      "slow-witted, dim",
+      "slow, tedious, boring",
+      "tough, resilient (of a person)"
+    ],
+    "inputHash": "98d91852"
+  },
+  {
+    "kellyId": 4307,
+    "decision": "fix",
+    "reason": "sect and sparkling wine are distinct from cult",
+    "translation": "cult",
+    "senses": [
+      "sect (of a larger religion)",
+      "Sekt (German sparkling wine)"
+    ],
+    "inputHash": "dd5f4972"
+  },
+  {
+    "kellyId": 4564,
+    "decision": "fix",
+    "reason": "first restates main; the century sense is rare",
+    "translation": "secular",
+    "senses": [],
+    "inputHash": "d40bf7d8"
+  },
+  {
+    "kellyId": 4424,
+    "decision": "fix",
+    "reason": "trademark/hallmark and pseudonym/byline are distinct from signature",
+    "translation": "signature",
+    "senses": [
+      "trademark, hallmark (distinguishing trait)",
+      "pseudonym, byline (journalistic)"
+    ],
+    "inputHash": "1200c6f2"
+  },
+  {
+    "kellyId": 4635,
+    "decision": "fix",
+    "reason": "first restates main; coins, cutlery, and silver medal are distinct",
+    "translation": "silver",
+    "senses": [
+      "silver, coins (collectively)",
+      "silverware, cutlery",
+      "silver medal (2nd place)"
+    ],
+    "uncountable": true,
+    "inputHash": "0ef85ea2"
+  },
+  {
+    "kellyId": 4493,
+    "decision": "fix",
+    "reason": "unattached person, music release, sport singles, and gravel are distinct",
+    "translation": "single",
+    "senses": [
+      "single, unattached person",
+      "single (music release)",
+      "singles (in tennis etc.)",
+      "coarse gravel, shingle"
+    ],
+    "inputHash": "d018cba8"
+  },
+  {
+    "kellyId": 4508,
+    "decision": "fix",
+    "reason": "peel/skin and hard case are distinct from shell",
+    "translation": "shell",
+    "senses": [
+      "peel, skin (of fruit or vegetables)",
+      "hard case (for a phone)"
+    ],
+    "inputHash": "66124e57"
+  },
+  {
+    "kellyId": 5609,
+    "decision": "fix",
+    "reason": "head (mind) and head of a nail are distinct from skull",
+    "translation": "skull",
+    "senses": [
+      "head, brains (mental faculties)",
+      "head (of a nail or screw)"
+    ],
+    "inputHash": "8c6186a8"
+  },
+  {
+    "kellyId": 4226,
+    "decision": "fix",
+    "reason": "first restates main; appearance/guise and bolting horse are distinct",
+    "translation": "light, glow",
+    "senses": [
+      "appearance, guise, pretence",
+      "bolting (of a runaway horse)"
+    ],
+    "inputHash": "8dd98149"
+  },
+  {
+    "kellyId": 5495,
+    "decision": "fix",
+    "reason": "scabbard/sheath is a distinct sense beyond ski",
+    "translation": "ski",
+    "senses": [
+      "scabbard, sheath (for a sword)"
+    ],
+    "inputHash": "cc5ce2da"
+  },
+  {
+    "kellyId": 5474,
+    "decision": "fix",
+    "reason": "first restates main; change, replace, distribute are distinct",
+    "translation": "shift, vary",
+    "senses": [
+      "change (over time)",
+      "replace, switch out",
+      "divide, distribute"
+    ],
+    "inputHash": "05eb6448"
+  },
+  {
+    "kellyId": 5053,
+    "decision": "fix",
+    "reason": "hide/fur of a whole animal and leather are distinct from skin",
+    "translation": "skin",
+    "senses": [
+      "hide, fur (of a whole animal)",
+      "leather"
+    ],
+    "inputHash": "8ae6a213"
+  },
+  {
+    "kellyId": 5156,
+    "decision": "fix",
+    "reason": "computer desktop is distinct from the piece of furniture",
+    "translation": "desk",
+    "senses": [
+      "desktop (of a computer)"
+    ],
+    "inputHash": "5b812a59"
+  },
+  {
+    "kellyId": 4833,
+    "decision": "fix",
+    "reason": "first restates main; put spin on a ball and squirm are distinct",
+    "translation": "screw",
+    "senses": [
+      "put spin on (a ball)",
+      "squirm, wriggle"
+    ],
+    "inputHash": "f7eab690"
+  },
+  {
+    "kellyId": 5135,
+    "decision": "fix",
+    "reason": "first restates main; speck of debris (in the eye) is distinct",
+    "translation": "trash, junk, litter",
+    "senses": [
+      "speck, bit of grit (in the eye)"
+    ],
+    "inputHash": "d4c14280"
+  },
+  {
+    "kellyId": 4466,
+    "decision": "fix",
+    "reason": "shady/dodgy and weird/strange are distinct from dim",
+    "translation": "dim",
+    "senses": [
+      "shady, fishy, dodgy",
+      "weird, strange"
+    ],
+    "inputHash": "8eb5c542"
+  },
+  {
+    "kellyId": 5472,
+    "decision": "fix",
+    "reason": "toast (cheers) is a distinct sense beyond bowl",
+    "translation": "bowl",
+    "senses": [
+      "toast (raising a glass, 'cheers')"
+    ],
+    "inputHash": "f8892a91"
+  },
+  {
+    "kellyId": 5325,
+    "decision": "fix",
+    "reason": "first restates main; slang for an unattractive woman is distinct",
+    "translation": "cabinet, cupboard, locker",
+    "senses": [
+      "unattractive woman (slang)"
+    ],
+    "inputHash": "7925410d"
+  },
+  {
+    "kellyId": 5304,
+    "decision": "fix",
+    "reason": "first restates main; figurative reap-as-reward is distinct",
+    "translation": "harvest",
+    "senses": [
+      "reap, receive (as a reward)"
+    ],
+    "inputHash": "397f5026"
+  },
+  {
+    "kellyId": 5574,
+    "decision": "fix",
+    "reason": "first restates main; informal sum of money is distinct",
+    "translation": "coin",
+    "senses": [
+      "sum of money, penny (informal)"
+    ],
+    "inputHash": "0331070c"
+  },
+  {
+    "kellyId": 5029,
+    "decision": "fix",
+    "reason": "first restates main; all gone and exhausted are distinct",
+    "translation": "over, finished",
+    "senses": [
+      "all gone, run out (of supplies)",
+      "exhausted, worn out (of a person)"
+    ],
+    "inputHash": "f71bd929"
+  },
+  {
+    "kellyId": 5042,
+    "decision": "fix",
+    "reason": "first restates main; turn off a light and slake lime are distinct",
+    "translation": "put out, extinguish",
+    "senses": [
+      "turn off (a light)",
+      "slake (quicklime)"
+    ],
+    "inputHash": "94343ba1"
+  },
+  {
+    "kellyId": 4287,
+    "decision": "fix",
+    "reason": "first restates main; tow and drag oneself are distinct",
+    "translation": "drag, lug",
+    "senses": [
+      "tow",
+      "drag oneself, trudge"
+    ],
+    "inputHash": "6448138c"
+  },
+  {
+    "kellyId": 5136,
+    "decision": "fix",
+    "reason": "first restates main; be contagious is a distinct sense",
+    "translation": "infect",
+    "senses": [
+      "be contagious"
+    ],
+    "inputHash": "c6d460be"
+  },
+  {
+    "kellyId": 5446,
+    "decision": "fix",
+    "reason": "first restates main; blow to a person and spanking are distinct",
+    "translation": "bang, boom, smack",
+    "senses": [
+      "hit, blow (to a person)",
+      "spanking, smack (punishment)"
+    ],
+    "inputHash": "f33f5710"
+  },
+  {
+    "kellyId": 4949,
+    "decision": "fix",
+    "reason": "first restates main; colloquial flattery is distinct",
+    "translation": "butter",
+    "senses": [
+      "flattery, sucking up (colloquial)"
+    ],
+    "uncountable": true,
+    "inputHash": "8a958e3c"
+  },
+  {
+    "kellyId": 4912,
+    "decision": "fix",
+    "reason": "quick to act is a distinct shade beyond near-term/immediate",
+    "translation": "near-term, immediate, ready",
+    "senses": [
+      "quick (to act or react)"
+    ],
+    "inputHash": "df8450fa"
+  },
+  {
+    "kellyId": 4560,
+    "decision": "fix",
+    "reason": "awry and gone wrong are distinct from at-an-angle",
+    "translation": "at an angle, obliquely",
+    "senses": [
+      "awry, off course",
+      "wrong, astray (gå snett)"
+    ],
+    "inputHash": "f0255c40"
+  },
+  {
+    "kellyId": 4375,
+    "decision": "fix",
+    "reason": "prediction/forecast and trendspotting are distinct from spying/scouting",
+    "translation": "spying, scouting",
+    "senses": [
+      "prediction, forecast",
+      "trendspotting"
+    ],
+    "inputHash": "e0ad1286"
+  },
+  {
+    "kellyId": 4633,
+    "decision": "fix",
+    "reason": "first restates main; the boot/dismissal is distinct",
+    "translation": "kick",
+    "senses": [
+      "the boot, dismissal (from a job)"
+    ],
+    "inputHash": "be59beed"
+  },
+  {
+    "kellyId": 4844,
+    "decision": "fix",
+    "reason": "mirror-like surface and figurative reflection are distinct from mirror",
+    "translation": "mirror",
+    "senses": [
+      "mirror-like surface (e.g. a calm lake)",
+      "reflection, something that mirrors"
+    ],
+    "inputHash": "f531e54f"
+  },
+  {
+    "kellyId": 5197,
+    "decision": "fix",
+    "reason": "first restates main; figurative ground rules is distinct",
+    "translation": "game rule",
+    "senses": [
+      "ground rules (figurative)"
+    ],
+    "inputHash": "ce336837"
+  },
+  {
+    "kellyId": 5191,
+    "decision": "fix",
+    "reason": "first restates main; burst from pressure is distinct",
+    "translation": "crack, fracture, split",
+    "senses": [
+      "burst (from internal pressure)"
+    ],
+    "inputHash": "610178d7"
+  },
+  {
+    "kellyId": 5569,
+    "decision": "fix",
+    "reason": "first restates main; draw a bow, buckle, span are distinct",
+    "translation": "tighten, tense",
+    "senses": [
+      "draw (a bow)",
+      "buckle, strap on",
+      "span, stretch across"
+    ],
+    "inputHash": "0e6bc787"
+  },
+  {
+    "kellyId": 4602,
+    "decision": "fix",
+    "reason": "first restates main; become acquainted (stifta bekantskap) is distinct",
+    "translation": "found, establish",
+    "senses": [
+      "become acquainted (with someone)"
+    ],
+    "inputHash": "7fd40142"
+  },
+  {
+    "kellyId": 5530,
+    "decision": "fix",
+    "reason": "first restates main; Big Brother surveillance sense is distinct",
+    "translation": "older brother, big brother",
+    "senses": [
+      "Big Brother (authoritarian surveillance)"
+    ],
+    "inputHash": "ccf7e2df"
+  },
+  {
+    "kellyId": 5112,
+    "decision": "fix",
+    "reason": "first restates main; historical war chariot is distinct",
+    "translation": "tank",
+    "senses": [
+      "war chariot (historical)"
+    ],
+    "inputHash": "a11c9dae"
+  },
+  {
+    "kellyId": 4692,
+    "decision": "fix",
+    "reason": "first restates main; pour/gush is a distinct shade",
+    "translation": "flow, stream",
+    "senses": [
+      "pour, gush"
+    ],
+    "inputHash": "4301e9f1"
+  },
+  {
+    "kellyId": 5357,
+    "decision": "fix",
+    "reason": "first restates main; dated steel tool sense is distinct",
+    "translation": "steel",
+    "senses": [
+      "steel tool, sharpening steel (dated)"
+    ],
+    "uncountable": true,
+    "inputHash": "59c03485"
+  },
+  {
+    "kellyId": 4433,
+    "decision": "fix",
+    "reason": "first restates main; substance/depth (meaningful content) is distinct",
+    "translation": "substance",
+    "senses": [
+      "substance, depth (meaningful content)"
+    ],
+    "inputHash": "b2c84287"
+  },
+  {
+    "kellyId": 4841,
+    "decision": "fix",
+    "reason": "first restates main; the 'not a chance' idiom is distinct",
+    "translation": "sigh",
+    "senses": [
+      "chance, hope (in negatives: inte en suck)"
+    ],
+    "inputHash": "253f24e1"
+  },
+  {
+    "kellyId": 5098,
+    "decision": "fix",
+    "reason": "formal sovereign/supreme is distinct from colloquial excellent",
+    "translation": "excellent, brilliant",
+    "senses": [
+      "sovereign, supreme (formal)"
+    ],
+    "inputHash": "919f3641"
+  },
+  {
+    "kellyId": 5205,
+    "decision": "fix",
+    "reason": "deception/deceit is a distinct shade beyond betrayal",
+    "translation": "betrayal, treachery, treason",
+    "senses": [
+      "deception, deceit, fraud"
+    ],
+    "inputHash": "2dc78cbc"
+  },
+  {
+    "kellyId": 5295,
+    "decision": "fix",
+    "reason": "first restates main; figurative swallow (believe/accept) is distinct",
+    "translation": "swallow",
+    "senses": [
+      "swallow, accept (believe, figuratively)"
+    ],
+    "inputHash": "def07d67"
+  },
+  {
+    "kellyId": 4592,
+    "decision": "fix",
+    "reason": "first restates main; widespread famine is distinct",
+    "translation": "starvation",
+    "senses": [
+      "famine (widespread)"
+    ],
+    "uncountable": true,
+    "inputHash": "6fcdde29"
+  },
+  {
+    "kellyId": 5106,
+    "decision": "fix",
+    "reason": "first restates main; transitive starve-someone is distinct",
+    "translation": "starve, go hungry",
+    "senses": [
+      "starve (someone, by withholding food)"
+    ],
+    "inputHash": "ef29e63b"
+  },
+  {
+    "kellyId": 5305,
+    "decision": "fix",
+    "reason": "first restates main; harshly criticize (pan) is distinct",
+    "translation": "saw",
+    "senses": [
+      "pan, slam (criticize harshly)"
+    ],
+    "inputHash": "b13d7193"
+  },
+  {
+    "kellyId": 4347,
+    "decision": "fix",
+    "reason": "first restates main; warbler (bird) is distinct",
+    "translation": "singer",
+    "senses": [
+      "warbler (songbird)"
+    ],
+    "inputHash": "3d19154f"
+  },
+  {
+    "kellyId": 4456,
+    "decision": "fix",
+    "reason": "claimant is a distinct shade beyond applicant/candidate",
+    "translation": "applicant, candidate",
+    "senses": [
+      "claimant (of a right or benefit)"
+    ],
+    "inputHash": "01793f13"
+  },
+  {
+    "kellyId": 4974,
+    "decision": "fix",
+    "reason": "first restates main; finance term/due date is distinct",
+    "translation": "semester, term",
+    "senses": [
+      "term, due date (finance)"
+    ],
+    "inputHash": "5fcfc6ce"
+  },
+  {
+    "kellyId": 4412,
+    "decision": "fix",
+    "reason": "possession and affiliation are distinct from belonging",
+    "translation": "belonging",
+    "senses": [
+      "possession, belongings",
+      "affiliation, membership"
+    ],
+    "inputHash": "daf58388"
+  },
+  {
+    "kellyId": 4558,
+    "decision": "fix",
+    "reason": "first restates main; formally write to someone is distinct",
+    "translation": "ascribe, attribute",
+    "senses": [
+      "write to (formally)"
+    ],
+    "inputHash": "e7e3c1d4"
+  },
+  {
+    "kellyId": 4546,
+    "decision": "fix",
+    "reason": "appeal to/please and prosecute are distinct from address",
+    "translation": "address",
+    "senses": [
+      "appeal to, please",
+      "prosecute, charge"
+    ],
+    "inputHash": "ce1a2d15"
+  },
+  {
+    "kellyId": 4950,
+    "decision": "fix",
+    "reason": "first restates main; accede to an agreement is distinct",
+    "translation": "take office, accede",
+    "senses": [
+      "accede to (an agreement or treaty)"
+    ],
+    "inputHash": "924ac67e"
+  },
+  {
+    "kellyId": 4418,
+    "decision": "fix",
+    "reason": "first restates main; wrong/off in a comical way is distinct",
+    "translation": "crazy, nutty",
+    "senses": [
+      "wrong, off (comically)"
+    ],
+    "inputHash": "24ca0792"
+  },
+  {
+    "kellyId": 4520,
+    "decision": "fix",
+    "reason": "bodily tolerance and margin of error are distinct shades of tolerance",
+    "translation": "tolerance",
+    "senses": [
+      "tolerance (of the body to a substance)",
+      "tolerance, margin (of error)"
+    ],
+    "inputHash": "7e46ac58"
+  },
+  {
+    "kellyId": 4555,
+    "decision": "fix",
+    "reason": "first restates main; dramatic genre is distinct",
+    "translation": "tragedy",
+    "senses": [
+      "tragedy (dramatic genre)"
+    ],
+    "inputHash": "99fab8f7"
+  },
+  {
+    "kellyId": 4880,
+    "decision": "fix",
+    "reason": "first restates main; tattered/torn (of clothes) is distinct",
+    "translation": "broken",
+    "senses": [
+      "tattered, torn (of fabric or clothes)"
+    ],
+    "inputHash": "bbe41ec4"
+  },
+  {
+    "kellyId": 5353,
+    "decision": "fix",
+    "reason": "first restates main; third grade and third gear are distinct",
+    "translation": "three",
+    "senses": [
+      "third grade (school year)",
+      "third gear"
+    ],
+    "inputHash": "f829895d"
+  },
+  {
+    "kellyId": 5012,
+    "decision": "fix",
+    "reason": "first restates main; internet troll is distinct",
+    "translation": "troll",
+    "senses": [
+      "troll (internet troll)"
+    ],
+    "inputHash": "2252cdf7"
+  }
+]

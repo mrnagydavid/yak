@@ -6,6 +6,16 @@ import type { Cefr, Entry, PartOfSpeech, Translation } from './types'
 // launch, and on later launches syncs a shipped seed update onto the existing DB without resetting
 // progress. Matching is by `seedKey` (the Kelly id baked into the seed). (SPEC §9, §13)
 
+/** An extra practiceable meaning of a word beyond the primary `translation` (multi-meaning design).
+ *  Each becomes its own native Entry + Translation join row (production-only card). `key` is the
+ *  stable per-word meaningKey (1, 2, …) for seed-sync. */
+interface AltMeaning {
+  key: number
+  translation: string
+  enUncountable?: boolean
+  gloss?: string // production-prompt hint when this meaning's English is ambiguous (§12); sense pass owns it
+  senseKey?: string // production-grouping key (`english#sense`) so this meaning groups with its synonyms (§12); sense pass owns it
+}
 interface SeedEntry {
   seedKey: number
   lemma: string
@@ -17,6 +27,7 @@ interface SeedEntry {
   subDefinitions?: string[]
   examples?: string[]
   translation: string
+  altMeanings?: AltMeaning[] // extra practiceable meanings (each its own card); primary is `translation`
   sense?: { key: string; gloss: string } // production grouping: which sense of `translation` this is
   enUncountable?: boolean // English translation is an uncountable noun → renderer omits the article
   svUncountable?: boolean // Swedish lemma is a mass noun → renderer omits the article ("folk", not "ett folk")
@@ -56,8 +67,40 @@ const SEED_VERSION_KEY = 'seedVersion'
 const getSyncedSeedVersion = async (): Promise<string | undefined> => (await db.meta.get(SEED_VERSION_KEY))?.value
 const setSyncedSeedVersion = (version: string): Promise<string> => db.meta.put({ key: SEED_VERSION_KEY, value: version })
 
-/** Build the target entry, its native (translation) entry, and the link between them. */
-function buildPair(s: SeedEntry, version: string, now: number): { target: Entry; native: Entry; translation: Translation } {
+/** Build a native (translation) Entry for one meaning of a word. */
+function buildNative(lemma: string, pos: PartOfSpeech, uncountable: boolean, version: string, now: number): Entry {
+  return {
+    id: ulid(),
+    lang: NATIVE_LANG,
+    lemma,
+    pos,
+    // Uncountable English nouns drop the "a/an" the renderer would otherwise add (e.g. "abuse").
+    features: uncountable ? { countable: 'no' } : {},
+    inflections: {},
+    pronunciation: {},
+    source: 'seed',
+    seedVersion: version,
+    study: 'auto',
+    createdAt: now,
+    updatedAt: now,
+  }
+}
+
+/** The meanings of a seed entry, primary first (meaningKey 0), then each promoted altMeaning.
+ *  A promoted meaning may carry a `gloss` (its production-prompt hint) and a `senseKey` (its
+ *  production-grouping key); the primary's gloss/key live on `Entry.sense`, so meaningKey 0 never
+ *  sets a link gloss/senseKey here. */
+function seedMeanings(s: SeedEntry): { key: number; translation: string; enUncountable: boolean; gloss?: string; senseKey?: string }[] {
+  return [
+    { key: 0, translation: s.translation, enUncountable: s.enUncountable === true },
+    ...(s.altMeanings ?? []).map((m) => ({ key: m.key, translation: m.translation, enUncountable: m.enUncountable === true, gloss: m.gloss, senseKey: m.senseKey })),
+  ]
+}
+
+/** Build the target entry plus one native Entry + Translation link per practiceable meaning. A
+ *  single-meaning word yields one link (meaningKey 0, primary); a multi-meaning word fans out into
+ *  N links, the primary carrying the word's recognition. (multi-meaning design) */
+function buildEntry(s: SeedEntry, version: string, now: number): { target: Entry; natives: Entry[]; translations: Translation[] } {
   const target: Entry = {
     id: ulid(),
     lang: TARGET_LANG,
@@ -78,23 +121,24 @@ function buildPair(s: SeedEntry, version: string, now: number): { target: Entry;
     createdAt: now,
     updatedAt: now,
   }
-  const native: Entry = {
-    id: ulid(),
-    lang: NATIVE_LANG,
-    lemma: s.translation,
-    pos: s.pos,
-    // Uncountable English nouns drop the "a/an" the renderer would otherwise add (e.g. "abuse").
-    features: s.enUncountable ? { countable: 'no' } : {},
-    inflections: {},
-    pronunciation: {},
-    source: 'seed',
-    seedVersion: version,
-    study: 'auto',
-    createdAt: now,
-    updatedAt: now,
+  const natives: Entry[] = []
+  const translations: Translation[] = []
+  for (const m of seedMeanings(s)) {
+    const native = buildNative(m.translation, s.pos, m.enUncountable, version, now)
+    natives.push(native)
+    translations.push({
+      id: ulid(),
+      targetEntryId: target.id,
+      nativeEntryId: native.id,
+      meaningKey: m.key,
+      primary: m.key === 0,
+      ...(m.gloss ? { gloss: m.gloss } : {}),
+      ...(m.senseKey ? { senseKey: m.senseKey } : {}),
+      source: 'seed',
+      createdAt: now,
+    })
   }
-  const translation: Translation = { id: ulid(), targetEntryId: target.id, nativeEntryId: native.id, source: 'seed', createdAt: now }
-  return { target, native, translation }
+  return { target, natives, translations }
 }
 
 async function importSeed(seed: SeedFile): Promise<void> {
@@ -102,9 +146,9 @@ async function importSeed(seed: SeedFile): Promise<void> {
   const entries: Entry[] = []
   const translations: Translation[] = []
   for (const s of seed.entries) {
-    const { target, native, translation } = buildPair(s, seed.version, now)
-    entries.push(target, native)
-    translations.push(translation)
+    const { target, natives, translations: trs } = buildEntry(s, seed.version, now)
+    entries.push(target, ...natives)
+    translations.push(...trs)
   }
   await db.transaction('rw', db.entries, db.translations, async () => {
     await db.entries.bulkAdd(entries)
@@ -193,17 +237,22 @@ async function syncSeed(seed: SeedFile): Promise<void> {
     for (const id of plan.deletes) await deleteSeedTarget(id)
     for (const u of plan.updates) await updateSeedTarget(u.id, u.seed, seed.version, now)
     for (const s of plan.adds) {
-      const { target, native, translation } = buildPair(s, seed.version, now)
-      await db.entries.bulkAdd([target, native])
-      await db.translations.add(translation)
+      const { target, natives, translations: trs } = buildEntry(s, seed.version, now)
+      await db.entries.bulkAdd([target, ...natives])
+      await db.translations.bulkAdd(trs)
     }
   })
   await setSyncedSeedVersion(seed.version)
   console.info(`seed synced → ${seed.version}: +${plan.adds.length} ~${plan.updates.length} -${plan.deletes.length}`)
 }
 
-/** Update a seed target + its translation in place — same ids, so reviewStates and the user's
- *  overlay are preserved (policy: a changed translation keeps the learner's progress). */
+/** Update a seed target + reconcile its full set of meanings in place — same ids, so reviewStates and
+ *  the user's overlay are preserved (policy: a changed translation keeps the learner's progress).
+ *
+ *  The meaning set is reconciled by `meaningKey`: a matched meaning updates its native entry in place
+ *  (its ReviewState survives); a new meaning adds a native entry + link; a removed meaning is deleted
+ *  along with its native entry and review states. This is the multi-meaning upgrade path — the
+ *  highest-risk piece, because it must never silently lose a learner's progress on a meaning it kept. */
 async function updateSeedTarget(targetId: string, s: SeedEntry, version: string, now: number): Promise<void> {
   await db.entries.update(targetId, {
     lemma: s.lemma,
@@ -220,15 +269,89 @@ async function updateSeedTarget(targetId: string, s: SeedEntry, version: string,
     seedHash: s.h,
     updatedAt: now,
   })
-  const tr = await db.translations.where('targetEntryId').equals(targetId).first()
-  if (tr)
-    await db.entries.update(tr.nativeEntryId, {
-      lemma: s.translation,
+
+  const existing = await db.translations.where('targetEntryId').equals(targetId).toArray()
+  const plan = planMeaningSync(existing, seedMeanings(s))
+
+  for (const u of plan.updates) {
+    // Matched meaning: update its native entry in place — the link id (and its ReviewState) survive.
+    await db.entries.update(u.nativeEntryId, {
+      lemma: u.meaning.translation,
       pos: s.pos,
-      features: s.enUncountable ? { countable: 'no' } : {},
+      features: u.meaning.enUncountable ? { countable: 'no' } : {},
       seedVersion: version,
       updatedAt: now,
     })
+    // Reconcile the link's fields the seed owns: the primary flag (only when it must flip) and the
+    // promoted-meaning gloss + senseKey (which a curation change may add/alter/clear on a matched link).
+    await db.translations.update(u.id, {
+      ...(u.setPrimary !== undefined ? { primary: u.setPrimary } : {}),
+      gloss: u.meaning.gloss,
+      senseKey: u.meaning.senseKey,
+    })
+  }
+  for (const m of plan.adds) {
+    // New meaning added by a seed update: fresh native entry + link (no prior progress to preserve).
+    const native = buildNative(m.translation, s.pos, m.enUncountable, version, now)
+    await db.entries.add(native)
+    await db.translations.add({
+      id: ulid(),
+      targetEntryId: targetId,
+      nativeEntryId: native.id,
+      meaningKey: m.key,
+      primary: m.key === 0,
+      ...(m.gloss ? { gloss: m.gloss } : {}),
+      ...(m.senseKey ? { senseKey: m.senseKey } : {}),
+      source: 'seed',
+      createdAt: now,
+    })
+  }
+  // Meanings removed from the seed: delete the link, its native entry, and its review states.
+  for (const d of plan.deletes) {
+    const states = await db.reviewStates.where('translationId').equals(d.id).toArray()
+    if (states.length) await db.reviewStates.bulkDelete(states.map((r) => r.id))
+    await db.entries.delete(d.nativeEntryId)
+    await db.translations.delete(d.id)
+  }
+}
+
+interface SeedMeaning {
+  key: number
+  translation: string
+  enUncountable: boolean
+  gloss?: string // promoted-meaning production hint; carried onto the Translation link
+  senseKey?: string // promoted-meaning production-grouping key; carried onto the Translation link
+}
+export interface MeaningSyncPlan {
+  updates: { id: string; nativeEntryId: string; meaning: SeedMeaning; setPrimary?: boolean }[]
+  adds: SeedMeaning[]
+  deletes: { id: string; nativeEntryId: string }[]
+}
+
+/** Pure reconciliation of a word's existing meaning links against the seed's meanings, matched by
+ *  `meaningKey`. A matched key updates in place (its link id — and thus ReviewState — is preserved);
+ *  a new key is added; a key no longer in the seed is deleted. `setPrimary` is set only when a matched
+ *  link's primary flag must flip (e.g. a pre-v6 backfill), avoiding a redundant write. This is the
+ *  progress-preserving core of the multi-meaning upgrade path — kept pure so it is directly tested. */
+export function planMeaningSync(
+  existing: { id: string; nativeEntryId: string; meaningKey: number; primary: boolean }[],
+  wanted: SeedMeaning[],
+): MeaningSyncPlan {
+  const byKey = new Map(existing.map((t) => [t.meaningKey, t]))
+  const wantedKeys = new Set(wanted.map((m) => m.key))
+  const updates: MeaningSyncPlan['updates'] = []
+  const adds: SeedMeaning[] = []
+  for (const m of wanted) {
+    const match = byKey.get(m.key)
+    if (match) {
+      const wantPrimary = m.key === 0
+      updates.push({ id: match.id, nativeEntryId: match.nativeEntryId, meaning: m, ...(match.primary !== wantPrimary ? { setPrimary: wantPrimary } : {}) })
+    } else {
+      adds.push(m)
+    }
+  }
+  const deletes = existing.filter((t) => !wantedKeys.has(t.meaningKey)).map((t) => ({ id: t.id, nativeEntryId: t.nativeEntryId }))
+  return { updates, adds, deletes }
 }
 
 /** Remove a seed target entirely — its translation(s), native entry, review states and overlay —

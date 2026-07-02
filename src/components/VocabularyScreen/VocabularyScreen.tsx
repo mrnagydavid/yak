@@ -6,6 +6,7 @@ import { getActiveProfile, listVocabulary, type Status, type VocabRow } from '..
 import { getRenderer, type LanguageRenderer } from '../../lang'
 import { getFilters, type LevelFilter, type MatchMode, saveFilters, type SortOption, type SourceFilter } from './filter-store'
 import { FilterChip } from './FilterChip'
+import { applyFilters } from './search'
 import styles from './VocabularyScreen.module.css'
 
 const STATUS_GLYPH: Record<Status, string> = { none: '⚪', struggling: '🔴', learning: '🟡', solid: '🟢' }
@@ -43,51 +44,6 @@ const MATCH_OPTIONS = [
   { value: 'exact', label: 'Exact' },
 ] as const
 
-function fieldMatches(field: string | undefined, q: string, mode: MatchMode): boolean {
-  if (!field) return false
-  const f = field.toLowerCase()
-  if (mode === 'exact') return f === q
-  if (mode === 'starts') return f.startsWith(q)
-  return f.includes(q)
-}
-
-function matchesSearch(row: VocabRow, q: string, mode: MatchMode): boolean {
-  return (
-    fieldMatches(row.entry.lemma, q, mode) ||
-    fieldMatches(row.native, q, mode) ||
-    fieldMatches(row.note, q, mode)
-  )
-}
-
-function applyFilters(
-  rows: VocabRow[],
-  search: string,
-  match: MatchMode,
-  source: SourceFilter,
-  level: LevelFilter,
-  sort: SortOption,
-  lang: string,
-): VocabRow[] {
-  const q = search.trim().toLowerCase()
-  const filtered = rows.filter((row) => {
-    if (q && !matchesSearch(row, q, match)) return false
-    if (source === 'study' && !row.inStudySet) return false
-    if (source === 'added' && row.entry.source !== 'user') return false
-    if (level === 'none' && row.entry.cefr) return false
-    if (level !== 'all' && level !== 'none' && row.entry.cefr !== level) return false
-    return true
-  })
-
-  // Collate alphabetically by the target language so e.g. Swedish å/ä/ö sort after z.
-  const collator = new Intl.Collator(lang)
-  const sorted = [...filtered]
-  if (sort === 'alphabetical') sorted.sort((a, b) => collator.compare(a.entry.lemma, b.entry.lemma))
-  else if (sort === 'practiced') sorted.sort((a, b) => (b.lastPracticed ?? 0) - (a.lastPracticed ?? 0))
-  else if (sort === 'added') sorted.sort((a, b) => b.entry.createdAt - a.entry.createdAt)
-  else if (sort === 'hardest') sorted.sort((a, b) => b.lapses - a.lapses)
-  return sorted
-}
-
 /** Lags `value` by `delayMs` so the (expensive) filter+sort over ~8.3k rows runs on a pause in
  *  typing, not on every keystroke. The input stays bound to the live value, so typing feels instant. */
 function useDebouncedValue<T>(value: T, delayMs: number): T {
@@ -106,7 +62,7 @@ function useDebouncedValue<T>(value: T, delayMs: number): T {
 const VocabList = memo(function VocabList({ rows, renderer }: { rows: VocabRow[]; renderer?: LanguageRenderer }) {
   return (
     <ul class={styles.list}>
-      {rows.map(({ entry, native, inStudySet, recognize, produce }) => (
+      {rows.map(({ entry, meanings, inStudySet, recognize, produce }) => (
         <li
           key={entry.id}
           class={`${styles.row} ${inStudySet ? '' : styles.dimmed}`}
@@ -124,7 +80,7 @@ const VocabList = memo(function VocabList({ rows, renderer }: { rows: VocabRow[]
             {renderer ? renderer.renderLemma(entry) : entry.lemma}
             {entry.disambiguator ? <span class={styles.disambiguator}> ({entry.disambiguator})</span> : null}
           </span>
-          {native ? <span class={styles.native}>→ {native}</span> : null}
+          {meanings.length ? <span class={styles.native}>→ {meanings.join(', ')}</span> : null}
         </li>
       ))}
     </ul>

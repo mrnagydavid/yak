@@ -1,0 +1,1017 @@
+[
+  {
+    "kellyId": 1491,
+    "decision": "fix",
+    "reason": "stripped main 'suffer'; kept distinct senses",
+    "translation": "suffer",
+    "senses": [
+      "pass, go by (of time)",
+      "stand, tolerate"
+    ],
+    "inputHash": "9995f6ca"
+  },
+  {
+    "kellyId": 1887,
+    "decision": "fix",
+    "reason": "'equality' is a genuinely distinct sense",
+    "translation": "similarity",
+    "senses": [
+      "equality"
+    ],
+    "inputHash": "64214d4d"
+  },
+  {
+    "kellyId": 1711,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct causative sense",
+    "translation": "resemble, be similar to",
+    "senses": [
+      "liken, compare"
+    ],
+    "inputHash": "228f965c"
+  },
+  {
+    "kellyId": 1712,
+    "decision": "fix",
+    "reason": "'rely on' restates the main 'trust'",
+    "translation": "trust",
+    "senses": [],
+    "inputHash": "ad0279c4"
+  },
+  {
+    "kellyId": 1419,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct 'curl hair' sense",
+    "translation": "attract, lure, entice",
+    "senses": [
+      "curl (hair)"
+    ],
+    "inputHash": "837e2055"
+  },
+  {
+    "kellyId": 1976,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct biology sense",
+    "translation": "premises, venue, room",
+    "senses": [
+      "habitat (of plants/animals)"
+    ],
+    "inputHash": "ba1e12c6"
+  },
+  {
+    "kellyId": 1500,
+    "decision": "fix",
+    "reason": "stripped main 'race'; kept distinct senses",
+    "translation": "race",
+    "senses": [
+      "run (act of running)",
+      "course (of a river or time)"
+    ],
+    "inputHash": "bf9cc3d5"
+  },
+  {
+    "kellyId": 1874,
+    "decision": "fix",
+    "reason": "stripped main; kept the exclamation use",
+    "translation": "calm, tranquil",
+    "senses": [
+      "no worries!, relax! (exclamation)"
+    ],
+    "inputHash": "a0973085"
+  },
+  {
+    "kellyId": 2381,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct senses",
+    "translation": "trick, fool, deceive",
+    "senses": [
+      "lurk, lie in wait",
+      "wonder, ponder",
+      "doze off"
+    ],
+    "inputHash": "caa590bb"
+  },
+  {
+    "kellyId": 2236,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct senses",
+    "translation": "desire, urge",
+    "senses": [
+      "sexual desire, lust",
+      "joy, delight"
+    ],
+    "inputHash": "cc80de05"
+  },
+  {
+    "kellyId": 1795,
+    "decision": "fix",
+    "reason": "stripped main 'happy'; kept distinct 'lucky' sense",
+    "translation": "happy",
+    "senses": [
+      "lucky, fortunate"
+    ],
+    "inputHash": "6c4a52e9"
+  },
+  {
+    "kellyId": 2069,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct 'be worded' sense",
+    "translation": "obey",
+    "senses": [
+      "be worded, read (of a text)"
+    ],
+    "inputHash": "cbc5e8bf"
+  },
+  {
+    "kellyId": 2243,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct banns sense",
+    "translation": "shine, shed light, beam",
+    "senses": [
+      "publish banns, advertise"
+    ],
+    "inputHash": "2c31482c"
+  },
+  {
+    "kellyId": 1698,
+    "decision": "fix",
+    "reason": "both borrow and lend are in the fixed main translation",
+    "translation": "borrow; lend",
+    "senses": [],
+    "inputHash": "35a3114c"
+  },
+  {
+    "kellyId": 1493,
+    "decision": "fix",
+    "reason": "stripped main; kept dated 'opportunity' sense",
+    "translation": "apartment, flat",
+    "senses": [
+      "opportunity, occasion (dated)"
+    ],
+    "inputHash": "afedc757"
+  },
+  {
+    "kellyId": 2399,
+    "decision": "fix",
+    "reason": "'sleeping quarters' is essentially the same as camp",
+    "translation": "camp",
+    "senses": [],
+    "inputHash": "f6071316"
+  },
+  {
+    "kellyId": 2222,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct 'laying' sense",
+    "translation": "disposition",
+    "senses": [
+      "laying (act of laying)"
+    ],
+    "inputHash": "b88e6067"
+  },
+  {
+    "kellyId": 2220,
+    "decision": "fix",
+    "reason": "stripped main 'length'; kept distinct senses",
+    "translation": "length",
+    "senses": [
+      "height (of a person)",
+      "duration"
+    ],
+    "inputHash": "4511baf8"
+  },
+  {
+    "kellyId": 1962,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct senses, dropped rare computing sense",
+    "translation": "reading",
+    "senses": [
+      "reading aloud, recital",
+      "reading material, literature",
+      "interpretation (of a text)"
+    ],
+    "inputHash": "bf1f3588"
+  },
+  {
+    "kellyId": 1931,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct senses",
+    "translation": "ease, lighten",
+    "senses": [
+      "subside (of a storm)",
+      "take off (from the ground)"
+    ],
+    "inputHash": "f26588f7"
+  },
+  {
+    "kellyId": 2729,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct senses",
+    "translation": "run along, stretch",
+    "senses": [
+      "run free, escape",
+      "be in heat (of a female animal)"
+    ],
+    "inputHash": "e6ca7206"
+  },
+  {
+    "kellyId": 1513,
+    "decision": "fix",
+    "reason": "all subs merely restate 'loose' in different physical contexts",
+    "translation": "loose",
+    "senses": [],
+    "inputHash": "7c2ee23b"
+  },
+  {
+    "kellyId": 2141,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct figurative sense",
+    "translation": "stomach",
+    "senses": [
+      "nerve, gall (audacity)"
+    ],
+    "inputHash": "95a17bd8"
+  },
+  {
+    "kellyId": 1635,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct 'match, equal' sense",
+    "translation": "husband, spouse",
+    "senses": [
+      "match, equal (one's like)"
+    ],
+    "inputHash": "905c4ea1"
+  },
+  {
+    "kellyId": 2053,
+    "decision": "fix",
+    "reason": "stripped main; kept 'manly' shade distinct from 'male'",
+    "translation": "male",
+    "senses": [
+      "manly, masculine"
+    ],
+    "inputHash": "0380fde8"
+  },
+  {
+    "kellyId": 2000,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct substance sense",
+    "translation": "medicine",
+    "senses": [
+      "medicine, drug (substance taken)"
+    ],
+    "inputHash": "a277d686"
+  },
+  {
+    "kellyId": 2665,
+    "decision": "fix",
+    "reason": "stripped restated adj; kept noun 'a suspect' sense",
+    "translation": "suspected",
+    "senses": [
+      "a suspect (person)"
+    ],
+    "inputHash": "801538fb"
+  },
+  {
+    "kellyId": 2439,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct 'state of mind' sense",
+    "translation": "courage",
+    "senses": [
+      "spirit, state of mind"
+    ],
+    "inputHash": "4b01e12d"
+  },
+  {
+    "kellyId": 2607,
+    "decision": "fix",
+    "reason": "stripped main; kept the Swedish party sense",
+    "translation": "moderate",
+    "senses": [
+      "Moderate (of the Swedish Moderate Party)"
+    ],
+    "inputHash": "24eb4aee"
+  },
+  {
+    "kellyId": 2205,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct senses",
+    "translation": "morality, morals",
+    "senses": [
+      "morale (spirit, motivation)",
+      "moral, lesson (of a story)"
+    ],
+    "uncountable": true,
+    "inputHash": "5df4998b"
+  },
+  {
+    "kellyId": 2181,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct art/music sense",
+    "translation": "motive",
+    "senses": [
+      "motif, subject (of art or music)"
+    ],
+    "inputHash": "786be0c6"
+  },
+  {
+    "kellyId": 2206,
+    "decision": "fix",
+    "reason": "both meanings are in the fixed main translation",
+    "translation": "justify; motivate",
+    "senses": [],
+    "inputHash": "042e9174"
+  },
+  {
+    "kellyId": 1492,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct electrical senses",
+    "translation": "resistance, opposition",
+    "senses": [
+      "electrical resistance",
+      "resistor (electronic component)"
+    ],
+    "uncountable": true,
+    "inputHash": "beff44cf"
+  },
+  {
+    "kellyId": 2035,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct sports sense",
+    "translation": "paint",
+    "senses": [
+      "score (a goal, in sports)"
+    ],
+    "inputHash": "7f950980"
+  },
+  {
+    "kellyId": 2293,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct 'action taken' sense",
+    "translation": "measure",
+    "senses": [
+      "measure, step (action taken)"
+    ],
+    "inputHash": "cdfc2e8a"
+  },
+  {
+    "kellyId": 2193,
+    "decision": "fix",
+    "reason": "kept distinct shades; also common food sense 'rich, heavy'",
+    "translation": "powerful",
+    "senses": [
+      "imposing, mighty",
+      "rich, heavy (of food)"
+    ],
+    "inputHash": "762a15c3"
+  },
+  {
+    "kellyId": 1918,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct senses",
+    "translation": "mark",
+    "senses": [
+      "brand, make",
+      "badge",
+      "sign, notice (road sign)"
+    ],
+    "inputHash": "98eea30b"
+  },
+  {
+    "kellyId": 2198,
+    "decision": "fix",
+    "reason": "both subs restate the main 'pattern'",
+    "translation": "pattern",
+    "senses": [],
+    "inputHash": "9b6ad2f9"
+  },
+  {
+    "kellyId": 1480,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct voice and figurative senses",
+    "translation": "dark",
+    "senses": [
+      "deep, dull (of a voice)",
+      "gloomy, dark (mood or outlook)"
+    ],
+    "inputHash": "079f2b82"
+  },
+  {
+    "kellyId": 1507,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct 'as follows' sense",
+    "translation": "below",
+    "senses": [
+      "below, as follows (in a text)"
+    ],
+    "inputHash": "a3060f34"
+  },
+  {
+    "kellyId": 1973,
+    "decision": "fix",
+    "reason": "both meanings are in the fixed main translation",
+    "translation": "deny, refuse",
+    "senses": [],
+    "inputHash": "61e9cfa3"
+  },
+  {
+    "kellyId": 1948,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct figurative senses",
+    "translation": "down, below, downstairs",
+    "senses": [
+      "down, sad, depressed",
+      "down, offline (of systems)"
+    ],
+    "inputHash": "b9f63607"
+  },
+  {
+    "kellyId": 1828,
+    "decision": "fix",
+    "reason": "'benefit from, enjoy a right' is a distinct legal shade",
+    "translation": "enjoy, relish",
+    "senses": [
+      "benefit from, enjoy (a right)"
+    ],
+    "inputHash": "903620bb"
+  },
+  {
+    "kellyId": 2114,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct mathematics sense",
+    "translation": "norm",
+    "senses": [
+      "norm (mathematics)"
+    ],
+    "inputHash": "61241cbf"
+  },
+  {
+    "kellyId": 2691,
+    "decision": "fix",
+    "reason": "stripped main; kept grace and honorific senses",
+    "translation": "mercy",
+    "senses": [
+      "grace, favour",
+      "(your) Grace, (your) Honour, (your) Lordship"
+    ],
+    "inputHash": "20f8707f"
+  },
+  {
+    "kellyId": 2260,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct 'vicinity' sense",
+    "translation": "closeness",
+    "senses": [
+      "vicinity, nearby area"
+    ],
+    "inputHash": "9515f1d4"
+  },
+  {
+    "kellyId": 2787,
+    "decision": "fix",
+    "reason": "'second' (näst bäst = second best) is a genuinely distinct use",
+    "translation": "next",
+    "senses": [
+      "second (as in second best)"
+    ],
+    "inputHash": "fac48f10"
+  },
+  {
+    "kellyId": 2182,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct mathematics sense",
+    "translation": "difference, dissimilarity",
+    "senses": [
+      "inequality (mathematical)"
+    ],
+    "inputHash": "b6a44d43"
+  },
+  {
+    "kellyId": 1952,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct 'oil painting' sense",
+    "translation": "oil",
+    "senses": [
+      "oil painting"
+    ],
+    "uncountable": true,
+    "inputHash": "3f5bb9ba"
+  },
+  {
+    "kellyId": 2247,
+    "decision": "fix",
+    "reason": "'misfortune, misery' is a genuinely distinct sense",
+    "translation": "accident",
+    "senses": [
+      "misfortune, misery, unhappiness"
+    ],
+    "inputHash": "232a6c4f"
+  },
+  {
+    "kellyId": 2538,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct informal 'beating' sense",
+    "translation": "round",
+    "senses": [
+      "batch, set (of things)",
+      "beating, thrashing (informal)"
+    ],
+    "inputHash": "56c50ef5"
+  },
+  {
+    "kellyId": 2274,
+    "decision": "fix",
+    "reason": "'ha ont om' shortage is a genuinely distinct sense",
+    "translation": "pain",
+    "senses": [
+      "lack, shortage (in short supply)",
+      "evil (as a noun)"
+    ],
+    "inputHash": "74da18b1"
+  },
+  {
+    "kellyId": 1757,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct senses",
+    "translation": "opposition",
+    "senses": [
+      "opposition (political, parliamentary)",
+      "dissertation critique (PhD defence)"
+    ],
+    "inputHash": "10539c69"
+  },
+  {
+    "kellyId": 2426,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct commercial sense",
+    "translation": "order",
+    "senses": [
+      "order (commercial, for goods)"
+    ],
+    "inputHash": "86bf75bd"
+  },
+  {
+    "kellyId": 1794,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct senses, dropped crude/rare items",
+    "translation": "organ",
+    "senses": [
+      "body, institution (official)",
+      "mouthpiece (publication of an organization)"
+    ],
+    "inputHash": "0418a171"
+  },
+  {
+    "kellyId": 1676,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct 'unrest' sense",
+    "translation": "worry, anxiety",
+    "senses": [
+      "unrest (social, political)"
+    ],
+    "uncountable": true,
+    "inputHash": "8c1a3091"
+  },
+  {
+    "kellyId": 2203,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct 'restless' sense",
+    "translation": "anxious, worried",
+    "senses": [
+      "restless"
+    ],
+    "inputHash": "120a7495"
+  },
+  {
+    "kellyId": 2443,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct 'harmless' and 'pure' senses",
+    "translation": "innocent",
+    "senses": [
+      "innocent, harmless",
+      "innocent, pure (free from sin)"
+    ],
+    "inputHash": "4690362f"
+  },
+  {
+    "kellyId": 2115,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct 'unsure, uncertain' sense",
+    "translation": "unsafe, insecure",
+    "senses": [
+      "unsure, uncertain, doubtful"
+    ],
+    "inputHash": "e0d4a455"
+  },
+  {
+    "kellyId": 2737,
+    "decision": "fix",
+    "reason": "'insecurity' is a genuinely distinct emotional sense",
+    "translation": "uncertainty",
+    "senses": [
+      "insecurity (feeling)"
+    ],
+    "inputHash": "9d269a76"
+  },
+  {
+    "kellyId": 2404,
+    "decision": "fix",
+    "reason": "'uncommon, rare' merely restates 'unusual'",
+    "translation": "unusual",
+    "senses": [],
+    "inputHash": "5dfd7ecf"
+  },
+  {
+    "kellyId": 1891,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct 'document' sense",
+    "translation": "paper",
+    "senses": [
+      "document, papers (official)"
+    ],
+    "inputHash": "2c0be6aa"
+  },
+  {
+    "kellyId": 1423,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct 'mate, breed' sense",
+    "translation": "pair up, match",
+    "senses": [
+      "mate, breed (animals)"
+    ],
+    "inputHash": "fa4ba46f"
+  },
+  {
+    "kellyId": 1582,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct culinary sense",
+    "translation": "pass",
+    "senses": [
+      "strain, sieve (food)"
+    ],
+    "inputHash": "9f730f85"
+  },
+  {
+    "kellyId": 1994,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct payment and guesthouse senses",
+    "translation": "retirement",
+    "senses": [
+      "pension (periodic payments)",
+      "guesthouse, boarding house"
+    ],
+    "inputHash": "1e762f3c"
+  },
+  {
+    "kellyId": 2712,
+    "decision": "fix",
+    "reason": "'elderly person' merely restates a retiree",
+    "translation": "pensioner, retiree",
+    "senses": [],
+    "inputHash": "ea291854"
+  },
+  {
+    "kellyId": 1508,
+    "decision": "fix",
+    "reason": "'invest' is a genuinely distinct financial sense",
+    "translation": "place",
+    "senses": [
+      "invest (place money)"
+    ],
+    "inputHash": "598c9195"
+  },
+  {
+    "kellyId": 1637,
+    "decision": "fix",
+    "reason": "airplane and plane are in the fixed main; kept 'level' sense",
+    "translation": "airplane; plane",
+    "senses": [
+      "level, plane (of existence)"
+    ],
+    "inputHash": "d2327f7e"
+  },
+  {
+    "kellyId": 1471,
+    "decision": "fix",
+    "reason": "'pluck' is a genuinely distinct sense of picking",
+    "translation": "pick",
+    "senses": [
+      "pluck (feathers)"
+    ],
+    "inputHash": "fc18abbf"
+  },
+  {
+    "kellyId": 2532,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct noun senses",
+    "translation": "plus, and",
+    "senses": [
+      "plus sign",
+      "advantage, benefit"
+    ],
+    "inputHash": "601d03c7"
+  },
+  {
+    "kellyId": 1535,
+    "decision": "fix",
+    "reason": "both subs restate 'popular'",
+    "translation": "popular",
+    "senses": [],
+    "inputHash": "315e4d8c"
+  },
+  {
+    "kellyId": 1829,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct online 'post' sense",
+    "translation": "mail, post",
+    "senses": [
+      "post (on social media or a forum)"
+    ],
+    "inputHash": "a9d9a687"
+  },
+  {
+    "kellyId": 1809,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct senses, merged tool items",
+    "translation": "press",
+    "senses": [
+      "printing press",
+      "pressure",
+      "press (weightlifting exercise)"
+    ],
+    "inputHash": "5666ac6b"
+  },
+  {
+    "kellyId": 1437,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct creative-production sense",
+    "translation": "produce, manufacture",
+    "senses": [
+      "produce (a film, album, game, etc.)"
+    ],
+    "inputHash": "08cde910"
+  },
+  {
+    "kellyId": 2519,
+    "decision": "fix",
+    "reason": "'prognosis (medical)' is subsumed in the fixed main",
+    "translation": "forecast, prognosis",
+    "senses": [],
+    "inputHash": "00916250"
+  },
+  {
+    "kellyId": 2452,
+    "decision": "fix",
+    "reason": "minutes and protocol are in the fixed main; kept technical sense",
+    "translation": "minutes; protocol",
+    "senses": [
+      "protocol (technical/IT specification)"
+    ],
+    "inputHash": "12586a94"
+  },
+  {
+    "kellyId": 2369,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct trial and sample senses",
+    "translation": "test, exam",
+    "senses": [
+      "trial, test (of endurance or equipment)",
+      "sample, specimen"
+    ],
+    "inputHash": "f115bbfc"
+  },
+  {
+    "kellyId": 2030,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct try-on and tasting senses",
+    "translation": "try",
+    "senses": [
+      "try on (clothes)",
+      "sample, taste"
+    ],
+    "inputHash": "29faa0e2"
+  },
+  {
+    "kellyId": 2031,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct literal senses",
+    "translation": "shape, define, characterize",
+    "senses": [
+      "stamp, imprint (literal)",
+      "mint (coins)"
+    ],
+    "inputHash": "359669e1"
+  },
+  {
+    "kellyId": 1514,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct legal and audition senses",
+    "translation": "test, try",
+    "senses": [
+      "examine, review (legal)",
+      "audition (for a role or place)"
+    ],
+    "inputHash": "58954383"
+  },
+  {
+    "kellyId": 2281,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct legal sense",
+    "translation": "ordeal, trial",
+    "senses": [
+      "legal review, examination"
+    ],
+    "inputHash": "c70b5963"
+  },
+  {
+    "kellyId": 1720,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct 'radio set' sense",
+    "translation": "radio",
+    "senses": [
+      "radio set (the physical receiver)"
+    ],
+    "inputHash": "f8f01985"
+  },
+  {
+    "kellyId": 2336,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct 'frank, direct' sense",
+    "translation": "straight",
+    "senses": [
+      "direct, frank (of manner)"
+    ],
+    "inputHash": "5ea13e67"
+  },
+  {
+    "kellyId": 1904,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct scope and bicycle senses",
+    "translation": "frame",
+    "senses": [
+      "framework, scope (boundaries)",
+      "bicycle frame"
+    ],
+    "inputHash": "4dc3b6c9"
+  },
+  {
+    "kellyId": 2041,
+    "decision": "fix",
+    "reason": "'top tier' merely restates high rank",
+    "translation": "rank, status",
+    "senses": [],
+    "inputHash": "812cbd91"
+  },
+  {
+    "kellyId": 1858,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct culinary sense",
+    "translation": "sort out, manage",
+    "senses": [
+      "thicken (a sauce, with flour or egg yolk)"
+    ],
+    "inputHash": "c4dc7748"
+  },
+  {
+    "kellyId": 2692,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct 'editing' sense",
+    "translation": "editorial staff, newsroom",
+    "senses": [
+      "editing (the act of editing)"
+    ],
+    "inputHash": "38b17a74"
+  },
+  {
+    "kellyId": 2798,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct sports sense",
+    "translation": "reduce",
+    "senses": [
+      "pull one back (reduce the deficit, sports)"
+    ],
+    "inputHash": "273268d7"
+  },
+  {
+    "kellyId": 1852,
+    "decision": "fix",
+    "reason": "'management, administration' is a distinct sense",
+    "translation": "regime, government",
+    "senses": [
+      "regimen, routine (e.g. of diet or treatment)"
+    ],
+    "inputHash": "e5aa5dc2"
+  },
+  {
+    "kellyId": 1516,
+    "decision": "fix",
+    "reason": "'register a letter' is a genuinely distinct sense",
+    "translation": "recommend",
+    "senses": [
+      "register (a letter, send by registered post)"
+    ],
+    "inputHash": "f8c1786b"
+  },
+  {
+    "kellyId": 2534,
+    "decision": "fix",
+    "reason": "'purify spiritually' is a distinct religious shade",
+    "translation": "purify, clean",
+    "senses": [
+      "purify (spiritually, religiously)"
+    ],
+    "inputHash": "f4f0e1fa"
+  },
+  {
+    "kellyId": 1924,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct reply and replica senses",
+    "translation": "line, utterance",
+    "senses": [
+      "retort, comeback (in a debate)",
+      "replica"
+    ],
+    "inputHash": "543fe4a5"
+  },
+  {
+    "kellyId": 1763,
+    "decision": "fix",
+    "reason": "'salesman' (sales rep) is a distinct everyday sense",
+    "translation": "representative, delegate",
+    "senses": [
+      "sales representative, salesman"
+    ],
+    "inputHash": "92d34e3b"
+  },
+  {
+    "kellyId": 2489,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct reluctance and formal senses",
+    "translation": "reservation, booking",
+    "senses": [
+      "reservation, reluctance (hesitation)",
+      "dissenting opinion (formal)"
+    ],
+    "inputHash": "768eb725"
+  },
+  {
+    "kellyId": 1422,
+    "decision": "fix",
+    "reason": "'respective' is the adjectival shade distinct from the adverb",
+    "translation": "respectively",
+    "senses": [
+      "respective"
+    ],
+    "inputHash": "e032f6ba"
+  },
+  {
+    "kellyId": 1406,
+    "decision": "fix",
+    "reason": "'straighten, true, adjust' is a distinct technical sense",
+    "translation": "direct, to aim",
+    "senses": [
+      "straighten, true, adjust (mechanically)"
+    ],
+    "inputHash": "ad225fa8"
+  },
+  {
+    "kellyId": 1414,
+    "decision": "fix",
+    "reason": "'adjustment, straightening' is a distinct technical sense",
+    "translation": "direction",
+    "senses": [
+      "adjustment, straightening, truing (mechanical)"
+    ],
+    "inputHash": "78714fd9"
+  },
+  {
+    "kellyId": 2566,
+    "decision": "fix",
+    "reason": "reflexive 'roa sig' means to enjoy oneself; 'rest' is marginal/rare",
+    "translation": "amuse, to entertain",
+    "senses": [
+      "enjoy oneself, have a good time (reflexive)"
+    ],
+    "inputHash": "31e0a268"
+  },
+  {
+    "kellyId": 1936,
+    "decision": "fix",
+    "reason": "'announce over a PA system' is a distinct everyday sense",
+    "translation": "call, to shout",
+    "senses": [
+      "call out, announce (over a PA system)"
+    ],
+    "inputHash": "6535b5a3"
+  },
+  {
+    "kellyId": 2334,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct figurative and math senses",
+    "translation": "root",
+    "senses": [
+      "source, origin, cause",
+      "root (mathematics)"
+    ],
+    "inputHash": "d40fc1c2"
+  }
+]

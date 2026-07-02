@@ -1,0 +1,66 @@
+[
+  {
+    "kellyId": 502,
+    "decision": "split",
+    "reason": "anmäla sig (sign up / register for a course or activity) is an extremely common everyday sense, distinct from reporting to authorities",
+    "altMeanings": [{ "translation": "sign up, register", "gloss": "for an activity" }],
+    "subDefinitions": ["check in, announce one's arrival"],
+    "inputHash": "a4bbc767"
+  },
+  {
+    "kellyId": 893,
+    "decision": "split",
+    "reason": "genie (spirit in a bottle) is a distinct, familiar everyday sense separate from spirit; ghost is a close shade kept as reference",
+    "altMeanings": [{ "translation": "genie", "gloss": "" }],
+    "subDefinitions": ["ghost"],
+    "inputHash": "689cc8f6"
+  },
+  {
+    "kellyId": 645,
+    "decision": "split",
+    "reason": "pray is a common, clearly distinct meaning from ask/request",
+    "altMeanings": [{ "translation": "pray", "gloss": "" }],
+    "subDefinitions": ["beg, plead"],
+    "inputHash": "259a5a1b"
+  },
+  {
+    "kellyId": 276,
+    "decision": "split",
+    "reason": "beech (the tree) is a genuine distinct homonym of book",
+    "altMeanings": [{ "translation": "beech", "gloss": "tree" }],
+    "subDefinitions": [],
+    "inputHash": "1e496d52"
+  },
+  {
+    "kellyId": 718,
+    "decision": "split",
+    "reason": "invite is a very common everyday sense distinct from offer/treat; bid at auction is rare, kept as reference",
+    "altMeanings": [{ "translation": "invite", "gloss": "" }],
+    "subDefinitions": ["bid (at auction)"],
+    "inputHash": "0be4c5f2"
+  },
+  {
+    "kellyId": 300,
+    "decision": "split",
+    "reason": "wear (clothes, jewelry) is a common everyday sense distinct from carry",
+    "altMeanings": [{ "translation": "wear", "gloss": "clothing, jewelry" }],
+    "subDefinitions": ["support, bear (weight)", "bear (fruit)"],
+    "inputHash": "7410323a"
+  },
+  {
+    "kellyId": 587,
+    "decision": "split",
+    "reason": "cathedral (domkyrka) is a common distinct homonym of the legal verdict sense",
+    "altMeanings": [{ "translation": "cathedral", "gloss": "architecture" }],
+    "subDefinitions": [],
+    "inputHash": "f864adb8"
+  },
+  {
+    "kellyId": 567,
+    "decision": "split",
+    "reason": "run/operate (a company or business) is a very common everyday sense distinct from drive/drift",
+    "altMeanings": [{ "translation": "run, operate", "gloss": "a company, campaign" }],
+    "subDefinitions": ["drift, wander", "tease, mock"],
+    "inputHash": "f0db15ed"
+  }
+]

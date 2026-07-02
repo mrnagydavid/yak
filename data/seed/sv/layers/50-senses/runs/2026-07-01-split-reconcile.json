@@ -1,0 +1,1216 @@
+[
+  {
+    "english": "advice",
+    "senses": [
+      {
+        "gloss": "piece of advice",
+        "members": [
+          467
+        ]
+      },
+      {
+        "gloss": "advisory service",
+        "members": [
+          5245
+        ]
+      }
+    ],
+    "inputHash": "33d40080"
+  },
+  {
+    "english": "ask, inquire",
+    "senses": [
+      {
+        "gloss": "ask for information",
+        "members": [
+          501
+        ]
+      },
+      {
+        "gloss": "ask, request",
+        "members": [
+          645
+        ]
+      }
+    ],
+    "inputHash": "34aaf199"
+  },
+  {
+    "english": "ball",
+    "senses": [
+      {
+        "gloss": "sports ball",
+        "members": [
+          1444
+        ]
+      },
+      {
+        "gloss": "marble, bullet",
+        "members": [
+          4591
+        ]
+      },
+      {
+        "gloss": "sphere",
+        "members": [
+          6811
+        ]
+      },
+      {
+        "gloss": "formal dance",
+        "members": [
+          7505
+        ]
+      }
+    ],
+    "inputHash": "b60bdac0"
+  },
+  {
+    "english": "bark",
+    "senses": [
+      {
+        "gloss": "to bark, scold",
+        "members": [
+          4964
+        ]
+      },
+      {
+        "gloss": "tree bark",
+        "members": [
+          7063
+        ]
+      }
+    ],
+    "inputHash": "89dce238"
+  },
+  {
+    "english": "base",
+    "senses": [
+      {
+        "gloss": "noun",
+        "members": [
+          2100
+        ]
+      },
+      {
+        "gloss": "to base on",
+        "members": [
+          2473
+        ]
+      }
+    ],
+    "inputHash": "abc15766"
+  },
+  {
+    "english": "book",
+    "senses": [
+      {
+        "gloss": "noun: book",
+        "members": [
+          276
+        ]
+      },
+      {
+        "gloss": "verb: reserve",
+        "members": [
+          2625
+        ]
+      }
+    ],
+    "inputHash": "f6dc7a58"
+  },
+  {
+    "english": "broadcast",
+    "senses": [
+      {
+        "gloss": "",
+        "members": [
+          4359,
+          7935
+        ]
+      }
+    ],
+    "inputHash": "9965d344"
+  },
+  {
+    "english": "cargo, load",
+    "senses": [
+      {
+        "gloss": "",
+        "members": [
+          3165,
+          4199
+        ]
+      }
+    ],
+    "inputHash": "3a7ec57b"
+  },
+  {
+    "english": "change, alter",
+    "senses": [
+      {
+        "gloss": "to change (verb)",
+        "members": [
+          563,
+          817
+        ]
+      },
+      {
+        "gloss": "a change (noun)",
+        "members": [
+          640,
+          647
+        ]
+      },
+      {
+        "gloss": "shift, transition",
+        "members": [
+          3853
+        ]
+      },
+      {
+        "gloss": "coins; gear; exchange",
+        "members": [
+          5545
+        ]
+      }
+    ],
+    "inputHash": "235de08c"
+  },
+  {
+    "english": "choice",
+    "senses": [
+      {
+        "gloss": "decision",
+        "members": [
+          413
+        ]
+      },
+      {
+        "gloss": "selection, assortment",
+        "members": [
+          3090
+        ]
+      }
+    ],
+    "inputHash": "9e2b4a88"
+  },
+  {
+    "english": "condition, prerequisite",
+    "senses": [
+      {
+        "gloss": "prerequisite, requirement",
+        "members": [
+          728,
+          880,
+          7142
+        ]
+      },
+      {
+        "gloss": "circumstances",
+        "members": [
+          738
+        ]
+      },
+      {
+        "gloss": "state, shape",
+        "members": [
+          988,
+          3866
+        ]
+      },
+      {
+        "gloss": "ailment",
+        "members": [
+          7300
+        ]
+      },
+      {
+        "gloss": "to condition, fetch",
+        "members": [
+          7815
+        ]
+      }
+    ],
+    "inputHash": "55966e1f"
+  },
+  {
+    "english": "connection, relation, link",
+    "senses": [
+      {
+        "gloss": "correlation, abstract link",
+        "members": [
+          1873,
+          1925
+        ]
+      },
+      {
+        "gloss": "physical, transport link",
+        "members": [
+          2469,
+          3190
+        ]
+      },
+      {
+        "gloss": "personal tie, affiliation",
+        "members": [
+          3384
+        ]
+      }
+    ],
+    "inputHash": "11b549fa"
+  },
+  {
+    "english": "course, class",
+    "senses": [
+      {
+        "gloss": "learning",
+        "members": [
+          1407
+        ]
+      },
+      {
+        "gloss": "progression",
+        "members": [
+          5213
+        ]
+      }
+    ],
+    "inputHash": "c76e076a"
+  },
+  {
+    "english": "cut",
+    "senses": [
+      {
+        "gloss": "cut with knife",
+        "members": [
+          2483
+        ]
+      },
+      {
+        "gloss": "cut with scissors",
+        "members": [
+          2918
+        ]
+      },
+      {
+        "gloss": "incision, cut",
+        "members": [
+          1926
+        ]
+      },
+      {
+        "gloss": "scissors cut, clip",
+        "members": [
+          3736
+        ]
+      }
+    ],
+    "inputHash": "04eadadf"
+  },
+  {
+    "english": "dish",
+    "senses": [
+      {
+        "gloss": "",
+        "members": [
+          441,
+          7278
+        ]
+      }
+    ],
+    "inputHash": "8eac7c11"
+  },
+  {
+    "english": "drive",
+    "senses": [
+      {
+        "gloss": "drive a vehicle",
+        "members": [
+          521
+        ]
+      },
+      {
+        "gloss": "propel, operate, run",
+        "members": [
+          567
+        ]
+      }
+    ],
+    "inputHash": "5582df4c"
+  },
+  {
+    "english": "extremely, very",
+    "senses": [
+      {
+        "gloss": "",
+        "members": [
+          1738,
+          1986
+        ]
+      }
+    ],
+    "inputHash": "b3b0baee"
+  },
+  {
+    "english": "fall",
+    "senses": [
+      {
+        "gloss": "noun: fall, case",
+        "members": [
+          263
+        ]
+      },
+      {
+        "gloss": "verb: fall, tumble",
+        "members": [
+          667,
+          3695
+        ]
+      }
+    ],
+    "inputHash": "1ecc52ad"
+  },
+  {
+    "english": "farm, farmstead",
+    "senses": [
+      {
+        "gloss": "",
+        "members": [
+          1864,
+          7342
+        ]
+      }
+    ],
+    "inputHash": "fd97f082"
+  },
+  {
+    "english": "fly",
+    "senses": [
+      {
+        "gloss": "to fly",
+        "members": [
+          1746
+        ]
+      },
+      {
+        "gloss": "insect, noun",
+        "members": [
+          5567
+        ]
+      }
+    ],
+    "inputHash": "9b662e0f"
+  },
+  {
+    "english": "full",
+    "senses": [
+      {
+        "gloss": "filled up",
+        "members": [
+          749
+        ]
+      },
+      {
+        "gloss": "satiated",
+        "members": [
+          3867
+        ]
+      }
+    ],
+    "inputHash": "b86d9ff0"
+  },
+  {
+    "english": "German",
+    "senses": [
+      {
+        "gloss": "German (adjective)",
+        "members": [
+          849
+        ]
+      },
+      {
+        "gloss": "German language, woman",
+        "members": [
+          5141
+        ]
+      }
+    ],
+    "inputHash": "fe91c840"
+  },
+  {
+    "english": "hit",
+    "senses": [
+      {
+        "gloss": "noun: blow, stroke",
+        "members": [
+          272
+        ]
+      },
+      {
+        "gloss": "verb: strike, beat",
+        "members": [
+          378
+        ]
+      },
+      {
+        "gloss": "verb: hit a target",
+        "members": [
+          4856
+        ]
+      }
+    ],
+    "inputHash": "0b8cbcb2"
+  },
+  {
+    "english": "hold",
+    "senses": [
+      {
+        "gloss": "grip, keep",
+        "members": [
+          224
+        ]
+      },
+      {
+        "gloss": "contain, fit",
+        "members": [
+          2554
+        ]
+      },
+      {
+        "gloss": "possess a position",
+        "members": [
+          2819
+        ]
+      },
+      {
+        "gloss": "noun: grip, stronghold",
+        "members": [
+          5103
+        ]
+      }
+    ],
+    "inputHash": "ab9393b3"
+  },
+  {
+    "english": "joy, happiness",
+    "senses": [
+      {
+        "gloss": "joy",
+        "members": [
+          1556
+        ]
+      },
+      {
+        "gloss": "happiness, luck",
+        "members": [
+          1626
+        ]
+      }
+    ],
+    "inputHash": "209a5507"
+  },
+  {
+    "english": "kick",
+    "senses": [
+      {
+        "gloss": "to kick (verb)",
+        "members": [
+          2921
+        ]
+      },
+      {
+        "gloss": "a kick (noun)",
+        "members": [
+          4633
+        ]
+      }
+    ],
+    "inputHash": "79e70400"
+  },
+  {
+    "english": "lake",
+    "senses": [
+      {
+        "gloss": "",
+        "members": [
+          1940,
+          7926
+        ]
+      }
+    ],
+    "inputHash": "3858eb5e"
+  },
+  {
+    "english": "leg",
+    "senses": [
+      {
+        "gloss": "body part",
+        "members": [
+          1575
+        ]
+      },
+      {
+        "gloss": "journey stage",
+        "members": [
+          4795
+        ]
+      }
+    ],
+    "inputHash": "894d6bd1"
+  },
+  {
+    "english": "light; easy",
+    "senses": [
+      {
+        "gloss": "not heavy; easy",
+        "members": [
+          610
+        ]
+      },
+      {
+        "gloss": "light, glow (noun)",
+        "members": [
+          1127,
+          4226
+        ]
+      },
+      {
+        "gloss": "to light, ignite",
+        "members": [
+          3189
+        ]
+      }
+    ],
+    "inputHash": "ab287254"
+  },
+  {
+    "english": "magazine, journal",
+    "senses": [
+      {
+        "gloss": "",
+        "members": [
+          2396,
+          5458
+        ]
+      }
+    ],
+    "inputHash": "7ea7c04f"
+  },
+  {
+    "english": "man",
+    "senses": [
+      {
+        "gloss": "adult male",
+        "members": [
+          264,
+          3680
+        ]
+      },
+      {
+        "gloss": "to staff",
+        "members": [
+          7671
+        ]
+      }
+    ],
+    "inputHash": "612ee872"
+  },
+  {
+    "english": "miss; lack",
+    "senses": [
+      {
+        "gloss": "feel absence of",
+        "members": [
+          569
+        ]
+      },
+      {
+        "gloss": "fail to catch",
+        "members": [
+          1195
+        ]
+      },
+      {
+        "gloss": "Miss, title",
+        "members": [
+          3734
+        ]
+      },
+      {
+        "gloss": "mistake",
+        "members": [
+          4527
+        ]
+      }
+    ],
+    "inputHash": "8c0ed895"
+  },
+  {
+    "english": "noise, racket",
+    "senses": [
+      {
+        "gloss": "",
+        "members": [
+          3838,
+          5693,
+          7955
+        ]
+      }
+    ],
+    "inputHash": "c87ab135"
+  },
+  {
+    "english": "number, quantity, amount",
+    "senses": [
+      {
+        "gloss": "count, quantity",
+        "members": [
+          259
+        ]
+      },
+      {
+        "gloss": "mathematical number",
+        "members": [
+          273
+        ]
+      },
+      {
+        "gloss": "identifier number",
+        "members": [
+          560
+        ]
+      }
+    ],
+    "inputHash": "315feae7"
+  },
+  {
+    "english": "offer, treat",
+    "senses": [
+      {
+        "gloss": "to treat, host",
+        "members": [
+          718
+        ]
+      },
+      {
+        "gloss": "to offer",
+        "members": [
+          777
+        ]
+      },
+      {
+        "gloss": "an offer (noun)",
+        "members": [
+          2952
+        ]
+      },
+      {
+        "gloss": "a quote, bid",
+        "members": [
+          7204
+        ]
+      }
+    ],
+    "inputHash": "4dbebb5b"
+  },
+  {
+    "english": "painting",
+    "senses": [
+      {
+        "gloss": "artwork",
+        "members": [
+          3583,
+          3642
+        ]
+      },
+      {
+        "gloss": "art form",
+        "members": [
+          6589
+        ]
+      }
+    ],
+    "inputHash": "0403e164"
+  },
+  {
+    "english": "permission",
+    "senses": [
+      {
+        "gloss": "",
+        "members": [
+          2598,
+          5596
+        ]
+      }
+    ],
+    "inputHash": "18d31426"
+  },
+  {
+    "english": "plan",
+    "senses": [
+      {
+        "gloss": "a plan (noun)",
+        "members": [
+          807
+        ]
+      },
+      {
+        "gloss": "to plan",
+        "members": [
+          1246,
+          7986
+        ]
+      }
+    ],
+    "inputHash": "936c63dc"
+  },
+  {
+    "english": "play",
+    "senses": [
+      {
+        "gloss": "game, instrument",
+        "members": [
+          320
+        ]
+      },
+      {
+        "gloss": "child's play",
+        "members": [
+          814,
+          1917
+        ]
+      },
+      {
+        "gloss": "theater piece",
+        "members": [
+          3982,
+          6483
+        ]
+      }
+    ],
+    "inputHash": "f00b1f41"
+  },
+  {
+    "english": "point",
+    "senses": [
+      {
+        "gloss": "to point",
+        "members": [
+          953
+        ]
+      },
+      {
+        "gloss": "score, argument",
+        "members": [
+          1111
+        ]
+      },
+      {
+        "gloss": "tip, sharp end",
+        "members": [
+          2908
+        ]
+      },
+      {
+        "gloss": "purpose, joke",
+        "members": [
+          6872
+        ]
+      }
+    ],
+    "inputHash": "6c4da6b0"
+  },
+  {
+    "english": "province, region",
+    "senses": [
+      {
+        "gloss": "",
+        "members": [
+          2440,
+          3708
+        ]
+      }
+    ],
+    "inputHash": "6f1fcedd"
+  },
+  {
+    "english": "purpose, point",
+    "senses": [
+      {
+        "gloss": "purpose, meaning",
+        "members": [
+          551
+        ]
+      },
+      {
+        "gloss": "aim, goal",
+        "members": [
+          604,
+          2301
+        ]
+      }
+    ],
+    "inputHash": "5d29d525"
+  },
+  {
+    "english": "quarter",
+    "senses": [
+      {
+        "gloss": "one fourth",
+        "members": [
+          3800,
+          4432
+        ]
+      },
+      {
+        "gloss": "three months",
+        "members": [
+          4050
+        ]
+      }
+    ],
+    "inputHash": "3736cad1"
+  },
+  {
+    "english": "queue, rank",
+    "senses": [
+      {
+        "gloss": "row, formation",
+        "members": [
+          2166
+        ]
+      },
+      {
+        "gloss": "waiting line",
+        "members": [
+          2980
+        ]
+      }
+    ],
+    "inputHash": "e037a7c2"
+  },
+  {
+    "english": "race",
+    "senses": [
+      {
+        "gloss": "competition",
+        "members": [
+          1500,
+          7897
+        ]
+      },
+      {
+        "gloss": "breed, ethnicity",
+        "members": [
+          2263
+        ]
+      }
+    ],
+    "inputHash": "fd6a1a8d"
+  },
+  {
+    "english": "repair",
+    "senses": [
+      {
+        "gloss": "to fix",
+        "members": [
+          1708,
+          5577
+        ]
+      },
+      {
+        "gloss": "act of repairing",
+        "members": [
+          6375
+        ]
+      }
+    ],
+    "inputHash": "49fe8216"
+  },
+  {
+    "english": "report, notify authorities about",
+    "senses": [
+      {
+        "gloss": "report to authorities",
+        "members": [
+          502
+        ]
+      },
+      {
+        "gloss": "report news",
+        "members": [
+          1428
+        ]
+      },
+      {
+        "gloss": "present, account for",
+        "members": [
+          1420
+        ]
+      },
+      {
+        "gloss": "report (noun)",
+        "members": [
+          698
+        ]
+      },
+      {
+        "gloss": "written summary",
+        "members": [
+          6983
+        ]
+      }
+    ],
+    "inputHash": "38719e85"
+  },
+  {
+    "english": "right, correct",
+    "senses": [
+      {
+        "gloss": "correct (adj)",
+        "members": [
+          553
+        ]
+      },
+      {
+        "gloss": "correct (general)",
+        "members": [
+          644
+        ]
+      },
+      {
+        "gloss": "entitlement",
+        "members": [
+          507
+        ]
+      },
+      {
+        "gloss": "genuine, real",
+        "members": [
+          697
+        ]
+      },
+      {
+        "gloss": "right-hand, right-wing",
+        "members": [
+          1645
+        ]
+      }
+    ],
+    "inputHash": "48224f2e"
+  },
+  {
+    "english": "rule",
+    "senses": [
+      {
+        "gloss": "regulation (noun)",
+        "members": [
+          496
+        ]
+      },
+      {
+        "gloss": "to rule, reign",
+        "members": [
+          4166,
+          4183
+        ]
+      }
+    ],
+    "inputHash": "686e024e"
+  },
+  {
+    "english": "seed",
+    "senses": [
+      {
+        "gloss": "pit, core",
+        "members": [
+          2727
+        ]
+      },
+      {
+        "gloss": "botanical seed",
+        "members": [
+          5040
+        ]
+      }
+    ],
+    "inputHash": "7e476549"
+  },
+  {
+    "english": "sky",
+    "senses": [
+      {
+        "gloss": "heavens",
+        "members": [
+          1402
+        ]
+      },
+      {
+        "gloss": "cloud",
+        "members": [
+          4415
+        ]
+      }
+    ],
+    "inputHash": "2fcd50ef"
+  },
+  {
+    "english": "spirit",
+    "senses": [
+      {
+        "gloss": "ghost, being",
+        "members": [
+          893
+        ]
+      },
+      {
+        "gloss": "ethos, breath",
+        "members": [
+          2159
+        ]
+      }
+    ],
+    "inputHash": "4c1cf75c"
+  },
+  {
+    "english": "subject, topic",
+    "senses": [
+      {
+        "gloss": "topic, substance",
+        "members": [
+          681
+        ]
+      },
+      {
+        "gloss": "grammatical subject",
+        "members": [
+          6198
+        ]
+      }
+    ],
+    "inputHash": "dde46771"
+  },
+  {
+    "english": "tax",
+    "senses": [
+      {
+        "gloss": "a tax (noun)",
+        "members": [
+          797
+        ]
+      },
+      {
+        "gloss": "to tax",
+        "members": [
+          5155
+        ]
+      }
+    ],
+    "inputHash": "58a662f2"
+  },
+  {
+    "english": "trunk",
+    "senses": [
+      {
+        "gloss": "tree trunk, stem",
+        "members": [
+          2872
+        ]
+      },
+      {
+        "gloss": "large chest, car boot",
+        "members": [
+          8276
+        ]
+      }
+    ],
+    "inputHash": "1e943aed"
+  },
+  {
+    "english": "twist, turn",
+    "senses": [
+      {
+        "gloss": "twist with force",
+        "members": [
+          3639
+        ]
+      },
+      {
+        "gloss": "wind, twine",
+        "members": [
+          4875
+        ]
+      }
+    ],
+    "inputHash": "99465bfe"
+  },
+  {
+    "english": "verdict, sentence",
+    "senses": [
+      {
+        "gloss": "",
+        "members": [
+          587,
+          5611
+        ]
+      }
+    ],
+    "inputHash": "13427970"
+  },
+  {
+    "english": "voice",
+    "senses": [
+      {
+        "gloss": "singing voice",
+        "members": [
+          3955
+        ]
+      },
+      {
+        "gloss": "speaking voice, vote",
+        "members": [
+          717
+        ]
+      }
+    ],
+    "inputHash": "79bec687"
+  },
+  {
+    "english": "wave",
+    "senses": [
+      {
+        "gloss": "noun",
+        "members": [
+          2487
+        ]
+      },
+      {
+        "gloss": "verb",
+        "members": [
+          6406
+        ]
+      }
+    ],
+    "inputHash": "5827f6fe"
+  },
+  {
+    "english": "west",
+    "senses": [
+      {
+        "gloss": "the west",
+        "members": [
+          2028,
+          7531
+        ]
+      },
+      {
+        "gloss": "western",
+        "members": [
+          5761
+        ]
+      }
+    ],
+    "inputHash": "6269aff8"
+  }
+]

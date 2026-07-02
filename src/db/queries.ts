@@ -84,8 +84,9 @@ export async function drawCalibrationItems(targetLang: string, level: Cefr, n: n
   )
   const picked = shuffle(entries).slice(0, n)
   const translations = await db.translations.where('targetEntryId').anyOf(picked.map((e) => e.id)).toArray()
+  // Calibration tests the primary meaning (recognition is per word); prefer it over an extra meaning.
   const firstTr = new Map<string, Translation>()
-  for (const t of translations) if (!firstTr.has(t.targetEntryId)) firstTr.set(t.targetEntryId, t)
+  for (const t of translations) if (t.primary || !firstTr.has(t.targetEntryId)) firstTr.set(t.targetEntryId, t)
   const natives = await db.entries.bulkGet([...new Set([...firstTr.values()].map((t) => t.nativeEntryId))])
   const nativeById = new Map(natives.filter((e): e is Entry => !!e).map((e) => [e.id, e]))
   const targetRenderer = getRenderer(targetLang)
@@ -195,6 +196,14 @@ export interface PracticeCardView {
   /** Attached on NEW cards whose word belongs to a sense group, so the reveal can relate it to
    *  synonyms/meanings already learned. (Q1) */
   senseSummary?: SenseSummary
+  /** The word's OTHER taught meanings (rendered native lemmas), for reveal cross-linking on a
+   *  multi-meaning word. Recognition lists them all ("led means: joint, route"); production points at
+   *  the siblings ("led also means: joint"). Empty for single-meaning words. (multi-meaning design) */
+  siblingMeanings: string[]
+  /** The production-prompt gloss for THIS card's meaning: the primary reads its word's sense gloss,
+   *  a promoted meaning reads its own link gloss — so the hint tracks the exact meaning asked, never
+   *  leaking the primary's gloss onto a promoted card. Undefined/empty when unambiguous. (§12) */
+  productionGloss?: string
 }
 
 /** Resolve a session card's display data. Returns null if the target entry is missing. */
@@ -206,8 +215,10 @@ export async function getPracticeCardView(card: SessionCard): Promise<PracticeCa
   const overlay = await getOverlay(target.id)
 
   // Multi-answer production: resolve every valid answer's target entry for the reveal. The prompt is
-  // the shared native concept (`native`); the sense gloss (from the representative target) says which
-  // sense. No homonym cue here — the group's count + gloss already disambiguate. (plan)
+  // the shared native concept (`native`); the gloss says which sense. It is read from the REPRESENTATIVE
+  // meaning by the same rule solo cards use (primary → its word's `sense.gloss`; a promoted meaning →
+  // its own link gloss), so a group whose representative is a promoted meaning shows that meaning's
+  // gloss, not the representative word's primary gloss. No homonym cue here — count + gloss disambiguate.
   if (card.group) {
     const targets = await db.entries.bulkGet(card.group.members.map((m) => m.targetEntryId))
     const byId = new Map(targets.filter((e): e is Entry => Boolean(e)).map((e) => [e.id, e]))
@@ -216,8 +227,17 @@ export async function getPracticeCardView(card: SessionCard): Promise<PracticeCa
       const t = byId.get(m.targetEntryId)
       if (t) members.push({ translationId: m.translationId, target: t, overlay: await getOverlay(t.id) })
     }
-    return { card, target, native, overlay, ambiguous: false, group: { gloss: target.sense?.gloss ?? '', members } }
+    const groupGloss = translation?.primary === false ? (translation.gloss ?? '') : (target.sense?.gloss ?? '')
+    // A group card is a synonym group, not a multi-meaning word — no meaning cross-linking here.
+    return { card, target, native, overlay, ambiguous: false, siblingMeanings: [], group: { gloss: groupGloss, members } }
   }
+
+  // The word's OTHER taught meanings, for reveal cross-linking on a multi-meaning word (led → joint,
+  // route). Recognition (on the primary) lists them all; production (on any meaning) points at the rest.
+  const allTranslations = await db.translations.where('targetEntryId').equals(target.id).toArray()
+  const otherNativeIds = allTranslations.filter((t) => t.id !== card.translationId).map((t) => t.nativeEntryId)
+  const otherNatives = otherNativeIds.length ? await db.entries.bulkGet(otherNativeIds) : []
+  const siblingMeanings = otherNatives.filter((e): e is Entry => Boolean(e)).map((e) => getRenderer(e.lang).renderLemma(e))
 
   // Ambiguous = the rendered prompt form collides with another same-lemma card. en/ett/att that
   // already disambiguate suppress it; only genuine same-form homonyms keep the cue.
@@ -227,15 +247,26 @@ export async function getPracticeCardView(card: SessionCard): Promise<PracticeCa
   const sameForm = siblings.filter((e) => render(e) === targetForm).length
   // On a new card, summarise the word's concept (synonyms/meanings already learned) for the reveal.
   const senseSummary = card.mode === 'new' ? ((await getSenseSummary(target)) ?? undefined) : undefined
-  return { card, target, native, overlay, ambiguous: sameForm > 1, senseSummary }
+  // The prompt hint: primary meaning → the word's sense gloss; a promoted meaning → its own link
+  // gloss (never the primary's, which would mislabel it). Recognition ignores it (self-evident cue).
+  const productionGloss = translation?.primary === false ? translation.gloss : target.sense?.gloss
+  return { card, target, native, overlay, ambiguous: sameForm > 1, senseSummary, siblingMeanings, productionGloss }
+}
+
+/** One practiceable meaning of a word, with its own production progress. (multi-meaning design) */
+export interface MeaningProgress {
+  translationId: string
+  meaningKey: number
+  native: string // rendered native lemma (the meaning label)
+  produce?: ReviewState // this meaning's production state
 }
 
 /** Everything the Word Detail screen renders. (SPEC §7.5) */
 export interface WordDetailData {
   entry: Entry
-  natives: Entry[] // native-language entries this word translates to
-  recognize?: ReviewState // primary translation's recognition state
-  produce?: ReviewState // primary translation's production state
+  natives: Entry[] // native-language entries this word translates to, primary meaning first
+  recognize?: ReviewState // the word's recognition state (carried by the primary meaning)
+  meanings: MeaningProgress[] // per-meaning production, primary first (multi-meaning design)
   lastPracticed?: number // most recent review across the word's skills
   overlay?: EntryOverlay
   /** What `study: 'auto'` resolves to for this word — i.e. is it in scope right now. */
@@ -248,24 +279,38 @@ export async function getWordDetail(entryId: string): Promise<WordDetailData | n
   const entry = await db.entries.get(entryId)
   if (!entry) return null
 
-  const translations = await db.translations.where('targetEntryId').equals(entryId).toArray()
+  // Order by meaningKey so the primary meaning (0) leads; a word may link to several meanings.
+  const translations = (await db.translations.where('targetEntryId').equals(entryId).toArray()).sort(
+    (a, b) => a.meaningKey - b.meaningKey,
+  )
   const nativeEntries = await db.entries.bulkGet(translations.map((t) => t.nativeEntryId))
+  const nativeByTr = new Map(translations.map((t, i) => [t.id, nativeEntries[i]]))
   const natives = nativeEntries.filter((e): e is Entry => Boolean(e))
 
   let recognize: ReviewState | undefined
-  let produce: ReviewState | undefined
   let lastPracticed: number | undefined
   let hasSrs = false
+  const meanings: MeaningProgress[] = []
   if (translations.length > 0) {
     const states = await db.reviewStates
       .where('translationId')
       .anyOf(translations.map((t) => t.id))
       .toArray()
     hasSrs = states.length > 0
-    const primary = translations[0].id
-    recognize = states.find((s) => s.translationId === primary && s.skill === 'recognize')
-    produce = states.find((s) => s.translationId === primary && s.skill === 'produce')
+    // Recognition is per WORD — carried by the primary meaning (meaningKey 0). Production is per meaning.
+    const primary = translations.find((t) => t.primary) ?? translations[0]
+    recognize = states.find((s) => s.translationId === primary.id && s.skill === 'recognize')
     lastPracticed = states.reduce((max, s) => Math.max(max, s.lastReview ?? 0), 0) || undefined
+    for (const t of translations) {
+      const native = nativeByTr.get(t.id)
+      if (!native) continue
+      meanings.push({
+        translationId: t.id,
+        meaningKey: t.meaningKey,
+        native: getRenderer(native.lang).renderLemma(native),
+        produce: states.find((s) => s.translationId === t.id && s.skill === 'produce'),
+      })
+    }
   }
 
   // What 'auto' would resolve to — lets the Word Detail control hint the default outcome.
@@ -277,7 +322,7 @@ export async function getWordDetail(entryId: string): Promise<WordDetailData | n
     entry,
     natives,
     recognize,
-    produce,
+    meanings,
     lastPracticed,
     overlay,
     autoIncluded: autoInScope(entry, level, hasSrs),
@@ -317,7 +362,8 @@ export async function searchEntries(
   const firstNativeId = new Map<string, string>()
   const translationIdsByEntry = new Map<string, string[]>()
   for (const t of translations) {
-    if (!firstNativeId.has(t.targetEntryId)) firstNativeId.set(t.targetEntryId, t.nativeEntryId)
+    // Show the primary meaning as the headline (fall back to first-seen for pre-primary data).
+    if (t.primary || !firstNativeId.has(t.targetEntryId)) firstNativeId.set(t.targetEntryId, t.nativeEntryId)
     const list = translationIdsByEntry.get(t.targetEntryId)
     if (list) list.push(t.id)
     else translationIdsByEntry.set(t.targetEntryId, [t.id])
@@ -406,7 +452,9 @@ export async function updateUserEntry(
   }
 }
 
-/** Reset one skill's SRS progress for an entry (delete those ReviewState rows). (SPEC §7.5) */
+/** Reset one skill's SRS progress for an entry (delete those ReviewState rows). (SPEC §7.5)
+ *  Recognition is per word; for production of a multi-meaning word this resets every meaning — use
+ *  resetProduction for a single meaning. */
 export async function resetSkill(entryId: string, skill: Skill): Promise<void> {
   const translations = await db.translations.where('targetEntryId').equals(entryId).toArray()
   const tids = translations.map((t) => t.id)
@@ -414,6 +462,12 @@ export async function resetSkill(entryId: string, skill: Skill): Promise<void> {
   const states = await db.reviewStates.where('translationId').anyOf(tids).toArray()
   const ids = states.filter((s) => s.skill === skill).map((s) => s.id)
   if (ids.length) await db.reviewStates.bulkDelete(ids)
+}
+
+/** Reset one meaning's production progress (delete its produce ReviewState). (multi-meaning design) */
+export async function resetProduction(translationId: string): Promise<void> {
+  const state = await getReviewState(translationId, 'produce')
+  if (state) await db.reviewStates.delete(state.id)
 }
 
 /** Delete a user entry and everything private to it (translations, states, overlay, native). */
@@ -463,7 +517,7 @@ export async function createUserEntry(input: {
     pronunciation: input.ipa?.trim() ? { ipa: input.ipa.trim(), ipaSource: 'ipa-dict' } : {},
   }
   const native: Entry = { ...base, id: ulid(now + 1), lang: input.learnerLang, lemma: input.translation.trim(), pos: input.pos, study: 'auto' }
-  const translation: Translation = { id: ulid(now), targetEntryId: target.id, nativeEntryId: native.id, source: 'user', createdAt: now }
+  const translation: Translation = { id: ulid(now), targetEntryId: target.id, nativeEntryId: native.id, meaningKey: 0, primary: true, source: 'user', createdAt: now }
 
   await db.transaction('rw', db.entries, db.translations, db.entryOverlays, async () => {
     await db.entries.bulkAdd([target, native])
@@ -485,7 +539,10 @@ export async function createUserEntry(input: {
 /** A single row in the Vocabulary list. (SPEC §7.3) */
 export interface VocabRow {
   entry: Entry
-  native?: string // primary translation lemma
+  // Every practiced meaning (primary + promoted), primary-first and deduped. Drives both search
+  // (so a promoted sense like "husband" surfaces its word `man`) and the `→ …` display. Reference-
+  // only subDefinitions aren't practiced cards, so they're excluded. (multi-meaning design)
+  meanings: string[]
   note?: string // overlay note text — searchable
   inStudySet: boolean // ★ marker
   recognize: Status
@@ -555,13 +612,23 @@ export async function listVocabulary(
 
   return entries.map((entry) => {
     const entryTranslations = translationsByEntry.get(entry.id) ?? []
-    const first = entryTranslations[0]
-    const native = first ? nativeById.get(first.nativeEntryId)?.lemma : undefined
+    // Status tracks the PRIMARY meaning (a multi-meaning word still shows as one row).
+    const first = entryTranslations.find((t) => t.primary) ?? entryTranslations[0]
+    // Every practiced meaning's lemma, ordered primary-first by meaningKey and deduped, so search
+    // finds a promoted meaning ("husband" → man) and the row can show the full list.
+    const meanings = [
+      ...new Set(
+        [...entryTranslations]
+          .sort((a, b) => a.meaningKey - b.meaningKey)
+          .map((t) => nativeById.get(t.nativeEntryId)?.lemma)
+          .filter((l): l is string => Boolean(l)),
+      ),
+    ]
     const entryStates = entryTranslations.flatMap((t) => rsByTranslation.get(t.id) ?? [])
     const lastReview = entryStates.reduce((max, rs) => Math.max(max, rs.lastReview ?? 0), 0)
     return {
       entry,
-      native,
+      meanings,
       note: noteByEntry.get(entry.id),
       inStudySet: isInStudySet(entry, level, entryStates.length > 0),
       recognize: deriveStatus(first ? rsByKey.get(`${first.id}:recognize`) : undefined),

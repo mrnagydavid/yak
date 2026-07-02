@@ -1,0 +1,1007 @@
+[
+  {
+    "kellyId": 5855,
+    "decision": "fix",
+    "reason": "hymn restates main; keep biblical psalm sense",
+    "translation": "hymn",
+    "senses": [
+      "psalm (biblical)"
+    ],
+    "inputHash": "2158a26c"
+  },
+  {
+    "kellyId": 6743,
+    "decision": "fix",
+    "reason": "colloquial 'psyk ward' is a distinct sense",
+    "translation": "psyche, mind",
+    "senses": [
+      "the psychiatric ward (colloquial)"
+    ],
+    "inputHash": "96338bd9"
+  },
+  {
+    "kellyId": 5827,
+    "decision": "fix",
+    "reason": "unit of mass and currency are distinct senses of pound",
+    "translation": "pound",
+    "senses": [
+      "pound (unit of mass)",
+      "pound (currency)"
+    ],
+    "inputHash": "4d58ed48"
+  },
+  {
+    "kellyId": 6590,
+    "decision": "fix",
+    "reason": "strip main; keep fabrication/lie sense",
+    "translation": "invention, bright idea",
+    "senses": [
+      "fabrication, made-up thing, a lie"
+    ],
+    "inputHash": "d270f3b2"
+  },
+  {
+    "kellyId": 6887,
+    "decision": "fix",
+    "reason": "strip fruit; keep colloquial parent",
+    "translation": "pear",
+    "senses": [
+      "parent (colloquial)"
+    ],
+    "inputHash": "69ea3cdb"
+  },
+  {
+    "kellyId": 6428,
+    "decision": "fix",
+    "reason": "stripe/streak is a distinct sense from edge",
+    "translation": "edge, border, boundary",
+    "senses": [
+      "stripe, streak"
+    ],
+    "inputHash": "4fb2b9fb"
+  },
+  {
+    "kellyId": 6211,
+    "decision": "fix",
+    "reason": "strip main; keep commercial liquidate/clearance senses",
+    "translation": "realize",
+    "senses": [
+      "liquidate, sell off (assets, stock)",
+      "hold a clearance sale"
+    ],
+    "inputHash": "700f6a06"
+  },
+  {
+    "kellyId": 6647,
+    "decision": "fix",
+    "reason": "outright/downright is a distinct intensifier sense",
+    "translation": "proper, regular",
+    "senses": [
+      "outright, downright"
+    ],
+    "inputHash": "2209a80c"
+  },
+  {
+    "kellyId": 6787,
+    "decision": "fix",
+    "reason": "registered mail is a distinct sense",
+    "translation": "recommended",
+    "senses": [
+      "registered (mail)"
+    ],
+    "inputHash": "7e1d7e73"
+  },
+  {
+    "kellyId": 6177,
+    "decision": "fix",
+    "reason": "strip main; keep replay and theatre revival senses",
+    "translation": "rerun, repeat",
+    "senses": [
+      "replay (sports slow-motion)",
+      "revival, comeback (theatre)"
+    ],
+    "inputHash": "9879fcdd"
+  },
+  {
+    "kellyId": 6544,
+    "decision": "fix",
+    "reason": "strip generic return; keep goods-return, recycling, carriage-return",
+    "translation": "return",
+    "senses": [
+      "return, refund (goods to seller)",
+      "recycling",
+      "carriage return (key or character)"
+    ],
+    "inputHash": "481b0979"
+  },
+  {
+    "kellyId": 6105,
+    "decision": "fix",
+    "reason": "revision/amendment is distinct from financial audit",
+    "translation": "audit",
+    "senses": [
+      "revision (change, amendment)"
+    ],
+    "inputHash": "83ab9a8b"
+  },
+  {
+    "kellyId": 6225,
+    "decision": "fix",
+    "reason": "all items merely narrow the same 'knight' meaning",
+    "translation": "knight",
+    "senses": [],
+    "inputHash": "a4b6cfab"
+  },
+  {
+    "kellyId": 5894,
+    "decision": "fix",
+    "reason": "Romanticism (the movement) is a distinct sense",
+    "translation": "romance",
+    "senses": [
+      "Romanticism (the movement)"
+    ],
+    "inputHash": "bcade2a0"
+  },
+  {
+    "kellyId": 5936,
+    "decision": "fix",
+    "reason": "strip building-ruin; keep financial ruin sense",
+    "translation": "ruin",
+    "senses": [
+      "ruin (financial collapse, bankruptcy)"
+    ],
+    "inputHash": "11c9c89a"
+  },
+  {
+    "kellyId": 6425,
+    "decision": "fix",
+    "reason": "morally corrupt sense is distinct from literally decayed",
+    "translation": "rotten",
+    "senses": [
+      "corrupt, morally reprehensible",
+      "lousy, no good (informal)"
+    ],
+    "inputHash": "0a2f5d42"
+  },
+  {
+    "kellyId": 6455,
+    "decision": "fix",
+    "reason": "sly/cunning person is a distinct figurative sense",
+    "translation": "fox",
+    "senses": [
+      "a sly, cunning person"
+    ],
+    "inputHash": "d81bde9e"
+  },
+  {
+    "kellyId": 5997,
+    "decision": "fix",
+    "reason": "strip mess; keep food mix/mixture sense",
+    "translation": "mess, disorder",
+    "senses": [
+      "mix, mixture (of food)"
+    ],
+    "inputHash": "a09fc2df"
+  },
+  {
+    "kellyId": 6343,
+    "decision": "fix",
+    "reason": "lettuce (the plant/leaves) is a distinct sense",
+    "translation": "salad",
+    "senses": [
+      "lettuce, salad leaves"
+    ],
+    "inputHash": "e668d82d"
+  },
+  {
+    "kellyId": 5805,
+    "decision": "fix",
+    "reason": "strip generic salon; keep auditorium and hair-salon senses",
+    "translation": "salon",
+    "senses": [
+      "auditorium (in a theatre or concert hall)",
+      "hair salon, beauty parlour"
+    ],
+    "inputHash": "41decec6"
+  },
+  {
+    "kellyId": 5899,
+    "decision": "fix",
+    "reason": "list only restates the main meaning",
+    "translation": "agreement, understanding, accord",
+    "senses": [],
+    "inputHash": "00b41c5f"
+  },
+  {
+    "kellyId": 7007,
+    "decision": "fix",
+    "reason": "combine/connect merely restates bring together",
+    "translation": "bring together",
+    "senses": [],
+    "inputHash": "98dc9ca5"
+  },
+  {
+    "kellyId": 6670,
+    "decision": "fix",
+    "reason": "check (threat to the king) is a distinct sense",
+    "translation": "chess",
+    "senses": [
+      "check (threat to the king)"
+    ],
+    "uncountable": true,
+    "inputHash": "726f9aba"
+  },
+  {
+    "kellyId": 7003,
+    "decision": "fix",
+    "reason": "mental/psychological is a distinct sense from spiritual",
+    "translation": "spiritual, relating to the soul",
+    "senses": [
+      "mental, psychological"
+    ],
+    "inputHash": "888086da"
+  },
+  {
+    "kellyId": 5806,
+    "decision": "fix",
+    "reason": "seafaring/navigation adds a distinct shade from shipping trade",
+    "translation": "shipping",
+    "senses": [
+      "seafaring, navigation"
+    ],
+    "inputHash": "56ea425d"
+  },
+  {
+    "kellyId": 6620,
+    "decision": "fix",
+    "reason": "dispel/dissipate is a distinct figurative sense",
+    "translation": "disperse, scatter",
+    "senses": [
+      "dispel, dissipate (doubts, fog)"
+    ],
+    "inputHash": "f025d639"
+  },
+  {
+    "kellyId": 6662,
+    "decision": "fix",
+    "reason": "buttock is a distinct anatomical sense",
+    "translation": "ham",
+    "senses": [
+      "buttock"
+    ],
+    "inputHash": "5bb8dfad"
+  },
+  {
+    "kellyId": 6337,
+    "decision": "fix",
+    "reason": "deception/fraud is a distinct sense from fun",
+    "translation": "joking around, fun",
+    "senses": [
+      "deception, fraud, a scam"
+    ],
+    "inputHash": "6a122616"
+  },
+  {
+    "kellyId": 6123,
+    "decision": "fix",
+    "reason": "cheat/swindle is a distinct sense from joking",
+    "translation": "joke, kid around",
+    "senses": [
+      "cheat, swindle"
+    ],
+    "inputHash": "4fe6f9ce"
+  },
+  {
+    "kellyId": 6434,
+    "decision": "fix",
+    "reason": "screaming merely restates scream",
+    "translation": "scream",
+    "senses": [],
+    "inputHash": "3d5d9cc7"
+  },
+  {
+    "kellyId": 5787,
+    "decision": "fix",
+    "reason": "scribe/copyist is a distinct historical sense",
+    "translation": "printer",
+    "senses": [
+      "scribe, copyist (historical)"
+    ],
+    "inputHash": "71fbf342"
+  },
+  {
+    "kellyId": 6213,
+    "decision": "fix",
+    "reason": "be barely visible is a distinct intransitive sense",
+    "translation": "glimpse",
+    "senses": [
+      "be faintly visible, show through"
+    ],
+    "inputHash": "cb7a3b73"
+  },
+  {
+    "kellyId": 6089,
+    "decision": "fix",
+    "reason": "manufacturing flash is a distinct technical sense",
+    "translation": "beard",
+    "senses": [
+      "flash (excess material on a cast or moulded part)"
+    ],
+    "inputHash": "60a7569f"
+  },
+  {
+    "kellyId": 6633,
+    "decision": "fix",
+    "reason": "pure/clean is a distinct sense from the colour pink",
+    "translation": "pink",
+    "senses": [
+      "pure, sheer (poetic)"
+    ],
+    "inputHash": "b4351244"
+  },
+  {
+    "kellyId": 6296,
+    "decision": "fix",
+    "reason": "strip generic shield; keep heraldic and carapace senses",
+    "translation": "shield",
+    "senses": [
+      "escutcheon (heraldry)",
+      "carapace, shell (of an animal)"
+    ],
+    "inputHash": "afc0ec0c"
+  },
+  {
+    "kellyId": 6149,
+    "decision": "fix",
+    "reason": "strip main; keep related tobacco-product senses",
+    "translation": "snus",
+    "senses": [
+      "nicotine pouches (tobacco-free variants)",
+      "snuff (for snorting, now rare)"
+    ],
+    "inputHash": "b7373beb"
+  },
+  {
+    "kellyId": 6519,
+    "decision": "fix",
+    "reason": "financially solvent is a distinct sense",
+    "translation": "solid, reliable",
+    "senses": [
+      "solvent (financially)"
+    ],
+    "inputHash": "e7bcd642"
+  },
+  {
+    "kellyId": 6244,
+    "decision": "fix",
+    "reason": "joint and several is a distinct legal sense",
+    "translation": "showing solidarity",
+    "senses": [
+      "joint and several (legal liability)"
+    ],
+    "inputHash": "cb399013"
+  },
+  {
+    "kellyId": 5656,
+    "decision": "fix",
+    "reason": "figurative mess and slang for fuel are distinct senses",
+    "translation": "soup",
+    "senses": [
+      "a mess, a chaotic situation",
+      "juice, gas (petrol, slang)"
+    ],
+    "inputHash": "a62cb2cd"
+  },
+  {
+    "kellyId": 6847,
+    "decision": "fix",
+    "reason": "gap/narrow opening is a distinct sense from text column",
+    "translation": "column",
+    "senses": [
+      "gap, narrow opening (between things)"
+    ],
+    "inputHash": "8d0c0813"
+  },
+  {
+    "kellyId": 5764,
+    "decision": "fix",
+    "reason": "sure thing/banker is a distinct figurative sense",
+    "translation": "nail",
+    "senses": [
+      "sure thing, a banker (near-certain bet)"
+    ],
+    "inputHash": "72bff10a"
+  },
+  {
+    "kellyId": 6902,
+    "decision": "fix",
+    "reason": "waste (time, resources) is a distinct sense from spill",
+    "translation": "spill",
+    "senses": [
+      "waste (time, resources)"
+    ],
+    "inputHash": "72ebb14b"
+  },
+  {
+    "kellyId": 6964,
+    "decision": "fix",
+    "reason": "spindle and web-crawler are distinct senses from the animal",
+    "translation": "spider",
+    "senses": [
+      "spindle (rotating part of a machine)",
+      "spider, crawler (web-indexing program)"
+    ],
+    "inputHash": "3f0d1135"
+  },
+  {
+    "kellyId": 6553,
+    "decision": "fix",
+    "reason": "strip yarn-spinning; keep embellish and purr senses",
+    "translation": "spin",
+    "senses": [
+      "expand on, build on (a story or idea)",
+      "purr (of a cat)"
+    ],
+    "inputHash": "2d37757d"
+  },
+  {
+    "kellyId": 6319,
+    "decision": "fix",
+    "reason": "fireplace is a distinct (older) sense from stove",
+    "translation": "stove, cooker",
+    "senses": [
+      "fireplace, hearth"
+    ],
+    "inputHash": "ac29fc7b"
+  },
+  {
+    "kellyId": 6629,
+    "decision": "fix",
+    "reason": "spool/reel is a distinct sense from flush/rinse",
+    "translation": "flush, rinse",
+    "senses": [
+      "spool, wind (onto a reel)"
+    ],
+    "inputHash": "41ab03bb"
+  },
+  {
+    "kellyId": 6235,
+    "decision": "fix",
+    "reason": "inject (with a syringe) is a distinct sense",
+    "translation": "spray, squirt",
+    "senses": [
+      "inject (with a syringe)"
+    ],
+    "inputHash": "1e08fd53"
+  },
+  {
+    "kellyId": 6562,
+    "decision": "fix",
+    "reason": "strip syringe; keep sprayer and fire-hose senses",
+    "translation": "syringe, sprayer",
+    "senses": [
+      "sprayer, squirt gun",
+      "fire hose, water cannon"
+    ],
+    "inputHash": "5dd5591a"
+  },
+  {
+    "kellyId": 6679,
+    "decision": "fix",
+    "reason": "running/full sprint is a distinct sense; drop rare nautical term",
+    "translation": "leap, bound",
+    "senses": [
+      "a run, full sprint (in phrases)"
+    ],
+    "inputHash": "5fd0e101"
+  },
+  {
+    "kellyId": 6953,
+    "decision": "fix",
+    "reason": "emotional tension is a distinct sense from physical taut",
+    "translation": "tense, taut",
+    "senses": [
+      "tense, nervous, on edge (emotionally)"
+    ],
+    "inputHash": "4f708341"
+  },
+  {
+    "kellyId": 6236,
+    "decision": "fix",
+    "reason": "typographic letter-spacing is a distinct sense from block",
+    "translation": "block",
+    "senses": [
+      "space out (letters in typesetting)"
+    ],
+    "inputHash": "6d1a688b"
+  },
+  {
+    "kellyId": 6886,
+    "decision": "fix",
+    "reason": "stick/staff (the object) is a distinct sense from a group of staff",
+    "translation": "staff",
+    "senses": [
+      "a stick, staff (rod)"
+    ],
+    "inputHash": "ca64ce57"
+  },
+  {
+    "kellyId": 6673,
+    "decision": "fix",
+    "reason": "ancient Greek unit of distance is a distinct sense",
+    "translation": "stadium",
+    "senses": [
+      "stadion (ancient Greek unit of distance)"
+    ],
+    "inputHash": "eb6f19f5"
+  },
+  {
+    "kellyId": 6285,
+    "decision": "fix",
+    "reason": "roast and informal sunbathe are distinct senses",
+    "translation": "fry",
+    "senses": [
+      "roast (in the oven)",
+      "sunbathe, roast in the sun (informal)"
+    ],
+    "inputHash": "b51b6190"
+  },
+  {
+    "kellyId": 5859,
+    "decision": "fix",
+    "reason": "stilted/formal and awkward are distinct figurative senses",
+    "translation": "stiff, rigid",
+    "senses": [
+      "stilted, over-formal (of manner)",
+      "awkward, self-conscious"
+    ],
+    "inputHash": "17c00baa"
+  },
+  {
+    "kellyId": 6174,
+    "decision": "fix",
+    "reason": "stimulus (the thing) is a distinct sense from stimulation",
+    "translation": "stimulation",
+    "senses": [
+      "a stimulus, an incentive"
+    ],
+    "inputHash": "33d5b730"
+  },
+  {
+    "kellyId": 6657,
+    "decision": "fix",
+    "reason": "utility pole narrows main; keep only distinct heraldic pale",
+    "translation": "pole, post",
+    "senses": [
+      "pale (vertical heraldic band)"
+    ],
+    "inputHash": "c694df97"
+  },
+  {
+    "kellyId": 6926,
+    "decision": "fix",
+    "reason": "strict/curt manner is a distinct figurative sense",
+    "translation": "tense, taut, tight",
+    "senses": [
+      "strict, curt (of manner)"
+    ],
+    "inputHash": "8221b0e2"
+  },
+  {
+    "kellyId": 5882,
+    "decision": "fix",
+    "reason": "clothesline and prank are distinct senses from line/dash",
+    "translation": "line, dash",
+    "senses": [
+      "clothesline",
+      "prank, mischievous trick"
+    ],
+    "inputHash": "1f13bc45"
+  },
+  {
+    "kellyId": 6320,
+    "decision": "fix",
+    "reason": "stocking is a distinct (longer) garment from a sock",
+    "translation": "sock",
+    "senses": [
+      "a stocking"
+    ],
+    "inputHash": "6b751962"
+  },
+  {
+    "kellyId": 6139,
+    "decision": "fix",
+    "reason": "throttle/restrict flow is a distinct figurative sense",
+    "translation": "strangle",
+    "senses": [
+      "throttle, choke off (flow, supply, funding)"
+    ],
+    "inputHash": "a091b78b"
+  },
+  {
+    "kellyId": 6581,
+    "decision": "fix",
+    "reason": "beam (smile broadly) is a distinct figurative sense",
+    "translation": "radiate",
+    "senses": [
+      "beam (smile radiantly)"
+    ],
+    "inputHash": "6b0db87c"
+  },
+  {
+    "kellyId": 6363,
+    "decision": "fix",
+    "reason": "label/brand on a reputation is a distinct figurative sense",
+    "translation": "stamp",
+    "senses": [
+      "stigma, label (on a person's reputation)"
+    ],
+    "inputHash": "ba8f0786"
+  },
+  {
+    "kellyId": 5701,
+    "decision": "fix",
+    "reason": "denounce/brand and clock-in for benefits are distinct senses",
+    "translation": "stamp",
+    "senses": [
+      "label, brand, denounce",
+      "sign on, clock in (for unemployment benefit)"
+    ],
+    "inputHash": "2b6795ad"
+  },
+  {
+    "kellyId": 6663,
+    "decision": "fix",
+    "reason": "rowdy/disorderly is a distinct sense from messy",
+    "translation": "messy",
+    "senses": [
+      "rowdy, disorderly (of people or a situation)"
+    ],
+    "inputHash": "8bb1ed3a"
+  },
+  {
+    "kellyId": 5951,
+    "decision": "fix",
+    "reason": "excellence/brilliance is a distinct sense from sovereignty",
+    "translation": "sovereignty",
+    "senses": [
+      "excellence, mastery, brilliance"
+    ],
+    "uncountable": true,
+    "inputHash": "bc06fcea"
+  },
+  {
+    "kellyId": 5845,
+    "decision": "fix",
+    "reason": "figurative lukewarm and aloof are distinct senses",
+    "translation": "cool, slightly chilly",
+    "senses": [
+      "lukewarm, faint (of interest, response)",
+      "cool, distant (of manner)"
+    ],
+    "inputHash": "8fdbf5e7"
+  },
+  {
+    "kellyId": 6262,
+    "decision": "fix",
+    "reason": "figurative strained/a bit much is a distinct slang sense",
+    "translation": "sweaty",
+    "senses": [
+      "forced, strained, a bit much (informal)"
+    ],
+    "inputHash": "20625b96"
+  },
+  {
+    "kellyId": 6892,
+    "decision": "fix",
+    "reason": "emotional sting/hurt is a distinct sense from physical",
+    "translation": "sting, burn",
+    "senses": [
+      "sting, hurt (emotionally)"
+    ],
+    "inputHash": "ff741e53"
+  },
+  {
+    "kellyId": 5697,
+    "decision": "fix",
+    "reason": "contemptible person is a distinct figurative sense",
+    "translation": "pig, hog, swine",
+    "senses": [
+      "swine, bastard (contemptible person)"
+    ],
+    "inputHash": "fdb349ec"
+  },
+  {
+    "kellyId": 5983,
+    "decision": "fix",
+    "reason": "undulation merely restates oscillation",
+    "translation": "swing, oscillation",
+    "senses": [],
+    "inputHash": "78e5a9ed"
+  },
+  {
+    "kellyId": 6106,
+    "decision": "fix",
+    "reason": "emotional hurt is a distinct sense from physical wound",
+    "translation": "wound",
+    "senses": [
+      "hurt, offend (emotionally)"
+    ],
+    "inputHash": "49b786d8"
+  },
+  {
+    "kellyId": 6701,
+    "decision": "fix",
+    "reason": "vulgar slang for semen is a distinct sense",
+    "translation": "sauce",
+    "senses": [
+      "semen (vulgar slang)"
+    ],
+    "inputHash": "d86191de"
+  },
+  {
+    "kellyId": 6341,
+    "decision": "fix",
+    "reason": "place mat/small cloth is a distinct sense from a pill",
+    "translation": "tablet, pill",
+    "senses": [
+      "place mat, doily (small cloth)"
+    ],
+    "inputHash": "a889d3bf"
+  },
+  {
+    "kellyId": 5984,
+    "decision": "fix",
+    "reason": "booze and download are distinct informal senses from refuel",
+    "translation": "refuel, fill up",
+    "senses": [
+      "drink heavily, booze (slang)",
+      "download (large amounts of data, slang)"
+    ],
+    "inputHash": "a1d39e72"
+  },
+  {
+    "kellyId": 5933,
+    "decision": "fix",
+    "reason": "food accompaniment/side is a distinct sense from accessory",
+    "translation": "accessory",
+    "senses": [
+      "accompaniment, side (to food)"
+    ],
+    "inputHash": "572b0e40"
+  },
+  {
+    "kellyId": 6353,
+    "decision": "fix",
+    "reason": "inflict (harm, loss) is a distinct sense from add",
+    "translation": "add, enclose",
+    "senses": [
+      "inflict (harm, injury, loss)"
+    ],
+    "inputHash": "bf775c98"
+  },
+  {
+    "kellyId": 6150,
+    "decision": "fix",
+    "reason": "be available is a distinct sense from happen",
+    "translation": "happen, come about",
+    "senses": [
+      "be available, be at hand"
+    ],
+    "inputHash": "cf984174"
+  },
+  {
+    "kellyId": 6572,
+    "decision": "fix",
+    "reason": "acquire/assimilate knowledge is a distinct sense from dedicate",
+    "translation": "dedicate",
+    "senses": [
+      "acquire, assimilate (knowledge, skills)"
+    ],
+    "inputHash": "7312f874"
+  },
+  {
+    "kellyId": 6098,
+    "decision": "fix",
+    "reason": "predict/guess and betting are distinct senses from tip over",
+    "translation": "tip, tip over",
+    "senses": [
+      "guess, predict (an outcome)",
+      "bet (on sports results, football pools)"
+    ],
+    "inputHash": "26cb00eb"
+  },
+  {
+    "kellyId": 6947,
+    "decision": "fix",
+    "reason": "both items are the same 'male animal' sense",
+    "translation": "bull",
+    "senses": [],
+    "inputHash": "f07b0ab5"
+  },
+  {
+    "kellyId": 6711,
+    "decision": "fix",
+    "reason": "empty space/gap merely restates emptiness/void",
+    "translation": "emptiness, void",
+    "senses": [],
+    "inputHash": "0020ef10"
+  },
+  {
+    "kellyId": 6761,
+    "decision": "fix",
+    "reason": "fealty/allegiance merely restates loyalty",
+    "translation": "fidelity, loyalty",
+    "senses": [],
+    "inputHash": "6d98fae9"
+  },
+  {
+    "kellyId": 6617,
+    "decision": "fix",
+    "reason": "stage magician/conjurer is a distinct sense from sorcerer",
+    "translation": "wizard, sorcerer",
+    "senses": [
+      "magician, conjurer (stage magic)"
+    ],
+    "inputHash": "34bbb054"
+  },
+  {
+    "kellyId": 5841,
+    "decision": "fix",
+    "reason": "unfortunately (in fixed phrases) is a distinct sense",
+    "translation": "boringly, tediously",
+    "senses": [
+      "unfortunately, sadly (as in 'tråkigt nog')"
+    ],
+    "inputHash": "f5bbaa26"
+  },
+  {
+    "kellyId": 6715,
+    "decision": "fix",
+    "reason": "figurative slow-witted is a distinct sense from sluggish",
+    "translation": "inert, slow",
+    "senses": [
+      "slow-witted, dull (of a person)"
+    ],
+    "inputHash": "eca55626"
+  },
+  {
+    "kellyId": 5733,
+    "decision": "fix",
+    "reason": "drop archaic 'trust' sense beyond a learner's needs",
+    "translation": "comfort, console",
+    "senses": [],
+    "inputHash": "274db61e"
+  },
+  {
+    "kellyId": 6361,
+    "decision": "fix",
+    "reason": "Gemini (star sign) is a distinct sense",
+    "translation": "twin",
+    "senses": [
+      "Gemini (the zodiac sign)"
+    ],
+    "inputHash": "ac41c35c"
+  },
+  {
+    "kellyId": 5744,
+    "decision": "fix",
+    "reason": "money laundering is a distinct figurative sense",
+    "translation": "laundry",
+    "senses": [
+      "laundering (of money)"
+    ],
+    "inputHash": "fa408c87"
+  },
+  {
+    "kellyId": 6524,
+    "decision": "fix",
+    "reason": "general cover/blanket layer is a distinct sense from bedding duvet",
+    "translation": "duvet, comforter",
+    "senses": [
+      "cover, layer, blanket (e.g. of snow)"
+    ],
+    "inputHash": "a5d40b85"
+  },
+  {
+    "kellyId": 6511,
+    "decision": "fix",
+    "reason": "financial cover/backing is a distinct sense from coverage",
+    "translation": "coverage",
+    "senses": [
+      "cover, backing (funds behind a cheque or debt)"
+    ],
+    "inputHash": "51fcbe69"
+  },
+  {
+    "kellyId": 5779,
+    "decision": "fix",
+    "reason": "industrial furnace/kiln is a distinct sense from oven",
+    "translation": "oven",
+    "senses": [
+      "furnace, kiln (industrial)"
+    ],
+    "inputHash": "0e8c6c89"
+  },
+  {
+    "kellyId": 6331,
+    "decision": "fix",
+    "reason": "clandestine 'underground' is a distinct figurative sense",
+    "translation": "subterranean",
+    "senses": [
+      "underground, clandestine (kept from the authorities)"
+    ],
+    "inputHash": "8ece3722"
+  },
+  {
+    "kellyId": 5804,
+    "decision": "fix",
+    "reason": "subject/subjugate someone is a distinct transitive sense",
+    "translation": "submit, yield",
+    "senses": [
+      "subject, subjugate (someone to something)"
+    ],
+    "inputHash": "5330b656"
+  },
+  {
+    "kellyId": 6596,
+    "decision": "fix",
+    "reason": "disapprove of/reject is a distinct sense from failing a grade",
+    "translation": "fail",
+    "senses": [
+      "disapprove of, reject (a proposal, evidence)"
+    ],
+    "inputHash": "50d5d452"
+  },
+  {
+    "kellyId": 5939,
+    "decision": "fix",
+    "reason": "collect/levy taxes is a distinct sense from receive",
+    "translation": "receive",
+    "senses": [
+      "collect, levy (taxes)"
+    ],
+    "inputHash": "e9cea0b4"
+  },
+  {
+    "kellyId": 6585,
+    "decision": "fix",
+    "reason": "figurative exalted/lofty is a distinct sense from physically raised",
+    "translation": "raised, elevated",
+    "senses": [
+      "exalted, lofty (figurative)"
+    ],
+    "inputHash": "effbc2a6"
+  },
+  {
+    "kellyId": 6062,
+    "decision": "fix",
+    "reason": "double-page spread and dictionary entry are distinct senses",
+    "translation": "idea, suggestion",
+    "senses": [
+      "double-page spread",
+      "entry (in a dictionary or encyclopedia)"
+    ],
+    "inputHash": "8af62aad"
+  },
+  {
+    "kellyId": 6058,
+    "decision": "fix",
+    "reason": "erode/undermine is a distinct figurative sense",
+    "translation": "hollow out",
+    "senses": [
+      "erode, undermine (rights, trust, value)"
+    ],
+    "inputHash": "0bda2094"
+  },
+  {
+    "kellyId": 6654,
+    "decision": "fix",
+    "reason": "the dig site itself is a distinct sense from the act of excavating",
+    "translation": "excavation, dig",
+    "senses": [
+      "the dig site (place being excavated)"
+    ],
+    "inputHash": "6aa7063a"
+  }
+]

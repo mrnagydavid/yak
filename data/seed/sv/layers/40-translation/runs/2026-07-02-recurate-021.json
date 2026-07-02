@@ -1,0 +1,1001 @@
+[
+  {
+    "kellyId": 6699,
+    "decision": "fix",
+    "reason": "outlet covers the drain/outflow senses; kept mouth of a waterway",
+    "translation": "outlet",
+    "senses": [
+      "outflow, mouth (of a waterway)"
+    ],
+    "inputHash": "1b4dbf29"
+  },
+  {
+    "kellyId": 6324,
+    "decision": "fix",
+    "reason": "stripped leading restatement of provocative; kept the sexy shade",
+    "translation": "provocative",
+    "senses": [
+      "suggestive (sexy)"
+    ],
+    "inputHash": "a4dd7fc4"
+  },
+  {
+    "kellyId": 6975,
+    "decision": "fix",
+    "reason": "kept the typical shade beyond marked/pronounced",
+    "translation": "marked, pronounced",
+    "senses": [
+      "typical, characteristic"
+    ],
+    "inputHash": "149e8d13"
+  },
+  {
+    "kellyId": 6143,
+    "decision": "fix",
+    "reason": "stripped leading electrical-socket restatement of outlet; kept the bank withdrawal sense",
+    "translation": "outlet",
+    "senses": [
+      "withdrawal (from a bank account)"
+    ],
+    "inputHash": "fc1e0036"
+  },
+  {
+    "kellyId": 5932,
+    "decision": "fix",
+    "reason": "kept omen and high-visibility senses beyond notice",
+    "translation": "notice",
+    "senses": [
+      "omen, premonition",
+      "high-visibility (reflective clothing)"
+    ],
+    "inputHash": "69c8b47a"
+  },
+  {
+    "kellyId": 6003,
+    "decision": "fix",
+    "reason": "kept layer and alternate senses beyond lap",
+    "translation": "lap",
+    "senses": [
+      "layer",
+      "alternate, intersperse"
+    ],
+    "inputHash": "92be7686"
+  },
+  {
+    "kellyId": 6870,
+    "decision": "fix",
+    "reason": "both items merely restate veteran (military vs experienced)",
+    "translation": "veteran",
+    "senses": [],
+    "inputHash": "0d39fa4e"
+  },
+  {
+    "kellyId": 6907,
+    "decision": "fix",
+    "reason": "kept the wide-ranging/extensive shade beyond vast/expansive",
+    "translation": "vast, expansive",
+    "senses": [
+      "wide-ranging, extensive"
+    ],
+    "inputHash": "64f761de"
+  },
+  {
+    "kellyId": 6872,
+    "decision": "fix",
+    "reason": "stripped leading restatement of point; kept the joke sense",
+    "translation": "point",
+    "senses": [
+      "joke, wisecrack"
+    ],
+    "inputHash": "7e19692a"
+  },
+  {
+    "kellyId": 6301,
+    "decision": "fix",
+    "reason": "stripped leading restatement; kept guardian/keeper",
+    "translation": "security guard",
+    "senses": [
+      "guardian, keeper"
+    ],
+    "inputHash": "a6741ecc"
+  },
+  {
+    "kellyId": 5669,
+    "decision": "fix",
+    "reason": "stripped restatement of female friend; kept mistress",
+    "translation": "female friend",
+    "senses": [
+      "mistress (of a man)"
+    ],
+    "inputHash": "a48f3bce"
+  },
+  {
+    "kellyId": 6919,
+    "decision": "fix",
+    "reason": "stripped animal restatement; kept the insult sense",
+    "translation": "donkey, ass",
+    "senses": [
+      "jackass, idiot (insult)"
+    ],
+    "inputHash": "b013c68f"
+  },
+  {
+    "kellyId": 5644,
+    "decision": "fix",
+    "reason": "kept the revoke sense beyond recall",
+    "translation": "recall",
+    "senses": [
+      "revoke (a decision)"
+    ],
+    "inputHash": "77ed8e3d"
+  },
+  {
+    "kellyId": 6461,
+    "decision": "fix",
+    "reason": "stripped recycle restatement; kept regain/recover",
+    "translation": "recycle",
+    "senses": [
+      "regain, recover (health, strength)"
+    ],
+    "inputHash": "25e7f987"
+  },
+  {
+    "kellyId": 6191,
+    "decision": "fix",
+    "reason": "kept the favourite sense beyond darling/honey",
+    "translation": "darling, honey",
+    "senses": [
+      "favourite, pet"
+    ],
+    "inputHash": "b8ca9bb1"
+  },
+  {
+    "kellyId": 6494,
+    "decision": "fix",
+    "reason": "stripped physical restatement; kept the emotional tender/gentle sense",
+    "translation": "sore, tender",
+    "senses": [
+      "tender, gentle (affectionate)"
+    ],
+    "inputHash": "adfb3a2f"
+  },
+  {
+    "kellyId": 5986,
+    "decision": "fix",
+    "reason": "kept the site-map sense beyond overview",
+    "translation": "overview",
+    "senses": [
+      "site map"
+    ],
+    "inputHash": "479055a1"
+  },
+  {
+    "kellyId": 6650,
+    "decision": "fix",
+    "reason": "stripped army restatement; kept the air-force rank",
+    "translation": "colonel",
+    "senses": [
+      "group captain (air force, British)"
+    ],
+    "inputHash": "3e3ce0a5"
+  },
+  {
+    "kellyId": 7603,
+    "decision": "fix",
+    "reason": "stripped leading restatement of accent/stress; kept the accent-mark and foreign-accent senses",
+    "translation": "accent, stress",
+    "senses": [
+      "accent mark (on a letter)",
+      "accent (foreign or regional way of speaking)"
+    ],
+    "inputHash": "66007c0e"
+  },
+  {
+    "kellyId": 7526,
+    "decision": "fix",
+    "reason": "stripped restatement; kept current event and timeliness",
+    "translation": "topicality, relevance",
+    "senses": [
+      "current event, topical issue",
+      "timeliness, up-to-dateness"
+    ],
+    "inputHash": "99e15300"
+  },
+  {
+    "kellyId": 7307,
+    "decision": "fix",
+    "reason": "stripped restatement; kept the unplugged/unamplified music sense",
+    "translation": "acoustic",
+    "senses": [
+      "acoustic (unplugged, without amplification)"
+    ],
+    "inputHash": "4ba8795a"
+  },
+  {
+    "kellyId": 7602,
+    "decision": "fix",
+    "reason": "kept the almanac sense beyond calendar",
+    "translation": "calendar",
+    "senses": [
+      "almanac"
+    ],
+    "inputHash": "ca00616d"
+  },
+  {
+    "kellyId": 7793,
+    "decision": "fix",
+    "reason": "both items merely restate breath (exhaled air vs single act)",
+    "translation": "breath",
+    "senses": [],
+    "inputHash": "66952224"
+  },
+  {
+    "kellyId": 8405,
+    "decision": "fix",
+    "reason": "stripped football restatement; kept the general attacking-player sense",
+    "translation": "striker, forward",
+    "senses": [
+      "attacking player"
+    ],
+    "inputHash": "26d7d047"
+  },
+  {
+    "kellyId": 7532,
+    "decision": "fix",
+    "reason": "stripped mooring restatement; kept the HTML anchor sense",
+    "translation": "anchor",
+    "senses": [
+      "anchor (HTML/hyperlink)"
+    ],
+    "inputHash": "00ba6844"
+  },
+  {
+    "kellyId": 7679,
+    "decision": "fix",
+    "reason": "kept insect feeler and radio/TV aerial senses",
+    "translation": "antenna",
+    "senses": [
+      "antenna, feeler (of an insect)",
+      "aerial (for radio/TV)"
+    ],
+    "inputHash": "e428ac49"
+  },
+  {
+    "kellyId": 8184,
+    "decision": "fix",
+    "reason": "stripped fruit restatement; kept the colour sense",
+    "translation": "apricot",
+    "senses": [
+      "apricot (colour)"
+    ],
+    "inputHash": "05b9eb5a"
+  },
+  {
+    "kellyId": 7179,
+    "decision": "fix",
+    "reason": "hunger merely restates appetite",
+    "translation": "appetite",
+    "senses": [],
+    "inputHash": "1890bf9d"
+  },
+  {
+    "kellyId": 7067,
+    "decision": "fix",
+    "reason": "kept the box/chest sense beyond ark",
+    "translation": "ark",
+    "senses": [
+      "box, chest"
+    ],
+    "inputHash": "43567148"
+  },
+  {
+    "kellyId": 8033,
+    "decision": "fix",
+    "reason": "stripped restatement of custody; kept the place (detention cell)",
+    "translation": "detention, custody",
+    "senses": [
+      "detention cell, lockup (the place)"
+    ],
+    "inputHash": "3dcbed9e"
+  },
+  {
+    "kellyId": 8201,
+    "decision": "fix",
+    "reason": "kept the brawny/muscular shade beyond athletic",
+    "translation": "athletic",
+    "senses": [
+      "brawny, muscular"
+    ],
+    "inputHash": "7cfe0d9a"
+  },
+  {
+    "kellyId": 7551,
+    "decision": "fix",
+    "reason": "stripped restatement; kept the general automaton sense",
+    "translation": "vending machine, slot machine",
+    "senses": [
+      "automaton (self-operating machine)"
+    ],
+    "inputHash": "96380c76"
+  },
+  {
+    "kellyId": 7944,
+    "decision": "fix",
+    "reason": "stripped restatement; kept the specialised Swedish-government and EU titles",
+    "translation": "department head",
+    "senses": [
+      "deputy director-general (Swedish government)",
+      "head of division (EU)"
+    ],
+    "inputHash": "e82b0c39"
+  },
+  {
+    "kellyId": 7574,
+    "decision": "fix",
+    "reason": "kept the act of defecation beyond feces/stool",
+    "translation": "feces, stool",
+    "senses": [
+      "defecation (the act)"
+    ],
+    "uncountable": true,
+    "inputHash": "a2f57882"
+  },
+  {
+    "kellyId": 7046,
+    "decision": "fix",
+    "reason": "kept the sewage sense beyond drain",
+    "translation": "drain",
+    "senses": [
+      "sewage"
+    ],
+    "inputHash": "0882eb53"
+  },
+  {
+    "kellyId": 7796,
+    "decision": "fix",
+    "reason": "stripped restatement; kept redundancy/layoff",
+    "translation": "dismissal, firing",
+    "senses": [
+      "redundancy, layoff"
+    ],
+    "inputHash": "c47a0e1d"
+  },
+  {
+    "kellyId": 7872,
+    "decision": "fix",
+    "reason": "stripped restatement; kept the SEK slang sense",
+    "translation": "baker",
+    "senses": [
+      "krona, SEK (slang)"
+    ],
+    "inputHash": "a0426253"
+  },
+  {
+    "kellyId": 7505,
+    "decision": "fix",
+    "reason": "stripped restatement of formal dance; kept the bale sense",
+    "translation": "ball (formal dance)",
+    "senses": [
+      "bale, bundle"
+    ],
+    "inputHash": "f000e97d"
+  },
+  {
+    "kellyId": 7618,
+    "decision": "fix",
+    "reason": "stripped structural restatement; kept the legal code sense (dropped rare heraldic bend)",
+    "translation": "beam",
+    "senses": [
+      "code (section of legislation)"
+    ],
+    "inputHash": "f09b58aa"
+  },
+  {
+    "kellyId": 7063,
+    "decision": "fix",
+    "reason": "kept the barque (ship) sense beyond bark",
+    "translation": "bark",
+    "senses": [
+      "barque (type of ship)"
+    ],
+    "inputHash": "e7d07fb8"
+  },
+  {
+    "kellyId": 7869,
+    "decision": "fix",
+    "reason": "stripped herb restatement; kept the basilica church sense",
+    "translation": "basil",
+    "senses": [
+      "basilica (large church)"
+    ],
+    "inputHash": "55f15ef5"
+  },
+  {
+    "kellyId": 7361,
+    "decision": "fix",
+    "reason": "kept the impostor shade beyond fraudster",
+    "translation": "fraudster",
+    "senses": [
+      "impostor"
+    ],
+    "inputHash": "23eb7c20"
+  },
+  {
+    "kellyId": 7761,
+    "decision": "fix",
+    "reason": "kept the situation/predicament sense beyond position/location",
+    "translation": "position, location",
+    "senses": [
+      "situation, predicament"
+    ],
+    "inputHash": "b86920ae"
+  },
+  {
+    "kellyId": 7240,
+    "decision": "fix",
+    "reason": "stripped restatement of master; kept overcome/control",
+    "translation": "master",
+    "senses": [
+      "overcome, control"
+    ],
+    "inputHash": "2ad9e091"
+  },
+  {
+    "kellyId": 8005,
+    "decision": "fix",
+    "reason": "stripped restatement; kept the rocky (exposed bedrock) sense",
+    "translation": "mountainous",
+    "senses": [
+      "rocky (exposed bedrock)"
+    ],
+    "inputHash": "3ec15aba"
+  },
+  {
+    "kellyId": 7244,
+    "decision": "fix",
+    "reason": "stripped restatement; kept the justify sense",
+    "translation": "entitle, give the right to",
+    "senses": [
+      "justify"
+    ],
+    "inputHash": "22951286"
+  },
+  {
+    "kellyId": 7746,
+    "decision": "fix",
+    "reason": "kept the eligibility/entitlement sense beyond justification",
+    "translation": "justification",
+    "senses": [
+      "eligibility, entitlement"
+    ],
+    "inputHash": "ebcdd5dc"
+  },
+  {
+    "kellyId": 8307,
+    "decision": "fix",
+    "reason": "kept the celebrity (person) sense beyond fame",
+    "translation": "fame",
+    "senses": [
+      "celebrity (famous person)"
+    ],
+    "inputHash": "03cba0f3"
+  },
+  {
+    "kellyId": 7295,
+    "decision": "fix",
+    "reason": "stripped restatement; kept the mandatory vehicle inspection sense",
+    "translation": "inspection",
+    "senses": [
+      "vehicle inspection, MOT (mandatory car check)"
+    ],
+    "inputHash": "15dedb3a"
+  },
+  {
+    "kellyId": 7181,
+    "decision": "fix",
+    "reason": "stripped restatement; kept guardian and patron",
+    "translation": "protector",
+    "senses": [
+      "guardian",
+      "patron"
+    ],
+    "inputHash": "0a386f28"
+  },
+  {
+    "kellyId": 7605,
+    "decision": "fix",
+    "reason": "stripped mountain restatement; kept mount a horse and ascend a throne",
+    "translation": "climb, scale",
+    "senses": [
+      "mount (a horse)",
+      "ascend (a throne)"
+    ],
+    "inputHash": "35e36f69"
+  },
+  {
+    "kellyId": 7790,
+    "decision": "fix",
+    "reason": "stripped restatement; kept the definiteness sense",
+    "translation": "determination, resolve",
+    "senses": [
+      "definiteness, certainty"
+    ],
+    "inputHash": "c759894a"
+  },
+  {
+    "kellyId": 7190,
+    "decision": "fix",
+    "reason": "stripped country restatement; kept the man/crew (fill a post) sense",
+    "translation": "occupy",
+    "senses": [
+      "man, crew, fill (a post or vessel)"
+    ],
+    "inputHash": "0802bcde"
+  },
+  {
+    "kellyId": 7249,
+    "decision": "fix",
+    "reason": "kept grazing and pasturage senses beyond bait",
+    "translation": "bait",
+    "senses": [
+      "grazing (of livestock)",
+      "pasturage, pasture"
+    ],
+    "inputHash": "b468b224"
+  },
+  {
+    "kellyId": 7815,
+    "decision": "fix",
+    "reason": "stripped restatement; kept the fetch a price sense",
+    "translation": "condition, be conditioned by",
+    "senses": [
+      "fetch, command (a price)"
+    ],
+    "inputHash": "5e356e59"
+  },
+  {
+    "kellyId": 8210,
+    "decision": "fix",
+    "reason": "kept the animal mating sense beyond cover",
+    "translation": "cover",
+    "senses": [
+      "covering, mating (of animals)"
+    ],
+    "inputHash": "03d1f70c"
+  },
+  {
+    "kellyId": 8011,
+    "decision": "fix",
+    "reason": "stripped restatement; kept the armament (weaponry) sense",
+    "translation": "arming",
+    "senses": [
+      "armament (weapons of a force or vessel)"
+    ],
+    "inputHash": "82687879"
+  },
+  {
+    "kellyId": 7633,
+    "decision": "fix",
+    "reason": "both items restate bibliography (list vs study of books)",
+    "translation": "bibliography",
+    "senses": [],
+    "inputHash": "2aa4eb0a"
+  },
+  {
+    "kellyId": 7470,
+    "decision": "fix",
+    "reason": "stripped restatement; kept patty and the beefy-guy slang",
+    "translation": "steak, beefsteak",
+    "senses": [
+      "patty (of minced meat)",
+      "beefy guy, hunk (colloquial)"
+    ],
+    "inputHash": "fc51cc3a"
+  },
+  {
+    "kellyId": 8394,
+    "decision": "fix",
+    "reason": "stripped wooden restatement; dropped rare heraldic fess",
+    "translation": "beam",
+    "senses": [],
+    "inputHash": "e7f2a6a9"
+  },
+  {
+    "kellyId": 7114,
+    "decision": "fix",
+    "reason": "stripped restatement; kept the indecent-exposure and vulnerable senses",
+    "translation": "expose, uncover",
+    "senses": [
+      "expose oneself (indecent exposure)",
+      "expose oneself (leave open to attack)"
+    ],
+    "inputHash": "cdf9fbeb"
+  },
+  {
+    "kellyId": 8111,
+    "decision": "fix",
+    "reason": "stripped restatement; kept the smock sense",
+    "translation": "blouse",
+    "senses": [
+      "smock"
+    ],
+    "inputHash": "37c75d46"
+  },
+  {
+    "kellyId": 7696,
+    "decision": "fix",
+    "reason": "both items restate ink (writing vs squid); minor domain difference only",
+    "translation": "ink",
+    "senses": [],
+    "uncountable": true,
+    "inputHash": "54266920"
+  },
+  {
+    "kellyId": 7408,
+    "decision": "fix",
+    "reason": "stripped restatement; kept the video-game boss sense",
+    "translation": "boss, supervisor",
+    "senses": [
+      "boss (video game enemy)"
+    ],
+    "inputHash": "490c1a5a"
+  },
+  {
+    "kellyId": 7717,
+    "decision": "fix",
+    "reason": "both items restate correspondence (exchange vs collection of letters)",
+    "translation": "correspondence",
+    "senses": [],
+    "inputHash": "7b63dc88"
+  },
+  {
+    "kellyId": 8239,
+    "decision": "fix",
+    "reason": "stripped restatement; kept the board-game board sense",
+    "translation": "board, plank",
+    "senses": [
+      "board (of a board game)"
+    ],
+    "inputHash": "9c241625"
+  },
+  {
+    "kellyId": 7621,
+    "decision": "fix",
+    "reason": "kept the chest sense beyond rib cage",
+    "translation": "rib cage",
+    "senses": [
+      "chest (part of the body)"
+    ],
+    "inputHash": "7dcf0149"
+  },
+  {
+    "kellyId": 7353,
+    "decision": "fix",
+    "reason": "kept the settler/inhabitant sense beyond builder",
+    "translation": "builder",
+    "senses": [
+      "settler, inhabitant"
+    ],
+    "inputHash": "3d21a176"
+  },
+  {
+    "kellyId": 7109,
+    "decision": "fix",
+    "reason": "stripped weapon restatement; kept arc, glasses frame, story arc",
+    "translation": "bow",
+    "senses": [
+      "arc, curve",
+      "frame (of glasses)",
+      "story arc (narrative)"
+    ],
+    "inputHash": "c4ff23ba"
+  },
+  {
+    "kellyId": 8171,
+    "decision": "fix",
+    "reason": "stripped restatement of torso; kept the punch/punch bowl drink sense",
+    "translation": "torso",
+    "senses": [
+      "punch, punch bowl (drink)"
+    ],
+    "inputHash": "fec19523"
+  },
+  {
+    "kellyId": 8331,
+    "decision": "fix",
+    "reason": "kept bedpan, basin and cymbal senses beyond pelvis",
+    "translation": "pelvis",
+    "senses": [
+      "bedpan",
+      "basin",
+      "cymbal"
+    ],
+    "inputHash": "1cbfaf2a"
+  },
+  {
+    "kellyId": 7823,
+    "decision": "fix",
+    "reason": "primary already covers both grammatical inflection and physical bend",
+    "translation": "inflection; bend",
+    "senses": [],
+    "inputHash": "f38d4672"
+  },
+  {
+    "kellyId": 7735,
+    "decision": "fix",
+    "reason": "kept the bike-ride (distance/time) sense beyond bicycle path",
+    "translation": "bicycle path",
+    "senses": [
+      "bike ride (distance or time riding)"
+    ],
+    "inputHash": "01268e5c"
+  },
+  {
+    "kellyId": 7296,
+    "decision": "fix",
+    "reason": "kept the legal service-of-process sense beyond notification",
+    "translation": "notification",
+    "senses": [
+      "service of process (legal)"
+    ],
+    "inputHash": "8d11b753"
+  },
+  {
+    "kellyId": 7644,
+    "decision": "fix",
+    "reason": "primary already covers delicious; delicate; both items just restate them",
+    "translation": "delicious; delicate",
+    "senses": [],
+    "inputHash": "b6ab0c34"
+  },
+  {
+    "kellyId": 7498,
+    "decision": "fix",
+    "reason": "stripped restatement; kept arrangement/outline and predisposition",
+    "translation": "disposal",
+    "senses": [
+      "arrangement, outline (of a text or plan)",
+      "predisposition (to a disease)"
+    ],
+    "inputHash": "acf22951"
+  },
+  {
+    "kellyId": 8137,
+    "decision": "fix",
+    "reason": "kept the road/wall cant/slope sense beyond dosage",
+    "translation": "dosage",
+    "senses": [
+      "cant, slope (of a road or wall)"
+    ],
+    "inputHash": "0e58c414"
+  },
+  {
+    "kellyId": 7942,
+    "decision": "fix",
+    "reason": "stripped restatement; kept protection-by-escort and the sex-worker sense",
+    "translation": "escort",
+    "senses": [
+      "protection by an escort",
+      "escort (sex worker)"
+    ],
+    "inputHash": "d1bd5a64"
+  },
+  {
+    "kellyId": 8395,
+    "decision": "fix",
+    "reason": "stripped restatement of the title; kept the abstract excellence sense",
+    "translation": "Excellency",
+    "senses": [
+      "excellence"
+    ],
+    "inputHash": "94f36da6"
+  },
+  {
+    "kellyId": 7849,
+    "decision": "fix",
+    "reason": "stripped restatement; kept the Lent sense",
+    "translation": "fast, fasting",
+    "senses": [
+      "Lent"
+    ],
+    "inputHash": "057d43a9"
+  },
+  {
+    "kellyId": 7978,
+    "decision": "fix",
+    "reason": "stripped moral restatement; kept the be missing/wanting sense",
+    "translation": "do wrong, err",
+    "senses": [
+      "be missing, be lacking"
+    ],
+    "inputHash": "7201aa3b"
+  },
+  {
+    "kellyId": 8296,
+    "decision": "fix",
+    "reason": "kept the spring (device) and tongue senses beyond feather",
+    "translation": "feather",
+    "senses": [
+      "spring (elastic device)",
+      "tongue (of a tongue-and-groove joint)"
+    ],
+    "inputHash": "67403d2c"
+  },
+  {
+    "kellyId": 7668,
+    "decision": "fix",
+    "reason": "kept the act of remote control beyond the device",
+    "translation": "remote control, remote",
+    "senses": [
+      "remote control (act of controlling from a distance)"
+    ],
+    "inputHash": "831f910f"
+  },
+  {
+    "kellyId": 7050,
+    "decision": "fix",
+    "reason": "kept the romance/lover slang sense beyond flame",
+    "translation": "flame",
+    "senses": [
+      "flame, sweetheart (a lover)"
+    ],
+    "inputHash": "afed3eaa"
+  },
+  {
+    "kellyId": 7372,
+    "decision": "fix",
+    "reason": "stripped restatement; kept the flare-up sense",
+    "translation": "blaze, flame",
+    "senses": [
+      "flare up"
+    ],
+    "inputHash": "1e1f4e0f"
+  },
+  {
+    "kellyId": 7254,
+    "decision": "fix",
+    "reason": "kept the fleeting sense beyond volatile",
+    "translation": "volatile",
+    "senses": [
+      "fleeting, transient"
+    ],
+    "inputHash": "9ac0d86d"
+  },
+  {
+    "kellyId": 7875,
+    "decision": "fix",
+    "reason": "stripped military restatement; kept the rank-and-file figurative sense",
+    "translation": "infantry, foot soldiers",
+    "senses": [
+      "rank and file (ordinary members)"
+    ],
+    "inputHash": "c5469f1c"
+  },
+  {
+    "kellyId": 7719,
+    "decision": "fix",
+    "reason": "kept the test/try/strain sense beyond tempt",
+    "translation": "tempt",
+    "senses": [
+      "test, try, strain"
+    ],
+    "inputHash": "e319321e"
+  },
+  {
+    "kellyId": 7448,
+    "decision": "fix",
+    "reason": "kept the liberation/emancipation sense beyond release",
+    "translation": "release",
+    "senses": [
+      "liberation, emancipation"
+    ],
+    "inputHash": "5ef2c809"
+  },
+  {
+    "kellyId": 7202,
+    "decision": "fix",
+    "reason": "primary already covers merger; nuclear fusion; items just restate them",
+    "translation": "merger; nuclear fusion",
+    "senses": [],
+    "inputHash": "394f80c0"
+  },
+  {
+    "kellyId": 7883,
+    "decision": "fix",
+    "reason": "kept wittiness/repartee and resourcefulness senses beyond deposit",
+    "translation": "deposit",
+    "senses": [
+      "wittiness, repartee",
+      "resourcefulness, cleverness"
+    ],
+    "inputHash": "f17aa6ce"
+  },
+  {
+    "kellyId": 7105,
+    "decision": "fix",
+    "reason": "stripped shape restatement; kept the uncool/square informal sense",
+    "translation": "square, rectangular",
+    "senses": [
+      "square, uncool (informal)"
+    ],
+    "inputHash": "df582f2a"
+  },
+  {
+    "kellyId": 7514,
+    "decision": "fix",
+    "reason": "kept the noun passer-by/bystander use beyond the adjective",
+    "translation": "passing by, passing",
+    "senses": [
+      "passer-by, bystander (as a noun)"
+    ],
+    "inputHash": "2efbcd3f"
+  },
+  {
+    "kellyId": 7167,
+    "decision": "fix",
+    "reason": "stripped restatement; kept the figurative in-the-spotlight sense",
+    "translation": "foreground",
+    "senses": [
+      "in the fore, in the spotlight (figurative)"
+    ],
+    "inputHash": "43f8cb17"
+  },
+  {
+    "kellyId": 7515,
+    "decision": "fix",
+    "reason": "kept the out-of-court settlement sense beyond conciliation/mediation",
+    "translation": "conciliation, mediation",
+    "senses": [
+      "settlement (out of court)"
+    ],
+    "inputHash": "4be3b621"
+  },
+  {
+    "kellyId": 7251,
+    "decision": "fix",
+    "reason": "kept the give away (reveal) sense beyond betray",
+    "translation": "betray",
+    "senses": [
+      "give away, reveal"
+    ],
+    "inputHash": "aed56f2e"
+  },
+  {
+    "kellyId": 7327,
+    "decision": "fix",
+    "reason": "magnify merely restates enlarge",
+    "translation": "enlarge",
+    "senses": [],
+    "inputHash": "305addff"
+  },
+  {
+    "kellyId": 7795,
+    "decision": "fix",
+    "reason": "stripped restatement; kept the confidential sense",
+    "translation": "intimate, familiar",
+    "senses": [
+      "confidential"
+    ],
+    "inputHash": "21e33d64"
+  },
+  {
+    "kellyId": 7122,
+    "decision": "fix",
+    "reason": "stripped restatement; kept the vacuum-tube grid sense",
+    "translation": "grid, lattice, bars",
+    "senses": [
+      "grid (electronics, vacuum tube)"
+    ],
+    "inputHash": "e82e9962"
+  },
+  {
+    "kellyId": 7073,
+    "decision": "fix",
+    "reason": "stripped work/knowledge restatement; kept the pure/solid metal sense",
+    "translation": "solid, thorough",
+    "senses": [
+      "pure, solid (of precious metals)"
+    ],
+    "inputHash": "9e0a9ffb"
+  }
+]

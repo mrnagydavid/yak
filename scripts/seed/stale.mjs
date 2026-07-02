@@ -7,7 +7,7 @@ import { existsSync } from 'node:fs'
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { computeInputHashes, layerDir, loadManifest } from './lib/layers.mjs'
 
-const keyOf = { translation: (e) => e.kellyId, examples: (e) => e.kellyId, senses: (e) => e.english }
+const keyOf = { translation: (e) => e.kellyId, split: (e) => e.kellyId, examples: (e) => e.kellyId, senses: (e) => e.english }
 // When SEED_OUT_DIR is set, write the reports under it instead of in place (inputs are still read from
 // the repo). The no-staleness guard uses this to recompute fresh without touching committed files.
 const OUT_DIR = process.env.SEED_OUT_DIR

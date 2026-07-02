@@ -1,0 +1,1929 @@
+[
+  {
+    "kellyId": 263,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: reword 'fall, downfall' so it doesn't restate the main 'fall'; altMeanings unchanged",
+    "altMeanings": [
+      {
+        "translation": "case",
+        "gloss": "legal"
+      }
+    ],
+    "subDefinitions": [
+      "downfall, ruin (loss of greatness)",
+      "slope, waterfall"
+    ],
+    "inputHash": "ec28c4a8"
+  },
+  {
+    "kellyId": 264,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation (other-meanings-only): drop 'man (term of address)' restating the main; altMeanings unchanged",
+    "altMeanings": [
+      {
+        "translation": "husband",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [
+      "a member of a crew or workforce",
+      "mane (of a horse or lion)"
+    ],
+    "inputHash": "b7ca59fc"
+  },
+  {
+    "kellyId": 272,
+    "decision": "split",
+    "reason": "'battle' (slaget vid) is a distinct, common sense separate from the everyday 'hit/blow'",
+    "altMeanings": [
+      {
+        "translation": "battle",
+        "gloss": "military"
+      }
+    ],
+    "subDefinitions": [
+      "stroke (of a clock)",
+      "stroke (medical)"
+    ],
+    "inputHash": "c2e05ab0"
+  },
+  {
+    "kellyId": 273,
+    "decision": "split",
+    "reason": "tal = 'speech, address' is a common, everyday sense fully unrelated to the primary 'number' — worth its own card",
+    "altMeanings": [
+      {
+        "translation": "speech, address",
+        "gloss": "public talk"
+      }
+    ],
+    "subDefinitions": [
+      "math problem, exercise (school)"
+    ],
+    "inputHash": "5115d728"
+  },
+  {
+    "kellyId": 276,
+    "decision": "split",
+    "reason": "beech (the tree) is a genuine distinct homonym of book",
+    "altMeanings": [
+      {
+        "translation": "beech",
+        "gloss": "tree"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "1e496d52"
+  },
+  {
+    "kellyId": 281,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: 'side (team)' reworded; 'page' is promoted so keep only 'website'; altMeanings unchanged",
+    "altMeanings": [
+      {
+        "translation": "page",
+        "gloss": "of a book"
+      }
+    ],
+    "subDefinitions": [
+      "team, faction (side in a conflict)",
+      "website (online)"
+    ],
+    "inputHash": "e4128b63"
+  },
+  {
+    "kellyId": 300,
+    "decision": "split",
+    "reason": "wear (clothes, jewelry) is a common everyday sense distinct from carry",
+    "altMeanings": [
+      {
+        "translation": "wear",
+        "gloss": "clothing, jewelry"
+      }
+    ],
+    "subDefinitions": [
+      "support, bear (weight)",
+      "bear (fruit)"
+    ],
+    "inputHash": "7410323a"
+  },
+  {
+    "kellyId": 362,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: reword 'goal (sports)' off the main 'goal, target'; altMeanings unchanged",
+    "altMeanings": [
+      {
+        "translation": "meal",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [
+      "the goal, net (in sports)",
+      "finish line",
+      "language, dialect",
+      "court case (legal)"
+    ],
+    "inputHash": "2c37ea6d"
+  },
+  {
+    "kellyId": 413,
+    "decision": "split",
+    "reason": "val = 'election' is a very common sense fully unrelated to the primary 'choice' — worth its own card",
+    "altMeanings": [
+      {
+        "translation": "election",
+        "gloss": "voting"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "9ba1d1ab"
+  },
+  {
+    "kellyId": 417,
+    "decision": "split",
+    "reason": "'story' is a very common, distinct sense of historia unrelated to academic 'history'",
+    "altMeanings": [
+      {
+        "translation": "story",
+        "gloss": "tale or anecdote"
+      }
+    ],
+    "subDefinitions": [
+      "event, incident",
+      "thing, object"
+    ],
+    "inputHash": "9e72281f"
+  },
+  {
+    "kellyId": 441,
+    "decision": "split",
+    "reason": "'right/entitlement' (ha rätt till) is a very common, distinct legal/everyday sense separate from 'dish'",
+    "altMeanings": [
+      {
+        "translation": "right, entitlement",
+        "gloss": "legal"
+      }
+    ],
+    "subDefinitions": [
+      "law (as a system)",
+      "court (of law)"
+    ],
+    "inputHash": "8dff2317"
+  },
+  {
+    "kellyId": 467,
+    "decision": "split",
+    "reason": "'council/board' (statsråd, kommunråd) is a distinct, common everyday sense unrelated to 'advice'",
+    "altMeanings": [
+      {
+        "translation": "council, board",
+        "gloss": "advisory body"
+      }
+    ],
+    "subDefinitions": [
+      "way, means (to solve a problem)"
+    ],
+    "inputHash": "9c9bbf73"
+  },
+  {
+    "kellyId": 488,
+    "decision": "split",
+    "reason": "tur = 'trip, outing, tour' is a common everyday sense distinct from luck/turn (already in the primary)",
+    "altMeanings": [
+      {
+        "translation": "trip, outing, tour",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "a07a2426"
+  },
+  {
+    "kellyId": 496,
+    "decision": "split",
+    "reason": "\"bolt, bar\" (door fastener) is a distinct concrete everyday sense unrelated to rule/regulation",
+    "altMeanings": [
+      {
+        "translation": "bolt, bar",
+        "gloss": "door fastener"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "d8f82ef9"
+  },
+  {
+    "kellyId": 502,
+    "decision": "split",
+    "reason": "anmäla sig (sign up / register for a course or activity) is an extremely common everyday sense, distinct from reporting to authorities",
+    "altMeanings": [
+      {
+        "translation": "sign up, register",
+        "gloss": "for an activity"
+      }
+    ],
+    "subDefinitions": [
+      "check in, announce one's arrival"
+    ],
+    "inputHash": "a4bbc767"
+  },
+  {
+    "kellyId": 505,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: 'the Crown' (institution) is distinct from headwear 'crown'; altMeanings unchanged",
+    "altMeanings": [
+      {
+        "translation": "krona",
+        "gloss": "Swedish currency"
+      }
+    ],
+    "subDefinitions": [
+      "the Crown (the State or monarchy)"
+    ],
+    "inputHash": "7ae8a0cb"
+  },
+  {
+    "kellyId": 522,
+    "decision": "split",
+    "reason": "etiquette is a genuinely distinct, common everyday sense unrelated to label/tag",
+    "altMeanings": [
+      {
+        "translation": "etiquette",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "b9f61a2f"
+  },
+  {
+    "kellyId": 551,
+    "decision": "split",
+    "reason": "\"sentence\" (grammatical) is a distinct, unrelated, everyday sense a beginner needs to produce, separate from purpose/point",
+    "altMeanings": [
+      {
+        "translation": "sentence",
+        "gloss": "grammatical"
+      }
+    ],
+    "subDefinitions": [
+      "meaning, sense (intended)",
+      "opinion"
+    ],
+    "inputHash": "3f2f0e70"
+  },
+  {
+    "kellyId": 567,
+    "decision": "split",
+    "reason": "run/operate (a company or business) is a very common everyday sense distinct from drive/drift",
+    "altMeanings": [
+      {
+        "translation": "run, operate",
+        "gloss": "a company, campaign"
+      }
+    ],
+    "subDefinitions": [
+      "drift, wander",
+      "tease, mock"
+    ],
+    "inputHash": "f0db15ed"
+  },
+  {
+    "kellyId": 587,
+    "decision": "split",
+    "reason": "cathedral (domkyrka) is a common distinct homonym of the legal verdict sense",
+    "altMeanings": [
+      {
+        "translation": "cathedral",
+        "gloss": "architecture"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "f864adb8"
+  },
+  {
+    "kellyId": 591,
+    "decision": "split",
+    "reason": "\"prize/award\" is a distinct, common everyday sense unrelated to price/cost",
+    "altMeanings": [
+      {
+        "translation": "prize",
+        "gloss": "award"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "234568bc"
+  },
+  {
+    "kellyId": 600,
+    "decision": "split",
+    "reason": "tjänst = 'job, post, position' is a common everyday sense distinct from the primary 'favour'",
+    "altMeanings": [
+      {
+        "translation": "job, post, position",
+        "gloss": "employment"
+      }
+    ],
+    "subDefinitions": [
+      "service"
+    ],
+    "inputHash": "9456c826"
+  },
+  {
+    "kellyId": 645,
+    "decision": "split",
+    "reason": "pray is a common, clearly distinct meaning from ask/request",
+    "altMeanings": [
+      {
+        "translation": "pray",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [
+      "beg, plead"
+    ],
+    "inputHash": "259a5a1b"
+  },
+  {
+    "kellyId": 681,
+    "decision": "split",
+    "reason": "substance/material is a distinct, common everyday sense unrelated to subject/topic",
+    "altMeanings": [
+      {
+        "translation": "substance, material",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "14dadcf1"
+  },
+  {
+    "kellyId": 717,
+    "decision": "split",
+    "reason": "'vote' is a distinct, common sense unrelated to 'voice'",
+    "altMeanings": [
+      {
+        "translation": "vote",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "29db4ec5"
+  },
+  {
+    "kellyId": 718,
+    "decision": "split",
+    "reason": "invite is a very common everyday sense distinct from offer/treat; bid at auction is rare, kept as reference",
+    "altMeanings": [
+      {
+        "translation": "invite",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [
+      "bid (at auction)"
+    ],
+    "inputHash": "0be4c5f2"
+  },
+  {
+    "kellyId": 738,
+    "decision": "split",
+    "reason": "'relationship' (esp. romantic) is a very common, distinct sense unrelated to condition/circumstance",
+    "altMeanings": [
+      {
+        "translation": "relationship",
+        "gloss": "connection or romantic involvement"
+      }
+    ],
+    "subDefinitions": [
+      "ratio"
+    ],
+    "inputHash": "71f79e0e"
+  },
+  {
+    "kellyId": 749,
+    "decision": "split",
+    "reason": "'drunk' is an extremely common, distinct colloquial sense unrelated to 'full'",
+    "altMeanings": [
+      {
+        "translation": "drunk",
+        "gloss": "intoxicated"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "142c49af"
+  },
+  {
+    "kellyId": 795,
+    "decision": "split",
+    "reason": "bell is a distinct concrete object unrelated to clock/watch — common and worth producing",
+    "altMeanings": [
+      {
+        "translation": "bell",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [
+      "the time (of day)"
+    ],
+    "inputHash": "3676ded7"
+  },
+  {
+    "kellyId": 797,
+    "decision": "split",
+    "reason": "'treasure' is a distinct, common sense unrelated to 'tax'",
+    "altMeanings": [
+      {
+        "translation": "treasure",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "1c20cf2a"
+  },
+  {
+    "kellyId": 807,
+    "decision": "split",
+    "reason": "\"field, court, pitch\" (sports area, e.g. fotbollsplan) is a common everyday sense in Sweden, unrelated to plan",
+    "altMeanings": [
+      {
+        "translation": "field, court, pitch",
+        "gloss": "sports area"
+      }
+    ],
+    "subDefinitions": [
+      "floor plan, layout drawing"
+    ],
+    "inputHash": "b3651ce5"
+  },
+  {
+    "kellyId": 853,
+    "decision": "split",
+    "reason": "'fylla år' (turn an age / have a birthday) is a very common everyday sense distinct from 'fill'",
+    "altMeanings": [
+      {
+        "translation": "turn, have a birthday",
+        "gloss": "reach an age"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "92e477e9"
+  },
+  {
+    "kellyId": 857,
+    "decision": "split",
+    "reason": "\"internet/web\" is a distinct, common everyday sense unrelated to a physical net",
+    "altMeanings": [
+      {
+        "translation": "internet, network",
+        "gloss": "computing"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "4bc0e159"
+  },
+  {
+    "kellyId": 893,
+    "decision": "split",
+    "reason": "genie (spirit in a bottle) is a distinct, familiar everyday sense separate from spirit; ghost is a close shade kept as reference",
+    "altMeanings": [
+      {
+        "translation": "genie",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [
+      "ghost"
+    ],
+    "inputHash": "689cc8f6"
+  },
+  {
+    "kellyId": 1127,
+    "decision": "split",
+    "reason": "candle is a distinct, common concrete object unrelated to abstract light — worth its own card",
+    "altMeanings": [
+      {
+        "translation": "candle",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [
+      "the class brain, the smartest kid in class"
+    ],
+    "inputHash": "9851640a"
+  },
+  {
+    "kellyId": 1252,
+    "decision": "split",
+    "reason": "'railway track' (spår 3) is a distinct, common everyday sense separate from 'trail/trace'",
+    "altMeanings": [
+      {
+        "translation": "track",
+        "gloss": "railway"
+      }
+    ],
+    "subDefinitions": [
+      "footprint, pawprint",
+      "audio track"
+    ],
+    "inputHash": "4b6afeda"
+  },
+  {
+    "kellyId": 1292,
+    "decision": "split",
+    "reason": "'sensor' (measuring device) is a distinct, common modern sense unrelated to giver/donor",
+    "altMeanings": [
+      {
+        "translation": "sensor",
+        "gloss": "measuring device"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "4c71f215"
+  },
+  {
+    "kellyId": 1303,
+    "decision": "split",
+    "reason": "'comic strip' (serier, serietidning) is a distinct, common everyday sense unrelated to 'series'",
+    "altMeanings": [
+      {
+        "translation": "comic strip",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [
+      "TV series, show",
+      "league (sports)"
+    ],
+    "inputHash": "9bb8ad15"
+  },
+  {
+    "kellyId": 1402,
+    "decision": "split",
+    "reason": "'heaven' is a distinct, common sense of himmel unrelated to physical 'sky'",
+    "altMeanings": [
+      {
+        "translation": "heaven",
+        "gloss": "afterlife"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "85597053"
+  },
+  {
+    "kellyId": 1407,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: reword 'course, heading' off the main 'course'; altMeanings unchanged",
+    "altMeanings": [
+      {
+        "translation": "rate, exchange rate",
+        "gloss": "currency, stocks"
+      }
+    ],
+    "subDefinitions": [
+      "heading, direction (navigation)"
+    ],
+    "inputHash": "2bb27a50"
+  },
+  {
+    "kellyId": 1575,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: 'leg (of trousers/furniture)' just restates the main 'leg' → empty; altMeanings unchanged",
+    "altMeanings": [
+      {
+        "translation": "bone",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "5541555a"
+  },
+  {
+    "kellyId": 1613,
+    "decision": "split",
+    "reason": "midday/noon is a distinct common sense unrelated to the evening meal dinner",
+    "altMeanings": [
+      {
+        "translation": "midday, noon",
+        "gloss": "time of day"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "cbbf9e17"
+  },
+  {
+    "kellyId": 1622,
+    "decision": "split",
+    "reason": "skuld = debt (primary) and guilt/blame are distinct, both common everyday senses (skuldkänslor, det är ditt fel/din skuld).",
+    "altMeanings": [
+      {
+        "translation": "guilt, blame",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "ba75398d"
+  },
+  {
+    "kellyId": 1626,
+    "decision": "split",
+    "reason": "luck/good fortune is a distinct common sense (lycka till) separate from happiness",
+    "altMeanings": [
+      {
+        "translation": "luck, good fortune",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "878d4598"
+  },
+  {
+    "kellyId": 1645,
+    "decision": "split",
+    "reason": "höger = right-wing (politics) is a common, distinct sense from right the direction",
+    "altMeanings": [
+      {
+        "translation": "right-wing",
+        "gloss": "politics"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "d9742707"
+  },
+  {
+    "kellyId": 1708,
+    "decision": "split",
+    "reason": "laga mat (to cook) is an extremely common everyday sense, unrelated to repair",
+    "altMeanings": [
+      {
+        "translation": "cook, prepare",
+        "gloss": "food"
+      }
+    ],
+    "subDefinitions": [
+      "to arrange, set up"
+    ],
+    "inputHash": "848bc87d"
+  },
+  {
+    "kellyId": 1738,
+    "decision": "split",
+    "reason": "outermost/farthest out is a distinct literal spatial sense, separate from the intensifier 'extremely'",
+    "altMeanings": [
+      {
+        "translation": "outermost, farthest out",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "a80f1e69"
+  },
+  {
+    "kellyId": 1841,
+    "decision": "split",
+    "reason": "yacht is a completely unrelated homonym of hunting — common enough sailing word to warrant its own card",
+    "altMeanings": [
+      {
+        "translation": "yacht",
+        "gloss": "sailing boat"
+      }
+    ],
+    "subDefinitions": [
+      "hunt, chase"
+    ],
+    "inputHash": "787df432"
+  },
+  {
+    "kellyId": 1850,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: reword the waterway sense off the promoted 'channel'; altMeanings unchanged",
+    "altMeanings": [
+      {
+        "translation": "channel",
+        "gloss": "TV, radio, or information"
+      }
+    ],
+    "subDefinitions": [
+      "strait (e.g. the English Channel)"
+    ],
+    "inputHash": "e6c605ce"
+  },
+  {
+    "kellyId": 1863,
+    "decision": "split",
+    "reason": "vind is a homonym: 'attic, loft' is a common everyday sense unrelated to 'wind'",
+    "altMeanings": [
+      {
+        "translation": "attic, loft",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "a853b87a"
+  },
+  {
+    "kellyId": 1864,
+    "decision": "split",
+    "reason": "gård = yard/courtyard is a common everyday sense distinct from farm/farmstead",
+    "altMeanings": [
+      {
+        "translation": "yard, courtyard",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "93acdcab"
+  },
+  {
+    "kellyId": 1881,
+    "decision": "split",
+    "reason": "photograph is a distinct common sense of kort separate from a card",
+    "altMeanings": [
+      {
+        "translation": "photograph",
+        "gloss": "photo"
+      }
+    ],
+    "subDefinitions": [
+      "playing card",
+      "card game"
+    ],
+    "inputHash": "c0f0ecc1"
+  },
+  {
+    "kellyId": 1890,
+    "decision": "split",
+    "reason": "synd = 'a pity, a shame' (det var synd) is extremely common colloquially and fully distinct from religious 'sin'",
+    "altMeanings": [
+      {
+        "translation": "shame, pity",
+        "gloss": "it's a pity"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "727bc413"
+  },
+  {
+    "kellyId": 1925,
+    "decision": "split",
+    "reason": "clutch (vehicle) is a distinct concrete everyday sense unrelated to abstract connection",
+    "altMeanings": [
+      {
+        "translation": "clutch",
+        "gloss": "vehicle"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "63f7684f"
+  },
+  {
+    "kellyId": 1926,
+    "decision": "split",
+    "reason": "snitt = 'average' (i snitt) is extremely common everyday Swedish, fully distinct from 'cut'",
+    "altMeanings": [
+      {
+        "translation": "average",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [
+      "cross-section",
+      "canapé, open sandwich"
+    ],
+    "inputHash": "a56423d2"
+  },
+  {
+    "kellyId": 1940,
+    "decision": "split",
+    "reason": "sjö = lake (primary) and sea/open water (till sjöss, sjöfart, ute på sjön) are distinct and both very common in Swedish.",
+    "altMeanings": [
+      {
+        "translation": "sea",
+        "gloss": "open water"
+      }
+    ],
+    "subDefinitions": [
+      "big wave"
+    ],
+    "inputHash": "2c4bac75"
+  },
+  {
+    "kellyId": 1991,
+    "decision": "split",
+    "reason": "end (of a rope/string) is a common concrete sense distinct from the primary 'buttock'",
+    "altMeanings": [
+      {
+        "translation": "end",
+        "gloss": "of a string, rope, etc."
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "d0e9606a"
+  },
+  {
+    "kellyId": 2015,
+    "decision": "split",
+    "reason": "sticka carries several unrelated common senses: 'sting/prick' and colloquial 'leave/head off' are both everyday and distinct from 'knit'",
+    "altMeanings": [
+      {
+        "translation": "sting, prick",
+        "gloss": ""
+      },
+      {
+        "translation": "leave, head off",
+        "gloss": "go somewhere"
+      }
+    ],
+    "subDefinitions": [
+      "stick, insert"
+    ],
+    "inputHash": "4d221531"
+  },
+  {
+    "kellyId": 2028,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: 'the West' (bloc) is distinct from the direction main 'west'; altMeanings unchanged",
+    "altMeanings": [
+      {
+        "translation": "vest, waistcoat",
+        "gloss": "garment"
+      }
+    ],
+    "subDefinitions": [
+      "the West (Western countries)"
+    ],
+    "inputHash": "e12426e1"
+  },
+  {
+    "kellyId": 2100,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: drop 'base, foundation' restating the main; keep distinct headquarters/boss; altMeanings unchanged",
+    "altMeanings": [
+      {
+        "translation": "bass",
+        "gloss": "music"
+      }
+    ],
+    "subDefinitions": [
+      "headquarters (military)",
+      "boss, supervisor (informal)"
+    ],
+    "inputHash": "fcee0819"
+  },
+  {
+    "kellyId": 2101,
+    "decision": "split",
+    "reason": "fil = traffic lane and fil = soured milk (a staple Swedish dairy product) are both common, unrelated everyday senses a learner must produce",
+    "altMeanings": [
+      {
+        "translation": "lane",
+        "gloss": "traffic"
+      },
+      {
+        "translation": "soured milk",
+        "gloss": "dairy product"
+      }
+    ],
+    "subDefinitions": [
+      "row, queue"
+    ],
+    "inputHash": "97294034"
+  },
+  {
+    "kellyId": 2118,
+    "decision": "split",
+    "reason": "rykte = rumor (primary) and reputation (gott/dåligt rykte) are distinct, both very common everyday senses.",
+    "altMeanings": [
+      {
+        "translation": "reputation",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "c952e3ff"
+  },
+  {
+    "kellyId": 2137,
+    "decision": "split",
+    "reason": "handle of a cup/mug is a common concrete sense unrelated to the body part 'ear'",
+    "altMeanings": [
+      {
+        "translation": "handle",
+        "gloss": "of a cup or mug"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "1b260c92"
+  },
+  {
+    "kellyId": 2237,
+    "decision": "split",
+    "reason": "fund/cash/coffers is a distinct common sense (e.g. lagkassa) separate from the checkout register",
+    "altMeanings": [
+      {
+        "translation": "fund, cash",
+        "gloss": "money on hand, coffers"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "8dfc82b2"
+  },
+  {
+    "kellyId": 2263,
+    "decision": "split",
+    "reason": "ras = race/breed (primary) and collapse/landslide are two completely unrelated common senses; jordras/prisras is everyday vocabulary.",
+    "altMeanings": [
+      {
+        "translation": "collapse, landslide",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "200e7d26"
+  },
+  {
+    "kellyId": 2391,
+    "decision": "split",
+    "reason": "pass has several distinct, unrelated everyday senses: passport (primary), a workout/work session (träningspass, löppass — very common), and a mountain pass. Both are worth their own cards.",
+    "altMeanings": [
+      {
+        "translation": "session",
+        "gloss": "exercise or work"
+      },
+      {
+        "translation": "mountain pass",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [
+      "shift (of work)",
+      "pace, gait"
+    ],
+    "inputHash": "6a765d20"
+  },
+  {
+    "kellyId": 2440,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: reword 'landscape (painting)' off the promoted 'landscape'; altMeanings unchanged",
+    "altMeanings": [
+      {
+        "translation": "landscape",
+        "gloss": "scenery"
+      }
+    ],
+    "subDefinitions": [
+      "a landscape painting"
+    ],
+    "inputHash": "d7f40f97"
+  },
+  {
+    "kellyId": 2487,
+    "decision": "split",
+    "reason": "våg = 'scale, weighing device' is a common household sense fully distinct from 'wave'",
+    "altMeanings": [
+      {
+        "translation": "scale",
+        "gloss": "weighing device"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "9cf63989"
+  },
+  {
+    "kellyId": 2510,
+    "decision": "split",
+    "reason": "fond = broth/stock is a common, unrelated cooking sense distinct from the financial fund",
+    "altMeanings": [
+      {
+        "translation": "broth, stock",
+        "gloss": "cooking"
+      }
+    ],
+    "subDefinitions": [
+      "backdrop; a theatrical scenery"
+    ],
+    "inputHash": "e141758b"
+  },
+  {
+    "kellyId": 2554,
+    "decision": "split",
+    "reason": "rymma = hold/have capacity (primary) and escape/run away are two unrelated common senses; rymma från fängelset is basic vocabulary.",
+    "altMeanings": [
+      {
+        "translation": "escape, run away",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "4725cced"
+  },
+  {
+    "kellyId": 2561,
+    "decision": "split",
+    "reason": "'cross out, delete' (stryka ett ord) is a common distinct sense beyond stroke/iron",
+    "altMeanings": [
+      {
+        "translation": "cross out, delete",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [
+      "spread (a substance on something)"
+    ],
+    "inputHash": "2f8b2210"
+  },
+  {
+    "kellyId": 2598,
+    "decision": "split",
+    "reason": "school break/holiday (sportlov, sommarlov) is a very common distinct sense separate from permission",
+    "altMeanings": [
+      {
+        "translation": "break, holiday",
+        "gloss": "from school"
+      }
+    ],
+    "subDefinitions": [
+      "praise"
+    ],
+    "inputHash": "d41bdeca"
+  },
+  {
+    "kellyId": 2622,
+    "decision": "split",
+    "reason": "gas = accelerator/gas pedal is a very common everyday driving sense distinct from gas the substance",
+    "altMeanings": [
+      {
+        "translation": "gas pedal, accelerator",
+        "gloss": "trampa på gasen"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "fc9bac2b"
+  },
+  {
+    "kellyId": 2727,
+    "decision": "split",
+    "reason": "core/nucleus is a distinct common abstract sense separate from a fruit seed/pit",
+    "altMeanings": [
+      {
+        "translation": "core, nucleus",
+        "gloss": "central part"
+      }
+    ],
+    "subDefinitions": [
+      "kernel (computing)",
+      "churn (for butter)"
+    ],
+    "inputHash": "afde9067"
+  },
+  {
+    "kellyId": 2741,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: reword 'tension (strained relations)' so it doesn't lead with the main; altMeanings unchanged",
+    "altMeanings": [
+      {
+        "translation": "excitement, suspense",
+        "gloss": ""
+      },
+      {
+        "translation": "voltage",
+        "gloss": "electrical"
+      }
+    ],
+    "subDefinitions": [
+      "strained relations (between people)"
+    ],
+    "inputHash": "e30116ce"
+  },
+  {
+    "kellyId": 2812,
+    "decision": "split",
+    "reason": "depart (of trains/buses) is a very common everyday sense unrelated to 'resign'",
+    "altMeanings": [
+      {
+        "translation": "depart",
+        "gloss": "of a train, bus, etc."
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "5952006d"
+  },
+  {
+    "kellyId": 2870,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: 'neck (of a bottle)' just restates the main 'neck' → empty; altMeanings unchanged",
+    "altMeanings": [
+      {
+        "translation": "throat",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "1e6a9bfd"
+  },
+  {
+    "kellyId": 2872,
+    "decision": "split",
+    "reason": "'tribe' is a distinct, common meaning unrelated to a tree trunk/stem",
+    "altMeanings": [
+      {
+        "translation": "tribe",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [
+      "stem (of a plant)",
+      "stem (branching structure, also abstract)"
+    ],
+    "inputHash": "844a9d44"
+  },
+  {
+    "kellyId": 2908,
+    "decision": "split",
+    "reason": "'lace' (the fabric) is a common everyday noun completely unrelated to point/tip",
+    "altMeanings": [
+      {
+        "translation": "lace",
+        "gloss": "fabric"
+      }
+    ],
+    "subDefinitions": [
+      "spitz (dog breed)"
+    ],
+    "inputHash": "16291f65"
+  },
+  {
+    "kellyId": 2921,
+    "decision": "split",
+    "reason": "'fire/dismiss from a job' is a common everyday sense entirely distinct from physically kicking",
+    "altMeanings": [
+      {
+        "translation": "fire, dismiss",
+        "gloss": "from a job"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "368c8180"
+  },
+  {
+    "kellyId": 2939,
+    "decision": "split",
+    "reason": "axis and axle are distinct common homonyms unrelated to the body part 'shoulder'",
+    "altMeanings": [
+      {
+        "translation": "axis",
+        "gloss": "of rotation or coordinates"
+      },
+      {
+        "translation": "axle, driveshaft",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "1068e66a"
+  },
+  {
+    "kellyId": 2970,
+    "decision": "split",
+    "reason": "lager as 'layer, stratum' is a very common distinct sense unrelated to warehouse/stock",
+    "altMeanings": [
+      {
+        "translation": "layer, stratum",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [
+      "stock, supply",
+      "bearing (mechanical)"
+    ],
+    "inputHash": "aa9306d9"
+  },
+  {
+    "kellyId": 2980,
+    "decision": "split",
+    "reason": "kö as 'cue' (billiard stick) is a distinct homograph sense unrelated to queue/line",
+    "altMeanings": [
+      {
+        "translation": "cue",
+        "gloss": "billiard stick"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "c5c489ac"
+  },
+  {
+    "kellyId": 3023,
+    "decision": "split",
+    "reason": "recept = prescription (medicine) is a distinct, common sense unrelated to cooking recipe",
+    "altMeanings": [
+      {
+        "translation": "prescription",
+        "gloss": "medical"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "37f4d3e1"
+  },
+  {
+    "kellyId": 3149,
+    "decision": "split",
+    "reason": "grym as informal 'awesome/great' is an extremely common colloquial sense wholly distinct from 'cruel'",
+    "altMeanings": [
+      {
+        "translation": "great, awesome",
+        "gloss": "informal"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "e2aacbf2"
+  },
+  {
+    "kellyId": 3210,
+    "decision": "split",
+    "reason": "miscarriage (spontaneous) is a distinct medical sense from an induced abortion",
+    "altMeanings": [
+      {
+        "translation": "miscarriage",
+        "gloss": "spontaneous"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "b9aa687b"
+  },
+  {
+    "kellyId": 3384,
+    "decision": "split",
+    "reason": "telephone extension is a common everyday sense distinct from abstract 'connection'",
+    "altMeanings": [
+      {
+        "translation": "extension",
+        "gloss": "telephone"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "03d62aa2"
+  },
+  {
+    "kellyId": 3419,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: reword 'sour, rancid' off the main 'sour'; keep acidic/damp; altMeanings unchanged",
+    "altMeanings": [
+      {
+        "translation": "angry, annoyed",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [
+      "rancid, off (of food)",
+      "acidic",
+      "wet, damp (of soil or weather)"
+    ],
+    "inputHash": "1f816de9"
+  },
+  {
+    "kellyId": 3541,
+    "decision": "split",
+    "reason": "rom = rum (the drink) is a common everyday sense fully unrelated to roe (fish eggs)",
+    "altMeanings": [
+      {
+        "translation": "rum",
+        "gloss": "beverage"
+      }
+    ],
+    "subDefinitions": [
+      "Romani person"
+    ],
+    "inputHash": "5af31fa5"
+  },
+  {
+    "kellyId": 3583,
+    "decision": "split",
+    "reason": "'board' (blackboard/whiteboard) is a common everyday sense distinct from a painting/picture",
+    "altMeanings": [
+      {
+        "translation": "board",
+        "gloss": "blackboard, whiteboard"
+      }
+    ],
+    "subDefinitions": [
+      "tablet (computing)",
+      "blunder, gaffe (informal)"
+    ],
+    "inputHash": "06aa0816"
+  },
+  {
+    "kellyId": 3601,
+    "decision": "split",
+    "reason": "'overthrow' (a government) is a distinct, common transitive sense unrelated to crashing/plunging",
+    "altMeanings": [
+      {
+        "translation": "overthrow",
+        "gloss": "a government or leader"
+      }
+    ],
+    "subDefinitions": [
+      "rush, run hurriedly"
+    ],
+    "inputHash": "da3cfec7"
+  },
+  {
+    "kellyId": 3700,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: reword 'back, defender' off the main 'back'; altMeanings unchanged",
+    "altMeanings": [
+      {
+        "translation": "reverse",
+        "gloss": "car gear"
+      },
+      {
+        "translation": "crate",
+        "gloss": "storage box"
+      }
+    ],
+    "subDefinitions": [
+      "defender (sports position)"
+    ],
+    "inputHash": "9e3f75ea"
+  },
+  {
+    "kellyId": 3734,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: reword 'young woman, miss' and pageant sense off the main 'Miss'; altMeanings unchanged",
+    "altMeanings": [
+      {
+        "translation": "teacher",
+        "gloss": "female, addressed by schoolchildren"
+      }
+    ],
+    "subDefinitions": [
+      "a young woman",
+      "beauty pageant title (e.g. Miss Sweden)"
+    ],
+    "inputHash": "091142a2"
+  },
+  {
+    "kellyId": 3736,
+    "decision": "split",
+    "reason": "klipp as 'bargain, good deal' (ett riktigt klipp) is a common distinct sense beyond cut/clip",
+    "altMeanings": [
+      {
+        "translation": "bargain, good deal",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [
+      "film cut (transition between shots)"
+    ],
+    "inputHash": "ef855875"
+  },
+  {
+    "kellyId": 3790,
+    "decision": "split",
+    "reason": "matte = female pet owner (feminine of husse) is a distinct, common everyday sense unrelated to the maths meaning",
+    "altMeanings": [
+      {
+        "translation": "owner",
+        "gloss": "female owner of a pet"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "1e86460e"
+  },
+  {
+    "kellyId": 3800,
+    "decision": "split",
+    "reason": "kvart as 'quarter of an hour' (kvart i tre) is a distinct high-frequency time sense separate from the fraction",
+    "altMeanings": [
+      {
+        "translation": "quarter of an hour",
+        "gloss": "15 minutes"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "f6d5308a"
+  },
+  {
+    "kellyId": 3838,
+    "decision": "split",
+    "reason": "väsen also means a supernatural being/creature (troll, vätte) — a distinct, common sense unrelated to noise",
+    "altMeanings": [
+      {
+        "translation": "being, creature",
+        "gloss": "supernatural or imaginary"
+      }
+    ],
+    "subDefinitions": [
+      "nature, essence (formal)"
+    ],
+    "inputHash": "f88ef564"
+  },
+  {
+    "kellyId": 3898,
+    "decision": "split",
+    "reason": "'alimony, child support' is a distinct, common sense unrelated to maintenance/upkeep",
+    "altMeanings": [
+      {
+        "translation": "alimony, child support",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "0ceb2568"
+  },
+  {
+    "kellyId": 3955,
+    "decision": "split",
+    "reason": "'meeting, assembly' (bolagsstämma etc.) is a common, distinct sense unrelated to voice",
+    "altMeanings": [
+      {
+        "translation": "meeting, assembly",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [
+      "pitch, part (musical)"
+    ],
+    "inputHash": "26ca245e"
+  },
+  {
+    "kellyId": 3957,
+    "decision": "split",
+    "reason": "tax return is a very common concrete sense in Sweden, distinct from a formal declaration",
+    "altMeanings": [
+      {
+        "translation": "tax return",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "c768198e"
+  },
+  {
+    "kellyId": 3982,
+    "decision": "split",
+    "reason": "pjäs = board-game piece is a distinct common sense unrelated to a theatre play; artillery piece stays reference-only",
+    "altMeanings": [
+      {
+        "translation": "piece, man",
+        "gloss": "board game"
+      }
+    ],
+    "subDefinitions": [
+      "artillery piece, cannon"
+    ],
+    "inputHash": "89fe82b7"
+  },
+  {
+    "kellyId": 4013,
+    "decision": "split",
+    "reason": "fraction (math) is a distinct common sense unrelated to 'brawl/quarrel'",
+    "altMeanings": [
+      {
+        "translation": "fraction",
+        "gloss": "math"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "747bb3b6"
+  },
+  {
+    "kellyId": 4043,
+    "decision": "split",
+    "reason": "file a tax return is a very common everyday sense in Sweden, distinct from generic 'declare'",
+    "altMeanings": [
+      {
+        "translation": "file a tax return",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "e87243ca"
+  },
+  {
+    "kellyId": 4112,
+    "decision": "split",
+    "reason": "panna carries three distinct common senses: forehead (primary), cooking pan/pot, and heating boiler",
+    "altMeanings": [
+      {
+        "translation": "pan, pot",
+        "gloss": "cooking vessel"
+      },
+      {
+        "translation": "boiler",
+        "gloss": "heating"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "0a95b3cc"
+  },
+  {
+    "kellyId": 4175,
+    "decision": "split",
+    "reason": "'staircase, entrance' (a way into a building) is a common concrete sense unrelated to a rise/upswing",
+    "altMeanings": [
+      {
+        "translation": "staircase, entrance",
+        "gloss": "way into a building"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "a7af57fa"
+  },
+  {
+    "kellyId": 4179,
+    "decision": "split",
+    "reason": "journal as 'journal, periodical' is a distinct common sense separate from the primary 'medical record'",
+    "altMeanings": [
+      {
+        "translation": "journal, periodical",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "51da5ea5"
+  },
+  {
+    "kellyId": 4199,
+    "decision": "split",
+    "reason": "gods as 'estate, manor' (landed property) is a distinct, common sense unrelated to freight/cargo",
+    "altMeanings": [
+      {
+        "translation": "estate, manor",
+        "gloss": "landed property"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "90f7a2cf"
+  },
+  {
+    "kellyId": 4208,
+    "decision": "split",
+    "reason": "kaka covers both 'cookie/biscuit' and 'cake' — distinct everyday food senses worth their own card",
+    "altMeanings": [
+      {
+        "translation": "cake",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "32acfe89"
+  },
+  {
+    "kellyId": 4326,
+    "decision": "split",
+    "reason": "däck means both tyre and (ship's) deck — two distinct, common senses",
+    "altMeanings": [
+      {
+        "translation": "deck",
+        "gloss": "of a ship"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "64f6e81f"
+  },
+  {
+    "kellyId": 4359,
+    "decision": "split",
+    "reason": "sändning = shipment/delivery is a distinct common sense next to broadcast",
+    "altMeanings": [
+      {
+        "translation": "shipment, delivery",
+        "gloss": "goods sent"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "b67df451"
+  },
+  {
+    "kellyId": 4362,
+    "decision": "split",
+    "reason": "rabatt also means flowerbed — a distinct, unrelated, everyday sense worth its own card",
+    "altMeanings": [
+      {
+        "translation": "flowerbed",
+        "gloss": "garden bed"
+      }
+    ],
+    "subDefinitions": [
+      "a reduced (for example shorter) sentence (punishment)"
+    ],
+    "inputHash": "7a4856ad"
+  },
+  {
+    "kellyId": 4415,
+    "decision": "split",
+    "reason": "sky also means gravy/meat juices (jus), a very common cooking sense unrelated to sky",
+    "altMeanings": [
+      {
+        "translation": "gravy, meat juices",
+        "gloss": "pan drippings"
+      }
+    ],
+    "subDefinitions": [
+      "cloud"
+    ],
+    "inputHash": "979a7321"
+  },
+  {
+    "kellyId": 4547,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: 'pin, stylus, nib' just restates the main 'pin, stylus' → empty; altMeanings unchanged",
+    "altMeanings": [
+      {
+        "translation": "diocese, bishopric",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "ac3df18a"
+  },
+  {
+    "kellyId": 4584,
+    "decision": "split",
+    "reason": "rock is both a coat/overcoat and the music genre rock — two distinct common senses",
+    "altMeanings": [
+      {
+        "translation": "rock, rock and roll",
+        "gloss": "music genre"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "4901c60f"
+  },
+  {
+    "kellyId": 4591,
+    "decision": "split",
+    "reason": "bullet is a common, distinct sense unrelated to ball/marble",
+    "altMeanings": [
+      {
+        "translation": "bullet",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "355c7ea0"
+  },
+  {
+    "kellyId": 4643,
+    "decision": "split",
+    "reason": "mask (face covering) is a common sense entirely unrelated to worm",
+    "altMeanings": [
+      {
+        "translation": "mask",
+        "gloss": "face covering"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "6c1572a4"
+  },
+  {
+    "kellyId": 4653,
+    "decision": "split",
+    "reason": "disk means counter but also the dishwashing/dirty dishes — an extremely common everyday household sense",
+    "altMeanings": [
+      {
+        "translation": "dishwashing, dirty dishes",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [
+      "disc, disk"
+    ],
+    "inputHash": "2ebe1654"
+  },
+  {
+    "kellyId": 4659,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: 'surf (on a board)' just restates the main 'surf' → empty; altMeanings unchanged (promoted 'surf' dedups against the primary)",
+    "altMeanings": [
+      {
+        "translation": "surf",
+        "gloss": "the internet"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "00b7e2b7"
+  },
+  {
+    "kellyId": 4820,
+    "decision": "split",
+    "reason": "verkstad = garage/repair shop is the very common everyday sense (car repair) distinct from generic workshop",
+    "altMeanings": [
+      {
+        "translation": "garage, repair shop",
+        "gloss": "for cars, bikes, etc."
+      }
+    ],
+    "subDefinitions": [
+      "engineering works, factory"
+    ],
+    "inputHash": "37ea4c12"
+  },
+  {
+    "kellyId": 4821,
+    "decision": "split",
+    "reason": "ask means both the ash tree and a small box (with loose lid) — two distinct, common everyday senses",
+    "altMeanings": [
+      {
+        "translation": "box",
+        "gloss": "small, with loose lid"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "bd8f07f8"
+  },
+  {
+    "kellyId": 4875,
+    "decision": "split",
+    "reason": "sno also very commonly means to nick/steal — a distinct everyday colloquial sense unrelated to twisting",
+    "altMeanings": [
+      {
+        "translation": "nick, steal",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [
+      "twine, wind (strands around each other)"
+    ],
+    "inputHash": "d8a1f444"
+  },
+  {
+    "kellyId": 4919,
+    "decision": "split",
+    "reason": "underhålla = maintain/keep up is a distinct common sense next to entertain",
+    "altMeanings": [
+      {
+        "translation": "maintain, keep up",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "8f54fa48"
+  },
+  {
+    "kellyId": 4959,
+    "decision": "split",
+    "reason": "led carries two common everyday senses: the anatomical 'joint' (primary) and 'route/trail' — a marked hiking or cycling trail, very common in Sweden. Relocated from 90-manual into the split layer so its promoted 'route' participates in the sense pass's grouping (route → led/rutt/sträckning asked as one multi-answer card); the §12 stopgap gloss retires.",
+    "altMeanings": [
+      {
+        "translation": "route, trail"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "b0e545ed"
+  },
+  {
+    "kellyId": 4964,
+    "decision": "split",
+    "reason": "skälla means both (a dog) barking and scolding/telling off someone — distinct common senses",
+    "altMeanings": [
+      {
+        "translation": "scold, tell off",
+        "gloss": "reprimand"
+      }
+    ],
+    "subDefinitions": [
+      "be called, be accused of being"
+    ],
+    "inputHash": "01f2f0c0"
+  },
+  {
+    "kellyId": 5079,
+    "decision": "split",
+    "reason": "undergång = underpass is a common everyday word unrelated to downfall/doom",
+    "altMeanings": [
+      {
+        "translation": "underpass",
+        "gloss": "pedestrian tunnel"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "691a63ac"
+  },
+  {
+    "kellyId": 5091,
+    "decision": "split",
+    "reason": "rån is both robbery and a wafer biscuit — two distinct, common, unrelated senses",
+    "altMeanings": [
+      {
+        "translation": "wafer",
+        "gloss": "type of biscuit"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "fa3b989a"
+  },
+  {
+    "kellyId": 5141,
+    "decision": "split",
+    "reason": "tyska = a German woman is a distinct common sense next to the German language",
+    "altMeanings": [
+      {
+        "translation": "German woman",
+        "gloss": "female German national"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "53b2a60d"
+  },
+  {
+    "kellyId": 5222,
+    "decision": "split",
+    "reason": "gulf (as in Mexikanska golfen) is a distinct, unrelated geographic sense a learner may need",
+    "altMeanings": [
+      {
+        "translation": "gulf",
+        "gloss": "large bay"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "a55f4297"
+  },
+  {
+    "kellyId": 5326,
+    "decision": "split",
+    "reason": "svamp = sponge is a distinct common household sense unrelated to mushroom/fungus",
+    "altMeanings": [
+      {
+        "translation": "sponge",
+        "gloss": "for washing and cleaning"
+      }
+    ],
+    "subDefinitions": [
+      "fungus"
+    ],
+    "inputHash": "908487cb"
+  },
+  {
+    "kellyId": 5335,
+    "decision": "split",
+    "reason": "puss means both a peck/kiss and a puddle — distinct, unrelated, everyday senses",
+    "altMeanings": [
+      {
+        "translation": "puddle",
+        "gloss": "of water"
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "8c74f31c"
+  },
+  {
+    "kellyId": 5383,
+    "decision": "split",
+    "reason": "damm means both dam and pond/pool — distinct, common everyday senses",
+    "altMeanings": [
+      {
+        "translation": "pond, pool",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [],
+    "inputHash": "267ae10d"
+  },
+  {
+    "kellyId": 5458,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: 'magazine (of a firearm)' is a distinct sense from the publication main; altMeanings unchanged",
+    "altMeanings": [
+      {
+        "translation": "warehouse, depot",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [
+      "magazine (of a firearm)"
+    ],
+    "inputHash": "622e4696"
+  },
+  {
+    "kellyId": 5545,
+    "decision": "split",
+    "reason": "växel = gear (car/bike) is an extremely common distinct sense next to change (coins)",
+    "altMeanings": [
+      {
+        "translation": "gear",
+        "gloss": "car or bike"
+      }
+    ],
+    "subDefinitions": [
+      "exchange (telephone)",
+      "switch (railroad)",
+      "bill of exchange (finance)"
+    ],
+    "inputHash": "61c01e92"
+  },
+  {
+    "kellyId": 5567,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: reword 'fly (fishing lure)' off the main 'fly'; keep 'fad, craze'; altMeanings unchanged",
+    "altMeanings": [
+      {
+        "translation": "bowtie",
+        "gloss": ""
+      }
+    ],
+    "subDefinitions": [
+      "fishing fly (lure)",
+      "fad, craze"
+    ],
+    "inputHash": "7a1db421"
+  }
+]

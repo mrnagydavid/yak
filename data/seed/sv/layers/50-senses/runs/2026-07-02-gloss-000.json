@@ -1,0 +1,500 @@
+[
+  {
+    "english": "act",
+    "senses": [
+      { "gloss": "a deed, action", "members": [{ "kellyId": 695, "meaningKey": 0 }, { "kellyId": 2552, "meaningKey": 0 }] },
+      { "gloss": "of a play, ceremony", "members": [{ "kellyId": 434, "meaningKey": 0 }] },
+      { "gloss": "to perform, take action", "members": [{ "kellyId": 1005, "meaningKey": 0 }] }
+    ],
+    "inputHash": "0eeee3e4"
+  },
+  {
+    "english": "ask, inquire",
+    "senses": [
+      { "gloss": "pose a question", "members": [{ "kellyId": 501, "meaningKey": 0 }] },
+      { "gloss": "request, plead", "members": [{ "kellyId": 645, "meaningKey": 0 }] }
+    ],
+    "inputHash": "bf9fc3e5"
+  },
+  {
+    "english": "back, in return",
+    "senses": [
+      { "gloss": "returning, in return", "members": [{ "kellyId": 881, "meaningKey": 0 }] },
+      { "gloss": "the body part", "members": [{ "kellyId": 1807, "meaningKey": 0 }] },
+      { "gloss": "defender (sports)", "members": [{ "kellyId": 3700, "meaningKey": 0 }] },
+      { "gloss": "rear side of an object", "members": [{ "kellyId": 4000, "meaningKey": 0 }] }
+    ],
+    "inputHash": "812a7c19"
+  },
+  {
+    "english": "battle",
+    "senses": [
+      { "gloss": "a fight (noun)", "members": [{ "kellyId": 1193, "meaningKey": 0 }, { "kellyId": 272, "meaningKey": 1 }] },
+      { "gloss": "to fight", "members": [{ "kellyId": 2271, "meaningKey": 0 }] }
+    ],
+    "inputHash": "64b25bdd"
+  },
+  {
+    "english": "bell, doorbell",
+    "senses": [
+      { "gloss": "", "members": [{ "kellyId": 8305, "meaningKey": 0 }, { "kellyId": 795, "meaningKey": 1 }] }
+    ],
+    "inputHash": "7ba89172"
+  },
+  {
+    "english": "board",
+    "senses": [
+      { "gloss": "of directors", "members": [{ "kellyId": 1333, "meaningKey": 0 }] },
+      { "gloss": "plank, piece of wood", "members": [{ "kellyId": 6219, "meaningKey": 0 }, { "kellyId": 8239, "meaningKey": 0 }] },
+      { "gloss": "blackboard, whiteboard", "members": [{ "kellyId": 3583, "meaningKey": 1 }] }
+    ],
+    "inputHash": "a605cf0a"
+  },
+  {
+    "english": "bourgeois, citizen",
+    "senses": [
+      { "gloss": "a middle-class person", "members": [{ "kellyId": 846, "meaningKey": 0 }] },
+      { "gloss": "middle-class (adjective)", "members": [{ "kellyId": 1036, "meaningKey": 0 }] }
+    ],
+    "inputHash": "1b2c4ec2"
+  },
+  {
+    "english": "break",
+    "senses": [
+      { "gloss": "snap, fracture", "members": [{ "kellyId": 704, "meaningKey": 0 }, { "kellyId": 4085, "meaningKey": 0 }] },
+      { "gloss": "a rest, recess", "members": [{ "kellyId": 3833, "meaningKey": 0 }] },
+      { "gloss": "school holiday", "members": [{ "kellyId": 2598, "meaningKey": 1 }] }
+    ],
+    "inputHash": "369ca60e"
+  },
+  {
+    "english": "candle",
+    "senses": [
+      { "gloss": "", "members": [{ "kellyId": 7924, "meaningKey": 0 }, { "kellyId": 1127, "meaningKey": 1 }] }
+    ],
+    "inputHash": "c952efab"
+  },
+  {
+    "english": "case (grammar)",
+    "senses": [
+      { "gloss": "grammatical case", "members": [{ "kellyId": 8369, "meaningKey": 0 }] },
+      { "gloss": "instance, legal case", "members": [{ "kellyId": 263, "meaningKey": 1 }] }
+    ],
+    "inputHash": "19582531"
+  },
+  {
+    "english": "cathedral",
+    "senses": [
+      { "gloss": "", "members": [{ "kellyId": 6582, "meaningKey": 0 }, { "kellyId": 6631, "meaningKey": 0 }, { "kellyId": 587, "meaningKey": 1 }] }
+    ],
+    "inputHash": "72bacab8"
+  },
+  {
+    "english": "coin",
+    "senses": [
+      { "gloss": "", "members": [{ "kellyId": 344, "meaningKey": 0 }, { "kellyId": 4197, "meaningKey": 0 }, { "kellyId": 5574, "meaningKey": 0 }] }
+    ],
+    "inputHash": "b2c037d1"
+  },
+  {
+    "english": "contact",
+    "senses": [
+      { "gloss": "a contact (noun)", "members": [{ "kellyId": 725, "meaningKey": 0 }] },
+      { "gloss": "to get in touch", "members": [{ "kellyId": 2077, "meaningKey": 0 }] }
+    ],
+    "inputHash": "6f375dd3"
+  },
+  {
+    "english": "cost",
+    "senses": [
+      { "gloss": "a cost (noun)", "members": [{ "kellyId": 736, "meaningKey": 0 }] },
+      { "gloss": "to cost (verb)", "members": [{ "kellyId": 985, "meaningKey": 0 }] }
+    ],
+    "inputHash": "570e001b"
+  },
+  {
+    "english": "council",
+    "senses": [
+      { "gloss": "elected assembly", "members": [{ "kellyId": 4098, "meaningKey": 0 }] },
+      { "gloss": "advisory body", "members": [{ "kellyId": 467, "meaningKey": 1 }] }
+    ],
+    "inputHash": "89628942"
+  },
+  {
+    "english": "cover",
+    "senses": [
+      { "gloss": "to cover over", "members": [{ "kellyId": 1035, "meaningKey": 0 }] },
+      { "gloss": "of a book, magazine", "members": [{ "kellyId": 3172, "meaningKey": 0 }] },
+      { "gloss": "mating (of animals)", "members": [{ "kellyId": 8210, "meaningKey": 0 }] }
+    ],
+    "inputHash": "2c24671d"
+  },
+  {
+    "english": "debate",
+    "senses": [
+      { "gloss": "a debate (noun)", "members": [{ "kellyId": 460, "meaningKey": 0 }] },
+      { "gloss": "to debate (verb)", "members": [{ "kellyId": 2846, "meaningKey": 0 }] }
+    ],
+    "inputHash": "c2bf32d4"
+  },
+  {
+    "english": "each, every",
+    "senses": [
+      { "gloss": "each, every", "members": [{ "kellyId": 267, "meaningKey": 0 }] },
+      { "gloss": "each of two", "members": [{ "kellyId": 4402, "meaningKey": 0 }] },
+      { "gloss": "one each, apiece", "members": [{ "kellyId": 4760, "meaningKey": 0 }] }
+    ],
+    "inputHash": "d65fe1e8"
+  },
+  {
+    "english": "end",
+    "senses": [
+      { "gloss": "conclusion, finish", "members": [{ "kellyId": 431, "meaningKey": 0 }] },
+      { "gloss": "tip, extremity", "members": [{ "kellyId": 5378, "meaningKey": 0 }, { "kellyId": 1991, "meaningKey": 1 }] }
+    ],
+    "inputHash": "ff98cb99"
+  },
+  {
+    "english": "European",
+    "senses": [
+      { "gloss": "European (adjective)", "members": [{ "kellyId": 464, "meaningKey": 0 }] },
+      { "gloss": "a European (person)", "members": [{ "kellyId": 4686, "meaningKey": 0 }] }
+    ],
+    "inputHash": "d5ac63bb"
+  },
+  {
+    "english": "experience",
+    "senses": [
+      { "gloss": "expertise, background", "members": [{ "kellyId": 772, "meaningKey": 0 }] },
+      { "gloss": "to experience", "members": [{ "kellyId": 836, "meaningKey": 0 }] },
+      { "gloss": "an event, adventure", "members": [{ "kellyId": 1413, "meaningKey": 0 }] }
+    ],
+    "inputHash": "ed3973ff"
+  },
+  {
+    "english": "field",
+    "senses": [
+      { "gloss": "open area, sphere", "members": [{ "kellyId": 2361, "meaningKey": 0 }] },
+      { "gloss": "arable land", "members": [{ "kellyId": 7533, "meaningKey": 0 }] },
+      { "gloss": "sports pitch, court", "members": [{ "kellyId": 807, "meaningKey": 1 }] }
+    ],
+    "inputHash": "3fc20e0d"
+  },
+  {
+    "english": "fold",
+    "senses": [
+      { "gloss": "to fold", "members": [{ "kellyId": 1030, "meaningKey": 0 }] },
+      { "gloss": "a crease, pleat", "members": [{ "kellyId": 7833, "meaningKey": 0 }] }
+    ],
+    "inputHash": "7e6e4fd4"
+  },
+  {
+    "english": "force, compel",
+    "senses": [
+      { "gloss": "to compel someone", "members": [{ "kellyId": 534, "meaningKey": 0 }] },
+      { "gloss": "power, strength", "members": [{ "kellyId": 713, "meaningKey": 0 }] }
+    ],
+    "inputHash": "76117709"
+  },
+  {
+    "english": "form, shape",
+    "senses": [
+      { "gloss": "shape, mold", "members": [{ "kellyId": 465, "meaningKey": 0 }] },
+      { "gloss": "to form, create", "members": [{ "kellyId": 894, "meaningKey": 0 }] },
+      { "gloss": "paper to fill out", "members": [{ "kellyId": 6448, "meaningKey": 0 }, { "kellyId": 6675, "meaningKey": 0 }] }
+    ],
+    "inputHash": "b9d3f4f4"
+  },
+  {
+    "english": "forward, ahead",
+    "senses": [
+      { "gloss": "direction, onward", "members": [{ "kellyId": 1364, "meaningKey": 0 }] },
+      { "gloss": "pass on a message", "members": [{ "kellyId": 6576, "meaningKey": 0 }] }
+    ],
+    "inputHash": "6f1d4163"
+  },
+  {
+    "english": "handle, manage",
+    "senses": [
+      { "gloss": "to manage, deal with", "members": [{ "kellyId": 1027, "meaningKey": 0 }] },
+      { "gloss": "grip of a tool", "members": [{ "kellyId": 7239, "meaningKey": 0 }, { "kellyId": 7724, "meaningKey": 0 }] },
+      { "gloss": "of a cup or mug", "members": [{ "kellyId": 2137, "meaningKey": 1 }] }
+    ],
+    "inputHash": "0f06a96a"
+  },
+  {
+    "english": "help",
+    "senses": [
+      { "gloss": "to help", "members": [{ "kellyId": 453, "meaningKey": 0 }] },
+      { "gloss": "help, assistance (noun)", "members": [{ "kellyId": 705, "meaningKey": 0 }] }
+    ],
+    "inputHash": "f9c0445f"
+  },
+  {
+    "english": "hope",
+    "senses": [
+      { "gloss": "to hope", "members": [{ "kellyId": 527, "meaningKey": 0 }] },
+      { "gloss": "hope (noun)", "members": [{ "kellyId": 1503, "meaningKey": 0 }, { "kellyId": 2517, "meaningKey": 0 }] }
+    ],
+    "inputHash": "be7d897d"
+  },
+  {
+    "english": "husband, spouse",
+    "senses": [
+      { "gloss": "", "members": [{ "kellyId": 1635, "meaningKey": 0 }, { "kellyId": 264, "meaningKey": 1 }] }
+    ],
+    "inputHash": "9ef1c685"
+  },
+  {
+    "english": "interest",
+    "senses": [
+      { "gloss": "curiosity, hobby", "members": [{ "kellyId": 533, "meaningKey": 0 }] },
+      { "gloss": "on money, financial", "members": [{ "kellyId": 1749, "meaningKey": 0 }] },
+      { "gloss": "to interest someone", "members": [{ "kellyId": 2913, "meaningKey": 0 }] }
+    ],
+    "inputHash": "cf0851fd"
+  },
+  {
+    "english": "internet",
+    "senses": [
+      { "gloss": "", "members": [{ "kellyId": 673, "meaningKey": 0 }, { "kellyId": 857, "meaningKey": 1 }] }
+    ],
+    "inputHash": "8186b83e"
+  },
+  {
+    "english": "invite",
+    "senses": [
+      { "gloss": "", "members": [{ "kellyId": 4351, "meaningKey": 0 }, { "kellyId": 718, "meaningKey": 1 }] }
+    ],
+    "inputHash": "2e1570b9"
+  },
+  {
+    "english": "job",
+    "senses": [
+      { "gloss": "work, task", "members": [{ "kellyId": 418, "meaningKey": 0 }] },
+      { "gloss": "post, position", "members": [{ "kellyId": 600, "meaningKey": 1 }] }
+    ],
+    "inputHash": "5e58a65c"
+  },
+  {
+    "english": "krona",
+    "senses": [
+      { "gloss": "the currency", "members": [{ "kellyId": 1010, "meaningKey": 0 }, { "kellyId": 505, "meaningKey": 1 }] },
+      { "gloss": "quid, buck (slang)", "members": [{ "kellyId": 5475, "meaningKey": 0 }] }
+    ],
+    "inputHash": "757287d9"
+  },
+  {
+    "english": "language",
+    "senses": [
+      { "gloss": "a spoken language", "members": [{ "kellyId": 655, "meaningKey": 0 }] },
+      { "gloss": "wording, phrasing", "members": [{ "kellyId": 2547, "meaningKey": 0 }] }
+    ],
+    "inputHash": "00c0d06e"
+  },
+  {
+    "english": "leave",
+    "senses": [
+      { "gloss": "depart, drop off", "members": [{ "kellyId": 339, "meaningKey": 0 }] },
+      { "gloss": "time off (noun)", "members": [{ "kellyId": 6833, "meaningKey": 0 }] },
+      { "gloss": "take off, head away", "members": [{ "kellyId": 2015, "meaningKey": 2 }] }
+    ],
+    "inputHash": "d4d9e744"
+  },
+  {
+    "english": "light; easy",
+    "senses": [
+      { "gloss": "not heavy; easy", "members": [{ "kellyId": 610, "meaningKey": 0 }] },
+      { "gloss": "brightness, glow (noun)", "members": [{ "kellyId": 1127, "meaningKey": 0 }, { "kellyId": 4226, "meaningKey": 0 }] },
+      { "gloss": "to light, ignite", "members": [{ "kellyId": 3189, "meaningKey": 0 }] }
+    ],
+    "inputHash": "b771fdc4"
+  },
+  {
+    "english": "look, watch",
+    "senses": [
+      { "gloss": "to look, watch", "members": [{ "kellyId": 537, "meaningKey": 0 }, { "kellyId": 852, "meaningKey": 0 }] },
+      { "gloss": "a glance, gaze (noun)", "members": [{ "kellyId": 1843, "meaningKey": 0 }] },
+      { "gloss": "a check, inspection (noun)", "members": [{ "kellyId": 2219, "meaningKey": 0 }] },
+      { "gloss": "a peek, quick look (noun)", "members": [{ "kellyId": 3921, "meaningKey": 0 }] },
+      { "gloss": "facial expression", "members": [{ "kellyId": 7709, "meaningKey": 0 }] }
+    ],
+    "inputHash": "ac097767"
+  },
+  {
+    "english": "love",
+    "senses": [
+      { "gloss": "to love", "members": [{ "kellyId": 822, "meaningKey": 0 }] },
+      { "gloss": "love (noun)", "members": [{ "kellyId": 842, "meaningKey": 0 }] }
+    ],
+    "inputHash": "5790af62"
+  },
+  {
+    "english": "luck; turn",
+    "senses": [
+      { "gloss": "a turn, trip", "members": [{ "kellyId": 488, "meaningKey": 0 }] },
+      { "gloss": "good fortune", "members": [{ "kellyId": 1626, "meaningKey": 1 }] }
+    ],
+    "inputHash": "4f23a999"
+  },
+  {
+    "english": "meal",
+    "senses": [
+      { "gloss": "", "members": [{ "kellyId": 4240, "meaningKey": 0 }, { "kellyId": 362, "meaningKey": 1 }] }
+    ],
+    "inputHash": "a85d0f69"
+  },
+  {
+    "english": "meeting",
+    "senses": [
+      { "gloss": "a meeting, get-together", "members": [{ "kellyId": 660, "meaningKey": 0 }, { "kellyId": 3804, "meaningKey": 0 }] },
+      { "gloss": "formal session", "members": [{ "kellyId": 3942, "meaningKey": 0 }, { "kellyId": 3955, "meaningKey": 1 }] }
+    ],
+    "inputHash": "cb49601e"
+  },
+  {
+    "english": "of course, you know, after all",
+    "senses": [
+      { "gloss": "you know, after all (particle)", "members": [{ "kellyId": 2660, "meaningKey": 0 }] },
+      { "gloss": "of course, naturally", "members": [{ "kellyId": 580, "meaningKey": 0 }, { "kellyId": 820, "meaningKey": 0 }, { "kellyId": 924, "meaningKey": 0 }, { "kellyId": 1238, "meaningKey": 0 }, { "kellyId": 2300, "meaningKey": 0 }, { "kellyId": 3253, "meaningKey": 0 }] }
+    ],
+    "inputHash": "c4a8ac1c"
+  },
+  {
+    "english": "offer, treat",
+    "senses": [
+      { "gloss": "to treat, host, pay", "members": [{ "kellyId": 718, "meaningKey": 0 }] },
+      { "gloss": "to offer, give", "members": [{ "kellyId": 777, "meaningKey": 0 }] },
+      { "gloss": "an offer (noun)", "members": [{ "kellyId": 2952, "meaningKey": 0 }] },
+      { "gloss": "a quote, bid (noun)", "members": [{ "kellyId": 7204, "meaningKey": 0 }] }
+    ],
+    "inputHash": "cf7bb4bf"
+  },
+  {
+    "english": "piece",
+    "senses": [
+      { "gloss": "a bit, portion", "members": [{ "kellyId": 1337, "meaningKey": 0 }, { "kellyId": 3224, "meaningKey": 0 }] },
+      { "gloss": "game piece", "members": [{ "kellyId": 3982, "meaningKey": 1 }] }
+    ],
+    "inputHash": "485b3d79"
+  },
+  {
+    "english": "plan",
+    "senses": [
+      { "gloss": "a plan (noun)", "members": [{ "kellyId": 807, "meaningKey": 0 }] },
+      { "gloss": "to plan", "members": [{ "kellyId": 1246, "meaningKey": 0 }, { "kellyId": 7986, "meaningKey": 0 }] }
+    ],
+    "inputHash": "f5f1a4f6"
+  },
+  {
+    "english": "plant",
+    "senses": [
+      { "gloss": "a living plant", "members": [{ "kellyId": 911, "meaningKey": 0 }] },
+      { "gloss": "to plant", "members": [{ "kellyId": 5515, "meaningKey": 0 }] },
+      { "gloss": "a seedling", "members": [{ "kellyId": 6443, "meaningKey": 0 }] }
+    ],
+    "inputHash": "6dc57e8e"
+  },
+  {
+    "english": "point",
+    "senses": [
+      { "gloss": "to point at", "members": [{ "kellyId": 953, "meaningKey": 0 }] },
+      { "gloss": "score, argument", "members": [{ "kellyId": 1111, "meaningKey": 0 }] },
+      { "gloss": "tip, sharp end", "members": [{ "kellyId": 2908, "meaningKey": 0 }] },
+      { "gloss": "purpose, use", "members": [{ "kellyId": 6872, "meaningKey": 0 }] }
+    ],
+    "inputHash": "a0fa586e"
+  },
+  {
+    "english": "program",
+    "senses": [
+      { "gloss": "show, software (noun)", "members": [{ "kellyId": 570, "meaningKey": 0 }] },
+      { "gloss": "to write code", "members": [{ "kellyId": 7286, "meaningKey": 0 }] }
+    ],
+    "inputHash": "387c13da"
+  },
+  {
+    "english": "requirement, demand",
+    "senses": [
+      { "gloss": "requirement, demand", "members": [{ "kellyId": 477, "meaningKey": 0 }] },
+      { "gloss": "formal motion (legal)", "members": [{ "kellyId": 1628, "meaningKey": 0 }] },
+      { "gloss": "decree, order", "members": [{ "kellyId": 6781, "meaningKey": 0 }] }
+    ],
+    "inputHash": "2a04899c"
+  },
+  {
+    "english": "research",
+    "senses": [
+      { "gloss": "research (noun)", "members": [{ "kellyId": 712, "meaningKey": 0 }] },
+      { "gloss": "to do research", "members": [{ "kellyId": 3501, "meaningKey": 0 }] }
+    ],
+    "inputHash": "01346ffc"
+  },
+  {
+    "english": "right, correct",
+    "senses": [
+      { "gloss": "correct, not wrong", "members": [{ "kellyId": 553, "meaningKey": 0 }, { "kellyId": 644, "meaningKey": 0 }] },
+      { "gloss": "an entitlement", "members": [{ "kellyId": 507, "meaningKey": 0 }, { "kellyId": 441, "meaningKey": 1 }] },
+      { "gloss": "real, genuine", "members": [{ "kellyId": 697, "meaningKey": 0 }] },
+      { "gloss": "right-hand side", "members": [{ "kellyId": 1645, "meaningKey": 0 }] }
+    ],
+    "inputHash": "a8af33ad"
+  },
+  {
+    "english": "run",
+    "senses": [
+      { "gloss": "on foot", "members": [{ "kellyId": 1222, "meaningKey": 0 }] },
+      { "gloss": "flow (of liquid)", "members": [{ "kellyId": 2551, "meaningKey": 0 }] },
+      { "gloss": "operate a business", "members": [{ "kellyId": 567, "meaningKey": 1 }] }
+    ],
+    "inputHash": "087c36b2"
+  },
+  {
+    "english": "Russian",
+    "senses": [
+      { "gloss": "Russian (adjective)", "members": [{ "kellyId": 1022, "meaningKey": 0 }] },
+      { "gloss": "a Russian (person)", "members": [{ "kellyId": 2423, "meaningKey": 0 }] }
+    ],
+    "inputHash": "ed5bdde2"
+  },
+  {
+    "english": "sea, ocean",
+    "senses": [
+      { "gloss": "the open sea", "members": [{ "kellyId": 1148, "meaningKey": 0 }] },
+      { "gloss": "sea; also lake", "members": [{ "kellyId": 1940, "meaningKey": 1 }] }
+    ],
+    "inputHash": "f51ae76b"
+  },
+  {
+    "english": "sentence, judge",
+    "senses": [
+      { "gloss": "to judge, sentence", "members": [{ "kellyId": 1031, "meaningKey": 0 }] },
+      { "gloss": "grammatical sentence", "members": [{ "kellyId": 551, "meaningKey": 1 }] }
+    ],
+    "inputHash": "ed42dec3"
+  },
+  {
+    "english": "separate",
+    "senses": [
+      { "gloss": "to separate, part", "members": [{ "kellyId": 948, "meaningKey": 0 }, { "kellyId": 5956, "meaningKey": 0 }, { "kellyId": 7061, "meaningKey": 0 }] },
+      { "gloss": "distinct (adjective)", "members": [{ "kellyId": 3575, "meaningKey": 0 }] }
+    ],
+    "inputHash": "8dc8b8d0"
+  },
+  {
+    "english": "share, divide",
+    "senses": [
+      { "gloss": "to share, divide", "members": [{ "kellyId": 515, "meaningKey": 0 }] },
+      { "gloss": "a portion, proportion", "members": [{ "kellyId": 1060, "meaningKey": 0 }] },
+      { "gloss": "stock, equity", "members": [{ "kellyId": 2109, "meaningKey": 0 }] }
+    ],
+    "inputHash": "4f7fff37"
+  },
+  {
+    "english": "speech, presentation, lecture",
+    "senses": [
+      { "gloss": "", "members": [{ "kellyId": 3791, "meaningKey": 0 }, { "kellyId": 273, "meaningKey": 1 }] }
+    ],
+    "inputHash": "5d96f56e"
+  }
+]

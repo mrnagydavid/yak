@@ -79,11 +79,33 @@ export interface EntryOverlay {
   updatedAt: number
 }
 
-/** Links a target-language entry to a native-language entry. (SPEC §4.3) */
+/** Links a target-language entry to a native-language entry. (SPEC §4.3)
+ *
+ * A target word may link to several native entries — one per distinct *practiceable meaning*
+ * (multi-meaning design). Each such link is its own card with its own per-skill ReviewState.
+ * `meaningKey` is a small stable per-word integer (primary = 0, extras 1, 2, …) assigned
+ * append-only, so seed-sync can match a meaning across seed updates by `(seedKey, meaningKey)`
+ * even when its text changes. `primary` (meaningKey === 0) is the recognition-bearer: recognition
+ * is asked once per *word* off the primary link; production is per *meaning*. */
 export interface Translation {
   id: string // ULID
   targetEntryId: string // the target-language word (e.g. Swedish)
   nativeEntryId: string // the native-language word (e.g. English)
+  meaningKey: number // stable per-word key for sync (primary = 0, extra meanings 1, 2, …)
+  primary: boolean // the recognition-bearer (meaningKey === 0)
+  // Production-prompt gloss for a PROMOTED meaning (meaningKey > 0): the short parenthetical hint
+  // shown when this meaning's English phrase is also produced by other Swedish words (e.g. the
+  // promoted `route` of `led`). The primary meaning's gloss lives on `Entry.sense.gloss` instead, so
+  // production reads `translation.gloss ?? entry.sense?.gloss` uniformly. Absent when unambiguous.
+  // Authored wholesale by the sense/gloss pass; populated at build (buildEntry) + on sync. (§12)
+  gloss?: string
+  // Production-grouping key for a PROMOTED meaning (meaningKey > 0): the `english#sense` key of the
+  // concept-sense this meaning belongs to, so the composer can ask it TOGETHER with the other Swedish
+  // words of the same sense as one multi-answer card (e.g. `husband` → make + man). The primary
+  // meaning's key lives on `Entry.sense.key` instead, so `groupProductionCards` reads
+  // `primary ? entry.sense.key : translation.senseKey`. Absent when the meaning isn't part of a
+  // partitioned (≥2-producer) concept. Authored by the sense/gloss pass; stamped at build + on sync.
+  senseKey?: string
   source: Source
   createdAt: number
 }

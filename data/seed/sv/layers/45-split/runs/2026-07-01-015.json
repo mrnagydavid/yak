@@ -1,0 +1,50 @@
+[
+  {
+    "kellyId": 3838,
+    "decision": "split",
+    "reason": "väsen also means a supernatural being/creature (troll, vätte) — a distinct, common sense unrelated to noise",
+    "altMeanings": [{ "translation": "being, creature", "gloss": "supernatural or imaginary" }],
+    "subDefinitions": ["nature, essence (formal)"],
+    "inputHash": "f88ef564"
+  },
+  {
+    "kellyId": 4821,
+    "decision": "split",
+    "reason": "ask means both the ash tree and a small box (with loose lid) — two distinct, common everyday senses",
+    "altMeanings": [{ "translation": "box", "gloss": "small, with loose lid" }],
+    "subDefinitions": [],
+    "inputHash": "bd8f07f8"
+  },
+  {
+    "kellyId": 5383,
+    "decision": "split",
+    "reason": "damm means both dam and pond/pool — distinct, common everyday senses",
+    "altMeanings": [{ "translation": "pond, pool", "gloss": "" }],
+    "subDefinitions": [],
+    "inputHash": "267ae10d"
+  },
+  {
+    "kellyId": 4326,
+    "decision": "split",
+    "reason": "däck means both tyre and (ship's) deck — two distinct, common senses",
+    "altMeanings": [{ "translation": "deck", "gloss": "of a ship" }],
+    "subDefinitions": [],
+    "inputHash": "64f6e81f"
+  },
+  {
+    "kellyId": 4653,
+    "decision": "split",
+    "reason": "disk means counter but also the dishwashing/dirty dishes — an extremely common everyday household sense",
+    "altMeanings": [{ "translation": "dishwashing, dirty dishes", "gloss": "" }],
+    "subDefinitions": ["disc, disk"],
+    "inputHash": "2ebe1654"
+  },
+  {
+    "kellyId": 5567,
+    "decision": "split",
+    "reason": "fluga means fly (insect) but also bowtie — a distinct, common everyday sense",
+    "altMeanings": [{ "translation": "bowtie", "gloss": "" }],
+    "subDefinitions": ["fly (fishing lure)", "fad, craze"],
+    "inputHash": "7a1db421"
+  }
+]

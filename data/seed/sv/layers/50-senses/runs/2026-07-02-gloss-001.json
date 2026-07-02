@@ -1,0 +1,496 @@
+[
+  {
+    "english": "step",
+    "senses": [
+      { "gloss": "a pace on foot", "members": [{ "kellyId": 803, "meaningKey": 0 }] },
+      { "gloss": "a stair", "members": [{ "kellyId": 7595, "meaningKey": 0 }] },
+      { "gloss": "move by foot, climb", "members": [{ "kellyId": 1309, "meaningKey": 0 }] },
+      { "gloss": "stride, step into", "members": [{ "kellyId": 2677, "meaningKey": 0 }] },
+      { "gloss": "step in dignified manner, enter", "members": [{ "kellyId": 1770, "meaningKey": 0 }] },
+      { "gloss": "tramp, pedal", "members": [{ "kellyId": 3917, "meaningKey": 0 }] }
+    ],
+    "inputHash": "c500c275"
+  },
+  {
+    "english": "story, narrative, account",
+    "senses": [
+      { "gloss": "", "members": [{ "kellyId": 1201, "meaningKey": 0 }, { "kellyId": 3873, "meaningKey": 0 }, { "kellyId": 417, "meaningKey": 1 }] }
+    ],
+    "inputHash": "7c66c0fb"
+  },
+  {
+    "english": "study, report",
+    "senses": [
+      { "gloss": "a piece of research", "members": [{ "kellyId": 925, "meaningKey": 0 }, { "kellyId": 7552, "meaningKey": 0 }] },
+      { "gloss": "to study, learn", "members": [{ "kellyId": 1266, "meaningKey": 0 }, { "kellyId": 3760, "meaningKey": 0 }] }
+    ],
+    "inputHash": "a26af7cf"
+  },
+  {
+    "english": "substance",
+    "senses": [
+      { "gloss": "", "members": [{ "kellyId": 4433, "meaningKey": 0 }, { "kellyId": 681, "meaningKey": 1 }] }
+    ],
+    "inputHash": "3ea105de"
+  },
+  {
+    "english": "tax",
+    "senses": [
+      { "gloss": "money paid to the state", "members": [{ "kellyId": 797, "meaningKey": 0 }] },
+      { "gloss": "to levy tax", "members": [{ "kellyId": 5155, "meaningKey": 0 }] }
+    ],
+    "inputHash": "072a7bb9"
+  },
+  {
+    "english": "teacher",
+    "senses": [
+      { "gloss": "", "members": [{ "kellyId": 927, "meaningKey": 0 }, { "kellyId": 3734, "meaningKey": 1 }] }
+    ],
+    "inputHash": "1babb631"
+  },
+  {
+    "english": "track, trace",
+    "senses": [
+      { "gloss": "to follow, locate", "members": [{ "kellyId": 3181, "meaningKey": 0 }] },
+      { "gloss": "a rail or mark", "members": [{ "kellyId": 1252, "meaningKey": 1 }] }
+    ],
+    "inputHash": "8dda3764"
+  },
+  {
+    "english": "trip, journey",
+    "senses": [
+      { "gloss": "", "members": [{ "kellyId": 808, "meaningKey": 0 }, { "kellyId": 488, "meaningKey": 1 }] }
+    ],
+    "inputHash": "51e132ff"
+  },
+  {
+    "english": "turn",
+    "senses": [
+      { "gloss": "to rotate, flip", "members": [{ "kellyId": 223, "meaningKey": 0 }] },
+      { "gloss": "to swing, change direction", "members": [{ "kellyId": 3362, "meaningKey": 0 }] },
+      { "gloss": "a change of events", "members": [{ "kellyId": 1139, "meaningKey": 0 }] },
+      { "gloss": "a full rotation, lap", "members": [{ "kellyId": 2734, "meaningKey": 0 }] },
+      { "gloss": "a bend in a road", "members": [{ "kellyId": 3958, "meaningKey": 0 }] },
+      { "gloss": "reach an age", "members": [{ "kellyId": 853, "meaningKey": 1 }] }
+    ],
+    "inputHash": "39446aab"
+  },
+  {
+    "english": "visit",
+    "senses": [
+      { "gloss": "to visit", "members": [{ "kellyId": 1032, "meaningKey": 0 }] },
+      { "gloss": "a visit", "members": [{ "kellyId": 1061, "meaningKey": 0 }] }
+    ],
+    "inputHash": "d784e3ec"
+  },
+  {
+    "english": "vote",
+    "senses": [
+      { "gloss": "to cast a vote", "members": [{ "kellyId": 696, "meaningKey": 0 }] },
+      { "gloss": "a ballot, poll", "members": [{ "kellyId": 2362, "meaningKey": 0 }] },
+      { "gloss": "a single vote cast", "members": [{ "kellyId": 717, "meaningKey": 1 }] }
+    ],
+    "inputHash": "ef4f9712"
+  },
+  {
+    "english": "wait",
+    "senses": [
+      { "gloss": "to wait", "members": [{ "kellyId": 474, "meaningKey": 0 }] },
+      { "gloss": "the waiting", "members": [{ "kellyId": 3063, "meaningKey": 0 }] }
+    ],
+    "inputHash": "11526b41"
+  },
+  {
+    "english": "wear",
+    "senses": [
+      { "gloss": "wear out, wear down", "members": [{ "kellyId": 2720, "meaningKey": 0 }] },
+      { "gloss": "wear clothing", "members": [{ "kellyId": 300, "meaningKey": 1 }] }
+    ],
+    "inputHash": "a3f78482"
+  },
+  {
+    "english": "win, defeat",
+    "senses": [
+      { "gloss": "to win", "members": [{ "kellyId": 471, "meaningKey": 0 }, { "kellyId": 3240, "meaningKey": 0 }] },
+      { "gloss": "a victory, profit", "members": [{ "kellyId": 1352, "meaningKey": 0 }] }
+    ],
+    "inputHash": "6279a004"
+  },
+  {
+    "english": "wish",
+    "senses": [
+      { "gloss": "to wish", "members": [{ "kellyId": 923, "meaningKey": 0 }] },
+      { "gloss": "a wish", "members": [{ "kellyId": 2809, "meaningKey": 0 }] }
+    ],
+    "inputHash": "5bb1649d"
+  },
+  {
+    "english": "abuse, assault",
+    "senses": [
+      { "gloss": "an attack, violation", "members": [{ "kellyId": 2390, "meaningKey": 0 }] },
+      { "gloss": "misuse, addiction", "members": [{ "kellyId": 2956, "meaningKey": 0 }] },
+      { "gloss": "to misuse", "members": [{ "kellyId": 4389, "meaningKey": 0 }] }
+    ],
+    "inputHash": "66a07581"
+  },
+  {
+    "english": "angry, mad",
+    "senses": [
+      { "gloss": "", "members": [{ "kellyId": 2143, "meaningKey": 0 }, { "kellyId": 3419, "meaningKey": 1 }] }
+    ],
+    "inputHash": "1d37f43b"
+  },
+  {
+    "english": "arm",
+    "senses": [
+      { "gloss": "body part", "members": [{ "kellyId": 1718, "meaningKey": 0 }] },
+      { "gloss": "equip, prepare", "members": [{ "kellyId": 5371, "meaningKey": 0 }] },
+      { "gloss": "arm with weapons", "members": [{ "kellyId": 7468, "meaningKey": 0 }] }
+    ],
+    "inputHash": "f5096a7b"
+  },
+  {
+    "english": "average",
+    "senses": [
+      { "gloss": "the mean value", "members": [{ "kellyId": 2769, "meaningKey": 0 }, { "kellyId": 1926, "meaningKey": 1 }] },
+      { "gloss": "typical, mean", "members": [{ "kellyId": 3503, "meaningKey": 0 }] }
+    ],
+    "inputHash": "d5eb7e77"
+  },
+  {
+    "english": "balance",
+    "senses": [
+      { "gloss": "equilibrium", "members": [{ "kellyId": 2140, "meaningKey": 0 }] },
+      { "gloss": "to keep steady", "members": [{ "kellyId": 4599, "meaningKey": 0 }] }
+    ],
+    "inputHash": "931da45a"
+  },
+  {
+    "english": "below",
+    "senses": [
+      { "gloss": "further down (adverb)", "members": [{ "kellyId": 1507, "meaningKey": 0 }] },
+      { "gloss": "listed further down", "members": [{ "kellyId": 5581, "meaningKey": 0 }] },
+      { "gloss": "underneath something", "members": [{ "kellyId": 5599, "meaningKey": 0 }] }
+    ],
+    "inputHash": "03558d43"
+  },
+  {
+    "english": "benefit",
+    "senses": [
+      { "gloss": "usefulness", "members": [{ "kellyId": 1562, "meaningKey": 0 }] },
+      { "gloss": "an advantage, perk", "members": [{ "kellyId": 2686, "meaningKey": 0 }] },
+      { "gloss": "help, be good for", "members": [{ "kellyId": 1914, "meaningKey": 0 }, { "kellyId": 6209, "meaningKey": 0 }] }
+    ],
+    "inputHash": "759fbe42"
+  },
+  {
+    "english": "catch",
+    "senses": [
+      { "gloss": "to catch, capture", "members": [{ "kellyId": 2023, "meaningKey": 0 }] },
+      { "gloss": "a haul, what is caught", "members": [{ "kellyId": 7065, "meaningKey": 0 }] }
+    ],
+    "inputHash": "574efdc8"
+  },
+  {
+    "english": "Catholic",
+    "senses": [
+      { "gloss": "of the Catholic faith", "members": [{ "kellyId": 1935, "meaningKey": 0 }] },
+      { "gloss": "a Catholic person", "members": [{ "kellyId": 3545, "meaningKey": 0 }] }
+    ],
+    "inputHash": "579f3401"
+  },
+  {
+    "english": "collapse",
+    "senses": [
+      { "gloss": "to cave in, fall down", "members": [{ "kellyId": 3084, "meaningKey": 0 }, { "kellyId": 6417, "meaningKey": 0 }] },
+      { "gloss": "a caving-in", "members": [{ "kellyId": 4971, "meaningKey": 0 }, { "kellyId": 2263, "meaningKey": 1 }] },
+      { "gloss": "a breakdown, crash", "members": [{ "kellyId": 5626, "meaningKey": 0 }] }
+    ],
+    "inputHash": "9e8ca29b"
+  },
+  {
+    "english": "copy, reproduction, duplicate",
+    "senses": [
+      { "gloss": "a duplicate", "members": [{ "kellyId": 2647, "meaningKey": 0 }] },
+      { "gloss": "to make a copy", "members": [{ "kellyId": 2801, "meaningKey": 0 }] },
+      { "gloss": "one printed issue", "members": [{ "kellyId": 2837, "meaningKey": 0 }] }
+    ],
+    "inputHash": "90ab0ee1"
+  },
+  {
+    "english": "cut",
+    "senses": [
+      { "gloss": "an incision (noun)", "members": [{ "kellyId": 1926, "meaningKey": 0 }] },
+      { "gloss": "cut with a knife", "members": [{ "kellyId": 2483, "meaningKey": 0 }] },
+      { "gloss": "cut with scissors", "members": [{ "kellyId": 2918, "meaningKey": 0 }] },
+      { "gloss": "a clip, scissors cut (noun)", "members": [{ "kellyId": 3736, "meaningKey": 0 }] }
+    ],
+    "inputHash": "998a03c9"
+  },
+  {
+    "english": "dance",
+    "senses": [
+      { "gloss": "to dance", "members": [{ "kellyId": 2673, "meaningKey": 0 }] },
+      { "gloss": "a dance", "members": [{ "kellyId": 2736, "meaningKey": 0 }] }
+    ],
+    "inputHash": "4b772726"
+  },
+  {
+    "english": "defeat",
+    "senses": [
+      { "gloss": "to beat, conquer", "members": [{ "kellyId": 2702, "meaningKey": 0 }] },
+      { "gloss": "a loss, being beaten", "members": [{ "kellyId": 3870, "meaningKey": 0 }] }
+    ],
+    "inputHash": "e55330f7"
+  },
+  {
+    "english": "doubt",
+    "senses": [
+      { "gloss": "uncertainty (noun)", "members": [{ "kellyId": 2784, "meaningKey": 0 }] },
+      { "gloss": "to be unsure", "members": [{ "kellyId": 3292, "meaningKey": 0 }, { "kellyId": 6542, "meaningKey": 0 }] },
+      { "gloss": "distrust, suspicion", "members": [{ "kellyId": 5344, "meaningKey": 0 }] }
+    ],
+    "inputHash": "8db63add"
+  },
+  {
+    "english": "escape, flight",
+    "senses": [
+      { "gloss": "a fleeing (noun)", "members": [{ "kellyId": 3805, "meaningKey": 0 }] },
+      { "gloss": "to flee, run away", "members": [{ "kellyId": 2554, "meaningKey": 1 }] }
+    ],
+    "inputHash": "bb76a369"
+  },
+  {
+    "english": "exchange",
+    "senses": [
+      { "gloss": "an exchange (noun)", "members": [{ "kellyId": 2716, "meaningKey": 0 }, { "kellyId": 7981, "meaningKey": 0 }] },
+      { "gloss": "to swap, exchange", "members": [{ "kellyId": 5696, "meaningKey": 0 }] }
+    ],
+    "inputHash": "32b14fc1"
+  },
+  {
+    "english": "excitement",
+    "senses": [
+      { "gloss": "", "members": [{ "kellyId": 7825, "meaningKey": 0 }, { "kellyId": 2741, "meaningKey": 1 }] }
+    ],
+    "inputHash": "73c26ce6"
+  },
+  {
+    "english": "fire",
+    "senses": [
+      { "gloss": "flames, a blaze", "members": [{ "kellyId": 2003, "meaningKey": 0 }] },
+      { "gloss": "a destructive fire", "members": [{ "kellyId": 2935, "meaningKey": 0 }] },
+      { "gloss": "dismiss from a job", "members": [{ "kellyId": 6475, "meaningKey": 0 }, { "kellyId": 2921, "meaningKey": 1 }] }
+    ],
+    "inputHash": "7198e9ec"
+  },
+  {
+    "english": "fish",
+    "senses": [
+      { "gloss": "the animal", "members": [{ "kellyId": 1701, "meaningKey": 0 }] },
+      { "gloss": "to fish", "members": [{ "kellyId": 4924, "meaningKey": 0 }] }
+    ],
+    "inputHash": "5644540c"
+  },
+  {
+    "english": "fly",
+    "senses": [
+      { "gloss": "to fly", "members": [{ "kellyId": 1746, "meaningKey": 0 }] },
+      { "gloss": "the insect", "members": [{ "kellyId": 5567, "meaningKey": 0 }] }
+    ],
+    "inputHash": "b5e01d4b"
+  },
+  {
+    "english": "fund",
+    "senses": [
+      { "gloss": "an investment fund", "members": [{ "kellyId": 2510, "meaningKey": 0 }] },
+      { "gloss": "money on hand, coffers", "members": [{ "kellyId": 2237, "meaningKey": 1 }] }
+    ],
+    "inputHash": "8f05295c"
+  },
+  {
+    "english": "guarantee",
+    "senses": [
+      { "gloss": "to guarantee", "members": [{ "kellyId": 1840, "meaningKey": 0 }] },
+      { "gloss": "a warranty (noun)", "members": [{ "kellyId": 2747, "meaningKey": 0 }] }
+    ],
+    "inputHash": "741b6a4c"
+  },
+  {
+    "english": "guard",
+    "senses": [
+      { "gloss": "a guard, watch duty", "members": [{ "kellyId": 2805, "meaningKey": 0 }] },
+      { "gloss": "surveillance, watch", "members": [{ "kellyId": 4698, "meaningKey": 0 }] },
+      { "gloss": "to guard, watch over", "members": [{ "kellyId": 5158, "meaningKey": 0 }] }
+    ],
+    "inputHash": "2972f51c"
+  },
+  {
+    "english": "guess",
+    "senses": [
+      { "gloss": "to guess", "members": [{ "kellyId": 2163, "meaningKey": 0 }] },
+      { "gloss": "a guess", "members": [{ "kellyId": 5184, "meaningKey": 0 }] }
+    ],
+    "inputHash": "a52de654"
+  },
+  {
+    "english": "hate",
+    "senses": [
+      { "gloss": "to hate", "members": [{ "kellyId": 2162, "meaningKey": 0 }] },
+      { "gloss": "hatred (noun)", "members": [{ "kellyId": 2197, "meaningKey": 0 }] }
+    ],
+    "inputHash": "6f0251ef"
+  },
+  {
+    "english": "heavily, severely",
+    "senses": [
+      { "gloss": "seriously, badly", "members": [{ "kellyId": 1541, "meaningKey": 0 }] },
+      { "gloss": "with heavy weight", "members": [{ "kellyId": 4638, "meaningKey": 0 }] }
+    ],
+    "inputHash": "dead6913"
+  },
+  {
+    "english": "issue",
+    "senses": [
+      { "gloss": "to issue, put out", "members": [{ "kellyId": 2703, "meaningKey": 0 }] },
+      { "gloss": "a matter, concern", "members": [{ "kellyId": 4105, "meaningKey": 0 }] },
+      { "gloss": "a substantive question", "members": [{ "kellyId": 4113, "meaningKey": 0 }] }
+    ],
+    "inputHash": "0438a8d0"
+  },
+  {
+    "english": "maintain, uphold",
+    "senses": [
+      { "gloss": "keep in force, sustain", "members": [{ "kellyId": 2058, "meaningKey": 0 }, { "kellyId": 3770, "meaningKey": 0 }] },
+      { "gloss": "service, keep in repair", "members": [{ "kellyId": 4919, "meaningKey": 1 }] }
+    ],
+    "inputHash": "2cb226aa"
+  },
+  {
+    "english": "measure",
+    "senses": [
+      { "gloss": "to measure", "members": [{ "kellyId": 2016, "meaningKey": 0 }] },
+      { "gloss": "a size, dimension", "members": [{ "kellyId": 2293, "meaningKey": 0 }] }
+    ],
+    "inputHash": "86eb4814"
+  },
+  {
+    "english": "Norwegian",
+    "senses": [
+      { "gloss": "of Norway (adjective)", "members": [{ "kellyId": 1958, "meaningKey": 0 }] },
+      { "gloss": "a Norwegian person", "members": [{ "kellyId": 5128, "meaningKey": 0 }] }
+    ],
+    "inputHash": "6f39e0c4"
+  },
+  {
+    "english": "outermost, farthest away",
+    "senses": [
+      { "gloss": "the outermost (adjective)", "members": [{ "kellyId": 2848, "meaningKey": 0 }] },
+      { "gloss": "extremely, at the far edge", "members": [{ "kellyId": 1738, "meaningKey": 1 }] }
+    ],
+    "inputHash": "80684136"
+  },
+  {
+    "english": "owner",
+    "senses": [
+      { "gloss": "", "members": [{ "kellyId": 1551, "meaningKey": 0 }, { "kellyId": 3790, "meaningKey": 1 }] }
+    ],
+    "inputHash": "4ea07d15"
+  },
+  {
+    "english": "park",
+    "senses": [
+      { "gloss": "a green space", "members": [{ "kellyId": 2616, "meaningKey": 0 }] },
+      { "gloss": "park a vehicle", "members": [{ "kellyId": 6170, "meaningKey": 0 }] }
+    ],
+    "inputHash": "0e2f0fe8"
+  },
+  {
+    "english": "photograph",
+    "senses": [
+      { "gloss": "a photo (noun)", "members": [{ "kellyId": 3547, "meaningKey": 0 }, { "kellyId": 1881, "meaningKey": 1 }] },
+      { "gloss": "to take photos", "members": [{ "kellyId": 3893, "meaningKey": 0 }] }
+    ],
+    "inputHash": "73c2d120"
+  },
+  {
+    "english": "protest",
+    "senses": [
+      { "gloss": "a protest (noun)", "members": [{ "kellyId": 2157, "meaningKey": 0 }] },
+      { "gloss": "to protest", "members": [{ "kellyId": 2539, "meaningKey": 0 }] }
+    ],
+    "inputHash": "3b2df41a"
+  },
+  {
+    "english": "purchase",
+    "senses": [
+      { "gloss": "a buy (everyday)", "members": [{ "kellyId": 2013, "meaningKey": 0 }, { "kellyId": 3868, "meaningKey": 0 }] },
+      { "gloss": "a business acquisition", "members": [{ "kellyId": 7826, "meaningKey": 0 }] }
+    ],
+    "inputHash": "3ded7ce5"
+  },
+  {
+    "english": "rape",
+    "senses": [
+      { "gloss": "the act (noun)", "members": [{ "kellyId": 2624, "meaningKey": 0 }] },
+      { "gloss": "to rape", "members": [{ "kellyId": 4832, "meaningKey": 0 }] }
+    ],
+    "inputHash": "6f1b07f9"
+  },
+  {
+    "english": "rate, tariff, fare",
+    "senses": [
+      { "gloss": "a fixed price schedule", "members": [{ "kellyId": 7207, "meaningKey": 0 }] },
+      { "gloss": "exchange rate, quote", "members": [{ "kellyId": 1407, "meaningKey": 1 }] }
+    ],
+    "inputHash": "bd4a7eb4"
+  },
+  {
+    "english": "register",
+    "senses": [
+      { "gloss": "to sign up, record", "members": [{ "kellyId": 2313, "meaningKey": 0 }] },
+      { "gloss": "an index, directory", "members": [{ "kellyId": 3200, "meaningKey": 0 }] }
+    ],
+    "inputHash": "fd5893fb"
+  },
+  {
+    "english": "reputation",
+    "senses": [
+      { "gloss": "", "members": [{ "kellyId": 5942, "meaningKey": 0 }, { "kellyId": 2118, "meaningKey": 1 }] }
+    ],
+    "inputHash": "84bb9524"
+  },
+  {
+    "english": "roll",
+    "senses": [
+      { "gloss": "to roll", "members": [{ "kellyId": 2204, "meaningKey": 0 }] },
+      { "gloss": "a reel, roll (noun)", "members": [{ "kellyId": 7058, "meaningKey": 0 }] }
+    ],
+    "inputHash": "0e1b74a8"
+  },
+  {
+    "english": "round",
+    "senses": [
+      { "gloss": "a lap, tour", "members": [{ "kellyId": 4731, "meaningKey": 0 }] },
+      { "gloss": "a round, batch", "members": [{ "kellyId": 2538, "meaningKey": 0 }] },
+      { "gloss": "circular (adjective)", "members": [{ "kellyId": 3630, "meaningKey": 0 }] }
+    ],
+    "inputHash": "d7046df0"
+  },
+  {
+    "english": "scale",
+    "senses": [
+      { "gloss": "a range or ratio", "members": [{ "kellyId": 2700, "meaningKey": 0 }] },
+      { "gloss": "weighing device", "members": [{ "kellyId": 2487, "meaningKey": 1 }] }
+    ],
+    "inputHash": "bd85adee"
+  },
+  {
+    "english": "session",
+    "senses": [
+      { "gloss": "a formal sitting", "members": [{ "kellyId": 5946, "meaningKey": 0 }] },
+      { "gloss": "a workout or work slot", "members": [{ "kellyId": 2391, "meaningKey": 1 }] }
+    ],
+    "inputHash": "1ac154fb"
+  }
+]

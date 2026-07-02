@@ -1,0 +1,1018 @@
+[
+  {
+    "kellyId": 3048,
+    "decision": "fix",
+    "reason": "finale is a genuinely distinct sense from the sports final",
+    "translation": "final",
+    "senses": [
+      "finale (musical or theatrical)"
+    ],
+    "inputHash": "47001e45"
+  },
+  {
+    "kellyId": 3115,
+    "decision": "fix",
+    "reason": "computing-flag sense is distinct from the physical/national flag",
+    "translation": "flag",
+    "senses": [
+      "flag (boolean variable in computing)"
+    ],
+    "inputHash": "10de5917"
+  },
+  {
+    "kellyId": 3480,
+    "decision": "fix",
+    "reason": "fleet senses distinct from the military navy",
+    "translation": "navy",
+    "senses": [
+      "fleet (of ships more generally)",
+      "fleet (of buses, taxis, or the like)"
+    ],
+    "inputHash": "335b91d5"
+  },
+  {
+    "kellyId": 3805,
+    "decision": "fix",
+    "reason": "stripped the leading restatement; flight (flying) is the distinct sense",
+    "translation": "escape, flight",
+    "senses": [
+      "flight (act of flying)"
+    ],
+    "inputHash": "8d33160c"
+  },
+  {
+    "kellyId": 4004,
+    "decision": "fix",
+    "reason": "comply/conform is a distinct sense from join/attach",
+    "translation": "join, attach, append",
+    "senses": [
+      "comply, conform"
+    ],
+    "inputHash": "41c3f483"
+  },
+  {
+    "kellyId": 2841,
+    "decision": "fix",
+    "reason": "turn of phrase restates wording; no distinct sense",
+    "translation": "wording, formulation",
+    "senses": [],
+    "inputHash": "1ad290b4"
+  },
+  {
+    "kellyId": 3644,
+    "decision": "fix",
+    "reason": "'out (not put away)' and 'at a destination' are distinct from at the front",
+    "translation": "at the front",
+    "senses": [
+      "out, on display (not put away)",
+      "at a destination, there (after a journey)"
+    ],
+    "inputHash": "aac20c5e"
+  },
+  {
+    "kellyId": 3637,
+    "decision": "fix",
+    "reason": "presentation and petition are distinct from production",
+    "translation": "production, manufacture",
+    "senses": [
+      "presentation, exposition",
+      "petition, formal request"
+    ],
+    "inputHash": "7cce98cf"
+  },
+  {
+    "kellyId": 3339,
+    "decision": "fix",
+    "reason": "acquit is a distinct legal sense; playing-on referee sense too rare/technical",
+    "translation": "propose",
+    "senses": [
+      "acquit, find not guilty"
+    ],
+    "inputHash": "c5401686"
+  },
+  {
+    "kellyId": 4066,
+    "decision": "fix",
+    "reason": "stripped restatement of liberate/free; release (energy/resources) is distinct",
+    "translation": "liberate, free",
+    "senses": [
+      "release (energy, resources)"
+    ],
+    "inputHash": "c9990696"
+  },
+  {
+    "kellyId": 3661,
+    "decision": "fix",
+    "reason": "free-standing/detached is a distinct physical sense from independent",
+    "translation": "independent, single",
+    "senses": [
+      "free-standing, detached (e.g. house, building)"
+    ],
+    "inputHash": "dc1428cc"
+  },
+  {
+    "kellyId": 3079,
+    "decision": "fix",
+    "reason": "military line, weather front and effort-aspect are distinct from the plain front",
+    "translation": "front",
+    "senses": [
+      "front (military battle line)",
+      "front (weather system)",
+      "front (aspect of a larger effort)"
+    ],
+    "inputHash": "98bcb975"
+  },
+  {
+    "kellyId": 3858,
+    "decision": "fix",
+    "reason": "both co-equal meanings already in main; motionless and halt/stop are distinct",
+    "translation": "be cold; freeze",
+    "senses": [
+      "freeze (become or make motionless)",
+      "freeze (halt, stop something)"
+    ],
+    "inputHash": "80df57db"
+  },
+  {
+    "kellyId": 3896,
+    "decision": "fix",
+    "reason": "stripped restatement; bargain is the distinct sense",
+    "translation": "find, discovery",
+    "senses": [
+      "bargain (a good buy)"
+    ],
+    "inputHash": "88807e19"
+  },
+  {
+    "kellyId": 3883,
+    "decision": "fix",
+    "reason": "physique is a distinct sense from the science of physics",
+    "translation": "physics",
+    "senses": [
+      "physique (of the body)"
+    ],
+    "inputHash": "03f63194"
+  },
+  {
+    "kellyId": 3641,
+    "decision": "fix",
+    "reason": "stripped restatement; attaching importance and fixing one's gaze are distinct",
+    "translation": "fasten, attach, fix",
+    "senses": [
+      "attach, pay (importance/attention to something)",
+      "fix, set (one's gaze on something)"
+    ],
+    "inputHash": "913a5d96"
+  },
+  {
+    "kellyId": 3161,
+    "decision": "fix",
+    "reason": "stripped restatement; intensifier use is distinct",
+    "translation": "pissed off",
+    "senses": [
+      "damned, fucking (intensifier)"
+    ],
+    "inputHash": "31f37521"
+  },
+  {
+    "kellyId": 3080,
+    "decision": "fix",
+    "reason": "stripped restatement; despise/find objectionable is distinct",
+    "translation": "condemn, denounce",
+    "senses": [
+      "find objectionable, despise"
+    ],
+    "inputHash": "2340c735"
+  },
+  {
+    "kellyId": 3021,
+    "decision": "fix",
+    "reason": "stripped restatement; model/inspiration for imitation is distinct",
+    "translation": "role model",
+    "senses": [
+      "model, template (something imitated or modelled after)"
+    ],
+    "inputHash": "381e6dca"
+  },
+  {
+    "kellyId": 3851,
+    "decision": "fix",
+    "reason": "setting a good/bad example is a distinct idiomatic sense",
+    "translation": "precede",
+    "senses": [
+      "set a good/bad example"
+    ],
+    "inputHash": "8fd732d9"
+  },
+  {
+    "kellyId": 3951,
+    "decision": "fix",
+    "reason": "constitution is a distinct sense from a legal code generally",
+    "translation": "legal code, law",
+    "senses": [
+      "constitution (of a state)"
+    ],
+    "inputHash": "4974b55a"
+  },
+  {
+    "kellyId": 4096,
+    "decision": "fix",
+    "reason": "stripped restatement; persecute and haunt are distinct",
+    "translation": "pursue, stalk",
+    "senses": [
+      "persecute",
+      "haunt (of memories, thoughts)"
+    ],
+    "inputHash": "bedd4e67"
+  },
+  {
+    "kellyId": 3414,
+    "decision": "fix",
+    "reason": "persecution is a distinct sense from stalking",
+    "translation": "stalking",
+    "senses": [
+      "persecution"
+    ],
+    "inputHash": "530c5ce5"
+  },
+  {
+    "kellyId": 3104,
+    "decision": "fix",
+    "reason": "abandon/leave is a distinct archaic sense from forgive",
+    "translation": "forgive",
+    "senses": [
+      "abandon, leave (archaic)"
+    ],
+    "inputHash": "5c103648"
+  },
+  {
+    "kellyId": 3143,
+    "decision": "fix",
+    "reason": "overtime is a distinct sports sense from extension",
+    "translation": "extension",
+    "senses": [
+      "overtime (in sports)"
+    ],
+    "inputHash": "7b423fde"
+  },
+  {
+    "kellyId": 4139,
+    "decision": "fix",
+    "reason": "both co-equal meanings in main; linguistic emphasis is distinct",
+    "translation": "reinforcement, amplification",
+    "senses": [
+      "emphasis (linguistic)"
+    ],
+    "inputHash": "0fc49bed"
+  },
+  {
+    "kellyId": 2861,
+    "decision": "fix",
+    "reason": "ensure and assure are distinct from insure",
+    "translation": "insure",
+    "senses": [
+      "ensure, make certain",
+      "assure, give confidence to"
+    ],
+    "inputHash": "299bf8f6"
+  },
+  {
+    "kellyId": 3170,
+    "decision": "fix",
+    "reason": "stripped restatement; supply (electricity/resources) is distinct",
+    "translation": "support, provide for",
+    "senses": [
+      "supply (electricity, resources)"
+    ],
+    "inputHash": "292dc0a8"
+  },
+  {
+    "kellyId": 3635,
+    "decision": "fix",
+    "reason": "stripped restatement; review/inspection and passage are distinct",
+    "translation": "walkthrough, briefing",
+    "senses": [
+      "review, inspection",
+      "passage, way through"
+    ],
+    "inputHash": "e99db99a"
+  },
+  {
+    "kellyId": 3520,
+    "decision": "fix",
+    "reason": "stripped restatement; gliding through air/water and drifting figuratively are distinct",
+    "translation": "slide, glide",
+    "senses": [
+      "glide (through air or water)",
+      "drift (figuratively)"
+    ],
+    "inputHash": "08fee59a"
+  },
+  {
+    "kellyId": 3238,
+    "decision": "fix",
+    "reason": "stripped restatement; the reflexive rejoice sense is distinct",
+    "translation": "make happy, gladden",
+    "senses": [
+      "be glad, rejoice (about something)"
+    ],
+    "inputHash": "24abbd94"
+  },
+  {
+    "kellyId": 4146,
+    "decision": "fix",
+    "reason": "stripped restatement; squeak/creak is a distinct sense",
+    "translation": "whine, complain, nag",
+    "senses": [
+      "squeak, creak (of a sound)"
+    ],
+    "inputHash": "27b86fa6"
+  },
+  {
+    "kellyId": 3389,
+    "decision": "fix",
+    "reason": "guy restates lad/boy; no distinct sense",
+    "translation": "lad, boy",
+    "senses": [],
+    "inputHash": "ea7df0f1"
+  },
+  {
+    "kellyId": 3820,
+    "decision": "fix",
+    "reason": "stripped restatement; slob and cop slang are distinct",
+    "translation": "pig",
+    "senses": [
+      "pig, slob (dirty or nasty person)",
+      "pig, cop (police slang)"
+    ],
+    "inputHash": "5237ac7a"
+  },
+  {
+    "kellyId": 2877,
+    "decision": "fix",
+    "reason": "boring/dull is a distinct figurative sense from the colour grey",
+    "translation": "grey",
+    "senses": [
+      "boring, dull, drab"
+    ],
+    "inputHash": "fe43d017"
+  },
+  {
+    "kellyId": 3880,
+    "decision": "fix",
+    "reason": "stripped restatement; marijuana slang is distinct",
+    "translation": "grass",
+    "senses": [
+      "weed, grass (marijuana, slang)"
+    ],
+    "inputHash": "b159143d"
+  },
+  {
+    "kellyId": 2933,
+    "decision": "fix",
+    "reason": "stripped restatement; wonderful (informal) is distinct",
+    "translation": "godly, divine",
+    "senses": [
+      "divine, wonderful (informal)"
+    ],
+    "inputHash": "edfeb9f8"
+  },
+  {
+    "kellyId": 3855,
+    "decision": "fix",
+    "reason": "software wizard is a distinct sense from a person/book guide",
+    "translation": "guide",
+    "senses": [
+      "wizard (software setup assistant)"
+    ],
+    "inputHash": "65ced773"
+  },
+  {
+    "kellyId": 4185,
+    "decision": "fix",
+    "reason": "stripped restatement; prosperous and opportune figurative senses are distinct",
+    "translation": "golden, gold",
+    "senses": [
+      "golden (prosperous, glorious)",
+      "golden (opportune, ideal)"
+    ],
+    "inputHash": "8ef74568"
+  },
+  {
+    "kellyId": 3992,
+    "decision": "fix",
+    "reason": "beneficial restates favorable/advantageous; no distinct sense",
+    "translation": "favorable, advantageous",
+    "senses": [],
+    "inputHash": "d2ec4239"
+  },
+  {
+    "kellyId": 4124,
+    "decision": "fix",
+    "reason": "stripped restatement; large public hall is distinct from entrance hall",
+    "translation": "hallway, entrance hall",
+    "senses": [
+      "large hall (sports hall, concert hall, etc.)"
+    ],
+    "inputHash": "47e2abd4"
+  },
+  {
+    "kellyId": 4205,
+    "decision": "fix",
+    "reason": "trade/business and merchant are distinct from action",
+    "translation": "action",
+    "senses": [
+      "trade, business (dealing)",
+      "merchant, trader (archaic)"
+    ],
+    "inputHash": "75d4d333"
+  },
+  {
+    "kellyId": 3929,
+    "decision": "fix",
+    "reason": "stripped restatement; wonderful/divine figurative sense is distinct",
+    "translation": "heavenly",
+    "senses": [
+      "heavenly, wonderful (figuratively)"
+    ],
+    "inputHash": "aa373aad"
+  },
+  {
+    "kellyId": 3003,
+    "decision": "fix",
+    "reason": "protagonist/main character is a distinct sense from a brave hero",
+    "translation": "hero",
+    "senses": [
+      "hero, protagonist (main male character in fiction)"
+    ],
+    "inputHash": "eed6bf29"
+  },
+  {
+    "kellyId": 3816,
+    "decision": "fix",
+    "reason": "stripped restatement; biting/clawing and grabbing are distinct",
+    "translation": "chop, hew",
+    "senses": [
+      "bite, sting (attack with teeth or claws)",
+      "grab, seize (forcefully)"
+    ],
+    "inputHash": "03235fdd"
+  },
+  {
+    "kellyId": 2999,
+    "decision": "fix",
+    "reason": "stripped restatement; plain hundreds and century are distinct",
+    "translation": "around a hundred",
+    "senses": [
+      "hundreds",
+      "century (the 1900s, etc.)"
+    ],
+    "inputHash": "2e0c74f3"
+  },
+  {
+    "kellyId": 4154,
+    "decision": "fix",
+    "reason": "stripped restatement; breasts slang is distinct",
+    "translation": "shelf, rack",
+    "senses": [
+      "rack (slang, women's breasts)"
+    ],
+    "inputHash": "d11aae46"
+  },
+  {
+    "kellyId": 3735,
+    "decision": "fix",
+    "reason": "harbor/entertain feelings is a distinct figurative sense from house",
+    "translation": "house",
+    "senses": [
+      "harbor, entertain (feelings, doubts)"
+    ],
+    "inputHash": "83ef0b26"
+  },
+  {
+    "kellyId": 3623,
+    "decision": "fix",
+    "reason": "stripped restatement; hot-tempered and cool/awesome are distinct",
+    "translation": "intense, fierce",
+    "senses": [
+      "hot-tempered, volatile (of a person)",
+      "cool, awesome (colloquial)"
+    ],
+    "inputHash": "480d665e"
+  },
+  {
+    "kellyId": 3094,
+    "decision": "fix",
+    "reason": "both items merely restate/define greeting; no distinct sense",
+    "translation": "greeting",
+    "senses": [],
+    "inputHash": "d28a1d88"
+  },
+  {
+    "kellyId": 3654,
+    "decision": "fix",
+    "reason": "stripped restatement; annul/terminate a contract or embargo is distinct",
+    "translation": "heave, lift",
+    "senses": [
+      "lift, annul, terminate (a contract, embargo, etc.)"
+    ],
+    "inputHash": "054956c1"
+  },
+  {
+    "kellyId": 3051,
+    "decision": "fix",
+    "reason": "political right and sports right-winger are distinct from the plain right side",
+    "translation": "right side",
+    "senses": [
+      "the political right",
+      "right winger (in sports)"
+    ],
+    "inputHash": "18b43e54"
+  },
+  {
+    "kellyId": 3460,
+    "decision": "fix",
+    "reason": "nonmonetary is a distinct sense from nonprofit",
+    "translation": "nonprofit, not-for-profit",
+    "senses": [
+      "nonmonetary, intangible (of value, damages)"
+    ],
+    "inputHash": "4169e55d"
+  },
+  {
+    "kellyId": 3095,
+    "decision": "fix",
+    "reason": "school PE is a distinct sense from sport/athletics generally",
+    "translation": "sport, athletics",
+    "senses": [
+      "physical education, PE (school subject)"
+    ],
+    "inputHash": "da8209f8"
+  },
+  {
+    "kellyId": 3534,
+    "decision": "fix",
+    "reason": "demonstrate with examples is a distinct sense from illustrate with pictures",
+    "translation": "illustrate",
+    "senses": [
+      "illustrate, demonstrate (with examples)"
+    ],
+    "inputHash": "03960007"
+  },
+  {
+    "kellyId": 3645,
+    "decision": "fix",
+    "reason": "figurative business/power empire is distinct from a state empire",
+    "translation": "empire",
+    "senses": [
+      "empire (business empire or sphere of power)"
+    ],
+    "inputHash": "25745be5"
+  },
+  {
+    "kellyId": 3947,
+    "decision": "fix",
+    "reason": "beginning/start is a distinct sense from a physical entrance",
+    "translation": "entrance, way in",
+    "senses": [
+      "beginning, start, commencement"
+    ],
+    "inputHash": "aa8c8c7e"
+  },
+  {
+    "kellyId": 3432,
+    "decision": "fix",
+    "reason": "admitted to hospital is a distinct sense from pickled",
+    "translation": "pickled",
+    "senses": [
+      "admitted (to hospital)"
+    ],
+    "inputHash": "64225495"
+  },
+  {
+    "kellyId": 3464,
+    "decision": "fix",
+    "reason": "the resulting record/film restates the act of recording; no distinct sense",
+    "translation": "recording, filming",
+    "senses": [],
+    "inputHash": "a41779e9"
+  },
+  {
+    "kellyId": 2987,
+    "decision": "fix",
+    "reason": "formally inducting and settling into a place are distinct from software install",
+    "translation": "install",
+    "senses": [
+      "induct (formally into a position)",
+      "settle (into a place)"
+    ],
+    "inputHash": "347fb2a9"
+  },
+  {
+    "kellyId": 2844,
+    "decision": "fix",
+    "reason": "joining in singing is a distinct sense from agree",
+    "translation": "agree",
+    "senses": [
+      "join in singing"
+    ],
+    "inputHash": "5440cc25"
+  },
+  {
+    "kellyId": 3352,
+    "decision": "fix",
+    "reason": "mathematical integration is a distinct sense from social integration",
+    "translation": "integrate",
+    "senses": [
+      "integrate (mathematics)"
+    ],
+    "inputHash": "c1e43ebc"
+  },
+  {
+    "kellyId": 3441,
+    "decision": "fix",
+    "reason": "legal scholar restates/narrows lawyer; no distinct everyday sense",
+    "translation": "lawyer",
+    "senses": [],
+    "inputHash": "4ac7bf6d"
+  },
+  {
+    "kellyId": 3504,
+    "decision": "fix",
+    "reason": "military ranger is a distinct sense from a hunter",
+    "translation": "hunter",
+    "senses": [
+      "ranger, commando (special forces)"
+    ],
+    "inputHash": "5c26e2ff"
+  },
+  {
+    "kellyId": 3996,
+    "decision": "fix",
+    "reason": "spatial beside/next to is a distinct sense from besides/in addition to",
+    "translation": "besides, in addition to",
+    "senses": [
+      "beside, next to (spatially)"
+    ],
+    "inputHash": "d591a674"
+  },
+  {
+    "kellyId": 3849,
+    "decision": "fix",
+    "reason": "jotun of Norse mythology is a distinct sense from a giant",
+    "translation": "giant",
+    "senses": [
+      "jotun (Norse mythology)"
+    ],
+    "inputHash": "f5fc43ca"
+  },
+  {
+    "kellyId": 3227,
+    "decision": "fix",
+    "reason": "stripped restatement; side/area figurative sense is distinct",
+    "translation": "edge",
+    "senses": [
+      "side, part, neck of the woods (area)"
+    ],
+    "inputHash": "865d583c"
+  },
+  {
+    "kellyId": 3680,
+    "decision": "fix",
+    "reason": "husband and laborer/hand are distinct from man",
+    "translation": "man",
+    "senses": [
+      "husband, old man (colloquial)",
+      "laborer, hand (for heavy work)"
+    ],
+    "inputHash": "b9234908"
+  },
+  {
+    "kellyId": 3903,
+    "decision": "fix",
+    "reason": "series of things and store chain are distinct from a physical chain",
+    "translation": "chain",
+    "senses": [
+      "chain, series (of interconnected things)",
+      "chain (of stores or businesses)"
+    ],
+    "inputHash": "bb415143"
+  },
+  {
+    "kellyId": 3827,
+    "decision": "fix",
+    "reason": "pat, stroke and door knocker are distinct from a Christmas present",
+    "translation": "Christmas present",
+    "senses": [
+      "pat, stroke (when petting an animal)",
+      "door knocker"
+    ],
+    "inputHash": "8ee8728f"
+  },
+  {
+    "kellyId": 3430,
+    "decision": "fix",
+    "reason": "both co-equal meanings in main; segment/wedge of fruit is distinct",
+    "translation": "clove; cleft, gorge",
+    "senses": [
+      "segment, wedge (of fruit)"
+    ],
+    "inputHash": "242c9f5b"
+  },
+  {
+    "kellyId": 3184,
+    "decision": "fix",
+    "reason": "stripped restatement; decorating a tree/maypole is distinct",
+    "translation": "dress, clothe",
+    "senses": [
+      "decorate (a Christmas tree, maypole)"
+    ],
+    "inputHash": "54350e65"
+  },
+  {
+    "kellyId": 3753,
+    "decision": "fix",
+    "reason": "stripped restatement; rise/advance figurative sense is distinct",
+    "translation": "climb",
+    "senses": [
+      "climb, rise (advance, move up)"
+    ],
+    "inputHash": "c2a17115"
+  },
+  {
+    "kellyId": 3702,
+    "decision": "fix",
+    "reason": "both items merely restate button (clothing vs press); no distinct sense",
+    "translation": "button",
+    "senses": [],
+    "inputHash": "b2ff48c2"
+  },
+  {
+    "kellyId": 4049,
+    "decision": "fix",
+    "reason": "stripped restatement; 'just under, barely' quantifier is distinct",
+    "translation": "scarce, tight",
+    "senses": [
+      "just under, barely (somewhat less than)"
+    ],
+    "inputHash": "705fad5c"
+  },
+  {
+    "kellyId": 3915,
+    "decision": "fix",
+    "reason": "female of other large animals is a distinct sense from cow",
+    "translation": "cow",
+    "senses": [
+      "female (of moose, reindeer, and other large animals)"
+    ],
+    "inputHash": "0fca3568"
+  },
+  {
+    "kellyId": 3377,
+    "decision": "fix",
+    "reason": "stripped restatement; cipher and source code are distinct",
+    "translation": "code",
+    "senses": [
+      "code (cipher, cryptographic)",
+      "source code (computing)"
+    ],
+    "inputHash": "65017f2a"
+  },
+  {
+    "kellyId": 3610,
+    "decision": "fix",
+    "reason": "cook in boiling water is a distinct sense from liquid boiling",
+    "translation": "boil",
+    "senses": [
+      "boil, cook (food in boiling water)"
+    ],
+    "inputHash": "548761ca"
+  },
+  {
+    "kellyId": 3670,
+    "decision": "fix",
+    "reason": "mathematical component is a distinct sense from a physical part",
+    "translation": "component",
+    "senses": [
+      "component (mathematical, e.g. of a vector)"
+    ],
+    "inputHash": "a4b41075"
+  },
+  {
+    "kellyId": 3019,
+    "decision": "fix",
+    "reason": "draft/sketch is a distinct sense from concept/idea",
+    "translation": "concept, idea",
+    "senses": [
+      "draft, rough copy"
+    ],
+    "inputHash": "b2fa89c4"
+  },
+  {
+    "kellyId": 3295,
+    "decision": "fix",
+    "reason": "stripped restatement; outlook/prospects is a distinct shade",
+    "translation": "economic climate",
+    "senses": [
+      "economic outlook, prospects"
+    ],
+    "inputHash": "2cf40c15"
+  },
+  {
+    "kellyId": 2943,
+    "decision": "fix",
+    "reason": "engineering process and grammatical construction are distinct from a built thing",
+    "translation": "construction",
+    "senses": [
+      "design, engineering (the process)",
+      "construction (grammatical)"
+    ],
+    "inputHash": "ea3e32bc"
+  },
+  {
+    "kellyId": 2816,
+    "decision": "fix",
+    "reason": "both co-equal meanings in main; group of people and integrated circuit are distinct",
+    "translation": "circle; circuit",
+    "senses": [
+      "circle, group (of people)",
+      "integrated circuit (electronics)"
+    ],
+    "inputHash": "2ae7d19e"
+  },
+  {
+    "kellyId": 2879,
+    "decision": "fix",
+    "reason": "stripped restatement; overwhelm/defeat figurative sense is distinct",
+    "translation": "crush",
+    "senses": [
+      "crush, overwhelm (opposition, resistance)"
+    ],
+    "inputHash": "8e541801"
+  },
+  {
+    "kellyId": 3467,
+    "decision": "fix",
+    "reason": "stripped restatement; tingle, plant-creep and slow drift are distinct",
+    "translation": "crawl, creep",
+    "senses": [
+      "tingle, crawl (uncomfortable sensation on the skin)",
+      "creep, trail (of plants)",
+      "creep, inch (move slowly)"
+    ],
+    "inputHash": "a7a777e2"
+  },
+  {
+    "kellyId": 2868,
+    "decision": "fix",
+    "reason": "stripped restatement; violate/infringe a right or airspace is distinct",
+    "translation": "offend, insult",
+    "senses": [
+      "violate, infringe (a right or airspace)"
+    ],
+    "inputHash": "58f1ffd4"
+  },
+  {
+    "kellyId": 3468,
+    "decision": "fix",
+    "reason": "stripped restatement; personal insult/affront is distinct",
+    "translation": "violation",
+    "senses": [
+      "insult, affront (personal)"
+    ],
+    "inputHash": "aed97c4d"
+  },
+  {
+    "kellyId": 2817,
+    "decision": "fix",
+    "reason": "stripped restatement; great/magnificent informal sense is distinct",
+    "translation": "royal, regal",
+    "senses": [
+      "great, magnificent (informal)"
+    ],
+    "inputHash": "4ba0cc01"
+  },
+  {
+    "kellyId": 3174,
+    "decision": "fix",
+    "reason": "'utter, downright' intensifier is a distinct sense from qualified",
+    "translation": "qualified",
+    "senses": [
+      "utter, downright (as an intensifier)"
+    ],
+    "inputHash": "51bdfc3b"
+  },
+  {
+    "kellyId": 3135,
+    "decision": "fix",
+    "reason": "persist/continue merely restate remain; no distinct sense",
+    "translation": "remain",
+    "senses": [],
+    "inputHash": "f871185f"
+  },
+  {
+    "kellyId": 3457,
+    "decision": "fix",
+    "reason": "stripped restatement; neighborhood and lodgings are distinct",
+    "translation": "city block",
+    "senses": [
+      "neighborhood, district",
+      "quarters, lodgings"
+    ],
+    "inputHash": "e64e888f"
+  },
+  {
+    "kellyId": 3442,
+    "decision": "fix",
+    "reason": "fitting with bearings and ageing cheese are distinct from store",
+    "translation": "store",
+    "senses": [
+      "fit with bearings (mechanical)",
+      "age, mature (cheese, wine)"
+    ],
+    "inputHash": "eee2945f"
+  },
+  {
+    "kellyId": 3571,
+    "decision": "fix",
+    "reason": "patch and Sami person are distinct from a note/slip of paper",
+    "translation": "note, slip of paper",
+    "senses": [
+      "patch (over a hole)",
+      "Sami person, Lapp (dated, sometimes derogatory)"
+    ],
+    "inputHash": "6cf7fac3"
+  },
+  {
+    "kellyId": 3165,
+    "decision": "fix",
+    "reason": "stripped restatement; figurative burden and vice are distinct",
+    "translation": "cargo, load",
+    "senses": [
+      "burden (figurative)",
+      "vice, bad habit"
+    ],
+    "inputHash": "dce5ffdc"
+  },
+  {
+    "kellyId": 2856,
+    "decision": "fix",
+    "reason": "sorry (regretful/apologetic) is a distinct sense from sad",
+    "translation": "sad",
+    "senses": [
+      "sorry (regretful, apologetic)"
+    ],
+    "inputHash": "1b0c65b9"
+  },
+  {
+    "kellyId": 3987,
+    "decision": "fix",
+    "reason": "both co-equal meanings in main; sports league is distinct from a criminal gang",
+    "translation": "gang; league",
+    "senses": [
+      "league (sports or organization)"
+    ],
+    "inputHash": "343fd465"
+  },
+  {
+    "kellyId": 3326,
+    "decision": "fix",
+    "reason": "stripped restatement; curl/lock of hair is distinct",
+    "translation": "lid, cover",
+    "senses": [
+      "lock, curl (of hair)"
+    ],
+    "inputHash": "45891435"
+  },
+  {
+    "kellyId": 3940,
+    "decision": "fix",
+    "reason": "service window/box office is a distinct sense from gap/hatch",
+    "translation": "gap, hatch",
+    "senses": [
+      "service window, box office"
+    ],
+    "inputHash": "0e795246"
+  },
+  {
+    "kellyId": 3476,
+    "decision": "fix",
+    "reason": "using one's nose (sniff) and emitting a smell are distinct from perceiving a smell",
+    "translation": "smell",
+    "senses": [
+      "sniff, use one's nose (to smell something)",
+      "smell, give off an odour"
+    ],
+    "inputHash": "a9e88ffd"
+  },
+  {
+    "kellyId": 3707,
+    "decision": "fix",
+    "reason": "stripped restatement; strange/peculiar is a distinct sense",
+    "translation": "comically amusing",
+    "senses": [
+      "strange, peculiar"
+    ],
+    "inputHash": "e4450881"
+  }
+]

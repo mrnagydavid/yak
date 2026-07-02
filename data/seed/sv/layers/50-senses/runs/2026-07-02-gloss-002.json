@@ -1,0 +1,464 @@
+[
+  {
+    "english": "shame",
+    "senses": [
+      { "gloss": "disgrace, dishonour", "members": [{ "kellyId": 3599, "meaningKey": 0 }] },
+      { "gloss": "it's a pity", "members": [{ "kellyId": 1890, "meaningKey": 1 }] }
+    ],
+    "inputHash": "49b54ec1"
+  },
+  {
+    "english": "signal",
+    "senses": [
+      { "gloss": "a signal", "members": [{ "kellyId": 2287, "meaningKey": 0 }] },
+      { "gloss": "to signal", "members": [{ "kellyId": 6161, "meaningKey": 0 }] }
+    ],
+    "inputHash": "7529a0a9"
+  },
+  {
+    "english": "sink",
+    "senses": [
+      { "gloss": "go under, drop", "members": [{ "kellyId": 1771, "meaningKey": 0 }] },
+      { "gloss": "washbasin", "members": [{ "kellyId": 8040, "meaningKey": 0 }] }
+    ],
+    "inputHash": "dfec9181"
+  },
+  {
+    "english": "snow",
+    "senses": [
+      { "gloss": "the white stuff", "members": [{ "kellyId": 1919, "meaningKey": 0 }] },
+      { "gloss": "to snow", "members": [{ "kellyId": 5911, "meaningKey": 0 }] }
+    ],
+    "inputHash": "34a02287"
+  },
+  {
+    "english": "socialist",
+    "senses": [
+      { "gloss": "describing something", "members": [{ "kellyId": 1989, "meaningKey": 0 }] },
+      { "gloss": "a person", "members": [{ "kellyId": 2852, "meaningKey": 0 }] }
+    ],
+    "inputHash": "1ad34d68"
+  },
+  {
+    "english": "sting, burn",
+    "senses": [
+      { "gloss": "burn, smart (of pain)", "members": [{ "kellyId": 6892, "meaningKey": 0 }] },
+      { "gloss": "prick, pierce", "members": [{ "kellyId": 2015, "meaningKey": 1 }] },
+      { "gloss": "an insect sting", "members": [{ "kellyId": 7119, "meaningKey": 0 }] }
+    ],
+    "inputHash": "404b3e41"
+  },
+  {
+    "english": "taste",
+    "senses": [
+      { "gloss": "flavour", "members": [{ "kellyId": 2425, "meaningKey": 0 }] },
+      { "gloss": "to taste, sample", "members": [{ "kellyId": 2786, "meaningKey": 0 }] },
+      { "gloss": "liking, preference", "members": [{ "kellyId": 3742, "meaningKey": 0 }] }
+    ],
+    "inputHash": "64ecfea1"
+  },
+  {
+    "english": "transport, transportation",
+    "senses": [
+      { "gloss": "the act (noun)", "members": [{ "kellyId": 2250, "meaningKey": 0 }] },
+      { "gloss": "to move, carry", "members": [{ "kellyId": 3836, "meaningKey": 0 }, { "kellyId": 6462, "meaningKey": 0 }] }
+    ],
+    "inputHash": "b2ff707a"
+  },
+  {
+    "english": "welcome",
+    "senses": [
+      { "gloss": "to greet, receive", "members": [{ "kellyId": 2106, "meaningKey": 0 }] },
+      { "gloss": "gladly received", "members": [{ "kellyId": 2277, "meaningKey": 0 }] }
+    ],
+    "inputHash": "c3b71380"
+  },
+  {
+    "english": "west",
+    "senses": [
+      { "gloss": "the direction, region", "members": [{ "kellyId": 2028, "meaningKey": 0 }, { "kellyId": 7531, "meaningKey": 0 }] },
+      { "gloss": "western (adj)", "members": [{ "kellyId": 5761, "meaningKey": 0 }] }
+    ],
+    "inputHash": "2a6a64d5"
+  },
+  {
+    "english": "witness",
+    "senses": [
+      { "gloss": "a person", "members": [{ "kellyId": 2619, "meaningKey": 0 }] },
+      { "gloss": "to see it happen", "members": [{ "kellyId": 4744, "meaningKey": 0 }] }
+    ],
+    "inputHash": "1852e3ca"
+  },
+  {
+    "english": "cake, torte",
+    "senses": [
+      { "gloss": "fancy layered cake", "members": [{ "kellyId": 6263, "meaningKey": 0 }] },
+      { "gloss": "plain cake, cookie", "members": [{ "kellyId": 4208, "meaningKey": 1 }] }
+    ],
+    "inputHash": "2bf06a89"
+  },
+  {
+    "english": "depart",
+    "senses": [
+      { "gloss": "set off on a journey", "members": [{ "kellyId": 8314, "meaningKey": 0 }] },
+      { "gloss": "of a train, bus, etc.", "members": [{ "kellyId": 2812, "meaningKey": 1 }] }
+    ],
+    "inputHash": "a94f1f41"
+  },
+  {
+    "english": "estate, inheritance",
+    "senses": [
+      { "gloss": "what someone leaves behind", "members": [{ "kellyId": 8141, "meaningKey": 0 }] },
+      { "gloss": "a manor, landed property", "members": [{ "kellyId": 4199, "meaningKey": 1 }] }
+    ],
+    "inputHash": "5fc1f189"
+  },
+  {
+    "english": "extension",
+    "senses": [
+      { "gloss": "lengthening, prolonging", "members": [{ "kellyId": 3143, "meaningKey": 0 }] },
+      { "gloss": "telephone", "members": [{ "kellyId": 3384, "meaningKey": 1 }] }
+    ],
+    "inputHash": "99f230fc"
+  },
+  {
+    "english": "fraction",
+    "senses": [
+      { "gloss": "a small part", "members": [{ "kellyId": 6503, "meaningKey": 0 }] },
+      { "gloss": "math", "members": [{ "kellyId": 4013, "meaningKey": 1 }] }
+    ],
+    "inputHash": "289433dd"
+  },
+  {
+    "english": "great",
+    "senses": [
+      { "gloss": "", "members": [{ "kellyId": 8424, "meaningKey": 0 }, { "kellyId": 3149, "meaningKey": 1 }] }
+    ],
+    "inputHash": "a8bfdbb5"
+  },
+  {
+    "english": "journal, periodical, magazine",
+    "senses": [
+      { "gloss": "", "members": [{ "kellyId": 8039, "meaningKey": 0 }, { "kellyId": 4179, "meaningKey": 1 }] }
+    ],
+    "inputHash": "73db8bb4"
+  },
+  {
+    "english": "layer, coating, stratum",
+    "senses": [
+      { "gloss": "", "members": [{ "kellyId": 5363, "meaningKey": 0 }, { "kellyId": 2970, "meaningKey": 1 }] }
+    ],
+    "inputHash": "a1878892"
+  },
+  {
+    "english": "miscarriage",
+    "senses": [
+      { "gloss": "", "members": [{ "kellyId": 7786, "meaningKey": 0 }, { "kellyId": 3210, "meaningKey": 1 }] }
+    ],
+    "inputHash": "47bd992b"
+  },
+  {
+    "english": "pack",
+    "senses": [
+      { "gloss": "to fill a bag", "members": [{ "kellyId": 3257, "meaningKey": 0 }] },
+      { "gloss": "a bundle, parcel", "members": [{ "kellyId": 8329, "meaningKey": 0 }] }
+    ],
+    "inputHash": "63849721"
+  },
+  {
+    "english": "pig",
+    "senses": [
+      { "gloss": "", "members": [{ "kellyId": 3820, "meaningKey": 0 }, { "kellyId": 5697, "meaningKey": 0 }] }
+    ],
+    "inputHash": "3ec1aea3"
+  },
+  {
+    "english": "Polish",
+    "senses": [
+      { "gloss": "relating to Poland", "members": [{ "kellyId": 3054, "meaningKey": 0 }] },
+      { "gloss": "make shiny, buff", "members": [{ "kellyId": 7231, "meaningKey": 0 }] }
+    ],
+    "inputHash": "90fc8587"
+  },
+  {
+    "english": "reverse, back up",
+    "senses": [
+      { "gloss": "drive backwards", "members": [{ "kellyId": 3191, "meaningKey": 0 }] },
+      { "gloss": "inverted, opposite (adj)", "members": [{ "kellyId": 4267, "meaningKey": 0 }] },
+      { "gloss": "car gear", "members": [{ "kellyId": 3700, "meaningKey": 1 }] }
+    ],
+    "inputHash": "de574ecb"
+  },
+  {
+    "english": "smell",
+    "senses": [
+      { "gloss": "to smell (verb)", "members": [{ "kellyId": 3476, "meaningKey": 0 }] },
+      { "gloss": "an odour, scent", "members": [{ "kellyId": 5905, "meaningKey": 0 }] }
+    ],
+    "inputHash": "19916fdb"
+  },
+  {
+    "english": "tax return",
+    "senses": [
+      { "gloss": "", "members": [{ "kellyId": 7880, "meaningKey": 0 }, { "kellyId": 3957, "meaningKey": 1 }] }
+    ],
+    "inputHash": "9be7d329"
+  },
+  {
+    "english": "torture",
+    "senses": [
+      { "gloss": "the practice (noun)", "members": [{ "kellyId": 3499, "meaningKey": 0 }] },
+      { "gloss": "to torture", "members": [{ "kellyId": 5976, "meaningKey": 0 }] }
+    ],
+    "inputHash": "68edfa7a"
+  },
+  {
+    "english": "warehouse, stockroom",
+    "senses": [
+      { "gloss": "", "members": [{ "kellyId": 2970, "meaningKey": 0 }, { "kellyId": 5458, "meaningKey": 1 }] }
+    ],
+    "inputHash": "ccf6698c"
+  },
+  {
+    "english": "waste, refuse, garbage",
+    "senses": [
+      { "gloss": "garbage, trash", "members": [{ "kellyId": 3061, "meaningKey": 0 }] },
+      { "gloss": "to squander", "members": [{ "kellyId": 5601, "meaningKey": 0 }] },
+      { "gloss": "wastefulness (noun)", "members": [{ "kellyId": 5828, "meaningKey": 0 }] }
+    ],
+    "inputHash": "56754add"
+  },
+  {
+    "english": "ache",
+    "senses": [
+      { "gloss": "a dull pain (noun)", "members": [{ "kellyId": 5260, "meaningKey": 0 }] },
+      { "gloss": "to ache", "members": [{ "kellyId": 7283, "meaningKey": 0 }] }
+    ],
+    "inputHash": "32b057a7"
+  },
+  {
+    "english": "brake",
+    "senses": [
+      { "gloss": "to slow down", "members": [{ "kellyId": 4589, "meaningKey": 0 }] },
+      { "gloss": "the device", "members": [{ "kellyId": 6709, "meaningKey": 0 }] }
+    ],
+    "inputHash": "616aa8a8"
+  },
+  {
+    "english": "fascist, fascistic",
+    "senses": [
+      { "gloss": "describing something", "members": [{ "kellyId": 5481, "meaningKey": 0 }] },
+      { "gloss": "a person", "members": [{ "kellyId": 5731, "meaningKey": 0 }] }
+    ],
+    "inputHash": "1b41aed1"
+  },
+  {
+    "english": "flood",
+    "senses": [
+      { "gloss": "a flood (noun)", "members": [{ "kellyId": 5409, "meaningKey": 0 }] },
+      { "gloss": "to flood", "members": [{ "kellyId": 7609, "meaningKey": 0 }] }
+    ],
+    "inputHash": "09b6082d"
+  },
+  {
+    "english": "garage",
+    "senses": [
+      { "gloss": "where you park", "members": [{ "kellyId": 6937, "meaningKey": 0 }] },
+      { "gloss": "for repairs", "members": [{ "kellyId": 4820, "meaningKey": 1 }] }
+    ],
+    "inputHash": "9c699bad"
+  },
+  {
+    "english": "glue, paste",
+    "senses": [
+      { "gloss": "to stick together", "members": [{ "kellyId": 5149, "meaningKey": 0 }, { "kellyId": 7834, "meaningKey": 0 }] },
+      { "gloss": "the adhesive (noun)", "members": [{ "kellyId": 7753, "meaningKey": 0 }] }
+    ],
+    "inputHash": "7200c7a0"
+  },
+  {
+    "english": "harvest",
+    "senses": [
+      { "gloss": "to reap, gather in", "members": [{ "kellyId": 5304, "meaningKey": 0 }] },
+      { "gloss": "the crop (noun)", "members": [{ "kellyId": 6052, "meaningKey": 0 }] }
+    ],
+    "inputHash": "ae535888"
+  },
+  {
+    "english": "honour",
+    "senses": [
+      { "gloss": "to honour, pay tribute", "members": [{ "kellyId": 5549, "meaningKey": 0 }] },
+      { "gloss": "dignity (noun)", "members": [{ "kellyId": 7276, "meaningKey": 0 }] }
+    ],
+    "inputHash": "ceaa8eb1"
+  },
+  {
+    "english": "hook",
+    "senses": [
+      { "gloss": "to hook, latch on", "members": [{ "kellyId": 5309, "meaningKey": 0 }] },
+      { "gloss": "the object", "members": [{ "kellyId": 6994, "meaningKey": 0 }] },
+      { "gloss": "a snag, catch", "members": [{ "kellyId": 8234, "meaningKey": 0 }] }
+    ],
+    "inputHash": "3cca7fb0"
+  },
+  {
+    "english": "knock",
+    "senses": [
+      { "gloss": "to knock, tap", "members": [{ "kellyId": 5310, "meaningKey": 0 }] },
+      { "gloss": "a blow, jolt (noun)", "members": [{ "kellyId": 7082, "meaningKey": 0 }] }
+    ],
+    "inputHash": "8374cc3e"
+  },
+  {
+    "english": "pump",
+    "senses": [
+      { "gloss": "to pump", "members": [{ "kellyId": 5351, "meaningKey": 0 }] },
+      { "gloss": "the device", "members": [{ "kellyId": 6564, "meaningKey": 0 }] }
+    ],
+    "inputHash": "d318c879"
+  },
+  {
+    "english": "saw",
+    "senses": [
+      { "gloss": "to cut with a saw", "members": [{ "kellyId": 5305, "meaningKey": 0 }] },
+      { "gloss": "the tool", "members": [{ "kellyId": 7812, "meaningKey": 0 }] }
+    ],
+    "inputHash": "11210df8"
+  },
+  {
+    "english": "shift, vary",
+    "senses": [
+      { "gloss": "to change, vary", "members": [{ "kellyId": 5474, "meaningKey": 0 }] },
+      { "gloss": "a work shift (noun)", "members": [{ "kellyId": 7707, "meaningKey": 0 }] }
+    ],
+    "inputHash": "3a33b0a1"
+  },
+  {
+    "english": "shipment",
+    "senses": [
+      { "gloss": "", "members": [{ "kellyId": 7252, "meaningKey": 0 }, { "kellyId": 4359, "meaningKey": 1 }] }
+    ],
+    "inputHash": "b1d5f23a"
+  },
+  {
+    "english": "shower",
+    "senses": [
+      { "gloss": "the fixture (noun)", "members": [{ "kellyId": 4829, "meaningKey": 0 }] },
+      { "gloss": "to shower", "members": [{ "kellyId": 5811, "meaningKey": 0 }] }
+    ],
+    "inputHash": "d1e0ffc7"
+  },
+  {
+    "english": "sigh",
+    "senses": [
+      { "gloss": "a sigh (noun)", "members": [{ "kellyId": 4841, "meaningKey": 0 }] },
+      { "gloss": "to sigh", "members": [{ "kellyId": 6136, "meaningKey": 0 }] }
+    ],
+    "inputHash": "42e489d8"
+  },
+  {
+    "english": "subordinate",
+    "senses": [
+      { "gloss": "lower-ranking (adj/person)", "members": [{ "kellyId": 5588, "meaningKey": 0 }, { "kellyId": 7920, "meaningKey": 0 }] },
+      { "gloss": "to place below", "members": [{ "kellyId": 6621, "meaningKey": 0 }] }
+    ],
+    "inputHash": "b9572d4c"
+  },
+  {
+    "english": "upset, distraught",
+    "senses": [
+      { "gloss": "feeling upset (adj)", "members": [{ "kellyId": 4913, "meaningKey": 0 }] },
+      { "gloss": "to upset someone", "members": [{ "kellyId": 5714, "meaningKey": 0 }] }
+    ],
+    "inputHash": "a37b661d"
+  },
+  {
+    "english": "weave",
+    "senses": [
+      { "gloss": "to weave", "members": [{ "kellyId": 5189, "meaningKey": 0 }] },
+      { "gloss": "the fabric (noun)", "members": [{ "kellyId": 7608, "meaningKey": 0 }] }
+    ],
+    "inputHash": "c3a29041"
+  },
+  {
+    "english": "worship",
+    "senses": [
+      { "gloss": "to worship", "members": [{ "kellyId": 5612, "meaningKey": 0 }, { "kellyId": 6293, "meaningKey": 0 }] },
+      { "gloss": "the act (noun)", "members": [{ "kellyId": 8376, "meaningKey": 0 }] }
+    ],
+    "inputHash": "0aa28109"
+  },
+  {
+    "english": "arrest",
+    "senses": [
+      { "gloss": "to arrest", "members": [{ "kellyId": 5634, "meaningKey": 0 }] },
+      { "gloss": "an arrest (noun)", "members": [{ "kellyId": 7509, "meaningKey": 0 }] }
+    ],
+    "inputHash": "f7ac1ff8"
+  },
+  {
+    "english": "delay",
+    "senses": [
+      { "gloss": "a delay (noun)", "members": [{ "kellyId": 5889, "meaningKey": 0 }, { "kellyId": 6547, "meaningKey": 0 }] },
+      { "gloss": "to delay", "members": [{ "kellyId": 7019, "meaningKey": 0 }] }
+    ],
+    "inputHash": "2db46851"
+  },
+  {
+    "english": "reserve",
+    "senses": [
+      { "gloss": "to book, set aside", "members": [{ "kellyId": 5909, "meaningKey": 0 }] },
+      { "gloss": "a spare, backup (noun)", "members": [{ "kellyId": 6842, "meaningKey": 0 }] }
+    ],
+    "inputHash": "8cc4c033"
+  },
+  {
+    "english": "sponsor",
+    "senses": [
+      { "gloss": "to sponsor", "members": [{ "kellyId": 5708, "meaningKey": 0 }] },
+      { "gloss": "a sponsor (noun)", "members": [{ "kellyId": 6313, "meaningKey": 0 }] }
+    ],
+    "inputHash": "07ddfbc6"
+  },
+  {
+    "english": "stamp",
+    "senses": [
+      { "gloss": "to stamp, mark", "members": [{ "kellyId": 5701, "meaningKey": 0 }] },
+      { "gloss": "character, imprint", "members": [{ "kellyId": 6267, "meaningKey": 0 }] },
+      { "gloss": "the stamp tool/mark", "members": [{ "kellyId": 6363, "meaningKey": 0 }] }
+    ],
+    "inputHash": "36fc0243"
+  },
+  {
+    "english": "upgrade",
+    "senses": [
+      { "gloss": "to upgrade", "members": [{ "kellyId": 5907, "meaningKey": 0 }] },
+      { "gloss": "an upgrade (noun)", "members": [{ "kellyId": 6403, "meaningKey": 0 }] }
+    ],
+    "inputHash": "ed77fd2b"
+  },
+  {
+    "english": "whisper",
+    "senses": [
+      { "gloss": "to whisper", "members": [{ "kellyId": 5774, "meaningKey": 0 }] },
+      { "gloss": "a whisper (noun)", "members": [{ "kellyId": 7969, "meaningKey": 0 }] }
+    ],
+    "inputHash": "d8e157f0"
+  },
+  {
+    "english": "escort",
+    "senses": [
+      { "gloss": "to escort", "members": [{ "kellyId": 7856, "meaningKey": 0 }] },
+      { "gloss": "an accompanying guard", "members": [{ "kellyId": 7942, "meaningKey": 0 }] }
+    ],
+    "inputHash": "92a26874"
+  },
+  {
+    "english": "herd",
+    "senses": [
+      { "gloss": "to herd, drive along", "members": [{ "kellyId": 7589, "meaningKey": 0 }] },
+      { "gloss": "a group of animals", "members": [{ "kellyId": 7631, "meaningKey": 0 }] }
+    ],
+    "inputHash": "cde7f173"
+  }
+]

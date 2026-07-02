@@ -1,0 +1,72 @@
+[
+  {
+    "kellyId": 1926,
+    "decision": "split",
+    "reason": "snitt = 'average' (i snitt) is extremely common everyday Swedish, fully distinct from 'cut'",
+    "altMeanings": [{ "translation": "average", "gloss": "" }],
+    "subDefinitions": ["cross-section", "canapé, open sandwich"],
+    "inputHash": "a56423d2"
+  },
+  {
+    "kellyId": 2015,
+    "decision": "split",
+    "reason": "sticka carries several unrelated common senses: 'sting/prick' and colloquial 'leave/head off' are both everyday and distinct from 'knit'",
+    "altMeanings": [
+      { "translation": "sting, prick", "gloss": "" },
+      { "translation": "leave, head off", "gloss": "go somewhere" }
+    ],
+    "subDefinitions": ["stick, insert"],
+    "inputHash": "4d221531"
+  },
+  {
+    "kellyId": 2561,
+    "decision": "split",
+    "reason": "'cross out, delete' (stryka ett ord) is a common distinct sense beyond stroke/iron",
+    "altMeanings": [{ "translation": "cross out, delete", "gloss": "" }],
+    "subDefinitions": ["spread (a substance on something)"],
+    "inputHash": "2f8b2210"
+  },
+  {
+    "kellyId": 2741,
+    "decision": "split",
+    "reason": "spänning is a genuine multi-meaning word: 'excitement/suspense' and electrical 'voltage' are both common and unrelated to physical/relational tension",
+    "altMeanings": [
+      { "translation": "excitement, suspense", "gloss": "" },
+      { "translation": "voltage", "gloss": "electrical" }
+    ],
+    "subDefinitions": ["tension (strained relations)"],
+    "inputHash": "e30116ce"
+  },
+  {
+    "kellyId": 1890,
+    "decision": "split",
+    "reason": "synd = 'a pity, a shame' (det var synd) is extremely common colloquially and fully distinct from religious 'sin'",
+    "altMeanings": [{ "translation": "shame, pity", "gloss": "it's a pity" }],
+    "subDefinitions": [],
+    "inputHash": "727bc413"
+  },
+  {
+    "kellyId": 1863,
+    "decision": "split",
+    "reason": "vind is a homonym: 'attic, loft' is a common everyday sense unrelated to 'wind'",
+    "altMeanings": [{ "translation": "attic, loft", "gloss": "" }],
+    "subDefinitions": [],
+    "inputHash": "a853b87a"
+  },
+  {
+    "kellyId": 2487,
+    "decision": "split",
+    "reason": "våg = 'scale, weighing device' is a common household sense fully distinct from 'wave'",
+    "altMeanings": [{ "translation": "scale", "gloss": "weighing device" }],
+    "subDefinitions": [],
+    "inputHash": "9cf63989"
+  },
+  {
+    "kellyId": 2028,
+    "decision": "split",
+    "reason": "väst is a homonym: 'vest, waistcoat' is a common garment unrelated to compass direction 'west'",
+    "altMeanings": [{ "translation": "vest, waistcoat", "gloss": "garment" }],
+    "subDefinitions": ["the West (Western countries)"],
+    "inputHash": "e12426e1"
+  }
+]

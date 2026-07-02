@@ -1,0 +1,1051 @@
+[
+  {
+    "kellyId": 1155,
+    "decision": "fix",
+    "reason": "sub-defs merely restate/exemplify the main 'get, acquire'",
+    "translation": "get, acquire",
+    "senses": [],
+    "inputHash": "4638a7aa"
+  },
+  {
+    "kellyId": 544,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the distinct 'pass' sense",
+    "translation": "send",
+    "senses": [
+      "pass (at the table)"
+    ],
+    "inputHash": "907931f1"
+  },
+  {
+    "kellyId": 948,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct senses",
+    "translation": "separate",
+    "senses": [
+      "tell apart, differentiate",
+      "differ, be different",
+      "divorce (skilja sig)"
+    ],
+    "inputHash": "18fab1ad"
+  },
+  {
+    "kellyId": 1366,
+    "decision": "fix",
+    "reason": "main is 'slice; disc, record'; only the flat-object disc sense is distinct",
+    "translation": "slice; disc, record",
+    "senses": [
+      "disc (flat circular object)"
+    ],
+    "inputHash": "2bd78b2e"
+  },
+  {
+    "kellyId": 1144,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct movement/protrude senses",
+    "translation": "shoot, fire",
+    "senses": [
+      "move swiftly, shoot",
+      "jut out, protrude"
+    ],
+    "inputHash": "30f6f765"
+  },
+  {
+    "kellyId": 360,
+    "decision": "fix",
+    "reason": "stripped restated main; kept 'school of thought'",
+    "translation": "school",
+    "senses": [
+      "school of thought"
+    ],
+    "inputHash": "0665bf33"
+  },
+  {
+    "kellyId": 840,
+    "decision": "fix",
+    "reason": "all items already distinct from main 'shot'",
+    "translation": "shot",
+    "senses": [
+      "shoot (on a plant)",
+      "bulkhead (on a ship)"
+    ],
+    "inputHash": "9141c698"
+  },
+  {
+    "kellyId": 182,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct senses",
+    "translation": "write",
+    "senses": [
+      "author, compose, publish",
+      "sign (a contract)"
+    ],
+    "inputHash": "c0b0cd76"
+  },
+  {
+    "kellyId": 1213,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the physical protector sense",
+    "translation": "protection",
+    "senses": [
+      "protector, guard (physical object)"
+    ],
+    "uncountable": true,
+    "inputHash": "4cbb1d7f"
+  },
+  {
+    "kellyId": 1093,
+    "decision": "fix",
+    "reason": "stripped restated main; kept literary and colloquial senses",
+    "translation": "nice, pleasant",
+    "senses": [
+      "fair, beautiful (literary)",
+      "cool, easy-going (colloquial)"
+    ],
+    "inputHash": "c2b7b405"
+  },
+  {
+    "kellyId": 1261,
+    "decision": "fix",
+    "reason": "stripped restated main; kept reflexive 'behave' sense",
+    "translation": "manage, take care of",
+    "senses": [
+      "behave (sköta sig)"
+    ],
+    "inputHash": "888caec4"
+  },
+  {
+    "kellyId": 439,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct quit/close senses",
+    "translation": "stop, end",
+    "senses": [
+      "quit (a job, habit, school)",
+      "close, shut"
+    ],
+    "inputHash": "115275d3"
+  },
+  {
+    "kellyId": 378,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the 'defeat' sense",
+    "translation": "hit, strike",
+    "senses": [
+      "defeat, beat (an opponent)"
+    ],
+    "inputHash": "3950bfb9"
+  },
+  {
+    "kellyId": 742,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct release/let senses",
+    "translation": "let go",
+    "senses": [
+      "release (from captivity)",
+      "release (make available, e.g. for sale)",
+      "let, allow (to some place)"
+    ],
+    "inputHash": "d5dfd264"
+  },
+  {
+    "kellyId": 470,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the 'outgoing' personality sense",
+    "translation": "social",
+    "senses": [
+      "outgoing, friendly (of a person)"
+    ],
+    "inputHash": "d802a960"
+  },
+  {
+    "kellyId": 1073,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct sunshine and figurative senses",
+    "translation": "sun",
+    "senses": [
+      "sunshine, sunlight",
+      "ray of sunshine (source of joy)"
+    ],
+    "inputHash": "0f6a45e8"
+  },
+  {
+    "kellyId": 94,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the comparative 'as' sense",
+    "translation": "who, which, that",
+    "senses": [
+      "as (to the same degree or extent)"
+    ],
+    "inputHash": "d2023191"
+  },
+  {
+    "kellyId": 295,
+    "decision": "fix",
+    "reason": "single 'the' item merely defines the main",
+    "translation": "at its/his/hers",
+    "senses": [],
+    "inputHash": "6e0ce11c"
+  },
+  {
+    "kellyId": 1332,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct file-save and spare/economise senses",
+    "translation": "save",
+    "senses": [
+      "save (a file)",
+      "spare, economise"
+    ],
+    "inputHash": "c21978cf"
+  },
+  {
+    "kellyId": 1206,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the 'odd, a bit weird' sense",
+    "translation": "special",
+    "senses": [
+      "odd, a bit weird"
+    ],
+    "inputHash": "accec897"
+  },
+  {
+    "kellyId": 654,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct senses",
+    "translation": "game, play",
+    "senses": [
+      "game set, accessories (board game, etc.)",
+      "performance, playing (music/sport)",
+      "gambling"
+    ],
+    "inputHash": "847a545f"
+  },
+  {
+    "kellyId": 320,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the 'gamble' sense",
+    "translation": "play",
+    "senses": [
+      "gamble"
+    ],
+    "inputHash": "ee2358c6"
+  },
+  {
+    "kellyId": 781,
+    "decision": "fix",
+    "reason": "kept distinct device and actor senses beyond main 'player'",
+    "translation": "player",
+    "senses": [
+      "player, device (for audio, video, media)",
+      "actor (who plays a character)"
+    ],
+    "inputHash": "d7b3ba74"
+  },
+  {
+    "kellyId": 831,
+    "decision": "fix",
+    "reason": "main is 'stay'; the distinct sense is stop/come to a halt",
+    "translation": "stay",
+    "senses": [
+      "stop, come to a halt (of a vehicle, engine, person)"
+    ],
+    "inputHash": "747128ec"
+  },
+  {
+    "kellyId": 305,
+    "decision": "fix",
+    "reason": "stripped restated main; kept government and federal-unit senses",
+    "translation": "state",
+    "senses": [
+      "government",
+      "state (part of a federation)"
+    ],
+    "inputHash": "4b0eb8ac"
+  },
+  {
+    "kellyId": 803,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the figurative process-step sense",
+    "translation": "step",
+    "senses": [
+      "step (in a process)"
+    ],
+    "inputHash": "665a60ed"
+  },
+  {
+    "kellyId": 1309,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the 'rise, increase' sense",
+    "translation": "step, climb",
+    "senses": [
+      "rise, increase"
+    ],
+    "inputHash": "cd11be03"
+  },
+  {
+    "kellyId": 997,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the figurative office/position sense",
+    "translation": "chair",
+    "senses": [
+      "chair (office, position)"
+    ],
+    "inputHash": "7ead3403"
+  },
+  {
+    "kellyId": 978,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct stuff/put/darn senses",
+    "translation": "stop",
+    "senses": [
+      "stuff, fill",
+      "put, shove (into)",
+      "darn (repair with stitching)"
+    ],
+    "inputHash": "b3a94c55"
+  },
+  {
+    "kellyId": 142,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct senses",
+    "translation": "big, large",
+    "senses": [
+      "grown-up, adult",
+      "uppercase, capital (of a letter)",
+      "great, grand, important"
+    ],
+    "inputHash": "e677138a"
+  },
+  {
+    "kellyId": 61,
+    "decision": "fix",
+    "reason": "informal UK usage is a genuinely distinct referent",
+    "translation": "Great Britain",
+    "senses": [
+      "the United Kingdom (UK) (informal)"
+    ],
+    "inputHash": "e4a75595"
+  },
+  {
+    "kellyId": 1272,
+    "decision": "fix",
+    "reason": "the gymnasium-graduate sense is a distinct Swedish meaning beyond 'student'",
+    "translation": "student",
+    "senses": [
+      "recent gymnasium (upper-secondary) graduate"
+    ],
+    "inputHash": "f307dfb1"
+  },
+  {
+    "kellyId": 1266,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the investigate/examine sense",
+    "translation": "study",
+    "senses": [
+      "investigate, examine"
+    ],
+    "inputHash": "3977ff34"
+  },
+  {
+    "kellyId": 925,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the artwork practice-piece sense",
+    "translation": "study, report",
+    "senses": [
+      "study (artwork as practice piece)"
+    ],
+    "inputHash": "a94517f6"
+  },
+  {
+    "kellyId": 937,
+    "decision": "fix",
+    "reason": "'moment, time' restates the main 'while'",
+    "translation": "while",
+    "senses": [],
+    "inputHash": "6d933c6a"
+  },
+  {
+    "kellyId": 792,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the steer/navigate sense",
+    "translation": "govern, control",
+    "senses": [
+      "steer, navigate, direct"
+    ],
+    "inputHash": "717bd037"
+  },
+  {
+    "kellyId": 1333,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the council/committee sense",
+    "translation": "board",
+    "senses": [
+      "council, committee"
+    ],
+    "inputHash": "2aed94d0"
+  },
+  {
+    "kellyId": 1104,
+    "decision": "fix",
+    "reason": "kept distinct senses beyond main 'strength'",
+    "translation": "strength",
+    "senses": [
+      "force",
+      "troop, military force"
+    ],
+    "inputHash": "6e7069c8"
+  },
+  {
+    "kellyId": 219,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct senses",
+    "translation": "stand",
+    "senses": [
+      "be at a standstill",
+      "take place, be held",
+      "say, read (of written text)"
+    ],
+    "inputHash": "c86908ac"
+  },
+  {
+    "kellyId": 952,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the erection senses",
+    "translation": "state, condition",
+    "senses": [
+      "standing, erection (upright position)",
+      "penile erection"
+    ],
+    "inputHash": "8da77393"
+  },
+  {
+    "kellyId": 347,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the set/adjust and take-a-position senses",
+    "translation": "put, place",
+    "senses": [
+      "set, adjust (a clock or setting)",
+      "take a position (on something)"
+    ],
+    "inputHash": "7c1a9f62"
+  },
+  {
+    "kellyId": 968,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct home and establishment senses",
+    "translation": "place, location",
+    "senses": [
+      "home, farm, cottage (in the countryside)",
+      "establishment (restaurant, club)"
+    ],
+    "inputHash": "803b5f8d"
+  },
+  {
+    "kellyId": 871,
+    "decision": "fix",
+    "reason": "stripped restated main; kept stance and scaffold senses",
+    "translation": "position, posture",
+    "senses": [
+      "stance, stand (on an issue)",
+      "scaffold, frame, rack"
+    ],
+    "inputHash": "326cbf55"
+  },
+  {
+    "kellyId": 506,
+    "decision": "fix",
+    "reason": "stripped restated main; kept tune and summon/sue senses",
+    "translation": "be correct, match",
+    "senses": [
+      "tune (an instrument)",
+      "summon, sue"
+    ],
+    "inputHash": "6e707562"
+  },
+  {
+    "kellyId": 1158,
+    "decision": "fix",
+    "reason": "starch is a genuinely distinct sense from main 'strengthen'",
+    "translation": "strengthen",
+    "senses": [
+      "starch (apply laundry starch to garments)"
+    ],
+    "inputHash": "6e4153ad"
+  },
+  {
+    "kellyId": 444,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the physical prop sense",
+    "translation": "support",
+    "senses": [
+      "support, prop (physical object)"
+    ],
+    "uncountable": true,
+    "inputHash": "914f58c4"
+  },
+  {
+    "kellyId": 1260,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the dilute sense",
+    "translation": "weak",
+    "senses": [
+      "dilute (of a solution)"
+    ],
+    "inputHash": "e2f53594"
+  },
+  {
+    "kellyId": 838,
+    "decision": "fix",
+    "reason": "kept distinct senses beyond the colour 'black'",
+    "translation": "black",
+    "senses": [
+      "Black (of a person)",
+      "illegal, off-the-books (done without legal permission)"
+    ],
+    "inputHash": "cc29302d"
+  },
+  {
+    "kellyId": 334,
+    "decision": "fix",
+    "reason": "the 'very bad, severe' sense is distinct from main 'difficult'",
+    "translation": "difficult, hard",
+    "senses": [
+      "severe, very bad (in degree or quality)"
+    ],
+    "inputHash": "2a979eee"
+  },
+  {
+    "kellyId": 63,
+    "decision": "fix",
+    "reason": "the sou'wester hat is a genuinely distinct sense from the compass direction",
+    "translation": "southwest",
+    "senses": [
+      "sou'wester (waterproof hat)"
+    ],
+    "inputHash": "4a29a389"
+  },
+  {
+    "kellyId": 811,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the view and vision/revelation senses",
+    "translation": "sight, vision",
+    "senses": [
+      "view, sight (what one sees)",
+      "vision, revelation (of the future)"
+    ],
+    "inputHash": "8bae9587"
+  },
+  {
+    "kellyId": 1374,
+    "decision": "fix",
+    "reason": "kept distinct appear/seem and meet-each-other senses beyond main 'be visible'",
+    "translation": "be visible",
+    "senses": [
+      "appear, seem (have as appearance)",
+      "meet each other (by happenstance)"
+    ],
+    "inputHash": "bdd378b5"
+  },
+  {
+    "kellyId": 65,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the historical third-cousin sense",
+    "translation": "second cousin",
+    "senses": [
+      "third cousin (historical/regional)"
+    ],
+    "inputHash": "68c4623d"
+  },
+  {
+    "kellyId": 473,
+    "decision": "fix",
+    "reason": "kept distinct computer-system and Systembolaget senses beyond main 'system'",
+    "translation": "system",
+    "senses": [
+      "computer system (esp. its hardware)",
+      "the state liquor store (short for Systembolaget)"
+    ],
+    "inputHash": "932dba42"
+  },
+  {
+    "kellyId": 117,
+    "decision": "fix",
+    "reason": "kept distinct senses beyond main 'so, like that'",
+    "translation": "so, like that, in such a way",
+    "senses": [
+      "there, done (indicating something is finished)",
+      "so (to such a degree)",
+      "then (V2 filler after a sentence-initial adverbial)"
+    ],
+    "inputHash": "6a606dec"
+  },
+  {
+    "kellyId": 596,
+    "decision": "fix",
+    "reason": "kept distinct capacity and example senses beyond main 'as, like'",
+    "translation": "as, like",
+    "senses": [
+      "as (in the capacity of)",
+      "such as (for example)"
+    ],
+    "inputHash": "c8ce9568"
+  },
+  {
+    "kellyId": 145,
+    "decision": "fix",
+    "reason": "stripped restated main; kept tell and passive be-said senses",
+    "translation": "say",
+    "senses": [
+      "tell",
+      "be said"
+    ],
+    "inputHash": "811a6b0b"
+  },
+  {
+    "kellyId": 845,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the sure/certain sense",
+    "translation": "safe, secure",
+    "senses": [
+      "sure, certain, reliable"
+    ],
+    "inputHash": "fec9b7a6"
+  },
+  {
+    "kellyId": 920,
+    "decision": "fix",
+    "reason": "stripped restated main; kept certainty and loan-collateral senses",
+    "translation": "safety, security",
+    "senses": [
+      "certainty, confidence",
+      "security, collateral (for a loan)"
+    ],
+    "uncountable": true,
+    "inputHash": "8f70b75d"
+  },
+  {
+    "kellyId": 680,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the literal safely/securely sense",
+    "translation": "probably, surely",
+    "senses": [
+      "safely, securely"
+    ],
+    "inputHash": "ea56984a"
+  },
+  {
+    "kellyId": 1194,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the broadcast sense",
+    "translation": "send, transmit",
+    "senses": [
+      "broadcast"
+    ],
+    "inputHash": "a06e52e8"
+  },
+  {
+    "kellyId": 1290,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct sink/turn-down/immerse senses",
+    "translation": "lower",
+    "senses": [
+      "sink (a boat)",
+      "turn down (volume, intensity)",
+      "immerse (in liquid)"
+    ],
+    "inputHash": "2b8490b0"
+  },
+  {
+    "kellyId": 578,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the 'special, dear' sense",
+    "translation": "special, particular",
+    "senses": [
+      "special, dear (beloved)"
+    ],
+    "inputHash": "e9899081"
+  },
+  {
+    "kellyId": 1392,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the TV-series sense",
+    "translation": "season",
+    "senses": [
+      "season (of a TV series)"
+    ],
+    "inputHash": "ee55d701"
+  },
+  {
+    "kellyId": 215,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the 'set' sense",
+    "translation": "way, manner",
+    "senses": [
+      "set (e.g. of cutlery)"
+    ],
+    "inputHash": "9a0ea7e1"
+  },
+  {
+    "kellyId": 336,
+    "decision": "fix",
+    "reason": "stripped restated main; kept sit-down and set/adjust senses",
+    "translation": "put, place",
+    "senses": [
+      "sit down (sätta sig)",
+      "set, adjust (a value or setting)"
+    ],
+    "inputHash": "26b8cc82"
+  },
+  {
+    "kellyId": 137,
+    "decision": "fix",
+    "reason": "stripped restated main; kept distinct senses",
+    "translation": "take",
+    "senses": [
+      "bring, carry",
+      "steal",
+      "catch"
+    ],
+    "inputHash": "bb642ad2"
+  },
+  {
+    "kellyId": 903,
+    "decision": "fix",
+    "reason": "the politeness 'please' use is a distinct function from main 'thanks'",
+    "translation": "thanks, thank you",
+    "senses": [
+      "please (to add politeness)"
+    ],
+    "inputHash": "a5fbf15c"
+  },
+  {
+    "kellyId": 324,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the stroke and while/moment senses",
+    "translation": "grip, hold",
+    "senses": [
+      "stroke (with oar or paddle)",
+      "while, moment"
+    ],
+    "inputHash": "0012b0f0"
+  },
+  {
+    "kellyId": 726,
+    "decision": "fix",
+    "reason": "main is 'beat, rhythm; tact'; only the musical bar/measure sense remains distinct",
+    "translation": "beat, rhythm; tact",
+    "senses": [
+      "bar, measure (in music)"
+    ],
+    "inputHash": "c87b6ae3"
+  },
+  {
+    "kellyId": 299,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the speak-a-language and make-a-speech senses",
+    "translation": "speak, talk",
+    "senses": [
+      "speak (a language)",
+      "make a speech"
+    ],
+    "inputHash": "ebf264c1"
+  },
+  {
+    "kellyId": 1328,
+    "decision": "fix",
+    "reason": "kept distinct lose and tap/draw-off senses beyond main 'drop'",
+    "translation": "drop",
+    "senses": [
+      "lose (mislay something)",
+      "tap, draw off (liquid from a vessel)"
+    ],
+    "inputHash": "54fcbbc5"
+  },
+  {
+    "kellyId": 1174,
+    "decision": "fix",
+    "reason": "stripped restated main; kept symbol/character and gesture senses",
+    "translation": "sign, symbol",
+    "senses": [
+      "symbol, character (letter etc.)",
+      "gesture"
+    ],
+    "inputHash": "29403691"
+  },
+  {
+    "kellyId": 858,
+    "decision": "fix",
+    "reason": "main is 'technique; technology'; both are already in it, so no distinct sense remains",
+    "translation": "technique; technology",
+    "senses": [],
+    "inputHash": "8e690388"
+  },
+  {
+    "kellyId": 1062,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the 'technically skilled' sense",
+    "translation": "technical, technological",
+    "senses": [
+      "technically skilled"
+    ],
+    "inputHash": "5f30c404"
+  },
+  {
+    "kellyId": 66,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the number-ten sense",
+    "translation": "ten-kronor coin",
+    "senses": [
+      "the number ten, anything numbered ten"
+    ],
+    "inputHash": "9d434843"
+  },
+  {
+    "kellyId": 183,
+    "decision": "fix",
+    "reason": "kept distinct period/era and appointment-slot senses beyond main 'time'",
+    "translation": "time",
+    "senses": [
+      "period, era",
+      "slot, appointment"
+    ],
+    "inputHash": "f93c3638"
+  },
+  {
+    "kellyId": 550,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the magazine/journal sense",
+    "translation": "newspaper",
+    "senses": [
+      "magazine, journal"
+    ],
+    "inputHash": "bffdc81c"
+  },
+  {
+    "kellyId": 1310,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the silent-treatment sense",
+    "translation": "keep silent, stay quiet",
+    "senses": [
+      "give the silent treatment, deliberately ignore"
+    ],
+    "inputHash": "5407cf38"
+  },
+  {
+    "kellyId": 105,
+    "decision": "fix",
+    "reason": "all items are distinct prepositional uses beyond main 'to'",
+    "translation": "to",
+    "senses": [
+      "for (e.g. en present till dig = a present for you)",
+      "with (e.g. potatis till maten = potatoes with the meal)",
+      "this coming (e.g. till helgen = this weekend)"
+    ],
+    "inputHash": "62c59066"
+  },
+  {
+    "kellyId": 709,
+    "decision": "fix",
+    "reason": "occasion/instance is a distinct sense from main 'opportunity'",
+    "translation": "opportunity",
+    "senses": [
+      "occasion, instance (a certain point in time)"
+    ],
+    "inputHash": "08d5022e"
+  },
+  {
+    "kellyId": 747,
+    "decision": "fix",
+    "reason": "kept distinct asset and access senses beyond main 'supply'",
+    "translation": "supply",
+    "senses": [
+      "asset, resource",
+      "access"
+    ],
+    "inputHash": "353cac80"
+  },
+  {
+    "kellyId": 410,
+    "decision": "fix",
+    "reason": "'in a relationship' is a distinct idiomatic sense beyond main 'together'",
+    "translation": "together",
+    "senses": [
+      "in a relationship (of a couple)"
+    ],
+    "inputHash": "a5fc594b"
+  },
+  {
+    "kellyId": 988,
+    "decision": "fix",
+    "reason": "permission/permit is a distinct sense from main 'condition, state'",
+    "translation": "condition, state",
+    "senses": [
+      "permission",
+      "permit (document granting permission)"
+    ],
+    "inputHash": "a384dd97"
+  },
+  {
+    "kellyId": 525,
+    "decision": "fix",
+    "reason": "the school lesson/class sense is distinct from main 'hour'",
+    "translation": "hour",
+    "senses": [
+      "lesson, class (in school)"
+    ],
+    "inputHash": "72b748b7"
+  },
+  {
+    "kellyId": 1240,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the historical assembly/court sense",
+    "translation": "thing",
+    "senses": [
+      "assembly, court (historical)"
+    ],
+    "inputHash": "95a885bc"
+  },
+  {
+    "kellyId": 68,
+    "decision": "fix",
+    "reason": "the historical church tithe is a distinct sense from the ordinal 'tenth'",
+    "translation": "tenth",
+    "senses": [
+      "tithe (historical church tax)"
+    ],
+    "inputHash": "1be19891"
+  },
+  {
+    "kellyId": 1357,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the football pools/betting sense",
+    "translation": "tip, hint",
+    "senses": [
+      "football pools, betting"
+    ],
+    "inputHash": "45288a17"
+  },
+  {
+    "kellyId": 537,
+    "decision": "fix",
+    "reason": "main is 'look, watch'; both are already in it, so no distinct sense remains",
+    "translation": "look, watch",
+    "senses": [],
+    "inputHash": "5213444f"
+  },
+  {
+    "kellyId": 1186,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the girlfriend sense",
+    "translation": "girl",
+    "senses": [
+      "girlfriend"
+    ],
+    "inputHash": "a5ae5f94"
+  },
+  {
+    "kellyId": 862,
+    "decision": "fix",
+    "reason": "'serve' is a distinct sense from main 'earn'",
+    "translation": "earn",
+    "senses": [
+      "serve"
+    ],
+    "inputHash": "6d4f6480"
+  },
+  {
+    "kellyId": 1269,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the perform-a-song/role sense",
+    "translation": "interpret",
+    "senses": [
+      "perform (a song or role)"
+    ],
+    "inputHash": "9867aebd"
+  },
+  {
+    "kellyId": 197,
+    "decision": "fix",
+    "reason": "stripped restated main; kept trust and religious-faith senses",
+    "translation": "believe, think",
+    "senses": [
+      "trust, believe (someone)",
+      "have religious faith"
+    ],
+    "inputHash": "942c462f"
+  },
+  {
+    "kellyId": 765,
+    "decision": "fix",
+    "reason": "kept distinct senses beyond main 'belief'",
+    "translation": "belief",
+    "senses": [
+      "trust, faith (in a person)",
+      "religious faith",
+      "allegiance"
+    ],
+    "inputHash": "43fd2031"
+  },
+  {
+    "kellyId": 1041,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the print/imprint sense",
+    "translation": "pressure",
+    "senses": [
+      "print, imprint (visible impression)"
+    ],
+    "inputHash": "06396d1d"
+  },
+  {
+    "kellyId": 983,
+    "decision": "fix",
+    "reason": "stripped restated main; kept print and oppressive-heat senses",
+    "translation": "press, push",
+    "senses": [
+      "print (with a press)",
+      "be oppressive, stifling (of heat)"
+    ],
+    "inputHash": "b615f900"
+  },
+  {
+    "kellyId": 564,
+    "decision": "fix",
+    "reason": "stripped restated main; kept hit-target and reach-agreement senses",
+    "translation": "meet",
+    "senses": [
+      "hit, strike (a target)",
+      "reach, enter into (an agreement)"
+    ],
+    "inputHash": "27c1873f"
+  },
+  {
+    "kellyId": 1284,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the important/major sense",
+    "translation": "heavy",
+    "senses": [
+      "important, major"
+    ],
+    "inputHash": "8a589109"
+  },
+  {
+    "kellyId": 199,
+    "decision": "fix",
+    "reason": "stripped restated main; kept find/feel and seem/appear senses",
+    "translation": "think, reckon",
+    "senses": [
+      "find, feel (have a sensory impression of)",
+      "seem, appear"
+    ],
+    "inputHash": "fc1b3955"
+  },
+  {
+    "kellyId": 577,
+    "decision": "fix",
+    "reason": "stripped restated main; kept the indicate/suggest sense",
+    "translation": "interpret",
+    "senses": [
+      "indicate, suggest (point to an unknown fact)"
+    ],
+    "inputHash": "3ba59474"
+  }
+]

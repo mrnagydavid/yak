@@ -1,0 +1,38 @@
+[
+  {
+    "kellyId": 505,
+    "decision": "split",
+    "reason": "krona as the Swedish currency is a distinct, everyday sense separate from crown (headwear) — a beginner needs to produce it",
+    "altMeanings": [{ "translation": "krona", "gloss": "Swedish currency" }],
+    "subDefinitions": ["Crown (state, government)"],
+    "inputHash": "7ae8a0cb"
+  },
+  {
+    "kellyId": 1127,
+    "decision": "split",
+    "reason": "candle is a distinct, common concrete object unrelated to abstract light — worth its own card",
+    "altMeanings": [{ "translation": "candle", "gloss": "" }],
+    "subDefinitions": ["the class brain, the smartest kid in class"],
+    "inputHash": "9851640a"
+  },
+  {
+    "kellyId": 795,
+    "decision": "split",
+    "reason": "bell is a distinct concrete object unrelated to clock/watch — common and worth producing",
+    "altMeanings": [{ "translation": "bell", "gloss": "" }],
+    "subDefinitions": ["the time (of day)"],
+    "inputHash": "3676ded7"
+  },
+  {
+    "kellyId": 264,
+    "decision": "split",
+    "reason": "husband is a distinct, high-frequency sense of man separate from the general 'man' — a beginner needs to produce it",
+    "altMeanings": [{ "translation": "husband", "gloss": "" }],
+    "subDefinitions": [
+      "a member of a crew, workforce or (military) troop",
+      "man (usually friendly term of address)",
+      "mane (of a horse or lion or the like)"
+    ],
+    "inputHash": "b7ca59fc"
+  }
+]

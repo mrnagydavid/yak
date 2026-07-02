@@ -1,0 +1,86 @@
+[
+  {
+    "kellyId": 4875,
+    "decision": "split",
+    "reason": "sno also very commonly means to nick/steal — a distinct everyday colloquial sense unrelated to twisting",
+    "altMeanings": [{ "translation": "nick, steal", "gloss": "" }],
+    "subDefinitions": ["twine, wind (strands around each other)"],
+    "inputHash": "d8a1f444"
+  },
+  {
+    "kellyId": 4547,
+    "decision": "split",
+    "reason": "stift = diocese/bishopric is a completely unrelated common sense next to pin/stylus",
+    "altMeanings": [{ "translation": "diocese, bishopric", "gloss": "" }],
+    "subDefinitions": ["pin, stylus, nib"],
+    "inputHash": "ac3df18a"
+  },
+  {
+    "kellyId": 4659,
+    "decision": "split",
+    "reason": "surfa the internet is an extremely common everyday sense distinct from surfing on a board",
+    "altMeanings": [{ "translation": "surf", "gloss": "the internet" }],
+    "subDefinitions": ["surf (on a board)"],
+    "inputHash": "00b7e2b7"
+  },
+  {
+    "kellyId": 5326,
+    "decision": "split",
+    "reason": "svamp = sponge is a distinct common household sense unrelated to mushroom/fungus",
+    "altMeanings": [{ "translation": "sponge", "gloss": "for washing and cleaning" }],
+    "subDefinitions": ["fungus"],
+    "inputHash": "908487cb"
+  },
+  {
+    "kellyId": 4359,
+    "decision": "split",
+    "reason": "sändning = shipment/delivery is a distinct common sense next to broadcast",
+    "altMeanings": [{ "translation": "shipment, delivery", "gloss": "goods sent" }],
+    "subDefinitions": [],
+    "inputHash": "b67df451"
+  },
+  {
+    "kellyId": 5141,
+    "decision": "split",
+    "reason": "tyska = a German woman is a distinct common sense next to the German language",
+    "altMeanings": [{ "translation": "German woman", "gloss": "female German national" }],
+    "subDefinitions": [],
+    "inputHash": "53b2a60d"
+  },
+  {
+    "kellyId": 5079,
+    "decision": "split",
+    "reason": "undergång = underpass is a common everyday word unrelated to downfall/doom",
+    "altMeanings": [{ "translation": "underpass", "gloss": "pedestrian tunnel" }],
+    "subDefinitions": [],
+    "inputHash": "691a63ac"
+  },
+  {
+    "kellyId": 4919,
+    "decision": "split",
+    "reason": "underhålla = maintain/keep up is a distinct common sense next to entertain",
+    "altMeanings": [{ "translation": "maintain, keep up", "gloss": "" }],
+    "subDefinitions": [],
+    "inputHash": "8f54fa48"
+  },
+  {
+    "kellyId": 4820,
+    "decision": "split",
+    "reason": "verkstad = garage/repair shop is the very common everyday sense (car repair) distinct from generic workshop",
+    "altMeanings": [{ "translation": "garage, repair shop", "gloss": "for cars, bikes, etc." }],
+    "subDefinitions": ["engineering works, factory"],
+    "inputHash": "37ea4c12"
+  },
+  {
+    "kellyId": 5545,
+    "decision": "split",
+    "reason": "växel = gear (car/bike) is an extremely common distinct sense next to change (coins)",
+    "altMeanings": [{ "translation": "gear", "gloss": "car or bike" }],
+    "subDefinitions": [
+      "exchange (telephone)",
+      "switch (railroad)",
+      "bill of exchange (finance)"
+    ],
+    "inputHash": "61c01e92"
+  }
+]

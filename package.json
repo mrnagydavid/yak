@@ -17,11 +17,18 @@
     "seed:join": "node scripts/seed/join.mjs && node scripts/seed/flag.mjs",
     "seed:batch": "node scripts/seed/batch-for-cleanup.mjs",
     "seed:batch-senses": "node scripts/seed/batch-senses.mjs",
+    "seed:batch-gloss": "node scripts/seed/batch-gloss.mjs",
+    "seed:batch-token-synonyms": "node scripts/seed/batch-token-synonyms.mjs",
     "seed:batch-translations": "node scripts/seed/batch-translations.mjs",
+    "seed:batch-split": "node scripts/seed/batch-split.mjs",
     "seed:compile": "node scripts/seed/compile-layers.mjs",
     "seed:apply": "node scripts/seed/apply-decisions.mjs",
     "seed:stale": "node scripts/seed/stale.mjs",
-    "seed:build": "pnpm seed:compile && pnpm seed:apply && pnpm seed:stale"
+    "seed:reconcile": "node scripts/seed/reconcile-stale.mjs",
+    "seed:build": "pnpm seed:compile && pnpm seed:apply && pnpm seed:stale",
+    "seed:audit-gloss": "node scripts/seed/audit-gloss.mjs",
+    "seed:audit-subdefs": "node scripts/seed/audit-subdefs.mjs",
+    "seed:detect-token-synonyms": "node scripts/seed/detect-token-synonyms.mjs"
   },
   "pnpm": {
     "onlyBuiltDependencies": [

@@ -1,0 +1,45 @@
+[
+  {
+    "kellyId": 3790,
+    "decision": "split",
+    "reason": "matte = female pet owner (feminine of husse) is a distinct, common everyday sense unrelated to the maths meaning",
+    "altMeanings": [{ "translation": "owner", "gloss": "female owner of a pet" }],
+    "subDefinitions": [],
+    "inputHash": "1e86460e"
+  },
+  {
+    "kellyId": 4112,
+    "decision": "split",
+    "reason": "panna carries three distinct common senses: forehead (primary), cooking pan/pot, and heating boiler",
+    "altMeanings": [
+      { "translation": "pan, pot", "gloss": "cooking vessel" },
+      { "translation": "boiler", "gloss": "heating" }
+    ],
+    "subDefinitions": [],
+    "inputHash": "0a95b3cc"
+  },
+  {
+    "kellyId": 3541,
+    "decision": "split",
+    "reason": "rom = rum (the drink) is a common everyday sense fully unrelated to roe (fish eggs)",
+    "altMeanings": [{ "translation": "rum", "gloss": "beverage" }],
+    "subDefinitions": ["Romani person"],
+    "inputHash": "5af31fa5"
+  },
+  {
+    "kellyId": 3023,
+    "decision": "split",
+    "reason": "recept = prescription (medicine) is a distinct, common sense unrelated to cooking recipe",
+    "altMeanings": [{ "translation": "prescription", "gloss": "medical" }],
+    "subDefinitions": [],
+    "inputHash": "37f4d3e1"
+  },
+  {
+    "kellyId": 3982,
+    "decision": "split",
+    "reason": "pjäs = board-game piece is a distinct common sense unrelated to a theatre play; artillery piece stays reference-only",
+    "altMeanings": [{ "translation": "piece, man", "gloss": "board game" }],
+    "subDefinitions": ["artillery piece, cannon"],
+    "inputHash": "89fe82b7"
+  }
+]

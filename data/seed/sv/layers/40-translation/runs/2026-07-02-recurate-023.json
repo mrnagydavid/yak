@@ -1,0 +1,1017 @@
+[
+  {
+    "kellyId": 7187,
+    "decision": "fix",
+    "reason": "colour sense is a genuinely distinct meaning; fruit restates main",
+    "translation": "olive",
+    "senses": [
+      "olive (grey-green colour)"
+    ],
+    "inputHash": "48582bb5"
+  },
+  {
+    "kellyId": 8238,
+    "decision": "fix",
+    "reason": "Olympic Games is distinct; four-year-period restates main",
+    "translation": "olympiad",
+    "senses": [
+      "Olympic Games"
+    ],
+    "inputHash": "daafa2db"
+  },
+  {
+    "kellyId": 7322,
+    "decision": "fix",
+    "reason": "voice/instrument range is distinct; first item restates main",
+    "translation": "extent, scope",
+    "senses": [
+      "range (of a voice or instrument)"
+    ],
+    "inputHash": "69c42da0"
+  },
+  {
+    "kellyId": 7730,
+    "decision": "fix",
+    "reason": "wide distribution is distinct; first item restates main",
+    "translation": "orbit, circulation",
+    "senses": [
+      "circulation (wide distribution or diffusion)"
+    ],
+    "inputHash": "3f28feb2"
+  },
+  {
+    "kellyId": 7129,
+    "decision": "fix",
+    "reason": "brief/give an overview is distinct; first item restates main",
+    "translation": "orient, find one's way",
+    "senses": [
+      "brief, give an overview (of a subject)"
+    ],
+    "inputHash": "48d4a9ac"
+  },
+  {
+    "kellyId": 8121,
+    "decision": "fix",
+    "reason": "beef and bull are distinct; ox restates main",
+    "translation": "ox",
+    "senses": [
+      "beef (as food or in dish names)",
+      "bull (cattle, reindeer, or moose)"
+    ],
+    "inputHash": "952440cd"
+  },
+  {
+    "kellyId": 7414,
+    "decision": "fix",
+    "reason": "sports pass is distinct from supervision",
+    "translation": "supervision, care",
+    "senses": [
+      "pass (in ball sports)"
+    ],
+    "inputHash": "d5cb771a"
+  },
+  {
+    "kellyId": 7383,
+    "decision": "fix",
+    "reason": "league-table point is distinct from stick",
+    "translation": "stick",
+    "senses": [
+      "point (in a sports league table)"
+    ],
+    "inputHash": "895888f1"
+  },
+  {
+    "kellyId": 7393,
+    "decision": "fix",
+    "reason": "clingy person is a distinct figurative sense",
+    "translation": "band-aid",
+    "senses": [
+      "clingy, persistent person"
+    ],
+    "inputHash": "8eb7f8ac"
+  },
+  {
+    "kellyId": 7118,
+    "decision": "fix",
+    "reason": "dated spelling of port wine is distinct",
+    "translation": "postage",
+    "senses": [
+      "port (wine, dated spelling)"
+    ],
+    "inputHash": "35b9b741"
+  },
+  {
+    "kellyId": 8206,
+    "decision": "fix",
+    "reason": "collection post box is distinct; first item restates main",
+    "translation": "mailbox, letterbox",
+    "senses": [
+      "post box (collection point for mail)"
+    ],
+    "inputHash": "bf409ca4"
+  },
+  {
+    "kellyId": 8117,
+    "decision": "fix",
+    "reason": "chairmanship restates the main body/board sense",
+    "translation": "presidium",
+    "senses": [],
+    "inputHash": "c67cf956"
+  },
+  {
+    "kellyId": 7550,
+    "decision": "fix",
+    "reason": "clot, fuse, punch are distinct; first item restates main",
+    "translation": "plug",
+    "senses": [
+      "clot, blockage (in a pipe or blood vessel)",
+      "fuse (electrical)",
+      "punch (a blow)"
+    ],
+    "inputHash": "9bfdff00"
+  },
+  {
+    "kellyId": 7561,
+    "decision": "fix",
+    "reason": "figurative puzzle/mystery is distinct; first restates main",
+    "translation": "jigsaw puzzle",
+    "senses": [
+      "puzzle, mystery (something to figure out)"
+    ],
+    "inputHash": "42add182"
+  },
+  {
+    "kellyId": 7231,
+    "decision": "fix",
+    "reason": "groom and touch-up are distinct; first restates main",
+    "translation": "polish, shine",
+    "senses": [
+      "tidy up, even out",
+      "touch up, improve"
+    ],
+    "inputHash": "5b7bdcf4"
+  },
+  {
+    "kellyId": 7132,
+    "decision": "fix",
+    "reason": "social welcoming event is distinct; first restates main",
+    "translation": "reception desk; reception",
+    "senses": [
+      "reception (social welcoming event)"
+    ],
+    "inputHash": "34ffbec6"
+  },
+  {
+    "kellyId": 7052,
+    "decision": "fix",
+    "reason": "chemical and historical senses are distinct",
+    "translation": "reduction, decrease",
+    "senses": [
+      "reduction (chemical reaction)",
+      "confiscation of nobility's lands by the crown (historical)"
+    ],
+    "inputHash": "3ac736a2"
+  },
+  {
+    "kellyId": 7171,
+    "decision": "fix",
+    "reason": "reflector and reflection are distinct; reaction restates main",
+    "translation": "reflex",
+    "senses": [
+      "reflector (worn by pedestrians or cyclists)",
+      "reflection"
+    ],
+    "inputHash": "e83722e1"
+  },
+  {
+    "kellyId": 8186,
+    "decision": "fix",
+    "reason": "advertise is a distinct sense; first restates main",
+    "translation": "make a complaint (about a purchase)",
+    "senses": [
+      "advertise"
+    ],
+    "inputHash": "04aedaf8"
+  },
+  {
+    "kellyId": 7699,
+    "decision": "fix",
+    "reason": "strip of land is distinct; first restates main",
+    "translation": "strip, tape",
+    "senses": [
+      "strip (of land)"
+    ],
+    "inputHash": "88e72236"
+  },
+  {
+    "kellyId": 7042,
+    "decision": "fix",
+    "reason": "rehearse is a distinct sense",
+    "translation": "repeat",
+    "senses": [
+      "rehearse"
+    ],
+    "inputHash": "53b1d4e2"
+  },
+  {
+    "kellyId": 7165,
+    "decision": "fix",
+    "reason": "rehearsal is a distinct sense",
+    "translation": "repetition",
+    "senses": [
+      "rehearsal"
+    ],
+    "inputHash": "2119a19e"
+  },
+  {
+    "kellyId": 7483,
+    "decision": "fix",
+    "reason": "central island is a fine-grained restatement, marginal for a learner",
+    "translation": "roundabout",
+    "senses": [],
+    "inputHash": "f6a555b7"
+  },
+  {
+    "kellyId": 7058,
+    "decision": "fix",
+    "reason": "wrap, reel, movie, snus roll are distinct senses",
+    "translation": "roll",
+    "senses": [
+      "wrap (food)",
+      "reel (of film)",
+      "movie, film (slang)",
+      "roll of snus"
+    ],
+    "inputHash": "84b7e6e8"
+  },
+  {
+    "kellyId": 7865,
+    "decision": "fix",
+    "reason": "länsrätt judge is a fine-grained variant of the same role",
+    "translation": "district court judge",
+    "senses": [],
+    "inputHash": "e9e61ee9"
+  },
+  {
+    "kellyId": 7199,
+    "decision": "fix",
+    "reason": "mephedrone slang is distinct; first restates main",
+    "translation": "shrimp, prawn",
+    "senses": [
+      "mephedrone (slang)"
+    ],
+    "inputHash": "90a3fccb"
+  },
+  {
+    "kellyId": 7257,
+    "decision": "fix",
+    "reason": "cordial/squash concentrate is a distinct sense",
+    "translation": "juice",
+    "senses": [
+      "cordial, squash (concentrate diluted with water)"
+    ],
+    "inputHash": "63349ff9"
+  },
+  {
+    "kellyId": 7704,
+    "decision": "fix",
+    "reason": "figurative clash is distinct; first restates main",
+    "translation": "collision",
+    "senses": [
+      "clash, confrontation (figurative)"
+    ],
+    "inputHash": "9712469b"
+  },
+  {
+    "kellyId": 7182,
+    "decision": "fix",
+    "reason": "coherence/consistency is distinct; first restates main",
+    "translation": "unanimity, consensus",
+    "senses": [
+      "coherence, consistency"
+    ],
+    "uncountable": true,
+    "inputHash": "1e1da87a"
+  },
+  {
+    "kellyId": 7611,
+    "decision": "fix",
+    "reason": "swift (bird) is distinct; first restates main",
+    "translation": "sailor",
+    "senses": [
+      "swift (a bird)"
+    ],
+    "inputHash": "15e1a94a"
+  },
+  {
+    "kellyId": 7774,
+    "decision": "fix",
+    "reason": "tennis set and musical set are distinct; first restates main",
+    "translation": "set",
+    "senses": [
+      "set (in tennis or similar)",
+      "set (musical performance)"
+    ],
+    "inputHash": "36e10e30"
+  },
+  {
+    "kellyId": 7724,
+    "decision": "fix",
+    "reason": "stem and bootleg are distinct; first restates main",
+    "translation": "handle, grip, shaft",
+    "senses": [
+      "stem (of a plant or feather)",
+      "leg, bootleg (of a boot or sock)"
+    ],
+    "inputHash": "0134e960"
+  },
+  {
+    "kellyId": 7583,
+    "decision": "fix",
+    "reason": "twist/spin senses are distinct from the fastener screw",
+    "translation": "screw",
+    "senses": [
+      "twist, spin (of the body when jumping or diving)",
+      "spin (of a ball in flight)"
+    ],
+    "inputHash": "d487085e"
+  },
+  {
+    "kellyId": 7157,
+    "decision": "fix",
+    "reason": "slang (language) is distinct from hose",
+    "translation": "hose, tube, flexible pipe",
+    "senses": [
+      "slang (language)"
+    ],
+    "inputHash": "bac8de5f"
+  },
+  {
+    "kellyId": 7473,
+    "decision": "fix",
+    "reason": "slavish is a distinct sense",
+    "translation": "Slavic",
+    "senses": [
+      "slavish"
+    ],
+    "inputHash": "e0bb531b"
+  },
+  {
+    "kellyId": 8159,
+    "decision": "fix",
+    "reason": "tasteful is a distinct sense",
+    "translation": "tasty, savory",
+    "senses": [
+      "tasteful"
+    ],
+    "inputHash": "718a9b6c"
+  },
+  {
+    "kellyId": 7630,
+    "decision": "fix",
+    "reason": "collective dish is a fine-grained restatement of the main",
+    "translation": "sandwich",
+    "senses": [],
+    "inputHash": "f1860b52"
+  },
+  {
+    "kellyId": 7298,
+    "decision": "fix",
+    "reason": "apply ointment and bribe are distinct; first restates main",
+    "translation": "grease, oil",
+    "senses": [
+      "smear, apply ointment",
+      "grease, bribe"
+    ],
+    "inputHash": "dfd226cd"
+  },
+  {
+    "kellyId": 7401,
+    "decision": "fix",
+    "reason": "goo/muck is distinct; first restates main",
+    "translation": "crap, bullshit",
+    "senses": [
+      "goo, muck (sticky substance)"
+    ],
+    "inputHash": "2aa729c1"
+  },
+  {
+    "kellyId": 7433,
+    "decision": "fix",
+    "reason": "angry/sour mood is distinct; skewed restates main",
+    "translation": "at an angle, oblique, askew, crooked",
+    "senses": [
+      "angry, sour, in a bad mood"
+    ],
+    "inputHash": "7e4263fc"
+  },
+  {
+    "kellyId": 8124,
+    "decision": "fix",
+    "reason": "angry/bad-mood sense is distinct from the crooked main",
+    "translation": "crooked, oblique, skewed",
+    "senses": [
+      "angry, in a bad mood"
+    ],
+    "inputHash": "2e02dbf8"
+  },
+  {
+    "kellyId": 7654,
+    "decision": "fix",
+    "reason": "vulgar/sexual sense is distinct; first restates main",
+    "translation": "filthy, gross",
+    "senses": [
+      "dirty, vulgar (sexual)"
+    ],
+    "inputHash": "a7ecd7b7"
+  },
+  {
+    "kellyId": 7830,
+    "decision": "fix",
+    "reason": "garden/toy spade is a near-restatement of shovel, marginal",
+    "translation": "shovel",
+    "senses": [],
+    "inputHash": "a72da412"
+  },
+  {
+    "kellyId": 7025,
+    "decision": "fix",
+    "reason": "point man and detective are distinct senses",
+    "translation": "scout, spotter",
+    "senses": [
+      "point man (military)",
+      "detective"
+    ],
+    "inputHash": "d7e98e80"
+  },
+  {
+    "kellyId": 7367,
+    "decision": "fix",
+    "reason": "sparing/sparse is a distinct sense",
+    "translation": "frugal, thrifty",
+    "senses": [
+      "sparing, sparse"
+    ],
+    "inputHash": "721b9877"
+  },
+  {
+    "kellyId": 7623,
+    "decision": "fix",
+    "reason": "laughing-stock and theatrical show are distinct; first restates main",
+    "translation": "spectacle, scene",
+    "senses": [
+      "laughing stock",
+      "show, theatrical performance"
+    ],
+    "inputHash": "431a0a84"
+  },
+  {
+    "kellyId": 7034,
+    "decision": "fix",
+    "reason": "javelin throw event is distinct; first restates main",
+    "translation": "spear, javelin",
+    "senses": [
+      "javelin throw (athletics)"
+    ],
+    "inputHash": "794ac41e"
+  },
+  {
+    "kellyId": 8129,
+    "decision": "fix",
+    "reason": "sport and vegetable are two distinct senses under one main",
+    "translation": "squash",
+    "senses": [
+      "squash (the sport)",
+      "squash (the vegetable)"
+    ],
+    "inputHash": "f2f0b419"
+  },
+  {
+    "kellyId": 7220,
+    "decision": "fix",
+    "reason": "rod cell, pole vault, runic letter are distinct; first restates main",
+    "translation": "staff, rod, pole",
+    "senses": [
+      "rod cell (in the eye)",
+      "pole vault",
+      "letter (in the runic alphabet)"
+    ],
+    "inputHash": "7439db40"
+  },
+  {
+    "kellyId": 7185,
+    "decision": "fix",
+    "reason": "poker straight is distinct from ladder",
+    "translation": "ladder",
+    "senses": [
+      "straight (five cards in sequence)"
+    ],
+    "inputHash": "e76e2b4d"
+  },
+  {
+    "kellyId": 7693,
+    "decision": "fix",
+    "reason": "stiffen is distinct; solidify restates main",
+    "translation": "solidify",
+    "senses": [
+      "stiffen (become stiff)"
+    ],
+    "inputHash": "bb66fe40"
+  },
+  {
+    "kellyId": 7507,
+    "decision": "fix",
+    "reason": "printing plate is distinct; first restates main",
+    "translation": "stereotype",
+    "senses": [
+      "stereotype plate (printing, historical)"
+    ],
+    "inputHash": "efeeaf84"
+  },
+  {
+    "kellyId": 7119,
+    "decision": "fix",
+    "reason": "card-game trick is distinct; first restates main",
+    "translation": "sting",
+    "senses": [
+      "trick (in card games)"
+    ],
+    "inputHash": "1966efb8"
+  },
+  {
+    "kellyId": 7555,
+    "decision": "fix",
+    "reason": "suggest dishonesty and transitive senses are distinct; first restates main",
+    "translation": "stink, reek",
+    "senses": [
+      "stink (suggest dishonesty)",
+      "make something stink"
+    ],
+    "inputHash": "998ea240"
+  },
+  {
+    "kellyId": 7705,
+    "decision": "fix",
+    "reason": "tempestuous/passionate is a distinct figurative sense",
+    "translation": "stormy",
+    "senses": [
+      "tempestuous, passionate, wild"
+    ],
+    "inputHash": "5e702711"
+  },
+  {
+    "kellyId": 7549,
+    "decision": "fix",
+    "reason": "machine breaking down is distinct; first restates main",
+    "translation": "strike, go on strike",
+    "senses": [
+      "not work, break down (of machines)"
+    ],
+    "inputHash": "1adb8ce0"
+  },
+  {
+    "kellyId": 8020,
+    "decision": "fix",
+    "reason": "deletion, stroke, coating are distinct; first restates main",
+    "translation": "ironing",
+    "senses": [
+      "deletion, omission, cancellation",
+      "stroke (gentle, with the hand)",
+      "coat (of paint)"
+    ],
+    "inputHash": "085ae7a7"
+  },
+  {
+    "kellyId": 7060,
+    "decision": "fix",
+    "reason": "jet/squirt and geometric ray are distinct; first restates main",
+    "translation": "ray, beam",
+    "senses": [
+      "jet, squirt (narrow stream of liquid)",
+      "ray (geometric half-line)"
+    ],
+    "inputHash": "5749fd22"
+  },
+  {
+    "kellyId": 7173,
+    "decision": "fix",
+    "reason": "rigid/unyielding is a distinct sense from mute",
+    "translation": "mute",
+    "senses": [
+      "rigid, unyielding (not flexing or stretching)"
+    ],
+    "inputHash": "d09aa925"
+  },
+  {
+    "kellyId": 7991,
+    "decision": "fix",
+    "reason": "hideous/nasty is a distinct sense",
+    "translation": "naughty, mean, bad",
+    "senses": [
+      "hideous, nasty"
+    ],
+    "inputHash": "edde4052"
+  },
+  {
+    "kellyId": 7155,
+    "decision": "fix",
+    "reason": "company president is a distinct sense; first restates main",
+    "translation": "board chair",
+    "senses": [
+      "company president"
+    ],
+    "inputHash": "00938347"
+  },
+  {
+    "kellyId": 7606,
+    "decision": "fix",
+    "reason": "skilled/impressive colloquial sense is distinct; first restates main",
+    "translation": "stiff",
+    "senses": [
+      "skilled, impressive (colloquial)"
+    ],
+    "inputHash": "33536533"
+  },
+  {
+    "kellyId": 8090,
+    "decision": "fix",
+    "reason": "outfit/getup is distinct; first restates main",
+    "translation": "stand",
+    "senses": [
+      "outfit, getup"
+    ],
+    "inputHash": "f03918e1"
+  },
+  {
+    "kellyId": 7082,
+    "decision": "fix",
+    "reason": "thrust, shock, blast are distinct; first restates main",
+    "translation": "knock, jolt",
+    "senses": [
+      "thrust, lunge",
+      "electric shock",
+      "blast, blow (on a horn etc.)"
+    ],
+    "inputHash": "9ef7f389"
+  },
+  {
+    "kellyId": 8366,
+    "decision": "fix",
+    "reason": "offended/hurt is a distinct figurative sense",
+    "translation": "bumped, knocked, chipped",
+    "senses": [
+      "offended, hurt"
+    ],
+    "inputHash": "9433d185"
+  },
+  {
+    "kellyId": 7188,
+    "decision": "fix",
+    "reason": "sourness, LSD, sorrel are distinct senses",
+    "translation": "acid",
+    "senses": [
+      "sourness, tartness",
+      "acid (LSD)",
+      "sorrel (the plant)"
+    ],
+    "inputHash": "3f241dda"
+  },
+  {
+    "kellyId": 7812,
+    "decision": "fix",
+    "reason": "sawmill is a distinct sense",
+    "translation": "saw",
+    "senses": [
+      "sawmill"
+    ],
+    "inputHash": "8de6545d"
+  },
+  {
+    "kellyId": 7713,
+    "decision": "fix",
+    "reason": "dull/quiet place sense is distinct; first restates main",
+    "translation": "sleepy",
+    "senses": [
+      "sleepy, quiet (dull, without much activity)"
+    ],
+    "inputHash": "a4df0e1f"
+  },
+  {
+    "kellyId": 7453,
+    "decision": "fix",
+    "reason": "domesticated is a distinct sense",
+    "translation": "tame",
+    "senses": [
+      "domestic, domesticated"
+    ],
+    "inputHash": "9bd3f43b"
+  },
+  {
+    "kellyId": 7340,
+    "decision": "fix",
+    "reason": "geometric tangent and trig function are distinct from piano key",
+    "translation": "key",
+    "senses": [
+      "tangent (geometry)",
+      "tangent (trigonometric function)"
+    ],
+    "inputHash": "a57c20e4"
+  },
+  {
+    "kellyId": 7317,
+    "decision": "fix",
+    "reason": "hand (informal) is a distinct sense",
+    "translation": "paw",
+    "senses": [
+      "hand (informal, jocular)"
+    ],
+    "inputHash": "bc4c1606"
+  },
+  {
+    "kellyId": 8257,
+    "decision": "fix",
+    "reason": "of/relating to theatre is distinct; over-dramatic restates main",
+    "translation": "theatrical",
+    "senses": [
+      "theatrical (of or relating to the theatre)"
+    ],
+    "inputHash": "b79ae2ab"
+  },
+  {
+    "kellyId": 7968,
+    "decision": "fix",
+    "reason": "magnetic tape is distinct; first restates main",
+    "translation": "tape, sticky tape",
+    "senses": [
+      "magnetic tape (recording medium)"
+    ],
+    "inputHash": "4f9c618e"
+  },
+  {
+    "kellyId": 7801,
+    "decision": "fix",
+    "reason": "rooftop terrace is a fine-grained restatement, marginal",
+    "translation": "terrace",
+    "senses": [],
+    "inputHash": "7a03d36d"
+  },
+  {
+    "kellyId": 8263,
+    "decision": "fix",
+    "reason": "unit of measure is distinct; utensil restates main",
+    "translation": "teaspoon",
+    "senses": [
+      "teaspoon (unit of measure)"
+    ],
+    "inputHash": "fb58729c"
+  },
+  {
+    "kellyId": 7210,
+    "decision": "fix",
+    "reason": "escape/solace is distinct; first restates main",
+    "translation": "refuge",
+    "senses": [
+      "escape, solace (temporary relief)"
+    ],
+    "inputHash": "433f1b52"
+  },
+  {
+    "kellyId": 8023,
+    "decision": "fix",
+    "reason": "momentarily/temporarily is a distinct sense",
+    "translation": "by chance, accidentally",
+    "senses": [
+      "momentarily, temporarily"
+    ],
+    "inputHash": "3cc3e57c"
+  },
+  {
+    "kellyId": 8386,
+    "decision": "fix",
+    "reason": "henpecked man is a distinct colloquial sense",
+    "translation": "slipper",
+    "senses": [
+      "henpecked man (colloquial)"
+    ],
+    "inputHash": "76072e84"
+  },
+  {
+    "kellyId": 7702,
+    "decision": "fix",
+    "reason": "film/TV preview is distinct from the vehicle",
+    "translation": "trailer",
+    "senses": [
+      "trailer (film or TV preview)"
+    ],
+    "inputHash": "5ab09b17"
+  },
+  {
+    "kellyId": 7318,
+    "decision": "fix",
+    "reason": "rags and slang ball are distinct; first restates main",
+    "translation": "cloth, rag",
+    "senses": [
+      "rags (tattered clothes)",
+      "football, soccer ball (slang)"
+    ],
+    "inputHash": "949a0de6"
+  },
+  {
+    "kellyId": 7225,
+    "decision": "fix",
+    "reason": "physical and psychological trauma both just restate the main",
+    "translation": "trauma",
+    "senses": [],
+    "inputHash": "38a51ed6"
+  },
+  {
+    "kellyId": 7374,
+    "decision": "fix",
+    "reason": "lasting-three-years sense is distinct; first restates main",
+    "translation": "three-year-old",
+    "senses": [
+      "three-year (lasting three years, as of a contract)"
+    ],
+    "inputHash": "d095b435"
+  },
+  {
+    "kellyId": 7378,
+    "decision": "fix",
+    "reason": "percussion instrument is distinct; shape restates main",
+    "translation": "triangle",
+    "senses": [
+      "triangle (percussion instrument)"
+    ],
+    "inputHash": "e5ad3c75"
+  },
+  {
+    "kellyId": 7599,
+    "decision": "fix",
+    "reason": "dismalness restates the boredom main",
+    "translation": "boredom",
+    "senses": [],
+    "inputHash": "c3a76580"
+  },
+  {
+    "kellyId": 8103,
+    "decision": "fix",
+    "reason": "faith/belief (the act) is distinct; person restates main",
+    "translation": "believer",
+    "senses": [
+      "faith, belief (the act)"
+    ],
+    "inputHash": "7c6fdb21"
+  },
+  {
+    "kellyId": 7782,
+    "decision": "fix",
+    "reason": "printing is distinct; pushing restates main",
+    "translation": "pressing",
+    "senses": [
+      "printing (of books, etc.)"
+    ],
+    "inputHash": "546d1a9b"
+  },
+  {
+    "kellyId": 8139,
+    "decision": "fix",
+    "reason": "face/mug informal is distinct; pig snout restates main",
+    "translation": "snout",
+    "senses": [
+      "face, mug (informal)"
+    ],
+    "inputHash": "f9e17c64"
+  },
+  {
+    "kellyId": 7106,
+    "decision": "fix",
+    "reason": "drum and historical unit are distinct; first restates main",
+    "translation": "barrel",
+    "senses": [
+      "drum (metal or plastic container)",
+      "barrel (historical unit of volume)"
+    ],
+    "inputHash": "4fcfa3a1"
+  },
+  {
+    "kellyId": 7243,
+    "decision": "fix",
+    "reason": "thousands (large numbers) is distinct from around-a-thousand main",
+    "translation": "around one thousand",
+    "senses": [
+      "thousands (large numbers in the thousands)"
+    ],
+    "inputHash": "48c202cc"
+  },
+  {
+    "kellyId": 7274,
+    "decision": "fix",
+    "reason": "bar of soap is a fine-grained restatement of the main",
+    "translation": "soap",
+    "senses": [],
+    "uncountable": true,
+    "inputHash": "7f0dd9f9"
+  },
+  {
+    "kellyId": 7230,
+    "decision": "fix",
+    "reason": "web subpage is distinct; first restates main",
+    "translation": "underside",
+    "senses": [
+      "subpage (of a website)"
+    ],
+    "inputHash": "4e34a4d7"
+  },
+  {
+    "kellyId": 7141,
+    "decision": "fix",
+    "reason": "compliance is a distinct sense",
+    "translation": "fulfilment",
+    "senses": [
+      "compliance"
+    ],
+    "inputHash": "456a273b"
+  },
+  {
+    "kellyId": 8418,
+    "decision": "fix",
+    "reason": "sexual arousal is distinct; first restates main",
+    "translation": "excite",
+    "senses": [
+      "arouse (sexually)"
+    ],
+    "inputHash": "2032b4c4"
+  },
+  {
+    "kellyId": 7825,
+    "decision": "fix",
+    "reason": "sexual arousal is distinct; first restates main",
+    "translation": "excitement",
+    "senses": [
+      "arousal (sexual)"
+    ],
+    "inputHash": "a68e933b"
+  },
+  {
+    "kellyId": 8262,
+    "decision": "fix",
+    "reason": "suspension system/mounting is distinct; first restates main",
+    "translation": "hanging, suspension",
+    "senses": [
+      "suspension system, mounting (mechanism)"
+    ],
+    "inputHash": "6a3865ab"
+  },
+  {
+    "kellyId": 8015,
+    "decision": "fix",
+    "reason": "call up (summon) is a distinct sense",
+    "translation": "name after",
+    "senses": [
+      "call up, summon (to a meeting)"
+    ],
+    "inputHash": "6063d261"
+  },
+  {
+    "kellyId": 7826,
+    "decision": "fix",
+    "reason": "acquisition/buyout is distinct; first restates main",
+    "translation": "purchase, procurement",
+    "senses": [
+      "acquisition, buyout (of a company)"
+    ],
+    "inputHash": "9b685c2a"
+  },
+  {
+    "kellyId": 7360,
+    "decision": "fix",
+    "reason": "lineup of people is distinct; first restates main",
+    "translation": "arrangement, layout",
+    "senses": [
+      "lineup (of people)"
+    ],
+    "inputHash": "b51412e5"
+  },
+  {
+    "kellyId": 7709,
+    "decision": "fix",
+    "reason": "supervision/oversight is distinct; first restates main",
+    "translation": "look, expression",
+    "senses": [
+      "supervision, oversight"
+    ],
+    "inputHash": "7d1abf7a"
+  },
+  {
+    "kellyId": 7375,
+    "decision": "fix",
+    "reason": "disclose, abandon, extradite are distinct; first restates main",
+    "translation": "hand out, deliver",
+    "senses": [
+      "disclose, reveal",
+      "abandon, leave to one's fate",
+      "extradite"
+    ],
+    "inputHash": "0ad32a6f"
+  }
+]

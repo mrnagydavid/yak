@@ -1,0 +1,1067 @@
+[
+  {
+    "kellyId": 1253,
+    "decision": "fix",
+    "reason": "list led with the main 'cold'; kept only the distinct emotional sense",
+    "translation": "cold",
+    "senses": [
+      "cold, unfriendly (emotionally distant)"
+    ],
+    "inputHash": "4d3604fb"
+  },
+  {
+    "kellyId": 343,
+    "decision": "fix",
+    "reason": "list restated the main; kept only the distinct summon sense",
+    "translation": "call, name",
+    "senses": [
+      "call, summon"
+    ],
+    "inputHash": "d3f6ef97"
+  },
+  {
+    "kellyId": 778,
+    "decision": "fix",
+    "reason": "stripped the main; kept the distinct informal 'nag' sense",
+    "translation": "struggle, fight",
+    "senses": [
+      "old horse, nag (informal)"
+    ],
+    "inputHash": "8b0fc643"
+  },
+  {
+    "kellyId": 291,
+    "decision": "fix",
+    "reason": "first item defines the main 'hijack'; kept the distinct 'cut short' sense",
+    "translation": "hijack",
+    "senses": [
+      "cut off, shorten"
+    ],
+    "inputHash": "36d2cc90"
+  },
+  {
+    "kellyId": 1063,
+    "decision": "fix",
+    "reason": "stripped the main 'throw'; kept the distinct extended senses",
+    "translation": "throw",
+    "senses": [
+      "throw away, discard",
+      "cast (a shadow)",
+      "shed, slough (skin)"
+    ],
+    "inputHash": "92ca094c"
+  },
+  {
+    "kellyId": 1106,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct 'boyfriend' sense",
+    "translation": "guy, boy",
+    "senses": [
+      "boyfriend"
+    ],
+    "inputHash": "90285bde"
+  },
+  {
+    "kellyId": 366,
+    "decision": "fix",
+    "reason": "first item defines the main abbreviation; kept the distinct 'class' abbreviation",
+    "translation": "o'clock",
+    "senses": [
+      "class (abbreviation of klass)"
+    ],
+    "inputHash": "49bdfe6d"
+  },
+  {
+    "kellyId": 555,
+    "decision": "fix",
+    "reason": "stripped the main; kept the distinct 'clear' senses",
+    "translation": "ready, finished, done",
+    "senses": [
+      "clear (sky or water)",
+      "clear (unambiguous)"
+    ],
+    "inputHash": "24b45944"
+  },
+  {
+    "kellyId": 483,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct nuances",
+    "translation": "manage, cope",
+    "senses": [
+      "survive, come through (an accident)",
+      "make do, get by"
+    ],
+    "inputHash": "5c497933"
+  },
+  {
+    "kellyId": 1356,
+    "decision": "fix",
+    "reason": "first item defines the main computer-mouse click; kept the distinct senses",
+    "translation": "click",
+    "senses": [
+      "fail to fire, fail to work",
+      "click, get along well (with someone)"
+    ],
+    "inputHash": "0ea46da0"
+  },
+  {
+    "kellyId": 852,
+    "decision": "fix",
+    "reason": "stripped the main 'look, watch'; kept the distinct check senses",
+    "translation": "look, watch",
+    "senses": [
+      "check, examine",
+      "look up, check out"
+    ],
+    "inputHash": "ce6bdbe2"
+  },
+  {
+    "kellyId": 123,
+    "decision": "fix",
+    "reason": "first item defines the main 'come'; kept the distinct senses",
+    "translation": "come",
+    "senses": [
+      "come (to orgasm)",
+      "make, cause (to do)"
+    ],
+    "inputHash": "afc07b0e"
+  },
+  {
+    "kellyId": 967,
+    "decision": "fix",
+    "reason": "distinct 'consistency' sense, not a restatement of consequence",
+    "translation": "consequence",
+    "senses": [
+      "consistency (being consistent)"
+    ],
+    "inputHash": "71ae7df3"
+  },
+  {
+    "kellyId": 1205,
+    "decision": "fix",
+    "reason": "stripped the main 'art'; kept the distinct skill and archaic senses",
+    "translation": "art",
+    "senses": [
+      "skill, trick (the knack of something)",
+      "artificial device (archaic)"
+    ],
+    "inputHash": "5e5fc215"
+  },
+  {
+    "kellyId": 1187,
+    "decision": "fix",
+    "reason": "'artistic, skilled' is not a meaning of konstig (weird); dropped as erroneous",
+    "translation": "weird, strange",
+    "senses": [],
+    "inputHash": "674032ad"
+  },
+  {
+    "kellyId": 725,
+    "decision": "fix",
+    "reason": "kept distinct senses; all are separate from the abstract 'contact'",
+    "translation": "contact",
+    "senses": [
+      "contact, useful acquaintance",
+      "plug, connector (electrical)",
+      "electrical switch"
+    ],
+    "inputHash": "d92d6d30"
+  },
+  {
+    "kellyId": 850,
+    "decision": "fix",
+    "reason": "kept distinct concrete senses beyond abstract 'control'",
+    "translation": "control",
+    "senses": [
+      "control device (e.g. a remote control)",
+      "check, verification"
+    ],
+    "inputHash": "215bdea7"
+  },
+  {
+    "kellyId": 1245,
+    "decision": "fix",
+    "reason": "first item restates the main 'check'; kept the distinct 'control' sense",
+    "translation": "check",
+    "senses": [
+      "control, have control over"
+    ],
+    "inputHash": "9da36358"
+  },
+  {
+    "kellyId": 713,
+    "decision": "fix",
+    "reason": "'power, strength' is a distinct shade from physics 'force'",
+    "translation": "force",
+    "senses": [
+      "power, strength"
+    ],
+    "inputHash": "32a80a92"
+  },
+  {
+    "kellyId": 1220,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct 'critique, review' sense",
+    "translation": "criticize",
+    "senses": [
+      "critique, review (critically appraise)"
+    ],
+    "inputHash": "744c5f40"
+  },
+  {
+    "kellyId": 1010,
+    "decision": "fix",
+    "reason": "first item restates the main Swedish krona; kept the distinct senses",
+    "translation": "krona",
+    "senses": [
+      "krone (Danish/Norwegian currency)",
+      "crown (headwear or symbol)"
+    ],
+    "inputHash": "48993580"
+  },
+  {
+    "kellyId": 353,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct 'claim (lives)' sense",
+    "translation": "demand, require",
+    "senses": [
+      "claim (cause the death of)"
+    ],
+    "inputHash": "9bc6187a"
+  },
+  {
+    "kellyId": 815,
+    "decision": "fix",
+    "reason": "first item restates the main 'fun'; kept the distinct 'funny' sense",
+    "translation": "fun",
+    "senses": [
+      "funny (amusing)"
+    ],
+    "inputHash": "3eb416ec"
+  },
+  {
+    "kellyId": 602,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct arts and group senses",
+    "translation": "culture",
+    "senses": [
+      "culture (arts and high culture)",
+      "culture, civilisation (a distinct group)"
+    ],
+    "inputHash": "37234fa7"
+  },
+  {
+    "kellyId": 785,
+    "decision": "fix",
+    "reason": "first item restates the main royal king; kept the distinct game-piece sense",
+    "translation": "king",
+    "senses": [
+      "king (chess or cards)"
+    ],
+    "inputHash": "f0ada4e0"
+  },
+  {
+    "kellyId": 1257,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct 'a property, attribute' sense",
+    "translation": "quality",
+    "senses": [
+      "quality, property, attribute"
+    ],
+    "uncountable": true,
+    "inputHash": "6d3397c0"
+  },
+  {
+    "kellyId": 414,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct 'organization/institution' sense",
+    "translation": "church",
+    "senses": [
+      "church (organization, institution)"
+    ],
+    "inputHash": "33769d8e"
+  },
+  {
+    "kellyId": 734,
+    "decision": "fix",
+    "reason": "kept distinct concrete senses; last item was definition-prose and dropped",
+    "translation": "source",
+    "senses": [
+      "spring (where groundwater emerges)",
+      "well (of another liquid or gas)"
+    ],
+    "inputHash": "67e8c383"
+  },
+  {
+    "kellyId": 1172,
+    "decision": "fix",
+    "reason": "'struggle' is a genuinely distinct shade from 'fight'",
+    "translation": "fight",
+    "senses": [
+      "struggle"
+    ],
+    "inputHash": "82671609"
+  },
+  {
+    "kellyId": 711,
+    "decision": "fix",
+    "reason": "'famous' is a distinct common sense beyond 'known'",
+    "translation": "known",
+    "senses": [
+      "famous"
+    ],
+    "inputHash": "9ccbb066"
+  },
+  {
+    "kellyId": 207,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct 'know a person' sense",
+    "translation": "feel, sense",
+    "senses": [
+      "know (a person)"
+    ],
+    "inputHash": "ce12913d"
+  },
+  {
+    "kellyId": 842,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct 'darling' term of endearment",
+    "translation": "love",
+    "senses": [
+      "love, darling, sweetheart"
+    ],
+    "uncountable": true,
+    "inputHash": "e0cc8a39"
+  },
+  {
+    "kellyId": 398,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct figurative 'accept' sense",
+    "translation": "buy, purchase",
+    "senses": [
+      "buy, accept (an explanation)"
+    ],
+    "inputHash": "a45041b6"
+  },
+  {
+    "kellyId": 521,
+    "decision": "fix",
+    "reason": "stripped the main 'drive'; kept the distinct senses",
+    "translation": "drive",
+    "senses": [
+      "run (machinery)",
+      "push, shove",
+      "kick out, drive away"
+    ],
+    "inputHash": "c1a8f4a8"
+  },
+  {
+    "kellyId": 333,
+    "decision": "fix",
+    "reason": "first two items restate the main 'law'; kept the distinct 'brine' sense",
+    "translation": "law",
+    "senses": [
+      "brine, pickling liquid"
+    ],
+    "inputHash": "8997eb0f"
+  },
+  {
+    "kellyId": 193,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct land/countryside/plot senses",
+    "translation": "country, land",
+    "senses": [
+      "land (as opposed to sea)",
+      "countryside, rural area",
+      "plot, patch (of land)"
+    ],
+    "inputHash": "e4e1f5bd"
+  },
+  {
+    "kellyId": 326,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct senses incl. 'be bored'",
+    "translation": "lead",
+    "senses": [
+      "lead, be ahead (in competition)",
+      "lead, direct (an organisation)",
+      "be bored"
+    ],
+    "inputHash": "816b93f9"
+  },
+  {
+    "kellyId": 756,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct competition and electrical senses",
+    "translation": "leader",
+    "senses": [
+      "leader (in a race or competition)",
+      "conductor (electrical)"
+    ],
+    "inputHash": "3b91f23d"
+  },
+  {
+    "kellyId": 532,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct concrete senses",
+    "translation": "management, leadership",
+    "senses": [
+      "lead (being ahead)",
+      "wire, cable (electrical)",
+      "pipe, pipeline"
+    ],
+    "inputHash": "4f4396db"
+  },
+  {
+    "kellyId": 814,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct game and card-deck senses",
+    "translation": "play",
+    "senses": [
+      "game, activity (specific)",
+      "deck of cards"
+    ],
+    "inputHash": "a6d91442"
+  },
+  {
+    "kellyId": 346,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct senses",
+    "translation": "live, be alive",
+    "senses": [
+      "live on, live off (something)",
+      "be rowdy, be noisy"
+    ],
+    "inputHash": "ce742290"
+  },
+  {
+    "kellyId": 1393,
+    "decision": "fix",
+    "reason": "kept distinct figurative senses beyond literal 'living, live'",
+    "translation": "living, live",
+    "senses": [
+      "vibrant, vivid, lively",
+      "lit, burning (of a flame)"
+    ],
+    "inputHash": "134d693f"
+  },
+  {
+    "kellyId": 254,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct enrolment and sex senses",
+    "translation": "lie",
+    "senses": [
+      "be enrolled (at university)",
+      "have sex (with)"
+    ],
+    "inputHash": "e6cb5df0"
+  },
+  {
+    "kellyId": 211,
+    "decision": "fix",
+    "reason": "'alike, same' is a distinct shade from 'resembling'",
+    "translation": "looking like, resembling",
+    "senses": [
+      "alike, the same"
+    ],
+    "inputHash": "27645565"
+  },
+  {
+    "kellyId": 584,
+    "decision": "fix",
+    "reason": "'like' as filler is a distinct shade from 'sort of, kind of'",
+    "translation": "sort of, kind of",
+    "senses": [
+      "like (as a filler word)"
+    ],
+    "inputHash": "1a0af84e"
+  },
+  {
+    "kellyId": 921,
+    "decision": "fix",
+    "reason": "kept distinct senses beyond the generic 'line'",
+    "translation": "line",
+    "senses": [
+      "bus or transit line",
+      "phone or network line",
+      "wrinkle (on face or hand)"
+    ],
+    "inputHash": "7df0b799"
+  },
+  {
+    "kellyId": 1003,
+    "decision": "fix",
+    "reason": "distinct homograph 'strip, molding' beyond 'cunning'",
+    "translation": "smartness, trick, cunning",
+    "senses": [
+      "strip, beading, molding (thin piece of wood or metal)"
+    ],
+    "inputHash": "dc854c4a"
+  },
+  {
+    "kellyId": 172,
+    "decision": "fix",
+    "reason": "'somewhat' merely restates the main 'a little, to a small extent'",
+    "translation": "a little, to a small extent",
+    "senses": [],
+    "inputHash": "e0676ace"
+  },
+  {
+    "kellyId": 106,
+    "decision": "fix",
+    "reason": "first item restates the main size sense; kept the distinct age and lowercase senses",
+    "translation": "small, little",
+    "senses": [
+      "young, little (of a child)",
+      "small, lowercase (of a letter)"
+    ],
+    "inputHash": "2d8aeec2"
+  },
+  {
+    "kellyId": 1248,
+    "decision": "fix",
+    "reason": "'assure, vouch' shades the main; 'praise, laud' is a distinct sense",
+    "translation": "promise",
+    "senses": [
+      "assure, vouch",
+      "praise, laud"
+    ],
+    "inputHash": "b02215eb"
+  },
+  {
+    "kellyId": 678,
+    "decision": "fix",
+    "reason": "'tilt' shades the main 'slope'; kept the distinct lye senses",
+    "translation": "slope",
+    "senses": [
+      "tilt, lean",
+      "soak in lye, prepare lutfisk"
+    ],
+    "inputHash": "0b36af3a"
+  },
+  {
+    "kellyId": 330,
+    "decision": "fix",
+    "reason": "'succeed' is a distinct shade from 'manage'",
+    "translation": "manage",
+    "senses": [
+      "succeed"
+    ],
+    "inputHash": "79fd96c7"
+  },
+  {
+    "kellyId": 1097,
+    "decision": "fix",
+    "reason": "sole item merely defines the main 'lift'",
+    "translation": "lift",
+    "senses": [],
+    "inputHash": "d5b386a0"
+  },
+  {
+    "kellyId": 491,
+    "decision": "fix",
+    "reason": "first two items restate the main; kept the distinct amount and pitch senses",
+    "translation": "low, short",
+    "senses": [
+      "low, small (amount or value)",
+      "low-pitched, deep (of sound)"
+    ],
+    "inputHash": "9971b7cb"
+  },
+  {
+    "kellyId": 338,
+    "decision": "fix",
+    "reason": "'tall (of a person)' is a distinct sense from 'long'",
+    "translation": "long",
+    "senses": [
+      "tall (of a person)"
+    ],
+    "inputHash": "cfeaf356"
+  },
+  {
+    "kellyId": 974,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct 'noise, ruckus' sense",
+    "translation": "song, tune, track",
+    "senses": [
+      "noise, ruckus"
+    ],
+    "inputHash": "92495f03"
+  },
+  {
+    "kellyId": 212,
+    "decision": "fix",
+    "reason": "both senses are the main (already a two-part translation); nothing distinct remains",
+    "translation": "sound; let, allow",
+    "senses": [],
+    "inputHash": "38186357"
+  },
+  {
+    "kellyId": 909,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct situation and opportunity senses",
+    "translation": "position, location",
+    "senses": [
+      "situation, state (of affairs)",
+      "opportunity (a favourable moment)"
+    ],
+    "inputHash": "2cf981e9"
+  },
+  {
+    "kellyId": 339,
+    "decision": "fix",
+    "reason": "stripped the main 'leave'; kept the distinct hand-over sense",
+    "translation": "leave",
+    "senses": [
+      "leave, drop off (deposit)",
+      "leave, hand over (transfer responsibility)"
+    ],
+    "inputHash": "570593a7"
+  },
+  {
+    "kellyId": 1300,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct historical sense",
+    "translation": "county",
+    "senses": [
+      "fief, fiefdom (historical)"
+    ],
+    "inputHash": "6521856a"
+  },
+  {
+    "kellyId": 627,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct abstract and chain senses",
+    "translation": "link",
+    "senses": [
+      "link, connection (abstract)",
+      "chain"
+    ],
+    "inputHash": "a64cb1d4"
+  },
+  {
+    "kellyId": 335,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct learn and modal senses",
+    "translation": "teach, instruct",
+    "senses": [
+      "learn, study (oneself)",
+      "be said to, supposedly",
+      "be likely to, bound to"
+    ],
+    "inputHash": "e3d2fffc"
+  },
+  {
+    "kellyId": 208,
+    "decision": "fix",
+    "reason": "kept distinct study and interpret senses beyond plain 'read'",
+    "translation": "read",
+    "senses": [
+      "study, read (at university)",
+      "read, interpret (more generally)"
+    ],
+    "inputHash": "d3c14540"
+  },
+  {
+    "kellyId": 1068,
+    "decision": "fix",
+    "reason": "kept distinct senses beyond a person who reads",
+    "translation": "reader",
+    "senses": [
+      "pietist (lay Bible reader)",
+      "reader device"
+    ],
+    "inputHash": "388cc3a9"
+  },
+  {
+    "kellyId": 610,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct easy, low-fat, low-alcohol senses",
+    "translation": "light; easy",
+    "senses": [
+      "easy, not difficult",
+      "light, low-fat",
+      "light, low-alcohol"
+    ],
+    "inputHash": "97998aaa"
+  },
+  {
+    "kellyId": 767,
+    "decision": "fix",
+    "reason": "'lightly' is a distinct shade from 'easily'",
+    "translation": "easily",
+    "senses": [
+      "lightly, with little force"
+    ],
+    "inputHash": "4bda011d"
+  },
+  {
+    "kellyId": 1056,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct 'reward' sense",
+    "translation": "salary, wage",
+    "senses": [
+      "reward (for a deed)"
+    ],
+    "inputHash": "cd5c1f3d"
+  },
+  {
+    "kellyId": 851,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct resolve, dissolve, loosen senses",
+    "translation": "solve",
+    "senses": [
+      "work out, resolve itself",
+      "dissolve (a substance)",
+      "loosen, release"
+    ],
+    "inputHash": "ea8b9782"
+  },
+  {
+    "kellyId": 699,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct chemistry sense",
+    "translation": "solution",
+    "senses": [
+      "solution (chemistry: homogeneous mixture)"
+    ],
+    "inputHash": "a4e332f0"
+  },
+  {
+    "kellyId": 970,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct political sense",
+    "translation": "majority",
+    "senses": [
+      "ruling coalition (in parliament or council)"
+    ],
+    "inputHash": "77f46edd"
+  },
+  {
+    "kellyId": 469,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct 'a power/nation' sense",
+    "translation": "power, might",
+    "senses": [
+      "power (a nation with great influence)"
+    ],
+    "inputHash": "5297bf2d"
+  },
+  {
+    "kellyId": 919,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct plot and figurative senses",
+    "translation": "ground",
+    "senses": [
+      "land, plot (an area of land)",
+      "ground (distance or progress, figurative)"
+    ],
+    "inputHash": "1bc01d8e"
+  },
+  {
+    "kellyId": 612,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct customer-group and fair senses",
+    "translation": "market",
+    "senses": [
+      "market (group of customers or economic area)",
+      "market, fair (organised event)"
+    ],
+    "inputHash": "79e47106"
+  },
+  {
+    "kellyId": 432,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct crowd and colloquial senses",
+    "translation": "mass",
+    "senses": [
+      "mass, crowd (of people)",
+      "a lot of, loads of (colloquial)"
+    ],
+    "inputHash": "1dfecd3d"
+  },
+  {
+    "kellyId": 940,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct 'subject matter' sense",
+    "translation": "material",
+    "senses": [
+      "matter, subject (of study)"
+    ],
+    "uncountable": true,
+    "inputHash": "c1f004ba"
+  },
+  {
+    "kellyId": 104,
+    "decision": "fix",
+    "reason": "kept distinct prepositional senses beyond core 'with'",
+    "translation": "with, together with, in the company of",
+    "senses": [
+      "including, containing",
+      "by, by means of",
+      "at, in, on (expressing manner)",
+      "to (in 'lika med' = equal to)"
+    ],
+    "inputHash": "d7d35710"
+  },
+  {
+    "kellyId": 1029,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct agent, funds, average senses",
+    "translation": "means",
+    "senses": [
+      "agent, substance (for a purpose)",
+      "funds, money",
+      "mean, average"
+    ],
+    "inputHash": "b37b87b1"
+  },
+  {
+    "kellyId": 1297,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct 'bring along' sense",
+    "translation": "entail, bring about",
+    "senses": [
+      "bring along (e.g. luggage)"
+    ],
+    "inputHash": "a43e60b3"
+  },
+  {
+    "kellyId": 490,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct channel and spiritualist senses",
+    "translation": "medium",
+    "senses": [
+      "medium (substance or channel)",
+      "medium (person communicating with spirits)"
+    ],
+    "inputHash": "617bbb5e"
+  },
+  {
+    "kellyId": 1302,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct 'sentient' sense",
+    "translation": "conscious, aware",
+    "senses": [
+      "conscious (having experiences, sentient)"
+    ],
+    "inputHash": "9cf3f433"
+  },
+  {
+    "kellyId": 371,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct 'think, believe' and 'intend' senses",
+    "translation": "mean",
+    "senses": [
+      "think, believe (hold an opinion)",
+      "mean, intend"
+    ],
+    "inputHash": "9129c864"
+  },
+  {
+    "kellyId": 1230,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct verse and device senses",
+    "translation": "metre",
+    "senses": [
+      "metre (rhythm in verse)",
+      "meter (measuring device)"
+    ],
+    "inputHash": "74f13a51"
+  },
+  {
+    "kellyId": 827,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct nature and social-setting senses",
+    "translation": "environment",
+    "senses": [
+      "the natural environment, nature",
+      "milieu (social setting)"
+    ],
+    "inputHash": "8580ac24"
+  },
+  {
+    "kellyId": 155,
+    "decision": "fix",
+    "reason": "'mine' is the distinct predicative/absolute form of the possessive 'my'",
+    "translation": "my",
+    "senses": [
+      "mine"
+    ],
+    "inputHash": "ef11f5ab"
+  },
+  {
+    "kellyId": 1241,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct recollection, computer, souvenir senses",
+    "translation": "memory",
+    "senses": [
+      "memory, recollection (a specific event)",
+      "computer memory, RAM",
+      "remembrance, souvenir"
+    ],
+    "inputHash": "2da6a714"
+  },
+  {
+    "kellyId": 834,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct angle and 'moment' senses",
+    "translation": "minute",
+    "senses": [
+      "minute (unit of angle)",
+      "moment, short while"
+    ],
+    "inputHash": "450be622"
+  },
+  {
+    "kellyId": 648,
+    "decision": "fix",
+    "reason": "'mission, task' restates the main; kept the distinct religious sense",
+    "translation": "mission",
+    "senses": [
+      "mission (religious evangelism)"
+    ],
+    "inputHash": "ae050cc4"
+  },
+  {
+    "kellyId": 1092,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct abstract, product, role-model, fashion senses",
+    "translation": "model",
+    "senses": [
+      "model (abstract or mathematical)",
+      "model, type (of a product)",
+      "role model, example",
+      "model (fashion or photo)"
+    ],
+    "inputHash": "02130761"
+  },
+  {
+    "kellyId": 780,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct 'fashionable' sense",
+    "translation": "modern",
+    "senses": [
+      "fashionable, trendy"
+    ],
+    "inputHash": "2907c160"
+  },
+  {
+    "kellyId": 159,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct 'against' and 'versus' senses",
+    "translation": "to, toward",
+    "senses": [
+      "against",
+      "versus, vs."
+    ],
+    "inputHash": "a43dced6"
+  },
+  {
+    "kellyId": 823,
+    "decision": "fix",
+    "reason": "distinct parliamentary 'motion' sense beyond 'exercise'",
+    "translation": "exercise",
+    "senses": [
+      "motion (a proposal from a member of parliament)"
+    ],
+    "inputHash": "8376bbe6"
+  },
+  {
+    "kellyId": 128,
+    "decision": "fix",
+    "reason": "'very' is a distinct intensifier sense beyond 'much, a lot'",
+    "translation": "much, a lot",
+    "senses": [
+      "very"
+    ],
+    "inputHash": "474ed27b"
+  },
+  {
+    "kellyId": 559,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct influence and legal-age senses",
+    "translation": "authority",
+    "senses": [
+      "authority (power, influence)",
+      "legal majority, adulthood"
+    ],
+    "inputHash": "a5803543"
+  },
+  {
+    "kellyId": 735,
+    "decision": "fix",
+    "reason": "kept distinct 'must (presumably)' and 'feel/be well' senses beyond modal 'may'",
+    "translation": "may",
+    "senses": [
+      "must, presumably (can be assumed to)",
+      "feel, be (well or ill)"
+    ],
+    "inputHash": "7303bd5f"
+  },
+  {
+    "kellyId": 619,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct crowd and set senses",
+    "translation": "amount, quantity",
+    "senses": [
+      "crowd, large group",
+      "set (mathematics)"
+    ],
+    "inputHash": "99b71bbe"
+  },
+  {
+    "kellyId": 192,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct collective 'humanity' sense",
+    "translation": "human being, person",
+    "senses": [
+      "mankind, humanity (collective)"
+    ],
+    "inputHash": "affd3886"
+  },
+  {
+    "kellyId": 1100,
+    "decision": "fix",
+    "reason": "kept distinct 'mark, label' and figurative senses beyond 'notice'",
+    "translation": "notice",
+    "senses": [
+      "mark, label (for reference)",
+      "scar, leave a lasting mark on",
+      "single out publicly"
+    ],
+    "inputHash": "48603233"
+  },
+  {
+    "kellyId": 595,
+    "decision": "fix",
+    "reason": "first item shades the main; kept the distinct competition sense",
+    "translation": "meet",
+    "senses": [
+      "meet, encounter (and pass)",
+      "meet, face (in a competition)"
+    ],
+    "inputHash": "1d43b3a5"
+  },
+  {
+    "kellyId": 660,
+    "decision": "fix",
+    "reason": "first item restates the main; kept the distinct competition sense",
+    "translation": "meeting",
+    "senses": [
+      "meeting (a competition)"
+    ],
+    "inputHash": "54a74d2b"
+  },
+  {
+    "kellyId": 1289,
+    "decision": "fix",
+    "reason": "first item shades the main; kept the distinct Swedish student-nation sense",
+    "translation": "nation, country, state",
+    "senses": [
+      "nation, people",
+      "student nation (fraternity by home province)"
+    ],
+    "inputHash": "7b850c25"
+  }
+]

@@ -46,17 +46,30 @@ async function main() {
     }
   }
 
-  // Stamp the sense markers the sense pass produced so a runtime production card can group true
-  // synonyms by sense (kellyId → {key, gloss}).
+  // Stamp what the sense/gloss pass produced onto each production slot: the synonym-grouping KEY and a
+  // production GLOSS. The primary carries both on `e.sense` (`{ key, gloss }`); each promoted altMeaning
+  // carries its own `senseKey` + `gloss`. The KEY is stamped whenever the slot is part of a partitioned
+  // (≥2-producer) concept — even a single-sense one — so its synonyms GROUP into one multi-answer card
+  // (e.g. husband → make + man). The GLOSS is BLANKED when its English phrase is single-sense (no
+  // ambiguity to resolve) — the fix for §12, where the old rule blanked any singleton *sense*, emptying
+  // guidance on multi-sense phrases. The "must not echo the prompt" match is kept as a safety net (an
+  // echo adds no signal). Multi-sense phrases keep their guidance; a slot's `key`/`senseKey` is retained
+  // even when its gloss blanks, so grouping is unaffected.
+  const resolveGloss = (stamp, promptText) =>
+    stamp.conceptSenses <= 1 || sameText(stamp.gloss, promptText) ? '' : stamp.gloss
   let senseCount = 0
   for (const e of finalEntries) {
-    const s = senses.get(e.kellyId)
-    if (s) {
-      // Drop a singleton sense's gloss when it just echoes the card's own translation (= the prompt).
-      // Full-string match so a gloss adding real nuance is kept. Key retained so grouping is unaffected.
-      const gloss = s.single && sameText(s.gloss, e.translation) ? '' : s.gloss
-      e.sense = { key: s.key, gloss }
+    const primary = senses.get(`${e.kellyId}:0`)
+    if (primary) {
+      e.sense = { key: primary.key, gloss: resolveGloss(primary, e.translation) }
       senseCount++
+    }
+    for (const m of e.altMeanings ?? []) {
+      const stamp = senses.get(`${e.kellyId}:${m.key}`)
+      if (!stamp) continue
+      m.senseKey = stamp.key // grouping key — always stamped so same-sense synonyms group (route → led/rutt/sträckning)
+      const g = resolveGloss(stamp, m.translation)
+      if (g) m.gloss = g // absent when unambiguous (keeps the entry lean); when grouped it shows once on the group card
     }
   }
 

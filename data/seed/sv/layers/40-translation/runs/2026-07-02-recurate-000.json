@@ -1,0 +1,1037 @@
+[
+  {
+    "kellyId": 434,
+    "decision": "fix",
+    "reason": "dropped leading 'act (theatrical)' which restates the main",
+    "translation": "act",
+    "senses": [
+      "ceremony",
+      "document",
+      "attention, intent"
+    ],
+    "inputHash": "c35b1dea"
+  },
+  {
+    "kellyId": 1281,
+    "decision": "fix",
+    "reason": "dropped leading operation/intervention which restates the main",
+    "translation": "operation, intervention",
+    "senses": [
+      "naval battle",
+      "legal action, prosecution",
+      "action (of a machine)"
+    ],
+    "inputHash": "85fd287b"
+  },
+  {
+    "kellyId": 1043,
+    "decision": "fix",
+    "reason": "'active (in the active voice)' and 'active, top' merely restate the main",
+    "translation": "active",
+    "senses": [],
+    "inputHash": "6217bb51"
+  },
+  {
+    "kellyId": 963,
+    "decision": "fix",
+    "reason": "dropped leading current/topical restatement",
+    "translation": "current, topical",
+    "senses": [
+      "being planned, on the agenda"
+    ],
+    "inputHash": "002bda51"
+  },
+  {
+    "kellyId": 561,
+    "decision": "fix",
+    "reason": "dropped leading 'general (universal)' restatement",
+    "translation": "general",
+    "senses": [
+      "public, common"
+    ],
+    "inputHash": "298bea8a"
+  },
+  {
+    "kellyId": 1118,
+    "decision": "fix",
+    "reason": "distinct sense beyond 'generally' preserved",
+    "translation": "generally",
+    "senses": [
+      "publicly"
+    ],
+    "inputHash": "cf16e49a"
+  },
+  {
+    "kellyId": 624,
+    "decision": "fix",
+    "reason": "distinct sense preserved",
+    "translation": "increasingly, more and more",
+    "senses": [
+      "sure, for sure"
+    ],
+    "inputHash": "c5aabfc2"
+  },
+  {
+    "kellyId": 304,
+    "decision": "fix",
+    "reason": "dropped leading therefore/thus restatement",
+    "translation": "therefore, thus",
+    "senses": [
+      "that is, in other words, I mean",
+      "well, so (filler, discourse marker)"
+    ],
+    "inputHash": "c53b0dd3"
+  },
+  {
+    "kellyId": 1125,
+    "decision": "fix",
+    "reason": "'serious (solemn)' and 'serious, severe, grave' both restate the main",
+    "translation": "serious",
+    "senses": [
+      "solemn, grave (not joking)"
+    ],
+    "inputHash": "ff68d6cd"
+  },
+  {
+    "kellyId": 576,
+    "decision": "fix",
+    "reason": "both items restate 'American'; distinct shade is the pan-American sense",
+    "translation": "American",
+    "senses": [
+      "of the Americas"
+    ],
+    "inputHash": "ecc4d420"
+  },
+  {
+    "kellyId": 1376,
+    "decision": "fix",
+    "reason": "'to' merely restates the directional particle sense",
+    "translation": "on, towards (verb particle)",
+    "senses": [],
+    "inputHash": "695ba1c7"
+  },
+  {
+    "kellyId": 1075,
+    "decision": "fix",
+    "reason": "dropped leading 'analysis' restatement",
+    "translation": "analysis",
+    "senses": [
+      "calculus (differential or integral)"
+    ],
+    "inputHash": "9b2c54ac"
+  },
+  {
+    "kellyId": 1060,
+    "decision": "fix",
+    "reason": "both items restate share/proportion",
+    "translation": "share, proportion",
+    "senses": [],
+    "inputHash": "dc4ece25"
+  },
+  {
+    "kellyId": 1198,
+    "decision": "fix",
+    "reason": "distinct senses beyond lead/command preserved",
+    "translation": "lead, command",
+    "senses": [
+      "conduct (an orchestra)",
+      "state, put forward, adduce",
+      "quote"
+    ],
+    "inputHash": "b17a633d"
+  },
+  {
+    "kellyId": 818,
+    "decision": "fix",
+    "reason": "dropped leading indicate/point out restatement",
+    "translation": "indicate, point out",
+    "senses": [
+      "report (to the police), turn in"
+    ],
+    "inputHash": "1eb88755"
+  },
+  {
+    "kellyId": 1228,
+    "decision": "fix",
+    "reason": "dropped leading suspicion/idea restatement",
+    "translation": "suspicion, idea, notion",
+    "senses": [
+      "a bit, a touch (small amount)"
+    ],
+    "inputHash": "103e6471"
+  },
+  {
+    "kellyId": 536,
+    "decision": "fix",
+    "reason": "'cause' merely defines/restates 'reason'",
+    "translation": "reason",
+    "senses": [],
+    "inputHash": "7aee7a24"
+  },
+  {
+    "kellyId": 652,
+    "decision": "fix",
+    "reason": "dropped leading assume/suppose restatement",
+    "translation": "assume, suppose",
+    "senses": [
+      "accept (an offer)",
+      "admit (to a school, programme)"
+    ],
+    "inputHash": "e74e6af0"
+  },
+  {
+    "kellyId": 391,
+    "decision": "fix",
+    "reason": "all items restate 'work'",
+    "translation": "work",
+    "senses": [],
+    "inputHash": "62ad365b"
+  },
+  {
+    "kellyId": 1143,
+    "decision": "fix",
+    "reason": "distinct shade preserved",
+    "translation": "worker",
+    "senses": [
+      "blue-collar worker, manual labourer"
+    ],
+    "inputHash": "ccf287b5"
+  },
+  {
+    "kellyId": 290,
+    "decision": "fix",
+    "reason": "distinct physics sense preserved; restatements dropped",
+    "translation": "work, job",
+    "senses": [
+      "work (physics, energy)"
+    ],
+    "inputHash": "cdb7fcc6"
+  },
+  {
+    "kellyId": 863,
+    "decision": "fix",
+    "reason": "dropped leading restatement; programming sense preserved",
+    "translation": "argument",
+    "senses": [
+      "argument (programming, value passed to a function)"
+    ],
+    "inputHash": "59a38396"
+  },
+  {
+    "kellyId": 268,
+    "decision": "fix",
+    "reason": "dropped leading newspaper-article restatement",
+    "translation": "article",
+    "senses": [
+      "clause (in a legal document)",
+      "item, product",
+      "article (grammar)"
+    ],
+    "inputHash": "48b01ee4"
+  },
+  {
+    "kellyId": 97,
+    "decision": "fix",
+    "reason": "distinct prepositional senses preserved",
+    "translation": "from",
+    "senses": [
+      "by (passive agent)",
+      "of (material, e.g. made of wood)",
+      "of (part of a whole)"
+    ],
+    "inputHash": "88c00868"
+  },
+  {
+    "kellyId": 1190,
+    "decision": "fix",
+    "reason": "dropped leading determine/decide restatement",
+    "translation": "determine, decide",
+    "senses": [
+      "be the deciding factor, score the winner (sports)"
+    ],
+    "inputHash": "a9555050"
+  },
+  {
+    "kellyId": 839,
+    "decision": "fix",
+    "reason": "dropped leading picture-background restatement",
+    "translation": "background",
+    "senses": [
+      "origins, heritage (of a person)"
+    ],
+    "inputHash": "71b14124"
+  },
+  {
+    "kellyId": 986,
+    "decision": "fix",
+    "reason": "dropped leading 'band' restatement",
+    "translation": "band",
+    "senses": [
+      "volume (of a book or series)",
+      "tape, ribbon",
+      "bond, tie"
+    ],
+    "inputHash": "e4d8a1e7"
+  },
+  {
+    "kellyId": 922,
+    "decision": "fix",
+    "reason": "distinct non-financial senses preserved",
+    "translation": "bank",
+    "senses": [
+      "bank (of a river or lake)",
+      "sandbank"
+    ],
+    "inputHash": "e70f03ba"
+  },
+  {
+    "kellyId": 230,
+    "decision": "fix",
+    "reason": "all items restate 'child'",
+    "translation": "child",
+    "senses": [],
+    "inputHash": "1ed915cc"
+  },
+  {
+    "kellyId": 944,
+    "decision": "fix",
+    "reason": "dropped leading located/situated restatement",
+    "translation": "be located, be situated",
+    "senses": [
+      "be in a (temporary) state or condition"
+    ],
+    "inputHash": "49194a42"
+  },
+  {
+    "kellyId": 900,
+    "decision": "fix",
+    "reason": "dropped leading concept/notion restatement",
+    "translation": "concept",
+    "senses": [
+      "understanding, grasp",
+      "household name, well-known thing"
+    ],
+    "inputHash": "be74b529"
+  },
+  {
+    "kellyId": 864,
+    "decision": "fix",
+    "reason": "dropped leading treat/process restatement",
+    "translation": "treat, process",
+    "senses": [
+      "treat (medically)",
+      "treat (someone a certain way)",
+      "deal with, cover (a subject)"
+    ],
+    "inputHash": "ddd1f0f9"
+  },
+  {
+    "kellyId": 1217,
+    "decision": "fix",
+    "reason": "dropped leading treatment/processing restatement",
+    "translation": "treatment, processing",
+    "senses": [
+      "treatment (medical)",
+      "treatment (of a person)",
+      "treatment (of a subject)"
+    ],
+    "inputHash": "8f0aaeb5"
+  },
+  {
+    "kellyId": 692,
+    "decision": "fix",
+    "reason": "distinct senses beyond 'depend' preserved",
+    "translation": "depend",
+    "senses": [
+      "be caused by, be due to",
+      "be shelved, be set aside"
+    ],
+    "inputHash": "3936b708"
+  },
+  {
+    "kellyId": 798,
+    "decision": "fix",
+    "reason": "both items restate/define 'decide'",
+    "translation": "decide",
+    "senses": [],
+    "inputHash": "a0c82333"
+  },
+  {
+    "kellyId": 786,
+    "decision": "fix",
+    "reason": "dropped leading consist/be-made-of restatement",
+    "translation": "consist of, be made of",
+    "senses": [
+      "endure, persist, survive"
+    ],
+    "inputHash": "a2c5a418"
+  },
+  {
+    "kellyId": 543,
+    "decision": "fix",
+    "reason": "distinct senses beyond 'decide' preserved",
+    "translation": "decide",
+    "senses": [
+      "be in charge, call the shots",
+      "determine (something)",
+      "modify (grammar)"
+    ],
+    "inputHash": "bfd62d51"
+  },
+  {
+    "kellyId": 854,
+    "decision": "fix",
+    "reason": "distinct destination/destiny sense preserved; stipulation restates provision",
+    "translation": "provision",
+    "senses": [
+      "destination, destiny, mission"
+    ],
+    "inputHash": "ad82a119"
+  },
+  {
+    "kellyId": 1032,
+    "decision": "fix",
+    "reason": "distinct archaic search sense preserved",
+    "translation": "visit",
+    "senses": [
+      "examine, search through"
+    ],
+    "inputHash": "4d3801c2"
+  },
+  {
+    "kellyId": 397,
+    "decision": "fix",
+    "reason": "dropped leading graze restatement",
+    "translation": "graze",
+    "senses": [
+      "beta-test (software)",
+      "steal (slang)"
+    ],
+    "inputHash": "582e51c4"
+  },
+  {
+    "kellyId": 448,
+    "decision": "fix",
+    "reason": "distinct figurative senses preserved; definition of 'pay' dropped",
+    "translation": "pay",
+    "senses": [
+      "pay off, be worth it",
+      "get one's revenge (pay someone back)"
+    ],
+    "inputHash": "abb4a9e4"
+  },
+  {
+    "kellyId": 956,
+    "decision": "fix",
+    "reason": "dropped leading look-at/observe restatement",
+    "translation": "look at, observe",
+    "senses": [
+      "regard, consider (as something)"
+    ],
+    "inputHash": "206043f5"
+  },
+  {
+    "kellyId": 151,
+    "decision": "fix",
+    "reason": "distinct figurative senses preserved",
+    "translation": "mean",
+    "senses": [
+      "matter, be important (to someone)",
+      "result in, lead to"
+    ],
+    "inputHash": "62f3a6ac"
+  },
+  {
+    "kellyId": 620,
+    "decision": "fix",
+    "reason": "distinct sense beyond meaning/sense preserved",
+    "translation": "meaning, sense",
+    "senses": [
+      "importance, significance"
+    ],
+    "inputHash": "f089886f"
+  },
+  {
+    "kellyId": 1070,
+    "decision": "fix",
+    "reason": "dropped leading 'contribution' restatement",
+    "translation": "contribution",
+    "senses": [
+      "grant, subsidy, benefit (government or social)"
+    ],
+    "inputHash": "b2ec4a67"
+  },
+  {
+    "kellyId": 894,
+    "decision": "fix",
+    "reason": "dropped leading form/create restatement",
+    "translation": "form, create",
+    "senses": [
+      "educate, cultivate (general knowledge)"
+    ],
+    "inputHash": "6437cc69"
+  },
+  {
+    "kellyId": 626,
+    "decision": "fix",
+    "reason": "dropped leading education/culture restatement",
+    "translation": "education, culture",
+    "senses": [
+      "formation, buildup (geological, biological)"
+    ],
+    "inputHash": "5813fe1d"
+  },
+  {
+    "kellyId": 1337,
+    "decision": "fix",
+    "reason": "dropped leading piece restatement",
+    "translation": "piece",
+    "senses": [
+      "stretch, way (a certain distance)",
+      "tune (music)"
+    ],
+    "inputHash": "2de908e7"
+  },
+  {
+    "kellyId": 122,
+    "decision": "fix",
+    "reason": "distinct senses beyond 'become' preserved",
+    "translation": "become",
+    "senses": [
+      "stay, remain",
+      "will be (future/passive auxiliary)"
+    ],
+    "inputHash": "6ce518a7"
+  },
+  {
+    "kellyId": 846,
+    "decision": "fix",
+    "reason": "dropped leading bourgeois/citizen restatement",
+    "translation": "bourgeois, citizen",
+    "senses": [
+      "non-socialist (in Swedish politics)"
+    ],
+    "inputHash": "bb6b30b2"
+  },
+  {
+    "kellyId": 1036,
+    "decision": "fix",
+    "reason": "distinct senses beyond bourgeois/middle-class preserved",
+    "translation": "bourgeois, middle-class",
+    "senses": [
+      "non-socialist (in Swedish politics)",
+      "civil (non-religious, e.g. civil marriage)"
+    ],
+    "inputHash": "5fbba7cf"
+  },
+  {
+    "kellyId": 1362,
+    "decision": "fix",
+    "reason": "dropped leading away/gone restatement",
+    "translation": "away, gone",
+    "senses": [
+      "out of it, absent-minded (of a person)"
+    ],
+    "inputHash": "47b73146"
+  },
+  {
+    "kellyId": 166,
+    "decision": "fix",
+    "reason": "dropped leading 'good' restatement",
+    "translation": "good",
+    "senses": [
+      "well, recovered (after illness)",
+      "quite a lot (in extent or degree)"
+    ],
+    "inputHash": "1070d06b"
+  },
+  {
+    "kellyId": 400,
+    "decision": "fix",
+    "reason": "dropped leading 'well' restatement",
+    "translation": "well",
+    "senses": [
+      "quite, a good deal (to a large extent)"
+    ],
+    "inputHash": "21029ae5"
+  },
+  {
+    "kellyId": 1168,
+    "decision": "fix",
+    "reason": "dropped leading written-communication restatement",
+    "translation": "letter",
+    "senses": [
+      "charter, legal certificate",
+      "post (on an internet forum)"
+    ],
+    "inputHash": "5e906374"
+  },
+  {
+    "kellyId": 715,
+    "decision": "fix",
+    "reason": "dropped leading 'crime' restatement",
+    "translation": "crime",
+    "senses": [
+      "break, fracture (point of breaking)"
+    ],
+    "inputHash": "b9b52108"
+  },
+  {
+    "kellyId": 361,
+    "decision": "fix",
+    "reason": "dropped leading used-to/tend-to restatement",
+    "translation": "used to, tend to",
+    "senses": [
+      "use, employ (for a purpose)"
+    ],
+    "inputHash": "59630e93"
+  },
+  {
+    "kellyId": 704,
+    "decision": "fix",
+    "reason": "distinct senses beyond 'break' preserved",
+    "translation": "break",
+    "senses": [
+      "break off, end abruptly",
+      "violate (a law or rule)",
+      "speak with an accent"
+    ],
+    "inputHash": "79ae4eef"
+  },
+  {
+    "kellyId": 957,
+    "decision": "fix",
+    "reason": "dropped leading village/hamlet restatement",
+    "translation": "village",
+    "senses": [
+      "farm (in place names)"
+    ],
+    "inputHash": "0ad70502"
+  },
+  {
+    "kellyId": 340,
+    "decision": "fix",
+    "reason": "distinct figurative sense preserved",
+    "translation": "build",
+    "senses": [
+      "be based on, rest on"
+    ],
+    "inputHash": "95f6e592"
+  },
+  {
+    "kellyId": 832,
+    "decision": "fix",
+    "reason": "distinct exchange sense preserved; switch restatements dropped",
+    "translation": "switch",
+    "senses": [
+      "exchange, swap",
+      "change, replace"
+    ],
+    "inputHash": "815e6166"
+  },
+  {
+    "kellyId": 1006,
+    "decision": "fix",
+    "reason": "dropped leading located-in-centre restatement",
+    "translation": "central",
+    "senses": [
+      "key, main (important)"
+    ],
+    "inputHash": "945e7a58"
+  },
+  {
+    "kellyId": 1381,
+    "decision": "fix",
+    "reason": "distinct noun sense preserved; adjective restatement dropped",
+    "translation": "civil, civilian",
+    "senses": [
+      "civilian (person not in military or police)"
+    ],
+    "inputHash": "cd11332a"
+  },
+  {
+    "kellyId": 190,
+    "decision": "fix",
+    "reason": "distinct daytime sense preserved",
+    "translation": "day",
+    "senses": [
+      "daytime (as opposed to night)"
+    ],
+    "inputHash": "1560c7d9"
+  },
+  {
+    "kellyId": 515,
+    "decision": "fix",
+    "reason": "dropped leading share/divide restatement",
+    "translation": "share, divide",
+    "senses": [
+      "share, have in common",
+      "split up, divide into parts"
+    ],
+    "inputHash": "263f8336"
+  },
+  {
+    "kellyId": 770,
+    "decision": "fix",
+    "reason": "dropped leading supporter-of-democracy restatement",
+    "translation": "democrat",
+    "senses": [
+      "Democrat (member of the US Democratic Party)"
+    ],
+    "inputHash": "a3b152b0"
+  },
+  {
+    "kellyId": 146,
+    "decision": "fix",
+    "reason": "distinct pronoun senses beyond 'it' preserved",
+    "translation": "it",
+    "senses": [
+      "that (common gender)",
+      "the one, whoever"
+    ],
+    "inputHash": "5120aaeb"
+  },
+  {
+    "kellyId": 91,
+    "decision": "fix",
+    "reason": "distinct temporal sense preserved",
+    "translation": "its",
+    "senses": [
+      "then, by then (in 'sen dess', 'till dess')"
+    ],
+    "inputHash": "6c026dc4"
+  },
+  {
+    "kellyId": 92,
+    "decision": "fix",
+    "reason": "distinct pronoun senses beyond 'it' preserved",
+    "translation": "it",
+    "senses": [
+      "impersonal subject (e.g. det regnar = it is raining)",
+      "that (demonstrative)"
+    ],
+    "inputHash": "7ff4113a"
+  },
+  {
+    "kellyId": 541,
+    "decision": "fix",
+    "reason": "distinct senses beyond 'directly' preserved",
+    "translation": "directly",
+    "senses": [
+      "immediately, right away",
+      "not exactly, really not"
+    ],
+    "inputHash": "8e199d48"
+  },
+  {
+    "kellyId": 789,
+    "decision": "fix",
+    "reason": "dropped leading movement-toward restatement",
+    "translation": "there, that way",
+    "senses": [
+      "where (to the place where)"
+    ],
+    "inputHash": "7a5b3f84"
+  },
+  {
+    "kellyId": 325,
+    "decision": "fix",
+    "reason": "dropped leading pull/drag restatement",
+    "translation": "pull",
+    "senses": [
+      "tell, crack (a joke or story)"
+    ],
+    "inputHash": "4190117b"
+  },
+  {
+    "kellyId": 856,
+    "decision": "fix",
+    "reason": "dropped leading strike/affect/befall restatement",
+    "translation": "strike, affect, befall",
+    "senses": [
+      "clash, do battle"
+    ],
+    "inputHash": "4c3f775d"
+  },
+  {
+    "kellyId": 744,
+    "decision": "fix",
+    "reason": "distinct senses beyond feature/trait preserved",
+    "translation": "feature, trait, characteristic",
+    "senses": [
+      "move (in a game)",
+      "draught (current of air)",
+      "lure, fishing spoon"
+    ],
+    "inputHash": "bab0a060"
+  },
+  {
+    "kellyId": 1404,
+    "decision": "fix",
+    "reason": "distinct figurative sense preserved",
+    "translation": "expensive",
+    "senses": [
+      "dear, precious, cherished"
+    ],
+    "inputHash": "92054229"
+  },
+  {
+    "kellyId": 154,
+    "decision": "fix",
+    "reason": "dropped 'at that time' restatement of 'then'",
+    "translation": "then",
+    "senses": [
+      "in that case",
+      "what about, how about"
+    ],
+    "inputHash": "a7a06608"
+  },
+  {
+    "kellyId": 1031,
+    "decision": "fix",
+    "reason": "dropped leading legal sentence/judge restatement",
+    "translation": "sentence, judge",
+    "senses": [
+      "deem, judge (form an opinion)",
+      "referee, umpire (sports)"
+    ],
+    "inputHash": "bf82f7ae"
+  },
+  {
+    "kellyId": 1307,
+    "decision": "fix",
+    "reason": "distinct doorway sense preserved",
+    "translation": "door",
+    "senses": [
+      "doorway"
+    ],
+    "inputHash": "6efe5694"
+  },
+  {
+    "kellyId": 1323,
+    "decision": "fix",
+    "reason": "dropped leading solemn-pledge restatement",
+    "translation": "oath",
+    "senses": [
+      "swear word, curse"
+    ],
+    "inputHash": "28f637c5"
+  },
+  {
+    "kellyId": 722,
+    "decision": "fix",
+    "reason": "dropped leading result restatement",
+    "translation": "effect",
+    "senses": [
+      "special effect, detail (artistic)",
+      "power (physics)",
+      "belongings, personal effects"
+    ],
+    "inputHash": "ad12a3b0"
+  },
+  {
+    "kellyId": 169,
+    "decision": "fix",
+    "reason": "distinct prepositional senses beyond 'after' preserved",
+    "translation": "after",
+    "senses": [
+      "for (seeking, in pursuit of)",
+      "along, by (one after another)"
+    ],
+    "inputHash": "76c183c2"
+  },
+  {
+    "kellyId": 242,
+    "decision": "fix",
+    "reason": "dropped leading 'own' restatement",
+    "translation": "own",
+    "senses": [
+      "peculiar, odd, eccentric"
+    ],
+    "inputHash": "3fcb7712"
+  },
+  {
+    "kellyId": 126,
+    "decision": "fix",
+    "reason": "distinct 'nor' sense preserved",
+    "translation": "or",
+    "senses": [
+      "nor"
+    ],
+    "inputHash": "efb80a0b"
+  },
+  {
+    "kellyId": 1181,
+    "decision": "fix",
+    "reason": "dropped leading England/English-language restatement",
+    "translation": "English",
+    "senses": [
+      "British (loosely, of Great Britain)"
+    ],
+    "inputHash": "78c2ea03"
+  },
+  {
+    "kellyId": 723,
+    "decision": "fix",
+    "reason": "dropped leading restatement; distinct senses preserved",
+    "translation": "unit",
+    "senses": [
+      "unit (organized group)",
+      "device, item (sold singly)",
+      "unity (state of being united)"
+    ],
+    "inputHash": "03f46498"
+  },
+  {
+    "kellyId": 589,
+    "decision": "fix",
+    "reason": "dropped leading simple/easy restatement",
+    "translation": "simple, easy",
+    "senses": [
+      "single (not double, e.g. one-way)"
+    ],
+    "inputHash": "c40dbb0a"
+  },
+  {
+    "kellyId": 528,
+    "decision": "fix",
+    "reason": "distinct 'lonely' sense preserved",
+    "translation": "alone",
+    "senses": [
+      "lonely"
+    ],
+    "inputHash": "17487c22"
+  },
+  {
+    "kellyId": 643,
+    "decision": "fix",
+    "reason": "dropped leading individual/separate restatement",
+    "translation": "individual, private",
+    "senses": [
+      "private (as opposed to public or state)"
+    ],
+    "inputHash": "1e94a713"
+  },
+  {
+    "kellyId": 315,
+    "decision": "fix",
+    "reason": "dropped leading plural-object restatement",
+    "translation": "you",
+    "senses": [
+      "your, yours (plural)"
+    ],
+    "inputHash": "3ef5d2c3"
+  },
+  {
+    "kellyId": 772,
+    "decision": "fix",
+    "reason": "distinct expertise sense preserved",
+    "translation": "experience",
+    "senses": [
+      "expertise"
+    ],
+    "inputHash": "e750f7d2"
+  },
+  {
+    "kellyId": 1054,
+    "decision": "fix",
+    "reason": "dropped leading admit/acknowledge restatement",
+    "translation": "admit",
+    "senses": [
+      "recognize (formally, e.g. a state)"
+    ],
+    "inputHash": "a1ddf13f"
+  },
+  {
+    "kellyId": 1105,
+    "decision": "fix",
+    "reason": "distinct compensate sense preserved",
+    "translation": "replace",
+    "senses": [
+      "compensate, reimburse"
+    ],
+    "inputHash": "8e6c912c"
+  },
+  {
+    "kellyId": 1236,
+    "decision": "fix",
+    "reason": "distinct compensation sense preserved",
+    "translation": "replacement",
+    "senses": [
+      "compensation, payment"
+    ],
+    "inputHash": "0b8401ed"
+  },
+  {
+    "kellyId": 1256,
+    "decision": "fix",
+    "reason": "dropped leading contributing-cause restatement",
+    "translation": "factor",
+    "senses": [
+      "factor (in multiplication)"
+    ],
+    "inputHash": "74685c3f"
+  },
+  {
+    "kellyId": 667,
+    "decision": "fix",
+    "reason": "distinct battle-death sense preserved",
+    "translation": "fall",
+    "senses": [
+      "fall, die (in battle)"
+    ],
+    "inputHash": "d4d52ed1"
+  },
+  {
+    "kellyId": 1051,
+    "decision": "fix",
+    "reason": "dropped leading amazing restatement; distinct 'unreal' shade kept",
+    "translation": "fantastic",
+    "senses": [
+      "unreal, imaginary"
+    ],
+    "inputHash": "ff84d60a"
+  },
+  {
+    "kellyId": 1103,
+    "decision": "fix",
+    "reason": "distinct 'but' sense preserved",
+    "translation": "even though",
+    "senses": [
+      "but"
+    ],
+    "inputHash": "365cd6f5"
+  },
+  {
+    "kellyId": 1152,
+    "decision": "fix",
+    "reason": "dropped leading caught/stuck restatement",
+    "translation": "caught, stuck",
+    "senses": [
+      "fixed, firm",
+      "although, but"
+    ],
+    "inputHash": "45455ddb"
+  },
+  {
+    "kellyId": 1343,
+    "decision": "fix",
+    "reason": "dropped leading caught/captured restatement",
+    "translation": "caught, captured",
+    "senses": [
+      "fixed, firm",
+      "solid (not liquid)"
+    ],
+    "inputHash": "31626ae8"
+  },
+  {
+    "kellyId": 1390,
+    "decision": "fix",
+    "reason": "dropped leading establish/determine restatement",
+    "translation": "establish, determine",
+    "senses": [
+      "fix, set (decide finally)"
+    ],
+    "inputHash": "65785571"
+  }
+]

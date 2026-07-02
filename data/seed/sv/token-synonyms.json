@@ -1,0 +1,51 @@
+{
+  "_doc": "Token-level synonym verdicts (SEED-PIPELINE-DESIGN.md §4.8, Approach A). A solo promoted meaning whose English TOKENS (comma/semicolon pieces, not just the first) are produced by another Swedish word never groups under first-token identity (normTr). This file is the human ruling on each such collision, surfaced by `pnpm seed:detect-token-synonyms`. `merges`: extra concepts handed to the gloss/sense pass (layer 50) so genuine synonyms group — the gloss-curator then partitions each into senses. `keepSeparate`: collisions ruled different-sense/too-marginal, left solo; recorded so the standing guard doesn't re-flag them. Edit here, then re-run the gloss pass over the affected concepts (batch-token-synonyms → gloss-curator → seed:build).",
+  "merges": [
+    {
+      "english": "relation, relationship",
+      "members": [{ "kellyId": 1004, "meaningKey": 0 }, { "kellyId": 738, "meaningKey": 1 }],
+      "note": "förhållande#1 'relationship' ↔ relation 'relation, relationship' — same sense (a social/romantic relationship)."
+    },
+    {
+      "english": "delete, erase",
+      "members": [{ "kellyId": 3383, "meaningKey": 0 }, { "kellyId": 2561, "meaningKey": 1 }],
+      "note": "stryka#1 'cross out, delete' ↔ radera 'delete, erase' — same sense (delete text)."
+    },
+    {
+      "english": "creature, being",
+      "members": [{ "kellyId": 2353, "meaningKey": 0 }, { "kellyId": 3838, "meaningKey": 1 }],
+      "note": "väsen#1 'being, creature' ↔ varelse 'creature, being' — same sense (a living being)."
+    },
+    {
+      "english": "premium, prize",
+      "members": [{ "kellyId": 6148, "meaningKey": 0 }, { "kellyId": 591, "meaningKey": 1 }],
+      "note": "pris#1 'prize' ↔ premie 'premium, prize' — overlap on prize/reward (curator may keep premie's 'premium' distinct)."
+    },
+    {
+      "english": "saucepan, pot, pan",
+      "members": [{ "kellyId": 7502, "meaningKey": 0 }, { "kellyId": 4112, "meaningKey": 1 }],
+      "note": "panna#1 'pan, pot' ↔ kastrull 'saucepan, pot, pan' — same sense (cookware); near-synonyms (frying pan vs saucepan)."
+    },
+    {
+      "english": "steal",
+      "members": [{ "kellyId": 2536, "meaningKey": 0 }, { "kellyId": 4875, "meaningKey": 1 }],
+      "note": "sno#1 'nick, steal' (informal) ↔ stjäla 'steal' — same sense (take what isn't yours)."
+    },
+    {
+      "english": "register",
+      "members": [{ "kellyId": 2313, "meaningKey": 0 }, { "kellyId": 3200, "meaningKey": 0 }, { "kellyId": 502, "meaningKey": 1 }],
+      "note": "anmäla#1 'sign up, register' ↔ registrera 'register' (verb) — same sense; reconstitutes the existing 'register' concept so registrera and anmäla share the verb sense while the noun register (3200, an index/directory) stays its own sense."
+    }
+  ],
+  "keepSeparate": [
+    { "slot": { "kellyId": 1708, "meaningKey": 1 }, "note": "laga#1 'cook, prepare' (verb) shares 'cook' with kock 'chef, cook' (a cook, noun) and 'prepare' with bereda/förbereda — different sense/POS." },
+    { "slot": { "kellyId": 2510, "meaningKey": 1 }, "note": "fond#1 'broth, stock' (cooking) shares 'stock' with aktie (financial), bestånd/upplag (inventory) — different sense." },
+    { "slot": { "kellyId": 496, "meaningKey": 1 }, "note": "regel#1 'bolt, bar' shares 'bar' with bar (pub/counter) and stång (rod) — different sense." },
+    { "slot": { "kellyId": 3736, "meaningKey": 1 }, "note": "klipp#1 'bargain, good deal' (a bargain, noun) shares 'bargain' with förhandla 'negotiate, bargain' (to bargain, verb) — different sense/POS." },
+    { "slot": { "kellyId": 1622, "meaningKey": 1 }, "note": "skuld#1 'guilt, blame' (noun) shares 'blame' with skylla 'blame' (to blame, verb) — different POS." },
+    { "slot": { "kellyId": 4584, "meaningKey": 1 }, "note": "rock#1 'rock, rock and roll' (music) shares 'rock' with klippa 'cliff, rock' (stone) — different sense." },
+    { "slot": { "kellyId": 3700, "meaningKey": 2 }, "note": "back#2 'crate' (a bottle crate) shares 'crate' with box 'box, crate' — near but distinct objects; box is C1 rare, low value; keep separate (over-merging teaches a false synonym)." },
+    { "slot": { "kellyId": 5222, "meaningKey": 1 }, "note": "golf#1 'gulf' shares 'gulf' with bukt 'bay, gulf' — plausible but marginal (golf is chiefly the sport); keep separate to avoid reconstituting the clean 'bay, inlet, creek' concept for a niche B2 sense." },
+    { "slot": { "kellyId": 4175, "meaningKey": 1 }, "note": "uppgång#1 'staircase, entrance' is a conflated phrase spanning two sense-families (staircase → trappa; entrance → ingång/entré) — a slot can carry only one grouping key, so keep the self-describing prompt solo." }
+  ]
+}

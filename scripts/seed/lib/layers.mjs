@@ -89,6 +89,21 @@ export async function loadBase() {
 }
 export const layerDir = (layer) => `${SEED_DIR}/layers/${layer.id}-${layer.name}`
 
+// Token-synonym merges (SEED-PIPELINE-DESIGN.md §4.8): the human-curated widening of concept
+// detection from first-token identity (`normTr`) to token overlap, scoped to the solo promoted
+// meanings that need it. `merges` are extra concepts to hand the gloss/sense pass — each a full,
+// explicit member set + a stable `english` — so a promoted meaning whose synonym lives under a later
+// token (panna's "pan, pot" ↔ kastrull "saucepan, pot, pan") can group. `keepSeparate` records the
+// collisions a human ruled "different sense, stay solo" (laga/kock, skuld/skylla…) so the standing
+// guard (detect-token-synonyms.mjs) knows they're reviewed and doesn't re-flag them. Absent file →
+// empty (safe bootstrap). See groupConcepts.
+export async function loadTokenSynonyms() {
+  const file = `${SEED_DIR}/token-synonyms.json`
+  if (!existsSync(file)) return { merges: [], keepSeparate: [] }
+  const j = JSON.parse(await readFile(file, 'utf-8'))
+  return { merges: j.merges ?? [], keepSeparate: j.keepSeparate ?? [] }
+}
+
 // A layer's top-level decision file(s), merged last-wins by kellyId. runs/ (a subdir) and stale.json
 // are ignored here — only the compile/stale tools read those. Used for `decisions`, `translation`,
 // `examples` layers (all kellyId-keyed). The `senses` layer is a concept list — see loadSenseStamps.
@@ -104,17 +119,26 @@ export async function loadLayerById(layer) {
   return byId
 }
 
-// The senses layer's compiled concept list → Map(kellyId → {key, gloss, single}). (Ported verbatim.)
+// The gloss pass's compiled concept list → Map("kellyId:meaningKey" → {key, gloss, conceptSenses}).
+// A member is either a bare kellyId (legacy primary-only answers → meaningKey 0) or {kellyId,
+// meaningKey} (the §12 expansion, which can point at a promoted altMeaning). `conceptSenses` is how
+// many senses the English phrase carries — the reducer blanks a gloss only when the phrase is
+// single-sense (no ambiguity), never when it has sibling senses. `key` (`english#i`) is the synonym
+// grouping key; only the primary slot uses it (altMeaning grouping is deferred, §12 non-goal).
 export async function loadSenseStamps(layer) {
   const file = `${layerDir(layer)}/decisions.json`
   const byId = new Map()
   if (!existsSync(file)) return byId
   for (const concept of JSON.parse(await readFile(file, 'utf-8'))) {
-    ;(concept.senses ?? []).forEach((s, i) => {
+    const senses = concept.senses ?? []
+    senses.forEach((s, i) => {
       const key = `${concept.english}#${i}`
       const gloss = (s.gloss ?? '').trim()
-      const single = (s.members ?? []).length === 1
-      for (const kellyId of s.members ?? []) byId.set(kellyId, { key, gloss, single })
+      for (const m of s.members ?? []) {
+        const kellyId = typeof m === 'number' ? m : m.kellyId
+        const meaningKey = typeof m === 'number' ? 0 : (m.meaningKey ?? 0)
+        byId.set(`${kellyId}:${meaningKey}`, { key, gloss, conceptSenses: senses.length })
+      }
     })
   }
   return byId
@@ -125,7 +149,7 @@ export async function loadSenseStamps(layer) {
 // translationMap / exampleMap: the layer-40 / layer-60 maps, or null to exclude (batchers freeze input
 // by passing only the layers *below* the layer being batched). Returns entries + drop/omit counts.
 // This is byte-for-byte the original apply-decisions inner loop; only the input sourcing is injected.
-export function resolveEntries(base, { decisionMapsLowToHigh = [], translationMap = null, exampleMap = null } = {}) {
+export function resolveEntries(base, { decisionMapsLowToHigh = [], translationMap = null, exampleMap = null, splitMap = null } = {}) {
   const entries = []
   let dropped = 0
   for (const c of base) {
@@ -143,11 +167,44 @@ export function resolveEntries(base, { decisionMapsLowToHigh = [], translationMa
     if (!translation) continue // no translation yet (unmatched, pending cleanup) → omit
     let subDefinitions
     if (td && Array.isArray(td.senses)) {
-      const list = td.senses.map(cleanTranslation).filter(Boolean)
-      subDefinitions = list.length >= 2 ? list : []
+      // `senses` is now the word's OTHER possible meanings — the primary (and any promoted meaning)
+      // are excluded by the curator. So ANY non-empty list is meaningful. The old `>= 2` guard assumed
+      // the list led with the primary (a lone entry meant "just the primary restated" → drop it); that
+      // no longer holds. (multi-meaning design §4.8 / subDefinitions = "other meanings only")
+      subDefinitions = td.senses.map(cleanTranslation).filter(Boolean)
     } else {
       const subSource = isFix ? (d.proposedSubDefinitions ?? c.subDefinitions) : c.subDefinitions
       subDefinitions = (subSource ?? []).map(cleanTranslation).filter(Boolean)
+    }
+    // Meaning-list partition (multi-meaning design): the split layer (45) promotes distinct meanings
+    // into their own production cards (`altMeanings`) and repartitions the reference list wholesale.
+    // manual(90) — the highest decisions layer, so `d` here — outranks the split layer. `altMeanings`
+    // is a field no other layer writes, so a word that declares no split is byte-identical to before.
+    let altMeanings
+    const splitRec = splitMap?.get(c.kellyId)
+    const partition = d?.altMeanings ? d : splitRec?.altMeanings ? splitRec : null
+    if (partition) {
+      // A promoted meaning's gloss AND its grouping key come wholesale from the sense pass (layer 50,
+      // stamped by the reducer) — never from the split/manual layer here. A split-layer gloss is only a
+      // candidate the sense pass may adopt; a manual (90) split sits ABOVE the pass, so it can't be
+      // glossed or grouped (author splittable meanings in 45-split, not 90). So altMeanings carry only
+      // their translation here; the reducer adds `gloss` + `senseKey`. (§12 grouping follow-up)
+      // Senses the primary already carries (its comma/semicolon-joined pieces). A promoted meaning that
+      // duplicates one of these is a curation echo (primary "circle; circuit" + promoted "circuit"),
+      // not a real split — drop it. Also dedupes promoted meanings against each other. (safety)
+      const taken = new Set(translation.toLowerCase().split(/[;,]/).map((s) => s.trim()).filter(Boolean))
+      altMeanings = []
+      for (const m of partition.altMeanings ?? []) {
+        const t = bareNative(c.pos, cleanTranslation(typeof m === 'string' ? m : (m.translation ?? '')))
+        if (!t) continue
+        const firstSense = t.toLowerCase().split(/[;,]/)[0].trim()
+        if (taken.has(t.toLowerCase()) || taken.has(firstSense)) continue
+        taken.add(t.toLowerCase())
+        taken.add(firstSense)
+        const enUncountable = typeof m === 'object' && m.enUncountable === true
+        altMeanings.push({ key: altMeanings.length + 1, translation: t, ...(enUncountable ? { enUncountable: true } : {}) })
+      }
+      subDefinitions = (partition.subDefinitions ?? []).map(cleanTranslation).filter(Boolean)
     }
     const enUncountable = td?.uncountable === true
     const svUncountable = d?.svUncountable === true
@@ -164,6 +221,7 @@ export function resolveEntries(base, { decisionMapsLowToHigh = [], translationMa
       ...(ipa ? { ipa: cleanIpa(ipa) } : {}),
       ...(Object.keys(c.inflections).length ? { inflections: c.inflections } : {}),
       ...(subDefinitions.length ? { subDefinitions } : {}),
+      ...(altMeanings?.length ? { altMeanings } : {}),
       ...(enUncountable ? { enUncountable: true } : {}),
       ...(svUncountable ? { svUncountable: true } : {}),
       ...(examples.length ? { examples } : {}),
@@ -179,40 +237,69 @@ export async function loadResolutionContext(manifest, { upToExclusive = Infinity
   const decisionMapsLowToHigh = []
   let translationMap = null
   let exampleMap = null
+  let splitMap = null
   for (const layer of manifest) {
     if (layer.id >= upToExclusive) continue
     if (layer.kind === 'decisions') decisionMapsLowToHigh.push(await loadLayerById(layer))
     else if (layer.kind === 'translation') translationMap = await loadLayerById(layer)
     else if (layer.kind === 'examples') exampleMap = await loadLayerById(layer)
+    else if (layer.kind === 'split') splitMap = await loadLayerById(layer)
   }
-  return { decisionMapsLowToHigh, translationMap, exampleMap }
+  return { decisionMapsLowToHigh, translationMap, exampleMap, splitMap }
 }
 
 // ---- assembled views: base + layers → the shipped shape (or a frozen "layers below" view) ----
-// Production grouping: a "concept" is one English translation carried by ≥2 Swedish answers. Grouped
-// on the primary gloss (normTr). Returns the member shape the sense-partitioner is shown. (Ported.)
-export function groupConcepts(finalEntries) {
-  const byTranslation = new Map()
+// Production grouping: a "concept" is one English phrase produced by ≥2 Swedish MEANING-SLOTS. A slot
+// is a primary translation (meaningKey 0) OR a promoted altMeaning (§12 expansion — a promoted meaning
+// like `route` of `led` competes for its English against other Swedish words too). Grouped by the
+// phrase's primary sense (normTr). The member shape is the gloss pass's frozen INPUT — lean, so it
+// re-stales only when the producing slot-set changes (cefr/subDefinitions/examples are supplementary
+// context the batcher adds, not identity). `english` = the first PRIMARY slot's phrase, so it stays
+// byte-identical to the old primary-only grouping for every pre-existing concept (reconcile-safe).
+// `merges` (from loadTokenSynonyms) widen detection beyond first-token identity for a curated set of
+// solo promoted meanings: each merge lists a full slot set that should be considered ONE concept and
+// carries a stable `english`. A slot named in any merge is pulled out of normal first-token bucketing
+// and placed only in its merge concept, so the two never double-count. Because every merged slot was
+// either solo (its first-token bucket had <2 members) or explicitly re-listed to reconstitute an
+// existing concept, first-token concepts NOT named in a merge stay byte-identical (Approach A: tiny
+// blast radius). Member order (primaries first, then promoted, both in finalEntries order) is kept for
+// merge concepts too, so their staleness hash is deterministic.
+export function groupConcepts(finalEntries, merges = []) {
+  const primaries = []
+  const promoted = []
   for (const e of finalEntries) {
-    const k = normTr(e.translation)
+    primaries.push({ kellyId: e.kellyId, meaningKey: 0, lemma: e.lemma, pos: e.pos, cefr: e.cefr, promoted: false, translation: e.translation })
+    for (const m of e.altMeanings ?? [])
+      promoted.push({ kellyId: e.kellyId, meaningKey: m.key, lemma: e.lemma, pos: e.pos, cefr: e.cefr, promoted: true, translation: m.translation })
+  }
+  const allSlots = [...primaries, ...promoted]
+  const shape = (p) => ({ kellyId: p.kellyId, meaningKey: p.meaningKey, lemma: p.lemma, pos: p.pos, promoted: p.promoted })
+  const mergedIds = new Set()
+  for (const g of merges) for (const m of g.members) mergedIds.add(`${m.kellyId}:${m.meaningKey}`)
+
+  const byPhrase = new Map()
+  // Primaries first so a group's rows[0] (→ its `english`) is the first primary — stable across the
+  // grouping change; promoted slots then join the phrases they compete for. Merge-owned slots skip
+  // first-token bucketing entirely (they belong only to their merge concept).
+  for (const p of allSlots) {
+    if (mergedIds.has(`${p.kellyId}:${p.meaningKey}`)) continue
+    const k = normTr(p.translation)
     if (!k) continue
-    if (byTranslation.has(k) === false) byTranslation.set(k, [])
-    byTranslation.get(k).push(e)
+    if (byPhrase.has(k) === false) byPhrase.set(k, [])
+    byPhrase.get(k).push(p)
   }
   const concepts = []
-  for (const rows of byTranslation.values()) {
+  for (const rows of byPhrase.values()) {
     if (rows.length < 2) continue
-    concepts.push({
-      english: rows[0].translation,
-      members: rows.map((e) => ({
-        kellyId: e.kellyId,
-        lemma: e.lemma,
-        pos: e.pos,
-        cefr: e.cefr,
-        ...(e.subDefinitions?.length ? { subDefinitions: e.subDefinitions } : {}),
-        ...(e.examples?.length ? { examples: e.examples } : {}),
-      })),
-    })
+    concepts.push({ english: rows[0].translation, members: rows.map(shape) })
+  }
+  // Curated token-overlap concepts, appended. `english` is explicit (stable across re-runs); members
+  // are gathered in finalEntries scan order. A merge that resolves to <2 present slots is skipped —
+  // the detect-token-synonyms guard reports it rather than the build silently minting a solo "concept".
+  for (const g of merges) {
+    const rows = allSlots.filter((p) => g.members.some((m) => m.kellyId === p.kellyId && m.meaningKey === p.meaningKey))
+    if (rows.length < 2) continue
+    concepts.push({ english: g.english ?? rows[0].translation, members: rows.map(shape) })
   }
   return concepts
 }
@@ -250,7 +337,8 @@ export async function assemble(manifest, { upToExclusive = Infinity } = {}) {
   const ctx = await loadResolutionContext(manifest, { upToExclusive })
   const { entries, dropped, omitted } = resolveEntries(base, ctx)
   const finalEntries = collapseDuplicates(entries, { quiet: upToExclusive !== Infinity })
-  return { finalEntries, concepts: groupConcepts(finalEntries), ambiguous: computeAmbiguous(finalEntries), dropped, omitted }
+  const { merges } = await loadTokenSynonyms()
+  return { finalEntries, concepts: groupConcepts(finalEntries, merges), ambiguous: computeAmbiguous(finalEntries), dropped, omitted }
 }
 
 // ---- staleness: frozen input → short hash ----
@@ -278,7 +366,7 @@ export const wordFrozenInput = (e) => ({
 export async function computeInputHashes(manifest) {
   const out = {}
   for (const layer of manifest) {
-    if (layer.kind === 'translation' || layer.kind === 'examples') {
+    if (layer.kind === 'translation' || layer.kind === 'examples' || layer.kind === 'split') {
       const { finalEntries } = await assemble(manifest, { upToExclusive: layer.id })
       out[layer.kind] = new Map(finalEntries.map((e) => [e.kellyId, shortHash(wordFrozenInput(e))]))
     } else if (layer.kind === 'senses') {

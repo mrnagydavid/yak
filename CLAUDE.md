@@ -57,4 +57,8 @@ Push to `main` → `.github/workflows/deploy.yml` builds and publishes `dist/` t
 via `peaceiris/actions-gh-pages`. Custom domain `yak.mrnagydavid.dev` (`public/CNAME`).
 
 ## Current Phase
-Step 0: scaffolding — blank three-tab shell, build/deploy pipeline. No schema, SRS, or seed yet.
+Core app is built: Dexie schema, FSRS scheduling, the Swedish→English seed, and the three-tab UI
+(Practice / Vocabulary / Profile). Recent feature: **multi-meaning words** — a word's distinct English
+meanings become separate production cards (recognition stays per-word). How the seed is built and edited
+— layers, field ownership, the split/gloss/grouping passes, and re-run recipes — lives in
+`SEED-PIPELINE-DESIGN.md` (see §4.8 for multi-meaning words).

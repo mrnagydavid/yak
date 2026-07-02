@@ -8,6 +8,7 @@ interface SeedEntry {
   cefr: string
   gender?: string
   translation: string
+  altMeanings?: { key: number; translation: string }[]
   examples?: string[]
 }
 
@@ -56,5 +57,30 @@ describe('Swedish seed integrity', () => {
       for (const r of rows) if ((r.examples?.length ?? 0) === 0) missing.push(`${lemma} [${r.pos}]`)
     }
     expect(missing).toEqual([])
+  })
+
+  // Multi-meaning split (altMeanings): a promoted meaning must be a real, distinct extra sense — never
+  // a duplicate of the primary translation, and never repeated. meaningKeys are the stable 1..N run.
+  it('keeps promoted altMeanings distinct from the primary and from each other', () => {
+    const norm = (s: string) => s.toLowerCase().trim()
+    const primarySenses = (t: string) => new Set(norm(t).split(/[;,]/).map((x) => x.trim()).filter(Boolean))
+    const bad: string[] = []
+    for (const e of seed.entries) {
+      if (!e.altMeanings?.length) continue
+      const prim = primarySenses(e.translation)
+      const seen = new Set<string>()
+      const keys: number[] = []
+      for (const m of e.altMeanings) {
+        const first = norm(m.translation).split(/[;,]/)[0].trim()
+        if (!m.translation.trim()) bad.push(`${e.lemma}: empty altMeaning`)
+        if (prim.has(first) || prim.has(norm(m.translation))) bad.push(`${e.lemma}: altMeaning "${m.translation}" echoes primary "${e.translation}"`)
+        if (seen.has(first)) bad.push(`${e.lemma}: duplicate altMeaning "${m.translation}"`)
+        seen.add(first)
+        keys.push(m.key)
+      }
+      // meaningKeys are the append-only 1..N (primary is 0, never in altMeanings).
+      if (keys.some((k) => k < 1) || new Set(keys).size !== keys.length) bad.push(`${e.lemma}: bad meaningKeys ${JSON.stringify(keys)}`)
+    }
+    expect(bad).toEqual([])
   })
 })

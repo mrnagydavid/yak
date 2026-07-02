@@ -77,6 +77,23 @@ export class YakDB extends Dexie {
     // v5: persisted in-progress session, so a page refresh resumes the same queue/position instead
     // of recomposing. Singleton keyed by id ('active'). Created empty; no data migration needed.
     this.version(5).stores({ activeSessions: 'id' })
+    // v6: multi-meaning words — a target word may link to several native meanings, each its own
+    // scheduled card. Translation gains meaningKey + primary (see types.ts). No index change (the
+    // composer scans a whole language anyway); existing single links become the primary (meaningKey 0).
+    this.version(6).upgrade((tx) =>
+      tx
+        .table('translations')
+        .toCollection()
+        .modify((t: Record<string, unknown>) => {
+          t.meaningKey = 0
+          t.primary = true
+        }),
+    )
+    // Note: Translation later gained two optional, non-indexed fields — `gloss` (a promoted meaning's
+    // production hint, §12) and `senseKey` (a promoted meaning's production-grouping key, §12 grouping
+    // follow-up). No version bump — Dexie stores whole objects, so old rows simply lack them (reads
+    // fall back to entry.sense.{gloss,key}), and seed-sync repopulates them on the next shipped seed
+    // update (the change flips the seed version → updateSeedTarget writes them).
   }
 }
 

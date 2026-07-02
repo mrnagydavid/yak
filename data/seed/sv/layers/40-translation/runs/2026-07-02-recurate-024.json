@@ -1,0 +1,269 @@
+[
+  {
+    "kellyId": 7203,
+    "decision": "fix",
+    "reason": "both sub-defs merely restate the main's two facets (activity/paper)",
+    "translation": "printout, print job",
+    "senses": [],
+    "inputHash": "f8779afc"
+  },
+  {
+    "kellyId": 7077,
+    "decision": "fix",
+    "reason": "delicious is a distinct food/taste sense",
+    "translation": "exquisite",
+    "senses": [
+      "delicious"
+    ],
+    "inputHash": "6dfb0f8b"
+  },
+  {
+    "kellyId": 7194,
+    "decision": "fix",
+    "reason": "distinct roles beyond janitor/caretaker",
+    "translation": "janitor, caretaker",
+    "senses": [
+      "attendant, doorman",
+      "warden, watchman"
+    ],
+    "inputHash": "68645a53"
+  },
+  {
+    "kellyId": 7201,
+    "decision": "fix",
+    "reason": "both items just restate vacuum",
+    "translation": "vacuum",
+    "senses": [],
+    "inputHash": "771df157"
+  },
+  {
+    "kellyId": 7589,
+    "decision": "fix",
+    "reason": "guiding people and waxing skis are distinct senses; drop niche billiards",
+    "translation": "herd",
+    "senses": [
+      "guide (tourists or visitors)",
+      "apply ski wax"
+    ],
+    "inputHash": "0f7ad6d3"
+  },
+  {
+    "kellyId": 7189,
+    "decision": "fix",
+    "reason": "watering plants restates main; eyes/mouth watering is distinct",
+    "translation": "water",
+    "senses": [
+      "water (of the eyes or mouth)"
+    ],
+    "inputHash": "cdd4956a"
+  },
+  {
+    "kellyId": 7624,
+    "decision": "fix",
+    "reason": "anatomy restates main; bentgrass is a distinct botanical sense",
+    "translation": "vein",
+    "senses": [
+      "bentgrass (a grass genus)"
+    ],
+    "inputHash": "841f051a"
+  },
+  {
+    "kellyId": 7718,
+    "decision": "fix",
+    "reason": "first item restates valve; vent is distinct",
+    "translation": "valve",
+    "senses": [
+      "vent, air inlet or outlet"
+    ],
+    "inputHash": "9e2c30c8"
+  },
+  {
+    "kellyId": 7961,
+    "decision": "fix",
+    "reason": "physical touch restates main; touch on/mention is distinct",
+    "translation": "touch",
+    "senses": [
+      "touch on, touch upon (mention briefly)"
+    ],
+    "inputHash": "164774a9"
+  },
+  {
+    "kellyId": 7094,
+    "decision": "fix",
+    "reason": "first item restates main; trainee is a distinct historical sense",
+    "translation": "volunteer",
+    "senses": [
+      "trainee (historical apprentice role)"
+    ],
+    "inputHash": "f2cc19bf"
+  },
+  {
+    "kellyId": 7888,
+    "decision": "fix",
+    "reason": "first item restates main; caretaker of things is a distinct shade",
+    "translation": "caregiver, carer",
+    "senses": [
+      "caretaker (of things more generally)"
+    ],
+    "inputHash": "83dfe6b9"
+  },
+  {
+    "kellyId": 7131,
+    "decision": "fix",
+    "reason": "soothing/beneficial 'feels good' sense is distinct from charitable",
+    "translation": "charitable",
+    "senses": [
+      "beneficial, soothing, refreshing"
+    ],
+    "inputHash": "15b8b3ca"
+  },
+  {
+    "kellyId": 7608,
+    "decision": "fix",
+    "reason": "textile restates main; web and biological tissue are distinct",
+    "translation": "weave, fabric",
+    "senses": [
+      "web, spider's web",
+      "tissue (biology)"
+    ],
+    "inputHash": "dd9b3f28"
+  },
+  {
+    "kellyId": 7304,
+    "decision": "fix",
+    "reason": "growth of vegetation merely defines the main",
+    "translation": "vegetation",
+    "senses": [],
+    "inputHash": "d43e4669"
+  },
+  {
+    "kellyId": 7294,
+    "decision": "fix",
+    "reason": "lively/skittish is a distinct sense from dizzy",
+    "translation": "dizzy",
+    "senses": [
+      "lively, giddy, skittish"
+    ],
+    "inputHash": "8d6aa39e"
+  },
+  {
+    "kellyId": 7299,
+    "decision": "fix",
+    "reason": "contracting a disease restates main; incur/bring upon oneself is a distinct shade",
+    "translation": "contract",
+    "senses": [
+      "incur, bring upon oneself (something harmful)"
+    ],
+    "inputHash": "d54c4ad2"
+  },
+  {
+    "kellyId": 7889,
+    "decision": "fix",
+    "reason": "first item restates main; leaf vein and mineral seam are distinct",
+    "translation": "vein, blood vessel",
+    "senses": [
+      "vein (in a leaf)",
+      "vein, seam (mineral in rock)"
+    ],
+    "inputHash": "69c97f42"
+  },
+  {
+    "kellyId": 7619,
+    "decision": "fix",
+    "reason": "aging of materials is a distinct technical sense",
+    "translation": "elderly person",
+    "senses": [
+      "aging (technical, of materials)"
+    ],
+    "inputHash": "aba39b4e"
+  },
+  {
+    "kellyId": 8140,
+    "decision": "fix",
+    "reason": "first item restates main; repentance/contrition adds a moral-religious shade",
+    "translation": "remorse, regret",
+    "senses": [
+      "repentance, contrition"
+    ],
+    "uncountable": true,
+    "inputHash": "2fd1965f"
+  },
+  {
+    "kellyId": 7088,
+    "decision": "fix",
+    "reason": "lightning is a genuinely distinct meaning of the word",
+    "translation": "thunder",
+    "senses": [
+      "lightning, thunderstorm"
+    ],
+    "inputHash": "1cf69ce4"
+  },
+  {
+    "kellyId": 8373,
+    "decision": "fix",
+    "reason": "pay back/repay is a distinct shade from reciprocate",
+    "translation": "reciprocate",
+    "senses": [
+      "pay back, repay"
+    ],
+    "inputHash": "88887a58"
+  },
+  {
+    "kellyId": 7710,
+    "decision": "fix",
+    "reason": "meet again merely restates see again",
+    "translation": "see again",
+    "senses": [],
+    "inputHash": "fe9ab394"
+  },
+  {
+    "kellyId": 7303,
+    "decision": "fix",
+    "reason": "first item restates main; reviving a tradition/idea is a distinct sense",
+    "translation": "resuscitate, revive",
+    "senses": [
+      "revive (a tradition, idea, etc.)"
+    ],
+    "inputHash": "28d131e8"
+  },
+  {
+    "kellyId": 8318,
+    "decision": "fix",
+    "reason": "protein is a distinct (biological) meaning of the word",
+    "translation": "egg white",
+    "senses": [
+      "protein"
+    ],
+    "inputHash": "cd969f2b"
+  },
+  {
+    "kellyId": 7156,
+    "decision": "fix",
+    "reason": "physical restates main; abstract ruin is a distinct shade",
+    "translation": "devastate, lay waste to",
+    "senses": [
+      "ruin (abstractly)"
+    ],
+    "inputHash": "0589e4d3"
+  },
+  {
+    "kellyId": 7475,
+    "decision": "fix",
+    "reason": "emotional restates main; physical soreness is distinct",
+    "translation": "tenderness",
+    "senses": [
+      "soreness, tenderness (physical)"
+    ],
+    "inputHash": "f92f9ee4"
+  },
+  {
+    "kellyId": 8200,
+    "decision": "fix",
+    "reason": "first item restates main; oversee/inspect is a distinct sense",
+    "translation": "overlook, turn a blind eye to",
+    "senses": [
+      "oversee, review, inspect"
+    ],
+    "inputHash": "99adf360"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "english": "route",
+    "senses": [
+      {
+        "gloss": "",
+        "members": [
+          { "kellyId": 1418, "meaningKey": 0 },
+          { "kellyId": 6767, "meaningKey": 0 },
+          { "kellyId": 4959, "meaningKey": 1 }
+        ]
+      }
+    ],
+    "inputHash": "29fff408"
+  }
+]

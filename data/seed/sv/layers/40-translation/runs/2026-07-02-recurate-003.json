@@ -1,0 +1,1028 @@
+[
+  {
+    "kellyId": 899,
+    "decision": "fix",
+    "reason": "both items restate 'nature'",
+    "translation": "nature",
+    "senses": [
+      "essential character, disposition"
+    ],
+    "uncountable": true,
+    "inputHash": "810d93df"
+  },
+  {
+    "kellyId": 1013,
+    "decision": "fix",
+    "reason": "distinct sense: as expected/normal",
+    "translation": "natural",
+    "senses": [
+      "natural, expected, normal"
+    ],
+    "inputHash": "8201f518"
+  },
+  {
+    "kellyId": 1135,
+    "decision": "fix",
+    "reason": "distinct math sense",
+    "translation": "negative",
+    "senses": [
+      "negative (less than zero)"
+    ],
+    "inputHash": "761e4f8a"
+  },
+  {
+    "kellyId": 233,
+    "decision": "fix",
+    "reason": "strip main; keep formal-address sense",
+    "translation": "you (plural)",
+    "senses": [
+      "you (formal address, capitalised Ni; dated)"
+    ],
+    "inputHash": "b1be403b"
+  },
+  {
+    "kellyId": 39,
+    "decision": "fix",
+    "reason": "strip 'nine' restatement; keep school senses",
+    "translation": "nine",
+    "senses": [
+      "ninth-grader",
+      "ninth year (school class)"
+    ],
+    "inputHash": "b87f967f"
+  },
+  {
+    "kellyId": 275,
+    "decision": "fix",
+    "reason": "particle sense distinct from 'enough'",
+    "translation": "enough, sufficient",
+    "senses": [
+      "probably, I suppose"
+    ],
+    "inputHash": "3754a605"
+  },
+  {
+    "kellyId": 1288,
+    "decision": "fix",
+    "reason": "strip main; keep record/list senses",
+    "translation": "note, notice",
+    "senses": [
+      "note down, record",
+      "list (on the stock market)"
+    ],
+    "inputHash": "6f3b3324"
+  },
+  {
+    "kellyId": 560,
+    "decision": "fix",
+    "reason": "strip main; keep act/issue/size senses",
+    "translation": "number",
+    "senses": [
+      "act (in a show)",
+      "issue (of a magazine)",
+      "size (shoes, gloves)"
+    ],
+    "inputHash": "4f81e502"
+  },
+  {
+    "kellyId": 979,
+    "decision": "fix",
+    "reason": "strip main; keep novelty sense",
+    "translation": "news item",
+    "senses": [
+      "novelty, new thing"
+    ],
+    "inputHash": "288fca4b"
+  },
+  {
+    "kellyId": 1083,
+    "decision": "fix",
+    "reason": "consume sense is a narrow shade of the main",
+    "translation": "use, make use of",
+    "senses": [
+      "consume (tobacco, etc.)"
+    ],
+    "inputHash": "4fc978a4"
+  },
+  {
+    "kellyId": 138,
+    "decision": "fix",
+    "reason": "strip main; keep temporal 'as/while' sense",
+    "translation": "when",
+    "senses": [
+      "as, while (at the time that)"
+    ],
+    "inputHash": "bcc5b941"
+  },
+  {
+    "kellyId": 454,
+    "decision": "fix",
+    "reason": "both items restate 'next'",
+    "translation": "next",
+    "senses": [],
+    "inputHash": "822e59f8"
+  },
+  {
+    "kellyId": 1350,
+    "decision": "fix",
+    "reason": "primary is two-sided (victim; sacrifice); both restate the main",
+    "translation": "victim; sacrifice",
+    "senses": [],
+    "inputHash": "d680df2b"
+  },
+  {
+    "kellyId": 213,
+    "decision": "fix",
+    "reason": "strip main; keep 'various' plural sense",
+    "translation": "different",
+    "senses": [
+      "various, different kinds of"
+    ],
+    "inputHash": "191068a5"
+  },
+  {
+    "kellyId": 111,
+    "decision": "fix",
+    "reason": "strip main; keep distinct prepositional senses",
+    "translation": "about",
+    "senses": [
+      "in, within (time: om en timme)",
+      "around (encircling)",
+      "in, during (seasons, times of day)",
+      "a, per (frequency: en gång om dagen)"
+    ],
+    "inputHash": "4e52f983"
+  },
+  {
+    "kellyId": 132,
+    "decision": "fix",
+    "reason": "strip main; keep 'whether' sense",
+    "translation": "if",
+    "senses": [
+      "whether (indirect question)"
+    ],
+    "inputHash": "6ad3a3d4"
+  },
+  {
+    "kellyId": 332,
+    "decision": "fix",
+    "reason": "strip main; keep field-of-activity sense",
+    "translation": "area",
+    "senses": [
+      "field (of activity or expertise)"
+    ],
+    "inputHash": "adedb886"
+  },
+  {
+    "kellyId": 806,
+    "decision": "fix",
+    "reason": "strip main; keep angry/painful senses",
+    "translation": "evil",
+    "senses": [
+      "angry",
+      "sore, painful (det gör ont)"
+    ],
+    "inputHash": "c4e49bdd"
+  },
+  {
+    "kellyId": 312,
+    "decision": "fix",
+    "reason": "strip main; keep promise/floor senses",
+    "translation": "word",
+    "senses": [
+      "word, promise",
+      "floor (turn to speak)"
+    ],
+    "inputHash": "d3ecd0bd"
+  },
+  {
+    "kellyId": 972,
+    "decision": "fix",
+    "reason": "president is a narrow institutional shade of the main",
+    "translation": "chairperson",
+    "senses": [
+      "president (of an EU institution)"
+    ],
+    "inputHash": "762126f5"
+  },
+  {
+    "kellyId": 917,
+    "decision": "fix",
+    "reason": "strip main; keep tidiness sense",
+    "translation": "order",
+    "senses": [
+      "tidiness, orderliness"
+    ],
+    "inputHash": "8186b82d"
+  },
+  {
+    "kellyId": 466,
+    "decision": "fix",
+    "reason": "earthworm is a marginal informal shade; drop",
+    "translation": "snake",
+    "senses": [],
+    "inputHash": "e112e93d"
+  },
+  {
+    "kellyId": 196,
+    "decision": "fix",
+    "reason": "strip main; keep reflexive sense",
+    "translation": "us",
+    "senses": [
+      "ourselves (reflexive)"
+    ],
+    "inputHash": "db487553"
+  },
+  {
+    "kellyId": 1371,
+    "decision": "fix",
+    "reason": "east sense is archaic/marginal; drop",
+    "translation": "cheese",
+    "senses": [],
+    "inputHash": "a5c747f8"
+  },
+  {
+    "kellyId": 363,
+    "decision": "fix",
+    "reason": "romantic-couple sense is a distinct shade",
+    "translation": "pair, couple",
+    "senses": [
+      "couple (two people in a relationship)"
+    ],
+    "inputHash": "d6926df6"
+  },
+  {
+    "kellyId": 945,
+    "decision": "fix",
+    "reason": "strip main; keep part/piece sense",
+    "translation": "party, stakeholder",
+    "senses": [
+      "part, piece"
+    ],
+    "inputHash": "4f14cf65"
+  },
+  {
+    "kellyId": 352,
+    "decision": "fix",
+    "reason": "keep distinct game/shipment senses (side-in-argument is close to political party)",
+    "translation": "party",
+    "senses": [
+      "game (of chess, etc.)",
+      "shipment, batch (of goods)"
+    ],
+    "inputHash": "26d54e2f"
+  },
+  {
+    "kellyId": 751,
+    "decision": "fix",
+    "reason": "strip main; keep pass/look-after/hand-over senses",
+    "translation": "fit, suit",
+    "senses": [
+      "pass (ball or puck)",
+      "look after (children, pets)",
+      "hand over, give"
+    ],
+    "inputHash": "f51ad3a6"
+  },
+  {
+    "kellyId": 344,
+    "decision": "fix",
+    "reason": "money is a distinct collective sense",
+    "translation": "coin",
+    "senses": [
+      "money"
+    ],
+    "inputHash": "35a7bbad"
+  },
+  {
+    "kellyId": 779,
+    "decision": "fix",
+    "reason": "strip main; keep sports period sense",
+    "translation": "period",
+    "senses": [
+      "period, quarter (sports)"
+    ],
+    "inputHash": "b457588e"
+  },
+  {
+    "kellyId": 700,
+    "decision": "fix",
+    "reason": "private/intimate is a distinct shade",
+    "translation": "personal",
+    "senses": [
+      "private, intimate"
+    ],
+    "inputHash": "6ee93dec"
+  },
+  {
+    "kellyId": 337,
+    "decision": "fix",
+    "reason": "strip main; keep seat/space/position senses",
+    "translation": "place",
+    "senses": [
+      "seat (on a bus, in a theatre)",
+      "space, room",
+      "position, spot (on a team, course)"
+    ],
+    "inputHash": "0947250f"
+  },
+  {
+    "kellyId": 1012,
+    "decision": "fix",
+    "reason": "item merely defines 'suddenly'",
+    "translation": "suddenly",
+    "senses": [],
+    "inputHash": "a76aabcc"
+  },
+  {
+    "kellyId": 489,
+    "decision": "fix",
+    "reason": "strip main; keep police-officer sense",
+    "translation": "police",
+    "senses": [
+      "police officer"
+    ],
+    "uncountable": true,
+    "inputHash": "15482f94"
+  },
+  {
+    "kellyId": 341,
+    "decision": "fix",
+    "reason": "policy is a distinct sense",
+    "translation": "politics",
+    "senses": [
+      "policy (a course of action)"
+    ],
+    "uncountable": true,
+    "inputHash": "76b9cafd"
+  },
+  {
+    "kellyId": 691,
+    "decision": "fix",
+    "reason": "computing port is a distinct sense",
+    "translation": "gate, gateway",
+    "senses": [
+      "port (computing, networking)"
+    ],
+    "inputHash": "8bbd1984"
+  },
+  {
+    "kellyId": 1348,
+    "decision": "fix",
+    "reason": "strip main; keep post/item senses",
+    "translation": "mail, post",
+    "senses": [
+      "post (assigned position or job)",
+      "item, entry (on a list or ledger)"
+    ],
+    "inputHash": "d2a4a5e3"
+  },
+  {
+    "kellyId": 1111,
+    "decision": "fix",
+    "reason": "strip main; keep argument/punchline senses",
+    "translation": "point, score",
+    "senses": [
+      "point, argument (in a discussion)",
+      "point, punchline (of a joke)"
+    ],
+    "inputHash": "13b30d65"
+  },
+  {
+    "kellyId": 1182,
+    "decision": "fix",
+    "reason": "strip main; keep internship/clinic senses",
+    "translation": "practice",
+    "senses": [
+      "internship, work placement",
+      "practice, clinic (doctor's or lawyer's)"
+    ],
+    "inputHash": "ce2e21ac"
+  },
+  {
+    "kellyId": 830,
+    "decision": "fix",
+    "reason": "introduce is a distinct sense",
+    "translation": "present",
+    "senses": [
+      "introduce (someone)"
+    ],
+    "inputHash": "7cc69af5"
+  },
+  {
+    "kellyId": 883,
+    "decision": "fix",
+    "reason": "presiding-officer sense is distinct",
+    "translation": "president",
+    "senses": [
+      "chairman, presiding officer (of a court or assembly)"
+    ],
+    "inputHash": "5f851574"
+  },
+  {
+    "kellyId": 802,
+    "decision": "fix",
+    "reason": "item merely narrows the main 'private'",
+    "translation": "private",
+    "senses": [],
+    "inputHash": "2ed7fec0"
+  },
+  {
+    "kellyId": 262,
+    "decision": "fix",
+    "reason": "school-exercise sense is distinct",
+    "translation": "problem, issue",
+    "senses": [
+      "problem, exercise (schoolwork)"
+    ],
+    "inputHash": "ec5767d6"
+  },
+  {
+    "kellyId": 1015,
+    "decision": "fix",
+    "reason": "legal proceedings is a distinct sense",
+    "translation": "process",
+    "senses": [
+      "litigation, legal proceedings"
+    ],
+    "inputHash": "964b273d"
+  },
+  {
+    "kellyId": 761,
+    "decision": "fix",
+    "reason": "result/multiplication sense is distinct",
+    "translation": "product",
+    "senses": [
+      "product (result of a process, reaction, or multiplication)"
+    ],
+    "inputHash": "ff39bf39"
+  },
+  {
+    "kellyId": 1202,
+    "decision": "fix",
+    "reason": "strip main; keep artistic-production and output senses",
+    "translation": "production",
+    "senses": [
+      "production (film, music, etc.)",
+      "output, body of work"
+    ],
+    "inputHash": "e2c91d81"
+  },
+  {
+    "kellyId": 570,
+    "decision": "fix",
+    "reason": "strip main; keep leaflet/broadcast/software/wash-cycle senses",
+    "translation": "program",
+    "senses": [
+      "programme (leaflet for a show)",
+      "TV or radio programme, show",
+      "software application",
+      "wash cycle (washing machine)"
+    ],
+    "inputHash": "cdbc2a9a"
+  },
+  {
+    "kellyId": 646,
+    "decision": "fix",
+    "reason": "strip main; keep list-item/location/time senses",
+    "translation": "dot, full stop",
+    "senses": [
+      "item (on a list or agenda)",
+      "point, spot (location)",
+      "point in time"
+    ],
+    "inputHash": "2ba8b200"
+  },
+  {
+    "kellyId": 95,
+    "decision": "fix",
+    "reason": "strip main; keep distinct prepositional senses",
+    "translation": "on, on top of",
+    "senses": [
+      "on, against (a wall or vertical surface)",
+      "on (a day of the week)",
+      "at (på jobbet = at work)"
+    ],
+    "inputHash": "e64d49a4"
+  },
+  {
+    "kellyId": 548,
+    "decision": "fix",
+    "reason": "short note is a distinct sense",
+    "translation": "row, line",
+    "senses": [
+      "a few lines, a short note"
+    ],
+    "inputHash": "b0e3f857"
+  },
+  {
+    "kellyId": 1133,
+    "decision": "fix",
+    "reason": "Swedish county is a distinct administrative sense",
+    "translation": "region, area",
+    "senses": [
+      "county (Swedish administrative subdivision)"
+    ],
+    "inputHash": "7a993e61"
+  },
+  {
+    "kellyId": 865,
+    "decision": "fix",
+    "reason": "pure is a distinct sense",
+    "translation": "clean",
+    "senses": [
+      "pure"
+    ],
+    "inputHash": "5a3d204b"
+  },
+  {
+    "kellyId": 1050,
+    "decision": "fix",
+    "reason": "purely is a distinct sense",
+    "translation": "cleanly",
+    "senses": [
+      "purely, downright"
+    ],
+    "inputHash": "219703cb"
+  },
+  {
+    "kellyId": 1000,
+    "decision": "fix",
+    "reason": "erect/raise is a distinct sense",
+    "translation": "travel",
+    "senses": [
+      "erect, raise (something upright)"
+    ],
+    "inputHash": "0365812c"
+  },
+  {
+    "kellyId": 1058,
+    "decision": "fix",
+    "reason": "both items restate 'remainder'",
+    "translation": "remainder, rest",
+    "senses": [],
+    "inputHash": "1a8bf6f6"
+  },
+  {
+    "kellyId": 450,
+    "decision": "fix",
+    "reason": "test/game score is a distinct shade",
+    "translation": "result",
+    "senses": [
+      "score (of a test or game)"
+    ],
+    "inputHash": "70f47b10"
+  },
+  {
+    "kellyId": 1263,
+    "decision": "fix",
+    "reason": "biological-kingdom sense is distinct",
+    "translation": "realm, kingdom",
+    "senses": [
+      "kingdom (biological classification)"
+    ],
+    "inputHash": "03328d93"
+  },
+  {
+    "kellyId": 697,
+    "decision": "fix",
+    "reason": "real/genuine is a distinct sense from correct/proper",
+    "translation": "right, correct, proper",
+    "senses": [
+      "real, true, genuine (not fake)"
+    ],
+    "inputHash": "10a1bdce"
+  },
+  {
+    "kellyId": 393,
+    "decision": "fix",
+    "reason": "correctly is a distinct sense from 'really'",
+    "translation": "really",
+    "senses": [
+      "correctly, properly"
+    ],
+    "inputHash": "cf60edbe"
+  },
+  {
+    "kellyId": 235,
+    "decision": "fix",
+    "reason": "strip main; keep boxing-ring and school-year senses",
+    "translation": "ring",
+    "senses": [
+      "ring (boxing, sports arena)",
+      "year group (Swedish gymnasium)"
+    ],
+    "inputHash": "8a6d20ef"
+  },
+  {
+    "kellyId": 955,
+    "decision": "fix",
+    "reason": "both items restate ring/call",
+    "translation": "ring, call",
+    "senses": [],
+    "inputHash": "101fb090"
+  },
+  {
+    "kellyId": 855,
+    "decision": "fix",
+    "reason": "strip main; keep shrub and criticism senses",
+    "translation": "rice",
+    "senses": [
+      "shrub, twigs (of a berry plant)",
+      "criticism, flak (informal)"
+    ],
+    "inputHash": "7d1c4a1d"
+  },
+  {
+    "kellyId": 187,
+    "decision": "fix",
+    "reason": "strip main; keep grate/scratch/demolish senses",
+    "translation": "tear, to rip",
+    "senses": [
+      "grate (food)",
+      "scratch",
+      "demolish (a building)"
+    ],
+    "inputHash": "d73c582d"
+  },
+  {
+    "kellyId": 209,
+    "decision": "fix",
+    "reason": "first item defines 'row'; keep hand-over sense",
+    "translation": "row",
+    "senses": [
+      "hand over quickly, pass"
+    ],
+    "inputHash": "731ce1e3"
+  },
+  {
+    "kellyId": 690,
+    "decision": "fix",
+    "reason": "calm/peaceful is a distinct (dated) sense",
+    "translation": "funny, fun",
+    "senses": [
+      "calm, quiet, peaceful"
+    ],
+    "inputHash": "65d66bb7"
+  },
+  {
+    "kellyId": 495,
+    "decision": "fix",
+    "reason": "roll (rotation axis) is a distinct technical sense",
+    "translation": "role",
+    "senses": [
+      "roll (rotation about the longitudinal axis)"
+    ],
+    "inputHash": "5fb38a0d"
+  },
+  {
+    "kellyId": 669,
+    "decision": "fix",
+    "reason": "empty-space sense is a distinct shade",
+    "translation": "room",
+    "senses": [
+      "space, room (empty area)"
+    ],
+    "inputHash": "d07ec174"
+  },
+  {
+    "kellyId": 519,
+    "decision": "fix",
+    "reason": "approximate-time sense is distinct",
+    "translation": "around",
+    "senses": [
+      "around, about (approximate amount or time)"
+    ],
+    "inputHash": "a1f09d0e"
+  },
+  {
+    "kellyId": 1040,
+    "decision": "fix",
+    "reason": "strip main; keep burst and impulse senses",
+    "translation": "jolt, jerk",
+    "senses": [
+      "burst, dash (of speed)",
+      "impulse, urge (sudden)"
+    ],
+    "inputHash": "cd4093ef"
+  },
+  {
+    "kellyId": 982,
+    "decision": "fix",
+    "reason": "strip main; keep twitch and dart senses",
+    "translation": "yank, jerk, pull",
+    "senses": [
+      "twitch (of the body)",
+      "move quickly, dart"
+    ],
+    "inputHash": "a827ff77"
+  },
+  {
+    "kellyId": 1022,
+    "decision": "fix",
+    "reason": "crazy slang is a distinct sense",
+    "translation": "Russian",
+    "senses": [
+      "crazy, insane (slang)"
+    ],
+    "inputHash": "4b93e209"
+  },
+  {
+    "kellyId": 1235,
+    "decision": "fix",
+    "reason": "strip main; keep rule and prevail senses",
+    "translation": "advise",
+    "senses": [
+      "rule, reign",
+      "prevail, be the case (det råder)"
+    ],
+    "inputHash": "6d42aea7"
+  },
+  {
+    "kellyId": 1048,
+    "decision": "fix",
+    "reason": "encounter/run-into is a distinct sense",
+    "translation": "happen to, do by accident",
+    "senses": [
+      "run into, encounter (someone)"
+    ],
+    "inputHash": "663d7c86"
+  },
+  {
+    "kellyId": 873,
+    "decision": "fix",
+    "reason": "primary is two-sided (reach; be enough); both restate the main",
+    "translation": "reach; be enough",
+    "senses": [],
+    "inputHash": "968b9a39"
+  },
+  {
+    "kellyId": 1002,
+    "decision": "fix",
+    "reason": "sports save is a distinct shade",
+    "translation": "save",
+    "senses": [
+      "save (a shot, in sports)"
+    ],
+    "inputHash": "d3c62a8c"
+  },
+  {
+    "kellyId": 592,
+    "decision": "fix",
+    "reason": "strip main; keep consider/calculate/rely-on senses",
+    "translation": "count",
+    "senses": [
+      "count as, consider as",
+      "calculate, do sums",
+      "count on, rely on"
+    ],
+    "inputHash": "cad43b64"
+  },
+  {
+    "kellyId": 530,
+    "decision": "fix",
+    "reason": "degree adverb is a distinct sense",
+    "translation": "rightly, correctly",
+    "senses": [
+      "rather, fairly, pretty"
+    ],
+    "inputHash": "5a43dfe3"
+  },
+  {
+    "kellyId": 644,
+    "decision": "fix",
+    "reason": "strip adj/adv main forms; keep dish and legal senses",
+    "translation": "right, correct",
+    "senses": [
+      "rather, pretty, fairly (degree adverb)",
+      "dish, course (food)",
+      "law, right (legal)"
+    ],
+    "inputHash": "bc37afca"
+  },
+  {
+    "kellyId": 421,
+    "decision": "fix",
+    "reason": "strip main; keep grade/adjust/comply senses",
+    "translation": "correct, rectify",
+    "senses": [
+      "mark, grade (a test)",
+      "align, adjust",
+      "conform, comply (with rules)"
+    ],
+    "inputHash": "8a1cae1b"
+  },
+  {
+    "kellyId": 932,
+    "decision": "fix",
+    "reason": "left-wing political sense is distinct",
+    "translation": "red",
+    "senses": [
+      "left-wing, socialist (politics)"
+    ],
+    "inputHash": "f0d37931"
+  },
+  {
+    "kellyId": 616,
+    "decision": "fix",
+    "reason": "touch is a distinct sense",
+    "translation": "move",
+    "senses": [
+      "touch"
+    ],
+    "inputHash": "3e6a1d1e"
+  },
+  {
+    "kellyId": 878,
+    "decision": "fix",
+    "reason": "strip main; keep organised-movement and business senses",
+    "translation": "movement",
+    "senses": [
+      "movement (organised group with a common cause)",
+      "business, operations (of a company)"
+    ],
+    "inputHash": "443589ab"
+  },
+  {
+    "kellyId": 250,
+    "decision": "fix",
+    "reason": "strip main; keep matter and legal-case senses",
+    "translation": "thing",
+    "senses": [
+      "matter, issue (abstract)",
+      "case, cause (legal)"
+    ],
+    "inputHash": "602d0fe6"
+  },
+  {
+    "kellyId": 569,
+    "decision": "fix",
+    "reason": "primary is two-sided (miss; lack); both restate the main",
+    "translation": "miss; lack",
+    "senses": [],
+    "inputHash": "338d8db4"
+  },
+  {
+    "kellyId": 303,
+    "decision": "fix",
+    "reason": "small locality is a distinct sense",
+    "translation": "society",
+    "senses": [
+      "community, small town"
+    ],
+    "inputHash": "03c12f81"
+  },
+  {
+    "kellyId": 837,
+    "decision": "fix",
+    "reason": "pull-oneself-together is a distinct reflexive sense",
+    "translation": "collect, gather",
+    "senses": [
+      "pull oneself together, compose oneself"
+    ],
+    "inputHash": "ef14c61e"
+  },
+  {
+    "kellyId": 1088,
+    "decision": "fix",
+    "reason": "gathering (of people) is a distinct sense",
+    "translation": "collection",
+    "senses": [
+      "gathering (of people)"
+    ],
+    "inputHash": "df863f68"
+  },
+  {
+    "kellyId": 1134,
+    "decision": "fix",
+    "reason": "telephone call is a distinct sense",
+    "translation": "conversation",
+    "senses": [
+      "call (telephone call)"
+    ],
+    "inputHash": "e0345b39"
+  },
+  {
+    "kellyId": 906,
+    "decision": "fix",
+    "reason": "'while' merely restates the main",
+    "translation": "at the same time as",
+    "senses": [],
+    "inputHash": "74097361"
+  },
+  {
+    "kellyId": 768,
+    "decision": "fix",
+    "reason": "genuine and loyal are distinct shades",
+    "translation": "true",
+    "senses": [
+      "genuine, real",
+      "faithful, loyal"
+    ],
+    "inputHash": "b38626b6"
+  },
+  {
+    "kellyId": 729,
+    "decision": "fix",
+    "reason": "strip main; keep clause/run-up/batch senses",
+    "translation": "theorem, proposition",
+    "senses": [
+      "clause, sentence (grammar)",
+      "run-up (before a jump)",
+      "batch, set (of objects)"
+    ],
+    "inputHash": "44f7efc5"
+  },
+  {
+    "kellyId": 139,
+    "decision": "fix",
+    "reason": "understand and watch are distinct shades of 'see'",
+    "translation": "see",
+    "senses": [
+      "watch, look at",
+      "understand, see"
+    ],
+    "inputHash": "0615569d"
+  },
+  {
+    "kellyId": 185,
+    "decision": "fix",
+    "reason": "'next in order' merely restates the main",
+    "translation": "then, after this, afterwards",
+    "senses": [],
+    "inputHash": "0ca39675"
+  },
+  {
+    "kellyId": 50,
+    "decision": "fix",
+    "reason": "strip 'six' restatement; keep school and drink senses",
+    "translation": "number six",
+    "senses": [
+      "sixth grade (school year)",
+      "a six-centilitre shot (drink)"
+    ],
+    "inputHash": "75c6b307"
+  },
+  {
+    "kellyId": 1175,
+    "decision": "fix",
+    "reason": "statistic/figure is a distinct shade",
+    "translation": "digit, figure",
+    "senses": [
+      "figure, number (statistic)"
+    ],
+    "inputHash": "bd6012a2"
+  },
+  {
+    "kellyId": 1166,
+    "decision": "fix",
+    "reason": "timeframe/horizon is a distinct sense",
+    "translation": "visibility",
+    "senses": [
+      "timeframe, horizon (short- or long-term)"
+    ],
+    "inputHash": "a93c9b0e"
+  },
+  {
+    "kellyId": 403,
+    "decision": "fix",
+    "reason": "fit (of clothing) is a distinct sense",
+    "translation": "sit",
+    "senses": [
+      "fit (of clothing)"
+    ],
+    "inputHash": "5a7c441e"
+  },
+  {
+    "kellyId": 54,
+    "decision": "fix",
+    "reason": "strip 'seven' restatement; keep grade and place senses",
+    "translation": "number seven",
+    "senses": [
+      "seventh grade (school year)",
+      "seventh place (competition)"
+    ],
+    "inputHash": "dde6bbed"
+  },
+  {
+    "kellyId": 867,
+    "decision": "fix",
+    "reason": "mentally disturbed and 'in bad taste' are distinct slang shades",
+    "translation": "sick, ill",
+    "senses": [
+      "mentally disturbed, twisted",
+      "sick, in bad taste (slang)"
+    ],
+    "inputHash": "af1cc620"
+  },
+  {
+    "kellyId": 1170,
+    "decision": "fix",
+    "reason": "pity/shame is a distinct sense",
+    "translation": "damage, injury",
+    "senses": [
+      "pity, shame (det är synd/en skada)"
+    ],
+    "inputHash": "13efd8ec"
+  }
+]

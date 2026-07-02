@@ -1,0 +1,168 @@
+[
+  {
+    "kellyId": 264,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation (other-meanings-only): drop 'man (term of address)' restating the main; altMeanings unchanged",
+    "altMeanings": [{ "translation": "husband", "gloss": "" }],
+    "subDefinitions": ["a member of a crew or workforce", "mane (of a horse or lion)"],
+    "inputHash": "b7ca59fc"
+  },
+  {
+    "kellyId": 263,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: reword 'fall, downfall' so it doesn't restate the main 'fall'; altMeanings unchanged",
+    "altMeanings": [{ "translation": "case", "gloss": "legal" }],
+    "subDefinitions": ["downfall, ruin (loss of greatness)", "slope, waterfall"],
+    "inputHash": "ec28c4a8"
+  },
+  {
+    "kellyId": 281,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: 'side (team)' reworded; 'page' is promoted so keep only 'website'; altMeanings unchanged",
+    "altMeanings": [{ "translation": "page", "gloss": "of a book" }],
+    "subDefinitions": ["team, faction (side in a conflict)", "website (online)"],
+    "inputHash": "e4128b63"
+  },
+  {
+    "kellyId": 505,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: 'the Crown' (institution) is distinct from headwear 'crown'; altMeanings unchanged",
+    "altMeanings": [{ "translation": "krona", "gloss": "Swedish currency" }],
+    "subDefinitions": ["the Crown (the State or monarchy)"],
+    "inputHash": "7ae8a0cb"
+  },
+  {
+    "kellyId": 1575,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: 'leg (of trousers/furniture)' just restates the main 'leg' → empty; altMeanings unchanged",
+    "altMeanings": [{ "translation": "bone", "gloss": "" }],
+    "subDefinitions": [],
+    "inputHash": "5541555a"
+  },
+  {
+    "kellyId": 2100,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: drop 'base, foundation' restating the main; keep distinct headquarters/boss; altMeanings unchanged",
+    "altMeanings": [{ "translation": "bass", "gloss": "music" }],
+    "subDefinitions": ["headquarters (military)", "boss, supervisor (informal)"],
+    "inputHash": "fcee0819"
+  },
+  {
+    "kellyId": 2741,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: reword 'tension (strained relations)' so it doesn't lead with the main; altMeanings unchanged",
+    "altMeanings": [
+      { "translation": "excitement, suspense", "gloss": "" },
+      { "translation": "voltage", "gloss": "electrical" }
+    ],
+    "subDefinitions": ["strained relations (between people)"],
+    "inputHash": "e30116ce"
+  },
+  {
+    "kellyId": 2870,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: 'neck (of a bottle)' just restates the main 'neck' → empty; altMeanings unchanged",
+    "altMeanings": [{ "translation": "throat", "gloss": "" }],
+    "subDefinitions": [],
+    "inputHash": "1e6a9bfd"
+  },
+  {
+    "kellyId": 3419,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: reword 'sour, rancid' off the main 'sour'; keep acidic/damp; altMeanings unchanged",
+    "altMeanings": [{ "translation": "angry, annoyed", "gloss": "" }],
+    "subDefinitions": ["rancid, off (of food)", "acidic", "wet, damp (of soil or weather)"],
+    "inputHash": "1f816de9"
+  },
+  {
+    "kellyId": 3700,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: reword 'back, defender' off the main 'back'; altMeanings unchanged",
+    "altMeanings": [
+      { "translation": "reverse", "gloss": "car gear" },
+      { "translation": "crate", "gloss": "storage box" }
+    ],
+    "subDefinitions": ["defender (sports position)"],
+    "inputHash": "9e3f75ea"
+  },
+  {
+    "kellyId": 3734,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: reword 'young woman, miss' and pageant sense off the main 'Miss'; altMeanings unchanged",
+    "altMeanings": [{ "translation": "teacher", "gloss": "female, addressed by schoolchildren" }],
+    "subDefinitions": ["a young woman", "beauty pageant title (e.g. Miss Sweden)"],
+    "inputHash": "091142a2"
+  },
+  {
+    "kellyId": 4547,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: 'pin, stylus, nib' just restates the main 'pin, stylus' → empty; altMeanings unchanged",
+    "altMeanings": [{ "translation": "diocese, bishopric", "gloss": "" }],
+    "subDefinitions": [],
+    "inputHash": "ac3df18a"
+  },
+  {
+    "kellyId": 5458,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: 'magazine (of a firearm)' is a distinct sense from the publication main; altMeanings unchanged",
+    "altMeanings": [{ "translation": "warehouse, depot", "gloss": "" }],
+    "subDefinitions": ["magazine (of a firearm)"],
+    "inputHash": "622e4696"
+  },
+  {
+    "kellyId": 5567,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: reword 'fly (fishing lure)' off the main 'fly'; keep 'fad, craze'; altMeanings unchanged",
+    "altMeanings": [{ "translation": "bowtie", "gloss": "" }],
+    "subDefinitions": ["fishing fly (lure)", "fad, craze"],
+    "inputHash": "7a1db421"
+  },
+  {
+    "kellyId": 4659,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: 'surf (on a board)' just restates the main 'surf' → empty; altMeanings unchanged (promoted 'surf' dedups against the primary)",
+    "altMeanings": [{ "translation": "surf", "gloss": "the internet" }],
+    "subDefinitions": [],
+    "inputHash": "00b7e2b7"
+  },
+  {
+    "kellyId": 362,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: reword 'goal (sports)' off the main 'goal, target'; altMeanings unchanged",
+    "altMeanings": [{ "translation": "meal", "gloss": "" }],
+    "subDefinitions": ["the goal, net (in sports)", "finish line", "language, dialect", "court case (legal)"],
+    "inputHash": "2c37ea6d"
+  },
+  {
+    "kellyId": 1407,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: reword 'course, heading' off the main 'course'; altMeanings unchanged",
+    "altMeanings": [{ "translation": "rate, exchange rate", "gloss": "currency, stocks" }],
+    "subDefinitions": ["heading, direction (navigation)"],
+    "inputHash": "2bb27a50"
+  },
+  {
+    "kellyId": 1850,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: reword the waterway sense off the promoted 'channel'; altMeanings unchanged",
+    "altMeanings": [{ "translation": "channel", "gloss": "TV, radio, or information" }],
+    "subDefinitions": ["strait (e.g. the English Channel)"],
+    "inputHash": "e6c605ce"
+  },
+  {
+    "kellyId": 2028,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: 'the West' (bloc) is distinct from the direction main 'west'; altMeanings unchanged",
+    "altMeanings": [{ "translation": "vest, waistcoat", "gloss": "garment" }],
+    "subDefinitions": ["the West (Western countries)"],
+    "inputHash": "e12426e1"
+  },
+  {
+    "kellyId": 2440,
+    "decision": "split",
+    "reason": "manual subDefinitions re-curation: reword 'landscape (painting)' off the promoted 'landscape'; altMeanings unchanged",
+    "altMeanings": [{ "translation": "landscape", "gloss": "scenery" }],
+    "subDefinitions": ["a landscape painting"],
+    "inputHash": "d7f40f97"
+  }
+]

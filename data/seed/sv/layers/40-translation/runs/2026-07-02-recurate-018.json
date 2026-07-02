@@ -1,0 +1,1006 @@
+[
+  {
+    "kellyId": 5661,
+    "decision": "fix",
+    "reason": "both items restate the main 'civilized'",
+    "translation": "civilized",
+    "senses": [],
+    "inputHash": "af228886"
+  },
+  {
+    "kellyId": 7004,
+    "decision": "fix",
+    "reason": "kept distinct figurative sense of public exposure",
+    "translation": "daylight",
+    "senses": [
+      "light, spotlight (public exposure, figurative)"
+    ],
+    "uncountable": true,
+    "inputHash": "84e1d9f0"
+  },
+  {
+    "kellyId": 5724,
+    "decision": "fix",
+    "reason": "kept distinct person sense; dropped restated main",
+    "translation": "crime novel, detective story",
+    "senses": [
+      "detective, investigator (person)"
+    ],
+    "inputHash": "fbc1359c"
+  },
+  {
+    "kellyId": 6457,
+    "decision": "fix",
+    "reason": "'definite' merely defines the main 'definitive'",
+    "translation": "definitive",
+    "senses": [],
+    "inputHash": "b28e6556"
+  },
+  {
+    "kellyId": 6255,
+    "decision": "fix",
+    "reason": "kept slang money sense",
+    "translation": "dough",
+    "senses": [
+      "money (slang)"
+    ],
+    "uncountable": true,
+    "inputHash": "03bd229c"
+  },
+  {
+    "kellyId": 6369,
+    "decision": "fix",
+    "reason": "kept distinct impose/decide sense",
+    "translation": "dictate",
+    "senses": [
+      "dictate (impose, decide)"
+    ],
+    "inputHash": "83deaafc"
+  },
+  {
+    "kellyId": 6180,
+    "decision": "fix",
+    "reason": "kept the distinct mathematical 'discrete' sense",
+    "translation": "discreet",
+    "senses": [
+      "discrete (mathematics)"
+    ],
+    "inputHash": "d8d81118"
+  },
+  {
+    "kellyId": 6485,
+    "decision": "fix",
+    "reason": "main is 'have use of; organize' (both sides); kept only the medical sense",
+    "translation": "have use of; organize",
+    "senses": [
+      "predispose (to illness)"
+    ],
+    "inputHash": "f0d41544"
+  },
+  {
+    "kellyId": 6376,
+    "decision": "fix",
+    "reason": "kept shipyard dock sense; dropped restated main",
+    "translation": "doll, puppet",
+    "senses": [
+      "dock (at a shipyard)"
+    ],
+    "inputHash": "ddeba980"
+  },
+  {
+    "kellyId": 5721,
+    "decision": "fix",
+    "reason": "main is 'draw; attraction' (both sides covered); nothing distinct remains",
+    "translation": "draw; attraction",
+    "senses": [],
+    "inputHash": "53d73e52"
+  },
+  {
+    "kellyId": 6655,
+    "decision": "fix",
+    "reason": "kept distinct senses beyond the mythical dragon",
+    "translation": "dragon",
+    "senses": [
+      "kite (toy)",
+      "drake (male duck)"
+    ],
+    "inputHash": "e9f0b6e4"
+  },
+  {
+    "kellyId": 6053,
+    "decision": "fix",
+    "reason": "kept the women's suit sense",
+    "translation": "costume, dress",
+    "senses": [
+      "suit (jacket with skirt or trousers)"
+    ],
+    "inputHash": "25c4ec64"
+  },
+  {
+    "kellyId": 6275,
+    "decision": "fix",
+    "reason": "main 'tablecloth'; kept cloth/cover and canvas senses",
+    "translation": "tablecloth",
+    "senses": [
+      "cloth, cover (for a surface)",
+      "canvas (for painting)"
+    ],
+    "inputHash": "fd4d530d"
+  },
+  {
+    "kellyId": 6415,
+    "decision": "fix",
+    "reason": "kept the break-up sense",
+    "translation": "dump",
+    "senses": [
+      "dump (break up with someone)"
+    ],
+    "inputHash": "db01fffe"
+  },
+  {
+    "kellyId": 6374,
+    "decision": "fix",
+    "reason": "kept distinct figurative senses beyond 'dark, dim'",
+    "translation": "dark, dim",
+    "senses": [
+      "obscure, abstruse",
+      "dubious, shady"
+    ],
+    "inputHash": "f8ccf06e"
+  },
+  {
+    "kellyId": 5811,
+    "decision": "fix",
+    "reason": "kept the spray-someone sense",
+    "translation": "shower",
+    "senses": [
+      "shower, spray (someone with something)"
+    ],
+    "inputHash": "232f5020"
+  },
+  {
+    "kellyId": 6903,
+    "decision": "fix",
+    "reason": "kept the figurative peace-advocate sense",
+    "translation": "dove, pigeon",
+    "senses": [
+      "dove (peace advocate, figurative)"
+    ],
+    "inputHash": "853de9e7"
+  },
+  {
+    "kellyId": 5725,
+    "decision": "fix",
+    "reason": "main is 'past; past tense' (both sides covered); nothing distinct remains",
+    "translation": "the past; past tense",
+    "senses": [],
+    "inputHash": "108c650d"
+  },
+  {
+    "kellyId": 6163,
+    "decision": "fix",
+    "reason": "kept the legal/financial waiver sense",
+    "translation": "concession",
+    "senses": [
+      "waiver, remission (legal or financial)"
+    ],
+    "inputHash": "9f179bca"
+  },
+  {
+    "kellyId": 6977,
+    "decision": "fix",
+    "reason": "kept the figurative early-stage sense",
+    "translation": "embryo",
+    "senses": [
+      "germ, early stage (of something, figurative)"
+    ],
+    "inputHash": "47db78fa"
+  },
+  {
+    "kellyId": 5690,
+    "decision": "fix",
+    "reason": "main covers both English-speaking and English-language; nothing distinct remains",
+    "translation": "English-speaking, English-language",
+    "senses": [],
+    "inputHash": "b0eb51b9"
+  },
+  {
+    "kellyId": 6041,
+    "decision": "fix",
+    "reason": "kept the TV/radio-series sense",
+    "translation": "episode",
+    "senses": [
+      "episode (in a TV or radio series)"
+    ],
+    "inputHash": "0cb70076"
+  },
+  {
+    "kellyId": 6989,
+    "decision": "fix",
+    "reason": "kept the distinct fragrance and extract senses",
+    "translation": "essence",
+    "senses": [
+      "fragrance, perfume",
+      "extract, concentrate (of a plant)"
+    ],
+    "inputHash": "627f5d4d"
+  },
+  {
+    "kellyId": 6426,
+    "decision": "fix",
+    "reason": "kept the mathematical factorial sense",
+    "translation": "faculty",
+    "senses": [
+      "factorial (mathematics)"
+    ],
+    "inputHash": "b152d07f"
+  },
+  {
+    "kellyId": 6087,
+    "decision": "fix",
+    "reason": "kept the fathom unit sense; dropped restated main",
+    "translation": "embrace, arms",
+    "senses": [
+      "fathom (unit of length)"
+    ],
+    "inputHash": "987372a4"
+  },
+  {
+    "kellyId": 5629,
+    "decision": "fix",
+    "reason": "kept distinct plate, barrel and unit senses beyond 'saucer'",
+    "translation": "saucer",
+    "senses": [
+      "plate, platter (for serving)",
+      "barrel, cask (for oil, wine, beer)",
+      "barrel (unit of volume)"
+    ],
+    "inputHash": "e518cfe8"
+  },
+  {
+    "kellyId": 6200,
+    "decision": "fix",
+    "reason": "kept the machine sense",
+    "translation": "fax",
+    "senses": [
+      "fax machine"
+    ],
+    "inputHash": "64b657f1"
+  },
+  {
+    "kellyId": 5843,
+    "decision": "fix",
+    "reason": "kept school and gear senses beyond the number 'five'",
+    "translation": "five",
+    "senses": [
+      "fifth-grader; pupil in year 5",
+      "fifth year (in school)",
+      "fifth gear"
+    ],
+    "inputHash": "8b419d6d"
+  },
+  {
+    "kellyId": 6940,
+    "decision": "fix",
+    "reason": "kept the amusing/funny sense",
+    "translation": "festive",
+    "senses": [
+      "amusing, comical, funny"
+    ],
+    "inputHash": "c47494d8"
+  },
+  {
+    "kellyId": 6624,
+    "decision": "fix",
+    "reason": "kept the blanket sense",
+    "translation": "felt",
+    "senses": [
+      "blanket"
+    ],
+    "inputHash": "49644425"
+  },
+  {
+    "kellyId": 5662,
+    "decision": "fix",
+    "reason": "kept the fish/reptile scale sense",
+    "translation": "fell, mountain",
+    "senses": [
+      "scale (of fish or reptiles)"
+    ],
+    "inputHash": "1a7b8c6b"
+  },
+  {
+    "kellyId": 6779,
+    "decision": "fix",
+    "reason": "kept swimming-stroke sense; moth is same category as butterfly",
+    "translation": "butterfly",
+    "senses": [
+      "butterfly stroke (swimming)"
+    ],
+    "inputHash": "44226cf3"
+  },
+  {
+    "kellyId": 5652,
+    "decision": "fix",
+    "reason": "kept the prolific/frequent sense",
+    "translation": "diligent, hard-working",
+    "senses": [
+      "prolific, frequent (of creative workers)"
+    ],
+    "inputHash": "9dfd6f65"
+  },
+  {
+    "kellyId": 6973,
+    "decision": "fix",
+    "reason": "kept the grand piano and military flank senses",
+    "translation": "wing (of a building)",
+    "senses": [
+      "grand piano",
+      "flank (military)"
+    ],
+    "inputHash": "8e2939af"
+  },
+  {
+    "kellyId": 6774,
+    "decision": "fix",
+    "reason": "kept the breeze sense",
+    "translation": "fan",
+    "senses": [
+      "breath of wind, light breeze"
+    ],
+    "inputHash": "715bcbf7"
+  },
+  {
+    "kellyId": 5794,
+    "decision": "fix",
+    "reason": "kept distinct run-wild and prime senses",
+    "translation": "flow freely, flow abundantly",
+    "senses": [
+      "run wild",
+      "prime (a carburetor)"
+    ],
+    "inputHash": "9dbe4f76"
+  },
+  {
+    "kellyId": 6242,
+    "decision": "fix",
+    "reason": "kept the lining sense; calyx is rare/technical, dropped",
+    "translation": "feed, fodder",
+    "senses": [
+      "lining (of a garment or coat)"
+    ],
+    "inputHash": "ceb230dc"
+  },
+  {
+    "kellyId": 6448,
+    "decision": "fix",
+    "reason": "kept the protocol/convention sense",
+    "translation": "form",
+    "senses": [
+      "protocol, convention, tradition"
+    ],
+    "inputHash": "2a5ecc57"
+  },
+  {
+    "kellyId": 5617,
+    "decision": "fix",
+    "reason": "kept the figurative creation sense",
+    "translation": "fetus",
+    "senses": [
+      "product, creation (intellectual)"
+    ],
+    "inputHash": "14ccbc9e"
+  },
+  {
+    "kellyId": 6676,
+    "decision": "fix",
+    "reason": "kept the photo-session sense; dropped restated main",
+    "translation": "photography, photographing, shooting",
+    "senses": [
+      "photo shoot, photo session"
+    ],
+    "inputHash": "7e31b420"
+  },
+  {
+    "kellyId": 6243,
+    "decision": "fix",
+    "reason": "kept the figurative upside/advantage sense",
+    "translation": "front, front side",
+    "senses": [
+      "upside, advantage (figurative)"
+    ],
+    "inputHash": "d444803e"
+  },
+  {
+    "kellyId": 6055,
+    "decision": "fix",
+    "reason": "kept the French-bread sense",
+    "translation": "French",
+    "senses": [
+      "French bread, baguette"
+    ],
+    "inputHash": "88633702"
+  },
+  {
+    "kellyId": 6815,
+    "decision": "fix",
+    "reason": "kept audacious and colloquial cool senses",
+    "translation": "brazen, impudent, cheeky",
+    "senses": [
+      "audacious, bold (daring act)",
+      "cool, nice (colloquial)"
+    ],
+    "inputHash": "75ce8bac"
+  },
+  {
+    "kellyId": 6082,
+    "decision": "fix",
+    "reason": "humid and dank restate the main 'damp, moist'",
+    "translation": "damp, moist",
+    "senses": [],
+    "inputHash": "9fc5c87c"
+  },
+  {
+    "kellyId": 6984,
+    "decision": "fix",
+    "reason": "kept lighthouse and fire senses beyond 'fellow'",
+    "translation": "fellow, chap",
+    "senses": [
+      "lighthouse",
+      "fire (for heating)"
+    ],
+    "inputHash": "12ae1478"
+  },
+  {
+    "kellyId": 5637,
+    "decision": "fix",
+    "reason": "kept the historical prison senses",
+    "translation": "fortress",
+    "senses": [
+      "prison (historical, housed in a fortress)",
+      "prison sentence (historical)"
+    ],
+    "inputHash": "9c6baf29"
+  },
+  {
+    "kellyId": 5943,
+    "decision": "fix",
+    "reason": "kept the cause-of-misfortune sense; dropped restated main",
+    "translation": "curse",
+    "senses": [
+      "curse (cause of great harm or misfortune)"
+    ],
+    "inputHash": "c570af96"
+  },
+  {
+    "kellyId": 6454,
+    "decision": "fix",
+    "reason": "kept the in-depth study sense",
+    "translation": "recess, pit",
+    "senses": [
+      "in-depth study, specialization"
+    ],
+    "inputHash": "50a28adf"
+  },
+  {
+    "kellyId": 6470,
+    "decision": "fix",
+    "reason": "kept the traffic right-of-way sense",
+    "translation": "priority",
+    "senses": [
+      "right of way (in traffic)"
+    ],
+    "inputHash": "a6e4f9b1"
+  },
+  {
+    "kellyId": 6996,
+    "decision": "fix",
+    "reason": "kept the 'preferably' sense",
+    "translation": "primarily",
+    "senses": [
+      "preferably"
+    ],
+    "inputHash": "bf103f4f"
+  },
+  {
+    "kellyId": 5896,
+    "decision": "fix",
+    "reason": "kept the fall-due/expire sense",
+    "translation": "decay, degrade",
+    "senses": [
+      "expire, become due (of a deadline or bill)"
+    ],
+    "inputHash": "6f1e90a6"
+  },
+  {
+    "kellyId": 5766,
+    "decision": "fix",
+    "reason": "kept the oeuvre/body-of-work sense",
+    "translation": "authorship",
+    "senses": [
+      "oeuvre, body of work"
+    ],
+    "uncountable": true,
+    "inputHash": "fc5e7b11"
+  },
+  {
+    "kellyId": 6916,
+    "decision": "fix",
+    "reason": "'question' merely restates the main 'interrogate'; but keep the school oral-test sense",
+    "translation": "interrogate",
+    "senses": [
+      "test orally, quiz (a pupil)"
+    ],
+    "inputHash": "c1d6d79a"
+  },
+  {
+    "kellyId": 6481,
+    "decision": "fix",
+    "reason": "kept the mathematical reduce-a-fraction sense",
+    "translation": "shorten, abbreviate",
+    "senses": [
+      "cancel, reduce (a fraction)"
+    ],
+    "inputHash": "4fac74d4"
+  },
+  {
+    "kellyId": 6024,
+    "decision": "fix",
+    "reason": "kept the religious redemption sense",
+    "translation": "childbirth, delivery",
+    "senses": [
+      "redemption (salvation from sin)"
+    ],
+    "inputHash": "bf216e25"
+  },
+  {
+    "kellyId": 6513,
+    "decision": "fix",
+    "reason": "kept the agency (organization) sense",
+    "translation": "mediation, brokerage",
+    "senses": [
+      "agency (a business acting as intermediary)"
+    ],
+    "inputHash": "ffaf6664"
+  },
+  {
+    "kellyId": 5842,
+    "decision": "fix",
+    "reason": "kept the appoint-a-person sense",
+    "translation": "decree, instruct",
+    "senses": [
+      "appoint (a person to a duty)"
+    ],
+    "inputHash": "4965d41a"
+  },
+  {
+    "kellyId": 6130,
+    "decision": "fix",
+    "reason": "kept the concrete pollutant/substance sense",
+    "translation": "pollution, contamination, tainting",
+    "senses": [
+      "pollutant, contaminant (specific substance)"
+    ],
+    "uncountable": true,
+    "inputHash": "fe6e9fce"
+  },
+  {
+    "kellyId": 6834,
+    "decision": "fix",
+    "reason": "lead-distance item merely restates the main 'head start, lead'",
+    "translation": "head start, lead",
+    "senses": [],
+    "inputHash": "711b7449"
+  },
+  {
+    "kellyId": 6412,
+    "decision": "fix",
+    "reason": "kept the administrator/trustee sense",
+    "translation": "steward, manager",
+    "senses": [
+      "administrator, trustee"
+    ],
+    "inputHash": "e7da9420"
+  },
+  {
+    "kellyId": 6449,
+    "decision": "fix",
+    "reason": "kept gaping-mouth and literary chasm senses",
+    "translation": "gap, opening",
+    "senses": [
+      "gaping mouth (wide open)",
+      "chasm, abyss (literary)"
+    ],
+    "inputHash": "39f0018d"
+  },
+  {
+    "kellyId": 6931,
+    "decision": "fix",
+    "reason": "kept the fishing-net sense",
+    "translation": "yarn",
+    "senses": [
+      "fishing net"
+    ],
+    "inputHash": "991bcffb"
+  },
+  {
+    "kellyId": 6863,
+    "decision": "fix",
+    "reason": "kept the fully transparent sense (distinct from 'translucent')",
+    "translation": "translucent",
+    "senses": [
+      "transparent, see-through"
+    ],
+    "inputHash": "7a667f43"
+  },
+  {
+    "kellyId": 6573,
+    "decision": "fix",
+    "reason": "kept the grammatical-gender sense",
+    "translation": "gender",
+    "senses": [
+      "gender (grammatical category)"
+    ],
+    "inputHash": "0cefb67b"
+  },
+  {
+    "kellyId": 6696,
+    "decision": "fix",
+    "reason": "kept the glimpse (visual impression) sense",
+    "translation": "glint, flash",
+    "senses": [
+      "glimpse (brief visual impression)"
+    ],
+    "inputHash": "139e050e"
+  },
+  {
+    "kellyId": 5687,
+    "decision": "fix",
+    "reason": "kept the kindness sense (a distinct shade)",
+    "translation": "goodness",
+    "senses": [
+      "kindness, graciousness"
+    ],
+    "inputHash": "359f7adf"
+  },
+  {
+    "kellyId": 6992,
+    "decision": "fix",
+    "reason": "kept the reference-book sense",
+    "translation": "grammar",
+    "senses": [
+      "grammar (reference book)"
+    ],
+    "inputHash": "a0069f3a"
+  },
+  {
+    "kellyId": 5654,
+    "decision": "fix",
+    "reason": "kept 'earl' (British-title equivalent, distinct usage)",
+    "translation": "count",
+    "senses": [
+      "earl (British equivalent title)"
+    ],
+    "inputHash": "3efcfea1"
+  },
+  {
+    "kellyId": 6085,
+    "decision": "fix",
+    "reason": "kept the informal interrogate sense",
+    "translation": "grill, barbecue",
+    "senses": [
+      "grill, interrogate (informal)"
+    ],
+    "inputHash": "cf51632b"
+  },
+  {
+    "kellyId": 6734,
+    "decision": "fix",
+    "reason": "kept the logic/electronics gate sense",
+    "translation": "gate",
+    "senses": [
+      "gate (logic, electronics)"
+    ],
+    "inputHash": "90362ea5"
+  },
+  {
+    "kellyId": 6250,
+    "decision": "fix",
+    "reason": "kept the blooper/gaffe sense",
+    "translation": "frog",
+    "senses": [
+      "howler, blooper (embarrassing mistake)"
+    ],
+    "inputHash": "0b9b8b22"
+  },
+  {
+    "kellyId": 6943,
+    "decision": "fix",
+    "reason": "kept the brood/ruminate sense (darker shade than 'ponder')",
+    "translation": "ponder",
+    "senses": [
+      "brood, ruminate (worry over)"
+    ],
+    "inputHash": "8f1ce2e1"
+  },
+  {
+    "kellyId": 6517,
+    "decision": "fix",
+    "reason": "kept the concrete atrocity (a cruel act) sense",
+    "translation": "cruelty",
+    "senses": [
+      "atrocity (a cruel act)"
+    ],
+    "uncountable": true,
+    "inputHash": "e9220685"
+  },
+  {
+    "kellyId": 6648,
+    "decision": "fix",
+    "reason": "kept the figurative beginning/start sense",
+    "translation": "dawn",
+    "senses": [
+      "dawn (beginning, start)"
+    ],
+    "inputHash": "81de0cc2"
+  },
+  {
+    "kellyId": 6460,
+    "decision": "fix",
+    "reason": "kept the stew (dish) sense",
+    "translation": "pot",
+    "senses": [
+      "stew (dish)"
+    ],
+    "inputHash": "e7147554"
+  },
+  {
+    "kellyId": 6857,
+    "decision": "fix",
+    "reason": "kept the social unrestrained/over-the-top sense",
+    "translation": "limitless, boundless",
+    "senses": [
+      "unrestrained, over the top (socially)"
+    ],
+    "inputHash": "434817cb"
+  },
+  {
+    "kellyId": 6168,
+    "decision": "fix",
+    "reason": "kept the sod/turf sense (physical grass layer)",
+    "translation": "lawn",
+    "senses": [
+      "sod, turf"
+    ],
+    "inputHash": "3f139aa9"
+  },
+  {
+    "kellyId": 6649,
+    "decision": "fix",
+    "reason": "kept the divinity (divine nature) sense",
+    "translation": "deity",
+    "senses": [
+      "divinity (divine nature or being)"
+    ],
+    "inputHash": "481d5f45"
+  },
+  {
+    "kellyId": 6463,
+    "decision": "fix",
+    "reason": "kept the affectionate wife/missus sense",
+    "translation": "old woman, old lady",
+    "senses": [
+      "wife, missus (informal/affectionate)"
+    ],
+    "inputHash": "58b532b7"
+  },
+  {
+    "kellyId": 6558,
+    "decision": "fix",
+    "reason": "kept the figurative evasive/dishonest sense",
+    "translation": "slippery",
+    "senses": [
+      "slippery (evasive, dishonest)"
+    ],
+    "inputHash": "c2f9aa4e"
+  },
+  {
+    "kellyId": 6358,
+    "decision": "fix",
+    "reason": "kept the attention-getting and checking senses beyond the greeting",
+    "translation": "hello",
+    "senses": [
+      "hey (to get attention)",
+      "hello? (checking if someone is there)"
+    ],
+    "inputHash": "48763069"
+  },
+  {
+    "kellyId": 6879,
+    "decision": "fix",
+    "reason": "main is 'halftime; part-time' (both sides covered); nothing distinct remains",
+    "translation": "halftime; part-time",
+    "senses": [],
+    "inputHash": "8654570a"
+  },
+  {
+    "kellyId": 6646,
+    "decision": "fix",
+    "reason": "kept the electrical plug and rooster senses beyond 'male'",
+    "translation": "male",
+    "senses": [
+      "plug, male connector (electrical)",
+      "rooster, cock (male chicken)"
+    ],
+    "inputHash": "4ab64907"
+  },
+  {
+    "kellyId": 5748,
+    "decision": "fix",
+    "reason": "kept the craftsmanship sense; non-physical craft is same category as main",
+    "translation": "handicraft, craft",
+    "senses": [
+      "craftsmanship (skill)"
+    ],
+    "inputHash": "0d15c292"
+  },
+  {
+    "kellyId": 5711,
+    "decision": "fix",
+    "reason": "tradesperson/manual laborer restates the main 'craftsman, artisan'",
+    "translation": "craftsman, artisan",
+    "senses": [],
+    "inputHash": "b9f79715"
+  },
+  {
+    "kellyId": 6783,
+    "decision": "fix",
+    "reason": "kept the 'hasty' sense (rushed, distinct shade from 'quick, fast')",
+    "translation": "quick, fast",
+    "senses": [
+      "hasty, sudden"
+    ],
+    "inputHash": "66e91285"
+  },
+  {
+    "kellyId": 6186,
+    "decision": "fix",
+    "reason": "kept the biblical 'gentile' sense",
+    "translation": "heathen, pagan",
+    "senses": [
+      "gentile (biblical)"
+    ],
+    "inputHash": "6c088a27"
+  },
+  {
+    "kellyId": 5785,
+    "decision": "fix",
+    "reason": "kept the cheer-on sense (distinct from greeting)",
+    "translation": "greet by saying \"hej\"",
+    "senses": [
+      "cheer on, root for"
+    ],
+    "inputHash": "76f9575b"
+  },
+  {
+    "kellyId": 6625,
+    "decision": "fix",
+    "reason": "kept the control (of something/oneself) sense",
+    "translation": "dominion, rule",
+    "senses": [
+      "control (of something or oneself)"
+    ],
+    "inputHash": "96167320"
+  },
+  {
+    "kellyId": 5948,
+    "decision": "fix",
+    "reason": "menacing/ominous restate the main 'threatening'",
+    "translation": "threatening",
+    "senses": [],
+    "inputHash": "127f0c00"
+  },
+  {
+    "kellyId": 6060,
+    "decision": "fix",
+    "reason": "kept bite and sting senses beyond 'stab, blow'",
+    "translation": "stab, blow",
+    "senses": [
+      "bite (from a fish or snake)",
+      "sting (sudden sharp pain)"
+    ],
+    "inputHash": "c0997248"
+  },
+  {
+    "kellyId": 6390,
+    "decision": "fix",
+    "reason": "kept the domestic/farm animal sense",
+    "translation": "pet",
+    "senses": [
+      "domestic animal (livestock, farm animal)"
+    ],
+    "inputHash": "e0b61fab"
+  },
+  {
+    "kellyId": 5754,
+    "decision": "fix",
+    "reason": "figurative key-role item merely restates the main 'lead role'",
+    "translation": "lead role, leading role",
+    "senses": [],
+    "inputHash": "7c306c41"
+  },
+  {
+    "kellyId": 6241,
+    "decision": "fix",
+    "reason": "kept the shelf-life (of food) sense",
+    "translation": "sustainability",
+    "senses": [
+      "shelf life (of food)"
+    ],
+    "inputHash": "2dce1973"
+  },
+  {
+    "kellyId": 5972,
+    "decision": "fix",
+    "reason": "kept the athletics hurdle and hurdling senses",
+    "translation": "hedge",
+    "senses": [
+      "hurdle (athletics)",
+      "hurdling (the sport)"
+    ],
+    "inputHash": "1dba7f11"
+  },
+  {
+    "kellyId": 6303,
+    "decision": "fix",
+    "reason": "kept the derogatory hag sense",
+    "translation": "witch",
+    "senses": [
+      "hag (ugly or unpleasant woman)"
+    ],
+    "inputHash": "9c0d3488"
+  },
+  {
+    "kellyId": 5883,
+    "decision": "fix",
+    "reason": "kept the on-screen icon and religious-painting senses",
+    "translation": "icon",
+    "senses": [
+      "icon (small picture, e.g. on a screen)",
+      "icon (religious painting)"
+    ],
+    "inputHash": "7845c46d"
+  },
+  {
+    "kellyId": 6035,
+    "decision": "fix",
+    "reason": "kept the impetus and electrical-impulse senses",
+    "translation": "impulse",
+    "senses": [
+      "impetus, stimulus (driving force)",
+      "electrical impulse"
+    ],
+    "inputHash": "f7626424"
+  },
+  {
+    "kellyId": 6282,
+    "decision": "fix",
+    "reason": "kept substitution and deployment senses beyond bank deposit",
+    "translation": "deposit",
+    "senses": [
+      "substitution (math/logic)",
+      "deployment (of police, troops, or resources)"
+    ],
+    "inputHash": "8bd3f93b"
+  },
+  {
+    "kellyId": 6835,
+    "decision": "fix",
+    "reason": "kept the sexual/genital sense",
+    "translation": "intimate",
+    "senses": [
+      "intimate (relating to genitals or sexual matters)"
+    ],
+    "inputHash": "9789b188"
+  }
+]

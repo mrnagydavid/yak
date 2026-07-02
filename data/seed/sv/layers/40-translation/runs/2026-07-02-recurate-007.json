@@ -1,0 +1,1024 @@
+[
+  {
+    "kellyId": 2112,
+    "decision": "fix",
+    "reason": "'earn' is a distinct sense beyond 'deserve'",
+    "translation": "deserve",
+    "senses": [
+      "earn"
+    ],
+    "inputHash": "406d930a"
+  },
+  {
+    "kellyId": 1619,
+    "decision": "fix",
+    "reason": "'confidence' shades toward something shared in confidence",
+    "translation": "trust",
+    "senses": [
+      "confidence (shared in secret)"
+    ],
+    "uncountable": true,
+    "inputHash": "5826c970"
+  },
+  {
+    "kellyId": 1923,
+    "decision": "fix",
+    "reason": "strip main; keep prerequisite-requiring sense",
+    "translation": "assume, presuppose",
+    "senses": [
+      "require, demand (as a prerequisite)"
+    ],
+    "inputHash": "cee9537e"
+  },
+  {
+    "kellyId": 2196,
+    "decision": "fix",
+    "reason": "strip main; keep administrative-body sense",
+    "translation": "administration, management",
+    "senses": [
+      "authority, agency (administrative body)"
+    ],
+    "inputHash": "ccbfef6d"
+  },
+  {
+    "kellyId": 2131,
+    "decision": "fix",
+    "reason": "strip main; keep legal 'commute' sense",
+    "translation": "transform, turn into",
+    "senses": [
+      "commute (a legal sentence)"
+    ],
+    "inputHash": "5d54cb47"
+  },
+  {
+    "kellyId": 2160,
+    "decision": "fix",
+    "reason": "strip main; keep enthusiasm and 'wrong' senses",
+    "translation": "crazy, mad",
+    "senses": [
+      "crazy about, mad about (very enthusiastic or in love)",
+      "wrong, amiss"
+    ],
+    "inputHash": "6a7a06e5"
+  },
+  {
+    "kellyId": 1840,
+    "decision": "fix",
+    "reason": "'warrant' merely restates guarantee",
+    "translation": "guarantee",
+    "senses": [],
+    "inputHash": "018010e2"
+  },
+  {
+    "kellyId": 2747,
+    "decision": "fix",
+    "reason": "'warranty' is a distinct concrete sense",
+    "translation": "guarantee",
+    "senses": [
+      "warranty"
+    ],
+    "inputHash": "e885fc82"
+  },
+  {
+    "kellyId": 2690,
+    "decision": "fix",
+    "reason": "keep 'review/go over' sense distinct from undergo",
+    "translation": "go through, undergo",
+    "senses": [
+      "go over, review"
+    ],
+    "inputHash": "e2bbe576"
+  },
+  {
+    "kellyId": 1670,
+    "decision": "fix",
+    "reason": "strip main; keep 'compared to' sense",
+    "translation": "towards, in relation to",
+    "senses": [
+      "compared to, vis-à-vis"
+    ],
+    "inputHash": "d9e4e5d4"
+  },
+  {
+    "kellyId": 2568,
+    "decision": "fix",
+    "reason": "material vs vessel are distinct; strip main label",
+    "translation": "glass",
+    "senses": [
+      "glass (drinking vessel)"
+    ],
+    "inputHash": "a2c9faa6"
+  },
+  {
+    "kellyId": 2460,
+    "decision": "fix",
+    "reason": "strip main; keep passing-grade sense",
+    "translation": "approved, certified",
+    "senses": [
+      "passing (having a passing grade)"
+    ],
+    "inputHash": "151bfc74"
+  },
+  {
+    "kellyId": 1673,
+    "decision": "fix",
+    "reason": "strip main; keep grading sense",
+    "translation": "approve",
+    "senses": [
+      "pass (give a passing grade)"
+    ],
+    "inputHash": "d3e1e86c"
+  },
+  {
+    "kellyId": 1808,
+    "decision": "fix",
+    "reason": "keep permissive sense distinct from 'well, good'",
+    "translation": "well, good",
+    "senses": [
+      "easily, feel free to (permissive: 'du kan gott vänta')"
+    ],
+    "inputHash": "2be7c144"
+  },
+  {
+    "kellyId": 1804,
+    "decision": "fix",
+    "reason": "extra 'thing' senses just restate the main object sense",
+    "translation": "thing",
+    "senses": [
+      "thing, deal (one's passion or forte)"
+    ],
+    "inputHash": "b351048b"
+  },
+  {
+    "kellyId": 1822,
+    "decision": "fix",
+    "reason": "strip main; keep arrest and emotional senses",
+    "translation": "grab, seize",
+    "senses": [
+      "arrest, detain (take into custody)",
+      "move deeply, touch (emotionally)"
+    ],
+    "inputHash": "69a13106"
+  },
+  {
+    "kellyId": 1652,
+    "decision": "fix",
+    "reason": "distinct senses beyond 'coarse'",
+    "translation": "coarse",
+    "senses": [
+      "crude, rude, vulgar",
+      "serious, gross (of a crime or mistake)",
+      "thick (of an object)"
+    ],
+    "inputHash": "450221f1"
+  },
+  {
+    "kellyId": 1445,
+    "decision": "fix",
+    "reason": "strip main; keep base/argument and priming senses",
+    "translation": "found, establish",
+    "senses": [
+      "base, ground (an argument on something)",
+      "prime (apply a base coat)"
+    ],
+    "inputHash": "c96c2c28"
+  },
+  {
+    "kellyId": 2560,
+    "decision": "fix",
+    "reason": "strip main; keep investigative sense",
+    "translation": "dig",
+    "senses": [
+      "dig into, dig up (investigate, research)"
+    ],
+    "inputHash": "bed300aa"
+  },
+  {
+    "kellyId": 2777,
+    "decision": "fix",
+    "reason": "strip main; keep husband, little boy, and figure senses",
+    "translation": "old man",
+    "senses": [
+      "husband (informal)",
+      "little boy, little guy (affectionate)",
+      "character, figure (in a game or drawing)"
+    ],
+    "inputHash": "964e865a"
+  },
+  {
+    "kellyId": 2288,
+    "decision": "fix",
+    "reason": "strip main; keep wealth and gold-medal senses",
+    "translation": "gold",
+    "senses": [
+      "fortune, riches (wealth and luck)",
+      "gold medal (competition victory)"
+    ],
+    "uncountable": true,
+    "inputHash": "a7a70bc9"
+  },
+  {
+    "kellyId": 1914,
+    "decision": "fix",
+    "reason": "strip main; keep favoritism sense",
+    "translation": "benefit",
+    "senses": [
+      "favor, show favoritism toward"
+    ],
+    "inputHash": "64572a1c"
+  },
+  {
+    "kellyId": 1769,
+    "decision": "fix",
+    "reason": "'group, bunch' is a distinct informal sense from 'gang'",
+    "translation": "gang",
+    "senses": [
+      "group, bunch (of people or items)"
+    ],
+    "inputHash": "1513ecba"
+  },
+  {
+    "kellyId": 2552,
+    "decision": "fix",
+    "reason": "strip main; keep career/body-of-work sense",
+    "translation": "act, deed",
+    "senses": [
+      "body of work (the sum of one's career)"
+    ],
+    "inputHash": "01a0f03f"
+  },
+  {
+    "kellyId": 2495,
+    "decision": "fix",
+    "reason": "hide oneself is a reflexive shade but essentially the same sense",
+    "translation": "hide, conceal",
+    "senses": [],
+    "inputHash": "bfb52ead"
+  },
+  {
+    "kellyId": 2212,
+    "decision": "fix",
+    "reason": "strip main; keep figurative haven sense",
+    "translation": "port, harbor",
+    "senses": [
+      "haven, refuge (place of safety)"
+    ],
+    "inputHash": "bb598b62"
+  },
+  {
+    "kellyId": 1417,
+    "decision": "fix",
+    "reason": "strip main; keep store/shop sense",
+    "translation": "trade, commerce",
+    "senses": [
+      "store, shop"
+    ],
+    "uncountable": true,
+    "inputHash": "cc714e50"
+  },
+  {
+    "kellyId": 2017,
+    "decision": "fix",
+    "reason": "afterlife Hell is a distinct sense from figurative hell",
+    "translation": "hell",
+    "senses": [
+      "Hell (the afterlife)"
+    ],
+    "inputHash": "33614d00"
+  },
+  {
+    "kellyId": 1583,
+    "decision": "fix",
+    "reason": "strip main; keep men's room, master, and Lord senses",
+    "translation": "gentleman, sir",
+    "senses": [
+      "men's room (short for herrarnas toalett)",
+      "lord, master (person of authority)",
+      "Lord (God)"
+    ],
+    "inputHash": "33dc73b5"
+  },
+  {
+    "kellyId": 2504,
+    "decision": "fix",
+    "reason": "strip main; keep spicy and attractive senses",
+    "translation": "hot",
+    "senses": [
+      "spicy (food)",
+      "hot, sexy (attractive)"
+    ],
+    "inputHash": "068caef7"
+  },
+  {
+    "kellyId": 1725,
+    "decision": "fix",
+    "reason": "strip main; keep sports steeplechase sense",
+    "translation": "obstacle, obstruction",
+    "senses": [
+      "steeplechase (sport)"
+    ],
+    "inputHash": "9a57025c"
+  },
+  {
+    "kellyId": 1615,
+    "decision": "fix",
+    "reason": "strip main; keep figurative mastermind sense",
+    "translation": "brain",
+    "senses": [
+      "brains, mastermind (the intelligence behind something)"
+    ],
+    "inputHash": "6b2edc5a"
+  },
+  {
+    "kellyId": 1503,
+    "decision": "fix",
+    "reason": "strip main; keep jump/vault senses (homograph)",
+    "translation": "hope",
+    "senses": [
+      "jump",
+      "vault (sport)"
+    ],
+    "uncountable": true,
+    "inputHash": "f09c60c1"
+  },
+  {
+    "kellyId": 2113,
+    "decision": "fix",
+    "reason": "keep literal 'in any way whatsoever' sense",
+    "translation": "in any case, anyway, anyhow",
+    "senses": [
+      "in any way whatsoever"
+    ],
+    "inputHash": "fd8eb6bd"
+  },
+  {
+    "kellyId": 2190,
+    "decision": "fix",
+    "reason": "strip main; keep housekeeping activity sense",
+    "translation": "household",
+    "senses": [
+      "housekeeping, domestic work"
+    ],
+    "inputHash": "173d0717"
+  },
+  {
+    "kellyId": 2634,
+    "decision": "fix",
+    "reason": "keep homage/hail sense distinct from praise",
+    "translation": "praise",
+    "senses": [
+      "pay homage to, hail"
+    ],
+    "inputHash": "8d7e9fc4"
+  },
+  {
+    "kellyId": 1563,
+    "decision": "fix",
+    "reason": "'sustainable' is a major distinct sense from 'durable'",
+    "translation": "durable",
+    "senses": [
+      "sustainable"
+    ],
+    "inputHash": "58a931f3"
+  },
+  {
+    "kellyId": 2152,
+    "decision": "fix",
+    "reason": "keep 'send word/regards' sense distinct from greet",
+    "translation": "greet, salute",
+    "senses": [
+      "send regards, send word"
+    ],
+    "inputHash": "8cb385fb"
+  },
+  {
+    "kellyId": 1758,
+    "decision": "fix",
+    "reason": "keep literary glorious sense",
+    "translation": "lovely, wonderful",
+    "senses": [
+      "glorious, majestic (literary)"
+    ],
+    "inputHash": "509faaf4"
+  },
+  {
+    "kellyId": 2072,
+    "decision": "fix",
+    "reason": "strip main; keep figurative peak and hill senses",
+    "translation": "height",
+    "senses": [
+      "peak, height (figurative: 'at the height of')",
+      "hill (a smaller elevation)"
+    ],
+    "inputHash": "3f016e72"
+  },
+  {
+    "kellyId": 2530,
+    "decision": "fix",
+    "reason": "keep the literal 'in and of itself' sense",
+    "translation": "well, actually; in and of itself",
+    "senses": [
+      "in and of itself, as such"
+    ],
+    "inputHash": "879e0ce2"
+  },
+  {
+    "kellyId": 2037,
+    "decision": "fix",
+    "reason": "strip main; keep reflexive 'identify with' sense",
+    "translation": "identify",
+    "senses": [
+      "identify with (associate oneself with a group or values)"
+    ],
+    "inputHash": "1deaa7e9"
+  },
+  {
+    "kellyId": 1915,
+    "decision": "fix",
+    "reason": "'whether' is a distinct sense from 'in case'",
+    "translation": "in case",
+    "senses": [
+      "whether"
+    ],
+    "inputHash": "a88567b5"
+  },
+  {
+    "kellyId": 1448,
+    "decision": "fix",
+    "reason": "keep concrete factory/site sense distinct from the trade sense",
+    "translation": "industry",
+    "senses": [
+      "industrial facility, factory"
+    ],
+    "inputHash": "9884ea87"
+  },
+  {
+    "kellyId": 1574,
+    "decision": "fix",
+    "reason": "keep figurative inflation of grades/standards",
+    "translation": "inflation",
+    "senses": [
+      "inflation (of grades, standards, etc.)"
+    ],
+    "uncountable": true,
+    "inputHash": "ab9e33de"
+  },
+  {
+    "kellyId": 2683,
+    "decision": "fix",
+    "reason": "'include, cover (of a price)' just restates the main include sense",
+    "translation": "include, involve",
+    "senses": [],
+    "inputHash": "d4296d97"
+  },
+  {
+    "kellyId": 1902,
+    "decision": "fix",
+    "reason": "strip main; keep academic specialization sense",
+    "translation": "direction, orientation",
+    "senses": [
+      "specialization, field (of study or work)"
+    ],
+    "inputHash": "4ba79424"
+  },
+  {
+    "kellyId": 1879,
+    "decision": "fix",
+    "reason": "'knowledge' shades differently from insight",
+    "translation": "insight, understanding",
+    "senses": [
+      "deep knowledge, awareness"
+    ],
+    "inputHash": "ed1b1533"
+  },
+  {
+    "kellyId": 1654,
+    "decision": "fix",
+    "reason": "strip main; keep component and weaving senses",
+    "translation": "segment, feature",
+    "senses": [
+      "element, component (part of something)",
+      "weft (in weaving)"
+    ],
+    "inputHash": "156da59f"
+  },
+  {
+    "kellyId": 2724,
+    "decision": "fix",
+    "reason": "keep physiological inhalation sense",
+    "translation": "inspiration",
+    "senses": [
+      "inhalation (breathing in)"
+    ],
+    "inputHash": "98ffb5cf"
+  },
+  {
+    "kellyId": 1442,
+    "decision": "fix",
+    "reason": "keep university department sense; drop restating institution senses",
+    "translation": "institution",
+    "senses": [
+      "department (at a university)"
+    ],
+    "inputHash": "6a29824f"
+  },
+  {
+    "kellyId": 1511,
+    "decision": "fix",
+    "reason": "'setting' is a distinct technical sense from attitude",
+    "translation": "attitude, position",
+    "senses": [
+      "setting (on a device or in software)"
+    ],
+    "inputHash": "fc9108c4"
+  },
+  {
+    "kellyId": 2202,
+    "decision": "fix",
+    "reason": "strip main; keep 'eat/have a meal' sense",
+    "translation": "take, occupy, assume",
+    "senses": [
+      "eat, have (a meal)"
+    ],
+    "inputHash": "52813d1a"
+  },
+  {
+    "kellyId": 2653,
+    "decision": "fix",
+    "reason": "'integration of immigrants' is the same sense in a social context",
+    "translation": "integration",
+    "senses": [],
+    "uncountable": true,
+    "inputHash": "58ac501e"
+  },
+  {
+    "kellyId": 1792,
+    "decision": "fix",
+    "reason": "'privacy' is a major distinct sense from integrity",
+    "translation": "integrity",
+    "senses": [
+      "privacy"
+    ],
+    "inputHash": "7407c713"
+  },
+  {
+    "kellyId": 2564,
+    "decision": "fix",
+    "reason": "'vibrant' (of colour) is a distinct sense",
+    "translation": "intensive, intense",
+    "senses": [
+      "vibrant (of a colour)"
+    ],
+    "inputHash": "5a790f40"
+  },
+  {
+    "kellyId": 2046,
+    "decision": "fix",
+    "reason": "'hunt' is a distinct sense from chase/pursue",
+    "translation": "chase",
+    "senses": [
+      "hunt (prey)"
+    ],
+    "inputHash": "8a8d663c"
+  },
+  {
+    "kellyId": 2019,
+    "decision": "fix",
+    "reason": "keep the concrete 'farm' sense; drop restating definition of agriculture",
+    "translation": "agriculture",
+    "senses": [
+      "farm (place of agricultural activity)"
+    ],
+    "inputHash": "d6f6b854"
+  },
+  {
+    "kellyId": 2660,
+    "decision": "fix",
+    "reason": "keep the correlative 'the ... the' sense (ju ... desto)",
+    "translation": "of course, you know, after all",
+    "senses": [
+      "the … the (in comparisons: ju … desto)"
+    ],
+    "inputHash": "b1e03418"
+  },
+  {
+    "kellyId": 2715,
+    "decision": "fix",
+    "reason": "keep mathematical even (divisible by 2) sense",
+    "translation": "smooth, even",
+    "senses": [
+      "even (divisible by 2)"
+    ],
+    "inputHash": "c3d43eb5"
+  },
+  {
+    "kellyId": 2294,
+    "decision": "fix",
+    "reason": "strip main; keep cavity and office senses",
+    "translation": "chamber",
+    "senses": [
+      "cavity (of the heart, etc.)",
+      "office, department (e.g. handelskammare)"
+    ],
+    "inputHash": "75390704"
+  },
+  {
+    "kellyId": 2696,
+    "decision": "fix",
+    "reason": "'comrade' (political) is a distinct sense",
+    "translation": "friend, mate, companion",
+    "senses": [
+      "comrade (fellow socialist or leftist)"
+    ],
+    "inputHash": "e3b8097c"
+  },
+  {
+    "kellyId": 2057,
+    "decision": "fix",
+    "reason": "'bachelor's degree' is a distinct academic sense",
+    "translation": "candidate",
+    "senses": [
+      "bachelor's degree"
+    ],
+    "inputHash": "d31ecf24"
+  },
+  {
+    "kellyId": 2215,
+    "decision": "fix",
+    "reason": "'blister pack' is a distinct concrete sense",
+    "translation": "map",
+    "senses": [
+      "blister pack, card (holding tablets or buttons)"
+    ],
+    "inputHash": "67c22d46"
+  },
+  {
+    "kellyId": 1910,
+    "decision": "fix",
+    "reason": "'wail, moan' is a distinct sense from complain",
+    "translation": "complain",
+    "senses": [
+      "wail, whimper, moan"
+    ],
+    "inputHash": "56cec2e0"
+  },
+  {
+    "kellyId": 1545,
+    "decision": "fix",
+    "reason": "strip main; keep antiquity and 'classic/highly regarded' senses",
+    "translation": "classical",
+    "senses": [
+      "classical (of antiquity)",
+      "classic (old and highly regarded)"
+    ],
+    "inputHash": "be2040a5"
+  },
+  {
+    "kellyId": 2677,
+    "decision": "fix",
+    "reason": "'step onto/off/into' is essentially the same motion sense",
+    "translation": "step, to stride",
+    "senses": [],
+    "inputHash": "78946bf4"
+  },
+  {
+    "kellyId": 1536,
+    "decision": "fix",
+    "reason": "nightclub is a distinct sense from association",
+    "translation": "club",
+    "senses": [
+      "club (nightclub, venue)"
+    ],
+    "inputHash": "4c5cff0b"
+  },
+  {
+    "kellyId": 2600,
+    "decision": "fix",
+    "reason": "strip main; keep clench and figurative forge senses",
+    "translation": "tie",
+    "senses": [
+      "clench (a fist)",
+      "forge, establish (ties, connections)"
+    ],
+    "inputHash": "3c255d24"
+  },
+  {
+    "kellyId": 2773,
+    "decision": "fix",
+    "reason": "'lap' is a distinct sense from knee",
+    "translation": "knee",
+    "senses": [
+      "lap (the upper legs when seated)"
+    ],
+    "inputHash": "6d94b3bf"
+  },
+  {
+    "kellyId": 2219,
+    "decision": "fix",
+    "reason": "strip main; keep 'track, grip' figurative sense",
+    "translation": "look, check",
+    "senses": [
+      "track, grip (keeping tabs on something)"
+    ],
+    "inputHash": "05672156"
+  },
+  {
+    "kellyId": 1469,
+    "decision": "fix",
+    "reason": "'transport' is a distinct sense (kommunikationer)",
+    "translation": "communication",
+    "senses": [
+      "transport, transit"
+    ],
+    "inputHash": "779afac3"
+  },
+  {
+    "kellyId": 1818,
+    "decision": "fix",
+    "reason": "legal jurisdiction is a distinct sense from skill",
+    "translation": "competence, skill",
+    "senses": [
+      "competence, jurisdiction (legal authorization)"
+    ],
+    "inputHash": "aeb31149"
+  },
+  {
+    "kellyId": 2451,
+    "decision": "fix",
+    "reason": "'complement, add a missing part' restates the complete/supplement main",
+    "translation": "complete, supplement",
+    "senses": [],
+    "inputHash": "cd9fdb49"
+  },
+  {
+    "kellyId": 1504,
+    "decision": "fix",
+    "reason": "keep 'the competition' (the competitors) as a distinct sense",
+    "translation": "competition, rivalry",
+    "senses": [
+      "the competition (the competitors)"
+    ],
+    "inputHash": "8bf15016"
+  },
+  {
+    "kellyId": 2065,
+    "decision": "fix",
+    "reason": "keep the medical 'conservative' (non-surgical) sense",
+    "translation": "conservative",
+    "senses": [
+      "conservative (non-surgical, in medicine)"
+    ],
+    "inputHash": "5030d3bc"
+  },
+  {
+    "kellyId": 2406,
+    "decision": "fix",
+    "reason": "keep the church deanery sense as distinct",
+    "translation": "contract",
+    "senses": [
+      "deanery (group of church parishes)"
+    ],
+    "inputHash": "980d45d6"
+  },
+  {
+    "kellyId": 1966,
+    "decision": "fix",
+    "reason": "abstract connect just restates main; keep leash and 'understand' senses",
+    "translation": "connect",
+    "senses": [
+      "put on a leash",
+      "get it, understand (colloquial)"
+    ],
+    "inputHash": "96a57da2"
+  },
+  {
+    "kellyId": 2436,
+    "decision": "fix",
+    "reason": "strip main; keep execution-device and typographic dagger senses",
+    "translation": "cross",
+    "senses": [
+      "cross (crucifix, execution device)",
+      "dagger (typographic mark †)"
+    ],
+    "inputHash": "abbfde4b"
+  },
+  {
+    "kellyId": 1785,
+    "decision": "fix",
+    "reason": "strip main; keep severe, sturdy, and heavy-set senses",
+    "translation": "powerful, strong",
+    "senses": [
+      "severe, sharp (of a change or impact)",
+      "sturdy, solid",
+      "heavy-set, stout"
+    ],
+    "inputHash": "0ca0bced"
+  },
+  {
+    "kellyId": 2581,
+    "decision": "fix",
+    "reason": "noun 'criminal' is a distinct part-of-speech use worth noting",
+    "translation": "criminal",
+    "senses": [
+      "criminal (a criminal person)"
+    ],
+    "inputHash": "702748f9"
+  },
+  {
+    "kellyId": 2466,
+    "decision": "fix",
+    "reason": "keep the equestrian race sense",
+    "translation": "criterion, requirement",
+    "senses": [
+      "criterium, preparatory horse race (equestrian)"
+    ],
+    "inputHash": "90c23058"
+  },
+  {
+    "kellyId": 2605,
+    "decision": "fix",
+    "reason": "'arts reviewer' is a distinct sense from general critic",
+    "translation": "critic",
+    "senses": [
+      "critic, reviewer (of arts)"
+    ],
+    "inputHash": "2d8f9420"
+  },
+  {
+    "kellyId": 1470,
+    "decision": "fix",
+    "reason": "strip main; keep near-crisis, opposed, and computing senses",
+    "translation": "critical, exacting",
+    "senses": [
+      "critical (important, near crisis)",
+      "critical (opposed to something)",
+      "fatal (computing)"
+    ],
+    "inputHash": "e0248ce9"
+  },
+  {
+    "kellyId": 2645,
+    "decision": "fix",
+    "reason": "'chronicle' (historical writing) is a distinct sense from newspaper column",
+    "translation": "column",
+    "senses": [
+      "chronicle (historical writing)"
+    ],
+    "inputHash": "491d561a"
+  },
+  {
+    "kellyId": 1567,
+    "decision": "fix",
+    "reason": "'feminine' is a distinct sense from biological 'female'",
+    "translation": "female",
+    "senses": [
+      "feminine (having feminine qualities)"
+    ],
+    "inputHash": "2b941801"
+  },
+  {
+    "kellyId": 2424,
+    "decision": "fix",
+    "reason": "'delicate, touchy' shades differently (of a topic or object)",
+    "translation": "sensitive",
+    "senses": [
+      "delicate, touchy (of a topic or object)"
+    ],
+    "inputHash": "022ca5c3"
+  },
+  {
+    "kellyId": 1629,
+    "decision": "fix",
+    "reason": "'dear, beloved' is a distinct sense from 'in love'",
+    "translation": "in love",
+    "senses": [
+      "dear, beloved"
+    ],
+    "inputHash": "866e0e58"
+  },
+  {
+    "kellyId": 2421,
+    "decision": "fix",
+    "reason": "keep physics 'nuclear force' sense",
+    "translation": "nuclear power",
+    "senses": [
+      "nuclear force (physics)"
+    ],
+    "uncountable": true,
+    "inputHash": "63e0345c"
+  },
+  {
+    "kellyId": 2315,
+    "decision": "fix",
+    "reason": "strip main; keep cuisine and camp stove senses",
+    "translation": "kitchen",
+    "senses": [
+      "cuisine (style of cooking)",
+      "stove, camp stove"
+    ],
+    "inputHash": "78bba378"
+  },
+  {
+    "kellyId": 1706,
+    "decision": "fix",
+    "reason": "'genitalia' is a distinct anatomical sense",
+    "translation": "sex, gender",
+    "senses": [
+      "genitals, sex organ"
+    ],
+    "inputHash": "677f5880"
+  },
+  {
+    "kellyId": 1922,
+    "decision": "fix",
+    "reason": "'flesh' (body tissue) is a distinct sense from 'meat' (food)",
+    "translation": "meat, flesh",
+    "senses": [
+      "flesh (body tissue)"
+    ],
+    "uncountable": true,
+    "inputHash": "4ffb9287"
+  },
+  {
+    "kellyId": 1578,
+    "decision": "fix",
+    "reason": "'charge (electrically)' is a distinct sense from 'load'",
+    "translation": "load",
+    "senses": [
+      "charge (electrically)"
+    ],
+    "inputHash": "95961ff4"
+  },
+  {
+    "kellyId": 2347,
+    "decision": "fix",
+    "reason": "harbour/ashore restate the arrival sense; keep the figurative 'secure' sense",
+    "translation": "land",
+    "senses": [
+      "acquire, secure (a deal, job)"
+    ],
+    "inputHash": "2e805bde"
+  },
+  {
+    "kellyId": 2595,
+    "decision": "fix",
+    "reason": "'laugh' is a distinct sense from smile",
+    "translation": "smile",
+    "senses": [
+      "laugh"
+    ],
+    "inputHash": "4b48b00c"
+  },
+  {
+    "kellyId": 2166,
+    "decision": "fix",
+    "reason": "strip main; keep math term and stage/step senses",
+    "translation": "queue, rank",
+    "senses": [
+      "term (mathematics)",
+      "stage, step"
+    ],
+    "inputHash": "fc0c4334"
+  },
+  {
+    "kellyId": 2420,
+    "decision": "fix",
+    "reason": "'relaxed, casual' is a distinct sense from 'free, available'",
+    "translation": "free, available, not occupied",
+    "senses": [
+      "relaxed, casual, informal"
+    ],
+    "inputHash": "355c21f2"
+  },
+  {
+    "kellyId": 1917,
+    "decision": "fix",
+    "reason": "strip main; keep pretend and animal-mating senses",
+    "translation": "play",
+    "senses": [
+      "pretend to be (in play)",
+      "spawn, mate (of fish and animals)"
+    ],
+    "inputHash": "1ab3b53e"
+  },
+  {
+    "kellyId": 1817,
+    "decision": "fix",
+    "reason": "'deliver results' is a distinct figurative sense from physical delivery",
+    "translation": "deliver",
+    "senses": [
+      "deliver (produce results)"
+    ],
+    "inputHash": "a4060aec"
+  },
+  {
+    "kellyId": 1517,
+    "decision": "fix",
+    "reason": "'Liberal' (the Swedish party) is a distinct sense",
+    "translation": "liberal",
+    "senses": [
+      "Liberal (Swedish Liberalerna party)"
+    ],
+    "inputHash": "d6491267"
+  }
+]

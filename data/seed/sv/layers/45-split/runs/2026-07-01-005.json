@@ -1,0 +1,46 @@
+[
+  {
+    "kellyId": 273,
+    "decision": "split",
+    "reason": "tal = 'speech, address' is a common, everyday sense fully unrelated to the primary 'number' — worth its own card",
+    "altMeanings": [
+      { "translation": "speech, address", "gloss": "public talk" }
+    ],
+    "subDefinitions": [
+      "math problem, exercise (school)"
+    ],
+    "inputHash": "5115d728"
+  },
+  {
+    "kellyId": 600,
+    "decision": "split",
+    "reason": "tjänst = 'job, post, position' is a common everyday sense distinct from the primary 'favour'",
+    "altMeanings": [
+      { "translation": "job, post, position", "gloss": "employment" }
+    ],
+    "subDefinitions": [
+      "service"
+    ],
+    "inputHash": "9456c826"
+  },
+  {
+    "kellyId": 488,
+    "decision": "split",
+    "reason": "tur = 'trip, outing, tour' is a common everyday sense distinct from luck/turn (already in the primary)",
+    "altMeanings": [
+      { "translation": "trip, outing, tour", "gloss": "" }
+    ],
+    "subDefinitions": [],
+    "inputHash": "a07a2426"
+  },
+  {
+    "kellyId": 413,
+    "decision": "split",
+    "reason": "val = 'election' is a very common sense fully unrelated to the primary 'choice' — worth its own card",
+    "altMeanings": [
+      { "translation": "election", "gloss": "voting" }
+    ],
+    "subDefinitions": [],
+    "inputHash": "9ba1d1ab"
+  }
+]

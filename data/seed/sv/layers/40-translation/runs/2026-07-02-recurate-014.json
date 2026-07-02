@@ -1,0 +1,1015 @@
+[
+  {
+    "kellyId": 5405,
+    "decision": "fix",
+    "reason": "list restated main; only distinct sense is figurative use",
+    "translation": "ammunition",
+    "senses": [
+      "ammunition (arguments, information — figurative)"
+    ],
+    "uncountable": true,
+    "inputHash": "5d8720c0"
+  },
+  {
+    "kellyId": 5318,
+    "decision": "fix",
+    "reason": "distinct sense: be someone's responsibility",
+    "translation": "arrive",
+    "senses": [
+      "be up to, be the responsibility of"
+    ],
+    "inputHash": "196ae07d"
+  },
+  {
+    "kellyId": 5493,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct 'remark, note' sense",
+    "translation": "complaint, criticism",
+    "senses": [
+      "remark, note (short comment)"
+    ],
+    "inputHash": "2d09d152"
+  },
+  {
+    "kellyId": 4983,
+    "decision": "fix",
+    "reason": "both list items restate the two-part main translation",
+    "translation": "ancient, antique",
+    "senses": [],
+    "inputHash": "01918f19"
+  },
+  {
+    "kellyId": 4364,
+    "decision": "fix",
+    "reason": "stripped main; kept informal insult sense",
+    "translation": "monkey, ape",
+    "senses": [
+      "idiot, dimwit (informal insult)"
+    ],
+    "inputHash": "c947f035"
+  },
+  {
+    "kellyId": 4652,
+    "decision": "fix",
+    "reason": "stripped main; kept bureaucratic/political machinery sense",
+    "translation": "apparatus, device",
+    "senses": [
+      "machinery (bureaucratic or political apparatus)"
+    ],
+    "inputHash": "2b14d670"
+  },
+  {
+    "kellyId": 5556,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct appliance and software senses",
+    "translation": "assistant",
+    "senses": [
+      "stand mixer (kitchen appliance)",
+      "wizard (software setup)"
+    ],
+    "inputHash": "e3c27380"
+  },
+  {
+    "kellyId": 4272,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct submit-a-statement sense",
+    "translation": "emit, give off",
+    "senses": [
+      "deliver, submit (a report or statement)"
+    ],
+    "inputHash": "d0c3c0fc"
+  },
+  {
+    "kellyId": 4993,
+    "decision": "fix",
+    "reason": "stripped main; kept resignation sense",
+    "translation": "departure",
+    "senses": [
+      "resignation (from a post)"
+    ],
+    "inputHash": "be837be8"
+  },
+  {
+    "kellyId": 4607,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct reflexive/departure senses",
+    "translation": "remove",
+    "senses": [
+      "move away, distance oneself",
+      "leave, depart"
+    ],
+    "inputHash": "d9a4ed83"
+  },
+  {
+    "kellyId": 5168,
+    "decision": "fix",
+    "reason": "stripped main; kept 'take off (clothes)' sense",
+    "translation": "decrease, diminish, subside",
+    "senses": [
+      "take off (clothes)"
+    ],
+    "inputHash": "e47b35a4"
+  },
+  {
+    "kellyId": 4545,
+    "decision": "fix",
+    "reason": "'departure from a norm' just restates deviation",
+    "translation": "deviation, anomaly",
+    "senses": [],
+    "inputHash": "0ed3fb18"
+  },
+  {
+    "kellyId": 5354,
+    "decision": "fix",
+    "reason": "'balancing act' restates trade-off/balance",
+    "translation": "trade-off, balance",
+    "senses": [],
+    "inputHash": "ef1a7f6f"
+  },
+  {
+    "kellyId": 4770,
+    "decision": "fix",
+    "reason": "stripped main; kept burial mound sense",
+    "translation": "hill",
+    "senses": [
+      "burial mound"
+    ],
+    "inputHash": "dce1488a"
+  },
+  {
+    "kellyId": 5116,
+    "decision": "fix",
+    "reason": "'luggage' just restates baggage",
+    "translation": "baggage",
+    "senses": [],
+    "inputHash": "61fdc39d"
+  },
+  {
+    "kellyId": 4455,
+    "decision": "fix",
+    "reason": "stripped main; kept the abstract command/authority sense",
+    "translation": "military officer",
+    "senses": [
+      "command, authority (being in command)"
+    ],
+    "inputHash": "c10da494"
+  },
+  {
+    "kellyId": 4761,
+    "decision": "fix",
+    "reason": "stripped main; kept cover-under-earth and figurative senses",
+    "translation": "bury",
+    "senses": [
+      "cover (under earth or snow)",
+      "put an end to (figuratively)"
+    ],
+    "inputHash": "a01779c3"
+  },
+  {
+    "kellyId": 4256,
+    "decision": "fix",
+    "reason": "stripped main; kept reflexive self-control sense",
+    "translation": "master, command",
+    "senses": [
+      "restrain oneself, control oneself"
+    ],
+    "inputHash": "eebd650d"
+  },
+  {
+    "kellyId": 4278,
+    "decision": "fix",
+    "reason": "distinct sense: lazy from preferring comfort",
+    "translation": "comfortable",
+    "senses": [
+      "lazy (out of preferring comfort)"
+    ],
+    "inputHash": "88de8fe0"
+  },
+  {
+    "kellyId": 4701,
+    "decision": "fix",
+    "reason": "stripped main; kept religious profession sense",
+    "translation": "confession",
+    "senses": [
+      "profession (of religious belief)"
+    ],
+    "inputHash": "df746ee1"
+  },
+  {
+    "kellyId": 5200,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct social/physical burden sense",
+    "translation": "load",
+    "senses": [
+      "burden (social or physical)"
+    ],
+    "inputHash": "55ae3b68"
+  },
+  {
+    "kellyId": 5251,
+    "decision": "fix",
+    "reason": "stripped main; kept fixtures and figurative senses",
+    "translation": "lighting, illumination",
+    "senses": [
+      "light, lights (the fixtures)",
+      "shedding light on (figuratively)"
+    ],
+    "uncountable": true,
+    "inputHash": "877a78c1"
+  },
+  {
+    "kellyId": 4242,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct 'award' sense",
+    "translation": "reward",
+    "senses": [
+      "award"
+    ],
+    "inputHash": "8b88493b"
+  },
+  {
+    "kellyId": 4658,
+    "decision": "fix",
+    "reason": "stripped main; kept distinct addiction sense",
+    "translation": "dependence",
+    "senses": [
+      "addiction"
+    ],
+    "inputHash": "9876fefb"
+  },
+  {
+    "kellyId": 5215,
+    "decision": "fix",
+    "reason": "stripped main; kept defray-expense and carry-out senses",
+    "translation": "contest, dispute, deny",
+    "senses": [
+      "cover, defray (an expense)",
+      "carry out, provide"
+    ],
+    "inputHash": "e47e33ac"
+  },
+  {
+    "kellyId": 4744,
+    "decision": "fix",
+    "reason": "distinct sense: certify a document",
+    "translation": "witness",
+    "senses": [
+      "certify (a document as valid)"
+    ],
+    "inputHash": "3de15ddb"
+  },
+  {
+    "kellyId": 4874,
+    "decision": "fix",
+    "reason": "'stand by someone' just restates assist/support",
+    "translation": "assist, support",
+    "senses": [],
+    "inputHash": "b056c854"
+  },
+  {
+    "kellyId": 4492,
+    "decision": "fix",
+    "reason": "stripped main; kept 'blank' and 'unequivocal' senses",
+    "translation": "smooth and shiny, glossy",
+    "senses": [
+      "blank (without text)",
+      "unequivocal, straight-up"
+    ],
+    "inputHash": "1b70ab6e"
+  },
+  {
+    "kellyId": 5210,
+    "decision": "fix",
+    "reason": "stripped main; kept the person sense",
+    "translation": "bluff",
+    "senses": [
+      "bluffer (a person who bluffs)"
+    ],
+    "inputHash": "fd318886"
+  },
+  {
+    "kellyId": 5432,
+    "decision": "fix",
+    "reason": "stripped main; kept boozy and spineless senses",
+    "translation": "wet",
+    "senses": [
+      "boozy, with lots of alcohol",
+      "soft, spineless (informal)"
+    ],
+    "inputHash": "086b5833"
+  },
+  {
+    "kellyId": 4822,
+    "decision": "fix",
+    "reason": "stripped main; kept graffiti slang sense",
+    "translation": "bomb",
+    "senses": [
+      "bomb (cover with graffiti)"
+    ],
+    "inputHash": "b795e3f0"
+  },
+  {
+    "kellyId": 4828,
+    "decision": "fix",
+    "reason": "stripped main; kept cure, penance and robot senses",
+    "translation": "fine",
+    "senses": [
+      "cure, remedy",
+      "penance",
+      "bot (robot)"
+    ],
+    "inputHash": "9c1879a2"
+  },
+  {
+    "kellyId": 5147,
+    "decision": "fix",
+    "reason": "stripped main; kept informal 'girl, chick' sense",
+    "translation": "bride",
+    "senses": [
+      "girl, chick (informal)"
+    ],
+    "inputHash": "e99a0a65"
+  },
+  {
+    "kellyId": 5388,
+    "decision": "fix",
+    "reason": "stripped main; kept nautical bridge sense",
+    "translation": "jetty, dock, pier",
+    "senses": [
+      "bridge (nautical)"
+    ],
+    "inputHash": "939d74ec"
+  },
+  {
+    "kellyId": 4590,
+    "decision": "fix",
+    "reason": "stripped main; kept archaic textile sense",
+    "translation": "argue, quarrel, make trouble",
+    "senses": [
+      "brake flax (archaic, textile)"
+    ],
+    "inputHash": "ae99ac78"
+  },
+  {
+    "kellyId": 4439,
+    "decision": "fix",
+    "reason": "stripped main; kept colloquial TV and computer-case senses",
+    "translation": "pot, can, jar",
+    "senses": [
+      "TV set (colloquial)",
+      "computer case (colloquial)"
+    ],
+    "inputHash": "0d940f63"
+  },
+  {
+    "kellyId": 4951,
+    "decision": "fix",
+    "reason": "stripped main; kept the distinct kinds of bench",
+    "translation": "bench",
+    "senses": [
+      "bench (sports substitutes)",
+      "workbench",
+      "school desk",
+      "kitchen worktop"
+    ],
+    "inputHash": "76dfd63c"
+  },
+  {
+    "kellyId": 4428,
+    "decision": "fix",
+    "reason": "stripped main; kept lean/stoop and grammar senses",
+    "translation": "bend, bow",
+    "senses": [
+      "lean, stoop",
+      "inflect (grammar)"
+    ],
+    "inputHash": "522f209f"
+  },
+  {
+    "kellyId": 4905,
+    "decision": "fix",
+    "reason": "stripped main; kept technical 'lossy' sense",
+    "translation": "destructive",
+    "senses": [
+      "lossy (data compression)"
+    ],
+    "inputHash": "dbce2a25"
+  },
+  {
+    "kellyId": 4323,
+    "decision": "fix",
+    "reason": "stripped main; kept the maths/statistics sense",
+    "translation": "distribution",
+    "senses": [
+      "distribution (mathematics, statistics)"
+    ],
+    "inputHash": "0acc3ead"
+  },
+  {
+    "kellyId": 5396,
+    "decision": "fix",
+    "reason": "stripped main; kept the drifting/adrift sense",
+    "translation": "driving, motivating",
+    "senses": [
+      "drifting, adrift (ships, ice)"
+    ],
+    "inputHash": "897729e7"
+  },
+  {
+    "kellyId": 4335,
+    "decision": "fix",
+    "reason": "distinct sense: light rain",
+    "translation": "thing, bit",
+    "senses": [
+      "drizzle (light rain)"
+    ],
+    "inputHash": "f115882a"
+  },
+  {
+    "kellyId": 5308,
+    "decision": "fix",
+    "reason": "'costly, expensive' just restates precious/valuable",
+    "translation": "precious, valuable",
+    "senses": [],
+    "inputHash": "a39fec66"
+  },
+  {
+    "kellyId": 5612,
+    "decision": "fix",
+    "reason": "stripped main; kept adore and lock-picking senses",
+    "translation": "worship",
+    "senses": [
+      "adore, idolize",
+      "pick (a lock)"
+    ],
+    "inputHash": "0696d034"
+  },
+  {
+    "kellyId": 4411,
+    "decision": "fix",
+    "reason": "stripped main; kept technical damp-vibrations sense",
+    "translation": "dampen, reduce",
+    "senses": [
+      "damp, suppress (vibrations, technical)"
+    ],
+    "inputHash": "b2e512a9"
+  },
+  {
+    "kellyId": 4319,
+    "decision": "fix",
+    "reason": "'call for, seek' just restates the main",
+    "translation": "put out an appeal for, want",
+    "senses": [],
+    "inputHash": "031a512d"
+  },
+  {
+    "kellyId": 4860,
+    "decision": "fix",
+    "reason": "stripped main; kept lone-parent sense",
+    "translation": "single",
+    "senses": [
+      "lone (parent, without close family)"
+    ],
+    "inputHash": "f9b6d705"
+  },
+  {
+    "kellyId": 4702,
+    "decision": "fix",
+    "reason": "'unilateral' just restates one-sided",
+    "translation": "one-sided",
+    "senses": [],
+    "inputHash": "bf5209cf"
+  },
+  {
+    "kellyId": 4566,
+    "decision": "fix",
+    "reason": "stripped main; kept 'experience' sense",
+    "translation": "learn, find out",
+    "senses": [
+      "experience"
+    ],
+    "inputHash": "28e94089"
+  },
+  {
+    "kellyId": 4795,
+    "decision": "fix",
+    "reason": "stripped main; kept stage-of-a-process sense",
+    "translation": "leg",
+    "senses": [
+      "stage (of a process)"
+    ],
+    "inputHash": "2d9bfc10"
+  },
+  {
+    "kellyId": 4236,
+    "decision": "fix",
+    "reason": "stripped main; kept the distinct everyday senses",
+    "translation": "one",
+    "senses": [
+      "first year (of school)",
+      "first gear",
+      "studio apartment (one room)"
+    ],
+    "inputHash": "de34abd7"
+  },
+  {
+    "kellyId": 4253,
+    "decision": "fix",
+    "reason": "'fixture' just restates event",
+    "translation": "event",
+    "senses": [],
+    "inputHash": "999e0a87"
+  },
+  {
+    "kellyId": 4596,
+    "decision": "fix",
+    "reason": "stripped main; kept graduation and degree senses",
+    "translation": "exam",
+    "senses": [
+      "graduation",
+      "degree"
+    ],
+    "inputHash": "743d8940"
+  },
+  {
+    "kellyId": 5449,
+    "decision": "fix",
+    "reason": "stripped main; kept administration-office sense",
+    "translation": "expedition",
+    "senses": [
+      "administration office (that processes requests)"
+    ],
+    "inputHash": "f35b5bb5"
+  },
+  {
+    "kellyId": 5287,
+    "decision": "fix",
+    "reason": "stripped main; kept hindsight sense",
+    "translation": "answer key",
+    "senses": [
+      "hindsight (with the benefit of)"
+    ],
+    "inputHash": "e6bc4ce6"
+  },
+  {
+    "kellyId": 5237,
+    "decision": "fix",
+    "reason": "distinct sense: children's address for an older man",
+    "translation": "paternal uncle",
+    "senses": [
+      "mister, sir (children's term for an older man)"
+    ],
+    "inputHash": "db6e333a"
+  },
+  {
+    "kellyId": 4609,
+    "decision": "fix",
+    "reason": "stripped main; kept figurative deceptive-front sense",
+    "translation": "facade",
+    "senses": [
+      "front (deceptive appearance)"
+    ],
+    "inputHash": "cb473f4f"
+  },
+  {
+    "kellyId": 5195,
+    "decision": "fix",
+    "reason": "stripped main; kept figurative excited-state sense",
+    "translation": "fever",
+    "senses": [
+      "fever (excited state)"
+    ],
+    "inputHash": "98e092be"
+  },
+  {
+    "kellyId": 4523,
+    "decision": "fix",
+    "reason": "stripped main; kept football diving sense",
+    "translation": "film",
+    "senses": [
+      "dive, fake a foul (football)"
+    ],
+    "inputHash": "03fd8e8d"
+  },
+  {
+    "kellyId": 5456,
+    "decision": "fix",
+    "reason": "both list items restate flight/flying",
+    "translation": "flight",
+    "senses": [],
+    "inputHash": "4b34e3f0"
+  },
+  {
+    "kellyId": 4302,
+    "decision": "fix",
+    "reason": "stripped main; kept flowing, liquid and buoyant senses",
+    "translation": "fluent",
+    "senses": [
+      "flowing, fluid",
+      "liquid (physical state)",
+      "buoyant, floating"
+    ],
+    "inputHash": "f6c77241"
+  },
+  {
+    "kellyId": 5174,
+    "decision": "fix",
+    "reason": "stripped main; kept 'spot, patch' sense",
+    "translation": "stain",
+    "senses": [
+      "spot, patch"
+    ],
+    "inputHash": "27ba81ad"
+  },
+  {
+    "kellyId": 4812,
+    "decision": "fix",
+    "reason": "stripped main; kept prehistory sense",
+    "translation": "ancient past",
+    "senses": [
+      "prehistory (before written records)"
+    ],
+    "inputHash": "5794e72f"
+  },
+  {
+    "kellyId": 5590,
+    "decision": "fix",
+    "reason": "stripped main; kept 'fraction, portion' sense",
+    "translation": "faction",
+    "senses": [
+      "fraction (portion of a whole)"
+    ],
+    "inputHash": "16b3caa1"
+  },
+  {
+    "kellyId": 4340,
+    "decision": "fix",
+    "reason": "stripped main; kept develop-film and summon senses",
+    "translation": "induce, cause, evoke",
+    "senses": [
+      "develop (photographic film)",
+      "summon (a witness)"
+    ],
+    "inputHash": "882f1293"
+  },
+  {
+    "kellyId": 5212,
+    "decision": "fix",
+    "reason": "distinct sense: charitable",
+    "translation": "pious, devout",
+    "senses": [
+      "charitable"
+    ],
+    "inputHash": "03f08a43"
+  },
+  {
+    "kellyId": 5299,
+    "decision": "fix",
+    "reason": "stripped main; kept figurative uncertainty sense",
+    "translation": "question mark",
+    "senses": [
+      "unanswered question, uncertainty"
+    ],
+    "inputHash": "5e2b34b1"
+  },
+  {
+    "kellyId": 5413,
+    "decision": "fix",
+    "reason": "stripped main; kept absent-minded sense",
+    "translation": "absent",
+    "senses": [
+      "absent-minded, preoccupied"
+    ],
+    "inputHash": "fd19750f"
+  },
+  {
+    "kellyId": 4293,
+    "decision": "fix",
+    "reason": "stripped main; kept the capitalised Jesus sense",
+    "translation": "savior",
+    "senses": [
+      "Savior (Jesus Christ)"
+    ],
+    "inputHash": "71cf1798"
+  },
+  {
+    "kellyId": 4745,
+    "decision": "fix",
+    "reason": "both list items restate stranger",
+    "translation": "stranger",
+    "senses": [],
+    "inputHash": "1f8a453b"
+  },
+  {
+    "kellyId": 5040,
+    "decision": "fix",
+    "reason": "stripped main; kept figurative sense",
+    "translation": "seed",
+    "senses": [
+      "seed (figurative)"
+    ],
+    "inputHash": "5f804575"
+  },
+  {
+    "kellyId": 4946,
+    "decision": "fix",
+    "reason": "stripped main; kept shoddy-work sense",
+    "translation": "cheating",
+    "senses": [
+      "shoddy work, bad workmanship"
+    ],
+    "inputHash": "bb738d7c"
+  },
+  {
+    "kellyId": 4582,
+    "decision": "fix",
+    "reason": "stripped main; kept mutton and figurative-follower senses",
+    "translation": "sheep",
+    "senses": [
+      "mutton (meat)",
+      "sheep (easily led person)"
+    ],
+    "inputHash": "715f84d2"
+  },
+  {
+    "kellyId": 5119,
+    "decision": "fix",
+    "reason": "distinct figurative sense: captivate",
+    "translation": "imprison",
+    "senses": [
+      "captivate"
+    ],
+    "inputHash": "0678917a"
+  },
+  {
+    "kellyId": 5387,
+    "decision": "fix",
+    "reason": "stripped main; kept figurative influence sense",
+    "translation": "colour, dye",
+    "senses": [
+      "colour, influence (figurative)"
+    ],
+    "inputHash": "88cc8df9"
+  },
+  {
+    "kellyId": 5103,
+    "decision": "fix",
+    "reason": "stripped main; kept stronghold and archaic firmament senses",
+    "translation": "hold, grip",
+    "senses": [
+      "stronghold, fort",
+      "firmament (archaic/biblical)"
+    ],
+    "inputHash": "2bc2311e"
+  },
+  {
+    "kellyId": 4562,
+    "decision": "fix",
+    "reason": "stripped main; kept nautical anchorage sense",
+    "translation": "grounding, buy-in",
+    "senses": [
+      "anchorage (nautical)"
+    ],
+    "inputHash": "5a0629b8"
+  },
+  {
+    "kellyId": 4388,
+    "decision": "fix",
+    "reason": "stripped main; kept joint, military unit and opening-act senses",
+    "translation": "bandage",
+    "senses": [
+      "joint (structural)",
+      "military unit",
+      "opening act (band before the main artist)"
+    ],
+    "inputHash": "9149463a"
+  },
+  {
+    "kellyId": 4377,
+    "decision": "fix",
+    "reason": "stripped main; kept bandage and pledge senses",
+    "translation": "connect, join",
+    "senses": [
+      "bandage (a wound)",
+      "pledge, commit (oneself)"
+    ],
+    "inputHash": "1f18f545"
+  },
+  {
+    "kellyId": 5034,
+    "decision": "fix",
+    "reason": "stripped main; kept 'pass the time' sense",
+    "translation": "drive away, expel",
+    "senses": [
+      "pass (time)"
+    ],
+    "inputHash": "24d7ba0d"
+  },
+  {
+    "kellyId": 4870,
+    "decision": "fix",
+    "reason": "distinct sense: legitimate absence",
+    "translation": "decay, downfall",
+    "senses": [
+      "absence (with due cause)"
+    ],
+    "inputHash": "35d4e676"
+  },
+  {
+    "kellyId": 4427,
+    "decision": "fix",
+    "reason": "stripped main; kept proclaim/announce sense",
+    "translation": "preach",
+    "senses": [
+      "proclaim, announce"
+    ],
+    "inputHash": "c66314c9"
+  },
+  {
+    "kellyId": 5177,
+    "decision": "fix",
+    "reason": "stripped main; kept colloquial hapless-person sense",
+    "translation": "loser",
+    "senses": [
+      "loser (hapless person, colloquial)"
+    ],
+    "inputHash": "2e191305"
+  },
+  {
+    "kellyId": 4619,
+    "decision": "fix",
+    "reason": "stripped main; kept relocate/station and publish senses",
+    "translation": "misplace, mislay",
+    "senses": [
+      "place, relocate, station (troops, a meeting)",
+      "publish (books)"
+    ],
+    "inputHash": "e8b7f110"
+  },
+  {
+    "kellyId": 5598,
+    "decision": "fix",
+    "reason": "distinct sense: able, capable",
+    "translation": "wealthy",
+    "senses": [
+      "able, capable"
+    ],
+    "inputHash": "96956cc2"
+  },
+  {
+    "kellyId": 4472,
+    "decision": "fix",
+    "reason": "stripped main; kept large-sum and capability senses",
+    "translation": "wealth, fortune",
+    "senses": [
+      "fortune (large sum of money)",
+      "capability, ability"
+    ],
+    "inputHash": "856bbebf"
+  },
+  {
+    "kellyId": 4985,
+    "decision": "fix",
+    "reason": "stripped main; kept the process sense",
+    "translation": "package, pack",
+    "senses": [
+      "packaging (the process)"
+    ],
+    "inputHash": "7025f81f"
+  },
+  {
+    "kellyId": 5568,
+    "decision": "fix",
+    "reason": "stripped main; kept stockpile/supply sense",
+    "translation": "storeroom, storage room",
+    "senses": [
+      "stockpile, supply, inventory"
+    ],
+    "inputHash": "e8b5da33"
+  },
+  {
+    "kellyId": 5412,
+    "decision": "fix",
+    "reason": "stripped main; kept relocate, waste and mix-up senses",
+    "translation": "put into (a state)",
+    "senses": [
+      "move, relocate",
+      "waste (an opportunity or time)",
+      "mix up (with)"
+    ],
+    "inputHash": "bf9ef468"
+  },
+  {
+    "kellyId": 4494,
+    "decision": "fix",
+    "reason": "stripped main; kept supply/provision sense",
+    "translation": "livelihood, sustenance",
+    "senses": [
+      "supply, provision (of electricity, materials, etc.)"
+    ],
+    "inputHash": "2851fd80"
+  },
+  {
+    "kellyId": 5076,
+    "decision": "fix",
+    "reason": "stripped main; kept earnings and profit senses",
+    "translation": "merit",
+    "senses": [
+      "earnings, wages",
+      "profit"
+    ],
+    "inputHash": "e196ce92"
+  },
+  {
+    "kellyId": 4712,
+    "decision": "fix",
+    "reason": "stripped main; kept clothes-collection and cloakroom senses",
+    "translation": "wardrobe",
+    "senses": [
+      "wardrobe (one's collection of clothes)",
+      "cloakroom, coat check"
+    ],
+    "inputHash": "d7c066e4"
+  },
+  {
+    "kellyId": 4929,
+    "decision": "fix",
+    "reason": "stripped main; kept literal going-through sense",
+    "translation": "thorough, consistent",
+    "senses": [
+      "going through (passing to the other side)"
+    ],
+    "inputHash": "38627adf"
+  },
+  {
+    "kellyId": 4725,
+    "decision": "fix",
+    "reason": "stripped main; kept shape/form and gestalt senses",
+    "translation": "figure",
+    "senses": [
+      "shape, form (more generally)",
+      "gestalt (a whole greater than its parts)"
+    ],
+    "inputHash": "7e792151"
+  },
+  {
+    "kellyId": 5384,
+    "decision": "fix",
+    "reason": "stripped main; kept figurative caustic/sharp sense",
+    "translation": "poisonous, toxic",
+    "senses": [
+      "caustic, sharp (in tone)"
+    ],
+    "inputHash": "fdb58e4b"
+  },
+  {
+    "kellyId": 4902,
+    "decision": "fix",
+    "reason": "stripped main; kept ice lolly/popsicle sense",
+    "translation": "ice cream",
+    "senses": [
+      "ice lolly, popsicle"
+    ],
+    "inputHash": "1e5bbbd6"
+  },
+  {
+    "kellyId": 5288,
+    "decision": "fix",
+    "reason": "distinct archaic sense: pit, firepit",
+    "translation": "mine",
+    "senses": [
+      "pit, firepit (archaic)"
+    ],
+    "inputHash": "b3b42565"
+  },
+  {
+    "kellyId": 5234,
+    "decision": "fix",
+    "reason": "stripped main; kept pick-on, hack and stutter senses",
+    "translation": "chop, cut, mince",
+    "senses": [
+      "pick on, find fault with",
+      "hack (a computer)",
+      "stutter, be choppy"
+    ],
+    "inputHash": "ab76a1c7"
+  },
+  {
+    "kellyId": 5309,
+    "decision": "fix",
+    "reason": "'get hooked' just restates the reflexive of hook",
+    "translation": "hook",
+    "senses": [],
+    "inputHash": "e8856fc7"
+  },
+  {
+    "kellyId": 4783,
+    "decision": "fix",
+    "reason": "distinct sense: a halt/stop",
+    "translation": "content, level",
+    "senses": [
+      "stop, halt (during a march)"
+    ],
+    "inputHash": "d1d305c3"
+  }
+]

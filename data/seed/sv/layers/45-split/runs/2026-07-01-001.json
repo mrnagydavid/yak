@@ -1,0 +1,72 @@
+[
+  {
+    "kellyId": 522,
+    "decision": "split",
+    "reason": "etiquette is a genuinely distinct, common everyday sense unrelated to label/tag",
+    "altMeanings": [{ "translation": "etiquette", "gloss": "" }],
+    "subDefinitions": [],
+    "inputHash": "b9f61a2f"
+  },
+  {
+    "kellyId": 263,
+    "decision": "split",
+    "reason": "legal 'case' is a distinct, common sense unrelated to physical 'fall'",
+    "altMeanings": [{ "translation": "case", "gloss": "legal" }],
+    "subDefinitions": [
+      "fall, downfall (loss of greatness)",
+      "slope, waterfall"
+    ],
+    "inputHash": "ec28c4a8"
+  },
+  {
+    "kellyId": 749,
+    "decision": "split",
+    "reason": "'drunk' is an extremely common, distinct colloquial sense unrelated to 'full'",
+    "altMeanings": [{ "translation": "drunk", "gloss": "intoxicated" }],
+    "subDefinitions": [],
+    "inputHash": "142c49af"
+  },
+  {
+    "kellyId": 853,
+    "decision": "split",
+    "reason": "'fylla år' (turn an age / have a birthday) is a very common everyday sense distinct from 'fill'",
+    "altMeanings": [{ "translation": "turn, have a birthday", "gloss": "reach an age" }],
+    "subDefinitions": [],
+    "inputHash": "92e477e9"
+  },
+  {
+    "kellyId": 1292,
+    "decision": "split",
+    "reason": "'sensor' (measuring device) is a distinct, common modern sense unrelated to giver/donor",
+    "altMeanings": [{ "translation": "sensor", "gloss": "measuring device" }],
+    "subDefinitions": [],
+    "inputHash": "4c71f215"
+  },
+  {
+    "kellyId": 738,
+    "decision": "split",
+    "reason": "'relationship' (esp. romantic) is a very common, distinct sense unrelated to condition/circumstance",
+    "altMeanings": [{ "translation": "relationship", "gloss": "connection or romantic involvement" }],
+    "subDefinitions": ["ratio"],
+    "inputHash": "71f79e0e"
+  },
+  {
+    "kellyId": 417,
+    "decision": "split",
+    "reason": "'story' is a very common, distinct sense of historia unrelated to academic 'history'",
+    "altMeanings": [{ "translation": "story", "gloss": "tale or anecdote" }],
+    "subDefinitions": [
+      "event, incident",
+      "thing, object"
+    ],
+    "inputHash": "9e72281f"
+  },
+  {
+    "kellyId": 1402,
+    "decision": "split",
+    "reason": "'heaven' is a distinct, common sense of himmel unrelated to physical 'sky'",
+    "altMeanings": [{ "translation": "heaven", "gloss": "afterlife" }],
+    "subDefinitions": [],
+    "inputHash": "85597053"
+  }
+]

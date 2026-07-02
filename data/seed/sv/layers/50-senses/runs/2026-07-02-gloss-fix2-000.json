@@ -1,0 +1,12 @@
+[
+  {
+    "english": "cut",
+    "senses": [
+      { "gloss": "an incision, cross-section", "members": [{ "kellyId": 1926, "meaningKey": 0 }] },
+      { "gloss": "slice with a knife", "members": [{ "kellyId": 2483, "meaningKey": 0 }] },
+      { "gloss": "trim, snip", "members": [{ "kellyId": 2918, "meaningKey": 0 }] },
+      { "gloss": "a snip, clip", "members": [{ "kellyId": 3736, "meaningKey": 0 }] }
+    ],
+    "inputHash": "998a03c9"
+  }
+]

@@ -1,0 +1,1009 @@
+[
+  {
+    "kellyId": 4111,
+    "decision": "fix",
+    "reason": "subdefs merely restate liquor/spirits or define it as a solvent",
+    "translation": "liquor, spirits",
+    "senses": [],
+    "inputHash": "846bfa9f"
+  },
+  {
+    "kellyId": 3922,
+    "decision": "fix",
+    "reason": "kept distinct figurative/physical senses, dropped restatement of main",
+    "translation": "blow up, blast",
+    "senses": [
+      "break up, dismantle (an organisation)",
+      "burst (from internal pressure)"
+    ],
+    "inputHash": "2a71e98f"
+  },
+  {
+    "kellyId": 3181,
+    "decision": "fix",
+    "reason": "dropped restated main; kept spåra ur figurative sense",
+    "translation": "track, trace",
+    "senses": [
+      "go off the rails, go crazy (spåra ur)"
+    ],
+    "inputHash": "1d93fc95"
+  },
+  {
+    "kellyId": 3214,
+    "decision": "fix",
+    "reason": "distinct sense of steadiness beyond legal statute",
+    "translation": "statute, bylaw, charter",
+    "senses": [
+      "steadiness, stability"
+    ],
+    "inputHash": "49486dda"
+  },
+  {
+    "kellyId": 3659,
+    "decision": "fix",
+    "reason": "dropped restated main; kept racing team and violin bridge senses",
+    "translation": "stable",
+    "senses": [
+      "team (in racing)",
+      "bridge (of a violin)"
+    ],
+    "inputHash": "ae614643"
+  },
+  {
+    "kellyId": 3073,
+    "decision": "fix",
+    "reason": "dropped restated main; kept figurative backfire sense",
+    "translation": "punish",
+    "senses": [
+      "backfire, have negative consequences"
+    ],
+    "inputHash": "fb25f688"
+  },
+  {
+    "kellyId": 3931,
+    "decision": "fix",
+    "reason": "distinct literal sense of shining beyond figurative brilliant",
+    "translation": "brilliant, splendid, excellent",
+    "senses": [
+      "shining, radiant"
+    ],
+    "inputHash": "6e318dd2"
+  },
+  {
+    "kellyId": 3380,
+    "decision": "fix",
+    "reason": "both subdefs restate strict/stern with only usage-context notes",
+    "translation": "strict, stern",
+    "senses": [],
+    "inputHash": "743f1c42"
+  },
+  {
+    "kellyId": 3008,
+    "decision": "fix",
+    "reason": "dropped restated main; kept electric current and stream senses",
+    "translation": "current, flow",
+    "senses": [
+      "electric current",
+      "stream (of data, traffic, words)"
+    ],
+    "inputHash": "dd393de1"
+  },
+  {
+    "kellyId": 3224,
+    "decision": "fix",
+    "reason": "dropped restated main; kept music/theatre piece and paragraph senses",
+    "translation": "piece",
+    "senses": [
+      "piece (of music or theatre)",
+      "paragraph (of text)"
+    ],
+    "inputHash": "ef686727"
+  },
+  {
+    "kellyId": 3660,
+    "decision": "fix",
+    "reason": "rule/management restate government; kept concrete handlebar sense",
+    "translation": "government, regime",
+    "senses": [
+      "handlebar (of a bicycle)"
+    ],
+    "inputHash": "ae99f955"
+  },
+  {
+    "kellyId": 3857,
+    "decision": "fix",
+    "reason": "dropped restated main; kept legal authenticate sense",
+    "translation": "strengthen",
+    "senses": [
+      "authenticate, verify"
+    ],
+    "inputHash": "5b444d13"
+  },
+  {
+    "kellyId": 4070,
+    "decision": "fix",
+    "reason": "distinct sense of guidance/control beyond mechanical steering",
+    "translation": "steering",
+    "senses": [
+      "guidance, control (of an organization or process)"
+    ],
+    "inputHash": "d2bc1375"
+  },
+  {
+    "kellyId": 3493,
+    "decision": "fix",
+    "reason": "dropped restated main; kept colloquial 'be terrible' sense",
+    "translation": "suck",
+    "senses": [
+      "be terrible, be lousy (colloquial)"
+    ],
+    "inputHash": "b5f50d7b"
+  },
+  {
+    "kellyId": 3282,
+    "decision": "fix",
+    "reason": "dropped restated main; kept reworded soft-spot shade",
+    "translation": "weakness",
+    "senses": [
+      "a soft spot, a fondness"
+    ],
+    "inputHash": "39a780b2"
+  },
+  {
+    "kellyId": 3958,
+    "decision": "fix",
+    "reason": "dropped restated main; kept brief-trip and dance senses",
+    "translation": "turn",
+    "senses": [
+      "brief trip, spin",
+      "instance of dancing"
+    ],
+    "inputHash": "f50bd876"
+  },
+  {
+    "kellyId": 3362,
+    "decision": "fix",
+    "reason": "distinct sense of swinging beyond turning",
+    "translation": "turn",
+    "senses": [
+      "swing"
+    ],
+    "inputHash": "92f9318b"
+  },
+  {
+    "kellyId": 4041,
+    "decision": "fix",
+    "reason": "dropped restated main; kept take-an-oath sense",
+    "translation": "swear, curse",
+    "senses": [
+      "swear, take an oath"
+    ],
+    "inputHash": "5702839c"
+  },
+  {
+    "kellyId": 3074,
+    "decision": "fix",
+    "reason": "like that and so-so are in main; kept roughly/approximately sense",
+    "translation": "like that; so-so",
+    "senses": [
+      "roughly, approximately"
+    ],
+    "inputHash": "87d9e219"
+  },
+  {
+    "kellyId": 3904,
+    "decision": "fix",
+    "reason": "ulcer is a distinct medical sense beyond wound/sore",
+    "translation": "wound, sore",
+    "senses": [
+      "ulcer"
+    ],
+    "inputHash": "527649f7"
+  },
+  {
+    "kellyId": 3589,
+    "decision": "fix",
+    "reason": "distinct colloquial drug-dealer sense",
+    "translation": "seller",
+    "senses": [
+      "drug dealer"
+    ],
+    "inputHash": "c6ff024c"
+  },
+  {
+    "kellyId": 2884,
+    "decision": "fix",
+    "reason": "dropped restated main; kept ensure/take-care-of sense",
+    "translation": "grieve, mourn",
+    "senses": [
+      "ensure, take care of, provide for"
+    ],
+    "inputHash": "52753bf5"
+  },
+  {
+    "kellyId": 2851,
+    "decision": "fix",
+    "reason": "kept cute (appearance/behavior) and fresh-water senses distinct from sweet",
+    "translation": "sweet",
+    "senses": [
+      "cute (in appearance or behavior)",
+      "fresh (not salty)"
+    ],
+    "inputHash": "8f7f02fd"
+  },
+  {
+    "kellyId": 4042,
+    "decision": "fix",
+    "reason": "spine/quill restates thorn; kept the distinct tag senses",
+    "translation": "thorn",
+    "senses": [
+      "tag (data label or graffiti signature)",
+      "tag (electronic tracking)"
+    ],
+    "inputHash": "4c493175"
+  },
+  {
+    "kellyId": 3980,
+    "decision": "fix",
+    "reason": "dropped restated main; kept talent-as-person sense",
+    "translation": "talent",
+    "senses": [
+      "talented person"
+    ],
+    "inputHash": "638912d0"
+  },
+  {
+    "kellyId": 2860,
+    "decision": "fix",
+    "reason": "both subdefs merely note the same theatre split (art vs building)",
+    "translation": "theatre",
+    "senses": [
+      "theatre building or institution"
+    ],
+    "inputHash": "17fa0563"
+  },
+  {
+    "kellyId": 2811,
+    "decision": "fix",
+    "reason": "dropped restated main; kept contract-signing and pattern senses",
+    "translation": "drawing",
+    "senses": [
+      "signing, subscription (of a contract)",
+      "pattern, marking (of colour or shape)"
+    ],
+    "inputHash": "e8ef1ba5"
+  },
+  {
+    "kellyId": 3327,
+    "decision": "fix",
+    "reason": "hypothesis/theory is a distinct shade beyond thesis/claim",
+    "translation": "thesis, claim",
+    "senses": [
+      "hypothesis, theory"
+    ],
+    "inputHash": "e2603edc"
+  },
+  {
+    "kellyId": 3316,
+    "decision": "fix",
+    "reason": "both subdefs restate test/trial/attempt already in the main",
+    "translation": "test, exam, trial",
+    "senses": [],
+    "inputHash": "12e13109"
+  },
+  {
+    "kellyId": 3278,
+    "decision": "fix",
+    "reason": "supply/provide is close but a distinct usable shade",
+    "translation": "accommodate, satisfy, fulfill",
+    "senses": [
+      "supply, provide, meet (a need)"
+    ],
+    "inputHash": "465486cc"
+  },
+  {
+    "kellyId": 3444,
+    "decision": "fix",
+    "reason": "accessibility is a genuinely distinct shade beyond availability",
+    "translation": "availability",
+    "senses": [
+      "accessibility"
+    ],
+    "inputHash": "0e566e47"
+  },
+  {
+    "kellyId": 3222,
+    "decision": "fix",
+    "reason": "distinct sense: a decade of years (the 1910s etc.)",
+    "translation": "around ten, some ten",
+    "senses": [
+      "the tens, a decade (the 1910s, 2010s)"
+    ],
+    "inputHash": "43b6db9e"
+  },
+  {
+    "kellyId": 3921,
+    "decision": "fix",
+    "reason": "short visit is a distinct sense beyond a look/gander",
+    "translation": "look, gander",
+    "senses": [
+      "short visit"
+    ],
+    "inputHash": "0956d6f6"
+  },
+  {
+    "kellyId": 3049,
+    "decision": "fix",
+    "reason": "fat/overweight is a distinct colloquial sense beyond thick",
+    "translation": "thick",
+    "senses": [
+      "fat, overweight"
+    ],
+    "inputHash": "a840b1a8"
+  },
+  {
+    "kellyId": 3705,
+    "decision": "fix",
+    "reason": "distinct sense: the room itself (bathroom/restroom)",
+    "translation": "toilet",
+    "senses": [
+      "bathroom, restroom (the room)"
+    ],
+    "inputHash": "c513af7b"
+  },
+  {
+    "kellyId": 3687,
+    "decision": "fix",
+    "reason": "kept musical-interval, manner-of-speaking, and colour-shade senses",
+    "translation": "tone",
+    "senses": [
+      "tone (musical interval)",
+      "tone, manner (of speaking)",
+      "tone, shade (of color)"
+    ],
+    "inputHash": "578c094e"
+  },
+  {
+    "kellyId": 3919,
+    "decision": "fix",
+    "reason": "dropped restated main; kept wipe and wipe-oneself senses",
+    "translation": "dry",
+    "senses": [
+      "wipe, dust, mop (a surface)",
+      "wipe oneself"
+    ],
+    "inputHash": "3fb34d97"
+  },
+  {
+    "kellyId": 3555,
+    "decision": "fix",
+    "reason": "rook is a distinct chess-piece sense beyond tower",
+    "translation": "tower",
+    "senses": [
+      "rook (chess piece)"
+    ],
+    "inputHash": "8afac325"
+  },
+  {
+    "kellyId": 2850,
+    "decision": "fix",
+    "reason": "figurative dry/humourless sense distinct from literally dry",
+    "translation": "dry",
+    "senses": [
+      "dry, deadpan, dull (of humour or manner)"
+    ],
+    "inputHash": "0a95b798"
+  },
+  {
+    "kellyId": 2859,
+    "decision": "fix",
+    "reason": "dropped restated main; kept literary-genre sense",
+    "translation": "tragic",
+    "senses": [
+      "tragic (classical literary genre)"
+    ],
+    "inputHash": "2b6c03f5"
+  },
+  {
+    "kellyId": 3844,
+    "decision": "fix",
+    "reason": "area/region restates main; kept anatomical tract sense",
+    "translation": "area, region, parts",
+    "senses": [
+      "tract, region (of the body)"
+    ],
+    "inputHash": "78abfe76"
+  },
+  {
+    "kellyId": 3917,
+    "decision": "fix",
+    "reason": "dropped restated main; kept pedal-a-bicycle sense",
+    "translation": "step, tramp",
+    "senses": [
+      "pedal (a bicycle)"
+    ],
+    "inputHash": "7775aa72"
+  },
+  {
+    "kellyId": 3836,
+    "decision": "fix",
+    "reason": "transfer of money/legal responsibility is a distinct sense",
+    "translation": "transport",
+    "senses": [
+      "transfer (debt, money, legal responsibility)"
+    ],
+    "inputHash": "f98e6386"
+  },
+  {
+    "kellyId": 2919,
+    "decision": "fix",
+    "reason": "distinct sad/dreary shade (a pity) beyond merely boring",
+    "translation": "boring",
+    "senses": [
+      "sad, dreary, a pity"
+    ],
+    "inputHash": "b4b0f1aa"
+  },
+  {
+    "kellyId": 4009,
+    "decision": "fix",
+    "reason": "dropped restated main; kept archaic/poetic tree sense",
+    "translation": "wood",
+    "senses": [
+      "tree (archaic, poetic)"
+    ],
+    "uncountable": true,
+    "inputHash": "237ffd48"
+  },
+  {
+    "kellyId": 3804,
+    "decision": "fix",
+    "reason": "dropped restated main; kept hit (shooting/punching) sense",
+    "translation": "meeting, date, appointment",
+    "senses": [
+      "hit (when shooting, punching, or kicking)"
+    ],
+    "inputHash": "16350900"
+  },
+  {
+    "kellyId": 3892,
+    "decision": "fix",
+    "reason": "tariff restates toll; kept customs authority and custom-house senses",
+    "translation": "toll",
+    "senses": [
+      "customs (the authority)",
+      "custom house"
+    ],
+    "inputHash": "92dc38d9"
+  },
+  {
+    "kellyId": 3150,
+    "decision": "fix",
+    "reason": "slim restates thin; kept sparse and diluted/figurative senses",
+    "translation": "thin",
+    "senses": [
+      "scanty, sparse",
+      "diluted, weak, lacking substance"
+    ],
+    "inputHash": "f260b6e4"
+  },
+  {
+    "kellyId": 4153,
+    "decision": "fix",
+    "reason": "dropped restated main; kept Turkish-bath compound sense",
+    "translation": "Turk",
+    "senses": [
+      "Turkish bath (in compounds)"
+    ],
+    "inputHash": "9b4ce588"
+  },
+  {
+    "kellyId": 3543,
+    "decision": "fix",
+    "reason": "dropped restated main; kept doubt/waver-on-an-idea sense",
+    "translation": "hesitate, waver",
+    "senses": [
+      "doubt, be uncertain (about an idea)"
+    ],
+    "inputHash": "196dfbcf"
+  },
+  {
+    "kellyId": 3653,
+    "decision": "fix",
+    "reason": "dropped restated main; kept grade, gear, and runner-up senses",
+    "translation": "two",
+    "senses": [
+      "second grade (year of school)",
+      "second gear",
+      "runner-up"
+    ],
+    "inputHash": "5874f565"
+  },
+  {
+    "kellyId": 3626,
+    "decision": "fix",
+    "reason": "something mandatory merely defines compulsion/coercion",
+    "translation": "compulsion, coercion",
+    "senses": [],
+    "inputHash": "3d508fc2"
+  },
+  {
+    "kellyId": 3153,
+    "decision": "fix",
+    "reason": "dropped restated main; kept wash-oneself and launder-money senses",
+    "translation": "wash, clean",
+    "senses": [
+      "wash oneself",
+      "launder (money)"
+    ],
+    "inputHash": "70a402f3"
+  },
+  {
+    "kellyId": 3742,
+    "decision": "fix",
+    "reason": "dropped restated main; kept liking/fondness sense",
+    "translation": "taste, opinion",
+    "senses": [
+      "liking, fondness"
+    ],
+    "inputHash": "97e9c57f"
+  },
+  {
+    "kellyId": 3056,
+    "decision": "fix",
+    "reason": "distinct colloquial sense: a small amount of a drink",
+    "translation": "tear",
+    "senses": [
+      "a drop, a small amount of a drink"
+    ],
+    "inputHash": "11b5e386"
+  },
+  {
+    "kellyId": 3189,
+    "decision": "fix",
+    "reason": "dropped restated main; kept aroused and enthusiastic figurative senses",
+    "translation": "light, ignite",
+    "senses": [
+      "become aroused, become turned on",
+      "become enthusiastic, get fired up"
+    ],
+    "inputHash": "7ca4361f"
+  },
+  {
+    "kellyId": 3546,
+    "decision": "fix",
+    "reason": "crowded restates dense; kept airtight and figurative packed senses",
+    "translation": "dense, thick",
+    "senses": [
+      "tight, airtight, watertight",
+      "action-packed, packed (figurative)"
+    ],
+    "inputHash": "acf33e8d"
+  },
+  {
+    "kellyId": 4178,
+    "decision": "fix",
+    "reason": "dropped restated main; kept strange/unusual sense",
+    "translation": "odd",
+    "senses": [
+      "odd, strange, unusual"
+    ],
+    "inputHash": "82e9ebe8"
+  },
+  {
+    "kellyId": 3905,
+    "decision": "fix",
+    "reason": "insight restates revelation; kept apparition/vision sense",
+    "translation": "revelation",
+    "senses": [
+      "apparition, vision"
+    ],
+    "inputHash": "a1c7b5ea"
+  },
+  {
+    "kellyId": 3337,
+    "decision": "fix",
+    "reason": "dropped restated main; kept perform-a-play and behave senses",
+    "translation": "build, erect",
+    "senses": [
+      "perform, stage (a play)",
+      "behave (uppföra sig)"
+    ],
+    "inputHash": "14b2e51c"
+  },
+  {
+    "kellyId": 3807,
+    "decision": "fix",
+    "reason": "dropped restated main; kept confrontation/showdown sense",
+    "translation": "agreement, settlement",
+    "senses": [
+      "confrontation, showdown"
+    ],
+    "inputHash": "7ccd4bf6"
+  },
+  {
+    "kellyId": 3655,
+    "decision": "fix",
+    "reason": "both subdefs restate repeal/revoke/cancel already in the main",
+    "translation": "repeal, revoke",
+    "senses": [],
+    "inputHash": "685d1a40"
+  },
+  {
+    "kellyId": 3182,
+    "decision": "fix",
+    "reason": "circulation of a newspaper is a distinct sense beyond edition",
+    "translation": "edition, printing",
+    "senses": [
+      "circulation (of a newspaper)"
+    ],
+    "inputHash": "89e253c8"
+  },
+  {
+    "kellyId": 4207,
+    "decision": "fix",
+    "reason": "distinct sport sense: home stretch of a race",
+    "translation": "riot",
+    "senses": [
+      "home stretch, home straight (in a race)"
+    ],
+    "inputHash": "02dca8d9"
+  },
+  {
+    "kellyId": 4073,
+    "decision": "fix",
+    "reason": "dropped restated main; kept literal light-up sense",
+    "translation": "enlighten, inform",
+    "senses": [
+      "light up, illuminate"
+    ],
+    "inputHash": "44c725d7"
+  },
+  {
+    "kellyId": 3028,
+    "decision": "fix",
+    "reason": "dropped restated main; kept education, Enlightenment, and lighting senses",
+    "translation": "information, tip",
+    "senses": [
+      "public education, awareness",
+      "the Enlightenment (historical movement)",
+      "lighting, illumination"
+    ],
+    "inputHash": "f152153d"
+  },
+  {
+    "kellyId": 3799,
+    "decision": "fix",
+    "reason": "dropped restated main; kept appreciation sense",
+    "translation": "estimate, approximation",
+    "senses": [
+      "appreciation, esteem"
+    ],
+    "inputHash": "6c1e60f3"
+  },
+  {
+    "kellyId": 4002,
+    "decision": "fix",
+    "reason": "both subdefs restate notice/termination already in the main",
+    "translation": "notice, layoff",
+    "senses": [],
+    "inputHash": "a0c6f197"
+  },
+  {
+    "kellyId": 3746,
+    "decision": "fix",
+    "reason": "kept distinct absorb and include senses beyond take up/occupy",
+    "translation": "take up, occupy",
+    "senses": [
+      "absorb, take in",
+      "include, incorporate"
+    ],
+    "inputHash": "289c6ca1"
+  },
+  {
+    "kellyId": 3365,
+    "decision": "fix",
+    "reason": "dropped restated main; kept occupied/taken and phone-engaged senses",
+    "translation": "busy",
+    "senses": [
+      "occupied, taken (not vacant)",
+      "engaged (of a phone line)"
+    ],
+    "inputHash": "18810627"
+  },
+  {
+    "kellyId": 3321,
+    "decision": "fix",
+    "reason": "dropped restated main; kept exhibit/display a property sense",
+    "translation": "show, present",
+    "senses": [
+      "exhibit, display (a property or symptom)"
+    ],
+    "inputHash": "c98effef"
+  },
+  {
+    "kellyId": 3065,
+    "decision": "fix",
+    "reason": "warm-up (exercise) is a distinct sense beyond heating",
+    "translation": "heating",
+    "senses": [
+      "warm-up (before exercise)"
+    ],
+    "inputHash": "d9c95dd0"
+  },
+  {
+    "kellyId": 2914,
+    "decision": "fix",
+    "reason": "distinct sense: up to, as many as (an upper bound)",
+    "translation": "upwards, up",
+    "senses": [
+      "up to, as many as (an upper bound)"
+    ],
+    "inputHash": "95a40844"
+  },
+  {
+    "kellyId": 3484,
+    "decision": "fix",
+    "reason": "kept forgive, apologize, and excuse-oneself senses distinct from excuse",
+    "translation": "excuse",
+    "senses": [
+      "forgive, pardon",
+      "apologize",
+      "excuse oneself, leave"
+    ],
+    "inputHash": "2a006255"
+  },
+  {
+    "kellyId": 3825,
+    "decision": "fix",
+    "reason": "kept dividend and returns/yield financial senses beyond distribution",
+    "translation": "distribution, handing out",
+    "senses": [
+      "dividend",
+      "returns, yield"
+    ],
+    "inputHash": "01f7b2a6"
+  },
+  {
+    "kellyId": 3906,
+    "decision": "fix",
+    "reason": "dropped restated main; kept attack/assault (esp. fencing) sense",
+    "translation": "outcome, result",
+    "senses": [
+      "attack, lunge (in fencing)"
+    ],
+    "inputHash": "a037efa3"
+  },
+  {
+    "kellyId": 4144,
+    "decision": "fix",
+    "reason": "dropped restated main; kept proclaim/declare sense",
+    "translation": "exclaim, cry out",
+    "senses": [
+      "proclaim, declare"
+    ],
+    "inputHash": "aabb4923"
+  },
+  {
+    "kellyId": 4037,
+    "decision": "fix",
+    "reason": "dropped restated main; kept card-game lead sense",
+    "translation": "move, statement",
+    "senses": [
+      "lead (first card played)"
+    ],
+    "inputHash": "464f301d"
+  },
+  {
+    "kellyId": 3058,
+    "decision": "fix",
+    "reason": "select merely restates chosen",
+    "translation": "chosen",
+    "senses": [],
+    "inputHash": "06b4a2d6"
+  },
+  {
+    "kellyId": 3393,
+    "decision": "fix",
+    "reason": "dropped restated main; kept experienced/adept sense",
+    "translation": "accustomed, used to",
+    "senses": [
+      "experienced, adept, skilled"
+    ],
+    "inputHash": "4895908d"
+  },
+  {
+    "kellyId": 3085,
+    "decision": "fix",
+    "reason": "dropped restated main; kept effective (producing an effect) sense",
+    "translation": "active, working",
+    "senses": [
+      "effective (producing an effect)"
+    ],
+    "inputHash": "ce1721af"
+  },
+  {
+    "kellyId": 3696,
+    "decision": "fix",
+    "reason": "detached family home restates villa/house; kept summerhouse sense",
+    "translation": "villa, house",
+    "senses": [
+      "summerhouse, holiday cottage"
+    ],
+    "inputHash": "7b13c4b1"
+  },
+  {
+    "kellyId": 2954,
+    "decision": "fix",
+    "reason": "kept sound-level, book-in-series, and space senses distinct from generic volume",
+    "translation": "volume",
+    "senses": [
+      "volume (sound level)",
+      "volume (book in a series)",
+      "volume (amount of space)"
+    ],
+    "inputHash": "bc2799fe"
+  },
+  {
+    "kellyId": 2832,
+    "decision": "fix",
+    "reason": "floor/storey is a distinct sense beyond apartment",
+    "translation": "apartment",
+    "senses": [
+      "floor, storey (of a building)"
+    ],
+    "inputHash": "fbcaac57"
+  },
+  {
+    "kellyId": 3781,
+    "decision": "fix",
+    "reason": "dropped restated main; kept look-after/tend (keep in good condition) sense",
+    "translation": "care for, nurse",
+    "senses": [
+      "look after, tend, maintain"
+    ],
+    "inputHash": "eec846fa"
+  },
+  {
+    "kellyId": 3950,
+    "decision": "fix",
+    "reason": "dropped restated main; kept transitive accustom-someone sense",
+    "translation": "get used to, accustom",
+    "senses": [
+      "accustom someone to (transitive)"
+    ],
+    "inputHash": "64ba62b5"
+  },
+  {
+    "kellyId": 3689,
+    "decision": "fix",
+    "reason": "dropped restated main; kept figurative warm-the-heart sense",
+    "translation": "heat, warm",
+    "senses": [
+      "warm, gladden (figurative)"
+    ],
+    "inputHash": "f381c255"
+  },
+  {
+    "kellyId": 3766,
+    "decision": "fix",
+    "reason": "website is a distinct sense beyond a single webpage",
+    "translation": "webpage",
+    "senses": [
+      "website"
+    ],
+    "inputHash": "609b83aa"
+  },
+  {
+    "kellyId": 2848,
+    "decision": "fix",
+    "reason": "outmost/most merely restate outermost/farthest",
+    "translation": "outermost, farthest away",
+    "senses": [],
+    "inputHash": "08996e27"
+  },
+  {
+    "kellyId": 2937,
+    "decision": "fix",
+    "reason": "dropped restated main; kept reflexive manifest/show sense",
+    "translation": "utter, say",
+    "senses": [
+      "manifest, show itself (yttra sig som)"
+    ],
+    "inputHash": "37f770d5"
+  },
+  {
+    "kellyId": 3452,
+    "decision": "fix",
+    "reason": "repent/change-mind restate regret; kept distinct undo/cancel sense",
+    "translation": "regret",
+    "senses": [
+      "undo, cancel (an action)"
+    ],
+    "inputHash": "8412d2fe"
+  },
+  {
+    "kellyId": 3356,
+    "decision": "fix",
+    "reason": "be returned merely restates get back / return",
+    "translation": "get back",
+    "senses": [],
+    "inputHash": "57dba4f7"
+  },
+  {
+    "kellyId": 3673,
+    "decision": "fix",
+    "reason": "reset restates restore; kept distinct return-something sense",
+    "translation": "restore",
+    "senses": [
+      "return, give back (something)"
+    ],
+    "inputHash": "0e2bc99d"
+  },
+  {
+    "kellyId": 3288,
+    "decision": "fix",
+    "reason": "dropped restated main; kept uncountable much/a-great-deal sense",
+    "translation": "several, quite a few",
+    "senses": [
+      "much, a great deal of (uncountable)"
+    ],
+    "inputHash": "28ea0750"
+  },
+  {
+    "kellyId": 3901,
+    "decision": "fix",
+    "reason": "dropped restated main; kept haughty/condescending sense",
+    "translation": "superior",
+    "senses": [
+      "haughty, condescending (in manner)"
+    ],
+    "inputHash": "a3c12af1"
+  },
+  {
+    "kellyId": 2886,
+    "decision": "fix",
+    "reason": "dropped restated main; kept persuasion (act of convincing) sense",
+    "translation": "conviction",
+    "senses": [
+      "persuasion (act of convincing)"
+    ],
+    "inputHash": "3c134829"
+  },
+  {
+    "kellyId": 5441,
+    "decision": "fix",
+    "reason": "manage/work in an administrative capacity restates administer",
+    "translation": "administer",
+    "senses": [],
+    "inputHash": "0a6ec147"
+  },
+  {
+    "kellyId": 4311,
+    "decision": "fix",
+    "reason": "eve (of a holiday) is a distinct sense beyond evening",
+    "translation": "evening",
+    "senses": [
+      "eve (of a holiday)"
+    ],
+    "inputHash": "ec70bc30"
+  },
+  {
+    "kellyId": 4895,
+    "decision": "fix",
+    "reason": "corporation / company with stocks merely define stock company",
+    "translation": "stock company",
+    "senses": [],
+    "inputHash": "0512e508"
+  },
+  {
+    "kellyId": 5522,
+    "decision": "fix",
+    "reason": "dropped restated main; kept bring-up-to-date sense",
+    "translation": "make topical, bring to the fore",
+    "senses": [
+      "bring up to date, update"
+    ],
+    "inputHash": "8f6bf321"
+  }
+]

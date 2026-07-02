@@ -111,9 +111,11 @@ data/
         20-pos/                    # fix part-of-speech-mismatch glosses                          (LLM: seed-cleaner)
         30-subdef/                 # tidy sub-definitions                                         (LLM: seed-cleaner)
         40-translation/            # main translation + complete meaning list                    (LLM: translation-curator)  ← active quality pass
-        50-senses/                 # group synonyms into senses for production cards             (LLM: sense-partitioner)
+        45-split/                  # split a word's meanings → primary / promoted / reference     (LLM: split-curator)
+        50-senses/                 # group synonyms into senses; write production glosses         (LLM: sense-partitioner + gloss-curator)
         60-examples/               # sense-specific example sentences for ambiguous words        (LLM: example-writer)
         90-manual/                 # human overrides — always win
+      token-synonyms.json          # curated token-overlap merges / keep-separate (read by groupConcepts). See §4.8.
       seed-sv.json                 # generated output (committed, shipped)
       version.json                 # tiny file the app polls to decide whether to re-download
     scratch/                       # gitignored: batch files, working dumps. Reproducible, disposable.
@@ -173,10 +175,11 @@ an opinion, wholesale**. It never concatenates two layers' values for one field.
 | Field | Owned by (high → low) | Notes |
 |-------|------------------------|-------|
 | `translation` | translation(40) → cleaner(10) → base | curator wins where it spoke |
-| `subDefinitions` (meaning list) | translation(40) → subdef(30) → base | **wholesale** — fixes #4 |
+| `subDefinitions` (reference meanings) | split(45) → translation(40) → subdef(30) → base | split partitions the meaning list; **wholesale** — fixes #4 |
+| `altMeanings` (promoted meanings) | split(45) | which meanings become their own production cards (§4.8) |
 | `ipa` | cleaner(10) → base | |
 | `examples` | examples(60) → base | |
-| `sense` (grouping) | senses(50) | orthogonal field, no conflicts |
+| `sense` (primary grouping + gloss); `Translation.senseKey`/`.gloss` (promoted) | senses(50) | synonym grouping + production gloss; orthogonal, no conflicts (§4.8) |
 | `drop` / `keep` | highest layer wins | explicit precedence *replaces* the old "resolve contradictions by hand" rule — a higher layer's `keep` legitimately overrides a lower `drop` |
 | any field | manual(90) | humans win |
 
@@ -245,6 +248,57 @@ No full sweeps. No lost work. The cost scales with *what changed*, not with the 
 
 That's it. Precedence, ownership, and provenance are all declared in one place.
 
+### 4.8 Multi-meaning words (split · gloss · grouping)
+
+A Swedish word can carry several distinct English meanings; each *worth-practicing* meaning is its own
+production card while the word stays **one entry / one word-list row**. Three passes build this, all on
+the machinery above. The *runtime* side (recognition-per-word, per-meaning scheduling, multi-answer
+group cards) lives in code comments — `src/db/{types,seed}.ts`, `src/srs/session-composer.ts`.
+
+**How a word's meanings are stored.** One entry, meanings partitioned into three buckets:
+- **primary** — the `translation` field (`meaningKey` 0); carries the word's **recognition**.
+- **promoted** — `altMeanings: [{ key, translation, gloss?, senseKey? }]`; each is its own
+  **production** card with its own schedule. `key` (≥1) is a stable per-word id — **never renumber**:
+  seed-sync matches a learner's progress by `(seedKey, meaningKey)`.
+- **reference** — `subDefinitions`: shown, never practiced.
+
+A meaning's `translation` may be comma-joined synonyms of *one* sense (`"route, trail"`) — that's one card.
+
+**The passes:**
+- **`45-split`** (`split-curator`) — sorts each word's meanings into primary/promoted/reference.
+  Conservative, learner-first ("trainer, not dictionary"; run on **Opus** — a Sonnet run over-promoted
+  ~5×). Candidates: words with a meaning list or a semicolon-joined translation. ~7% of A1–B2 split;
+  C1–C2 left unsplit.
+- **`50-senses`** (`sense-partitioner` + `gloss-curator`) — groups synonyms into senses and writes the
+  production **gloss** (the hint shown when one English phrase maps to several Swedish words). Considers
+  primaries **and** promoted meanings. A gloss is written iff the phrase has >1 sense; a single-sense
+  synonym group gets an **empty** gloss (it just groups).
+- **`token-synonyms.json`** (a committed verdict file read by `groupConcepts`) — widens concept detection
+  from first-token identity (`normTr`) to curated token overlap, so `panna` "pan, pot" can group with
+  `kastrull` "saucepan, pot, pan". `merges` = group; `keepSeparate` = collisions ruled solo.
+
+**Grouping key.** Synonyms are asked as one multi-answer card when they share a key: a primary's is
+`Entry.sense.key`, a promoted meaning's is `Translation.senseKey` (both stamped by the reducer from the
+sense partition). Distinct senses keep distinct keys (`right` → entitlement vs direction never merge).
+
+**Recipe — change a word's meanings / re-run a pass.** Edit the layer (`45-split` for a split verdict,
+`token-synonyms.json` for a token merge), then `pnpm seed:batch-split | batch-gloss` → the agent →
+`pnpm seed:build`; `pnpm seed:reconcile` re-stamps concepts whose frozen input shifted but whose output
+didn't (avoids a needless LLM re-run). Same ledger/staleness discipline as §4.5–4.6.
+
+**Durable gotchas.**
+- **Adding a new meaning/entity at `90-manual` means you own all its downstream enrichments.** A layer
+  sees only layers *below* it, so a meaning hand-added at the top is invisible to the gloss/sense pass
+  (50) — never glossed or grouped. Put splits in `45-split` (below 50). (led/panna started in `90-manual`
+  as proofs and had to be relocated.)
+- **Cross-cutting invariants need a final-seed audit, not staleness.** Staleness only fires when a
+  *layer's own* input changes; it can't see "this promoted meaning has no gloss." The §5 audits check the
+  shipped seed.
+- **Alternatives rejected:** splitting a word into two entries (gives per-meaning *level*, but clones
+  grammar + fractures the word's identity) and a first-class `Sense` table (real refactor, buys nothing
+  here). The additive `altMeanings` model is the cheap, reversible middle — revisit only if per-meaning
+  *level* is genuinely needed.
+
 ---
 
 ## 5. Guards (what each test proves, after the redesign)
@@ -261,6 +315,17 @@ That's it. Precedence, ownership, and provenance are all declared in one place.
 - **No staleness on a clean build** (new, optional): after a full build, `stale.json` is empty —
   i.e. every committed LLM answer is based on current input. Turns "did we forget to re-curate?"
   into a green/red check.
+- **Gloss coverage** (`pnpm seed:audit-gloss`): over the shipped seed, every ambiguous phrase's senses
+  are glossed (0 empty, 0 echo), no single-sense phrase carries a gloss, every promoted+ambiguous meaning
+  is covered, and every ≥2-member sense's members share one non-empty grouping key. (§4.8)
+- **Token-synonym coverage** (`pnpm seed:detect-token-synonyms`): every token-ambiguous solo promoted
+  meaning is ruled in `token-synonyms.json` (merged or kept-separate) and every declared merge forms —
+  so the gap can't silently regrow. (§4.8)
+- **Reference-list purity** (`pnpm seed:audit-subdefs`, also asserted in the test suite): on the shipped
+  seed, no `subDefinitions` item is a **bare** (parenthetical-free) restatement of the main translation
+  or a promoted `altMeaning` — enforcing "other possible meanings only." Parenthetical-distinguished
+  senses (`article (grammar)` beside primary `article`) are legitimate and exempt. Stops a future
+  curator re-run or manual edit from quietly reintroducing a main-in-list. (§4.8)
 
 ---
 

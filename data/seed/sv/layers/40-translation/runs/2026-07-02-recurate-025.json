@@ -1,0 +1,81 @@
+[
+  {
+    "kellyId": 1726,
+    "decision": "fix",
+    "reason": "sub just restated 'before'; nautical 'forward/fore' is a distinct sense",
+    "translation": "before",
+    "senses": [
+      "forward, fore (toward the front of a ship)"
+    ],
+    "inputHash": "791163a9"
+  },
+  {
+    "kellyId": 3989,
+    "decision": "fix",
+    "reason": "sub merely restates the main; no distinct additional sense",
+    "translation": "testimony, testament",
+    "senses": [],
+    "inputHash": "bd79582f"
+  },
+  {
+    "kellyId": 4166,
+    "decision": "fix",
+    "reason": "sub restated 'rule, reign'; 'prevail' (of a mood/condition) is distinct",
+    "translation": "rule",
+    "senses": [
+      "prevail, be prevalent (of a mood or condition)"
+    ],
+    "inputHash": "44be0bb7"
+  },
+  {
+    "kellyId": 4188,
+    "decision": "fix",
+    "reason": "sub merely restates the main; no distinct additional sense to keep",
+    "translation": "impact, breakthrough",
+    "senses": [],
+    "inputHash": "58781fa9"
+  },
+  {
+    "kellyId": 4276,
+    "decision": "fix",
+    "reason": "sub restated 'design, construct'; 'fabricate' (a story) is a distinct figurative sense",
+    "translation": "design, construct",
+    "senses": [
+      "fabricate, concoct (a story or argument)"
+    ],
+    "inputHash": "3a99eb76"
+  },
+  {
+    "kellyId": 4453,
+    "decision": "fix",
+    "reason": "sub merely restates the main; no distinct additional sense",
+    "translation": "drink, booze",
+    "senses": [],
+    "inputHash": "0e993137"
+  },
+  {
+    "kellyId": 4604,
+    "decision": "fix",
+    "reason": "sub restates the same refuge/sanctuary concept; no distinct sense",
+    "translation": "asylum",
+    "senses": [],
+    "uncountable": true,
+    "inputHash": "0bb7e0a2"
+  },
+  {
+    "kellyId": 5046,
+    "decision": "fix",
+    "reason": "single specific institutional meaning; sub merely restates it",
+    "translation": "municipal executive board",
+    "senses": [],
+    "inputHash": "406bb08b"
+  },
+  {
+    "kellyId": 5837,
+    "decision": "fix",
+    "reason": "sub merely restates the main synonyms; no distinct additional sense",
+    "translation": "discern, distinguish, make out",
+    "senses": [],
+    "inputHash": "e891cea0"
+  }
+]

@@ -130,9 +130,11 @@
 .answerWord {
   font-size: 24px;
   font-weight: 600;
+  /* Tight line box so stacked meanings (primary + promoted, e.g. "a man" / "a husband") read as one
+     grouped answer rather than two loosely-spaced headings. */
+  line-height: 1.25;
 }
 
-.subdefs,
 .examples {
   list-style: none;
   display: flex;
@@ -142,22 +144,31 @@
   color: var(--color-text-secondary);
 }
 
-/* Number the senses (1) 2) …) so multiple meanings read apart. */
+/* Reference-only "can also mean" meanings — a compact secondary-colour block below the "or" divider,
+   the meanings stacked one per line. */
 .subdefs {
-  counter-reset: sense;
+  font-size: 15px;
+  color: var(--color-text-secondary);
 }
 
-.subdefs li {
-  counter-increment: sense;
+/* Thin rule with a centred "or", separating the taught meaning(s) from the reference meanings. */
+.orDivider {
+  align-self: center;
+  width: 100%;
+  max-width: 120px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  color: var(--color-text-secondary);
 }
 
-.subdefs li::before {
-  content: counter(sense) ') ';
-}
-
-/* A lone meaning needs no "1)" — only number when there are several to tell apart. */
-.subdefs li:only-child::before {
+.orDivider::before,
+.orDivider::after {
   content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--color-border);
 }
 
 .inflections {
@@ -180,7 +191,7 @@
 
 .examples {
   font-style: italic;
-  margin-top: 24px; /* well clear of the translation/forms (≈3× the reveal gap) */
+  margin-top: 24px; /* clear of the meanings/reference panel, without a cavernous gap */
 }
 
 .note {
@@ -213,6 +224,14 @@
 /* New-word moment: a quiet note relating the word to same-sense synonyms already learned. */
 .alsoKnow {
   margin-top: 16px;
+  text-align: center;
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+
+/* The word's other meanings, cross-linked on the reveal of a multi-meaning word (led → joint, route). */
+.alsoMeans {
+  margin-top: 8px;
   text-align: center;
   font-size: 13px;
   color: var(--color-text-secondary);

@@ -36,13 +36,22 @@
     "note": "Active quality pass: main translation + complete meaning list. Wins over the cleaner layers."
   },
   {
+    "id": 45,
+    "name": "split",
+    "kind": "split",
+    "agent": "split-curator",
+    "produces": ["altMeanings", "subDefinitions"],
+    "input": "base + layers below",
+    "note": "Promote a word's distinct practiceable meanings into their own production cards (altMeanings); the reference meaning list (subDefinitions) is repartitioned wholesale, promoted meanings removed."
+  },
+  {
     "id": 50,
     "name": "senses",
     "kind": "senses",
-    "agent": "sense-partitioner",
+    "agent": "gloss-curator",
     "produces": ["sense"],
     "input": "base + layers below",
-    "note": "Group synonyms into senses for production cards. Orthogonal field — never conflicts."
+    "note": "Partition each ambiguous English phrase (>=2 producing meaning-slots, incl. promoted altMeanings) into senses + a short production gloss. Sole gloss authority: primaries carry it on `sense`, promoted altMeanings carry `gloss` (stamped by the reducer, §12). Single-sense synonym groups stay gloss-free. Orthogonal field — never conflicts."
   },
   {
     "id": 60,
@@ -58,8 +67,8 @@
     "name": "manual",
     "kind": "decisions",
     "agent": null,
-    "produces": ["translation", "subDefinitions", "ipa", "svUncountable", "drop"],
+    "produces": ["translation", "subDefinitions", "altMeanings", "ipa", "svUncountable", "drop"],
     "input": null,
-    "note": "Human overrides — highest precedence."
+    "note": "Human overrides — highest precedence. May also author a meaning split (decision: split with altMeanings + a repartitioned subDefinitions), overriding the split layer."
   }
 ]

@@ -1,0 +1,1013 @@
+[
+  {
+    "kellyId": 6018,
+    "decision": "fix",
+    "reason": "only restates the main",
+    "translation": "immigration policy",
+    "senses": [],
+    "inputHash": "a1188a0e"
+  },
+  {
+    "kellyId": 5738,
+    "decision": "fix",
+    "reason": "inauguration is a distinct shade",
+    "translation": "opening",
+    "senses": [
+      "inauguration"
+    ],
+    "inputHash": "1009c19f"
+  },
+  {
+    "kellyId": 6394,
+    "decision": "fix",
+    "reason": "figurative cold/distant sense is distinct",
+    "translation": "ice cold, freezing cold",
+    "senses": [
+      "cold, distant, coolheaded (figurative)"
+    ],
+    "inputHash": "88d5e675"
+  },
+  {
+    "kellyId": 6086,
+    "decision": "fix",
+    "reason": "slang sense distinct; strip main restatement",
+    "translation": "Italian",
+    "senses": [
+      "go commando (slang)"
+    ],
+    "inputHash": "8125faec"
+  },
+  {
+    "kellyId": 6277,
+    "decision": "fix",
+    "reason": "keep distinct historical and astrological senses",
+    "translation": "virgin",
+    "senses": [
+      "young woman, maiden (archaic)",
+      "maid, female servant (historical)",
+      "Virgo (star sign)"
+    ],
+    "inputHash": "3fd7171e"
+  },
+  {
+    "kellyId": 6864,
+    "decision": "fix",
+    "reason": "annual publication sense distinct",
+    "translation": "calendar",
+    "senses": [
+      "annual publication, almanac"
+    ],
+    "inputHash": "7a9e19ec"
+  },
+  {
+    "kellyId": 6112,
+    "decision": "fix",
+    "reason": "calculus is a distinct math sense",
+    "translation": "calculation",
+    "senses": [
+      "calculus (mathematical branch)"
+    ],
+    "inputHash": "41d0b73f"
+  },
+  {
+    "kellyId": 6614,
+    "decision": "fix",
+    "reason": "rare slang sense beyond learner needs",
+    "translation": "rabbit",
+    "senses": [],
+    "inputHash": "3ea18bef"
+  },
+  {
+    "kellyId": 6442,
+    "decision": "fix",
+    "reason": "distinct orchestra and cover senses",
+    "translation": "chapel",
+    "senses": [
+      "small orchestra, ensemble",
+      "cover, canopy (for a boat or the like)"
+    ],
+    "inputHash": "07636743"
+  },
+  {
+    "kellyId": 6832,
+    "decision": "fix",
+    "reason": "pelmet is a distinct sense",
+    "translation": "women's overcoat",
+    "senses": [
+      "pelmet"
+    ],
+    "inputHash": "7fde24ac"
+  },
+  {
+    "kellyId": 6658,
+    "decision": "fix",
+    "reason": "box/carton senses distinct from material",
+    "translation": "cardboard",
+    "senses": [
+      "cardboard box",
+      "carton"
+    ],
+    "uncountable": true,
+    "inputHash": "4e2acdcf"
+  },
+  {
+    "kellyId": 6183,
+    "decision": "fix",
+    "reason": "both items are the same garment sense",
+    "translation": "skirt",
+    "senses": [],
+    "inputHash": "0b2202e7"
+  },
+  {
+    "kellyId": 6268,
+    "decision": "fix",
+    "reason": "figurative connotation sense distinct",
+    "translation": "sound, tone, ring",
+    "senses": [
+      "connotations, ring (figurative)"
+    ],
+    "inputHash": "e2c4a752"
+  },
+  {
+    "kellyId": 5992,
+    "decision": "fix",
+    "reason": "distinct pet and clap senses",
+    "translation": "pat",
+    "senses": [
+      "pet, stroke (an animal)",
+      "clap (hands)"
+    ],
+    "inputHash": "f71f2025"
+  },
+  {
+    "kellyId": 6713,
+    "decision": "fix",
+    "reason": "second item just restates the main",
+    "translation": "itch",
+    "senses": [],
+    "inputHash": "47581d31"
+  },
+  {
+    "kellyId": 5700,
+    "decision": "fix",
+    "reason": "clique is a distinct sense",
+    "translation": "dollop, knob, dab",
+    "senses": [
+      "clique (closed group)"
+    ],
+    "inputHash": "7cfeebb2"
+  },
+  {
+    "kellyId": 6811,
+    "decision": "fix",
+    "reason": "geometric sphere overlaps main",
+    "translation": "ball, sphere",
+    "senses": [],
+    "inputHash": "579c930f"
+  },
+  {
+    "kellyId": 6966,
+    "decision": "fix",
+    "reason": "informal nuisance sense distinct",
+    "translation": "lump",
+    "senses": [
+      "nuisance, person in the way (informal)"
+    ],
+    "inputHash": "aca419c2"
+  },
+  {
+    "kellyId": 5756,
+    "decision": "fix",
+    "reason": "weird/hard-to-figure-out is a distinct shade",
+    "translation": "tricky, difficult",
+    "senses": [
+      "weird, hard to figure out"
+    ],
+    "inputHash": "d1714224"
+  },
+  {
+    "kellyId": 5663,
+    "decision": "fix",
+    "reason": "code-cracking and spirit-breaking distinct",
+    "translation": "crack, break, snap",
+    "senses": [
+      "crack (a code or encryption)",
+      "break (someone's will or spirit)"
+    ],
+    "inputHash": "35582d27"
+  },
+  {
+    "kellyId": 6388,
+    "decision": "fix",
+    "reason": "keep distinct unfasten and clasp senses",
+    "translation": "button up",
+    "senses": [
+      "unbutton, unfasten",
+      "clasp, buckle (a fastening)",
+      "clasp (one's hands)"
+    ],
+    "inputHash": "c6382c6b"
+  },
+  {
+    "kellyId": 6042,
+    "decision": "fix",
+    "reason": "coccus is a distinct biology sense",
+    "translation": "chef, cook",
+    "senses": [
+      "coccus (biology)"
+    ],
+    "inputHash": "570391a7"
+  },
+  {
+    "kellyId": 5683,
+    "decision": "fix",
+    "reason": "theatrical comic sense distinct",
+    "translation": "comical, funny",
+    "senses": [
+      "comic (relating to theatrical comedy)"
+    ],
+    "inputHash": "ae38d8ce"
+  },
+  {
+    "kellyId": 6685,
+    "decision": "fix",
+    "reason": "military and commercial senses distinct",
+    "translation": "company",
+    "senses": [
+      "military company (troops)",
+      "company, firm (commercial)"
+    ],
+    "inputHash": "7e117888"
+  },
+  {
+    "kellyId": 7000,
+    "decision": "fix",
+    "reason": "general condition sense distinct from fitness",
+    "translation": "fitness, stamina",
+    "senses": [
+      "condition (of a person or thing)"
+    ],
+    "inputHash": "0ad1482c"
+  },
+  {
+    "kellyId": 6762,
+    "decision": "fix",
+    "reason": "blunt/direct sense distinct",
+    "translation": "cash",
+    "senses": [
+      "frank, direct, blunt"
+    ],
+    "inputHash": "c0d73577"
+  },
+  {
+    "kellyId": 6510,
+    "decision": "fix",
+    "reason": "keep barley plant and gun-sight senses",
+    "translation": "grain",
+    "senses": [
+      "grain, speck (small particle)",
+      "barley (the plant)",
+      "bead, front sight (of a gun)"
+    ],
+    "inputHash": "ba469c27"
+  },
+  {
+    "kellyId": 5914,
+    "decision": "fix",
+    "reason": "crossbreeding sense distinct from crossing",
+    "translation": "intersection, crossing",
+    "senses": [
+      "crossbreed, hybrid",
+      "crossbreeding"
+    ],
+    "inputHash": "04449870"
+  },
+  {
+    "kellyId": 5918,
+    "decision": "fix",
+    "reason": "figurative revolve-around sense distinct",
+    "translation": "revolve, circle",
+    "senses": [
+      "revolve around, be centered on"
+    ],
+    "inputHash": "0748e6f5"
+  },
+  {
+    "kellyId": 6994,
+    "decision": "fix",
+    "reason": "boxing punch is a distinct sense",
+    "translation": "hook",
+    "senses": [
+      "hook (boxing punch)"
+    ],
+    "inputHash": "1b211b42"
+  },
+  {
+    "kellyId": 6873,
+    "decision": "fix",
+    "reason": "colloquial coward sense distinct",
+    "translation": "pot",
+    "senses": [
+      "coward, chicken (colloquial)"
+    ],
+    "inputHash": "98ab799b"
+  },
+  {
+    "kellyId": 6656,
+    "decision": "fix",
+    "reason": "sailing tack sense distinct",
+    "translation": "tick, check (a box)",
+    "senses": [
+      "tack (sail zigzag upwind)"
+    ],
+    "inputHash": "33ff51dd"
+  },
+  {
+    "kellyId": 6499,
+    "decision": "fix",
+    "reason": "cushion is a distinct shade",
+    "translation": "pillow",
+    "senses": [
+      "cushion"
+    ],
+    "inputHash": "f61c042d"
+  },
+  {
+    "kellyId": 6735,
+    "decision": "fix",
+    "reason": "place setting is a distinct sense",
+    "translation": "envelope",
+    "senses": [
+      "place setting, table setting"
+    ],
+    "inputHash": "7f72e70a"
+  },
+  {
+    "kellyId": 5853,
+    "decision": "fix",
+    "reason": "sports qualification sense distinct",
+    "translation": "pain, anguish",
+    "senses": [
+      "qualification, qualifier (sports)"
+    ],
+    "inputHash": "c95e4b9a"
+  },
+  {
+    "kellyId": 6357,
+    "decision": "fix",
+    "reason": "both meanings are the co-equal main",
+    "translation": "quotient; quota",
+    "senses": [],
+    "inputHash": "3a1495a8"
+  },
+  {
+    "kellyId": 6546,
+    "decision": "fix",
+    "reason": "emotionally cold sense distinct",
+    "translation": "chilly",
+    "senses": [
+      "cold, cool (emotionally)"
+    ],
+    "inputHash": "f5941942"
+  },
+  {
+    "kellyId": 5857,
+    "decision": "fix",
+    "reason": "student union is a distinct sense",
+    "translation": "corps, body, force",
+    "senses": [
+      "student union"
+    ],
+    "inputHash": "57071b19"
+  },
+  {
+    "kellyId": 6858,
+    "decision": "fix",
+    "reason": "blood vessel is a distinct sense",
+    "translation": "vessel",
+    "senses": [
+      "vessel (blood vessel)"
+    ],
+    "inputHash": "59cccab3"
+  },
+  {
+    "kellyId": 6127,
+    "decision": "fix",
+    "reason": "computer run is a distinct sense",
+    "translation": "driving",
+    "senses": [
+      "run (of a computer program)"
+    ],
+    "uncountable": true,
+    "inputHash": "1ef0f041"
+  },
+  {
+    "kellyId": 5873,
+    "decision": "fix",
+    "reason": "literal loaded/charged sense distinct",
+    "translation": "tense",
+    "senses": [
+      "loaded, charged (literally: weapon, battery)"
+    ],
+    "inputHash": "7d9a1548"
+  },
+  {
+    "kellyId": 5953,
+    "decision": "fix",
+    "reason": "Finnish historical sense distinct",
+    "translation": "county governor",
+    "senses": [
+      "province governor (Finland, historical)"
+    ],
+    "inputHash": "55fa3ff9"
+  },
+  {
+    "kellyId": 6778,
+    "decision": "fix",
+    "reason": "a farm is a distinct concrete sense",
+    "translation": "agriculture, farming",
+    "senses": [
+      "farm"
+    ],
+    "inputHash": "8f4b04a7"
+  },
+  {
+    "kellyId": 5915,
+    "decision": "fix",
+    "reason": "identify-oneself and license senses distinct",
+    "translation": "legitimize",
+    "senses": [
+      "identify oneself (by showing ID)",
+      "license (authorize to practise a profession)"
+    ],
+    "inputHash": "2cf284c0"
+  },
+  {
+    "kellyId": 5945,
+    "decision": "fix",
+    "reason": "keep heraldic and astrological senses",
+    "translation": "lion",
+    "senses": [
+      "lion (heraldic symbol)",
+      "Leo (star sign)"
+    ],
+    "inputHash": "c4f43744"
+  },
+  {
+    "kellyId": 6132,
+    "decision": "fix",
+    "reason": "mud is a distinct shade",
+    "translation": "clay",
+    "senses": [
+      "mud (relatively dry)"
+    ],
+    "inputHash": "fe2285e0"
+  },
+  {
+    "kellyId": 6978,
+    "decision": "fix",
+    "reason": "encyclopedia and personal vocabulary distinct",
+    "translation": "dictionary",
+    "senses": [
+      "encyclopedia",
+      "vocabulary (of a person)"
+    ],
+    "inputHash": "255680d9"
+  },
+  {
+    "kellyId": 5664,
+    "decision": "fix",
+    "reason": "uninteresting is a distinct shade",
+    "translation": "indifferent",
+    "senses": [
+      "uninteresting, of no consequence"
+    ],
+    "inputHash": "793be088"
+  },
+  {
+    "kellyId": 6742,
+    "decision": "fix",
+    "reason": "optical lens is a distinct sense",
+    "translation": "lentil",
+    "senses": [
+      "lens (optics)",
+      "contact lens"
+    ],
+    "inputHash": "f7df4cde"
+  },
+  {
+    "kellyId": 5965,
+    "decision": "fix",
+    "reason": "keep lottery-ticket and plot senses",
+    "translation": "lot, share",
+    "senses": [
+      "lottery ticket, lot (drawn by chance)",
+      "plot, land lot"
+    ],
+    "inputHash": "ad8f4336"
+  },
+  {
+    "kellyId": 6045,
+    "decision": "fix",
+    "reason": "keep instrument senses",
+    "translation": "receiver, handset",
+    "senses": [
+      "horn (simple wind instrument)",
+      "lur (curved Bronze Age horn)"
+    ],
+    "inputHash": "0ce9f534"
+  },
+  {
+    "kellyId": 6594,
+    "decision": "fix",
+    "reason": "only restates the main",
+    "translation": "lift",
+    "senses": [],
+    "inputHash": "c4f1f5cc"
+  },
+  {
+    "kellyId": 6289,
+    "decision": "fix",
+    "reason": "items just restate the main",
+    "translation": "heal",
+    "senses": [],
+    "inputHash": "4fcffcd2"
+  },
+  {
+    "kellyId": 5979,
+    "decision": "fix",
+    "reason": "gallery/balcony sense distinct",
+    "translation": "stand, grandstand",
+    "senses": [
+      "gallery, balcony (in a hall or church)"
+    ],
+    "inputHash": "43d59a2d"
+  },
+  {
+    "kellyId": 6705,
+    "decision": "fix",
+    "reason": "physical lightness is a distinct sense",
+    "translation": "ease",
+    "senses": [
+      "lightness (of weight)"
+    ],
+    "inputHash": "96975627"
+  },
+  {
+    "kellyId": 6187,
+    "decision": "fix",
+    "reason": "flower bulb is a distinct sense",
+    "translation": "onion",
+    "senses": [
+      "bulb (of a tulip or similar plant)"
+    ],
+    "inputHash": "6c70c99b"
+  },
+  {
+    "kellyId": 6951,
+    "decision": "fix",
+    "reason": "keep chess bishop and table runner; drop rare brick term",
+    "translation": "runner",
+    "senses": [
+      "bishop (chess piece)",
+      "table runner (oblong cloth)"
+    ],
+    "inputHash": "131b8c5c"
+  },
+  {
+    "kellyId": 6749,
+    "decision": "fix",
+    "reason": "meagre/sparse figurative sense distinct",
+    "translation": "lean, thin",
+    "senses": [
+      "meagre, sparse (of land or results)"
+    ],
+    "inputHash": "96acd140"
+  },
+  {
+    "kellyId": 6841,
+    "decision": "fix",
+    "reason": "master's-degree holder sense distinct",
+    "translation": "male teacher",
+    "senses": [
+      "magister (holder of a master's degree)"
+    ],
+    "inputHash": "484292e9"
+  },
+  {
+    "kellyId": 6894,
+    "decision": "fix",
+    "reason": "figurative drone-on sense distinct",
+    "translation": "grind",
+    "senses": [
+      "go on and on, drone on"
+    ],
+    "inputHash": "603454c9"
+  },
+  {
+    "kellyId": 6755,
+    "decision": "fix",
+    "reason": "screenplay is a distinct sense",
+    "translation": "manuscript",
+    "senses": [
+      "screenplay, script"
+    ],
+    "inputHash": "25b9d007"
+  },
+  {
+    "kellyId": 6846,
+    "decision": "fix",
+    "reason": "all items are shades of the same sense",
+    "translation": "machinery",
+    "senses": [],
+    "uncountable": true,
+    "inputHash": "c2f6cf2c"
+  },
+  {
+    "kellyId": 6688,
+    "decision": "fix",
+    "reason": "canteen/cafeteria sense distinct",
+    "translation": "dining room",
+    "senses": [
+      "canteen, cafeteria (school or workplace)"
+    ],
+    "inputHash": "a35e87e1"
+  },
+  {
+    "kellyId": 6933,
+    "decision": "fix",
+    "reason": "matte finish and checkmate senses distinct",
+    "translation": "weak, listless",
+    "senses": [
+      "matte, non-shiny (of a surface)",
+      "checkmate (in chess)"
+    ],
+    "inputHash": "a749b89b"
+  },
+  {
+    "kellyId": 5743,
+    "decision": "fix",
+    "reason": "permission/consent sense distinct",
+    "translation": "concession, admission",
+    "senses": [
+      "permission, consent"
+    ],
+    "inputHash": "5de44047"
+  },
+  {
+    "kellyId": 6125,
+    "decision": "fix",
+    "reason": "all items are shades of the same sense",
+    "translation": "migration",
+    "senses": [],
+    "uncountable": true,
+    "inputHash": "3288888c"
+  },
+  {
+    "kellyId": 6365,
+    "decision": "fix",
+    "reason": "items merely define/restate the main",
+    "translation": "flour",
+    "senses": [],
+    "inputHash": "f0ce6be6"
+  },
+  {
+    "kellyId": 5816,
+    "decision": "fix",
+    "reason": "figurative incentive sense distinct",
+    "translation": "carrot",
+    "senses": [
+      "incentive (figurative)"
+    ],
+    "inputHash": "01d98173"
+  },
+  {
+    "kellyId": 6381,
+    "decision": "fix",
+    "reason": "keep clinic and social-event senses",
+    "translation": "reception",
+    "senses": [
+      "clinic, doctor's office (healthcare)",
+      "reception (social event)"
+    ],
+    "inputHash": "0d59abef"
+  },
+  {
+    "kellyId": 6051,
+    "decision": "fix",
+    "reason": "keep pastry senses",
+    "translation": "monk",
+    "senses": [
+      "doughnut (deep-fried)",
+      "chocolate teacake (marshmallow treat)"
+    ],
+    "inputHash": "c3d0397e"
+  },
+  {
+    "kellyId": 5674,
+    "decision": "fix",
+    "reason": "computer mouse is a distinct sense",
+    "translation": "mouse",
+    "senses": [
+      "mouse (computer)"
+    ],
+    "inputHash": "5b415977"
+  },
+  {
+    "kellyId": 6888,
+    "decision": "fix",
+    "reason": "authoritative sense distinct",
+    "translation": "of legal age",
+    "senses": [
+      "authoritative, commanding"
+    ],
+    "inputHash": "89950b28"
+  },
+  {
+    "kellyId": 5908,
+    "decision": "fix",
+    "reason": "real estate agent sense distinct",
+    "translation": "broker, mediator",
+    "senses": [
+      "real estate agent, realtor"
+    ],
+    "inputHash": "f064f765"
+  },
+  {
+    "kellyId": 6273,
+    "decision": "fix",
+    "reason": "championship is a distinct sense",
+    "translation": "mastery",
+    "senses": [
+      "championship (competition)"
+    ],
+    "inputHash": "381213c8"
+  },
+  {
+    "kellyId": 6290,
+    "decision": "fix",
+    "reason": "treenail is a distinct sense",
+    "translation": "nail",
+    "senses": [
+      "treenail, wooden peg (in boat-building)"
+    ],
+    "inputHash": "d1457e8b"
+  },
+  {
+    "kellyId": 6766,
+    "decision": "fix",
+    "reason": "supper is a distinct (archaic) sense",
+    "translation": "Holy Communion",
+    "senses": [
+      "supper, evening meal (archaic)"
+    ],
+    "inputHash": "cd446348"
+  },
+  {
+    "kellyId": 6531,
+    "decision": "fix",
+    "reason": "keep loser and freshman slang senses",
+    "translation": "zero",
+    "senses": [
+      "loser, nobody (informal)",
+      "freshman (new student at orientation)"
+    ],
+    "inputHash": "2fa7063b"
+  },
+  {
+    "kellyId": 6803,
+    "decision": "fix",
+    "reason": "stock listing/quotation sense distinct",
+    "translation": "note, notation",
+    "senses": [
+      "listing, quotation (stock exchange)"
+    ],
+    "inputHash": "f216bf6b"
+  },
+  {
+    "kellyId": 5938,
+    "decision": "fix",
+    "reason": "figurative nuance sense distinct",
+    "translation": "shade",
+    "senses": [
+      "nuance, subtle difference"
+    ],
+    "inputHash": "535e6131"
+  },
+  {
+    "kellyId": 6518,
+    "decision": "fix",
+    "reason": "keep teetotal and level-headed senses",
+    "translation": "sober",
+    "senses": [
+      "teetotal, abstaining",
+      "level-headed, down-to-earth (realistic)"
+    ],
+    "inputHash": "8beea613"
+  },
+  {
+    "kellyId": 6804,
+    "decision": "fix",
+    "reason": "keep syringe and dial-pointer senses",
+    "translation": "needle, pin",
+    "senses": [
+      "needle (on a syringe)",
+      "needle, pointer (on a dial)"
+    ],
+    "inputHash": "9f6fb901"
+  },
+  {
+    "kellyId": 5767,
+    "decision": "fix",
+    "reason": "mentally-present sense distinct",
+    "translation": "be present",
+    "senses": [
+      "be present, be mindful (mentally attentive)"
+    ],
+    "inputHash": "0a7616f5"
+  },
+  {
+    "kellyId": 6068,
+    "decision": "fix",
+    "reason": "handful sense distinct",
+    "translation": "fist",
+    "senses": [
+      "handful, fistful"
+    ],
+    "inputHash": "02d3dd85"
+  },
+  {
+    "kellyId": 6066,
+    "decision": "fix",
+    "reason": "figurative sense overlaps main enough",
+    "translation": "ocean",
+    "senses": [
+      "ocean, vast expanse (figurative)"
+    ],
+    "inputHash": "18d6f55f"
+  },
+  {
+    "kellyId": 6780,
+    "decision": "fix",
+    "reason": "public official sense distinct",
+    "translation": "officer",
+    "senses": [
+      "official, public servant"
+    ],
+    "inputHash": "ddb95248"
+  },
+  {
+    "kellyId": 6122,
+    "decision": "fix",
+    "reason": "odd-number sense distinct",
+    "translation": "uneven",
+    "senses": [
+      "odd (not divisible by two)"
+    ],
+    "inputHash": "cb556811"
+  },
+  {
+    "kellyId": 5625,
+    "decision": "fix",
+    "reason": "reverse/transform sense distinct",
+    "translation": "convert",
+    "senses": [
+      "reverse, transform"
+    ],
+    "inputHash": "31e037eb"
+  },
+  {
+    "kellyId": 6974,
+    "decision": "fix",
+    "reason": "keep orienteering and briefing senses",
+    "translation": "orientation",
+    "senses": [
+      "orienteering (sport)",
+      "briefing, overview"
+    ],
+    "inputHash": "eb1aefa4"
+  },
+  {
+    "kellyId": 6310,
+    "decision": "fix",
+    "reason": "both meanings are the co-equal main",
+    "translation": "innocence; virgin",
+    "senses": [],
+    "inputHash": "f08f5015"
+  },
+  {
+    "kellyId": 6002,
+    "decision": "fix",
+    "reason": "religious infidel sense distinct",
+    "translation": "unfaithful",
+    "senses": [
+      "infidel, unbeliever (religious)"
+    ],
+    "inputHash": "235185a9"
+  },
+  {
+    "kellyId": 6653,
+    "decision": "fix",
+    "reason": "figurative freeloader sense distinct",
+    "translation": "parasite",
+    "senses": [
+      "freeloader, sponger (person living at others' expense)"
+    ],
+    "inputHash": "7f3cdd25"
+  },
+  {
+    "kellyId": 6170,
+    "decision": "fix",
+    "reason": "figurative plonk-oneself sense distinct",
+    "translation": "park",
+    "senses": [
+      "park oneself, plonk down"
+    ],
+    "inputHash": "55bd2973"
+  },
+  {
+    "kellyId": 6192,
+    "decision": "fix",
+    "reason": "keep researcher and skilled-explainer shades",
+    "translation": "pedagogue, teacher",
+    "senses": [
+      "educationalist (researcher in pedagogy)",
+      "someone skilled at explaining"
+    ],
+    "inputHash": "7a35162f"
+  },
+  {
+    "kellyId": 6307,
+    "decision": "fix",
+    "reason": "both meanings are the co-equal main",
+    "translation": "commute; oscillate",
+    "senses": [],
+    "inputHash": "013de7c5"
+  },
+  {
+    "kellyId": 5981,
+    "decision": "fix",
+    "reason": "drop/cut from a team sense distinct",
+    "translation": "poke, pick",
+    "senses": [
+      "drop, cut (remove from a team or position)"
+    ],
+    "inputHash": "7b69dfff"
+  },
+  {
+    "kellyId": 5995,
+    "decision": "fix",
+    "reason": "keep dart and willow senses",
+    "translation": "arrow",
+    "senses": [
+      "dart (as in darts)",
+      "willow (tree)"
+    ],
+    "inputHash": "144aa666"
+  },
+  {
+    "kellyId": 6182,
+    "decision": "fix",
+    "reason": "keep gun-barrel, instrument and whistle senses",
+    "translation": "pipe",
+    "senses": [
+      "barrel (of a gun)",
+      "pipe (wind instrument)",
+      "whistle (short for visselpipa)"
+    ],
+    "inputHash": "d0fa81cb"
+  },
+  {
+    "kellyId": 6760,
+    "decision": "fix",
+    "reason": "government-minister portfolio sense distinct",
+    "translation": "briefcase; portfolio",
+    "senses": [
+      "portfolio (artistic or financial)",
+      "portfolio (government minister's post)"
+    ],
+    "inputHash": "00049736"
+  },
+  {
+    "kellyId": 6148,
+    "decision": "fix",
+    "reason": "keep bonus and insurance-fee senses",
+    "translation": "premium, prize",
+    "senses": [
+      "bonus, extra payment",
+      "premium (insurance fee)"
+    ],
+    "inputHash": "cc6c70ec"
+  },
+  {
+    "kellyId": 5877,
+    "decision": "fix",
+    "reason": "keep mark-on-record and guy senses",
+    "translation": "dot",
+    "senses": [
+      "mark, black mark (on one's record)",
+      "guy, fellow (informal, likeable)"
+    ],
+    "inputHash": "1cf71231"
+  }
+]

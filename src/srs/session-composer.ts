@@ -15,8 +15,10 @@ import { cefrRank, levelRank } from './levels'
 //    a single recognition card; production trickles in later as the word is half-known.
 //
 // 1b. PRODUCTION GATING (confirmed design decision). The `produce` direction for a
-//    translation does not become eligible until its sibling `recognize` direction has
-//    graduated out of learning AND stabilised (recognition-before-production; avoids the
+//    translation does not become eligible until the WORD's `recognize` direction has
+//    graduated out of learning AND stabilised. The word's recognition lives on the primary
+//    meaning (meaningKey 0); every meaning's production — primary or extra — gates behind that
+//    one recognition (multi-meaning design). (recognition-before-production; avoids the
 //    "free" same-session reverse). It is ALSO held back on any day recognition is itself
 //    due — a session never asks both directions of the same word, since doing the reverse
 //    right after the recognition reveal is wasted effort; it slots into a later, naturally-
@@ -152,6 +154,12 @@ export function composeSessionPure(input: ComposerInput): SessionCard[] {
   for (const rs of input.reviewStates) {
     rsByKey.set(`${rs.translationId}:${rs.skill}`, rs)
   }
+  // Recognition is per WORD, carried by the primary meaning (meaningKey 0). Production of ANY meaning
+  // gates behind the word's recognition, so map each word to its primary link. (multi-meaning design)
+  const primaryTrByEntry = new Map<string, Translation>()
+  for (const t of input.translations) {
+    if (t.primary) primaryTrByEntry.set(t.targetEntryId, t)
+  }
 
   // New cards already introduced today (any new-band card whose SRS state was first
   // created since local midnight). Subtracted from the daily budget so reopening the app
@@ -179,11 +187,18 @@ export function composeSessionPure(input: ComposerInput): SessionCard[] {
     const progression = entry.source === 'seed' && cefrRank(entry.cefr) <= lr + 1
 
     for (const skill of SKILLS) {
+      // Recognition is asked once per word, off the primary meaning — a non-primary meaning never
+      // gets a recognition card (knowing the word means recognising *something*). (multi-meaning design)
+      if (skill === 'recognize' && !translation.primary) continue
+
       const rs = rsByKey.get(`${translation.id}:${skill}`)
 
-      // Production is gated behind recognition until it has its own state (SPEC §6, 1b).
+      // Production is gated behind the WORD's recognition (the primary meaning's recognize state) until
+      // it has its own state (SPEC §6, 1b; multi-meaning design). For the primary meaning this is
+      // unchanged; for an extra meaning it means "learn to recognise the word first, then its meanings".
       if (skill === 'produce' && !rs) {
-        const rec = rsByKey.get(`${translation.id}:recognize`)
+        const primaryTr = primaryTrByEntry.get(entry.id)
+        const rec = primaryTr ? rsByKey.get(`${primaryTr.id}:recognize`) : undefined
         if (!productionUnlocked(rec)) continue // recognition not stabilised yet
         if (rec && rec.due <= now) continue // ...and recognition isn't itself due today —
         // defer the reverse to a naturally-spaced later session (no both-directions-in-one-day)
@@ -255,14 +270,17 @@ export function composeSessionPure(input: ComposerInput): SessionCard[] {
  * Collapse the production cards of one sense-group into a single multi-answer card. (plan, SPEC §6)
  *
  * The seed splits a native concept (e.g. "clearly") into senses; the Swedish answers of one sense
- * ("in a clear way" → tydligt, klart) share their target Entry's `sense.key`. A member is any sibling
- * the learner has been INTRODUCED to — recognised or produced (taught as a new word). When ≥2 members
- * are introduced and at least one's production is due today, we ask the concept once: a single card
- * carrying every introduced member, graded together (a recognition-only member's produce state is
- * created when it's first graded). A sibling never seen in any skill is NOT pulled in; nor is a
- * recognition-only member whose recognition is itself due this session — that would be the "free
- * reverse" production gating avoids (§6 1b), so it joins a later session. Members not currently due add
- * no session slot; they ride the group's reveal and grade.
+ * share a grouping key. For a word's PRIMARY meaning that key lives on its target Entry's `sense.key`
+ * ("in a clear way" → tydligt, klart); for a PROMOTED meaning (meaningKey > 0) it lives on the link's
+ * `senseKey`, so a promoted meaning is grouped with the other words of its sense too (e.g. `husband` →
+ * make's primary + man's promoted meaning, asked as one card). A member is any sibling the learner has
+ * been INTRODUCED to — recognised or produced (a promoted meaning, having no recognition card, counts
+ * once its production exists). When ≥2 members are introduced and at least one's production is due
+ * today, we ask the concept once: a single card carrying every introduced member, graded together (a
+ * recognition-only member's produce state is created when it's first graded). A sibling never seen in
+ * any skill is NOT pulled in; nor is a recognition-only member whose recognition is itself due this
+ * session — that would be the "free reverse" production gating avoids (§6 1b), so it joins a later
+ * session. Members not currently due add no session slot; they ride the group's reveal and grade.
  */
 function groupProductionCards(
   practiceCards: SessionCard[],
@@ -276,9 +294,13 @@ function groupProductionCards(
   // — such a member rides along as an answer but can't, on its own, surface the group.
   const membersByKey = new Map<string, { translationId: string; targetEntryId: string; produceDue: number }[]>()
   for (const t of translations) {
-    const key = entryById.get(t.targetEntryId)?.sense?.key
+    // The grouping key: a PRIMARY meaning takes it from its target entry's `sense.key`; a PROMOTED
+    // meaning (meaningKey > 0) takes it from the link's own `senseKey` — so a promoted meaning groups
+    // with the other Swedish words of its sense (e.g. `husband` → make + man) instead of wrongly
+    // inheriting the primary's sense. Absent key → not part of a partitioned concept → solo card. (§12)
+    const key = t.primary ? entryById.get(t.targetEntryId)?.sense?.key : t.senseKey
     if (!key) continue
-    const rec = rsByKey.get(`${t.id}:recognize`)
+    const rec = rsByKey.get(`${t.id}:recognize`) // undefined for a promoted meaning (recognition is per word)
     const prod = rsByKey.get(`${t.id}:produce`)
     if (!rec && !prod) continue // never introduced in any skill → not a member
     // A recognition-only member whose recognition is due today is held back: asking its production in

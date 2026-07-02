@@ -1,0 +1,34 @@
+[
+  {
+    "kellyId": 5222,
+    "decision": "split",
+    "reason": "gulf (as in Mexikanska golfen) is a distinct, unrelated geographic sense a learner may need",
+    "altMeanings": [{ "translation": "gulf", "gloss": "large bay" }],
+    "subDefinitions": [],
+    "inputHash": "a55f4297"
+  },
+  {
+    "kellyId": 4591,
+    "decision": "split",
+    "reason": "bullet is a common, distinct sense unrelated to ball/marble",
+    "altMeanings": [{ "translation": "bullet", "gloss": "" }],
+    "subDefinitions": [],
+    "inputHash": "355c7ea0"
+  },
+  {
+    "kellyId": 5458,
+    "decision": "split",
+    "reason": "warehouse/depot is a common everyday sense distinct from the publication meaning",
+    "altMeanings": [{ "translation": "warehouse, depot", "gloss": "" }],
+    "subDefinitions": ["magazine (of a firearm)"],
+    "inputHash": "622e4696"
+  },
+  {
+    "kellyId": 4643,
+    "decision": "split",
+    "reason": "mask (face covering) is a common sense entirely unrelated to worm",
+    "altMeanings": [{ "translation": "mask", "gloss": "face covering" }],
+    "subDefinitions": [],
+    "inputHash": "6c1572a4"
+  }
+]

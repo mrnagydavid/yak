@@ -1,0 +1,96 @@
+[
+  {
+    "kellyId": 1738,
+    "decision": "split",
+    "reason": "outermost/farthest out is a distinct literal spatial sense, separate from the intensifier 'extremely'",
+    "altMeanings": [{ "translation": "outermost, farthest out", "gloss": "" }],
+    "subDefinitions": [],
+    "inputHash": "a80f1e69"
+  },
+  {
+    "kellyId": 1991,
+    "decision": "split",
+    "reason": "end (of a rope/string) is a common concrete sense distinct from the primary 'buttock'",
+    "altMeanings": [{ "translation": "end", "gloss": "of a string, rope, etc." }],
+    "subDefinitions": [],
+    "inputHash": "d0e9606a"
+  },
+  {
+    "kellyId": 2137,
+    "decision": "split",
+    "reason": "handle of a cup/mug is a common concrete sense unrelated to the body part 'ear'",
+    "altMeanings": [{ "translation": "handle", "gloss": "of a cup or mug" }],
+    "subDefinitions": [],
+    "inputHash": "1b260c92"
+  },
+  {
+    "kellyId": 3210,
+    "decision": "split",
+    "reason": "miscarriage (spontaneous) is a distinct medical sense from an induced abortion",
+    "altMeanings": [{ "translation": "miscarriage", "gloss": "spontaneous" }],
+    "subDefinitions": [],
+    "inputHash": "b9aa687b"
+  },
+  {
+    "kellyId": 3384,
+    "decision": "split",
+    "reason": "telephone extension is a common everyday sense distinct from abstract 'connection'",
+    "altMeanings": [{ "translation": "extension", "gloss": "telephone" }],
+    "subDefinitions": [],
+    "inputHash": "03d62aa2"
+  },
+  {
+    "kellyId": 2812,
+    "decision": "split",
+    "reason": "depart (of trains/buses) is a very common everyday sense unrelated to 'resign'",
+    "altMeanings": [{ "translation": "depart", "gloss": "of a train, bus, etc." }],
+    "subDefinitions": [],
+    "inputHash": "5952006d"
+  },
+  {
+    "kellyId": 2939,
+    "decision": "split",
+    "reason": "axis and axle are distinct common homonyms unrelated to the body part 'shoulder'",
+    "altMeanings": [
+      { "translation": "axis", "gloss": "of rotation or coordinates" },
+      { "translation": "axle, driveshaft", "gloss": "" }
+    ],
+    "subDefinitions": [],
+    "inputHash": "1068e66a"
+  },
+  {
+    "kellyId": 3700,
+    "decision": "split",
+    "reason": "reverse (car gear) and crate are distinct common everyday senses of this homonym",
+    "altMeanings": [
+      { "translation": "reverse", "gloss": "car gear" },
+      { "translation": "crate", "gloss": "storage box" }
+    ],
+    "subDefinitions": ["back, defender (sports position)"],
+    "inputHash": "9e3f75ea"
+  },
+  {
+    "kellyId": 4013,
+    "decision": "split",
+    "reason": "fraction (math) is a distinct common sense unrelated to 'brawl/quarrel'",
+    "altMeanings": [{ "translation": "fraction", "gloss": "math" }],
+    "subDefinitions": [],
+    "inputHash": "747bb3b6"
+  },
+  {
+    "kellyId": 3957,
+    "decision": "split",
+    "reason": "tax return is a very common concrete sense in Sweden, distinct from a formal declaration",
+    "altMeanings": [{ "translation": "tax return", "gloss": "" }],
+    "subDefinitions": [],
+    "inputHash": "c768198e"
+  },
+  {
+    "kellyId": 4043,
+    "decision": "split",
+    "reason": "file a tax return is a very common everyday sense in Sweden, distinct from generic 'declare'",
+    "altMeanings": [{ "translation": "file a tax return", "gloss": "" }],
+    "subDefinitions": [],
+    "inputHash": "e87243ca"
+  }
+]

@@ -6,13 +6,14 @@ import {
   deriveStatus,
   getWordDetail,
   resetOverlay,
+  resetProduction,
   resetSkill,
   setStudy,
   type Status,
 } from '../../db/queries'
 import type { StudyPref } from '../../db/types'
-import { getRenderer } from '../../lang'
 import type { InflectionDisplay } from '../../lang'
+import { getRenderer } from '../../lang'
 import { EntryEditor } from '../EntryEditor/EntryEditor'
 import { SpeakButton, WiktionaryLink } from '../WordActions/WordActions'
 import styles from './WordDetail.module.css'
@@ -101,7 +102,8 @@ export function WordDetail({ id }: { id?: string }) {
   if (data === undefined) return <div class={styles.screen}>Loading…</div>
   if (data === null) return <div class={styles.screen}>Word not found.</div>
 
-  const { entry, natives, recognize, produce, lastPracticed, overlay, autoIncluded, senseSummary } = data
+  const { entry, natives, recognize, meanings, lastPracticed, overlay, autoIncluded, senseSummary } = data
+  const multiMeaning = meanings.length > 1
   const renderer = getRenderer(entry.lang)
   const inflections = renderer.renderInflections(entry)
   const features = renderer.renderFeatures(entry)
@@ -183,11 +185,14 @@ export function WordDetail({ id }: { id?: string }) {
           </ul>
         )}
         {entry.subDefinitions?.length ? (
-          <ul class={styles.subdefs}>
-            {entry.subDefinitions.map((s, i) => (
-              <li key={i}>{s}</li>
-            ))}
-          </ul>
+          <>
+            <p class={styles.subdefsLabel}>Can also mean:</p>
+            <ul class={styles.subdefs}>
+              {entry.subDefinitions.map((s, i) => (
+                <li key={i}>{s}</li>
+              ))}
+            </ul>
+          </>
         ) : null}
       </section>
 
@@ -224,12 +229,25 @@ export function WordDetail({ id }: { id?: string }) {
       <section class={styles.section}>
         <h2 class={styles.sectionTitle}>Progress</h2>
         <div class={styles.progress}>
+          {/* Recognition is per WORD — one line, carried by the primary meaning. */}
           <span>
             {STATUS_GLYPH[deriveStatus(recognize)]} Recognition · {STATUS_LABEL[deriveStatus(recognize)]}
           </span>
-          <span>
-            {STATUS_GLYPH[deriveStatus(produce)]} Production · {STATUS_LABEL[deriveStatus(produce)]}
-          </span>
+          {/* Production is per MEANING — one line for a single-meaning word, otherwise one per meaning. */}
+          {multiMeaning ? (
+            <>
+              <span class={styles.progressLabel}>Production</span>
+              {meanings.map((m) => (
+                <span key={m.translationId} class={styles.progressMeaning}>
+                  {STATUS_GLYPH[deriveStatus(m.produce)]} {m.native} · {STATUS_LABEL[deriveStatus(m.produce)]}
+                </span>
+              ))}
+            </>
+          ) : (
+            <span>
+              {STATUS_GLYPH[deriveStatus(meanings[0]?.produce)]} Production · {STATUS_LABEL[deriveStatus(meanings[0]?.produce)]}
+            </span>
+          )}
         </div>
         <p class={styles.muted}>
           {lastPracticed ? `Last practiced ${relativeTime(lastPracticed)}` : 'Not practiced yet'}
@@ -272,14 +290,37 @@ export function WordDetail({ id }: { id?: string }) {
           >
             Reset recognition
           </button>
-          <button
-            class={styles.manage}
-            disabled={!produce}
-            onClick={() => setPending({ message: 'Reset production progress for this word?', confirmLabel: 'Reset', run: () => resetSkill(entry.id, 'produce') })}
-          >
-            Reset production
-          </button>
+          {/* Production reset is per meaning — a single button for one meaning, else one per meaning. */}
+          {!multiMeaning ? (
+            <button
+              class={styles.manage}
+              disabled={!meanings[0]?.produce}
+              onClick={() => setPending({ message: 'Reset production progress for this word?', confirmLabel: 'Reset', run: () => resetSkill(entry.id, 'produce') })}
+            >
+              Reset production
+            </button>
+          ) : null}
         </div>
+        {multiMeaning ? (
+          <div class={styles.manageRow}>
+            {meanings.map((m) => (
+              <button
+                key={m.translationId}
+                class={styles.manage}
+                disabled={!m.produce}
+                onClick={() =>
+                  setPending({
+                    message: `Reset production progress for “${m.native}”?`,
+                    confirmLabel: 'Reset',
+                    run: () => resetProduction(m.translationId),
+                  })
+                }
+              >
+                Reset “{m.native}”
+              </button>
+            ))}
+          </div>
+        ) : null}
         {entry.source === 'user' ? (
           <button
             class={styles.danger}

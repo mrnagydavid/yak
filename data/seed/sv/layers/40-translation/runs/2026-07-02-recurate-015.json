@@ -1,0 +1,990 @@
+[
+  {
+    "kellyId": 5261,
+    "decision": "fix",
+    "reason": "both items restate the main 'half of a game'; only half-time is a distinct sense",
+    "translation": "half (of a game)",
+    "senses": [
+      "half-time (the break between halves)"
+    ],
+    "inputHash": "f1996a8b"
+  },
+  {
+    "kellyId": 4407,
+    "decision": "fix",
+    "reason": "first item restates the main; keep the 'good old-fashioned' shade",
+    "translation": "honest, honorable",
+    "senses": [
+      "good, old-fashioned (traditional and valued)"
+    ],
+    "inputHash": "ec89fe16"
+  },
+  {
+    "kellyId": 5398,
+    "decision": "fix",
+    "reason": "distinct insult/figurative senses beyond 'whore'",
+    "translation": "whore",
+    "senses": [
+      "slut, promiscuous person",
+      "sellout (who compromises integrity for gain)",
+      "bastard, contemptible person (insult)"
+    ],
+    "inputHash": "ae113202"
+  },
+  {
+    "kellyId": 5049,
+    "decision": "fix",
+    "reason": "first item restates the animal horn; keep drinking-vessel and sound-device senses",
+    "translation": "horn",
+    "senses": [
+      "horn (drinking or storage vessel)",
+      "horn, hooter (sound-making device)"
+    ],
+    "inputHash": "2af1f2da"
+  },
+  {
+    "kellyId": 4440,
+    "decision": "fix",
+    "reason": "'reasonable' is a genuinely distinct sense from humane/decent",
+    "translation": "humane, decent, compassionate",
+    "senses": [
+      "reasonable"
+    ],
+    "inputHash": "68dd832d"
+  },
+  {
+    "kellyId": 5216,
+    "decision": "fix",
+    "reason": "first item restates 'principal'; keep governing-body sense",
+    "translation": "principal",
+    "senses": [
+      "governing body, authority (responsible for an activity)"
+    ],
+    "inputHash": "d9f6a6d2"
+  },
+  {
+    "kellyId": 5368,
+    "decision": "fix",
+    "reason": "first item restates the literal headache; keep the figurative 'problem' sense",
+    "translation": "headache",
+    "senses": [
+      "headache (a problem or source of worry)"
+    ],
+    "inputHash": "fa5325bf"
+  },
+  {
+    "kellyId": 5379,
+    "decision": "fix",
+    "reason": "main already covers apartment and tenancy; both items merely define those",
+    "translation": "rental apartment, tenancy",
+    "senses": [],
+    "inputHash": "53547f92"
+  },
+  {
+    "kellyId": 5252,
+    "decision": "fix",
+    "reason": "distinct senses beyond assign/classify",
+    "translation": "assign, class, classify",
+    "senses": [
+      "concern, pertain to",
+      "thrill, enrapture"
+    ],
+    "inputHash": "af81df26"
+  },
+  {
+    "kellyId": 5032,
+    "decision": "fix",
+    "reason": "glory/majesty is a distinct sense from 'delight'",
+    "translation": "delight",
+    "senses": [
+      "glory, majesty, splendor"
+    ],
+    "inputHash": "d8b26fca"
+  },
+  {
+    "kellyId": 4572,
+    "decision": "fix",
+    "reason": "'wonderfully' restates the main adverb sense of sweet/lovely",
+    "translation": "sweet, lovely",
+    "senses": [],
+    "inputHash": "93f04388"
+  },
+  {
+    "kellyId": 4476,
+    "decision": "fix",
+    "reason": "first item restates the main; keep the geographic summit/peak sense",
+    "translation": "highlight, high point",
+    "senses": [
+      "summit, peak (geographic)"
+    ],
+    "inputHash": "64659142"
+  },
+  {
+    "kellyId": 4220,
+    "decision": "fix",
+    "reason": "main already carries both tonight and last night; items just restate them",
+    "translation": "tonight; last night",
+    "senses": [],
+    "inputHash": "b4104855"
+  },
+  {
+    "kellyId": 4623,
+    "decision": "fix",
+    "reason": "first item restates 'observe/watch'; keep observe-a-rule and consider senses",
+    "translation": "observe, watch",
+    "senses": [
+      "observe, follow (a rule or custom)",
+      "consider, take into account"
+    ],
+    "inputHash": "717cf272"
+  },
+  {
+    "kellyId": 4243,
+    "decision": "fix",
+    "reason": "both items are the same 'import' sense in different domains",
+    "translation": "import",
+    "senses": [],
+    "inputHash": "4b9041c6"
+  },
+  {
+    "kellyId": 4271,
+    "decision": "fix",
+    "reason": "first item restates 'imagine'; keep the causative 'convince of something false' sense",
+    "translation": "imagine",
+    "senses": [
+      "make believe, convince (of something false)"
+    ],
+    "inputHash": "234bc00d"
+  },
+  {
+    "kellyId": 4662,
+    "decision": "fix",
+    "reason": "'inherent' is a distinct figurative sense from built-in",
+    "translation": "built-in, inbuilt, integrated",
+    "senses": [
+      "inherent, innate"
+    ],
+    "inputHash": "2c9774bd"
+  },
+  {
+    "kellyId": 5329,
+    "decision": "fix",
+    "reason": "first item restates 'indication'; keep the medical sense",
+    "translation": "indication",
+    "senses": [
+      "indication (medical, directing to suitable treatment)"
+    ],
+    "inputHash": "56e954f9"
+  },
+  {
+    "kellyId": 4348,
+    "decision": "fix",
+    "reason": "first item restates the main; keep intervention and encroachment senses",
+    "translation": "procedure, operation",
+    "senses": [
+      "intervention (political or legal)",
+      "encroachment, infringement"
+    ],
+    "inputHash": "983ba066"
+  },
+  {
+    "kellyId": 5060,
+    "decision": "fix",
+    "reason": "main already covers collection and fundraiser; items restate them",
+    "translation": "collection, fundraiser",
+    "senses": [],
+    "inputHash": "b7fee09c"
+  },
+  {
+    "kellyId": 4329,
+    "decision": "fix",
+    "reason": "'qualification' is a distinct legal/clause sense from restriction",
+    "translation": "restriction, limitation",
+    "senses": [
+      "qualification (clause or condition that qualifies something)"
+    ],
+    "inputHash": "d01bbe12"
+  },
+  {
+    "kellyId": 5202,
+    "decision": "fix",
+    "reason": "first item restates 'inspection'; keep inspectorate (the office)",
+    "translation": "inspection",
+    "senses": [
+      "inspectorate (office of an inspector)"
+    ],
+    "inputHash": "8a9361c6"
+  },
+  {
+    "kellyId": 4670,
+    "decision": "fix",
+    "reason": "first item restates the main; keep 'occur, come into effect'",
+    "translation": "step in, enter",
+    "senses": [
+      "occur, come into effect (of a state or condition)"
+    ],
+    "inputHash": "3fb65ba5"
+  },
+  {
+    "kellyId": 4286,
+    "decision": "fix",
+    "reason": "first item restates 'entry'; keep entry fee/admission",
+    "translation": "entry",
+    "senses": [
+      "entry fee, admission"
+    ],
+    "inputHash": "6079f0ce"
+  },
+  {
+    "kellyId": 4682,
+    "decision": "fix",
+    "reason": "'initiate into esoteric knowledge' is a distinct sense from inaugurate",
+    "translation": "inaugurate",
+    "senses": [
+      "initiate (instruct in secret or esoteric knowledge)"
+    ],
+    "inputHash": "28aa083f"
+  },
+  {
+    "kellyId": 4788,
+    "decision": "fix",
+    "reason": "first item restates the abstract concept; keep the concrete 'ironic remark' sense",
+    "translation": "irony",
+    "senses": [
+      "ironic remark, an instance of irony"
+    ],
+    "inputHash": "76413d1d"
+  },
+  {
+    "kellyId": 5531,
+    "decision": "fix",
+    "reason": "main already carries both isolate and insulate; items restate them",
+    "translation": "isolate, insulate",
+    "senses": [],
+    "inputHash": "fa774b96"
+  },
+  {
+    "kellyId": 5563,
+    "decision": "fix",
+    "reason": "first item restates the main agreement sense; keep 'oh right' recollection",
+    "translation": "sure, absolutely, of course",
+    "senses": [
+      "oh, right (sudden recollection)"
+    ],
+    "inputHash": "61b77691"
+  },
+  {
+    "kellyId": 4612,
+    "decision": "fix",
+    "reason": "first item restates the main; keep the figurative windfall sense",
+    "translation": "Christmas Eve",
+    "senses": [
+      "windfall, stroke of luck (figurative)"
+    ],
+    "inputHash": "34f15caf"
+  },
+  {
+    "kellyId": 4303,
+    "decision": "fix",
+    "reason": "first item restates 'adjust/modify'; keep the text-alignment sense",
+    "translation": "adjust, modify",
+    "senses": [
+      "align, justify (text to margins)"
+    ],
+    "inputHash": "6d87e957"
+  },
+  {
+    "kellyId": 5580,
+    "decision": "fix",
+    "reason": "text-alignment is a distinct sense from the general adjustment",
+    "translation": "adjustment, modification, tweak",
+    "senses": [
+      "alignment, justification (of text to margins)"
+    ],
+    "inputHash": "35431e54"
+  },
+  {
+    "kellyId": 4322,
+    "decision": "fix",
+    "reason": "distinct colloquial senses beyond the metal 'iron'",
+    "translation": "iron",
+    "senses": [
+      "iron, tool (sharp bladed tool of steel or iron)",
+      "a stiff drink (colloquial)"
+    ],
+    "inputHash": "3db1ee34"
+  },
+  {
+    "kellyId": 4896,
+    "decision": "fix",
+    "reason": "first item restates the insult; keep the colloquial soul, drink and whack senses",
+    "translation": "bastard, devil",
+    "senses": [
+      "person, soul (colloquial)",
+      "a stiff drink (colloquial)",
+      "a smack, a whack"
+    ],
+    "inputHash": "bca9955f"
+  },
+  {
+    "kellyId": 5498,
+    "decision": "fix",
+    "reason": "all items merely restate 'cable'; no distinct sense",
+    "translation": "cable",
+    "senses": [],
+    "inputHash": "e3ccbe0b"
+  },
+  {
+    "kellyId": 5532,
+    "decision": "fix",
+    "reason": "listed subs are for a different word (kalas as intensifier); kalas the noun means party/feast only",
+    "translation": "party, feast",
+    "senses": [],
+    "inputHash": "ef30aff9"
+  },
+  {
+    "kellyId": 4903,
+    "decision": "fix",
+    "reason": "'calling/vocation' is a distinct sense from notice/summons",
+    "translation": "notice, summons",
+    "senses": [
+      "calling, vocation (profession one feels drawn to)"
+    ],
+    "inputHash": "28171e57"
+  },
+  {
+    "kellyId": 4693,
+    "decision": "fix",
+    "reason": "first item restates the main; keep the figurative survey/investigate sense",
+    "translation": "map, map out, survey",
+    "senses": [
+      "survey, chart, investigate systematically"
+    ],
+    "inputHash": "240a0a36"
+  },
+  {
+    "kellyId": 5470,
+    "decision": "fix",
+    "reason": "first item restates the main; keep literal cartography/mapmaking",
+    "translation": "mapping, survey",
+    "senses": [
+      "cartography (literal mapmaking)"
+    ],
+    "inputHash": "41d22e7d"
+  },
+  {
+    "kellyId": 5614,
+    "decision": "fix",
+    "reason": "first item restates 'catalog'; keep directory",
+    "translation": "catalog, catalogue",
+    "senses": [
+      "directory (e.g. phone directory)"
+    ],
+    "inputHash": "1c77e7a3"
+  },
+  {
+    "kellyId": 5478,
+    "decision": "fix",
+    "reason": "distinct senses beyond 'chest'",
+    "translation": "chest",
+    "senses": [
+      "coffin, casket",
+      "belly, stomach (colloquial)"
+    ],
+    "inputHash": "a054d89f"
+  },
+  {
+    "kellyId": 4397,
+    "decision": "fix",
+    "reason": "first item restates the main; keep bedrock and figurative 'rock/reliable person'",
+    "translation": "cliff, rock",
+    "senses": [
+      "bedrock",
+      "rock (a reliable person, figurative)"
+    ],
+    "inputHash": "88dfd658"
+  },
+  {
+    "kellyId": 5149,
+    "decision": "fix",
+    "reason": "first item restates glue/paste; keep the computing paste sense",
+    "translation": "glue, paste",
+    "senses": [
+      "paste (in cut, copy, paste)"
+    ],
+    "inputHash": "948b7e23"
+  },
+  {
+    "kellyId": 4593,
+    "decision": "fix",
+    "reason": "first item restates claw; keep pincer of crustacean/scorpion",
+    "translation": "claw",
+    "senses": [
+      "pincer (of a crustacean or scorpion)"
+    ],
+    "inputHash": "7330c5fe"
+  },
+  {
+    "kellyId": 4617,
+    "decision": "fix",
+    "reason": "main already carries both monastery and convent; items restate them",
+    "translation": "monastery, convent",
+    "senses": [],
+    "inputHash": "6f8b2017"
+  },
+  {
+    "kellyId": 5539,
+    "decision": "fix",
+    "reason": "'cover/upholstery' is a distinct sense from clothing/attire",
+    "translation": "attire, clothing, dress",
+    "senses": [
+      "cover, upholstery (of fabric)"
+    ],
+    "inputHash": "47567bf8"
+  },
+  {
+    "kellyId": 4979,
+    "decision": "fix",
+    "reason": "distinct senses beyond 'squeeze'",
+    "translation": "squeeze",
+    "senses": [
+      "jam, crush, pinch (injure by squeezing)",
+      "polish off, eat (colloquial)"
+    ],
+    "inputHash": "4d7c6525"
+  },
+  {
+    "kellyId": 5310,
+    "decision": "fix",
+    "reason": "first item restates knocking on a door; keep engine-knock and tap/click",
+    "translation": "knock",
+    "senses": [
+      "knock (engine fault)",
+      "tap, click (sharp sound)"
+    ],
+    "inputHash": "33c3b4c0"
+  },
+  {
+    "kellyId": 4399,
+    "decision": "fix",
+    "reason": "distinct architectural sense beyond the general 'knot'",
+    "translation": "knot",
+    "senses": [
+      "exterior corner of a wooden building",
+      "one's doorstep, very close to home (figurative)"
+    ],
+    "inputHash": "6b5052ac"
+  },
+  {
+    "kellyId": 4317,
+    "decision": "fix",
+    "reason": "main already carries both coal and carbon; items restate them",
+    "translation": "coal; carbon",
+    "senses": [],
+    "inputHash": "83645ca0"
+  },
+  {
+    "kellyId": 4914,
+    "decision": "fix",
+    "reason": "subs belong to konvent, not koncern; koncern the business group has no distinct further senses",
+    "translation": "group",
+    "senses": [],
+    "inputHash": "dbacda78"
+  },
+  {
+    "kellyId": 4916,
+    "decision": "fix",
+    "reason": "distinct senses beyond convention/gathering",
+    "translation": "convention, meeting, gathering",
+    "senses": [
+      "convent, monastery (religious community)",
+      "student union"
+    ],
+    "inputHash": "60451b22"
+  },
+  {
+    "kellyId": 5451,
+    "decision": "fix",
+    "reason": "first item restates the general convert; keep religious conversion",
+    "translation": "convert, change",
+    "senses": [
+      "convert (to a religion)"
+    ],
+    "inputHash": "890d9c04"
+  },
+  {
+    "kellyId": 5111,
+    "decision": "fix",
+    "reason": "first item restates corridor/hallway; keep strip-of-land and air-corridor",
+    "translation": "corridor",
+    "senses": [
+      "corridor (strip of land)",
+      "air corridor"
+    ],
+    "inputHash": "756914fc"
+  },
+  {
+    "kellyId": 4606,
+    "decision": "fix",
+    "reason": "first item restates the main; keep crossbreed, mark-with-X and cross-oneself",
+    "translation": "cross",
+    "senses": [
+      "crossbreed, hybridize",
+      "mark with an X, cross out",
+      "cross oneself (make the sign of the cross)"
+    ],
+    "inputHash": "2606ec25"
+  },
+  {
+    "kellyId": 4640,
+    "decision": "fix",
+    "reason": "main already carries both suit and costume; items restate them",
+    "translation": "suit, costume",
+    "senses": [],
+    "inputHash": "e05ef98f"
+  },
+  {
+    "kellyId": 4482,
+    "decision": "fix",
+    "reason": "'squeeze' is a distinct sense from hug",
+    "translation": "hug",
+    "senses": [
+      "squeeze (apply pressure from several sides)"
+    ],
+    "inputHash": "8a193bef"
+  },
+  {
+    "kellyId": 5471,
+    "decision": "fix",
+    "reason": "both items are the same 'shrink' sense (transitive vs intransitive)",
+    "translation": "shrink",
+    "senses": [],
+    "inputHash": "e5bfd937"
+  },
+  {
+    "kellyId": 4808,
+    "decision": "fix",
+    "reason": "first item restates curve/arc; keep bend in a road",
+    "translation": "curve, arc",
+    "senses": [
+      "bend (in a road)"
+    ],
+    "inputHash": "ca51740e"
+  },
+  {
+    "kellyId": 5389,
+    "decision": "fix",
+    "reason": "first item restates chicken; keep 'chick, young chicken'",
+    "translation": "chicken",
+    "senses": [
+      "chick (a young chicken)"
+    ],
+    "inputHash": "5e5c8320"
+  },
+  {
+    "kellyId": 4513,
+    "decision": "fix",
+    "reason": "both items are the same basement/cellar sense",
+    "translation": "basement",
+    "senses": [],
+    "inputHash": "25db48c6"
+  },
+  {
+    "kellyId": 5203,
+    "decision": "fix",
+    "reason": "first item restates the electrical charge; keep the act of loading/charging",
+    "translation": "charge",
+    "senses": [
+      "loading, charging (the act of)"
+    ],
+    "inputHash": "04c80855"
+  },
+  {
+    "kellyId": 5402,
+    "decision": "fix",
+    "reason": "'noise/racket' is a distinct sense from alarm",
+    "translation": "alarm",
+    "senses": [
+      "noise, racket, commotion"
+    ],
+    "inputHash": "7a3ddbad"
+  },
+  {
+    "kellyId": 5133,
+    "decision": "fix",
+    "reason": "first item restates load; keep the figurative 'blame' sense",
+    "translation": "load",
+    "senses": [
+      "blame, put the blame on (someone)"
+    ],
+    "inputHash": "f3b2e34a"
+  },
+  {
+    "kellyId": 5229,
+    "decision": "fix",
+    "reason": "first item restates salmon; keep the slang '1000 SEK' sense",
+    "translation": "salmon",
+    "senses": [
+      "grand, thousand (slang: 1000 SEK)"
+    ],
+    "inputHash": "0212c1ae"
+  },
+  {
+    "kellyId": 4897,
+    "decision": "fix",
+    "reason": "first item restates time off/leave; keep availability/vacancy",
+    "translation": "time off, leave",
+    "senses": [
+      "availability, vacancy"
+    ],
+    "inputHash": "497dcd36"
+  },
+  {
+    "kellyId": 4757,
+    "decision": "fix",
+    "reason": "first item restates the traditional-story legend; keep the 'remarkable person' sense",
+    "translation": "legend",
+    "senses": [
+      "legend (a remarkably accomplished person)"
+    ],
+    "inputHash": "eb158300"
+  },
+  {
+    "kellyId": 4260,
+    "decision": "fix",
+    "reason": "first item restates license/permit; keep license fee",
+    "translation": "license, permit",
+    "senses": [
+      "license fee (paid to obtain a license)"
+    ],
+    "inputHash": "f230519f"
+  },
+  {
+    "kellyId": 4474,
+    "decision": "fix",
+    "reason": "'as well as' is a distinct connective sense from as/like",
+    "translation": "as, like",
+    "senses": [
+      "as well as, and (linking items)"
+    ],
+    "inputHash": "356e1a4c"
+  },
+  {
+    "kellyId": 5381,
+    "decision": "fix",
+    "reason": "first item restates flame/blaze; keep the figurative 'flame of love' sense",
+    "translation": "flame, blaze",
+    "senses": [
+      "flame (intense love or passion)"
+    ],
+    "inputHash": "6a40d566"
+  },
+  {
+    "kellyId": 4310,
+    "decision": "fix",
+    "reason": "first item restates the literal leak; keep the figurative info-leak sense",
+    "translation": "leak",
+    "senses": [
+      "leak (reveal secret information)"
+    ],
+    "inputHash": "589f3bfd"
+  },
+  {
+    "kellyId": 4713,
+    "decision": "fix",
+    "reason": "first item restates homework; keep the figurative 'lesson learned' sense",
+    "translation": "homework",
+    "senses": [
+      "lesson (a cautionary or instructive experience)"
+    ],
+    "uncountable": true,
+    "inputHash": "a74005ee"
+  },
+  {
+    "kellyId": 4368,
+    "decision": "fix",
+    "reason": "first item restates demonstration/rally; keep the general 'manifestation' sense",
+    "translation": "demonstration, rally",
+    "senses": [
+      "manifestation (an outward showing of something)"
+    ],
+    "inputHash": "e8e50fa1"
+  },
+  {
+    "kellyId": 5529,
+    "decision": "fix",
+    "reason": "first item restates the literal nightmare; keep the figurative 'bad situation' sense",
+    "translation": "nightmare",
+    "senses": [
+      "nightmare (a very bad situation or experience)"
+    ],
+    "inputHash": "08c3408a"
+  },
+  {
+    "kellyId": 5063,
+    "decision": "fix",
+    "reason": "first item restates 'relating to the sea'; keep the naval sense",
+    "translation": "marine",
+    "senses": [
+      "marine, naval (relating to the navy)"
+    ],
+    "inputHash": "fbf0eb75"
+  },
+  {
+    "kellyId": 5445,
+    "decision": "fix",
+    "reason": "first item restates march/marching music; keep the demonstrators' march/parade",
+    "translation": "march",
+    "senses": [
+      "march, parade (of demonstrators)"
+    ],
+    "inputHash": "306c1db3"
+  },
+  {
+    "kellyId": 4330,
+    "decision": "fix",
+    "reason": "first item restates feed; keep the 'feed in, enter (data)' sense",
+    "translation": "feed",
+    "senses": [
+      "feed in, enter (data or material)"
+    ],
+    "inputHash": "9f430729"
+  },
+  {
+    "kellyId": 5410,
+    "decision": "fix",
+    "reason": "'conform, fit' is a distinct shade from the general match",
+    "translation": "match",
+    "senses": [
+      "conform, fit together, go well with"
+    ],
+    "inputHash": "8f86083b"
+  },
+  {
+    "kellyId": 4935,
+    "decision": "fix",
+    "reason": "'average age' is a distinct sense from the life stage 'middle age'",
+    "translation": "middle age",
+    "senses": [
+      "average age (mean age of a group)"
+    ],
+    "inputHash": "a16b7b9d"
+  },
+  {
+    "kellyId": 4225,
+    "decision": "fix",
+    "reason": "first item restates gap/space; keep the typography 'whitespace' sense",
+    "translation": "gap, space",
+    "senses": [
+      "whitespace (typography)"
+    ],
+    "inputHash": "719266af"
+  },
+  {
+    "kellyId": 4777,
+    "decision": "fix",
+    "reason": "first item restates the restaurant menu; keep the list-of-choices/computer sense",
+    "translation": "menu",
+    "senses": [
+      "menu (list of choices, e.g. on a computer)"
+    ],
+    "inputHash": "b65f8a63"
+  },
+  {
+    "kellyId": 5342,
+    "decision": "fix",
+    "reason": "first item restates added value; keep the Marxist 'surplus value' sense",
+    "translation": "added value",
+    "senses": [
+      "surplus value (Marxist economics)"
+    ],
+    "inputHash": "898a6838"
+  },
+  {
+    "kellyId": 4527,
+    "decision": "fix",
+    "reason": "first item restates miss/mistake; keep the title 'Miss'",
+    "translation": "miss",
+    "senses": [
+      "Miss (title for an unmarried woman or pageant winner)"
+    ],
+    "inputHash": "11b4c5c0"
+  },
+  {
+    "kellyId": 5423,
+    "decision": "fix",
+    "reason": "first item restates the welcoming/receiving reception; keep 'response, reaction'",
+    "translation": "reception",
+    "senses": [
+      "reception, response (reaction to something)"
+    ],
+    "inputHash": "ccc963dc"
+  },
+  {
+    "kellyId": 5360,
+    "decision": "fix",
+    "reason": "both items are the same cap/beanie sense already in the main",
+    "translation": "cap, beanie, knit hat",
+    "senses": [],
+    "inputHash": "20a04b06"
+  },
+  {
+    "kellyId": 5004,
+    "decision": "fix",
+    "reason": "first item restates meeting place; keep the road 'passing place' sense",
+    "translation": "meeting point",
+    "senses": [
+      "passing place (for vehicles on a narrow road)"
+    ],
+    "inputHash": "9ba58cbd"
+  },
+  {
+    "kellyId": 5294,
+    "decision": "fix",
+    "reason": "first item restates nape/back of neck; keep 'back of the head'",
+    "translation": "back of the neck, nape",
+    "senses": [
+      "back of the head"
+    ],
+    "inputHash": "e2e5ed28"
+  },
+  {
+    "kellyId": 4779,
+    "decision": "fix",
+    "reason": "'southern' is a distinct sense from 'lower'",
+    "translation": "lower",
+    "senses": [
+      "southern (of a place)"
+    ],
+    "inputHash": "eb50437b"
+  },
+  {
+    "kellyId": 5074,
+    "decision": "fix",
+    "reason": "'head a ball' is a distinct football sense from nod",
+    "translation": "nod",
+    "senses": [
+      "head (strike a ball with the head)"
+    ],
+    "inputHash": "f3fbfea2"
+  },
+  {
+    "kellyId": 4891,
+    "decision": "fix",
+    "reason": "'attention/notice' is a distinct sense from a brief news note",
+    "translation": "brief note",
+    "senses": [
+      "attention, notice (as in take notice of)"
+    ],
+    "inputHash": "c052551f"
+  },
+  {
+    "kellyId": 5269,
+    "decision": "fix",
+    "reason": "'obvious, coming readily to mind' is a distinct figurative sense from physically nearby",
+    "translation": "nearby",
+    "senses": [
+      "obvious, readily coming to mind (of an idea)"
+    ],
+    "inputHash": "e73fd706"
+  },
+  {
+    "kellyId": 4675,
+    "decision": "fix",
+    "reason": "the place where crops are grown is a distinct sense from the act of cultivation",
+    "translation": "cultivation, growing",
+    "senses": [
+      "farm, plantation (place where something is cultivated)"
+    ],
+    "inputHash": "b6cfa4fc"
+  },
+  {
+    "kellyId": 5311,
+    "decision": "fix",
+    "reason": "first item restates openness/transparency; keep 'public eye/scrutiny'",
+    "translation": "openness, transparency",
+    "senses": [
+      "the public eye, public scrutiny"
+    ],
+    "inputHash": "05abde47"
+  },
+  {
+    "kellyId": 5316,
+    "decision": "fix",
+    "reason": "first item restates the Games sense; keep the Greek-gods and figurative lofty senses",
+    "translation": "Olympic",
+    "senses": [
+      "Olympian (of the Greek gods)",
+      "Olympian, lofty (calm and superior)"
+    ],
+    "inputHash": "71c40ce3"
+  },
+  {
+    "kellyId": 4888,
+    "decision": "fix",
+    "reason": "both items are the same adjustment/transition sense",
+    "translation": "adjustment, transition",
+    "senses": [],
+    "inputHash": "86047a45"
+  },
+  {
+    "kellyId": 4444,
+    "decision": "fix",
+    "reason": "first item restates financial turnover; keep the 'rate of replacement' sense",
+    "translation": "turnover",
+    "senses": [
+      "turnover (rate of replacement, e.g. of staff or players)"
+    ],
+    "inputHash": "f4db59fc"
+  },
+  {
+    "kellyId": 5595,
+    "decision": "fix",
+    "reason": "'conversion between units/currencies' is a distinct sense from transformation",
+    "translation": "transformation",
+    "senses": [
+      "conversion (between units, currencies, etc.)"
+    ],
+    "inputHash": "e068e88d"
+  },
+  {
+    "kellyId": 4267,
+    "decision": "fix",
+    "reason": "'converted' (religious) is a distinct sense from reverse/inverted",
+    "translation": "reverse, inverse, inverted",
+    "senses": [
+      "converted (religiously, or by extension)"
+    ],
+    "inputHash": "dd37c5a1"
+  },
+  {
+    "kellyId": 5064,
+    "decision": "fix",
+    "reason": "first item restates the genre; keep opera house (building)",
+    "translation": "opera",
+    "senses": [
+      "opera house (the building)"
+    ],
+    "inputHash": "d28261b8"
+  },
+  {
+    "kellyId": 4809,
+    "decision": "fix",
+    "reason": "first item restates the surgical sense; keep the general 'operate, function' sense",
+    "translation": "operate, perform surgery",
+    "senses": [
+      "operate, work, function (general)"
+    ],
+    "inputHash": "044d451b"
+  },
+  {
+    "kellyId": 4556,
+    "decision": "fix",
+    "reason": "first item restates the living thing; keep the figurative 'complex interdependent system'",
+    "translation": "organism",
+    "senses": [
+      "organism (a complex interdependent system)"
+    ],
+    "inputHash": "6c9a8c0f"
+  }
+]

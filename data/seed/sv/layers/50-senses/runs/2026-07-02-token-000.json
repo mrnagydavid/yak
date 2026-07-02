@@ -1,0 +1,97 @@
+[
+  {
+    "english": "creature, being",
+    "senses": [
+      {
+        "gloss": "",
+        "members": [
+          { "kellyId": 2353, "meaningKey": 0 },
+          { "kellyId": 3838, "meaningKey": 1 }
+        ]
+      }
+    ],
+    "inputHash": "39cab9be"
+  },
+  {
+    "english": "delete, erase",
+    "senses": [
+      {
+        "gloss": "",
+        "members": [
+          { "kellyId": 3383, "meaningKey": 0 },
+          { "kellyId": 2561, "meaningKey": 1 }
+        ]
+      }
+    ],
+    "inputHash": "f299ec4b"
+  },
+  {
+    "english": "premium, prize",
+    "senses": [
+      {
+        "gloss": "",
+        "members": [
+          { "kellyId": 6148, "meaningKey": 0 },
+          { "kellyId": 591, "meaningKey": 1 }
+        ]
+      }
+    ],
+    "inputHash": "ceb0de8b"
+  },
+  {
+    "english": "register",
+    "senses": [
+      {
+        "gloss": "sign up, enroll",
+        "members": [
+          { "kellyId": 2313, "meaningKey": 0 },
+          { "kellyId": 502, "meaningKey": 1 }
+        ]
+      },
+      {
+        "gloss": "index, directory",
+        "members": [{ "kellyId": 3200, "meaningKey": 0 }]
+      }
+    ],
+    "inputHash": "50ac08af"
+  },
+  {
+    "english": "relation, relationship",
+    "senses": [
+      {
+        "gloss": "",
+        "members": [
+          { "kellyId": 1004, "meaningKey": 0 },
+          { "kellyId": 738, "meaningKey": 1 }
+        ]
+      }
+    ],
+    "inputHash": "007862ae"
+  },
+  {
+    "english": "saucepan, pot, pan",
+    "senses": [
+      {
+        "gloss": "",
+        "members": [
+          { "kellyId": 7502, "meaningKey": 0 },
+          { "kellyId": 4112, "meaningKey": 1 }
+        ]
+      }
+    ],
+    "inputHash": "e8600f7a"
+  },
+  {
+    "english": "steal",
+    "senses": [
+      {
+        "gloss": "",
+        "members": [
+          { "kellyId": 2536, "meaningKey": 0 },
+          { "kellyId": 4875, "meaningKey": 1 }
+        ]
+      }
+    ],
+    "inputHash": "39df86ce"
+  }
+]

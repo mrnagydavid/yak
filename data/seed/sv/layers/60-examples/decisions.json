@@ -375,7 +375,7 @@
     "examples": [
       "Hon studerar i Storbritannien."
     ],
-    "inputHash": "e4a75595"
+    "inputHash": "65976ace"
   },
   {
     "kellyId": 62,
@@ -389,7 +389,7 @@
     "examples": [
       "Staden ligger i sydväst."
     ],
-    "inputHash": "4a29a389"
+    "inputHash": "b6c384b0"
   },
   {
     "kellyId": 64,
@@ -403,14 +403,14 @@
     "examples": [
       "Hon är min syssling."
     ],
-    "inputHash": "3ddaf540"
+    "inputHash": "1a47b2fb"
   },
   {
     "kellyId": 66,
     "examples": [
       "Har du en tia?"
     ],
-    "inputHash": "4f632adf"
+    "inputHash": "1d139b09"
   },
   {
     "kellyId": 67,
@@ -424,7 +424,7 @@
     "examples": [
       "Det är den tionde mars."
     ],
-    "inputHash": "44dc5f02"
+    "inputHash": "4bdfd5d1"
   },
   {
     "kellyId": 69,
@@ -536,14 +536,14 @@
     "examples": [
       "Det var fest igår."
     ],
-    "inputHash": "b3e3b5ae"
+    "inputHash": "7a07f449"
   },
   {
     "kellyId": 89,
     "examples": [
       "Kim bor i Stockholm."
     ],
-    "inputHash": "652bd77e"
+    "inputHash": "e85fb2fa"
   },
   {
     "kellyId": 92,
@@ -564,7 +564,7 @@
     "examples": [
       "Det var hon som gjorde det."
     ],
-    "inputHash": "b41e6217"
+    "inputHash": "b7c5bf7b"
   },
   {
     "kellyId": 96,
@@ -578,7 +578,7 @@
     "examples": [
       "Den här blomman är för dig."
     ],
-    "inputHash": "3721345c"
+    "inputHash": "1b7f7c04"
   },
   {
     "kellyId": 101,
@@ -592,21 +592,21 @@
     "examples": [
       "Jag bor med min familj."
     ],
-    "inputHash": "d7d35710"
+    "inputHash": "e92dcc2b"
   },
   {
     "kellyId": 105,
     "examples": [
       "Välkommen till Sverige!"
     ],
-    "inputHash": "62c59066"
+    "inputHash": "9c4bc279"
   },
   {
     "kellyId": 106,
     "examples": [
       "Katten är liten och söt."
     ],
-    "inputHash": "2d8aeec2"
+    "inputHash": "518f8cb7"
   },
   {
     "kellyId": 107,
@@ -634,14 +634,14 @@
     "examples": [
       "Jag unnade mig en stor hamburgare efter löpturen."
     ],
-    "inputHash": "043ea495"
+    "inputHash": "e5c21dec"
   },
   {
     "kellyId": 111,
     "examples": [
       "Vi har pratat om dig."
     ],
-    "inputHash": "44fb6a26"
+    "inputHash": "9f9e42ad"
   },
   {
     "kellyId": 112,
@@ -669,7 +669,7 @@
     "examples": [
       "Jag fick paketet idag."
     ],
-    "inputHash": "126bf165"
+    "inputHash": "b3c8cfbc"
   },
   {
     "kellyId": 118,
@@ -690,14 +690,14 @@
     "examples": [
       "Jag blev glad när jag fick klappa kaninen."
     ],
-    "inputHash": "6ce518a7"
+    "inputHash": "b07b2f68"
   },
   {
     "kellyId": 123,
     "examples": [
       "Kan du komma hem till mig imorgon?"
     ],
-    "inputHash": "039f8258"
+    "inputHash": "255f8df6"
   },
   {
     "kellyId": 124,
@@ -718,7 +718,7 @@
     "examples": [
       "Vill du ha te eller kaffe?"
     ],
-    "inputHash": "51ab5c2f"
+    "inputHash": "efb80a0b"
   },
   {
     "kellyId": 127,
@@ -732,21 +732,21 @@
     "examples": [
       "Jag vill ha en kopp kaffe."
     ],
-    "inputHash": "70ca243f"
+    "inputHash": "2a589af8"
   },
   {
     "kellyId": 132,
     "examples": [
       "Ring mig om du kommer."
     ],
-    "inputHash": "ee00f09c"
+    "inputHash": "1dc8b28f"
   },
   {
     "kellyId": 136,
     "examples": [
       "Var kan man finna en kopp kaffe här i närheten?"
     ],
-    "inputHash": "42b222a6"
+    "inputHash": "50d0d8e4"
   },
   {
     "kellyId": 140,
@@ -774,7 +774,7 @@
     "examples": [
       "Jag ser Nisses bil. Den är röd."
     ],
-    "inputHash": "5120aaeb"
+    "inputHash": "c56dc2f7"
   },
   {
     "kellyId": 147,
@@ -795,7 +795,7 @@
     "examples": [
       "Vad betyder det ordet?"
     ],
-    "inputHash": "62f3a6ac"
+    "inputHash": "4bc0b887"
   },
   {
     "kellyId": 152,
@@ -816,7 +816,7 @@
     "examples": [
       "Jag är hemma vid fem."
     ],
-    "inputHash": "bff1ea27"
+    "inputHash": "01c0bd69"
   },
   {
     "kellyId": 165,
@@ -830,21 +830,21 @@
     "examples": [
       "Det är en bra film."
     ],
-    "inputHash": "e24de098"
+    "inputHash": "0e198c16"
   },
   {
     "kellyId": 176,
     "examples": [
       "Det finns en bro över floden."
     ],
-    "inputHash": "45db4cc6"
+    "inputHash": "47cb5fd0"
   },
   {
     "kellyId": 177,
     "examples": [
       "Kan du ge mig boken?"
     ],
-    "inputHash": "f4ca8a3e"
+    "inputHash": "ecaef400"
   },
   {
     "kellyId": 178,
@@ -865,7 +865,7 @@
     "examples": [
       "Har du tid nu?"
     ],
-    "inputHash": "f93c3638"
+    "inputHash": "22ab8686"
   },
   {
     "kellyId": 184,
@@ -880,7 +880,7 @@
     "examples": [
       "Först åt vi, sedan gick vi hem."
     ],
-    "inputHash": "0ca39675"
+    "inputHash": "be40bb79"
   },
   {
     "kellyId": 186,
@@ -908,21 +908,21 @@
     "examples": [
       "Du ställer svåra frågor."
     ],
-    "inputHash": "441a5ed5"
+    "inputHash": "ba2e4168"
   },
   {
     "kellyId": 196,
     "examples": [
       "Såg du oss där?"
     ],
-    "inputHash": "dd9cd805"
+    "inputHash": "474b05c4"
   },
   {
     "kellyId": 197,
     "examples": [
       "Jag tror att han kommer snart."
     ],
-    "inputHash": "a367a702"
+    "inputHash": "8a6594ce"
   },
   {
     "kellyId": 198,
@@ -936,7 +936,7 @@
     "examples": [
       "Vad tycker du om filmen?"
     ],
-    "inputHash": "be7decfc"
+    "inputHash": "6708f9c3"
   },
   {
     "kellyId": 200,
@@ -978,14 +978,14 @@
     "examples": [
       "Jag läste en rolig bok."
     ],
-    "inputHash": "d3c14540"
+    "inputHash": "8d586991"
   },
   {
     "kellyId": 209,
     "examples": [
       "Vi ror båten till ön."
     ],
-    "inputHash": "731ce1e3"
+    "inputHash": "55b325af"
   },
   {
     "kellyId": 210,
@@ -999,14 +999,14 @@
     "examples": [
       "Du är lik din mamma."
     ],
-    "inputHash": "27645565"
+    "inputHash": "97178bf4"
   },
   {
     "kellyId": 213,
     "examples": [
       "Vi är olika, men vi är vänner."
     ],
-    "inputHash": "da3fe076"
+    "inputHash": "6ee23875"
   },
   {
     "kellyId": 214,
@@ -1020,14 +1020,14 @@
     "examples": [
       "Efter en timmes gång kom de fram."
     ],
-    "inputHash": "574baa61"
+    "inputHash": "3c87f14f"
   },
   {
     "kellyId": 219,
     "examples": [
       "Hon står vid dörren."
     ],
-    "inputHash": "9c514628"
+    "inputHash": "36e897e7"
   },
   {
     "kellyId": 220,
@@ -1041,7 +1041,7 @@
     "examples": [
       "Han visade dem sin samling."
     ],
-    "inputHash": "7199966e"
+    "inputHash": "371f5dcb"
   },
   {
     "kellyId": 226,
@@ -1069,14 +1069,14 @@
     "examples": [
       "Vad vill ni ha att äta?"
     ],
-    "inputHash": "a70a5b0b"
+    "inputHash": "a98efc7d"
   },
   {
     "kellyId": 234,
     "examples": [
       "Det är viktigt att sova."
     ],
-    "inputHash": "a371f95a"
+    "inputHash": "e152aed2"
   },
   {
     "kellyId": 236,
@@ -1097,7 +1097,7 @@
     "examples": [
       "I vissa städer är det varmt hela året."
     ],
-    "inputHash": "ce24c758"
+    "inputHash": "9a58fdc7"
   },
   {
     "kellyId": 241,
@@ -1139,14 +1139,14 @@
     "examples": [
       "Det ligger en massa saker på bänken."
     ],
-    "inputHash": "4d6e4487"
+    "inputHash": "a79739b1"
   },
   {
     "kellyId": 251,
     "examples": [
       "Berget är mycket högt."
     ],
-    "inputHash": "f1f8dbd0"
+    "inputHash": "562573f0"
   },
   {
     "kellyId": 252,
@@ -1174,7 +1174,7 @@
     "examples": [
       "En man går på gatan."
     ],
-    "inputHash": "b7ca59fc"
+    "inputHash": "76f3a2dd"
   },
   {
     "kellyId": 267,
@@ -1188,7 +1188,7 @@
     "examples": [
       "Jag läser en artikel."
     ],
-    "inputHash": "a92e3363"
+    "inputHash": "c62dfc02"
   },
   {
     "kellyId": 269,
@@ -1216,7 +1216,7 @@
     "examples": [
       "Har vi nog med mat för picknicken?"
     ],
-    "inputHash": "3754a605"
+    "inputHash": "a924cfb4"
   },
   {
     "kellyId": 280,
@@ -1244,14 +1244,14 @@
     "examples": [
       "Han letar efter ett arbete."
     ],
-    "inputHash": "5e88503c"
+    "inputHash": "0344d817"
   },
   {
     "kellyId": 291,
     "examples": [
       "De kapar ett flygplan."
     ],
-    "inputHash": "36d2cc90"
+    "inputHash": "c027fa87"
   },
   {
     "kellyId": 292,
@@ -1272,7 +1272,7 @@
     "examples": [
       "Det är kallast när vintern är som värst."
     ],
-    "inputHash": "6e0ce11c"
+    "inputHash": "94e26f00"
   },
   {
     "kellyId": 296,
@@ -1286,14 +1286,14 @@
     "examples": [
       "Reglerna gäller alla."
     ],
-    "inputHash": "bc043f33"
+    "inputHash": "573d2fd4"
   },
   {
     "kellyId": 298,
     "examples": [
       "Det verkar som om han är trött."
     ],
-    "inputHash": "ce595b4f"
+    "inputHash": "0ac0d1db"
   },
   {
     "kellyId": 301,
@@ -1307,21 +1307,21 @@
     "examples": [
       "Vi lever i ett öppet samhälle."
     ],
-    "inputHash": "03c12f81"
+    "inputHash": "e5703c6f"
   },
   {
     "kellyId": 304,
     "examples": [
       "Han var sjuk, alltså stannade han hemma."
     ],
-    "inputHash": "fe54f7eb"
+    "inputHash": "ccd65851"
   },
   {
     "kellyId": 305,
     "examples": [
       "Sverige är en stat i Europa."
     ],
-    "inputHash": "8beb19c4"
+    "inputHash": "0a3c12b3"
   },
   {
     "kellyId": 308,
@@ -1342,7 +1342,7 @@
     "examples": [
       "Han jobbar på ett litet företag."
     ],
-    "inputHash": "f146b934"
+    "inputHash": "8d9b2fc5"
   },
   {
     "kellyId": 311,
@@ -1356,7 +1356,7 @@
     "examples": [
       "Hon sa inte ett ord."
     ],
-    "inputHash": "d65c94cf"
+    "inputHash": "ea9dc58d"
   },
   {
     "kellyId": 313,
@@ -1377,14 +1377,14 @@
     "examples": [
       "Lägg inlägget i skon."
     ],
-    "inputHash": "2b76a676"
+    "inputHash": "60e2e2ca"
   },
   {
     "kellyId": 320,
     "examples": [
       "Vi spelar fotboll varje dag."
     ],
-    "inputHash": "1cbb7e59"
+    "inputHash": "aef3d0ac"
   },
   {
     "kellyId": 321,
@@ -1398,7 +1398,7 @@
     "examples": [
       "Jag hittar inte nycklarna."
     ],
-    "inputHash": "5d7d890c"
+    "inputHash": "e488c6c5"
   },
   {
     "kellyId": 324,
@@ -1406,21 +1406,21 @@
       "Släpp inte taget!",
       "Det kommer att ta ett tag."
     ],
-    "inputHash": "f300c743"
+    "inputHash": "7cbb35e9"
   },
   {
     "kellyId": 326,
     "examples": [
       "Vägen leder till staden."
     ],
-    "inputHash": "dc1e4a95"
+    "inputHash": "651a4c85"
   },
   {
     "kellyId": 328,
     "examples": [
       "Han är stark men ändå smidig."
     ],
-    "inputHash": "f60d6e6b"
+    "inputHash": "cc0693cd"
   },
   {
     "kellyId": 329,
@@ -1434,49 +1434,49 @@
     "examples": [
       "Det är ett vackert område."
     ],
-    "inputHash": "38578048"
+    "inputHash": "d036547f"
   },
   {
     "kellyId": 333,
     "examples": [
       "Det är en ny lag i Sverige."
     ],
-    "inputHash": "74a3fac1"
+    "inputHash": "774f5c9c"
   },
   {
     "kellyId": 334,
     "examples": [
       "Uppgift 3 på provet är svår."
     ],
-    "inputHash": "2a979eee"
+    "inputHash": "dc3c81b3"
   },
   {
     "kellyId": 335,
     "examples": [
       "Min vän lär mig franska."
     ],
-    "inputHash": "6dcea1e2"
+    "inputHash": "50b97077"
   },
   {
     "kellyId": 337,
     "examples": [
       "Ursäkta, är den här platsen upptagen?"
     ],
-    "inputHash": "0947250f"
+    "inputHash": "6c747848"
   },
   {
     "kellyId": 339,
     "examples": [
       "Hon lämnar huset klockan åtta."
     ],
-    "inputHash": "2691ba0f"
+    "inputHash": "5863320d"
   },
   {
     "kellyId": 341,
     "examples": [
       "Han gillar att prata om politik."
     ],
-    "inputHash": "7ce7fb16"
+    "inputHash": "ff21399a"
   },
   {
     "kellyId": 342,
@@ -1490,7 +1490,7 @@
     "examples": [
       "Vi kallar honom Lasse."
     ],
-    "inputHash": "bebb0177"
+    "inputHash": "f81c51df"
   },
   {
     "kellyId": 344,
@@ -1546,21 +1546,22 @@
     "examples": [
       "Barnen är i skolan."
     ],
-    "inputHash": "036ccb13"
+    "inputHash": "24b0f47c"
   },
   {
     "kellyId": 362,
     "examples": [
-      "Svenska är ett vackert mål."
+      "Hennes mål är att bli läkare.",
+      "Vi äter tre mål om dagen."
     ],
-    "inputHash": "2c37ea6d"
+    "inputHash": "e14ae38e"
   },
   {
     "kellyId": 363,
     "examples": [
       "Jag köper ett par skor."
     ],
-    "inputHash": "e76dbcfb"
+    "inputHash": "bac029b2"
   },
   {
     "kellyId": 365,
@@ -1581,7 +1582,7 @@
     "examples": [
       "Vad menar du?"
     ],
-    "inputHash": "0303923f"
+    "inputHash": "007669bb"
   },
   {
     "kellyId": 373,
@@ -1630,7 +1631,7 @@
     "examples": [
       "Vi går vidare till nästa fråga."
     ],
-    "inputHash": "9081860f"
+    "inputHash": "3a88d329"
   },
   {
     "kellyId": 387,
@@ -1658,21 +1659,21 @@
     "examples": [
       "Hon klappade hunden med handen."
     ],
-    "inputHash": "8a3c3977"
+    "inputHash": "48733cbe"
   },
   {
     "kellyId": 395,
     "examples": [
       "Jag har en ny uppgift åt dig."
     ],
-    "inputHash": "16462099"
+    "inputHash": "15e948f7"
   },
   {
     "kellyId": 397,
     "examples": [
       "Vi betan appen nu."
     ],
-    "inputHash": "3321262a"
+    "inputHash": "a809f3a0"
   },
   {
     "kellyId": 399,
@@ -1686,7 +1687,7 @@
     "examples": [
       "Mår du bra?"
     ],
-    "inputHash": "6859dfe4"
+    "inputHash": "c4210410"
   },
   {
     "kellyId": 401,
@@ -1749,21 +1750,21 @@
     "examples": [
       "Har du gjort ditt val?"
     ],
-    "inputHash": "9ba1d1ab"
+    "inputHash": "f4704964"
   },
   {
     "kellyId": 416,
     "examples": [
       "Carl läste upp sin dikt inför hela klassen."
     ],
-    "inputHash": "04c2adc6"
+    "inputHash": "016d35a6"
   },
   {
     "kellyId": 417,
     "examples": [
       "Hon är professor i historia."
     ],
-    "inputHash": "9e72281f"
+    "inputHash": "1a2171a8"
   },
   {
     "kellyId": 419,
@@ -1777,7 +1778,7 @@
     "examples": [
       "Det är ett vanligt ord."
     ],
-    "inputHash": "db21dd9c"
+    "inputHash": "e643ab3a"
   },
   {
     "kellyId": 422,
@@ -1812,7 +1813,7 @@
     "examples": [
       "Vi ser en film ikväll."
     ],
-    "inputHash": "bbd613cc"
+    "inputHash": "67979ac2"
   },
   {
     "kellyId": 429,
@@ -1840,7 +1841,7 @@
     "examples": [
       "Den första akten är lång."
     ],
-    "inputHash": "f15610f3"
+    "inputHash": "f0a463ba"
   },
   {
     "kellyId": 435,
@@ -1875,7 +1876,7 @@
     "examples": [
       "Det här är en god rätt."
     ],
-    "inputHash": "8dff2317"
+    "inputHash": "29ccdbcd"
   },
   {
     "kellyId": 442,
@@ -1896,7 +1897,7 @@
     "examples": [
       "Vi får stöd av familjen."
     ],
-    "inputHash": "b27a55f1"
+    "inputHash": "093790b7"
   },
   {
     "kellyId": 445,
@@ -1917,21 +1918,21 @@
     "examples": [
       "Vad är resultatet?"
     ],
-    "inputHash": "4a3de623"
+    "inputHash": "58e05b8e"
   },
   {
     "kellyId": 452,
     "examples": [
       "Läraren förde barnen till klassrummet."
     ],
-    "inputHash": "894d1bfa"
+    "inputHash": "3f853a3c"
   },
   {
     "kellyId": 454,
     "examples": [
       "Vi ses nästa vecka."
     ],
-    "inputHash": "822e59f8"
+    "inputHash": "afabcd4f"
   },
   {
     "kellyId": 455,
@@ -1986,7 +1987,7 @@
     "examples": [
       "Cirkeln har en rund form."
     ],
-    "inputHash": "9a59a89a"
+    "inputHash": "8b1a817c"
   },
   {
     "kellyId": 468,
@@ -2000,21 +2001,21 @@
     "examples": [
       "De har mycket makt."
     ],
-    "inputHash": "6f356ebe"
+    "inputHash": "f4b986aa"
   },
   {
     "kellyId": 470,
     "examples": [
       "Det är ett socialt problem."
     ],
-    "inputHash": "11235978"
+    "inputHash": "ec4f3786"
   },
   {
     "kellyId": 474,
     "examples": [
       "Vi väntar på bussen."
     ],
-    "inputHash": "e8e277fc"
+    "inputHash": "5a405a9b"
   },
   {
     "kellyId": 475,
@@ -2070,7 +2071,7 @@
     "examples": [
       "Klarar du av att simma en kilometer?"
     ],
-    "inputHash": "b770e5ae"
+    "inputHash": "f1993fac"
   },
   {
     "kellyId": 485,
@@ -2091,21 +2092,21 @@
     "examples": [
       "Vi tog en tur i parken."
     ],
-    "inputHash": "a07a2426"
+    "inputHash": "94e68a79"
   },
   {
     "kellyId": 489,
     "examples": [
       "Polisen hjälper oss."
     ],
-    "inputHash": "c2ef4193"
+    "inputHash": "568f9840"
   },
   {
     "kellyId": 490,
     "examples": [
       "Tröjan finns i small, medium och large."
     ],
-    "inputHash": "84a8641f"
+    "inputHash": "59babefb"
   },
   {
     "kellyId": 492,
@@ -2126,14 +2127,14 @@
     "examples": [
       "Han spelar en stor roll."
     ],
-    "inputHash": "5fb38a0d"
+    "inputHash": "b1d5c952"
   },
   {
     "kellyId": 496,
     "examples": [
       "Det är en viktig regel."
     ],
-    "inputHash": "d8f82ef9"
+    "inputHash": "c9438efe"
   },
   {
     "kellyId": 497,
@@ -2175,7 +2176,7 @@
     "examples": [
       "Han anmälde stölden till polisen."
     ],
-    "inputHash": "a4bbc767"
+    "inputHash": "6c030544"
   },
   {
     "kellyId": 503,
@@ -2196,14 +2197,14 @@
     "examples": [
       "Kungen bär en krona av guld."
     ],
-    "inputHash": "7ae8a0cb"
+    "inputHash": "4df78b95"
   },
   {
     "kellyId": 506,
     "examples": [
       "Det du säger stämmer."
     ],
-    "inputHash": "d947a378"
+    "inputHash": "0764d3fb"
   },
   {
     "kellyId": 508,
@@ -2252,14 +2253,14 @@
     "examples": [
       "Det finns en etikett på flaskan."
     ],
-    "inputHash": "b9f61a2f"
+    "inputHash": "1b13c9ec"
   },
   {
     "kellyId": 523,
     "examples": [
       "Du är fri att göra som du vill."
     ],
-    "inputHash": "d258e313"
+    "inputHash": "53a273e1"
   },
   {
     "kellyId": 526,
@@ -2280,7 +2281,7 @@
     "examples": [
       "Hon sitter ensam hemma."
     ],
-    "inputHash": "54104120"
+    "inputHash": "17487c22"
   },
   {
     "kellyId": 529,
@@ -2301,7 +2302,7 @@
     "examples": [
       "Laget är i ledningen."
     ],
-    "inputHash": "11c06b07"
+    "inputHash": "f8fa3718"
   },
   {
     "kellyId": 533,
@@ -2329,7 +2330,7 @@
     "examples": [
       "Anledningen till att jag är blöt är att det har regnat."
     ],
-    "inputHash": "7aee7a24"
+    "inputHash": "cca2bcf5"
   },
   {
     "kellyId": 538,
@@ -2350,7 +2351,7 @@
     "examples": [
       "Vänta inte! Gör det direkt."
     ],
-    "inputHash": "8e199d48"
+    "inputHash": "9542f2c5"
   },
   {
     "kellyId": 542,
@@ -2364,7 +2365,7 @@
     "examples": [
       "Vem bestämmer vad vi ska göra?"
     ],
-    "inputHash": "d8c355a8"
+    "inputHash": "7d382b2a"
   },
   {
     "kellyId": 545,
@@ -2392,14 +2393,14 @@
     "examples": [
       "Han läser tidningen varje dag."
     ],
-    "inputHash": "940cb2bf"
+    "inputHash": "c060852e"
   },
   {
     "kellyId": 551,
     "examples": [
       "Vad är meningen med det?"
     ],
-    "inputHash": "3f2f0e70"
+    "inputHash": "932f23a5"
   },
   {
     "kellyId": 552,
@@ -2441,14 +2442,14 @@
     "examples": [
       "Myndigheten skickar ett brev."
     ],
-    "inputHash": "b7c80fb2"
+    "inputHash": "8bf64dc9"
   },
   {
     "kellyId": 560,
     "examples": [
       "Mitt telefonnummer är enkelt."
     ],
-    "inputHash": "87a43ca8"
+    "inputHash": "73aed414"
   },
   {
     "kellyId": 565,
@@ -2469,7 +2470,7 @@
     "examples": [
       "Det är ett bra program på tv."
     ],
-    "inputHash": "cdbc2a9a"
+    "inputHash": "78fd295f"
   },
   {
     "kellyId": 571,
@@ -2504,14 +2505,14 @@
     "examples": [
       "Det är en amerikansk film."
     ],
-    "inputHash": "d99a4139"
+    "inputHash": "8cac3620"
   },
   {
     "kellyId": 577,
     "examples": [
       "Kan du tyda min handstil?"
     ],
-    "inputHash": "6fb456f1"
+    "inputHash": "b754cc56"
   },
   {
     "kellyId": 580,
@@ -2539,7 +2540,7 @@
     "examples": [
       "Det var liksom konstigt."
     ],
-    "inputHash": "1a0af84e"
+    "inputHash": "ae0b097b"
   },
   {
     "kellyId": 585,
@@ -2553,14 +2554,14 @@
     "examples": [
       "Kom hit före klockan sex."
     ],
-    "inputHash": "41087c0b"
+    "inputHash": "0a6027c6"
   },
   {
     "kellyId": 587,
     "examples": [
       "Domaren läser upp domen."
     ],
-    "inputHash": "f864adb8"
+    "inputHash": "4d264489"
   },
   {
     "kellyId": 588,
@@ -2574,7 +2575,7 @@
     "examples": [
       "Den här uppgiften är enkel."
     ],
-    "inputHash": "1b04b2fd"
+    "inputHash": "29c6d170"
   },
   {
     "kellyId": 590,
@@ -2588,7 +2589,7 @@
     "examples": [
       "Vad är priset på den här jackan?"
     ],
-    "inputHash": "234568bc"
+    "inputHash": "710c82b3"
   },
   {
     "kellyId": 593,
@@ -2602,7 +2603,7 @@
     "examples": [
       "Jag mötte honom vid bensinstationen."
     ],
-    "inputHash": "1d43b3a5"
+    "inputHash": "f5234b0d"
   },
   {
     "kellyId": 596,
@@ -2623,28 +2624,28 @@
     "examples": [
       "Vi träffades förra veckan."
     ],
-    "inputHash": "6c93b41f"
+    "inputHash": "93f2afad"
   },
   {
     "kellyId": 600,
     "examples": [
       "Kan du göra mig en tjänst?"
     ],
-    "inputHash": "9456c826"
+    "inputHash": "f7a87ccf"
   },
   {
     "kellyId": 601,
     "examples": [
       "Vad heter du?"
     ],
-    "inputHash": "c7f5e4a4"
+    "inputHash": "3e97348b"
   },
   {
     "kellyId": 602,
     "examples": [
       "Sverige har en rik kultur."
     ],
-    "inputHash": "8a2129b0"
+    "inputHash": "37922e9e"
   },
   {
     "kellyId": 604,
@@ -2686,14 +2687,14 @@
     "examples": [
       "Väskan är väldigt lätt."
     ],
-    "inputHash": "a4e626b9"
+    "inputHash": "8ac822b2"
   },
   {
     "kellyId": 612,
     "examples": [
       "Vi köper mat på marknaden."
     ],
-    "inputHash": "8e828f60"
+    "inputHash": "c2524ca1"
   },
   {
     "kellyId": 613,
@@ -2714,7 +2715,7 @@
     "examples": [
       "Du får inte röra tavlan."
     ],
-    "inputHash": "3e6a1d1e"
+    "inputHash": "928e8c8e"
   },
   {
     "kellyId": 617,
@@ -2728,14 +2729,14 @@
     "examples": [
       "Det finns en stor mängd böcker i biblioteket."
     ],
-    "inputHash": "4023953a"
+    "inputHash": "3d8c8ed1"
   },
   {
     "kellyId": 620,
     "examples": [
       "Vad är betydelsen av det ordet?"
     ],
-    "inputHash": "f089886f"
+    "inputHash": "8c893962"
   },
   {
     "kellyId": 621,
@@ -2763,7 +2764,7 @@
     "examples": [
       "Det har blivit allt svårare att hitta bra mat."
     ],
-    "inputHash": "c5aabfc2"
+    "inputHash": "1cb4aeeb"
   },
   {
     "kellyId": 625,
@@ -2777,7 +2778,7 @@
     "examples": [
       "Klicka på länken för att öppna sidan."
     ],
-    "inputHash": "80d69302"
+    "inputHash": "f84c3bea"
   },
   {
     "kellyId": 628,
@@ -2798,7 +2799,7 @@
     "examples": [
       "Kan jag få ett glas vatten?"
     ],
-    "inputHash": "5fd51c4a"
+    "inputHash": "0832d77d"
   },
   {
     "kellyId": 635,
@@ -2833,14 +2834,14 @@
     "examples": [
       "Vi kommenterar inte enskilda fall."
     ],
-    "inputHash": "07c6df6a"
+    "inputHash": "875aeb16"
   },
   {
     "kellyId": 644,
     "examples": [
       "Du har rätt om det."
     ],
-    "inputHash": "f41a2f95"
+    "inputHash": "9c6469f1"
   },
   {
     "kellyId": 647,
@@ -2875,7 +2876,7 @@
     "examples": [
       "Anta att X är tre."
     ],
-    "inputHash": "83fb18ad"
+    "inputHash": "8e2306ca"
   },
   {
     "kellyId": 653,
@@ -2917,7 +2918,7 @@
     "examples": [
       "Vi stannar vid gränsen."
     ],
-    "inputHash": "fca0ab65"
+    "inputHash": "5761e2a1"
   },
   {
     "kellyId": 663,
@@ -2966,7 +2967,7 @@
     "examples": [
       "Kungen bor vid hovet."
     ],
-    "inputHash": "ce0b6a21"
+    "inputHash": "c1929b9d"
   },
   {
     "kellyId": 676,
@@ -2987,14 +2988,14 @@
     "examples": [
       "Hon har blå ögon."
     ],
-    "inputHash": "63d3a70b"
+    "inputHash": "9c13d0e3"
   },
   {
     "kellyId": 680,
     "examples": [
       "Det kommer säkert att regna."
     ],
-    "inputHash": "9803225d"
+    "inputHash": "e3bda753"
   },
   {
     "kellyId": 682,
@@ -3064,7 +3065,7 @@
     "examples": [
       "Det var en god handling."
     ],
-    "inputHash": "88cdf499"
+    "inputHash": "008bf8b2"
   },
   {
     "kellyId": 696,
@@ -3078,7 +3079,7 @@
     "examples": [
       "Det finns en lösning."
     ],
-    "inputHash": "bfafcba6"
+    "inputHash": "a4e332f0"
   },
   {
     "kellyId": 701,
@@ -3099,14 +3100,14 @@
     "examples": [
       "Du kommer säkert att gilla henne."
     ],
-    "inputHash": "145010c8"
+    "inputHash": "f276f1a5"
   },
   {
     "kellyId": 705,
     "examples": [
       "Tack för hjälpen!"
     ],
-    "inputHash": "2875da84"
+    "inputHash": "2871a770"
   },
   {
     "kellyId": 706,
@@ -3120,7 +3121,7 @@
     "examples": [
       "Apelsiner innehåller mycket C-vitamin."
     ],
-    "inputHash": "173a8981"
+    "inputHash": "1bfac921"
   },
   {
     "kellyId": 708,
@@ -3134,7 +3135,7 @@
     "examples": [
       "Det var ett bra tillfälle att öva."
     ],
-    "inputHash": "08d5022e"
+    "inputHash": "4df7cb02"
   },
   {
     "kellyId": 710,
@@ -3162,7 +3163,7 @@
     "examples": [
       "Vi får helt enkelt vänta."
     ],
-    "inputHash": "79ca7929"
+    "inputHash": "46ace597"
   },
   {
     "kellyId": 716,
@@ -3176,7 +3177,7 @@
     "examples": [
       "Hon har en fin röst."
     ],
-    "inputHash": "29db4ec5"
+    "inputHash": "de397578"
   },
   {
     "kellyId": 719,
@@ -3190,7 +3191,7 @@
     "examples": [
       "Han hävdar att han är oskyldig."
     ],
-    "inputHash": "93c00da7"
+    "inputHash": "f207c08e"
   },
   {
     "kellyId": 721,
@@ -3204,14 +3205,14 @@
     "examples": [
       "Åtgärderna har haft positiv effekt."
     ],
-    "inputHash": "81f687e9"
+    "inputHash": "2e0228f1"
   },
   {
     "kellyId": 723,
     "examples": [
       "Det är en stor enhet."
     ],
-    "inputHash": "4aa64c41"
+    "inputHash": "248aa843"
   },
   {
     "kellyId": 724,
@@ -3225,14 +3226,14 @@
     "examples": [
       "De dansar i takt med musiken."
     ],
-    "inputHash": "7ebcf531"
+    "inputHash": "fd0f738b"
   },
   {
     "kellyId": 727,
     "examples": [
       "Den här ringen har stort värde för mig."
     ],
-    "inputHash": "5a6d9e62"
+    "inputHash": "947fd6b6"
   },
   {
     "kellyId": 728,
@@ -3246,7 +3247,7 @@
     "examples": [
       "Pytagoras sats är känd i hela världen."
     ],
-    "inputHash": "58a4d0f8"
+    "inputHash": "2d60770a"
   },
   {
     "kellyId": 731,
@@ -3274,14 +3275,14 @@
     "examples": [
       "Var kom du fram till den informationen? Vad är din källa?"
     ],
-    "inputHash": "67e8c383"
+    "inputHash": "590d41f3"
   },
   {
     "kellyId": 735,
     "examples": [
       "Må hon ha en trevlig dag!"
     ],
-    "inputHash": "7303bd5f"
+    "inputHash": "54deac4f"
   },
   {
     "kellyId": 736,
@@ -3302,7 +3303,7 @@
     "examples": [
       "Olyckan ägde rum i svåra förhållanden."
     ],
-    "inputHash": "71f79e0e"
+    "inputHash": "ffdaa45a"
   },
   {
     "kellyId": 739,
@@ -3322,7 +3323,7 @@
     "examples": [
       "Han minns sin ungdom."
     ],
-    "inputHash": "5a3a0de3"
+    "inputHash": "af2c2b2b"
   },
   {
     "kellyId": 743,
@@ -3350,7 +3351,7 @@
     "examples": [
       "Glaset är fullt med vatten."
     ],
-    "inputHash": "142c49af"
+    "inputHash": "86189237"
   },
   {
     "kellyId": 750,
@@ -3364,7 +3365,7 @@
     "examples": [
       "Den här jackan passar mig bra."
     ],
-    "inputHash": "6927e795"
+    "inputHash": "431978aa"
   },
   {
     "kellyId": 752,
@@ -3385,14 +3386,14 @@
     "examples": [
       "De inför en ny lag."
     ],
-    "inputHash": "10bb324e"
+    "inputHash": "d95b9ca3"
   },
   {
     "kellyId": 756,
     "examples": [
       "Han är en stark ledare."
     ],
-    "inputHash": "edfd4c49"
+    "inputHash": "0b7d924b"
   },
   {
     "kellyId": 757,
@@ -3441,7 +3442,7 @@
     "examples": [
       "Jag lär mig svenska lätt."
     ],
-    "inputHash": "4bda011d"
+    "inputHash": "25ae3ea7"
   },
   {
     "kellyId": 769,
@@ -3455,14 +3456,14 @@
     "examples": [
       "Hon har stor erfarenhet."
     ],
-    "inputHash": "a70c00fb"
+    "inputHash": "e750f7d2"
   },
   {
     "kellyId": 774,
     "examples": [
       "Det är tio grader ute idag."
     ],
-    "inputHash": "68ef7e73"
+    "inputHash": "65f259fa"
   },
   {
     "kellyId": 775,
@@ -3483,28 +3484,28 @@
     "examples": [
       "Det var en svår period."
     ],
-    "inputHash": "a7bdb5ff"
+    "inputHash": "02b47eeb"
   },
   {
     "kellyId": 780,
     "examples": [
       "Det är ett modernt hus."
     ],
-    "inputHash": "37986a9b"
+    "inputHash": "859f78a5"
   },
   {
     "kellyId": 783,
     "examples": [
       "Polisen gör en utredning."
     ],
-    "inputHash": "80cceb85"
+    "inputHash": "ce65b97d"
   },
   {
     "kellyId": 784,
     "examples": [
       "Frukost ingår i priset."
     ],
-    "inputHash": "2981feb3"
+    "inputHash": "e12a051c"
   },
   {
     "kellyId": 788,
@@ -3525,7 +3526,7 @@
     "examples": [
       "Hon styrde båten mot land."
     ],
-    "inputHash": "ca04182d"
+    "inputHash": "b7adb70e"
   },
   {
     "kellyId": 794,
@@ -3539,14 +3540,14 @@
     "examples": [
       "Vi betalar skatt varje år."
     ],
-    "inputHash": "1c20cf2a"
+    "inputHash": "ae14cb6f"
   },
   {
     "kellyId": 798,
     "examples": [
       "Vi beslutar imorgon."
     ],
-    "inputHash": "f6d94dd9"
+    "inputHash": "953d61f3"
   },
   {
     "kellyId": 799,
@@ -3574,7 +3575,7 @@
     "examples": [
       "Det är en privat skola."
     ],
-    "inputHash": "2ed7fec0"
+    "inputHash": "e128f671"
   },
   {
     "kellyId": 804,
@@ -3595,14 +3596,14 @@
     "examples": [
       "Häxan i sagan är ond."
     ],
-    "inputHash": "2ec70b26"
+    "inputHash": "ff9d4e1b"
   },
   {
     "kellyId": 807,
     "examples": [
       "Jag har en bra plan."
     ],
-    "inputHash": "b3651ce5"
+    "inputHash": "a0e78b5d"
   },
   {
     "kellyId": 808,
@@ -3623,14 +3624,14 @@
     "examples": [
       "Han har dålig syn."
     ],
-    "inputHash": "3eada6ed"
+    "inputHash": "c3567b09"
   },
   {
     "kellyId": 818,
     "examples": [
       "Ange ditt namn här."
     ],
-    "inputHash": "c783a1fd"
+    "inputHash": "e1b23623"
   },
   {
     "kellyId": 820,
@@ -3686,7 +3687,7 @@
     "examples": [
       "Jag vill byta kläder."
     ],
-    "inputHash": "815e6166"
+    "inputHash": "d6878aa8"
   },
   {
     "kellyId": 833,
@@ -3700,7 +3701,7 @@
     "examples": [
       "Vänta en minut!"
     ],
-    "inputHash": "2160ef86"
+    "inputHash": "2310358e"
   },
   {
     "kellyId": 835,
@@ -3721,35 +3722,35 @@
     "examples": [
       "Jag samlar på frimärken."
     ],
-    "inputHash": "5918d379"
+    "inputHash": "516b0457"
   },
   {
     "kellyId": 838,
     "examples": [
       "Katten är svart."
     ],
-    "inputHash": "cc29302d"
+    "inputHash": "f04756d5"
   },
   {
     "kellyId": 839,
     "examples": [
       "Hon har en blå bakgrund i bilden."
     ],
-    "inputHash": "1db7c18e"
+    "inputHash": "41543294"
   },
   {
     "kellyId": 840,
     "examples": [
       "Vi hörde ett skott."
     ],
-    "inputHash": "9141c698"
+    "inputHash": "fc33a7db"
   },
   {
     "kellyId": 842,
     "examples": [
       "Kärlek är viktigt i livet."
     ],
-    "inputHash": "ad9c677a"
+    "inputHash": "0960c49c"
   },
   {
     "kellyId": 843,
@@ -3763,42 +3764,42 @@
     "examples": [
       "Är kassaskåpet säkert?"
     ],
-    "inputHash": "5fbe645e"
+    "inputHash": "c81ac228"
   },
   {
     "kellyId": 851,
     "examples": [
       "Han kunde inte lösa det svåraste problemet."
     ],
-    "inputHash": "db5112cb"
+    "inputHash": "98529db7"
   },
   {
     "kellyId": 854,
     "examples": [
       "Du måste följa bestämmelserna på jobbet."
     ],
-    "inputHash": "ad82a119"
+    "inputHash": "a2c28ea0"
   },
   {
     "kellyId": 856,
     "examples": [
       "Han drabbades av en svår sjukdom."
     ],
-    "inputHash": "152a804b"
+    "inputHash": "177c6fe6"
   },
   {
     "kellyId": 857,
     "examples": [
       "Fisken är i nätet."
     ],
-    "inputHash": "4bc0e159"
+    "inputHash": "1cf96ce0"
   },
   {
     "kellyId": 858,
     "examples": [
       "Det kräver bra teknik."
     ],
-    "inputHash": "c7c8bbec"
+    "inputHash": "3db2a0ce"
   },
   {
     "kellyId": 859,
@@ -3812,7 +3813,7 @@
     "examples": [
       "Det var ett bra försök."
     ],
-    "inputHash": "0557bedc"
+    "inputHash": "7ade758d"
   },
   {
     "kellyId": 861,
@@ -3826,14 +3827,14 @@
     "examples": [
       "Hon tjänar bra pengar."
     ],
-    "inputHash": "6d4f6480"
+    "inputHash": "4d069d31"
   },
   {
     "kellyId": 863,
     "examples": [
       "Det är ett bra argument."
     ],
-    "inputHash": "7366f0ce"
+    "inputHash": "1554758d"
   },
   {
     "kellyId": 865,
@@ -3854,14 +3855,14 @@
     "examples": [
       "Han utför sitt arbete bra."
     ],
-    "inputHash": "f7c56df3"
+    "inputHash": "7043c6a2"
   },
   {
     "kellyId": 871,
     "examples": [
       "Jag hittade ingen bekväm ställning att sova i."
     ],
-    "inputHash": "503ddcfc"
+    "inputHash": "d667ad27"
   },
   {
     "kellyId": 872,
@@ -3876,7 +3877,7 @@
       "räcka upp handen",
       "Det räcker!"
     ],
-    "inputHash": "4806f4bc"
+    "inputHash": "8ba799c8"
   },
   {
     "kellyId": 874,
@@ -3897,7 +3898,7 @@
     "examples": [
       "Det var visst han som ringde."
     ],
-    "inputHash": "0a0083dc"
+    "inputHash": "304710ee"
   },
   {
     "kellyId": 877,
@@ -3932,14 +3933,14 @@
     "examples": [
       "Han talar högt."
     ],
-    "inputHash": "f3378594"
+    "inputHash": "3b4fa358"
   },
   {
     "kellyId": 883,
     "examples": [
       "Vem är USA:s president?"
     ],
-    "inputHash": "d7e07aef"
+    "inputHash": "2c834efe"
   },
   {
     "kellyId": 884,
@@ -3953,7 +3954,7 @@
     "examples": [
       "Det kan uppstå problem om du inte är försiktig."
     ],
-    "inputHash": "3d5d29fa"
+    "inputHash": "7daf731d"
   },
   {
     "kellyId": 887,
@@ -3967,7 +3968,7 @@
     "examples": [
       "Hon skakade på huvudet."
     ],
-    "inputHash": "9233592d"
+    "inputHash": "192357c4"
   },
   {
     "kellyId": 889,
@@ -4016,7 +4017,7 @@
     "examples": [
       "Bråk är ett matematiskt begrepp."
     ],
-    "inputHash": "3516a91e"
+    "inputHash": "650db0fa"
   },
   {
     "kellyId": 902,
@@ -4044,7 +4045,7 @@
     "examples": [
       "Hon sjunger samtidigt som hon dansar."
     ],
-    "inputHash": "74097361"
+    "inputHash": "7d103944"
   },
   {
     "kellyId": 907,
@@ -4065,7 +4066,7 @@
     "examples": [
       "Alla kom förutom Lisa."
     ],
-    "inputHash": "ada9dd3b"
+    "inputHash": "dccf9e8e"
   },
   {
     "kellyId": 913,
@@ -4086,7 +4087,7 @@
     "examples": [
       "Riksdagen har ett utskott för det."
     ],
-    "inputHash": "58308cd2"
+    "inputHash": "6cf01a26"
   },
   {
     "kellyId": 916,
@@ -4100,7 +4101,7 @@
     "examples": [
       "Allt är i ordning."
     ],
-    "inputHash": "14978adc"
+    "inputHash": "8186b82d"
   },
   {
     "kellyId": 918,
@@ -4114,7 +4115,7 @@
     "examples": [
       "Han lade sig platt på marken."
     ],
-    "inputHash": "ddfe39f0"
+    "inputHash": "f7db5fe0"
   },
   {
     "kellyId": 921,
@@ -4128,7 +4129,7 @@
     "examples": [
       "Jag har pengar i banken."
     ],
-    "inputHash": "e70f03ba"
+    "inputHash": "e89c3b85"
   },
   {
     "kellyId": 923,
@@ -4191,7 +4192,7 @@
     "examples": [
       "Den här boken är ett vackert verk."
     ],
-    "inputHash": "61ff7eb0"
+    "inputHash": "094870e4"
   },
   {
     "kellyId": 936,
@@ -4205,7 +4206,7 @@
     "examples": [
       "Vänta en stund!"
     ],
-    "inputHash": "6d933c6a"
+    "inputHash": "83b3431f"
   },
   {
     "kellyId": 938,
@@ -4226,7 +4227,7 @@
     "examples": [
       "Vi behöver mer material."
     ],
-    "inputHash": "61aeaf38"
+    "inputHash": "3c255bd1"
   },
   {
     "kellyId": 941,
@@ -4247,7 +4248,7 @@
     "examples": [
       "Var befinner du dig nu?"
     ],
-    "inputHash": "9bced9b7"
+    "inputHash": "998945ab"
   },
   {
     "kellyId": 947,
@@ -4261,7 +4262,7 @@
     "examples": [
       "Han har stor förmåga."
     ],
-    "inputHash": "2a45146d"
+    "inputHash": "313b0cad"
   },
   {
     "kellyId": 954,
@@ -4275,35 +4276,35 @@
     "examples": [
       "Jag ska ringa min mamma."
     ],
-    "inputHash": "bfd4db13"
+    "inputHash": "ee277bfb"
   },
   {
     "kellyId": 956,
     "examples": [
       "Katten betraktade honom misstänksamt."
     ],
-    "inputHash": "aa6dbd3b"
+    "inputHash": "a79e5e32"
   },
   {
     "kellyId": 957,
     "examples": [
       "Vi bor i en liten by."
     ],
-    "inputHash": "b431c28f"
+    "inputHash": "505ff7b5"
   },
   {
     "kellyId": 958,
     "examples": [
       "Det ser bra ut utifrån."
     ],
-    "inputHash": "13c7634f"
+    "inputHash": "5794d595"
   },
   {
     "kellyId": 960,
     "examples": [
       "Jag hängde tavlan på väggen."
     ],
-    "inputHash": "118cb405"
+    "inputHash": "8b2db0f5"
   },
   {
     "kellyId": 961,
@@ -4317,7 +4318,7 @@
     "examples": [
       "Det är ett aktuellt ämne."
     ],
-    "inputHash": "d0bbfdb8"
+    "inputHash": "002bda51"
   },
   {
     "kellyId": 964,
@@ -4338,14 +4339,14 @@
     "examples": [
       "Stolen är hård."
     ],
-    "inputHash": "12709d92"
+    "inputHash": "eebfeda1"
   },
   {
     "kellyId": 970,
     "examples": [
       "En majoritet röstade ja."
     ],
-    "inputHash": "c2e17a70"
+    "inputHash": "4bf6dfc9"
   },
   {
     "kellyId": 971,
@@ -4359,14 +4360,14 @@
     "examples": [
       "Hon är ordförande i klubben."
     ],
-    "inputHash": "9d6f9f21"
+    "inputHash": "f7848f0f"
   },
   {
     "kellyId": 974,
     "examples": [
       "Det är en fin låt."
     ],
-    "inputHash": "dad8fbe1"
+    "inputHash": "d3a6f2b5"
   },
   {
     "kellyId": 976,
@@ -4380,7 +4381,7 @@
     "examples": [
       "Det förekom droger på festen."
     ],
-    "inputHash": "877f9aab"
+    "inputHash": "a394b4ae"
   },
   {
     "kellyId": 980,
@@ -4394,7 +4395,7 @@
     "examples": [
       "Du måste trycka på knappen."
     ],
-    "inputHash": "f1c70a9b"
+    "inputHash": "495158dc"
   },
   {
     "kellyId": 984,
@@ -4471,14 +4472,14 @@
     "examples": [
       "Jag vill resa till Italien."
     ],
-    "inputHash": "e4e82b3a"
+    "inputHash": "d80cf3e5"
   },
   {
     "kellyId": 1002,
     "examples": [
       "Du har räddat mitt liv!"
     ],
-    "inputHash": "9c381432"
+    "inputHash": "f08c154a"
   },
   {
     "kellyId": 1003,
@@ -4506,7 +4507,7 @@
     "examples": [
       "Hotellet ligger på en central plats."
     ],
-    "inputHash": "3eae9964"
+    "inputHash": "ade9b710"
   },
   {
     "kellyId": 1007,
@@ -4534,7 +4535,7 @@
     "examples": [
       "Boken kostar hundra kronor."
     ],
-    "inputHash": "96e99cf4"
+    "inputHash": "fa9cd7c0"
   },
   {
     "kellyId": 1011,
@@ -4548,35 +4549,35 @@
     "examples": [
       "Han stannade plötsligt."
     ],
-    "inputHash": "a76aabcc"
+    "inputHash": "81444a82"
   },
   {
     "kellyId": 1013,
     "examples": [
       "Det är ett naturligt val."
     ],
-    "inputHash": "a439816e"
+    "inputHash": "2dde6dcb"
   },
   {
     "kellyId": 1014,
     "examples": [
       "Vad är din ålder?"
     ],
-    "inputHash": "f8b3cfab"
+    "inputHash": "34f837c9"
   },
   {
     "kellyId": 1015,
     "examples": [
       "Det är en lång process."
     ],
-    "inputHash": "964b273d"
+    "inputHash": "730d5cf6"
   },
   {
     "kellyId": 1016,
     "examples": [
       "Det är ett vanligt uttryck."
     ],
-    "inputHash": "ab1289f3"
+    "inputHash": "96a7c965"
   },
   {
     "kellyId": 1017,
@@ -4646,70 +4647,70 @@
     "examples": [
       "De vek tvätten tillsammans."
     ],
-    "inputHash": "9ae5291d"
+    "inputHash": "04fdf412"
   },
   {
     "kellyId": 1031,
     "examples": [
       "Domaren dömde honom till böter."
     ],
-    "inputHash": "38298f94"
+    "inputHash": "bce3d9c5"
   },
   {
     "kellyId": 1032,
     "examples": [
       "Vi besöker farmor imorgon."
     ],
-    "inputHash": "4d3801c2"
+    "inputHash": "99f744c0"
   },
   {
     "kellyId": 1035,
     "examples": [
       "Snön täcker marken."
     ],
-    "inputHash": "1079a031"
+    "inputHash": "9b2d62b7"
   },
   {
     "kellyId": 1036,
     "examples": [
       "Det är ett borgerligt parti."
     ],
-    "inputHash": "5fbba7cf"
+    "inputHash": "ef72bbc6"
   },
   {
     "kellyId": 1037,
     "examples": [
       "Hon inledde mötet med ett tal."
     ],
-    "inputHash": "d064c6cf"
+    "inputHash": "2493f9e0"
   },
   {
     "kellyId": 1038,
     "examples": [
       "Nu tar jag helg, vi syns på måndag."
     ],
-    "inputHash": "343b6497"
+    "inputHash": "cd10697d"
   },
   {
     "kellyId": 1039,
     "examples": [
       "Försök undvika socker."
     ],
-    "inputHash": "393853ea"
+    "inputHash": "0a796a3a"
   },
   {
     "kellyId": 1040,
     "examples": [
       "Han vaknade med ett ryck."
     ],
-    "inputHash": "4c8c91ba"
+    "inputHash": "c62cee5a"
   },
   {
     "kellyId": 1041,
     "examples": [
       "Det finns ett stort tryck på honom."
     ],
-    "inputHash": "49b4af9f"
+    "inputHash": "5aa3e988"
   },
   {
     "kellyId": 1042,
@@ -4723,7 +4724,7 @@
     "examples": [
       "Han är väldigt aktiv."
     ],
-    "inputHash": "6217bb51"
+    "inputHash": "181755e5"
   },
   {
     "kellyId": 1044,
@@ -4758,14 +4759,14 @@
     "examples": [
       "Jag råkade välta vasen."
     ],
-    "inputHash": "32db922a"
+    "inputHash": "a7b65f24"
   },
   {
     "kellyId": 1050,
     "examples": [
       "Hon sjunger rent."
     ],
-    "inputHash": "219703cb"
+    "inputHash": "b2bf83ab"
   },
   {
     "kellyId": 1052,
@@ -4779,7 +4780,7 @@
     "examples": [
       "Hon gick till polisen och erkände allt."
     ],
-    "inputHash": "49a6b79f"
+    "inputHash": "46f0b76b"
   },
   {
     "kellyId": 1055,
@@ -4793,14 +4794,14 @@
     "examples": [
       "Han får bra lön."
     ],
-    "inputHash": "13d7e105"
+    "inputHash": "643eda65"
   },
   {
     "kellyId": 1057,
     "examples": [
       "Det här är en historisk seger."
     ],
-    "inputHash": "26df3061"
+    "inputHash": "910b2485"
   },
   {
     "kellyId": 1061,
@@ -4814,7 +4815,7 @@
     "examples": [
       "Det är ett tekniskt problem."
     ],
-    "inputHash": "f2013945"
+    "inputHash": "732482d2"
   },
   {
     "kellyId": 1064,
@@ -4849,7 +4850,7 @@
     "examples": [
       "Det är ett stort bidrag."
     ],
-    "inputHash": "130bafb5"
+    "inputHash": "691baccb"
   },
   {
     "kellyId": 1072,
@@ -4870,7 +4871,7 @@
     "examples": [
       "Det behövs en analys."
     ],
-    "inputHash": "07efbe28"
+    "inputHash": "12d7f13f"
   },
   {
     "kellyId": 1077,
@@ -4898,7 +4899,7 @@
     "examples": [
       "Det är en stor fördel."
     ],
-    "inputHash": "296fd98d"
+    "inputHash": "c676b6a5"
   },
   {
     "kellyId": 1082,
@@ -4912,7 +4913,7 @@
     "examples": [
       "Du borde utnyttja den här möjligheten."
     ],
-    "inputHash": "f57b585d"
+    "inputHash": "12a85d65"
   },
   {
     "kellyId": 1085,
@@ -4933,14 +4934,14 @@
     "examples": [
       "Hon har en fin samling böcker."
     ],
-    "inputHash": "df863f68"
+    "inputHash": "f4f4967b"
   },
   {
     "kellyId": 1089,
     "examples": [
       "Ett flertal elever var sjuka i dag."
     ],
-    "inputHash": "aa2288bb"
+    "inputHash": "fe94dba0"
   },
   {
     "kellyId": 1090,
@@ -4961,7 +4962,7 @@
     "examples": [
       "Det var en skön sommardag."
     ],
-    "inputHash": "197455bf"
+    "inputHash": "b14c5a99"
   },
   {
     "kellyId": 1095,
@@ -4975,7 +4976,7 @@
     "examples": [
       "Han lyfter lådan."
     ],
-    "inputHash": "d5b386a0"
+    "inputHash": "478c5027"
   },
   {
     "kellyId": 1098,
@@ -4996,7 +4997,7 @@
     "examples": [
       "Märker du inte att båten sjunker?"
     ],
-    "inputHash": "48603233"
+    "inputHash": "37820d23"
   },
   {
     "kellyId": 1101,
@@ -5010,14 +5011,14 @@
     "examples": [
       "Jag gick ut, fast det regnade."
     ],
-    "inputHash": "9ee91711"
+    "inputHash": "365cd6f5"
   },
   {
     "kellyId": 1104,
     "examples": [
       "Han har stor styrka i armarna."
     ],
-    "inputHash": "6e7069c8"
+    "inputHash": "3145e53b"
   },
   {
     "kellyId": 1108,
@@ -5066,7 +5067,7 @@
     "examples": [
       "– Gillar du inte glass? – Jo, det gör jag!"
     ],
-    "inputHash": "cc84d995"
+    "inputHash": "36e51a7d"
   },
   {
     "kellyId": 1117,
@@ -5115,7 +5116,7 @@
     "examples": [
       "Han såg mycket allvarlig ut."
     ],
-    "inputHash": "5f6a7c77"
+    "inputHash": "3ffa6a9f"
   },
   {
     "kellyId": 1128,
@@ -5143,14 +5144,14 @@
     "examples": [
       "Vi hade ett trevligt samtal."
     ],
-    "inputHash": "e0345b39"
+    "inputHash": "b81738a5"
   },
   {
     "kellyId": 1135,
     "examples": [
       "Resultatet är negativt."
     ],
-    "inputHash": "ba452c69"
+    "inputHash": "b8de8678"
   },
   {
     "kellyId": 1137,
@@ -5164,7 +5165,7 @@
     "examples": [
       "Det var en oväntad vändning."
     ],
-    "inputHash": "4564555b"
+    "inputHash": "a1b2ddbb"
   },
   {
     "kellyId": 1140,
@@ -5178,21 +5179,21 @@
     "examples": [
       "Bonden måste föda sina djur."
     ],
-    "inputHash": "24b8d3b8"
+    "inputHash": "8cafca76"
   },
   {
     "kellyId": 1143,
     "examples": [
       "Arbetaren jobbar på en fabrik."
     ],
-    "inputHash": "2d892964"
+    "inputHash": "8b930ce5"
   },
   {
     "kellyId": 1144,
     "examples": [
       "Han sköt på måltavlan."
     ],
-    "inputHash": "d1e1ce2b"
+    "inputHash": "c67d1c1c"
   },
   {
     "kellyId": 1145,
@@ -5206,14 +5207,14 @@
     "examples": [
       "Jag hämtar dig på stationen."
     ],
-    "inputHash": "76eefa36"
+    "inputHash": "6f80e33b"
   },
   {
     "kellyId": 1147,
     "examples": [
       "Församlingen sjunger i kyrkan."
     ],
-    "inputHash": "03e0a188"
+    "inputHash": "6f0a5557"
   },
   {
     "kellyId": 1149,
@@ -5234,7 +5235,7 @@
     "examples": [
       "Tjuven är äntligen fast."
     ],
-    "inputHash": "80934016"
+    "inputHash": "45455ddb"
   },
   {
     "kellyId": 1154,
@@ -5248,7 +5249,7 @@
     "examples": [
       "Jag utgår från att du förstår."
     ],
-    "inputHash": "4252df3e"
+    "inputHash": "bd178057"
   },
   {
     "kellyId": 1157,
@@ -5262,7 +5263,7 @@
     "examples": [
       "Sport stärker kroppen."
     ],
-    "inputHash": "6e4153ad"
+    "inputHash": "6d57e4f8"
   },
   {
     "kellyId": 1159,
@@ -5283,7 +5284,7 @@
     "examples": [
       "Man ska inte utsätta sig för fara."
     ],
-    "inputHash": "6a4c11a5"
+    "inputHash": "d80dd09e"
   },
   {
     "kellyId": 1164,
@@ -5318,14 +5319,14 @@
     "examples": [
       "Han fick en skada på benet."
     ],
-    "inputHash": "325baefb"
+    "inputHash": "e05998ec"
   },
   {
     "kellyId": 1175,
     "examples": [
       "Skriv siffran tre på pappret."
     ],
-    "inputHash": "bc9491ba"
+    "inputHash": "bda98c5f"
   },
   {
     "kellyId": 1176,
@@ -5339,7 +5340,7 @@
     "examples": [
       "Det är inte midnatt än."
     ],
-    "inputHash": "5b065c07"
+    "inputHash": "efd8ecf7"
   },
   {
     "kellyId": 1178,
@@ -5367,14 +5368,14 @@
     "examples": [
       "Hon talar engelska."
     ],
-    "inputHash": "b0d25a43"
+    "inputHash": "edaeb0fe"
   },
   {
     "kellyId": 1182,
     "examples": [
       "I praktiken är det svårare än det verkar."
     ],
-    "inputHash": "a1b3b8da"
+    "inputHash": "1fa01259"
   },
   {
     "kellyId": 1183,
@@ -5388,14 +5389,14 @@
     "examples": [
       "Hon är en glad tjej."
     ],
-    "inputHash": "a90642b5"
+    "inputHash": "ceb4c939"
   },
   {
     "kellyId": 1187,
     "examples": [
       "Det är ett konstigt ljud."
     ],
-    "inputHash": "674032ad"
+    "inputHash": "04c36233"
   },
   {
     "kellyId": 1188,
@@ -5416,7 +5417,7 @@
     "examples": [
       "Det är svårt att avgöra vem som vann."
     ],
-    "inputHash": "e317efa0"
+    "inputHash": "6d2e81e3"
   },
   {
     "kellyId": 1191,
@@ -5444,7 +5445,7 @@
     "examples": [
       "De sänder programmet klockan sju."
     ],
-    "inputHash": "1698e208"
+    "inputHash": "94bcbb6c"
   },
   {
     "kellyId": 1195,
@@ -5472,7 +5473,7 @@
     "examples": [
       "Han anför gruppen."
     ],
-    "inputHash": "b17a633d"
+    "inputHash": "345748a0"
   },
   {
     "kellyId": 1201,
@@ -5486,7 +5487,7 @@
     "examples": [
       "Fabriken ökar sin produktion."
     ],
-    "inputHash": "3dc7dded"
+    "inputHash": "f954148c"
   },
   {
     "kellyId": 1203,
@@ -5507,7 +5508,7 @@
     "examples": [
       "Gräset är grönt."
     ],
-    "inputHash": "744e1517"
+    "inputHash": "5fc42d21"
   },
   {
     "kellyId": 1209,
@@ -5542,7 +5543,7 @@
     "examples": [
       "Vaccinet ger bra skydd mot sjukdomen."
     ],
-    "inputHash": "3ff165ac"
+    "inputHash": "6dbb4708"
   },
   {
     "kellyId": 1214,
@@ -5570,7 +5571,7 @@
     "examples": [
       "Han kritiserar mitt arbete."
     ],
-    "inputHash": "c76c83ba"
+    "inputHash": "8622599e"
   },
   {
     "kellyId": 1222,
@@ -5619,7 +5620,7 @@
     "examples": [
       "Bordet är två meter långt."
     ],
-    "inputHash": "db402459"
+    "inputHash": "19c8a4bb"
   },
   {
     "kellyId": 1231,
@@ -5640,14 +5641,14 @@
     "examples": [
       "Doktorn rådde mig att vila mer."
     ],
-    "inputHash": "22005c2f"
+    "inputHash": "e4fcc74d"
   },
   {
     "kellyId": 1236,
     "examples": [
       "Vi söker en ersättning för honom."
     ],
-    "inputHash": "8794f28a"
+    "inputHash": "53fc916e"
   },
   {
     "kellyId": 1238,
@@ -5668,7 +5669,7 @@
     "examples": [
       "Det finns många ting i rummet."
     ],
-    "inputHash": "f0bdf7de"
+    "inputHash": "c6f3c039"
   },
   {
     "kellyId": 1242,
@@ -5689,7 +5690,7 @@
     "examples": [
       "Kom ihåg att kontrollera svaret."
     ],
-    "inputHash": "7fc980d5"
+    "inputHash": "32d4e9eb"
   },
   {
     "kellyId": 1246,
@@ -5703,7 +5704,7 @@
     "examples": [
       "Vilken färg är din bil?"
     ],
-    "inputHash": "c8ab6343"
+    "inputHash": "4609a8ac"
   },
   {
     "kellyId": 1248,
@@ -5738,14 +5739,14 @@
     "examples": [
       "Rävspåret var lätt att följa i snön."
     ],
-    "inputHash": "4b6afeda"
+    "inputHash": "f24fb226"
   },
   {
     "kellyId": 1253,
     "examples": [
       "Vattnet är kallt idag."
     ],
-    "inputHash": "f9b9f694"
+    "inputHash": "63681751"
   },
   {
     "kellyId": 1255,
@@ -5759,7 +5760,7 @@
     "examples": [
       "Den här jackan är av hög kvalitet."
     ],
-    "inputHash": "126d283e"
+    "inputHash": "4ea1092f"
   },
   {
     "kellyId": 1259,
@@ -5773,14 +5774,14 @@
     "examples": [
       "Han är svag efter sjukdomen."
     ],
-    "inputHash": "474f9248"
+    "inputHash": "ad23a7da"
   },
   {
     "kellyId": 1263,
     "examples": [
       "Kungen styrde ett stort rike."
     ],
-    "inputHash": "28c1ed0f"
+    "inputHash": "775d69d5"
   },
   {
     "kellyId": 1264,
@@ -5801,7 +5802,7 @@
     "examples": [
       "Hon studerar medicin i Stockholm."
     ],
-    "inputHash": "71523609"
+    "inputHash": "3851944e"
   },
   {
     "kellyId": 1267,
@@ -5815,14 +5816,14 @@
     "examples": [
       "Projektet har haft stor framgång."
     ],
-    "inputHash": "52f525fb"
+    "inputHash": "56200827"
   },
   {
     "kellyId": 1269,
     "examples": [
       "Hur tolkar du det?"
     ],
-    "inputHash": "4a8a108f"
+    "inputHash": "a221665e"
   },
   {
     "kellyId": 1273,
@@ -5843,14 +5844,14 @@
     "examples": [
       "Du måste ta vara på din tid."
     ],
-    "inputHash": "10f14db2"
+    "inputHash": "8560d843"
   },
   {
     "kellyId": 1276,
     "examples": [
       "Det finns alltid ett undantag."
     ],
-    "inputHash": "141a0ddf"
+    "inputHash": "8e2c1e37"
   },
   {
     "kellyId": 1277,
@@ -5913,14 +5914,14 @@
     "examples": [
       "Notera adressen, tack."
     ],
-    "inputHash": "6ff6eeae"
+    "inputHash": "7a3d0bed"
   },
   {
     "kellyId": 1290,
     "examples": [
       "De sänkte priset på biljetter."
     ],
-    "inputHash": "1ba630f5"
+    "inputHash": "a90b9684"
   },
   {
     "kellyId": 1291,
@@ -5934,7 +5935,7 @@
     "examples": [
       "Gud älskar en glad givare."
     ],
-    "inputHash": "4c71f215"
+    "inputHash": "cee67a23"
   },
   {
     "kellyId": 1293,
@@ -5969,14 +5970,14 @@
     "examples": [
       "Det medför problem."
     ],
-    "inputHash": "118d4105"
+    "inputHash": "779ad366"
   },
   {
     "kellyId": 1298,
     "examples": [
       "Han ifrågasatte lärarens beslut."
     ],
-    "inputHash": "532b3ff6"
+    "inputHash": "754f0e3d"
   },
   {
     "kellyId": 1299,
@@ -5990,7 +5991,7 @@
     "examples": [
       "Stockholm är ett stort län."
     ],
-    "inputHash": "2914ec97"
+    "inputHash": "682d75cb"
   },
   {
     "kellyId": 1301,
@@ -6004,7 +6005,7 @@
     "examples": [
       "Det är en lång serie av händelser."
     ],
-    "inputHash": "9bb8ad15"
+    "inputHash": "7243397a"
   },
   {
     "kellyId": 1304,
@@ -6032,14 +6033,14 @@
     "examples": [
       "Han stiger upp klockan sex."
     ],
-    "inputHash": "98190abc"
+    "inputHash": "2adb4e9c"
   },
   {
     "kellyId": 1311,
     "examples": [
       "Mina fötter gör ont."
     ],
-    "inputHash": "92ba25bd"
+    "inputHash": "1f1c40d3"
   },
   {
     "kellyId": 1312,
@@ -6067,7 +6068,7 @@
     "examples": [
       "Ta den vänstra dörren."
     ],
-    "inputHash": "d5da9326"
+    "inputHash": "3b5ac6c7"
   },
   {
     "kellyId": 1320,
@@ -6081,7 +6082,7 @@
     "examples": [
       "Det regnade tre dagar i följd."
     ],
-    "inputHash": "1545e755"
+    "inputHash": "f84dc905"
   },
   {
     "kellyId": 1325,
@@ -6123,14 +6124,14 @@
     "examples": [
       "Hon sparar pengar varje månad."
     ],
-    "inputHash": "ed3884c2"
+    "inputHash": "f9bd091c"
   },
   {
     "kellyId": 1333,
     "examples": [
       "Styrelsen har ett möte imorgon."
     ],
-    "inputHash": "cf50764f"
+    "inputHash": "5007c227"
   },
   {
     "kellyId": 1334,
@@ -6158,7 +6159,7 @@
     "examples": [
       "Vill du ha en bit tårta?"
     ],
-    "inputHash": "d7b9258b"
+    "inputHash": "c294bebb"
   },
   {
     "kellyId": 1338,
@@ -6193,7 +6194,7 @@
     "examples": [
       "Nu är tjuven fast."
     ],
-    "inputHash": "7d540a24"
+    "inputHash": "08d5304f"
   },
   {
     "kellyId": 1344,
@@ -6242,7 +6243,7 @@
     "examples": [
       "Laget firar sin vinst."
     ],
-    "inputHash": "4a3edd90"
+    "inputHash": "4afcdfad"
   },
   {
     "kellyId": 1353,
@@ -6263,7 +6264,7 @@
     "examples": [
       "Har du några bra tips?"
     ],
-    "inputHash": "b78f4f3e"
+    "inputHash": "3bab9daa"
   },
   {
     "kellyId": 1358,
@@ -6347,7 +6348,7 @@
     "examples": [
       "Kom an, vi börjar nu!"
     ],
-    "inputHash": "695ba1c7"
+    "inputHash": "932494c4"
   },
   {
     "kellyId": 1378,
@@ -6417,7 +6418,7 @@
     "examples": [
       "De fastställde ett datum för nästa möte."
     ],
-    "inputHash": "c923717e"
+    "inputHash": "6b14f892"
   },
   {
     "kellyId": 1391,
@@ -6431,14 +6432,14 @@
     "examples": [
       "Sommaren är min favoritsäsong."
     ],
-    "inputHash": "810b6359"
+    "inputHash": "65c9e062"
   },
   {
     "kellyId": 1393,
     "examples": [
       "Är den här fisken levande?"
     ],
-    "inputHash": "134d693f"
+    "inputHash": "205702d8"
   },
   {
     "kellyId": 1394,
@@ -6473,7 +6474,7 @@
     "examples": [
       "Det är en blå himmel i dag."
     ],
-    "inputHash": "85597053"
+    "inputHash": "36ff9586"
   },
   {
     "kellyId": 1403,
@@ -6487,7 +6488,7 @@
     "examples": [
       "Den här jackan är dyr."
     ],
-    "inputHash": "92054229"
+    "inputHash": "10ca659b"
   },
   {
     "kellyId": 1405,
@@ -6501,14 +6502,14 @@
     "examples": [
       "Han riktar lampan mot väggen."
     ],
-    "inputHash": "ad225fa8"
+    "inputHash": "e2ea7d38"
   },
   {
     "kellyId": 1407,
     "examples": [
       "Jag gick en kurs i spanska."
     ],
-    "inputHash": "2bb27a50"
+    "inputHash": "0a587b33"
   },
   {
     "kellyId": 1408,
@@ -6550,7 +6551,7 @@
     "examples": [
       "Vi gick i fel riktning."
     ],
-    "inputHash": "78714fd9"
+    "inputHash": "29629ecb"
   },
   {
     "kellyId": 1415,
@@ -6564,14 +6565,14 @@
     "examples": [
       "Läs nästa avsnitt till imorgon."
     ],
-    "inputHash": "dc9dbda1"
+    "inputHash": "35bf2e89"
   },
   {
     "kellyId": 1418,
     "examples": [
       "Vilken sträckning tar tåget?"
     ],
-    "inputHash": "9e05403e"
+    "inputHash": "6cb646d5"
   },
   {
     "kellyId": 1420,
@@ -6585,7 +6586,7 @@
     "examples": [
       "Para ihop orden med bilderna."
     ],
-    "inputHash": "fdd126b0"
+    "inputHash": "81de9ca8"
   },
   {
     "kellyId": 1424,
@@ -6634,7 +6635,7 @@
     "examples": [
       "Vi tog ett direkt tåg till Lund."
     ],
-    "inputHash": "2fdadb20"
+    "inputHash": "554f6686"
   },
   {
     "kellyId": 1431,
@@ -6676,7 +6677,7 @@
     "examples": [
       "Fabriken producerar bilar."
     ],
-    "inputHash": "e97a674e"
+    "inputHash": "1a57580e"
   },
   {
     "kellyId": 1438,
@@ -6718,14 +6719,14 @@
     "examples": [
       "Barnet kastar bollen."
     ],
-    "inputHash": "62e8d5bc"
+    "inputHash": "3f6523ef"
   },
   {
     "kellyId": 1445,
     "examples": [
       "Staden grundades under medeltiden."
     ],
-    "inputHash": "b9e8705b"
+    "inputHash": "93a3b367"
   },
   {
     "kellyId": 1450,
@@ -6746,28 +6747,28 @@
     "examples": [
       "Han uppfyllde alla krav."
     ],
-    "inputHash": "3a3c2413"
+    "inputHash": "08f6d24a"
   },
   {
     "kellyId": 1454,
     "examples": [
       "Förhandlingarna pågår fortfarande."
     ],
-    "inputHash": "160fe8df"
+    "inputHash": "f254ee83"
   },
   {
     "kellyId": 1455,
     "examples": [
       "Lagen syftar till att skydda barn."
     ],
-    "inputHash": "68d11643"
+    "inputHash": "8e5593a9"
   },
   {
     "kellyId": 1456,
     "examples": [
       "Ey, bror, kom hit!"
     ],
-    "inputHash": "9883a18c"
+    "inputHash": "a6075aab"
   },
   {
     "kellyId": 1459,
@@ -6837,7 +6838,7 @@
     "examples": [
       "God kommunikation är viktig."
     ],
-    "inputHash": "779afac3"
+    "inputHash": "67e2e104"
   },
   {
     "kellyId": 1473,
@@ -6865,7 +6866,7 @@
     "examples": [
       "Vi möts i stadens centrum."
     ],
-    "inputHash": "8423753d"
+    "inputHash": "594a80c7"
   },
   {
     "kellyId": 1478,
@@ -6886,7 +6887,7 @@
     "examples": [
       "Det är mörkt ute på kvällen."
     ],
-    "inputHash": "079f2b82"
+    "inputHash": "3e040391"
   },
   {
     "kellyId": 1481,
@@ -6900,7 +6901,7 @@
     "examples": [
       "Maten står på bordet."
     ],
-    "inputHash": "5076f02b"
+    "inputHash": "08e7d1cf"
   },
   {
     "kellyId": 1483,
@@ -6956,7 +6957,7 @@
     "examples": [
       "Det finns starkt motstånd mot planen."
     ],
-    "inputHash": "3fcf99c3"
+    "inputHash": "428984d3"
   },
   {
     "kellyId": 1494,
@@ -6991,7 +6992,7 @@
     "examples": [
       "Hon vann loppet med en sekund."
     ],
-    "inputHash": "a800e94d"
+    "inputHash": "7aa4e60a"
   },
   {
     "kellyId": 1501,
@@ -7012,14 +7013,14 @@
     "examples": [
       "Se svaret nedan."
     ],
-    "inputHash": "6c5a58ad"
+    "inputHash": "d600afc0"
   },
   {
     "kellyId": 1508,
     "examples": [
       "Placera glaset på bordet."
     ],
-    "inputHash": "598c9195"
+    "inputHash": "09f43c15"
   },
   {
     "kellyId": 1509,
@@ -7033,7 +7034,7 @@
     "examples": [
       "Jag anar att något är fel."
     ],
-    "inputHash": "28a4742c"
+    "inputHash": "ab4feee4"
   },
   {
     "kellyId": 1511,
@@ -7054,21 +7055,21 @@
     "examples": [
       "Vill du pröva det nya receptet?"
     ],
-    "inputHash": "e77a0004"
+    "inputHash": "aefd52a0"
   },
   {
     "kellyId": 1515,
     "examples": [
       "Ärlighet är en bra egenskap."
     ],
-    "inputHash": "dd623079"
+    "inputHash": "b4ee8743"
   },
   {
     "kellyId": 1516,
     "examples": [
       "Kan du rekommendera en bra restaurang?"
     ],
-    "inputHash": "c27bc1ed"
+    "inputHash": "2faae1e0"
   },
   {
     "kellyId": 1518,
@@ -7138,7 +7139,7 @@
     "examples": [
       "Jag återkommer till frågan senare."
     ],
-    "inputHash": "6594c585"
+    "inputHash": "2dd68c24"
   },
   {
     "kellyId": 1528,
@@ -7173,14 +7174,14 @@
     "examples": [
       "Försäljningen går bra i år."
     ],
-    "inputHash": "9f89d375"
+    "inputHash": "69095478"
   },
   {
     "kellyId": 1535,
     "examples": [
       "Den sången är väldigt populär."
     ],
-    "inputHash": "76f884c9"
+    "inputHash": "a8da7372"
   },
   {
     "kellyId": 1537,
@@ -7229,7 +7230,7 @@
     "examples": [
       "Den filmen berör mig djupt."
     ],
-    "inputHash": "d16d5eb3"
+    "inputHash": "6da688a6"
   },
   {
     "kellyId": 1550,
@@ -7271,7 +7272,7 @@
     "examples": [
       "Du måste anpassa dig till nya regler."
     ],
-    "inputHash": "ec76ca16"
+    "inputHash": "6070ea1f"
   },
   {
     "kellyId": 1558,
@@ -7292,7 +7293,7 @@
     "examples": [
       "Sångaren gick upp på scenen."
     ],
-    "inputHash": "9d5665de"
+    "inputHash": "a71e70b5"
   },
   {
     "kellyId": 1564,
@@ -7320,7 +7321,7 @@
     "examples": [
       "Fångarna försökte fly från fängelset."
     ],
-    "inputHash": "61757839"
+    "inputHash": "086ea3fb"
   },
   {
     "kellyId": 1571,
@@ -7348,7 +7349,7 @@
     "examples": [
       "Mitt ben gör ont."
     ],
-    "inputHash": "5541555a"
+    "inputHash": "45c8b418"
   },
   {
     "kellyId": 1576,
@@ -7376,7 +7377,7 @@
     "examples": [
       "Mina damer och herrar!"
     ],
-    "inputHash": "73d2e0af"
+    "inputHash": "59b5dbef"
   },
   {
     "kellyId": 1584,
@@ -7523,7 +7524,7 @@
     "examples": [
       "Vad åt du till middag?"
     ],
-    "inputHash": "cbbf9e17"
+    "inputHash": "60e69fa2"
   },
   {
     "kellyId": 1614,
@@ -7537,7 +7538,7 @@
     "examples": [
       "Hjärnan styr hela kroppen."
     ],
-    "inputHash": "eda8f9cf"
+    "inputHash": "ea3597d2"
   },
   {
     "kellyId": 1616,
@@ -7572,7 +7573,7 @@
     "examples": [
       "Han har stora skulder till banken."
     ],
-    "inputHash": "ba75398d"
+    "inputHash": "70922db7"
   },
   {
     "kellyId": 1623,
@@ -7593,14 +7594,14 @@
     "examples": [
       "Pengar ger inte lycka."
     ],
-    "inputHash": "878d4598"
+    "inputHash": "cd016adb"
   },
   {
     "kellyId": 1627,
     "examples": [
       "Vi har skrivning i svenska på fredag."
     ],
-    "inputHash": "c3018113"
+    "inputHash": "fa7f32c3"
   },
   {
     "kellyId": 1628,
@@ -7614,7 +7615,7 @@
     "examples": [
       "Jag tror jag börjar bli kär i honom."
     ],
-    "inputHash": "99e93782"
+    "inputHash": "792d35d1"
   },
   {
     "kellyId": 1630,
@@ -7656,21 +7657,21 @@
     "examples": [
       "Hon hade inte sett sin make på hela dagen."
     ],
-    "inputHash": "e80a0e55"
+    "inputHash": "10b592d0"
   },
   {
     "kellyId": 1636,
     "examples": [
       "Han är antagligen hemma nu."
     ],
-    "inputHash": "051bc69c"
+    "inputHash": "89859a0a"
   },
   {
     "kellyId": 1637,
     "examples": [
       "Ett plan flyger över huset."
     ],
-    "inputHash": "faeda3a5"
+    "inputHash": "7bf3c48e"
   },
   {
     "kellyId": 1638,
@@ -7684,7 +7685,7 @@
     "examples": [
       "Det beror på tolkningen av lagen."
     ],
-    "inputHash": "7f3b6f11"
+    "inputHash": "02b58e90"
   },
   {
     "kellyId": 1641,
@@ -7698,7 +7699,7 @@
     "examples": [
       "Min syster bor i Göteborg."
     ],
-    "inputHash": "da0860e2"
+    "inputHash": "e4da9698"
   },
   {
     "kellyId": 1644,
@@ -7712,7 +7713,7 @@
     "examples": [
       "Ta den högra dörren."
     ],
-    "inputHash": "d9742707"
+    "inputHash": "41e2b90f"
   },
   {
     "kellyId": 1646,
@@ -7726,7 +7727,7 @@
     "examples": [
       "Ett bud kom med paketet."
     ],
-    "inputHash": "bc3a26b7"
+    "inputHash": "60b9c0bb"
   },
   {
     "kellyId": 1649,
@@ -7747,14 +7748,14 @@
     "examples": [
       "Katten sitter uppe på taket."
     ],
-    "inputHash": "e6f0c3a3"
+    "inputHash": "618e60ed"
   },
   {
     "kellyId": 1656,
     "examples": [
       "Delningen av landet skapade problem."
     ],
-    "inputHash": "20938610"
+    "inputHash": "186286d1"
   },
   {
     "kellyId": 1657,
@@ -7768,7 +7769,7 @@
     "examples": [
       "Se bilagan för mer information."
     ],
-    "inputHash": "80e6edf7"
+    "inputHash": "8127918a"
   },
   {
     "kellyId": 1661,
@@ -7810,14 +7811,14 @@
     "examples": [
       "Han sover djupt."
     ],
-    "inputHash": "f7f7b7c0"
+    "inputHash": "d873b840"
   },
   {
     "kellyId": 1667,
     "examples": [
       "Vi ska på visning av lägenheten."
     ],
-    "inputHash": "d48699df"
+    "inputHash": "db588ef4"
   },
   {
     "kellyId": 1668,
@@ -7838,7 +7839,7 @@
     "examples": [
       "Du måste vara ärlig gentemot dina vänner."
     ],
-    "inputHash": "9838f8f3"
+    "inputHash": "13f93c9b"
   },
   {
     "kellyId": 1671,
@@ -7873,7 +7874,7 @@
     "examples": [
       "Det finns stor oro i landet."
     ],
-    "inputHash": "0d616253"
+    "inputHash": "3343e5ec"
   },
   {
     "kellyId": 1677,
@@ -7999,7 +8000,7 @@
     "examples": [
       "Kan jag låna din penna?"
     ],
-    "inputHash": "f8692ec5"
+    "inputHash": "44bdc2b9"
   },
   {
     "kellyId": 1699,
@@ -8041,14 +8042,14 @@
     "examples": [
       "Kakorna är slut."
     ],
-    "inputHash": "5504e58e"
+    "inputHash": "ccef627d"
   },
   {
     "kellyId": 1708,
     "examples": [
       "Han lagade cykeln på en timme."
     ],
-    "inputHash": "848bc87d"
+    "inputHash": "25581df2"
   },
   {
     "kellyId": 1709,
@@ -8083,14 +8084,14 @@
     "examples": [
       "Jag har ont i min arm."
     ],
-    "inputHash": "282b2490"
+    "inputHash": "7e1de7ad"
   },
   {
     "kellyId": 1720,
     "examples": [
       "Jag lyssnar på radio varje morgon."
     ],
-    "inputHash": "8c59cb66"
+    "inputHash": "3e695c3e"
   },
   {
     "kellyId": 1721,
@@ -8188,7 +8189,7 @@
     "examples": [
       "Han sitter ytterst i raden."
     ],
-    "inputHash": "a80f1e69"
+    "inputHash": "7c28b4c3"
   },
   {
     "kellyId": 1739,
@@ -8229,7 +8230,7 @@
     "examples": [
       "Vi flyger till Spanien i sommar."
     ],
-    "inputHash": "e20e822a"
+    "inputHash": "a93731dc"
   },
   {
     "kellyId": 1750,
@@ -8250,14 +8251,14 @@
     "examples": [
       "Bilen körde i hög fart."
     ],
-    "inputHash": "4291e2a5"
+    "inputHash": "abd39b33"
   },
   {
     "kellyId": 1753,
     "examples": [
       "En tant sitter och läser i parken."
     ],
-    "inputHash": "c9951440"
+    "inputHash": "e9323006"
   },
   {
     "kellyId": 1754,
@@ -8271,7 +8272,7 @@
     "examples": [
       "Förslaget mötte stark opposition."
     ],
-    "inputHash": "6bc6bbfb"
+    "inputHash": "4b5ea20e"
   },
   {
     "kellyId": 1759,
@@ -8299,7 +8300,7 @@
     "examples": [
       "Han är en representant för sitt land."
     ],
-    "inputHash": "92d34e3b"
+    "inputHash": "170de09c"
   },
   {
     "kellyId": 1764,
@@ -8327,14 +8328,14 @@
     "examples": [
       "Det namnet är bekant för mig."
     ],
-    "inputHash": "b9a09518"
+    "inputHash": "931c3f5e"
   },
   {
     "kellyId": 1772,
     "examples": [
       "Han hittade ett okänt föremål på golvet."
     ],
-    "inputHash": "b55eee87"
+    "inputHash": "9b5bb892"
   },
   {
     "kellyId": 1774,
@@ -8404,7 +8405,7 @@
     "examples": [
       "Jag uppskattar din hjälp."
     ],
-    "inputHash": "bc8f57d5"
+    "inputHash": "4dc3d777"
   },
   {
     "kellyId": 1787,
@@ -8446,7 +8447,7 @@
     "examples": [
       "Hjärtat är ett viktigt organ i kroppen."
     ],
-    "inputHash": "4a2fdd7b"
+    "inputHash": "e3c0bbca"
   },
   {
     "kellyId": 1801,
@@ -8474,7 +8475,7 @@
     "examples": [
       "Var vill du att jag lägger grejerna?"
     ],
-    "inputHash": "99a7ba5a"
+    "inputHash": "e67ea8c9"
   },
   {
     "kellyId": 1805,
@@ -8523,7 +8524,7 @@
     "examples": [
       "Hon fick ett bra betyg i matte."
     ],
-    "inputHash": "e5b79f94"
+    "inputHash": "599b323c"
   },
   {
     "kellyId": 1815,
@@ -8544,14 +8545,14 @@
     "examples": [
       "Paketet levererades i dag."
     ],
-    "inputHash": "4d7c1d99"
+    "inputHash": "b45d7e86"
   },
   {
     "kellyId": 1818,
     "examples": [
       "Han har rätt kompetens för jobbet."
     ],
-    "inputHash": "c5a08a2f"
+    "inputHash": "45cca4a8"
   },
   {
     "kellyId": 1819,
@@ -8593,7 +8594,7 @@
     "examples": [
       "Han är en företrädare för partiet."
     ],
-    "inputHash": "30c71d25"
+    "inputHash": "847b942b"
   },
   {
     "kellyId": 1827,
@@ -8621,7 +8622,7 @@
     "examples": [
       "Hon uppmärksammade ett fel i texten."
     ],
-    "inputHash": "a5e0c34e"
+    "inputHash": "85a9d7a8"
   },
   {
     "kellyId": 1834,
@@ -8656,21 +8657,21 @@
     "examples": [
       "Lagen har bred tillämpning."
     ],
-    "inputHash": "5ce595e9"
+    "inputHash": "94dbb18c"
   },
   {
     "kellyId": 1840,
     "examples": [
       "Vi garanterar god kvalitet."
     ],
-    "inputHash": "ac4eae73"
+    "inputHash": "ea1dcf6b"
   },
   {
     "kellyId": 1841,
     "examples": [
       "Jakt på älg är vanligt i Sverige."
     ],
-    "inputHash": "787df432"
+    "inputHash": "6f034a6e"
   },
   {
     "kellyId": 1842,
@@ -8691,7 +8692,7 @@
     "examples": [
       "Talar du svenska?"
     ],
-    "inputHash": "576c4969"
+    "inputHash": "57018087"
   },
   {
     "kellyId": 1845,
@@ -8712,7 +8713,7 @@
     "examples": [
       "Den gamla regimen har störtats."
     ],
-    "inputHash": "c9a15626"
+    "inputHash": "ea42a706"
   },
   {
     "kellyId": 1853,
@@ -8726,7 +8727,7 @@
     "examples": [
       "Försök att fokusera på uppgiften."
     ],
-    "inputHash": "e2058327"
+    "inputHash": "9250c022"
   },
   {
     "kellyId": 1855,
@@ -8747,14 +8748,14 @@
     "examples": [
       "Vänta en sekund."
     ],
-    "inputHash": "6054b143"
+    "inputHash": "3f6ddcbd"
   },
   {
     "kellyId": 1858,
     "examples": [
       "Jag kan reda ut det här problemet."
     ],
-    "inputHash": "ab5698df"
+    "inputHash": "a7448b8d"
   },
   {
     "kellyId": 1859,
@@ -8768,7 +8769,7 @@
     "examples": [
       "Maten är färdig."
     ],
-    "inputHash": "769cc3ee"
+    "inputHash": "090678d1"
   },
   {
     "kellyId": 1861,
@@ -8789,7 +8790,7 @@
     "examples": [
       "Det blåser en kall vind i dag."
     ],
-    "inputHash": "a853b87a"
+    "inputHash": "14663d2a"
   },
   {
     "kellyId": 1865,
@@ -8845,7 +8846,7 @@
     "examples": [
       "Havet var lugnt i morse."
     ],
-    "inputHash": "ef6981fd"
+    "inputHash": "9c0a8101"
   },
   {
     "kellyId": 1875,
@@ -8873,14 +8874,14 @@
     "examples": [
       "Tidpunkten är bestämd sedan länge."
     ],
-    "inputHash": "ff947ddc"
+    "inputHash": "a5d0c3a7"
   },
   {
     "kellyId": 1879,
     "examples": [
       "Han har god insikt i ämnet."
     ],
-    "inputHash": "e30e8c9a"
+    "inputHash": "4c9c053d"
   },
   {
     "kellyId": 1880,
@@ -8894,7 +8895,7 @@
     "examples": [
       "Ska vi spela kort?"
     ],
-    "inputHash": "c0f0ecc1"
+    "inputHash": "6ee7d648"
   },
   {
     "kellyId": 1882,
@@ -8908,7 +8909,7 @@
     "examples": [
       "Han är lite annorlunda än andra."
     ],
-    "inputHash": "1e9686a1"
+    "inputHash": "cced83c1"
   },
   {
     "kellyId": 1884,
@@ -8950,7 +8951,7 @@
     "examples": [
       "Skriv ditt namn på pappret."
     ],
-    "inputHash": "2c0be6aa"
+    "inputHash": "bd791ba9"
   },
   {
     "kellyId": 1892,
@@ -8978,14 +8979,14 @@
     "examples": [
       "Vi vill bevara naturen."
     ],
-    "inputHash": "c1707dd6"
+    "inputHash": "d5c305c9"
   },
   {
     "kellyId": 1897,
     "examples": [
       "Norrsken är ett vackert fenomen."
     ],
-    "inputHash": "1cc1df69"
+    "inputHash": "0a7a7808"
   },
   {
     "kellyId": 1898,
@@ -9013,7 +9014,7 @@
     "examples": [
       "Vilken inriktning har du valt?"
     ],
-    "inputHash": "55786887"
+    "inputHash": "7733fedd"
   },
   {
     "kellyId": 1903,
@@ -9027,7 +9028,7 @@
     "examples": [
       "Bilden hänger i en vacker ram."
     ],
-    "inputHash": "7229b3d7"
+    "inputHash": "e1dee272"
   },
   {
     "kellyId": 1905,
@@ -9062,21 +9063,21 @@
     "examples": [
       "Han klagar alltid på maten."
     ],
-    "inputHash": "6300e601"
+    "inputHash": "0ae72709"
   },
   {
     "kellyId": 1911,
     "examples": [
       "Han skattade att kostnaden skulle bli runt 1000 kr."
     ],
-    "inputHash": "a03d4b3c"
+    "inputHash": "52d204ae"
   },
   {
     "kellyId": 1912,
     "examples": [
       "De upprätta ett nytt avtal."
     ],
-    "inputHash": "ee1a0b17"
+    "inputHash": "e3157dd9"
   },
   {
     "kellyId": 1915,
@@ -9104,21 +9105,21 @@
     "examples": [
       "Undervisningen börjar klockan åtta."
     ],
-    "inputHash": "65d074f6"
+    "inputHash": "2fb3dcf5"
   },
   {
     "kellyId": 1923,
     "examples": [
       "Jobbet förutsätter god svenska."
     ],
-    "inputHash": "0ae94e9a"
+    "inputHash": "d15eea2a"
   },
   {
     "kellyId": 1926,
     "examples": [
       "Hon fick ett snitt i fingret."
     ],
-    "inputHash": "a56423d2"
+    "inputHash": "918b9588"
   },
   {
     "kellyId": 1928,
@@ -9132,7 +9133,7 @@
     "examples": [
       "Vad är din sysselsättning?"
     ],
-    "inputHash": "25519810"
+    "inputHash": "535b22ea"
   },
   {
     "kellyId": 1933,
@@ -9237,14 +9238,14 @@
     "examples": [
       "Bilen behöver ny olja."
     ],
-    "inputHash": "4677dad4"
+    "inputHash": "bb3d4c7c"
   },
   {
     "kellyId": 1953,
     "examples": [
       "Jag förbereder middag till kväll."
     ],
-    "inputHash": "7d714541"
+    "inputHash": "d4f0229a"
   },
   {
     "kellyId": 1954,
@@ -9279,14 +9280,14 @@
     "examples": [
       "Det lyser många stjärnor på himlen i natt."
     ],
-    "inputHash": "ee71d367"
+    "inputHash": "07d30e70"
   },
   {
     "kellyId": 1961,
     "examples": [
       "Klänningen är gjord av ett mjukt tyg."
     ],
-    "inputHash": "a04f34ee"
+    "inputHash": "49a08ffa"
   },
   {
     "kellyId": 1963,
@@ -9300,7 +9301,7 @@
     "examples": [
       "Vi spelar fotboll på lördag."
     ],
-    "inputHash": "aaf9d336"
+    "inputHash": "e842f92e"
   },
   {
     "kellyId": 1965,
@@ -9321,7 +9322,7 @@
     "examples": [
       "Hon hittade en gammal bibel på vinden."
     ],
-    "inputHash": "7ae069ec"
+    "inputHash": "58dba738"
   },
   {
     "kellyId": 1969,
@@ -9342,7 +9343,7 @@
     "examples": [
       "Han slängde bollen till mig."
     ],
-    "inputHash": "66bbbf5b"
+    "inputHash": "d1b270bb"
   },
   {
     "kellyId": 1975,
@@ -9356,14 +9357,14 @@
     "examples": [
       "Festen är i en stor lokal."
     ],
-    "inputHash": "81c2e2ab"
+    "inputHash": "4cc0072b"
   },
   {
     "kellyId": 1977,
     "examples": [
       "Vad blir summan?"
     ],
-    "inputHash": "9afccd34"
+    "inputHash": "56a202bf"
   },
   {
     "kellyId": 1978,
@@ -9426,14 +9427,14 @@
     "examples": [
       "Fabriken framställer papper."
     ],
-    "inputHash": "4ff0fa6f"
+    "inputHash": "3805064c"
   },
   {
     "kellyId": 1991,
     "examples": [
       "Han ramlade och slog sin ända."
     ],
-    "inputHash": "d0e9606a"
+    "inputHash": "b3e06ab6"
   },
   {
     "kellyId": 1992,
@@ -9475,14 +9476,14 @@
     "examples": [
       "Han gillar sport."
     ],
-    "inputHash": "19da4bde"
+    "inputHash": "4322ff3f"
   },
   {
     "kellyId": 2003,
     "examples": [
       "Det brinner! Det är eld i huset!"
     ],
-    "inputHash": "3cedbe5f"
+    "inputHash": "3d59dd96"
   },
   {
     "kellyId": 2007,
@@ -9538,14 +9539,14 @@
     "examples": [
       "Jordbruk är viktigt för landet."
     ],
-    "inputHash": "d6f6b854"
+    "inputHash": "e5dfd7e1"
   },
   {
     "kellyId": 2020,
     "examples": [
       "Det är trevligt med sällskap."
     ],
-    "inputHash": "e9dc5aad"
+    "inputHash": "083c4169"
   },
   {
     "kellyId": 2021,
@@ -9594,7 +9595,7 @@
     "examples": [
       "Solen går ner i väst."
     ],
-    "inputHash": "e12426e1"
+    "inputHash": "03eb1d23"
   },
   {
     "kellyId": 2029,
@@ -9608,28 +9609,28 @@
     "examples": [
       "Vill du prova den nya rätten?"
     ],
-    "inputHash": "d23824cf"
+    "inputHash": "2dc99acd"
   },
   {
     "kellyId": 2032,
     "examples": [
       "Det var ett dumt misstag."
     ],
-    "inputHash": "2b09d854"
+    "inputHash": "cfcf3266"
   },
   {
     "kellyId": 2033,
     "examples": [
       "Gör övningarna i boken."
     ],
-    "inputHash": "87df7687"
+    "inputHash": "bd0501f9"
   },
   {
     "kellyId": 2037,
     "examples": [
       "Kan du identifiera problemet?"
     ],
-    "inputHash": "7f616b41"
+    "inputHash": "dff93cbf"
   },
   {
     "kellyId": 2038,
@@ -9699,14 +9700,14 @@
     "examples": [
       "Jag stötte emot bordet i mörkret."
     ],
-    "inputHash": "ee0232a8"
+    "inputHash": "1c06149d"
   },
   {
     "kellyId": 2051,
     "examples": [
       "Han förnekade att han hade ljugit."
     ],
-    "inputHash": "f39bbf6b"
+    "inputHash": "8dfac493"
   },
   {
     "kellyId": 2052,
@@ -9720,7 +9721,7 @@
     "examples": [
       "Det var en stor demonstration i staden."
     ],
-    "inputHash": "58973554"
+    "inputHash": "e98bbe19"
   },
   {
     "kellyId": 2055,
@@ -9762,7 +9763,7 @@
     "examples": [
       "En främmande man kom fram till mig."
     ],
-    "inputHash": "e1df9191"
+    "inputHash": "f20352b4"
   },
   {
     "kellyId": 2063,
@@ -9783,7 +9784,7 @@
     "examples": [
       "Han har en konservativ syn på saken."
     ],
-    "inputHash": "34df9f31"
+    "inputHash": "9d271080"
   },
   {
     "kellyId": 2066,
@@ -9797,7 +9798,7 @@
     "examples": [
       "Den föreställningen stämmer inte."
     ],
-    "inputHash": "c4ca1f1e"
+    "inputHash": "d26143c2"
   },
   {
     "kellyId": 2070,
@@ -9818,7 +9819,7 @@
     "examples": [
       "Fågeln flyger på en höjd av tio meter."
     ],
-    "inputHash": "d2ece84a"
+    "inputHash": "4f981f53"
   },
   {
     "kellyId": 2073,
@@ -9930,7 +9931,7 @@
     "examples": [
       "Min doktor heter Lena."
     ],
-    "inputHash": "f5cf4d2c"
+    "inputHash": "7174c82f"
   },
   {
     "kellyId": 2092,
@@ -9965,7 +9966,7 @@
     "examples": [
       "Gå över bron."
     ],
-    "inputHash": "20a0f67f"
+    "inputHash": "18ca637d"
   },
   {
     "kellyId": 2097,
@@ -9979,7 +9980,7 @@
     "examples": [
       "Sverige ger bistånd till fattiga länder."
     ],
-    "inputHash": "6376280f"
+    "inputHash": "eb31d8fd"
   },
   {
     "kellyId": 2099,
@@ -9993,21 +9994,21 @@
     "examples": [
       "Stockholm är vår bas."
     ],
-    "inputHash": "fcee0819"
+    "inputHash": "b45338a0"
   },
   {
     "kellyId": 2101,
     "examples": [
       "Spara filen på datorn."
     ],
-    "inputHash": "97294034"
+    "inputHash": "c3aaf958"
   },
   {
     "kellyId": 2102,
     "examples": [
       "Jag föredrar kaffe framför te."
     ],
-    "inputHash": "6b85b367"
+    "inputHash": "f9fcc786"
   },
   {
     "kellyId": 2105,
@@ -10049,28 +10050,28 @@
     "examples": [
       "Du förtjänar en paus."
     ],
-    "inputHash": "36560991"
+    "inputHash": "5d8b2e2d"
   },
   {
     "kellyId": 2113,
     "examples": [
       "Hur som helst, nu måste jag åka hem."
     ],
-    "inputHash": "175edacf"
+    "inputHash": "496b689a"
   },
   {
     "kellyId": 2114,
     "examples": [
       "Det är en social norm."
     ],
-    "inputHash": "f7376ffe"
+    "inputHash": "cca140ea"
   },
   {
     "kellyId": 2115,
     "examples": [
       "Det är osäkert att gå ut ensam på natten."
     ],
-    "inputHash": "144240b7"
+    "inputHash": "ab9a3083"
   },
   {
     "kellyId": 2117,
@@ -10154,7 +10155,7 @@
     "examples": [
       "Vi söker ett billigt boende för semestern."
     ],
-    "inputHash": "e9920765"
+    "inputHash": "397f656b"
   },
   {
     "kellyId": 2130,
@@ -10168,7 +10169,7 @@
     "examples": [
       "Trollkarlen förvandlade henne till en fågel."
     ],
-    "inputHash": "ff68f09a"
+    "inputHash": "6218dd4d"
   },
   {
     "kellyId": 2132,
@@ -10203,7 +10204,7 @@
     "examples": [
       "Hon har ont i ett öra."
     ],
-    "inputHash": "1b260c92"
+    "inputHash": "23765596"
   },
   {
     "kellyId": 2138,
@@ -10266,7 +10267,7 @@
     "examples": [
       "Han hälsade på sin granne."
     ],
-    "inputHash": "8cb385fb"
+    "inputHash": "a2076a70"
   },
   {
     "kellyId": 2153,
@@ -10336,14 +10337,14 @@
     "examples": [
       "Han jobbar som tjänsteman på kommunen."
     ],
-    "inputHash": "dd3a5aa1"
+    "inputHash": "70073f77"
   },
   {
     "kellyId": 2166,
     "examples": [
       "Soldaterna gick i ett långt led."
     ],
-    "inputHash": "178de892"
+    "inputHash": "52ab8ba7"
   },
   {
     "kellyId": 2167,
@@ -10378,14 +10379,14 @@
     "examples": [
       "En lång flod rinner genom staden."
     ],
-    "inputHash": "c400119c"
+    "inputHash": "584522f8"
   },
   {
     "kellyId": 2172,
     "examples": [
       "Talaren pratade i en timme."
     ],
-    "inputHash": "109f37c0"
+    "inputHash": "3c403ea3"
   },
   {
     "kellyId": 2173,
@@ -10406,7 +10407,7 @@
     "examples": [
       "Sommaren ger stor värme."
     ],
-    "inputHash": "ca7bf3c6"
+    "inputHash": "a89647b3"
   },
   {
     "kellyId": 2176,
@@ -10434,7 +10435,7 @@
     "examples": [
       "En äldre dam satt på bänken."
     ],
-    "inputHash": "dbcc547f"
+    "inputHash": "7106a6ff"
   },
   {
     "kellyId": 2180,
@@ -10448,14 +10449,14 @@
     "examples": [
       "Polisen söker ett motiv för brottet."
     ],
-    "inputHash": "450f2df3"
+    "inputHash": "150e8870"
   },
   {
     "kellyId": 2182,
     "examples": [
       "Det finns stora olikheter mellan dem."
     ],
-    "inputHash": "f8ca1340"
+    "inputHash": "2e68a852"
   },
   {
     "kellyId": 2183,
@@ -10504,7 +10505,7 @@
     "examples": [
       "Varje hushåll betalar för soporna."
     ],
-    "inputHash": "8c09bcda"
+    "inputHash": "67b3db40"
   },
   {
     "kellyId": 2191,
@@ -10525,7 +10526,7 @@
     "examples": [
       "Kungen är en mäktig man."
     ],
-    "inputHash": "762a15c3"
+    "inputHash": "b393fd9c"
   },
   {
     "kellyId": 2194,
@@ -10553,7 +10554,7 @@
     "examples": [
       "Tyget har ett vackert mönster."
     ],
-    "inputHash": "af434484"
+    "inputHash": "e4a65cf0"
   },
   {
     "kellyId": 2199,
@@ -10581,14 +10582,14 @@
     "examples": [
       "Jag är orolig för mitt prov."
     ],
-    "inputHash": "f2dfe7f5"
+    "inputHash": "120a7495"
   },
   {
     "kellyId": 2206,
     "examples": [
       "Du måste motivera ditt beslut."
     ],
-    "inputHash": "93b106b0"
+    "inputHash": "8ba1ade5"
   },
   {
     "kellyId": 2207,
@@ -10609,7 +10610,7 @@
     "examples": [
       "Till sist hittade han nyckeln."
     ],
-    "inputHash": "dc0de106"
+    "inputHash": "8c9ee942"
   },
   {
     "kellyId": 2211,
@@ -10623,7 +10624,7 @@
     "examples": [
       "Båten låg i hamnen hela natten."
     ],
-    "inputHash": "e939b2dd"
+    "inputHash": "895ddedb"
   },
   {
     "kellyId": 2213,
@@ -10665,7 +10666,7 @@
     "examples": [
       "Vad är längden på bordet?"
     ],
-    "inputHash": "9a48d8c9"
+    "inputHash": "5da1915e"
   },
   {
     "kellyId": 2221,
@@ -10700,7 +10701,7 @@
     "examples": [
       "Hon är anställd på ett café."
     ],
-    "inputHash": "9f96df4d"
+    "inputHash": "a9dd95c7"
   },
   {
     "kellyId": 2229,
@@ -10749,14 +10750,14 @@
     "examples": [
       "Jag har ingen lust att städa idag."
     ],
-    "inputHash": "17d33ed5"
+    "inputHash": "de692fad"
   },
   {
     "kellyId": 2237,
     "examples": [
       "Jag betalar vid kassan."
     ],
-    "inputHash": "8dfc82b2"
+    "inputHash": "42a5cd4a"
   },
   {
     "kellyId": 2238,
@@ -10770,14 +10771,14 @@
     "examples": [
       "Målet avgörs i tingsrätten."
     ],
-    "inputHash": "8300ff23"
+    "inputHash": "4eaaa5d3"
   },
   {
     "kellyId": 2240,
     "examples": [
       "Hon arbetar på en annan avdelning."
     ],
-    "inputHash": "79aa1daa"
+    "inputHash": "499a9576"
   },
   {
     "kellyId": 2241,
@@ -10798,7 +10799,7 @@
     "examples": [
       "Solen lyser starkt idag."
     ],
-    "inputHash": "21cf6877"
+    "inputHash": "c4277cc6"
   },
   {
     "kellyId": 2244,
@@ -10812,7 +10813,7 @@
     "examples": [
       "Han synade bilen noga."
     ],
-    "inputHash": "f490be2a"
+    "inputHash": "188a1099"
   },
   {
     "kellyId": 2246,
@@ -10826,7 +10827,7 @@
     "examples": [
       "Det är en vanlig term i fysik."
     ],
-    "inputHash": "bd08e90e"
+    "inputHash": "3300b5d6"
   },
   {
     "kellyId": 2249,
@@ -10840,7 +10841,7 @@
     "examples": [
       "Vi ordnar transport till hotellet."
     ],
-    "inputHash": "9f6f0212"
+    "inputHash": "52705033"
   },
   {
     "kellyId": 2251,
@@ -10896,7 +10897,7 @@
     "examples": [
       "Statsrådet talade på mötet."
     ],
-    "inputHash": "038cc5ea"
+    "inputHash": "ac19a088"
   },
   {
     "kellyId": 2259,
@@ -10910,7 +10911,7 @@
     "examples": [
       "Jag gillar närheten till skogen."
     ],
-    "inputHash": "34d77921"
+    "inputHash": "8b4d2210"
   },
   {
     "kellyId": 2261,
@@ -10959,14 +10960,14 @@
     "examples": [
       "Han är angelägen om att lösa problemet."
     ],
-    "inputHash": "a34f6f0e"
+    "inputHash": "edb01c9a"
   },
   {
     "kellyId": 2275,
     "examples": [
       "Läraren engagerar eleverna i lektionen."
     ],
-    "inputHash": "9df1c906"
+    "inputHash": "3741b854"
   },
   {
     "kellyId": 2276,
@@ -11015,7 +11016,7 @@
     "examples": [
       "Domaren fattade ett beslut."
     ],
-    "inputHash": "cf2d15a3"
+    "inputHash": "fb86f495"
   },
   {
     "kellyId": 2287,
@@ -11029,7 +11030,7 @@
     "examples": [
       "Ringen är gjord av guld."
     ],
-    "inputHash": "c3ae3e60"
+    "inputHash": "29b12848"
   },
   {
     "kellyId": 2289,
@@ -11043,7 +11044,7 @@
     "examples": [
       "Kungen sover i sin kammare."
     ],
-    "inputHash": "e6a9fc7b"
+    "inputHash": "f6c92091"
   },
   {
     "kellyId": 2295,
@@ -11134,7 +11135,7 @@
     "examples": [
       "Det är en trevlig stämning på festen."
     ],
-    "inputHash": "2a61bfb0"
+    "inputHash": "5d7f4b81"
   },
   {
     "kellyId": 2309,
@@ -11176,7 +11177,7 @@
     "examples": [
       "Kostnaden uppgår till tusen kronor."
     ],
-    "inputHash": "0787b7f6"
+    "inputHash": "bb3559af"
   },
   {
     "kellyId": 2317,
@@ -11204,7 +11205,7 @@
     "examples": [
       "Han läser filosofi på universitetet."
     ],
-    "inputHash": "753efa9e"
+    "inputHash": "387af032"
   },
   {
     "kellyId": 2323,
@@ -11267,21 +11268,21 @@
     "examples": [
       "De beviljar honom ett lån."
     ],
-    "inputHash": "8c57208b"
+    "inputHash": "ce10f6d5"
   },
   {
     "kellyId": 2335,
     "examples": [
       "Ingen förmår lyfta den stenen."
     ],
-    "inputHash": "542e8dbe"
+    "inputHash": "10146256"
   },
   {
     "kellyId": 2336,
     "examples": [
       "Vägen är lång och rak."
     ],
-    "inputHash": "9ba0e874"
+    "inputHash": "cf8852e8"
   },
   {
     "kellyId": 2338,
@@ -11295,14 +11296,14 @@
     "examples": [
       "Ingen vet om livets existens på Mars."
     ],
-    "inputHash": "3030d6df"
+    "inputHash": "0f3dd2d8"
   },
   {
     "kellyId": 2341,
     "examples": [
       "Jag råkade bränna maten."
     ],
-    "inputHash": "2774325b"
+    "inputHash": "34b3f2c9"
   },
   {
     "kellyId": 2342,
@@ -11330,7 +11331,7 @@
     "examples": [
       "Tavlan föreställer ett bergslandskap."
     ],
-    "inputHash": "19524089"
+    "inputHash": "5e99c13a"
   },
   {
     "kellyId": 2346,
@@ -11351,7 +11352,7 @@
     "examples": [
       "Företaget vill anställa fler personer."
     ],
-    "inputHash": "5818bfc2"
+    "inputHash": "3f40df3d"
   },
   {
     "kellyId": 2352,
@@ -11365,7 +11366,7 @@
     "examples": [
       "Barnen var tysta hela kvällen."
     ],
-    "inputHash": "9361b28f"
+    "inputHash": "87522899"
   },
   {
     "kellyId": 2355,
@@ -11379,7 +11380,7 @@
     "examples": [
       "Jag drömmer om att resa till Japan."
     ],
-    "inputHash": "6ac14045"
+    "inputHash": "120e9bb0"
   },
   {
     "kellyId": 2359,
@@ -11421,21 +11422,21 @@
     "examples": [
       "Jag överväger att byta jobb."
     ],
-    "inputHash": "951c7f0d"
+    "inputHash": "e9ae65ba"
   },
   {
     "kellyId": 2367,
     "examples": [
       "Det var ett plötsligt stopp på vägen."
     ],
-    "inputHash": "7b5ad279"
+    "inputHash": "32128ede"
   },
   {
     "kellyId": 2368,
     "examples": [
       "Nålen hade en lång tråd."
     ],
-    "inputHash": "97f66e17"
+    "inputHash": "8785343e"
   },
   {
     "kellyId": 2372,
@@ -11519,14 +11520,14 @@
     "examples": [
       "Han fick ett stort arv av sin farfar."
     ],
-    "inputHash": "6036f5fa"
+    "inputHash": "be957458"
   },
   {
     "kellyId": 2388,
     "examples": [
       "Vi har ett seminarium på fredag."
     ],
-    "inputHash": "6828a750"
+    "inputHash": "52f108db"
   },
   {
     "kellyId": 2389,
@@ -11603,14 +11604,14 @@
     "examples": [
       "Det är ett ovanligt namn."
     ],
-    "inputHash": "5dfd7ecf"
+    "inputHash": "3dfdf44e"
   },
   {
     "kellyId": 2406,
     "examples": [
       "Vi skriver under ett kontrakt idag."
     ],
-    "inputHash": "980d45d6"
+    "inputHash": "86d8d0c5"
   },
   {
     "kellyId": 2407,
@@ -11645,7 +11646,7 @@
     "examples": [
       "Jag tittar på en video på nätet."
     ],
-    "inputHash": "057bdcc4"
+    "inputHash": "805f1ad4"
   },
   {
     "kellyId": 2413,
@@ -11694,7 +11695,7 @@
     "examples": [
       "Sverige använder kärnkraft för el."
     ],
-    "inputHash": "c4751622"
+    "inputHash": "84d65851"
   },
   {
     "kellyId": 2422,
@@ -11708,7 +11709,7 @@
     "examples": [
       "Han är känslig för kyla."
     ],
-    "inputHash": "022ca5c3"
+    "inputHash": "c3df1a49"
   },
   {
     "kellyId": 2427,
@@ -11764,7 +11765,7 @@
     "examples": [
       "Det hänger ett kors på väggen."
     ],
-    "inputHash": "793386a0"
+    "inputHash": "3cfe0073"
   },
   {
     "kellyId": 2437,
@@ -11778,21 +11779,21 @@
     "examples": [
       "Det krävs mod att säga sanningen."
     ],
-    "inputHash": "b93207f7"
+    "inputHash": "ec0e1479"
   },
   {
     "kellyId": 2440,
     "examples": [
       "Skåne är ett landskap i söder."
     ],
-    "inputHash": "d7f40f97"
+    "inputHash": "7d03a463"
   },
   {
     "kellyId": 2441,
     "examples": [
       "Hon överlämnade dokumenten till chefen."
     ],
-    "inputHash": "55dd5747"
+    "inputHash": "907718ef"
   },
   {
     "kellyId": 2442,
@@ -11806,7 +11807,7 @@
     "examples": [
       "Han är oskyldig – det vet alla."
     ],
-    "inputHash": "ec7a9037"
+    "inputHash": "5edf3aef"
   },
   {
     "kellyId": 2444,
@@ -11855,28 +11856,28 @@
     "examples": [
       "Lägg nycklarna i rätt fack."
     ],
-    "inputHash": "d52f3e4c"
+    "inputHash": "5532d3ae"
   },
   {
     "kellyId": 2451,
     "examples": [
       "Du kan komplettera din ansökan."
     ],
-    "inputHash": "7fe15ad6"
+    "inputHash": "1b72062e"
   },
   {
     "kellyId": 2452,
     "examples": [
       "Vi skriver ett protokoll efter mötet."
     ],
-    "inputHash": "fbc3ddc1"
+    "inputHash": "7010c552"
   },
   {
     "kellyId": 2453,
     "examples": [
       "Du hittar det på webben."
     ],
-    "inputHash": "5bfa66ae"
+    "inputHash": "1e1c4183"
   },
   {
     "kellyId": 2454,
@@ -11932,7 +11933,7 @@
     "examples": [
       "Det finns ett kriterium du måste möta."
     ],
-    "inputHash": "251e93a3"
+    "inputHash": "74baff8b"
   },
   {
     "kellyId": 2468,
@@ -11946,14 +11947,14 @@
     "examples": [
       "Det finns en tågförbindelse till staden."
     ],
-    "inputHash": "79ca73b7"
+    "inputHash": "2570d516"
   },
   {
     "kellyId": 2470,
     "examples": [
       "Soldaterna stoppade anfallet, men ett nytt angrepp kom."
     ],
-    "inputHash": "7ad9667b"
+    "inputHash": "61ae7fb2"
   },
   {
     "kellyId": 2471,
@@ -11967,7 +11968,7 @@
     "examples": [
       "Mamma läser en saga för barnen."
     ],
-    "inputHash": "7244aac2"
+    "inputHash": "f6029a4d"
   },
   {
     "kellyId": 2473,
@@ -11981,7 +11982,7 @@
     "examples": [
       "Jag cyklar till jobbet på min cykel."
     ],
-    "inputHash": "7a0e9d65"
+    "inputHash": "d6934b41"
   },
   {
     "kellyId": 2475,
@@ -11995,7 +11996,7 @@
     "examples": [
       "Det är frivilligt att delta."
     ],
-    "inputHash": "afca5dae"
+    "inputHash": "8fcbce95"
   },
   {
     "kellyId": 2477,
@@ -12030,7 +12031,7 @@
     "examples": [
       "Han skrev ett testamente."
     ],
-    "inputHash": "ab75e5b7"
+    "inputHash": "bd5d3e33"
   },
   {
     "kellyId": 2485,
@@ -12058,7 +12059,7 @@
     "examples": [
       "Jag har en reservation på hotellet."
     ],
-    "inputHash": "db6d4862"
+    "inputHash": "4ab06703"
   },
   {
     "kellyId": 2490,
@@ -12086,7 +12087,7 @@
     "examples": [
       "Han spelade med ett lätt anslag."
     ],
-    "inputHash": "a773c5c5"
+    "inputHash": "9e0be448"
   },
   {
     "kellyId": 2494,
@@ -12100,7 +12101,7 @@
     "examples": [
       "Det är äkta guld."
     ],
-    "inputHash": "5d0e3c44"
+    "inputHash": "c1506b37"
   },
   {
     "kellyId": 2497,
@@ -12135,14 +12136,14 @@
     "examples": [
       "Bandet uppträder på fredag."
     ],
-    "inputHash": "4c4784fb"
+    "inputHash": "c396cc6c"
   },
   {
     "kellyId": 2503,
     "examples": [
       "Hennes skönhet övergår allt jag sett."
     ],
-    "inputHash": "695f78eb"
+    "inputHash": "69f83262"
   },
   {
     "kellyId": 2506,
@@ -12177,7 +12178,7 @@
     "examples": [
       "De sparar pengar i en fond."
     ],
-    "inputHash": "e141758b"
+    "inputHash": "fde03487"
   },
   {
     "kellyId": 2511,
@@ -12219,7 +12220,7 @@
     "examples": [
       "Väderprognosen är bra för i morgon."
     ],
-    "inputHash": "5cad1fbb"
+    "inputHash": "00916250"
   },
   {
     "kellyId": 2520,
@@ -12247,7 +12248,7 @@
     "examples": [
       "De röjde mark för att bygga ett hus."
     ],
-    "inputHash": "2a1dd2d8"
+    "inputHash": "3ad7683d"
   },
   {
     "kellyId": 2528,
@@ -12268,7 +12269,7 @@
     "examples": [
       "Det är i och för sig en bra idé, men det kostar för mycket."
     ],
-    "inputHash": "498922d7"
+    "inputHash": "02d2e390"
   },
   {
     "kellyId": 2531,
@@ -12282,7 +12283,7 @@
     "examples": [
       "Två plus tre är fem."
     ],
-    "inputHash": "307c4624"
+    "inputHash": "601d03c7"
   },
   {
     "kellyId": 2533,
@@ -12296,7 +12297,7 @@
     "examples": [
       "De renar vattnet innan de dricker det."
     ],
-    "inputHash": "2ddf8c0f"
+    "inputHash": "5ee8620e"
   },
   {
     "kellyId": 2535,
@@ -12310,7 +12311,7 @@
     "examples": [
       "Någon stjäl min cykel!"
     ],
-    "inputHash": "eb6e453b"
+    "inputHash": "346b3e62"
   },
   {
     "kellyId": 2537,
@@ -12331,14 +12332,14 @@
     "examples": [
       "Han bemöter kritiken lugnt."
     ],
-    "inputHash": "e470a2b9"
+    "inputHash": "01a5024c"
   },
   {
     "kellyId": 2543,
     "examples": [
       "Skadan är bestående."
     ],
-    "inputHash": "dad8ad78"
+    "inputHash": "8c11e6a2"
   },
   {
     "kellyId": 2546,
@@ -12387,7 +12388,7 @@
     "examples": [
       "Det var en god gärning att hjälpa honom."
     ],
-    "inputHash": "e7ee43de"
+    "inputHash": "53155f36"
   },
   {
     "kellyId": 2553,
@@ -12422,14 +12423,14 @@
     "examples": [
       "Han avbröt mötet tidigt."
     ],
-    "inputHash": "513c7a2e"
+    "inputHash": "37c3aa7f"
   },
   {
     "kellyId": 2561,
     "examples": [
       "Jag måste stryka skjortan innan festen."
     ],
-    "inputHash": "2f8b2210"
+    "inputHash": "f9c910aa"
   },
   {
     "kellyId": 2562,
@@ -12457,14 +12458,14 @@
     "examples": [
       "Läraren understryker de viktiga orden."
     ],
-    "inputHash": "eed00074"
+    "inputHash": "4e7b1a39"
   },
   {
     "kellyId": 2569,
     "examples": [
       "Bandet ger ut ett nytt album."
     ],
-    "inputHash": "0bfe1f1e"
+    "inputHash": "63718d74"
   },
   {
     "kellyId": 2570,
@@ -12485,7 +12486,7 @@
     "examples": [
       "Fördelningen av pengar är inte rättvis."
     ],
-    "inputHash": "47c5d757"
+    "inputHash": "c6ea79b7"
   },
   {
     "kellyId": 2573,
@@ -12555,7 +12556,7 @@
     "examples": [
       "Jag trivs bra på mitt nya jobb."
     ],
-    "inputHash": "3dde688f"
+    "inputHash": "086188a9"
   },
   {
     "kellyId": 2593,
@@ -12618,14 +12619,14 @@
     "examples": [
       "Kritikerna gillar inte filmen."
     ],
-    "inputHash": "0331537b"
+    "inputHash": "17d25869"
   },
   {
     "kellyId": 2607,
     "examples": [
       "Priset är moderat."
     ],
-    "inputHash": "4e346b91"
+    "inputHash": "9c0355cf"
   },
   {
     "kellyId": 2610,
@@ -12653,7 +12654,7 @@
     "examples": [
       "Du måste förhålla dig lugn i den situationen."
     ],
-    "inputHash": "eb56e02e"
+    "inputHash": "b64b3dec"
   },
   {
     "kellyId": 2617,
@@ -12751,14 +12752,14 @@
     "examples": [
       "Nyheten bringade dem glädje."
     ],
-    "inputHash": "d2a104c9"
+    "inputHash": "21d2300b"
   },
   {
     "kellyId": 2634,
     "examples": [
       "Alla ville hylla vinnaren."
     ],
-    "inputHash": "8d7e9fc4"
+    "inputHash": "ca68c50f"
   },
   {
     "kellyId": 2635,
@@ -12813,7 +12814,7 @@
     "examples": [
       "Han skriver en krönika i tidningen."
     ],
-    "inputHash": "3854675b"
+    "inputHash": "b8116e4f"
   },
   {
     "kellyId": 2647,
@@ -12848,14 +12849,14 @@
     "examples": [
       "Vad är det egentliga problemet?"
     ],
-    "inputHash": "42ffe9e3"
+    "inputHash": "e93d5af0"
   },
   {
     "kellyId": 2653,
     "examples": [
       "Integration är viktig i ett mångkulturellt land."
     ],
-    "inputHash": "e50f0038"
+    "inputHash": "10f4a697"
   },
   {
     "kellyId": 2655,
@@ -12876,7 +12877,7 @@
     "examples": [
       "Följ föreskrifterna på förpackningen."
     ],
-    "inputHash": "e8e12586"
+    "inputHash": "72a721a8"
   },
   {
     "kellyId": 2660,
@@ -12960,7 +12961,7 @@
     "examples": [
       "Jag vill göra ett litet tillägg."
     ],
-    "inputHash": "036bd397"
+    "inputHash": "752fa400"
   },
   {
     "kellyId": 2676,
@@ -12974,14 +12975,14 @@
     "examples": [
       "Hon klivade in i rummet."
     ],
-    "inputHash": "45527ae9"
+    "inputHash": "df04e2bf"
   },
   {
     "kellyId": 2678,
     "examples": [
       "Vi gick över bron till andra sidan."
     ],
-    "inputHash": "29cd9930"
+    "inputHash": "cc8be3d4"
   },
   {
     "kellyId": 2679,
@@ -13009,7 +13010,7 @@
     "examples": [
       "Priset innefattar frukost och middag."
     ],
-    "inputHash": "6dc4399e"
+    "inputHash": "384cbb03"
   },
   {
     "kellyId": 2684,
@@ -13044,7 +13045,7 @@
     "examples": [
       "Det var tystnad i rummet."
     ],
-    "inputHash": "728b3a42"
+    "inputHash": "19b78cc4"
   },
   {
     "kellyId": 2689,
@@ -13058,21 +13059,21 @@
     "examples": [
       "Han genomgår en svår tid."
     ],
-    "inputHash": "8e0f4724"
+    "inputHash": "d5fce8e9"
   },
   {
     "kellyId": 2691,
     "examples": [
       "Han bad om nåd."
     ],
-    "inputHash": "20f8707f"
+    "inputHash": "27bcde66"
   },
   {
     "kellyId": 2692,
     "examples": [
       "Redaktionen bestämmer vad som publiceras."
     ],
-    "inputHash": "1fcc698b"
+    "inputHash": "3e6d0d1d"
   },
   {
     "kellyId": 2693,
@@ -13093,7 +13094,7 @@
     "examples": [
       "Han är en gammal kamrat till mig."
     ],
-    "inputHash": "3678b621"
+    "inputHash": "d57fe9dd"
   },
   {
     "kellyId": 2697,
@@ -13114,14 +13115,14 @@
     "examples": [
       "Betyget ges på en skala från ett till tio."
     ],
-    "inputHash": "b4ffa83f"
+    "inputHash": "d458d4b2"
   },
   {
     "kellyId": 2701,
     "examples": [
       "Rummet har en fin utsikt över sjön."
     ],
-    "inputHash": "f3b517eb"
+    "inputHash": "cb524935"
   },
   {
     "kellyId": 2702,
@@ -13198,7 +13199,7 @@
     "examples": [
       "Det var ett bra utbyte av idéer."
     ],
-    "inputHash": "09018ccd"
+    "inputHash": "38cf9ee1"
   },
   {
     "kellyId": 2717,
@@ -13247,7 +13248,7 @@
     "examples": [
       "Naturen ger mig inspiration."
     ],
-    "inputHash": "c829c73c"
+    "inputHash": "c32abc26"
   },
   {
     "kellyId": 2725,
@@ -13267,14 +13268,14 @@
     "examples": [
       "Vägen löper längs kusten."
     ],
-    "inputHash": "0e0151f3"
+    "inputHash": "6a779198"
   },
   {
     "kellyId": 2730,
     "examples": [
       "Löven tappade sina blad på hösten."
     ],
-    "inputHash": "12dec035"
+    "inputHash": "1e27c41f"
   },
   {
     "kellyId": 2731,
@@ -13316,7 +13317,7 @@
     "examples": [
       "Det finns mycket osäkerhet om framtiden."
     ],
-    "inputHash": "9d269a76"
+    "inputHash": "1b878a4c"
   },
   {
     "kellyId": 2739,
@@ -13337,7 +13338,7 @@
     "examples": [
       "Den här produkten har ett års garanti."
     ],
-    "inputHash": "e936ac61"
+    "inputHash": "79fcdb58"
   },
   {
     "kellyId": 2748,
@@ -13351,7 +13352,7 @@
     "examples": [
       "De ska tillsätta en ny chef."
     ],
-    "inputHash": "98e8a9e6"
+    "inputHash": "ba9a21dd"
   },
   {
     "kellyId": 2752,
@@ -13365,7 +13366,7 @@
     "examples": [
       "Jag är mycket tacksam för din hjälp."
     ],
-    "inputHash": "2feb5428"
+    "inputHash": "0014f9a2"
   },
   {
     "kellyId": 2754,
@@ -13428,14 +13429,14 @@
     "examples": [
       "Det stora skeppet lämnade hamnen."
     ],
-    "inputHash": "6bfb14f0"
+    "inputHash": "474a3f3f"
   },
   {
     "kellyId": 2763,
     "examples": [
       "Var är utgången?"
     ],
-    "inputHash": "79ad4cea"
+    "inputHash": "5e95ac6f"
   },
   {
     "kellyId": 2764,
@@ -13505,21 +13506,21 @@
     "examples": [
       "Jag slog mig i knät."
     ],
-    "inputHash": "9e094596"
+    "inputHash": "d79b6623"
   },
   {
     "kellyId": 2774,
     "examples": [
       "Vatten är ett viktigt element i naturen."
     ],
-    "inputHash": "4bdd1156"
+    "inputHash": "e0d17ec4"
   },
   {
     "kellyId": 2775,
     "examples": [
       "Det var en fredlig dag i parken."
     ],
-    "inputHash": "c9123ebb"
+    "inputHash": "4f596eaf"
   },
   {
     "kellyId": 2778,
@@ -13533,7 +13534,7 @@
     "examples": [
       "Trädet ger en stor skugga."
     ],
-    "inputHash": "0f2cb0c0"
+    "inputHash": "45b57127"
   },
   {
     "kellyId": 2780,
@@ -13575,14 +13576,14 @@
     "examples": [
       "De ska fälla ett stort träd."
     ],
-    "inputHash": "59d485d2"
+    "inputHash": "4046f6d8"
   },
   {
     "kellyId": 2786,
     "examples": [
       "Vill du smaka på soppan?"
     ],
-    "inputHash": "70b16c24"
+    "inputHash": "80e5cfbb"
   },
   {
     "kellyId": 2789,
@@ -13596,7 +13597,7 @@
     "examples": [
       "Experten värderade tavlan till tio tusen kronor."
     ],
-    "inputHash": "a137cb76"
+    "inputHash": "bf833f71"
   },
   {
     "kellyId": 2791,
@@ -13631,7 +13632,7 @@
     "examples": [
       "Vi fördelade arbetet mellan oss."
     ],
-    "inputHash": "e1c80070"
+    "inputHash": "5c98a3bf"
   },
   {
     "kellyId": 2797,
@@ -13645,7 +13646,7 @@
     "examples": [
       "De vill reducera kostnaderna."
     ],
-    "inputHash": "8d42a134"
+    "inputHash": "56169dab"
   },
   {
     "kellyId": 2799,
@@ -13673,7 +13674,7 @@
     "examples": [
       "Övergången till ett nytt system tar tid."
     ],
-    "inputHash": "bc47025e"
+    "inputHash": "62dea745"
   },
   {
     "kellyId": 2803,
@@ -13715,14 +13716,14 @@
     "examples": [
       "Barnet visade sin teckning för läraren."
     ],
-    "inputHash": "122b199b"
+    "inputHash": "83322cb9"
   },
   {
     "kellyId": 2812,
     "examples": [
       "Ministern valde att avgå."
     ],
-    "inputHash": "5952006d"
+    "inputHash": "391cff4e"
   },
   {
     "kellyId": 2813,
@@ -13750,14 +13751,14 @@
     "examples": [
       "Det var en kunglig middag."
     ],
-    "inputHash": "92a37c56"
+    "inputHash": "9aeed1eb"
   },
   {
     "kellyId": 2818,
     "examples": [
       "Skicka in din anmälan innan fredag."
     ],
-    "inputHash": "d6100513"
+    "inputHash": "404b86c2"
   },
   {
     "kellyId": 2819,
@@ -13820,7 +13821,7 @@
     "examples": [
       "Hon har en akademisk utbildning."
     ],
-    "inputHash": "3dc300d4"
+    "inputHash": "89758517"
   },
   {
     "kellyId": 2829,
@@ -13834,7 +13835,7 @@
     "examples": [
       "De bor i en stor våning i stan."
     ],
-    "inputHash": "fbcaac57"
+    "inputHash": "98502597"
   },
   {
     "kellyId": 2833,
@@ -13904,7 +13905,7 @@
     "examples": [
       "Jag instämmer helt med ditt förslag."
     ],
-    "inputHash": "e0bce7ce"
+    "inputHash": "3daa0b7f"
   },
   {
     "kellyId": 2845,
@@ -13925,7 +13926,7 @@
     "examples": [
       "De bodde i landets yttersta del."
     ],
-    "inputHash": "08996e27"
+    "inputHash": "0c131c79"
   },
   {
     "kellyId": 2849,
@@ -13939,14 +13940,14 @@
     "examples": [
       "Luften är torr på vintern."
     ],
-    "inputHash": "0a95b798"
+    "inputHash": "4e063e94"
   },
   {
     "kellyId": 2851,
     "examples": [
       "Socker smakar sött."
     ],
-    "inputHash": "8f7f02fd"
+    "inputHash": "b432653e"
   },
   {
     "kellyId": 2852,
@@ -13981,7 +13982,7 @@
     "examples": [
       "Du gör mig ledsen."
     ],
-    "inputHash": "1b0c65b9"
+    "inputHash": "5674247a"
   },
   {
     "kellyId": 2858,
@@ -13995,14 +13996,14 @@
     "examples": [
       "Vi såg en pjäs på teatern."
     ],
-    "inputHash": "a99b0eca"
+    "inputHash": "3f00d1f0"
   },
   {
     "kellyId": 2861,
     "examples": [
       "Du bör försäkra din cykel mot stöld."
     ],
-    "inputHash": "299bf8f6"
+    "inputHash": "adf32310"
   },
   {
     "kellyId": 2862,
@@ -14051,7 +14052,7 @@
     "examples": [
       "Hon bar ett halsband runt halsen."
     ],
-    "inputHash": "1e6a9bfd"
+    "inputHash": "467a123a"
   },
   {
     "kellyId": 2871,
@@ -14086,14 +14087,14 @@
     "examples": [
       "Himlen är grå och molnig."
     ],
-    "inputHash": "fe43d017"
+    "inputHash": "e7545e7d"
   },
   {
     "kellyId": 2879,
     "examples": [
       "Han krossade glaset mot golvet."
     ],
-    "inputHash": "e9394c3b"
+    "inputHash": "723806d5"
   },
   {
     "kellyId": 2880,
@@ -14135,7 +14136,7 @@
     "examples": [
       "Det är min fasta övertygelse."
     ],
-    "inputHash": "0d3cbfba"
+    "inputHash": "8818f305"
   },
   {
     "kellyId": 2889,
@@ -14226,14 +14227,14 @@
     "examples": [
       "Barn har en rik fantasi."
     ],
-    "inputHash": "53f15748"
+    "inputHash": "4f875966"
   },
   {
     "kellyId": 2909,
     "examples": [
       "Styrelsen beslutade att avsätta chefen."
     ],
-    "inputHash": "d0829648"
+    "inputHash": "51100002"
   },
   {
     "kellyId": 2910,
@@ -14289,7 +14290,7 @@
     "examples": [
       "Han sparkade bollen i mål."
     ],
-    "inputHash": "368c8180"
+    "inputHash": "e9e64ccf"
   },
   {
     "kellyId": 2922,
@@ -14359,7 +14360,7 @@
     "examples": [
       "De trodde att kungen hade gudomlig makt."
     ],
-    "inputHash": "ca79c485"
+    "inputHash": "6ae396ed"
   },
   {
     "kellyId": 2934,
@@ -14387,7 +14388,7 @@
     "examples": [
       "Hon bar väskan på axeln."
     ],
-    "inputHash": "1068e66a"
+    "inputHash": "9ee0a6f5"
   },
   {
     "kellyId": 2941,
@@ -14408,7 +14409,7 @@
     "examples": [
       "Bryggan är en imponerande konstruktion."
     ],
-    "inputHash": "e2c280de"
+    "inputHash": "5e7d4b10"
   },
   {
     "kellyId": 2944,
@@ -14471,7 +14472,7 @@
     "examples": [
       "Ring mig snarast!"
     ],
-    "inputHash": "f079f7f9"
+    "inputHash": "7fa281d0"
   },
   {
     "kellyId": 2960,
@@ -14520,14 +14521,14 @@
     "examples": [
       "Han offrade sin tid för att hjälpa oss."
     ],
-    "inputHash": "fcd704bc"
+    "inputHash": "0064ff73"
   },
   {
     "kellyId": 2970,
     "examples": [
       "Varorna finns i lagret."
     ],
-    "inputHash": "aa9306d9"
+    "inputHash": "77e5ff89"
   },
   {
     "kellyId": 2971,
@@ -14597,7 +14598,7 @@
     "examples": [
       "Han arbetar som producent i musikbranschen."
     ],
-    "inputHash": "fb71489c"
+    "inputHash": "df7a56cd"
   },
   {
     "kellyId": 2983,
@@ -14632,7 +14633,7 @@
     "examples": [
       "Kan du installera det här programmet?"
     ],
-    "inputHash": "65484bd8"
+    "inputHash": "4099853e"
   },
   {
     "kellyId": 2988,
@@ -14681,14 +14682,14 @@
     "examples": [
       "Ett hundratal människor kom till mötet."
     ],
-    "inputHash": "be8fdc93"
+    "inputHash": "d37cb08f"
   },
   {
     "kellyId": 3001,
     "examples": [
       "Hunden bet honom i handen."
     ],
-    "inputHash": "409380be"
+    "inputHash": "bfbc524f"
   },
   {
     "kellyId": 3002,
@@ -14702,7 +14703,7 @@
     "examples": [
       "Han är min stora hjälte."
     ],
-    "inputHash": "27e237f8"
+    "inputHash": "b6831f0e"
   },
   {
     "kellyId": 3004,
@@ -14737,7 +14738,7 @@
     "examples": [
       "Det är stark ström i den här floden."
     ],
-    "inputHash": "71640220"
+    "inputHash": "0c83cfa0"
   },
   {
     "kellyId": 3009,
@@ -14793,7 +14794,7 @@
     "examples": [
       "Det är ett intressant koncept."
     ],
-    "inputHash": "4b342d21"
+    "inputHash": "c55ed1a7"
   },
   {
     "kellyId": 3020,
@@ -14807,7 +14808,7 @@
     "examples": [
       "Han är en bra förebild för unga."
     ],
-    "inputHash": "f58a7552"
+    "inputHash": "8ca01b64"
   },
   {
     "kellyId": 3022,
@@ -14821,7 +14822,7 @@
     "examples": [
       "Jag följde ett recept för att baka bröd."
     ],
-    "inputHash": "37f4d3e1"
+    "inputHash": "39c94bc2"
   },
   {
     "kellyId": 3024,
@@ -14856,7 +14857,7 @@
     "examples": [
       "Upplysningen förändrade sättet att tänka."
     ],
-    "inputHash": "baf29138"
+    "inputHash": "11e10ca1"
   },
   {
     "kellyId": 3029,
@@ -14933,7 +14934,7 @@
     "examples": [
       "Det är en blandning av kaffe och mjölk."
     ],
-    "inputHash": "31430ca7"
+    "inputHash": "950e42d1"
   },
   {
     "kellyId": 3047,
@@ -14947,14 +14948,14 @@
     "examples": [
       "Laget vann finalen med ett mål."
     ],
-    "inputHash": "b08c1cba"
+    "inputHash": "8e6c9071"
   },
   {
     "kellyId": 3049,
     "examples": [
       "Boken är tjock och tung."
     ],
-    "inputHash": "a840b1a8"
+    "inputHash": "2856fb0f"
   },
   {
     "kellyId": 3050,
@@ -14982,7 +14983,7 @@
     "examples": [
       "Tavlans placering på väggen är perfekt."
     ],
-    "inputHash": "9ae25a05"
+    "inputHash": "3399ec22"
   },
   {
     "kellyId": 3060,
@@ -15024,7 +15025,7 @@
     "examples": [
       "Sjöns djup är 60 meter."
     ],
-    "inputHash": "974b2064"
+    "inputHash": "657deea9"
   },
   {
     "kellyId": 3068,
@@ -15066,7 +15067,7 @@
     "examples": [
       "Det kan straffa sig att ljuga."
     ],
-    "inputHash": "8960cf5c"
+    "inputHash": "c0038e62"
   },
   {
     "kellyId": 3075,
@@ -15094,14 +15095,14 @@
     "examples": [
       "Bilen fick en skada på fronten."
     ],
-    "inputHash": "7b0cd2b9"
+    "inputHash": "c8ef8f41"
   },
   {
     "kellyId": 3080,
     "examples": [
       "Världen fördömde attacken."
     ],
-    "inputHash": "6490e952"
+    "inputHash": "4bbcf018"
   },
   {
     "kellyId": 3081,
@@ -15129,7 +15130,7 @@
     "examples": [
       "Hon har varit verksam som lärare i tio år."
     ],
-    "inputHash": "21c52840"
+    "inputHash": "a3edb7da"
   },
   {
     "kellyId": 3086,
@@ -15171,7 +15172,7 @@
     "examples": [
       "Han fick ett välförtjänt erkännande för sitt arbete."
     ],
-    "inputHash": "beee1f8c"
+    "inputHash": "cf3acd3e"
   },
   {
     "kellyId": 3098,
@@ -15227,7 +15228,7 @@
     "examples": [
       "Slavarna tvingades arbeta utan lön."
     ],
-    "inputHash": "569dea38"
+    "inputHash": "8874b459"
   },
   {
     "kellyId": 3108,
@@ -15276,7 +15277,7 @@
     "examples": [
       "En svensk flagga hänger utanför skolan."
     ],
-    "inputHash": "f52f439e"
+    "inputHash": "7aa84dd1"
   },
   {
     "kellyId": 3116,
@@ -15290,7 +15291,7 @@
     "examples": [
       "Barnet byggde ett torn av block."
     ],
-    "inputHash": "6d4df7e7"
+    "inputHash": "84ac885e"
   },
   {
     "kellyId": 3118,
@@ -15339,7 +15340,7 @@
     "examples": [
       "Det är mysigt hemma på kvällen."
     ],
-    "inputHash": "4aed941d"
+    "inputHash": "ecf64c38"
   },
   {
     "kellyId": 3127,
@@ -15388,14 +15389,14 @@
     "examples": [
       "Det är akut – vi måste åka nu."
     ],
-    "inputHash": "72416686"
+    "inputHash": "dc4936e6"
   },
   {
     "kellyId": 3135,
     "examples": [
       "Problemet kvarstår trots många försök."
     ],
-    "inputHash": "45790bd1"
+    "inputHash": "89e32c1f"
   },
   {
     "kellyId": 3136,
@@ -15416,7 +15417,7 @@
     "examples": [
       "Mötet hålls på ett konferenscenter."
     ],
-    "inputHash": "a71e19e7"
+    "inputHash": "0b6ef2fd"
   },
   {
     "kellyId": 3139,
@@ -15437,7 +15438,7 @@
     "examples": [
       "De spelade förlängning i finalmatchen."
     ],
-    "inputHash": "7b423fde"
+    "inputHash": "3e769b57"
   },
   {
     "kellyId": 3144,
@@ -15465,7 +15466,7 @@
     "examples": [
       "Isen är tunn – gå inte ut på den."
     ],
-    "inputHash": "dd2e0223"
+    "inputHash": "e3a50e85"
   },
   {
     "kellyId": 3151,
@@ -15535,7 +15536,7 @@
     "examples": [
       "Lastbilen bar en tung last."
     ],
-    "inputHash": "7a1dd7cc"
+    "inputHash": "28d9ba0f"
   },
   {
     "kellyId": 3166,
@@ -15570,7 +15571,7 @@
     "examples": [
       "Han försörjer sin familj som lärare."
     ],
-    "inputHash": "cc98e0f8"
+    "inputHash": "8d1d6016"
   },
   {
     "kellyId": 3171,
@@ -15626,14 +15627,14 @@
     "examples": [
       "Han åt en ordentlig frukost innan jobbet."
     ],
-    "inputHash": "34dc9fb2"
+    "inputHash": "c9f378be"
   },
   {
     "kellyId": 3184,
     "examples": [
       "Hon klädde sig i röd klänning."
     ],
-    "inputHash": "60346e94"
+    "inputHash": "d56d006c"
   },
   {
     "kellyId": 3185,
@@ -15668,7 +15669,7 @@
     "examples": [
       "Kan du backa bilen lite?"
     ],
-    "inputHash": "03e6ea84"
+    "inputHash": "a5511324"
   },
   {
     "kellyId": 3193,
@@ -15717,7 +15718,7 @@
     "examples": [
       "Alla medborgare finns i ett offentligt register."
     ],
-    "inputHash": "6da895f5"
+    "inputHash": "b47c62cb"
   },
   {
     "kellyId": 3201,
@@ -15766,7 +15767,7 @@
     "examples": [
       "Han ser olycklig ut."
     ],
-    "inputHash": "3eaac2b0"
+    "inputHash": "f64b97f2"
   },
   {
     "kellyId": 3209,
@@ -15836,7 +15837,7 @@
     "examples": [
       "Maten var god men ganska fet."
     ],
-    "inputHash": "b6096e09"
+    "inputHash": "49775516"
   },
   {
     "kellyId": 3221,
@@ -15850,7 +15851,7 @@
     "examples": [
       "Ett tiotal personer väntade utanför."
     ],
-    "inputHash": "43b6db9e"
+    "inputHash": "36972e4f"
   },
   {
     "kellyId": 3223,
@@ -15864,7 +15865,7 @@
     "examples": [
       "Jag köpte ett stycke ost på marknaden."
     ],
-    "inputHash": "b20c71b3"
+    "inputHash": "b30abdac"
   },
   {
     "kellyId": 3225,
@@ -15899,7 +15900,7 @@
     "examples": [
       "Det är viktigt att reflektera över sina misstag."
     ],
-    "inputHash": "45384c77"
+    "inputHash": "d0031c32"
   },
   {
     "kellyId": 3231,
@@ -15913,7 +15914,7 @@
     "examples": [
       "Rektorn välkomnde de nya eleverna."
     ],
-    "inputHash": "b9f2a278"
+    "inputHash": "90cb3936"
   },
   {
     "kellyId": 3233,
@@ -15927,7 +15928,7 @@
     "examples": [
       "Sverige var neutralt under kriget."
     ],
-    "inputHash": "66661829"
+    "inputHash": "47dc01e2"
   },
   {
     "kellyId": 3235,
@@ -15955,7 +15956,7 @@
     "examples": [
       "Det gladde mig att höra det."
     ],
-    "inputHash": "1addaaaf"
+    "inputHash": "4df0959c"
   },
   {
     "kellyId": 3240,
@@ -15990,7 +15991,7 @@
     "examples": [
       "Tåget avgick från plattform tre."
     ],
-    "inputHash": "12dca5e9"
+    "inputHash": "6c77c17a"
   },
   {
     "kellyId": 3245,
@@ -16011,7 +16012,7 @@
     "examples": [
       "Morgonrutinen hjälper honom att starta dagen."
     ],
-    "inputHash": "c0717bbe"
+    "inputHash": "db927f6a"
   },
   {
     "kellyId": 3249,
@@ -16067,7 +16068,7 @@
     "examples": [
       "Jag packade väskan inför resan."
     ],
-    "inputHash": "194bbbea"
+    "inputHash": "a5266393"
   },
   {
     "kellyId": 3258,
@@ -16088,7 +16089,7 @@
     "examples": [
       "Golvet täcktes av vita plattor."
     ],
-    "inputHash": "04355053"
+    "inputHash": "f16791f6"
   },
   {
     "kellyId": 3261,
@@ -16102,7 +16103,7 @@
     "examples": [
       "Kroppen består av miljarder celler."
     ],
-    "inputHash": "b22491d3"
+    "inputHash": "8ffc9832"
   },
   {
     "kellyId": 3263,
@@ -16186,7 +16187,7 @@
     "examples": [
       "Skolan försöker tillgodose alla elevers behov."
     ],
-    "inputHash": "465486cc"
+    "inputHash": "ce23d75a"
   },
   {
     "kellyId": 3279,
@@ -16214,7 +16215,7 @@
     "examples": [
       "Trötthet är en svaghet när man är sjuk."
     ],
-    "inputHash": "8e80ec26"
+    "inputHash": "7df627f1"
   },
   {
     "kellyId": 3283,
@@ -16228,7 +16229,7 @@
     "examples": [
       "DSB är den danska motsvarigheten till SJ."
     ],
-    "inputHash": "2ddd40f1"
+    "inputHash": "757410a9"
   },
   {
     "kellyId": 3285,
@@ -16256,7 +16257,7 @@
     "examples": [
       "Det finns åtskilliga sätt att lösa det."
     ],
-    "inputHash": "53924861"
+    "inputHash": "d401ed3b"
   },
   {
     "kellyId": 3289,
@@ -16270,7 +16271,7 @@
     "examples": [
       "Hon åt en rå morot till lunch."
     ],
-    "inputHash": "521f5eb4"
+    "inputHash": "3ed905b9"
   },
   {
     "kellyId": 3292,
@@ -16291,7 +16292,7 @@
     "examples": [
       "Konjunkturen är god och många får jobb."
     ],
-    "inputHash": "89a32a1a"
+    "inputHash": "282d2772"
   },
   {
     "kellyId": 3297,
@@ -16305,7 +16306,7 @@
     "examples": [
       "Han delade med sig av sina reflektioner efter mötet."
     ],
-    "inputHash": "f13d1ca8"
+    "inputHash": "da379934"
   },
   {
     "kellyId": 3300,
@@ -16326,7 +16327,7 @@
     "examples": [
       "Kryssa i den här rutan om du godkänner."
     ],
-    "inputHash": "00f9428e"
+    "inputHash": "b015bc1d"
   },
   {
     "kellyId": 3303,
@@ -16354,7 +16355,7 @@
     "examples": [
       "Boken speglar livet i Sverige."
     ],
-    "inputHash": "05575870"
+    "inputHash": "466c8768"
   },
   {
     "kellyId": 3309,
@@ -16410,7 +16411,7 @@
     "examples": [
       "Vi har ett test i skolan i morgon."
     ],
-    "inputHash": "2151fefc"
+    "inputHash": "cc7bfcdd"
   },
   {
     "kellyId": 3317,
@@ -16501,7 +16502,7 @@
     "examples": [
       "Han friade till henne på stranden."
     ],
-    "inputHash": "c5401686"
+    "inputHash": "ab8dfac5"
   },
   {
     "kellyId": 3341,
@@ -16557,7 +16558,7 @@
     "examples": [
       "Det är viktigt att integrera nya elever i klassen."
     ],
-    "inputHash": "fb21bce5"
+    "inputHash": "ac614afd"
   },
   {
     "kellyId": 3353,
@@ -16571,21 +16572,21 @@
     "examples": [
       "Det var en ren slump att vi möttes."
     ],
-    "inputHash": "80fa7731"
+    "inputHash": "1ea3ac36"
   },
   {
     "kellyId": 3355,
     "examples": [
       "Mottagaren av paketet var inte hemma."
     ],
-    "inputHash": "e84c60cb"
+    "inputHash": "61f11017"
   },
   {
     "kellyId": 3356,
     "examples": [
       "Dags att återgå till arbetet."
     ],
-    "inputHash": "57dba4f7"
+    "inputHash": "47a533e9"
   },
   {
     "kellyId": 3357,
@@ -16627,7 +16628,7 @@
     "examples": [
       "Det är ett rationellt beslut att spara pengar."
     ],
-    "inputHash": "4ba78aff"
+    "inputHash": "48238da9"
   },
   {
     "kellyId": 3368,
@@ -16662,7 +16663,7 @@
     "examples": [
       "Ange din kod för att öppna dörren."
     ],
-    "inputHash": "3ccf35ed"
+    "inputHash": "778a064b"
   },
   {
     "kellyId": 3378,
@@ -16704,7 +16705,7 @@
     "examples": [
       "Han har en stark anknytning till Sverige."
     ],
-    "inputHash": "03d62aa2"
+    "inputHash": "65317191"
   },
   {
     "kellyId": 3386,
@@ -16739,7 +16740,7 @@
     "examples": [
       "Han är van vid att stiga upp tidigt."
     ],
-    "inputHash": "db3a5dfe"
+    "inputHash": "011c225c"
   },
   {
     "kellyId": 3394,
@@ -16879,7 +16880,7 @@
     "examples": [
       "Jag vill köpa ett, inte två."
     ],
-    "inputHash": "4e10dbb5"
+    "inputHash": "e518e09d"
   },
   {
     "kellyId": 3420,
@@ -16928,7 +16929,7 @@
     "examples": [
       "Hon delade vitlöksklyftan i två delar."
     ],
-    "inputHash": "14c704c6"
+    "inputHash": "ec021a50"
   },
   {
     "kellyId": 3431,
@@ -16956,7 +16957,7 @@
     "examples": [
       "Det var ett trevligt arrangemang med musik och mat."
     ],
-    "inputHash": "2ecf67a6"
+    "inputHash": "fc9427c3"
   },
   {
     "kellyId": 3439,
@@ -16970,14 +16971,14 @@
     "examples": [
       "Hon arbetar som jurist på ett stort företag."
     ],
-    "inputHash": "5809ab5a"
+    "inputHash": "3cac949d"
   },
   {
     "kellyId": 3442,
     "examples": [
       "Du kan lagra filer på datorn."
     ],
-    "inputHash": "eee2945f"
+    "inputHash": "eb0f9f43"
   },
   {
     "kellyId": 3444,
@@ -16998,7 +16999,7 @@
     "examples": [
       "Hunden skiter på gräsmattan."
     ],
-    "inputHash": "c7d0f98a"
+    "inputHash": "51aaf282"
   },
   {
     "kellyId": 3447,
@@ -17033,14 +17034,14 @@
     "examples": [
       "Jag ångrar vad jag sa."
     ],
-    "inputHash": "8412d2fe"
+    "inputHash": "209107f7"
   },
   {
     "kellyId": 3453,
     "examples": [
       "Petrus var en av Jesu apostlar."
     ],
-    "inputHash": "b818cf2e"
+    "inputHash": "69b6b7a0"
   },
   {
     "kellyId": 3454,
@@ -17061,7 +17062,7 @@
     "examples": [
       "De bor tre kvarter från torget."
     ],
-    "inputHash": "14e0d597"
+    "inputHash": "90a6c1e0"
   },
   {
     "kellyId": 3458,
@@ -17096,14 +17097,14 @@
     "examples": [
       "Bandet gjorde en inspelning av sitt nya album."
     ],
-    "inputHash": "a41779e9"
+    "inputHash": "5d2990dd"
   },
   {
     "kellyId": 3465,
     "examples": [
       "Det är ett reellt problem."
     ],
-    "inputHash": "ac196b2a"
+    "inputHash": "a49e7ca4"
   },
   {
     "kellyId": 3466,
@@ -17117,7 +17118,7 @@
     "examples": [
       "Det var en kränkning av hans rättigheter."
     ],
-    "inputHash": "817be6bb"
+    "inputHash": "0507382e"
   },
   {
     "kellyId": 3470,
@@ -17152,7 +17153,7 @@
     "examples": [
       "Han spelade en falsk not på pianot."
     ],
-    "inputHash": "2981d1d4"
+    "inputHash": "91578f75"
   },
   {
     "kellyId": 3478,
@@ -17166,7 +17167,7 @@
     "examples": [
       "Den svenska flottan har fartyg i Östersjön."
     ],
-    "inputHash": "335b91d5"
+    "inputHash": "40bfccad"
   },
   {
     "kellyId": 3481,
@@ -17194,14 +17195,14 @@
     "examples": [
       "Ursäkta, kan du hjälpa mig?"
     ],
-    "inputHash": "2a006255"
+    "inputHash": "6e38d7fa"
   },
   {
     "kellyId": 3485,
     "examples": [
       "Tusentals människor demonstrerade mot lagen."
     ],
-    "inputHash": "c02b8364"
+    "inputHash": "003d0581"
   },
   {
     "kellyId": 3486,
@@ -17369,7 +17370,7 @@
     "examples": [
       "Han är en framgångsrik entreprenör inom tech."
     ],
-    "inputHash": "6004f873"
+    "inputHash": "8cfd991b"
   },
   {
     "kellyId": 3517,
@@ -17383,14 +17384,14 @@
     "examples": [
       "Han levde i stort elände."
     ],
-    "inputHash": "428e0200"
+    "inputHash": "da5dde3a"
   },
   {
     "kellyId": 3520,
     "examples": [
       "Båten gled sakta över vattnet."
     ],
-    "inputHash": "2073f844"
+    "inputHash": "9c1a938f"
   },
   {
     "kellyId": 3521,
@@ -17453,7 +17454,7 @@
     "examples": [
       "Det här exemplet illustrerar problemet bra."
     ],
-    "inputHash": "a4fee690"
+    "inputHash": "b0bbbba6"
   },
   {
     "kellyId": 3535,
@@ -17502,7 +17503,7 @@
     "examples": [
       "Löjrommen är en delikatess i Sverige."
     ],
-    "inputHash": "5af31fa5"
+    "inputHash": "e96041b3"
   },
   {
     "kellyId": 3544,
@@ -17523,7 +17524,7 @@
     "examples": [
       "Skogen är tät och svår att gå igenom."
     ],
-    "inputHash": "1bcea1e1"
+    "inputHash": "2ce11980"
   },
   {
     "kellyId": 3547,
@@ -17572,7 +17573,7 @@
     "examples": [
       "Kyrkan har ett högt torn som syns från långt håll."
     ],
-    "inputHash": "8afac325"
+    "inputHash": "5473fcc0"
   },
   {
     "kellyId": 3556,
@@ -17607,7 +17608,7 @@
     "examples": [
       "Det här är ett viktigt moment i processen."
     ],
-    "inputHash": "2bd1884b"
+    "inputHash": "5b7e0faa"
   },
   {
     "kellyId": 3561,
@@ -17663,7 +17664,7 @@
     "examples": [
       "Han är direktör för ett stort företag."
     ],
-    "inputHash": "d17f3f36"
+    "inputHash": "786b1e8f"
   },
   {
     "kellyId": 3569,
@@ -17677,7 +17678,7 @@
     "examples": [
       "Hon lämnade en lapp på bordet."
     ],
-    "inputHash": "6cf7fac3"
+    "inputHash": "a8d2da1b"
   },
   {
     "kellyId": 3572,
@@ -17740,14 +17741,14 @@
     "examples": [
       "Hans argumentation är stark."
     ],
-    "inputHash": "caea45fc"
+    "inputHash": "a35c0d29"
   },
   {
     "kellyId": 3583,
     "examples": [
       "Det hänger en tavla på väggen."
     ],
-    "inputHash": "06aa0816"
+    "inputHash": "1761f216"
   },
   {
     "kellyId": 3585,
@@ -17915,7 +17916,7 @@
     "examples": [
       "Han trodde inte på fan eller Gud."
     ],
-    "inputHash": "f522cf71"
+    "inputHash": "413e3d7b"
   },
   {
     "kellyId": 3619,
@@ -18034,7 +18035,7 @@
     "examples": [
       "Han fäste bilden på väggen."
     ],
-    "inputHash": "6d5da218"
+    "inputHash": "fd675504"
   },
   {
     "kellyId": 3643,
@@ -18097,7 +18098,7 @@
     "examples": [
       "Domstolen upphävde beslutet."
     ],
-    "inputHash": "ed06dcc3"
+    "inputHash": "bcde6da3"
   },
   {
     "kellyId": 3656,
@@ -18118,21 +18119,21 @@
     "examples": [
       "Hästarna sover i stallet."
     ],
-    "inputHash": "070cfce5"
+    "inputHash": "955ffad8"
   },
   {
     "kellyId": 3660,
     "examples": [
       "Landet behöver ett stabilt styre."
     ],
-    "inputHash": "ae99f955"
+    "inputHash": "6c90c9f9"
   },
   {
     "kellyId": 3661,
     "examples": [
       "Det är en fristående skola."
     ],
-    "inputHash": "dc1428cc"
+    "inputHash": "990ab7dc"
   },
   {
     "kellyId": 3662,
@@ -18188,7 +18189,7 @@
     "examples": [
       "En komponent i maskinen är trasig."
     ],
-    "inputHash": "f1f5064e"
+    "inputHash": "7617fda9"
   },
   {
     "kellyId": 3672,
@@ -18230,7 +18231,7 @@
     "examples": [
       "Han är en snäll karl."
     ],
-    "inputHash": "b9234908"
+    "inputHash": "5128f9f5"
   },
   {
     "kellyId": 3681,
@@ -18265,7 +18266,7 @@
     "examples": [
       "Han sa det med en arg ton."
     ],
-    "inputHash": "578c094e"
+    "inputHash": "3bf59ee3"
   },
   {
     "kellyId": 3688,
@@ -18293,7 +18294,7 @@
     "examples": [
       "De bor i en stor villa utanför staden."
     ],
-    "inputHash": "a3827824"
+    "inputHash": "ff965a77"
   },
   {
     "kellyId": 3698,
@@ -18314,7 +18315,7 @@
     "examples": [
       "Han fick ont i backen efter lyftet."
     ],
-    "inputHash": "9e3f75ea"
+    "inputHash": "cc6adf75"
   },
   {
     "kellyId": 3701,
@@ -18328,7 +18329,7 @@
     "examples": [
       "Du måste sy fast en knapp."
     ],
-    "inputHash": "bd7cfc2d"
+    "inputHash": "1470866f"
   },
   {
     "kellyId": 3703,
@@ -18398,7 +18399,7 @@
     "examples": [
       "Man bryter malm i den gruvan."
     ],
-    "inputHash": "d66cf12d"
+    "inputHash": "01c46b46"
   },
   {
     "kellyId": 3715,
@@ -18475,7 +18476,7 @@
     "examples": [
       "Jag tar ett bad varje kväll."
     ],
-    "inputHash": "b0f3a13a"
+    "inputHash": "283a97be"
   },
   {
     "kellyId": 3730,
@@ -18552,14 +18553,14 @@
     "examples": [
       "Mötet upptar hela förmiddagen."
     ],
-    "inputHash": "289c6ca1"
+    "inputHash": "8c0160f7"
   },
   {
     "kellyId": 3748,
     "examples": [
       "Jag vill erinra er om mötet imorgon."
     ],
-    "inputHash": "6b78d996"
+    "inputHash": "104e2fdb"
   },
   {
     "kellyId": 3749,
@@ -18580,7 +18581,7 @@
     "examples": [
       "Hon är berättigad till bidrag."
     ],
-    "inputHash": "ea4bc7ca"
+    "inputHash": "2148346d"
   },
   {
     "kellyId": 3755,
@@ -18622,7 +18623,7 @@
     "examples": [
       "Det hände något mystiskt i natt."
     ],
-    "inputHash": "954336e1"
+    "inputHash": "d5be30ea"
   },
   {
     "kellyId": 3763,
@@ -18636,7 +18637,7 @@
     "examples": [
       "Vi tog en öl på en bar."
     ],
-    "inputHash": "e1f0169d"
+    "inputHash": "ec55fbbc"
   },
   {
     "kellyId": 3765,
@@ -18650,7 +18651,7 @@
     "examples": [
       "Hitta mer information på vår webbsida."
     ],
-    "inputHash": "609b83aa"
+    "inputHash": "4d46c93e"
   },
   {
     "kellyId": 3767,
@@ -18664,7 +18665,7 @@
     "examples": [
       "Det pågår ett stort bygge i stan."
     ],
-    "inputHash": "f5ed64e0"
+    "inputHash": "5d205757"
   },
   {
     "kellyId": 3770,
@@ -18678,7 +18679,7 @@
     "examples": [
       "Barn behöver rätt näring för att växa."
     ],
-    "inputHash": "4e386838"
+    "inputHash": "0144077e"
   },
   {
     "kellyId": 3772,
@@ -18775,7 +18776,7 @@
     "examples": [
       "Han är mogen nog att ta eget ansvar."
     ],
-    "inputHash": "041f5d6a"
+    "inputHash": "5d1f7010"
   },
   {
     "kellyId": 3794,
@@ -18810,7 +18811,7 @@
     "examples": [
       "Min uppskattning är att det kostar tusen kronor."
     ],
-    "inputHash": "80fea9e6"
+    "inputHash": "616326fa"
   },
   {
     "kellyId": 3801,
@@ -18838,7 +18839,7 @@
     "examples": [
       "Vi har en träff på fredag."
     ],
-    "inputHash": "21e992f3"
+    "inputHash": "7f831132"
   },
   {
     "kellyId": 3806,
@@ -18852,7 +18853,7 @@
     "examples": [
       "De nådde en uppgörelse om priset."
     ],
-    "inputHash": "e2407fa2"
+    "inputHash": "fd8e5f15"
   },
   {
     "kellyId": 3808,
@@ -18922,7 +18923,7 @@
     "examples": [
       "Projektet lyckades tack vare hennes medverkan."
     ],
-    "inputHash": "0780cce3"
+    "inputHash": "c00e9dfb"
   },
   {
     "kellyId": 3822,
@@ -18943,7 +18944,7 @@
     "examples": [
       "Barnen fick många klappar till jul."
     ],
-    "inputHash": "8ee8728f"
+    "inputHash": "ffbc414b"
   },
   {
     "kellyId": 3828,
@@ -18992,7 +18993,7 @@
     "examples": [
       "Lastbilar transporterar varor till butikerna."
     ],
-    "inputHash": "6c6cdbaa"
+    "inputHash": "40c5feb9"
   },
   {
     "kellyId": 3837,
@@ -19034,7 +19035,7 @@
     "examples": [
       "Storebror retade sin lillasyster."
     ],
-    "inputHash": "0237914a"
+    "inputHash": "768cd376"
   },
   {
     "kellyId": 3845,
@@ -19055,28 +19056,28 @@
     "examples": [
       "I sagan möter hjälten en stor jätte."
     ],
-    "inputHash": "28bd4d83"
+    "inputHash": "cf7680a8"
   },
   {
     "kellyId": 3851,
     "examples": [
       "En lång diskussion föregick beslutet."
     ],
-    "inputHash": "8fd732d9"
+    "inputHash": "3e734619"
   },
   {
     "kellyId": 3852,
     "examples": [
       "Publiceringen av boken dröjer."
     ],
-    "inputHash": "754b8adb"
+    "inputHash": "c587ecc8"
   },
   {
     "kellyId": 3853,
     "examples": [
       "Det skedde ett stort skifte i politiken."
     ],
-    "inputHash": "667faea3"
+    "inputHash": "cd17a8da"
   },
   {
     "kellyId": 3854,
@@ -19090,7 +19091,7 @@
     "examples": [
       "En guide visade oss runt i museet."
     ],
-    "inputHash": "2f73c2fe"
+    "inputHash": "65ced773"
   },
   {
     "kellyId": 3856,
@@ -19104,14 +19105,14 @@
     "examples": [
       "Träning kan styrka kroppen."
     ],
-    "inputHash": "42b02335"
+    "inputHash": "72a7b11f"
   },
   {
     "kellyId": 3858,
     "examples": [
       "Jag fryser när jag går ut på vintern."
     ],
-    "inputHash": "01535db3"
+    "inputHash": "2d5b9ce1"
   },
   {
     "kellyId": 3859,
@@ -19216,7 +19217,7 @@
     "examples": [
       "Kläderna ligger i byrån i sovrummet."
     ],
-    "inputHash": "fac420ae"
+    "inputHash": "60cbbe88"
   },
   {
     "kellyId": 3876,
@@ -19279,7 +19280,7 @@
     "examples": [
       "Partiet har en progressiv politik."
     ],
-    "inputHash": "dc6f1be3"
+    "inputHash": "c35281ad"
   },
   {
     "kellyId": 3890,
@@ -19293,7 +19294,7 @@
     "examples": [
       "Du måste betala tull när du reser utomlands."
     ],
-    "inputHash": "92dc38d9"
+    "inputHash": "9e25808d"
   },
   {
     "kellyId": 3893,
@@ -19307,7 +19308,7 @@
     "examples": [
       "Telefonen har en stor skärm."
     ],
-    "inputHash": "f06cf071"
+    "inputHash": "d2f6a88c"
   },
   {
     "kellyId": 3895,
@@ -19342,14 +19343,14 @@
     "examples": [
       "Det var en uppenbarelse för honom."
     ],
-    "inputHash": "3edff315"
+    "inputHash": "8051bd56"
   },
   {
     "kellyId": 3906,
     "examples": [
       "Utfallet av mötet var positivt."
     ],
-    "inputHash": "2edaeba6"
+    "inputHash": "bf8052c9"
   },
   {
     "kellyId": 3907,
@@ -19363,7 +19364,7 @@
     "examples": [
       "Vi bygger en bättre morgondag för alla."
     ],
-    "inputHash": "29302fb0"
+    "inputHash": "e1779405"
   },
   {
     "kellyId": 3911,
@@ -19405,21 +19406,21 @@
     "examples": [
       "Hon torkade händerna med en handduk."
     ],
-    "inputHash": "3fb34d97"
+    "inputHash": "ed8e7aed"
   },
   {
     "kellyId": 3923,
     "examples": [
       "Jag åt bara halvan av kakan."
     ],
-    "inputHash": "7395477d"
+    "inputHash": "f067f4bd"
   },
   {
     "kellyId": 3925,
     "examples": [
       "Han är ombud för facket."
     ],
-    "inputHash": "8c284e30"
+    "inputHash": "9727064d"
   },
   {
     "kellyId": 3927,
@@ -19440,7 +19441,7 @@
     "examples": [
       "Maten smakade himmelskt god."
     ],
-    "inputHash": "c47ac6cd"
+    "inputHash": "3938ffa2"
   },
   {
     "kellyId": 3930,
@@ -19510,7 +19511,7 @@
     "examples": [
       "Barnet är mycket musikaliskt."
     ],
-    "inputHash": "9aac2292"
+    "inputHash": "0ef0ddd8"
   },
   {
     "kellyId": 3945,
@@ -19524,7 +19525,7 @@
     "examples": [
       "Ingången till byggnaden är på framsidan."
     ],
-    "inputHash": "aa8c8c7e"
+    "inputHash": "da1ba15a"
   },
   {
     "kellyId": 3949,
@@ -19538,7 +19539,7 @@
     "examples": [
       "Landet har en ny författning sedan 2010."
     ],
-    "inputHash": "4974b55a"
+    "inputHash": "59f38ace"
   },
   {
     "kellyId": 3952,
@@ -19566,7 +19567,7 @@
     "examples": [
       "Hon har en vacker stämma."
     ],
-    "inputHash": "26ca245e"
+    "inputHash": "eefa3b49"
   },
   {
     "kellyId": 3956,
@@ -19580,7 +19581,7 @@
     "examples": [
       "Landet antog en deklaration om fred."
     ],
-    "inputHash": "c768198e"
+    "inputHash": "b1e24ea9"
   },
   {
     "kellyId": 3959,
@@ -19664,7 +19665,7 @@
     "examples": [
       "Det var en ren dumhet att glömma nycklarna."
     ],
-    "inputHash": "9752a1c5"
+    "inputHash": "1dfbd813"
   },
   {
     "kellyId": 3971,
@@ -19692,7 +19693,7 @@
     "examples": [
       "Brott kan leda till hårda påföljder."
     ],
-    "inputHash": "1a821cfc"
+    "inputHash": "aa2a2f6b"
   },
   {
     "kellyId": 3978,
@@ -19713,7 +19714,7 @@
     "examples": [
       "Hon har en stor talang för musik."
     ],
-    "inputHash": "2d618714"
+    "inputHash": "13ac65dc"
   },
   {
     "kellyId": 3981,
@@ -19748,7 +19749,7 @@
     "examples": [
       "Polisen bröt upp en kriminell liga."
     ],
-    "inputHash": "a1671417"
+    "inputHash": "09d27c92"
   },
   {
     "kellyId": 3988,
@@ -19804,7 +19805,7 @@
     "examples": [
       "Adressen finns på baksidan av kuvertet."
     ],
-    "inputHash": "42e40ec8"
+    "inputHash": "28173786"
   },
   {
     "kellyId": 4001,
@@ -19818,7 +19819,7 @@
     "examples": [
       "Han fick en uppsägning från jobbet."
     ],
-    "inputHash": "8fdc6a17"
+    "inputHash": "26922db8"
   },
   {
     "kellyId": 4003,
@@ -19867,14 +19868,14 @@
     "examples": [
       "Blunda och tänk på något trevligt."
     ],
-    "inputHash": "cffe733b"
+    "inputHash": "753f0b66"
   },
   {
     "kellyId": 4013,
     "examples": [
       "Det uppstod ett bråk på gatan."
     ],
-    "inputHash": "747bb3b6"
+    "inputHash": "df1d8e80"
   },
   {
     "kellyId": 4017,
@@ -19965,7 +19966,7 @@
     "examples": [
       "I filmen kämpar hjälten mot djävulen."
     ],
-    "inputHash": "188858bb"
+    "inputHash": "5cebb085"
   },
   {
     "kellyId": 4036,
@@ -20000,7 +20001,7 @@
     "examples": [
       "Alla måste deklarera sina inkomster varje år."
     ],
-    "inputHash": "e87243ca"
+    "inputHash": "54bbedd5"
   },
   {
     "kellyId": 4044,
@@ -20028,7 +20029,7 @@
     "examples": [
       "Tiden är knapp, vi måste skynda oss."
     ],
-    "inputHash": "c9cec8df"
+    "inputHash": "3891e74d"
   },
   {
     "kellyId": 4050,
@@ -20140,7 +20141,7 @@
     "examples": [
       "God styrning är viktig för ett företag."
     ],
-    "inputHash": "d2bc1375"
+    "inputHash": "5165d3da"
   },
   {
     "kellyId": 4072,
@@ -20283,6 +20284,13 @@
     "inputHash": "99a03de5"
   },
   {
+    "kellyId": 4098,
+    "examples": [
+      "Styrelsen utses av fullmäktige."
+    ],
+    "inputHash": "5438b44b"
+  },
+  {
     "kellyId": 4099,
     "examples": [
       "Kommunfullmäktige röstade för budgeten."
@@ -20357,7 +20365,7 @@
     "examples": [
       "Han dricker inte sprit."
     ],
-    "inputHash": "846bfa9f"
+    "inputHash": "a7bae277"
   },
   {
     "kellyId": 4115,
@@ -20448,7 +20456,7 @@
     "examples": [
       "Han hade ett blodigt sår på handen."
     ],
-    "inputHash": "c6299b98"
+    "inputHash": "523ba1da"
   },
   {
     "kellyId": 4133,
@@ -20483,7 +20491,7 @@
     "examples": [
       "Signalen behöver förstärkning för att nå hit."
     ],
-    "inputHash": "2b461ccb"
+    "inputHash": "1c745989"
   },
   {
     "kellyId": 4140,
@@ -20497,7 +20505,7 @@
     "examples": [
       "Han utropade sin glädje inför alla."
     ],
-    "inputHash": "ff38b53f"
+    "inputHash": "ac81e12d"
   },
   {
     "kellyId": 4145,
@@ -20511,7 +20519,7 @@
     "examples": [
       "Sluta gnälla och gör något istället!"
     ],
-    "inputHash": "7556eeb6"
+    "inputHash": "45749809"
   },
   {
     "kellyId": 4147,
@@ -20560,14 +20568,14 @@
     "examples": [
       "Min granne är en turk som kom hit för tio år sedan."
     ],
-    "inputHash": "cb8a441a"
+    "inputHash": "e7c5f951"
   },
   {
     "kellyId": 4154,
     "examples": [
       "Böckerna står på en hylla."
     ],
-    "inputHash": "d7a65286"
+    "inputHash": "66340c40"
   },
   {
     "kellyId": 4155,
@@ -20616,7 +20624,7 @@
     "examples": [
       "Han var passiv under hela diskussionen."
     ],
-    "inputHash": "b329e0e2"
+    "inputHash": "c0f2c456"
   },
   {
     "kellyId": 4164,
@@ -20637,7 +20645,7 @@
     "examples": [
       "Kungen härskade över landet i många år."
     ],
-    "inputHash": "29c633f3"
+    "inputHash": "d1c62793"
   },
   {
     "kellyId": 4168,
@@ -20693,7 +20701,7 @@
     "examples": [
       "Priserna är på uppgång."
     ],
-    "inputHash": "a7af57fa"
+    "inputHash": "03e07906"
   },
   {
     "kellyId": 4176,
@@ -20714,14 +20722,14 @@
     "examples": [
       "Tre är ett udda tal."
     ],
-    "inputHash": "4133fddf"
+    "inputHash": "62201e74"
   },
   {
     "kellyId": 4179,
     "examples": [
       "Läkaren läste igenom patientens journal."
     ],
-    "inputHash": "51da5ea5"
+    "inputHash": "845c5138"
   },
   {
     "kellyId": 4180,
@@ -20791,7 +20799,7 @@
     "examples": [
       "Det ligger en stor matta i vardagsrummet."
     ],
-    "inputHash": "44b6d67e"
+    "inputHash": "c81a9a2a"
   },
   {
     "kellyId": 4191,
@@ -20833,7 +20841,7 @@
     "examples": [
       "Det är förbjudet att misshandla någon."
     ],
-    "inputHash": "d9fd354c"
+    "inputHash": "a2e2233f"
   },
   {
     "kellyId": 4197,
@@ -20854,7 +20862,7 @@
     "examples": [
       "Ärendet är under beredning i utskottet."
     ],
-    "inputHash": "cfed2c4d"
+    "inputHash": "ec5ec5f3"
   },
   {
     "kellyId": 4201,
@@ -20889,14 +20897,14 @@
     "examples": [
       "Vi måste förstå konsekvenserna av vårt handlande."
     ],
-    "inputHash": "2628354b"
+    "inputHash": "0d368de1"
   },
   {
     "kellyId": 4207,
     "examples": [
       "Det utbröt ett upplopp på gatorna."
     ],
-    "inputHash": "02dca8d9"
+    "inputHash": "54fd5107"
   },
   {
     "kellyId": 4209,
@@ -20910,7 +20918,7 @@
     "examples": [
       "Kommunen anlade en ny park i staden."
     ],
-    "inputHash": "7a565174"
+    "inputHash": "58872c97"
   },
   {
     "kellyId": 4213,
@@ -20987,7 +20995,7 @@
     "examples": [
       "Det är ett litet mellanrum mellan borden."
     ],
-    "inputHash": "3a99903d"
+    "inputHash": "a14fdf54"
   },
   {
     "kellyId": 4230,
@@ -21057,14 +21065,14 @@
     "examples": [
       "Läraren belönade eleverna för deras arbete."
     ],
-    "inputHash": "031d483c"
+    "inputHash": "44a5ef35"
   },
   {
     "kellyId": 4243,
     "examples": [
       "Sverige importerar mycket olja från utlandet."
     ],
-    "inputHash": "72c1a4eb"
+    "inputHash": "f266752b"
   },
   {
     "kellyId": 4246,
@@ -21120,7 +21128,7 @@
     "examples": [
       "Festivalen är ett stort evenemang i staden."
     ],
-    "inputHash": "999e0a87"
+    "inputHash": "a66b6d10"
   },
   {
     "kellyId": 4254,
@@ -21141,7 +21149,7 @@
     "examples": [
       "Hon behärskar fyra språk flytande."
     ],
-    "inputHash": "6336f9ec"
+    "inputHash": "de7e5102"
   },
   {
     "kellyId": 4257,
@@ -21162,7 +21170,7 @@
     "examples": [
       "Du behöver en licens för att köra lastbil."
     ],
-    "inputHash": "fd5095c2"
+    "inputHash": "71d1da7b"
   },
   {
     "kellyId": 4262,
@@ -21218,7 +21226,7 @@
     "examples": [
       "Fabriken avger stora mängder koldioxid."
     ],
-    "inputHash": "010b5379"
+    "inputHash": "47dc9d91"
   },
   {
     "kellyId": 4273,
@@ -21295,7 +21303,7 @@
     "examples": [
       "Inträdet till museet kostar hundra kronor."
     ],
-    "inputHash": "cf22b4e5"
+    "inputHash": "6079f0ce"
   },
   {
     "kellyId": 4288,
@@ -21386,7 +21394,7 @@
     "examples": [
       "Vi behöver justera planen något."
     ],
-    "inputHash": "bdf99507"
+    "inputHash": "2a35551a"
   },
   {
     "kellyId": 4305,
@@ -21407,7 +21415,7 @@
     "examples": [
       "Han lämnade sekten efter flera år."
     ],
-    "inputHash": "dd5f4972"
+    "inputHash": "41d06b8e"
   },
   {
     "kellyId": 4308,
@@ -21428,14 +21436,14 @@
     "examples": [
       "Röret börjar läcka i källaren."
     ],
-    "inputHash": "1ffbef25"
+    "inputHash": "cd6044ee"
   },
   {
     "kellyId": 4311,
     "examples": [
       "Det var en kylig och stilla afton i november."
     ],
-    "inputHash": "ec70bc30"
+    "inputHash": "6209b7bc"
   },
   {
     "kellyId": 4312,
@@ -21484,7 +21492,7 @@
     "examples": [
       "Distributionen av varor sker via lastbil."
     ],
-    "inputHash": "9ce58003"
+    "inputHash": "01983b3e"
   },
   {
     "kellyId": 4324,
@@ -21519,7 +21527,7 @@
     "examples": [
       "Lagen innebär en inskränkning i yttrandefriheten."
     ],
-    "inputHash": "d01bbe12"
+    "inputHash": "09f7b5b7"
   },
   {
     "kellyId": 4332,
@@ -21596,14 +21604,14 @@
     "examples": [
       "Han är en känd sångare i hela landet."
     ],
-    "inputHash": "f5c2811c"
+    "inputHash": "f5631e06"
   },
   {
     "kellyId": 4348,
     "examples": [
       "Läkaren utförde ett litet kirurgiskt ingrepp."
     ],
-    "inputHash": "be68cc93"
+    "inputHash": "d12df580"
   },
   {
     "kellyId": 4350,
@@ -21680,7 +21688,7 @@
     "examples": [
       "Hon rotade i väskan för att hitta nyckeln."
     ],
-    "inputHash": "07ef4def"
+    "inputHash": "08d1bde2"
   },
   {
     "kellyId": 4366,
@@ -21701,7 +21709,7 @@
     "examples": [
       "Tusentals människor deltog i manifestationen."
     ],
-    "inputHash": "60512e1e"
+    "inputHash": "4e4aa82c"
   },
   {
     "kellyId": 4369,
@@ -21757,7 +21765,7 @@
     "examples": [
       "En bro förbinder de två öarna."
     ],
-    "inputHash": "550b1c50"
+    "inputHash": "34614c33"
   },
   {
     "kellyId": 4378,
@@ -21820,7 +21828,7 @@
     "examples": [
       "Sjuksköterskan lade ett förband på såret."
     ],
-    "inputHash": "9149463a"
+    "inputHash": "1607e2bb"
   },
   {
     "kellyId": 4390,
@@ -21841,7 +21849,7 @@
     "examples": [
       "Hon sjöng vackert i kyrkan."
     ],
-    "inputHash": "6a24a58b"
+    "inputHash": "a433c3a7"
   },
   {
     "kellyId": 4393,
@@ -21862,7 +21870,7 @@
     "examples": [
       "Vi klättrade upp på en brant klippa."
     ],
-    "inputHash": "654cca2a"
+    "inputHash": "11df8246"
   },
   {
     "kellyId": 4398,
@@ -21939,7 +21947,7 @@
     "examples": [
       "Det var en ringa stöld."
     ],
-    "inputHash": "85e077c0"
+    "inputHash": "d60dc562"
   },
   {
     "kellyId": 4416,
@@ -21953,7 +21961,7 @@
     "examples": [
       "Det var en tokig idé, men den funkade."
     ],
-    "inputHash": "2be3c513"
+    "inputHash": "4b1d230b"
   },
   {
     "kellyId": 4419,
@@ -22002,7 +22010,7 @@
     "examples": [
       "Prästen förkunnade evangeliet för församlingen."
     ],
-    "inputHash": "f1474fd0"
+    "inputHash": "6a378621"
   },
   {
     "kellyId": 4429,
@@ -22051,7 +22059,7 @@
     "examples": [
       "Hon öppnade en burk tomatpuré."
     ],
-    "inputHash": "68d57860"
+    "inputHash": "0d940f63"
   },
   {
     "kellyId": 4442,
@@ -22121,7 +22129,7 @@
     "examples": [
       "Många sökande kom till intervjun."
     ],
-    "inputHash": "01793f13"
+    "inputHash": "b07b3d0f"
   },
   {
     "kellyId": 4458,
@@ -22198,21 +22206,21 @@
     "examples": [
       "Han ärvde en stor förmögenhet av sin farbror."
     ],
-    "inputHash": "c877fedb"
+    "inputHash": "d38c214c"
   },
   {
     "kellyId": 4474,
     "examples": [
       "Hon är snabb liksom sin bror."
     ],
-    "inputHash": "356e1a4c"
+    "inputHash": "ae968a79"
   },
   {
     "kellyId": 4476,
     "examples": [
       "Konserten var verkligen en höjdpunkt under festivalen."
     ],
-    "inputHash": "7cc0282e"
+    "inputHash": "0d2e574b"
   },
   {
     "kellyId": 4477,
@@ -22450,7 +22458,7 @@
     "examples": [
       "De filmade hela ceremonin med sin telefon."
     ],
-    "inputHash": "bb80f187"
+    "inputHash": "fd8e4f89"
   },
   {
     "kellyId": 4525,
@@ -22499,7 +22507,7 @@
     "examples": [
       "Utbetalningen av bidragen dröjde längre än väntat."
     ],
-    "inputHash": "3d744c9b"
+    "inputHash": "e4ea991d"
   },
   {
     "kellyId": 4536,
@@ -22569,14 +22577,14 @@
     "examples": [
       "Systemet registrerade en liten avvikelse i temperaturen."
     ],
-    "inputHash": "c71bf999"
+    "inputHash": "20e6b729"
   },
   {
     "kellyId": 4546,
     "examples": [
       "Han tilltalade henne med hennes förnamn."
     ],
-    "inputHash": "ce1a2d15"
+    "inputHash": "e854c8fd"
   },
   {
     "kellyId": 4548,
@@ -22632,7 +22640,7 @@
     "examples": [
       "En cell är den minsta levande organismen."
     ],
-    "inputHash": "ae5584ce"
+    "inputHash": "05963549"
   },
   {
     "kellyId": 4557,
@@ -22660,7 +22668,7 @@
     "examples": [
       "Förslaget saknar förankring i verkligheten."
     ],
-    "inputHash": "0cd5cd4d"
+    "inputHash": "ee85c9e9"
   },
   {
     "kellyId": 4563,
@@ -22674,7 +22682,7 @@
     "examples": [
       "Frankrike är en sekulär stat sedan länge."
     ],
-    "inputHash": "d69e4eca"
+    "inputHash": "2dbb44d8"
   },
   {
     "kellyId": 4565,
@@ -22688,7 +22696,7 @@
     "examples": [
       "Vi har erfarit att projektet nu är avslutat."
     ],
-    "inputHash": "77f672fc"
+    "inputHash": "c2b1015a"
   },
   {
     "kellyId": 4567,
@@ -22723,7 +22731,7 @@
     "examples": [
       "Det var härligt att äntligen få sova ut."
     ],
-    "inputHash": "93f04388"
+    "inputHash": "98c1097a"
   },
   {
     "kellyId": 4573,
@@ -22779,7 +22787,7 @@
     "examples": [
       "Han hängde av sig rocken i hallen."
     ],
-    "inputHash": "4901c60f"
+    "inputHash": "bc74e9d8"
   },
   {
     "kellyId": 4585,
@@ -22821,14 +22829,14 @@
     "examples": [
       "Miljoner människor hotas av svält i regionen."
     ],
-    "inputHash": "af4da026"
+    "inputHash": "e780625a"
   },
   {
     "kellyId": 4593,
     "examples": [
       "Katten klöste med sina vassa klor."
     ],
-    "inputHash": "18bda29c"
+    "inputHash": "9cc70c0e"
   },
   {
     "kellyId": 4594,
@@ -22877,7 +22885,7 @@
     "examples": [
       "Fläcken gick inte att avlägsna från tyget."
     ],
-    "inputHash": "8e7cf124"
+    "inputHash": "65d4f6be"
   },
   {
     "kellyId": 4608,
@@ -22891,7 +22899,7 @@
     "examples": [
       "Byggnadens fasad renoverades under sommaren."
     ],
-    "inputHash": "17afb8b7"
+    "inputHash": "f502bf9d"
   },
   {
     "kellyId": 4610,
@@ -22933,7 +22941,7 @@
     "examples": [
       "De besökte ett gammalt kloster i bergen."
     ],
-    "inputHash": "a2b3824e"
+    "inputHash": "93f1a13a"
   },
   {
     "kellyId": 4618,
@@ -22968,7 +22976,7 @@
     "examples": [
       "Forskarna iakttog djurens beteende i det vilda."
     ],
-    "inputHash": "875caab3"
+    "inputHash": "b36f85c8"
   },
   {
     "kellyId": 4625,
@@ -23017,7 +23025,7 @@
     "examples": [
       "Han gjorde en kraftfull spark mot mål."
     ],
-    "inputHash": "4c2f3cd2"
+    "inputHash": "22e493bc"
   },
   {
     "kellyId": 4634,
@@ -23031,7 +23039,7 @@
     "examples": [
       "Ringen är gjord av silver."
     ],
-    "inputHash": "e143e446"
+    "inputHash": "8e4beaab"
   },
   {
     "kellyId": 4636,
@@ -23066,14 +23074,14 @@
     "examples": [
       "Han klädde sig i kostym och slips inför intervjun."
     ],
-    "inputHash": "b7624362"
+    "inputHash": "76922a3d"
   },
   {
     "kellyId": 4641,
     "examples": [
       "Läraren delade ut ett nytt schema till eleverna."
     ],
-    "inputHash": "02af7926"
+    "inputHash": "7970a891"
   },
   {
     "kellyId": 4642,
@@ -23108,21 +23116,21 @@
     "examples": [
       "Vulkanens utbrott förstörde flera byar."
     ],
-    "inputHash": "dde3826d"
+    "inputHash": "5f9a12d8"
   },
   {
     "kellyId": 4652,
     "examples": [
       "Den här apparaten mäter luftfuktigheten i rummet."
     ],
-    "inputHash": "40d47401"
+    "inputHash": "21b81790"
   },
   {
     "kellyId": 4653,
     "examples": [
       "Hon stod bakom disken och väntade på kunder."
     ],
-    "inputHash": "2ebe1654"
+    "inputHash": "17913e11"
   },
   {
     "kellyId": 4654,
@@ -23150,7 +23158,7 @@
     "examples": [
       "Hon surfar ofta på nätet för att hitta recept."
     ],
-    "inputHash": "00b7e2b7"
+    "inputHash": "3d7eace5"
   },
   {
     "kellyId": 4660,
@@ -23164,14 +23172,14 @@
     "examples": [
       "Vi gick genom en smal passage mellan husen."
     ],
-    "inputHash": "46f78268"
+    "inputHash": "19f04692"
   },
   {
     "kellyId": 4662,
     "examples": [
       "Telefonen har en inbyggd kamera av hög kvalitet."
     ],
-    "inputHash": "2c9774bd"
+    "inputHash": "057e81c5"
   },
   {
     "kellyId": 4663,
@@ -23262,7 +23270,7 @@
     "examples": [
       "Kommunen invigde det nya biblioteket i lördags."
     ],
-    "inputHash": "28aa083f"
+    "inputHash": "c349d113"
   },
   {
     "kellyId": 4685,
@@ -23346,7 +23354,7 @@
     "examples": [
       "Rapporten ger en ensidig bild av situationen."
     ],
-    "inputHash": "bf5209cf"
+    "inputHash": "1bcb763c"
   },
   {
     "kellyId": 4704,
@@ -23402,7 +23410,7 @@
     "examples": [
       "Hon hängde upp jackan i garderoben."
     ],
-    "inputHash": "8575c13c"
+    "inputHash": "58b39bce"
   },
   {
     "kellyId": 4714,
@@ -23416,7 +23424,7 @@
     "examples": [
       "Magneten har en nordpol och en sydpol."
     ],
-    "inputHash": "5cfa5009"
+    "inputHash": "bbd69e50"
   },
   {
     "kellyId": 4718,
@@ -23458,7 +23466,7 @@
     "examples": [
       "Han är republikan och vill avskaffa monarkin."
     ],
-    "inputHash": "d03780ae"
+    "inputHash": "46d50257"
   },
   {
     "kellyId": 4726,
@@ -23549,7 +23557,7 @@
     "examples": [
       "Domstolen beslutade om utvisning av den dömde personen."
     ],
-    "inputHash": "1dd296f8"
+    "inputHash": "fc1bee16"
   },
   {
     "kellyId": 4748,
@@ -23626,7 +23634,7 @@
     "examples": [
       "Han begravdes på kyrkogården i sin hemstad."
     ],
-    "inputHash": "fd440a12"
+    "inputHash": "f2a57480"
   },
   {
     "kellyId": 4764,
@@ -23703,7 +23711,7 @@
     "examples": [
       "Kyparen lämnade menyn och gick."
     ],
-    "inputHash": "fb9f4fc5"
+    "inputHash": "9dddec2a"
   },
   {
     "kellyId": 4778,
@@ -23752,7 +23760,7 @@
     "examples": [
       "Det finns en viss ironi i att han vann på den platsen."
     ],
-    "inputHash": "37da4d5e"
+    "inputHash": "420b3a04"
   },
   {
     "kellyId": 4789,
@@ -23871,14 +23879,14 @@
     "examples": [
       "Bilen körde fort runt kurvan."
     ],
-    "inputHash": "978df4bf"
+    "inputHash": "902b36db"
   },
   {
     "kellyId": 4809,
     "examples": [
       "Kirurgen opererade patienten i tre timmar."
     ],
-    "inputHash": "b9ecea66"
+    "inputHash": "6ac9e9b4"
   },
   {
     "kellyId": 4810,
@@ -23899,7 +23907,7 @@
     "examples": [
       "Människor i forntiden jakade för att överleva."
     ],
-    "inputHash": "3a55b2d6"
+    "inputHash": "5794e72f"
   },
   {
     "kellyId": 4813,
@@ -23934,14 +23942,14 @@
     "examples": [
       "Asken är ett vanligt träd i svenska skogar."
     ],
-    "inputHash": "bd8f07f8"
+    "inputHash": "ced1960c"
   },
   {
     "kellyId": 4822,
     "examples": [
       "Staden bombades under kriget."
     ],
-    "inputHash": "bd84d178"
+    "inputHash": "b795e3f0"
   },
   {
     "kellyId": 4823,
@@ -23976,7 +23984,7 @@
     "examples": [
       "Han fick en bot på tusen kronor för fortkörning."
     ],
-    "inputHash": "9c1879a2"
+    "inputHash": "552e9fb7"
   },
   {
     "kellyId": 4830,
@@ -24151,7 +24159,7 @@
     "examples": [
       "Hon är ensamstående förälder med två barn."
     ],
-    "inputHash": "257f6e84"
+    "inputHash": "2611f792"
   },
   {
     "kellyId": 4861,
@@ -24228,7 +24236,7 @@
     "examples": [
       "Organisationen bistår flyktingar med mat och boende."
     ],
-    "inputHash": "4383301d"
+    "inputHash": "6bc9953b"
   },
   {
     "kellyId": 4876,
@@ -24284,7 +24292,7 @@
     "examples": [
       "Barnet föll och slog sig i rumpan."
     ],
-    "inputHash": "e46cd2ec"
+    "inputHash": "deb2d02c"
   },
   {
     "kellyId": 4893,
@@ -24305,14 +24313,14 @@
     "examples": [
       "De registrerade ett aktiebolag för att starta sin verksamhet."
     ],
-    "inputHash": "0512e508"
+    "inputHash": "576e694d"
   },
   {
     "kellyId": 4897,
     "examples": [
       "Hon tog tre dagars ledighet för att vila."
     ],
-    "inputHash": "6eeea8a7"
+    "inputHash": "27c7c7ff"
   },
   {
     "kellyId": 4898,
@@ -24347,7 +24355,7 @@
     "examples": [
       "Han fick en kallelse till rättegången."
     ],
-    "inputHash": "28171e57"
+    "inputHash": "90617b49"
   },
   {
     "kellyId": 4904,
@@ -24361,7 +24369,7 @@
     "examples": [
       "Hans destruktiva beteende skadade hela gruppen."
     ],
-    "inputHash": "a1216e44"
+    "inputHash": "dbce2a25"
   },
   {
     "kellyId": 4906,
@@ -24403,14 +24411,14 @@
     "examples": [
       "Koncernen har kontor i hela Europa."
     ],
-    "inputHash": "5cc54289"
+    "inputHash": "dbacda78"
   },
   {
     "kellyId": 4916,
     "examples": [
       "Delegaterna samlades till ett konvent."
     ],
-    "inputHash": "60451b22"
+    "inputHash": "7544bc14"
   },
   {
     "kellyId": 4917,
@@ -24445,7 +24453,7 @@
     "examples": [
       "Din hjälp var min räddning."
     ],
-    "inputHash": "65951877"
+    "inputHash": "efecf239"
   },
   {
     "kellyId": 4924,
@@ -24473,7 +24481,7 @@
     "examples": [
       "Tåget har en genomgående vagn till Malmö."
     ],
-    "inputHash": "bf64a71e"
+    "inputHash": "ea296bec"
   },
   {
     "kellyId": 4932,
@@ -24578,14 +24586,14 @@
     "examples": [
       "Hon tillträdde som minister i januari."
     ],
-    "inputHash": "43c983ac"
+    "inputHash": "7f26051e"
   },
   {
     "kellyId": 4951,
     "examples": [
       "De satt på en bänk i parken."
     ],
-    "inputHash": "8353f3e3"
+    "inputHash": "d9d702b0"
   },
   {
     "kellyId": 4953,
@@ -24606,7 +24614,7 @@
     "examples": [
       "Han har ont i en led i knäet."
     ],
-    "inputHash": "b0e545ed"
+    "inputHash": "844317f7"
   },
   {
     "kellyId": 4960,
@@ -24676,7 +24684,7 @@
     "examples": [
       "Nästa termin börjar i januari."
     ],
-    "inputHash": "c211fd8a"
+    "inputHash": "ceeec109"
   },
   {
     "kellyId": 4975,
@@ -24725,7 +24733,7 @@
     "examples": [
       "Läs alltid texten på förpackningen."
     ],
-    "inputHash": "fc4e1343"
+    "inputHash": "26d99a05"
   },
   {
     "kellyId": 4986,
@@ -24823,7 +24831,7 @@
     "examples": [
       "Torget är en naturlig mötesplats för invånarna."
     ],
-    "inputHash": "993e9689"
+    "inputHash": "bbea1196"
   },
   {
     "kellyId": 5005,
@@ -24893,7 +24901,7 @@
     "examples": [
       "Det finns en liten öppning i väggen."
     ],
-    "inputHash": "6fb129c2"
+    "inputHash": "bddc19a2"
   },
   {
     "kellyId": 5020,
@@ -24956,7 +24964,7 @@
     "examples": [
       "Deras förhållande är slut."
     ],
-    "inputHash": "dec40611"
+    "inputHash": "270dd347"
   },
   {
     "kellyId": 5031,
@@ -25005,7 +25013,7 @@
     "examples": [
       "Han sådde frön i trädgården."
     ],
-    "inputHash": "f7424600"
+    "inputHash": "8cfd59eb"
   },
   {
     "kellyId": 5041,
@@ -25054,14 +25062,14 @@
     "examples": [
       "Tjuren hade långa horn."
     ],
-    "inputHash": "3947c27d"
+    "inputHash": "85150fcc"
   },
   {
     "kellyId": 5050,
     "examples": [
       "Hon betalade med en hundralapps sedel."
     ],
-    "inputHash": "dd3024c0"
+    "inputHash": "9327550a"
   },
   {
     "kellyId": 5051,
@@ -25075,7 +25083,7 @@
     "examples": [
       "Jackan var gjord av tjockt skinn."
     ],
-    "inputHash": "8ae6a213"
+    "inputHash": "c9d4901b"
   },
   {
     "kellyId": 5054,
@@ -25117,7 +25125,7 @@
     "examples": [
       "De organiserade en insamling till de drabbade."
     ],
-    "inputHash": "626e645c"
+    "inputHash": "b17cc8fc"
   },
   {
     "kellyId": 5061,
@@ -25131,7 +25139,7 @@
     "examples": [
       "Forskarna studerade det marina ekosystemet."
     ],
-    "inputHash": "011be508"
+    "inputHash": "3da29580"
   },
   {
     "kellyId": 5065,
@@ -25306,7 +25314,7 @@
     "examples": [
       "Landet är en suverän stat."
     ],
-    "inputHash": "241198cc"
+    "inputHash": "a5b57ccf"
   },
   {
     "kellyId": 5100,
@@ -25327,7 +25335,7 @@
     "examples": [
       "Klättrarens fäste i berget var ostadigt."
     ],
-    "inputHash": "840c4c46"
+    "inputHash": "4c131ebe"
   },
   {
     "kellyId": 5104,
@@ -25362,14 +25370,14 @@
     "examples": [
       "Barnen sprang längs korridoren."
     ],
-    "inputHash": "bd1359e0"
+    "inputHash": "dbf9a83f"
   },
   {
     "kellyId": 5112,
     "examples": [
       "Armén sände stridsvagnar till gränsen."
     ],
-    "inputHash": "9df4110c"
+    "inputHash": "fec9846c"
   },
   {
     "kellyId": 5113,
@@ -25397,7 +25405,7 @@
     "examples": [
       "Hon hämtade sitt bagage vid bandet."
     ],
-    "inputHash": "61fdc39d"
+    "inputHash": "9bb08d94"
   },
   {
     "kellyId": 5117,
@@ -25439,7 +25447,7 @@
     "examples": [
       "Läraren höll upprop i början av lektionen."
     ],
-    "inputHash": "0a033ce4"
+    "inputHash": "44ba8dcc"
   },
   {
     "kellyId": 5124,
@@ -25474,7 +25482,7 @@
     "examples": [
       "Hon slog sig på tummen med hammaren."
     ],
-    "inputHash": "514314a8"
+    "inputHash": "df60509f"
   },
   {
     "kellyId": 5132,
@@ -25530,7 +25538,7 @@
     "examples": [
       "Vi behöver revidera planen efter resultaten."
     ],
-    "inputHash": "ddc39da3"
+    "inputHash": "61762c98"
   },
   {
     "kellyId": 5145,
@@ -25551,7 +25559,7 @@
     "examples": [
       "Hon klistrade bilden på framsidan."
     ],
-    "inputHash": "045b2959"
+    "inputHash": "720093c4"
   },
   {
     "kellyId": 5154,
@@ -25649,7 +25657,7 @@
     "examples": [
       "Förloraren tog ändå det hela med ett leende."
     ],
-    "inputHash": "5191d238"
+    "inputHash": "c3b800b9"
   },
   {
     "kellyId": 5178,
@@ -25740,7 +25748,7 @@
     "examples": [
       "Isen börjar spricka när det blir varmare."
     ],
-    "inputHash": "0f643a6f"
+    "inputHash": "4dd9637b"
   },
   {
     "kellyId": 5192,
@@ -25761,7 +25769,7 @@
     "examples": [
       "Man måste följa spelreglerna för att tävlingen ska vara rättvis."
     ],
-    "inputHash": "64b53c0f"
+    "inputHash": "c04983e8"
   },
   {
     "kellyId": 5198,
@@ -25789,21 +25797,21 @@
     "examples": [
       "Hälsoinspektörerna genomförde en inspektion av restaurangen."
     ],
-    "inputHash": "36eb10aa"
+    "inputHash": "8c2bf8f2"
   },
   {
     "kellyId": 5203,
     "examples": [
       "Telefonens laddning tar ungefär en timme."
     ],
-    "inputHash": "5f224967"
+    "inputHash": "ba98089b"
   },
   {
     "kellyId": 5205,
     "examples": [
       "Hans svek mot familjen var oförlåtligt."
     ],
-    "inputHash": "2dc78cbc"
+    "inputHash": "02ac3bf6"
   },
   {
     "kellyId": 5206,
@@ -25936,7 +25944,7 @@
     "examples": [
       "Min farbror bor i Göteborg och jobbar som läkare."
     ],
-    "inputHash": "db6e333a"
+    "inputHash": "ab913fb8"
   },
   {
     "kellyId": 5238,
@@ -25950,7 +25958,7 @@
     "examples": [
       "Packningen var klar kvällen innan resan."
     ],
-    "inputHash": "a73426de"
+    "inputHash": "d23dac8e"
   },
   {
     "kellyId": 5240,
@@ -25971,7 +25979,7 @@
     "examples": [
       "Tröttheten efter långa arbetsdagar var påtaglig."
     ],
-    "inputHash": "18df7a25"
+    "inputHash": "0fd7b690"
   },
   {
     "kellyId": 5244,
@@ -25985,7 +25993,7 @@
     "examples": [
       "Banken erbjuder gratis rådgivning till sina kunder."
     ],
-    "inputHash": "ebf3533a"
+    "inputHash": "467e9c1e"
   },
   {
     "kellyId": 5247,
@@ -26006,7 +26014,7 @@
     "examples": [
       "Man kan hänföra dessa kostnader till projektet."
     ],
-    "inputHash": "af81df26"
+    "inputHash": "ba4df9c3"
   },
   {
     "kellyId": 5253,
@@ -26048,14 +26056,14 @@
     "examples": [
       "Halsbandet var gjort av äkta pärlor."
     ],
-    "inputHash": "8115bc8e"
+    "inputHash": "8bc17274"
   },
   {
     "kellyId": 5260,
     "examples": [
       "Han hade svår värk i ryggen efter lyftet."
     ],
-    "inputHash": "cbb5b2ff"
+    "inputHash": "fd84b05f"
   },
   {
     "kellyId": 5262,
@@ -26223,7 +26231,7 @@
     "examples": [
       "Bönderna skördade vetet i slutet av sommaren."
     ],
-    "inputHash": "f8c3b7fb"
+    "inputHash": "63ca63d8"
   },
   {
     "kellyId": 5306,
@@ -26244,28 +26252,28 @@
     "examples": [
       "Han bar på en dyrbar tavla ur museets samling."
     ],
-    "inputHash": "27fe0a61"
+    "inputHash": "98f0f5d0"
   },
   {
     "kellyId": 5309,
     "examples": [
       "Han hakade fast remmen i spännet."
     ],
-    "inputHash": "e8856fc7"
+    "inputHash": "abced9a3"
   },
   {
     "kellyId": 5310,
     "examples": [
       "Han knackade på dörren men ingen svarade."
     ],
-    "inputHash": "1d20b549"
+    "inputHash": "aca77dcc"
   },
   {
     "kellyId": 5311,
     "examples": [
       "Beslutet fattades utan insyn från offentligheten."
     ],
-    "inputHash": "1efc6eb4"
+    "inputHash": "35a2b4a8"
   },
   {
     "kellyId": 5312,
@@ -26300,7 +26308,7 @@
     "examples": [
       "Tåget ankom till stationen tjugo minuter försenat."
     ],
-    "inputHash": "196ae07d"
+    "inputHash": "ad14d1c0"
   },
   {
     "kellyId": 5319,
@@ -26349,7 +26357,7 @@
     "examples": [
       "Det finns inga indikationer på att situationen förbättras."
     ],
-    "inputHash": "d8e26ca6"
+    "inputHash": "a0c24337"
   },
   {
     "kellyId": 5330,
@@ -26363,7 +26371,7 @@
     "examples": [
       "Det råder god överensstämmelse mellan teori och praktik."
     ],
-    "inputHash": "0292150d"
+    "inputHash": "b0a2dc48"
   },
   {
     "kellyId": 5334,
@@ -26377,7 +26385,7 @@
     "examples": [
       "Hon gav barnet en puss på kinden."
     ],
-    "inputHash": "8c74f31c"
+    "inputHash": "acb5e95e"
   },
   {
     "kellyId": 5337,
@@ -26419,7 +26427,7 @@
     "examples": [
       "Tjänsten ger ett verkligt mervärde för kunderna."
     ],
-    "inputHash": "c94a6938"
+    "inputHash": "529aff16"
   },
   {
     "kellyId": 5344,
@@ -26482,7 +26490,7 @@
     "examples": [
       "Det krävs en svår avvägning mellan frihet och säkerhet."
     ],
-    "inputHash": "d75cbe98"
+    "inputHash": "bb86662f"
   },
   {
     "kellyId": 5355,
@@ -26496,7 +26504,7 @@
     "examples": [
       "Broarna i staden är byggda av stål och betong."
     ],
-    "inputHash": "7d11da93"
+    "inputHash": "3a3360b2"
   },
   {
     "kellyId": 5358,
@@ -26580,7 +26588,7 @@
     "examples": [
       "Filmkritikern prisade regissörens mod."
     ],
-    "inputHash": "770719e4"
+    "inputHash": "49ca58f4"
   },
   {
     "kellyId": 5374,
@@ -26608,7 +26616,7 @@
     "examples": [
       "Lågorna spred sig snabbt i den torra skogen."
     ],
-    "inputHash": "2058a895"
+    "inputHash": "dea37036"
   },
   {
     "kellyId": 5382,
@@ -26622,14 +26630,14 @@
     "examples": [
       "De byggde en stor damm i floden."
     ],
-    "inputHash": "267ae10d"
+    "inputHash": "116b8b0a"
   },
   {
     "kellyId": 5384,
     "examples": [
       "Den giftiga ormen lever i varma länder."
     ],
-    "inputHash": "192cef7a"
+    "inputHash": "ff2338fb"
   },
   {
     "kellyId": 5386,
@@ -26643,7 +26651,7 @@
     "examples": [
       "Hon färgade håret mörkbrunt inför festen."
     ],
-    "inputHash": "797f52bb"
+    "inputHash": "dd56bad7"
   },
   {
     "kellyId": 5391,
@@ -26685,7 +26693,7 @@
     "examples": [
       "Båten låg drivande utan motor mitt på sjön."
     ],
-    "inputHash": "a13361fe"
+    "inputHash": "061eb7a4"
   },
   {
     "kellyId": 5397,
@@ -26699,7 +26707,7 @@
     "examples": [
       "Han kallade henne en hora, vilket var djupt kränkande."
     ],
-    "inputHash": "ae113202"
+    "inputHash": "e13b2d1c"
   },
   {
     "kellyId": 5399,
@@ -26727,7 +26735,7 @@
     "examples": [
       "Larmet gick igång mitt i natten."
     ],
-    "inputHash": "b2ca0892"
+    "inputHash": "ec868f5a"
   },
   {
     "kellyId": 5403,
@@ -26748,7 +26756,7 @@
     "examples": [
       "Soldaterna fick mer ammunition inför striden."
     ],
-    "inputHash": "024ae2f0"
+    "inputHash": "940ce38b"
   },
   {
     "kellyId": 5406,
@@ -26783,7 +26791,7 @@
     "examples": [
       "Den blå jackan matchar inte dina byxor."
     ],
-    "inputHash": "8f86083b"
+    "inputHash": "234f0d9b"
   },
   {
     "kellyId": 5411,
@@ -26797,7 +26805,7 @@
     "examples": [
       "Han verkade frånvarande under hela mötet."
     ],
-    "inputHash": "0c38ff2c"
+    "inputHash": "ef2b34b2"
   },
   {
     "kellyId": 5414,
@@ -26860,7 +26868,7 @@
     "examples": [
       "Gästerna fick ett varmt mottagande av värdfamiljen."
     ],
-    "inputHash": "1e4312cc"
+    "inputHash": "2afcae61"
   },
   {
     "kellyId": 5424,
@@ -26965,7 +26973,7 @@
     "examples": [
       "Hon administrerar alla scheman och bokningar på kontoret."
     ],
-    "inputHash": "0a6ec147"
+    "inputHash": "4e52ad08"
   },
   {
     "kellyId": 5442,
@@ -26986,14 +26994,14 @@
     "examples": [
       "Soldaterna tågade i marsch genom staden."
     ],
-    "inputHash": "306c1db3"
+    "inputHash": "ef8cfd61"
   },
   {
     "kellyId": 5446,
     "examples": [
       "Vi hörde en hög smäll utifrån gatan."
     ],
-    "inputHash": "c86deec7"
+    "inputHash": "bcf3d7a7"
   },
   {
     "kellyId": 5448,
@@ -27007,7 +27015,7 @@
     "examples": [
       "Han konverterade filen till ett annat format."
     ],
-    "inputHash": "6db53959"
+    "inputHash": "1601181d"
   },
   {
     "kellyId": 5452,
@@ -27049,7 +27057,7 @@
     "examples": [
       "Hon läste ett magasin om inredning medan hon väntade."
     ],
-    "inputHash": "622e4696"
+    "inputHash": "8196126b"
   },
   {
     "kellyId": 5460,
@@ -27112,7 +27120,7 @@
     "examples": [
       "Hans ovilja att samarbeta försvårade arbetet."
     ],
-    "inputHash": "c2e19d42"
+    "inputHash": "2e336645"
   },
   {
     "kellyId": 5469,
@@ -27126,7 +27134,7 @@
     "examples": [
       "En noggrann kartläggning av problemen gjordes av forskarna."
     ],
-    "inputHash": "905d1bfd"
+    "inputHash": "3eac4d5f"
   },
   {
     "kellyId": 5473,
@@ -27266,7 +27274,7 @@
     "examples": [
       "Arkitekten visade ritningarna för det nya huset."
     ],
-    "inputHash": "26fe44b9"
+    "inputHash": "9d33de92"
   },
   {
     "kellyId": 5508,
@@ -27350,7 +27358,7 @@
     "examples": [
       "Branden aktualiserade frågan om brandsäkerhet i äldre byggnader."
     ],
-    "inputHash": "0de3378b"
+    "inputHash": "24b79445"
   },
   {
     "kellyId": 5523,
@@ -27371,7 +27379,7 @@
     "examples": [
       "Vi måste undanröja alla hinder för att nå målet."
     ],
-    "inputHash": "544c9cb9"
+    "inputHash": "1d35fa95"
   },
   {
     "kellyId": 5527,
@@ -27388,11 +27396,16 @@
     "inputHash": "1fc0412d"
   },
   {
+    "kellyId": 5530,
+    "examples": [],
+    "inputHash": "14b1538b"
+  },
+  {
     "kellyId": 5531,
     "examples": [
       "Vi behöver isolera väggarnar bättre för att spara värme."
     ],
-    "inputHash": "fdf4c8f8"
+    "inputHash": "61647577"
   },
   {
     "kellyId": 5533,
@@ -27504,7 +27517,7 @@
     "examples": [
       "Assistenten tog emot alla samtal och bokningar."
     ],
-    "inputHash": "c8512edf"
+    "inputHash": "a88db63c"
   },
   {
     "kellyId": 5557,
@@ -27567,7 +27580,7 @@
     "examples": [
       "Vi förvarar gamla möbler i förrådet under trappan."
     ],
-    "inputHash": "f05392a6"
+    "inputHash": "5dda326f"
   },
   {
     "kellyId": 5570,
@@ -27622,7 +27635,7 @@
     "examples": [
       "En liten justering av priset kan locka fler kunder."
     ],
-    "inputHash": "35431e54"
+    "inputHash": "c72e3909"
   },
   {
     "kellyId": 5581,
@@ -27650,7 +27663,7 @@
     "examples": [
       "Hans uppträdande på festen var mycket olämpligt."
     ],
-    "inputHash": "b2307d07"
+    "inputHash": "d96713db"
   },
   {
     "kellyId": 5585,
@@ -27678,7 +27691,7 @@
     "examples": [
       "En liten fraktion av partiet röstade mot förslaget."
     ],
-    "inputHash": "1f398edd"
+    "inputHash": "f6e666b3"
   },
   {
     "kellyId": 5591,
@@ -27832,7 +27845,7 @@
     "examples": [
       "Ditt rum är en enda röra."
     ],
-    "inputHash": "fbd74868"
+    "inputHash": "23fd514c"
   },
   {
     "kellyId": 6046,
@@ -27859,14 +27872,19 @@
     "examples": [
       "Min farfar brukade röka pipa."
     ],
-    "inputHash": "d0fa81cb"
+    "inputHash": "6d7e50ec"
   },
   {
     "kellyId": 6235,
     "examples": [
       "Barnen sprutade vatten på varandra."
     ],
-    "inputHash": "5d0ead1e"
+    "inputHash": "b6edbdb4"
+  },
+  {
+    "kellyId": 6277,
+    "examples": [],
+    "inputHash": "22cf1d88"
   },
   {
     "kellyId": 6315,
@@ -27880,14 +27898,14 @@
     "examples": [
       "Vi hade mycket skoj på stranden."
     ],
-    "inputHash": "6a122616"
+    "inputHash": "50138364"
   },
   {
     "kellyId": 6376,
     "examples": [
       "Flickan lekte med sin nya docka."
     ],
-    "inputHash": "1aaeb0a8"
+    "inputHash": "b04e5d79"
   },
   {
     "kellyId": 6450,
@@ -27908,14 +27926,14 @@
     "examples": [
       "Han skrev en nolla på tavlan."
     ],
-    "inputHash": "5df6dc15"
+    "inputHash": "123eb2a0"
   },
   {
     "kellyId": 6562,
     "examples": [
       "Sköterskan fyllde en spruta med medicin."
     ],
-    "inputHash": "13c4b967"
+    "inputHash": "ea96e9d1"
   },
   {
     "kellyId": 6632,
@@ -27929,7 +27947,7 @@
     "examples": [
       "Hon hade en skär klänning."
     ],
-    "inputHash": "b4351244"
+    "inputHash": "79e5cc0d"
   },
   {
     "kellyId": 6639,
@@ -27943,7 +27961,7 @@
     "examples": [
       "Hon tog ett tomt ark papper."
     ],
-    "inputHash": "36f10959"
+    "inputHash": "e9e23e64"
   },
   {
     "kellyId": 6721,
@@ -27972,6 +27990,13 @@
       "Hon kände ett starkt illamående i bilen."
     ],
     "inputHash": "4f550774"
+  },
+  {
+    "kellyId": 6841,
+    "examples": [
+      "Magistern! Jag behöver hjälp!"
+    ],
+    "inputHash": "a0799829"
   },
   {
     "kellyId": 6853,
@@ -28006,7 +28031,12 @@
     "examples": [
       "Hon kokade en gryta med vita bönor."
     ],
-    "inputHash": "64e8fe11"
+    "inputHash": "f715b48c"
+  },
+  {
+    "kellyId": 6984,
+    "examples": [],
+    "inputHash": "e4aa7b4b"
   },
   {
     "kellyId": 6999,
@@ -28020,14 +28050,14 @@
     "examples": [
       "En liten flamma flämtade i mörkret."
     ],
-    "inputHash": "afed3eaa"
+    "inputHash": "4e19f0f1"
   },
   {
     "kellyId": 7067,
     "examples": [
       "Djuren gick två och två in i arken."
     ],
-    "inputHash": "d6e92c71"
+    "inputHash": "83ac7bc2"
   },
   {
     "kellyId": 7101,
@@ -28041,7 +28071,7 @@
     "examples": [
       "De rullade en stor tunna in i källaren."
     ],
-    "inputHash": "95efde2e"
+    "inputHash": "f9bdd205"
   },
   {
     "kellyId": 7108,
@@ -28055,7 +28085,7 @@
     "examples": [
       "Hon ville inte blotta sina känslor."
     ],
-    "inputHash": "a4a1dc2a"
+    "inputHash": "b1ee8acc"
   },
   {
     "kellyId": 7168,
@@ -28069,7 +28099,7 @@
     "examples": [
       "Barnen älskar att gunga i parken."
     ],
-    "inputHash": "bccce27a"
+    "inputHash": "6b881e32"
   },
   {
     "kellyId": 7186,
@@ -28083,7 +28113,7 @@
     "examples": [
       "Citroner innehåller en stark syra."
     ],
-    "inputHash": "3f241dda"
+    "inputHash": "a99b6832"
   },
   {
     "kellyId": 7197,
@@ -28104,14 +28134,14 @@
     "examples": [
       "Du bör smörja cykelns kedja ofta."
     ],
-    "inputHash": "d2370ec3"
+    "inputHash": "1323ecfd"
   },
   {
     "kellyId": 7299,
     "examples": [
       "Han ådrog sig en allvarlig skada."
     ],
-    "inputHash": "aea0a7d2"
+    "inputHash": "53cb7221"
   },
   {
     "kellyId": 7311,
@@ -28125,7 +28155,7 @@
     "examples": [
       "Hon torkade bordet med en våt trasa."
     ],
-    "inputHash": "fe961631"
+    "inputHash": "67b5d195"
   },
   {
     "kellyId": 7320,
@@ -28160,14 +28190,14 @@
     "examples": [
       "Elden började flamma högt mot himlen."
     ],
-    "inputHash": "a80e1960"
+    "inputHash": "f3910aed"
   },
   {
     "kellyId": 7401,
     "examples": [
       "Allt han sa var bara smörja."
     ],
-    "inputHash": "cf6103ee"
+    "inputHash": "3c405c8b"
   },
   {
     "kellyId": 7497,
@@ -28181,7 +28211,7 @@
     "examples": [
       "Det är en gammal stereotyp om män."
     ],
-    "inputHash": "bb503570"
+    "inputHash": "bc2242be"
   },
   {
     "kellyId": 7511,
@@ -28191,11 +28221,16 @@
     "inputHash": "e7cedb53"
   },
   {
+    "kellyId": 7555,
+    "examples": [],
+    "inputHash": "4de0af62"
+  },
+  {
     "kellyId": 7589,
     "examples": [
       "Bonden brukar valla fåren på ängen."
     ],
-    "inputHash": "0f7ad6d3"
+    "inputHash": "ff2e1721"
   },
   {
     "kellyId": 7622,
@@ -28217,6 +28252,13 @@
       "Väntan var en ren pina för henne."
     ],
     "inputHash": "26e67d42"
+  },
+  {
+    "kellyId": 7754,
+    "examples": [
+      "Och från den stunden sökte han efter lägligt tillfälle att förråda honom."
+    ],
+    "inputHash": "9235fe02"
   },
   {
     "kellyId": 7759,
@@ -28258,7 +28300,7 @@
     "examples": [
       "En blå ådra syntes under huden."
     ],
-    "inputHash": "75107c0e"
+    "inputHash": "a8580b51"
   },
   {
     "kellyId": 7975,
@@ -28272,7 +28314,7 @@
     "examples": [
       "Alla kan fela ibland."
     ],
-    "inputHash": "3f9d34e9"
+    "inputHash": "d0a203f8"
   },
   {
     "kellyId": 7994,
@@ -28287,6 +28329,11 @@
       "Medicinen smakade riktigt besk."
     ],
     "inputHash": "16de08a8"
+  },
+  {
+    "kellyId": 8016,
+    "examples": [],
+    "inputHash": "5ddf2d1c"
   },
   {
     "kellyId": 8024,
@@ -28341,7 +28388,7 @@
     "examples": [
       "Hans troende gav honom hopp."
     ],
-    "inputHash": "a827a805"
+    "inputHash": "eabd65f5"
   },
   {
     "kellyId": 8150,
@@ -28362,7 +28409,7 @@
     "examples": [
       "Han tränar för att stärka sin bål."
     ],
-    "inputHash": "ec6c86d3"
+    "inputHash": "5e9fa1f5"
   },
   {
     "kellyId": 8208,
@@ -28383,7 +28430,7 @@
     "examples": [
       "Han måttade ett slag mot bollen."
     ],
-    "inputHash": "8407ffad"
+    "inputHash": "2860b633"
   },
   {
     "kellyId": 8269,
@@ -28446,14 +28493,14 @@
     "examples": [
       "Kan du maka på dig lite?"
     ],
-    "inputHash": "3fd9551e"
+    "inputHash": "1cc539e7"
   },
   {
     "kellyId": 8372,
     "examples": [
       "Du måste nolla vågen innan du väger."
     ],
-    "inputHash": "0fac1d4f"
+    "inputHash": "836a8b49"
   },
   {
     "kellyId": 8374,

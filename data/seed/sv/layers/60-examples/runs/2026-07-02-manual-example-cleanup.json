@@ -1,0 +1,48 @@
+[
+  {
+    "kellyId": 8016,
+    "examples": [],
+    "inputHash": "5ddf2d1c"
+  },
+  {
+    "kellyId": 7555,
+    "examples": [],
+    "inputHash": "4de0af62"
+  },
+  {
+    "kellyId": 5530,
+    "examples": [],
+    "inputHash": "14b1538b"
+  },
+  {
+    "kellyId": 6984,
+    "examples": [],
+    "inputHash": "e4aa7b4b"
+  },
+  {
+    "kellyId": 6277,
+    "examples": [],
+    "inputHash": "22cf1d88"
+  },
+  {
+    "kellyId": 7754,
+    "examples": [
+      "Och från den stunden sökte han efter lägligt tillfälle att förråda honom."
+    ],
+    "inputHash": "9235fe02"
+  },
+  {
+    "kellyId": 6841,
+    "examples": [
+      "Magistern! Jag behöver hjälp!"
+    ],
+    "inputHash": "a0799829"
+  },
+  {
+    "kellyId": 4098,
+    "examples": [
+      "Styrelsen utses av fullmäktige."
+    ],
+    "inputHash": "5438b44b"
+  }
+]

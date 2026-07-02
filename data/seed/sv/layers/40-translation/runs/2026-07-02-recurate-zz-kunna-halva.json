@@ -1,0 +1,18 @@
+[
+  {
+    "kellyId": 100,
+    "decision": "fix",
+    "reason": "subDefinitions re-curation (other meanings only): drop 'be able to, can (ability)' restating the main; layer-40 senses own this list (the 90 proposedSubDefinitions was shadowed)",
+    "translation": "be able to, can",
+    "senses": ["know how to (a skill or language)", "may, might (possibility)", "may, be allowed to (permission)"],
+    "inputHash": "387f88d5"
+  },
+  {
+    "kellyId": 3923,
+    "decision": "fix",
+    "reason": "subDefinitions re-curation (other meanings only): drop 'half (of something)' restating the main; layer-40 senses own this list",
+    "translation": "half",
+    "senses": ["half-shot, snaps (colloquial, second drink in a series)"],
+    "inputHash": "051ba81b"
+  }
+]

@@ -1,7 +1,7 @@
 import type { PracticeCardView } from '../../db/queries'
 import type { Entry, EntryOverlay } from '../../db/types'
-import { getRenderer } from '../../lang'
 import type { InflectionDisplay } from '../../lang'
+import { getRenderer } from '../../lang'
 import type { RatingLabel } from '../../srs/fsrs-adapter'
 import { SpeakButton, WiktionaryLink } from '../WordActions/WordActions'
 import styles from './StudyCard.module.css'
@@ -61,15 +61,19 @@ function TargetReveal({ target, overlay }: { target: Entry; overlay?: EntryOverl
         </div>
       </div>
       <Inflections display={r.renderInflections(target)} />
-      {target.subDefinitions?.length ? (
-        <ul class={styles.subdefs}>
-          {target.subDefinitions.map((s, i) => (
-            <li key={i}>{s}</li>
-          ))}
-        </ul>
-      ) : null}
-      {/* The user's note — their gloss on the word — sits under the meanings, above examples. */}
+      {/* The user's note — their gloss on the word — sits under the meanings, above the reference
+          list and examples. */}
       {overlay?.noteText ? <p class={styles.note}>{overlay.noteText}</p> : null}
+      {target.subDefinitions?.length ? (
+        <>
+          <div class={styles.orDivider}>also</div>
+          <div class={styles.subdefs}>
+            {target.subDefinitions.map((s, i) => (
+              <div key={i}>{s}</div>
+            ))}
+          </div>
+        </>
+      ) : null}
       {examples.length ? (
         <ul class={styles.examples}>
           {examples.map((e, i) => (
@@ -102,7 +106,7 @@ export function StudyCard({
     return <GroupCard view={view} revealed={revealed} activeTab={activeTab} ratings={ratings} onSelectTab={onSelectTab} />
   }
 
-  const { card, target, native, overlay, ambiguous } = view
+  const { card, target, native, overlay, ambiguous, siblingMeanings, productionGloss } = view
   const isRecognition = card.skill === 'recognize'
 
   const targetRenderer = getRenderer(target.lang)
@@ -117,9 +121,10 @@ export function StudyCard({
   // Prompt = target in recognition, native in production. The target's forms/IPA always travel with
   // the target word (under the prompt in recognition, the answer in production).
   const promptWord = isRecognition ? targetLemma : nativeLemma
-  // Production: the target word's sense gloss disambiguates which sense the prompt is asking for
-  // (e.g. "hand (body part)" vs "hand (of a clock)"). Empty for single-sense concepts. (Q-polysemy)
-  const promptDisambig = isRecognition ? target.disambiguator : target.sense?.gloss || native?.disambiguator
+  // Production: the meaning's gloss disambiguates which sense the prompt is asking for (e.g.
+  // "hand (body part)" vs "hand (of a clock)"; a promoted meaning uses its own gloss). Empty for
+  // single-sense concepts, so it falls back to the native disambiguator. (§12, Q-polysemy)
+  const promptDisambig = isRecognition ? target.disambiguator : productionGloss || native?.disambiguator
   const examples = [...(target.examples ?? []), ...(overlay?.customExamples ?? [])]
   // For an ambiguous word in recognition, the first example sits on the prompt as a sense cue (e.g.
   // fast conj vs adj). Pre-reveal only — once revealed, the full list renders in its normal place.
@@ -160,17 +165,30 @@ export function StudyCard({
           <>
             {isRecognition ? (
               <div class={styles.reveal}>
+                {/* Recognition is asked once per word; each promoted meaning has its own production
+                    card, so they stack with the primary as equal main meanings — any of them counts
+                    as knowing the word (multi-meaning design). */}
                 <div class={styles.answer}>
                   <span class={styles.answerWord}>{translation}</span>
+                  {!overlay?.customTranslation
+                    ? siblingMeanings.map((m, i) => (
+                        <span key={i} class={styles.answerWord}>
+                          {m}
+                        </span>
+                      ))
+                    : null}
                 </div>
-                {target.subDefinitions?.length ? (
-                  <ul class={styles.subdefs}>
-                    {target.subDefinitions.map((s, i) => (
-                      <li key={i}>{s}</li>
-                    ))}
-                  </ul>
-                ) : null}
                 {overlay?.noteText ? <p class={styles.note}>{overlay.noteText}</p> : null}
+                {target.subDefinitions?.length ? (
+                  <>
+                    <div class={styles.orDivider}>also</div>
+                    <div class={styles.subdefs}>
+                      {target.subDefinitions.map((s, i) => (
+                        <div key={i}>{s}</div>
+                      ))}
+                    </div>
+                  </>
+                ) : null}
                 {examples.length ? (
                   <ul class={styles.examples}>
                     {examples.map((e, i) => (
@@ -180,8 +198,16 @@ export function StudyCard({
                 ) : null}
               </div>
             ) : (
-              // Production: the target word's full record (the same block every group tab shows).
-              <TargetReveal target={target} overlay={overlay} />
+              // Production: the target word's full record (the same block every group tab shows), then
+              // a cross-link to the word's OTHER meanings ("led also means: joint" — multi-meaning design).
+              <>
+                <TargetReveal target={target} overlay={overlay} />
+                {siblingMeanings.length ? (
+                  <p class={styles.alsoMeans}>
+                    {targetLemma} also means: {siblingMeanings.join(', ')}
+                  </p>
+                ) : null}
+              </>
             )}
             {/* New-word moment: relate this word to same-sense synonyms already learned. (Q1) */}
             {card.mode === 'new' && view.senseSummary && view.senseSummary.synonyms.length > 0 ? (

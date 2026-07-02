@@ -1,0 +1,1045 @@
+[
+  {
+    "kellyId": 637,
+    "decision": "fix",
+    "reason": "stripped main 'grasp/take'; kept distinct decision/understand senses",
+    "translation": "grasp, take",
+    "senses": [
+      "make (a decision), take (a fancy)",
+      "understand, comprehend"
+    ],
+    "inputHash": "81549a8b"
+  },
+  {
+    "kellyId": 428,
+    "decision": "fix",
+    "reason": "stripped main 'film/movie'; kept thin-layer and photographic senses",
+    "translation": "film",
+    "senses": [
+      "thin layer, coating",
+      "film (photographic)"
+    ],
+    "inputHash": "1b660943"
+  },
+  {
+    "kellyId": 582,
+    "decision": "fix",
+    "reason": "stripped main; kept fancy and posh senses",
+    "translation": "nice, fine, pretty",
+    "senses": [
+      "fine, fancy",
+      "posh, upper-class"
+    ],
+    "inputHash": "655e80a4"
+  },
+  {
+    "kellyId": 136,
+    "decision": "fix",
+    "reason": "stripped main 'find/locate'; kept distinct consider/exist/find-oneself senses",
+    "translation": "find, locate",
+    "senses": [
+      "consider to be, deem",
+      "exist",
+      "find oneself (in a situation)"
+    ],
+    "inputHash": "e84db587"
+  },
+  {
+    "kellyId": 1089,
+    "decision": "fix",
+    "reason": "stripped main 'plural'; kept majority sense",
+    "translation": "plural",
+    "senses": [
+      "majority, the greater number"
+    ],
+    "inputHash": "41840eaa"
+  },
+  {
+    "kellyId": 465,
+    "decision": "fix",
+    "reason": "stripped main 'form/shape'; kept baking mould sense",
+    "translation": "form, shape",
+    "senses": [
+      "mould, dish, tin, tray (baking or cooking)"
+    ],
+    "inputHash": "82f73d7b"
+  },
+  {
+    "kellyId": 1311,
+    "decision": "fix",
+    "reason": "all items restate 'foot' with parentheticals; body-part is the main",
+    "translation": "foot",
+    "senses": [
+      "base (of an object)",
+      "foot (unit of length)"
+    ],
+    "inputHash": "b5c80b1d"
+  },
+  {
+    "kellyId": 1268,
+    "decision": "fix",
+    "reason": "stripped main 'success'; kept progress sense",
+    "translation": "success",
+    "senses": [
+      "progress"
+    ],
+    "inputHash": "299c3fe2"
+  },
+  {
+    "kellyId": 1324,
+    "decision": "fix",
+    "reason": "stripped main 'peace'; kept peace treaty sense",
+    "translation": "peace",
+    "senses": [
+      "peace treaty"
+    ],
+    "inputHash": "202dd7a8"
+  },
+  {
+    "kellyId": 523,
+    "decision": "fix",
+    "reason": "all items restate 'free' with parentheticals; only 'lacking' adds a shade",
+    "translation": "free",
+    "senses": [
+      "without, lacking (free of)"
+    ],
+    "inputHash": "5d7ef0e7"
+  },
+  {
+    "kellyId": 866,
+    "decision": "fix",
+    "reason": "kept title-of-address sense distinct from main 'wife'",
+    "translation": "wife",
+    "senses": [
+      "Mrs., madam (title for a married woman)"
+    ],
+    "inputHash": "020ba050"
+  },
+  {
+    "kellyId": 195,
+    "decision": "fix",
+    "reason": "stripped main 'question'; kept matter/issue sense",
+    "translation": "question",
+    "senses": [
+      "issue, matter (under discussion)"
+    ],
+    "inputHash": "4fa50fdf"
+  },
+  {
+    "kellyId": 872,
+    "decision": "fix",
+    "reason": "kept the positional foremost/first sense distinct from main 'mainly'",
+    "translation": "mainly, primarily",
+    "senses": [
+      "at the front; foremost, first (in position or rank)"
+    ],
+    "inputHash": "cf862640"
+  },
+  {
+    "kellyId": 396,
+    "decision": "fix",
+    "reason": "stripped main 'work/function'; kept work-out/succeed sense",
+    "translation": "work, function",
+    "senses": [
+      "work out, succeed"
+    ],
+    "inputHash": "f7cb59b0"
+  },
+  {
+    "kellyId": 1232,
+    "decision": "fix",
+    "reason": "stripped main 'function'; kept feature and math/programming senses",
+    "translation": "function",
+    "senses": [
+      "feature (of a product or software)",
+      "function (mathematics or programming)"
+    ],
+    "inputHash": "1748b274"
+  },
+  {
+    "kellyId": 116,
+    "decision": "fix",
+    "reason": "stripped main 'get/receive'; kept modal and causative senses",
+    "translation": "get, receive",
+    "senses": [
+      "be allowed to, may",
+      "have to, be forced to",
+      "make, cause (someone to do something)"
+    ],
+    "inputHash": "5e097239"
+  },
+  {
+    "kellyId": 1247,
+    "decision": "fix",
+    "reason": "stripped main 'colour'; kept paint sense (skin-tone just restates colour)",
+    "translation": "colour",
+    "senses": [
+      "paint, dye (substance)"
+    ],
+    "inputHash": "fe182119"
+  },
+  {
+    "kellyId": 1141,
+    "decision": "fix",
+    "reason": "both meanings already in main translation 'feed; give birth'",
+    "translation": "feed; give birth",
+    "senses": [],
+    "inputHash": "4ba5e0c5"
+  },
+  {
+    "kellyId": 348,
+    "decision": "fix",
+    "reason": "stripped main 'follow'; kept accompany and comply senses (come-next restates follow)",
+    "translation": "follow",
+    "senses": [
+      "accompany, escort",
+      "comply with (rules, instructions)"
+    ],
+    "inputHash": "68cbe729"
+  },
+  {
+    "kellyId": 1322,
+    "decision": "fix",
+    "reason": "both meanings already in main translation",
+    "translation": "consequence, result; series, sequence",
+    "senses": [],
+    "inputHash": "df35183a"
+  },
+  {
+    "kellyId": 98,
+    "decision": "fix",
+    "reason": "kept distinct prepositional uses of 'för' beyond bare 'for'",
+    "translation": "for",
+    "senses": [
+      "for, during (a time period)",
+      "in exchange for",
+      "of, with regard to"
+    ],
+    "inputHash": "3721345c"
+  },
+  {
+    "kellyId": 901,
+    "decision": "fix",
+    "reason": "stripped main 'in order to'; kept causal sense",
+    "translation": "in order to",
+    "senses": [
+      "because"
+    ],
+    "inputHash": "4bfcab48"
+  },
+  {
+    "kellyId": 452,
+    "decision": "fix",
+    "reason": "stripped main 'lead/bring'; kept conduct and make-noise senses",
+    "translation": "lead, bring",
+    "senses": [
+      "conduct, carry out (actively perform)",
+      "make (noise)"
+    ],
+    "inputHash": "e37689b5"
+  },
+  {
+    "kellyId": 1001,
+    "decision": "fix",
+    "reason": "stripped main 'improve'; kept reflexive get-better sense",
+    "translation": "improve, enhance",
+    "senses": [
+      "improve oneself, get better"
+    ],
+    "inputHash": "20f61bf2"
+  },
+  {
+    "kellyId": 1081,
+    "decision": "fix",
+    "reason": "stripped main 'advantage'; kept tennis sense",
+    "translation": "advantage",
+    "senses": [
+      "advantage (tennis: score after deuce)"
+    ],
+    "inputHash": "916fff16"
+  },
+  {
+    "kellyId": 586,
+    "decision": "fix",
+    "reason": "stripped main 'before' (time); kept positional in-front-of sense",
+    "translation": "before",
+    "senses": [
+      "in front of, ahead of (position)"
+    ],
+    "inputHash": "f2c6b09f"
+  },
+  {
+    "kellyId": 977,
+    "decision": "fix",
+    "reason": "stripped main 'occur/exist'; kept the distinct forestall/prevent/seem senses",
+    "translation": "occur, exist",
+    "senses": [
+      "anticipate, forestall (act before someone else)",
+      "prevent, preempt",
+      "appear, seem"
+    ],
+    "inputHash": "23fbdf8c"
+  },
+  {
+    "kellyId": 1096,
+    "decision": "fix",
+    "reason": "kept chemical compound sense; union restates the main 'association'",
+    "translation": "association",
+    "senses": [
+      "compound (chemistry)"
+    ],
+    "inputHash": "b72a62fe"
+  },
+  {
+    "kellyId": 310,
+    "decision": "fix",
+    "reason": "stripped main 'company'; kept venture sense",
+    "translation": "company, business",
+    "senses": [
+      "project, venture (larger undertaking)"
+    ],
+    "inputHash": "739308c6"
+  },
+  {
+    "kellyId": 531,
+    "decision": "fix",
+    "reason": "kept declare/pronounce sense distinct from main 'explain'",
+    "translation": "explain",
+    "senses": [
+      "declare, pronounce"
+    ],
+    "inputHash": "c01b366d"
+  },
+  {
+    "kellyId": 1221,
+    "decision": "fix",
+    "reason": "kept declaration sense distinct from main 'explanation'",
+    "translation": "explanation",
+    "senses": [
+      "declaration, statement"
+    ],
+    "inputHash": "fe3d22a5"
+  },
+  {
+    "kellyId": 793,
+    "decision": "fix",
+    "reason": "all items restate 'lose' with parentheticals; single meaning",
+    "translation": "lose",
+    "senses": [],
+    "inputHash": "286ad7b7"
+  },
+  {
+    "kellyId": 950,
+    "decision": "fix",
+    "reason": "kept the able-person sense distinct from main 'ability'",
+    "translation": "ability, skill",
+    "senses": [
+      "talent, gifted person"
+    ],
+    "inputHash": "2a45146d"
+  },
+  {
+    "kellyId": 599,
+    "decision": "fix",
+    "reason": "kept the 'first (of two)' sense distinct from main 'former/previous'",
+    "translation": "former, last, previous",
+    "senses": [
+      "first (the former of two)"
+    ],
+    "inputHash": "6c93b41f"
+  },
+  {
+    "kellyId": 1147,
+    "decision": "fix",
+    "reason": "congregation and parish are the main; kept assembly/gathering sense",
+    "translation": "congregation, parish",
+    "senses": [
+      "assembly, gathering"
+    ],
+    "inputHash": "69ecca79"
+  },
+  {
+    "kellyId": 390,
+    "decision": "fix",
+    "reason": "stripped main 'first'; kept the 'not until' temporal sense",
+    "translation": "first, firstly",
+    "senses": [
+      "only, not until (time: 'only now')"
+    ],
+    "inputHash": "ba47f429"
+  },
+  {
+    "kellyId": 860,
+    "decision": "fix",
+    "reason": "stripped main 'attempt'; kept trial/experiment sense",
+    "translation": "attempt, try",
+    "senses": [
+      "trial, experiment"
+    ],
+    "inputHash": "9d7a134d"
+  },
+  {
+    "kellyId": 912,
+    "decision": "fix",
+    "reason": "kept the additive besides sense distinct from main 'except/apart from'",
+    "translation": "except, apart from",
+    "senses": [
+      "besides, in addition to"
+    ],
+    "inputHash": "8b984bc8"
+  },
+  {
+    "kellyId": 279,
+    "decision": "fix",
+    "reason": "all items restate 'old' with parentheticals; kept only the previous/former shade",
+    "translation": "old",
+    "senses": [
+      "old, previous, former"
+    ],
+    "inputHash": "44581146"
+  },
+  {
+    "kellyId": 386,
+    "decision": "fix",
+    "reason": "kept the intensifying greatly/very sense distinct from main 'quite/rather'",
+    "translation": "pretty, quite, rather",
+    "senses": [
+      "greatly, very"
+    ],
+    "inputHash": "502b5024"
+  },
+  {
+    "kellyId": 177,
+    "decision": "fix",
+    "reason": "stripped main 'give'; kept give-up and yield/produce senses",
+    "translation": "give",
+    "senses": [
+      "give up, surrender, quit",
+      "yield, produce (a result)"
+    ],
+    "inputHash": "0f810bc5"
+  },
+  {
+    "kellyId": 225,
+    "decision": "fix",
+    "reason": "stripped main 'through'; kept by (means) and temporal senses",
+    "translation": "through",
+    "senses": [
+      "by, by means of",
+      "through, across (of time)"
+    ],
+    "inputHash": "98254ba4"
+  },
+  {
+    "kellyId": 703,
+    "decision": "fix",
+    "reason": "stripped main 'like'; kept social-media and approve senses",
+    "translation": "like",
+    "senses": [
+      "like (upvote on social media)",
+      "approve of, accept"
+    ],
+    "inputHash": "f4fb77f9"
+  },
+  {
+    "kellyId": 824,
+    "decision": "fix",
+    "reason": "kept the fond-of sense distinct from main 'happy/glad'",
+    "translation": "happy, glad",
+    "senses": [
+      "fond of, keen on"
+    ],
+    "inputHash": "fac42faf"
+  },
+  {
+    "kellyId": 286,
+    "decision": "fix",
+    "reason": "stripped main 'good'; kept tasty, proficient and considerable senses",
+    "translation": "good",
+    "senses": [
+      "tasty, delicious",
+      "good, proficient (skilled)",
+      "considerable (in extent)"
+    ],
+    "inputHash": "a3cc0311"
+  },
+  {
+    "kellyId": 774,
+    "decision": "fix",
+    "reason": "temperature/angle just restate 'degree'; kept rank/grade sense",
+    "translation": "degree",
+    "senses": [
+      "rank, grade (military or academic)"
+    ],
+    "inputHash": "68ef7e73"
+  },
+  {
+    "kellyId": 1161,
+    "decision": "fix",
+    "reason": "stripped main 'grip/hold'; kept approach/technique sense",
+    "translation": "grip, hold",
+    "senses": [
+      "approach, technique (way of doing something)"
+    ],
+    "inputHash": "0c67efab"
+  },
+  {
+    "kellyId": 518,
+    "decision": "fix",
+    "reason": "stripped main 'foundation/basis'; kept reason, ground and reef senses",
+    "translation": "foundation, basis",
+    "senses": [
+      "reason, cause",
+      "ground, land",
+      "reef, shallow (in water)"
+    ],
+    "inputHash": "752692de"
+  },
+  {
+    "kellyId": 662,
+    "decision": "fix",
+    "reason": "stripped main 'border/boundary'; kept limit sense",
+    "translation": "border, boundary",
+    "senses": [
+      "limit, restriction"
+    ],
+    "inputHash": "0ca38586"
+  },
+  {
+    "kellyId": 1208,
+    "decision": "fix",
+    "reason": "stripped main 'green'; kept figurative inexperienced/sick/approved senses",
+    "translation": "green",
+    "senses": [
+      "green, inexperienced",
+      "green (looking sick)",
+      "green, approved (given the go-ahead)"
+    ],
+    "inputHash": "744e1517"
+  },
+  {
+    "kellyId": 847,
+    "decision": "fix",
+    "reason": "both items restate 'god'; deity is the main and God is the same word capitalised",
+    "translation": "god",
+    "senses": [],
+    "inputHash": "375ec590"
+  },
+  {
+    "kellyId": 144,
+    "decision": "fix",
+    "reason": "stripped main 'walk'; kept the distinct go/leave/extend/lead/elapse senses",
+    "translation": "walk",
+    "senses": [
+      "go, leave",
+      "be given or allotted",
+      "extend (between two points)",
+      "lead (to)",
+      "pass, elapse (of time)"
+    ],
+    "inputHash": "1b5287fa"
+  },
+  {
+    "kellyId": 218,
+    "decision": "fix",
+    "reason": "stripped main 'time/occasion'; kept walk, gait, path and passage senses",
+    "translation": "time, occasion",
+    "senses": [
+      "walk, walking",
+      "gait, manner of walking",
+      "path, walkway",
+      "aisle, corridor, passage"
+    ],
+    "inputHash": "2648a6e0"
+  },
+  {
+    "kellyId": 297,
+    "decision": "fix",
+    "reason": "stripped main 'be valid'; kept concern/be-about sense",
+    "translation": "be valid",
+    "senses": [
+      "concern, be about"
+    ],
+    "inputHash": "f7b1abe0"
+  },
+  {
+    "kellyId": 327,
+    "decision": "fix",
+    "reason": "kept the tends-to-happen sense distinct from main 'gladly/willingly'",
+    "translation": "gladly, willingly",
+    "senses": [
+      "easily, tend to (of something that often happens)"
+    ],
+    "inputHash": "725bc5b1"
+  },
+  {
+    "kellyId": 131,
+    "decision": "fix",
+    "reason": "stripped main 'do'; kept make/produce and cause senses",
+    "translation": "do",
+    "senses": [
+      "make, produce, create",
+      "cause, have an effect"
+    ],
+    "inputHash": "2314117f"
+  },
+  {
+    "kellyId": 120,
+    "decision": "fix",
+    "reason": "'him' is just the object form of the main pronoun 'he'",
+    "translation": "he",
+    "senses": [],
+    "inputHash": "ae630b5b"
+  },
+  {
+    "kellyId": 394,
+    "decision": "fix",
+    "reason": "stripped main 'hand'; kept card-game sense",
+    "translation": "hand",
+    "senses": [
+      "hand (set of cards)"
+    ],
+    "inputHash": "10f05e9d"
+  },
+  {
+    "kellyId": 278,
+    "decision": "fix",
+    "reason": "stripped main 'shop/buy'; kept act and be-about senses",
+    "translation": "shop, buy",
+    "senses": [
+      "act, take action",
+      "be about, deal with"
+    ],
+    "inputHash": "e31447eb"
+  },
+  {
+    "kellyId": 695,
+    "decision": "fix",
+    "reason": "stripped main 'act/deed'; kept document, plot and shopping senses (action restates main)",
+    "translation": "act, deed",
+    "senses": [
+      "document, record",
+      "plot, storyline (fiction)",
+      "shopping, groceries"
+    ],
+    "inputHash": "4d6f0394"
+  },
+  {
+    "kellyId": 1162,
+    "decision": "fix",
+    "reason": "stripped main 'hi/hello'; kept the parting bye sense",
+    "translation": "hi, hello",
+    "senses": [
+      "bye (as a farewell)"
+    ],
+    "inputHash": "58e12e53"
+  },
+  {
+    "kellyId": 189,
+    "decision": "fix",
+    "reason": "stripped main 'whole'; kept the intensifying completely/totally sense",
+    "translation": "whole",
+    "senses": [
+      "completely, totally (as intensifier)"
+    ],
+    "inputHash": "9709fed7"
+  },
+  {
+    "kellyId": 1038,
+    "decision": "fix",
+    "reason": "stripped main 'weekend'; kept holiday sense",
+    "translation": "weekend",
+    "senses": [
+      "holiday, public holiday"
+    ],
+    "inputHash": "5145ef82"
+  },
+  {
+    "kellyId": 714,
+    "decision": "fix",
+    "reason": "second item just restates the main in a literal manner",
+    "translation": "simply, just, plain and simple",
+    "senses": [],
+    "inputHash": "c281edb2"
+  },
+  {
+    "kellyId": 1033,
+    "decision": "fix",
+    "reason": "stripped main 'home'; kept care-home institution sense",
+    "translation": "home",
+    "senses": [
+      "care home, institution"
+    ],
+    "inputHash": "4b9d2bfb"
+  },
+  {
+    "kellyId": 601,
+    "decision": "fix",
+    "reason": "stripped main 'be called'; kept be-claimed and command senses",
+    "translation": "be called",
+    "senses": [
+      "be claimed, be said (of something dubious)",
+      "call, name; command"
+    ],
+    "inputHash": "7980dd60"
+  },
+  {
+    "kellyId": 1057,
+    "decision": "fix",
+    "reason": "kept 'historical' sense distinct from main 'historic'",
+    "translation": "historic",
+    "senses": [
+      "historical (relating to history)"
+    ],
+    "inputHash": "26df3061"
+  },
+  {
+    "kellyId": 323,
+    "decision": "fix",
+    "reason": "kept the steal (bargain) and find-one's-way senses distinct from main 'find'",
+    "translation": "find",
+    "senses": [
+      "be a steal, be a bargain",
+      "find one's way"
+    ],
+    "inputHash": "5d7d890c"
+  },
+  {
+    "kellyId": 705,
+    "decision": "fix",
+    "reason": "kept the human helper sense distinct from main 'help'",
+    "translation": "help",
+    "senses": [
+      "helper, domestic help"
+    ],
+    "uncountable": true,
+    "inputHash": "2871a770"
+  },
+  {
+    "kellyId": 674,
+    "decision": "fix",
+    "reason": "stripped main 'court'; kept sense/judgement sense",
+    "translation": "court",
+    "senses": [
+      "sense, judgement, moderation"
+    ],
+    "inputHash": "a443fbdb"
+  },
+  {
+    "kellyId": 513,
+    "decision": "fix",
+    "reason": "stripped main 'house'; kept venue and dynasty senses",
+    "translation": "house",
+    "senses": [
+      "house, venue (restaurant, theatre, etc.)",
+      "house, dynasty (royal family)"
+    ],
+    "inputHash": "7d0eff20"
+  },
+  {
+    "kellyId": 888,
+    "decision": "fix",
+    "reason": "top-of-object restates 'head'; kept the main/chief adjectival sense",
+    "translation": "head",
+    "senses": [
+      "main, chief (most important)"
+    ],
+    "inputHash": "5a5ff2d8"
+  },
+  {
+    "kellyId": 634,
+    "decision": "fix",
+    "reason": "stripped main 'direction'; kept distance, stitch, place and stop senses",
+    "translation": "direction",
+    "senses": [
+      "distance, range",
+      "stitch (pain from running)",
+      "place, spot",
+      "stop, station"
+    ],
+    "inputHash": "b2519da8"
+  },
+  {
+    "kellyId": 224,
+    "decision": "fix",
+    "reason": "stripped main 'hold'; kept host and keep/maintain senses",
+    "translation": "hold",
+    "senses": [
+      "hold, host (an event)",
+      "keep, maintain"
+    ],
+    "inputHash": "7eeb88dd"
+  },
+  {
+    "kellyId": 969,
+    "decision": "fix",
+    "reason": "stripped main 'hard'; kept tough/demanding and hard-water senses",
+    "translation": "hard",
+    "senses": [
+      "tough, severe (demanding)",
+      "hard (of water, high mineral content)"
+    ],
+    "inputHash": "bff445ff"
+  },
+  {
+    "kellyId": 1146,
+    "decision": "fix",
+    "reason": "stripped main 'get/fetch'; kept recover sense",
+    "translation": "get, fetch",
+    "senses": [
+      "recover (from exertion or illness)"
+    ],
+    "inputHash": "6619338e"
+  },
+  {
+    "kellyId": 885,
+    "decision": "fix",
+    "reason": "stripped main 'event'; kept chance/coincidence sense",
+    "translation": "event",
+    "senses": [
+      "chance, coincidence"
+    ],
+    "inputHash": "f5cb79f7"
+  },
+  {
+    "kellyId": 960,
+    "decision": "fix",
+    "reason": "stripped main 'hang'; kept computer-freeze sense",
+    "translation": "hang",
+    "senses": [
+      "hang, freeze (of a computer)"
+    ],
+    "inputHash": "ec6e9cd7"
+  },
+  {
+    "kellyId": 1319,
+    "decision": "fix",
+    "reason": "stripped main 'horse'; kept chess knight sense",
+    "translation": "horse",
+    "senses": [
+      "knight (chess)"
+    ],
+    "inputHash": "035f3ed5"
+  },
+  {
+    "kellyId": 720,
+    "decision": "fix",
+    "reason": "stripped main 'claim'; kept assert-oneself and maintain-property senses",
+    "translation": "claim",
+    "senses": [
+      "assert oneself, hold one's own",
+      "maintain (a property)"
+    ],
+    "inputHash": "753a9dbe"
+  },
+  {
+    "kellyId": 251,
+    "decision": "fix",
+    "reason": "stripped main 'high/tall'; kept great-quantity, high-pitched and loud senses",
+    "translation": "high",
+    "senses": [
+      "high, great (of quantity or value)",
+      "high-pitched",
+      "loud"
+    ],
+    "inputHash": "b1c0591b"
+  },
+  {
+    "kellyId": 882,
+    "decision": "fix",
+    "reason": "kept the figurative highly sense distinct from main 'loudly'",
+    "translation": "loudly",
+    "senses": [
+      "highly, greatly"
+    ],
+    "inputHash": "f3378594"
+  },
+  {
+    "kellyId": 307,
+    "decision": "fix",
+    "reason": "stripped main 'hear'; kept check-with, interrogate and belong senses",
+    "translation": "hear",
+    "senses": [
+      "check with (someone)",
+      "interrogate, question",
+      "belong (to), be part of"
+    ],
+    "inputHash": "d9939ee0"
+  },
+  {
+    "kellyId": 89,
+    "decision": "fix",
+    "reason": "kept the distinct time-telling and duration senses of 'i'",
+    "translation": "in",
+    "senses": [
+      "to (before a full hour: fem i tre = five to three)",
+      "for (duration: i tre dagar = for three days)"
+    ],
+    "inputHash": "652bd77e"
+  },
+  {
+    "kellyId": 539,
+    "decision": "fix",
+    "reason": "kept the 'at least' sense distinct from main 'anyhow/anyway'",
+    "translation": "anyhow, anyway",
+    "senses": [
+      "at least"
+    ],
+    "inputHash": "cb22e906"
+  },
+  {
+    "kellyId": 597,
+    "decision": "fix",
+    "reason": "kept the point/sense meaning distinct from main 'idea'",
+    "translation": "idea",
+    "senses": [
+      "point, use (usually in questions or negatives: 'no point')"
+    ],
+    "inputHash": "c60777fc"
+  },
+  {
+    "kellyId": 1298,
+    "decision": "fix",
+    "reason": "stripped main 'question/challenge'; kept propose/raise sense",
+    "translation": "question, challenge",
+    "senses": [
+      "propose, raise as an issue"
+    ],
+    "inputHash": "72385b9c"
+  },
+  {
+    "kellyId": 369,
+    "decision": "fix",
+    "reason": "kept the closed/shut sense distinct from main 'again'",
+    "translation": "again",
+    "senses": [
+      "closed, shut (dörren är igen = the door is closed)"
+    ],
+    "inputHash": "63c53721"
+  },
+  {
+    "kellyId": 416,
+    "decision": "fix",
+    "reason": "stripped main 'in front of/before'; kept ahead-of/in-preparation sense",
+    "translation": "in front of, before",
+    "senses": [
+      "ahead of, in preparation for"
+    ],
+    "inputHash": "7f13b08e"
+  },
+  {
+    "kellyId": 755,
+    "decision": "fix",
+    "reason": "stripped main 'introduce'; kept import sense",
+    "translation": "introduce",
+    "senses": [
+      "import (bring into a country)"
+    ],
+    "inputHash": "5a6cb4b3"
+  },
+  {
+    "kellyId": 784,
+    "decision": "fix",
+    "reason": "stripped main 'be included/belong'; kept enter-into sense",
+    "translation": "be included, belong",
+    "senses": [
+      "enter into (an agreement or marriage)"
+    ],
+    "inputHash": "e39dcada"
+  },
+  {
+    "kellyId": 1037,
+    "decision": "fix",
+    "reason": "stripped main 'begin/introduce/open'; kept figurative lead-onto sense",
+    "translation": "begin, introduce, open",
+    "senses": [
+      "lead (onto a path, figurative)"
+    ],
+    "inputHash": "0b974e5c"
+  },
+  {
+    "kellyId": 317,
+    "decision": "fix",
+    "reason": "stripped main 'post/contribution'; kept insert and football-cross senses",
+    "translation": "post, contribution",
+    "senses": [
+      "insert (e.g. shoe insert)",
+      "cross (in football)"
+    ],
+    "inputHash": "981a20a6"
+  },
+  {
+    "kellyId": 707,
+    "decision": "fix",
+    "reason": "stripped main 'contain/include'; kept withhold sense",
+    "translation": "contain, include",
+    "senses": [
+      "withhold (a payment)"
+    ],
+    "inputHash": "28896ef5"
+  },
+  {
+    "kellyId": 848,
+    "decision": "fix",
+    "reason": "stripped main 'effort/contribution'; kept stake, deployment and insert senses",
+    "translation": "effort, contribution",
+    "senses": [
+      "stake, deposit (in a game or investment)",
+      "deployment (of police or troops)",
+      "insert, unit (an added component)"
+    ],
+    "inputHash": "7889ac72"
+  },
+  {
+    "kellyId": 1115,
+    "decision": "fix",
+    "reason": "stripped main 'yes'; kept the realization and filler senses",
+    "translation": "yes",
+    "senses": [
+      "oh (sudden realization)",
+      "well, so (filler)"
+    ],
+    "inputHash": "87aa05f1"
+  },
+  {
+    "kellyId": 418,
+    "decision": "fix",
+    "reason": "stripped main 'job'; kept task and workplace senses",
+    "translation": "job",
+    "senses": [
+      "task, assignment",
+      "workplace"
+    ],
+    "inputHash": "8f69dd7f"
+  },
+  {
+    "kellyId": 638,
+    "decision": "fix",
+    "reason": "kept the ground sense distinct from main 'earth/soil'",
+    "translation": "earth, soil",
+    "senses": [
+      "ground (as opposed to sky or sea)"
+    ],
+    "inputHash": "dc82fea1"
+  },
+  {
+    "kellyId": 184,
+    "decision": "fix",
+    "reason": "kept the ju...desto comparative correlative distinct from the main particle use",
+    "translation": "you know, of course, after all",
+    "senses": [
+      "ju ... desto: the ... the (in comparisons)"
+    ],
+    "inputHash": "1dc03165"
+  },
+  {
+    "kellyId": 257,
+    "decision": "fix",
+    "reason": "kept the exactly/precisely sense distinct from main 'just'",
+    "translation": "just",
+    "senses": [
+      "exactly, precisely"
+    ],
+    "inputHash": "f756d23a"
+  }
+]

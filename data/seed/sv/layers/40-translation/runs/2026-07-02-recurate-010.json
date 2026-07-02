@@ -1,0 +1,1046 @@
+[
+  {
+    "kellyId": 1912,
+    "decision": "fix",
+    "reason": "erect/raise is a distinct concrete sense beyond establish/draw up",
+    "translation": "establish; draw up",
+    "senses": [
+      "erect, raise (a structure)"
+    ],
+    "inputHash": "71171055"
+  },
+  {
+    "kellyId": 1786,
+    "decision": "fix",
+    "reason": "estimate is a distinct sense from appreciate",
+    "translation": "appreciate",
+    "senses": [
+      "estimate"
+    ],
+    "inputHash": "bc8f57d5"
+  },
+  {
+    "kellyId": 2502,
+    "decision": "fix",
+    "reason": "behave and occur are distinct senses beyond perform",
+    "translation": "perform",
+    "senses": [
+      "behave",
+      "occur, arise"
+    ],
+    "inputHash": "fe091aad"
+  },
+  {
+    "kellyId": 2133,
+    "decision": "fix",
+    "reason": "apology is a distinct sense from excuse",
+    "translation": "excuse",
+    "senses": [
+      "apology"
+    ],
+    "inputHash": "73e81113"
+  },
+  {
+    "kellyId": 2716,
+    "decision": "fix",
+    "reason": "yield is a distinct sense from exchange",
+    "translation": "exchange",
+    "senses": [
+      "yield (quantity produced)"
+    ],
+    "inputHash": "09018ccd"
+  },
+  {
+    "kellyId": 2515,
+    "decision": "fix",
+    "reason": "rule out is a distinct sense beyond exclude/expel",
+    "translation": "exclude, expel",
+    "senses": [
+      "rule out"
+    ],
+    "inputHash": "5504cb25"
+  },
+  {
+    "kellyId": 2763,
+    "decision": "fix",
+    "reason": "outcome/result is a distinct sense from exit",
+    "translation": "exit, way out",
+    "senses": [
+      "outcome, result"
+    ],
+    "inputHash": "127cc61f"
+  },
+  {
+    "kellyId": 2701,
+    "decision": "fix",
+    "reason": "prospect/chance is a distinct sense from view",
+    "translation": "view",
+    "senses": [
+      "prospect, chance"
+    ],
+    "inputHash": "f3b517eb"
+  },
+  {
+    "kellyId": 1531,
+    "decision": "fix",
+    "reason": "express an opinion and pass a verdict are distinct from pronounce a word",
+    "translation": "pronounce",
+    "senses": [
+      "express (an opinion)",
+      "give, pass (a verdict)"
+    ],
+    "inputHash": "9a60d135"
+  },
+  {
+    "kellyId": 1641,
+    "decision": "fix",
+    "reason": "above is a distinct spatial sense",
+    "translation": "in addition to, apart from",
+    "senses": [
+      "above"
+    ],
+    "inputHash": "54e8929b"
+  },
+  {
+    "kellyId": 2805,
+    "decision": "fix",
+    "reason": "watch/guard duty (the act) is distinct from guard (the person)",
+    "translation": "guard",
+    "senses": [
+      "watch, guard duty (the act)"
+    ],
+    "inputHash": "ca30421d"
+  },
+  {
+    "kellyId": 2740,
+    "decision": "fix",
+    "reason": "experience/know-how is a distinct sense from habit",
+    "translation": "habit",
+    "senses": [
+      "experience, know-how (practical familiarity)"
+    ],
+    "inputHash": "34c79d80"
+  },
+  {
+    "kellyId": 2312,
+    "decision": "fix",
+    "reason": "migrate (of animals) is a distinct sense from wander",
+    "translation": "wander",
+    "senses": [
+      "migrate (of fish or animals)"
+    ],
+    "inputHash": "02d7ca71"
+  },
+  {
+    "kellyId": 1525,
+    "decision": "fix",
+    "reason": "everyday life is a distinct sense from weekday",
+    "translation": "weekday",
+    "senses": [
+      "everyday life"
+    ],
+    "inputHash": "cab6f942"
+  },
+  {
+    "kellyId": 2734,
+    "decision": "fix",
+    "reason": "lap, layer and shipyard are distinct senses beyond turn/revolution",
+    "translation": "turn, revolution",
+    "senses": [
+      "lap, circuit (in a race)",
+      "layer (geology)",
+      "wharf, shipyard"
+    ],
+    "inputHash": "a49de9fb"
+  },
+  {
+    "kellyId": 2412,
+    "decision": "fix",
+    "reason": "VCR is a distinct (dated) sense from video",
+    "translation": "video",
+    "senses": [
+      "videocassette recorder (VCR)"
+    ],
+    "inputHash": "057bdcc4"
+  },
+  {
+    "kellyId": 1985,
+    "decision": "fix",
+    "reason": "rest/lean (be supported on) is a distinct sense from rest/take a break",
+    "translation": "rest",
+    "senses": [
+      "rest, lean (be supported on something)"
+    ],
+    "inputHash": "693eaf6d"
+  },
+  {
+    "kellyId": 1667,
+    "decision": "fix",
+    "reason": "view/hit (web count) is a distinct sense from show/display",
+    "translation": "show, display",
+    "senses": [
+      "view, hit (web counter)"
+    ],
+    "inputHash": "d48699df"
+  },
+  {
+    "kellyId": 1896,
+    "decision": "fix",
+    "reason": "second item merely restates weigh; no distinct sense",
+    "translation": "weigh",
+    "senses": [],
+    "inputHash": "9caef96b"
+  },
+  {
+    "kellyId": 1488,
+    "decision": "fix",
+    "reason": "selector (device) is a distinct sense from voter",
+    "translation": "voter",
+    "senses": [
+      "selector (mechanical or electronic)"
+    ],
+    "inputHash": "7ec2092d"
+  },
+  {
+    "kellyId": 2790,
+    "decision": "fix",
+    "reason": "assess/appraise (monetary) is a distinct sense from value/appreciate",
+    "translation": "value, appreciate",
+    "senses": [
+      "assess, appraise (determine monetary value)"
+    ],
+    "inputHash": "cda4663f"
+  },
+  {
+    "kellyId": 2175,
+    "decision": "fix",
+    "reason": "emotional warmth and physics heat/energy are distinct from temperature warmth",
+    "translation": "heat, warmth",
+    "senses": [
+      "warmth (emotional)",
+      "heat, energy (physics)"
+    ],
+    "uncountable": true,
+    "inputHash": "44b02f85"
+  },
+  {
+    "kellyId": 2453,
+    "decision": "fix",
+    "reason": "website is a distinct sense from the web",
+    "translation": "web",
+    "senses": [
+      "website (short for webbplats)"
+    ],
+    "inputHash": "3a8218dc"
+  },
+  {
+    "kellyId": 1835,
+    "decision": "fix",
+    "reason": "area (extent) and area (location) are distinct from surface",
+    "translation": "surface",
+    "senses": [
+      "area (measure of extent)",
+      "area (location)"
+    ],
+    "inputHash": "d72c3bec"
+  },
+  {
+    "kellyId": 2804,
+    "decision": "fix",
+    "reason": "deep regret/remorse is a distinct sense from anxiety",
+    "translation": "anxiety",
+    "senses": [
+      "deep regret, remorse"
+    ],
+    "uncountable": true,
+    "inputHash": "43be5739"
+  },
+  {
+    "kellyId": 1527,
+    "decision": "fix",
+    "reason": "recur is a distinct sense from return/come back",
+    "translation": "return, come back",
+    "senses": [
+      "recur"
+    ],
+    "inputHash": "bf5ce299"
+  },
+  {
+    "kellyId": 2496,
+    "decision": "fix",
+    "reason": "proper/pure and married are distinct from genuine/authentic",
+    "translation": "genuine, authentic",
+    "senses": [
+      "proper, pure",
+      "married (in compounds, e.g. äkta make)"
+    ],
+    "inputHash": "9e57af69"
+  },
+  {
+    "kellyId": 2611,
+    "decision": "fix",
+    "reason": "second item merely restates beer; no distinct sense",
+    "translation": "beer",
+    "senses": [],
+    "inputHash": "ce86a857"
+  },
+  {
+    "kellyId": 2096,
+    "decision": "fix",
+    "reason": "across, more than, and transferred are distinct nuances beyond over/above",
+    "translation": "over",
+    "senses": [
+      "over, across",
+      "over (more than)",
+      "over, transferred"
+    ],
+    "inputHash": "a62d9a4f"
+  },
+  {
+    "kellyId": 2390,
+    "decision": "fix",
+    "reason": "sexual assault is a distinct specific sense beyond abuse/assault",
+    "translation": "abuse, assault",
+    "senses": [
+      "sexual assault (sexuellt övergrepp)"
+    ],
+    "uncountable": true,
+    "inputHash": "85042dd1"
+  },
+  {
+    "kellyId": 2503,
+    "decision": "fix",
+    "reason": "transition/turn into and move on are distinct from exceed/surpass",
+    "translation": "exceed, surpass",
+    "senses": [
+      "transition, turn into (another state)",
+      "move on, proceed (to something else)"
+    ],
+    "inputHash": "9fbdade9"
+  },
+  {
+    "kellyId": 2802,
+    "decision": "fix",
+    "reason": "pedestrian crossing/passage is a distinct concrete sense from transition",
+    "translation": "transition",
+    "senses": [
+      "crossing, passage (walking across something)",
+      "pedestrian bridge"
+    ],
+    "inputHash": "bc47025e"
+  },
+  {
+    "kellyId": 2441,
+    "decision": "fix",
+    "reason": "surrender/give oneself up is a distinct sense from hand over/deliver",
+    "translation": "hand over, deliver",
+    "senses": [
+      "surrender, give oneself up"
+    ],
+    "inputHash": "20957aa2"
+  },
+  {
+    "kellyId": 2366,
+    "decision": "fix",
+    "reason": "outweigh/predominate is a distinct sense from consider/weigh up",
+    "translation": "consider, weigh up",
+    "senses": [
+      "outweigh, predominate"
+    ],
+    "inputHash": "16285232"
+  },
+  {
+    "kellyId": 2033,
+    "decision": "fix",
+    "reason": "practice (repetition) is a distinct sense from exercise/drill",
+    "translation": "exercise",
+    "senses": [
+      "practice (repetition to improve a skill)"
+    ],
+    "inputHash": "6ef01019"
+  },
+  {
+    "kellyId": 2606,
+    "decision": "fix",
+    "reason": "northern is a distinct sense from upper",
+    "translation": "upper",
+    "senses": [
+      "northern"
+    ],
+    "inputHash": "741d7237"
+  },
+  {
+    "kellyId": 3030,
+    "decision": "fix",
+    "reason": "governing body, specific government and medicine administration are distinct facets",
+    "translation": "administration",
+    "senses": [
+      "administration, governing body",
+      "administration (a specific government, e.g. the Biden administration)",
+      "administration (of medicine)"
+    ],
+    "uncountable": true,
+    "inputHash": "8ab2ae6f"
+  },
+  {
+    "kellyId": 2828,
+    "decision": "fix",
+    "reason": "impractical/overly theoretical is a distinct pejorative sense",
+    "translation": "academic",
+    "senses": [
+      "impractical, overly theoretical (pejorative)"
+    ],
+    "inputHash": "8d979067"
+  },
+  {
+    "kellyId": 3134,
+    "decision": "fix",
+    "reason": "medical and accent senses are distinct from acute/urgent",
+    "translation": "acute, urgent",
+    "senses": [
+      "acute (medical)",
+      "acute (of an accent)"
+    ],
+    "inputHash": "88d7c99d"
+  },
+  {
+    "kellyId": 3487,
+    "decision": "fix",
+    "reason": "exude/smack of is a distinct figurative sense from breathe",
+    "translation": "breathe",
+    "senses": [
+      "exude, smack of"
+    ],
+    "inputHash": "b1c55e99"
+  },
+  {
+    "kellyId": 4210,
+    "decision": "fix",
+    "reason": "light/set a fire is a distinct sense from build/lay out",
+    "translation": "build, lay out",
+    "senses": [
+      "light, set (a fire)"
+    ],
+    "inputHash": "9feb7b1c"
+  },
+  {
+    "kellyId": 2818,
+    "decision": "fix",
+    "reason": "report to police and review are distinct senses from registration",
+    "translation": "registration",
+    "senses": [
+      "report (to police or authority)",
+      "review (of a book)"
+    ],
+    "inputHash": "81f73f98"
+  },
+  {
+    "kellyId": 3453,
+    "decision": "fix",
+    "reason": "second item merely restates apostle (missionary/figurative use); no distinct sense",
+    "translation": "apostle",
+    "senses": [],
+    "inputHash": "49025b4e"
+  },
+  {
+    "kellyId": 3581,
+    "decision": "fix",
+    "reason": "argument/quarrel is a distinct sense from argumentation/reasoning",
+    "translation": "argumentation, line of reasoning",
+    "senses": [
+      "argument, quarrel"
+    ],
+    "inputHash": "4e35acd9"
+  },
+  {
+    "kellyId": 3438,
+    "decision": "fix",
+    "reason": "arrangement is a distinct sense from event/function",
+    "translation": "event, function",
+    "senses": [
+      "arrangement"
+    ],
+    "inputHash": "9bcda0ee"
+  },
+  {
+    "kellyId": 3012,
+    "decision": "fix",
+    "reason": "mood/ambience and unit of pressure are distinct from the planetary air layer",
+    "translation": "atmosphere",
+    "senses": [
+      "atmosphere (mood, ambience)",
+      "atmosphere (unit of pressure)"
+    ],
+    "inputHash": "676e1952"
+  },
+  {
+    "kellyId": 2909,
+    "decision": "fix",
+    "reason": "sell off and set aside are distinct senses from remove from power",
+    "translation": "remove from power, oust",
+    "senses": [
+      "sell off (goods)",
+      "set aside (resources)"
+    ],
+    "inputHash": "c6f79b76"
+  },
+  {
+    "kellyId": 4025,
+    "decision": "fix",
+    "reason": "leave without permission/abscond is a distinct sense from deviate",
+    "translation": "deviate",
+    "senses": [
+      "leave without permission, abscond"
+    ],
+    "inputHash": "25159ef4"
+  },
+  {
+    "kellyId": 3191,
+    "decision": "fix",
+    "reason": "back out and back/support are distinct senses from reverse a vehicle",
+    "translation": "reverse, back up",
+    "senses": [
+      "back out, withdraw",
+      "back, support"
+    ],
+    "inputHash": "128a3a89"
+  },
+  {
+    "kellyId": 3729,
+    "decision": "fix",
+    "reason": "the activity and the place/liquid are distinct from the instance of a bath/swim",
+    "translation": "bath, swim",
+    "senses": [
+      "bathing, swimming (activity)",
+      "bath (place or liquid)"
+    ],
+    "inputHash": "890c7039"
+  },
+  {
+    "kellyId": 3706,
+    "decision": "fix",
+    "reason": "swim/be immersed is a distinct sense from bathe",
+    "translation": "bathe",
+    "senses": [
+      "swim, be immersed (in something)"
+    ],
+    "inputHash": "275f3d9d"
+  },
+  {
+    "kellyId": 4000,
+    "decision": "fix",
+    "reason": "downside/drawback is a distinct figurative sense from back/rear",
+    "translation": "back, rear",
+    "senses": [
+      "downside, drawback"
+    ],
+    "inputHash": "c9617c21"
+  },
+  {
+    "kellyId": 3764,
+    "decision": "fix",
+    "reason": "bar counter and unit of pressure are distinct from the drinking place",
+    "translation": "bar",
+    "senses": [
+      "bar counter",
+      "bar (unit of pressure)"
+    ],
+    "inputHash": "241ec8e5"
+  },
+  {
+    "kellyId": 3164,
+    "decision": "fix",
+    "reason": "authorised and appropriate/safe are distinct from qualified/competent",
+    "translation": "competent",
+    "senses": [
+      "authorised",
+      "appropriate, safe"
+    ],
+    "inputHash": "72807c26"
+  },
+  {
+    "kellyId": 3335,
+    "decision": "fix",
+    "reason": "complain is a distinct sense from regret/be sorry",
+    "translation": "regret, to be sorry",
+    "senses": [
+      "complain"
+    ],
+    "inputHash": "0e1cf026"
+  },
+  {
+    "kellyId": 3097,
+    "decision": "fix",
+    "reason": "highlight/shed light on (figurative) is distinct from literal illuminate",
+    "translation": "illuminate, light up",
+    "senses": [
+      "highlight, shed light on (a topic)"
+    ],
+    "inputHash": "335617a6"
+  },
+  {
+    "kellyId": 4010,
+    "decision": "fix",
+    "reason": "attestation and coating are distinct from evidence/proof; brake pad is too technical",
+    "translation": "evidence, proof",
+    "senses": [
+      "attestation (in records)",
+      "coating"
+    ],
+    "inputHash": "53ecf38d"
+  },
+  {
+    "kellyId": 4200,
+    "decision": "fix",
+    "reason": "meeting and advisory council are distinct senses from processing",
+    "translation": "processing",
+    "senses": [
+      "committee meeting (where agenda items are processed)",
+      "advisory council"
+    ],
+    "inputHash": "cfed2c4d"
+  },
+  {
+    "kellyId": 3754,
+    "decision": "fix",
+    "reason": "justified/well-founded is a distinct sense from entitled",
+    "translation": "entitled",
+    "senses": [
+      "justified, well-founded"
+    ],
+    "inputHash": "2148346d"
+  },
+  {
+    "kellyId": 3479,
+    "decision": "fix",
+    "reason": "appeal/complaint (legal) is a distinct sense from trouble/problem",
+    "translation": "trouble, problem",
+    "senses": [
+      "appeal, complaint (legal)"
+    ],
+    "inputHash": "84c9f773"
+  },
+  {
+    "kellyId": 4090,
+    "decision": "fix",
+    "reason": "cast, ensemble and herd/livestock are distinct senses from crew",
+    "translation": "crew",
+    "senses": [
+      "cast (theatre)",
+      "ensemble (orchestra or choir)",
+      "herd, livestock"
+    ],
+    "inputHash": "be0761ec"
+  },
+  {
+    "kellyId": 3363,
+    "decision": "fix",
+    "reason": "formal approval and agreement are distinct nuances from applause/acclamation",
+    "translation": "applause, approval",
+    "senses": [
+      "approval (formal)",
+      "agreement"
+    ],
+    "inputHash": "7ff66d0d"
+  },
+  {
+    "kellyId": 3001,
+    "decision": "fix",
+    "reason": "dice/split into bits is a distinct sense from bite",
+    "translation": "bite",
+    "senses": [
+      "dice, split into bits (e.g. sugar into cubes)"
+    ],
+    "inputHash": "409380be"
+  },
+  {
+    "kellyId": 4142,
+    "decision": "fix",
+    "reason": "big hairy man (slang) is a distinct sense from the animal",
+    "translation": "bear",
+    "senses": [
+      "bear (big, hairy man; gay slang)"
+    ],
+    "inputHash": "2e6c451b"
+  },
+  {
+    "kellyId": 3046,
+    "decision": "fix",
+    "reason": "mixing (process), compound and cross/hybrid are distinct from mixture/blend",
+    "translation": "mixture, blend",
+    "senses": [
+      "mixing (the process)",
+      "compound",
+      "cross, hybrid"
+    ],
+    "inputHash": "1201e4c2"
+  },
+  {
+    "kellyId": 3078,
+    "decision": "fix",
+    "reason": "dead-end/closed at one end is a distinct sense from blind",
+    "translation": "blind",
+    "senses": [
+      "dead-end, closed at one end"
+    ],
+    "inputHash": "64880504"
+  },
+  {
+    "kellyId": 3117,
+    "decision": "fix",
+    "reason": "notepad, pulley, data block and political bloc are distinct from block/boulder",
+    "translation": "block, boulder, cuboid",
+    "senses": [
+      "block, pad, notebook",
+      "block, pulley",
+      "block (data storage)",
+      "bloc (political)"
+    ],
+    "inputHash": "e273f7c4"
+  },
+  {
+    "kellyId": 4132,
+    "decision": "fix",
+    "reason": "rare/underdone (of meat) is a distinct sense from bloody",
+    "translation": "bloody",
+    "senses": [
+      "rare, underdone (of meat)"
+    ],
+    "inputHash": "f15c7a8d"
+  },
+  {
+    "kellyId": 4011,
+    "decision": "fix",
+    "reason": "turn a blind eye/ignore is a distinct figurative sense from shut one's eyes",
+    "translation": "shut one's eyes",
+    "senses": [
+      "turn a blind eye, ignore"
+    ],
+    "inputHash": "2c14ced3"
+  },
+  {
+    "kellyId": 4212,
+    "decision": "fix",
+    "reason": "butter/make a sandwich and lay it on thick are distinct from spread",
+    "translation": "spread",
+    "senses": [
+      "butter, make (a sandwich)",
+      "lay it on thick, exaggerate"
+    ],
+    "inputHash": "1d9227f8"
+  },
+  {
+    "kellyId": 4085,
+    "decision": "fix",
+    "reason": "be lacking/fall short is a distinct sense from break/burst",
+    "translation": "break, burst",
+    "senses": [
+      "be lacking, fall short"
+    ],
+    "inputHash": "54022e76"
+  },
+  {
+    "kellyId": 4114,
+    "decision": "fix",
+    "reason": "fascist/right-wing nationalist is a distinct figurative sense from brown",
+    "translation": "brown",
+    "senses": [
+      "fascist, right-wing nationalist (figurative)"
+    ],
+    "inputHash": "eb48a26c"
+  },
+  {
+    "kellyId": 3031,
+    "decision": "fix",
+    "reason": "chest/thorax is a distinct sense from breast",
+    "translation": "breast",
+    "senses": [
+      "chest, thorax"
+    ],
+    "inputHash": "2f722e40"
+  },
+  {
+    "kellyId": 3768,
+    "decision": "fix",
+    "reason": "the thing built is a distinct sense from construction site",
+    "translation": "construction site",
+    "senses": [
+      "construction, build (the thing built)"
+    ],
+    "inputHash": "12489a04"
+  },
+  {
+    "kellyId": 3874,
+    "decision": "fix",
+    "reason": "office/agency is a distinct sense from the furniture piece",
+    "translation": "bureau, dresser, chest of drawers",
+    "senses": [
+      "bureau, office, agency"
+    ],
+    "inputHash": "58da5c46"
+  },
+  {
+    "kellyId": 3334,
+    "decision": "fix",
+    "reason": "purse/wallet (archaic) is a distinct sense from stock market",
+    "translation": "stock market, stock exchange, bourse",
+    "senses": [
+      "purse, wallet (archaic)"
+    ],
+    "inputHash": "ca9dab1c"
+  },
+  {
+    "kellyId": 3262,
+    "decision": "fix",
+    "reason": "prison, organization and monastery cells are distinct from the biological cell",
+    "translation": "cell",
+    "senses": [
+      "cell (prison)",
+      "cell (organization)",
+      "cell (monastery)"
+    ],
+    "inputHash": "61ac5ec5"
+  },
+  {
+    "kellyId": 3138,
+    "decision": "fix",
+    "reason": "political centre and sport position are distinct from the facility sense",
+    "translation": "centre",
+    "senses": [
+      "the political centre",
+      "centre forward, centrefielder (sport)"
+    ],
+    "inputHash": "a71e19e7"
+  },
+  {
+    "kellyId": 4032,
+    "decision": "fix",
+    "reason": "cyclical process and group of people are distinct from the geometric circle",
+    "translation": "circle",
+    "senses": [
+      "circle (process leading back to its start)",
+      "circle (group of people)"
+    ],
+    "inputHash": "4ef41931"
+  },
+  {
+    "kellyId": 3425,
+    "decision": "fix",
+    "reason": "childish/immature (figurative) is a distinct sense from daycare/preschool",
+    "translation": "daycare, preschool",
+    "senses": [
+      "childish, immature (figurative)"
+    ],
+    "inputHash": "9b9d994f"
+  },
+  {
+    "kellyId": 3485,
+    "decision": "fix",
+    "reason": "protest/take part in a demonstration is a distinct sense from demonstrate/show",
+    "translation": "demonstrate",
+    "senses": [
+      "protest, take part in a demonstration"
+    ],
+    "inputHash": "7367a0f4"
+  },
+  {
+    "kellyId": 3568,
+    "decision": "fix",
+    "reason": "EU official title is a distinct sense from company director",
+    "translation": "director, executive",
+    "senses": [
+      "director (EU official title)"
+    ],
+    "inputHash": "47ab185b"
+  },
+  {
+    "kellyId": 3406,
+    "decision": "fix",
+    "reason": "military, company section and sports league are distinct from arithmetic division",
+    "translation": "division",
+    "senses": [
+      "military division",
+      "department, section (of a company)",
+      "division, league (sports)"
+    ],
+    "inputHash": "beec3ee8"
+  },
+  {
+    "kellyId": 3066,
+    "decision": "fix",
+    "reason": "the deep/abyss (of the sea) is a distinct sense from depth",
+    "translation": "depth",
+    "senses": [
+      "the deep, an abyss (deep part of the sea)"
+    ],
+    "inputHash": "974b2064"
+  },
+  {
+    "kellyId": 4035,
+    "decision": "fix",
+    "reason": "inner bad conscience and wicked/naughty person are distinct from the Devil",
+    "translation": "devil",
+    "senses": [
+      "devil (bad part of the conscience)",
+      "devil (wicked or naughty person)"
+    ],
+    "inputHash": "188858bb"
+  },
+  {
+    "kellyId": 2998,
+    "decision": "fix",
+    "reason": "urge/instinct and operation/running are distinct from drift",
+    "translation": "drift",
+    "senses": [
+      "urge, instinct, drive",
+      "operation, running (of a system)"
+    ],
+    "inputHash": "1ebc24a4"
+  },
+  {
+    "kellyId": 3697,
+    "decision": "fix",
+    "reason": "lasting/economical and just over/a good are distinct from condescending/smug",
+    "translation": "condescending, smug",
+    "senses": [
+      "lasting, economical (of a product)",
+      "just over, a good (approximately exceeding)"
+    ],
+    "inputHash": "058a15ab"
+  },
+  {
+    "kellyId": 3970,
+    "decision": "fix",
+    "reason": "a stupid/foolish thing (countable act) is a distinct sense from abstract stupidity",
+    "translation": "stupidity, foolishness",
+    "senses": [
+      "a stupid thing, a foolish act"
+    ],
+    "inputHash": "9752a1c5"
+  },
+  {
+    "kellyId": 3994,
+    "decision": "fix",
+    "reason": "mortal (subject to death) is a distinct sense from deadly/fatal",
+    "translation": "deadly, fatal, lethal",
+    "senses": [
+      "mortal (susceptible to death)"
+    ],
+    "inputHash": "b2587ffe"
+  },
+  {
+    "kellyId": 2906,
+    "decision": "fix",
+    "reason": "name/call (give a name) is a distinct sense from baptize/christen",
+    "translation": "baptize, christen",
+    "senses": [
+      "name, call (give a name to)"
+    ],
+    "inputHash": "9da22a48"
+  },
+  {
+    "kellyId": 3519,
+    "decision": "fix",
+    "reason": "a mess/nuisance (concrete) is a distinct sense from misery/wretchedness",
+    "translation": "misery",
+    "senses": [
+      "mess, nuisance (something wretched)"
+    ],
+    "uncountable": true,
+    "inputHash": "171b8507"
+  },
+  {
+    "kellyId": 3847,
+    "decision": "fix",
+    "reason": "unanimous is a distinct sense from agreeing/in agreement",
+    "translation": "agreeing, in agreement",
+    "senses": [
+      "unanimous (of a decision)"
+    ],
+    "inputHash": "3ed98acb"
+  },
+  {
+    "kellyId": 3516,
+    "decision": "fix",
+    "reason": "contractor is a distinct sense from entrepreneur",
+    "translation": "entrepreneur",
+    "senses": [
+      "contractor"
+    ],
+    "inputHash": "6004f873"
+  },
+  {
+    "kellyId": 3748,
+    "decision": "fix",
+    "reason": "be reminiscent of, object formally and recall (reflexive) are distinct from remind/point out",
+    "translation": "remind, point out",
+    "senses": [
+      "be reminiscent of, recall (erinra om)",
+      "object, raise a formal objection",
+      "recall, recollect (reflexive)"
+    ],
+    "inputHash": "4cad05c4"
+  },
+  {
+    "kellyId": 3093,
+    "decision": "fix",
+    "reason": "confession is a distinct sense from acknowledgement/recognition",
+    "translation": "acknowledgement, recognition",
+    "senses": [
+      "confession"
+    ],
+    "inputHash": "e9532709"
+  },
+  {
+    "kellyId": 3418,
+    "decision": "fix",
+    "reason": "one (the numeral) is a distinct sense from the indefinite article",
+    "translation": "a, an",
+    "senses": [
+      "one (the number)"
+    ],
+    "inputHash": "4e10dbb5"
+  },
+  {
+    "kellyId": 3617,
+    "decision": "fix",
+    "reason": "bastard (insult) is a distinct sense from devil/Satan",
+    "translation": "devil, Satan",
+    "senses": [
+      "bastard, jerk (insult)"
+    ],
+    "inputHash": "f522cf71"
+  },
+  {
+    "kellyId": 2907,
+    "decision": "fix",
+    "reason": "a daydream (an imagined scenario) is a distinct sense from the faculty of imagination",
+    "translation": "imagination, fantasy",
+    "senses": [
+      "fantasy, daydream (an imagined scenario)"
+    ],
+    "inputHash": "06e75fda"
+  },
+  {
+    "kellyId": 2915,
+    "decision": "fix",
+    "reason": "wave phase and chamfer/bevel are distinct from phase/stage",
+    "translation": "phase, stage",
+    "senses": [
+      "phase (of waves, technical)",
+      "chamfer, bevel (sloping edge)"
+    ],
+    "inputHash": "4c932e25"
+  },
+  {
+    "kellyId": 3220,
+    "decision": "fix",
+    "reason": "fatty (of food) and slang phat/great are distinct from fat/obese",
+    "translation": "fat, obese",
+    "senses": [
+      "fatty (of food)",
+      "phat, great (slang)"
+    ],
+    "inputHash": "b6096e09"
+  }
+]
