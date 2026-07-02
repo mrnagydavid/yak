@@ -40,9 +40,14 @@ export function promptCue(examples: string[], ambiguous: boolean, isRecognition:
   return ambiguous && isRecognition && examples.length > 0 ? examples[0] : undefined
 }
 
-// The production "answer record" for a target word: the word + IPA + audio + inflections, then its
-// sub-definitions, the user's note, and examples. Identical whether shown on a solo production card or
-// on one tab of a multi-answer group — so a group tab "looks exactly like a no-group card". (SPEC §7.2)
+// The production "answer record" for a target word: the word + IPA + audio + inflections, then the
+// user's note and examples. Identical whether shown on a solo production card or on one tab of a
+// multi-answer group — so a group tab "looks exactly like a no-group card". (SPEC §7.2)
+//
+// No sub-definitions or meaning cross-links here. On a production card the prompt is the native meaning
+// and the answer is the target word, so listing the word's OTHER English senses ("beg, plead"; "also
+// means: pray") only clutters the answer — those belong on the recognition reveal, where the prompt IS
+// the target word and enumerating its meanings is the point.
 function TargetReveal({ target, overlay }: { target: Entry; overlay?: EntryOverlay }) {
   const r = getRenderer(target.lang)
   const ipa = r.showIpa ? target.pronunciation.ipa : undefined
@@ -61,19 +66,8 @@ function TargetReveal({ target, overlay }: { target: Entry; overlay?: EntryOverl
         </div>
       </div>
       <Inflections display={r.renderInflections(target)} />
-      {/* The user's note — their gloss on the word — sits under the meanings, above the reference
-          list and examples. */}
+      {/* The user's note — their gloss on the word — sits above the examples. */}
       {overlay?.noteText ? <p class={styles.note}>{overlay.noteText}</p> : null}
-      {target.subDefinitions?.length ? (
-        <>
-          <div class={styles.orDivider}>also</div>
-          <div class={styles.subdefs}>
-            {target.subDefinitions.map((s, i) => (
-              <div key={i}>{s}</div>
-            ))}
-          </div>
-        </>
-      ) : null}
       {examples.length ? (
         <ul class={styles.examples}>
           {examples.map((e, i) => (
@@ -198,21 +192,16 @@ export function StudyCard({
                 ) : null}
               </div>
             ) : (
-              // Production: the target word's full record (the same block every group tab shows), then
-              // a cross-link to the word's OTHER meanings ("led also means: joint" — multi-meaning design).
-              <>
-                <TargetReveal target={target} overlay={overlay} />
-                {siblingMeanings.length ? (
-                  <p class={styles.alsoMeans}>
-                    {targetLemma} also means: {siblingMeanings.join(', ')}
-                  </p>
-                ) : null}
-              </>
+              // Production: just the target word's full record (the same block every group tab shows). No
+              // cross-link to the word's OTHER meanings here — listing "also means: pray" when the learner
+              // was asked to produce this exact sense only clutters the answer. The recognition reveal is
+              // where all the word's meanings belong. (multi-meaning design)
+              <TargetReveal target={target} overlay={overlay} />
             )}
             {/* New-word moment: relate this word to same-sense synonyms already learned. (Q1) */}
             {card.mode === 'new' && view.senseSummary && view.senseSummary.synonyms.length > 0 ? (
               <p class={styles.alsoKnow}>
-                Another way to say this — you already know {view.senseSummary.synonyms.join(', ')}.
+                Another way to say this that you already know: {view.senseSummary.synonyms.join(', ')}.
               </p>
             ) : null}
           </>

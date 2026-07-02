@@ -229,14 +229,6 @@
   color: var(--color-text-secondary);
 }
 
-/* The word's other meanings, cross-linked on the reveal of a multi-meaning word (led → joint, route). */
-.alsoMeans {
-  margin-top: 8px;
-  text-align: center;
-  font-size: 13px;
-  color: var(--color-text-secondary);
-}
-
 /* Group reveal: drop the answer-zone's own top divider so the tab strip's bottom rail is the SINGLE
    separator — the tabs sit on top of that one line, no doubled rule. */
 .answerZoneGrouped {
