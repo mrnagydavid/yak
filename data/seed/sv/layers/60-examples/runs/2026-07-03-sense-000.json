@@ -1,0 +1,402 @@
+[
+  {
+    "kellyId": 893,
+    "lemma": "ande",
+    "examples": [
+      { "text": "Han tror på en ond ande.", "meaningKey": 0 },
+      { "text": "En ande bor i flaskan.", "meaningKey": 1 }
+    ],
+    "inputHash": "627427f4",
+    "notes": "dropped both current entries as bare fragments (not sentences); wrote a spirit sentence and a genie sentence"
+  },
+  {
+    "kellyId": 502,
+    "lemma": "anmäla",
+    "examples": [
+      { "text": "Han anmälde stölden till polisen.", "meaningKey": 0 },
+      { "text": "Jag vill anmäla mig till kursen.", "meaningKey": 1 }
+    ],
+    "inputHash": "6c030544",
+    "notes": "kept report-to-police example (meaning 0); wrote a sign-up example (anmäla sig till) for meaning 1"
+  },
+  {
+    "kellyId": 645,
+    "lemma": "be",
+    "examples": [
+      { "text": "Han bad om ett glas vatten.", "meaningKey": 0 },
+      { "text": "Hon ber varje kväll.", "meaningKey": 1 }
+    ],
+    "inputHash": "9e12f050",
+    "notes": "kept ask/request example (added period); dropped the near-duplicate; wrote a pray example for meaning 1"
+  },
+  {
+    "kellyId": 718,
+    "lemma": "bjuda",
+    "examples": [
+      { "text": "Ni behöver inte betala. Jag bjuder!", "meaningKey": 0 },
+      { "text": "Vi bjuder in alla till festen.", "meaningKey": 1 }
+    ],
+    "inputHash": "404671d8",
+    "notes": "kept 'jag bjuder' treat example (meaning 0); dropped awkward fragment; wrote a bjuda-in invite example for meaning 1"
+  },
+  {
+    "kellyId": 276,
+    "lemma": "bok",
+    "examples": [
+      { "text": "Jag läser en bra bok.", "meaningKey": 0 },
+      { "text": "En bok växer i skogen.", "meaningKey": 1 }
+    ],
+    "inputHash": "411eafc9",
+    "notes": "current entries were bare infinitive phrases; wrote a book sentence and a beech-tree sentence (context disambiguates the tree sense)"
+  },
+  {
+    "kellyId": 300,
+    "lemma": "bära",
+    "examples": [
+      { "text": "Han bär en tung väska.", "meaningKey": 0 },
+      { "text": "Hon bär en röd klänning.", "meaningKey": 1 }
+    ],
+    "inputHash": "84e7fceb",
+    "notes": "dropped both current examples (figurative load-bearing sense + above-A1 vocab like pelare); wrote plain carry and wear sentences"
+  },
+  {
+    "kellyId": 587,
+    "lemma": "dom",
+    "examples": [
+      { "text": "Domaren läser upp domen.", "meaningKey": 0 },
+      { "text": "Domen i Lund är mycket gammal.", "meaningKey": 1 }
+    ],
+    "inputHash": "4d264489",
+    "notes": "kept verdict example (meaning 0); wrote a cathedral example. Note: 'dom' for cathedral is somewhat formal (usually domkyrka), so kept it simple"
+  },
+  {
+    "kellyId": 567,
+    "lemma": "driva",
+    "examples": [
+      { "text": "Bonden driver korna hem.", "meaningKey": 0 },
+      { "text": "Hon driver ett litet företag.", "meaningKey": 1 }
+    ],
+    "inputHash": "052cb577",
+    "notes": "dropped both current examples (passive/figurative, above-A1 vocab); wrote a drive/herd example and a run-a-business example"
+  },
+  {
+    "kellyId": 522,
+    "lemma": "etikett",
+    "examples": [
+      { "text": "Det finns en etikett på flaskan.", "meaningKey": 0 },
+      { "text": "Hon lär sig om etikett.", "meaningKey": 1 }
+    ],
+    "inputHash": "1b13c9ec",
+    "notes": "kept label example (meaning 0); wrote an etiquette example for meaning 1"
+  },
+  {
+    "kellyId": 263,
+    "lemma": "fall",
+    "examples": [
+      { "text": "Ett fall från taket är farligt.", "meaningKey": 0 },
+      { "text": "Polisen har ett nytt fall.", "meaningKey": 1 }
+    ],
+    "inputHash": "89c4838e",
+    "notes": "dropped both current examples (fragment 'uppgång och fall' with high vocab; second was actually 'waterfall' sense, neither meaning); wrote a fall example and a case example"
+  },
+  {
+    "kellyId": 749,
+    "lemma": "full",
+    "examples": [
+      { "text": "Glaset är fullt med vatten.", "meaningKey": 0 },
+      { "text": "Han blev full på festen.", "meaningKey": 1 }
+    ],
+    "inputHash": "86189237",
+    "notes": "kept full example (meaning 0); wrote a drunk example for meaning 1"
+  },
+  {
+    "kellyId": 853,
+    "lemma": "fylla",
+    "examples": [
+      { "text": "Jag fyller glaset med vatten.", "meaningKey": 0 },
+      { "text": "Hon fyller år på tisdag.", "meaningKey": 1 }
+    ],
+    "inputHash": "235dabc5",
+    "notes": "kept birthday example (meaning 1); dropped odd slang 'Han fyller moppe'; wrote a fill example for meaning 0"
+  },
+  {
+    "kellyId": 738,
+    "lemma": "förhållande",
+    "examples": [
+      { "text": "Vi lever under enkla förhållanden.", "meaningKey": 0 },
+      { "text": "De har ett bra förhållande.", "meaningKey": 1 }
+    ],
+    "inputHash": "ffdaa45a",
+    "notes": "dropped current example (ägde rum / above-A1 phrasing); wrote a conditions example and a relationship example"
+  },
+  {
+    "kellyId": 1292,
+    "lemma": "givare",
+    "examples": [
+      { "text": "Gud älskar en glad givare.", "meaningKey": 0 },
+      { "text": "En givare mäter temperaturen.", "meaningKey": 1 }
+    ],
+    "inputHash": "cee67a23",
+    "notes": "kept giver example (meaning 0); wrote a sensor example for meaning 1 (technical sense, kept simple)"
+  },
+  {
+    "kellyId": 1402,
+    "lemma": "himmel",
+    "examples": [
+      { "text": "Det är en blå himmel i dag.", "meaningKey": 0 },
+      { "text": "Farmor är i himlen nu.", "meaningKey": 1 }
+    ],
+    "inputHash": "36ff9586",
+    "notes": "kept sky example (meaning 0); wrote a heaven example for meaning 1"
+  },
+  {
+    "kellyId": 417,
+    "lemma": "historia",
+    "examples": [
+      { "text": "Hon är professor i historia.", "meaningKey": 0 },
+      { "text": "Han berättar en rolig historia.", "meaningKey": 1 }
+    ],
+    "inputHash": "1a2171a8",
+    "notes": "kept history example (meaning 0); wrote a story example for meaning 1"
+  },
+  {
+    "kellyId": 795,
+    "lemma": "klocka",
+    "examples": [
+      { "text": "Vad är klockan?", "meaningKey": 0 },
+      { "text": "Kyrkans klocka ringer.", "meaningKey": 1 }
+    ],
+    "inputHash": "229a7c0b",
+    "notes": "kept clock/time example (meaning 0); dropped the second (idiom, redundant); wrote a bell example for meaning 1"
+  },
+  {
+    "kellyId": 505,
+    "lemma": "krona",
+    "examples": [
+      { "text": "Kungen bär en krona av guld.", "meaningKey": 0 },
+      { "text": "Boken kostar hundra kronor.", "meaningKey": 1 }
+    ],
+    "inputHash": "4df78b95",
+    "notes": "kept crown example (meaning 0); wrote a currency example for meaning 1"
+  },
+  {
+    "kellyId": 1127,
+    "lemma": "ljus",
+    "examples": [
+      { "text": "Ljuset i rummet är starkt.", "meaningKey": 0 },
+      { "text": "Hon tänder ett ljus.", "meaningKey": 1 }
+    ],
+    "inputHash": "2e42bd35",
+    "notes": "dropped both current examples (fragment + above-A1 figurative); wrote a light example and a candle example"
+  },
+  {
+    "kellyId": 264,
+    "lemma": "man",
+    "examples": [
+      { "text": "En man går på gatan.", "meaningKey": 0 },
+      { "text": "Hennes man heter Erik.", "meaningKey": 1 }
+    ],
+    "inputHash": "76f3a2dd",
+    "notes": "kept man example (meaning 0); wrote a husband example for meaning 1"
+  },
+  {
+    "kellyId": 551,
+    "lemma": "mening",
+    "examples": [
+      { "text": "Vad är meningen med det?", "meaningKey": 0 },
+      { "text": "Skriv en hel mening.", "meaningKey": 1 }
+    ],
+    "inputHash": "932f23a5",
+    "notes": "kept purpose/point example (meaning 0); wrote a grammatical-sentence example for meaning 1"
+  },
+  {
+    "kellyId": 362,
+    "lemma": "mål",
+    "examples": [
+      { "text": "Hennes mål är att bli läkare.", "meaningKey": 0 },
+      { "text": "Vi äter tre mål om dagen.", "meaningKey": 1 }
+    ],
+    "inputHash": "e14ae38e",
+    "notes": "both current examples kept: goal (meaning 0) and meal (meaning 1)"
+  },
+  {
+    "kellyId": 857,
+    "lemma": "nät",
+    "examples": [
+      { "text": "Fisken är i nätet.", "meaningKey": 0 },
+      { "text": "Jag hittade det på nätet.", "meaningKey": 1 }
+    ],
+    "inputHash": "1cf96ce0",
+    "notes": "kept net example (meaning 0); wrote an internet example for meaning 1"
+  },
+  {
+    "kellyId": 807,
+    "lemma": "plan",
+    "examples": [
+      { "text": "Jag har en bra plan.", "meaningKey": 0 },
+      { "text": "Barnen spelar fotboll på planen.", "meaningKey": 1 }
+    ],
+    "inputHash": "a0e78b5d",
+    "notes": "kept plan example (meaning 0); wrote a pitch/field example (en plan) for meaning 1"
+  },
+  {
+    "kellyId": 591,
+    "lemma": "pris",
+    "examples": [
+      { "text": "Vad är priset på den här jackan?", "meaningKey": 0 },
+      { "text": "Hon vann första pris.", "meaningKey": 1 }
+    ],
+    "inputHash": "710c82b3",
+    "notes": "kept price example (meaning 0); wrote a prize example for meaning 1"
+  },
+  {
+    "kellyId": 496,
+    "lemma": "regel",
+    "examples": [
+      { "text": "Det är en viktig regel.", "meaningKey": 0 },
+      { "text": "Dörren har en regel på insidan.", "meaningKey": 1 }
+    ],
+    "inputHash": "c9438efe",
+    "notes": "kept rule example (meaning 0); wrote a door-bolt example for meaning 1 (less common sense, kept simple)"
+  },
+  {
+    "kellyId": 467,
+    "lemma": "råd",
+    "examples": [
+      { "text": "Hon gav mig ett råd.", "meaningKey": 0 },
+      { "text": "Han sitter i stadens råd.", "meaningKey": 1 }
+    ],
+    "inputHash": "5d10ca74",
+    "notes": "kept advice example (added period), dropped near-duplicate; wrote a council example for meaning 1"
+  },
+  {
+    "kellyId": 441,
+    "lemma": "rätt",
+    "examples": [
+      { "text": "Det här är en god rätt.", "meaningKey": 0 },
+      { "text": "Alla har rätt till mat och vatten.", "meaningKey": 1 }
+    ],
+    "inputHash": "29ccdbcd",
+    "notes": "kept dish example (meaning 0); wrote a right/entitlement example for meaning 1"
+  },
+  {
+    "kellyId": 717,
+    "lemma": "röst",
+    "examples": [
+      { "text": "Hon har en fin röst.", "meaningKey": 0 },
+      { "text": "Varje röst är viktig.", "meaningKey": 1 }
+    ],
+    "inputHash": "de397578",
+    "notes": "kept voice example (meaning 0); wrote a vote example for meaning 1"
+  },
+  {
+    "kellyId": 1303,
+    "lemma": "serie",
+    "examples": [
+      { "text": "Vi ser en ny serie på tv.", "meaningKey": 0 },
+      { "text": "Jag läser en rolig serie.", "meaningKey": 1 }
+    ],
+    "inputHash": "7243397a",
+    "notes": "dropped current example (händelser above A1); wrote a TV-series example (meaning 0) and a comic example (meaning 1)"
+  },
+  {
+    "kellyId": 281,
+    "lemma": "sida",
+    "examples": [
+      { "text": "En kub har sex sidor.", "meaningKey": 0 },
+      { "text": "Se sida 42.", "meaningKey": 1 }
+    ],
+    "inputHash": "5b117dea",
+    "notes": "both current examples kept: side (meaning 0) and page (meaning 1)"
+  },
+  {
+    "kellyId": 797,
+    "lemma": "skatt",
+    "examples": [
+      { "text": "Vi betalar skatt varje år.", "meaningKey": 0 },
+      { "text": "Barnen letar efter en skatt.", "meaningKey": 1 }
+    ],
+    "inputHash": "ae14cb6f",
+    "notes": "kept tax example (meaning 0); wrote a treasure example for meaning 1"
+  },
+  {
+    "kellyId": 272,
+    "lemma": "slag",
+    "examples": [
+      { "text": "Han fick ett hårt slag.", "meaningKey": 0 },
+      { "text": "Kungen vann ett stort slag.", "meaningKey": 1 }
+    ],
+    "inputHash": "58d9f836",
+    "notes": "both current entries were bare battle-name fragments; wrote a hit/blow example (meaning 0) and a battle example (meaning 1)"
+  },
+  {
+    "kellyId": 1252,
+    "lemma": "spår",
+    "examples": [
+      { "text": "Rävspåret var lätt att följa i snön.", "meaningKey": 0 },
+      { "text": "Tåget går från spår tre.", "meaningKey": 1 }
+    ],
+    "inputHash": "f24fb226",
+    "notes": "kept trail/trace example (meaning 0); wrote a railway-track example for meaning 1"
+  },
+  {
+    "kellyId": 273,
+    "lemma": "tal",
+    "examples": [
+      { "text": "Tio är ett stort tal.", "meaningKey": 0 },
+      { "text": "Han höll ett tal på festen.", "meaningKey": 1 }
+    ],
+    "inputHash": "76098bd5",
+    "notes": "dropped 'reellt tal' fragment (technical); wrote a number example (meaning 0) and a speech example (meaning 1)"
+  },
+  {
+    "kellyId": 600,
+    "lemma": "tjänst",
+    "examples": [
+      { "text": "Kan du göra mig en tjänst?", "meaningKey": 0 },
+      { "text": "Han söker en ny tjänst.", "meaningKey": 1 }
+    ],
+    "inputHash": "f7a87ccf",
+    "notes": "kept favour example (meaning 0); wrote a job/position example for meaning 1"
+  },
+  {
+    "kellyId": 488,
+    "lemma": "tur",
+    "examples": [
+      { "text": "Vi hade tur med vädret.", "meaningKey": 0 },
+      { "text": "Vi tog en tur i parken.", "meaningKey": 1 }
+    ],
+    "inputHash": "94e68a79",
+    "notes": "kept trip/outing example (meaning 1); wrote a luck example for meaning 0"
+  },
+  {
+    "kellyId": 413,
+    "lemma": "val",
+    "examples": [
+      { "text": "Har du gjort ditt val?", "meaningKey": 0 },
+      { "text": "Alla röstar i valet.", "meaningKey": 1 }
+    ],
+    "inputHash": "f4704964",
+    "notes": "kept choice example (meaning 0); wrote an election example for meaning 1"
+  },
+  {
+    "kellyId": 681,
+    "lemma": "ämne",
+    "examples": [
+      { "text": "Matte är mitt bästa ämne.", "meaningKey": 0 },
+      { "text": "Vatten är ett viktigt ämne.", "meaningKey": 1 }
+    ],
+    "inputHash": "f8f853a1",
+    "notes": "dropped 'ett kemiskt ämne' fragment; wrote a subject/topic example (meaning 0) and a substance example (meaning 1)"
+  },
+  {
+    "kellyId": 2100,
+    "lemma": "bas",
+    "examples": [
+      { "text": "Stockholm är vår bas.", "meaningKey": 0 },
+      { "text": "Han spelar bas i ett band.", "meaningKey": 1 }
+    ],
+    "inputHash": "b45338a0",
+    "notes": "kept base example (meaning 0); wrote a bass-instrument example for meaning 1"
+  }
+]

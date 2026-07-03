@@ -1,0 +1,122 @@
+[
+  {
+    "kellyId": 5091,
+    "lemma": "rån",
+    "examples": [
+      { "text": "Upp med händerna, det här är ett rån!", "meaningKey": 0 },
+      { "text": "Vi äter rån till kaffet.", "meaningKey": 1 }
+    ],
+    "inputHash": "c062cbbd",
+    "notes": "kept robbery example (added !); wrote wafer example (ett rån, neuter plural unchanged) for meaning 1"
+  },
+  {
+    "kellyId": 4415,
+    "lemma": "sky",
+    "examples": [
+      { "text": "Fåglarna flyger högt i skyn.", "meaningKey": 0 },
+      { "text": "Jag gillar sky till köttet.", "meaningKey": 1 }
+    ],
+    "inputHash": "93183940",
+    "notes": "dropped both fragments ('högt upp i skyn', 'tunga skyar'); wrote a sky example and a gravy example"
+  },
+  {
+    "kellyId": 4964,
+    "lemma": "skälla",
+    "examples": [
+      { "text": "Hunden skäller på katten.", "meaningKey": 0 },
+      { "text": "Mamma skällde på mig igår.", "meaningKey": 1 }
+    ],
+    "inputHash": "c5088b11",
+    "notes": "dropped archaic Bible-ish quote (icke/kunna) and the slash-laden multi-variant sentence; wrote a bark example and a scold example"
+  },
+  {
+    "kellyId": 4875,
+    "lemma": "sno",
+    "examples": [
+      { "text": "Han snodde runt.", "meaningKey": 0 },
+      { "text": "Någon snodde min cykel.", "meaningKey": 1 }
+    ],
+    "inputHash": "2842adae",
+    "notes": "kept 'Han snodde runt' for twist; dropped 'sno sig!' (idiom = hurry up, neither sense); wrote a steal/nick example"
+  },
+  {
+    "kellyId": 4547,
+    "lemma": "stift",
+    "examples": [
+      { "text": "En sådan här skiva till och jag måste byta stift.", "meaningKey": 0 },
+      { "text": "Prästen arbetar i Lunds stift.", "meaningKey": 1 }
+    ],
+    "inputHash": "4b67a0a6",
+    "notes": "kept stylus example; wrote a diocese example for meaning 1"
+  },
+  {
+    "kellyId": 5326,
+    "lemma": "svamp",
+    "examples": [
+      { "text": "Vi plockar svamp i skogen.", "meaningKey": 0 },
+      { "text": "Jag tvättar bilen med en svamp.", "meaningKey": 1 }
+    ],
+    "inputHash": "154e2691",
+    "notes": "dropped 'fotsvamp' (single compound = foot fungus, neither sense); wrote a mushroom and a sponge example"
+  },
+  {
+    "kellyId": 4359,
+    "lemma": "sändning",
+    "examples": [
+      { "text": "Sändningen från Nobelprisceremonin börjar nu!", "meaningKey": 0 },
+      { "text": "Sändningen kommer fram imorgon.", "meaningKey": 1 }
+    ],
+    "inputHash": "31ecdbef",
+    "notes": "kept broadcast example; wrote a shipment example for meaning 1"
+  },
+  {
+    "kellyId": 5141,
+    "lemma": "tyska",
+    "examples": [
+      { "text": "Talar du tyska?", "meaningKey": 0 },
+      { "text": "Hon är tyska.", "meaningKey": 1 }
+    ],
+    "inputHash": "d4aa2396",
+    "notes": "both existing sentences kept and tagged: language vs German woman"
+  },
+  {
+    "kellyId": 5079,
+    "lemma": "undergång",
+    "examples": [
+      { "text": "Alla fruktade världens undergång.", "meaningKey": 0 },
+      { "text": "Vi går genom undergången under vägen.", "meaningKey": 1 }
+    ],
+    "inputHash": "f2ce4b0b",
+    "notes": "dropped both fragments ('världens undergång', 'mänsklighetens undergång'); wrote a downfall example and an underpass example"
+  },
+  {
+    "kellyId": 4919,
+    "lemma": "underhålla",
+    "examples": [
+      { "text": "Jag underhåller gästerna.", "meaningKey": 0 },
+      { "text": "Jag underhåller ventilationssystemet.", "meaningKey": 1 }
+    ],
+    "inputHash": "5aaff3d3",
+    "notes": "both existing sentences kept and tagged: entertain vs maintain"
+  },
+  {
+    "kellyId": 4820,
+    "lemma": "verkstad",
+    "examples": [
+      { "text": "Snickaren arbetar i sin verkstad.", "meaningKey": 0 },
+      { "text": "Jag lämnar bilen på verkstaden.", "meaningKey": 1 }
+    ],
+    "inputHash": "2f42236c",
+    "notes": "dropped 'meka i verkstaden' (slang fragment) and subjectless 'lämna in bilen på verkstad'; wrote a workshop example and a car repair-shop example"
+  },
+  {
+    "kellyId": 5545,
+    "lemma": "växel",
+    "examples": [
+      { "text": "Har du någon växel?", "meaningKey": 0 },
+      { "text": "Lägg i första växeln.", "meaningKey": 1 }
+    ],
+    "inputHash": "73dc4136",
+    "notes": "kept 'Har du någon växel?' for change (capitalised); dropped 'växeln förfaller på torsdag' (= bill of exchange, a third sense); wrote a gear example"
+  }
+]

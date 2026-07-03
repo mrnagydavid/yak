@@ -59,6 +59,8 @@ via `peaceiris/actions-gh-pages`. Custom domain `yak.mrnagydavid.dev` (`public/C
 ## Current Phase
 Core app is built: Dexie schema, FSRS scheduling, the Swedish→English seed, and the three-tab UI
 (Practice / Vocabulary / Profile). Recent feature: **multi-meaning words** — a word's distinct English
-meanings become separate production cards (recognition stays per-word). How the seed is built and edited
-— layers, field ownership, the split/gloss/grouping passes, and re-run recipes — lives in
-`SEED-PIPELINE-DESIGN.md` (see §4.8 for multi-meaning words).
+meanings become separate production cards (recognition stays per-word), with **per-sense example
+sentences** so each production card shows only its own meaning's example (`led → route` no longer shows
+the *joint* sentence). How the seed is built and edited — layers, field ownership, the
+split/gloss/grouping/example passes, and re-run recipes — lives in `SEED-PIPELINE-DESIGN.md` (see §4.8
+for multi-meaning words and per-sense examples).

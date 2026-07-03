@@ -177,6 +177,9 @@ export interface PracticeGroupMember {
   translationId: string
   target: Entry
   overlay?: EntryOverlay
+  /** Which meaning of the target word this answer is (0 = primary, 1+ = a promoted meaning), so the
+   *  reveal shows only this meaning's examples. (per-sense examples, §4.8) */
+  meaningKey: number
 }
 
 /** Everything the Practice card needs to render: the session card plus resolved entities. */
@@ -204,6 +207,9 @@ export interface PracticeCardView {
    *  a promoted meaning reads its own link gloss — so the hint tracks the exact meaning asked, never
    *  leaking the primary's gloss onto a promoted card. Undefined/empty when unambiguous. (§12) */
   productionGloss?: string
+  /** Which meaning of the target word this (solo) card asks (0 = primary, 1+ = a promoted meaning), so
+   *  a production reveal shows only this meaning's examples. Group cards carry it per member. (§4.8) */
+  meaningKey: number
 }
 
 /** Resolve a session card's display data. Returns null if the target entry is missing. */
@@ -222,14 +228,16 @@ export async function getPracticeCardView(card: SessionCard): Promise<PracticeCa
   if (card.group) {
     const targets = await db.entries.bulkGet(card.group.members.map((m) => m.targetEntryId))
     const byId = new Map(targets.filter((e): e is Entry => Boolean(e)).map((e) => [e.id, e]))
+    const memberTrs = await db.translations.bulkGet(card.group.members.map((m) => m.translationId))
+    const meaningKeyByTr = new Map(memberTrs.filter((t): t is Translation => Boolean(t)).map((t) => [t.id, t.meaningKey]))
     const members: PracticeGroupMember[] = []
     for (const m of card.group.members) {
       const t = byId.get(m.targetEntryId)
-      if (t) members.push({ translationId: m.translationId, target: t, overlay: await getOverlay(t.id) })
+      if (t) members.push({ translationId: m.translationId, target: t, overlay: await getOverlay(t.id), meaningKey: meaningKeyByTr.get(m.translationId) ?? 0 })
     }
     const groupGloss = translation?.primary === false ? (translation.gloss ?? '') : (target.sense?.gloss ?? '')
     // A group card is a synonym group, not a multi-meaning word — no meaning cross-linking here.
-    return { card, target, native, overlay, ambiguous: false, siblingMeanings: [], group: { gloss: groupGloss, members } }
+    return { card, target, native, overlay, ambiguous: false, siblingMeanings: [], group: { gloss: groupGloss, members }, meaningKey: translation?.meaningKey ?? 0 }
   }
 
   // The word's OTHER taught meanings, for reveal cross-linking on a multi-meaning word (led → joint,
@@ -250,7 +258,7 @@ export async function getPracticeCardView(card: SessionCard): Promise<PracticeCa
   // The prompt hint: primary meaning → the word's sense gloss; a promoted meaning → its own link
   // gloss (never the primary's, which would mislabel it). Recognition ignores it (self-evident cue).
   const productionGloss = translation?.primary === false ? translation.gloss : target.sense?.gloss
-  return { card, target, native, overlay, ambiguous: sameForm > 1, senseSummary, siblingMeanings, productionGloss }
+  return { card, target, native, overlay, ambiguous: sameForm > 1, senseSummary, siblingMeanings, productionGloss, meaningKey: translation?.meaningKey ?? 0 }
 }
 
 /** One practiceable meaning of a word, with its own production progress. (multi-meaning design) */

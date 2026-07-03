@@ -1,0 +1,63 @@
+[
+  {
+    "kellyId": 587,
+    "lemma": "dom",
+    "examples": [
+      { "text": "Domaren läser upp domen.", "meaningKey": 0 },
+      { "text": "Domen är en stor och gammal kyrka.", "meaningKey": 1 }
+    ],
+    "inputHash": "4d264489",
+    "notes": "review fix: cathedral example rewritten so it can't read as 'the verdict' (a church, not a ruling); A1 vocabulary"
+  },
+  {
+    "kellyId": 3700,
+    "lemma": "back",
+    "examples": [
+      { "text": "Han spelar back i laget.", "meaningKey": 0 },
+      { "text": "Han lade i backen och backade ut.", "meaningKey": 1 },
+      { "text": "Vi köpte en back öl till festen.", "meaningKey": 2 }
+    ],
+    "inputHash": "cc6adf75",
+    "notes": "review fix: reverse-gear example disambiguated from 'the hill' via 'lade i backen och backade ut'; B1"
+  },
+  {
+    "kellyId": 4179,
+    "lemma": "journal",
+    "examples": [
+      { "text": "Läkaren läste igenom patientens journal.", "meaningKey": 0 },
+      { "text": "Artikeln stod i en vetenskaplig journal.", "meaningKey": 1 }
+    ],
+    "inputHash": "845c5138",
+    "notes": "review fix: periodical example made explicit (vetenskaplig journal) so it isn't read as a medical record; B1"
+  },
+  {
+    "kellyId": 4547,
+    "lemma": "stift",
+    "examples": [
+      { "text": "Skivspelaren behöver ett nytt stift.", "meaningKey": 0 },
+      { "text": "Prästen arbetar i Lunds stift.", "meaningKey": 1 }
+    ],
+    "inputHash": "4b67a0a6",
+    "notes": "review fix: replaced the convoluted stylus sentence with a clear one (record-player stylus); B2, neuter 'ett stift'"
+  },
+  {
+    "kellyId": 4875,
+    "lemma": "sno",
+    "examples": [
+      { "text": "Hon snodde garnet runt fingret.", "meaningKey": 0 },
+      { "text": "Någon snodde min cykel.", "meaningKey": 1 }
+    ],
+    "inputHash": "2842adae",
+    "notes": "review fix: twist example disambiguated from 'steal' via 'snodde garnet runt fingret'; B2"
+  },
+  {
+    "kellyId": 5335,
+    "lemma": "puss",
+    "examples": [
+      { "text": "Hon gav barnet en puss på kinden.", "meaningKey": 0 },
+      { "text": "Bilen körde genom en stor puss med vatten.", "meaningKey": 1 }
+    ],
+    "inputHash": "acb5e95e",
+    "notes": "review fix: puddle example disambiguated from 'kiss' via 'körde genom en stor puss med vatten'; B2"
+  }
+]

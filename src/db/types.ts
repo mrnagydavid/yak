@@ -29,6 +29,14 @@ export type StudyPref = 'skip' | 'auto' | 'always'
 
 export type IpaSource = 'wiktionary' | 'ipa-dict' | 'user' | 'generated'
 
+/** A seed example sentence tagged with the meaning it illustrates. A word's sentence uses the lemma in
+ *  exactly one sense, so `meaningKey` (0 = primary, 1+ = a promoted altMeaning) lets a production card
+ *  show only its own sense's examples while recognition shows them all. (per-sense examples, §4.8) */
+export interface ExampleSentence {
+  text: string
+  meaningKey: number
+}
+
 /** Recognition = see target, recall native. Production = see native, produce target. */
 export type Skill = 'recognize' | 'produce'
 
@@ -57,7 +65,7 @@ export interface Entry {
   // together; `gloss` is the short native hint shown on the prompt (empty when the concept has a
   // single sense). Seed-generated; absent on entries the sense pass hasn't covered. (SPEC §6, plan)
   sense?: { key: string; gloss: string }
-  examples?: string[] // seed-provided example sentences (user examples live on the overlay)
+  examples?: ExampleSentence[] // seed-provided, tagged by meaning (user examples live on the overlay)
   source: Source
   seedVersion?: string // when source = seed
   seedKey?: number // stable cross-version key (Kelly id) for seed sync; on the target entry only

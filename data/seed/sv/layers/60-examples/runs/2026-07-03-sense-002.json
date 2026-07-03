@@ -1,0 +1,404 @@
+[
+  {
+    "kellyId": 4013,
+    "lemma": "bråk",
+    "examples": [
+      { "text": "Det uppstod ett bråk på gatan.", "meaningKey": 0 },
+      { "text": "Vi lär oss om bråk i matematiken.", "meaningKey": 1 }
+    ],
+    "inputHash": "df1d8e80",
+    "notes": "kept brawl example; wrote a fraction (math) example for meaning 1"
+  },
+  {
+    "kellyId": 3957,
+    "lemma": "deklaration",
+    "examples": [
+      { "text": "Landet antog en deklaration om fred.", "meaningKey": 0 },
+      { "text": "Jag skickade in min deklaration i tid.", "meaningKey": 1 }
+    ],
+    "inputHash": "b1e24ea9",
+    "notes": "kept declaration example; wrote a tax-return example for meaning 1"
+  },
+  {
+    "kellyId": 4043,
+    "lemma": "deklarera",
+    "examples": [
+      { "text": "Man måste deklarera dyra varor i tullen.", "meaningKey": 0 },
+      { "text": "Alla måste deklarera sina inkomster varje år.", "meaningKey": 1 }
+    ],
+    "inputHash": "54bbedd5",
+    "notes": "existing income example is filing a tax return (meaning 1); wrote a customs 'declare' example for meaning 0"
+  },
+  {
+    "kellyId": 3734,
+    "lemma": "fröken",
+    "examples": [
+      { "text": "Vill fröken ha kaffe?", "meaningKey": 0 },
+      { "text": "Fröken Andersson kom och hälsade på.", "meaningKey": 0 },
+      { "text": "Fröken skrev läxan på tavlan.", "meaningKey": 1 }
+    ],
+    "inputHash": "bd9d30d0",
+    "notes": "both existing examples are the polite title 'Miss' (meaning 0); wrote a schoolteacher example for meaning 1"
+  },
+  {
+    "kellyId": 4199,
+    "lemma": "gods",
+    "examples": [
+      { "text": "Tåget transporterar gods till hamnen.", "meaningKey": 0 },
+      { "text": "De bor på ett gammalt gods på landet.", "meaningKey": 1 }
+    ],
+    "inputHash": "da0d8678",
+    "notes": "existing examples were fragments; wrote a freight sentence (0) and an estate sentence (1)"
+  },
+  {
+    "kellyId": 3149,
+    "lemma": "grym",
+    "examples": [
+      { "text": "Han var grym mot djuren.", "meaningKey": 0 },
+      { "text": "Konserten igår var helt grym!", "meaningKey": 1 }
+    ],
+    "inputHash": "afc6af25",
+    "notes": "existing examples were fragments; wrote a cruel sentence (0) and a slang 'awesome' sentence (1)"
+  },
+  {
+    "kellyId": 2870,
+    "lemma": "hals",
+    "examples": [
+      { "text": "Hon bar ett halsband runt halsen.", "meaningKey": 0 },
+      { "text": "Jag har ont i halsen idag.", "meaningKey": 1 }
+    ],
+    "inputHash": "467a123a",
+    "notes": "kept neck example; wrote a sore-throat example for meaning 1"
+  },
+  {
+    "kellyId": 4179,
+    "lemma": "journal",
+    "examples": [
+      { "text": "Läkaren läste igenom patientens journal.", "meaningKey": 0 },
+      { "text": "Artikeln kom ut i en känd journal.", "meaningKey": 1 }
+    ],
+    "inputHash": "845c5138",
+    "notes": "kept medical-record example; wrote a periodical example for meaning 1 ('tidskrift' is the more common Swedish word)"
+  },
+  {
+    "kellyId": 4208,
+    "lemma": "kaka",
+    "examples": [
+      { "text": "Jag vill ha en kaka.", "meaningKey": 0 },
+      { "text": "Hon bakade en kaka till kalaset.", "meaningKey": 1 }
+    ],
+    "inputHash": "547522aa",
+    "notes": "kept cookie example (added period); dropped 'sockerkaka' fragment; wrote a cake example for meaning 1"
+  },
+  {
+    "kellyId": 3736,
+    "lemma": "klipp",
+    "examples": [
+      { "text": "Gör ett klipp i pappret med saxen.", "meaningKey": 0 },
+      { "text": "Att köpa huset var ett riktigt klipp.", "meaningKey": 1 }
+    ],
+    "inputHash": "028a37a0",
+    "notes": "kept cut example (added period); dropped 'nyhetsklipp' fragment; wrote a bargain example for meaning 1"
+  },
+  {
+    "kellyId": 3800,
+    "lemma": "kvart",
+    "examples": [
+      { "text": "Helsingfors har en och en kvarts miljon invånare.", "meaningKey": 0 },
+      { "text": "Bussen går om en kvart.", "meaningKey": 1 }
+    ],
+    "inputHash": "762a34de",
+    "notes": "kept quarter (1/4) example for meaning 0; wrote a 'quarter of an hour' example for meaning 1"
+  },
+  {
+    "kellyId": 2980,
+    "lemma": "kö",
+    "examples": [
+      { "text": "Vi står i en lång kö.", "meaningKey": 0 },
+      { "text": "Spelaren siktade med kön mot bollen.", "meaningKey": 1 }
+    ],
+    "inputHash": "4849ecb5",
+    "notes": "existing examples were fragments; wrote a queue sentence (0) and a billiard-cue sentence (1)"
+  },
+  {
+    "kellyId": 2970,
+    "lemma": "lager",
+    "examples": [
+      { "text": "Varorna finns i lagret.", "meaningKey": 0 },
+      { "text": "Tårtan har flera lager.", "meaningKey": 1 }
+    ],
+    "inputHash": "77e5ff89",
+    "notes": "kept warehouse example; wrote a layer example for meaning 1"
+  },
+  {
+    "kellyId": 3790,
+    "lemma": "matte",
+    "examples": [
+      { "text": "Jag har läxa i matte idag.", "meaningKey": 0 },
+      { "text": "Var är matte?", "meaningKey": 1 }
+    ],
+    "inputHash": "fbbfcaad",
+    "notes": "existing example is the pet-owner sense (meaning 1, trimmed); wrote a maths example for meaning 0"
+  },
+  {
+    "kellyId": 4112,
+    "lemma": "panna",
+    "examples": [
+      { "text": "Han rynkade pannan när han tänkte.", "meaningKey": 0 },
+      { "text": "Hon stekte ägg i en panna.", "meaningKey": 1 },
+      { "text": "Vi installerade en ny panna i källaren.", "meaningKey": 2 }
+    ],
+    "inputHash": "2fa6274e",
+    "notes": "existing forehead idioms were fragments; wrote a forehead sentence (0), a frying-pan sentence (1), and a boiler sentence (2)"
+  },
+  {
+    "kellyId": 3982,
+    "lemma": "pjäs",
+    "examples": [
+      { "text": "Vi såg en rolig pjäs på teatern.", "meaningKey": 0 },
+      { "text": "Han flyttade en pjäs på schackbrädet.", "meaningKey": 1 }
+    ],
+    "inputHash": "e9bd61b1",
+    "notes": "existing examples were fragments; wrote a theatre-play sentence (0) and a chess-piece sentence (1)"
+  },
+  {
+    "kellyId": 3023,
+    "lemma": "recept",
+    "examples": [
+      { "text": "Jag följde ett recept för att baka bröd.", "meaningKey": 0 },
+      { "text": "Läkaren skrev ut ett recept på medicin.", "meaningKey": 1 }
+    ],
+    "inputHash": "39c94bc2",
+    "notes": "kept recipe example; wrote a prescription example for meaning 1"
+  },
+  {
+    "kellyId": 3541,
+    "lemma": "rom",
+    "examples": [
+      { "text": "Vi åt rom på smörgåsen.", "meaningKey": 0 },
+      { "text": "Han beställde en drink med rom.", "meaningKey": 1 }
+    ],
+    "inputHash": "e96041b3",
+    "notes": "existing example used the compound 'löjrommen'; wrote a bare-lemma roe sentence (0) and a rum sentence (1)"
+  },
+  {
+    "kellyId": 2921,
+    "lemma": "sparka",
+    "examples": [
+      { "text": "Han sparkade bollen i mål.", "meaningKey": 0 },
+      { "text": "Chefen sparkade honom från jobbet.", "meaningKey": 1 }
+    ],
+    "inputHash": "e9e64ccf",
+    "notes": "kept kick example; wrote a fire/dismiss example for meaning 1"
+  },
+  {
+    "kellyId": 2908,
+    "lemma": "spets",
+    "examples": [
+      { "text": "Pennan har en vass spets.", "meaningKey": 0 },
+      { "text": "Klänningen är gjord av vit spets.", "meaningKey": 1 }
+    ],
+    "inputHash": "eec30b05",
+    "notes": "existing examples were compounds; wrote a point/tip sentence (0) and a lace sentence (1)"
+  },
+  {
+    "kellyId": 2872,
+    "lemma": "stam",
+    "examples": [
+      { "text": "Trädet har en tjock stam.", "meaningKey": 0 },
+      { "text": "Stammen bodde djupt i djungeln.", "meaningKey": 1 }
+    ],
+    "inputHash": "59e8771b",
+    "notes": "existing examples were fragments/compounds; wrote a tree-trunk sentence (0) and a tribe sentence (1)"
+  },
+  {
+    "kellyId": 3955,
+    "lemma": "stämma",
+    "examples": [
+      { "text": "Hon har en vacker stämma.", "meaningKey": 0 },
+      { "text": "Föreningen håller sin stämma i maj.", "meaningKey": 1 }
+    ],
+    "inputHash": "eefa3b49",
+    "notes": "kept voice example; wrote an assembly/meeting example for meaning 1"
+  },
+  {
+    "kellyId": 3601,
+    "lemma": "störta",
+    "examples": [
+      { "text": "Flygplanet störtade.", "meaningKey": 0 },
+      { "text": "Folket ville störta regeringen.", "meaningKey": 1 }
+    ],
+    "inputHash": "7483bc0a",
+    "notes": "kept plane-crash example (dropped near-duplicate 'Han störtade mot marken'); wrote an overthrow example for meaning 1"
+  },
+  {
+    "kellyId": 3419,
+    "lemma": "sur",
+    "examples": [
+      { "text": "Citronen är väldigt sur.", "meaningKey": 0 },
+      { "text": "Han blev sur när han förlorade.", "meaningKey": 1 }
+    ],
+    "inputHash": "270b5b6f",
+    "notes": "existing examples were fragments; wrote a sour sentence (0) and an annoyed sentence (1)"
+  },
+  {
+    "kellyId": 3583,
+    "lemma": "tavla",
+    "examples": [
+      { "text": "Det hänger en tavla på väggen.", "meaningKey": 0 },
+      { "text": "Läraren skrev på tavlan.", "meaningKey": 1 }
+    ],
+    "inputHash": "1761f216",
+    "notes": "kept painting example; wrote a board example for meaning 1"
+  },
+  {
+    "kellyId": 3898,
+    "lemma": "underhåll",
+    "examples": [
+      { "text": "Jag har utfört underhåll på ventilationssystemet.", "meaningKey": 0 },
+      { "text": "Han betalar underhåll för sina barn.", "meaningKey": 1 }
+    ],
+    "inputHash": "3d060b4e",
+    "notes": "kept maintenance example (added period); wrote a child-support example for meaning 1"
+  },
+  {
+    "kellyId": 4175,
+    "lemma": "uppgång",
+    "examples": [
+      { "text": "Priserna är på uppgång.", "meaningKey": 0 },
+      { "text": "Vi möttes vid tunnelbanans uppgång.", "meaningKey": 1 }
+    ],
+    "inputHash": "03e07906",
+    "notes": "kept rise/upswing example; wrote a staircase/entrance example for meaning 1"
+  },
+  {
+    "kellyId": 3838,
+    "lemma": "väsen",
+    "examples": [
+      { "text": "Sluta föra så mycket väsen!", "meaningKey": 0 },
+      { "text": "I sagan finns många konstiga väsen.", "meaningKey": 1 }
+    ],
+    "inputHash": "2d11628a",
+    "notes": "existing examples were fragments; wrote a noise/racket sentence (0) and a creature sentence (1)"
+  },
+  {
+    "kellyId": 5383,
+    "lemma": "damm",
+    "examples": [
+      { "text": "De byggde en stor damm i floden.", "meaningKey": 0 },
+      { "text": "Det simmar ankor i dammen.", "meaningKey": 1 }
+    ],
+    "inputHash": "116b8b0a",
+    "notes": "kept dam example; wrote a pond example for meaning 1"
+  },
+  {
+    "kellyId": 4653,
+    "lemma": "disk",
+    "examples": [
+      { "text": "Hon stod bakom disken och väntade på kunder.", "meaningKey": 0 },
+      { "text": "Det står smutsig disk i vasken.", "meaningKey": 1 }
+    ],
+    "inputHash": "17913e11",
+    "notes": "kept counter example; wrote a dirty-dishes example for meaning 1"
+  },
+  {
+    "kellyId": 4326,
+    "lemma": "däck",
+    "examples": [
+      { "text": "Vi måste byta däck på bilen.", "meaningKey": 0 },
+      { "text": "Passagerarna stod på båtens däck.", "meaningKey": 1 }
+    ],
+    "inputHash": "49a2dcff",
+    "notes": "existing examples were fragments; wrote a tyre sentence (0) and a ship-deck sentence (1)"
+  },
+  {
+    "kellyId": 5567,
+    "lemma": "fluga",
+    "examples": [
+      { "text": "En fluga surrade runt i köket.", "meaningKey": 0 },
+      { "text": "Han bar en svart fluga till kostymen.", "meaningKey": 1 }
+    ],
+    "inputHash": "5da7ea0a",
+    "notes": "existing example was a tongue-twister; wrote a fly-insect sentence (0) and a bowtie sentence (1)"
+  },
+  {
+    "kellyId": 5222,
+    "lemma": "golf",
+    "examples": [
+      { "text": "Han spelar golf varje helg.", "meaningKey": 0 },
+      { "text": "Mexikanska golfen är känd för orkaner.", "meaningKey": 1 }
+    ],
+    "inputHash": "80769ea5",
+    "notes": "existing 'Mexikanska golfen' fragment is the gulf sense (meaning 1); expanded it and wrote a golf-sport sentence for meaning 0"
+  },
+  {
+    "kellyId": 4591,
+    "lemma": "kula",
+    "examples": [
+      { "text": "Barnen lekte med små kulor.", "meaningKey": 0 },
+      { "text": "En kula träffade honom rakt i tinningen.", "meaningKey": 1 }
+    ],
+    "inputHash": "2020d274",
+    "notes": "kept bullet example (meaning 1); dropped 'lejonkula' compound; wrote a marble example for meaning 0"
+  },
+  {
+    "kellyId": 4959,
+    "lemma": "led",
+    "examples": [
+      { "text": "Han har ont i en led i knäet.", "meaningKey": 0 },
+      { "text": "Vi följde en led genom skogen.", "meaningKey": 1 }
+    ],
+    "inputHash": "844317f7",
+    "notes": "kept joint example; wrote a trail example for meaning 1"
+  },
+  {
+    "kellyId": 5458,
+    "lemma": "magasin",
+    "examples": [
+      { "text": "Hon läste ett magasin om inredning medan hon väntade.", "meaningKey": 0 },
+      { "text": "Varorna förvaras i ett stort magasin.", "meaningKey": 1 }
+    ],
+    "inputHash": "8196126b",
+    "notes": "kept magazine example; wrote a warehouse/depot example for meaning 1"
+  },
+  {
+    "kellyId": 4643,
+    "lemma": "mask",
+    "examples": [
+      { "text": "Hunden har mask.", "meaningKey": 0 },
+      { "text": "Han hade en läskig mask på festen.", "meaningKey": 1 }
+    ],
+    "inputHash": "4b3b9115",
+    "notes": "kept 'dog has worms' example (meaning 0); dropped the bait fragment; wrote a mask example for meaning 1"
+  },
+  {
+    "kellyId": 5335,
+    "lemma": "puss",
+    "examples": [
+      { "text": "Hon gav barnet en puss på kinden.", "meaningKey": 0 },
+      { "text": "Barnen hoppade i en puss efter regnet.", "meaningKey": 1 }
+    ],
+    "inputHash": "acb5e95e",
+    "notes": "kept peck/kiss example; wrote a puddle example for meaning 1"
+  },
+  {
+    "kellyId": 4362,
+    "lemma": "rabatt",
+    "examples": [
+      { "text": "Kupongen ger dig 10% rabatt på alla produkter.", "meaningKey": 0 },
+      { "text": "Hon planterade tulpaner i rabatten.", "meaningKey": 1 }
+    ],
+    "inputHash": "69b08964",
+    "notes": "kept discount example (added period); dropped 'straffrabatt'; wrote a flowerbed example for meaning 1"
+  },
+  {
+    "kellyId": 4584,
+    "lemma": "rock",
+    "examples": [
+      { "text": "Han hängde av sig rocken i hallen.", "meaningKey": 0 },
+      { "text": "Bandet spelar hård rock.", "meaningKey": 1 }
+    ],
+    "inputHash": "bc74e9d8",
+    "notes": "kept coat example; wrote a rock-music example for meaning 1"
+  }
+]

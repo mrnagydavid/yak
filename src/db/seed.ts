@@ -1,6 +1,6 @@
 import { ulid } from './ids'
 import { db } from './schema'
-import type { Cefr, Entry, PartOfSpeech, Translation } from './types'
+import type { Cefr, Entry, ExampleSentence, PartOfSpeech, Translation } from './types'
 
 // Loads the real Swedish seed (data → public/seed-sv.json, from scripts/seed) into Dexie on first
 // launch, and on later launches syncs a shipped seed update onto the existing DB without resetting
@@ -15,6 +15,7 @@ interface AltMeaning {
   enUncountable?: boolean
   gloss?: string // production-prompt hint when this meaning's English is ambiguous (§12); sense pass owns it
   senseKey?: string // production-grouping key (`english#sense`) so this meaning groups with its synonyms (§12); sense pass owns it
+  examples?: string[] // this meaning's example sentences (per-sense examples, §4.8); examples pass owns it
 }
 interface SeedEntry {
   seedKey: number
@@ -86,6 +87,16 @@ function buildNative(lemma: string, pos: PartOfSpeech, uncountable: boolean, ver
   }
 }
 
+/** A seed entry's example sentences, tagged by the meaning they illustrate: the primary's (from
+ *  `examples`, meaningKey 0) plus each promoted meaning's (from `altMeanings[].examples`). Production
+ *  filters these to the meaning being asked; recognition and Word Detail show them all. (§4.8) */
+function seedExamples(s: SeedEntry): ExampleSentence[] {
+  return [
+    ...(s.examples ?? []).map((text) => ({ text, meaningKey: 0 })),
+    ...(s.altMeanings ?? []).flatMap((m) => (m.examples ?? []).map((text) => ({ text, meaningKey: m.key }))),
+  ]
+}
+
 /** The meanings of a seed entry, primary first (meaningKey 0), then each promoted altMeaning.
  *  A promoted meaning may carry a `gloss` (its production-prompt hint) and a `senseKey` (its
  *  production-grouping key); the primary's gloss/key live on `Entry.sense`, so meaningKey 0 never
@@ -112,7 +123,7 @@ function buildEntry(s: SeedEntry, version: string, now: number): { target: Entry
     cefr: s.cefr,
     subDefinitions: s.subDefinitions,
     sense: s.sense,
-    examples: s.examples,
+    examples: seedExamples(s),
     source: 'seed',
     seedVersion: version,
     seedKey: s.seedKey,
@@ -263,7 +274,7 @@ async function updateSeedTarget(targetId: string, s: SeedEntry, version: string,
     cefr: s.cefr,
     subDefinitions: s.subDefinitions,
     sense: s.sense,
-    examples: s.examples,
+    examples: seedExamples(s),
     seedVersion: version,
     seedKey: s.seedKey,
     seedHash: s.h,

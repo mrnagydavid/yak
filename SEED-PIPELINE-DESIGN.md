@@ -178,7 +178,7 @@ an opinion, wholesale**. It never concatenates two layers' values for one field.
 | `subDefinitions` (reference meanings) | split(45) → translation(40) → subdef(30) → base | split partitions the meaning list; **wholesale** — fixes #4 |
 | `altMeanings` (promoted meanings) | split(45) | which meanings become their own production cards (§4.8) |
 | `ipa` | cleaner(10) → base | |
-| `examples` | examples(60) → base | |
+| `examples` | examples(60) → base | tagged by meaning; the reducer partitions them onto the primary (`examples`) and each promoted meaning (`altMeanings[].examples`) by `meaningKey` (§4.8) |
 | `sense` (primary grouping + gloss); `Translation.senseKey`/`.gloss` (promoted) | senses(50) | synonym grouping + production gloss; orthogonal, no conflicts (§4.8) |
 | `drop` / `keep` | highest layer wins | explicit precedence *replaces* the old "resolve contradictions by hand" rule — a higher layer's `keep` legitimately overrides a lower `drop` |
 | any field | manual(90) | humans win |
@@ -277,6 +277,20 @@ A meaning's `translation` may be comma-joined synonyms of *one* sense (`"route, 
   from first-token identity (`normTr`) to curated token overlap, so `panna` "pan, pot" can group with
   `kastrull` "saucepan, pot, pan". `merges` = group; `keepSeparate` = collisions ruled solo.
 
+**Per-sense examples.** An example sentence uses the word in exactly ONE meaning ("ont i en led i
+knäet" is the *joint* sense, not *route*), so a production card must show only its own meaning's
+examples. The examples layer (60) therefore tags each sentence with a `meaningKey` (0 = primary, k = a
+promoted `altMeaning`); the reducer partitions them onto `entry.examples` (primary) and
+`altMeanings[k].examples` (promoted). Recognition (per word) and Word Detail show them all; production
+filters to the meaning asked. Legacy/single-sense answers stay a bare `string[]` (all meaningKey 0), so
+single-sense words are byte-identical. **Coverage rule:** a split word that has *any* example must have
+one for *every* main meaning — real ones tagged where they fit, a fresh sentence written for the gaps
+(so `led → route` gets a real trail sentence). Scope: only split words that already have ≥1 example; a
+split word with none is deferred. **Recipe:** `pnpm seed:batch-example-senses` → the
+`example-sense-tagger` agent (writes a tagged run into `60-examples/runs/`) → `pnpm seed:build`;
+`pnpm seed:audit-examples` guards the coverage rule on the shipped seed. Same ledger/staleness
+discipline as §4.5–4.6.
+
 **Grouping key.** Synonyms are asked as one multi-answer card when they share a key: a primary's is
 `Entry.sense.key`, a promoted meaning's is `Translation.senseKey` (both stamped by the reducer from the
 sense partition). Distinct senses keep distinct keys (`right` → entitlement vs direction never merge).
@@ -321,6 +335,10 @@ didn't (avoids a needless LLM re-run). Same ledger/staleness discipline as §4.5
 - **Token-synonym coverage** (`pnpm seed:detect-token-synonyms`): every token-ambiguous solo promoted
   meaning is ruled in `token-synonyms.json` (merged or kept-separate) and every declared merge forms —
   so the gap can't silently regrow. (§4.8)
+- **Per-sense example coverage** (`pnpm seed:audit-examples`, also asserted in the test suite): on the
+  shipped seed, every split word that has any example has a sense-specific example for its primary AND
+  each promoted meaning — so no production card shows another sense's sentence (or nothing while a
+  sibling has one). Split words with no examples yet are out of scope. (§4.8)
 - **Reference-list purity** (`pnpm seed:audit-subdefs`, also asserted in the test suite): on the shipped
   seed, no `subDefinitions` item is a **bare** (parenthetical-free) restatement of the main translation
   or a promoted `altMeaning` — enforcing "other possible meanings only." Parenthetical-distinguished
