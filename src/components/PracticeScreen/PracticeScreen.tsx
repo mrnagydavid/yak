@@ -13,6 +13,7 @@ import {
 import { EntryEditor } from '../EntryEditor/EntryEditor'
 import { ProgressBar } from './ProgressBar'
 import { RatingButtons } from './RatingButtons'
+import { dropRequeue, insertRequeue, mayRequeue } from './requeue'
 import {
   dayKey,
   loadPersistedSession,
@@ -27,8 +28,12 @@ import { StudyCard } from './StudyCard'
 import styles from './PracticeScreen.module.css'
 
 // One reversible action this sitting: a single-card rating or a multi-answer group rating. Undo
-// dispatches on the kind. (In-memory only — gone after a refresh or tab switch, SPEC §6.5.)
-type UndoEntry = { kind: 'single'; token: ReviewUndo } | { kind: 'group'; token: GroupReviewUndo }
+// dispatches on the kind. `requeueId` is set when this rating spliced a relearning clone into the
+// queue, so Undo can drop that exact clone too. (In-memory only — gone after a refresh or tab
+// switch, SPEC §6.5.)
+type UndoEntry =
+  | { kind: 'single'; token: ReviewUndo; requeueId?: string }
+  | { kind: 'group'; token: GroupReviewUndo; requeueId?: string }
 
 export function PracticeScreen() {
   // The session is composed once per day and kept alive across navigation/refresh (SPEC §7.2):
@@ -167,19 +172,53 @@ export function PracticeScreen() {
 
   // Commit a multi-answer card: persist every answer's own grade as one reversible step, then advance.
   async function commitGroup(members: PracticeGroupMember[], graded: Map<string, RatingLabel>) {
+    if (!views) return
     const token = await recordGroupReview(
       members.map((m) => ({ translationId: m.translationId, label: graded.get(m.translationId) ?? 'good' })),
     )
-    setUndoStack((s) => [...s, { kind: 'group', token }])
+    // A group is one concept: if ANY answer was "Didn't know", the whole card returns later (a
+    // member-subset re-show would need its own representative/count/gloss). recordGroupReview re-reads
+    // each member's state from the DB, so the clone needs no reviewState refresh.
+    let requeueId: string | undefined
+    if ([...graded.values()].includes('again') && mayRequeue(view.requeueShows)) {
+      requeueId = crypto.randomUUID()
+      const clone: PracticeCardView = { ...view, requeueId, requeueShows: (view.requeueShows ?? 1) + 1 }
+      const nextViews = insertRequeue(views, index + 1, clone)
+      setViews(nextViews)
+      setSessionViews(nextViews)
+      void persistSession(nextViews.map((v) => v.card), index + 1, canPushFurther)
+    }
+    setUndoStack((s) => [...s, { kind: 'group', token, requeueId }])
     advance()
   }
 
   async function rate(rating: RatingLabel) {
+    if (!views) return
     navigator.vibrate?.(10)
     const card = view.card
     if (!card.group || !view.group) {
       const token = await recordReview(card, rating)
-      setUndoStack((s) => [...s, { kind: 'single', token }])
+      // "Didn't know it yet" = practice "Didn't know" (again), or a new word's "New to me" (good) —
+      // both warrant a soon in-session revisit. Everything else ("Already knew it", Hard, Knew it,
+      // Easy) just advances. Splice a clone that returns a few cards later, until the boredom cap.
+      const didntKnow = card.mode === 'new' ? rating === 'good' : rating === 'again'
+      let requeueId: string | undefined
+      if (didntKnow && mayRequeue(view.requeueShows)) {
+        requeueId = crypto.randomUUID()
+        // A re-shown card is a recall test, never "New" again: flip mode to practice and carry the
+        // just-written state (token.next) so its next grade builds on this answer.
+        const clone: PracticeCardView = {
+          ...view,
+          card: { ...card, mode: 'practice', reviewState: token.next },
+          requeueId,
+          requeueShows: (view.requeueShows ?? 1) + 1,
+        }
+        const nextViews = insertRequeue(views, index + 1, clone)
+        setViews(nextViews)
+        setSessionViews(nextViews)
+        void persistSession(nextViews.map((v) => v.card), index + 1, canPushFurther)
+      }
+      setUndoStack((s) => [...s, { kind: 'single', token, requeueId }])
       advance()
       return
     }
@@ -207,6 +246,7 @@ export function PracticeScreen() {
   // revealed, ready to re-rate), and rewind the cursor. The stack and cursor move in lockstep
   // — each rating pushes a token and advances one; each undo pops one and rewinds one.
   async function undo() {
+    if (!views) return
     const entry = undoStack[undoStack.length - 1]
     if (!entry) return
     navigator.vibrate?.(10)
@@ -216,6 +256,16 @@ export function PracticeScreen() {
     setActiveTab(0)
     setRatings(new Map())
     setRevealed(true)
+    // Undo reverses the WHOLE action: if this rating spliced a relearning clone into the queue, drop
+    // it by identity so a "Didn't know" → undo → re-grade leaves nothing to reappear. Identity (not a
+    // position) is robust to clones spliced in between; LIFO keeps this clone ahead of the cursor, so
+    // removing it never disturbs the card we're rewinding to.
+    if (entry.requeueId) {
+      const nextViews = dropRequeue(views, entry.requeueId)
+      setViews(nextViews)
+      setSessionViews(nextViews)
+      void persistSession(nextViews.map((v) => v.card), Math.max(0, index - 1), canPushFurther)
+    }
     setIndex((i) => {
       const prev = i - 1
       setSessionIndex(prev)
@@ -240,6 +290,8 @@ export function PracticeScreen() {
   return (
     <div class={styles.screen}>
       <div class={styles.topbar}>
+        {/* total grows when a "Didn't know" re-queues a clone, so the fill dips slightly — honest,
+            there genuinely is more to do before you're caught up. */}
         <ProgressBar value={index} total={views.length} />
         {/* Always reserve the undo slot so the progress track's width stays put when the in-memory
             undo stack resets on a tab switch (it's per-sitting, not part of the resumed session). */}

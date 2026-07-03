@@ -402,6 +402,10 @@ export interface ReviewUndo {
   previous: ReviewState | undefined
   /** The id of the row `recordReview` wrote (the one to delete when there was no previous). */
   writtenId: string
+  /** The post-rating row that was written. Lets an in-session relearning re-queue carry the
+   *  freshly-updated state onto the re-shown clone, so its next grade builds on this answer rather
+   *  than the stale pre-answer snapshot. `undoReview` ignores it. */
+  next: ReviewState
 }
 
 /**
@@ -419,7 +423,7 @@ export async function recordReview(
   const base = previous ?? createReviewState(card.translationId, card.skill, now)
   const next = applyRating(base, label, now)
   await db.reviewStates.put(next)
-  return { previous, writtenId: next.id }
+  return { previous, writtenId: next.id, next }
 }
 
 /**
@@ -478,7 +482,7 @@ export async function recordGroupReview(
   )
   const next = gradeGroup(graded, now)
   await db.reviewStates.bulkPut(next)
-  return { writes: next.map((row, i) => ({ previous: graded[i].reviewState, writtenId: row.id })) }
+  return { writes: next.map((row, i) => ({ previous: graded[i].reviewState, writtenId: row.id, next: row })) }
 }
 
 /** Reverse a `recordGroupReview`: restore each member's prior row, or delete rows the rating created. */

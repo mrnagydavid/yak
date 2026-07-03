@@ -210,6 +210,12 @@ export interface PracticeCardView {
   /** Which meaning of the target word this (solo) card asks (0 = primary, 1+ = a promoted meaning), so
    *  a production reveal shows only this meaning's examples. Group cards carry it per member. (§4.8) */
   meaningKey: number
+  /** In-session relearning re-queue — ephemeral, set only on a spliced clone, never persisted (the
+   *  saved session stores `card`, not the view). A unique tag so Undo can drop the exact clone this
+   *  rating inserted, and the running count of times the card has been shown so the boredom cap can
+   *  stop an endless drill. (relearning re-queue) */
+  requeueId?: string
+  requeueShows?: number
 }
 
 /** Resolve a session card's display data. Returns null if the target entry is missing. */
