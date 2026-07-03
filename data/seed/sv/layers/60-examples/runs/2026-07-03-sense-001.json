@@ -1,0 +1,408 @@
+[
+  {
+    "kellyId": 1575,
+    "lemma": "ben",
+    "examples": [
+      { "text": "Mitt ben gör ont.", "meaningKey": 0 },
+      { "text": "Hunden har ett ben i munnen.", "meaningKey": 1 }
+    ],
+    "inputHash": "45c8b418",
+    "notes": "kept 'Mitt ben gör ont.' as leg (0); wrote a bone example for (1)"
+  },
+  {
+    "kellyId": 2101,
+    "lemma": "fil",
+    "examples": [
+      { "text": "Spara filen på datorn.", "meaningKey": 0 },
+      { "text": "Bilen körde i höger fil.", "meaningKey": 1 },
+      { "text": "Jag äter fil till frukost.", "meaningKey": 2 }
+    ],
+    "inputHash": "c3aaf958",
+    "notes": "kept file example (0); wrote lane (1) and soured-milk (2) examples"
+  },
+  {
+    "kellyId": 2510,
+    "lemma": "fond",
+    "examples": [
+      { "text": "De sparar pengar i en fond.", "meaningKey": 0 },
+      { "text": "Jag använder fond i soppan.", "meaningKey": 1 }
+    ],
+    "inputHash": "fde03487",
+    "notes": "kept fund example (0); wrote a broth/stock example for (1)"
+  },
+  {
+    "kellyId": 2622,
+    "lemma": "gas",
+    "examples": [
+      { "text": "Vi lagar mat på gas.", "meaningKey": 0 },
+      { "text": "Han trampade på gasen.", "meaningKey": 1 }
+    ],
+    "inputHash": "557017a3",
+    "notes": "dropped fragments 'trampa på gasen' and 'full gas'; wrote a gas (0) sentence and a full-sentence accelerator (1) version"
+  },
+  {
+    "kellyId": 1864,
+    "lemma": "gård",
+    "examples": [
+      { "text": "De bor på en gård på landet.", "meaningKey": 0 },
+      { "text": "Barnen leker på gården.", "meaningKey": 1 }
+    ],
+    "inputHash": "82e54e63",
+    "notes": "dropped compound fragments 'kursgård' and 'ungdomsgård'; wrote farm (0) and yard/courtyard (1) examples"
+  },
+  {
+    "kellyId": 1645,
+    "lemma": "höger",
+    "examples": [
+      { "text": "Ta den högra dörren.", "meaningKey": 0 },
+      { "text": "Det partiet står långt till höger.", "meaningKey": 1 }
+    ],
+    "inputHash": "41e2b90f",
+    "notes": "kept spatial-right example (0); for right-wing (1) used 'står långt till höger' (political idiom) since höger as a bare adjective in the right-wing sense is normally realised as compounds like högerparti"
+  },
+  {
+    "kellyId": 1841,
+    "lemma": "jakt",
+    "examples": [
+      { "text": "Jakt på älg är vanligt i Sverige.", "meaningKey": 0 },
+      { "text": "De seglar med en stor jakt.", "meaningKey": 1 }
+    ],
+    "inputHash": "6f034a6e",
+    "notes": "kept hunting example (0); wrote a yacht (1) example, kept simple as this nautical sense of jakt is rare/dated"
+  },
+  {
+    "kellyId": 1850,
+    "lemma": "kanal",
+    "examples": [
+      { "text": "Vi åkte båt genom kanalen.", "meaningKey": 0 },
+      { "text": "Vilken kanal ska vi titta på?", "meaningKey": 1 }
+    ],
+    "inputHash": "18e5ff8c",
+    "notes": "dropped fragment 'hålla diplomatiska kanaler öppna' (also above level); replaced 'TV4 är en tv-kanal' with a cleaner bare-lemma channel (1) sentence; wrote a canal (0) example"
+  },
+  {
+    "kellyId": 2237,
+    "lemma": "kassa",
+    "examples": [
+      { "text": "Jag betalar vid kassan.", "meaningKey": 0 },
+      { "text": "Klubbens kassa är tom.", "meaningKey": 1 }
+    ],
+    "inputHash": "42a5cd4a",
+    "notes": "kept checkout example (0); wrote a fund/cash example for (1)"
+  },
+  {
+    "kellyId": 1925,
+    "lemma": "koppling",
+    "examples": [
+      { "text": "Det finns en tydlig koppling mellan dem.", "meaningKey": 0 },
+      { "text": "Bilens koppling är trasig.", "meaningKey": 1 }
+    ],
+    "inputHash": "a9eb6117",
+    "notes": "dropped original connection example (fattigdom/brottslighet above A2) and wrote a simpler connection (0) sentence; wrote a clutch (1) example"
+  },
+  {
+    "kellyId": 1881,
+    "lemma": "kort",
+    "examples": [
+      { "text": "Ska vi spela kort?", "meaningKey": 0 },
+      { "text": "Hon tog ett kort på oss.", "meaningKey": 1 }
+    ],
+    "inputHash": "6ee7d648",
+    "notes": "kept card example (0); wrote a photograph (1) example"
+  },
+  {
+    "kellyId": 1407,
+    "lemma": "kurs",
+    "examples": [
+      { "text": "Jag gick en kurs i spanska.", "meaningKey": 0 },
+      { "text": "Dollarns kurs har gått upp.", "meaningKey": 1 }
+    ],
+    "inputHash": "0a587b33",
+    "notes": "kept course example (0); wrote an exchange-rate (1) example"
+  },
+  {
+    "kellyId": 2727,
+    "lemma": "kärna",
+    "examples": [
+      { "text": "Det är kärnor i mitt röda äpple.", "meaningKey": 0 },
+      { "text": "Jordens kärna är mycket varm.", "meaningKey": 1 }
+    ],
+    "inputHash": "51331083",
+    "notes": "kept the apple-seed example as seed (0); the avocado example is the same seed/pit sense so dropped as redundant; wrote a core/nucleus (1) example"
+  },
+  {
+    "kellyId": 1708,
+    "lemma": "laga",
+    "examples": [
+      { "text": "Han lagade cykeln på en timme.", "meaningKey": 0 },
+      { "text": "Jag lagar middag åt familjen.", "meaningKey": 1 }
+    ],
+    "inputHash": "25581df2",
+    "notes": "kept repair example (0); wrote a cook (1) example"
+  },
+  {
+    "kellyId": 2440,
+    "lemma": "landskap",
+    "examples": [
+      { "text": "Skåne är ett landskap i söder.", "meaningKey": 0 },
+      { "text": "Landskapet är vackert på hösten.", "meaningKey": 1 }
+    ],
+    "inputHash": "7d03a463",
+    "notes": "kept province example (0); wrote a scenery/landscape (1) example"
+  },
+  {
+    "kellyId": 2598,
+    "lemma": "lov",
+    "examples": [
+      { "text": "Jag har fått lov att vara ledig idag.", "meaningKey": 0 },
+      { "text": "Barnen har lov från skolan.", "meaningKey": 1 }
+    ],
+    "inputHash": "cd7e9a00",
+    "notes": "dropped fragment 'att fråga om lov'; kept permission example (0); wrote a break/holiday (1) example"
+  },
+  {
+    "kellyId": 1626,
+    "lemma": "lycka",
+    "examples": [
+      { "text": "Pengar ger inte lycka.", "meaningKey": 0 },
+      { "text": "Jag önskar dig lycka till.", "meaningKey": 1 }
+    ],
+    "inputHash": "cd016adb",
+    "notes": "kept happiness example (0); wrote a luck (1) example ('lycka till')"
+  },
+  {
+    "kellyId": 1613,
+    "lemma": "middag",
+    "examples": [
+      { "text": "Vad åt du till middag?", "meaningKey": 0 },
+      { "text": "Vid middag står solen som högst.", "meaningKey": 1 }
+    ],
+    "inputHash": "60e69fa2",
+    "notes": "kept dinner example (0); wrote a noon (1) example, but note this bare 'middag = noon' sense is somewhat literary/dated (usually 'middagstid' or 'mitt på dagen' in everyday speech)"
+  },
+  {
+    "kellyId": 2391,
+    "lemma": "pass",
+    "examples": [
+      { "text": "Jag glömde mitt pass hemma.", "meaningKey": 0 },
+      { "text": "Mitt pass på gymmet var hårt i dag.", "meaningKey": 1 },
+      { "text": "Vi körde genom ett smalt pass.", "meaningKey": 2 }
+    ],
+    "inputHash": "30ec926a",
+    "notes": "dropped compound fragments 'ett träningspass' and 'ett löppass'; wrote passport (0), session (1) and mountain-pass (2) examples"
+  },
+  {
+    "kellyId": 2263,
+    "lemma": "ras",
+    "examples": [
+      { "text": "Vilken ras är din hund?", "meaningKey": 0 },
+      { "text": "Ett stort ras stängde vägen.", "meaningKey": 1 }
+    ],
+    "inputHash": "8051edab",
+    "notes": "dropped fragment 'hundraser'; wrote breed (0) and collapse/landslide (1) examples. Gender note: input gender 'en' fits breed (en ras), but the collapse sense is actually neuter (ett ras) in standard Swedish, so the (1) sentence uses ett"
+  },
+  {
+    "kellyId": 2118,
+    "lemma": "rykte",
+    "examples": [
+      { "text": "Det där är bara ett rykte.", "meaningKey": 0 },
+      { "text": "Företaget har ett gott rykte.", "meaningKey": 1 }
+    ],
+    "inputHash": "df3be3f3",
+    "notes": "kept simple rumor example (0); dropped the other rumor sentence ('gömt undan pengar', slightly above level and same sense); wrote a reputation (1) example"
+  },
+  {
+    "kellyId": 2554,
+    "lemma": "rymma",
+    "examples": [
+      { "text": "Fem personer ryms i bilen.", "meaningKey": 0 },
+      { "text": "Fången lyckades rymma från fängelset.", "meaningKey": 1 }
+    ],
+    "inputHash": "00de0103",
+    "notes": "kept hold/fit example (0), lightly trimmed 'denna bil' to 'bilen'; wrote an escape (1) example"
+  },
+  {
+    "kellyId": 1940,
+    "lemma": "sjö",
+    "examples": [
+      { "text": "Vi ska gå och bada i sjön.", "meaningKey": 0 },
+      { "text": "Han arbetar till sjöss.", "meaningKey": 1 }
+    ],
+    "inputHash": "87425c5d",
+    "notes": "dropped fragment 'en sjö vid en stuga'; kept lake example (0); wrote a sea (1) example using the idiom 'till sjöss'"
+  },
+  {
+    "kellyId": 1622,
+    "lemma": "skuld",
+    "examples": [
+      { "text": "Han har stora skulder till banken.", "meaningKey": 0 },
+      { "text": "Det var inte min skuld.", "meaningKey": 1 }
+    ],
+    "inputHash": "70922db7",
+    "notes": "kept debt example (0); wrote a blame/guilt (1) example"
+  },
+  {
+    "kellyId": 1926,
+    "lemma": "snitt",
+    "examples": [
+      { "text": "Hon fick ett snitt i fingret.", "meaningKey": 0 },
+      { "text": "Jag sover sju timmar i snitt.", "meaningKey": 1 }
+    ],
+    "inputHash": "918b9588",
+    "notes": "kept cut example (0); wrote an average (1) example ('i snitt')"
+  },
+  {
+    "kellyId": 2741,
+    "lemma": "spänning",
+    "examples": [
+      { "text": "Det fanns en spänning i rummet.", "meaningKey": 0 },
+      { "text": "Filmen var full av spänning.", "meaningKey": 1 },
+      { "text": "Sladden har hög spänning.", "meaningKey": 2 }
+    ],
+    "inputHash": "36ef7a71",
+    "notes": "dropped fragments 'spänningen i tråden' (ambiguous) and 'spänningar mellan öst och väst'; wrote tension (0), suspense (1) and voltage (2) examples"
+  },
+  {
+    "kellyId": 2015,
+    "lemma": "sticka",
+    "examples": [
+      { "text": "Mormor stickade.", "meaningKey": 0 },
+      { "text": "Myggan stack mig på benet.", "meaningKey": 1 },
+      { "text": "Ska vi sticka nu?", "meaningKey": 2 }
+    ],
+    "inputHash": "3e07a45c",
+    "notes": "kept knit example (0); wrote sting/prick (1) and colloquial leave/head-off (2) examples"
+  },
+  {
+    "kellyId": 2561,
+    "lemma": "stryka",
+    "examples": [
+      { "text": "Jag måste stryka skjortan innan festen.", "meaningKey": 0 },
+      { "text": "Läraren strök en mening i texten.", "meaningKey": 1 }
+    ],
+    "inputHash": "f9c910aa",
+    "notes": "kept iron example (0); wrote a cross-out/delete (1) example"
+  },
+  {
+    "kellyId": 1890,
+    "lemma": "synd",
+    "examples": [
+      { "text": "Att ljuga är en synd.", "meaningKey": 0 },
+      { "text": "Det var synd att de inte kan komma.", "meaningKey": 1 }
+    ],
+    "inputHash": "99bbb459",
+    "notes": "both current sentences were the pity sense (1); kept one, trimmed to 'Det var synd att de inte kan komma.'; wrote a sin (0) example"
+  },
+  {
+    "kellyId": 1863,
+    "lemma": "vind",
+    "examples": [
+      { "text": "Det blåser en kall vind i dag.", "meaningKey": 0 },
+      { "text": "Vi har gamla saker på vinden.", "meaningKey": 1 }
+    ],
+    "inputHash": "14663d2a",
+    "notes": "kept wind example (0); wrote an attic/loft (1) example"
+  },
+  {
+    "kellyId": 2487,
+    "lemma": "våg",
+    "examples": [
+      { "text": "En tsunami är en jättevåg.", "meaningKey": 0 },
+      { "text": "Jag ställer mig på vågen.", "meaningKey": 1 }
+    ],
+    "inputHash": "9ac8033d",
+    "notes": "kept wave example (0); dropped fragment 'böljande vågor'; wrote a scale (1) example"
+  },
+  {
+    "kellyId": 2028,
+    "lemma": "väst",
+    "examples": [
+      { "text": "Solen går ner i väst.", "meaningKey": 0 },
+      { "text": "Han har en gul väst.", "meaningKey": 1 }
+    ],
+    "inputHash": "03eb1d23",
+    "notes": "kept west example (0); wrote a vest/waistcoat (1) example"
+  },
+  {
+    "kellyId": 1738,
+    "lemma": "ytterst",
+    "examples": [
+      { "text": "Det är ytterst viktigt att komma i tid.", "meaningKey": 0 },
+      { "text": "Han sitter ytterst i raden.", "meaningKey": 1 }
+    ],
+    "inputHash": "7c28b4c3",
+    "notes": "kept 'ytterst i raden' as outermost (1); wrote an 'extremely/very' (0) example"
+  },
+  {
+    "kellyId": 1991,
+    "lemma": "ända",
+    "examples": [
+      { "text": "Han ramlade och slog sin ända.", "meaningKey": 0 },
+      { "text": "Vi gick till ändan av vägen.", "meaningKey": 1 }
+    ],
+    "inputHash": "b3e06ab6",
+    "notes": "kept buttock/behind example (0); wrote an end (1) example"
+  },
+  {
+    "kellyId": 2137,
+    "lemma": "öra",
+    "examples": [
+      { "text": "Hon har ont i ett öra.", "meaningKey": 0 },
+      { "text": "Koppen har ett öra.", "meaningKey": 1 }
+    ],
+    "inputHash": "23765596",
+    "notes": "kept ear example (0); wrote a handle (1) example"
+  },
+  {
+    "kellyId": 3210,
+    "lemma": "abort",
+    "examples": [
+      { "text": "Hon gjorde abort.", "meaningKey": 0 },
+      { "text": "Hon fick en spontan abort.", "meaningKey": 1 }
+    ],
+    "inputHash": "e23ae5ce",
+    "notes": "kept abortion example (0), added period; wrote a miscarriage (1) example ('spontan abort' is the medical term for miscarriage; everyday word is 'missfall')"
+  },
+  {
+    "kellyId": 3384,
+    "lemma": "anknytning",
+    "examples": [
+      { "text": "Han har en stark anknytning till Sverige.", "meaningKey": 0 },
+      { "text": "Ring mig på anknytning 42.", "meaningKey": 1 }
+    ],
+    "inputHash": "65317191",
+    "notes": "kept connection example (0); wrote a phone-extension (1) example"
+  },
+  {
+    "kellyId": 2812,
+    "lemma": "avgå",
+    "examples": [
+      { "text": "Ministern valde att avgå.", "meaningKey": 0 },
+      { "text": "Tåget avgår klockan nio.", "meaningKey": 1 }
+    ],
+    "inputHash": "391cff4e",
+    "notes": "kept resign example (0); wrote a depart (1) example"
+  },
+  {
+    "kellyId": 2939,
+    "lemma": "axel",
+    "examples": [
+      { "text": "Hon bar väskan på axeln.", "meaningKey": 0 },
+      { "text": "Jorden snurrar runt sin axel.", "meaningKey": 1 },
+      { "text": "Bilens axel gick sönder.", "meaningKey": 2 }
+    ],
+    "inputHash": "9ee0a6f5",
+    "notes": "kept shoulder example (0); wrote axis (1) and axle (2) examples"
+  },
+  {
+    "kellyId": 3700,
+    "lemma": "back",
+    "examples": [
+      { "text": "Han spelar back i laget.", "meaningKey": 0 },
+      { "text": "Lägg bilen i backen.", "meaningKey": 1 },
+      { "text": "Vi köpte en back öl till festen.", "meaningKey": 2 }
+    ],
+    "inputHash": "cc6adf75",
+    "notes": "dropped current sentence ('ont i backen efter lyftet' confuses back with rygg/backe, not this word); wrote football-defender (0), reverse-gear (1) and crate (2) examples"
+  }
+]

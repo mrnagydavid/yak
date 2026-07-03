@@ -108,7 +108,9 @@ export function WordDetail({ id }: { id?: string }) {
   const inflections = renderer.renderInflections(entry)
   const features = renderer.renderFeatures(entry)
   const ipa = renderer.showIpa ? entry.pronunciation.ipa : undefined
-  const examples = [...(entry.examples ?? []), ...(overlay?.customExamples ?? [])]
+  // Browse view is per word — show every meaning's examples (seed examples are tagged by meaning) plus
+  // the user's own. (per-sense examples, §4.8)
+  const examples = [...(entry.examples ?? []).map((e) => e.text), ...(overlay?.customExamples ?? [])]
   const translationLang = natives[0]?.lang ?? 'en'
 
   async function runPending() {

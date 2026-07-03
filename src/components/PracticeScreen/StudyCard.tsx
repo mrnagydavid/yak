@@ -1,5 +1,5 @@
 import type { PracticeCardView } from '../../db/queries'
-import type { Entry, EntryOverlay } from '../../db/types'
+import type { Entry, EntryOverlay, ExampleSentence } from '../../db/types'
 import type { InflectionDisplay } from '../../lang'
 import { getRenderer } from '../../lang'
 import type { RatingLabel } from '../../srs/fsrs-adapter'
@@ -40,6 +40,16 @@ export function promptCue(examples: string[], ambiguous: boolean, isRecognition:
   return ambiguous && isRecognition && examples.length > 0 ? examples[0] : undefined
 }
 
+// The example sentences to render on a card. Seed examples are tagged by meaning: production asks ONE
+// meaning, so it passes that `meaningKey` and sees only its own sense's sentences (the "route" card
+// must not show the "joint" sentence); recognition is per WORD, so it passes `null` and sees them all.
+// The user's own custom examples are word-level and always ride along. Pure + exported so the rule is
+// unit-tested without a DOM/DB harness (like promptCue). (per-sense examples, §4.8)
+export function cardExamples(seed: ExampleSentence[] | undefined, custom: string[] | undefined, meaningKey: number | null): string[] {
+  const seedTexts = (seed ?? []).filter((e) => meaningKey === null || e.meaningKey === meaningKey).map((e) => e.text)
+  return [...seedTexts, ...(custom ?? [])]
+}
+
 // The production "answer record" for a target word: the word + IPA + audio + inflections, then the
 // user's note and examples. Identical whether shown on a solo production card or on one tab of a
 // multi-answer group — so a group tab "looks exactly like a no-group card". (SPEC §7.2)
@@ -48,13 +58,15 @@ export function promptCue(examples: string[], ambiguous: boolean, isRecognition:
 // and the answer is the target word, so listing the word's OTHER English senses ("beg, plead"; "also
 // means: pray") only clutters the answer — those belong on the recognition reveal, where the prompt IS
 // the target word and enumerating its meanings is the point.
-function TargetReveal({ target, overlay }: { target: Entry; overlay?: EntryOverlay }) {
+function TargetReveal({ target, overlay, meaningKey }: { target: Entry; overlay?: EntryOverlay; meaningKey: number }) {
   const r = getRenderer(target.lang)
   const ipa = r.showIpa ? target.pronunciation.ipa : undefined
   // TTS is suppressed when the lemma is pronounced differently across senses (kort, ton) — browser TTS
   // can't pick the right one; the per-sense IPA still shows.
   const ttsSuppressed = target.pronunciation.ambiguous === true
-  const examples = [...(target.examples ?? []), ...(overlay?.customExamples ?? [])]
+  // Production asks ONE meaning, so show only that meaning's examples — the "route" card must not show
+  // the "joint" sentence (per-sense examples, §4.8).
+  const examples = cardExamples(target.examples, overlay?.customExamples, meaningKey)
   return (
     <div class={styles.reveal}>
       <div class={styles.answer}>
@@ -100,7 +112,7 @@ export function StudyCard({
     return <GroupCard view={view} revealed={revealed} activeTab={activeTab} ratings={ratings} onSelectTab={onSelectTab} />
   }
 
-  const { card, target, native, overlay, ambiguous, siblingMeanings, productionGloss } = view
+  const { card, target, native, overlay, ambiguous, siblingMeanings, productionGloss, meaningKey } = view
   const isRecognition = card.skill === 'recognize'
 
   const targetRenderer = getRenderer(target.lang)
@@ -119,7 +131,9 @@ export function StudyCard({
   // "hand (body part)" vs "hand (of a clock)"; a promoted meaning uses its own gloss). Empty for
   // single-sense concepts, so it falls back to the native disambiguator. (§12, Q-polysemy)
   const promptDisambig = isRecognition ? target.disambiguator : productionGloss || native?.disambiguator
-  const examples = [...(target.examples ?? []), ...(overlay?.customExamples ?? [])]
+  // Recognition is per WORD, so it shows all the word's example sentences (every meaning) plus the
+  // user's own. Production filters per meaning inside TargetReveal. (per-sense examples, §4.8)
+  const examples = cardExamples(target.examples, overlay?.customExamples, null)
   // For an ambiguous word in recognition, the first example sits on the prompt as a sense cue (e.g.
   // fast conj vs adj). Pre-reveal only — once revealed, the full list renders in its normal place.
   const cue = promptCue(examples, ambiguous, isRecognition)
@@ -196,7 +210,7 @@ export function StudyCard({
               // cross-link to the word's OTHER meanings here — listing "also means: pray" when the learner
               // was asked to produce this exact sense only clutters the answer. The recognition reveal is
               // where all the word's meanings belong. (multi-meaning design)
-              <TargetReveal target={target} overlay={overlay} />
+              <TargetReveal target={target} overlay={overlay} meaningKey={meaningKey} />
             )}
             {/* New-word moment: relate this word to same-sense synonyms already learned. (Q1) */}
             {card.mode === 'new' && view.senseSummary && view.senseSummary.synonyms.length > 0 ? (
@@ -276,7 +290,7 @@ function GroupCard({
                 )
               })}
             </div>
-            <TargetReveal target={active.target} overlay={active.overlay} />
+            <TargetReveal target={active.target} overlay={active.overlay} meaningKey={active.meaningKey} />
           </>
         ) : (
           <span class={styles.revealHint}>Tap to reveal</span>

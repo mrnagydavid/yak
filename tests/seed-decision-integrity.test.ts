@@ -161,3 +161,19 @@ describe('the shipped seed obeys the "other meanings only" policy', () => {
     expect(count, `subDefinitions items repeating the main/promoted meaning:\n  ${violations.slice(0, 20).join('\n  ')}`).toBe(0)
   })
 })
+
+describe('the shipped seed gives every split meaning its own example', () => {
+  it('every main meaning of a split-with-examples word has a sense-specific example (audit-examples)', () => {
+    // Per-sense example policy (SEED-PIPELINE-DESIGN.md §4.8): a split word that has any example must
+    // have one for the primary AND each promoted meaning, so a production card never shows another
+    // sense's sentence (or nothing while a sibling has one). Words with no examples yet are out of scope.
+    let out = ''
+    try {
+      out = execFileSync('node', ['scripts/seed/audit-examples.mjs', '--json'], { cwd: repoRoot, encoding: 'utf-8' })
+    } catch (e) {
+      out = (e as { stdout?: string }).stdout ?? ''
+    }
+    const { count, violations } = JSON.parse(out) as { count: number; violations: string[] }
+    expect(count, `split meanings missing a sense-specific example:\n  ${violations.slice(0, 20).join('\n  ')}`).toBe(0)
+  })
+})

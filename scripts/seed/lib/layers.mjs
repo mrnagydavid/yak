@@ -209,9 +209,24 @@ export function resolveEntries(base, { decisionMapsLowToHigh = [], translationMa
     const enUncountable = td?.uncountable === true
     const svUncountable = d?.svUncountable === true
     const ipa = (isFix ? (d.proposedIpa ?? '').trim() : '') || c.ipa
+    // Examples: layer-60 owns them (else base). An answer's examples may be a flat string[] (legacy /
+    // single-sense — all the primary meaning's) or sense-tagged [{text, meaningKey}] (a split word, each
+    // sentence attached to the meaning it illustrates). Normalize to tagged, then PARTITION: meaningKey 0
+    // → the primary's `examples`; meaningKey k → the matching promoted altMeaning's `examples`. Each
+    // meaning is capped independently (short flashcards). An example tagged to a meaning that didn't
+    // survive the split (deduped/dropped above) is silently discarded. Single-sense words keep a plain
+    // `examples` string[] and are byte-identical to before. (per-sense examples, §4.8)
     const exRec = exampleMap?.get(c.kellyId)
-    const curatedExamples = Array.isArray(exRec?.examples) ? exRec.examples : undefined
-    const examples = (curatedExamples ?? c.examples ?? []).filter((e) => e.length <= MAX_EXAMPLE_LEN).slice(0, 2)
+    const rawExamples = Array.isArray(exRec?.examples) ? exRec.examples : (c.examples ?? [])
+    const tagged = rawExamples
+      .map((e) => (typeof e === 'string' ? { text: e, meaningKey: 0 } : { text: e?.text, meaningKey: e?.meaningKey ?? 0 }))
+      .filter((e) => typeof e.text === 'string' && e.text.length <= MAX_EXAMPLE_LEN)
+    const takeFor = (mk) => tagged.filter((e) => e.meaningKey === mk).map((e) => e.text).slice(0, 2)
+    const examples = takeFor(0)
+    if (altMeanings) for (const m of altMeanings) {
+      const ex = takeFor(m.key)
+      if (ex.length) m.examples = ex
+    }
     entries.push({
       kellyId: c.kellyId, // internal — stripped before the seed is written
       lemma: c.lemma,
@@ -322,7 +337,8 @@ export function computeAmbiguous(finalEntries) {
         gender: e.gender ?? null,
         cefr: e.cefr,
         translation: e.translation,
-        currentExamples: e.examples ?? [],
+        // All of the word's example sentences — primary's plus any promoted meaning's (per-sense examples).
+        currentExamples: [...(e.examples ?? []), ...(e.altMeanings ?? []).flatMap((m) => m.examples ?? [])],
       })
   }
   return ambiguous

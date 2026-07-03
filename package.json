@@ -21,6 +21,7 @@
     "seed:batch-token-synonyms": "node scripts/seed/batch-token-synonyms.mjs",
     "seed:batch-translations": "node scripts/seed/batch-translations.mjs",
     "seed:batch-split": "node scripts/seed/batch-split.mjs",
+    "seed:batch-example-senses": "node scripts/seed/batch-example-senses.mjs",
     "seed:compile": "node scripts/seed/compile-layers.mjs",
     "seed:apply": "node scripts/seed/apply-decisions.mjs",
     "seed:stale": "node scripts/seed/stale.mjs",
@@ -28,6 +29,7 @@
     "seed:build": "pnpm seed:compile && pnpm seed:apply && pnpm seed:stale",
     "seed:audit-gloss": "node scripts/seed/audit-gloss.mjs",
     "seed:audit-subdefs": "node scripts/seed/audit-subdefs.mjs",
+    "seed:audit-examples": "node scripts/seed/audit-examples.mjs",
     "seed:detect-token-synonyms": "node scripts/seed/detect-token-synonyms.mjs"
   },
   "pnpm": {
@@ -44,6 +46,7 @@
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.10.5",
+    "fake-indexeddb": "^6.2.5",
     "oxlint": "^1.68.0",
     "typescript": "^6.0.3",
     "vite": "^8.0.16",
