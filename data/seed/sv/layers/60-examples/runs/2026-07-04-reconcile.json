@@ -1,0 +1,546 @@
+[
+  {
+    "kellyId": 106,
+    "examples": [
+      "Katten är liten och söt."
+    ],
+    "inputHash": "01d9d122"
+  },
+  {
+    "kellyId": 164,
+    "examples": [
+      "Jag är hemma vid fem."
+    ],
+    "inputHash": "18dea4ac"
+  },
+  {
+    "kellyId": 197,
+    "examples": [
+      "Jag tror att han kommer snart."
+    ],
+    "inputHash": "446ad97a"
+  },
+  {
+    "kellyId": 208,
+    "examples": [
+      "Jag läste en rolig bok."
+    ],
+    "inputHash": "f4e86186"
+  },
+  {
+    "kellyId": 221,
+    "examples": [
+      "Han visade dem sin samling."
+    ],
+    "inputHash": "b515b81e"
+  },
+  {
+    "kellyId": 240,
+    "examples": [
+      "I vissa städer är det varmt hela året."
+    ],
+    "inputHash": "1909452b"
+  },
+  {
+    "kellyId": 251,
+    "examples": [
+      "Berget är mycket högt."
+    ],
+    "inputHash": "de0743b6"
+  },
+  {
+    "kellyId": 312,
+    "examples": [
+      "Hon sa inte ett ord."
+    ],
+    "inputHash": "4f8c0661"
+  },
+  {
+    "kellyId": 326,
+    "examples": [
+      "Vägen leder till staden."
+    ],
+    "inputHash": "f82e329c"
+  },
+  {
+    "kellyId": 328,
+    "examples": [
+      "Han är stark men ändå smidig."
+    ],
+    "inputHash": "99e37a9f"
+  },
+  {
+    "kellyId": 339,
+    "examples": [
+      "Hon lämnar huset klockan åtta."
+    ],
+    "inputHash": "a4d0f19f"
+  },
+  {
+    "kellyId": 343,
+    "examples": [
+      "Vi kallar honom Lasse."
+    ],
+    "inputHash": "bc216b94"
+  },
+  {
+    "kellyId": 363,
+    "examples": [
+      "Jag köper ett par skor."
+    ],
+    "inputHash": "fcb99c4e"
+  },
+  {
+    "kellyId": 371,
+    "examples": [
+      "Vad menar du?"
+    ],
+    "inputHash": "8a2c038f"
+  },
+  {
+    "kellyId": 444,
+    "examples": [
+      "Vi får stöd av familjen."
+    ],
+    "inputHash": "1d0a0a5a"
+  },
+  {
+    "kellyId": 595,
+    "examples": [
+      "Jag mötte honom vid bensinstationen."
+    ],
+    "inputHash": "7e96595d"
+  },
+  {
+    "kellyId": 602,
+    "examples": [
+      "Sverige har en rik kultur."
+    ],
+    "inputHash": "aca81b78"
+  },
+  {
+    "kellyId": 610,
+    "examples": [
+      "Väskan är väldigt lätt."
+    ],
+    "inputHash": "55bc97db"
+  },
+  {
+    "kellyId": 612,
+    "examples": [
+      "Vi köper mat på marknaden."
+    ],
+    "inputHash": "62e63d89"
+  },
+  {
+    "kellyId": 627,
+    "examples": [
+      "Klicka på länken för att öppna sidan."
+    ],
+    "inputHash": "bee072e5"
+  },
+  {
+    "kellyId": 643,
+    "examples": [
+      "Vi kommenterar inte enskilda fall."
+    ],
+    "inputHash": "631f29b3"
+  },
+  {
+    "kellyId": 779,
+    "examples": [
+      "Det var en svår period."
+    ],
+    "inputHash": "3641009a"
+  },
+  {
+    "kellyId": 842,
+    "examples": [
+      "Kärlek är viktigt i livet."
+    ],
+    "inputHash": "e7466c68"
+  },
+  {
+    "kellyId": 960,
+    "examples": [
+      "Jag hängde tavlan på väggen."
+    ],
+    "inputHash": "ba2b4659"
+  },
+  {
+    "kellyId": 1013,
+    "examples": [
+      "Det är ett naturligt val."
+    ],
+    "inputHash": "9ef6a363"
+  },
+  {
+    "kellyId": 1014,
+    "examples": [
+      "Vad är din ålder?"
+    ],
+    "inputHash": "2810ad98"
+  },
+  {
+    "kellyId": 1035,
+    "examples": [
+      "Snön täcker marken."
+    ],
+    "inputHash": "d116375d"
+  },
+  {
+    "kellyId": 1084,
+    "examples": [
+      "Du borde utnyttja den här möjligheten."
+    ],
+    "inputHash": "29843f17"
+  },
+  {
+    "kellyId": 1144,
+    "examples": [
+      "Han sköt på måltavlan."
+    ],
+    "inputHash": "9ad58bdf"
+  },
+  {
+    "kellyId": 1175,
+    "examples": [
+      "Skriv siffran tre på pappret."
+    ],
+    "inputHash": "8033cd33"
+  },
+  {
+    "kellyId": 1177,
+    "examples": [
+      "Det är inte midnatt än."
+    ],
+    "inputHash": "c4123fe1"
+  },
+  {
+    "kellyId": 1182,
+    "examples": [
+      "I praktiken är det svårare än det verkar."
+    ],
+    "inputHash": "a481040d"
+  },
+  {
+    "kellyId": 1208,
+    "examples": [
+      "Gräset är grönt."
+    ],
+    "inputHash": "fe882fc5"
+  },
+  {
+    "kellyId": 1253,
+    "examples": [
+      "Vattnet är kallt idag."
+    ],
+    "inputHash": "1ee4cc39"
+  },
+  {
+    "kellyId": 1257,
+    "examples": [
+      "Den här jackan är av hög kvalitet."
+    ],
+    "inputHash": "e1e5dbe6"
+  },
+  {
+    "kellyId": 1444,
+    "examples": [
+      "Barnet kastar bollen."
+    ],
+    "inputHash": "403937c8"
+  },
+  {
+    "kellyId": 1480,
+    "examples": [
+      "Det är mörkt ute på kvällen."
+    ],
+    "inputHash": "63877417"
+  },
+  {
+    "kellyId": 1507,
+    "examples": [
+      "Se svaret nedan."
+    ],
+    "inputHash": "7637539e"
+  },
+  {
+    "kellyId": 1637,
+    "examples": [
+      "Ett plan flyger över huset."
+    ],
+    "inputHash": "8b4a2f7f"
+  },
+  {
+    "kellyId": 1642,
+    "examples": [
+      "Min syster bor i Göteborg."
+    ],
+    "inputHash": "86322fb1"
+  },
+  {
+    "kellyId": 1804,
+    "examples": [
+      "Var vill du att jag lägger grejerna?"
+    ],
+    "inputHash": "9e78c690"
+  },
+  {
+    "kellyId": 1817,
+    "examples": [
+      "Paketet levererades i dag."
+    ],
+    "inputHash": "4794af0d"
+  },
+  {
+    "kellyId": 1818,
+    "examples": [
+      "Han har rätt kompetens för jobbet."
+    ],
+    "inputHash": "d2891105"
+  },
+  {
+    "kellyId": 1839,
+    "examples": [
+      "Lagen har bred tillämpning."
+    ],
+    "inputHash": "f1495f55"
+  },
+  {
+    "kellyId": 1948,
+    "examples": [
+      "Barnen leker nere på gatan."
+    ],
+    "inputHash": "b1fa44b5"
+  },
+  {
+    "kellyId": 2072,
+    "examples": [
+      "Fågeln flyger på en höjd av tio meter."
+    ],
+    "inputHash": "157e9d39"
+  },
+  {
+    "kellyId": 2091,
+    "examples": [
+      "Min doktor heter Lena."
+    ],
+    "inputHash": "c8697791"
+  },
+  {
+    "kellyId": 2096,
+    "examples": [
+      "Gå över bron."
+    ],
+    "inputHash": "1c45c231"
+  },
+  {
+    "kellyId": 2320,
+    "examples": [
+      "Han läser filosofi på universitetet."
+    ],
+    "inputHash": "41d7cf38"
+  },
+  {
+    "kellyId": 2357,
+    "examples": [
+      "Jag drömmer om att resa till Japan."
+    ],
+    "inputHash": "44024137"
+  },
+  {
+    "kellyId": 2443,
+    "examples": [
+      "Han är oskyldig – det vet alla."
+    ],
+    "inputHash": "d9f5d5aa"
+  },
+  {
+    "kellyId": 2470,
+    "examples": [
+      "Soldaterna stoppade anfallet, men ett nytt angrepp kom."
+    ],
+    "inputHash": "03e21614"
+  },
+  {
+    "kellyId": 2489,
+    "examples": [
+      "Jag har en reservation på hotellet."
+    ],
+    "inputHash": "682e6b89"
+  },
+  {
+    "kellyId": 2530,
+    "examples": [
+      "Det är i och för sig en bra idé, men det kostar för mycket."
+    ],
+    "inputHash": "205ae3eb"
+  },
+  {
+    "kellyId": 2605,
+    "examples": [
+      "Kritikerna gillar inte filmen."
+    ],
+    "inputHash": "656b4637"
+  },
+  {
+    "kellyId": 2786,
+    "examples": [
+      "Vill du smaka på soppan?"
+    ],
+    "inputHash": "876ed764"
+  },
+  {
+    "kellyId": 2907,
+    "examples": [
+      "Barn har en rik fantasi."
+    ],
+    "inputHash": "262904f6"
+  },
+  {
+    "kellyId": 2954,
+    "examples": [
+      "Kan du sänka volymen på musiken?"
+    ],
+    "inputHash": "51dc72d1"
+  },
+  {
+    "kellyId": 3117,
+    "examples": [
+      "Barnet byggde ett torn av block."
+    ],
+    "inputHash": "7a9745c8"
+  },
+  {
+    "kellyId": 3230,
+    "examples": [
+      "Det är viktigt att reflektera över sina misstag."
+    ],
+    "inputHash": "5119f40b"
+  },
+  {
+    "kellyId": 3367,
+    "examples": [
+      "Det är ett rationellt beslut att spara pengar."
+    ],
+    "inputHash": "19b11f54"
+  },
+  {
+    "kellyId": 3520,
+    "examples": [
+      "Båten gled sakta över vattnet."
+    ],
+    "inputHash": "1fdd564d"
+  },
+  {
+    "kellyId": 3568,
+    "examples": [
+      "Han är direktör för ett stort företag."
+    ],
+    "inputHash": "b51f9ce5"
+  },
+  {
+    "kellyId": 3874,
+    "examples": [
+      "Kläderna ligger i byrån i sovrummet."
+    ],
+    "inputHash": "654dc36e"
+  },
+  {
+    "kellyId": 3987,
+    "examples": [
+      "Polisen bröt upp en kriminell liga."
+    ],
+    "inputHash": "436169b5"
+  },
+  {
+    "kellyId": 4178,
+    "examples": [
+      "Tre är ett udda tal."
+    ],
+    "inputHash": "a993d1e7"
+  },
+  {
+    "kellyId": 4472,
+    "examples": [
+      "Han ärvde en stor förmögenhet av sin farbror."
+    ],
+    "inputHash": "5031ace3"
+  },
+  {
+    "kellyId": 4520,
+    "examples": [
+      "Skolan arbetar för ökad tolerans mellan elever."
+    ],
+    "inputHash": "96cd522b"
+  },
+  {
+    "kellyId": 4635,
+    "examples": [
+      "Ringen är gjord av silver."
+    ],
+    "inputHash": "0502b8bb"
+  },
+  {
+    "kellyId": 4809,
+    "examples": [
+      "Kirurgen opererade patienten i tre timmar."
+    ],
+    "inputHash": "92d4fc22"
+  },
+  {
+    "kellyId": 4974,
+    "examples": [
+      "Nästa termin börjar i januari."
+    ],
+    "inputHash": "ecd36233"
+  },
+  {
+    "kellyId": 5063,
+    "examples": [
+      "Forskarna studerade det marina ekosystemet."
+    ],
+    "inputHash": "7de22b2d"
+  },
+  {
+    "kellyId": 5423,
+    "examples": [
+      "Gästerna fick ett varmt mottagande av värdfamiljen."
+    ],
+    "inputHash": "fd43e03b"
+  },
+  {
+    "kellyId": 5445,
+    "examples": [
+      "Soldaterna tågade i marsch genom staden."
+    ],
+    "inputHash": "157e58b4"
+  },
+  {
+    "kellyId": 5446,
+    "examples": [
+      "Vi hörde en hög smäll utifrån gatan."
+    ],
+    "inputHash": "4c3d0f4e"
+  },
+  {
+    "kellyId": 5507,
+    "examples": [
+      "Arkitekten visade ritningarna för det nya huset."
+    ],
+    "inputHash": "b9e481c2"
+  },
+  {
+    "kellyId": 6562,
+    "examples": [
+      "Sköterskan fyllde en spruta med medicin."
+    ],
+    "inputHash": "35d25420"
+  },
+  {
+    "kellyId": 7555,
+    "examples": [],
+    "inputHash": "7b4c797f"
+  }
+]

@@ -1,0 +1,427 @@
+[
+  {
+    "kellyId": 5063,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'marine' (restates main); 'naval'/navy sense is distinct and kept",
+    "translation": "marine",
+    "senses": [
+      "naval (relating to the navy)"
+    ],
+    "inputHash": "fbf0eb75"
+  },
+  {
+    "kellyId": 5445,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'march' (restates main); kept distinct word 'parade'",
+    "translation": "march",
+    "senses": [
+      "parade (of demonstrators)"
+    ],
+    "inputHash": "306c1db3"
+  },
+  {
+    "kellyId": 5423,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'reception' (restates main); kept distinct word 'response'",
+    "translation": "reception",
+    "senses": [
+      "response (reaction to something)"
+    ],
+    "inputHash": "ccc963dc"
+  },
+  {
+    "kellyId": 4809,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'operate' (restates main); general work/function sense kept via new words",
+    "translation": "operate, perform surgery",
+    "senses": [
+      "work, function (general)"
+    ],
+    "inputHash": "044d451b"
+  },
+  {
+    "kellyId": 5507,
+    "decision": "fix",
+    "reason": "subDef dedup: 'drawing' natively carries both act and product; act-vs-product is a same-word facet, correct drop",
+    "translation": "drawing, blueprint",
+    "senses": [],
+    "inputHash": "16afa013"
+  },
+  {
+    "kellyId": 4963,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'smoke' (restates main); kept distinct word 'cigarette'",
+    "translation": "smoke",
+    "senses": [
+      "cigarette (informal)"
+    ],
+    "uncountable": true,
+    "inputHash": "9240e086"
+  },
+  {
+    "kellyId": 4259,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'tough' from last (restates main); other three and 'resilient' are distinct",
+    "translation": "tough, leathery, rubbery",
+    "senses": [
+      "chewy (of food)",
+      "slow-witted, dim",
+      "slow, tedious, boring",
+      "resilient (of a person)"
+    ],
+    "inputHash": "98d91852"
+  },
+  {
+    "kellyId": 4635,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'silver' from first (restates main); coins/silverware/medal distinct",
+    "translation": "silver",
+    "senses": [
+      "coins (collectively)",
+      "silverware, cutlery",
+      "silver medal (2nd place)"
+    ],
+    "uncountable": true,
+    "inputHash": "0ef85ea2"
+  },
+  {
+    "kellyId": 4493,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'single' from first (restates main); other three are distinct referents",
+    "translation": "single",
+    "senses": [
+      "unattached person",
+      "single (music release)",
+      "singles (in tennis etc.)",
+      "coarse gravel, shingle"
+    ],
+    "inputHash": "d018cba8"
+  },
+  {
+    "kellyId": 5446,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'smack' from second (restates main); hit/blow and spanking distinct",
+    "translation": "bang, boom, smack",
+    "senses": [
+      "hit, blow (to a person)",
+      "spanking (punishment)"
+    ],
+    "inputHash": "f33f5710"
+  },
+  {
+    "kellyId": 4433,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'substance' (restates main); figurative depth/meaningfulness kept via 'depth'",
+    "translation": "substance",
+    "senses": [
+      "depth (meaningful content)"
+    ],
+    "inputHash": "b2c84287"
+  },
+  {
+    "kellyId": 5295,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'swallow' (restates main); figurative believe/accept sense kept",
+    "translation": "swallow",
+    "senses": [
+      "accept (believe, figuratively)"
+    ],
+    "inputHash": "def07d67"
+  },
+  {
+    "kellyId": 5106,
+    "decision": "fix",
+    "reason": "subDef dedup: 'starve' is labile and natively carries the transitive causative; grammatical facet, correct drop",
+    "translation": "starve, go hungry",
+    "senses": [],
+    "inputHash": "ef29e63b"
+  },
+  {
+    "kellyId": 4974,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'term' (restates main); finance due-date sense kept",
+    "translation": "semester, term",
+    "senses": [
+      "due date (finance)"
+    ],
+    "inputHash": "5fcfc6ce"
+  },
+  {
+    "kellyId": 4520,
+    "decision": "fix",
+    "reason": "subDef dedup: physiological tolerance kept; stripped 'tolerance' from second, kept distinct 'margin'",
+    "translation": "tolerance",
+    "senses": [
+      "tolerance (of the body to a substance)",
+      "margin (of error)"
+    ],
+    "inputHash": "7e46ac58"
+  },
+  {
+    "kellyId": 6525,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'blink' (restates main); flashing a light is distinct, kept via 'flash'",
+    "translation": "blink",
+    "senses": [
+      "flash (a light)"
+    ],
+    "inputHash": "08b08045"
+  },
+  {
+    "kellyId": 5913,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'box' (restates main); boxing-punch sense kept via 'punch'",
+    "translation": "box, crate",
+    "senses": [
+      "punch (blow with the fist)"
+    ],
+    "inputHash": "6857b97e"
+  },
+  {
+    "kellyId": 6495,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'belt' (restates main); geographic zone/belt sense kept via 'zone'",
+    "translation": "belt",
+    "senses": [
+      "zone (long broad area)"
+    ],
+    "inputHash": "93b10925"
+  },
+  {
+    "kellyId": 6369,
+    "decision": "fix",
+    "reason": "subDef dedup: bare 'dictate' natively carries the impose/prescribe sense; '(impose, decide)' just narrows the same word, correct drop",
+    "translation": "dictate",
+    "senses": [],
+    "inputHash": "83deaafc"
+  },
+  {
+    "kellyId": 5811,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'shower' (restates main); spraying someone is distinct, kept via 'spray'",
+    "translation": "shower",
+    "senses": [
+      "spray (someone with something)"
+    ],
+    "inputHash": "232f5020"
+  },
+  {
+    "kellyId": 6085,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'grill' (restates main); figurative interrogate sense kept",
+    "translation": "grill, barbecue",
+    "senses": [
+      "interrogate (informal)"
+    ],
+    "inputHash": "cf51632b"
+  },
+  {
+    "kellyId": 6268,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'ring' (restates main); figurative connotations sense kept",
+    "translation": "sound, tone, ring",
+    "senses": [
+      "connotations (figurative)"
+    ],
+    "inputHash": "e2c4a752"
+  },
+  {
+    "kellyId": 6685,
+    "decision": "fix",
+    "reason": "subDef dedup: military company is a distinct sense; stripped 'company' from second, kept distinct 'firm'",
+    "translation": "company",
+    "senses": [
+      "military company (troops)",
+      "firm (commercial)"
+    ],
+    "inputHash": "7e117888"
+  },
+  {
+    "kellyId": 6510,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'grain' from first (restates main); speck/barley/gun-sight distinct",
+    "translation": "grain",
+    "senses": [
+      "speck (small particle)",
+      "barley (the plant)",
+      "bead, front sight (of a gun)"
+    ],
+    "inputHash": "ba469c27"
+  },
+  {
+    "kellyId": 5965,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'lot' from first (restates main); lottery ticket and plot/land-lot distinct",
+    "translation": "lot, share",
+    "senses": [
+      "lottery ticket (drawn by chance)",
+      "plot, land lot"
+    ],
+    "inputHash": "ad8f4336"
+  },
+  {
+    "kellyId": 6804,
+    "decision": "fix",
+    "reason": "subDef dedup: syringe-needle is a distinct referent; stripped 'needle' from second, kept distinct 'pointer'",
+    "translation": "needle, pin",
+    "senses": [
+      "needle (on a syringe)",
+      "pointer (on a dial)"
+    ],
+    "inputHash": "9f6fb901"
+  },
+  {
+    "kellyId": 5767,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'be present' (restates main); mindfulness sense is distinct, kept",
+    "translation": "be present",
+    "senses": [
+      "be mindful (mentally attentive)"
+    ],
+    "inputHash": "0a7616f5"
+  },
+  {
+    "kellyId": 6066,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'ocean' (restates main); figurative vast-expanse sense kept",
+    "translation": "ocean",
+    "senses": [
+      "vast expanse (figurative)"
+    ],
+    "inputHash": "18d6f55f"
+  },
+  {
+    "kellyId": 6760,
+    "decision": "fix",
+    "reason": "subDef dedup: dropped item restates the main 'portfolio' (artistic/financial) sense; ministerial post kept as distinct",
+    "translation": "briefcase; portfolio",
+    "senses": [
+      "portfolio (government minister's post)"
+    ],
+    "inputHash": "00049736"
+  },
+  {
+    "kellyId": 6544,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'return' from first (restates main); refund/recycling/carriage-return distinct",
+    "translation": "return",
+    "senses": [
+      "refund (goods to seller)",
+      "recycling",
+      "carriage return (key or character)"
+    ],
+    "inputHash": "481b0979"
+  },
+  {
+    "kellyId": 6964,
+    "decision": "fix",
+    "reason": "subDef dedup: spindle is a distinct word; stripped 'spider' from second, kept distinct 'crawler'",
+    "translation": "spider",
+    "senses": [
+      "spindle (rotating part of a machine)",
+      "crawler (web-indexing program)"
+    ],
+    "inputHash": "3f0d1135"
+  },
+  {
+    "kellyId": 6562,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'sprayer' from first (restates main); squirt gun and fire hose/water cannon distinct",
+    "translation": "syringe, sprayer",
+    "senses": [
+      "squirt gun",
+      "fire hose, water cannon"
+    ],
+    "inputHash": "5dd5591a"
+  },
+  {
+    "kellyId": 6953,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'tense' (restates main); emotional nervous/on-edge sense kept",
+    "translation": "tense, taut",
+    "senses": [
+      "nervous, on edge (emotionally)"
+    ],
+    "inputHash": "4f708341"
+  },
+  {
+    "kellyId": 6886,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'staff' (restates main personnel sense); distinct physical rod sense kept via 'a stick'",
+    "translation": "staff",
+    "senses": [
+      "a stick (rod)"
+    ],
+    "inputHash": "ca64ce57"
+  },
+  {
+    "kellyId": 5845,
+    "decision": "fix",
+    "reason": "subDef dedup: faint-interest sense distinct; stripped 'cool' from second, kept distinct 'distant'",
+    "translation": "cool, slightly chilly",
+    "senses": [
+      "lukewarm, faint (of interest, response)",
+      "distant (of manner)"
+    ],
+    "inputHash": "8fdbf5e7"
+  },
+  {
+    "kellyId": 6892,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'sting' (restates main); emotional hurt sense kept via 'hurt'",
+    "translation": "sting, burn",
+    "senses": [
+      "hurt (emotionally)"
+    ],
+    "inputHash": "ff741e53"
+  },
+  {
+    "kellyId": 5697,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'swine' (restates main); contemptible-person sense kept via 'bastard'",
+    "translation": "pig, hog, swine",
+    "senses": [
+      "bastard (contemptible person)"
+    ],
+    "inputHash": "fdb349ec"
+  },
+  {
+    "kellyId": 6494,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'tender' (restates main); affectionate/gentle sense kept via 'gentle'",
+    "translation": "sore, tender",
+    "senses": [
+      "gentle (affectionate)"
+    ],
+    "inputHash": "adfb3a2f"
+  },
+  {
+    "kellyId": 7679,
+    "decision": "fix",
+    "reason": "subDef dedup: stripped 'antenna' from first (restates main); insect feeler and aerial distinct",
+    "translation": "antenna",
+    "senses": [
+      "feeler (of an insect)",
+      "aerial (for radio/TV)"
+    ],
+    "inputHash": "e428ac49"
+  },
+  {
+    "kellyId": 7942,
+    "decision": "fix",
+    "reason": "subDef dedup: 'protection by an escort' is the abstract act the main escort concept already carries; sex-worker sense kept as distinct",
+    "translation": "escort",
+    "senses": [
+      "escort (sex worker)"
+    ],
+    "inputHash": "d1bd5a64"
+  },
+  {
+    "kellyId": 7668,
+    "decision": "fix",
+    "reason": "subDef dedup: 'remote control' natively carries both the device and the act; act-vs-device is a same-word facet, correct drop",
+    "translation": "remote control, remote",
+    "senses": [],
+    "inputHash": "831f910f"
+  }
+]

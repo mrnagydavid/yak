@@ -1,0 +1,178 @@
+[
+  {
+    "kellyId": 2096,
+    "decision": "fix",
+    "reason": "subDef dedup: quantitative 'more than' is a distinct sense of över, just like the kept 'across' and 'transferred'; reusing the word 'over' does not make it noise (cf. article (grammar) beside article)",
+    "translation": "over",
+    "senses": [
+      "across",
+      "transferred"
+    ],
+    "inputHash": "a62d9a4f"
+  },
+  {
+    "kellyId": 3030,
+    "decision": "fix",
+    "reason": "subDef dedup: stripping bare 'administration' and keeping governing body, specific-government and medicine senses is sound",
+    "translation": "administration",
+    "senses": [
+      "governing body",
+      "administration (a specific government, e.g. the Biden administration)",
+      "administration (of medicine)"
+    ],
+    "uncountable": true,
+    "inputHash": "8ab2ae6f"
+  },
+  {
+    "kellyId": 3363,
+    "decision": "fix",
+    "reason": "subDef dedup: 'approval (formal)' just narrows main 'approval'; 'agreement' is a distinct word/sense worth keeping",
+    "translation": "applause, approval",
+    "senses": [
+      "agreement"
+    ],
+    "inputHash": "7ff66d0d"
+  },
+  {
+    "kellyId": 3117,
+    "decision": "fix",
+    "reason": "subDef dedup: notebook, pulley, data block and political bloc are all distinct senses",
+    "translation": "block, boulder, cuboid",
+    "senses": [
+      "pad, notebook",
+      "pulley",
+      "block (data storage)",
+      "bloc (political)"
+    ],
+    "inputHash": "e273f7c4"
+  },
+  {
+    "kellyId": 3874,
+    "decision": "fix",
+    "reason": "subDef dedup: organization sense is distinct from the furniture main; stripping 'bureau' is correct",
+    "translation": "bureau, dresser, chest of drawers",
+    "senses": [
+      "office, agency"
+    ],
+    "inputHash": "58da5c46"
+  },
+  {
+    "kellyId": 3568,
+    "decision": "fix",
+    "reason": "subDef dedup: EU official 'director' is the same director sense, just a titular application — correctly dropped",
+    "translation": "director, executive",
+    "senses": [],
+    "inputHash": "47ab185b"
+  },
+  {
+    "kellyId": 2907,
+    "decision": "fix",
+    "reason": "subDef dedup: daydream is an imagined scenario = the same sense as main 'fantasy'; correctly dropped",
+    "translation": "imagination, fantasy",
+    "senses": [],
+    "inputHash": "06e75fda"
+  },
+  {
+    "kellyId": 3520,
+    "decision": "fix",
+    "reason": "subDef dedup: 'glide (through air or water)' restates main 'glide'; 'drift' is a distinct figurative sense",
+    "translation": "slide, glide",
+    "senses": [
+      "drift (figuratively)"
+    ],
+    "inputHash": "08fee59a"
+  },
+  {
+    "kellyId": 3467,
+    "decision": "fix",
+    "reason": "subDef dedup: 'creep, inch (move slowly)' restates main 'creep'; skin-sensation and plant-trailing kept",
+    "translation": "crawl, creep",
+    "senses": [
+      "tingle, crawl (uncomfortable sensation on the skin)",
+      "creep, trail (of plants)"
+    ],
+    "inputHash": "a7a777e2"
+  },
+  {
+    "kellyId": 3987,
+    "decision": "fix",
+    "reason": "subDef dedup: 'league (sports/org)' restates main 'league'; correctly dropped",
+    "translation": "gang; league",
+    "senses": [],
+    "inputHash": "343fd465"
+  },
+  {
+    "kellyId": 3476,
+    "decision": "fix",
+    "reason": "subDef dedup: 'smell, give off an odour' restates the intransitive main 'smell'; active-perceive 'sniff' kept as distinct",
+    "translation": "smell",
+    "senses": [
+      "sniff, use one's nose (to smell something)"
+    ],
+    "inputHash": "a9e88ffd"
+  },
+  {
+    "kellyId": 3367,
+    "decision": "fix",
+    "reason": "subDef dedup: 'rational (logically sound)' restates main 'rational'; correctly dropped",
+    "translation": "efficient, rational",
+    "senses": [],
+    "inputHash": "1ac69b28"
+  },
+  {
+    "kellyId": 3230,
+    "decision": "fix",
+    "reason": "subDef dedup: indicate/give-evidence-of and mental ponder are distinct senses from physical reflect",
+    "translation": "reflect",
+    "senses": [
+      "give evidence of",
+      "reflect, ponder (think seriously)"
+    ],
+    "inputHash": "22bc15cf"
+  },
+  {
+    "kellyId": 4041,
+    "decision": "fix",
+    "reason": "subDef dedup: main 'swear, curse' teaches the profanity sense (per 'curse'); 'swear, take an oath' is the distinct solemn-oath sense, not a restatement — restore it",
+    "translation": "swear, curse",
+    "senses": [],
+    "inputHash": "5702839c"
+  },
+  {
+    "kellyId": 4178,
+    "decision": "fix",
+    "reason": "subDef dedup: 'odd, strange, unusual' is a synonym pile with no distinct domain; English 'odd' already carries strange/peculiar — correctly dropped",
+    "translation": "odd",
+    "senses": [],
+    "inputHash": "82e9ebe8"
+  },
+  {
+    "kellyId": 2954,
+    "decision": "fix",
+    "reason": "subDef dedup: 'volume (amount of space)' is the core main sense; sound-level and book senses kept as distinct",
+    "translation": "volume",
+    "senses": [
+      "volume (sound level)",
+      "volume (book in a series)"
+    ],
+    "inputHash": "bc2799fe"
+  },
+  {
+    "kellyId": 4472,
+    "decision": "fix",
+    "reason": "subDef dedup: 'fortune (large sum of money)' restates main 'fortune'; 'capability, ability' is a distinct sense",
+    "translation": "wealth, fortune",
+    "senses": [
+      "capability, ability"
+    ],
+    "inputHash": "856bbebf"
+  },
+  {
+    "kellyId": 4693,
+    "decision": "fix",
+    "reason": "subDef dedup: 'survey, chart, investigate systematically' all paraphrase main 'map out, survey'; no distinct sense remains",
+    "translation": "map, map out, survey",
+    "senses": [],
+    "inputHash": "240a0a36"
+  }
+]

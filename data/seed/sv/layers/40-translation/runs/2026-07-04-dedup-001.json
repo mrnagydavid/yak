@@ -1,0 +1,529 @@
+[
+  {
+    "kellyId": 578,
+    "decision": "fix",
+    "reason": "subDef dedup: 'special' restated the main; 'dear (beloved)' is distinct and correctly kept",
+    "translation": "special, particular",
+    "senses": [
+      "dear (beloved)"
+    ],
+    "inputHash": "e9899081"
+  },
+  {
+    "kellyId": 299,
+    "decision": "fix",
+    "reason": "subDef dedup: 'speak (a language)' is the core use of main 'speak'; 'make a speech' is distinct and kept",
+    "translation": "speak, talk",
+    "senses": [
+      "make a speech"
+    ],
+    "inputHash": "ebf264c1"
+  },
+  {
+    "kellyId": 1174,
+    "decision": "fix",
+    "reason": "subDef dedup: 'symbol' restated the main; typographic 'character' and 'gesture' are distinct",
+    "translation": "sign, symbol",
+    "senses": [
+      "character (letter etc.)",
+      "gesture"
+    ],
+    "inputHash": "29403691"
+  },
+  {
+    "kellyId": 197,
+    "decision": "fix",
+    "reason": "subDef dedup: 'believe (someone)' reused main 'believe'; 'trust' and religious faith are distinct",
+    "translation": "believe, think",
+    "senses": [
+      "trust",
+      "have religious faith"
+    ],
+    "inputHash": "942c462f"
+  },
+  {
+    "kellyId": 1035,
+    "decision": "fix",
+    "reason": "subDef dedup: bare 'cover' restated the main; 'afford' and 'protect' are distinct",
+    "translation": "cover",
+    "senses": [
+      "afford (expenses)",
+      "protect (with force)"
+    ],
+    "inputHash": "1079a031"
+  },
+  {
+    "kellyId": 1084,
+    "decision": "fix",
+    "reason": "subDef dedup: 'exploit' restated the main; take-advantage-of/abuse is distinct and kept",
+    "translation": "make use of, exploit",
+    "senses": [
+      "take advantage of (a person); abuse"
+    ],
+    "inputHash": "93c3f551"
+  },
+  {
+    "kellyId": 1199,
+    "decision": "fix",
+    "reason": "subDef dedup: 'warm' restated the main; 'caring' is a distinct emotional sense",
+    "translation": "warm, hot",
+    "senses": [
+      "caring (emotionally)"
+    ],
+    "inputHash": "e6a5775c"
+  },
+  {
+    "kellyId": 164,
+    "decision": "fix",
+    "reason": "subDef dedup: temporal 'at' is distinct; 'by' restated the main and was correctly stripped",
+    "translation": "next to, beside, by, at",
+    "senses": [
+      "at (a point in time)",
+      "in the presence of (attachment)"
+    ],
+    "inputHash": "bff1ea27"
+  },
+  {
+    "kellyId": 161,
+    "decision": "fix",
+    "reason": "subDef dedup: 'which' restated the main; relative 'who, whom' is distinct",
+    "translation": "which, what",
+    "senses": [
+      "who, whom (relative)"
+    ],
+    "inputHash": "df833b3e"
+  },
+  {
+    "kellyId": 221,
+    "decision": "fix",
+    "reason": "subDef dedup: 'show' restated the main; 'prove, demonstrate' is distinct",
+    "translation": "show, display",
+    "senses": [
+      "prove, demonstrate"
+    ],
+    "inputHash": "132f82d7"
+  },
+  {
+    "kellyId": 240,
+    "decision": "fix",
+    "reason": "subDef dedup: 'certain' restated the main; being 'convinced/sure' is a distinct sense",
+    "translation": "certain, some",
+    "senses": [
+      "convinced (of something)"
+    ],
+    "inputHash": "8257fdeb"
+  },
+  {
+    "kellyId": 1014,
+    "decision": "fix",
+    "reason": "subDef dedup: 'age' restated the main; a historical 'era' is a distinct sense",
+    "translation": "age",
+    "senses": [
+      "era (a historical period)"
+    ],
+    "inputHash": "f02dc700"
+  },
+  {
+    "kellyId": 1177,
+    "decision": "fix",
+    "reason": "subDef dedup: 'yet' restated the main; comparative 'even' and 'no matter' are distinct",
+    "translation": "still, yet",
+    "senses": [
+      "even (with comparatives, e.g. än mer)",
+      "no matter (as in vem det än är)"
+    ],
+    "inputHash": "5b065c07"
+  },
+  {
+    "kellyId": 328,
+    "decision": "fix",
+    "reason": "subDef dedup: 'after all' is distinct; 'still' restated the main and was correctly stripped",
+    "translation": "anyway, still, even so",
+    "senses": [
+      "after all (contrary to expectation)",
+      "even (to a further degree)"
+    ],
+    "inputHash": "89cc0cb5"
+  },
+  {
+    "kellyId": 1544,
+    "decision": "fix",
+    "reason": "subDef dedup: main 'player, actor' already carries the performer sense; '(performing a role)' is its default meaning",
+    "translation": "player, actor",
+    "senses": [],
+    "inputHash": "9916af7d"
+  },
+  {
+    "kellyId": 2470,
+    "decision": "fix",
+    "reason": "subDef dedup: 'attack' restated the main; 'infestation' is a distinct sense",
+    "translation": "attack, assault",
+    "senses": [
+      "infestation (e.g. rust or mold)"
+    ],
+    "inputHash": "7b5a11bc"
+  },
+  {
+    "kellyId": 2707,
+    "decision": "fix",
+    "reason": "subDef dedup: 'attack' restated the main; 'infest' is a distinct sense",
+    "translation": "attack, assault",
+    "senses": [
+      "infest (e.g. rust or mold)"
+    ],
+    "inputHash": "5a8a3c04"
+  },
+  {
+    "kellyId": 1444,
+    "decision": "fix",
+    "reason": "subDef dedup: 'pass' is distinct; 'ball' restated the main and was correctly stripped, keeping 'testicle'",
+    "translation": "ball",
+    "senses": [
+      "pass (in sport)",
+      "testicle (vulgar)"
+    ],
+    "inputHash": "62e8d5bc"
+  },
+  {
+    "kellyId": 2091,
+    "decision": "fix",
+    "reason": "subDef dedup: 'doctor' restated the main; academic 'PhD' is a distinct sense",
+    "translation": "doctor",
+    "senses": [
+      "PhD (academic title)"
+    ],
+    "inputHash": "1523ea51"
+  },
+  {
+    "kellyId": 1505,
+    "decision": "fix",
+    "reason": "subDef dedup: 'dream' restated the main; an aspiration/'wish' is a distinct sense",
+    "translation": "dream",
+    "senses": [
+      "wish (hope or aspiration)"
+    ],
+    "inputHash": "2a2dcd71"
+  },
+  {
+    "kellyId": 2357,
+    "decision": "fix",
+    "reason": "subDef dedup: 'dream' restated the main; 'hope, wish (aspire)' is a distinct sense",
+    "translation": "dream",
+    "senses": [
+      "hope, wish (aspire)"
+    ],
+    "inputHash": "6df9858c"
+  },
+  {
+    "kellyId": 2012,
+    "decision": "fix",
+    "reason": "subDef dedup: 'property' restated the main; an 'estate' (land+buildings) is distinct",
+    "translation": "property",
+    "senses": [
+      "estate (land and buildings)"
+    ],
+    "uncountable": true,
+    "inputHash": "df4b4cc8"
+  },
+  {
+    "kellyId": 2320,
+    "decision": "fix",
+    "reason": "subDef dedup: a personal guiding philosophy/outlook is a distinct sense from the academic discipline, exactly parallel to kept items like 'taste (preference)' and 'inheritance (genetic)'",
+    "translation": "philosophy",
+    "senses": [],
+    "inputHash": "7ef434de"
+  },
+  {
+    "kellyId": 2286,
+    "decision": "fix",
+    "reason": "subDef dedup: 'fruit' restated the main; figurative 'result' is distinct",
+    "translation": "fruit",
+    "senses": [
+      "result (positive outcome)"
+    ],
+    "inputHash": "3ec351ba"
+  },
+  {
+    "kellyId": 2361,
+    "decision": "fix",
+    "reason": "subDef dedup: technical physics/math field is distinct; 'field' restated the main in the second, keeping 'sphere'",
+    "translation": "field",
+    "senses": [
+      "field (physics, mathematics)",
+      "sphere (of activity or interest)"
+    ],
+    "inputHash": "d655a544"
+  },
+  {
+    "kellyId": 1446,
+    "decision": "fix",
+    "reason": "subDef dedup: 'past' restated the main; temporal 'over' (finished) is distinct",
+    "translation": "past, by",
+    "senses": [
+      "over (temporal, e.g. Christmas is over)"
+    ],
+    "inputHash": "0f37b704"
+  },
+  {
+    "kellyId": 1605,
+    "decision": "fix",
+    "reason": "subDef dedup: 'defeat' is distinct and kept; 'loss (financial)' is a money-domain narrowing of the same 'loss' concept",
+    "translation": "loss",
+    "senses": [
+      "defeat (in a game or match)"
+    ],
+    "uncountable": true,
+    "inputHash": "931deeff"
+  },
+  {
+    "kellyId": 1804,
+    "decision": "fix",
+    "reason": "subDef dedup: 'thing' restated the main; 'one's forte' is a distinct sense",
+    "translation": "thing",
+    "senses": [
+      "deal (one's passion or forte)"
+    ],
+    "inputHash": "b351048b"
+  },
+  {
+    "kellyId": 2017,
+    "decision": "fix",
+    "reason": "subDef dedup: 'Hell (the afterlife)' is the default meaning of main 'hell' (capitalization only)",
+    "translation": "hell",
+    "senses": [],
+    "inputHash": "33614d00"
+  },
+  {
+    "kellyId": 2504,
+    "decision": "fix",
+    "reason": "subDef dedup: 'spicy' is distinct; 'hot' restated the main and was correctly stripped, keeping 'sexy'",
+    "translation": "hot",
+    "senses": [
+      "spicy (food)",
+      "sexy (attractive)"
+    ],
+    "inputHash": "068caef7"
+  },
+  {
+    "kellyId": 2072,
+    "decision": "fix",
+    "reason": "subDef dedup: 'height' restated the main; figurative 'peak' and 'hill' are distinct",
+    "translation": "height",
+    "senses": [
+      "peak (figurative: 'at the height of')",
+      "hill (a smaller elevation)"
+    ],
+    "inputHash": "3f016e72"
+  },
+  {
+    "kellyId": 2530,
+    "decision": "fix",
+    "reason": "subDef dedup: 'in and of itself, as such' merely paraphrases the main, which already includes 'in and of itself'",
+    "translation": "well, actually; in and of itself",
+    "senses": [],
+    "inputHash": "879e0ce2"
+  },
+  {
+    "kellyId": 1818,
+    "decision": "fix",
+    "reason": "subDef dedup: 'competence' restated the main; legal 'jurisdiction' is distinct",
+    "translation": "competence, skill",
+    "senses": [
+      "jurisdiction (legal authorization)"
+    ],
+    "inputHash": "aeb31149"
+  },
+  {
+    "kellyId": 2581,
+    "decision": "fix",
+    "reason": "subDef dedup: the noun 'a criminal' (a person) is a distinct referent from the adjective quality, parallel to kept items like 'star (famous person)'",
+    "translation": "criminal",
+    "senses": [],
+    "inputHash": "702748f9"
+  },
+  {
+    "kellyId": 2605,
+    "decision": "fix",
+    "reason": "subDef dedup: 'critic' restated the main; an arts 'reviewer' is a distinct professional sense",
+    "translation": "critic",
+    "senses": [
+      "reviewer (of arts)"
+    ],
+    "inputHash": "2d8f9420"
+  },
+  {
+    "kellyId": 1922,
+    "decision": "fix",
+    "reason": "subDef dedup: 'flesh (body tissue)' is the default meaning of 'flesh' already in the main",
+    "translation": "meat, flesh",
+    "senses": [],
+    "uncountable": true,
+    "inputHash": "4ffb9287"
+  },
+  {
+    "kellyId": 1817,
+    "decision": "fix",
+    "reason": "subDef dedup: the figurative 'perform/produce results' sense ('the team delivered') is distinct, and the first pass kept comparable figurative reuses elsewhere",
+    "translation": "deliver",
+    "senses": [],
+    "inputHash": "a4060aec"
+  },
+  {
+    "kellyId": 2000,
+    "decision": "fix",
+    "reason": "subDef dedup: 'medicine' restated the main; a 'drug' (substance) is a distinct sense",
+    "translation": "medicine",
+    "senses": [
+      "drug (substance taken)"
+    ],
+    "inputHash": "a277d686"
+  },
+  {
+    "kellyId": 2293,
+    "decision": "fix",
+    "reason": "subDef dedup: 'measure' restated the main; a 'step/measure taken' (action) is a distinct sense",
+    "translation": "measure",
+    "senses": [
+      "step (action taken)"
+    ],
+    "inputHash": "cdfc2e8a"
+  },
+  {
+    "kellyId": 1480,
+    "decision": "fix",
+    "reason": "subDef dedup: voice sense is distinct; 'dark' restated the main and was correctly stripped, keeping 'gloomy'",
+    "translation": "dark",
+    "senses": [
+      "deep, dull (of a voice)",
+      "gloomy (mood or outlook)"
+    ],
+    "inputHash": "079f2b82"
+  },
+  {
+    "kellyId": 1507,
+    "decision": "fix",
+    "reason": "subDef dedup: 'below' restated the main; textual 'as follows' is distinct",
+    "translation": "below",
+    "senses": [
+      "as follows (in a text)"
+    ],
+    "inputHash": "a3060f34"
+  },
+  {
+    "kellyId": 1948,
+    "decision": "fix",
+    "reason": "subDef dedup: 'down' restated the main in both; 'sad/depressed' and 'offline' are distinct",
+    "translation": "down, below, downstairs",
+    "senses": [
+      "sad, depressed",
+      "offline (of systems)"
+    ],
+    "inputHash": "b9f63607"
+  },
+  {
+    "kellyId": 1828,
+    "decision": "fix",
+    "reason": "subDef dedup: 'enjoy' restated the main; the legal 'benefit from a right' is distinct",
+    "translation": "enjoy, relish",
+    "senses": [
+      "benefit from (a right)"
+    ],
+    "inputHash": "903620bb"
+  },
+  {
+    "kellyId": 2443,
+    "decision": "fix",
+    "reason": "subDef dedup: 'innocent' restated the main in both; 'harmless' and 'pure' are distinct",
+    "translation": "innocent",
+    "senses": [
+      "harmless",
+      "pure (free from sin)"
+    ],
+    "inputHash": "4690362f"
+  },
+  {
+    "kellyId": 1637,
+    "decision": "fix",
+    "reason": "subDef dedup: 'plane' restated the main; a 'level/plane of existence' is a distinct sense",
+    "translation": "airplane; plane",
+    "senses": [
+      "level (of existence)"
+    ],
+    "inputHash": "d2327f7e"
+  },
+  {
+    "kellyId": 2369,
+    "decision": "fix",
+    "reason": "subDef dedup: 'test' restated the main; 'trial' and 'sample/specimen' are distinct",
+    "translation": "test, exam",
+    "senses": [
+      "trial (of endurance or equipment)",
+      "sample, specimen"
+    ],
+    "inputHash": "f115bbfc"
+  },
+  {
+    "kellyId": 2489,
+    "decision": "fix",
+    "reason": "subDef dedup: 'reservation' restated the main; 'reluctance' and formal 'dissenting opinion' are distinct",
+    "translation": "reservation, booking",
+    "senses": [
+      "reluctance (hesitation)",
+      "dissenting opinion (formal)"
+    ],
+    "inputHash": "768eb725"
+  },
+  {
+    "kellyId": 2483,
+    "decision": "fix",
+    "reason": "subDef dedup: 'cut oneself' is the same reflexive 'cut'; 'reduce (a budget)' is a distinct figurative sense and kept",
+    "translation": "cut",
+    "senses": [
+      "reduce (a budget)"
+    ],
+    "inputHash": "fe7803cf"
+  },
+  {
+    "kellyId": 2786,
+    "decision": "fix",
+    "reason": "subDef dedup: 'taste' restated the main; the intransitive 'have a flavor' is a distinct sense",
+    "translation": "taste",
+    "senses": [
+      "have a flavor (of something)"
+    ],
+    "inputHash": "47c65f07"
+  },
+  {
+    "kellyId": 1919,
+    "decision": "fix",
+    "reason": "subDef dedup: 'snow' restated the main in the first; 'static' and cocaine slang are distinct",
+    "translation": "snow",
+    "senses": [
+      "static (TV noise)",
+      "snow (cocaine, slang)"
+    ],
+    "inputHash": "fd3b40fd"
+  },
+  {
+    "kellyId": 1642,
+    "decision": "fix",
+    "reason": "subDef dedup: 'nurse' is distinct; 'sister' restated the main and was correctly stripped, keeping 'nun'",
+    "translation": "sister",
+    "senses": [
+      "nurse (esp. as a form of address)",
+      "nun (religious)"
+    ],
+    "inputHash": "da0860e2"
+  },
+  {
+    "kellyId": 1839,
+    "decision": "fix",
+    "reason": "subDef dedup: 'implementation' is distinct; 'application' restated the main and was correctly stripped, keeping 'app'",
+    "translation": "application, use",
+    "senses": [
+      "implementation",
+      "app (computer program)"
+    ],
+    "inputHash": "ae918812"
+  }
+]

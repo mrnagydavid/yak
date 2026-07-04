@@ -1,0 +1,38 @@
+[
+  {
+    "kellyId": 7906,
+    "decision": "fix",
+    "reason": "subDef dedup: 'tied' restates the main's 'tied'; 'drawn' is a distinct English word for the sports-tie concept.",
+    "translation": "undecided; tied",
+    "senses": [
+      "drawn (sports)"
+    ],
+    "inputHash": "0eb0ea71"
+  },
+  {
+    "kellyId": 7699,
+    "decision": "fix",
+    "reason": "subDef dedup: 'strip of land' is the main's 'strip' (long narrow piece) narrowed to land, not a distinct sense.",
+    "translation": "strip, tape",
+    "senses": [],
+    "inputHash": "88e72236"
+  },
+  {
+    "kellyId": 7555,
+    "decision": "fix",
+    "reason": "subDef dedup: Figurative 'stink' is distinct; 'make something stink' is a causative paraphrase of the main sense, no new word/sense.",
+    "translation": "stink, reek",
+    "senses": [
+      "stink (suggest dishonesty)"
+    ],
+    "inputHash": "998ea240"
+  },
+  {
+    "kellyId": 8257,
+    "decision": "fix",
+    "reason": "subDef dedup: '(of or relating to the theatre)' merely restates the definitional core of the same word 'theatrical'; nothing new.",
+    "translation": "theatrical",
+    "senses": [],
+    "inputHash": "b79ae2ab"
+  }
+]

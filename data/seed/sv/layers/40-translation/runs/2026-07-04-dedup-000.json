@@ -1,0 +1,532 @@
+[
+  {
+    "kellyId": 1381,
+    "decision": "fix",
+    "reason": "subDef dedup: same word/concept 'civilian' as main; the parenthetical only defines it, no distinct referent",
+    "translation": "civil, civilian",
+    "senses": [],
+    "inputHash": "cd11332a"
+  },
+  {
+    "kellyId": 515,
+    "decision": "fix",
+    "reason": "subDef dedup: 'share' and 'divide into parts' restate main; 'have in common' is a distinct sense kept",
+    "translation": "share, divide",
+    "senses": [
+      "have in common"
+    ],
+    "inputHash": "263f8336"
+  },
+  {
+    "kellyId": 643,
+    "decision": "fix",
+    "reason": "subDef dedup: same word 'private' as main, same concept just clarified against public/state",
+    "translation": "individual, private",
+    "senses": [],
+    "inputHash": "1e94a713"
+  },
+  {
+    "kellyId": 667,
+    "decision": "fix",
+    "reason": "subDef dedup: 'fall' restates main; 'die (in battle)' is a distinct figurative sense",
+    "translation": "fall",
+    "senses": [
+      "die (in battle)"
+    ],
+    "inputHash": "d4d52ed1"
+  },
+  {
+    "kellyId": 582,
+    "decision": "fix",
+    "reason": "subDef dedup: 'fine' restates main; 'fancy' and 'posh, upper-class' are distinct",
+    "translation": "nice, fine, pretty",
+    "senses": [
+      "fancy",
+      "posh, upper-class"
+    ],
+    "inputHash": "655e80a4"
+  },
+  {
+    "kellyId": 279,
+    "decision": "fix",
+    "reason": "subDef dedup: 'old' restates main; 'previous, former' is a distinct sense",
+    "translation": "old",
+    "senses": [
+      "previous, former"
+    ],
+    "inputHash": "44581146"
+  },
+  {
+    "kellyId": 286,
+    "decision": "fix",
+    "reason": "subDef dedup: 'good' stripped from item 2; tasty, skilled, and considerable are distinct senses",
+    "translation": "good",
+    "senses": [
+      "tasty, delicious",
+      "proficient (skilled)",
+      "considerable (in extent)"
+    ],
+    "inputHash": "a3cc0311"
+  },
+  {
+    "kellyId": 1208,
+    "decision": "fix",
+    "reason": "subDef dedup: 'green' stripped where redundant; sickly-green kept as its sense is the colour itself",
+    "translation": "green",
+    "senses": [
+      "inexperienced",
+      "green (looking sick)",
+      "approved (given the go-ahead)"
+    ],
+    "inputHash": "744e1517"
+  },
+  {
+    "kellyId": 513,
+    "decision": "fix",
+    "reason": "subDef dedup: 'house' stripped; venue and dynasty are distinct senses",
+    "translation": "house",
+    "senses": [
+      "venue (restaurant, theatre, etc.)",
+      "dynasty (royal family)"
+    ],
+    "inputHash": "7d0eff20"
+  },
+  {
+    "kellyId": 224,
+    "decision": "fix",
+    "reason": "subDef dedup: 'hold' stripped; host and keep/maintain are distinct senses",
+    "translation": "hold",
+    "senses": [
+      "host (an event)",
+      "keep, maintain"
+    ],
+    "inputHash": "7eeb88dd"
+  },
+  {
+    "kellyId": 960,
+    "decision": "fix",
+    "reason": "subDef dedup: 'hang' restates main; 'freeze (of a computer)' is a distinct word/sense",
+    "translation": "hang",
+    "senses": [
+      "freeze (of a computer)"
+    ],
+    "inputHash": "ec6e9cd7"
+  },
+  {
+    "kellyId": 251,
+    "decision": "fix",
+    "reason": "subDef dedup: 'high' stripped from item 1; great, high-pitched, and loud are distinct senses",
+    "translation": "high",
+    "senses": [
+      "great (of quantity or value)",
+      "high-pitched",
+      "loud"
+    ],
+    "inputHash": "b1c0591b"
+  },
+  {
+    "kellyId": 1253,
+    "decision": "fix",
+    "reason": "subDef dedup: 'cold' restates main; figurative 'unfriendly' is distinct",
+    "translation": "cold",
+    "senses": [
+      "unfriendly (emotionally distant)"
+    ],
+    "inputHash": "4d3604fb"
+  },
+  {
+    "kellyId": 343,
+    "decision": "fix",
+    "reason": "subDef dedup: 'call' restates main; 'summon' is a distinct word/sense",
+    "translation": "call, name",
+    "senses": [
+      "summon"
+    ],
+    "inputHash": "d3f6ef97"
+  },
+  {
+    "kellyId": 1356,
+    "decision": "fix",
+    "reason": "subDef dedup: 'click' stripped from item 2; misfire and get-along senses are distinct",
+    "translation": "click",
+    "senses": [
+      "fail to fire, fail to work",
+      "get along well (with someone)"
+    ],
+    "inputHash": "0ea46da0"
+  },
+  {
+    "kellyId": 725,
+    "decision": "fix",
+    "reason": "subDef dedup: 'contact' stripped from item 1; acquaintance, plug, and switch are distinct",
+    "translation": "contact",
+    "senses": [
+      "useful acquaintance",
+      "plug, connector (electrical)",
+      "electrical switch"
+    ],
+    "inputHash": "d92d6d30"
+  },
+  {
+    "kellyId": 602,
+    "decision": "fix",
+    "reason": "subDef dedup: high-culture sense distinct; 'culture' stripped from item 2 leaving 'civilisation'",
+    "translation": "culture",
+    "senses": [
+      "culture (arts and high culture)",
+      "civilisation (a distinct group)"
+    ],
+    "inputHash": "37234fa7"
+  },
+  {
+    "kellyId": 1257,
+    "decision": "fix",
+    "reason": "subDef dedup: 'quality' restates main; 'property, attribute' (a characteristic) is distinct",
+    "translation": "quality",
+    "senses": [
+      "property, attribute"
+    ],
+    "uncountable": true,
+    "inputHash": "6d3397c0"
+  },
+  {
+    "kellyId": 842,
+    "decision": "fix",
+    "reason": "subDef dedup: 'love' restates main; term-of-endearment 'darling, sweetheart' is distinct",
+    "translation": "love",
+    "senses": [
+      "darling, sweetheart"
+    ],
+    "uncountable": true,
+    "inputHash": "e0cc8a39"
+  },
+  {
+    "kellyId": 398,
+    "decision": "fix",
+    "reason": "subDef dedup: 'buy' restates main; figurative 'accept (an explanation)' is distinct",
+    "translation": "buy, purchase",
+    "senses": [
+      "accept (an explanation)"
+    ],
+    "inputHash": "a45041b6"
+  },
+  {
+    "kellyId": 326,
+    "decision": "fix",
+    "reason": "subDef dedup: 'lead' stripped from items 1-2; be-ahead, direct, and be-bored are distinct",
+    "translation": "lead",
+    "senses": [
+      "be ahead (in competition)",
+      "direct (an organisation)",
+      "be bored"
+    ],
+    "inputHash": "816b93f9"
+  },
+  {
+    "kellyId": 106,
+    "decision": "fix",
+    "reason": "subDef dedup: 'small' stripped from item 2; young-child sense kept whole, lowercase distinct",
+    "translation": "small, little",
+    "senses": [
+      "young, little (of a child)",
+      "lowercase (of a letter)"
+    ],
+    "inputHash": "2d8aeec2"
+  },
+  {
+    "kellyId": 491,
+    "decision": "fix",
+    "reason": "subDef dedup: 'low' stripped from item 1; small-amount and sound senses are distinct",
+    "translation": "low, short",
+    "senses": [
+      "small (amount or value)",
+      "low-pitched, deep (of sound)"
+    ],
+    "inputHash": "9971b7cb"
+  },
+  {
+    "kellyId": 339,
+    "decision": "fix",
+    "reason": "subDef dedup: 'leave' stripped from both; drop-off and hand-over are distinct senses",
+    "translation": "leave",
+    "senses": [
+      "drop off (deposit)",
+      "hand over (transfer responsibility)"
+    ],
+    "inputHash": "570593a7"
+  },
+  {
+    "kellyId": 627,
+    "decision": "fix",
+    "reason": "subDef dedup: 'link' stripped from item 1; abstract connection and chain are distinct",
+    "translation": "link",
+    "senses": [
+      "connection (abstract)",
+      "chain"
+    ],
+    "inputHash": "a64cb1d4"
+  },
+  {
+    "kellyId": 208,
+    "decision": "fix",
+    "reason": "subDef dedup: study-a-subject sense kept whole; 'read' stripped leaving 'interpret'",
+    "translation": "read",
+    "senses": [
+      "study, read (at university)",
+      "interpret (more generally)"
+    ],
+    "inputHash": "d3c14540"
+  },
+  {
+    "kellyId": 610,
+    "decision": "fix",
+    "reason": "subDef dedup: 'easy' item paraphrases main; 'light' stripped leaving distinct low-fat/low-alcohol",
+    "translation": "light; easy",
+    "senses": [
+      "low-fat",
+      "low-alcohol"
+    ],
+    "inputHash": "97998aaa"
+  },
+  {
+    "kellyId": 612,
+    "decision": "fix",
+    "reason": "subDef dedup: economic-market sense kept; 'market' stripped from item 2 leaving 'fair'",
+    "translation": "market",
+    "senses": [
+      "market (group of customers or economic area)",
+      "fair (organised event)"
+    ],
+    "inputHash": "79e47106"
+  },
+  {
+    "kellyId": 432,
+    "decision": "fix",
+    "reason": "subDef dedup: 'mass' stripped from item 1; crowd and colloquial 'a lot of' are distinct",
+    "translation": "mass",
+    "senses": [
+      "crowd (of people)",
+      "a lot of, loads of (colloquial)"
+    ],
+    "inputHash": "1dfecd3d"
+  },
+  {
+    "kellyId": 1302,
+    "decision": "fix",
+    "reason": "subDef dedup: same word 'conscious' as main; sentience is a nuance, not a distinct referent",
+    "translation": "conscious, aware",
+    "senses": [],
+    "inputHash": "9cf3f433"
+  },
+  {
+    "kellyId": 371,
+    "decision": "fix",
+    "reason": "subDef dedup: think/believe kept; 'mean' stripped from item 2 leaving 'intend'",
+    "translation": "mean",
+    "senses": [
+      "think, believe (hold an opinion)",
+      "intend"
+    ],
+    "inputHash": "9129c864"
+  },
+  {
+    "kellyId": 1241,
+    "decision": "fix",
+    "reason": "subDef dedup: 'memory' stripped from item 1; RAM and remembrance are distinct senses",
+    "translation": "memory",
+    "senses": [
+      "recollection (a specific event)",
+      "computer memory, RAM",
+      "remembrance, souvenir"
+    ],
+    "inputHash": "2da6a714"
+  },
+  {
+    "kellyId": 1092,
+    "decision": "fix",
+    "reason": "subDef dedup: abstract, product-type, role-model, and fashion senses are distinct",
+    "translation": "model",
+    "senses": [
+      "model (abstract or mathematical)",
+      "type (of a product)",
+      "role model, example",
+      "model (fashion or photo)"
+    ],
+    "inputHash": "02130761"
+  },
+  {
+    "kellyId": 595,
+    "decision": "fix",
+    "reason": "subDef dedup: 'meet' stripped from both; encounter-and-pass and face-in-competition are distinct",
+    "translation": "meet",
+    "senses": [
+      "encounter (and pass)",
+      "face (in a competition)"
+    ],
+    "inputHash": "1d43b3a5"
+  },
+  {
+    "kellyId": 1013,
+    "decision": "fix",
+    "reason": "subDef dedup: 'natural' restates main; 'expected, normal' (to-be-expected) is distinct",
+    "translation": "natural",
+    "senses": [
+      "expected, normal"
+    ],
+    "inputHash": "8201f518"
+  },
+  {
+    "kellyId": 312,
+    "decision": "fix",
+    "reason": "subDef dedup: 'word' stripped from item 1; promise and floor (turn to speak) are distinct",
+    "translation": "word",
+    "senses": [
+      "promise",
+      "floor (turn to speak)"
+    ],
+    "inputHash": "d3ecd0bd"
+  },
+  {
+    "kellyId": 363,
+    "decision": "fix",
+    "reason": "subDef dedup: same word 'couple' as main; English 'couple' already carries the relationship sense",
+    "translation": "pair, couple",
+    "senses": [],
+    "inputHash": "d6926df6"
+  },
+  {
+    "kellyId": 779,
+    "decision": "fix",
+    "reason": "subDef dedup: 'period' restates main; 'quarter (sports)' is a distinct sense",
+    "translation": "period",
+    "senses": [
+      "quarter (sports)"
+    ],
+    "inputHash": "b457588e"
+  },
+  {
+    "kellyId": 1111,
+    "decision": "fix",
+    "reason": "subDef dedup: 'point' stripped from both; argument and punchline are distinct senses",
+    "translation": "point, score",
+    "senses": [
+      "argument (in a discussion)",
+      "punchline (of a joke)"
+    ],
+    "inputHash": "13b30d65"
+  },
+  {
+    "kellyId": 1182,
+    "decision": "fix",
+    "reason": "subDef dedup: internship kept; 'practice' stripped from item 2 leaving distinct 'clinic'",
+    "translation": "practice",
+    "senses": [
+      "internship, work placement",
+      "clinic (doctor's or lawyer's)"
+    ],
+    "inputHash": "ce2e21ac"
+  },
+  {
+    "kellyId": 262,
+    "decision": "fix",
+    "reason": "subDef dedup: 'problem' restates main; 'exercise (schoolwork)' is a distinct sense",
+    "translation": "problem, issue",
+    "senses": [
+      "exercise (schoolwork)"
+    ],
+    "inputHash": "ec5767d6"
+  },
+  {
+    "kellyId": 669,
+    "decision": "fix",
+    "reason": "subDef dedup: 'room (empty area)' restates main; distinct word 'space' kept",
+    "translation": "room",
+    "senses": [
+      "space"
+    ],
+    "inputHash": "d07ec174"
+  },
+  {
+    "kellyId": 519,
+    "decision": "fix",
+    "reason": "subDef dedup: 'around' restates main; approximation sense 'about' is distinct",
+    "translation": "around",
+    "senses": [
+      "about (approximate amount or time)"
+    ],
+    "inputHash": "a1f09d0e"
+  },
+  {
+    "kellyId": 139,
+    "decision": "fix",
+    "reason": "subDef dedup: watch/look-at kept; 'see' stripped from item 2 leaving 'understand'",
+    "translation": "see",
+    "senses": [
+      "watch, look at",
+      "understand"
+    ],
+    "inputHash": "0615569d"
+  },
+  {
+    "kellyId": 1175,
+    "decision": "fix",
+    "reason": "subDef dedup: 'figure' restates main; 'number (statistic)' is a distinct sense",
+    "translation": "digit, figure",
+    "senses": [
+      "number (statistic)"
+    ],
+    "inputHash": "bd6012a2"
+  },
+  {
+    "kellyId": 867,
+    "decision": "fix",
+    "reason": "subDef dedup: mentally-disturbed kept; 'sick' stripped from item 2 leaving 'in bad taste'",
+    "translation": "sick, ill",
+    "senses": [
+      "mentally disturbed, twisted",
+      "in bad taste (slang)"
+    ],
+    "inputHash": "af1cc620"
+  },
+  {
+    "kellyId": 1366,
+    "decision": "fix",
+    "reason": "subDef dedup: same word 'disc' as main; the parenthetical only defines it",
+    "translation": "slice; disc, record",
+    "senses": [],
+    "inputHash": "2bd78b2e"
+  },
+  {
+    "kellyId": 1144,
+    "decision": "fix",
+    "reason": "subDef dedup: 'shoot' stripped from item 1; move-swiftly and jut-out are distinct senses",
+    "translation": "shoot, fire",
+    "senses": [
+      "move swiftly",
+      "jut out, protrude"
+    ],
+    "inputHash": "30f6f765"
+  },
+  {
+    "kellyId": 781,
+    "decision": "fix",
+    "reason": "subDef dedup: 'player' stripped from item 1; media device and actor are distinct",
+    "translation": "player",
+    "senses": [
+      "device (for audio, video, media)",
+      "actor (who plays a character)"
+    ],
+    "inputHash": "d7b3ba74"
+  },
+  {
+    "kellyId": 444,
+    "decision": "fix",
+    "reason": "subDef dedup: 'support' restates main; distinct concrete 'prop (physical object)' kept",
+    "translation": "support",
+    "senses": [
+      "prop (physical object)"
+    ],
+    "uncountable": true,
+    "inputHash": "914f58c4"
+  }
+]

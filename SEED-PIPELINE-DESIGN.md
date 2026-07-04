@@ -277,6 +277,24 @@ A meaning's `translation` may be comma-joined synonyms of *one* sense (`"route, 
   from first-token identity (`normTr`) to curated token overlap, so `panna` "pan, pot" can group with
   `kastrull` "saucepan, pot, pan". `merges` = group; `keepSeparate` = collisions ruled solo.
 
+**subDefinitions dedup — "other English WORDS, not nuances" (2026-07-04).** A refinement of "other
+meanings only": a reference sense that only *restates, narrows, or paraphrases* a sense the main (or a
+promoted meaning) already teaches with the **same English word** is noise for a learner — "one who knows
+*philosophy* in every sense knows *filosofi* in every sense" (`filosofi → philosophy (personal outlook)`,
+`svära → swear, take an oath`). It is removed. But a **genuinely distinct sense** that merely reuses the
+English word stays (`bank (of a river)`, `artikel → article (grammar)`, `låga → flame (intense love or
+passion)`). The line is **sense distance, not word overlap** — a figurative/different-domain sense is
+kept; a same-everyday-word sense the learner already has for free is dropped. This is a *semantic*
+judgment and so is **not mechanically enforceable** (`article (grammar)` and `philosophy (personal
+outlook)` are string-identical in shape) — it was a one-time targeted pass, not a standing guard.
+Machinery (reusing §4.5–4.6): `batch-redundant-subdefs.mjs` selects the ~440 owner-40 words with a
+head-overlapping sub-def → two Opus LLM passes, **`subdef-deduplicator`** (proposes drop/keep/strip) then
+**`subdef-dedup-reviewer`** (independent second opinion catching over-drops *and* under-drops) →
+`stamp-redundant-subdefs.mjs` writes layer-40 runs (main re-injected verbatim → mains + promoted cards
+provably unchanged). The reviewer flagged 10 disagreements; a human `ADJUDICATION` map in the stamp
+resolved them on the flame/philosophy line. Changing sub-defs cosmetically re-stales the examples layer's
+input hash → `pnpm seed:reconcile` (no LLM; examples are unaffected).
+
 **Per-sense examples.** An example sentence uses the word in exactly ONE meaning ("ont i en led i
 knäet" is the *joint* sense, not *route*), so a production card must show only its own meaning's
 examples. The examples layer (60) therefore tags each sentence with a `meaningKey` (0 = primary, k = a
@@ -343,7 +361,10 @@ didn't (avoids a needless LLM re-run). Same ledger/staleness discipline as §4.5
   seed, no `subDefinitions` item is a **bare** (parenthetical-free) restatement of the main translation
   or a promoted `altMeaning` — enforcing "other possible meanings only." Parenthetical-distinguished
   senses (`article (grammar)` beside primary `article`) are legitimate and exempt. Stops a future
-  curator re-run or manual edit from quietly reintroducing a main-in-list. (§4.8)
+  curator re-run or manual edit from quietly reintroducing a main-in-list. (§4.8) **Note:** this catches
+  only *bare* main-restatements; the finer "nuance/paraphrase reusing the main word" dedup (§4.8, the
+  `filosofi (personal outlook)` class) is a *semantic* line with no mechanical guard — a curator re-run
+  could reintroduce that class, caught only by human review, not this audit.
 
 ---
 
