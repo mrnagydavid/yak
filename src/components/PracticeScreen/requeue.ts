@@ -8,7 +8,7 @@ import type { PracticeCardView } from '../../db/queries'
 // the queue rules stay dependency-free and unit-testable (imports only the erased view TYPE).
 
 /** Cards to advance past before a re-queued card returns (~"5 cards later"). */
-export const REQUEUE_GAP = 5
+export const REQUEUE_GAP = 10
 
 /** Total times one card may be shown in a sitting (first show + re-queues) — the boredom cap. */
 export const REQUEUE_MAX_SHOWS = 5
