@@ -7,7 +7,7 @@ import type { PracticeCardView } from '../../db/queries'
 // "a few cards later" is an ordering concern, not a scheduling one). Split out from PracticeScreen so
 // the queue rules stay dependency-free and unit-testable (imports only the erased view TYPE).
 
-/** Cards to advance past before a re-queued card returns (~"5 cards later"). */
+/** Cards to advance past before a re-queued card returns (~"10 cards later"). */
 export const REQUEUE_GAP = 10
 
 /** Total times one card may be shown in a sitting (first show + re-queues) — the boredom cap. */

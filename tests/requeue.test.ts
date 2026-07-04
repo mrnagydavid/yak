@@ -12,7 +12,7 @@ import {
 
 describe('requeueIndexFrom — where a re-queued clone lands', () => {
   it('drops the clone REQUEUE_GAP cards past the (post-advance) cursor mid-queue', () => {
-    expect(requeueIndexFrom(1, 20)).toBe(6) // cursor 1 + gap 5
+    expect(requeueIndexFrom(1, 20)).toBe(11) // cursor 1 + gap 10
   })
 
   it('clamps to the queue length near the end — a failed LAST card appends and repeats at once', () => {
@@ -41,7 +41,7 @@ describe('insertRequeue — splicing the clone in', () => {
   it('inserts at the gap offset and leaves the cards before it (the live cursor) untouched', () => {
     const views = [v('a'), v('b'), v('c')]
     const clone = v('clone')
-    const out = insertRequeue(views, 1, clone) // cursor 1 → min(1+5, 3) = 3 → appended
+    const out = insertRequeue(views, 1, clone) // cursor 1 → min(1+10, 3) = 3 → appended
     expect(out).toHaveLength(4)
     expect(out[3].requeueId).toBe('clone')
     expect(out.slice(0, 3)).toEqual(views) // originals in place, source array not mutated
@@ -51,7 +51,7 @@ describe('insertRequeue — splicing the clone in', () => {
   it('places the clone GAP cards ahead when the queue is long enough', () => {
     const views = Array.from({ length: 20 }, (_, i) => v(`c${i}`))
     const out = insertRequeue(views, 2, v('clone'))
-    expect(out[7].requeueId).toBe('clone') // min(2+5, 20) = 7
+    expect(out[12].requeueId).toBe('clone') // min(2+10, 20) = 12
   })
 })
 
