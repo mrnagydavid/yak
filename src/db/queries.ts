@@ -2,8 +2,20 @@ import { db } from './schema'
 import { ulid } from './ids'
 import { getRenderer } from '../lang'
 import { applyRating, createReviewState } from '../srs/fsrs-adapter'
+import {
+  clearedNextLevel,
+  type ClaimedLevel,
+  levelBreakdown,
+  type LevelProgressRow,
+  type PromotionSnooze,
+  promotionSnoozed,
+} from '../srs/level-progress'
 import { cefrRank, levelRank } from '../srs/levels'
+import { deriveStatus, type Status } from '../srs/status'
 import type { SessionCard } from '../srs/session-composer'
+
+// Re-exported so existing consumers (Vocabulary, Word Detail) keep importing status from db/queries.
+export { deriveStatus, type Status }
 import type {
   Cefr,
   Entry,
@@ -15,17 +27,6 @@ import type {
   StudyPref,
   Translation,
 } from './types'
-
-/** The four study states surfaced as coloured icons in Vocabulary / Word Detail. (SPEC §7.3) */
-export type Status = 'none' | 'struggling' | 'learning' | 'solid'
-
-/** Map an FSRS ReviewState to a status, by `stability` (in days). Thresholds per SPEC §7.3. */
-export function deriveStatus(rs?: ReviewState): Status {
-  if (!rs) return 'none'
-  if (rs.lapses >= 3 && rs.stability < 7) return 'struggling'
-  if (rs.stability < 30) return 'learning'
-  return 'solid'
-}
 
 export async function getActiveProfile() {
   // `active` is indexed, but only `true` rows resolve to a valid key (booleans aren't
@@ -56,6 +57,69 @@ export function createProfile(input: {
     createdAt: now,
     updatedAt: now,
   })
+}
+
+// ---------- level-up prompt (design turn: clear the band above → offer to move up) ----------
+
+/** Local calendar day, matching session-store's dayKey. Inlined to avoid a queries↔session-store cycle. */
+function today(now: number): string {
+  return new Date(now).toDateString()
+}
+
+const PROMOTION_SNOOZE_KEY = 'levelPromotionSnooze'
+
+async function getPromotionSnooze(): Promise<PromotionSnooze | null> {
+  const rec = await db.meta.get(PROMOTION_SNOOZE_KEY)
+  if (!rec) return null
+  try {
+    return JSON.parse(rec.value) as PromotionSnooze
+  } catch {
+    return null // corrupt value — treat as not snoozed
+  }
+}
+
+/**
+ * The level to offer promoting the active profile to, or null. Loads the active profile's language and
+ * checks whether the band just above the claimed level is fully cleared (recognition graduated to
+ * `review`), then filters out a promotion the user snoozed earlier today. Called around session
+ * composition (PracticeScreen) — one extra language scan, on par with composeSession's own load.
+ */
+export async function getPendingPromotion(now: number = Date.now()): Promise<ClaimedLevel | null> {
+  const profile = await getActiveProfile()
+  if (!profile) return null
+
+  const entries = await db.entries.where('lang').equals(profile.targetLang).toArray()
+  const translations = await db.translations.where('targetEntryId').anyOf(entries.map((e) => e.id)).toArray()
+  const reviewStates = await db.reviewStates.where('translationId').anyOf(translations.map((t) => t.id)).toArray()
+
+  const target = clearedNextLevel({ level: profile.claimedLevel, entries, translations, reviewStates })
+  if (!target) return null
+  if (promotionSnoozed(await getPromotionSnooze(), target, today(now))) return null
+  return target
+}
+
+/** Accept the level-up: raise the active profile's claimed level and drop any snooze (a new band is
+ *  now in scope). No-op if there's no active profile. */
+export async function applyLevelPromotion(level: ClaimedLevel): Promise<void> {
+  const profile = await getActiveProfile()
+  if (!profile) return
+  await updateProfile(profile.id, { claimedLevel: level })
+  await db.meta.delete(PROMOTION_SNOOZE_KEY)
+}
+
+/** Dismiss the level-up for the rest of today (it re-asks tomorrow — the band stays cleared). */
+export async function snoozePromotion(level: ClaimedLevel, now: number = Date.now()): Promise<void> {
+  const snooze: PromotionSnooze = { level, day: today(now) }
+  await db.meta.put({ key: PROMOTION_SNOOZE_KEY, value: JSON.stringify(snooze) })
+}
+
+/** Per-CEFR-level word-status breakdown for the Profile progress bars (recognition status per word,
+ *  using the same `deriveStatus` buckets as Vocabulary). One language scan; skip words excluded. */
+export async function getLevelProgress(targetLang: string): Promise<LevelProgressRow[]> {
+  const entries = await db.entries.where('lang').equals(targetLang).toArray()
+  const translations = await db.translations.where('targetEntryId').anyOf(entries.map((e) => e.id)).toArray()
+  const reviewStates = await db.reviewStates.where('translationId').anyOf(translations.map((t) => t.id)).toArray()
+  return levelBreakdown({ entries, translations, reviewStates })
 }
 
 // ---------- calibration sweep (SPEC §6.4) ----------

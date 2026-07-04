@@ -1,7 +1,8 @@
 import { useLiveQuery } from 'dexie-react-hooks'
 import { useState } from 'preact/hooks'
-import { getActiveProfile, updateProfile } from '../../db/queries'
+import { getActiveProfile, getLevelProgress, updateProfile } from '../../db/queries'
 import { clearAllData, exportData, importData, isExportBundle, type ExportBundle } from '../../db/transfer'
+import type { LevelProgressRow } from '../../srs/level-progress'
 import type { Profile } from '../../db/types'
 import { Calibration } from '../Calibration/Calibration'
 import { clearSession } from '../PracticeScreen/session-store'
@@ -20,6 +21,10 @@ const LEVEL_LABEL: Record<Profile['claimedLevel'], string> = {
 
 export function ProfileScreen() {
   const profile = useLiveQuery(() => getActiveProfile(), [])
+  const progress = useLiveQuery(
+    () => (profile ? getLevelProgress(profile.targetLang) : undefined),
+    [profile?.targetLang],
+  )
   const [pendingImport, setPendingImport] = useState<ExportBundle | null>(null)
   const [importError, setImportError] = useState<string | null>(null)
   const [confirmClear, setConfirmClear] = useState(false)
@@ -132,6 +137,21 @@ export function ProfileScreen() {
       </section>
 
       <section class={styles.section}>
+        <h2 class={styles.sectionTitle}>Progress</h2>
+        <div class={styles.legend}>
+          <span class={styles.legendItem}><i class={`${styles.dot} ${styles.dotSolid}`} /> Learnt</span>
+          <span class={styles.legendItem}><i class={`${styles.dot} ${styles.dotLearning}`} /> Learning</span>
+          <span class={styles.legendItem}><i class={`${styles.dot} ${styles.dotStruggling}`} /> Trouble</span>
+          <span class={styles.legendItem}><i class={`${styles.dot} ${styles.dotNone}`} /> Not started</span>
+        </div>
+        {progress ? (
+          progress.map((row) => <LevelBar key={row.level} row={row} />)
+        ) : (
+          <p class={styles.muted}>Loading…</p>
+        )}
+      </section>
+
+      <section class={styles.section}>
         <h2 class={styles.sectionTitle}>Data</h2>
         <button class={styles.action} onClick={() => void handleExport()}>
           Export all data
@@ -227,6 +247,25 @@ export function ProfileScreen() {
         <p class={styles.muted}>Yak · build {__COMMIT_HASH__}</p>
         <p class={styles.muted}>Word data from the Swedish Kelly-list, Wiktionary (via kaikki.org), and ipa-dict.</p>
       </section>
+    </div>
+  )
+}
+
+/** One CEFR row: level label, a stacked learnt/learning/trouble bar over a "not started" track, and
+ *  the total word count. Segments are proportions of `total`; the grey track shows the rest. */
+function LevelBar({ row }: { row: LevelProgressRow }) {
+  const { counts, total } = row
+  const pct = (n: number) => (total > 0 ? (n / total) * 100 : 0)
+  const title = `${counts.solid} learnt · ${counts.learning} learning · ${counts.struggling} trouble · ${counts.none} not started`
+  return (
+    <div class={styles.progressRow}>
+      <span class={styles.progressLevel}>{row.level}</span>
+      <div class={styles.progressTrack} title={title}>
+        <span class={styles.segSolid} style={{ width: `${pct(counts.solid)}%` }} />
+        <span class={styles.segLearning} style={{ width: `${pct(counts.learning)}%` }} />
+        <span class={styles.segStruggling} style={{ width: `${pct(counts.struggling)}%` }} />
+      </div>
+      <span class={styles.progressCount}>{total}</span>
     </div>
   )
 }

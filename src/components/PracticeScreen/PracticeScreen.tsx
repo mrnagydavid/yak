@@ -1,5 +1,13 @@
 import { useEffect, useRef, useState } from 'preact/hooks'
-import { getPracticeCardView, type PracticeCardView, type PracticeGroupMember } from '../../db/queries'
+import {
+  applyLevelPromotion,
+  getPendingPromotion,
+  getPracticeCardView,
+  type PracticeCardView,
+  type PracticeGroupMember,
+  snoozePromotion,
+} from '../../db/queries'
+import type { ClaimedLevel } from '../../srs/level-progress'
 import type { RatingLabel } from '../../srs/fsrs-adapter'
 import {
   composeSession,
@@ -11,6 +19,7 @@ import {
   undoReview,
 } from '../../srs/session-composer'
 import { EntryEditor } from '../EntryEditor/EntryEditor'
+import { LevelUpModal } from './LevelUpModal'
 import { ProgressBar } from './ProgressBar'
 import { RatingButtons } from './RatingButtons'
 import { dropRequeue, insertRequeue, mayRequeue } from './requeue'
@@ -53,6 +62,9 @@ export function PracticeScreen() {
   // each answer so far. Both reset as each card resolves. (plan)
   const [activeTab, setActiveTab] = useState(0)
   const [ratings, setRatings] = useState<Map<string, RatingLabel>>(() => new Map())
+  // The level to offer moving up to, when the band above the claimed level is fully cleared. Checked
+  // on open (independent of the session queue); null hides the prompt. (level-up prompt)
+  const [promotion, setPromotion] = useState<ClaimedLevel | null>(null)
   // The local day this session was composed for. If the app is left open past midnight (no
   // remount), foregrounding it recomposes so "caught up" doesn't stick into the new day.
   const loadedDayRef = useRef(resumed?.dayKey ?? dayKey())
@@ -107,6 +119,28 @@ export function PracticeScreen() {
     if (views === null) void resumeOrLoad() // no in-memory session → try the persisted one, else compose
   }, [])
 
+  // On open, offer to move up a level if the band above the claim is fully cleared (recognition all
+  // graduated). Independent of the session queue — a tab-switch remount re-checks; a mid-day snooze
+  // suppresses it until tomorrow. (level-up prompt)
+  useEffect(() => {
+    void getPendingPromotion().then(setPromotion)
+  }, [])
+
+  // Accept the level-up: raise the level, then recompose so the newly-opened band's words appear now.
+  async function acceptPromotion() {
+    if (!promotion) return
+    await applyLevelPromotion(promotion)
+    setPromotion(null)
+    await load()
+  }
+
+  // "Not yet": snooze for the rest of today (the band stays cleared, so it re-asks tomorrow).
+  async function dismissPromotion() {
+    if (!promotion) return
+    await snoozePromotion(promotion)
+    setPromotion(null)
+  }
+
   // Recompose if the app is foregrounded (or restored from bfcache) on a new local day while still
   // mounted — switching tabs already remounts and handles this, but staying on Practice past
   // midnight would otherwise keep showing the stale (often "caught up") session until a refresh.
@@ -117,6 +151,7 @@ export function PracticeScreen() {
     function check() {
       if (document.visibilityState === 'visible' && dayKey() !== loadedDayRef.current) {
         void reloadRef.current()
+        void getPendingPromotion().then(setPromotion) // a new day clears yesterday's snooze
       }
     }
     document.addEventListener('visibilitychange', check)
@@ -126,6 +161,16 @@ export function PracticeScreen() {
       window.removeEventListener('pageshow', check)
     }
   }, [])
+
+  // Celebratory takeover when a level's been cleared — shown over any session state (loading, mid-
+  // session, or caught up), since it's about the profile, not the queue. (level-up prompt)
+  if (promotion) {
+    return (
+      <div class={styles.screen}>
+        <LevelUpModal target={promotion} onAccept={() => void acceptPromotion()} onDismiss={() => void dismissPromotion()} />
+      </div>
+    )
+  }
 
   if (views === null) {
     return (

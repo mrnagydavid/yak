@@ -148,3 +148,85 @@
 .confirmRow > * {
   flex: 1;
 }
+
+/* Progress bars — one row per CEFR level, matching Vocabulary's status colours. */
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  font-size: 12px;
+  color: var(--color-text-secondary);
+}
+
+.legendItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 999px;
+  flex-shrink: 0;
+}
+
+.dotSolid {
+  background: var(--color-green);
+}
+
+.dotLearning {
+  background: var(--color-yellow);
+}
+
+.dotStruggling {
+  background: var(--color-red);
+}
+
+.dotNone {
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+}
+
+.progressRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.progressLevel {
+  width: 28px;
+  flex-shrink: 0;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.progressTrack {
+  flex: 1;
+  display: flex;
+  height: 10px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: var(--color-bg-secondary);
+}
+
+.segSolid {
+  background: var(--color-green);
+}
+
+.segLearning {
+  background: var(--color-yellow);
+}
+
+.segStruggling {
+  background: var(--color-red);
+}
+
+.progressCount {
+  width: 40px;
+  flex-shrink: 0;
+  text-align: right;
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  font-variant-numeric: tabular-nums;
+}
