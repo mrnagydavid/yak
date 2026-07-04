@@ -94,6 +94,26 @@ export class YakDB extends Dexie {
     // follow-up). No version bump — Dexie stores whole objects, so old rows simply lack them (reads
     // fall back to entry.sense.{gloss,key}), and seed-sync repopulates them on the next shipped seed
     // update (the change flips the seed version → updateSeedTarget writes them).
+    //
+    // v7: per-sense examples (§4.8) changed Entry.examples from `string[]` to `{text, meaningKey}[]`,
+    // and every reader now uses `.text`/`.meaningKey`. A fresh seed load converts legacy strings, but
+    // changed-only seed-sync only rewrites a word when its content hash changes — so a word whose text
+    // was unchanged in that release keeps its examples as bare strings, which the new readers can't
+    // read (`.meaningKey` is undefined → production filters them out; `.text` is undefined → recognition
+    // and Word Detail render blanks). That is a stored-shape change, not a content change, so it must
+    // migrate here rather than via seed-sync. Rewrite every entry's examples to the tagged shape: a
+    // legacy string becomes `{text, meaningKey: 0}` (pre-per-sense, all examples were the word's =
+    // primary); already-migrated objects are left untouched.
+    this.version(7).upgrade((tx) =>
+      tx
+        .table('entries')
+        .toCollection()
+        .modify((e: Record<string, unknown>) => {
+          if (Array.isArray(e.examples)) {
+            e.examples = e.examples.map((x) => (typeof x === 'string' ? { text: x, meaningKey: 0 } : x))
+          }
+        }),
+    )
   }
 }
 
