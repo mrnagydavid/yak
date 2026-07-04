@@ -14249,10 +14249,19 @@
   },
   {
     "kellyId": 2749,
+    "lemma": "tillsätta",
     "examples": [
-      "De ska tillsätta en ny chef."
+      {
+        "text": "De ska tillsätta en ny chef.",
+        "meaningKey": 0
+      },
+      {
+        "text": "Tillsätt salt och peppar i soppan.",
+        "meaningKey": 1
+      }
     ],
-    "inputHash": "ba9a21dd"
+    "inputHash": "8d9e44a9",
+    "notes": "kept appoint example; wrote an add-ingredients example for meaning 1"
   },
   {
     "kellyId": 2752,

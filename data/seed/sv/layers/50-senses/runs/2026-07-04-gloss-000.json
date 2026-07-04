@@ -1,0 +1,24 @@
+[
+  {
+    "english": "add, amend",
+    "senses": [
+      {
+        "gloss": "say in addition",
+        "members": [{ "kellyId": 2433, "meaningKey": 0 }]
+      },
+      {
+        "gloss": "inflict, attach",
+        "members": [{ "kellyId": 6353, "meaningKey": 0 }]
+      },
+      {
+        "gloss": "add numbers",
+        "members": [{ "kellyId": 7099, "meaningKey": 0 }]
+      },
+      {
+        "gloss": "ingredients to a dish or mix",
+        "members": [{ "kellyId": 2749, "meaningKey": 1 }]
+      }
+    ],
+    "inputHash": "8c210a59"
+  }
+]

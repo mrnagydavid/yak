@@ -393,23 +393,41 @@
       {
         "gloss": "say in addition",
         "members": [
-          2433
+          {
+            "kellyId": 2433,
+            "meaningKey": 0
+          }
         ]
       },
       {
         "gloss": "inflict, attach",
         "members": [
-          6353
+          {
+            "kellyId": 6353,
+            "meaningKey": 0
+          }
         ]
       },
       {
         "gloss": "add numbers",
         "members": [
-          7099
+          {
+            "kellyId": 7099,
+            "meaningKey": 0
+          }
+        ]
+      },
+      {
+        "gloss": "ingredients to a dish or mix",
+        "members": [
+          {
+            "kellyId": 2749,
+            "meaningKey": 1
+          }
         ]
       }
     ],
-    "inputHash": "4b666a4d"
+    "inputHash": "8c210a59"
   },
   {
     "english": "addition, appendix, amendment",

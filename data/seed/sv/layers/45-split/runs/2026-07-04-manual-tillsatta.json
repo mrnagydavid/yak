@@ -1,0 +1,10 @@
+[
+  {
+    "kellyId": 2749,
+    "decision": "split",
+    "reason": "manual promotion: 'add (ingredients to a dish, components to a mix)' is a common, distinct everyday sense of tillsätta, separate from the primary 'appoint' — promote it to its own production card (altMeaning). subDefinitions emptied: the only reference meaning was the one being promoted. The 'add' concept (tillägga/tillfoga/addera) picks up this slot in the sense pass, which glosses it 'ingredients to a dish'.",
+    "altMeanings": [{ "translation": "add", "gloss": "ingredients to a dish" }],
+    "subDefinitions": [],
+    "inputHash": "ba9a21dd"
+  }
+]
