@@ -233,7 +233,7 @@ export interface SessionLog {
  * determined by the target language, not the pair (Swedish's en/ett, German's der/die/das, Polish's
  * declensions). New drills add a member here and a definition under `src/lang/<code>/drills/`.
  */
-export type DrillType = 'sv:gender'
+export type DrillType = 'sv:gender' | 'sv:verbForms'
 
 /** Per (word, drill) progress — the Leitner-lite box. No due date; the box alone drives selection. */
 export interface DrillStat {
@@ -249,15 +249,22 @@ export interface DrillStat {
  * The in-progress drill session. Singleton (`id: 'active'`) — one drill runs at a time, and the
  * Practice+ tab shows it instead of the picker until it's finished. Unlike a normal practice session
  * it has NO day gate: it resumes in place across refreshes and days, and only a manual finish/exit
- * clears it. The `queue` is frozen at start (weighted by the box model at that moment).
+ * clears it.
+ *
+ * A session is "clear the board": the goal is to answer every word right ONCE. A missed word is
+ * spliced back into `queue` a few cards later (see drills/requeue.ts) and keeps returning until it's
+ * answered right — so `queue` GROWS during a session and `index` (the cursor / answer count) can
+ * exceed `initialCount`. Progress is `cleared.length / initialCount`, which only ever moves forward.
  */
 export interface ActiveDrillSession {
   id: string // singleton key, always 'active'
   profileId: string // validated on resume → dropped after a profile/language switch (queue is per-language)
   drill: DrillType
-  queue: string[] // frozen entryId order
-  index: number // cursor — how many have been answered
-  tally: { correct: number; missed: string[] } // running result; `missed` feeds the end-of-session review
+  queue: string[] // working entryId sequence — starts as the frozen weighted batch, grows as misses re-queue
+  index: number // cursor = how many answers given so far (counts repeats)
+  initialCount: number // distinct words at start — the progress DENOMINATOR (never changes)
+  cleared: string[] // distinct entryIds answered correctly (a word leaves the board once cleared)
+  missed: string[] // distinct entryIds answered wrong at least once (needed another go); feeds the review list
   startedAt: number
   updatedAt: number
 }
@@ -269,7 +276,9 @@ export interface DrillSessionLog {
   drill: DrillType
   startedAt: number
   endedAt: number
-  attempted: number
-  correct: number
-  endedEarly: boolean // true when the user exited before the batch was done
+  words: number // distinct words in the batch (= initialCount)
+  cleared: number // distinct words gotten right (all of `words`, unless ended early)
+  firstTry: number // of those, how many were right on the very first showing — the skill signal
+  attempts: number // total answers given, including repeats
+  endedEarly: boolean // true when the user exited before the board was cleared
 }

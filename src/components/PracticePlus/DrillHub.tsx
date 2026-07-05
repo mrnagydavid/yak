@@ -13,8 +13,9 @@ export function DrillHub({ onStart }: { onStart: (type: DrillType) => void }) {
       <h1 class={styles.hubTitle}>Practice+</h1>
       <p class={styles.hubIntro}>
         Extra drills that only use words you're already learning in Practice — they don't affect your
-        normal practice. A word becomes <strong>mastered</strong> once you've answered it right a few
-        times in a row, and mastered words then come up less often.
+        normal practice. Each round keeps a word coming back <strong>until you get it right</strong>. A
+        word becomes <strong>mastered</strong> once you've answered it right a few times in a row, and
+        mastered words then come up less often.
       </p>
 
       {items === undefined ? (
@@ -35,10 +36,10 @@ export function DrillHub({ onStart }: { onStart: (type: DrillType) => void }) {
                     <span>
                       {overview.solid} of {overview.eligible} mastered
                     </span>
-                    {overview.lastSession && overview.lastSession.attempted > 0 ? (
+                    {overview.lastSession && overview.lastSession.words > 0 ? (
                       <span>
-                        Last session: {overview.lastSession.correct} correct out of{' '}
-                        {overview.lastSession.attempted}
+                        Last session: {overview.lastSession.firstTry} of {overview.lastSession.words} on
+                        the first try
                       </span>
                     ) : null}
                   </div>
@@ -48,7 +49,7 @@ export function DrillHub({ onStart }: { onStart: (type: DrillType) => void }) {
                 </button>
               </>
             ) : (
-              <p class={styles.locked}>Learn some nouns in Practice first to unlock this.</p>
+              <p class={styles.locked}>Learn some words in Practice first to unlock this.</p>
             )}
           </section>
         ))

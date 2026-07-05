@@ -121,8 +121,11 @@ describe('gender drill — session lifecycle', () => {
     let s = await recordDrillAnswer(session!, session!.queue[0], true)
     s = await recordDrillAnswer(s, session!.queue[1], false)
     expect(s.index).toBe(2)
-    expect(s.tally.correct).toBe(1)
-    expect(s.tally.missed).toEqual([session!.queue[1]])
+    expect(s.cleared).toEqual([session!.queue[0]]) // the right one left the board
+    expect(s.missed).toEqual([session!.queue[1]])
+    // The missed word is re-queued (appended here, since it was the last card) so it returns.
+    expect(s.queue.filter((id) => id === session!.queue[1])).toHaveLength(2)
+    expect(s.initialCount).toBe(2) // denominator never grows
 
     const passed = await db.drillStats.get([session!.queue[0], 'sv:gender'])
     const failed = await db.drillStats.get([session!.queue[1], 'sv:gender'])
@@ -130,14 +133,39 @@ describe('gender drill — session lifecycle', () => {
     expect(failed?.box).toBe(0)
 
     const log = await endDrillSession(s, false)
-    expect(log.attempted).toBe(2)
-    expect(log.correct).toBe(1)
+    expect(log.words).toBe(2)
+    expect(log.cleared).toBe(1)
+    expect(log.firstTry).toBe(1)
+    expect(log.attempts).toBe(2)
     expect(log.endedEarly).toBe(false)
     expect(await getActiveDrillSession()).toBeNull() // cleared on finish
 
     const overview = await getDrillOverview('sv:gender')
     expect(overview?.seen).toBe(2)
-    expect(overview?.lastSession?.correct).toBe(1)
+    expect(overview?.lastSession?.cleared).toBe(1)
+  })
+
+  it('keeps a missed word on the board until it is cleared, and excludes it from first-try', async () => {
+    await addMetNoun('hund', 'en')
+
+    const s0 = await startDrillSession('sv:gender', Date.now(), () => 0.5)
+    expect(s0!.initialCount).toBe(1)
+
+    // Miss it: the word is re-queued (still on the board), so the session is NOT done yet.
+    const s1 = await recordDrillAnswer(s0!, 'hund', false)
+    expect(s1.cleared).toEqual([])
+    expect(s1.missed).toEqual(['hund'])
+    expect(s1.index < s1.queue.length).toBe(true) // more to answer — it came back
+
+    // Get it right: the board clears and the cursor reaches the end.
+    const s2 = await recordDrillAnswer(s1, 'hund', true)
+    expect(s2.cleared).toEqual(['hund'])
+    expect(s2.index >= s2.queue.length).toBe(true)
+
+    const log = await endDrillSession(s2, false)
+    expect(log.cleared).toBe(1)
+    expect(log.firstTry).toBe(0) // it was missed first, so it doesn't count as first-try
+    expect(log.attempts).toBe(2)
   })
 
   it('resets a word to box 0 after a fail, even following earlier passes', async () => {

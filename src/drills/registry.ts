@@ -1,12 +1,13 @@
 import type { DrillType } from '../db/types'
 import { genderDrillMeta } from '../lang/sv/drills/gender'
+import { verbFormsDrillMeta } from '../lang/sv/drills/verbForms'
 import type { DrillMeta } from './types'
 
 // Which drills each TARGET language offers. Assembled here (agnostic core) from the per-language
 // modules, so the session lifecycle and hub stay language-independent — adding a language's drills is
 // one import + one array entry. UI components are resolved separately, in the Practice+ shell.
 const DRILLS_BY_LANG: Record<string, DrillMeta[]> = {
-  sv: [genderDrillMeta],
+  sv: [genderDrillMeta, verbFormsDrillMeta],
 }
 
 /** The drills available for a target language (empty if none defined yet). */

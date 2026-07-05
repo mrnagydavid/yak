@@ -6,6 +6,7 @@ import { getRenderer } from '../lang'
 import { isSolid, nextBox } from './box'
 import { type DrillCandidate, DRILL_BATCH_SIZE, pickBatch } from './picker'
 import { drillsForLanguage, getDrillMeta } from './registry'
+import { insertRequeue } from './requeue'
 import type { DrillMeta, DrillQuestion } from './types'
 
 // Language-agnostic Practice+ session lifecycle over Dexie. Deliberately separate from the FSRS
@@ -85,13 +86,16 @@ export async function startDrillSession(
   if (entries.length === 0) return null
   const stats = await statsByEntry(type, entries.map((e) => e.id))
   const candidates: DrillCandidate[] = entries.map((e) => ({ entryId: e.id, box: stats.get(e.id)?.box ?? 0 }))
+  const queue = pickBatch(candidates, DRILL_BATCH_SIZE, rng)
   const session: ActiveDrillSession = {
     id: ACTIVE_ID,
     profileId: profile.id,
     drill: type,
-    queue: pickBatch(candidates, DRILL_BATCH_SIZE, rng),
+    queue,
     index: 0,
-    tally: { correct: 0, missed: [] },
+    initialCount: queue.length,
+    cleared: [],
+    missed: [],
     startedAt: now,
     updatedAt: now,
   }
@@ -106,7 +110,10 @@ export async function getActiveDrillSession(): Promise<ActiveDrillSession | null
   if (!profile) return null
   const rec = await db.activeDrillSessions.get(ACTIVE_ID)
   if (!rec) return null
-  if (rec.profileId !== profile.id) {
+  // Drop a session for a different profile (its queue is for another language) or one written by an
+  // older build that predates the "clear the board" fields (missing `initialCount`) — resuming that
+  // shape would divide by undefined. Either way, a stale in-progress drill is safe to discard.
+  if (rec.profileId !== profile.id || rec.initialCount === undefined) {
     await db.activeDrillSessions.delete(ACTIVE_ID)
     return null
   }
@@ -115,8 +122,9 @@ export async function getActiveDrillSession(): Promise<ActiveDrillSession | null
 
 /**
  * Record one answer: promote/reset the word's box (live, so an early exit still counts it), advance
- * the cursor, and persist both the stat and the session in one transaction. Returns the updated
- * session so the caller can drive the UI without re-reading.
+ * the cursor, and — on a miss — re-queue the word a few cards later so it returns until cleared.
+ * Persists both the stat and the session in one transaction. Returns the updated session so the caller
+ * can drive the UI without re-reading.
  */
 export async function recordDrillAnswer(
   session: ActiveDrillSession,
@@ -124,13 +132,15 @@ export async function recordDrillAnswer(
   correct: boolean,
   now: number = Date.now(),
 ): Promise<ActiveDrillSession> {
+  const nextIndex = session.index + 1
   const updated: ActiveDrillSession = {
     ...session,
-    index: session.index + 1,
-    tally: {
-      correct: session.tally.correct + (correct ? 1 : 0),
-      missed: correct ? session.tally.missed : [...session.tally.missed, entryId],
-    },
+    index: nextIndex,
+    // Right → the word leaves the board (cleared). Wrong → it stays on the board and gets spliced back
+    // in a few cards later. Both `cleared`/`missed` are de-duplicated sets of distinct entryIds.
+    queue: correct ? session.queue : insertRequeue(session.queue, nextIndex, entryId),
+    cleared: correct && !session.cleared.includes(entryId) ? [...session.cleared, entryId] : session.cleared,
+    missed: !correct && !session.missed.includes(entryId) ? [...session.missed, entryId] : session.missed,
     updatedAt: now,
   }
   await db.transaction('rw', db.drillStats, db.activeDrillSessions, async () => {
@@ -155,14 +165,19 @@ export async function endDrillSession(
   endedEarly: boolean,
   now: number = Date.now(),
 ): Promise<DrillSessionLog> {
+  // First-try = cleared words that were never missed. At a natural finish every word is cleared, so
+  // this is the honest skill readout; on an early exit it reflects only what got cleared.
+  const firstTry = session.cleared.filter((id) => !session.missed.includes(id)).length
   const log: DrillSessionLog = {
     id: ulid(now),
     profileId: session.profileId,
     drill: session.drill,
     startedAt: session.startedAt,
     endedAt: now,
-    attempted: session.index,
-    correct: session.tally.correct,
+    words: session.initialCount,
+    cleared: session.cleared.length,
+    firstTry,
+    attempts: session.index,
     endedEarly,
   }
   await db.transaction('rw', db.drillSessionLogs, db.activeDrillSessions, async () => {

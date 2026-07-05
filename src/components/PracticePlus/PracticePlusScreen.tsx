@@ -9,6 +9,7 @@ import {
 } from '../../drills/session'
 import type { DrillQuestion, DrillRunnerProps } from '../../drills/types'
 import { GenderDrill } from '../../lang/sv/drills/GenderDrill'
+import { VerbFormsDrill } from '../../lang/sv/drills/VerbFormsDrill'
 import { DrillHub } from './DrillHub'
 import { DrillStats } from './DrillStats'
 import styles from './PracticePlus.module.css'
@@ -17,6 +18,7 @@ import styles from './PracticePlus.module.css'
 // module); the shell just dispatches to the right one by the active session's drill type.
 const RUNNERS: Partial<Record<DrillType, FunctionComponent<DrillRunnerProps>>> = {
   'sv:gender': GenderDrill,
+  'sv:verbForms': VerbFormsDrill,
 }
 
 type Phase = 'loading' | 'hub' | 'session' | 'stats'
@@ -58,7 +60,7 @@ export function PracticePlusScreen() {
 
   async function handleFinish(finalSession: ActiveDrillSession, endedEarly: boolean) {
     const log = await endDrillSession(finalSession, endedEarly)
-    const missedIds = new Set(finalSession.tally.missed)
+    const missedIds = new Set(finalSession.missed)
     setFinished({ log, missed: questions.filter((q) => missedIds.has(q.entry.id)) })
     setSession(null)
     setPhase('stats')

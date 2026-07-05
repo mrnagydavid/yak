@@ -6,46 +6,8 @@
   font-size: 14px;
 }
 
-.drillTop {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.track {
-  flex: 1;
-  height: 6px;
-  border-radius: 999px;
-  background: var(--color-border);
-  overflow: hidden;
-}
-
-.fill {
-  display: block; /* block so its percentage width actually applies */
-  height: 100%;
-  border-radius: 999px;
-  background: var(--color-primary);
-  transition: width 0.25s ease;
-}
-
-.count {
-  flex-shrink: 0;
-  font-size: 13px;
-  color: var(--color-text-secondary);
-  font-variant-numeric: tabular-nums;
-}
-
-.end {
-  flex-shrink: 0;
-  padding: 6px 10px;
-  border-radius: var(--radius-md);
-  font-size: 14px;
-  color: var(--color-text-secondary);
-}
-
-.end:active {
-  background: var(--color-bg-secondary);
-}
+/* Note: the top bar (progress + count + End) is the shared DrillTopBar — its styles live in
+   PracticePlus.module.css, not here. */
 
 .qArea {
   flex: 1;
