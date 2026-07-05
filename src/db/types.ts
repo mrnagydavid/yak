@@ -216,3 +216,56 @@ export interface SessionLog {
   newCount: number
   ratingsBreakdown: { again: number; hard: number; good: number; easy: number }
 }
+
+// --- Practice+ drills (grammar exercises) -----------------------------------------------------
+// A separate track from normal Practice: attribute drills over words the learner already knows
+// (en/ett gender first; verb forms later). They deliberately DON'T use FSRS — no due dates, no
+// scheduler. Progress is a Leitner-lite "box" per (word, drill): a wrong answer sends the word to
+// box 0, a right answer promotes it, and the picker weights low boxes highest so struggling/unseen
+// words resurface and mastered ones appear increasingly rarely (never dropping out entirely).
+
+/**
+ * The kinds of Practice+ drill, namespaced by the TARGET language that owns them — a drill is
+ * determined by the target language, not the pair (Swedish's en/ett, German's der/die/das, Polish's
+ * declensions). New drills add a member here and a definition under `src/lang/<code>/drills/`.
+ */
+export type DrillType = 'sv:gender'
+
+/** Per (word, drill) progress — the Leitner-lite box. No due date; the box alone drives selection. */
+export interface DrillStat {
+  entryId: string
+  drill: DrillType
+  box: number // 0 = struggling/unseen … grows on each pass; reset to 0 on a fail
+  seen: number
+  lastResult: 'pass' | 'fail'
+  lastSeenAt: number
+}
+
+/**
+ * The in-progress drill session. Singleton (`id: 'active'`) — one drill runs at a time, and the
+ * Practice+ tab shows it instead of the picker until it's finished. Unlike a normal practice session
+ * it has NO day gate: it resumes in place across refreshes and days, and only a manual finish/exit
+ * clears it. The `queue` is frozen at start (weighted by the box model at that moment).
+ */
+export interface ActiveDrillSession {
+  id: string // singleton key, always 'active'
+  profileId: string // validated on resume → dropped after a profile/language switch (queue is per-language)
+  drill: DrillType
+  queue: string[] // frozen entryId order
+  index: number // cursor — how many have been answered
+  tally: { correct: number; missed: string[] } // running result; `missed` feeds the end-of-session review
+  startedAt: number
+  updatedAt: number
+}
+
+/** One finished drill session — lightweight history for the hub's "recent form" line. (§4.6-style) */
+export interface DrillSessionLog {
+  id: string
+  profileId: string
+  drill: DrillType
+  startedAt: number
+  endedAt: number
+  attempted: number
+  correct: number
+  endedEarly: boolean // true when the user exited before the batch was done
+}

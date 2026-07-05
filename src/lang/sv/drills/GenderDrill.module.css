@@ -1,0 +1,195 @@
+/* Swedish en/ett drill — the language-coupled drill screen (prompt, article choices, wrong-answer
+   reveal with declension). Agnostic hub/stats styling lives in PracticePlus.module.css. */
+
+.muted {
+  color: var(--color-text-secondary);
+  font-size: 14px;
+}
+
+.drillTop {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.track {
+  flex: 1;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--color-border);
+  overflow: hidden;
+}
+
+.fill {
+  display: block; /* block so its percentage width actually applies */
+  height: 100%;
+  border-radius: 999px;
+  background: var(--color-primary);
+  transition: width 0.25s ease;
+}
+
+.count {
+  flex-shrink: 0;
+  font-size: 13px;
+  color: var(--color-text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
+.end {
+  flex-shrink: 0;
+  padding: 6px 10px;
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  color: var(--color-text-secondary);
+}
+
+.end:active {
+  background: var(--color-bg-secondary);
+}
+
+.qArea {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  overflow-y: auto;
+  animation: cardIn 0.24s ease;
+}
+
+@keyframes cardIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.prompt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.lemma {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.promptActions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.gloss {
+  font-size: 17px;
+  color: var(--color-text-secondary);
+}
+
+/* Reveal shown on a wrong answer: the full form with its article + the declension grid. */
+.reveal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding-top: 16px;
+  border-top: 1px solid var(--color-border);
+  animation: revealIn 0.22s ease;
+}
+
+@keyframes revealIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.revealLabel {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-red);
+}
+
+.answerLemma {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.matrix {
+  display: inline-grid;
+  gap: 4px 20px;
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.choices {
+  display: flex;
+  gap: 12px;
+}
+
+.choice {
+  flex: 1;
+  min-height: 64px;
+  padding: 16px;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-size: 22px;
+  font-weight: 700;
+  transition:
+    background 0.15s,
+    border-color 0.15s,
+    color 0.15s,
+    transform 0.15s;
+}
+
+.choice:active {
+  background: var(--color-bg-secondary);
+}
+
+.choiceCorrect {
+  border-color: var(--color-green);
+  background: rgba(16, 185, 129, 0.14);
+  color: var(--color-green);
+  transform: scale(1.03);
+}
+
+.choiceWrong {
+  border-color: var(--color-red);
+  background: rgba(239, 68, 68, 0.14);
+  color: var(--color-red);
+}
+
+.continue {
+  width: 100%;
+  min-height: 64px;
+  padding: 16px;
+  border-radius: var(--radius-lg);
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  animation: cardIn 0.18s ease;
+}
+
+.continue:active {
+  background: var(--color-primary-dark);
+}

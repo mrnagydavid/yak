@@ -1,6 +1,10 @@
-import Dexie, { type EntityTable } from 'dexie'
+import Dexie, { type EntityTable, type Table } from 'dexie'
 import type {
+  ActiveDrillSession,
   ActiveSessionRecord,
+  DrillSessionLog,
+  DrillStat,
+  DrillType,
   Entry,
   EntryOverlay,
   IpaDictRecord,
@@ -25,6 +29,11 @@ export class YakDB extends Dexie {
   wiktionaryCache!: EntityTable<WiktionaryCacheRecord, 'key'>
   meta!: EntityTable<MetaRecord, 'key'>
   activeSessions!: EntityTable<ActiveSessionRecord, 'id'>
+  // Practice+ drills. `drillStats` has a compound primary key [entryId+drill]; the other two are
+  // singleton / ULID-keyed like their practice counterparts.
+  drillStats!: Table<DrillStat, [string, DrillType]>
+  activeDrillSessions!: EntityTable<ActiveDrillSession, 'id'>
+  drillSessionLogs!: EntityTable<DrillSessionLog, 'id'>
 
   constructor() {
     super('yak')
@@ -114,6 +123,15 @@ export class YakDB extends Dexie {
           }
         }),
     )
+    // v8: Practice+ drills (grammar exercises, no FSRS). Three new stores, created empty — no data
+    // migration. `drillStats` keys on [entryId+drill] and also indexes `drill` (for mastery counts);
+    // `drillSessionLogs` indexes `drill` for the hub's "recent form" lookup; the active session is a
+    // singleton keyed by id. (drills)
+    this.version(8).stores({
+      drillStats: '[entryId+drill], drill',
+      activeDrillSessions: 'id',
+      drillSessionLogs: 'id, drill',
+    })
   }
 }
 

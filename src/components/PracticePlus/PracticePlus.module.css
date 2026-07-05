@@ -1,0 +1,196 @@
+/* Practice+ — the language-AGNOSTIC shell: the screen wrapper, the hub picker, and the end-of-session
+   stats. Each drill's own Q&A UI (and its styles) lives in that language's module, e.g.
+   src/lang/sv/drills/GenderDrill.module.css. */
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 16px;
+  padding-bottom: 16px;
+}
+
+.muted {
+  color: var(--color-text-secondary);
+  font-size: 14px;
+}
+
+/* --- Hub ------------------------------------------------------------------------------------- */
+
+.hub {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.hubTitle {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.hubIntro {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--color-text-secondary);
+}
+
+.drillBox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 4px;
+  padding: 16px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.boxTitle {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.desc {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+}
+
+.funFact {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+  font-style: italic;
+}
+
+/* One stat per line — the mastery and last-session lines can get long, so never crowd them together. */
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+
+.start {
+  align-self: flex-start;
+  margin-top: 4px;
+  min-height: 44px;
+  padding: 10px 28px;
+  border-radius: var(--radius-md);
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.start:active {
+  background: var(--color-primary-dark);
+}
+
+.locked {
+  font-size: 13px;
+  font-style: italic;
+  color: var(--color-text-secondary);
+}
+
+/* --- Stats ---------------------------------------------------------------------------------- */
+
+.statsScreen {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  overflow-y: auto;
+  animation: statsIn 0.24s ease;
+}
+
+@keyframes statsIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.statsTitle {
+  margin-top: 24px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.statsPct {
+  font-size: 44px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+
+.statsLine {
+  font-size: 16px;
+  color: var(--color-text-secondary);
+}
+
+.missed {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 4px;
+  text-align: left;
+}
+
+.missedTitle {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-secondary);
+}
+
+.missedList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.missedItem {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.missedWord {
+  font-weight: 600;
+}
+
+.missedGloss {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  text-align: right;
+}
+
+.done {
+  align-self: stretch;
+  margin-top: auto;
+  min-height: 48px;
+  padding: 14px;
+  border-radius: var(--radius-md);
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.done:active {
+  background: var(--color-primary-dark);
+}

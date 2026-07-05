@@ -3,6 +3,7 @@ import Router, { Route } from 'preact-router'
 import { AddFab } from './components/AddSheet/AddFab'
 import { BottomNav } from './components/BottomNav/BottomNav'
 import { Onboarding } from './components/Onboarding/Onboarding'
+import { PracticePlusScreen } from './components/PracticePlus/PracticePlusScreen'
 import { PracticeScreen } from './components/PracticeScreen/PracticeScreen'
 import { ProfileScreen } from './components/ProfileScreen/ProfileScreen'
 import { VocabularyScreen } from './components/VocabularyScreen/VocabularyScreen'
@@ -22,6 +23,7 @@ export function App() {
       <main class={styles.page}>
         <Router>
           <Route path="/" component={PracticeScreen} />
+          <Route path="/practice-plus" component={PracticePlusScreen} />
           <Route path="/vocabulary" component={VocabularyScreen} />
           <Route path="/word/:id" component={WordDetail} />
           <Route path="/profile" component={ProfileScreen} />

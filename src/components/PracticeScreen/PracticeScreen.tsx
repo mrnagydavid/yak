@@ -192,6 +192,11 @@ export function PracticeScreen() {
           ) : (
             <p class={styles.caughtSub}>Nothing more to pull right now.</p>
           )}
+          {/* Gentle on-ramp into the grammar drills — costs the active card no space, and appears only
+              once today's real practice is done. */}
+          <a href="/practice-plus" class={styles.drillLink}>
+            Sharpen your grammar in Practice+ →
+          </a>
           {/* Keep the last rating reversible even after it tips you into "caught up". */}
           {undoStack.length > 0 ? <UndoButton onClick={() => void undo()} /> : null}
         </div>

@@ -114,6 +114,14 @@
   padding: 10px 20px;
 }
 
+/* Quiet link into Practice+ from the caught-up screen — secondary to "Push further". */
+.drillLink {
+  color: var(--color-primary);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
 /* Rating buttons + the group "Knew all" as one footer block, so "Knew all" sits the same small gap
    below the buttons as the buttons are apart (not the wider .screen gap). */
 .actions {

@@ -18,6 +18,14 @@ export function BottomNav() {
         </svg>
         Practice
       </a>
+      <a href="/practice-plus" class={linkClass('/practice-plus')}>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="9" />
+          <circle cx="12" cy="12" r="5" />
+          <circle cx="12" cy="12" r="1.5" fill="currentColor" />
+        </svg>
+        Practice+
+      </a>
       <a href="/vocabulary" class={linkClass('/vocabulary')}>
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
