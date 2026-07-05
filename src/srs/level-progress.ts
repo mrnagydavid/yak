@@ -54,7 +54,7 @@ export function clearedNextLevel(input: ClearedLevelInput): ClaimedLevel | null 
 
 // ---- per-level progress breakdown (Profile progress bars) ----
 
-const CEFR_LEVELS: Cefr[] = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']
+export const CEFR_LEVELS: Cefr[] = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']
 
 /** One CEFR band's word counts, split by study status (the `deriveStatus` buckets Vocabulary uses). */
 export interface LevelProgressRow {

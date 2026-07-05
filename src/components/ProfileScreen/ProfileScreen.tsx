@@ -1,14 +1,27 @@
 import { useLiveQuery } from 'dexie-react-hooks'
-import { useState } from 'preact/hooks'
+import { useEffect, useState } from 'preact/hooks'
 import { getActiveProfile, getLevelProgress, updateProfile } from '../../db/queries'
 import { clearAllData, exportData, importData, isExportBundle, type ExportBundle } from '../../db/transfer'
-import type { LevelProgressRow } from '../../srs/level-progress'
+import { CEFR_LEVELS, type LevelProgressRow } from '../../srs/level-progress'
 import type { Profile } from '../../db/types'
 import { Calibration } from '../Calibration/Calibration'
 import { clearSession } from '../PracticeScreen/session-store'
 import styles from './ProfileScreen.module.css'
 
 const LEVELS: Profile['claimedLevel'][] = ['below-A1', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2']
+
+// Empty bars (real level labels, no segments) shown while the very first breakdown is computing, so the
+// Progress section reserves its final height instead of popping in and shoving the page down.
+const PLACEHOLDER_ROWS: LevelProgressRow[] = CEFR_LEVELS.map((level) => ({
+  level,
+  total: 0,
+  counts: { none: 0, struggling: 0, learning: 0, solid: 0 },
+}))
+
+// Last computed breakdown, kept at module scope so it outlives a tab switch. ProfileScreen unmounts when
+// you go to Practice and remounts on return; this lets us keep showing the old bars (which then animate
+// to the new values) while Dexie recomputes, instead of flashing back to the placeholder.
+const progressCache = new Map<string, LevelProgressRow[]>()
 const LEVEL_LABEL: Record<Profile['claimedLevel'], string> = {
   'below-A1': 'Below A1',
   A1: 'A1',
@@ -21,10 +34,15 @@ const LEVEL_LABEL: Record<Profile['claimedLevel'], string> = {
 
 export function ProfileScreen() {
   const profile = useLiveQuery(() => getActiveProfile(), [])
-  const progress = useLiveQuery(
+  const progressLive = useLiveQuery(
     () => (profile ? getLevelProgress(profile.targetLang) : undefined),
     [profile?.targetLang],
   )
+  useEffect(() => {
+    if (progressLive && profile) progressCache.set(profile.targetLang, progressLive)
+  }, [progressLive, profile?.targetLang])
+  // Fresh result if ready, else the cached bars from before the last tab switch, else undefined (first run).
+  const progress = progressLive ?? (profile ? progressCache.get(profile.targetLang) : undefined)
   const [pendingImport, setPendingImport] = useState<ExportBundle | null>(null)
   const [importError, setImportError] = useState<string | null>(null)
   const [confirmClear, setConfirmClear] = useState(false)
@@ -144,11 +162,9 @@ export function ProfileScreen() {
           <span class={styles.legendItem}><i class={`${styles.dot} ${styles.dotStruggling}`} /> Trouble</span>
           <span class={styles.legendItem}><i class={`${styles.dot} ${styles.dotNone}`} /> Not started</span>
         </div>
-        {progress ? (
-          progress.map((row) => <LevelBar key={row.level} row={row} />)
-        ) : (
-          <p class={styles.muted}>Loading…</p>
-        )}
+        {(progress ?? PLACEHOLDER_ROWS).map((row) => (
+          <LevelBar key={row.level} row={row} loading={!progress} />
+        ))}
       </section>
 
       <section class={styles.section}>
@@ -253,19 +269,21 @@ export function ProfileScreen() {
 
 /** One CEFR row: level label, a stacked learnt/learning/trouble bar over a "not started" track, and
  *  the total word count. Segments are proportions of `total`; the grey track shows the rest. */
-function LevelBar({ row }: { row: LevelProgressRow }) {
+function LevelBar({ row, loading = false }: { row: LevelProgressRow; loading?: boolean }) {
   const { counts, total } = row
   const pct = (n: number) => (total > 0 ? (n / total) * 100 : 0)
-  const title = `${counts.solid} learnt · ${counts.learning} learning · ${counts.struggling} trouble · ${counts.none} not started`
+  const title = loading
+    ? undefined
+    : `${counts.solid} learnt · ${counts.learning} learning · ${counts.struggling} trouble · ${counts.none} not started`
   return (
     <div class={styles.progressRow}>
       <span class={styles.progressLevel}>{row.level}</span>
-      <div class={styles.progressTrack} title={title}>
+      <div class={`${styles.progressTrack} ${loading ? styles.progressTrackLoading : ''}`} title={title}>
         <span class={styles.segSolid} style={{ width: `${pct(counts.solid)}%` }} />
         <span class={styles.segLearning} style={{ width: `${pct(counts.learning)}%` }} />
         <span class={styles.segStruggling} style={{ width: `${pct(counts.struggling)}%` }} />
       </div>
-      <span class={styles.progressCount}>{total}</span>
+      <span class={`${styles.progressCount} ${loading ? styles.progressCountLoading : ''}`}>{total}</span>
     </div>
   )
 }
