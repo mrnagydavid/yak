@@ -6,6 +6,7 @@ import { CEFR_LEVELS, type LevelProgressRow } from '../../srs/level-progress'
 import type { Profile } from '../../db/types'
 import { Calibration } from '../Calibration/Calibration'
 import { clearSession } from '../PracticeScreen/session-store'
+import { IosInstallNote } from './IosInstallNote'
 import styles from './ProfileScreen.module.css'
 
 const LEVELS: Profile['claimedLevel'][] = ['below-A1', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2']
@@ -221,6 +222,8 @@ export function ProfileScreen() {
           </button>
         )}
       </section>
+
+      <IosInstallNote />
 
       <section class={styles.section}>
         <h2 class={styles.sectionTitle}>Legal</h2>
