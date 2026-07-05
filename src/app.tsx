@@ -2,6 +2,7 @@ import { useLiveQuery } from 'dexie-react-hooks'
 import Router, { Route } from 'preact-router'
 import { AddFab } from './components/AddSheet/AddFab'
 import { BottomNav } from './components/BottomNav/BottomNav'
+import { ExportReminderBanner } from './components/ExportReminderBanner/ExportReminderBanner'
 import { Onboarding } from './components/Onboarding/Onboarding'
 import { PracticePlusScreen } from './components/PracticePlus/PracticePlusScreen'
 import { PracticeScreen } from './components/PracticeScreen/PracticeScreen'
@@ -20,6 +21,7 @@ export function App() {
 
   return (
     <>
+      <ExportReminderBanner profile={data.profile} />
       <main class={styles.page}>
         <Router>
           <Route path="/" component={PracticeScreen} />

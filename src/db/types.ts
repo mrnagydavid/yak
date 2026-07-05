@@ -148,6 +148,10 @@ export interface Profile {
     newPerDay: number // default 20
     practicePerDay: number // default 200
   }
+  // Monthly "back up your data" reminder, mirrored from the calorie-counter sibling app. Undefined = on.
+  exportReminderEnabled?: boolean
+  // "YYYY-MM" of the month the reminder was last dismissed, so it stays hidden for the rest of that month.
+  exportReminderDismissedUntil?: string
   active: boolean
   createdAt: number
   updatedAt: number

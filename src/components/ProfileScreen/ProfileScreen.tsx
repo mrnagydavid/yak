@@ -170,6 +170,16 @@ export function ProfileScreen() {
 
       <section class={styles.section}>
         <h2 class={styles.sectionTitle}>Data</h2>
+        <label class={styles.checkboxRow}>
+          <input
+            type="checkbox"
+            checked={profile.exportReminderEnabled ?? true}
+            onChange={(e) =>
+              void updateProfile(profile.id, { exportReminderEnabled: (e.target as HTMLInputElement).checked })
+            }
+          />
+          <span>Remind monthly to export my data</span>
+        </label>
         <button class={styles.action} onClick={() => void handleExport()}>
           Export all data
         </button>

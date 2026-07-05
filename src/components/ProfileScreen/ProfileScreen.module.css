@@ -24,6 +24,20 @@
   color: var(--color-text-secondary);
 }
 
+/* Export-reminder toggle in the Data section — mirrors the calorie-counter sibling app. */
+.checkboxRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+}
+
+.checkboxRow input[type='checkbox'] {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--color-primary);
+}
+
 .link {
   align-self: flex-start;
   background: none;
