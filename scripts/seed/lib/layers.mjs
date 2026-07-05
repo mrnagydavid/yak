@@ -149,7 +149,7 @@ export async function loadSenseStamps(layer) {
 // translationMap / exampleMap: the layer-40 / layer-60 maps, or null to exclude (batchers freeze input
 // by passing only the layers *below* the layer being batched). Returns entries + drop/omit counts.
 // This is byte-for-byte the original apply-decisions inner loop; only the input sourcing is injected.
-export function resolveEntries(base, { decisionMapsLowToHigh = [], translationMap = null, exampleMap = null, splitMap = null } = {}) {
+export function resolveEntries(base, { decisionMapsLowToHigh = [], translationMap = null, exampleMap = null, manualExampleMap = null, splitMap = null } = {}) {
   const entries = []
   let dropped = 0
   for (const c of base) {
@@ -216,7 +216,13 @@ export function resolveEntries(base, { decisionMapsLowToHigh = [], translationMa
     // meaning is capped independently (short flashcards). An example tagged to a meaning that didn't
     // survive the split (deduped/dropped above) is silently discarded. Single-sense words keep a plain
     // `examples` string[] and are byte-identical to before. (per-sense examples, §4.8)
-    const exRec = exampleMap?.get(c.kellyId)
+    // A human example override (layer 70, manual-examples) wins over the LLM examples layer (60),
+    // which wins over base. Resolved HERE on the example axis — independent of the decisions collapse
+    // (`d`) — so a manual example never disturbs the word's translation/subDefinitions, and is never
+    // reverted by an example-writer run (it sits above layer 60). The per-sense normalize/partition
+    // below runs identically, so a manual override for a split word carries {text, meaningKey} entries.
+    const manualEx = manualExampleMap?.get(c.kellyId)
+    const exRec = Array.isArray(manualEx?.examples) ? manualEx : exampleMap?.get(c.kellyId)
     const rawExamples = Array.isArray(exRec?.examples) ? exRec.examples : (c.examples ?? [])
     const tagged = rawExamples
       .map((e) => (typeof e === 'string' ? { text: e, meaningKey: 0 } : { text: e?.text, meaningKey: e?.meaningKey ?? 0 }))
@@ -252,15 +258,17 @@ export async function loadResolutionContext(manifest, { upToExclusive = Infinity
   const decisionMapsLowToHigh = []
   let translationMap = null
   let exampleMap = null
+  let manualExampleMap = null
   let splitMap = null
   for (const layer of manifest) {
     if (layer.id >= upToExclusive) continue
     if (layer.kind === 'decisions') decisionMapsLowToHigh.push(await loadLayerById(layer))
     else if (layer.kind === 'translation') translationMap = await loadLayerById(layer)
     else if (layer.kind === 'examples') exampleMap = await loadLayerById(layer)
+    else if (layer.kind === 'manual-examples') manualExampleMap = await loadLayerById(layer)
     else if (layer.kind === 'split') splitMap = await loadLayerById(layer)
   }
-  return { decisionMapsLowToHigh, translationMap, exampleMap, splitMap }
+  return { decisionMapsLowToHigh, translationMap, exampleMap, manualExampleMap, splitMap }
 }
 
 // ---- assembled views: base + layers → the shipped shape (or a frozen "layers below" view) ----

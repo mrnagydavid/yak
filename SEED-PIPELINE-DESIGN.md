@@ -178,10 +178,10 @@ an opinion, wholesale**. It never concatenates two layers' values for one field.
 | `subDefinitions` (reference meanings) | split(45) → translation(40) → subdef(30) → base | split partitions the meaning list; **wholesale** — fixes #4 |
 | `altMeanings` (promoted meanings) | split(45) | which meanings become their own production cards (§4.8) |
 | `ipa` | cleaner(10) → base | |
-| `examples` | examples(60) → base | tagged by meaning; the reducer partitions them onto the primary (`examples`) and each promoted meaning (`altMeanings[].examples`) by `meaningKey` (§4.8) |
+| `examples` | manual-examples(70) → examples(60) → base | tagged by meaning; the reducer partitions them onto the primary (`examples`) and each promoted meaning (`altMeanings[].examples`) by `meaningKey` (§4.8). A one-off human example fix goes in **manual-examples(70)**, a committed human layer resolved on the example axis — *not* manual(90): examples are orthogonal to the translation/subDefinitions collapse, and a 90 record shadows lower decisions layers wholesale (it would silently revert a translation fix while overriding an example). 70 sits above the example-writer, so no LLM re-run can clobber the fix. |
 | `sense` (primary grouping + gloss); `Translation.senseKey`/`.gloss` (promoted) | senses(50) | synonym grouping + production gloss; orthogonal, no conflicts (§4.8) |
 | `drop` / `keep` | highest layer wins | explicit precedence *replaces* the old "resolve contradictions by hand" rule — a higher layer's `keep` legitimately overrides a lower `drop` |
-| any field | manual(90) | humans win |
+| any field *except* `examples` | manual(90) | humans win (examples are overridden via manual-examples(70), see the `examples` row) |
 
 > The drop/keep change is a quiet but important simplification: because precedence is now explicit,
 > we no longer need a test that *forbids* a word from being both dropped and kept. The higher layer

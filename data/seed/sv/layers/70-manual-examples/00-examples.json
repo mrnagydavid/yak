@@ -1,0 +1,10 @@
+[
+  {
+    "kellyId": 3082,
+    "lemma": "fint",
+    "reason": "The example-writer (60) wrote a sentence for the wrong homograph — the NOUN 'fint' (a feint): 'Spelaren gjorde en fin fint och rundade motståndaren.' This card is the ADVERB fint = 'nicely, finely' (the noun reading was already corrected in layer 20-pos). Replace with an unambiguously adverbial example.",
+    "examples": [
+      "Hon sjöng fint på konserten."
+    ]
+  }
+]

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { cardExamples, promptCue } from '../src/components/PracticeScreen/StudyCard'
+import { cardExamples, productionDisambig, promptCue } from '../src/components/PracticeScreen/StudyCard'
 import type { ExampleSentence } from '../src/db/types'
 
 describe('promptCue — homonym sense cue (SPEC §7.2)', () => {
@@ -19,6 +19,35 @@ describe('promptCue — homonym sense cue (SPEC §7.2)', () => {
 
   it('no cue when there are no examples', () => {
     expect(promptCue([], true, true)).toBeUndefined()
+  })
+})
+
+describe('productionDisambig — trim the sense gloss against the rendered prompt', () => {
+  it('drops the gloss entirely when the prompt already discloses the POS (verb "to", noun "a/an")', () => {
+    // "to link" over "(to link (verb))" — the "to" already says verb; the gloss is pure repetition.
+    expect(productionDisambig('to link', 'to link (verb)')).toBeUndefined()
+    expect(productionDisambig('a risk', 'a risk (noun)')).toBeUndefined()
+    expect(productionDisambig('an individual', 'an individual (noun)')).toBeUndefined()
+    expect(productionDisambig('to cost', 'to cost (verb)')).toBeUndefined()
+  })
+
+  it('keeps only the POS tag when the prompt renders bare (adj/adv/prep, uncountable noun)', () => {
+    // "early" is both adj and adv and renders the same either way, so the POS tag is the sole cue.
+    expect(productionDisambig('early', 'early (adj)')).toBe('adj')
+    expect(productionDisambig('early', 'early (adv)')).toBe('adv')
+    expect(productionDisambig('around', 'around (prep)')).toBe('prep')
+    expect(productionDisambig('water', 'water (noun)')).toBe('noun') // uncountable → no article to disclose it
+  })
+
+  it('leaves a semantic gloss untouched (it carries meaning the prompt does not)', () => {
+    expect(productionDisambig('hand', 'hand (of a clock)')).toBe('hand (of a clock)')
+    expect(productionDisambig('around', 'approximately')).toBe('approximately')
+    expect(productionDisambig('around', 'all around (adv)')).toBe('all around (adv)') // phrase ≠ prompt → kept whole
+  })
+
+  it('returns undefined for an empty/absent gloss', () => {
+    expect(productionDisambig('to link', undefined)).toBeUndefined()
+    expect(productionDisambig('to link', '')).toBeUndefined()
   })
 })
 

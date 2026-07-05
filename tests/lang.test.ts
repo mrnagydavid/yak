@@ -161,6 +161,23 @@ describe('enRenderer', () => {
     expect(en.renderLemma(entry({ lemma: 'apple', pos: 'noun', lang: 'en' }))).toBe('an apple')
   })
 
+  it('picks a/an by SOUND for words whose spelling and pronunciation disagree', () => {
+    // vowel letter, consonant sound → "a" (was "an one", "an university", …)
+    expect(en.renderLemma(entry({ lemma: 'one', pos: 'noun', lang: 'en' }))).toBe('a one')
+    expect(en.renderLemma(entry({ lemma: 'university', pos: 'noun', lang: 'en' }))).toBe('a university')
+    expect(en.renderLemma(entry({ lemma: 'union', pos: 'noun', lang: 'en' }))).toBe('a union')
+    expect(en.renderLemma(entry({ lemma: 'European', pos: 'noun', lang: 'en' }))).toBe('a European')
+    expect(en.renderLemma(entry({ lemma: 'use, usage, application', pos: 'noun', lang: 'en' }))).toBe(
+      'a use, usage, application',
+    )
+    // consonant letter, vowel sound (silent h) → "an" (was "a hour", "a honesty", …)
+    expect(en.renderLemma(entry({ lemma: 'hour', pos: 'noun', lang: 'en' }))).toBe('an hour')
+    expect(en.renderLemma(entry({ lemma: 'heir, heiress', pos: 'noun', lang: 'en' }))).toBe('an heir, heiress')
+    // look-alikes that must stay on the letter rule: /ʌ/ u-words keep "an"
+    expect(en.renderLemma(entry({ lemma: 'understanding', pos: 'noun', lang: 'en' }))).toBe('an understanding')
+    expect(en.renderLemma(entry({ lemma: 'umbrella', pos: 'noun', lang: 'en' }))).toBe('an umbrella')
+  })
+
   it('drops the article for uncountable nouns', () => {
     expect(en.renderLemma(entry({ lemma: 'water', pos: 'noun', lang: 'en', features: { countable: 'no' } }))).toBe(
       'water',

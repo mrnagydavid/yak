@@ -50,6 +50,32 @@ export function cardExamples(seed: ExampleSentence[] | undefined, custom: string
   return [...seedTexts, ...(custom ?? [])]
 }
 
+// The production prompt renders the English word ("to link", "a risk", "early") with a sense gloss
+// under it to say WHICH sense is asked. The sense pass writes that gloss as the full phrase + a POS
+// tag — "to link (verb)", "a risk (noun)", "early (adj)" — which then just repeats the word right
+// above it: "to link" over "(to link (verb))". Trim the overlap for display:
+//   • a gloss that only restates the prompt + a POS the prompt ALREADY discloses (verbs render
+//     "to …", countable nouns "a/an …") adds nothing → drop it entirely ("to link", no gloss);
+//   • where the prompt does NOT disclose POS (adj/adv/prep and uncountable nouns all render bare),
+//     keep just the POS tag as the disambiguator, dropping the repeated phrase → "early" + "(adj)";
+//   • a gloss that says more than the bare phrase (a real semantic sense, "hand (of a clock)") is
+//     left untouched.
+// Returns the inner text for the "(…)" the caller renders, or undefined to show nothing. Pure +
+// exported so the rule is unit-tested without a DOM harness (like promptCue / cardExamples).
+const POS_TAG_GLOSS = /^(.*?)\s*\((verb|noun|adj|adv|prep|conj|pron|interj|num|article|determiner)\)$/i
+const normPhrase = (s: string) => s.trim().toLowerCase().replace(/\s+/g, ' ')
+
+export function productionDisambig(promptWord: string, gloss: string | undefined): string | undefined {
+  if (!gloss) return undefined
+  const m = gloss.match(POS_TAG_GLOSS)
+  if (!m) return gloss // a semantic gloss ("approximately", "of a clock") — keep as-is
+  const [, phrase, pos] = m
+  if (normPhrase(phrase) !== normPhrase(promptWord)) return gloss // gloss adds detail beyond the prompt
+  // Bare "prompt (pos)": the phrase is pure repetition. Drop the POS tag too when the rendered prompt
+  // already signals it via its "to "/"a "/"an " particle; otherwise keep the tag as the sole cue.
+  return /^(to|an?)\s/i.test(promptWord) ? undefined : pos.toLowerCase()
+}
+
 // The production "answer record" for a target word: the word + IPA + audio + inflections, then the
 // user's note and examples. Identical whether shown on a solo production card or on one tab of a
 // multi-answer group — so a group tab "looks exactly like a no-group card". (SPEC §7.2)
@@ -130,7 +156,9 @@ export function StudyCard({
   // Production: the meaning's gloss disambiguates which sense the prompt is asking for (e.g.
   // "hand (body part)" vs "hand (of a clock)"; a promoted meaning uses its own gloss). Empty for
   // single-sense concepts, so it falls back to the native disambiguator. (§12, Q-polysemy)
-  const promptDisambig = isRecognition ? target.disambiguator : productionGloss || native?.disambiguator
+  const promptDisambig = isRecognition
+    ? target.disambiguator
+    : productionDisambig(promptWord, productionGloss || native?.disambiguator)
   // Recognition is per WORD, so it shows all the word's example sentences (every meaning) plus the
   // user's own. Production filters per meaning inside TargetReveal. (per-sense examples, §4.8)
   const examples = cardExamples(target.examples, overlay?.customExamples, null)
@@ -255,12 +283,13 @@ function GroupCard({
   const group = view.group!
   const concept = view.native ? getRenderer(view.native.lang).renderLemma(view.native) : '—'
   const active = group.members[activeTab] ?? group.members[0]
+  const groupDisambig = productionDisambig(concept, group.gloss)
 
   return (
     <div class={styles.card}>
       <div class={styles.prompt}>
         <span class={styles.promptWord}>{concept}</span>
-        {group.gloss ? <span class={styles.disambig}>({group.gloss})</span> : null}
+        {groupDisambig ? <span class={styles.disambig}>({groupDisambig})</span> : null}
         {/* Cue the learner to recall more than one answer, and how many — without leaking them. */}
         {!revealed ? <span class={styles.waysCue}>{`${group.members.length} ways to say it`}</span> : null}
       </div>

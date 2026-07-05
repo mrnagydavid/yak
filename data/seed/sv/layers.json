@@ -63,12 +63,21 @@
     "note": "Sense-specific example sentences for ambiguous words."
   },
   {
+    "id": 70,
+    "name": "manual-examples",
+    "kind": "manual-examples",
+    "agent": null,
+    "produces": ["examples"],
+    "input": null,
+    "note": "Human example overrides — win over the LLM example-writer (60). Resolved on the example axis, NOT via the decisions collapse that layer 90 joins: an example is orthogonal to a word's translation/subDefinitions, and a 90 record shadows lower decisions layers wholesale (it would silently revert a translation fix while overriding an example). Clobber-proof: no example-writer run (targeted, stale, reconcile, or full sweep) can override it. Flat string[] → primary card; sense-tagged [{text, meaningKey}] → the matching promoted meaning (per-sense, §4.8)."
+  },
+  {
     "id": 90,
     "name": "manual",
     "kind": "decisions",
     "agent": null,
     "produces": ["translation", "subDefinitions", "altMeanings", "ipa", "svUncountable", "drop"],
     "input": null,
-    "note": "Human overrides — highest precedence. May also author a meaning split (decision: split with altMeanings + a repartitioned subDefinitions), overriding the split layer."
+    "note": "Human overrides — highest precedence. May also author a meaning split (decision: split with altMeanings + a repartitioned subDefinitions), overriding the split layer. Examples are NOT here — they resolve on their own axis via layer 70 (manual-examples)."
   }
 ]

@@ -1,9 +1,27 @@
 import type { Entry } from '../../db/types'
 import type { FeatureBadge, InflectionDisplay, InflectionRow, LanguageRenderer } from '../types'
 
+// Words whose initial SOUND diverges from their initial LETTER, so the plain letter rule ("an"
+// before a vowel) picks the wrong article. Spelling can't tell these apart from their look-alikes —
+// "a unit" (/juː/) vs "an under-…" (/ʌ/), "an hour" (silent h) vs "a house" — so we override on the
+// first word explicitly and fall back to the letter heuristic for everything else. Keyed on the
+// lowercased first word; extend as new glosses need it. (SPEC §5.1)
+const CONSONANT_SOUND_WORDS = new Set([
+  // vowel letter, but a /juː/ or /w/ onset → take "a"
+  'one', 'once', 'unit', 'union', 'uniform', 'unique', 'universe', 'university', 'unanimity',
+  'unison', 'unity', 'unicorn', 'use', 'usage', 'user', 'usual', 'usefulness', 'utopia',
+  'euro', 'europe', 'european', 'ewe', 'uranium', 'ukulele',
+])
+const VOWEL_SOUND_WORDS = new Set([
+  // consonant letter, but a silent h → vowel onset → take "an"
+  'hour', 'honest', 'honesty', 'honor', 'honour', 'honorable', 'honourable', 'heir', 'heiress',
+])
+
 function indefiniteArticle(word: string): string {
-  // Approximate: "an" before a vowel letter. The true rule is phonetic ("an hour",
-  // "a university"); a letter-based heuristic is good enough for v1 display. (SPEC §5.1)
+  const first = word.toLowerCase().match(/[a-z]+/)?.[0] ?? ''
+  if (VOWEL_SOUND_WORDS.has(first)) return 'an'
+  if (CONSONANT_SOUND_WORDS.has(first)) return 'a'
+  // Fallback: "an" before a vowel letter — a good phonetic approximation for the rest. (SPEC §5.1)
   return /^[aeiou]/i.test(word) ? 'an' : 'a'
 }
 
