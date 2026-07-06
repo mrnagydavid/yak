@@ -6,5 +6,14 @@
     "examples": [
       "Hon sjöng fint på konserten."
     ]
+  },
+  {
+    "kellyId": 3584,
+    "lemma": "kännedom",
+    "reason": "The base example 'för kännedom' is a bare set-phrase fragment, not a sentence, and doesn't show the word's core meaning. Give two short full sentences: one for the main sense (knowledge/awareness of something — the collocation 'ha kännedom om'), and one that keeps the idiom 'för kännedom' (= for your information / FYI).",
+    "examples": [
+      "Hon har god kännedom om svensk historia.",
+      "Jag skickar dig rapporten för kännedom."
+    ]
   }
 ]

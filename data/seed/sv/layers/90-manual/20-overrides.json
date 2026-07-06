@@ -49,5 +49,12 @@
     "decision": "fix",
     "reason": "in its everyday 'people' sense folk is a mass noun (mycket folk, no plural count) — render it bare, not 'ett folk'",
     "svUncountable": true
+  },
+  {
+    "kellyId": 1844,
+    "lemma": "svenska",
+    "decision": "fix",
+    "reason": "the card's primary sense is the language, which is a mass noun — 'svenska'/'svenskan', never 'en svenska'. Render the lemma bare, not 'en svenska'. Pairs with layer-40 uncountable:true (which fixes the English 'a Swedish'). The 'female Swede' sense (a count noun) stays as a reference meaning only.",
+    "svUncountable": true
   }
 ]

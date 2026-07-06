@@ -10860,11 +10860,12 @@
   {
     "kellyId": 1844,
     "decision": "fix",
-    "reason": "kept the 'female Swede' sense distinct from the language",
+    "reason": "the primary sense is the language, which is uncountable — 'svenska'/'svenskan', never 'en svenska' / 'a Swedish'. Without uncountable the en renderer prepends 'a' → 'a Swedish'. Keeps the distinct 'female Swede' sense as a reference meaning; the sv-side 'en' is suppressed by a paired 90-manual svUncountable:true.",
     "translation": "Swedish",
     "senses": [
       "Swedish woman"
     ],
+    "uncountable": true,
     "inputHash": "576c4969"
   },
   {
