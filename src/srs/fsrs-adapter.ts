@@ -41,7 +41,14 @@ const NAME_TO_STATE: Record<ReviewStateName, State> = {
 
 // Default FSRS parameters with learning steps enabled (SPEC §8.1). A single shared
 // scheduler instance; per-user parameter optimisation (§8.1) can swap this later.
-const scheduler: FSRS = fsrs(generatorParameters())
+//
+// `enable_fuzz` spreads each interval by a small random amount. Without it, cards rated
+// identically in one sitting (e.g. a batch of below-level words all rated "Easy") get byte-
+// identical intervals and stay perfectly synchronised — so a word's recognition and production
+// keep coming due on the same day, session after session, in the same order. The default fuzz
+// seed mixes in the review timestamp (ms), so cards rated seconds apart diverge, de-syncing the
+// batch. (Complements the one-direction-per-word rule in the session composer.)
+const scheduler: FSRS = fsrs(generatorParameters({ enable_fuzz: true }))
 
 /** Map the FSRS-managed portion of a Card onto our ReviewState fields. */
 function cardToFields(

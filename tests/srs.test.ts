@@ -182,13 +182,13 @@ describe('session-composer', () => {
     const entries: Entry[] = []
     const translations: Translation[] = []
     const reviewStates: ReviewState[] = []
-    // 4 practice (A1, due) + 2 new (B1)
-    for (let i = 0; i < 2; i++) {
+    // 4 practice (A1, due) + 2 new (B1). One direction per word per session, so use four distinct
+    // words with a due recognition each (not two words × both directions).
+    for (let i = 0; i < 4; i++) {
       const p = entry(`p${i}`, 'seed', 'A1')
       entries.push(p)
       translations.push(translation(`tp${i}`, p.id))
       reviewStates.push(dueState(`tp${i}`, 'recognize', NOW - DAY))
-      reviewStates.push(dueState(`tp${i}`, 'produce', NOW - DAY))
     }
     // two new words → one recognition card each (production gated)
     for (let i = 0; i < 2; i++) {
@@ -394,17 +394,56 @@ describe('session-composer', () => {
       seq = 0
       const w = entry('word', 'seed', 'B1')
       const t = translation('t_w', w.id)
+      // Recognition has lapsed (relearning) but isn't due this session; production has its own state
+      // and is due. Production must still surface — it never re-locks behind the unlock gate once it
+      // has a state (the gate only guards a first production). Recognition not due → no conflict.
       const cards = composeSessionPure(
         base({
           entries: [w],
           translations: [t],
           reviewStates: [
-            srsState('t_w', 'recognize', { state: 'relearning', stability: 2, due: NOW - DAY }),
+            srsState('t_w', 'recognize', { state: 'relearning', stability: 2, due: NOW + DAY }),
             srsState('t_w', 'produce', { state: 'review', stability: 15, due: NOW - DAY }),
           ],
         }),
       )
-      expect(cards.find((c) => c.skill === 'produce')).toBeDefined()
+      expect(cards.map((c) => c.skill)).toEqual(['produce'])
+    })
+
+    it('asks only one direction per word when both are due — keeps the more-overdue one', () => {
+      seq = 0
+      const w = entry('word', 'seed', 'B1')
+      const t = translation('t_w', w.id)
+      // Recognition and production both due, but production is the more overdue → show it, defer
+      // recognition to a later session (SPEC §278: never both directions of a word in one sitting).
+      const cards = composeSessionPure(
+        base({
+          entries: [w],
+          translations: [t],
+          reviewStates: [
+            srsState('t_w', 'recognize', { state: 'review', stability: 10, due: NOW - DAY }),
+            srsState('t_w', 'produce', { state: 'review', stability: 15, due: NOW - 2 * DAY }),
+          ],
+        }),
+      )
+      expect(cards.map((c) => c.skill)).toEqual(['produce'])
+    })
+
+    it('breaks a same-due tie toward recognition (the anchor direction)', () => {
+      seq = 0
+      const w = entry('word', 'seed', 'B1')
+      const t = translation('t_w', w.id)
+      const cards = composeSessionPure(
+        base({
+          entries: [w],
+          translations: [t],
+          reviewStates: [
+            srsState('t_w', 'recognize', { state: 'review', stability: 10, due: NOW - DAY }),
+            srsState('t_w', 'produce', { state: 'review', stability: 15, due: NOW - DAY }),
+          ],
+        }),
+      )
+      expect(cards.map((c) => c.skill)).toEqual(['recognize'])
     })
   })
 

@@ -254,16 +254,64 @@ export function composeSessionPure(input: ComposerInput): SessionCard[] {
   const newRank = (c: Candidate) => (c.userAdded ? 0 : c.forced ? 1 : 2)
   fresh.sort((a, b) => newRank(a) - newRank(b) || a.entry.createdAt - b.entry.createdAt)
 
+  // One direction per word per session (SPEC §278). If a word's recognition AND a production (its
+  // own or a promoted meaning's) are both due today, don't ask both — the second is the trivial
+  // reverse of the first, just revealed. Drop the less-overdue direction; it defers to a later,
+  // naturally-spaced session. Runs BEFORE the practicePerDay cap so a dropped card frees its slot to
+  // the next due word — the session still fills to the limit (it just won't ask a word twice).
+  const deduped = dedupeDirections(practice)
+
+  const capped = deduped.slice(0, limits.practicePerDay).map((c) => c.card)
+  // Words whose recognition is being asked this session: their production must be held back too,
+  // including a promoted meaning that would otherwise ride along in a sense group. (SPEC §278)
+  const recognitionShown = new Set(
+    capped.filter((c) => c.skill === 'recognize').map((c) => c.targetEntryId),
+  )
   const practiceCards = groupProductionCards(
-    practice.slice(0, limits.practicePerDay).map((c) => c.card),
+    capped,
     entryById,
     input.translations,
     rsByKey,
     now,
+    recognitionShown,
   )
   const newCards = fresh.slice(0, newBudget).map((c) => c.card)
 
   return interleave(practiceCards, newCards)
+}
+
+/**
+ * Enforce one direction per word per session (SPEC §278). When a word has BOTH a due recognition
+ * card and one or more due production cards (its primary meaning and/or a promoted meaning), keep
+ * only the more-overdue direction and drop the other — asking the reverse in the same sitting, right
+ * after the answer was revealed, is wasted effort. The dropped direction is still due, so it surfaces
+ * in a later session. Otherwise order is preserved.
+ *
+ * A conflict here always pits two cards that both carry FSRS state: production can only be a no-state
+ * calibration candidate once its word's recognition has stabilised, and a stabilised recognition
+ * isn't a no-state candidate — so whenever both directions are present, both have a real `due`. The
+ * `?? Infinity` fallbacks are defensive only.
+ */
+function dedupeDirections(practice: Candidate[]): Candidate[] {
+  const recByEntry = new Map<string, Candidate>()
+  const prodByEntry = new Map<string, Candidate[]>()
+  for (const c of practice) {
+    const entryId = c.card.targetEntryId
+    if (c.card.skill === 'recognize') recByEntry.set(entryId, c)
+    else prodByEntry.set(entryId, [...(prodByEntry.get(entryId) ?? []), c])
+  }
+
+  const drop = new Set<Candidate>()
+  for (const [entryId, rec] of recByEntry) {
+    const prods = prodByEntry.get(entryId)
+    if (!prods?.length) continue // recognition only — no conflict
+    const recDue = rec.card.reviewState?.due ?? Infinity
+    const minProdDue = Math.min(...prods.map((p) => p.card.reviewState?.due ?? Infinity))
+    // Ties go to recognition (the anchor direction): keep it, defer production.
+    if (recDue <= minProdDue) for (const p of prods) drop.add(p)
+    else drop.add(rec)
+  }
+  return drop.size === 0 ? practice : practice.filter((c) => !drop.has(c))
 }
 
 /**
@@ -288,6 +336,7 @@ function groupProductionCards(
   translations: Translation[],
   rsByKey: Map<string, ReviewState>,
   now: number,
+  recognitionShown: Set<string>,
 ): SessionCard[] {
   // Introduced members per sense key: siblings the learner has seen in ANY skill (recognised or
   // produced). `produceDue` is the member's production due, or Infinity if it has no produce state yet
@@ -303,8 +352,12 @@ function groupProductionCards(
     const rec = rsByKey.get(`${t.id}:recognize`) // undefined for a promoted meaning (recognition is per word)
     const prod = rsByKey.get(`${t.id}:produce`)
     if (!rec && !prod) continue // never introduced in any skill → not a member
-    // A recognition-only member whose recognition is due today is held back: asking its production in
-    // the same session would be the "free reverse" production gating avoids (§6 1b). It joins later.
+    // Hold this member's production back if its WORD's recognition is being asked this session —
+    // asking the reverse in the same sitting is wasted effort (SPEC §278). Covers both a recognition-
+    // only member and one that also has its own produce state; it joins a later session either way.
+    if (recognitionShown.has(t.targetEntryId)) continue
+    // Belt-and-braces for a recognition-only member whose recognition is due but fell outside the
+    // practice cap (so it isn't in `recognitionShown`): still defer its production. (§6 1b)
     if (!prod && rec && rec.due <= now) continue
     const list = membersByKey.get(key) ?? []
     list.push({ translationId: t.id, targetEntryId: t.targetEntryId, produceDue: prod ? prod.due : Infinity })
