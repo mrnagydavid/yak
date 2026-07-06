@@ -49,6 +49,7 @@ export function ProfileScreen() {
   const [confirmClear, setConfirmClear] = useState(false)
   const [assessing, setAssessing] = useState(false)
   const [legal, setLegal] = useState<'terms' | 'privacy' | null>(null)
+  const [exportDone, setExportDone] = useState(false)
 
   if (!profile) {
     return (
@@ -82,6 +83,8 @@ export function ProfileScreen() {
     a.download = `yak-export-${new Date().toISOString().slice(0, 10)}.json`
     a.click()
     URL.revokeObjectURL(url)
+    setExportDone(true)
+    setTimeout(() => setExportDone(false), 2000)
   }
 
   async function handleFile(e: Event) {
@@ -180,8 +183,11 @@ export function ProfileScreen() {
           />
           <span>Remind monthly to export my data</span>
         </label>
-        <button class={styles.action} onClick={() => void handleExport()}>
-          Export all data
+        <button
+          class={`${styles.action} ${exportDone ? styles.success : ''}`}
+          onClick={() => void handleExport()}
+        >
+          {exportDone ? 'Exported ✓' : 'Export all data'}
         </button>
 
         <label class={styles.action}>

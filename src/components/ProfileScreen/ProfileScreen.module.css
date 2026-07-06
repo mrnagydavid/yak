@@ -101,6 +101,17 @@
   font-weight: 600;
   color: var(--color-text);
   background: var(--color-surface);
+  transition:
+    color 0.15s ease,
+    background 0.15s ease,
+    border-color 0.15s ease;
+}
+
+/* Brief green confirmation after an export succeeds (auto-resets after 2s). */
+.action.success {
+  border-color: var(--color-green);
+  color: var(--color-green);
+  background: #ecfdf5;
 }
 
 /* iOS-only install / data-retention note — a soft callout so it reads as helpful, not alarming. */
