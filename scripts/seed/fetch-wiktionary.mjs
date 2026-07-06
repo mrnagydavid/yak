@@ -15,6 +15,13 @@ const OUT = 'data/scratch/sv/wik.json'
 // (hundreds of chars). Drop anything longer; a one- or two-clause sentence is well under this.
 const MAX_EXAMPLE_LEN = 160
 
+// Wiktionary examples are often clipped quotation dumps that are unusable on a learner flashcard:
+// editorial [bracket] insertions, […]/... fragments, biblical guillemet quotes (»…«), and archaic
+// orthography (long-s ſ, combining-e diacritics like aͤ, even stray English notes in brackets). Drop
+// any example carrying these marks. NOTE: this only runs on a fresh import (seed:fetch/join); it does
+// not affect seed:build, and already-shipped junk was cleaned via layer 70 (manual-examples).
+const JUNK_EXAMPLE_RE = /\[.*?\]|…|\.\.\.|ſ|[a-zäöåA-ZÄÖÅ]ͤ|»|«/
+
 // wiktextract pos → our PartOfSpeech (for matching against Kelly).
 function normPos(pos) {
   const map = {
@@ -102,6 +109,7 @@ async function main() {
       .map((ex) => ex.text)
       .filter(Boolean)
       .filter((t) => t.length <= MAX_EXAMPLE_LEN)
+      .filter((t) => !JUNK_EXAMPLE_RE.test(t))
       .slice(0, 2)
     const forms = (o.forms ?? []).filter(keepForm).map((f) => ({ form: f.form, tags: f.tags }))
     const ipa = (o.sounds ?? []).map((s) => s.ipa).filter(Boolean)[0]

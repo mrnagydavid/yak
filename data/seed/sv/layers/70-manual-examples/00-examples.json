@@ -15,5 +15,329 @@
       "Hon har god kännedom om svensk historia.",
       "Jag skickar dig rapporten för kännedom."
     ]
+  },
+  {
+    "kellyId": 4322,
+    "lemma": "järn",
+    "reason": "Both base examples are unusable Wiktionary quotation dumps: one is 18th-century orthography ('far daͤroͤfwer med et hett jaͤrn', long-s ſ) and the other the archaic 'slå i järn' (put in irons/shackles) sense — neither teaches the primary meaning 'iron (the metal)'. Replace with two short, modern sentences for the metal: a material use and a nutritional use.",
+    "examples": [
+      "Bron är byggd av järn och stål.",
+      "Spenat innehåller mycket järn."
+    ]
+  },
+  {
+    "kellyId": 4085,
+    "lemma": "brista",
+    "reason": "Base 2nd example is a poetry fragment ('Vid Lasso, där isarna råmande brista,[…]'). Keep the clean 'break' sense and add a 'burst' sentence, both B1-level.",
+    "examples": [
+      "Den tunna isen brast under hans fötter.",
+      "Ballongen brast med en hög smäll."
+    ]
+  },
+  {
+    "kellyId": 4331,
+    "lemma": "paradis",
+    "reason": "Both base examples are bracketed biblical/archaic quotes ('[Österlänningens] paradis …'). Replace with two everyday B2 sentences for 'paradise'.",
+    "examples": [
+      "Stranden var som ett paradis med palmer och klart vatten.",
+      "Trädgården förvandlades till ett paradis på sommaren."
+    ]
+  },
+  {
+    "kellyId": 4529,
+    "lemma": "passion",
+    "reason": "Base 1st example has editorial brackets ('sina [brev] om […]'). Replace with two clean B2 sentences: the emotion sense and the 'great love / devotion' sense.",
+    "examples": [
+      "Han talar om sitt arbete med stor passion.",
+      "Golf blev senare hennes stora passion."
+    ]
+  },
+  {
+    "kellyId": 4892,
+    "lemma": "mejl",
+    "reason": "The only base example is a clipped bracketed quote ('[…]– via ett så kallat mejl …'). Replace with two everyday B2 sentences for 'e-mail'.",
+    "examples": [
+      "Jag skickade ett mejl till min chef i morse.",
+      "Har du läst mejlet jag skickade?"
+    ]
+  },
+  {
+    "kellyId": 5804,
+    "lemma": "underkasta",
+    "reason": "Both base examples are bracketed biblical quotes. Replace with two C1 sentences for the reflexive 'underkasta sig' — submit to rules, and undergo (subject oneself to) something.",
+    "examples": [
+      "Han vägrade att underkasta sig de nya reglerna.",
+      "Patienten fick underkasta sig flera undersökningar."
+    ]
+  },
+  {
+    "kellyId": 6150,
+    "lemma": "tillgå",
+    "reason": "Both base examples are bracketed quotes. Replace with two C1 sentences covering both senses: 'come about / happen' and the idiom 'finnas att tillgå' (be available).",
+    "examples": [
+      "Ingen visste riktigt hur olyckan hade tillgått.",
+      "Mer information finns att tillgå på vår webbplats."
+    ]
+  },
+  {
+    "kellyId": 6322,
+    "lemma": "kyssa",
+    "reason": "Base 1st example is a bracketed quote ('[Han] kysste henne … [...]'). Replace with two clean C1 sentences for the verb 'to kiss'.",
+    "examples": [
+      "Han lutade sig fram för att kyssa henne.",
+      "De kysste varandra innan tåget gick."
+    ]
+  },
+  {
+    "kellyId": 6707,
+    "lemma": "farväl",
+    "reason": "Both base examples are bracketed quotes. Replace with two C1 sentences: the idiom 'ta farväl av' and 'farväl' as a noun.",
+    "examples": [
+      "Hon tog farväl av sina vänner innan resan.",
+      "Det var ett sorgligt farväl på stationen."
+    ]
+  },
+  {
+    "kellyId": 6966,
+    "lemma": "klump",
+    "reason": "The only base example is a Postnord logistics quote with '[…]' about parcel handling — off-meaning for 'lump'. Replace with two C1 sentences for the everyday 'lump' sense.",
+    "examples": [
+      "Det bildades en klump i såsen.",
+      "Snön packades ihop till en hård klump."
+    ]
+  },
+  {
+    "kellyId": 6995,
+    "lemma": "kyss",
+    "reason": "Base 1st example is a bracketed quote ('[Han] kysste …'), the 2nd a biblical quote. Replace with two clean C1 sentences for the noun 'a kiss'.",
+    "examples": [
+      "Hon gav honom en snabb kyss på kinden.",
+      "Deras första kyss var helt magisk."
+    ]
+  },
+  {
+    "kellyId": 138,
+    "lemma": "när",
+    "reason": "Base 2nd example is a clipped fragment ('När jag skulle gå hem,...'). Keep the clean question and add an A1 sentence for the temporal 'when'.",
+    "examples": [
+      "När börjar filmen?",
+      "Jag ringer dig när jag kommer hem."
+    ]
+  },
+  {
+    "kellyId": 789,
+    "lemma": "dit",
+    "reason": "Base 2nd example has an English editorial annotation ('Jag gick där [for comparison]'). Keep the clean contrast sentence and add a natural A1 use of 'dit'.",
+    "examples": [
+      "Jag gick dit, så nu är jag där.",
+      "Vi ska dit på lördag."
+    ]
+  },
+  {
+    "kellyId": 1851,
+    "lemma": "klok",
+    "reason": "Base 2nd example is a bracketed literary quote ('[Adalbert blev] …'). Replace with two A2 full sentences (the base 1st was only a noun phrase).",
+    "examples": [
+      "Det var ett klokt beslut att stanna hemma.",
+      "Min mormor är en mycket klok kvinna."
+    ]
+  },
+  {
+    "kellyId": 3742,
+    "lemma": "tycke",
+    "reason": "Both base examples are bare fragments ('I mitt tycke är hon ...', 'tycke uppstod'). Replace with two B1 sentences: the 'opinion' sense and the idiom 'fatta tycke för' (take a liking to).",
+    "examples": [
+      "I mitt tycke är filmen alldeles för lång.",
+      "De fattade genast tycke för varandra."
+    ]
+  },
+  {
+    "kellyId": 4034,
+    "lemma": "bemärkelse",
+    "reason": "The only base example is a fragment ('... i bemärkelsen att ...'). Replace with two B1 sentences using the idiom 'i ... bemärkelse' (in the sense of).",
+    "examples": [
+      "Han är en konstnär i ordets sanna bemärkelse.",
+      "Ordet kan användas i flera bemärkelser."
+    ]
+  },
+  {
+    "kellyId": 4217,
+    "lemma": "satan",
+    "reason": "Both base examples are literary/biblical quotes (one bracketed). Replace with two B2 sentences: the noun (the devil) and the everyday curse sense.",
+    "examples": [
+      "Enligt legenden frestade Satan människorna.",
+      "Satan, vad kallt det är ute idag!"
+    ]
+  },
+  {
+    "kellyId": 4428,
+    "lemma": "böja",
+    "reason": "Base 2nd example is a bracketed biblical quote. Keep the clean 'bend' imperative and add the grammar 'inflect' sense.",
+    "examples": [
+      "Böj på knäna!",
+      "Man böjer verbet efter tempus."
+    ]
+  },
+  {
+    "kellyId": 4482,
+    "lemma": "krama",
+    "reason": "Base 1st example is a long bracketed quote, the 2nd archaic/poetic. Replace with two B2 sentences: the 'hug' sense and the 'squeeze' sense ('krama ur').",
+    "examples": [
+      "Hon kramade sin mamma hårt.",
+      "Krama ur svampen ordentligt innan du diskar."
+    ]
+  },
+  {
+    "kellyId": 4701,
+    "lemma": "bekännelse",
+    "reason": "Base 1st example is a bracketed quote, the 2nd biblical. Replace with two B2 sentences: a legal/admission confession and a religious one.",
+    "examples": [
+      "Efter förhöret gjorde mannen en fullständig bekännelse.",
+      "Prästen lyssnade på hennes bekännelse."
+    ]
+  },
+  {
+    "kellyId": 5241,
+    "lemma": "magi",
+    "reason": "The only base example is a bracketed scholarly quote. Replace with two clean B2 sentences for 'magic'.",
+    "examples": [
+      "Barnen trodde på magi och trolldom.",
+      "Det fanns en speciell magi i luften den kvällen."
+    ]
+  },
+  {
+    "kellyId": 5273,
+    "lemma": "pop",
+    "reason": "The only base example is a nonsense song-lyric dump with an editorial bracket. Replace with two B2 sentences for pop music.",
+    "examples": [
+      "Hon lyssnar mest på pop och rock.",
+      "Bandet spelar glad pop från åttiotalet."
+    ]
+  },
+  {
+    "kellyId": 5509,
+    "lemma": "visdom",
+    "reason": "Base 2nd example is a bracketed biblical quote. Keep the clean sentence and add one more B2 example.",
+    "examples": [
+      "De lyssnade uppmärksamt till de äldres visdom.",
+      "Med åren kommer ofta större visdom."
+    ]
+  },
+  {
+    "kellyId": 5732,
+    "lemma": "frestelse",
+    "reason": "Base 2nd example is a biblical fragment ('... och inled oss icke i frestelse ...'). Keep the clean sentence and add one more C1 example.",
+    "examples": [
+      "Han kunde inte motstå frestelsen att ta en kaka till.",
+      "Chokladkakan i skåpet var en ständig frestelse."
+    ]
+  },
+  {
+    "kellyId": 6123,
+    "lemma": "skoja",
+    "reason": "Base 1st example is an ellipsis fragment containing an ethnic slur. Keep the clean 'joke with' sentence (capitalized) and add the common 'jag bara skojar' use.",
+    "examples": [
+      "Morfar skojar ofta med barnbarnen.",
+      "Jag bara skojar, ta det inte på allvar!"
+    ]
+  },
+  {
+    "kellyId": 6133,
+    "lemma": "befattning",
+    "reason": "The only base example is a fragment ('jag vill inte ta befattning med ...'). Replace with two C1 sentences: the 'post/position' sense and the idiom 'ta befattning med' (get involved with).",
+    "examples": [
+      "Hon tillträdde sin nya befattning som chef i januari.",
+      "Han ville inte ta befattning med den skumma affären."
+    ]
+  },
+  {
+    "kellyId": 6675,
+    "lemma": "blankett",
+    "reason": "The only base example is an English Swenglish joke ('fill out these blankets [common Swenglish]') — not Swedish at all. Replace with two C1 sentences for 'a form'.",
+    "examples": [
+      "Du måste fylla i den här blanketten och skriva under.",
+      "Ansökan görs på en särskild blankett."
+    ]
+  },
+  {
+    "kellyId": 6910,
+    "lemma": "betjäna",
+    "reason": "Base 2nd example is a bracketed quote. Keep the clean 'serve' sentence and add the reflexive 'betjäna sig av' (make use of) sense.",
+    "examples": [
+      "Vi betjänar över trehundra kunder varje dag.",
+      "Hon betjänade sig av en tolk under mötet."
+    ]
+  },
+  {
+    "kellyId": 7139,
+    "lemma": "altare",
+    "reason": "The only base example is a biblical guillemet quote. Replace with two clean C2 sentences for 'altar'.",
+    "examples": [
+      "Brudparet stod framför altaret i kyrkan.",
+      "Prästen tände ljusen på altaret."
+    ]
+  },
+  {
+    "kellyId": 7152,
+    "lemma": "kanna",
+    "reason": "Both base examples are old-fashioned quotes with editorial notes. Replace with two C2 sentences for the everyday 'jug/pitcher' sense (the old unit stays a reference sub-meaning).",
+    "examples": [
+      "Hon hällde upp kaffe ur kannan.",
+      "Ställ en kanna vatten på bordet."
+    ]
+  },
+  {
+    "kellyId": 7189,
+    "lemma": "vattna",
+    "reason": "Base 2nd example is an archaic folk-song line ('Han vattna' [vattnade] sina fålar fem'). Keep the 'water a plant' sense (as a full sentence) and add the 'mouth waters' sense.",
+    "examples": [
+      "Jag måste vattna blommorna varje dag.",
+      "Det vattnades i munnen på mig av doften."
+    ]
+  },
+  {
+    "kellyId": 7321,
+    "lemma": "geometri",
+    "reason": "Base 2nd example is 19th-century orthography ('begaf', 'blifva'). Keep the clean non-Euclidean sentence and add an accessible C2 example.",
+    "examples": [
+      "Genom att modifiera Euklides parallellaxiom kunde Lobatjevskij definiera en ny sorts geometri.",
+      "I skolan lär man sig geometri, till exempel om trianglar och cirklar."
+    ]
+  },
+  {
+    "kellyId": 7322,
+    "lemma": "omfång",
+    "reason": "Base 1st example is a fragment ('i det omfång som...'). Keep the 'range of a voice' sentence and add the 'extent/scope' sense.",
+    "examples": [
+      "Skadornas omfång var större än man först trodde.",
+      "Hennes röst har ett stort omfång."
+    ]
+  },
+  {
+    "kellyId": 7646,
+    "lemma": "kväve",
+    "reason": "The only base example is 19th-century orthography ('qväve', 'blifva', bracketed). Replace with two clean C2 sentences for 'nitrogen'.",
+    "examples": [
+      "Luften består till största delen av kväve.",
+      "Gödsel innehåller ofta kväve och fosfor."
+    ]
+  },
+  {
+    "kellyId": 7744,
+    "lemma": "pånyttfödelse",
+    "reason": "Base 1st example is a bracketed quote. Replace with two C2 sentences for 'rebirth / regeneration'.",
+    "examples": [
+      "Våren symboliserar naturens pånyttfödelse.",
+      "Reformen innebar en pånyttfödelse för hela partiet."
+    ]
+  },
+  {
+    "kellyId": 7882,
+    "lemma": "logo",
+    "reason": "Base 1st example is a fragment ('Den nya logon är en tolkning av ...'). Replace with two clean C2 sentences for 'logo'.",
+    "examples": [
+      "Företaget tog fram en ny logo för sin hemsida.",
+      "Den nya logon syns på alla förpackningar."
+    ]
   }
 ]
