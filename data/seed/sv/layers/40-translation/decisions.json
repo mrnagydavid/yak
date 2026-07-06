@@ -18171,7 +18171,7 @@
     "reason": "'slutändan' is only used in 'i slutändan'; primary should reflect its real use as a phrase meaning",
     "translation": "in the end, ultimately",
     "senses": [],
-    "inputHash": "6024ec04"
+    "inputHash": "b9f72342"
   },
   {
     "kellyId": 3286,
@@ -18636,10 +18636,10 @@
   {
     "kellyId": 3376,
     "decision": "fix",
-    "reason": "dropped 'judgment, opinion' (restates main); kept the discretion sense",
-    "translation": "judgment, opinion",
+    "reason": "standardize spelling judgment→judgement (British) to match bedömning (954); keep the discretion sense",
+    "translation": "judgement, opinion",
     "senses": [
-      "judgment, discretion (good sense)"
+      "judgement, discretion (good sense)"
     ],
     "inputHash": "deed5b9d"
   },

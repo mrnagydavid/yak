@@ -1,0 +1,10 @@
+[
+  {
+    "kellyId": 3285,
+    "decision": "fix",
+    "reason": "'slutändan' is only used in 'i slutändan'; primary should reflect its real use as a phrase meaning",
+    "translation": "in the end, ultimately",
+    "senses": [],
+    "inputHash": "b9f72342"
+  }
+]

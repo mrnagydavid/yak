@@ -1,0 +1,12 @@
+[
+  {
+    "kellyId": 3376,
+    "decision": "fix",
+    "reason": "standardize spelling judgment→judgement (British) to match bedömning (954); keep the discretion sense",
+    "translation": "judgement, opinion",
+    "senses": [
+      "judgement, discretion (good sense)"
+    ],
+    "inputHash": "deed5b9d"
+  }
+]
