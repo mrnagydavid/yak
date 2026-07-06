@@ -81,13 +81,14 @@ export function Onboarding() {
                 <SpeakButton text="yak" lang="en" />
               </div>
               <div class={styles.demoSenses}>
-                <span class={styles.demoGloss}>noun · a shaggy-haired Himalayan ox</span>
-                <span class={styles.demoGloss}>
-                  verb, slang · to talk informally but persistently; to chatter or prattle
-                </span>
+                <span class={styles.demoGloss}>a shaggy-haired Himalayan ox</span>
+                <span class={styles.demoGloss}>to talk informally but persistently; to chatter or prattle</span>
               </div>
             </div>
-            <p class={styles.lede}>Learn vocabulary the way it sticks — a few words at a time, every day.</p>
+            <p class={styles.tagline}>
+              <span class={styles.taglineLead}>Learn vocabulary the way it sticks.</span>
+              <span class={styles.taglineSub}>A few words at a time, every day.</span>
+            </p>
           </div>
           <button class={styles.primary} onClick={() => setStep('language')}>
             Get started

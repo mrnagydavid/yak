@@ -1,7 +1,7 @@
-import { useEffect, useState } from 'preact/hooks'
+import { useEffect, useRef, useState } from 'preact/hooks'
 import { type CalibrationItem, drawCalibrationItems, seedKnown } from '../../db/queries'
 import { languageName } from '../../lang'
-import { answer, CALIBRATION, type ClaimedLevel, finalize, startCalibration } from '../../srs/calibration'
+import { answer, CALIBRATION, type CalibrationState, type ClaimedLevel, finalize, startCalibration } from '../../srs/calibration'
 import styles from './Calibration.module.css'
 
 // The explicit calibration sweep (SPEC §6.4, with reveal): show the meaning, the learner recalls
@@ -26,9 +26,25 @@ export function Calibration({
   // The pool preloads in the background meanwhile, so the first word is ready the moment they start.
   const [started, setStarted] = useState(false)
 
-  // Draw a fresh pool whenever the tested level changes (and on mount).
+  // Undo support. Each answer pushes a snapshot of everything it changes (state + pool + cursor +
+  // the accumulated knowns); Back pops it, restoring the exact word shown — even across a level jump.
+  type Snapshot = { state: CalibrationState; items: CalibrationItem[] | null; index: number; known: string[] }
+  const [history, setHistory] = useState<Snapshot[]>([])
+  // Words the learner produced. We seed SRS state (both skills) once at the end rather than per answer,
+  // so undo is a pure in-memory revert with nothing to un-write. (SPEC §6.4)
+  const known = useRef<Set<string>>(new Set())
+  // When an undo restores a *different* level, the redraw effect below would fire and clobber the
+  // restored pool with a fresh draw — this tells it to skip that one run.
+  const restoring = useRef(false)
+
+  // Draw a fresh pool whenever the tested level changes (and on mount) — unless we're mid-undo and
+  // have just restored the previous level's pool ourselves.
   useEffect(() => {
     if (state.done) return
+    if (restoring.current) {
+      restoring.current = false
+      return
+    }
     let cancelled = false
     setItems(null)
     void drawCalibrationItems(targetLang, state.level, CALIBRATION.maxItems).then((drawn) => {
@@ -44,9 +60,12 @@ export function Calibration({
   // Each new word starts collapsed.
   useEffect(() => setRevealed(false), [index, items])
 
-  // Report the result once the sweep finishes.
+  // Report the result once the sweep finishes, seeding everything the learner knew first.
   useEffect(() => {
-    if (state.done && state.claimed) onComplete(state.claimed)
+    if (state.done && state.claimed) {
+      for (const id of known.current) void seedKnown(id)
+      onComplete(state.claimed)
+    }
   }, [state.done, state.claimed])
 
   // Pool ran out before a verdict (rare — levels have hundreds of words): force the level's result.
@@ -84,19 +103,42 @@ export function Calibration({
 
   const current = items?.[index]
 
-  function respond(known: boolean) {
+  function respond(knew: boolean) {
     if (!current) return
-    if (known) void seedKnown(current.translationId)
-    const next = answer(state, known)
+    // Snapshot before mutating so Back can restore this exact word (and un-mark it if needed).
+    setHistory((h) => [...h, { state, items, index, known: [...known.current] }])
+    if (knew) known.current.add(current.translationId)
+    const next = answer(state, knew)
     setState(next)
     // Same level → next drawn word; a level change or completion is handled by the effects above.
     if (!next.done && next.level === state.level) setIndex((i) => i + 1)
   }
 
+  function undo() {
+    const prev = history[history.length - 1]
+    if (!prev) return
+    // A restore that changes the level must stop the redraw effect from clobbering the pool.
+    if (prev.state.level !== state.level) restoring.current = true
+    known.current = new Set(prev.known)
+    setHistory((h) => h.slice(0, -1))
+    setItems(prev.items)
+    setIndex(prev.index)
+    setState(prev.state)
+  }
+
   return (
     <div class={styles.screen}>
       <header class={styles.bar}>
-        <span class={styles.level}>Quick check · {state.level}</span>
+        <div class={styles.barLeft}>
+          {history.length > 0 ? (
+            <button type="button" class={styles.back} aria-label="Back" onClick={undo}>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 12H5M12 19l-7-7 7-7" />
+              </svg>
+            </button>
+          ) : null}
+          <span class={styles.level}>Quick check · {state.level}</span>
+        </div>
         <button type="button" class={styles.skip} onClick={onCancel}>
           Skip
         </button>
@@ -105,7 +147,10 @@ export function Calibration({
       <div class={`${styles.card} ${revealed || !current ? '' : styles.tappable}`} onClick={revealed || !current ? undefined : () => setRevealed(true)}>
         {current ? (
           <>
-            <span class={styles.prompt}>{current.prompt}</span>
+            <div class={styles.promptBlock}>
+              <span class={styles.prompt}>{current.prompt}</span>
+              {current.gloss ? <span class={styles.gloss}>{current.gloss}</span> : null}
+            </div>
             {revealed ? (
               <div class={styles.reveal}>
                 <span class={styles.answerWord}>{current.answer}</span>

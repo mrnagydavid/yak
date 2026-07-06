@@ -127,6 +127,7 @@ export async function getLevelProgress(targetLang: string): Promise<LevelProgres
 export interface CalibrationItem {
   translationId: string // seeded (both skills) when the user can produce it
   prompt: string // the native-language meaning shown — the learner recalls the target word
+  gloss?: string // short native hint disambiguating an ambiguous prompt (only for multi-sense concepts)
   answer: string // the target word, revealed so the learner can verify before rating
   ipa?: string // target IPA, shown on reveal if available
 }
@@ -162,6 +163,9 @@ export async function drawCalibrationItems(targetLang: string, level: Cefr, n: n
       {
         translationId: tr.id,
         prompt: getRenderer(native.lang).renderLemma(native),
+        // The same short native hint the real production card shows, present only when the concept
+        // is ambiguous — disambiguates prompts like "bark" without cluttering unambiguous ones.
+        gloss: entry.sense?.gloss || undefined,
         answer: targetRenderer.renderLemma(entry),
         ipa: targetRenderer.showIpa ? entry.pronunciation.ipa : undefined,
       },

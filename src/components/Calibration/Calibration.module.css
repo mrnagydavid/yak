@@ -13,6 +13,36 @@
   justify-content: space-between;
 }
 
+.barLeft {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Undo the last answer — compact icon button, muted to sit quietly next to the level label. */
+.back {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  margin-left: -6px;
+  border: none;
+  background: none;
+  border-radius: 999px;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+}
+
+.back svg {
+  width: 20px;
+  height: 20px;
+}
+
+.back:active {
+  background: var(--color-bg-secondary);
+}
+
 /* Intro / explainer shown before the sweep starts — content grows to fill, buttons anchor at the
    bottom thumb zone (same shape as the quiz card layout). */
 .intro {
@@ -65,9 +95,24 @@
   cursor: pointer;
 }
 
+/* Prompt + its disambiguating gloss, kept tight together (the card's own 16px gap separates this
+   block from the reveal below). */
+.promptBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
 .prompt {
   font-size: 26px;
   font-weight: 600;
+}
+
+/* Short native hint under an ambiguous prompt — dimmed so it reads as help, not part of the answer. */
+.gloss {
+  font-size: 15px;
+  color: var(--color-text-secondary);
 }
 
 .reveal {
