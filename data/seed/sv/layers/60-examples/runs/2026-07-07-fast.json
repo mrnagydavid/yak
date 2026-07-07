@@ -1,0 +1,9 @@
+[
+  {
+    "kellyId": 1343,
+    "lemma": "fast",
+    "examples": ["Vi kom överens om ett fast pris."],
+    "inputHash": "08e58a39",
+    "notes": "Primary re-prioritized to 'fixed, firm', so the example now illustrates the fixed sense (was 'Nu är tjuven fast.', which illustrated the demoted 'caught' shade)."
+  }
+]

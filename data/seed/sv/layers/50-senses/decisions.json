@@ -3506,16 +3506,8 @@
   },
   {
     "english": "caught, stuck",
-    "senses": [
-      {
-        "gloss": "",
-        "members": [
-          1152,
-          1343
-        ]
-      }
-    ],
-    "inputHash": "5cdf895a"
+    "senses": [],
+    "note": "Retired grouping. fast (1343) was re-prioritized to primary 'fixed, firm' (normTr 'fixed'), so it no longer produces 'caught'. The only other producer, 1152, is a dropped duplicate (90-manual/10-dedup.json). No ambiguous concept remains, so this empty tombstone supersedes the old 'caught, stuck' partition — clearing the stale grouping key that would otherwise be stamped onto fast's 'fixed, firm' primary. No inputHash: the concept is no longer computed (single producer), so staleness treats it as up-to-date."
   },
   {
     "english": "cause",

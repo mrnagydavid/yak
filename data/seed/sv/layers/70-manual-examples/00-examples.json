@@ -339,5 +339,22 @@
       "Företaget tog fram en ny logo för sin hemsida.",
       "Den nya logon syns på alla förpackningar."
     ]
+  },
+  {
+    "kellyId": 5029,
+    "lemma": "slut",
+    "reason": "Merged card for the adjective slut = 'over, finished' (its duplicate twin 1707, pos='other', was dropped in 90-manual/10-dedup.json). Keep both good example sentences so the card covers its two nuances: a relationship/thing that has ENDED, and supplies that have RUN OUT / are sold out.",
+    "examples": [
+      "Deras förhållande är slut.",
+      "Kakorna är slut."
+    ]
+  },
+  {
+    "kellyId": 530,
+    "lemma": "rätt",
+    "reason": "The example-writer (60) illustrated the DEGREE sense (rätt bra = 'rather/pretty well'), which is this adverb's SUBDEF ('rather, fairly, pretty'), not its primary translation 'rightly, correctly'. Replace with an example of the primary sense so the production card 'rightly, correctly → rätt' shows a matching sentence. (Reviewer finding, 2026-07-07.)",
+    "examples": [
+      "Du svarade rätt."
+    ]
   }
 ]

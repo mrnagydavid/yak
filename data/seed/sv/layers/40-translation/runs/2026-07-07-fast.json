@@ -1,0 +1,11 @@
+[
+  {
+    "kellyId": 1343,
+    "lemma": "fast",
+    "decision": "fix",
+    "reason": "Adjective 'fast' is one core sense — firmly in place / not moving / not loose — which English renders as fixed/firm/solid/stuck/caught by context. Lead the card with the core 'fixed, firm' instead of the secondary 'caught' shade (was 'caught, captured', whose 'captured' wording made it read as a distinct sense). 'caught, stuck' and 'solid (not liquid)' become reference sub-defs. Deliberately NOT split — one word, one sense (teach-simple-users). Its duplicate twin 1152 was dropped in 90-manual/10-dedup.json.",
+    "translation": "fixed, firm",
+    "senses": ["caught, stuck", "solid (not liquid)"],
+    "inputHash": "31626ae8"
+  }
+]

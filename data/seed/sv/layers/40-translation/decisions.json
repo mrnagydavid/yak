@@ -8203,11 +8203,12 @@
   },
   {
     "kellyId": 1343,
+    "lemma": "fast",
     "decision": "fix",
-    "reason": "dropped leading caught/captured restatement",
-    "translation": "caught, captured",
+    "reason": "Adjective 'fast' is one core sense — firmly in place / not moving / not loose — which English renders as fixed/firm/solid/stuck/caught by context. Lead the card with the core 'fixed, firm' instead of the secondary 'caught' shade (was 'caught, captured', whose 'captured' wording made it read as a distinct sense). 'caught, stuck' and 'solid (not liquid)' become reference sub-defs. Deliberately NOT split — one word, one sense (teach-simple-users). Its duplicate twin 1152 was dropped in 90-manual/10-dedup.json.",
+    "translation": "fixed, firm",
     "senses": [
-      "fixed, firm",
+      "caught, stuck",
       "solid (not liquid)"
     ],
     "inputHash": "31626ae8"
@@ -26151,7 +26152,7 @@
       "all gone, run out (of supplies)",
       "exhausted, worn out (of a person)"
     ],
-    "inputHash": "f71bd929"
+    "inputHash": "701b0d7e"
   },
   {
     "kellyId": 5031,

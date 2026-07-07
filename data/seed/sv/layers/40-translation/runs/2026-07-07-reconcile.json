@@ -1,0 +1,13 @@
+[
+  {
+    "kellyId": 5029,
+    "decision": "fix",
+    "reason": "first restates main; all gone and exhausted are distinct",
+    "translation": "over, finished",
+    "senses": [
+      "all gone, run out (of supplies)",
+      "exhausted, worn out (of a person)"
+    ],
+    "inputHash": "701b0d7e"
+  }
+]

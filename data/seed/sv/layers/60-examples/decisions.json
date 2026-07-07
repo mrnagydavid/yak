@@ -6637,10 +6637,12 @@
   },
   {
     "kellyId": 1343,
+    "lemma": "fast",
     "examples": [
-      "Nu är tjuven fast."
+      "Vi kom överens om ett fast pris."
     ],
-    "inputHash": "08d5304f"
+    "inputHash": "08e58a39",
+    "notes": "Primary re-prioritized to 'fixed, firm', so the example now illustrates the fixed sense (was 'Nu är tjuven fast.', which illustrated the demoted 'caught' shade)."
   },
   {
     "kellyId": 1344,
@@ -26508,7 +26510,7 @@
     "examples": [
       "Deras förhållande är slut."
     ],
-    "inputHash": "270dd347"
+    "inputHash": "35cd7bc0"
   },
   {
     "kellyId": 5031,

@@ -3,5 +3,35 @@
     "kellyId": 8412,
     "decision": "drop",
     "reason": "Duplicate of 'ett hurra' (8359): both gender variants translate to 'cheer, hooray' as identical noun cards. 'ett hurra' is the standard Swedish gender (ge ett trefaldigt hurra); the 'en hurra' variant is non-standard/redundant, so it is dropped to satisfy the same-lemma+POS uniqueness guard."
+  },
+  {
+    "kellyId": 1707,
+    "decision": "drop",
+    "reason": "True duplicate of slut/adj (5029): same lemma 'slut', same primary translation 'over, finished', same sense key 'over#1' → the two collapse into ONE production card that shows 'slut' as two identical answers. This row is the kaikki catch-all POS section (pos='other'); the adjective row (5029) is the correctly-typed lexeme and is kept (its cefr lowered B2→A2 in base to match this row's level, since slut='finished/sold out' is common). collapseDuplicates can't merge them because the noun sense slut='end' (431) makes the lemma's translations non-uniform."
+  },
+  {
+    "kellyId": 644,
+    "decision": "drop",
+    "reason": "True duplicate of rätt/adj (553): same lemma 'rätt', same translation 'right, correct', same sense key 'right, correct#0' → collapses into one card showing 'rätt' twice. This is the kaikki catch-all POS section (pos='other') whose grab-bag subDefinitions (rather/dish/law) merely restate the OTHER rätt entries (adv 530, noun 441); nothing is lost. The adjective row (553) is kept."
+  },
+  {
+    "kellyId": 1152,
+    "decision": "drop",
+    "reason": "True duplicate of fast/adj (1343): same lemma 'fast', translation 'caught, stuck' vs 'caught, captured' (both normalize to 'caught'), same sense key 'caught, stuck#0' → collapses into one card showing 'fast' twice. This is the kaikki catch-all POS section (pos='other'); the adjective row (1343, which carries the inflections neutrum/plural) is kept."
+  },
+  {
+    "kellyId": 1010,
+    "decision": "drop",
+    "reason": "Redundant twin of krona (505): identical base row (crown/currency), same lemma 'krona'. The currency sense is represented TWICE under sense key 'krona#0' — as this standalone entry's primary AND as 505's promoted altMeaning 'krona (Swedish currency)' → collapses into one card showing 'krona' twice. 505 carries the proper multi-meaning structure (primary 'crown' + promoted currency altMeaning with its own example), so the currency is still taught as a production card; this raw twin is dropped."
+  },
+  {
+    "kellyId": 2660,
+    "decision": "drop",
+    "reason": "Pure duplicate of ju/adv (184): byte-identical base row (same translation, subDefinitions, examples) — the extract double-listed the particle as both adverb and conjunction. For a learner it is one word (ju = 'you know, of course, after all', with the 'ju … desto' correlative use noted as a sub-definition). The adverb row (184, A1) is kept; this conjunction row (A2) is dropped."
+  },
+  {
+    "kellyId": 3418,
+    "decision": "drop",
+    "reason": "Redundant + mistranslated ett pronoun: its translation says 'a, an' but its example 'Jag vill köpa ett, inte två' means 'one', so it overlaps the numeral ett='one' (7) and adds a confusing third 'ett' card. Numeral (7, 'one') and article (108, 'a, an') are the two clean, distinct senses and are kept; this pronoun row is dropped. (Decided with the user, 2026-07-07.)"
   }
 ]
