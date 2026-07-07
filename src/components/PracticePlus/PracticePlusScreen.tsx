@@ -24,6 +24,13 @@ const RUNNERS: Partial<Record<DrillType, FunctionComponent<DrillRunnerProps>>> =
 type Phase = 'loading' | 'hub' | 'session' | 'stats'
 type Finished = { log: DrillSessionLog; missed: DrillQuestion[] }
 
+// The phase at the last unmount, kept at module scope to skip the full-screen "Loading…" on every
+// return to the tab. A drill session can only be started from here (handleStart), so if we last left
+// on the hub there's nothing to resume — render the hub straight away. We still probe once per app load
+// (lastPhase undefined) and when resuming a live session (lastPhase 'session'), since a sticky session
+// survives refreshes; the mount effect below stays authoritative and corrects any optimistic guess.
+let lastPhase: Phase | undefined
+
 /**
  * The Practice+ tab. Owns the top-level state machine: resume a sticky drill if one is running, else
  * show the hub; a running drill takes over the whole tab until it's finished, which lands on stats and
@@ -31,10 +38,17 @@ type Finished = { log: DrillSessionLog; missed: DrillQuestion[] }
  * the hub/stats (agnostic).
  */
 export function PracticePlusScreen() {
-  const [phase, setPhase] = useState<Phase>('loading')
+  const [phase, setPhase] = useState<Phase>(
+    lastPhase === undefined || lastPhase === 'session' ? 'loading' : 'hub',
+  )
   const [session, setSession] = useState<ActiveDrillSession | null>(null)
   const [questions, setQuestions] = useState<DrillQuestion[]>([])
   const [finished, setFinished] = useState<Finished | null>(null)
+
+  // Remember the phase across unmounts so the next return to the tab can skip the loading blink.
+  useEffect(() => {
+    lastPhase = phase
+  }, [phase])
 
   // On mount, resume a sticky session if there is one (it survives refreshes and day changes).
   useEffect(() => {

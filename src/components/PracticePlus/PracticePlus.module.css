@@ -64,6 +64,9 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
+  /* Breathing room above the tab bar. It lives here, not on .screen: .screen is height:100%, so its
+     padding-bottom lands mid-scroll — this sits after the last drill box, where the gap is needed. */
+  padding-bottom: 24px;
 }
 
 .hubTitle {

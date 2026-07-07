@@ -1,12 +1,24 @@
 import { useLiveQuery } from 'dexie-react-hooks'
+import { useEffect } from 'preact/hooks'
 import type { DrillType } from '../../db/types'
-import { getDrillHub } from '../../drills/session'
+import { type DrillHubItem, getDrillHub } from '../../drills/session'
 import styles from './PracticePlus.module.css'
+
+// Last computed hub, kept at module scope so it survives a tab switch (DrillHub unmounts on leave and
+// remounts on return). Same idea as the Profile screen's progress cache: on return we keep showing the
+// previous boxes — which then update to fresh stats — instead of flashing "Loading…" and popping the
+// layout. One slot is enough: v1 has a single target language.
+let hubCache: DrillHubItem[] | undefined
 
 /** The Practice+ picker: one box per drill the active target language offers, with its mastery +
  *  recent form and a Start button. Drill list comes from the registry, so it's language-agnostic. */
 export function DrillHub({ onStart }: { onStart: (type: DrillType) => void }) {
-  const items = useLiveQuery(() => getDrillHub(), [])
+  const live = useLiveQuery(() => getDrillHub(), [])
+  useEffect(() => {
+    if (live) hubCache = live
+  }, [live])
+  // Fresh result if ready, else the cached boxes from before the last tab switch, else undefined (first run).
+  const items = live ?? hubCache
 
   return (
     <div class={styles.hub}>
