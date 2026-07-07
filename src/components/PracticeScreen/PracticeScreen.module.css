@@ -85,6 +85,21 @@
   cursor: pointer;
 }
 
+/* Slim top bar on the caught-up screen — carries only the undo control, kept in the same
+   top-right corner it held mid-session. */
+.caughtBar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 36px;
+}
+
+/* Nudge the undo icon to the screen edge the way the edit pencil does mid-session, so the
+   top-right control lands in the same spot either way. */
+.caughtBar .undo {
+  margin-right: -8px;
+}
+
 .caughtUp {
   flex: 1;
   display: flex;
@@ -93,6 +108,32 @@
   justify-content: center;
   gap: 16px;
   text-align: center;
+}
+
+.yakWrap {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+/* A soft warm halo behind the mascot — subtle, since the artwork already carries its own
+   celebration rays. Shows through the transparent cutout. */
+.yakWrap::before {
+  content: '';
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(245, 158, 11, 0.16), transparent 66%);
+}
+
+.yak {
+  position: relative;
+  width: 150px;
+  height: 150px;
 }
 
 .caughtTitle {
@@ -105,21 +146,51 @@
   color: var(--color-text-secondary);
 }
 
+/* The two next-steps, stacked and matched in width so they read as a pair. */
+.cta {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 240px;
+}
+
+/* Primary next-step — keep pulling more words. Filled, so it reads as the main action against
+   the outlined Practice+ button below it. */
 .pushFurther {
+  width: 100%;
+  color: #fff;
+  background: var(--color-primary);
+  font-size: 15px;
+  font-weight: 600;
+  border: 1px solid var(--color-primary);
+  border-radius: var(--radius-md);
+  padding: 11px 16px;
+}
+
+.pushFurther:active {
+  background: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+}
+
+/* Secondary next-step into the grammar drills — an outlined button matched in width to
+   "Push further". */
+.drillLink {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   color: var(--color-primary);
   font-size: 15px;
   font-weight: 600;
   border: 1px solid var(--color-primary);
   border-radius: var(--radius-md);
-  padding: 10px 20px;
+  padding: 11px 16px;
+  text-decoration: none;
 }
 
-/* Quiet link into Practice+ from the caught-up screen — secondary to "Push further". */
-.drillLink {
-  color: var(--color-primary);
-  font-size: 14px;
-  font-weight: 600;
-  text-decoration: none;
+.drillLink:active {
+  background: var(--color-bg-secondary);
 }
 
 /* Rating buttons + the group "Knew all" as one footer block, so "Knew all" sits the same small gap

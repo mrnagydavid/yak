@@ -36,6 +36,10 @@ import {
 import { StudyCard } from './StudyCard'
 import styles from './PracticeScreen.module.css'
 
+// Served straight from /public/assets (not bundled), so the mascot can be reused by URL elsewhere.
+// `base` is '/', so BASE_URL keeps this correct if the deploy path ever changes.
+const happyYak = `${import.meta.env.BASE_URL}assets/happy-yak.webp`
+
 // One reversible action this sitting: a single-card rating or a multi-answer group rating. Undo
 // dispatches on the kind. `requeueId` is set when this rating spliced a relearning clone into the
 // queue, so Undo can drop that exact clone too. (In-memory only — gone after a refresh or tab
@@ -183,22 +187,32 @@ export function PracticeScreen() {
   if (index >= views.length) {
     return (
       <div class={styles.screen}>
+        {/* Undo stays reachable in the top-right — the same corner it held mid-session, so muscle
+            memory finds it — while the reward below stays uncluttered. */}
+        {undoStack.length > 0 ? (
+          <div class={styles.caughtBar}>
+            <UndoButton onClick={() => void undo()} />
+          </div>
+        ) : null}
         <div class={styles.caughtUp}>
-          <p class={styles.caughtTitle}>You're caught up for today.</p>
-          {canPushFurther ? (
-            <button class={styles.pushFurther} onClick={() => void load(true)}>
-              Push further
-            </button>
-          ) : (
-            <p class={styles.caughtSub}>Nothing more to pull right now.</p>
-          )}
-          {/* Gentle on-ramp into the grammar drills — costs the active card no space, and appears only
-              once today's real practice is done. */}
-          <a href="/practice-plus" class={styles.drillLink}>
-            Sharpen your grammar in Practice+ →
-          </a>
-          {/* Keep the last rating reversible even after it tips you into "caught up". */}
-          {undoStack.length > 0 ? <UndoButton onClick={() => void undo()} /> : null}
+          <div class={styles.yakWrap}>
+            <img class={styles.yak} src={happyYak} alt="" width="150" height="150" />
+          </div>
+          <p class={styles.caughtTitle}>You're all caught up for today.</p>
+          <div class={styles.cta}>
+            {canPushFurther ? (
+              <button class={styles.pushFurther} onClick={() => void load(true)}>
+                Push further
+              </button>
+            ) : (
+              <p class={styles.caughtSub}>Nothing more to pull right now.</p>
+            )}
+            {/* On-ramp into the grammar drills — a real button matched to "Push further", shown only
+                once today's real practice is done. */}
+            <a href="/practice-plus" class={styles.drillLink}>
+              Practice+ grammar
+            </a>
+          </div>
         </div>
       </div>
     )
