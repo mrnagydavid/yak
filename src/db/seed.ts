@@ -13,6 +13,7 @@ interface AltMeaning {
   key: number
   translation: string
   enUncountable?: boolean
+  enProper?: boolean // English translation is a proper noun → renderer omits the article ("May", not "a May")
   gloss?: string // production-prompt hint when this meaning's English is ambiguous (§12); sense pass owns it
   senseKey?: string // production-grouping key (`english#sense`) so this meaning groups with its synonyms (§12); sense pass owns it
   examples?: string[] // this meaning's example sentences (per-sense examples, §4.8); examples pass owns it
@@ -31,6 +32,7 @@ interface SeedEntry {
   altMeanings?: AltMeaning[] // extra practiceable meanings (each its own card); primary is `translation`
   sense?: { key: string; gloss: string } // production grouping: which sense of `translation` this is
   enUncountable?: boolean // English translation is an uncountable noun → renderer omits the article
+  enProper?: boolean // English translation is a proper noun (name) → renderer omits the article ("May", not "a May")
   svUncountable?: boolean // Swedish lemma is a mass noun → renderer omits the article ("folk", not "ett folk")
   ipaAmbiguous?: boolean // same lemma pronounced differently across senses → suppress TTS
   h?: string // per-entry content hash (changed-only sync); absent on pre-hash seeds
@@ -68,15 +70,23 @@ const SEED_VERSION_KEY = 'seedVersion'
 const getSyncedSeedVersion = async (): Promise<string | undefined> => (await db.meta.get(SEED_VERSION_KEY))?.value
 const setSyncedSeedVersion = (version: string): Promise<string> => db.meta.put({ key: SEED_VERSION_KEY, value: version })
 
+/** Feature flags on a native (English) entry that make the renderer omit the indefinite article:
+ *  an uncountable mass noun ("water") and/or a proper noun/name ("May"). Kept as one helper so the
+ *  three sites that build a native entry (import, meaning-add, meaning-update) stay in lockstep. */
+function nativeFeatures(uncountable: boolean, proper: boolean): Record<string, string> {
+  return { ...(uncountable ? { countable: 'no' } : {}), ...(proper ? { proper: 'yes' } : {}) }
+}
+
 /** Build a native (translation) Entry for one meaning of a word. */
-function buildNative(lemma: string, pos: PartOfSpeech, uncountable: boolean, version: string, now: number): Entry {
+function buildNative(lemma: string, pos: PartOfSpeech, uncountable: boolean, proper: boolean, version: string, now: number): Entry {
   return {
     id: ulid(),
     lang: NATIVE_LANG,
     lemma,
     pos,
-    // Uncountable English nouns drop the "a/an" the renderer would otherwise add (e.g. "abuse").
-    features: uncountable ? { countable: 'no' } : {},
+    // Uncountable ("abuse") and proper-noun ("May") English translations drop the "a/an" the renderer
+    // would otherwise add.
+    features: nativeFeatures(uncountable, proper),
     inflections: {},
     pronunciation: {},
     source: 'seed',
@@ -101,10 +111,10 @@ function seedExamples(s: SeedEntry): ExampleSentence[] {
  *  A promoted meaning may carry a `gloss` (its production-prompt hint) and a `senseKey` (its
  *  production-grouping key); the primary's gloss/key live on `Entry.sense`, so meaningKey 0 never
  *  sets a link gloss/senseKey here. */
-function seedMeanings(s: SeedEntry): { key: number; translation: string; enUncountable: boolean; gloss?: string; senseKey?: string }[] {
+function seedMeanings(s: SeedEntry): { key: number; translation: string; enUncountable: boolean; enProper: boolean; gloss?: string; senseKey?: string }[] {
   return [
-    { key: 0, translation: s.translation, enUncountable: s.enUncountable === true },
-    ...(s.altMeanings ?? []).map((m) => ({ key: m.key, translation: m.translation, enUncountable: m.enUncountable === true, gloss: m.gloss, senseKey: m.senseKey })),
+    { key: 0, translation: s.translation, enUncountable: s.enUncountable === true, enProper: s.enProper === true },
+    ...(s.altMeanings ?? []).map((m) => ({ key: m.key, translation: m.translation, enUncountable: m.enUncountable === true, enProper: m.enProper === true, gloss: m.gloss, senseKey: m.senseKey })),
   ]
 }
 
@@ -135,7 +145,7 @@ function buildEntry(s: SeedEntry, version: string, now: number): { target: Entry
   const natives: Entry[] = []
   const translations: Translation[] = []
   for (const m of seedMeanings(s)) {
-    const native = buildNative(m.translation, s.pos, m.enUncountable, version, now)
+    const native = buildNative(m.translation, s.pos, m.enUncountable, m.enProper, version, now)
     natives.push(native)
     translations.push({
       id: ulid(),
@@ -289,7 +299,7 @@ async function updateSeedTarget(targetId: string, s: SeedEntry, version: string,
     await db.entries.update(u.nativeEntryId, {
       lemma: u.meaning.translation,
       pos: s.pos,
-      features: u.meaning.enUncountable ? { countable: 'no' } : {},
+      features: nativeFeatures(u.meaning.enUncountable, u.meaning.enProper),
       seedVersion: version,
       updatedAt: now,
     })
@@ -303,7 +313,7 @@ async function updateSeedTarget(targetId: string, s: SeedEntry, version: string,
   }
   for (const m of plan.adds) {
     // New meaning added by a seed update: fresh native entry + link (no prior progress to preserve).
-    const native = buildNative(m.translation, s.pos, m.enUncountable, version, now)
+    const native = buildNative(m.translation, s.pos, m.enUncountable, m.enProper, version, now)
     await db.entries.add(native)
     await db.translations.add({
       id: ulid(),
@@ -330,6 +340,7 @@ interface SeedMeaning {
   key: number
   translation: string
   enUncountable: boolean
+  enProper: boolean
   gloss?: string // promoted-meaning production hint; carried onto the Translation link
   senseKey?: string // promoted-meaning production-grouping key; carried onto the Translation link
 }

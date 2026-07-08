@@ -62,6 +62,12 @@ function writesOf(l: Layer, r: Record<string, unknown>): string[] {
   }
   if (l.kind === 'senses') return ['sense']
   if (l.kind === 'examples' || l.kind === 'manual-examples') return Array.isArray(r.examples) ? ['examples'] : []
+  if (l.kind === 'flags') {
+    const w: string[] = []
+    if (r.enProper) w.push('enProper')
+    if (r.enUncountable) w.push('enUncountable')
+    return w
+  }
   return []
 }
 

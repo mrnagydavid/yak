@@ -72,6 +72,15 @@
     "note": "Human example overrides — win over the LLM example-writer (60). Resolved on the example axis, NOT via the decisions collapse that layer 90 joins: an example is orthogonal to a word's translation/subDefinitions, and a 90 record shadows lower decisions layers wholesale (it would silently revert a translation fix while overriding an example). Clobber-proof: no example-writer run (targeted, stale, reconcile, or full sweep) can override it. Flat string[] → primary card; sense-tagged [{text, meaningKey}] → the matching promoted meaning (per-sense, §4.8)."
   },
   {
+    "id": 80,
+    "name": "manual-flags",
+    "kind": "flags",
+    "agent": null,
+    "produces": ["enProper", "enUncountable"],
+    "input": null,
+    "note": "Human render-flag overrides. enProper marks an English translation as a proper noun (name) so the renderer omits the indefinite article (May, December, English, Islam — not 'a May'); enUncountable supplements the translation curator (40) for missed mass nouns (a knowledge → knowledge). Resolved on its OWN axis (like manual-examples 70), NOT via the decisions collapse: a render flag is orthogonal to a word's translation/subDefinitions, so it never shadows a lower-layer fix the way a 90-manual record would. Files ARE the flags (no runs ledger)."
+  },
+  {
     "id": 90,
     "name": "manual",
     "kind": "decisions",

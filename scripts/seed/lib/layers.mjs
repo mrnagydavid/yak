@@ -8,6 +8,9 @@
 //   old "alphabetically-last decisions/ file wins"). The translation layer (40) then overrides the
 //   main translation + meaning list where it spoke; the examples layer (60) supplies examples; the
 //   senses layer (50) stamps the production-grouping marker post-collapse (handled by the reducer).
+//   The flags layer (80) supplies render flags (enProper / enUncountable) on its OWN axis — like
+//   manual-examples (70), it is NOT part of the decisions collapse, so a flag never shadows a
+//   lower-layer translation/subDefinitions fix (a 90 record would). See resolveEntries.
 import { createHash } from 'node:crypto'
 import { existsSync } from 'node:fs'
 import { readFile, readdir } from 'node:fs/promises'
@@ -149,7 +152,7 @@ export async function loadSenseStamps(layer) {
 // translationMap / exampleMap: the layer-40 / layer-60 maps, or null to exclude (batchers freeze input
 // by passing only the layers *below* the layer being batched). Returns entries + drop/omit counts.
 // This is byte-for-byte the original apply-decisions inner loop; only the input sourcing is injected.
-export function resolveEntries(base, { decisionMapsLowToHigh = [], translationMap = null, exampleMap = null, manualExampleMap = null, splitMap = null } = {}) {
+export function resolveEntries(base, { decisionMapsLowToHigh = [], translationMap = null, exampleMap = null, manualExampleMap = null, splitMap = null, flagMap = null } = {}) {
   const entries = []
   let dropped = 0
   for (const c of base) {
@@ -202,11 +205,18 @@ export function resolveEntries(base, { decisionMapsLowToHigh = [], translationMa
         taken.add(t.toLowerCase())
         taken.add(firstSense)
         const enUncountable = typeof m === 'object' && m.enUncountable === true
-        altMeanings.push({ key: altMeanings.length + 1, translation: t, ...(enUncountable ? { enUncountable: true } : {}) })
+        const enProper = typeof m === 'object' && m.enProper === true
+        altMeanings.push({ key: altMeanings.length + 1, translation: t, ...(enUncountable ? { enUncountable: true } : {}), ...(enProper ? { enProper: true } : {}) })
       }
       subDefinitions = (partition.subDefinitions ?? []).map(cleanTranslation).filter(Boolean)
     }
-    const enUncountable = td?.uncountable === true
+    // Render flags. enUncountable's primary authority is the translation curator (40); the flags layer
+    // (80) supplements it for curator misses AND owns enProper (proper noun → no indefinite article),
+    // which no LLM layer produces. Both are read off the flag axis so neither shadows a lower-layer
+    // decision (unlike a 90-manual record, which replaces the collapsed decisions record wholesale).
+    const flag = flagMap?.get(c.kellyId)
+    const enUncountable = td?.uncountable === true || flag?.enUncountable === true
+    const enProper = td?.proper === true || flag?.enProper === true
     const svUncountable = d?.svUncountable === true
     const ipa = (isFix ? (d.proposedIpa ?? '').trim() : '') || c.ipa
     // Examples: layer-60 owns them (else base). An answer's examples may be a flat string[] (legacy /
@@ -244,6 +254,7 @@ export function resolveEntries(base, { decisionMapsLowToHigh = [], translationMa
       ...(subDefinitions.length ? { subDefinitions } : {}),
       ...(altMeanings?.length ? { altMeanings } : {}),
       ...(enUncountable ? { enUncountable: true } : {}),
+      ...(enProper ? { enProper: true } : {}),
       ...(svUncountable ? { svUncountable: true } : {}),
       ...(examples.length ? { examples } : {}),
       translation,
@@ -260,6 +271,7 @@ export async function loadResolutionContext(manifest, { upToExclusive = Infinity
   let exampleMap = null
   let manualExampleMap = null
   let splitMap = null
+  let flagMap = null
   for (const layer of manifest) {
     if (layer.id >= upToExclusive) continue
     if (layer.kind === 'decisions') decisionMapsLowToHigh.push(await loadLayerById(layer))
@@ -267,8 +279,9 @@ export async function loadResolutionContext(manifest, { upToExclusive = Infinity
     else if (layer.kind === 'examples') exampleMap = await loadLayerById(layer)
     else if (layer.kind === 'manual-examples') manualExampleMap = await loadLayerById(layer)
     else if (layer.kind === 'split') splitMap = await loadLayerById(layer)
+    else if (layer.kind === 'flags') flagMap = await loadLayerById(layer)
   }
-  return { decisionMapsLowToHigh, translationMap, exampleMap, manualExampleMap, splitMap }
+  return { decisionMapsLowToHigh, translationMap, exampleMap, manualExampleMap, splitMap, flagMap }
 }
 
 // ---- assembled views: base + layers → the shipped shape (or a frozen "layers below" view) ----

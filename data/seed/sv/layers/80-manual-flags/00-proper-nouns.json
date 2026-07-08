@@ -1,0 +1,242 @@
+[
+  {
+    "kellyId": 46,
+    "lemma": "pingst",
+    "enProper": true,
+    "reason": "named holiday/observance — 'Pentecost' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 402,
+    "lemma": "december",
+    "enProper": true,
+    "reason": "month name — 'December' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 422,
+    "lemma": "januari",
+    "enProper": true,
+    "reason": "month name — 'January' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 468,
+    "lemma": "november",
+    "enProper": true,
+    "reason": "month name — 'November' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 479,
+    "lemma": "riksdag",
+    "enProper": true,
+    "reason": "proper noun (name) — 'Riksdag, parliament' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 497,
+    "lemma": "oktober",
+    "enProper": true,
+    "reason": "month name — 'October' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 516,
+    "lemma": "februari",
+    "enProper": true,
+    "reason": "month name — 'February' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 526,
+    "lemma": "september",
+    "enProper": true,
+    "reason": "month name — 'September' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 556,
+    "lemma": "juni",
+    "enProper": true,
+    "reason": "month name — 'June' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 575,
+    "lemma": "maj",
+    "enProper": true,
+    "reason": "month name — 'May' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 618,
+    "lemma": "april",
+    "enProper": true,
+    "reason": "month name — 'April' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 623,
+    "lemma": "mars",
+    "enProper": true,
+    "reason": "month name — 'March' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 683,
+    "lemma": "augusti",
+    "enProper": true,
+    "reason": "month name — 'August' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 706,
+    "lemma": "juli",
+    "enProper": true,
+    "reason": "month name — 'July' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 926,
+    "lemma": "fredag",
+    "enProper": true,
+    "reason": "weekday name — 'Friday' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 929,
+    "lemma": "söndag",
+    "enProper": true,
+    "reason": "weekday name — 'Sunday' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 962,
+    "lemma": "måndag",
+    "enProper": true,
+    "reason": "weekday name — 'Monday' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 973,
+    "lemma": "lördag",
+    "enProper": true,
+    "reason": "weekday name — 'Saturday' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 1066,
+    "lemma": "torsdag",
+    "enProper": true,
+    "reason": "weekday name — 'Thursday' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 1071,
+    "lemma": "onsdag",
+    "enProper": true,
+    "reason": "weekday name — 'Wednesday' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 1116,
+    "lemma": "tisdag",
+    "enProper": true,
+    "reason": "weekday name — 'Tuesday' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 1226,
+    "lemma": "islam",
+    "enProper": true,
+    "reason": "religion/ideology (as a concept) — 'Islam' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 1579,
+    "lemma": "jul",
+    "enProper": true,
+    "reason": "named holiday/observance — 'Christmas, Yule' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 1927,
+    "lemma": "engelska",
+    "enProper": true,
+    "reason": "language name — 'English' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 1968,
+    "lemma": "bibel",
+    "enProper": true,
+    "reason": "proper noun (name) — 'Bible' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 2977,
+    "lemma": "medeltid",
+    "enProper": true,
+    "reason": "proper noun (name) — 'Middle Ages' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 3420,
+    "lemma": "nazism",
+    "enProper": true,
+    "reason": "religion/ideology (as a concept) — 'Nazism' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 3962,
+    "lemma": "international",
+    "enProper": true,
+    "reason": "proper noun (name) — 'Internationale (socialist anthem/organization)' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 4103,
+    "lemma": "marxism",
+    "enProper": true,
+    "reason": "religion/ideology (as a concept) — 'Marxism' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 4217,
+    "lemma": "satan",
+    "enProper": true,
+    "reason": "proper noun (name) — 'Satan' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 4486,
+    "lemma": "nyår",
+    "enProper": true,
+    "reason": "named holiday/observance — 'New Year's' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 4612,
+    "lemma": "julafton",
+    "enProper": true,
+    "reason": "named holiday/observance — 'Christmas Eve' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 4799,
+    "lemma": "latin",
+    "enProper": true,
+    "reason": "language name — 'Latin' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 5036,
+    "lemma": "påsk",
+    "enProper": true,
+    "reason": "named holiday/observance — 'Easter' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 5141,
+    "lemma": "tyska",
+    "enProper": true,
+    "reason": "language name — 'German (language)' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 5343,
+    "lemma": "midsommar",
+    "enProper": true,
+    "reason": "named holiday/observance — 'Midsummer' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 6055,
+    "lemma": "franska",
+    "enProper": true,
+    "reason": "language name — 'French' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 6142,
+    "lemma": "sionism",
+    "enProper": true,
+    "reason": "religion/ideology (as a concept) — 'Zionism' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 6766,
+    "lemma": "nattvard",
+    "enProper": true,
+    "reason": "named holiday/observance — 'Holy Communion' is a proper noun, so the English renderer must not prepend 'a/an'"
+  },
+  {
+    "kellyId": 6773,
+    "lemma": "nyårsafton",
+    "enProper": true,
+    "reason": "named holiday/observance — 'New Year's Eve' is a proper noun, so the English renderer must not prepend 'a/an'"
+  }
+]

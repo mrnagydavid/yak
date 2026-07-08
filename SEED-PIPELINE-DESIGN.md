@@ -180,8 +180,10 @@ an opinion, wholesale**. It never concatenates two layers' values for one field.
 | `ipa` | cleaner(10) → base | |
 | `examples` | manual-examples(70) → examples(60) → base | tagged by meaning; the reducer partitions them onto the primary (`examples`) and each promoted meaning (`altMeanings[].examples`) by `meaningKey` (§4.8). A one-off human example fix goes in **manual-examples(70)**, a committed human layer resolved on the example axis — *not* manual(90): examples are orthogonal to the translation/subDefinitions collapse, and a 90 record shadows lower decisions layers wholesale (it would silently revert a translation fix while overriding an example). 70 sits above the example-writer, so no LLM re-run can clobber the fix. |
 | `sense` (primary grouping + gloss); `Translation.senseKey`/`.gloss` (promoted) | senses(50) | synonym grouping + production gloss; orthogonal, no conflicts (§4.8) |
+| `enProper` (proper noun → no indefinite article) | flags(80) | render flag: a name takes no "a/an" ("May", "English", "Islam", not "a May"). Resolved on its **own axis** (like `examples`), *not* the decisions collapse — so it never shadows a lower-layer translation/subDefinitions fix the way a 90 record would. Distinct from `enUncountable`: a proper noun can still pluralize, it just isn't articled. |
+| `enUncountable` (mass noun → no indefinite article) | translation(40); flags(80) supplements | the curator marks most mass nouns; the flags(80) layer catches misses ("a knowledge" → "knowledge") on the same orthogonal axis, without re-running the curator |
 | `drop` / `keep` | highest layer wins | explicit precedence *replaces* the old "resolve contradictions by hand" rule — a higher layer's `keep` legitimately overrides a lower `drop` |
-| any field *except* `examples` | manual(90) | humans win (examples are overridden via manual-examples(70), see the `examples` row) |
+| any field *except* `examples`, `enProper`, `enUncountable` | manual(90) | humans win (examples via manual-examples(70); render flags via flags(80) — both resolved on their own axes so a flag never reverts a lower-layer fix) |
 
 > The drop/keep change is a quiet but important simplification: because precedence is now explicit,
 > we no longer need a test that *forbids* a word from being both dropped and kept. The higher layer

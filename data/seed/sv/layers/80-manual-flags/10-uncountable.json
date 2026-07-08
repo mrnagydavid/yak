@@ -1,0 +1,182 @@
+[
+  {
+    "kellyId": 573,
+    "lemma": "kunskap",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'knowledge' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 1324,
+    "lemma": "fred",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'peace' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 1647,
+    "lemma": "beteende",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'behavior' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 2098,
+    "lemma": "bistånd",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'aid, support' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 2252,
+    "lemma": "fattigdom",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'poverty' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 2331,
+    "lemma": "frid",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'peace, peacefulness' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 2439,
+    "lemma": "mod",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'courage' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 2984,
+    "lemma": "vetande",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'knowledge' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 3313,
+    "lemma": "barndom",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'childhood' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 3363,
+    "lemma": "bifall",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'applause, approval' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 3531,
+    "lemma": "rikedom",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'wealth, riches' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 3662,
+    "lemma": "ilska",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'anger' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 4010,
+    "lemma": "belägg",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'evidence, proof' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 4036,
+    "lemma": "tålamod",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'patience' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 4216,
+    "lemma": "vrede",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'anger, rage, wrath' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 4277,
+    "lemma": "ärlighet",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'honesty' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 4515,
+    "lemma": "vetskap",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'knowledge' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 4644,
+    "lemma": "materiel",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'equipment, supplies, hardware' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 5116,
+    "lemma": "bagage",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'baggage' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 5332,
+    "lemma": "uppförande",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'behaviour, conduct' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 5509,
+    "lemma": "visdom",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'wisdom' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 5584,
+    "lemma": "uppträdande",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'behaviour, conduct' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 5667,
+    "lemma": "socialbidrag",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'welfare' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 5967,
+    "lemma": "girighet",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'greed, avarice' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 6498,
+    "lemma": "smuts",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'dirt, filth' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 6837,
+    "lemma": "skvaller",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'gossip' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 7268,
+    "lemma": "återkoppling",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'feedback' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 7347,
+    "lemma": "berömmelse",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'fame' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 8219,
+    "lemma": "apparatur",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'equipment, apparatus' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  },
+  {
+    "kellyId": 8307,
+    "lemma": "berömdhet",
+    "enUncountable": true,
+    "reason": "uncountable English translation 'fame' — renderer must not prepend 'a/an' (curator (40) missed it)"
+  }
+]

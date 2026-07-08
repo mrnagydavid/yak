@@ -184,6 +184,17 @@ describe('enRenderer', () => {
     )
   })
 
+  it('drops the article for proper nouns (names take no "a/an")', () => {
+    // Regression: months/weekdays/languages/religions were tagged noun and rendered "a May", "a December".
+    expect(en.renderLemma(entry({ lemma: 'May', pos: 'noun', lang: 'en', features: { proper: 'yes' } }))).toBe('May')
+    expect(en.renderLemma(entry({ lemma: 'English', pos: 'noun', lang: 'en', features: { proper: 'yes' } }))).toBe('English')
+    expect(en.renderLemma(entry({ lemma: 'Islam', pos: 'noun', lang: 'en', features: { proper: 'yes' } }))).toBe('Islam')
+    // Applies across "; "-joined meanings too, and whatever the stored POS.
+    expect(en.renderLemma(entry({ lemma: 'Christmas; Yule', pos: 'noun', lang: 'en', features: { proper: 'yes' } }))).toBe(
+      'Christmas; Yule',
+    )
+  })
+
   it('articles each co-equal meaning of a "; "-joined translation independently', () => {
     expect(en.renderLemma(entry({ lemma: 'race; breed', pos: 'noun', lang: 'en' }))).toBe('a race; a breed')
     expect(en.renderLemma(entry({ lemma: 'duty; tax', pos: 'noun', lang: 'en' }))).toBe('a duty; a tax')

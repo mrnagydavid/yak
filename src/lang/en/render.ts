@@ -27,6 +27,10 @@ function indefiniteArticle(word: string): string {
 
 // Article/particle a single meaning per POS: "to" for verbs, "a/an" for countable nouns.
 function articleize(entry: Entry, meaning: string): string {
+  // Proper nouns are names, not common nouns — they take no indefinite article ("May", "English",
+  // "Islam", not "a May"). Distinct from `countable: 'no'` (a proper noun can still pluralize) but
+  // renders the same: bare. Checked first so it applies whatever the stored POS. (SPEC §5.1)
+  if (entry.features.proper === 'yes') return meaning
   if (entry.pos === 'verb') return /^to\s/i.test(meaning) ? meaning : `to ${meaning}`
   if (entry.pos === 'noun') {
     // Uncountable nouns take no article (e.g. "water", not "a water").
