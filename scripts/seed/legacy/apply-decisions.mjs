@@ -4,7 +4,7 @@
 // Run: node scripts/seed/apply-decisions.mjs   (alias: pnpm seed:apply)
 import { createHash } from 'node:crypto'
 import { mkdir, writeFile } from 'node:fs/promises'
-import { assemble, cleanIpa, entryHash, loadManifest, loadSenseStamps, sameText, toSeedEntry } from './lib/layers.mjs'
+import { assemble, cleanIpa, entryHash, loadManifest, loadSenseStamps, sameText, toSeedEntry } from '../lib/layers.mjs'
 
 const SEED_VERSION = 'sv-2026-06-01' // en.wiktionary dump date the kaikki extract is from
 const AMBIGUOUS_OUT = 'data/scratch/sv/ambiguous.json' // emitted for the example-writer step (60)

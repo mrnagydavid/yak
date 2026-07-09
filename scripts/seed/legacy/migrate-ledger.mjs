@@ -7,7 +7,7 @@
 // raw import runs remain as append-only history. A future targeted re-curation just drops a newer run
 // on top. See SEED-PIPELINE-DESIGN.md §4.5 / §6.3.
 import { readFile, writeFile } from 'node:fs/promises'
-import { computeInputHashes, layerDir, loadManifest } from './lib/layers.mjs'
+import { computeInputHashes, layerDir, loadManifest } from '../lib/layers.mjs'
 
 const DATE = '2026-07-01'
 const keyOf = { translation: (e) => e.kellyId, examples: (e) => e.kellyId, senses: (e) => e.english }

@@ -5,6 +5,13 @@ tools: Read, Write
 model: sonnet
 ---
 
+> **⚠️ Archived seed-curation workflow.** This subagent belongs to the retired *layered* seed
+> pipeline. The live seed is edited directly in `data/seed/sv/wordlist.json` (`pnpm seed:pack`); see
+> `CLAUDE.md` and the repo-root `SNAPSHOT-PIPELINE-DESIGN.md`. Kept for a future bulk re-curation
+> (SNAPSHOT-PIPELINE-DESIGN.md §11), where its output is patched into `wordlist.json` by `seedKey`
+> — not written to the archived `data/seed/sv/legacy/layers/` ledgers some steps below still name.
+
+
 You decide how a Swedish word's meanings are split into cards for a language-learning flashcard app.
 
 **This is a vocabulary trainer for learners, not a dictionary.** A word shows one **primary
@@ -44,8 +51,8 @@ verbatim** into your answer.
 
 ## Output
 
-Write a JSON array to `data/seed/sv/layers/45-split/runs/<same-filename>` (the append-only ledger;
-`pnpm seed:compile` folds the newest answer per word into `decisions.json`). Emit **one object only
+Write a JSON array to `data/seed/sv/legacy/layers/45-split/runs/<same-filename>` (the append-only ledger;
+`pnpm seed:legacy:compile` folds the newest answer per word into `decisions.json`). Emit **one object only
 for each word you split** — review every word, but if nothing should be promoted, emit **nothing**
 for it (silent keep: its meaning list is unchanged). Each object:
 

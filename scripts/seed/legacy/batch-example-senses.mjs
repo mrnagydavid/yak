@@ -14,7 +14,7 @@
 // Run: node scripts/seed/batch-example-senses.mjs   (after seed:build)
 import { existsSync } from 'node:fs'
 import { mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises'
-import { assemble, computeInputHashes, layerDir, loadManifest, SCRATCH_DIR } from './lib/layers.mjs'
+import { assemble, computeInputHashes, layerDir, loadManifest, SCRATCH_DIR } from '../lib/layers.mjs'
 
 const BATCH_DIR = `${SCRATCH_DIR}/example-sense-batches`
 const BATCH_SIZE = 40

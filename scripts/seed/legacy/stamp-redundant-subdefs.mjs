@@ -14,7 +14,7 @@
 // Run: node scripts/seed/stamp-redundant-subdefs.mjs   (after the reviewer has filled review-answers/)
 import { existsSync } from 'node:fs'
 import { readFile, readdir, writeFile } from 'node:fs/promises'
-import { bareNative, cleanTranslation, layerDir, loadManifest, SCRATCH_DIR, SEED_DIR } from './lib/layers.mjs'
+import { bareNative, cleanTranslation, layerDir, loadManifest, SCRATCH_DIR, SEED_DIR } from '../lib/layers.mjs'
 
 const REVIEW_ANSWER_DIR = `${SCRATCH_DIR}/subdef-dedup-review-answers`
 const REVIEW_BATCH_DIR = `${SCRATCH_DIR}/subdef-dedup-review-batches`

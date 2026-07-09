@@ -13,7 +13,7 @@
 // Run: node scripts/seed/stamp-recurate-subdefs.mjs   (after the agent has filled tr-recurate-answers/)
 import { existsSync } from 'node:fs'
 import { readFile, readdir, writeFile } from 'node:fs/promises'
-import { bareNative, cleanTranslation, layerDir, loadManifest, SCRATCH_DIR, SEED_DIR } from './lib/layers.mjs'
+import { bareNative, cleanTranslation, layerDir, loadManifest, SCRATCH_DIR, SEED_DIR } from '../lib/layers.mjs'
 
 const BATCH_DIR = `${SCRATCH_DIR}/tr-recurate-batches`
 const ANSWER_DIR = `${SCRATCH_DIR}/tr-recurate-answers`

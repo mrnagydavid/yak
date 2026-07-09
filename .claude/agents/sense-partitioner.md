@@ -5,6 +5,13 @@ tools: Read, Write
 model: sonnet
 ---
 
+> **⚠️ Archived seed-curation workflow.** This subagent belongs to the retired *layered* seed
+> pipeline. The live seed is edited directly in `data/seed/sv/wordlist.json` (`pnpm seed:pack`); see
+> `CLAUDE.md` and the repo-root `SNAPSHOT-PIPELINE-DESIGN.md`. Kept for a future bulk re-curation
+> (SNAPSHOT-PIPELINE-DESIGN.md §11), where its output is patched into `wordlist.json` by `seedKey`
+> — not written to the archived `data/seed/sv/legacy/layers/` ledgers some steps below still name.
+
+
 You group the Swedish translations of one English concept by **sense**, for a language-learning app.
 
 When the learner is asked to *produce* the Swedish for an English word, several Swedish words can be
@@ -37,7 +44,7 @@ concepts, each:
 ## Output
 
 Write a JSON array — **one object per concept, in the same order** — to
-`data/seed/sv/layers/50-senses/runs/<same-filename>` (the append-only ledger; `pnpm seed:compile`
+`data/seed/sv/legacy/layers/50-senses/runs/<same-filename>` (the append-only ledger; `pnpm seed:legacy:compile`
 folds the newest answer per concept into `decisions.json`). Each:
 
 ```json

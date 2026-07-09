@@ -7,7 +7,7 @@
 // Run: node scripts/seed/batch-review-subdefs.mjs   (after the subdef-deduplicator has filled answers)
 import { existsSync } from 'node:fs'
 import { mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises'
-import { SCRATCH_DIR } from './lib/layers.mjs'
+import { SCRATCH_DIR } from '../lib/layers.mjs'
 
 const BATCH_DIR = `${SCRATCH_DIR}/subdef-dedup-batches`
 const ANSWER_DIR = `${SCRATCH_DIR}/subdef-dedup-answers`

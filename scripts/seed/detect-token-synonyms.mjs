@@ -14,12 +14,15 @@
 // verdict was same-sense, split with a gloss if different-sense); an UNRESOLVED collision is one no
 // human has ruled on yet.
 //
-// Run: node scripts/seed/detect-token-synonyms.mjs [--json] [--all]
+// Reads the SHIPPED seed (data/seed/sv/seed-sv.json) + token-synonyms.json — no layers. Concept
+// detection and the grouping labels both come from the seed's own entries (the snapshot is the
+// authority; SNAPSHOT-PIPELINE-DESIGN.md §6).
+//
+// Run: node scripts/seed/detect-token-synonyms.mjs [seedPath] [--json] [--all]
 //   --json  machine-readable output (used by batch-token-synonyms.mjs)
 //   --all   list every collision, not only the unresolved ones
-import { existsSync } from 'node:fs'
 import { readFile } from 'node:fs/promises'
-import { assemble, layerDir, loadManifest, loadTokenSynonyms, normTr } from './lib/layers.mjs'
+import { groupConcepts, loadTokenSynonyms, normTr, SEED_DIR } from './lib/layers.mjs'
 
 // All comma/semicolon-separated tokens of a phrase, each normalized like normTr (drop a parenthetical,
 // a leading article/"to", lowercase, trim). normTr keys only on tokens[0]; token overlap keys on any.
@@ -33,9 +36,12 @@ export const tokensOf = (s) =>
 async function main() {
   const asJson = process.argv.includes('--json')
   const showAll = process.argv.includes('--all')
-  const manifest = await loadManifest()
-  const { finalEntries, concepts } = await assemble(manifest) // concepts are MERGE-AWARE (token-synonyms.json)
+  const seedPath = process.argv.slice(2).find((a) => !a.startsWith('--')) ?? `${SEED_DIR}/seed-sv.json`
+  const seed = JSON.parse(await readFile(seedPath, 'utf-8'))
   const { merges, keepSeparate } = await loadTokenSynonyms()
+  // seedKey IS the old kellyId (toSeedEntry only renamed it), so the seed feeds groupConcepts directly.
+  const finalEntries = seed.entries.map((e) => ({ kellyId: e.seedKey, lemma: e.lemma, pos: e.pos, cefr: e.cefr, translation: e.translation, altMeanings: e.altMeanings }))
+  const concepts = groupConcepts(finalEntries, merges) // MERGE-AWARE (token-synonyms.json)
 
   // Every production slot (primary meaningKey 0 + each promoted altMeaning), keyed by "kellyId:mk".
   const slots = []
@@ -66,14 +72,19 @@ async function main() {
   for (const g of merges) for (const m of g.members) mergedIds.add(`${m.kellyId}:${m.meaningKey}`)
   const separateIds = new Set(keepSeparate.map((k) => `${k.slot.kellyId}:${k.slot.meaningKey}`))
 
-  // Sanity: every merge should have produced a concept the gloss pass then curated (a decision), so its
-  // members actually carry a shared key at runtime. audit-gloss asserts the key-sharing; here we just
-  // flag a merge whose concept never made it into the sense decisions (authored but not yet curated).
-  const senseLayer = manifest.find((l) => l.kind === 'senses')
-  const decFile = `${layerDir(senseLayer)}/decisions.json`
-  const decisions = existsSync(decFile) ? JSON.parse(await readFile(decFile, 'utf-8')) : []
-  const decisionEnglish = new Set(decisions.map((c) => c.english))
-  const uncuratedMerges = merges.filter((g) => !decisionEnglish.has(g.english)).map((g) => g.english)
+  // Sanity: every merge should have produced a concept the gloss pass then curated, so its members
+  // actually carry a shared key at runtime. The seed's own labels are now the authority: a merge is
+  // "curated" when every member slot carries a non-empty grouping key whose english-prefix is the
+  // merge's `english`. A blank or foreign-prefixed key means the merge never grouped under its concept
+  // (authored but not applied). audit-gloss asserts the members SHARE one key; here we flag the
+  // merge-level "never grouped under its english" case.
+  const bySeed = new Map(seed.entries.map((e) => [e.seedKey, e]))
+  const seedLabel = (kellyId, mk) => {
+    const e = bySeed.get(kellyId)
+    return (mk === 0 ? e?.sense?.key : e?.altMeanings?.find((m) => m.key === mk)?.senseKey) ?? ''
+  }
+  const labelPrefix = (l) => l.replace(/#\d+$/, '')
+  const uncuratedMerges = merges.filter((g) => g.members.some((m) => labelPrefix(seedLabel(m.kellyId, m.meaningKey)) !== g.english)).map((g) => g.english)
 
   // A collision: a SOLO promoted slot (not in any concept — first-token OR merge) that shares a token
   // with a slot of ANOTHER word under a DIFFERENT first token (else they'd already group). Merged slots

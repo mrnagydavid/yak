@@ -13,7 +13,7 @@
 // Run: node scripts/seed/batch-token-synonyms.mjs   (after authoring token-synonyms.json)
 import { existsSync } from 'node:fs'
 import { mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises'
-import { assemble, layerDir, loadManifest, loadTokenSynonyms, normTr, SCRATCH_DIR, shortHash } from './lib/layers.mjs'
+import { assemble, layerDir, loadManifest, loadTokenSynonyms, normTr, SCRATCH_DIR, shortHash } from '../lib/layers.mjs'
 
 const BATCH_DIR = `${SCRATCH_DIR}/gloss-batches`
 const WIK = `${SCRATCH_DIR}/wik.json`

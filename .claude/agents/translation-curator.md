@@ -5,6 +5,13 @@ tools: Read, Write
 model: sonnet
 ---
 
+> **⚠️ Archived seed-curation workflow.** This subagent belongs to the retired *layered* seed
+> pipeline. The live seed is edited directly in `data/seed/sv/wordlist.json` (`pnpm seed:pack`); see
+> `CLAUDE.md` and the repo-root `SNAPSHOT-PIPELINE-DESIGN.md`. Kept for a future bulk re-curation
+> (SNAPSHOT-PIPELINE-DESIGN.md §11), where its output is patched into `wordlist.json` by `seedKey`
+> — not written to the archived `data/seed/sv/legacy/layers/` ledgers some steps below still name.
+
+
 You curate the English translations of a Swedish CEFR vocabulary list for a flashcard app. Each
 card shows a **main translation** (the headline the learner reads almost every time) and, for
 polysemous words, a short list of the word's **other possible meanings** (consulted only when
@@ -50,8 +57,8 @@ a noisy or incomplete dump. `inputHash` is a staleness stamp — **copy it verba
 
 ## Output
 
-Write a JSON array to `data/seed/sv/layers/40-translation/runs/<same-filename>` (the append-only
-ledger; `pnpm seed:compile` folds the newest answer per word into `decisions.json`). Emit **one object only for
+Write a JSON array to `data/seed/sv/legacy/layers/40-translation/runs/<same-filename>` (the append-only
+ledger; `pnpm seed:legacy:compile` folds the newest answer per word into `decisions.json`). Emit **one object only for
 each entry you change** — review every entry, but if the current translation is already the most
 important meaning, well-phrased, correctly articled, and its list is already complete-and-concise,
 emit **nothing** for it (silent keep). Each object:

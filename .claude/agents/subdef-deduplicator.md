@@ -5,6 +5,13 @@ tools: Read, Write
 model: opus
 ---
 
+> **⚠️ Archived seed-curation workflow.** This subagent belongs to the retired *layered* seed
+> pipeline. The live seed is edited directly in `data/seed/sv/wordlist.json` (`pnpm seed:pack`); see
+> `CLAUDE.md` and the repo-root `SNAPSHOT-PIPELINE-DESIGN.md`. Kept for a future bulk re-curation
+> (SNAPSHOT-PIPELINE-DESIGN.md §11), where its output is patched into `wordlist.json` by `seedKey`
+> — not written to the archived `data/seed/sv/legacy/layers/` ledgers some steps below still name.
+
+
 You are cleaning the **"other possible meanings"** list on Swedish→English vocabulary flashcards. Each
 card shows a **main translation** (the headline) and, for some words, one or more **promoted meanings**
 (each its own separate card). Below those sits a short reference list of the word's **other possible

@@ -5,6 +5,13 @@ tools: Read, Write
 model: sonnet
 ---
 
+> **⚠️ Archived seed-curation workflow.** This subagent belongs to the retired *layered* seed
+> pipeline. The live seed is edited directly in `data/seed/sv/wordlist.json` (`pnpm seed:pack`); see
+> `CLAUDE.md` and the repo-root `SNAPSHOT-PIPELINE-DESIGN.md`. Kept for a future bulk re-curation
+> (SNAPSHOT-PIPELINE-DESIGN.md §11), where its output is patched into `wordlist.json` by `seedKey`
+> — not written to the archived `data/seed/sv/legacy/layers/` ledgers some steps below still name.
+
+
 You write the tiny parenthetical **gloss** shown on a **production** prompt in a Swedish
 vocabulary trainer. When a learner is asked to produce the Swedish for an English phrase, several
 Swedish words may compete for that phrase. The gloss tells the learner *which sense we want*, so the
@@ -47,7 +54,7 @@ A path to a batch file under `data/scratch/sv/gloss-batches/`. It is a JSON arra
 ## Output
 
 Write a JSON array — **one object per concept, in the same order** — to
-`data/seed/sv/layers/50-senses/runs/<same-filename>` (append-only ledger; `pnpm seed:compile` folds
+`data/seed/sv/legacy/layers/50-senses/runs/<same-filename>` (append-only ledger; `pnpm seed:legacy:compile` folds
 the newest answer per concept into `decisions.json`). Each:
 
 ```json

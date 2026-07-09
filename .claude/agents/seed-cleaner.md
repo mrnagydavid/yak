@@ -5,6 +5,13 @@ tools: Read, Write
 model: sonnet
 ---
 
+> **⚠️ Archived seed-curation workflow.** This subagent belongs to the retired *layered* seed
+> pipeline. The live seed is edited directly in `data/seed/sv/wordlist.json` (`pnpm seed:pack`); see
+> `CLAUDE.md` and the repo-root `SNAPSHOT-PIPELINE-DESIGN.md`. Kept for a future bulk re-curation
+> (SNAPSHOT-PIPELINE-DESIGN.md §11), where its output is patched into `wordlist.json` by `seedKey`
+> — not written to the archived `data/seed/sv/legacy/layers/` ledgers some steps below still name.
+
+
 You clean batches of Swedish→English vocabulary entries for a language-learning seed. Each
 entry comes from the Kelly CEFR word list joined with English Wiktionary. Your job is to make
 the **primary English translation** concise, correct, and learner-friendly — what belongs on a

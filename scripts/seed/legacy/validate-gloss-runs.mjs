@@ -5,7 +5,7 @@
 // Run: node scripts/seed/validate-gloss-runs.mjs
 import { existsSync } from 'node:fs'
 import { readFile, readdir } from 'node:fs/promises'
-import { SCRATCH_DIR, SEED_DIR, sameText } from './lib/layers.mjs'
+import { SCRATCH_DIR, SEED_DIR, sameText } from '../lib/layers.mjs'
 
 const BATCH_DIR = `${SCRATCH_DIR}/gloss-batches`
 const RUNS_DIR = `${SEED_DIR}/layers/50-senses/runs`

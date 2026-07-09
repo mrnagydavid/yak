@@ -6,7 +6,7 @@
 // Run: node scripts/seed/compile-layers.mjs   (alias: pnpm seed:compile)
 import { existsSync } from 'node:fs'
 import { readFile, readdir, writeFile } from 'node:fs/promises'
-import { layerDir, loadManifest } from './lib/layers.mjs'
+import { layerDir, loadManifest } from '../lib/layers.mjs'
 
 // Per-kind fold rules: how to key a run entry, whether to keep it, and a canonical sort for the
 // compiled output (deterministic + diff-friendly — decisions.json order never depends on run history).

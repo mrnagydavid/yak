@@ -17,7 +17,7 @@
 // Run: node scripts/seed/reconcile-stale.mjs   (after the real re-run compiled + seed:apply + seed:stale)
 import { existsSync } from 'node:fs'
 import { readFile, writeFile } from 'node:fs/promises'
-import { computeInputHashes, layerDir, loadManifest } from './lib/layers.mjs'
+import { computeInputHashes, layerDir, loadManifest } from '../lib/layers.mjs'
 
 // Local date, so the reconcile run sorts AFTER same-UTC-day earlier runs and wins the compile fold.
 const now = new Date()

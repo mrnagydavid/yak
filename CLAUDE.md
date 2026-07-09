@@ -61,6 +61,14 @@ Core app is built: Dexie schema, FSRS scheduling, the Swedish→English seed, an
 (Practice / Vocabulary / Profile). Recent feature: **multi-meaning words** — a word's distinct English
 meanings become separate production cards (recognition stays per-word), with **per-sense example
 sentences** so each production card shows only its own meaning's example (`led → route` no longer shows
-the *joint* sentence). How the seed is built and edited — layers, field ownership, the
-split/gloss/grouping/example passes, and re-run recipes — lives in `SEED-PIPELINE-DESIGN.md` (see §4.8
-for multi-meaning words and per-sense examples).
+the *joint* sentence).
+
+The seed is now built from a **single hand-editable snapshot** — `data/seed/sv/wordlist.json` — packed
+into the shipped `seed-sv.json` + `version.json` by `pnpm seed:pack`. To change a translation, add an
+example, or fix a part of speech: edit `wordlist.json`, run `pnpm seed:pack`, run `pnpm test` (CI-gated
+checkers block a broken wordlist), add a `data/seed/sv/CHANGELOG.md` line, commit. The full design,
+editing recipes, and the derived-vs-authored field split live in **`SNAPSHOT-PIPELINE-DESIGN.md`**. The
+old layered pipeline (base + correction layers + reducer, with the raw LLM `runs/` ledgers) is archived
+under `data/seed/sv/legacy/` + `scripts/seed/legacy/` and documented in
+`data/seed/sv/legacy/SEED-PIPELINE-DESIGN.md` — the escape hatch for a future bulk re-curation, not the
+day-to-day path.

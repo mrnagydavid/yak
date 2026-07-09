@@ -5,21 +5,27 @@ import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { afterAll, describe, expect, it } from 'vitest'
 
-// Guard against the SPEC §9.4 invariant "fixes live in the inputs, never the output": the committed
-// data/seed/sv/seed-sv.json must be exactly what `seed:apply` produces from the committed inputs
-// (base.json + the manifest-ordered layers). If a fix is ever applied to the output but not saved as a
-// layer decision — as happened with the lost pilot fixes for misshandel/län/gud/lämpa sig — this test
-// fails, because re-applying from the inputs no longer reproduces the seed.
+// Guard the snapshot pipeline's core invariant (SNAPSHOT-PIPELINE-DESIGN.md §6): the committed
+// data/seed/sv/seed-sv.json must be exactly what `seed:pack` produces from the hand-edited snapshot
+// (data/seed/sv/wordlist.json). If a fix is ever applied to the shipped output but not to the snapshot
+// — or the snapshot is edited without re-packing — this test fails, because re-packing no longer
+// reproduces the committed seed. `pack` re-derives ipaAmbiguous + the per-entry hash + the version and
+// re-serializes through one fixed key order, so hand-reordering keys in wordlist.json can't drift it.
+//
+// NOTE: this compares against the COMMITTED seed-sv.json, so it does NOT guard content-neutrality of a
+// migration — once you re-pack, any content edit in wordlist.json is trivially self-consistent here and
+// passes. A one-time content-neutral migration must be verified by diffing against the FROZEN
+// pre-migration baseline (SNAPSHOT-PIPELINE-DESIGN.md §8.1), not this test.
 const repoRoot = fileURLToPath(new URL('..', import.meta.url))
 const committed = JSON.parse(readFileSync(join(repoRoot, 'data/seed/sv/seed-sv.json'), 'utf-8'))
 
-describe('seed-sv.json is reproducible from committed inputs', () => {
+describe('seed-sv.json is reproducible by packing the snapshot', () => {
   const outDir = mkdtempSync(join(tmpdir(), 'seed-verify-'))
   afterAll(() => rmSync(outDir, { recursive: true, force: true }))
 
-  it('re-running apply-decisions reproduces the committed entries and version', () => {
+  it('re-running seed:pack reproduces the committed entries and version', () => {
     // SEED_OUT_DIR redirects every generated file under outDir, so this never touches the repo copy.
-    execFileSync('node', ['scripts/seed/apply-decisions.mjs'], {
+    execFileSync('node', ['scripts/seed/pack.mjs'], {
       cwd: repoRoot,
       env: { ...process.env, SEED_OUT_DIR: outDir },
       stdio: 'ignore',
@@ -39,7 +45,7 @@ describe('seed-sv.json is reproducible from committed inputs', () => {
     }
     expect(
       mismatches,
-      `seed-sv.json is not reproducible from committed inputs — run \`pnpm seed:apply\` and commit the result. Divergent: ${mismatches.join(', ')}`,
+      `seed-sv.json is not reproducible from wordlist.json — run \`pnpm seed:pack\` and commit the result. Divergent: ${mismatches.join(', ')}`,
     ).toEqual([])
 
     // version embeds a content hash of the full (ordered) entries array, so this also catches reordering

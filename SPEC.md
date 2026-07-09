@@ -570,151 +570,78 @@ What the user sees instead:
 
 ## 9. Build pipeline (seed generation)
 
-A set of Node scripts under `scripts/seed/` that produce `data/seed/<lang>/seed-<lang>.json` for each supported language (served copy at `public/seed-<lang>.json`). Run manually; output is checked into source control.
+The shipped wordlist `data/seed/<lang>/seed-<lang>.json` (served copy `public/seed-<lang>.json`) is a
+**generated artifact**, checked into source control. It is produced from a single hand-editable
+**snapshot** by a Node build step under `scripts/seed/`. Run manually; output committed.
 
-> **⚠️ Restructured (2026-07).** The pipeline was reworked into an immutable base + manifest-ordered
-> correction layers + an append-only LLM run ledger + a deterministic compile + a staleness report.
-> **`SEED-PIPELINE-DESIGN.md` is the current authority** for the layout, precedence, and workflow —
-> where this section's paths or mechanics (e.g. the old flat `data/intermediate/`, the `merge-*`
-> scripts, "batch off the built seed") disagree with it, the design doc wins. Today's map: base =
-> `data/seed/sv/base.json`; layers = `data/seed/sv/layers/<n>-<name>/` (each LLM layer has `runs/` +
-> `decisions.json` + `stale.json`); reducer = `scripts/seed/apply-decisions.mjs` (reads
-> `layers.json`); compile = `scripts/seed/compile-layers.mjs`; regenerable caches/batches live under
-> the gitignored `data/scratch/sv/`.
+> **Restructured (2026-07) → snapshot pipeline.** The seed was previously built from an immutable base
+> + manifest-ordered LLM correction layers + a compile/staleness reducer. That machinery is **archived**
+> under `data/seed/<lang>/legacy/` + `scripts/seed/legacy/` (still in git) and documented in
+> `data/seed/sv/legacy/SEED-PIPELINE-DESIGN.md` — the escape hatch for a future bulk re-curation, not
+> the day-to-day path. **`SNAPSHOT-PIPELINE-DESIGN.md` is the current authority** for the pipeline.
 
-### 9.1 Pipeline stages
+### 9.1 Source of truth + build
 
-1. **Fetch raw sources**.
-   - Kelly wordlist for the target language (where available).
-   - Wiktionary structured extract via kaikki.org (CC-BY-SA), filtered to the target language.
-   - ipa-dict CDN dump for the target language.
-   - For Swedish v1: also user's exported apkg file as a higher-priority source (preserves his hand-curated translations, notes, examples).
+- **`data/seed/<lang>/wordlist.json`** — a pretty-printed JSON array of the shipped entries, in ship
+  order, holding only **authored** fields (`seedKey`, `lemma`, `pos`, `cefr`, `gender`, `ipa`,
+  `inflections`, `subDefinitions`, `altMeanings`, `translation`, `sense`, the render flags, examples).
+  Edited by hand; git is the history.
+- **`pnpm seed:pack`** (`scripts/seed/pack.mjs`) reads the snapshot, recomputes the **derived** fields
+  — `ipaAmbiguous` (a cross-entry function of lemma → IPA set), the per-entry content hash `h`, and the
+  file-level `version` + `count` — serializes every entry through one fixed key order, and writes
+  `seed-<lang>.json` + `version.json` to both `data/seed/<lang>/` and `public/`. `pnpm seed:build` =
+  `seed:pack`.
+- **`data/seed/<lang>/CHANGELOG.md`** — the human "why" log for content edits, on top of git blame.
 
-2. **Join into unified entries**.
-   - Match on lemma + POS where possible.
-   - Where Kelly and Wiktionary disagree on POS, log and let the cleanup pass decide.
-   - Pull IPA from Wiktionary first, ipa-dict as fallback.
-   - Pull inflections from Wiktionary conjugation/declension tables, using the per-language key vocabulary the render modules expect (Swedish verbs: `presens`/`preteritum`/`supinum`/`imperativ`; Swedish nouns: `definiteSingular`/`indefinitePlural`/`definitePlural`).
-   - Detect noun countability from Wiktionary (the *(uncountable)* / *(usually uncountable)* tags) and set `features.countable = "no"` so the renderer omits the article (e.g. "vatten", not "ett vatten"). Absence of the flag means countable.
-   - Pull example sentences from Wiktionary where available.
+### 9.2 Fixes live in the snapshot, never the output
 
-3. **Heuristic flagging**.
-   - Translations containing periods (likely abbreviation expansion bug: *"el. sen"* → *"electricity later"*).
-   - Translations dramatically longer than the lemma.
-   - Missing POS.
-   - Multiple unrelated translations glued together.
-   - Output a `flagged` field on each entry.
+`seed-<lang>.json` is generated. Every correction — a wrong gloss, a bad example, an off IPA, a part of
+speech — is made in **`wordlist.json`**, never in the output. The recipe: edit `wordlist.json` →
+`pnpm seed:pack` → `pnpm test` (the CI checkers, §9.3) → add a `CHANGELOG.md` line → commit. Two
+invariants always hold:
 
-4. **Sense grouping** for polysemy.
-   - If multiple Wiktionary senses map to the *same* primary translation: **merge** into one entry with `subDefinitions: [...]`.
-   - If they map to *different* translations: **split** into separate entries, each with a short `disambiguator` (1–3 words).
-   - The grouping decision is by surface match on primary translation, then refined by the cleanup pass.
+1. **Survives a rebuild.** The fix lives in the packed input, so re-packing reproduces it (guarded by
+   the reproducibility test, §9.4). Never hand-patch `seed-<lang>.json` or its `public/` copy.
+2. **Reaches users on release.** The regenerated `seed-<lang>.json` + `version.json` (data + `public/`)
+   are what ships; the bumped `version` triggers seed-sync to update the affected cards **in place,
+   preserving the learner's progress** (§4.2, the overlay model), matched on `(seedKey, meaningKey)`.
 
-5. **LLM cleanup pass** (Claude Code subagent).
-   - A subagent named `seed-cleaner` is defined as a markdown file in `.claude/agents/seed-cleaner.md` with its own system prompt and a constrained tool allowlist (Read, Write).
-   - The build script chunks the sense-grouped entries into ~50-entry batches and writes them to `data/intermediate/batches/<n>.json`.
-   - You run Claude Code in the repo and ask it to process the batches — Claude Code dispatches each batch to the `seed-cleaner` subagent.
-   - The subagent returns structured JSON decisions per entry: `{ keep | fix | drop }` with a reason and proposed fixes.
-   - All cleanup work happens inside the Claude Code session under your Claude Code subscription — no separate API key, no separate billing.
+Never renumber a `seedKey` or an `altMeanings[].key` — seed-sync matches learner progress on them.
+Append new words at the end of the array with a fresh unique `seedKey`.
 
-6. **Human review**.
-   - All `fix` and `drop` entries are presented for confirmation.
-   - A random sample of `keep` entries also reviewed.
-   - Final decisions are applied to produce the seed.
+### 9.3 CI checkers
 
-7. **Output**.
-   - `data/seed-sv.json` (and equivalent for each language).
-   - `data/sources.json` records source versions/hashes for reproducibility.
+`pnpm test` (run by the deploy workflow before it publishes) blocks a broken wordlist. The seed checks:
 
-### 9.2 Subagent definition
+- **Reproducible** — the committed `seed-<lang>.json` equals `pack(wordlist.json)` (entries + version);
+  catches a fix applied to the output instead of the snapshot.
+- **Valid IDs** — every `seedKey` present + unique; every `altMeanings[].key` is an integer ≥ 1 and
+  unique within its entry.
+- **Grouping consistency** (`audit-gloss`) — every English concept produced by ≥2 slots is labelled;
+  a single-sense concept carries no invented gloss, a multi-sense one a non-echo gloss (§7.2).
+- **Reference-list purity** (`audit-subdefs`), **per-sense examples** (`audit-examples`),
+  **token-synonym coverage** (`detect-token-synonyms`), and **seed integrity** (`seed.test.ts`).
 
-The cleanup logic lives in `.claude/agents/seed-cleaner.md` as a Claude Code subagent. Sketch:
+### 9.4 Reproducibility & provenance
 
-```markdown
----
-name: seed-cleaner
-description: Reviews vocabulary seed entries for translation errors, abbreviation-expansion bugs, sense-split mistakes, archaic forms, and weak disambiguators. Use when processing data/intermediate/batches/*.json files.
-tools: Read, Write
-model: sonnet
----
+`pack` is deterministic given the same snapshot (bar `generatedAt`, which is excluded from every
+comparison). `data/sources.json` records the source versions/hashes the shipped content was built from
+(Kelly list; kaikki.org en.wiktionary dump date; ipa-dict commit). Bumping a source is a deliberate act
+handled via the archived construction path (§9.5).
 
-You review batches of vocabulary entries for a language-learning seed dataset.
+### 9.5 Origin & archived construction
 
-For each entry in the input batch, decide one of: `keep`, `fix`, or `drop`.
+Today's content was built by the now-archived layered pipeline: **fetch** (Kelly wordlist + kaikki.org
+Wiktionary extract, CC-BY-SA + ipa-dict) → **join** into base entries (lemma/POS match; IPA from
+Wiktionary then ipa-dict; inflections, examples, and countability from Wiktionary) → **heuristic
+flagging** → **LLM curation passes** (cleaner, translation, split, sense/gloss, examples) run as Claude
+Code subagents (`.claude/agents/*.md`), reduced to the seed. The full layer model, field ownership,
+precedence, and re-run recipes live in `data/seed/sv/legacy/SEED-PIPELINE-DESIGN.md`; the raw
+append-only LLM run ledgers are preserved under `data/seed/sv/legacy/layers/`.
 
-Look for:
-- Abbreviation expansion errors (e.g. "el." for "eller" being expanded into "electricity")
-- Translations dramatically out of register with the lemma
-- Sense splits that should have been merges (when senses share the primary translation)
-- Sense merges that should have been splits (when senses translate to distinct words)
-- Weak or unidiomatic disambiguators
-- Archaic, dialectal, or low-frequency variants that shouldn't be taught at CEFR levels
-
-Return a JSON array, one decision per entry, in the input order.
-```
-
-Each batch input has this shape:
-
-```json
-{
-  "lemma": "sedan",
-  "pos": "adverb",
-  "candidateTranslations": ["later", "electricity later"],
-  "rawSourceLines": [
-    { "source": "kelly", "line": "sedan el. sen — later" }
-  ],
-  "wiktionarySenses": [...],
-  "flags": ["translation-contains-period"]
-}
-```
-
-And the subagent returns:
-
-```json
-{
-  "lemma": "sedan",
-  "decision": "fix",
-  "reason": "Translation 'electricity later' is an erroneous expansion of abbreviation 'el.' meaning 'eller' (or)",
-  "proposedTranslation": "later",
-  "proposedSubDefinitions": ["later in time", "then, subsequently"]
-}
-```
-
-Decisions are written to `data/intermediate/decisions/<n>.json`. The `apply-decisions.ts` script merges them and queues `fix` / `drop` items for human review in a separate file.
-
-**Workflow in practice.** From the repo root, you run `claude` (Claude Code), then ask it something like: *"Run the seed-cleaner subagent over all batches in `data/intermediate/batches/` and write the decisions to `data/intermediate/decisions/`."* Claude Code dispatches the work serially; you check in afterward. For ~160 batches this takes 20–60 minutes of session time depending on plan limits.
-
-### 9.3 Reproducibility
-
-`scripts/seed/build.ts` is deterministic given the same source versions. Source versions live in `data/sources.json`:
-
-```json
-{
-  "kelly": { "version": "...", "url": "..." },
-  "wiktionary": { "dumpDate": "2025-11-01", "url": "..." },
-  "ipaDict": { "commitHash": "abc123" }
-}
-```
-
-Bumping a source version is a deliberate act; the resulting seed is regenerated and reviewed before being committed.
-
-### 9.4 Fixes live in the inputs, never the output
-
-`seed-<lang>.json` is a **generated artifact**. Every correction to seed data — a wrong gloss, a bad example, an off IPA — must be encoded in a pipeline *input* (a correction record in a `data/seed/<lang>/layers/<n>-<name>/` layer — an LLM layer's `runs/` ledger, or a human layer's file), and the seed regenerated *through the pipeline*. Never hand-patch the generated `seed-<lang>.json` (or its `public/` copy) — **nor the compiled `decisions.json`** (it is regenerated from `runs/` by `pnpm seed:compile`). Two invariants must always hold for any fix:
-
-1. **Survives a full rebuild.** Running the full pipeline (`pnpm seed:build`) reproduces the fix, because it lives in an input the pipeline reads — not in the output it overwrites.
-2. **Reaches users on release.** The regenerated `seed-<lang>.json` + `version.json` (data + `public/`) are what the release builds and serves; the bumped version triggers seed-sync to update the affected cards **in place, preserving the learner's progress** (§4.2, the overlay model).
-
-A `fix` decision in a cleaner layer can override `proposedTranslation`, `proposedSubDefinitions`, and `proposedIpa`; the translation layer (40) overrides `translation` + the meaning list; curated example sentences are supplied per `kellyId` in the examples layer (60). Each layer may only write the fields its manifest `produces` set declares (enforced by the field-ownership guard). If a field you need to correct has no input hook yet, **add the hook to `apply-decisions` + the manifest** rather than editing the output — that keeps the "all fixes are reproducible inputs" guarantee intact.
-
-### 9.5 Translation-curation pass
-
-The mechanical primary-translation pick in `join.mjs` (first sub-sense of the first Wiktionary gloss) produces recurring weirdness that heuristic flags can't catch — definitions instead of translations (*misshandel* → "deliberately causing bodily harm to someone"), archaic primaries (*län* → "fief" instead of "county"), missing senses (*ras* lacks "collapse"), clumsy phrasing (*lämpa sig* → "to be suited"). The **translation-curation pass** is a full LLM sweep that improves the **main translation** and rebuilds the **meaning list**, following the same pattern as the cleaner/sense/example passes (agent + batch script + merge script + committed merged input + `apply-decisions` hook):
-
-- `.claude/agents/translation-curator.md` — the subagent. Picks the most important everyday meaning as the bare primary (two co-equal meanings joined by `"; "` when neither dominates); marks uncountable English nouns; and emits the **complete** meaning list (primary first) only when the word has ≥2 distinct meanings (`[]` otherwise). It reviews every entry but emits a `fix` object only for the ones it changes.
-- `pnpm seed:batch-translations` chunks the **built** `seed-sv.json` (CEFR-ordered) plus each entry's full Wiktionary sense list into `data/intermediate/tr-batches/`. You run the subagent over them into `data/intermediate/tr-decisions/`. `pnpm seed:merge-translations` keeps only the `fix` objects and writes the committed `data/intermediate/translation-decisions.json`.
-- `apply-decisions` applies it **after** the cleaner, so it wins on `translation`/`subDefinitions`; `uncountable: true` becomes the seed's `enUncountable`, which `seed.ts` maps to the native entry's `features.countable = "no"` so the renderer drops the article. Two co-equal meanings are one `"; "`-joined string; `en/render.ts` articles each side independently ("a duty; a tax").
-- **Ordering vs. the sense pass.** A changed primary changes how `multi-translation.json` groups, so re-run the sense pass (`seed:batch-senses` → `sense-partitioner` → `seed:merge-senses`) after a translation sweep to keep production grouping (§7.2) consistent.
+A future bulk re-curation does **not** revive base/layers/compile: it extracts a subset from
+`wordlist.json`, runs the relevant subagent over it, and patches the answers back into `wordlist.json`
+by `seedKey` (SNAPSHOT-PIPELINE-DESIGN.md §11).
 
 ## 10. Runtime enrichment
 
@@ -807,24 +734,26 @@ yak/
 ├── CONTRIBUTING.md
 ├── SPEC.md                          (this file)
 ├── data/
-│   ├── seed-sv.json
-│   └── sources.json
+│   ├── sources.json
+│   └── seed/
+│       └── sv/
+│           ├── wordlist.json          (★ source of truth — hand-edited snapshot)
+│           ├── seed-sv.json           (generated by seed:pack; served copy in public/)
+│           ├── version.json           (generated by seed:pack)
+│           ├── token-synonyms.json    (curated concept-merge verdicts; checker input)
+│           ├── CHANGELOG.md           (human "why" log for content edits)
+│           └── legacy/                (archived layered pipeline: base.json, layers/, layers.json, SEED-PIPELINE-DESIGN.md)
 ├── scripts/
 │   └── seed/
-│       ├── build.ts                  (top-level orchestrator)
-│       ├── fetch-kelly.ts
-│       ├── fetch-wiktionary.ts
-│       ├── fetch-ipa-dict.ts
-│       ├── fetch-apkg.ts
-│       ├── join.ts
-│       ├── flag.ts
-│       ├── sense-group.ts
-│       ├── batch-for-cleanup.mjs     (writes data/scratch/sv/cleanup-batches/)
-│       ├── compile-layers.mjs        (folds layer runs/ → decisions.json)
-│       └── apply-decisions.mjs       (reads data/seed/sv/ base+layers → seed)
+│       ├── pack.mjs                   (★ the build: wordlist.json → seed-sv.json + version.json)
+│       ├── audit-gloss.mjs            (CI checker: grouping / gloss consistency)
+│       ├── audit-subdefs.mjs          (CI checker: reference-list purity)
+│       ├── audit-examples.mjs         (CI checker: per-sense examples)
+│       ├── detect-token-synonyms.mjs  (CI checker: token-synonym coverage)
+│       ├── lib/layers.mjs             (shared helpers: groupConcepts, hashing, …)
+│       └── legacy/                    (archived batchers / compile / apply / stale / fetch / join)
 ├── .claude/
-│   └── agents/
-│       └── seed-cleaner.md           (the cleanup subagent)
+│   └── agents/                        (archived seed-curation subagents; see legacy design doc)
 ├── src/
 │   ├── main.tsx
 │   ├── app.tsx

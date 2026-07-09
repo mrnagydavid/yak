@@ -8,7 +8,7 @@
 // Run: node scripts/seed/batch-senses.mjs   (after seed:apply + seed:stale)
 import { existsSync } from 'node:fs'
 import { mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises'
-import { assemble, layerDir, loadManifest, SCRATCH_DIR, shortHash } from './lib/layers.mjs'
+import { assemble, layerDir, loadManifest, SCRATCH_DIR, shortHash } from '../lib/layers.mjs'
 
 const BATCH_DIR = `${SCRATCH_DIR}/sense-batches`
 const BATCH_SIZE = 60 // concepts per batch (each carries a handful of members)

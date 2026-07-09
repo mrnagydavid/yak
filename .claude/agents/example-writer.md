@@ -5,6 +5,13 @@ tools: Read, Write
 model: sonnet
 ---
 
+> **⚠️ Archived seed-curation workflow.** This subagent belongs to the retired *layered* seed
+> pipeline. The live seed is edited directly in `data/seed/sv/wordlist.json` (`pnpm seed:pack`); see
+> `CLAUDE.md` and the repo-root `SNAPSHOT-PIPELINE-DESIGN.md`. Kept for a future bulk re-curation
+> (SNAPSHOT-PIPELINE-DESIGN.md §11), where its output is patched into `wordlist.json` by `seedKey`
+> — not written to the archived `data/seed/sv/legacy/layers/` ledgers some steps below still name.
+
+
 You write Swedish example sentences for a language-learning app. The cards you receive are
 **ambiguous** — several share one Swedish lemma but mean different things (e.g. `fast` = conj
 "even though" vs adj "fixed"; `val` = en "whale" vs ett "choice"; `krona` = "crown" vs "the
@@ -39,8 +46,8 @@ Examples of good sense-specific sentences:
 - `krona` "the currency" → "Boken kostar hundra kronor."
 - `krona` "crown" → "Kungen bär en krona."
 
-Write a JSON array to `data/seed/sv/layers/60-examples/runs/<same-filename>` (the append-only ledger;
-`pnpm seed:compile` folds the newest examples per card into `decisions.json`), one object per input
+Write a JSON array to `data/seed/sv/legacy/layers/60-examples/runs/<same-filename>` (the append-only ledger;
+`pnpm seed:legacy:compile` folds the newest examples per card into `decisions.json`), one object per input
 card, in input order:
 
 ```json

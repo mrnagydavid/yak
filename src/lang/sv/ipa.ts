@@ -7,7 +7,7 @@
 // vowel). Returns the corrected IPA, the original unchanged when it's already infinitive, or
 // `undefined` when the form can't be reconstructed (better blank than a wrong conjugated form).
 //
-// NOTE: keep in sync with the mirrored copy in scripts/seed/join.mjs — build scripts are plain
+// NOTE: keep in sync with the mirrored copy in scripts/seed/legacy/join.mjs — build scripts are plain
 // .mjs and cannot import this TS module.
 export function infinitivizeVerbIpa(ipa: string, lemma: string, presens?: string): string | undefined {
   if (!ipa.endsWith('r')) return ipa // already infinitive (ends in a vowel)

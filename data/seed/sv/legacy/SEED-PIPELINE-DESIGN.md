@@ -1,5 +1,17 @@
 # Seed pipeline — redesign
 
+> **⚠️ ARCHIVED — describes the retired layered machinery only.** As of 2026-07-09 the seed is built
+> from a single hand-edited snapshot (`data/seed/sv/wordlist.json` → `pnpm seed:pack`), **not** the
+> layered pipeline below. For all day-to-day work see the repo-root **`SNAPSHOT-PIPELINE-DESIGN.md`**
+> (and `SPEC.md` §9). This doc is kept as the reference for the archived machinery — the escape hatch
+> for a future bulk re-curation.
+>
+> **Paths below predate the archive.** Every `data/seed/sv/base.json`, `data/seed/sv/layers/…`, and
+> `scripts/seed/<batch|compile|apply|stale>.mjs` referenced below now lives one level down, under
+> **`data/seed/sv/legacy/`** and **`scripts/seed/legacy/`** respectively (moved by `git mv`, history
+> intact). The npm aliases are `seed:legacy:*` (e.g. `pnpm seed:legacy:compile`). The descriptions are
+> otherwise accurate for those archived files.
+
 > Self-contained design doc. Assumes no prior context. Audience: a tech PM (and a future
 > Claude Code session that will implement it). Goal: a seed pipeline that is **re-runnable,
 > stable, legible at a glance, and never loses expensive LLM work** — fixing the recurring

@@ -5,6 +5,13 @@ tools: Read, Write
 model: sonnet
 ---
 
+> **⚠️ Archived seed-curation workflow.** This subagent belongs to the retired *layered* seed
+> pipeline. The live seed is edited directly in `data/seed/sv/wordlist.json` (`pnpm seed:pack`); see
+> `CLAUDE.md` and the repo-root `SNAPSHOT-PIPELINE-DESIGN.md`. Kept for a future bulk re-curation
+> (SNAPSHOT-PIPELINE-DESIGN.md §11), where its output is patched into `wordlist.json` by `seedKey`
+> — not written to the archived `data/seed/sv/legacy/layers/` ledgers some steps below still name.
+
+
 You prepare per-meaning example sentences for a Swedish language-learning app.
 
 Some Swedish words carry several distinct English meanings, each taught as its own production card
@@ -47,8 +54,8 @@ Example — for the `led` card above:
 - meaningKey 0 (joint): keep "Han har ont i en led i knäet."
 - meaningKey 1 (route, trail): write "Vi följde en led genom skogen."
 
-Write a JSON array to `data/seed/sv/layers/60-examples/runs/<same-filename>` (the append-only ledger;
-`pnpm seed:compile` folds the newest examples per word into `decisions.json`), one object per input
+Write a JSON array to `data/seed/sv/legacy/layers/60-examples/runs/<same-filename>` (the append-only ledger;
+`pnpm seed:legacy:compile` folds the newest examples per word into `decisions.json`), one object per input
 card, in input order:
 
 ```json
