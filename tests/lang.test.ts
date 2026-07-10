@@ -67,15 +67,19 @@ describe('svRenderer', () => {
     })
   })
 
-  it('drops the plural column and the article for uncountable nouns, keeping the gender badge', () => {
+  it('parenthesises the article for uncountable nouns, keeping the gender and dropping the plural', () => {
     const vatten = entry({
       lemma: 'vatten',
       pos: 'noun',
       features: { gender: 'ett', countable: 'no' },
-      inflections: { definiteSingular: 'vattnet' },
+      // The seed often carries a rare "types-of" plural on a mass noun; the card must still blank it.
+      inflections: { definiteSingular: 'vattnet', indefinitePlural: 'vatten', definitePlural: 'vattnen' },
     })
-    expect(sv.renderLemma(vatten)).toBe('vatten')
-    // Both columns are kept; the plural cells are empty (no nonsensical forms).
+    // The article stays visible but parenthesised — Practice still teaches en/ett (its only cue there)
+    // and the word reads as a noun, while signalling that "ett vatten" isn't idiomatic.
+    expect(sv.renderLemma(vatten)).toBe('(ett) vatten')
+    // Both columns are kept, but the plural cells are blanked despite the data carrying a plural —
+    // an uncountable headword shouldn't advertise "isar"/"vattnen".
     expect(sv.renderInflections(vatten).table).toEqual({
       columns: ['Singular', 'Plural'],
       rows: [
@@ -84,6 +88,19 @@ describe('svRenderer', () => {
       ],
     })
     expect(sv.renderFeatures(vatten)).toEqual([{ label: 'ett', kind: 'gender-ett' }])
+  })
+
+  it('renders proper nouns bare — no article at all, whatever the gender', () => {
+    // Languages, religions, holidays, weekdays: names, not common nouns.
+    expect(sv.renderLemma(entry({ lemma: 'engelska', pos: 'noun', features: { gender: 'en', proper: 'yes' } }))).toBe('engelska')
+    expect(sv.renderLemma(entry({ lemma: 'islam', pos: 'noun', features: { gender: 'en', proper: 'yes' } }))).toBe('islam')
+    expect(sv.renderLemma(entry({ lemma: 'nyår', pos: 'noun', features: { gender: 'ett', proper: 'yes' } }))).toBe('nyår')
+    // proper wins over countable if both were ever set.
+    expect(sv.renderLemma(entry({ lemma: 'maj', pos: 'noun', features: { gender: 'en', proper: 'yes', countable: 'no' } }))).toBe('maj')
+  })
+
+  it('renders a genderless uncountable bare (nothing to parenthesise)', () => {
+    expect(sv.renderLemma(entry({ lemma: 'aids', pos: 'noun', features: { countable: 'no' } }))).toBe('aids')
   })
 
   it('renders adjective comparison as a one-liner', () => {

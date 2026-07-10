@@ -33,7 +33,8 @@ interface SeedEntry {
   sense?: { key: string; gloss: string } // production grouping: which sense of `translation` this is
   enUncountable?: boolean // English translation is an uncountable noun → renderer omits the article
   enProper?: boolean // English translation is a proper noun (name) → renderer omits the article ("May", not "a May")
-  svUncountable?: boolean // Swedish lemma is a mass noun → renderer omits the article ("folk", not "ett folk")
+  svUncountable?: boolean // Swedish lemma is a mass noun → renderer parenthesises the article ("(ett) vatten")
+  svProper?: boolean // Swedish lemma is a proper noun (name/month/language) → renderer omits the article ("maj", "islam")
   ipaAmbiguous?: boolean // same lemma pronounced differently across senses → suppress TTS
   h?: string // per-entry content hash (changed-only sync); absent on pre-hash seeds
 }
@@ -127,7 +128,11 @@ function buildEntry(s: SeedEntry, version: string, now: number): { target: Entry
     lang: TARGET_LANG,
     lemma: s.lemma,
     pos: s.pos,
-    features: { ...(s.gender ? { gender: s.gender } : {}), ...(s.svUncountable ? { countable: 'no' } : {}) },
+    features: {
+      ...(s.gender ? { gender: s.gender } : {}),
+      ...(s.svUncountable ? { countable: 'no' } : {}),
+      ...(s.svProper ? { proper: 'yes' } : {}),
+    },
     inflections: s.inflections ?? {},
     pronunciation: s.ipa ? { ipa: s.ipa, ipaSource: 'wiktionary', ...(s.ipaAmbiguous ? { ambiguous: true } : {}) } : {},
     cefr: s.cefr,
@@ -278,7 +283,11 @@ async function updateSeedTarget(targetId: string, s: SeedEntry, version: string,
   await db.entries.update(targetId, {
     lemma: s.lemma,
     pos: s.pos,
-    features: { ...(s.gender ? { gender: s.gender } : {}), ...(s.svUncountable ? { countable: 'no' } : {}) },
+    features: {
+      ...(s.gender ? { gender: s.gender } : {}),
+      ...(s.svUncountable ? { countable: 'no' } : {}),
+      ...(s.svProper ? { proper: 'yes' } : {}),
+    },
     inflections: s.inflections ?? {},
     pronunciation: s.ipa ? { ipa: s.ipa, ipaSource: 'wiktionary', ...(s.ipaAmbiguous ? { ambiguous: true } : {}) } : {},
     cefr: s.cefr,

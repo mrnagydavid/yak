@@ -24,12 +24,12 @@ const outPath = (p) => (OUT_DIR ? `${OUT_DIR}/${p}` : p)
 // exactly this order (absent keys omitted). `ipaAmbiguous` and `h` are derived and slotted in here.
 const TOP_ORDER = [
   'seedKey', 'lemma', 'pos', 'cefr', 'gender', 'ipa', 'inflections', 'subDefinitions', 'altMeanings',
-  'enUncountable', 'enProper', 'svUncountable', 'examples', 'translation', 'ipaAmbiguous', 'sense', 'h',
+  'enUncountable', 'enProper', 'svUncountable', 'svProper', 'examples', 'translation', 'ipaAmbiguous', 'sense', 'h',
 ]
 const ALT_ORDER = ['key', 'translation', 'enUncountable', 'enProper', 'examples', 'senseKey', 'gloss']
 const SENSE_ORDER = ['key', 'gloss']
 // Boolean render flags: present only when true (absent == false), matching how the reducer wrote them.
-const BOOL_FLAGS = new Set(['enUncountable', 'enProper', 'svUncountable', 'ipaAmbiguous'])
+const BOOL_FLAGS = new Set(['enUncountable', 'enProper', 'svUncountable', 'svProper', 'ipaAmbiguous'])
 
 // Whether a key carries a meaningful value worth serializing — mirrors the reducer's omit rules so a
 // hand-edited empty array / false flag can't spuriously change a hash. (No-op on the generated snapshot,

@@ -6,6 +6,27 @@ Add a dated entry here whenever you change content. Newest first.
 
 See `SNAPSHOT-PIPELINE-DESIGN.md` for the pipeline; §7 has the editing recipes.
 
+## 2026-07-10 — Uncountable / proper-noun article pass (both languages)
+
+Marked nouns as uncountable or proper so they stop rendering a spurious indefinite article, on both
+the Swedish and English sides. Added the authored field `svProper` (symmetric to `enProper`); the
+Swedish renderer now bares proper nouns (`islam`) and parenthesises uncountables (`(ett) vatten`,
+keeping the en/ett gender cue). Done as a hand-curated closed set (languages, religions, holidays, core
+mass nouns) plus an agent sweep over candidate nouns (SNAPSHOT-PIPELINE-DESIGN.md §11). Also fixed two
+adjectives mis-tagged as nouns (`sned` deleted as a duplicate, `kvitt` → adj) and a vowel-dropped
+inflection typo (`upphetsning`). `version` `sv-2026-06-01-86b7078c` → `sv-2026-06-01-9bb3a7d4`; not
+content-neutral, so seed-sync updates the changed entries in place (progress preserved).
+
+What we deliberately did **not** do:
+- **Didn't mark a word uncountable when it has any everyday countable sense** (prefer-countable).
+  Beverages keep their article ("a coffee" / "en öl"), as do materials with a count sense (`glas`,
+  `papper`).
+- **Didn't treat weekdays as proper, though months are.** "On a Friday" / "på en fredag" is idiomatic,
+  so weekdays stay countable while `maj` renders bare.
+- **Didn't un-mark a mass noun just because the seed lists a plural.** A distinct plural is usually a
+  rare "types-of" form on a genuine mass noun (`forskningar`, `salter`); reverting would wrongly produce
+  `en information` / `en socialism`. Instead the card blanks the plural column for uncountables.
+
 ## 2026-07-09 — Migrate to the snapshot pipeline (content-neutral)
 
 Replaced the layered seed pipeline (immutable base + ordered correction layers + reducer) with a

@@ -334,11 +334,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Han har dålig hörsel."
     ],
-    "translation": "hearing"
+    "translation": "hearing",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 26,
@@ -612,7 +613,9 @@
     "examples": [
       "Vinden kommer från nordost."
     ],
-    "translation": "northeast"
+    "translation": "northeast",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 45,
@@ -641,7 +644,8 @@
     "examples": [
       "Vi är lediga i pingst."
     ],
-    "translation": "Pentecost"
+    "translation": "Pentecost",
+    "svProper": true
   },
   {
     "seedKey": 47,
@@ -688,7 +692,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "De pratade om sex och kärlek."
     ],
@@ -696,7 +699,9 @@
     "sense": {
       "key": "sex#0",
       "gloss": "sexual activity"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 50,
@@ -873,7 +878,9 @@
     "sense": {
       "key": "south#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 63,
@@ -903,7 +910,9 @@
     "examples": [
       "De bor i sydöst."
     ],
-    "translation": "southeast"
+    "translation": "southeast",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 65,
@@ -3580,7 +3589,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "El kostar mer nu än förut."
     ],
@@ -3588,7 +3596,9 @@
     "sense": {
       "key": "electricity#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 199,
@@ -3815,7 +3825,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Jag vill ha lite lugn och ro."
     ],
@@ -3823,7 +3832,9 @@
     "sense": {
       "key": "peace, tranquility#0",
       "gloss": "calm, serenity"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 210,
@@ -7564,11 +7575,12 @@
     "pos": "noun",
     "cefr": "A1",
     "ipa": "dɛˈsɛmbɛr",
-    "enProper": true,
     "examples": [
       "Jul är i december."
     ],
-    "translation": "December"
+    "translation": "December",
+    "enProper": true,
+    "svProper": true
   },
   {
     "seedKey": 403,
@@ -7949,11 +7961,12 @@
     "pos": "noun",
     "cefr": "A1",
     "ipa": "janɵˈɑːrɪ",
-    "enProper": true,
     "examples": [
       "Det är kallt i januari."
     ],
-    "translation": "January"
+    "translation": "January",
+    "enProper": true,
+    "svProper": true
   },
   {
     "seedKey": 423,
@@ -7975,7 +7988,8 @@
     "sense": {
       "key": "information#0",
       "gloss": ""
-    }
+    },
+    "svUncountable": true
   },
   {
     "seedKey": 424,
@@ -8878,11 +8892,12 @@
     "pos": "noun",
     "cefr": "A1",
     "ipa": "nʊˈvɛmbɛr",
-    "enProper": true,
     "examples": [
       "Det snöar i november."
     ],
-    "translation": "November"
+    "translation": "November",
+    "enProper": true,
+    "svProper": true
   },
   {
     "seedKey": 469,
@@ -9106,7 +9121,6 @@
       "indefinitePlural": "riksdagar",
       "definitePlural": "riksdagarna"
     },
-    "enProper": true,
     "examples": [
       "Riksdagen finns i Stockholm."
     ],
@@ -9392,7 +9406,6 @@
       "indefinitePlural": "ansvar",
       "definitePlural": "ansvaren"
     },
-    "enUncountable": true,
     "examples": [
       "Det är ditt ansvar."
     ],
@@ -9454,11 +9467,12 @@
     "pos": "noun",
     "cefr": "A1",
     "ipa": "ʊkˈtuːbɛr",
-    "enProper": true,
     "examples": [
       "Min födelsedag är i oktober."
     ],
-    "translation": "October"
+    "translation": "October",
+    "enProper": true,
+    "svProper": true
   },
   {
     "seedKey": 498,
@@ -9831,11 +9845,12 @@
     "pos": "noun",
     "cefr": "A1",
     "ipa": "fɛbrɵˈɑːrɪ",
-    "enProper": true,
     "examples": [
       "Min födelsedag är i februari."
     ],
-    "translation": "February"
+    "translation": "February",
+    "enProper": true,
+    "svProper": true
   },
   {
     "seedKey": 517,
@@ -10086,11 +10101,12 @@
     "pos": "noun",
     "cefr": "A1",
     "ipa": "ˈsɛpˈtɛmbɛr",
-    "enProper": true,
     "examples": [
       "Skolan börjar i september."
     ],
-    "translation": "September"
+    "translation": "September",
+    "enProper": true,
+    "svProper": true
   },
   {
     "seedKey": 527,
@@ -10477,11 +10493,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Han gjorde det i rent trots."
     ],
-    "translation": "defiance"
+    "translation": "defiance",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 546,
@@ -10685,11 +10702,12 @@
     "pos": "noun",
     "cefr": "A1",
     "ipa": "ˈjʉːnɪ",
-    "enProper": true,
     "examples": [
       "Sommaren börjar i juni."
     ],
-    "translation": "June"
+    "translation": "June",
+    "enProper": true,
+    "svProper": true
   },
   {
     "seedKey": 557,
@@ -10703,11 +10721,12 @@
       "indefinitePlural": "isar",
       "definitePlural": "isarna"
     },
-    "enUncountable": true,
     "examples": [
       "Det är is på sjön på vintern."
     ],
-    "translation": "ice"
+    "translation": "ice",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 558,
@@ -11066,7 +11085,8 @@
     "sense": {
       "key": "knowledge#0",
       "gloss": "acquired knowledge"
-    }
+    },
+    "svUncountable": true
   },
   {
     "seedKey": 574,
@@ -11089,7 +11109,6 @@
     "pos": "noun",
     "cefr": "A1",
     "ipa": "maj",
-    "enProper": true,
     "examples": [
       "Det är varmt i maj."
     ],
@@ -11097,7 +11116,9 @@
     "sense": {
       "key": "May#0",
       "gloss": "month"
-    }
+    },
+    "enProper": true,
+    "svProper": true
   },
   {
     "seedKey": 576,
@@ -12030,11 +12051,12 @@
     "pos": "noun",
     "cefr": "A1",
     "ipa": "apˈriːl",
-    "enProper": true,
     "examples": [
       "April april, din dumma sill, jag kan lura dig vart jag vill!"
     ],
-    "translation": "April"
+    "translation": "April",
+    "enProper": true,
+    "svProper": true
   },
   {
     "seedKey": 619,
@@ -12123,7 +12145,6 @@
     "pos": "noun",
     "cefr": "A1",
     "ipa": "ˈmaʂː",
-    "enProper": true,
     "examples": [
       "Min födelsedag är i mars."
     ],
@@ -12131,7 +12152,9 @@
     "sense": {
       "key": "March#0",
       "gloss": "month"
-    }
+    },
+    "enProper": true,
+    "svProper": true
   },
   {
     "seedKey": 624,
@@ -12327,7 +12350,8 @@
     "sense": {
       "key": "water#0",
       "gloss": "water (noun)"
-    }
+    },
+    "svUncountable": true
   },
   {
     "seedKey": 634,
@@ -13099,7 +13123,9 @@
     "sense": {
       "key": "internet#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 674,
@@ -13176,7 +13202,6 @@
       "indefinitePlural": "dödar",
       "definitePlural": "dödarna"
     },
-    "enUncountable": true,
     "examples": [
       "De har upplevt för mycket död."
     ],
@@ -13301,11 +13326,12 @@
     "pos": "noun",
     "cefr": "A1",
     "ipa": "a(ʊ̯)ˈɡɵstɪ",
-    "enProper": true,
     "examples": [
       "Vi reser i augusti."
     ],
-    "translation": "August"
+    "translation": "August",
+    "enProper": true,
+    "svProper": true
   },
   {
     "seedKey": 684,
@@ -13750,11 +13776,12 @@
     "pos": "noun",
     "cefr": "A1",
     "ipa": "ˈjʉːlɪ",
-    "enProper": true,
     "examples": [
       "Det är varmt i juli."
     ],
-    "translation": "July"
+    "translation": "July",
+    "enProper": true,
+    "svProper": true
   },
   {
     "seedKey": 707,
@@ -13857,7 +13884,6 @@
       "indefinitePlural": "forskningar",
       "definitePlural": "forskningarna"
     },
-    "enUncountable": true,
     "examples": [
       "Forskning tar lång tid."
     ],
@@ -13865,7 +13891,9 @@
     "sense": {
       "key": "research#0",
       "gloss": "research (noun)"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 713,
@@ -16519,7 +16547,8 @@
     "sense": {
       "key": "love#1",
       "gloss": "the feeling of love"
-    }
+    },
+    "svUncountable": true
   },
   {
     "seedKey": 843,
@@ -17136,7 +17165,9 @@
       "bruka våld",
       "ta makten med våld"
     ],
-    "translation": "violence"
+    "translation": "violence",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 870,
@@ -17732,7 +17763,6 @@
       "indefinitePlural": "innehåll",
       "definitePlural": "innehållen"
     },
-    "enUncountable": true,
     "examples": [
       "Vad är innehållet i boken?"
     ],
@@ -17740,7 +17770,9 @@
     "sense": {
       "key": "content#0",
       "gloss": "what's inside"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 899,
@@ -18291,7 +18323,6 @@
       "indefinitePlural": "fredagar",
       "definitePlural": "fredagarna"
     },
-    "enProper": true,
     "examples": [
       "Vi ses på fredag!"
     ],
@@ -18345,7 +18376,6 @@
       "indefinitePlural": "söndagar",
       "definitePlural": "söndagarna"
     },
-    "enProper": true,
     "examples": [
       "Vi träffades i söndags"
     ],
@@ -18531,7 +18561,6 @@
     "subDefinitions": [
       "matter, subject (of study)"
     ],
-    "enUncountable": true,
     "examples": [
       "Vi behöver mer material."
     ],
@@ -18973,7 +19002,6 @@
       "indefinitePlural": "måndagar",
       "definitePlural": "måndagarna"
     },
-    "enProper": true,
     "examples": [
       "Vi träffades i måndags"
     ],
@@ -19199,7 +19227,6 @@
       "indefinitePlural": "lördagar",
       "definitePlural": "lördagarna"
     },
-    "enProper": true,
     "examples": [
       "Vi träffades i lördags"
     ],
@@ -20930,7 +20957,6 @@
       "indefinitePlural": "torsdagar",
       "definitePlural": "torsdagarna"
     },
-    "enProper": true,
     "examples": [
       "Vi träffades i torsdags"
     ],
@@ -21022,7 +21048,6 @@
       "indefinitePlural": "onsdagar",
       "definitePlural": "onsdagarna"
     },
-    "enProper": true,
     "examples": [
       "Vi träffades i onsdags"
     ],
@@ -21110,7 +21135,8 @@
     "examples": [
       "Vi behöver ny lagstiftning."
     ],
-    "translation": "legislation"
+    "translation": "legislation",
+    "enUncountable": true
   },
   {
     "seedKey": 1078,
@@ -21766,7 +21792,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "medicinsk vård",
       "psykiatrisk vård"
@@ -21775,7 +21800,9 @@
     "sense": {
       "key": "care#1",
       "gloss": "nursing care"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 1108,
@@ -21950,7 +21977,6 @@
       "indefinitePlural": "tisdagar",
       "definitePlural": "tisdagarna"
     },
-    "enProper": true,
     "examples": [
       "Vi träffades i tisdags"
     ],
@@ -22373,7 +22399,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Djuren söker föda i skogen."
     ],
@@ -22381,7 +22406,9 @@
     "sense": {
       "key": "food#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 1142,
@@ -22853,7 +22880,9 @@
       "god/dålig sikt",
       "på kort sikt"
     ],
-    "translation": "visibility"
+    "translation": "visibility",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 1167,
@@ -22910,7 +22939,6 @@
       "indefinitePlural": "personaler",
       "definitePlural": "personalerna"
     },
-    "enUncountable": true,
     "examples": [
       "Personalen är vänlig."
     ],
@@ -22918,7 +22946,9 @@
     "sense": {
       "key": "staff#0",
       "gloss": "personnel"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 1170,
@@ -23700,7 +23730,9 @@
       "Menar du allvar?",
       "Hon menar allvar"
     ],
-    "translation": "seriousness, earnestness"
+    "translation": "seriousness, earnestness",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 1208,
@@ -24034,7 +24066,8 @@
     "examples": [
       "Islam är en stor religion."
     ],
-    "translation": "Islam"
+    "translation": "Islam",
+    "svProper": true
   },
   {
     "seedKey": 1227,
@@ -24645,7 +24678,6 @@
     "subDefinitions": [
       "property, attribute"
     ],
-    "enUncountable": true,
     "examples": [
       "Den här jackan är av hög kvalitet."
     ],
@@ -25966,7 +25998,6 @@
       "indefinitePlural": "inkomster",
       "definitePlural": "inkomsterna"
     },
-    "enUncountable": true,
     "examples": [
       "Han har en låg inkomst."
     ],
@@ -26000,11 +26031,12 @@
       "indefinitePlural": "kläder",
       "definitePlural": "kläderna"
     },
-    "enUncountable": true,
     "examples": [
       "Han har inga kläder på sig"
     ],
-    "translation": "clothes"
+    "translation": "clothes",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 1332,
@@ -26406,7 +26438,6 @@
       "indefinitePlural": "inflytanden",
       "definitePlural": "inflytandena"
     },
-    "enUncountable": true,
     "examples": [
       "Han har stort inflytande på gruppen."
     ],
@@ -26926,7 +26957,9 @@
       "Jag är glad för din skull",
       "Jag gjorde det för din skull"
     ],
-    "translation": "sake"
+    "translation": "sake",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 1384,
@@ -26940,11 +26973,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Arbetslösheten ökar i landet."
     ],
-    "translation": "unemployment"
+    "translation": "unemployment",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 1385,
@@ -27570,7 +27604,6 @@
       "indefinitePlural": "vetenskaper",
       "definitePlural": "vetenskaperna"
     },
-    "enUncountable": true,
     "examples": [
       "Vetenskap hjälper oss att förstå världen."
     ],
@@ -27798,7 +27831,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Vi visar respekt för varandra."
     ],
@@ -27806,7 +27838,9 @@
     "sense": {
       "key": "respect#0",
       "gloss": "esteem"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 1428,
@@ -27887,7 +27921,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Ta hänsyn till andra."
     ],
@@ -27895,7 +27928,9 @@
     "sense": {
       "key": "respect#1",
       "gloss": "consideration"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 1434,
@@ -28190,7 +28225,8 @@
       "att andas luft",
       "uppe i luften"
     ],
-    "translation": "air"
+    "translation": "air",
+    "svUncountable": true
   },
   {
     "seedKey": 1448,
@@ -28727,7 +28763,8 @@
     "examples": [
       "Det är bra för din hälsa."
     ],
-    "translation": "health"
+    "translation": "health",
+    "svUncountable": true
   },
   {
     "seedKey": 2152,
@@ -28963,7 +29000,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Han försökte få reda i röran i garaget."
     ],
@@ -28971,7 +29007,9 @@
     "sense": {
       "key": "order#0",
       "gloss": "tidiness"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 1858,
@@ -29323,7 +29361,6 @@
       "jump",
       "vault (sport)"
     ],
-    "enUncountable": true,
     "examples": [
       "ge upp hoppet"
     ],
@@ -30736,11 +30773,12 @@
     "subDefinitions": [
       "inflation (of grades, standards, etc.)"
     ],
-    "enUncountable": true,
     "examples": [
       "betygsinflation"
     ],
-    "translation": "inflation"
+    "translation": "inflation",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 1575,
@@ -30801,11 +30839,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Barnet vill ha uppmärksamhet."
     ],
-    "translation": "attention"
+    "translation": "attention",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 1578,
@@ -30847,7 +30886,8 @@
     "examples": [
       "Fjorton dagar före Jul friade pastorn till den blonda och fick nej!"
     ],
-    "translation": "Christmas, Yule"
+    "translation": "Christmas, Yule",
+    "svProper": true
   },
   {
     "seedKey": 1580,
@@ -31280,7 +31320,6 @@
     "subDefinitions": [
       "defeat (in a game or match)"
     ],
-    "enUncountable": true,
     "examples": [
       "en svidande förlust för hemmalaget",
       "Företaget går med förlust"
@@ -32269,11 +32308,12 @@
       "indefinitePlural": "kapitalismer",
       "definitePlural": "kapitalismerna"
     },
-    "enUncountable": true,
     "examples": [
       "Kapitalism bygger på fri marknad."
     ],
-    "translation": "capitalism"
+    "translation": "capitalism",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 1658,
@@ -33515,7 +33555,8 @@
     "examples": [
       "Vilket fint väder i dag!"
     ],
-    "translation": "weather"
+    "translation": "weather",
+    "svUncountable": true
   },
   {
     "seedKey": 1725,
@@ -33623,11 +33664,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Det är mycket trafik på morgonen."
     ],
-    "translation": "traffic"
+    "translation": "traffic",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 1731,
@@ -34722,7 +34764,9 @@
     "examples": [
       "Det finns blod på golvet."
     ],
-    "translation": "blood"
+    "translation": "blood",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 1790,
@@ -34772,7 +34816,9 @@
     "examples": [
       "Det är viktigt att skydda din integritet."
     ],
-    "translation": "integrity"
+    "translation": "integrity",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 1793,
@@ -35695,7 +35741,8 @@
     "sense": {
       "key": "application, use#1",
       "gloss": "implementation, use"
-    }
+    },
+    "enUncountable": true
   },
   {
     "seedKey": 1840,
@@ -35809,8 +35856,6 @@
     "subDefinitions": [
       "Swedish woman"
     ],
-    "enUncountable": true,
-    "svUncountable": true,
     "examples": [
       "Talar du svenska?"
     ],
@@ -35818,7 +35863,9 @@
     "sense": {
       "key": "Swedish#1",
       "gloss": "the language"
-    }
+    },
+    "enProper": true,
+    "svProper": true
   },
   {
     "seedKey": 1845,
@@ -37002,11 +37049,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Kristendomen är en stor religion."
     ],
-    "translation": "Christianity"
+    "translation": "Christianity",
+    "enProper": true,
+    "svProper": true
   },
   {
     "seedKey": 1909,
@@ -37179,7 +37227,9 @@
     "sense": {
       "key": "independence#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 1917,
@@ -37258,7 +37308,9 @@
     "sense": {
       "key": "snow#0",
       "gloss": "the white stuff"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 1920,
@@ -37299,7 +37351,9 @@
     "examples": [
       "Undervisningen börjar klockan åtta."
     ],
-    "translation": "teaching, instruction"
+    "translation": "teaching, instruction",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 1922,
@@ -37313,12 +37367,13 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Jag skulle vilja ha grillat kött, tack!",
       "Ordet blev kött."
     ],
-    "translation": "meat, flesh"
+    "translation": "meat, flesh",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 1923,
@@ -37459,7 +37514,8 @@
     "sense": {
       "key": "English#1",
       "gloss": "the language"
-    }
+    },
+    "svProper": true
   },
   {
     "seedKey": 1928,
@@ -37744,7 +37800,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "dricka en kopp kaffe",
       "brygga kaffe i en kaffebryggare"
@@ -37801,11 +37856,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Det gäller hela mänskligheten."
     ],
-    "translation": "humanity, mankind"
+    "translation": "humanity, mankind",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 1948,
@@ -38218,7 +38274,6 @@
     "subDefinitions": [
       "bible (authoritative reference in a field)"
     ],
-    "enProper": true,
     "examples": [
       "Hon hittade en gammal bibel på vinden."
     ],
@@ -38663,7 +38718,8 @@
     "sense": {
       "key": "retirement#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true
   },
   {
     "seedKey": 1996,
@@ -38680,7 +38736,9 @@
     "examples": [
       "Diskriminering är förbjudet."
     ],
-    "translation": "discrimination"
+    "translation": "discrimination",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 1997,
@@ -38776,7 +38834,6 @@
       "indefinitePlural": "sporter",
       "definitePlural": "sporterna"
     },
-    "enUncountable": true,
     "examples": [
       "Han gillar sport."
     ],
@@ -38798,11 +38855,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Rättvisa har blivit skipad"
     ],
-    "translation": "justice, fairness"
+    "translation": "justice, fairness",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2003,
@@ -38997,7 +39055,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Sverige har ett starkt välfärdssystem."
     ],
@@ -39005,7 +39062,9 @@
     "sense": {
       "key": "welfare#0",
       "gloss": "wellbeing, welfare state"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2015,
@@ -39258,11 +39317,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Terrorism är ett globalt problem."
     ],
-    "translation": "terrorism"
+    "translation": "terrorism",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2026,
@@ -39320,7 +39380,9 @@
     "sense": {
       "key": "west#0",
       "gloss": "the direction, region"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2029,
@@ -39490,7 +39552,6 @@
       "indefinitePlural": "viner",
       "definitePlural": "vinerna"
     },
-    "enUncountable": true,
     "examples": [
       "Låt oss korka upp en flaska vin.",
       "Hon drack lite vin ur ett vinglas."
@@ -39532,7 +39593,9 @@
     "examples": [
       "Rasism ska bekämpas."
     ],
-    "translation": "racism"
+    "translation": "racism",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2039,
@@ -39701,7 +39764,9 @@
     "examples": [
       "Yttrandefrihet är en mänsklig rättighet."
     ],
-    "translation": "freedom of speech"
+    "translation": "freedom of speech",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2048,
@@ -40357,11 +40422,12 @@
       "indefinitePlural": "invandringar",
       "definitePlural": "invandringarna"
     },
-    "enUncountable": true,
     "examples": [
       "Invandring är ett politiskt ämne."
     ],
-    "translation": "immigration"
+    "translation": "immigration",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2086,
@@ -40570,7 +40636,6 @@
     "subDefinitions": [
       "foreign aid, development aid"
     ],
-    "enUncountable": true,
     "examples": [
       "Sverige ger bistånd till fattiga länder."
     ],
@@ -40578,7 +40643,9 @@
     "sense": {
       "key": "aid, support#0",
       "gloss": "foreign aid"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2099,
@@ -41031,7 +41098,6 @@
       "indefinitePlural": "äror",
       "definitePlural": "ärorna"
     },
-    "enUncountable": true,
     "examples": [
       "Det är en ära att vinna priset."
     ],
@@ -41175,7 +41241,8 @@
     "examples": [
       "Vi söker ett billigt boende för semestern."
     ],
-    "translation": "housing, accommodation"
+    "translation": "housing, accommodation",
+    "enUncountable": true
   },
   {
     "seedKey": 2130,
@@ -41272,11 +41339,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Brödet är gjort av vete."
     ],
-    "translation": "wheat"
+    "translation": "wheat",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2135,
@@ -41585,7 +41653,9 @@
     "examples": [
       "Han tror på socialism."
     ],
-    "translation": "socialism"
+    "translation": "socialism",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2154,
@@ -41623,7 +41693,8 @@
     "examples": [
       "Hon söker en ny anställning."
     ],
-    "translation": "employment"
+    "translation": "employment",
+    "enUncountable": true
   },
   {
     "seedKey": 2156,
@@ -42025,11 +42096,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Det är svårt att se i mörkret."
     ],
-    "translation": "darkness"
+    "translation": "darkness",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2174,
@@ -42064,7 +42136,6 @@
       "warmth (emotional)",
       "heat, energy (physics)"
     ],
-    "enUncountable": true,
     "examples": [
       "Sommaren ger stor värme."
     ],
@@ -42072,7 +42143,9 @@
     "sense": {
       "key": "heat, warmth#0",
       "gloss": "warmth (noun)"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2176,
@@ -42479,7 +42552,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Hat löser inga problem."
     ],
@@ -42487,7 +42559,9 @@
     "sense": {
       "key": "hate#1",
       "gloss": "the feeling of hatred"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2198,
@@ -42646,12 +42720,13 @@
       "morale (spirit, motivation)",
       "moral, lesson (of a story)"
     ],
-    "enUncountable": true,
     "examples": [
       "etik och moral",
       "De saknar helt moral"
     ],
-    "translation": "morality, morals"
+    "translation": "morality, morals",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2206,
@@ -43015,7 +43090,9 @@
     "examples": [
       "Projektet behöver mer finansiering."
     ],
-    "translation": "financing, funding"
+    "translation": "financing, funding",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2225,
@@ -43383,11 +43460,12 @@
       "indefinitePlural": "lidanden",
       "definitePlural": "lidandena"
     },
-    "enUncountable": true,
     "examples": [
       "Vi vill minska lidandet i världen."
     ],
-    "translation": "suffering, misery, hurt"
+    "translation": "suffering, misery, hurt",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2245,
@@ -43539,11 +43617,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Många barn lever i fattigdom."
     ],
-    "translation": "poverty"
+    "translation": "poverty",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2253,
@@ -43708,7 +43787,9 @@
     "examples": [
       "Jag gillar närheten till skogen."
     ],
-    "translation": "closeness"
+    "translation": "closeness",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2261,
@@ -44258,7 +44339,8 @@
     "examples": [
       "Ringen är gjord av guld."
     ],
-    "translation": "gold"
+    "translation": "gold",
+    "svUncountable": true
   },
   {
     "seedKey": 2289,
@@ -44561,11 +44643,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Han studerar kommunism på universitetet."
     ],
-    "translation": "communism"
+    "translation": "communism",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2305,
@@ -44678,7 +44761,6 @@
       "indefinitePlural": "utrustningar",
       "definitePlural": "utrustningarna"
     },
-    "enUncountable": true,
     "examples": [
       "Vi behöver ny utrustning till gymmet."
     ],
@@ -44686,7 +44768,9 @@
     "sense": {
       "key": "equipment#0",
       "gloss": "gear, kit"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2312,
@@ -45058,7 +45142,6 @@
       "indefinitePlural": "frider",
       "definitePlural": "friderna"
     },
-    "enUncountable": true,
     "examples": [
       "Det råder frid och ro i huset."
     ],
@@ -45066,7 +45149,9 @@
     "sense": {
       "key": "peace, tranquility#0",
       "gloss": "calm, serenity"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2332,
@@ -45080,11 +45165,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Företaget behöver mer arbetskraft."
     ],
-    "translation": "labour, manpower"
+    "translation": "labour, manpower",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2333,
@@ -45202,11 +45288,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Vi arbetar för jämställdhet på jobbet."
     ],
-    "translation": "gender equality"
+    "translation": "gender equality",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2339,
@@ -45503,11 +45590,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "De kämpar mot förtrycket."
     ],
-    "translation": "oppression"
+    "translation": "oppression",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2353,
@@ -46050,11 +46138,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Det finns kameror för övervakning här."
     ],
-    "translation": "surveillance, monitoring"
+    "translation": "surveillance, monitoring",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2384,
@@ -46300,11 +46389,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Läraren har glömt att ta närvaro."
     ],
-    "translation": "presence"
+    "translation": "presence",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2396,
@@ -46339,11 +46429,12 @@
       "indefinitePlural": "infrastrukturer",
       "definitePlural": "infrastrukturerna"
     },
-    "enUncountable": true,
     "examples": [
       "Landet investerar i infrastruktur."
     ],
-    "translation": "infrastructure"
+    "translation": "infrastructure",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2398,
@@ -46560,7 +46651,8 @@
     "examples": [
       "Röstningen börjar klockan åtta."
     ],
-    "translation": "voting"
+    "translation": "voting",
+    "enUncountable": true
   },
   {
     "seedKey": 2411,
@@ -46753,11 +46845,12 @@
     "subDefinitions": [
       "nuclear force (physics)"
     ],
-    "enUncountable": true,
     "examples": [
       "Sverige använder kärnkraft för el."
     ],
-    "translation": "nuclear power"
+    "translation": "nuclear power",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2422,
@@ -46906,7 +46999,9 @@
     "sense": {
       "key": "participation#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2429,
@@ -47101,11 +47196,12 @@
     "subDefinitions": [
       "spirit, state of mind"
     ],
-    "enUncountable": true,
     "examples": [
       "Det krävs mod att säga sanningen."
     ],
-    "translation": "courage"
+    "translation": "courage",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2440,
@@ -47464,7 +47560,9 @@
     "sense": {
       "key": "consumption#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2458,
@@ -48275,7 +48373,9 @@
     "examples": [
       "God planering sparar tid."
     ],
-    "translation": "planning"
+    "translation": "planning",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2500,
@@ -48790,7 +48890,9 @@
     "sense": {
       "key": "rain#0",
       "gloss": "noun"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2526,
@@ -48953,11 +49055,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "God marknadsföring hjälper företaget."
     ],
-    "translation": "marketing"
+    "translation": "marketing",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2534,
@@ -49216,7 +49319,9 @@
     "examples": [
       "Vi visar solidaritet med varandra."
     ],
-    "translation": "solidarity"
+    "translation": "solidarity",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2547,
@@ -50042,11 +50147,12 @@
       "indefinitePlural": "ledarskap",
       "definitePlural": "ledarskapen"
     },
-    "enUncountable": true,
     "examples": [
       "Bra ledarskap är otroligt viktigt för henne."
     ],
-    "translation": "leadership"
+    "translation": "leadership",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2590,
@@ -50254,7 +50360,9 @@
     "sense": {
       "key": "permission#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2599,
@@ -51030,11 +51138,12 @@
       "indefinitePlural": "logiker",
       "definitePlural": "logikerna"
     },
-    "enUncountable": true,
     "examples": [
       "Det finns ingen logik i det."
     ],
-    "translation": "logic"
+    "translation": "logic",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2643,
@@ -51224,11 +51333,12 @@
       "indefinitePlural": "landsbygder",
       "definitePlural": "landsbygderna"
     },
-    "enUncountable": true,
     "examples": [
       "den italienska landsbygden"
     ],
-    "translation": "countryside"
+    "translation": "countryside",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2653,
@@ -51241,7 +51351,6 @@
       "indefinitePlural": "integrationer",
       "definitePlural": "integrationerna"
     },
-    "enUncountable": true,
     "examples": [
       "Integration är viktig i ett mångkulturellt land."
     ],
@@ -51249,7 +51358,9 @@
     "sense": {
       "key": "integration#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2654,
@@ -52437,7 +52548,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Öppenhet är viktigt i en relation."
     ],
@@ -52445,7 +52555,9 @@
     "sense": {
       "key": "openness#0",
       "gloss": "candour, transparency"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2718,
@@ -52744,11 +52856,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Han har förlorat sin trovärdighet."
     ],
-    "translation": "credibility, trustworthiness"
+    "translation": "credibility, trustworthiness",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2734,
@@ -52789,11 +52902,12 @@
       "indefinitePlural": "värdigheter",
       "definitePlural": "värdigheterna"
     },
-    "enUncountable": true,
     "examples": [
       "Hon behandlade alla med värdighet."
     ],
-    "translation": "dignity"
+    "translation": "dignity",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2736,
@@ -53107,7 +53221,9 @@
     "examples": [
       "Det råder ingen tvekan om att han är skyldig"
     ],
-    "translation": "hesitation"
+    "translation": "hesitation",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2751,
@@ -53697,7 +53813,9 @@
     "sense": {
       "key": "independence#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2782,
@@ -54121,11 +54239,12 @@
     "subDefinitions": [
       "deep regret, remorse"
     ],
-    "enUncountable": true,
     "examples": [
       "Jag har sån ångest över vad jag gjorde igår."
     ],
-    "translation": "anxiety"
+    "translation": "anxiety",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2805,
@@ -54474,7 +54593,9 @@
     "examples": [
       "Ekonomin behöver mer stabilitet."
     ],
-    "translation": "stability"
+    "translation": "stability",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2822,
@@ -54488,11 +54609,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Använd ditt förnuft!"
     ],
-    "translation": "rationality, good sense"
+    "translation": "rationality, good sense",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2823,
@@ -54724,11 +54846,12 @@
       "indefinitePlural": "propagandor",
       "definitePlural": "propagandorna"
     },
-    "enUncountable": true,
     "examples": [
       "Regeringen spred propaganda om kriget."
     ],
-    "translation": "propaganda"
+    "translation": "propaganda",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2836,
@@ -55283,7 +55406,9 @@
     "examples": [
       "Hanteringen av avfallet är ett problem."
     ],
-    "translation": "handling, management"
+    "translation": "handling, management",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2865,
@@ -55471,11 +55596,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Hon studerar journalistik på universitetet."
     ],
-    "translation": "journalism"
+    "translation": "journalism",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2874,
@@ -57030,7 +57156,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "alkohol- och drogmissbruk",
       "maktmissbruk"
@@ -57039,7 +57164,9 @@
     "sense": {
       "key": "abuse, assault#1",
       "gloss": "misuse, addiction"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2957,
@@ -57210,7 +57337,9 @@
     "examples": [
       "Bättre samordning behövs mellan avdelningarna."
     ],
-    "translation": "coordination"
+    "translation": "coordination",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2966,
@@ -57425,7 +57554,8 @@
     "examples": [
       "Borgen byggdes under medeltiden."
     ],
-    "translation": "Middle Ages"
+    "translation": "Middle Ages",
+    "svProper": true
   },
   {
     "seedKey": 2978,
@@ -57513,7 +57643,9 @@
     "sense": {
       "key": "consciousness#0",
       "gloss": "state of awareness"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2982,
@@ -57552,7 +57684,6 @@
     "cefr": "B1",
     "gender": "ett",
     "ipa": "²vˈeːtandɛ",
-    "enUncountable": true,
     "examples": [
       "Utan hans vetande ändrade de planen."
     ],
@@ -57560,7 +57691,9 @@
     "sense": {
       "key": "knowledge#1",
       "gloss": "awareness, knowing"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2985,
@@ -57746,11 +57879,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Det var totalt kaos på festen"
     ],
-    "translation": "chaos"
+    "translation": "chaos",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 2996,
@@ -58325,11 +58459,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Antisemitism är ett stort problem i världen."
     ],
-    "translation": "anti-Semitism"
+    "translation": "anti-Semitism",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3026,
@@ -58384,7 +58519,8 @@
     "sense": {
       "key": "information#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true
   },
   {
     "seedKey": 3029,
@@ -58424,7 +58560,6 @@
       "administration (a specific government, e.g. the Biden administration)",
       "administration (of medicine)"
     ],
-    "enUncountable": true,
     "examples": [
       "Bush-administrationen",
       "oral administration"
@@ -58643,11 +58778,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Ny teknik ökar effektiviteten på jobbet."
     ],
-    "translation": "efficiency"
+    "translation": "efficiency",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3045,
@@ -58935,7 +59071,6 @@
       "indefinitePlural": "avfall",
       "definitePlural": "avfallen"
     },
-    "enUncountable": true,
     "examples": [
       "Släng avfallet i rätt påse."
     ],
@@ -58943,7 +59078,9 @@
     "sense": {
       "key": "waste, refuse, garbage#0",
       "gloss": "garbage, trash"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3062,
@@ -59018,7 +59155,8 @@
     "examples": [
       "Det är bäst att inleda sina träningspass med uppvärmning."
     ],
-    "translation": "heating"
+    "translation": "heating",
+    "enUncountable": true
   },
   {
     "seedKey": 3067,
@@ -59681,7 +59819,8 @@
     "sense": {
       "key": "sleep#1",
       "gloss": "noun"
-    }
+    },
+    "svUncountable": true
   },
   {
     "seedKey": 3102,
@@ -59989,11 +60128,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Feminism handlar om lika rättigheter."
     ],
-    "translation": "feminism"
+    "translation": "feminism",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3119,
@@ -60022,11 +60162,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Globaliseringen påverkar ekonomin i hela världen."
     ],
-    "translation": "globalization"
+    "translation": "globalization",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3121,
@@ -60139,7 +60280,9 @@
     "sense": {
       "key": "north#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3128,
@@ -60152,11 +60295,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Lugn andning hjälper vid stress."
     ],
-    "translation": "breathing, respiration"
+    "translation": "breathing, respiration",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3129,
@@ -60218,7 +60362,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Stress har stor inverkan på hälsan."
     ],
@@ -60851,11 +60994,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Liberalism betonar individens frihet."
     ],
-    "translation": "liberalism"
+    "translation": "liberalism",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3168,
@@ -60885,7 +61029,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Jobbet ger honom mycket stress."
     ],
@@ -60893,7 +61036,9 @@
     "sense": {
       "key": "stress#0",
       "gloss": "mental pressure (noun)"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3170,
@@ -61526,7 +61671,9 @@
     "examples": [
       "Yoga förbättrar kroppens rörlighet."
     ],
-    "translation": "mobility"
+    "translation": "mobility",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3202,
@@ -62705,11 +62852,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "etik och moral"
     ],
-    "translation": "ethics"
+    "translation": "ethics",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3267,
@@ -62752,7 +62900,9 @@
     "examples": [
       "Förintelsen var en av historiens största tragedier."
     ],
-    "translation": "annihilation, destruction"
+    "translation": "annihilation, destruction",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3271,
@@ -62849,7 +62999,8 @@
     "examples": [
       "Landet har uppnått ett högt välstånd."
     ],
-    "translation": "prosperity, wealth"
+    "translation": "prosperity, wealth",
+    "enUncountable": true
   },
   {
     "seedKey": 3276,
@@ -63094,11 +63245,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Bilar släpper ut koldioxid i luften."
     ],
-    "translation": "carbon dioxide"
+    "translation": "carbon dioxide",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3290,
@@ -63238,7 +63390,8 @@
       "Nöjet är helt på min sida!",
       "göra något för nöjes skull"
     ],
-    "translation": "enjoyment"
+    "translation": "enjoyment",
+    "enUncountable": true
   },
   {
     "seedKey": 3297,
@@ -63548,7 +63701,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Han minns sin barndom med glädje."
     ],
@@ -63959,11 +64111,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "korruption på hög nivå"
     ],
-    "translation": "corruption"
+    "translation": "corruption",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3337,
@@ -64227,7 +64380,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Byggandet av nya bostäder ökar i staden."
     ],
@@ -64235,7 +64387,9 @@
     "sense": {
       "key": "building#1",
       "gloss": "act of building"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3351,
@@ -64474,7 +64628,6 @@
     "subDefinitions": [
       "agreement"
     ],
-    "enUncountable": true,
     "examples": [
       "publikens bifall"
     ],
@@ -64482,7 +64635,9 @@
     "sense": {
       "key": "applause, approval#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3364,
@@ -65082,7 +65237,9 @@
     "examples": [
       "Nationalismen växte under nittonhundratalet."
     ],
-    "translation": "nationalism"
+    "translation": "nationalism",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3399,
@@ -65346,7 +65503,9 @@
     "examples": [
       "förföljelse av oliktänkande"
     ],
-    "translation": "stalking"
+    "translation": "stalking",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3415,
@@ -65360,7 +65519,6 @@
       "indefinitePlural": "byråkratier",
       "definitePlural": "byråkratierna"
     },
-    "enUncountable": true,
     "examples": [
       "Det finns för mycket byråkrati i systemet."
     ],
@@ -65408,7 +65566,6 @@
       "indefinitePlural": "tillsyner",
       "definitePlural": "tillsynerna"
     },
-    "enUncountable": true,
     "examples": [
       "Socialen har tillsyn över barnhemmet."
     ],
@@ -65416,7 +65573,9 @@
     "sense": {
       "key": "supervision#0",
       "gloss": "official oversight"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3419,
@@ -65462,11 +65621,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enProper": true,
     "examples": [
       "Nazismen orsakade enormt lidande under andra världskriget."
     ],
-    "translation": "Nazism"
+    "translation": "Nazism",
+    "enProper": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3421,
@@ -65655,7 +65815,9 @@
     "sense": {
       "key": "creation#0",
       "gloss": "created thing or act"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3432,
@@ -65901,7 +66063,9 @@
     "examples": [
       "Bibliotekets tillgänglighet är god för rullstolsanvändare."
     ],
-    "translation": "availability"
+    "translation": "availability",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3445,
@@ -66021,7 +66185,9 @@
       "hälla upp ett glas mjölk",
       "dricka ett glas mjölk"
     ],
-    "translation": "milk"
+    "translation": "milk",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3451,
@@ -66030,7 +66196,6 @@
     "cefr": "B1",
     "gender": "en",
     "ipa": "pˈɔlːɪsʏ",
-    "enUncountable": true,
     "examples": [
       "Skolan har en tydlig policy mot mobbning."
     ],
@@ -66761,7 +66926,8 @@
     "sense": {
       "key": "fine#0",
       "gloss": ""
-    }
+    },
+    "svUncountable": true
   },
   {
     "seedKey": 3489,
@@ -66884,7 +67050,6 @@
     "pos": "noun",
     "cefr": "B1",
     "gender": "ett",
-    "enUncountable": true,
     "examples": [
       "Ett klokt användande av pengar är viktigt."
     ],
@@ -66892,7 +67057,9 @@
     "sense": {
       "key": "use#1",
       "gloss": "noun: usage"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3496,
@@ -66957,7 +67124,6 @@
       "indefinitePlural": "tortyrer",
       "definitePlural": "tortyrerna"
     },
-    "enUncountable": true,
     "examples": [
       "Tortyr är förbjudet enligt internationell lag."
     ],
@@ -66965,7 +67131,9 @@
     "sense": {
       "key": "torture#0",
       "gloss": "the cruelty inflicted"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3500,
@@ -67157,11 +67325,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Matematik är mitt svåraste ämne i skolan."
     ],
-    "translation": "mathematics"
+    "translation": "mathematics",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3510,
@@ -67630,7 +67799,6 @@
       "indefinitePlural": "äganden",
       "definitePlural": "ägandena"
     },
-    "enUncountable": true,
     "examples": [
       "Privat ägande av mark är tillåtet i Sverige."
     ],
@@ -67638,7 +67806,9 @@
     "sense": {
       "key": "ownership#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3539,
@@ -67952,7 +68122,9 @@
     "sense": {
       "key": "agreement, contract#1",
       "gloss": "consensus, unanimity"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3555,
@@ -68103,11 +68275,12 @@
     "pos": "noun",
     "cefr": "B1",
     "gender": "en",
-    "enUncountable": true,
     "examples": [
       "Mediernas rapportering om händelsen var intensiv."
     ],
-    "translation": "reporting"
+    "translation": "reporting",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3564,
@@ -68121,7 +68294,6 @@
       "indefinitePlural": "stölder",
       "definitePlural": "stölderna"
     },
-    "enUncountable": true,
     "examples": [
       "Polisen utreder en stöld från affären."
     ],
@@ -68138,11 +68310,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Företagets konkurrenskraft ökar med ny teknik."
     ],
-    "translation": "competitiveness"
+    "translation": "competitiveness",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3566,
@@ -68421,7 +68594,8 @@
     "examples": [
       "Hans argumentation är stark."
     ],
-    "translation": "argumentation, line of reasoning"
+    "translation": "argumentation, line of reasoning",
+    "enUncountable": true
   },
   {
     "seedKey": 3582,
@@ -68491,12 +68665,13 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Hon har god kännedom om svensk historia.",
       "Jag skickar dig rapporten för kännedom."
     ],
-    "translation": "awareness, acquaintance"
+    "translation": "awareness, acquaintance",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3585,
@@ -68547,11 +68722,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Vi kämpar för jämlikhet."
     ],
-    "translation": "equality"
+    "translation": "equality",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3588,
@@ -68688,7 +68864,9 @@
     "sense": {
       "key": "finance#1",
       "gloss": "finances, money"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3596,
@@ -68931,11 +69109,12 @@
       "indefinitePlural": "beskattningar",
       "definitePlural": "beskattningarna"
     },
-    "enUncountable": true,
     "examples": [
       "Beskattningen av företag är hög."
     ],
-    "translation": "taxation"
+    "translation": "taxation",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3609,
@@ -69061,11 +69240,12 @@
     "subDefinitions": [
       "paste"
     ],
-    "enUncountable": true,
     "examples": [
       "koka pasta"
     ],
-    "translation": "pasta"
+    "translation": "pasta",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3616,
@@ -69127,7 +69307,6 @@
       "indefinitePlural": "tillverkningar",
       "definitePlural": "tillverkningarna"
     },
-    "enUncountable": true,
     "examples": [
       "Tillverkningen av bilar tar tid."
     ],
@@ -69135,7 +69314,9 @@
     "sense": {
       "key": "manufacture, produce, make#1",
       "gloss": "manufacturing"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3620,
@@ -69376,7 +69557,6 @@
       "indefinitePlural": "teknologier",
       "definitePlural": "teknologierna"
     },
-    "enUncountable": true,
     "examples": [
       "Ny teknologi förändrar hur vi jobbar."
     ],
@@ -69662,7 +69842,9 @@
     "sense": {
       "key": "south#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3648,
@@ -69955,7 +70137,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Han gömde sin ilska."
     ],
@@ -69963,7 +70144,9 @@
     "sense": {
       "key": "anger#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3663,
@@ -70365,7 +70548,9 @@
     "sense": {
       "key": "longing, loss#0",
       "gloss": "sense of loss"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3686,
@@ -70845,7 +71030,9 @@
     "examples": [
       "Boken handlar om identitet och sexualitet."
     ],
-    "translation": "sexuality"
+    "translation": "sexuality",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3711,
@@ -70875,11 +71062,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Barn har stor kreativitet."
     ],
-    "translation": "creativity"
+    "translation": "creativity",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3713,
@@ -70950,11 +71138,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Hon studerar teologi vid universitetet."
     ],
-    "translation": "theology"
+    "translation": "theology",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3717,
@@ -70968,11 +71157,12 @@
       "indefinitePlural": "arkitekturer",
       "definitePlural": "arkitekturerna"
     },
-    "enUncountable": true,
     "examples": [
       "Det var ett fint exempel på neoklassisk arkitektur."
     ],
-    "translation": "architecture"
+    "translation": "architecture",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3718,
@@ -71600,7 +71790,9 @@
     "examples": [
       "Kommunens finanser ser bra ut."
     ],
-    "translation": "finances"
+    "translation": "finances",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3750,
@@ -71613,7 +71805,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "ett livslångt lärande"
     ],
@@ -71621,7 +71812,9 @@
     "sense": {
       "key": "learning, lesson#1",
       "gloss": "process of learning"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3751,
@@ -72013,7 +72206,8 @@
     "examples": [
       "Barn behöver rätt näring för att växa."
     ],
-    "translation": "nourishment, food"
+    "translation": "nourishment, food",
+    "enUncountable": true
   },
   {
     "seedKey": 3772,
@@ -72027,11 +72221,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Han läser poesi på fritiden."
     ],
-    "translation": "poetry"
+    "translation": "poetry",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3773,
@@ -72592,11 +72787,12 @@
     "cefr": "B1",
     "gender": "en",
     "ipa": "pˈoːkɛr",
-    "enUncountable": true,
     "examples": [
       "Vi spelade poker hela natten."
     ],
-    "translation": "poker"
+    "translation": "poker",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3807,
@@ -72885,7 +73081,9 @@
     "sense": {
       "key": "participation#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3822,
@@ -73664,7 +73862,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Det är förbjudet att ha tillträde till detta rum."
     ],
@@ -73672,7 +73869,9 @@
     "sense": {
       "key": "access#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3863,
@@ -73715,11 +73914,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Prostitution är ett socialt problem."
     ],
-    "translation": "prostitution"
+    "translation": "prostitution",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3866,
@@ -74062,7 +74262,9 @@
       "Jag läser fysik",
       "fysik som en grekisk gud"
     ],
-    "translation": "physics"
+    "translation": "physics",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3884,
@@ -74077,7 +74279,9 @@
     "examples": [
       "Han spelar hockey på vintern."
     ],
-    "translation": "hockey"
+    "translation": "hockey",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3885,
@@ -74091,11 +74295,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "God sömn ökar produktiviteten."
     ],
-    "translation": "productivity"
+    "translation": "productivity",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3886,
@@ -74126,7 +74331,6 @@
       "indefinitePlural": "kontraster",
       "definitePlural": "kontrasterna"
     },
-    "enUncountable": true,
     "examples": [
       "Det finns en stark kontrast mellan de två färgerna."
     ],
@@ -74338,7 +74542,9 @@
     "examples": [
       "Jag har utfört underhåll på ventilationssystemet."
     ],
-    "translation": "maintenance"
+    "translation": "maintenance",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3899,
@@ -74552,12 +74758,13 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "hungersnöd",
       "Alla i byn håller på att svälta ihjäl. Det råder nöd."
     ],
-    "translation": "distress"
+    "translation": "distress",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3911,
@@ -75096,7 +75303,6 @@
       "indefinitePlural": "förfoganden",
       "definitePlural": "förfogandena"
     },
-    "enUncountable": true,
     "examples": [
       "till förfogande",
       "står till förfogande"
@@ -75105,7 +75311,9 @@
     "sense": {
       "key": "disposal#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3940,
@@ -75206,7 +75414,9 @@
     "sense": {
       "key": "confidence, self-confidence#0",
       "gloss": "in oneself"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3945,
@@ -75386,7 +75596,6 @@
     "cefr": "B1",
     "gender": "en",
     "ipa": "panˈiːk",
-    "enUncountable": true,
     "examples": [
       "Folk sprang i panik från platsen."
     ],
@@ -75522,11 +75731,12 @@
     "pos": "noun",
     "cefr": "B1",
     "gender": "en",
-    "enProper": true,
     "examples": [
       "De sjöng Internationalen på mötet."
     ],
-    "translation": "Internationale (socialist anthem/organization)"
+    "translation": "Internationale (socialist anthem/organization)",
+    "enProper": true,
+    "svProper": true
   },
   {
     "seedKey": 3963,
@@ -75553,7 +75763,9 @@
     "examples": [
       "Projektet finansieras med skattepengar."
     ],
-    "translation": "tax money, taxpayers' money"
+    "translation": "tax money, taxpayers' money",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3965,
@@ -75589,7 +75801,9 @@
     "sense": {
       "key": "exploitation#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3967,
@@ -75619,11 +75833,12 @@
       "indefinitePlural": "problematiker",
       "definitePlural": "problematikerna"
     },
-    "enUncountable": true,
     "examples": [
       "Vi diskuterade problematiken kring fattigdom."
     ],
-    "translation": "set of problems, issues"
+    "translation": "set of problems, issues",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3969,
@@ -75916,7 +76131,9 @@
     "examples": [
       "I en öken finns det mycket sand"
     ],
-    "translation": "sand"
+    "translation": "sand",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 3986,
@@ -76019,7 +76236,8 @@
     "examples": [
       "Pappa gillar att gå ut på fiske."
     ],
-    "translation": "fishing"
+    "translation": "fishing",
+    "enUncountable": true
   },
   {
     "seedKey": 3992,
@@ -76281,11 +76499,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Han studerar psykologi på universitetet."
     ],
-    "translation": "psychology"
+    "translation": "psychology",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4006,
@@ -76361,12 +76580,13 @@
     "subDefinitions": [
       "tree (archaic, poetic)"
     ],
-    "enUncountable": true,
     "examples": [
       "Trä kommer från träd",
       "en träsked"
     ],
-    "translation": "wood"
+    "translation": "wood",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4010,
@@ -76617,7 +76837,9 @@
     "examples": [
       "Han sökte frälsning i kyrkan."
     ],
-    "translation": "salvation"
+    "translation": "salvation",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4023,
@@ -76711,7 +76933,9 @@
     "sense": {
       "key": "consciousness#1",
       "gloss": "mindful awareness"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4028,
@@ -76877,11 +77101,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Du behöver ha tålamod när du lär dig ett språk."
     ],
-    "translation": "patience"
+    "translation": "patience",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4037,
@@ -77275,7 +77500,8 @@
     "examples": [
       "salt och peppar"
     ],
-    "translation": "salt"
+    "translation": "salt",
+    "svUncountable": true
   },
   {
     "seedKey": 4061,
@@ -77454,7 +77680,9 @@
     "examples": [
       "God styrning är viktig för ett företag."
     ],
-    "translation": "steering"
+    "translation": "steering",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4071,
@@ -77607,7 +77835,6 @@
     "cefr": "B1",
     "gender": "en",
     "ipa": "krɪmɪnalɪtˈeːt",
-    "enUncountable": true,
     "examples": [
       "Staden arbetar för att minska kriminaliteten."
     ],
@@ -77615,7 +77842,9 @@
     "sense": {
       "key": "crime#1",
       "gloss": "criminality"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4080,
@@ -77671,7 +77900,9 @@
     "sense": {
       "key": "north#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4083,
@@ -77895,7 +78126,9 @@
     "examples": [
       "Boken handlar om europeisk imperialism."
     ],
-    "translation": "imperialism"
+    "translation": "imperialism",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4095,
@@ -78014,7 +78247,9 @@
     "sense": {
       "key": "saving#1",
       "gloss": "act of saving"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4102,
@@ -78040,11 +78275,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enProper": true,
     "examples": [
       "Marxismen har påverkat politiken i många länder."
     ],
-    "translation": "Marxism"
+    "translation": "Marxism",
+    "enProper": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4104,
@@ -78487,7 +78723,6 @@
       "indefinitePlural": "vägledningar",
       "definitePlural": "vägledningarna"
     },
-    "enUncountable": true,
     "examples": [
       "Studenten fick vägledning av sin lärare."
     ],
@@ -78495,7 +78730,9 @@
     "sense": {
       "key": "guidance#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4129,
@@ -78791,11 +79028,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Fascismen spreds i Europa på 1930-talet."
     ],
-    "translation": "fascism"
+    "translation": "fascism",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4146,
@@ -79184,11 +79422,12 @@
       "indefinitePlural": "sympatier",
       "definitePlural": "sympatierna"
     },
-    "enUncountable": true,
     "examples": [
       "Jag känner stor sympati för hennes situation."
     ],
-    "translation": "sympathy"
+    "translation": "sympathy",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4169,
@@ -79259,11 +79498,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Judendomen är en av världens äldsta religioner."
     ],
-    "translation": "Judaism"
+    "translation": "Judaism",
+    "enProper": true,
+    "svProper": true
   },
   {
     "seedKey": 4173,
@@ -79443,11 +79683,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Han visade öppet förakt för reglerna."
     ],
-    "translation": "contempt"
+    "translation": "contempt",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4183,
@@ -79637,7 +79878,9 @@
     "examples": [
       "Landet diskuterar sin säkerhetspolitik."
     ],
-    "translation": "security policy"
+    "translation": "security policy",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4195,
@@ -79873,7 +80116,8 @@
       "Socker är / smakar sött",
       "Vill du ha socker i kaffet?"
     ],
-    "translation": "sugar"
+    "translation": "sugar",
+    "svUncountable": true
   },
   {
     "seedKey": 4207,
@@ -79934,11 +80178,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Jag åker alltid kollektivtrafik till jobbet."
     ],
-    "translation": "public transport"
+    "translation": "public transport",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4210,
@@ -80075,7 +80320,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Han kunde inte dölja sin vrede."
     ],
@@ -80083,7 +80327,9 @@
     "sense": {
       "key": "anger#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4217,
@@ -80094,12 +80340,13 @@
     "subDefinitions": [
       "damn!, hell! (as a curse)"
     ],
-    "enProper": true,
     "examples": [
       "Enligt legenden frestade Satan människorna.",
       "Satan, vad kallt det är ute idag!"
     ],
-    "translation": "Satan"
+    "translation": "Satan",
+    "enProper": true,
+    "svProper": true
   },
   {
     "seedKey": 4218,
@@ -80155,7 +80402,6 @@
       "indefinitePlural": "klarheter",
       "definitePlural": "klarheterna"
     },
-    "enUncountable": true,
     "examples": [
       "Vi behöver mer klarhet i den här frågan."
     ],
@@ -80163,7 +80409,9 @@
     "sense": {
       "key": "clarity#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4222,
@@ -80378,7 +80626,9 @@
     "sense": {
       "key": "direction#2",
       "gloss": "film direction"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4233,
@@ -80492,11 +80742,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Sverige investerar mer i vindkraft varje år."
     ],
-    "translation": "wind power"
+    "translation": "wind power",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4239,
@@ -80711,7 +80962,9 @@
     "examples": [
       "Patienterna har rätt till valfrihet inom vården."
     ],
-    "translation": "freedom of choice"
+    "translation": "freedom of choice",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4251,
@@ -80731,7 +80984,9 @@
     "sense": {
       "key": "clarity#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4252,
@@ -80856,11 +81111,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Homosexualitet är accepterat i många länder idag."
     ],
-    "translation": "homosexuality"
+    "translation": "homosexuality",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4259,
@@ -80942,7 +81198,9 @@
     "examples": [
       "Hon tog sig an uppgiften med stor iver."
     ],
-    "translation": "eagerness"
+    "translation": "eagerness",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4263,
@@ -81189,11 +81447,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Ärlighet är grunden för ett gott förhållande."
     ],
-    "translation": "honesty"
+    "translation": "honesty",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4278,
@@ -81672,11 +81931,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Den svenska adeln har idag inga särskilda privilegier."
     ],
-    "translation": "nobility, aristocracy"
+    "translation": "nobility, aristocracy",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4305,
@@ -81872,7 +82132,9 @@
     "examples": [
       "Jobbet kräver stor flexibilitet av de anställda."
     ],
-    "translation": "flexibility, versatility"
+    "translation": "flexibility, versatility",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4316,
@@ -82287,11 +82549,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Slaveriet avskaffades i USA på 1860-talet."
     ],
-    "translation": "slavery"
+    "translation": "slavery",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4339,
@@ -82633,7 +82896,9 @@
     "examples": [
       "Jag ber om förlåtelse"
     ],
-    "translation": "forgiveness"
+    "translation": "forgiveness",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4357,
@@ -83154,7 +83419,9 @@
     "examples": [
       "Det råder stor förvirring om reglerna."
     ],
-    "translation": "confusion, bewilderment"
+    "translation": "confusion, bewilderment",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4384,
@@ -84327,7 +84594,6 @@
     "pos": "noun",
     "cefr": "B2",
     "gender": "ett",
-    "enUncountable": true,
     "examples": [
       "I skrivande stund har boken sålt ungefär 1 miljon exemplar."
     ],
@@ -84335,7 +84601,9 @@
     "sense": {
       "key": "writing, text#2",
       "gloss": "act of writing"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4448,
@@ -84391,11 +84659,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Pressen kritiserade censuren av böckerna."
     ],
-    "translation": "censorship"
+    "translation": "censorship",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4452,
@@ -84707,12 +84976,13 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Jag går turism.",
       "Jag går turism."
     ],
-    "translation": "tourism"
+    "translation": "tourism",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4468,
@@ -84883,11 +85153,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Det finns gott om underhållning för barn på festivalen."
     ],
-    "translation": "entertainment"
+    "translation": "entertainment",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4479,
@@ -85040,7 +85311,8 @@
       "fira nyår",
       "Om du vill att nyåret ska gå helt i champagnens (eller Pommacens) bubbliga tecken, så finns det roliga saker att göra med den också."
     ],
-    "translation": "New Year's"
+    "translation": "New Year's",
+    "svProper": true
   },
   {
     "seedKey": 4487,
@@ -85534,7 +85806,6 @@
       "indefinitePlural": "vetskaper",
       "definitePlural": "vetskaperna"
     },
-    "enUncountable": true,
     "examples": [
       "Med vetskapen om faran valde de att stanna hemma."
     ],
@@ -85542,7 +85813,9 @@
     "sense": {
       "key": "knowledge#1",
       "gloss": "awareness, knowing"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4516,
@@ -85946,11 +86219,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Frågan om frågans relevans diskuterades länge."
     ],
-    "translation": "relevance"
+    "translation": "relevance",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4539,
@@ -86239,7 +86513,9 @@
     "examples": [
       "Soldaterna visade blind lydnad mot sina befälhavare."
     ],
-    "translation": "obedience"
+    "translation": "obedience",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4555,
@@ -86816,7 +87092,9 @@
     "sense": {
       "key": "confidence, self-confidence#1",
       "gloss": "trust in others"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4587,
@@ -86841,11 +87119,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Vi måste tanka bensin innan vi kör vidare."
     ],
-    "translation": "gasoline, petrol"
+    "translation": "gasoline, petrol",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4589,
@@ -87032,7 +87311,9 @@
     "examples": [
       "Religionsfrihet är en grundläggande mänsklig rättighet."
     ],
-    "translation": "freedom of religion"
+    "translation": "freedom of religion",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4598,
@@ -87148,11 +87429,12 @@
       "indefinitePlural": "asyler",
       "definitePlural": "asylerna"
     },
-    "enUncountable": true,
     "examples": [
       "Han ansökte om asyl i Sverige efter att ha flytt sitt land."
     ],
-    "translation": "asylum"
+    "translation": "asylum",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4605,
@@ -87304,7 +87586,8 @@
     "examples": [
       "Det är ju som rena rama julafton!"
     ],
-    "translation": "Christmas Eve"
+    "translation": "Christmas Eve",
+    "svProper": true
   },
   {
     "seedKey": 4613,
@@ -87535,11 +87818,12 @@
       "indefinitePlural": "missnöjen",
       "definitePlural": "missnöjena"
     },
-    "enUncountable": true,
     "examples": [
       "Det växande missnöjet med regeringen syntes i opinionsundersökningarna."
     ],
-    "translation": "dissatisfaction, discontent"
+    "translation": "dissatisfaction, discontent",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4627,
@@ -87552,7 +87836,6 @@
       "indefinitePlural": "etniciteter",
       "definitePlural": "etniciteterna"
     },
-    "enUncountable": true,
     "examples": [
       "Ingen ska diskrimineras på grund av etnicitet."
     ],
@@ -87604,7 +87887,6 @@
       "indefinitePlural": "okunskaper",
       "definitePlural": "okunskaperna"
     },
-    "enUncountable": true,
     "examples": [
       "Fördomar beror ofta på okunskap om andra kulturer."
     ],
@@ -87612,7 +87894,9 @@
     "sense": {
       "key": "ignorance#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4631,
@@ -87704,7 +87988,8 @@
     "examples": [
       "Ringen är gjord av silver."
     ],
-    "translation": "silver"
+    "translation": "silver",
+    "svUncountable": true
   },
   {
     "seedKey": 4636,
@@ -87859,7 +88144,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Armén saknar tillräcklig materiel för övningen."
     ],
@@ -87867,7 +88151,9 @@
     "sense": {
       "key": "equipment#1",
       "gloss": "military materiel"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4645,
@@ -87880,11 +88166,12 @@
       "indefinitePlural": "mobbningar",
       "definitePlural": "mobbningarna"
     },
-    "enUncountable": true,
     "examples": [
       "mobbning i skolan"
     ],
-    "translation": "bullying"
+    "translation": "bullying",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4646,
@@ -88348,11 +88635,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Projektet kräver noggrann dokumentation av alla steg."
     ],
-    "translation": "documentation"
+    "translation": "documentation",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4669,
@@ -88446,7 +88734,9 @@
     "sense": {
       "key": "participation#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4674,
@@ -89237,7 +89527,8 @@
     "sense": {
       "key": "exploitation#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true
   },
   {
     "seedKey": 4721,
@@ -90607,7 +90898,8 @@
     "sense": {
       "key": "Latin#0",
       "gloss": "the language"
-    }
+    },
+    "svProper": true
   },
   {
     "seedKey": 4800,
@@ -91504,7 +91796,9 @@
     "examples": [
       "Företagets lönsamhet har förbättrats under det senaste året."
     ],
-    "translation": "profitability"
+    "translation": "profitability",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4850,
@@ -91539,7 +91833,9 @@
     "examples": [
       "Demokratins rötter finns i antiken."
     ],
-    "translation": "antiquity"
+    "translation": "antiquity",
+    "enProper": true,
+    "svProper": true
   },
   {
     "seedKey": 4853,
@@ -91796,7 +92092,9 @@
       "skämmas å/på någons vägnar",
       "Jag är här på ämbetets vägnar"
     ],
-    "translation": "on someone's behalf"
+    "translation": "on someone's behalf",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4868,
@@ -91892,7 +92190,8 @@
     "examples": [
       "Han anmälde trakasseriet till sin chef."
     ],
-    "translation": "harassment"
+    "translation": "harassment",
+    "enUncountable": true
   },
   {
     "seedKey": 4873,
@@ -92278,11 +92577,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Priset är 250 kronor inklusive moms."
     ],
-    "translation": "value added tax"
+    "translation": "value added tax",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4894,
@@ -93027,11 +93327,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Han ville ha hämnd för vad som hänt."
     ],
-    "translation": "revenge, vengeance"
+    "translation": "revenge, vengeance",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4933,
@@ -93099,7 +93400,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Hennes nyfikenhet drev henne framåt."
     ],
@@ -93107,7 +93407,9 @@
     "sense": {
       "key": "curiosity#0",
       "gloss": "eagerness to know"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4937,
@@ -93121,11 +93423,12 @@
       "indefinitePlural": "barnomsorger",
       "definitePlural": "barnomsorgerna"
     },
-    "enUncountable": true,
     "examples": [
       "Kommunen satsar mer på barnomsorg."
     ],
-    "translation": "childcare"
+    "translation": "childcare",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4938,
@@ -93195,7 +93498,8 @@
     "examples": [
       "Husets isolering måste bytas ut."
     ],
-    "translation": "insulation, isolation"
+    "translation": "insulation, isolation",
+    "enUncountable": true
   },
   {
     "seedKey": 4943,
@@ -93264,7 +93568,9 @@
       "valfusk",
       "skattefusk"
     ],
-    "translation": "cheating"
+    "translation": "cheating",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4948,
@@ -93302,7 +93608,8 @@
     "examples": [
       "bre smör på en macka"
     ],
-    "translation": "butter"
+    "translation": "butter",
+    "svUncountable": true
   },
   {
     "seedKey": 4950,
@@ -93361,7 +93668,9 @@
     "examples": [
       "i korthet"
     ],
-    "translation": "brevity, shortness"
+    "translation": "brevity, shortness",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4953,
@@ -93640,11 +93949,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Musikens popularitet ökar ständigt."
     ],
-    "translation": "popularity"
+    "translation": "popularity",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4970,
@@ -94029,7 +94339,9 @@
     "examples": [
       "Stormen orsakade stor förstörelse."
     ],
-    "translation": "destruction, ruin"
+    "translation": "destruction, ruin",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4992,
@@ -94271,7 +94583,9 @@
     "sense": {
       "key": "east#0",
       "gloss": "noun"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5006,
@@ -94287,7 +94601,9 @@
     "examples": [
       "Hon deltar aktivt i beslutsfattandet."
     ],
-    "translation": "decision making"
+    "translation": "decision making",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5007,
@@ -94301,11 +94617,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Han arbetar inom psykiatrin."
     ],
-    "translation": "psychiatry"
+    "translation": "psychiatry",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5008,
@@ -94325,7 +94642,8 @@
     "sense": {
       "key": "processing#0",
       "gloss": "administrative handling"
-    }
+    },
+    "enUncountable": true
   },
   {
     "seedKey": 5009,
@@ -94355,11 +94673,12 @@
       "indefinitePlural": "fientligheter",
       "definitePlural": "fientligheterna"
     },
-    "enUncountable": true,
     "examples": [
       "Det rådde öppen fientlighet mellan parterna."
     ],
-    "translation": "hostility"
+    "translation": "hostility",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5011,
@@ -94578,7 +94897,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Ägg innehåller mycket protein."
     ],
@@ -94810,7 +95128,8 @@
       "fira påsk",
       "påskfirande"
     ],
-    "translation": "Easter"
+    "translation": "Easter",
+    "svProper": true
   },
   {
     "seedKey": 5037,
@@ -94856,7 +95175,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Läraren gav henne mycket beröm."
     ],
@@ -94864,7 +95182,9 @@
     "sense": {
       "key": "praise#0",
       "gloss": "noun"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5040,
@@ -94938,7 +95258,8 @@
     "examples": [
       "Oddsen för seger var låga."
     ],
-    "translation": "odds"
+    "translation": "odds",
+    "enUncountable": true
   },
   {
     "seedKey": 5044,
@@ -95672,7 +95993,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Hon mötte uppdraget med stor entusiasm."
     ],
@@ -95680,7 +96000,9 @@
     "sense": {
       "key": "enthusiasm#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5089,
@@ -95753,11 +96075,12 @@
       "indefinitePlural": "självkänslor",
       "definitePlural": "självkänslorna"
     },
-    "enUncountable": true,
     "examples": [
       "God självkänsla är viktigt för välmående."
     ],
-    "translation": "self-esteem"
+    "translation": "self-esteem",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5093,
@@ -95771,11 +96094,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "skapa sammanhållning i ett fotbollslag"
     ],
-    "translation": "cohesion"
+    "translation": "cohesion",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5094,
@@ -96157,11 +96481,12 @@
       "indefinitePlural": "bagage",
       "definitePlural": "bagagen"
     },
-    "enUncountable": true,
     "examples": [
       "Hon hämtade sitt bagage vid bandet."
     ],
-    "translation": "baggage"
+    "translation": "baggage",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5117,
@@ -96625,7 +96950,6 @@
         ]
       }
     ],
-    "enUncountable": true,
     "enProper": true,
     "examples": [
       "Talar du tyska?"
@@ -96634,7 +96958,8 @@
     "sense": {
       "key": "German#1",
       "gloss": "German language, woman"
-    }
+    },
+    "svProper": true
   },
   {
     "seedKey": 5142,
@@ -96793,7 +97118,9 @@
       "Det är för mycket trams på mötena.",
       "Äh, vilket trams!"
     ],
-    "translation": "silliness"
+    "translation": "silliness",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5151,
@@ -97395,7 +97722,8 @@
       "Ge någon stryk",
       "Bortalaget åkte på stryk"
     ],
-    "translation": "beating"
+    "translation": "beating",
+    "svUncountable": true
   },
   {
     "seedKey": 5187,
@@ -97409,11 +97737,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Strålningen från solen kan skada huden."
     ],
-    "translation": "radiation"
+    "translation": "radiation",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5188,
@@ -97775,11 +98104,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Det låg bara aska kvar efter branden."
     ],
-    "translation": "ash"
+    "translation": "ash",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5207,
@@ -97998,11 +98328,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "En bra lärare behöver ha empati för sina elever."
     ],
-    "translation": "empathy"
+    "translation": "empathy",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5219,
@@ -98030,11 +98361,12 @@
       "indefinitePlural": "avlyssningar",
       "definitePlural": "avlyssningarna"
     },
-    "enUncountable": true,
     "examples": [
       "Polisen misstänktes för olaglig avlyssning av medborgare."
     ],
-    "translation": "wiretapping, surveillance"
+    "translation": "wiretapping, surveillance",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5221,
@@ -98146,7 +98478,9 @@
       "Staden har anor från 1300-talet",
       "Släkten har anor från 1500-talet"
     ],
-    "translation": "roots, heritage"
+    "translation": "roots, heritage",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5228,
@@ -98162,7 +98496,9 @@
     "examples": [
       "Lagets dominans på planen var tydlig."
     ],
-    "translation": "dominance, domination"
+    "translation": "dominance, domination",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5229,
@@ -98437,11 +98773,12 @@
     "subDefinitions": [
       "sleepiness"
     ],
-    "enUncountable": true,
     "examples": [
       "Tröttheten efter långa arbetsdagar var påtaglig."
     ],
-    "translation": "tiredness, fatigue, weariness"
+    "translation": "tiredness, fatigue, weariness",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5245,
@@ -98458,7 +98795,6 @@
     "subDefinitions": [
       "counselling"
     ],
-    "enUncountable": true,
     "examples": [
       "Banken erbjuder gratis rådgivning till sina kunder."
     ],
@@ -98466,7 +98802,9 @@
     "sense": {
       "key": "advice#1",
       "gloss": "advisory service"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5246,
@@ -98584,7 +98922,6 @@
       "light, lights (the fixtures)",
       "shedding light on (figuratively)"
     ],
-    "enUncountable": true,
     "examples": [
       "ett sunkhak med skum belysning"
     ],
@@ -98877,7 +99214,9 @@
     "sense": {
       "key": "reflection#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5268,
@@ -98981,12 +99320,13 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Hon lyssnar mest på pop och rock.",
       "Bandet spelar glad pop från åttiotalet."
     ],
-    "translation": "pop"
+    "translation": "pop",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5274,
@@ -99391,11 +99731,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Gods hjälper intet på vredens dag men rättfärdighet räddar från döden."
     ],
-    "translation": "righteousness"
+    "translation": "righteousness",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5298,
@@ -99658,7 +99999,9 @@
     "sense": {
       "key": "openness#1",
       "gloss": "public transparency"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5312,
@@ -99672,11 +100015,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Dokumentet omfattades av strikt sekretess."
     ],
-    "translation": "secrecy"
+    "translation": "secrecy",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5313,
@@ -100249,7 +100593,8 @@
       "fira midsommar",
       "midsommarfirande"
     ],
-    "translation": "Midsummer"
+    "translation": "Midsummer",
+    "svProper": true
   },
   {
     "seedKey": 5344,
@@ -100263,7 +100608,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Det växte fram en djup misstro mot politikerna."
     ],
@@ -100271,7 +100615,9 @@
     "sense": {
       "key": "doubt#2",
       "gloss": "distrust, suspicion"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5346,
@@ -100465,11 +100811,12 @@
     "subDefinitions": [
       "steel tool, sharpening steel (dated)"
     ],
-    "enUncountable": true,
     "examples": [
       "Broarna i staden är byggda av stål och betong."
     ],
-    "translation": "steel"
+    "translation": "steel",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5358,
@@ -100678,11 +101025,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Stress på arbetsplatsen leder ofta till ohälsa."
     ],
-    "translation": "ill health"
+    "translation": "ill health",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5370,
@@ -100959,11 +101307,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Det låg mycket damm på hyllan."
     ],
-    "translation": "dust"
+    "translation": "dust",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5384,
@@ -101015,11 +101364,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Vi tillbringade hela eftermiddagen med shopping i stan."
     ],
-    "translation": "shopping"
+    "translation": "shopping",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5387,
@@ -101158,11 +101508,12 @@
       "indefinitePlural": "hycklerier",
       "definitePlural": "hycklerierna"
     },
-    "enUncountable": true,
     "examples": [
       "Att predika moral men inte följa den är rent hyckleri."
     ],
-    "translation": "hypocrisy"
+    "translation": "hypocrisy",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5394,
@@ -101297,7 +101648,9 @@
     "examples": [
       "Designens enkelhet gör den lätt att använda."
     ],
-    "translation": "simplicity"
+    "translation": "simplicity",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5401,
@@ -101389,11 +101742,12 @@
     "subDefinitions": [
       "ammunition (arguments, information — figurative)"
     ],
-    "enUncountable": true,
     "examples": [
       "Soldaterna fick mer ammunition inför striden."
     ],
-    "translation": "ammunition"
+    "translation": "ammunition",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5406,
@@ -101588,12 +101942,13 @@
     "subDefinitions": [
       "wood (inner material of a tree)"
     ],
-    "enUncountable": true,
     "examples": [
       "Jag ska ut och hämta ved i vedboden",
       "knastrande ved"
     ],
-    "translation": "firewood"
+    "translation": "firewood",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5416,
@@ -101607,7 +101962,6 @@
       "indefinitePlural": "mjukvaror",
       "definitePlural": "mjukvarorna"
     },
-    "enUncountable": true,
     "examples": [
       "Den nya mjukvaran är snabbare och enklare att använda."
     ],
@@ -101615,7 +101969,9 @@
     "sense": {
       "key": "software#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5417,
@@ -101803,11 +102159,12 @@
       "indefinitePlural": "sjukpenningar",
       "definitePlural": "sjukpenningarna"
     },
-    "enUncountable": true,
     "examples": [
       "Under sjukdomen fick han sjukpenning från Försäkringskassan."
     ],
-    "translation": "sick pay"
+    "translation": "sick pay",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5428,
@@ -101820,11 +102177,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Bevarandet av gamla byggnader är viktigt för kulturen."
     ],
-    "translation": "preservation"
+    "translation": "preservation",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5429,
@@ -102318,11 +102676,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Det var ren otur att bilen gick sönder just då."
     ],
-    "translation": "bad luck"
+    "translation": "bad luck",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5456,
@@ -102907,11 +103266,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Allt vi ser runt oss består av materia."
     ],
-    "translation": "matter"
+    "translation": "matter",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5490,
@@ -103031,7 +103391,9 @@
     "examples": [
       "Tidig behandling kan hålla hiv under kontroll."
     ],
-    "translation": "HIV"
+    "translation": "HIV",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5498,
@@ -103182,12 +103544,13 @@
       "indefinitePlural": "visdomar",
       "definitePlural": "visdomarna"
     },
-    "enUncountable": true,
     "examples": [
       "De lyssnade uppmärksamt till de äldres visdom.",
       "Med åren kommer ofta större visdom."
     ],
-    "translation": "wisdom"
+    "translation": "wisdom",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5510,
@@ -103393,11 +103756,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Kärnkraftverk använder uran som bränsle."
     ],
-    "translation": "uranium"
+    "translation": "uranium",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5522,
@@ -103508,7 +103872,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Skolan uppmuntrar entreprenörskap bland sina studenter."
     ],
@@ -103516,7 +103879,9 @@
     "sense": {
       "key": "entrepreneurship#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5528,
@@ -103629,7 +103994,9 @@
     "examples": [
       "Kopiering av upphovsrättsskyddat material är olagligt."
     ],
-    "translation": "copying"
+    "translation": "copying",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5534,
@@ -103677,11 +104044,12 @@
     "pos": "noun",
     "cefr": "B2",
     "gender": "ett",
-    "enUncountable": true,
     "examples": [
       "Hennes språkbruk anpassar sig efter situationen."
     ],
-    "translation": "language use, usage"
+    "translation": "language use, usage",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5537,
@@ -103695,11 +104063,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Han fick diagnosen diabetes och ändrade sin kost."
     ],
-    "translation": "diabetes"
+    "translation": "diabetes",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5538,
@@ -104072,11 +104441,12 @@
       "indefinitePlural": "nationalekonomier",
       "definitePlural": "nationalekonomierna"
     },
-    "enUncountable": true,
     "examples": [
       "Hon studerar nationalekonomi på universitetet."
     ],
-    "translation": "economics"
+    "translation": "economics",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5559,
@@ -104125,7 +104495,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Utan elektricitet fungerar de flesta apparater inte."
     ],
@@ -104133,7 +104502,9 @@
     "sense": {
       "key": "electricity#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5562,
@@ -104393,7 +104764,9 @@
     "sense": {
       "key": "creation#2",
       "gloss": "formal establishment"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5576,
@@ -104760,7 +105133,6 @@
       "indefinitePlural": "tillåtelser",
       "definitePlural": "tillåtelserna"
     },
-    "enUncountable": true,
     "examples": [
       "Jag bad om tillåtelse att gå",
       "Du har min tillåtelse"
@@ -104769,7 +105141,9 @@
     "sense": {
       "key": "permission#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5597,
@@ -104878,11 +105252,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Regeringens arbetsmarknadspolitik syftar till att minska arbetslösheten."
     ],
-    "translation": "labor market policy"
+    "translation": "labor market policy",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5603,
@@ -104895,7 +105270,6 @@
       "indefinitePlural": "inkomstskatter",
       "definitePlural": "inkomstskatterna"
     },
-    "enUncountable": true,
     "examples": [
       "Alla som arbetar i Sverige betalar inkomstskatt."
     ],
@@ -105126,11 +105500,12 @@
     "pos": "noun",
     "cefr": "B2",
     "gender": "ett",
-    "enUncountable": true,
     "examples": [
       "Utan bredband är det svårt att jobba hemifrån."
     ],
-    "translation": "broadband"
+    "translation": "broadband",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5616,
@@ -105143,11 +105518,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Kemi var hennes favoritämne i gymnasiet."
     ],
-    "translation": "chemistry"
+    "translation": "chemistry",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5617,
@@ -105211,7 +105587,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "smoking"
+    "translation": "smoking",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5622,
@@ -105364,7 +105742,8 @@
     "examples": [
       "att känna hunger"
     ],
-    "translation": "hunger"
+    "translation": "hunger",
+    "svUncountable": true
   },
   {
     "seedKey": 5631,
@@ -105510,7 +105889,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "insanity, madness"
+    "translation": "insanity, madness",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5640,
@@ -105568,8 +105949,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "gratitude, thankfulness",
     "enUncountable": true,
-    "translation": "gratitude, thankfulness"
+    "svUncountable": true
   },
   {
     "seedKey": 5644,
@@ -105638,8 +106020,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "despair",
     "enUncountable": true,
-    "translation": "despair"
+    "svUncountable": true
   },
   {
     "seedKey": 5649,
@@ -106246,7 +106629,9 @@
     "examples": [
       "Vill du ha godheten att visa mig vägen?"
     ],
-    "translation": "goodness"
+    "translation": "goodness",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5688,
@@ -106346,12 +106731,13 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "translation": "noise, din",
     "sense": {
       "key": "noise, racket#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5694,
@@ -107558,8 +107944,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "exile",
     "enUncountable": true,
-    "translation": "exile"
+    "svUncountable": true
   },
   {
     "seedKey": 5771,
@@ -107698,8 +108085,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "geography",
     "enUncountable": true,
-    "translation": "geography"
+    "svUncountable": true
   },
   {
     "seedKey": 5781,
@@ -107902,8 +108290,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "refugee policy",
     "enUncountable": true,
-    "translation": "refugee policy"
+    "svUncountable": true
   },
   {
     "seedKey": 5793,
@@ -107917,8 +108306,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "porn, pornography",
     "enUncountable": true,
-    "translation": "porn, pornography"
+    "svUncountable": true
   },
   {
     "seedKey": 5794,
@@ -108104,7 +108494,9 @@
     "subDefinitions": [
       "seafaring, navigation"
     ],
-    "translation": "shipping"
+    "translation": "shipping",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5807,
@@ -108482,7 +108874,8 @@
     "sense": {
       "key": "expectation#0",
       "gloss": ""
-    }
+    },
+    "svUncountable": true
   },
   {
     "seedKey": 5832,
@@ -108527,7 +108920,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "humility"
+    "translation": "humility",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5835,
@@ -108579,12 +108974,13 @@
       "indefinitePlural": "frigörelser",
       "definitePlural": "frigörelserna"
     },
-    "enUncountable": true,
     "translation": "liberation, emancipation",
     "sense": {
       "key": "liberation#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5839,
@@ -108609,8 +109005,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "tobacco",
     "enUncountable": true,
-    "translation": "tobacco"
+    "svUncountable": true
   },
   {
     "seedKey": 5841,
@@ -109027,8 +109424,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "satisfaction",
     "enUncountable": true,
-    "translation": "satisfaction"
+    "svUncountable": true
   },
   {
     "seedKey": 5866,
@@ -109554,7 +109952,8 @@
     "sense": {
       "key": "agreement, contract#1",
       "gloss": "consensus, unanimity"
-    }
+    },
+    "svUncountable": true
   },
   {
     "seedKey": 5900,
@@ -109568,8 +109967,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "jazz",
     "enUncountable": true,
-    "translation": "jazz"
+    "svUncountable": true
   },
   {
     "seedKey": 5901,
@@ -109955,7 +110355,9 @@
       "indefinitePlural": "livskvaliteter",
       "definitePlural": "livskvaliteterna"
     },
-    "translation": "quality of life"
+    "translation": "quality of life",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5924,
@@ -110012,11 +110414,12 @@
       "indefinitePlural": "förtal",
       "definitePlural": "förtalen"
     },
-    "enUncountable": true,
     "examples": [
       "lögn och förtal"
     ],
-    "translation": "defamation, slander, libel"
+    "translation": "defamation, slander, libel",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5928,
@@ -110132,7 +110535,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Känn dig aldrig fången i förortsbetongen. Det spelar ingen roll vem du är."
     ],
@@ -110140,7 +110542,9 @@
     "sense": {
       "key": "concrete#1",
       "gloss": "material"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5935,
@@ -110256,7 +110660,9 @@
     "sense": {
       "key": "ignorance#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5942,
@@ -110398,7 +110804,9 @@
     "pos": "noun",
     "cefr": "C1",
     "gender": "en",
-    "translation": "environmental policy"
+    "translation": "environmental policy",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 5950,
@@ -110422,8 +110830,9 @@
     "subDefinitions": [
       "excellence, mastery, brilliance"
     ],
+    "translation": "sovereignty",
     "enUncountable": true,
-    "translation": "sovereignty"
+    "svUncountable": true
   },
   {
     "seedKey": 5953,
@@ -110541,8 +110950,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "biology",
     "enUncountable": true,
-    "translation": "biology"
+    "svUncountable": true
   },
   {
     "seedKey": 5961,
@@ -110643,8 +111053,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "greed, avarice",
     "enUncountable": true,
-    "translation": "greed, avarice"
+    "svUncountable": true
   },
   {
     "seedKey": 5968,
@@ -111076,8 +111487,9 @@
     "lemma": "media",
     "pos": "noun",
     "cefr": "C1",
+    "translation": "media",
     "enUncountable": true,
-    "translation": "media"
+    "svUncountable": true
   },
   {
     "seedKey": 5994,
@@ -111458,7 +111870,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "immigration policy"
+    "translation": "immigration policy",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6019,
@@ -111483,7 +111897,9 @@
     "pos": "noun",
     "cefr": "C1",
     "ipa": "ɛjːds",
-    "translation": "AIDS"
+    "translation": "AIDS",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6021,
@@ -111908,7 +112324,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "opinion-forming, shaping public opinion"
+    "translation": "opinion-forming, shaping public opinion",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6048,
@@ -111949,8 +112367,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "graphics, graphic art",
     "enUncountable": true,
-    "translation": "graphics, graphic art"
+    "svUncountable": true
   },
   {
     "seedKey": 6051,
@@ -112019,8 +112438,9 @@
       "indefinitePlural": "galenskaper",
       "definitePlural": "galenskaperna"
     },
+    "translation": "madness",
     "enUncountable": true,
-    "translation": "madness"
+    "svUncountable": true
   },
   {
     "seedKey": 6055,
@@ -112045,7 +112465,8 @@
     "sense": {
       "key": "French#1",
       "gloss": "the language"
-    }
+    },
+    "svProper": true
   },
   {
     "seedKey": 6056,
@@ -112420,8 +112841,9 @@
       "indefinitePlural": "pedagogiker",
       "definitePlural": "pedagogikerna"
     },
+    "translation": "pedagogy",
     "enUncountable": true,
-    "translation": "pedagogy"
+    "svUncountable": true
   },
   {
     "seedKey": 6078,
@@ -112678,8 +113100,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "cooking",
     "enUncountable": true,
-    "translation": "cooking"
+    "svUncountable": true
   },
   {
     "seedKey": 6094,
@@ -113116,7 +113539,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "continuity"
+    "translation": "continuity",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6121,
@@ -113202,11 +113627,12 @@
       "indefinitePlural": "migrationer",
       "definitePlural": "migrationerna"
     },
-    "enUncountable": true,
     "examples": [
       "Migrationspolitiken har gått överstyr och måste återgå till sansade diskussioner."
     ],
-    "translation": "migration"
+    "translation": "migration",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6126,
@@ -113488,8 +113914,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "Zionism",
     "enProper": true,
-    "translation": "Zionism"
+    "svUncountable": true
   },
   {
     "seedKey": 6143,
@@ -113562,12 +113989,13 @@
       "indefinitePlural": "slakter",
       "definitePlural": "slakterna"
     },
-    "enUncountable": true,
     "translation": "slaughter",
     "sense": {
       "key": "slaughter, butcher#1",
       "gloss": "slaughter (noun)"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6147,
@@ -113585,7 +114013,9 @@
     "sense": {
       "key": "science#1",
       "gloss": "natural science"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6148,
@@ -114300,7 +114730,9 @@
     "sense": {
       "key": "integration#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6190,
@@ -114704,7 +115136,9 @@
     "sense": {
       "key": "spread, distribute#2",
       "gloss": "spreading, noun"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6215,
@@ -115147,12 +115581,13 @@
       "indefinitePlural": "löpningar",
       "definitePlural": "löpningarna"
     },
-    "enUncountable": true,
     "translation": "running",
     "sense": {
       "key": "running#1",
       "gloss": "sport of running"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6240,
@@ -115166,7 +115601,6 @@
       "indefinitePlural": "profiter",
       "definitePlural": "profiterna"
     },
-    "enUncountable": true,
     "translation": "profit"
   },
   {
@@ -115186,7 +115620,9 @@
     "examples": [
       "mjölk med lång hållbarhet"
     ],
-    "translation": "sustainability"
+    "translation": "sustainability",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6242,
@@ -115322,8 +115758,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "caution, carefulness",
     "enUncountable": true,
-    "translation": "caution, carefulness"
+    "svUncountable": true
   },
   {
     "seedKey": 6250,
@@ -115395,7 +115832,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "wellbeing"
+    "translation": "wellbeing",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6255,
@@ -115686,8 +116125,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "terror",
     "enUncountable": true,
-    "translation": "terror"
+    "svUncountable": true
   },
   {
     "seedKey": 6275,
@@ -115722,8 +116162,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "expertise",
     "enUncountable": true,
-    "translation": "expertise"
+    "svUncountable": true
   },
   {
     "seedKey": 6277,
@@ -115774,8 +116215,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "envy",
     "enUncountable": true,
-    "translation": "envy"
+    "svUncountable": true
   },
   {
     "seedKey": 6280,
@@ -116106,8 +116548,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "oxygen",
     "enUncountable": true,
-    "translation": "oxygen"
+    "svUncountable": true
   },
   {
     "seedKey": 6299,
@@ -116268,12 +116711,13 @@
       "indefinitePlural": "förvaringar",
       "definitePlural": "förvaringarna"
     },
-    "enUncountable": true,
     "translation": "storage",
     "sense": {
       "key": "storage#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6310,
@@ -116386,7 +116830,9 @@
     "examples": [
       "Vi hade mycket skoj på stranden."
     ],
-    "translation": "joking around, fun"
+    "translation": "joking around, fun",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6316,
@@ -116496,12 +116942,13 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "translation": "heat",
     "sense": {
       "key": "heat, warmth#2",
       "gloss": "intense heat"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6322,
@@ -117132,8 +117579,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "autonomy",
     "enUncountable": true,
-    "translation": "autonomy"
+    "svUncountable": true
   },
   {
     "seedKey": 6365,
@@ -117147,7 +117595,9 @@
       "indefinitePlural": "mjöl",
       "definitePlural": "mjölen"
     },
-    "translation": "flour"
+    "translation": "flour",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6366,
@@ -117363,8 +117813,9 @@
       "indefinitePlural": "obehag",
       "definitePlural": "obehagen"
     },
+    "translation": "discomfort, unease",
     "enUncountable": true,
-    "translation": "discomfort, unease"
+    "svUncountable": true
   },
   {
     "seedKey": 6378,
@@ -117506,12 +117957,13 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "translation": "protection",
     "sense": {
       "key": "protection#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6387,
@@ -117605,12 +118057,13 @@
       "indefinitePlural": "tomheter",
       "definitePlural": "tomheterna"
     },
-    "enUncountable": true,
     "translation": "emptiness",
     "sense": {
       "key": "emptiness#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6393,
@@ -117754,8 +118207,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "sweat",
     "enUncountable": true,
-    "translation": "sweat"
+    "svUncountable": true
   },
   {
     "seedKey": 6401,
@@ -117783,8 +118237,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "optimism",
     "enUncountable": true,
-    "translation": "optimism"
+    "svUncountable": true
   },
   {
     "seedKey": 6403,
@@ -118001,8 +118456,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "overweight",
     "enUncountable": true,
-    "translation": "overweight"
+    "svUncountable": true
   },
   {
     "seedKey": 6417,
@@ -118037,7 +118493,9 @@
     "sense": {
       "key": "cleaning, clearing, purge#1",
       "gloss": "housecleaning"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6419,
@@ -118239,12 +118697,13 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "translation": "performance",
     "sense": {
       "key": "performance, achievement#2",
       "gloss": "technical capability"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6432,
@@ -118383,7 +118842,6 @@
       "indefinitePlural": "födslar",
       "definitePlural": "födslarna"
     },
-    "enUncountable": true,
     "translation": "birth",
     "sense": {
       "key": "birth#0",
@@ -118491,8 +118949,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "captivity",
     "enUncountable": true,
-    "translation": "captivity"
+    "svUncountable": true
   },
   {
     "seedKey": 6446,
@@ -118505,7 +118964,9 @@
       "indefinitePlural": "korrektheter",
       "definitePlural": "korrektheterna"
     },
-    "translation": "correctness"
+    "translation": "correctness",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6447,
@@ -118873,7 +119334,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "precision"
+    "translation": "precision",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6467,
@@ -118970,8 +119433,9 @@
     "cefr": "C1",
     "gender": "en",
     "ipa": "²skˈuːlgɔŋː",
+    "translation": "schooling",
     "enUncountable": true,
-    "translation": "schooling"
+    "svUncountable": true
   },
   {
     "seedKey": 6473,
@@ -118984,8 +119448,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "validity",
     "enUncountable": true,
-    "translation": "validity"
+    "svUncountable": true
   },
   {
     "seedKey": 6474,
@@ -119027,12 +119492,13 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Frukta icke, ty jag vill bevisa barmhärtighet mot dig",
       "Hans barmhärtighet varar från släkte till släkte över dem som frukta honom."
     ],
-    "translation": "kindness, mercy"
+    "translation": "kindness, mercy",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6477,
@@ -119226,8 +119692,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "charm",
     "enUncountable": true,
-    "translation": "charm"
+    "svUncountable": true
   },
   {
     "seedKey": 6489,
@@ -119382,8 +119849,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "dirt, filth",
     "enUncountable": true,
-    "translation": "dirt, filth"
+    "svUncountable": true
   },
   {
     "seedKey": 6499,
@@ -119832,8 +120300,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "crying, weeping",
     "enUncountable": true,
-    "translation": "crying, weeping"
+    "svUncountable": true
   },
   {
     "seedKey": 6524,
@@ -119918,8 +120387,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "prestige",
     "enUncountable": true,
-    "translation": "prestige"
+    "svUncountable": true
   },
   {
     "seedKey": 6529,
@@ -120281,7 +120751,6 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "pannkakor med sylt och grädde",
       "ha grädde i kaffet"
@@ -120290,7 +120759,9 @@
     "sense": {
       "key": "cream#0",
       "gloss": "dairy"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6549,
@@ -120399,8 +120870,9 @@
       "indefinitePlural": "terminologier",
       "definitePlural": "terminologierna"
     },
+    "translation": "terminology",
     "enUncountable": true,
-    "translation": "terminology"
+    "svUncountable": true
   },
   {
     "seedKey": 6556,
@@ -120612,8 +121084,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "livestock, cattle",
     "enUncountable": true,
-    "translation": "livestock, cattle"
+    "svUncountable": true
   },
   {
     "seedKey": 6570,
@@ -120908,8 +121381,9 @@
       "indefinitePlural": "assistanser",
       "definitePlural": "assistanserna"
     },
+    "translation": "assistance",
     "enUncountable": true,
-    "translation": "assistance"
+    "svUncountable": true
   },
   {
     "seedKey": 6588,
@@ -120943,12 +121417,13 @@
       "indefinitePlural": "målerier",
       "definitePlural": "målerierna"
     },
-    "enUncountable": true,
     "translation": "painting",
     "sense": {
       "key": "painting#1",
       "gloss": "art form"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6590,
@@ -121017,8 +121492,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "health care",
     "enUncountable": true,
-    "translation": "health care"
+    "svUncountable": true
   },
   {
     "seedKey": 6594,
@@ -121050,8 +121526,9 @@
       "indefinitePlural": "asfalter",
       "definitePlural": "asfalterna"
     },
+    "translation": "asphalt",
     "enUncountable": true,
-    "translation": "asphalt"
+    "svUncountable": true
   },
   {
     "seedKey": 6596,
@@ -121226,7 +121703,9 @@
     "sense": {
       "key": "management, leadership#1",
       "gloss": "upkeep, maintenance"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6606,
@@ -121335,7 +121814,9 @@
     "examples": [
       "Bin producerar honung"
     ],
-    "translation": "honey"
+    "translation": "honey",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6614,
@@ -121493,7 +121974,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "superiority"
+    "translation": "superiority",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6623,
@@ -121576,11 +122059,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "salt och peppar"
     ],
-    "translation": "pepper"
+    "translation": "pepper",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6628,
@@ -121687,7 +122171,9 @@
     "sense": {
       "key": "distance#1",
       "gloss": "the far distance"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6633,
@@ -121744,7 +122230,9 @@
     "examples": [
       "känna desperation"
     ],
-    "translation": "desperation"
+    "translation": "desperation",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6635,
@@ -121807,8 +122295,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "compliance, adherence",
     "enUncountable": true,
-    "translation": "compliance, adherence"
+    "svUncountable": true
   },
   {
     "seedKey": 6639,
@@ -121899,7 +122388,6 @@
       "indefinitePlural": "massager",
       "definitePlural": "massagerna"
     },
-    "enUncountable": true,
     "translation": "massage",
     "sense": {
       "key": "massage#0",
@@ -122179,7 +122667,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "realism"
+    "translation": "realism",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6660,
@@ -122359,11 +122849,12 @@
     "subDefinitions": [
       "check (threat to the king)"
     ],
-    "enUncountable": true,
     "examples": [
       "spela schack"
     ],
-    "translation": "chess"
+    "translation": "chess",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6671,
@@ -122569,12 +123060,13 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "translation": "entrepreneurship, enterprising spirit",
     "sense": {
       "key": "entrepreneurship#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6683,
@@ -122659,7 +123151,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "endurance, persistence, perseverance, tenacity"
+    "translation": "endurance, persistence, perseverance, tenacity",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6688,
@@ -123017,7 +123511,8 @@
       "indefinitePlural": "uppslutningar",
       "definitePlural": "uppslutningarna"
     },
-    "translation": "attendance"
+    "translation": "attendance",
+    "enUncountable": true
   },
   {
     "seedKey": 6707,
@@ -123127,12 +123622,13 @@
       "indefinitePlural": "förbrukningar",
       "definitePlural": "förbrukningarna"
     },
-    "enUncountable": true,
     "translation": "consumption, expenditure",
     "sense": {
       "key": "consumption#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6713,
@@ -123192,7 +123688,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "charity, philanthropy"
+    "translation": "charity, philanthropy",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6717,
@@ -123517,8 +124015,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "electronics",
     "enUncountable": true,
-    "translation": "electronics"
+    "svUncountable": true
   },
   {
     "seedKey": 6738,
@@ -123532,8 +124031,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "publicity",
     "enUncountable": true,
-    "translation": "publicity"
+    "svUncountable": true
   },
   {
     "seedKey": 6739,
@@ -123655,7 +124155,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "maturity"
+    "translation": "maturity",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6748,
@@ -123702,8 +124204,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "decisiveness, resoluteness",
     "enUncountable": true,
-    "translation": "decisiveness, resoluteness"
+    "svUncountable": true
   },
   {
     "seedKey": 6751,
@@ -123762,12 +124265,13 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "translation": "learning",
     "sense": {
       "key": "learning, lesson#1",
       "gloss": "process of learning"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6755,
@@ -123873,7 +124377,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "fidelity, loyalty"
+    "translation": "fidelity, loyalty",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6762,
@@ -123902,12 +124408,13 @@
       "indefinitePlural": "kontanter",
       "definitePlural": "kontanterna"
     },
-    "enUncountable": true,
     "translation": "cash",
     "sense": {
       "key": "cash#1",
       "gloss": "noun"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6764,
@@ -123921,8 +124428,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "cotton",
     "enUncountable": true,
-    "translation": "cotton"
+    "svUncountable": true
   },
   {
     "seedKey": 6765,
@@ -123957,7 +124465,8 @@
       "supper, evening meal (archaic)"
     ],
     "enProper": true,
-    "translation": "Holy Communion"
+    "translation": "Holy Communion",
+    "svProper": true
   },
   {
     "seedKey": 6767,
@@ -124046,8 +124555,9 @@
       "indefinitePlural": "grötar",
       "definitePlural": "grötarna"
     },
+    "translation": "porridge",
     "enUncountable": true,
-    "translation": "porridge"
+    "svUncountable": true
   },
   {
     "seedKey": 6772,
@@ -124079,7 +124589,8 @@
       "definitePlural": "nyårsaftnarna"
     },
     "enProper": true,
-    "translation": "New Year's Eve"
+    "translation": "New Year's Eve",
+    "svProper": true
   },
   {
     "seedKey": 6774,
@@ -124239,8 +124750,9 @@
       "indefinitePlural": "underkläder",
       "definitePlural": "underkläderna"
     },
+    "translation": "underwear",
     "enUncountable": true,
-    "translation": "underwear"
+    "svUncountable": true
   },
   {
     "seedKey": 6783,
@@ -124445,7 +124957,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "fiction"
+    "translation": "fiction",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6797,
@@ -124503,8 +125017,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "prose",
     "enUncountable": true,
-    "translation": "prose"
+    "svUncountable": true
   },
   {
     "seedKey": 6799,
@@ -124521,7 +125036,9 @@
     "sense": {
       "key": "usefulness#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6800,
@@ -124756,8 +125273,9 @@
       "indefinitePlural": "bokföringar",
       "definitePlural": "bokföringarna"
     },
+    "translation": "bookkeeping",
     "enUncountable": true,
-    "translation": "bookkeeping"
+    "svUncountable": true
   },
   {
     "seedKey": 6815,
@@ -124822,7 +125340,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "suitability, appropriateness"
+    "translation": "suitability, appropriateness",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6820,
@@ -124836,7 +125356,9 @@
       "indefinitePlural": "sönderfall",
       "definitePlural": "sönderfallen"
     },
-    "translation": "decomposition, disintegration"
+    "translation": "decomposition, disintegration",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6821,
@@ -124880,7 +125402,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "liquidity"
+    "translation": "liquidity",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6824,
@@ -125122,8 +125646,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "gossip",
     "enUncountable": true,
-    "translation": "gossip"
+    "svUncountable": true
   },
   {
     "seedKey": 6838,
@@ -125216,7 +125741,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "ecology"
+    "translation": "ecology",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6844,
@@ -125229,8 +125756,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "sponsorship",
     "enUncountable": true,
-    "translation": "sponsorship"
+    "svUncountable": true
   },
   {
     "seedKey": 6845,
@@ -125296,7 +125824,9 @@
     "examples": [
       "Troende! Ge er hän åt Gud i hel och full underkastelse (under Hans vilja) och följ inte i Djävulens fotspår – han är er svurne fiende."
     ],
-    "translation": "submission, surrender"
+    "translation": "submission, surrender",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6849,
@@ -125562,7 +126092,9 @@
       "indefinitePlural": "oändligheter",
       "definitePlural": "oändligheterna"
     },
-    "translation": "infinity, eternity"
+    "translation": "infinity, eternity",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6868,
@@ -125822,12 +126354,13 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "där flitens lampa brinner",
       "Byråkrater, de har det bra. De stormtrivs på jobbet var dag. De skickar små fax hit och dit med ambition och mycket flit."
     ],
-    "translation": "diligence, industriousness"
+    "translation": "diligence, industriousness",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6885,
@@ -126078,7 +126611,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "recycling"
+    "translation": "recycling",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6900,
@@ -126338,11 +126873,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Bacon är rimmat sidfläsk"
     ],
-    "translation": "bacon"
+    "translation": "bacon",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6914,
@@ -126604,7 +127140,9 @@
     "pos": "noun",
     "cefr": "C1",
     "gender": "en",
-    "translation": "riding, horseback riding"
+    "translation": "riding, horseback riding",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6931,
@@ -126740,7 +127278,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "sociology"
+    "translation": "sociology",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 6939,
@@ -126983,8 +127523,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "compassion",
     "enUncountable": true,
-    "translation": "compassion"
+    "svUncountable": true
   },
   {
     "seedKey": 6953,
@@ -127101,8 +127642,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "emphasis",
     "enUncountable": true,
-    "translation": "emphasis"
+    "svUncountable": true
   },
   {
     "seedKey": 6960,
@@ -127515,8 +128057,9 @@
       "indefinitePlural": "förbränningar",
       "definitePlural": "förbränningarna"
     },
+    "translation": "combustion, incineration, burning",
     "enUncountable": true,
-    "translation": "combustion, incineration, burning"
+    "svUncountable": true
   },
   {
     "seedKey": 6986,
@@ -127580,7 +128123,8 @@
     "pos": "noun",
     "cefr": "C1",
     "gender": "en",
-    "translation": "business activity, business operations"
+    "translation": "business activity, business operations",
+    "enUncountable": true
   },
   {
     "seedKey": 6991,
@@ -127778,7 +128322,9 @@
       "Jag hade bättre kondition förut, då kunde jag springa milen på 40 minuter men nu sprang jag den på 50.",
       "vara i dålig kondition"
     ],
-    "translation": "fitness, stamina"
+    "translation": "fitness, stamina",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7001,
@@ -127845,11 +128391,12 @@
     "subDefinitions": [
       "light, spotlight (public exposure, figurative)"
     ],
-    "enUncountable": true,
     "examples": [
       "komma ut i dagsljuset"
     ],
-    "translation": "daylight"
+    "translation": "daylight",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7005,
@@ -127863,8 +128410,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "moisture, dampness",
     "enUncountable": true,
-    "translation": "moisture, dampness"
+    "svUncountable": true
   },
   {
     "seedKey": 7006,
@@ -128098,7 +128646,9 @@
     "pos": "noun",
     "cefr": "C1",
     "gender": "en",
-    "translation": "cleanness, purity"
+    "translation": "cleanness, purity",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7021,
@@ -128112,8 +128662,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "overtime",
     "enUncountable": true,
-    "translation": "overtime"
+    "svUncountable": true
   },
   {
     "seedKey": 7022,
@@ -128287,8 +128838,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "goodwill, benevolence",
     "enUncountable": true,
-    "translation": "goodwill, benevolence"
+    "svUncountable": true
   },
   {
     "seedKey": 7033,
@@ -128422,8 +128974,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "hardware",
     "enUncountable": true,
-    "translation": "hardware"
+    "svUncountable": true
   },
   {
     "seedKey": 7041,
@@ -128478,7 +129031,9 @@
       "indefinitePlural": "utrotningar",
       "definitePlural": "utrotningarna"
     },
-    "translation": "eradication, extinction"
+    "translation": "eradication, extinction",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7044,
@@ -128932,7 +129487,9 @@
     "cefr": "C2",
     "gender": "en",
     "ipa": "hʏgɪˈeːn",
-    "translation": "hygiene"
+    "translation": "hygiene",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7071,
@@ -128946,12 +129503,13 @@
       "indefinitePlural": "tegel",
       "definitePlural": "teglen"
     },
-    "enUncountable": true,
     "examples": [
       "huset är gjort av tegel",
       "taket är täckt med tegel"
     ],
-    "translation": "brick, tiles"
+    "translation": "brick, tiles",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7072,
@@ -129002,7 +129560,9 @@
     "subDefinitions": [
       "susceptibility (to illness or influence)"
     ],
-    "translation": "sensitivity"
+    "translation": "sensitivity",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7075,
@@ -129031,7 +129591,9 @@
     "pos": "noun",
     "cefr": "C2",
     "ipa": "nʊrdˈvɛst",
-    "translation": "northwest"
+    "translation": "northwest",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7077,
@@ -129162,8 +129724,9 @@
       "indefinitePlural": "internationaliseringar",
       "definitePlural": "internationaliseringarna"
     },
+    "translation": "internationalization",
     "enUncountable": true,
-    "translation": "internationalization"
+    "svUncountable": true
   },
   {
     "seedKey": 7086,
@@ -129310,8 +129873,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "indifference",
     "enUncountable": true,
-    "translation": "indifference"
+    "svUncountable": true
   },
   {
     "seedKey": 7096,
@@ -129352,8 +129916,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "nagging, harping",
     "enUncountable": true,
-    "translation": "nagging, harping"
+    "svUncountable": true
   },
   {
     "seedKey": 7099,
@@ -129397,8 +129962,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "swimming",
     "enUncountable": true,
-    "translation": "swimming"
+    "svUncountable": true
   },
   {
     "seedKey": 7103,
@@ -129505,8 +130071,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "wool",
     "enUncountable": true,
-    "translation": "wool"
+    "svUncountable": true
   },
   {
     "seedKey": 7108,
@@ -129722,7 +130289,9 @@
     "subDefinitions": [
       "port (wine, dated spelling)"
     ],
-    "translation": "postage"
+    "translation": "postage",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7119,
@@ -130061,7 +130630,6 @@
       "indefinitePlural": "kidnappningar",
       "definitePlural": "kidnappningarna"
     },
-    "enUncountable": true,
     "translation": "kidnapping"
   },
   {
@@ -130083,7 +130651,9 @@
       "Hennes dröm gick i uppfyllelse",
       "Min önskning till anden gick i uppfyllelse"
     ],
-    "translation": "fulfilment"
+    "translation": "fulfilment",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7142,
@@ -130413,8 +130983,9 @@
     "pos": "noun",
     "cefr": "C2",
     "gender": "en",
+    "translation": "telecommunication",
     "enUncountable": true,
-    "translation": "telecommunication"
+    "svUncountable": true
   },
   {
     "seedKey": 7162,
@@ -130774,8 +131345,9 @@
     "subDefinitions": [
       "coherence, consistency"
     ],
+    "translation": "unanimity, consensus",
     "enUncountable": true,
-    "translation": "unanimity, consensus"
+    "svUncountable": true
   },
   {
     "seedKey": 7183,
@@ -130789,7 +131361,6 @@
       "indefinitePlural": "uppehällen",
       "definitePlural": "uppehällena"
     },
-    "enUncountable": true,
     "translation": "subsistence, livelihood"
   },
   {
@@ -131110,7 +131681,8 @@
       "indefinitePlural": "dårskaper",
       "definitePlural": "dårskaperna"
     },
-    "translation": "foolishness"
+    "translation": "foolishness",
+    "enUncountable": true
   },
   {
     "seedKey": 7199,
@@ -131354,11 +131926,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "juridisk immunitet"
     ],
-    "translation": "immunity"
+    "translation": "immunity",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7214,
@@ -131767,7 +132340,8 @@
       "till uthyrning",
       "uthyrning i andra hand"
     ],
-    "translation": "letting, leasing, hiring out"
+    "translation": "letting, leasing, hiring out",
+    "enUncountable": true
   },
   {
     "seedKey": 7238,
@@ -131964,7 +132538,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "alcoholism"
+    "translation": "alcoholism",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7248,
@@ -132144,7 +132720,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "durability"
+    "translation": "durability",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7259,
@@ -132171,8 +132749,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "reliability, dependability",
     "enUncountable": true,
-    "translation": "reliability, dependability"
+    "svUncountable": true
   },
   {
     "seedKey": 7261,
@@ -132261,7 +132840,6 @@
     "cefr": "C2",
     "gender": "en",
     "ipa": "kandɪdatˈʉːr",
-    "enUncountable": true,
     "translation": "candidacy"
   },
   {
@@ -132290,8 +132868,9 @@
       "indefinitePlural": "återkopplingar",
       "definitePlural": "återkopplingarna"
     },
+    "translation": "feedback",
     "enUncountable": true,
-    "translation": "feedback"
+    "svUncountable": true
   },
   {
     "seedKey": 7269,
@@ -132650,7 +133229,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "stubbornness, persistence, obstinacy"
+    "translation": "stubbornness, persistence, obstinacy",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7290,
@@ -132984,7 +133565,9 @@
       "De brände all växtlighet i området",
       "dalens frodiga växtlighet"
     ],
-    "translation": "vegetation"
+    "translation": "vegetation",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7305,
@@ -133073,8 +133656,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "devotion",
     "enUncountable": true,
-    "translation": "devotion"
+    "svUncountable": true
   },
   {
     "seedKey": 7311,
@@ -133637,8 +134221,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "jealousy",
     "enUncountable": true,
-    "translation": "jealousy"
+    "svUncountable": true
   },
   {
     "seedKey": 7345,
@@ -133683,12 +134268,13 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "translation": "fame",
     "sense": {
       "key": "fame#0",
       "gloss": "renown"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7348,
@@ -134314,8 +134900,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "asthma",
     "enUncountable": true,
-    "translation": "asthma"
+    "svUncountable": true
   },
   {
     "seedKey": 7389,
@@ -134520,8 +135107,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "old age",
     "enUncountable": true,
-    "translation": "old age"
+    "svUncountable": true
   },
   {
     "seedKey": 7403,
@@ -134571,8 +135159,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "ceramics",
     "enUncountable": true,
-    "translation": "ceramics"
+    "svUncountable": true
   },
   {
     "seedKey": 7406,
@@ -134635,8 +135224,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "leather",
     "enUncountable": true,
-    "translation": "leather"
+    "svUncountable": true
   },
   {
     "seedKey": 7410,
@@ -134653,7 +135243,9 @@
     "sense": {
       "key": "cleaning, clearing, purge#1",
       "gloss": "housecleaning"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7411,
@@ -134729,7 +135321,8 @@
     "sense": {
       "key": "supervision#1",
       "gloss": "minding, childcare"
-    }
+    },
+    "enUncountable": true
   },
   {
     "seedKey": 7415,
@@ -134837,7 +135430,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "patriotism"
+    "translation": "patriotism",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7422,
@@ -134884,8 +135479,9 @@
       "indefinitePlural": "programmeringar",
       "definitePlural": "programmeringarna"
     },
+    "translation": "programming",
     "enUncountable": true,
-    "translation": "programming"
+    "svUncountable": true
   },
   {
     "seedKey": 7425,
@@ -134950,12 +135546,13 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "translation": "comfort",
     "sense": {
       "key": "comfort, consolation#2",
       "gloss": "physical ease"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7430,
@@ -135027,21 +135624,6 @@
     }
   },
   {
-    "seedKey": 8124,
-    "lemma": "sned",
-    "pos": "noun",
-    "cefr": "C2",
-    "ipa": "sneːd",
-    "subDefinitions": [
-      "angry, in a bad mood"
-    ],
-    "examples": [
-      "Tavlan är sned",
-      "Lägga huvudet på sned"
-    ],
-    "translation": "crooked, oblique, skewed"
-  },
-  {
     "seedKey": 7434,
     "lemma": "bassäng",
     "pos": "noun",
@@ -135104,7 +135686,9 @@
     "pos": "noun",
     "cefr": "C2",
     "gender": "en",
-    "translation": "aviation, air traffic"
+    "translation": "aviation, air traffic",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7438,
@@ -135139,7 +135723,6 @@
     "pos": "noun",
     "cefr": "C2",
     "gender": "en",
-    "enUncountable": true,
     "translation": "implementation",
     "sense": {
       "key": "implementation, realization, execution#0",
@@ -135676,7 +136259,9 @@
     "subDefinitions": [
       "soreness, tenderness (physical)"
     ],
-    "translation": "tenderness"
+    "translation": "tenderness",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7476,
@@ -135729,7 +136314,6 @@
       "indefinitePlural": "juicer",
       "definitePlural": "juicerna"
     },
-    "enUncountable": true,
     "examples": [
       "Han hällde upp ett glas apelsinjuice",
       "Juice är ojäst saft från (vanligtvis) frukter, vanligtvis osötad"
@@ -135769,8 +136353,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "surgery",
     "enUncountable": true,
-    "translation": "surgery"
+    "svUncountable": true
   },
   {
     "seedKey": 7482,
@@ -135839,7 +136424,8 @@
     "examples": [
       "släcka törsten med ett glas vatten"
     ],
-    "translation": "thirst"
+    "translation": "thirst",
+    "svUncountable": true
   },
   {
     "seedKey": 7487,
@@ -136301,8 +136887,9 @@
       "indefinitePlural": "samexistenser",
       "definitePlural": "samexistenserna"
     },
+    "translation": "coexistence",
     "enUncountable": true,
-    "translation": "coexistence"
+    "svUncountable": true
   },
   {
     "seedKey": 7518,
@@ -136344,7 +136931,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "moderation, restraint"
+    "translation": "moderation, restraint",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7521,
@@ -136461,7 +137050,8 @@
       "current event, topical issue",
       "timeliness, up-to-dateness"
     ],
-    "translation": "topicality, relevance"
+    "translation": "topicality, relevance",
+    "enUncountable": true
   },
   {
     "seedKey": 7527,
@@ -136522,7 +137112,9 @@
     "sense": {
       "key": "west#0",
       "gloss": "the direction, region"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7532,
@@ -136585,7 +137177,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "astonishment, amazement"
+    "translation": "astonishment, amazement",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7536,
@@ -136687,7 +137281,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "perfection"
+    "translation": "perfection",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7543,
@@ -136701,8 +137297,9 @@
       "indefinitePlural": "timmer",
       "definitePlural": "timren"
     },
+    "translation": "timber, lumber",
     "enUncountable": true,
-    "translation": "timber, lumber"
+    "svUncountable": true
   },
   {
     "seedKey": 7544,
@@ -136716,8 +137313,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "urine",
     "enUncountable": true,
-    "translation": "urine"
+    "svUncountable": true
   },
   {
     "seedKey": 7545,
@@ -137179,12 +137777,13 @@
     "subDefinitions": [
       "defecation (the act)"
     ],
-    "enUncountable": true,
     "examples": [
       "Mannen hade smetat avföring på väggarna i cellen",
       "ha avföring"
     ],
-    "translation": "feces, stool"
+    "translation": "feces, stool",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7575,
@@ -137325,8 +137924,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "sunshine",
     "enUncountable": true,
-    "translation": "sunshine"
+    "svUncountable": true
   },
   {
     "seedKey": 7585,
@@ -137389,7 +137989,9 @@
       "indefinitePlural": "utstrålningar",
       "definitePlural": "utstrålningarna"
     },
-    "translation": "radiance, charisma"
+    "translation": "radiance, charisma",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7589,
@@ -137561,7 +138163,9 @@
       "indefinitePlural": "tristesser",
       "definitePlural": "tristesserna"
     },
-    "translation": "boredom"
+    "translation": "boredom",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7600,
@@ -138191,8 +138795,9 @@
     "cefr": "C2",
     "gender": "en",
     "ipa": "ɪndɪŋnaɧˈuːn",
+    "translation": "indignation",
     "enUncountable": true,
-    "translation": "indignation"
+    "svUncountable": true
   },
   {
     "seedKey": 7636,
@@ -138357,12 +138962,13 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "Luften består till största delen av kväve.",
       "Gödsel innehåller ofta kväve och fosfor."
     ],
-    "translation": "nitrogen"
+    "translation": "nitrogen",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7647,
@@ -138570,7 +139176,8 @@
     "pos": "noun",
     "cefr": "C2",
     "gender": "en",
-    "translation": "staffing, crewing"
+    "translation": "staffing, crewing",
+    "enUncountable": true
   },
   {
     "seedKey": 7661,
@@ -138730,11 +139337,12 @@
       "indefinitePlural": "måttor",
       "definitePlural": "måttorna"
     },
-    "enUncountable": true,
     "examples": [
       "Man bör dricka kaffe med måtta."
     ],
-    "translation": "restraint, moderation"
+    "translation": "restraint, moderation",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 8265,
@@ -138957,8 +139565,9 @@
       "indefinitePlural": "intelligenser",
       "definitePlural": "intelligenserna"
     },
+    "translation": "intelligence",
     "enUncountable": true,
-    "translation": "intelligence"
+    "svUncountable": true
   },
   {
     "seedKey": 7688,
@@ -139071,8 +139680,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "ink",
     "enUncountable": true,
-    "translation": "ink"
+    "svUncountable": true
   },
   {
     "seedKey": 7697,
@@ -139161,7 +139771,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "cement"
+    "translation": "cement",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7702,
@@ -139699,7 +140311,8 @@
       "indefinitePlural": "dykningar",
       "definitePlural": "dykningarna"
     },
-    "translation": "diving"
+    "translation": "diving",
+    "enUncountable": true
   },
   {
     "seedKey": 7733,
@@ -140003,12 +140616,13 @@
       "indefinitePlural": "lim",
       "definitePlural": "limmen"
     },
-    "enUncountable": true,
     "translation": "glue",
     "sense": {
       "key": "glue, paste#1",
       "gloss": "the adhesive (noun)"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7754,
@@ -140042,7 +140656,8 @@
     "sense": {
       "key": "usefulness#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true
   },
   {
     "seedKey": 7756,
@@ -140090,8 +140705,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "hydrogen",
     "enUncountable": true,
-    "translation": "hydrogen"
+    "svUncountable": true
   },
   {
     "seedKey": 7760,
@@ -140178,7 +140794,9 @@
     "subDefinitions": [
       "physical education (school subject)"
     ],
-    "translation": "gymnastics"
+    "translation": "gymnastics",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7765,
@@ -140333,7 +140951,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "navigation"
+    "translation": "navigation",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7774,
@@ -140478,7 +141098,9 @@
     "pos": "noun",
     "cefr": "C2",
     "gender": "ett",
-    "translation": "drinking"
+    "translation": "drinking",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7784,
@@ -140587,7 +141209,9 @@
     "subDefinitions": [
       "definiteness, certainty"
     ],
-    "translation": "determination, resolve"
+    "translation": "determination, resolve",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7791,
@@ -140943,7 +141567,8 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "breeding, rearing, farming"
+    "translation": "breeding, rearing, farming",
+    "enUncountable": true
   },
   {
     "seedKey": 7815,
@@ -140995,8 +141620,9 @@
       "indefinitePlural": "råoljor",
       "definitePlural": "råoljorna"
     },
+    "translation": "crude oil",
     "enUncountable": true,
-    "translation": "crude oil"
+    "svUncountable": true
   },
   {
     "seedKey": 7818,
@@ -141038,8 +141664,9 @@
       "indefinitePlural": "tvättmedel",
       "definitePlural": "tvättmedlen"
     },
+    "translation": "laundry detergent",
     "enUncountable": true,
-    "translation": "laundry detergent"
+    "svUncountable": true
   },
   {
     "seedKey": 7821,
@@ -141110,9 +141737,9 @@
     "cefr": "C2",
     "gender": "en",
     "inflections": {
-      "definiteSingular": "upphetsningn",
-      "indefinitePlural": "upphetsningr",
-      "definitePlural": "upphetsningrna"
+      "definiteSingular": "upphetsningen",
+      "indefinitePlural": "upphetsningar",
+      "definitePlural": "upphetsningarna"
     },
     "subDefinitions": [
       "arousal (sexual)"
@@ -141121,7 +141748,9 @@
     "sense": {
       "key": "excitement#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7826,
@@ -141673,8 +142302,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "affection, fondness",
     "enUncountable": true,
-    "translation": "affection, fondness"
+    "svUncountable": true
   },
   {
     "seedKey": 7863,
@@ -141916,11 +142546,12 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "examples": [
       "göra något av illvilja"
     ],
-    "translation": "malice, spite, ill will"
+    "translation": "malice, spite, ill will",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7878,
@@ -142029,7 +142660,9 @@
       "indefinitePlural": "gästfriheter",
       "definitePlural": "gästfriheterna"
     },
-    "translation": "hospitality"
+    "translation": "hospitality",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7885,
@@ -142517,7 +143150,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "optics"
+    "translation": "optics",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7918,
@@ -142678,8 +143313,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "motherhood, maternity",
     "enUncountable": true,
-    "translation": "motherhood, maternity"
+    "svUncountable": true
   },
   {
     "seedKey": 7929,
@@ -142788,8 +143424,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "willingness",
     "enUncountable": true,
-    "translation": "willingness"
+    "svUncountable": true
   },
   {
     "seedKey": 7937,
@@ -142986,7 +143623,9 @@
     "lemma": "multimedia",
     "pos": "noun",
     "cefr": "C2",
-    "translation": "multimedia"
+    "translation": "multimedia",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7951,
@@ -143029,8 +143668,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "slowness",
     "enUncountable": true,
-    "translation": "slowness"
+    "svUncountable": true
   },
   {
     "seedKey": 7954,
@@ -143082,8 +143722,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "wear and tear",
     "enUncountable": true,
-    "translation": "wear and tear"
+    "svUncountable": true
   },
   {
     "seedKey": 7957,
@@ -143244,8 +143885,9 @@
       "indefinitePlural": "luftkonditioneringar",
       "definitePlural": "luftkonditioneringarna"
     },
+    "translation": "air conditioning",
     "enUncountable": true,
-    "translation": "air conditioning"
+    "svUncountable": true
   },
   {
     "seedKey": 7967,
@@ -143505,7 +144147,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "providence"
+    "translation": "providence",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 7985,
@@ -143849,7 +144493,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "humidity, moisture"
+    "translation": "humidity, moisture",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 8007,
@@ -143880,8 +144526,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "legality",
     "enUncountable": true,
-    "translation": "legality"
+    "svUncountable": true
   },
   {
     "seedKey": 8009,
@@ -144083,8 +144730,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "calcium",
     "enUncountable": true,
-    "translation": "calcium"
+    "svUncountable": true
   },
   {
     "seedKey": 8023,
@@ -144230,8 +144878,9 @@
       "indefinitePlural": "vaxer",
       "definitePlural": "vaxerna"
     },
+    "translation": "wax",
     "enUncountable": true,
-    "translation": "wax"
+    "svUncountable": true
   },
   {
     "seedKey": 8036,
@@ -144895,7 +145544,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "bitterness, resentment"
+    "translation": "bitterness, resentment",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 8080,
@@ -145178,8 +145829,9 @@
       "indefinitePlural": "silken",
       "definitePlural": "silkena"
     },
+    "translation": "silk",
     "enUncountable": true,
-    "translation": "silk"
+    "svUncountable": true
   },
   {
     "seedKey": 8104,
@@ -145224,8 +145876,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "severity, strictness",
     "enUncountable": true,
-    "translation": "severity, strictness"
+    "svUncountable": true
   },
   {
     "seedKey": 8107,
@@ -145420,12 +146073,13 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "translation": "ownership",
     "sense": {
       "key": "ownership#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 8121,
@@ -145568,7 +146222,8 @@
     "pos": "noun",
     "cefr": "C2",
     "gender": "en",
-    "translation": "accommodation, lodging"
+    "translation": "accommodation, lodging",
+    "enUncountable": true
   },
   {
     "seedKey": 8133,
@@ -145582,8 +146237,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "corn, maize",
     "enUncountable": true,
-    "translation": "corn, maize"
+    "svUncountable": true
   },
   {
     "seedKey": 8134,
@@ -145692,12 +146348,13 @@
     "subDefinitions": [
       "repentance, contrition"
     ],
-    "enUncountable": true,
     "examples": [
       "Det sägs att ångern är en yngre broder till oskulden.",
       "— Har nu ånger kommit över dig för att du släppte fångarna utan lösen? frågade Toke."
     ],
-    "translation": "remorse, regret"
+    "translation": "remorse, regret",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 8141,
@@ -145742,7 +146399,8 @@
       "indefinitePlural": "rakningar",
       "definitePlural": "rakningarna"
     },
-    "translation": "shaving"
+    "translation": "shaving",
+    "enUncountable": true
   },
   {
     "seedKey": 8144,
@@ -145790,8 +146448,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "frugality, thrift",
     "enUncountable": true,
-    "translation": "frugality, thrift"
+    "svUncountable": true
   },
   {
     "seedKey": 8147,
@@ -145900,8 +146559,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "saliva",
     "enUncountable": true,
-    "translation": "saliva"
+    "svUncountable": true
   },
   {
     "seedKey": 8156,
@@ -146098,7 +146758,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "acoustics"
+    "translation": "acoustics",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 8172,
@@ -146451,8 +147113,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "distinctiveness",
     "enUncountable": true,
-    "translation": "distinctiveness"
+    "svUncountable": true
   },
   {
     "seedKey": 8196,
@@ -146750,12 +147413,13 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "enUncountable": true,
     "translation": "medicine",
     "sense": {
       "key": "medicine#1",
       "gloss": "medical science"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 8219,
@@ -146769,7 +147433,6 @@
       "indefinitePlural": "apparaturer",
       "definitePlural": "apparaturerna"
     },
-    "enUncountable": true,
     "examples": [
       "verkstadens apparatur"
     ],
@@ -146777,7 +147440,9 @@
     "sense": {
       "key": "equipment#2",
       "gloss": "apparatus, machinery"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 8220,
@@ -146990,8 +147655,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "cleanliness",
     "enUncountable": true,
-    "translation": "cleanliness"
+    "svUncountable": true
   },
   {
     "seedKey": 8236,
@@ -147325,8 +147991,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "gravity",
     "enUncountable": true,
-    "translation": "gravity"
+    "svUncountable": true
   },
   {
     "seedKey": 8259,
@@ -147513,7 +148180,8 @@
       "indefinitePlural": "knackningar",
       "definitePlural": "knackningarna"
     },
-    "translation": "knocking"
+    "translation": "knocking",
+    "enUncountable": true
   },
   {
     "seedKey": 8276,
@@ -147746,7 +148414,9 @@
     "sense": {
       "key": "service#1",
       "gloss": "staff attendance"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 8293,
@@ -147868,8 +148538,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "sadness",
     "enUncountable": true,
-    "translation": "sadness"
+    "svUncountable": true
   },
   {
     "seedKey": 8304,
@@ -147909,7 +148580,8 @@
       "indefinitePlural": "vardagligheter",
       "definitePlural": "vardagligheterna"
     },
-    "translation": "ordinariness, everydayness"
+    "translation": "ordinariness, everydayness",
+    "enUncountable": true
   },
   {
     "seedKey": 8307,
@@ -148107,8 +148779,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "translation": "moonlight",
     "enUncountable": true,
-    "translation": "moonlight"
+    "svUncountable": true
   },
   {
     "seedKey": 8322,
@@ -148474,7 +149147,9 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
-    "translation": "orthopedics"
+    "translation": "orthopedics",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 8356,
@@ -148695,7 +149370,9 @@
     "sense": {
       "key": "worship#1",
       "gloss": "adoration, reverence"
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 8377,
@@ -148943,7 +149620,9 @@
     "cefr": "C2",
     "gender": "en",
     "ipa": "prʊfʏlˈakːs",
-    "translation": "prophylaxis"
+    "translation": "prophylaxis",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 8398,
@@ -149057,8 +149736,9 @@
     "pos": "noun",
     "cefr": "C2",
     "gender": "en",
+    "translation": "specificity",
     "enUncountable": true,
-    "translation": "specificity"
+    "svUncountable": true
   },
   {
     "seedKey": 8410,
@@ -149070,7 +149750,9 @@
     "sense": {
       "key": "enthusiasm#0",
       "gloss": ""
-    }
+    },
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 8411,
@@ -149117,8 +149799,9 @@
       "indefinitePlural": "vinägrar",
       "definitePlural": "vinägrarna"
     },
+    "translation": "vinegar",
     "enUncountable": true,
-    "translation": "vinegar"
+    "svUncountable": true
   },
   {
     "seedKey": 8418,
@@ -149192,7 +149875,7 @@
   {
     "seedKey": 8422,
     "lemma": "kvitt",
-    "pos": "noun",
+    "pos": "adj",
     "cefr": "C2",
     "examples": [
       "Jag hoppas jag blir kvitt förkylningen snart",

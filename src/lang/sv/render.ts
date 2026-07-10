@@ -60,14 +60,21 @@ function formatValue(key: string, value: string): string {
 // Build the 2×2 declension grid. The indefinite singular is the lemma itself (repeated for
 // a complete table). Always returns both columns; uncountable nouns leave the plural cells
 // empty (consumers can keep the column for layout or drop it if they prefer).
+//
+// A word we present as uncountable ("(ett) vatten") must not advertise a plural: the seed still often
+// carries a rare "types-of" plural (Swedish forms these freely — isar, salter, forskningar) or a
+// spurious/homonym one, which reads as a contradiction next to the parenthesised headword. So for an
+// uncountable noun we blank the plural column here regardless of the stored form. (The form stays in
+// the data and in the flat Word-Detail rows; only the card grid is cleaned.)
 function nounTable(entry: Entry): InflectionTable {
   const indefiniteSingular = entry.lemma
   const { definiteSingular, indefinitePlural, definitePlural } = entry.inflections
+  const uncountable = entry.features.countable === 'no'
   return {
     columns: ['Singular', 'Plural'],
     rows: [
-      { label: 'Indefinite', cells: [indefiniteSingular, indefinitePlural ?? ''] },
-      { label: 'Definite', cells: [definiteSingular ?? '', definitePlural ?? ''] },
+      { label: 'Indefinite', cells: [indefiniteSingular, uncountable ? '' : (indefinitePlural ?? '')] },
+      { label: 'Definite', cells: [definiteSingular ?? '', uncountable ? '' : (definitePlural ?? '')] },
     ],
   }
 }
@@ -80,8 +87,15 @@ export const svRenderer: LanguageRenderer = {
     if (entry.pos === 'verb') return `att ${entry.lemma}`
     if (entry.pos === 'noun') {
       const gender = entry.features.gender // "en" | "ett"
-      // Uncountable nouns take no article (e.g. "vatten", not "ett vatten").
-      if (entry.features.countable === 'no' || !gender) return entry.lemma
+      // Proper nouns are names — no article at all ("maj", "islam", "engelska"), whatever the gender.
+      if (entry.features.proper === 'yes') return entry.lemma
+      // Uncountable nouns aren't used with the indefinite article, but they still HAVE a gender. We
+      // keep it parenthesised ("(ett) vatten") so Practice still teaches en/ett — it's the only place
+      // the gender shows there — while signalling the bare article isn't idiomatic. This also keeps
+      // the word marked as a noun, so it can't be confused with a same-spelled adjective/verb lemma.
+      // (A genderless uncountable falls through to bare.)
+      if (entry.features.countable === 'no') return gender ? `(${gender}) ${entry.lemma}` : entry.lemma
+      if (!gender) return entry.lemma
       return `${gender} ${entry.lemma}`
     }
     return entry.lemma
