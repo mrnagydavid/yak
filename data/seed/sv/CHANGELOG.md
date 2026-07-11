@@ -6,6 +6,36 @@ Add a dated entry here whenever you change content. Newest first.
 
 See `SNAPSHOT-PIPELINE-DESIGN.md` for the pipeline; §7 has the editing recipes.
 
+## 2026-07-11 — English-article countability pass + targeted fixes
+
+`version` `sv-2026-06-01-70dbed97` → `sv-2026-06-01-924aa1ef`. Count 8321 → 8319 (two deletions).
+
+**Targeted fixes.** `utland` → uncountable (was "an abroad"). Dropped two interjection cards duplicating
+a plain word — `gud` "oh God!" (kept noun `gud` "a god"; its example had been the exclamation, replaced
+with `Zeus var en grekisk gud.`) and `välkommen` "welcome!" (kept the adjective). Respelled `symptom` →
+`symtom` (modern SAOL form; IPA/`seedKey`/`gender` untouched, progress preserved).
+
+**Countability.** Reworked which nouns render bare vs "a/an X" on the English side; settled at **773
+`enUncountable` cards** (from 632). The durable rule, after several swings (see git history if curious):
+**this trainer teaches, it is not a dictionary — mark a card uncountable only when "a/an X" is wrong in
+the *unmarked default* sense it teaches.** "Can I construct 'a X'?" is the wrong test — type-of
+("a wine"), instance-of ("a success"), serving-of ("a coffee"), and exclamatory ("what a shame")
+readings article almost anything without making the default sense countable. Because each *sense* is a
+separate Swedish card, the count reading usually already lives on its own card: `ordning` "order"
+(tidiness, bare) vs `order`/`befallning` "an order"; `skam` "shame" (bare) vs `synd` "a shame, pity".
+
+Reconciliation: re-articling shifts prompt collisions, so `audit-gloss` clashes were each a mass Swedish
+word colliding with a countable sibling — fixed by baring the mass member (`byggande` vs `byggnad`,
+`erfarenhet` vs `upplevelse`, `andedräkt` vs `andetag`, `ordning` vs `order`, …); now-redundant glosses
+auto-removed. `pnpm test` green (221); `audit-gloss` HARD-clean.
+
+Deferred (deliberately wrapped up here): the borderline middle-ground abstracts (`success`, `criticism`,
+`development`, `domestic policy`…) were left **countable** rather than swung back to uncountable — a
+consistent "err uncountable" re-sweep of those is a possible future pass. The Swedish side
+(`svUncountable`/`svProper`) is untouched but was built with an older rule, so it likely wants the same
+correction. `;`-multi-sense translations (`tur` "luck; turn") still bare the dominant sense (whole-card
+flag).
+
 ## 2026-07-11 — Gloss sweep, stage 3: resolve the flagged prompts + harden the checker
 
 Curated all 488 collision neighborhoods (~903 flagged slots) from the Stage-1+2 soft queue. Every
