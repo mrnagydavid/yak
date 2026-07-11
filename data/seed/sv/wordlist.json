@@ -1231,7 +1231,8 @@
     "sense": {
       "key": "and#0",
       "gloss": ""
-    }
+    },
+    "boost": 3
   },
   {
     "seedKey": 88,
@@ -1252,7 +1253,8 @@
     "examples": [
       "Det var fest igår."
     ],
-    "translation": "be"
+    "translation": "be",
+    "boost": 3
   },
   {
     "seedKey": 1275,
@@ -1285,7 +1287,8 @@
     "translation": "in",
     "sense": {
       "key": "in#0"
-    }
+    },
+    "boost": 3
   },
   {
     "seedKey": 90,
@@ -1303,7 +1306,8 @@
       "John har två katter.",
       "Den slipsen har en fruktansvärd färg."
     ],
-    "translation": "have"
+    "translation": "have",
+    "boost": 3
   },
   {
     "seedKey": 91,
@@ -1412,7 +1416,8 @@
     "sense": {
       "key": "as, like#0",
       "gloss": ""
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 295,
@@ -1443,7 +1448,8 @@
     "translation": "on, on top of",
     "sense": {
       "key": "on, on top of#0"
-    }
+    },
+    "boost": 3
   },
   {
     "seedKey": 96,
@@ -1478,7 +1484,8 @@
     "sense": {
       "key": "from#1",
       "gloss": "by, of"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 98,
@@ -1519,7 +1526,7 @@
     "seedKey": 1831,
     "lemma": "för",
     "pos": "conj",
-    "cefr": "A2",
+    "cefr": "A1",
     "ipa": "føːr",
     "examples": [
       "Jag stannar hemma, för jag är trött."
@@ -1528,7 +1535,8 @@
     "sense": {
       "key": "because#0",
       "gloss": ""
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 4906,
@@ -1563,7 +1571,8 @@
     "translation": "that",
     "sense": {
       "gloss": "as in \"I think that…\""
-    }
+    },
+    "boost": 3
   },
   {
     "seedKey": 100,
@@ -1586,7 +1595,8 @@
       "att kunna göra något",
       "Jag kan göra det"
     ],
-    "translation": "be able to, can"
+    "translation": "be able to, can",
+    "boost": 3
   },
   {
     "seedKey": 101,
@@ -1603,7 +1613,8 @@
     "examples": [
       "Jag ska äta."
     ],
-    "translation": "shall, will, be going to"
+    "translation": "shall, will, be going to",
+    "boost": 3
   },
   {
     "seedKey": 360,
@@ -1647,7 +1658,8 @@
       "Jag förstod inte vad du sa.",
       "Myror är inte stora."
     ],
-    "translation": "not"
+    "translation": "not",
+    "boost": 3
   },
   {
     "seedKey": 104,
@@ -1664,7 +1676,8 @@
     "examples": [
       "Jag bor med min familj."
     ],
-    "translation": "with, together with, in the company of"
+    "translation": "with, together with, in the company of",
+    "boost": 3
   },
   {
     "seedKey": 512,
@@ -1699,7 +1712,8 @@
     "sense": {
       "key": "to#0",
       "gloss": "destination"
-    }
+    },
+    "boost": 3
   },
   {
     "seedKey": 2464,
@@ -1738,7 +1752,8 @@
     "sense": {
       "key": "small, little#0",
       "gloss": "small in size"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 107,
@@ -1840,7 +1855,8 @@
     "examples": [
       "Ring mig om du kommer."
     ],
-    "translation": "if"
+    "translation": "if",
+    "boost": 2
   },
   {
     "seedKey": 112,
@@ -1866,7 +1882,8 @@
     "sense": {
       "key": "but#0",
       "gloss": "however"
-    }
+    },
+    "boost": 3
   },
   {
     "seedKey": 114,
@@ -1965,7 +1982,8 @@
     "translation": "get, receive",
     "sense": {
       "key": "get, receive#0"
-    }
+    },
+    "boost": 3
   },
   {
     "seedKey": 682,
@@ -2000,7 +2018,8 @@
       "Är det inte så?",
       "en så kallad skruvboll"
     ],
-    "translation": "so, like that, in such a way"
+    "translation": "so, like that, in such a way",
+    "boost": 2
   },
   {
     "seedKey": 119,
@@ -2049,7 +2068,8 @@
     "sense": {
       "key": "become#0",
       "gloss": ""
-    }
+    },
+    "boost": 3
   },
   {
     "seedKey": 123,
@@ -2070,7 +2090,8 @@
     "examples": [
       "Kan du komma hem till mig imorgon?"
     ],
-    "translation": "come"
+    "translation": "come",
+    "boost": 2
   },
   {
     "seedKey": 125,
@@ -2103,7 +2124,8 @@
     "examples": [
       "Vill du ha te eller kaffe?"
     ],
-    "translation": "or"
+    "translation": "or",
+    "boost": 2
   },
   {
     "seedKey": 127,
@@ -2118,7 +2140,8 @@
     "sense": {
       "key": "from#0",
       "gloss": "origin, source"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 128,
@@ -2133,7 +2156,8 @@
       "Jag har mycket att göra idag.",
       "Han behöver mycket pengar."
     ],
-    "translation": "much, a lot"
+    "translation": "much, a lot",
+    "boost": 2
   },
   {
     "seedKey": 129,
@@ -2153,7 +2177,8 @@
     "examples": [
       "Jag vill ha en kopp kaffe."
     ],
-    "translation": "want"
+    "translation": "want",
+    "boost": 3
   },
   {
     "seedKey": 1072,
@@ -2211,7 +2236,8 @@
       "Vad gör du?",
       "Jag kunde inte göra någonting."
     ],
-    "translation": "do"
+    "translation": "do",
+    "boost": 3
   },
   {
     "seedKey": 133,
@@ -2309,7 +2335,8 @@
     "sense": {
       "key": "take#0",
       "gloss": "grab, take"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 138,
@@ -2324,7 +2351,8 @@
       "När börjar filmen?",
       "Jag ringer dig när jag kommer hem."
     ],
-    "translation": "when"
+    "translation": "when",
+    "boost": 2
   },
   {
     "seedKey": 139,
@@ -2346,7 +2374,8 @@
       "Han sa att han var blind, men han kan se",
       "Han såg på igelkotten"
     ],
-    "translation": "see"
+    "translation": "see",
+    "boost": 2
   },
   {
     "seedKey": 140,
@@ -2400,7 +2429,8 @@
       "Björnen var större än vanligt.",
       "Vad vill du bli när du blir stor?"
     ],
-    "translation": "big, large"
+    "translation": "big, large",
+    "boost": 2
   },
   {
     "seedKey": 143,
@@ -2411,7 +2441,8 @@
     "examples": [
       "Hör du mig nu?"
     ],
-    "translation": "now"
+    "translation": "now",
+    "boost": 3
   },
   {
     "seedKey": 6046,
@@ -2459,7 +2490,8 @@
     "translation": "walk",
     "sense": {
       "key": "walk#0"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 145,
@@ -2481,7 +2513,8 @@
       "Jag sa hej till honom",
       "Det är svårt att säga exakt vilket djur det är"
     ],
-    "translation": "say"
+    "translation": "say",
+    "boost": 2
   },
   {
     "seedKey": 147,
@@ -2492,7 +2525,8 @@
     "examples": [
       "Vad heter du?"
     ],
-    "translation": "what"
+    "translation": "what",
+    "boost": 3
   },
   {
     "seedKey": 148,
@@ -2514,7 +2548,8 @@
     "sense": {
       "key": "year#0",
       "gloss": "period of time"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 149,
@@ -2548,7 +2583,8 @@
     "examples": [
       "Under lektionen pratade de hela tiden."
     ],
-    "translation": "under, below"
+    "translation": "under, below",
+    "boost": 1
   },
   {
     "seedKey": 151,
@@ -2573,7 +2609,8 @@
     "sense": {
       "key": "mean#0",
       "gloss": "signify, entail"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 152,
@@ -2587,7 +2624,8 @@
     "translation": "too, as well, also",
     "sense": {
       "key": "too#0"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 153,
@@ -2602,7 +2640,8 @@
     "sense": {
       "key": "there#0",
       "gloss": "at that place"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 154,
@@ -2669,7 +2708,8 @@
     "examples": [
       "Hur är det bra för oss?"
     ],
-    "translation": "how"
+    "translation": "how",
+    "boost": 3
   },
   {
     "seedKey": 158,
@@ -2700,7 +2740,8 @@
     "translation": "to, toward",
     "sense": {
       "key": "to#1"
-    }
+    },
+    "boost": 1
   },
   {
     "seedKey": 160,
@@ -2716,7 +2757,8 @@
     "sense": {
       "key": "just, only#0",
       "gloss": "only, merely"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 161,
@@ -2731,7 +2773,8 @@
       "Vilken är Sveriges största stad?",
       "Vilka ska jag välja?"
     ],
-    "translation": "which, what"
+    "translation": "which, what",
+    "boost": 1
   },
   {
     "seedKey": 162,
@@ -2760,7 +2803,8 @@
     "examples": [
       "Jag har en ny cykel."
     ],
-    "translation": "new"
+    "translation": "new",
+    "boost": 2
   },
   {
     "seedKey": 164,
@@ -2852,7 +2896,8 @@
     "sense": {
       "key": "good#0",
       "gloss": ""
-    }
+    },
+    "boost": 3
   },
   {
     "seedKey": 400,
@@ -2917,7 +2962,8 @@
     "sense": {
       "key": "after#0",
       "gloss": ""
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 170,
@@ -2963,7 +3009,8 @@
     "sense": {
       "key": "a little, to a small extent#0",
       "gloss": ""
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 173,
@@ -3013,7 +3060,8 @@
     "sense": {
       "key": "above#0",
       "gloss": "spatially over"
-    }
+    },
+    "boost": 1
   },
   {
     "seedKey": 2096,
@@ -3057,7 +3105,8 @@
     "sense": {
       "key": "give#0",
       "gloss": "hand over"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 178,
@@ -3121,7 +3170,8 @@
     "sense": {
       "key": "here#0",
       "gloss": "at this place"
-    }
+    },
+    "boost": 3
   },
   {
     "seedKey": 181,
@@ -3162,7 +3212,8 @@
     "sense": {
       "key": "write#0",
       "gloss": "write, type"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 183,
@@ -3186,7 +3237,8 @@
     "translation": "time",
     "sense": {
       "key": "time#0"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 184,
@@ -3215,7 +3267,8 @@
     "translation": "then, after this, afterwards",
     "sense": {
       "key": "then#1"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 508,
@@ -3306,7 +3359,8 @@
     "sense": {
       "key": "begin, start#0",
       "gloss": "start, commence"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 189,
@@ -3351,7 +3405,8 @@
       "En vacker dag möts vi igen",
       "dagvatten"
     ],
-    "translation": "day"
+    "translation": "day",
+    "boost": 2
   },
   {
     "seedKey": 191,
@@ -3388,7 +3443,8 @@
       "människor och djur",
       "Tre människor skadades i olyckan."
     ],
-    "translation": "human being, person"
+    "translation": "human being, person",
+    "boost": 2
   },
   {
     "seedKey": 193,
@@ -3411,7 +3467,8 @@
       "Sverige är ett land",
       "länderna i EU"
     ],
-    "translation": "country, land"
+    "translation": "country, land",
+    "boost": 2
   },
   {
     "seedKey": 194,
@@ -3472,7 +3529,8 @@
     "translation": "question",
     "sense": {
       "key": "question#0"
-    }
+    },
+    "boost": 1
   },
   {
     "seedKey": 501,
@@ -3492,7 +3550,8 @@
     "translation": "ask, inquire",
     "sense": {
       "key": "ask, inquire#0"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 196,
@@ -3527,7 +3586,8 @@
     "examples": [
       "Jag tror att han kommer snart."
     ],
-    "translation": "believe, think"
+    "translation": "believe, think",
+    "boost": 2
   },
   {
     "seedKey": 765,
@@ -3596,7 +3656,8 @@
     "translation": "think, reckon",
     "sense": {
       "key": "think, reckon#0"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 200,
@@ -3634,7 +3695,8 @@
       "Hon vet hur man lagar en trasig bil.",
       "Vem vet?"
     ],
-    "translation": "know"
+    "translation": "know",
+    "boost": 2
   },
   {
     "seedKey": 202,
@@ -3645,7 +3707,8 @@
     "examples": [
       "Jag ska dit idag."
     ],
-    "translation": "today"
+    "translation": "today",
+    "boost": 2
   },
   {
     "seedKey": 203,
@@ -3685,7 +3748,8 @@
     "translation": "need",
     "sense": {
       "key": "need#0"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 205,
@@ -3735,7 +3799,8 @@
       "Jag känner mig sjuk.",
       "Jag känner mig illamående."
     ],
-    "translation": "feel, sense"
+    "translation": "feel, sense",
+    "boost": 2
   },
   {
     "seedKey": 208,
@@ -3756,7 +3821,8 @@
     "examples": [
       "Jag läste en rolig bok."
     ],
-    "translation": "read"
+    "translation": "read",
+    "boost": 2
   },
   {
     "seedKey": 209,
@@ -3813,7 +3879,8 @@
     "examples": [
       "Kanske kommer hon imorgon."
     ],
-    "translation": "maybe, perhaps, possibly"
+    "translation": "maybe, perhaps, possibly",
+    "boost": 2
   },
   {
     "seedKey": 211,
@@ -3987,7 +4054,8 @@
     "translation": "time, occasion",
     "sense": {
       "key": "time#1"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 219,
@@ -4013,7 +4081,8 @@
     "sense": {
       "key": "stand#0",
       "gloss": "be standing"
-    }
+    },
+    "boost": 1
   },
   {
     "seedKey": 220,
@@ -4198,7 +4267,8 @@
     "examples": [
       "Jag kan inte leva utan dig."
     ],
-    "translation": "without"
+    "translation": "without",
+    "boost": 2
   },
   {
     "seedKey": 249,
@@ -4252,7 +4322,8 @@
       "Både barn och vuxna är välkomna.",
       "Hon pussade sina barn godnatt."
     ],
-    "translation": "child"
+    "translation": "child",
+    "boost": 2
   },
   {
     "seedKey": 231,
@@ -4289,7 +4360,8 @@
     "sense": {
       "key": "think, reckon#1",
       "gloss": "ponder, consider"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 233,
@@ -4330,7 +4402,8 @@
     "sense": {
       "key": "important#0",
       "gloss": "significant"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 235,
@@ -4600,7 +4673,8 @@
     "sense": {
       "key": "thing#0",
       "gloss": "object, matter"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 251,
@@ -4763,7 +4837,8 @@
       "Lägg jeansen på sängen!",
       "Lägg boken på bordet!"
     ],
-    "translation": "lay, put, place"
+    "translation": "lay, put, place",
+    "boost": 1
   },
   {
     "seedKey": 259,
@@ -4796,7 +4871,8 @@
       "Jag har redan gjort det",
       "Är ni redan här? Det var tidigt."
     ],
-    "translation": "already"
+    "translation": "already",
+    "boost": 1
   },
   {
     "seedKey": 261,
@@ -4814,7 +4890,8 @@
       "män och kvinnor",
       "flickor och kvinnor"
     ],
-    "translation": "woman"
+    "translation": "woman",
+    "boost": 2
   },
   {
     "seedKey": 262,
@@ -4886,7 +4963,8 @@
       "Jag har aldrig sett det förr.",
       "Malin ljuger aldrig."
     ],
-    "translation": "never"
+    "translation": "never",
+    "boost": 2
   },
   {
     "seedKey": 266,
@@ -4897,7 +4975,8 @@
     "examples": [
       "Kommer du hit ofta?"
     ],
-    "translation": "often"
+    "translation": "often",
+    "boost": 2
   },
   {
     "seedKey": 267,
@@ -5168,7 +5247,8 @@
       "Varför är du här?",
       "De frågade mig varför jag inte var i skolan."
     ],
-    "translation": "why"
+    "translation": "why",
+    "boost": 2
   },
   {
     "seedKey": 278,
@@ -5213,7 +5293,8 @@
       "Mormor är gammal.",
       "en gammal tradition"
     ],
-    "translation": "old"
+    "translation": "old",
+    "boost": 2
   },
   {
     "seedKey": 280,
@@ -5356,7 +5437,8 @@
       "Jag är hos djävulen.",
       "Johan är hos sig."
     ],
-    "translation": "at (someone's place), with"
+    "translation": "at (someone's place), with",
+    "boost": 1
   },
   {
     "seedKey": 288,
@@ -5371,7 +5453,8 @@
     "sense": {
       "key": "always#0",
       "gloss": ""
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 289,
@@ -5559,7 +5642,8 @@
       "Han började tala",
       "Jag visste inte att hundar kunde tala"
     ],
-    "translation": "speak, talk"
+    "translation": "speak, talk",
+    "boost": 1
   },
   {
     "seedKey": 300,
@@ -5612,7 +5696,8 @@
       "Den röda bilen körde på en väg",
       "En älg sprang över vägen"
     ],
-    "translation": "road"
+    "translation": "road",
+    "boost": 2
   },
   {
     "seedKey": 303,
@@ -5694,7 +5779,8 @@
       "Göteborg är en stad på västkusten",
       "Tokyo och New York är städer"
     ],
-    "translation": "city, town"
+    "translation": "city, town",
+    "boost": 2
   },
   {
     "seedKey": 307,
@@ -5717,7 +5803,8 @@
       "Jag hör fåglarna sjunga",
       "Hör du mig?"
     ],
-    "translation": "hear"
+    "translation": "hear",
+    "boost": 2
   },
   {
     "seedKey": 308,
@@ -5892,7 +5979,8 @@
     "translation": "understand",
     "sense": {
       "key": "understand#0"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 317,
@@ -5977,7 +6065,8 @@
     "sense": {
       "key": "play#0",
       "gloss": "game, instrument"
-    }
+    },
+    "boost": 1
   },
   {
     "seedKey": 321,
@@ -6023,7 +6112,8 @@
     "translation": "find",
     "sense": {
       "key": "find, locate#0"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 324,
@@ -6111,7 +6201,8 @@
       "– Vill du klappa kaninen? – Ja, gärna!",
       "Hon äter gärna glass"
     ],
-    "translation": "gladly, willingly"
+    "translation": "gladly, willingly",
+    "boost": 1
   },
   {
     "seedKey": 328,
@@ -6230,7 +6321,8 @@
     "sense": {
       "key": "difficult, hard#0",
       "gloss": ""
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 335,
@@ -6256,7 +6348,8 @@
     "sense": {
       "key": "teach, instruct#0",
       "gloss": ""
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 2081,
@@ -6347,7 +6440,8 @@
       "ett långt staket",
       "en lång resa"
     ],
-    "translation": "long"
+    "translation": "long",
+    "boost": 2
   },
   {
     "seedKey": 339,
@@ -6488,7 +6582,8 @@
       "Vi blev väldigt hungriga",
       "Väldigt många har kontaktat oss"
     ],
-    "translation": "very, really"
+    "translation": "very, really",
+    "boost": 2
   },
   {
     "seedKey": 346,
@@ -6583,7 +6678,8 @@
       "förra veckan",
       "nästa vecka"
     ],
-    "translation": "week"
+    "translation": "week",
+    "boost": 1
   },
   {
     "seedKey": 350,
@@ -6598,7 +6694,8 @@
     "sense": {
       "key": "yes#0",
       "gloss": "affirmative"
-    }
+    },
+    "boost": 3
   },
   {
     "seedKey": 351,
@@ -6742,7 +6839,8 @@
     "translation": "answer, reply",
     "sense": {
       "key": "answer, reply#0"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 358,
@@ -6920,7 +7018,8 @@
     "sense": {
       "key": "bad#0",
       "gloss": "as in \"a bad movie\""
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 368,
@@ -6940,7 +7039,8 @@
     "translation": "name",
     "sense": {
       "key": "name#0"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 369,
@@ -6975,7 +7075,8 @@
     "sense": {
       "key": "really, truly#0",
       "gloss": "truly, indeed"
-    }
+    },
+    "boost": 1
   },
   {
     "seedKey": 371,
@@ -7344,7 +7445,8 @@
     "translation": "work",
     "sense": {
       "key": "work, job#0"
-    }
+    },
+    "boost": 1
   },
   {
     "seedKey": 392,
@@ -7397,7 +7499,8 @@
     "translation": "hand",
     "sense": {
       "key": "hand#0"
-    }
+    },
+    "boost": 1
   },
   {
     "seedKey": 395,
@@ -7486,7 +7589,8 @@
       "köpa fem burkar kebabsås",
       "Jag köper inte hans förklaring"
     ],
-    "translation": "buy, purchase"
+    "translation": "buy, purchase",
+    "boost": 2
   },
   {
     "seedKey": 399,
@@ -7546,7 +7650,8 @@
       "Jag sitter på stolen",
       "Hon bör sitta i båten"
     ],
-    "translation": "sit"
+    "translation": "sit",
+    "boost": 1
   },
   {
     "seedKey": 404,
@@ -7836,7 +7941,8 @@
     "sense": {
       "key": "job#0",
       "gloss": "work, task"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 419,
@@ -7980,7 +8086,8 @@
     "sense": {
       "key": "back#0",
       "gloss": "return, backward"
-    }
+    },
+    "boost": 1
   },
   {
     "seedKey": 428,
@@ -8015,7 +8122,8 @@
     "examples": [
       "Jag äter ibland pizza."
     ],
-    "translation": "sometimes"
+    "translation": "sometimes",
+    "boost": 2
   },
   {
     "seedKey": 430,
@@ -8239,7 +8347,8 @@
     "translation": "stop, end",
     "sense": {
       "key": "stop, end#0"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 440,
@@ -8336,7 +8445,8 @@
     "sense": {
       "key": "right, correct#0",
       "gloss": "correct, not wrong"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 442,
@@ -8406,7 +8516,8 @@
     "sense": {
       "key": "family, dynasty#1",
       "gloss": "household"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 446,
@@ -8424,7 +8535,8 @@
     "translation": "who, whom",
     "sense": {
       "key": "who, which, that#1"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 447,
@@ -8449,7 +8561,8 @@
     "sense": {
       "key": "go, travel#0",
       "gloss": ""
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 448,
@@ -8470,7 +8583,8 @@
     "examples": [
       "Jag betalar alldeles för hög ränta."
     ],
-    "translation": "pay"
+    "translation": "pay",
+    "boost": 2
   },
   {
     "seedKey": 449,
@@ -8576,7 +8690,8 @@
     "translation": "help",
     "sense": {
       "key": "help#0"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 454,
@@ -8621,7 +8736,8 @@
     "examples": [
       "Nej, jag har inga pengar med mig."
     ],
-    "translation": "no"
+    "translation": "no",
+    "boost": 3
   },
   {
     "seedKey": 457,
@@ -8957,7 +9073,8 @@
     "sense": {
       "key": "wait#0",
       "gloss": "stay until something happens"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 475,
@@ -9111,7 +9228,8 @@
     "translation": "work",
     "sense": {
       "key": "work, job#0"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 483,
@@ -9424,7 +9542,8 @@
     "sense": {
       "key": "talk, speak#0",
       "gloss": "talk (informal)"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 499,
@@ -9534,7 +9653,8 @@
     "translation": "live, dwell",
     "sense": {
       "key": "live, be alive#1"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 505,
@@ -9710,7 +9830,8 @@
     "translation": "house",
     "sense": {
       "key": "house#0"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 514,
@@ -9735,7 +9856,8 @@
     "sense": {
       "key": "friend#0",
       "gloss": ""
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 515,
@@ -9789,7 +9911,8 @@
     "examples": [
       "Hennes hår är kort."
     ],
-    "translation": "short"
+    "translation": "short",
+    "boost": 1
   },
   {
     "seedKey": 1881,
@@ -10010,7 +10133,8 @@
       "Jag väntar vid min mila medan timmarna lida",
       "i denna sena timme"
     ],
-    "translation": "hour"
+    "translation": "hour",
+    "boost": 1
   },
   {
     "seedKey": 526,
@@ -10082,7 +10206,8 @@
     "sense": {
       "key": "soon#0",
       "gloss": ""
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 531,
@@ -10227,7 +10352,8 @@
     "translation": "look, watch",
     "sense": {
       "key": "look, watch#0"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 538,
@@ -10603,7 +10729,8 @@
     "translation": "ready, finished, done",
     "sense": {
       "key": "ready, finished, done#0"
-    }
+    },
+    "boost": 1
   },
   {
     "seedKey": 556,
@@ -10653,7 +10780,8 @@
       "köra bil",
       "åka bil"
     ],
-    "translation": "car"
+    "translation": "car",
+    "boost": 2
   },
   {
     "seedKey": 559,
@@ -10797,7 +10925,8 @@
     "sense": {
       "key": "meet#0",
       "gloss": "encounter a person"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 565,
@@ -11173,7 +11302,8 @@
     "translation": "nice, fine, pretty",
     "sense": {
       "key": "nice, fine, pretty#0"
-    }
+    },
+    "boost": 1
   },
   {
     "seedKey": 583,
@@ -11434,7 +11564,8 @@
     "sense": {
       "key": "home#0",
       "gloss": ""
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 595,
@@ -11585,7 +11716,8 @@
     "examples": [
       "Vad heter du?"
     ],
-    "translation": "be called"
+    "translation": "be called",
+    "boost": 2
   },
   {
     "seedKey": 602,
@@ -11628,7 +11760,8 @@
     "sense": {
       "key": "eat#0",
       "gloss": ""
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 604,
@@ -11763,7 +11896,8 @@
     "translation": "light; easy",
     "sense": {
       "key": "light; easy#0"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 767,
@@ -12084,7 +12218,8 @@
     "sense": {
       "key": "evening#0",
       "gloss": ""
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 626,
@@ -12239,7 +12374,8 @@
     "sense": {
       "key": "water#0"
     },
-    "svUncountable": true
+    "svUncountable": true,
+    "boost": 2
   },
   {
     "seedKey": 634,
@@ -12424,7 +12560,8 @@
     "sense": {
       "key": "unfortunately#0",
       "gloss": ""
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 643,
@@ -12557,7 +12694,8 @@
     "translation": "yesterday",
     "sense": {
       "key": "yesterday#0"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 650,
@@ -12792,7 +12930,8 @@
     "sense": {
       "key": "food#0",
       "gloss": ""
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 662,
@@ -12931,7 +13070,8 @@
       "Jag vill ha en lägenhet med två rum",
       "Vi syns på rummet sen."
     ],
-    "translation": "room"
+    "translation": "room",
+    "boost": 1
   },
   {
     "seedKey": 670,
@@ -13321,7 +13461,8 @@
     "translation": "funny, fun",
     "sense": {
       "key": "fun#0"
-    }
+    },
+    "boost": 1
   },
   {
     "seedKey": 691,
@@ -13587,7 +13728,8 @@
     "translation": "like",
     "sense": {
       "key": "like#0"
-    }
+    },
+    "boost": 1
   },
   {
     "seedKey": 704,
@@ -14648,7 +14790,8 @@
     "translation": "open",
     "sense": {
       "key": "open#1"
-    }
+    },
+    "boost": 1
   },
   {
     "seedKey": 755,
@@ -14710,7 +14853,8 @@
     "examples": [
       "Han älskar sin mamma."
     ],
-    "translation": "mom, mum, mother"
+    "translation": "mom, mum, mother",
+    "boost": 1
   },
   {
     "seedKey": 758,
@@ -14742,7 +14886,8 @@
     "examples": [
       "hälsa dem där hemma"
     ],
-    "translation": "at home"
+    "translation": "at home",
+    "boost": 2
   },
   {
     "seedKey": 761,
@@ -14992,7 +15137,8 @@
     "examples": [
       "Du är den vackraste jag mött, inte påmålad och falsk som andra."
     ],
-    "translation": "beautiful"
+    "translation": "beautiful",
+    "boost": 1
   },
   {
     "seedKey": 777,
@@ -15782,7 +15928,8 @@
     "examples": [
       "Jag glömde att köpa mjölk."
     ],
-    "translation": "forget"
+    "translation": "forget",
+    "boost": 1
   },
   {
     "seedKey": 813,
@@ -15869,7 +16016,8 @@
       "Det är natt.",
       "om/på/under natten"
     ],
-    "translation": "night"
+    "translation": "night",
+    "boost": 2
   },
   {
     "seedKey": 817,
@@ -15984,7 +16132,8 @@
     "translation": "love",
     "sense": {
       "key": "love#0"
-    }
+    },
+    "boost": 1
   },
   {
     "seedKey": 823,
@@ -16033,7 +16182,8 @@
     "sense": {
       "key": "happy, glad#0",
       "gloss": ""
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 825,
@@ -16459,7 +16609,8 @@
     "translation": "safe, secure",
     "sense": {
       "key": "safe, secure#0"
-    }
+    },
+    "boost": 1
   },
   {
     "seedKey": 846,
@@ -17135,7 +17286,8 @@
     "examples": [
       "Det var visst han som ringde."
     ],
-    "translation": "with certainty, certainly"
+    "translation": "with certainty, certainly",
+    "boost": 1
   },
   {
     "seedKey": 2317,
@@ -17577,7 +17729,8 @@
     "translation": "wrong, incorrect",
     "sense": {
       "key": "wrong, wrongly#1"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 898,
@@ -17696,7 +17849,8 @@
     "examples": [
       "Tack för hjälpen!"
     ],
-    "translation": "thanks, thank you"
+    "translation": "thanks, thank you",
+    "boost": 3
   },
   {
     "seedKey": 1764,
@@ -19386,7 +19540,8 @@
     "examples": [
       "Jag fixar det imorgon"
     ],
-    "translation": "tomorrow"
+    "translation": "tomorrow",
+    "boost": 2
   },
   {
     "seedKey": 992,
@@ -20154,7 +20309,8 @@
       "Var är mina nycklar?",
       "Var var jag?"
     ],
-    "translation": "where"
+    "translation": "where",
+    "boost": 3
   },
   {
     "seedKey": 1035,
@@ -20381,7 +20537,8 @@
     "examples": [
       "Hon älskar sin pappa."
     ],
-    "translation": "dad, father"
+    "translation": "dad, father",
+    "boost": 1
   },
   {
     "seedKey": 1046,
@@ -21837,7 +21994,8 @@
     "translation": "sleep",
     "sense": {
       "key": "sleep#0"
-    }
+    },
+    "boost": 1
   },
   {
     "seedKey": 1121,
@@ -22597,7 +22755,8 @@
       "Hej!",
       "Hej, vad gör du?"
     ],
-    "translation": "hi, hello"
+    "translation": "hi, hello",
+    "boost": 3
   },
   {
     "seedKey": 1163,
@@ -23049,7 +23208,8 @@
     "sense": {
       "key": "morning#0",
       "gloss": "early morning"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 1186,
@@ -23353,7 +23513,8 @@
       "Maten serveras varm",
       "ett varmt mottagande"
     ],
-    "translation": "warm, hot"
+    "translation": "warm, hot",
+    "boost": 1
   },
   {
     "seedKey": 1200,
@@ -23873,7 +24034,8 @@
     "translation": "close, shut",
     "sense": {
       "key": "close, cancel, terminate#1"
-    }
+    },
+    "boost": 1
   },
   {
     "seedKey": 1228,
@@ -24388,7 +24550,8 @@
     "translation": "cold",
     "sense": {
       "key": "cold#0"
-    }
+    },
+    "boost": 1
   },
   {
     "seedKey": 1254,
@@ -24697,7 +24860,8 @@
       "en billig begäran",
       "det är rätt och billigt"
     ],
-    "translation": "cheap"
+    "translation": "cheap",
+    "boost": 1
   },
   {
     "seedKey": 1271,
@@ -24852,7 +25016,8 @@
     "sense": {
       "key": "drink#0",
       "gloss": "to consume liquid"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 1281,
@@ -27064,7 +27229,8 @@
     "sense": {
       "key": "tired#0",
       "gloss": "sleepy"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 1402,
@@ -27131,7 +27297,8 @@
     "examples": [
       "Den här jackan är dyr."
     ],
-    "translation": "expensive"
+    "translation": "expensive",
+    "boost": 1
   },
   {
     "seedKey": 1405,
@@ -30994,13 +31161,14 @@
     "seedKey": 1602,
     "lemma": "vart",
     "pos": "adv",
-    "cefr": "A2",
+    "cefr": "A1",
     "ipa": "ˈvart",
     "examples": [
       "Vart är vi på väg?",
       "Vart är den?"
     ],
-    "translation": "where to"
+    "translation": "where to",
+    "boost": 1
   },
   {
     "seedKey": 1603,
@@ -33697,7 +33865,7 @@
     "seedKey": 1748,
     "lemma": "snäll",
     "pos": "adj",
-    "cefr": "A2",
+    "cefr": "A1",
     "ipa": "snɛlː",
     "inflections": {
       "neutrum": "snällt",
@@ -33716,7 +33884,8 @@
     "sense": {
       "key": "kind, sort#1",
       "gloss": "well-behaved"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 1749,
@@ -37475,7 +37644,7 @@
     "seedKey": 1944,
     "lemma": "kaffe",
     "pos": "noun",
-    "cefr": "A2",
+    "cefr": "A1",
     "gender": "ett",
     "ipa": "²kafːɛ",
     "inflections": {
@@ -37487,7 +37656,8 @@
       "dricka en kopp kaffe",
       "brygga kaffe i en kaffebryggare"
     ],
-    "translation": "coffee"
+    "translation": "coffee",
+    "boost": 1
   },
   {
     "seedKey": 1945,
@@ -43730,7 +43900,7 @@
     "seedKey": 2277,
     "lemma": "välkommen",
     "pos": "adj",
-    "cefr": "A2",
+    "cefr": "A1",
     "ipa": "²vɛːlˌkɔmːɛn",
     "inflections": {
       "neutrum": "välkommet",
@@ -43743,7 +43913,8 @@
     "sense": {
       "key": "welcome#1",
       "gloss": "gladly received"
-    }
+    },
+    "boost": 2
   },
   {
     "seedKey": 2278,
@@ -58677,12 +58848,13 @@
     "seedKey": 3068,
     "lemma": "okej",
     "pos": "interj",
-    "cefr": "B1",
+    "cefr": "A1",
     "ipa": "ɔˈkɛj",
     "examples": [
       "Okej, vi ses imorgon då."
     ],
-    "translation": "okay"
+    "translation": "okay",
+    "boost": 2
   },
   {
     "seedKey": 3069,
@@ -66289,7 +66461,7 @@
     "seedKey": 3484,
     "lemma": "ursäkta",
     "pos": "verb",
-    "cefr": "B1",
+    "cefr": "A1",
     "ipa": "ʉ̟ːˈʂɛkta",
     "inflections": {
       "presens": "ursäktar",
@@ -66308,7 +66480,8 @@
     "translation": "excuse",
     "sense": {
       "key": "excuse#1"
-    }
+    },
+    "boost": 3
   },
   {
     "seedKey": 3485,
@@ -74609,7 +74782,7 @@
     "seedKey": 3935,
     "lemma": "hungrig",
     "pos": "adj",
-    "cefr": "B1",
+    "cefr": "A1",
     "ipa": "ˈhɵŋˌrɪ(ɡ)",
     "inflections": {
       "neutrum": "hungrigt",
@@ -74620,7 +74793,8 @@
     "examples": [
       "Jag är hungrig och vill äta nu."
     ],
-    "translation": "hungry"
+    "translation": "hungry",
+    "boost": 2
   },
   {
     "seedKey": 3936,
@@ -116652,7 +116826,7 @@
     "seedKey": 6358,
     "lemma": "hallå",
     "pos": "interj",
-    "cefr": "C1",
+    "cefr": "A1",
     "ipa": "haˈloː",
     "subDefinitions": [
       "hey (to get attention)",
@@ -116662,7 +116836,8 @@
       "Hallå, vem är det jag talar med?",
       "Hallå där"
     ],
-    "translation": "hello"
+    "translation": "hello",
+    "boost": 2
   },
   {
     "seedKey": 6359,
@@ -119153,12 +119328,13 @@
     "seedKey": 6506,
     "lemma": "hejdå",
     "pos": "interj",
-    "cefr": "C1",
+    "cefr": "A1",
     "translation": "goodbye, bye",
     "sense": {
       "key": "goodbye, bye#0",
       "gloss": ""
-    }
+    },
+    "boost": 3
   },
   {
     "seedKey": 6507,
@@ -124462,12 +124638,13 @@
     "seedKey": 6818,
     "lemma": "jaså",
     "pos": "interj",
-    "cefr": "C1",
+    "cefr": "A1",
     "ipa": "²jˈasːɔ",
     "examples": [
       "Jaså? Det hade jag inte trott om honom."
     ],
-    "translation": "oh really, is that so"
+    "translation": "oh really, is that so",
+    "boost": 1
   },
   {
     "seedKey": 6819,
@@ -130745,12 +130922,13 @@
     "seedKey": 7196,
     "lemma": "förlåt",
     "pos": "interj",
-    "cefr": "C2",
+    "cefr": "A1",
     "ipa": "[ˌfœ̞ˈɭoːt]",
     "examples": [
       "Jag menade inte att såra dig. Förlåt!"
     ],
-    "translation": "I'm sorry"
+    "translation": "I'm sorry",
+    "boost": 3
   },
   {
     "seedKey": 7197,
@@ -148974,5 +149152,240 @@
     "pos": "adj",
     "cefr": "C2",
     "translation": "two-sided, bilateral"
+  },
+  {
+    "seedKey": 8426,
+    "lemma": "snälla",
+    "pos": "interj",
+    "cefr": "A1",
+    "boost": 3,
+    "ipa": "ˈsnɛlːa",
+    "examples": [
+      "Snälla, kan du hjälpa mig?"
+    ],
+    "translation": "please"
+  },
+  {
+    "seedKey": 8427,
+    "lemma": "varsågod",
+    "pos": "interj",
+    "cefr": "A1",
+    "boost": 2,
+    "examples": [
+      "Varsågod, det är till dig."
+    ],
+    "translation": "here you go, you're welcome"
+  },
+  {
+    "seedKey": 8428,
+    "lemma": "pengar",
+    "pos": "noun",
+    "cefr": "A1",
+    "boost": 2,
+    "ipa": "ˈpɛŋːar",
+    "examples": [
+      "Jag har inga pengar."
+    ],
+    "translation": "money"
+  },
+  {
+    "seedKey": 8429,
+    "lemma": "Hur mår du?",
+    "pos": "phrase",
+    "cefr": "A1",
+    "boost": 3,
+    "translation": "How are you?"
+  },
+  {
+    "seedKey": 8430,
+    "lemma": "Vad heter du?",
+    "pos": "phrase",
+    "cefr": "A1",
+    "boost": 3,
+    "translation": "What's your name?"
+  },
+  {
+    "seedKey": 8431,
+    "lemma": "Jag heter …",
+    "pos": "phrase",
+    "cefr": "A1",
+    "boost": 3,
+    "translation": "My name is …"
+  },
+  {
+    "seedKey": 8432,
+    "lemma": "Trevligt att träffas.",
+    "pos": "phrase",
+    "cefr": "A1",
+    "boost": 3,
+    "translation": "Nice to meet you."
+  },
+  {
+    "seedKey": 8433,
+    "lemma": "Hur går det?",
+    "pos": "phrase",
+    "cefr": "A1",
+    "boost": 2,
+    "translation": "How's it going?"
+  },
+  {
+    "seedKey": 8434,
+    "lemma": "Det är bra.",
+    "pos": "phrase",
+    "cefr": "A1",
+    "boost": 2,
+    "translation": "It's fine. / I'm good."
+  },
+  {
+    "seedKey": 8435,
+    "lemma": "Jag förstår inte.",
+    "pos": "phrase",
+    "cefr": "A1",
+    "boost": 3,
+    "translation": "I don't understand."
+  },
+  {
+    "seedKey": 8436,
+    "lemma": "Jag vet inte.",
+    "pos": "phrase",
+    "cefr": "A1",
+    "boost": 3,
+    "translation": "I don't know."
+  },
+  {
+    "seedKey": 8437,
+    "lemma": "Kan du hjälpa mig?",
+    "pos": "phrase",
+    "cefr": "A1",
+    "boost": 2,
+    "translation": "Can you help me?"
+  },
+  {
+    "seedKey": 8438,
+    "lemma": "Vad kostar det?",
+    "pos": "phrase",
+    "cefr": "A1",
+    "boost": 2,
+    "translation": "How much does it cost?"
+  },
+  {
+    "seedKey": 8439,
+    "lemma": "Talar du engelska?",
+    "pos": "phrase",
+    "cefr": "A1",
+    "boost": 2,
+    "translation": "Do you speak English?"
+  },
+  {
+    "seedKey": 8440,
+    "lemma": "Kan du prata långsammare?",
+    "pos": "phrase",
+    "cefr": "A1",
+    "boost": 1,
+    "translation": "Can you speak more slowly?"
+  },
+  {
+    "seedKey": 8441,
+    "lemma": "Vad sa du?",
+    "pos": "phrase",
+    "cefr": "A1",
+    "boost": 2,
+    "translation": "What did you say?"
+  },
+  {
+    "seedKey": 8442,
+    "lemma": "Ursäkta mig.",
+    "pos": "phrase",
+    "cefr": "A1",
+    "boost": 2,
+    "translation": "Excuse me."
+  },
+  {
+    "seedKey": 8443,
+    "lemma": "Tack så mycket.",
+    "pos": "phrase",
+    "cefr": "A1",
+    "boost": 2,
+    "translation": "Thank you very much."
+  },
+  {
+    "seedKey": 8444,
+    "lemma": "Det gör inget.",
+    "pos": "phrase",
+    "cefr": "A1",
+    "boost": 2,
+    "translation": "It doesn't matter. / No problem."
+  },
+  {
+    "seedKey": 8445,
+    "lemma": "Det spelar ingen roll.",
+    "pos": "phrase",
+    "cefr": "A1",
+    "boost": 1,
+    "translation": "It doesn't matter."
+  },
+  {
+    "seedKey": 8446,
+    "lemma": "Det ska ordna sig.",
+    "pos": "phrase",
+    "cefr": "A1",
+    "boost": 1,
+    "translation": "It'll work out."
+  },
+  {
+    "seedKey": 8447,
+    "lemma": "Ingen fara.",
+    "pos": "phrase",
+    "cefr": "A1",
+    "boost": 1,
+    "translation": "No worries."
+  },
+  {
+    "seedKey": 8448,
+    "lemma": "Vi ses!",
+    "pos": "phrase",
+    "cefr": "A1",
+    "boost": 2,
+    "translation": "See you!"
+  },
+  {
+    "seedKey": 8449,
+    "lemma": "Ha en bra dag!",
+    "pos": "phrase",
+    "cefr": "A1",
+    "boost": 2,
+    "translation": "Have a good day!"
+  },
+  {
+    "seedKey": 8450,
+    "lemma": "Jag är hungrig.",
+    "pos": "phrase",
+    "cefr": "A1",
+    "boost": 1,
+    "translation": "I'm hungry."
+  },
+  {
+    "seedKey": 8451,
+    "lemma": "Var är …?",
+    "pos": "phrase",
+    "cefr": "A1",
+    "boost": 2,
+    "translation": "Where is …?"
+  },
+  {
+    "seedKey": 8452,
+    "lemma": "Vad är det här?",
+    "pos": "phrase",
+    "cefr": "A1",
+    "boost": 2,
+    "translation": "What is this?"
+  },
+  {
+    "seedKey": 8453,
+    "lemma": "Jag kommer från …",
+    "pos": "phrase",
+    "cefr": "A1",
+    "boost": 2,
+    "translation": "I come from …"
   }
 ]

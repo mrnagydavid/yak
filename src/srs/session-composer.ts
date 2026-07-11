@@ -249,10 +249,21 @@ export function composeSessionPure(input: ComposerInput): SessionCard[] {
     return (b.calibrationKey ?? 0) - (a.calibrationKey ?? 0)
   })
 
-  // New order: user-added first, then force-studied (always), then progression
-  // (cefr=level+1), each by createdAt asc. (SPEC §6.2 step 1)
+  // New order: user-added first, then force-studied (always), then progression (cefr=level+1). Within a
+  // rank, higher `boost` first — the authored "initial boost" that front-loads high-value beginner vocab
+  // so a below-A1 learner meets the good A1 words before the band's long tail (A1 boost pack). Then
+  // seedKey asc as a stable, reproducible tiebreak (all seed entries share one createdAt, so createdAt
+  // alone can't order them); createdAt last for user-added words, which have real distinct timestamps.
+  // NOTE: boost only orders this NEW pool — practice (due asc) and the calibration mix (per-day shuffle)
+  // are deliberately untouched, so a word's day-to-day order still varies once it has SRS state. (§6.2)
   const newRank = (c: Candidate) => (c.userAdded ? 0 : c.forced ? 1 : 2)
-  fresh.sort((a, b) => newRank(a) - newRank(b) || a.entry.createdAt - b.entry.createdAt)
+  fresh.sort(
+    (a, b) =>
+      newRank(a) - newRank(b) ||
+      (b.entry.boost ?? 0) - (a.entry.boost ?? 0) ||
+      (a.entry.seedKey ?? Infinity) - (b.entry.seedKey ?? Infinity) ||
+      a.entry.createdAt - b.entry.createdAt,
+  )
 
   // One direction per word per session (SPEC §278). If a word's recognition AND a production (its
   // own or a promoted meaning's) are both due today, don't ask both — the second is the trivial

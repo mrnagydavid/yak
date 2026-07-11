@@ -58,6 +58,11 @@ export interface Entry {
     ambiguous?: boolean
   }
   cefr?: Cefr // present for seed entries; absent for user entries
+  // "Initial boost" priority — orders the NEW-card introduction queue within a CEFR band (higher first).
+  // Authored in the seed to front-load high-value beginner vocab (the A1 pack); absent/0 = default. Only
+  // affects a word's FIRST introduction (the composer's `fresh` pool); once a word has SRS state it is
+  // scheduled by FSRS/calibration, so boost never fixes day-to-day practice order. (A1 boost pack)
+  boost?: number
   disambiguator?: string // e.g. "datafil" when multiple senses share the lemma
   subDefinitions?: string[] // when senses were merged at build time
   // Production grouping (multi-answer cards): which sense of the shared native concept this answer

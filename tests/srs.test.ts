@@ -261,6 +261,41 @@ describe('session-composer', () => {
     })
   })
 
+  describe('new-card boost ordering (A1 boost pack)', () => {
+    it('introduces higher-boost words first, then by seedKey', () => {
+      seq = 0
+      // level A2 → B1 is the new band. Deliberately scramble boost vs seedKey vs creation order.
+      const low = entry('low', 'seed', 'B1', { seedKey: 10 }) // boost 0 (absent)
+      const midA = entry('midA', 'seed', 'B1', { seedKey: 30, boost: 2 })
+      const midB = entry('midB', 'seed', 'B1', { seedKey: 20, boost: 2 })
+      const high = entry('high', 'seed', 'B1', { seedKey: 99, boost: 3 })
+      const entries = [low, midA, midB, high]
+      const translations = [
+        translation('t_low', low.id),
+        translation('t_midA', midA.id),
+        translation('t_midB', midB.id),
+        translation('t_high', high.id),
+      ]
+      const order = composeSessionPure(base({ entries, translations })).map((c) => c.targetEntryId)
+      // boost 3 first; the two boost-2 words by seedKey asc (midB #20 before midA #30); boost 0 last.
+      expect(order).toEqual([high.id, midB.id, midA.id, low.id])
+    })
+
+    it('never reorders the due practice pool by boost — only the new pool', () => {
+      seq = 0
+      const soon = entry('soon', 'seed', 'B1', { seedKey: 1 }) // due earlier, no boost
+      const later = entry('later', 'seed', 'B1', { seedKey: 2, boost: 9 }) // due later, high boost
+      const entries = [soon, later]
+      const translations = [translation('t_soon', soon.id), translation('t_later', later.id)]
+      const reviewStates = [
+        srsState('t_soon', 'recognize', { state: 'review', due: NOW - 2 * DAY }),
+        srsState('t_later', 'recognize', { state: 'review', due: NOW - DAY }),
+      ]
+      const order = composeSessionPure(base({ entries, translations, reviewStates })).map((c) => c.targetEntryId)
+      expect(order).toEqual([soon.id, later.id]) // by due asc — the high boost is ignored for practice
+    })
+  })
+
   describe('calibration ordering (§6.3)', () => {
     function calibrationPool(n: number) {
       seq = 0

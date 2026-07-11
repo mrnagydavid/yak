@@ -26,6 +26,7 @@ interface SeedEntry {
   gender?: string
   ipa?: string
   inflections?: Record<string, string>
+  boost?: number // "initial boost" priority — orders the new-card queue within a band (higher first). (A1 boost pack)
   subDefinitions?: string[]
   examples?: string[]
   translation: string
@@ -136,6 +137,7 @@ function buildEntry(s: SeedEntry, version: string, now: number): { target: Entry
     inflections: s.inflections ?? {},
     pronunciation: s.ipa ? { ipa: s.ipa, ipaSource: 'wiktionary', ...(s.ipaAmbiguous ? { ambiguous: true } : {}) } : {},
     cefr: s.cefr,
+    ...(s.boost ? { boost: s.boost } : {}),
     subDefinitions: s.subDefinitions,
     sense: s.sense,
     examples: seedExamples(s),
@@ -291,6 +293,7 @@ async function updateSeedTarget(targetId: string, s: SeedEntry, version: string,
     inflections: s.inflections ?? {},
     pronunciation: s.ipa ? { ipa: s.ipa, ipaSource: 'wiktionary', ...(s.ipaAmbiguous ? { ambiguous: true } : {}) } : {},
     cefr: s.cefr,
+    boost: s.boost ?? 0, // `?? 0` (not conditional) so a REMOVED boost is cleared on a not-yet-seen word, not left stale
     subDefinitions: s.subDefinitions,
     sense: s.sense,
     examples: seedExamples(s),

@@ -6,6 +6,29 @@ Add a dated entry here whenever you change content. Newest first.
 
 See `SNAPSHOT-PIPELINE-DESIGN.md` for the pipeline; §7 has the editing recipes.
 
+## 2026-07-11 — A1 "initial boost" pack
+
+`version` `sv-2026-06-01-924aa1ef` → `sv-2026-06-01-53e12ffa`. Count 8319 → 8347 (28 additions).
+
+New authored field **`boost`** (integer, higher = introduced earlier) orders the new-card queue within a
+CEFR band, so a Beginner (`below-A1`, new band = A1) meets high-value vocab first instead of the raw
+alphabetical/arbitrary order (`decimeter`, `arton`, place names…). Boost only affects a word's FIRST
+introduction (the composer's `fresh` pool); practice/calibration order is untouched, so day-to-day
+variance is preserved once a word has SRS state.
+
+Curated **top-down**: generated ~200 words+phrases a learner needs first for everyday/subtitle
+comprehension (excluding numbers & personal pronouns; interrogatives kept), then mapped onto the seed.
+Result — 206 A1 boost items in 3 tiers (3=survival/greetings/core function words, 2=core, 1=useful):
+
+- **166** existing A1 words tagged `boost`.
+- **12 re-leveled into A1** (+boost): `förlåt` (C2→A1), `hejdå`/`hallå`/`jaså` (C1→A1), `okej`/`ursäkta`/
+  `hungrig` (B1→A1), `snäll`/`välkommen`/`kaffe`/`vart` (A2→A1), `för` conj "because" (A2→A1). These are
+  spoken/politeness words Kelly corpus-frequency banded too high (written corpora under-represent them).
+- **3 words added** (A1): `snälla` (please), `varsågod` (here you go), `pengar` (money — the seed only
+  had `peng` "coin").
+- **25 set phrases added** (`pos: phrase`, A1): greetings & survival lines — `Hur mår du?`,
+  `Vad heter du?`, `Jag förstår inte.`, `Det ska ordna sig.`, `Vad kostar det?`, …
+
 ## 2026-07-11 — English-article countability pass + targeted fixes
 
 `version` `sv-2026-06-01-70dbed97` → `sv-2026-06-01-924aa1ef`. Count 8321 → 8319 (two deletions).

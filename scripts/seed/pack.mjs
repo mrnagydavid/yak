@@ -23,7 +23,7 @@ const outPath = (p) => (OUT_DIR ? `${OUT_DIR}/${p}` : p)
 // h and version use JSON.stringify, which is key-order sensitive, so every entry is serialized through
 // exactly this order (absent keys omitted). `ipaAmbiguous` and `h` are derived and slotted in here.
 const TOP_ORDER = [
-  'seedKey', 'lemma', 'pos', 'cefr', 'gender', 'ipa', 'inflections', 'subDefinitions', 'altMeanings',
+  'seedKey', 'lemma', 'pos', 'cefr', 'boost', 'gender', 'ipa', 'inflections', 'subDefinitions', 'altMeanings',
   'enUncountable', 'enProper', 'svUncountable', 'svProper', 'examples', 'translation', 'ipaAmbiguous', 'sense', 'h',
 ]
 const ALT_ORDER = ['key', 'translation', 'enUncountable', 'enProper', 'examples', 'senseKey', 'gloss']
@@ -38,6 +38,7 @@ const has = (obj, k) => {
   const v = obj[k]
   if (v == null) return false
   if (BOOL_FLAGS.has(k)) return v === true
+  if (k === 'boost') return v !== 0 // a default/zero boost is omitted, so it can't change a hash
   if (Array.isArray(v)) return v.length > 0
   if (typeof v === 'object') return Object.keys(v).length > 0
   return true
