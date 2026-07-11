@@ -53,19 +53,22 @@ describe('the snapshot has valid IDs', () => {
   })
 })
 
-describe('the shipped seed is grouping-consistent (audit-gloss)', () => {
-  it('every ≥2-producer concept is labelled; single-sense carries no gloss, multi-sense a non-echo gloss', () => {
-    // Grouping consistency (SNAPSHOT-PIPELINE-DESIGN.md §6.1): concepts are detected mechanically from
-    // the seed (groupConcepts + token-synonyms), and each producer's group label + gloss are read from
-    // the seed's own entries. A blank label in a ≥2-producer concept = an ungrouped member; a gloss on a
-    // single-sense concept = an invented hint; a missing gloss in a multi-sense concept = a learner with
-    // no disambiguation. All must be zero.
+describe('the shipped seed passes the gloss/collision checker (audit-gloss)', () => {
+  it('no redundant gloss on a self-clear slot, and no two cards render identically', () => {
+    // Gloss/collision model (SNAPSHOT-PIPELINE-DESIGN.md §6.1): a slot's prompt is BARE-AMBIGUOUS when
+    // every articleized synonym token it shows is also produced by a different sense; otherwise it is
+    // SELF-CLEAR. HARD invariants (all gated here): a self-clear slot carries NO gloss (redundant); no
+    // two distinct cards render an identical prompt+gloss (clash); and a bare-ambiguous gloss is never a
+    // POS tag or an echo of its translation. Only MISSING (a bare-ambiguous slot left plain on purpose —
+    // the default word for a concept, or a self-glossing translation) stays report-only: it's the floor.
     const { report } = auditJson('audit-gloss.mjs') as unknown as {
-      report: { total: number; blankLabel: number; emptyInMultiSense: number; echoes: number; singleSenseWithGloss: number }
+      report: { hardTotal: number; redundantGloss: number; clash: number; missingGloss: number; posTagGloss: number; echoGloss: number; softTotal: number }
     }
+    // eslint-disable-next-line no-console
+    console.log(`audit-gloss missing-gloss floor (report-only): ${report.missingGloss}`)
     expect(
-      report.total,
-      `grouping/gloss violations — blankLabel: ${report.blankLabel}, emptyInMultiSense: ${report.emptyInMultiSense}, echoes: ${report.echoes}, singleSenseWithGloss: ${report.singleSenseWithGloss}`,
+      report.hardTotal,
+      `HARD violations — redundant: ${report.redundantGloss}, clashes: ${report.clash}, POS-tag: ${report.posTagGloss}, echo: ${report.echoGloss}`,
     ).toBe(0)
   })
 })

@@ -6,6 +6,59 @@ Add a dated entry here whenever you change content. Newest first.
 
 See `SNAPSHOT-PIPELINE-DESIGN.md` for the pipeline; §7 has the editing recipes.
 
+## 2026-07-11 — Gloss sweep, stage 3: resolve the flagged prompts + harden the checker
+
+Curated all 488 collision neighborhoods (~903 flagged slots) from the Stage-1+2 soft queue. Every
+ambiguous production prompt is now resolved by the mechanism that fits it — **grouping** true synonyms
+into one "N ways to say it" card (including gender/number forms like `den`/`det`/`de` "the"), or a short
+**everyday-cue gloss** — with **zero translation edits**. (A first, aggressive attempt that rewrote 300+
+primary translations to force self-clarity — e.g. `inleda "begin, introduce, open" → "kick off"` — was
+reviewed and reverted: a primary translation IS the recognition-taught meaning, so it is edited only as a
+constrained, faithful last resort, never to game the checker.) Glosses use **concrete cues, not grammar
+labels** (most users aren't native English speakers): `dig → as in "I saw you"` (not "object"),
+`sin → "his own"` (not "reflexive"). 310 field edits, all on `sense.key` / `sense.gloss` /
+`altMeanings[]` only — **0 forbidden-field changes**; `seedKey`/`meaningKey`/`examples` untouched, so
+learner progress is preserved. `version` `sv-2026-06-01-d3a105af` → `sv-2026-06-01-70dbed97`.
+
+Result: **POS-tag glosses 155 → 0, echo glosses 88 → 0**, and both are now **HARD / CI-gated** in
+`audit-gloss.mjs` — joining the existing redundant-gloss and card-clash checks ("no two production cards
+render an identical prompt+gloss", verified 0 across 894 cards). The now-dead `styck` entry was removed
+from the missing-gloss allowlist. The **missing-gloss** count rose 707 → 754 and is left **report-only on
+purpose**: it is the intended *floor* — the single most common/default word for a concept (`och`, `få`,
+`från`) and self-glossing multi-token translations (`inleda` = "begin, introduce, open") are correctly
+left plain; driving it to 0 would mean over-hinting. `pnpm test` green (221). Full write-up:
+`data/scratch/sv/stage3-summary.md`.
+
+## 2026-07-10 — Gloss sweep, stage 1+2: remove redundant glosses + rebase the checker
+
+Removed **1,102 redundant production glosses** and rebased the gloss checker onto a correct model of when
+a gloss is actually needed. The old pipeline assigned glosses from a coarse first-token "concept"
+(`normTr`), which both over-fired (POS homonyms the article separates — `to feed` vs `a feed` carried
+`feed (verb)`) and under-fired. The real unit of ambiguity is the **articleized synonym token** the
+learner sees: split a translation on `,`/`;`, articleize each token exactly as `src/lang/en/render.ts`
+renders a prompt, and two producers collide only when those token-sets intersect. A slot is **self-clear**
+when it has a token unique to its sense (the article on `a second` vs the bare `second`, or the `only` in
+`just, only`) and needs no gloss; it is **bare-ambiguous** when every token it shows is contested.
+
+New `scripts/seed/lib/glossModel.mjs` is the single definition (checker + deletion share it; guarded by a
+parity test against `en/render.ts`). `audit-gloss.mjs` is rebased with two tiers: **HARD** (CI-gated) —
+a self-clear slot carries no gloss; **SOFT** (report-only) — a bare-ambiguous slot should carry a real,
+non-POS-tag, non-echo gloss. The deletion (`delete-redundant-glosses.mjs`) removes only `gloss`, keeping
+every grouping key, so synonym groups are untouched. `version` `sv-2026-06-01-9bb3a7d4` →
+`sv-2026-06-01-d3a105af`; the diff is gloss-only (seed-sync applies 1,102 gloss-only updates, progress
+preserved via `(seedKey, meaningKey)`). Verified: **0** of the 1,102 removals sit on a colliding prompt,
+and **0** card-level clashes across all 7,604 production cards (no two cards render an identical
+prompt+gloss). Review artifacts written to `data/scratch/sv/` by `diff-wordlist.mjs` /
+`review-ambiguous.mjs`.
+
+What we deliberately did **not** do:
+- **Didn't touch translations, or improve/add any gloss.** Stage 1+2 is deletion only. The 950-item soft
+  queue (707 bare-ambiguous with no gloss, 155 POS-tag, 88 echo) is left for **stage 3** — the curation
+  pass that groups synonyms, sharpens translations, and writes real glosses (usage-frames included).
+- **Didn't add the clash invariant to CI.** "No two cards share a prompt+gloss face" is 0 today and would
+  be a cheap hard check, but it's deferred pending a decision.
+- **Didn't flip the soft checks to hard.** They gate CI only once stage 3 drives them to 0.
+
 ## 2026-07-10 — Uncountable / proper-noun article pass (both languages)
 
 Marked nouns as uncountable or proper so they stop rendering a spurious indefinite article, on both
