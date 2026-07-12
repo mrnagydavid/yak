@@ -1,4 +1,4 @@
-import { useState } from 'preact/hooks'
+import { useMemo, useState } from 'preact/hooks'
 import { createProfile } from '../../db/queries'
 import { languageName } from '../../lang'
 import type { ClaimedLevel } from '../../srs/calibration'
@@ -32,6 +32,8 @@ const BACK: Partial<Record<Step, Step>> = {
   intro: 'level',
 }
 
+const levelsInOrder: ClaimedLevel[] = ['below-A1', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2']
+
 export function Onboarding() {
   const [step, setStep] = useState<Step>('welcome')
   const [level, setLevel] = useState<ClaimedLevel>('A1')
@@ -43,6 +45,18 @@ export function Onboarding() {
   function finish() {
     void createProfile({ learnerLang: LEARNER_LANG, targetLang: TARGET_LANG, claimedLevel: level })
   }
+
+  const nextLevel = useMemo(() => {
+    const index = levelsInOrder.indexOf(level)
+    if (index + 1 === levelsInOrder.length) return levelsInOrder[index]
+    return levelsInOrder[index + 1]
+  }, [level])
+
+  const previousLevel = useMemo(() => {
+    const index = levelsInOrder.indexOf(level)
+    if (index <= 1) return levelsInOrder[1]
+    return levelsInOrder[index - 1]
+  }, [level])
 
   const back = BACK[step]
 
@@ -104,7 +118,7 @@ export function Onboarding() {
               <span class={styles.flag}>🇸🇪</span>
               <span class={styles.choiceName}>{languageName(TARGET_LANG)}</span>
             </div>
-            <p class={styles.aside}>More languages coming later — assuming the yak ever gets around to it.</p>
+            <p class={styles.aside}>More languages coming later. Maybe. That's not a promise.</p>
           </div>
           <button class={styles.primary} onClick={() => setStep('level')}>
             Continue
@@ -152,15 +166,45 @@ export function Onboarding() {
         <div class={styles.step}>
           <div class={styles.body}>
             <div class={styles.levelDisplay}>
-              <span class={styles.levelCaption}>Your level</span>
+              {assessed ? (
+                <span class={styles.levelCaption}>Your level</span>
+              ) : (
+                <span class={styles.levelCaption}>You picked</span>
+              )}
               <span class={styles.levelBadge}>{LEVEL_LABEL[level]}</span>
             </div>
-            <h2 class={styles.heading}>{assessed ? 'Nice work!' : "You're all set"}</h2>
             <p class={styles.lede}>
-              {assessed
-                ? "Based on your answers, that's where we'll start you — we tailor each day's words to your level. You can change it anytime in your profile."
-                : "We'll tailor each day's words to your level. You can change it anytime in your profile."}
+              { assessed ? "Based on your answers, that's where we'll start you. " : '' }
+              You can change it anytime in your profile.
             </p>
+            {level === 'below-A1' ? (
+              <p class={styles.lede}>
+                You'll start learning new words from {LEVEL_LABEL[nextLevel]}, and keep practicing them as you go.
+              </p>
+            ) : null}
+            {level === 'A1' ? (
+              <p class={styles.lede}>
+                You'll start learning new words from {LEVEL_LABEL[nextLevel]} and practicing them — while keeping
+                your A1 words fresh too.
+              </p>
+            ) : null}
+            {['A2', 'B1', 'B2', 'C1'].includes(level) ? (
+              <p class={styles.lede}>
+                You'll start learning new words from {LEVEL_LABEL[nextLevel]} and practicing them. You'll also keep
+                revisiting every level you already know, with the focus on {LEVEL_LABEL[level]}.
+              </p>
+            ) : null}
+            {level === 'C2' ? (
+              <p class={styles.lede}>
+                You're already at the top, so you'll mostly practice C2 and C1 words — with the occasional word from
+                earlier levels, just to keep you sharp.
+              </p>
+            ) : null}
+            {level !== 'C2' ? (
+              <p class={styles.lede}>
+                Once you've cleared every word in {LEVEL_LABEL[nextLevel]}, you'll move up to the next level automatically.
+              </p>
+            ) : null}
           </div>
           <button class={styles.primary} onClick={finish}>
             Start practising

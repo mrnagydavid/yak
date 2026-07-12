@@ -2,8 +2,8 @@ import { useLiveQuery } from 'dexie-react-hooks'
 import { useEffect, useState } from 'preact/hooks'
 import { getActiveProfile, getLevelProgress, updateProfile } from '../../db/queries'
 import { clearAllData, exportData, importData, isExportBundle, type ExportBundle } from '../../db/transfer'
-import { CEFR_LEVELS, type LevelProgressRow } from '../../srs/level-progress'
 import type { Profile } from '../../db/types'
+import { CEFR_LEVELS, type LevelProgressRow } from '../../srs/level-progress'
 import { Calibration } from '../Calibration/Calibration'
 import { clearSession } from '../PracticeScreen/session-store'
 import { IosInstallNote } from './IosInstallNote'
@@ -282,6 +282,13 @@ export function ProfileScreen() {
         <h2 class={styles.sectionTitle}>About</h2>
         <p class={styles.muted}>Yak · build {__COMMIT_HASH__}</p>
         <p class={styles.muted}>Word data from the Swedish Kelly-list, Wiktionary (via kaikki.org), and ipa-dict.</p>
+        <p class={styles.muted}>
+          This app is heavily inspired by Anki. If you find the app too limiting for your needs, check{' '}
+          <a href="https://apps.ankiweb.net/" target="_blank" rel="noopener noreferrer">
+            Anki
+          </a>{' '}
+          out!
+        </p>
       </section>
     </div>
   )
