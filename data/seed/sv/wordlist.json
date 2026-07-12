@@ -1553,11 +1553,7 @@
     "examples": [
       "Vågorna slog mot båtens för."
     ],
-    "translation": "bow",
-    "sense": {
-      "key": "bow#0",
-      "gloss": "ship's bow"
-    }
+    "translation": "ship's bow"
   },
   {
     "seedKey": 99,
@@ -62468,8 +62464,7 @@
     ],
     "translation": "cup",
     "sense": {
-      "key": "cup#0",
-      "gloss": "drinking vessel"
+      "key": "cup#0"
     }
   },
   {
@@ -76125,9 +76120,6 @@
       "indefinitePlural": "trän",
       "definitePlural": "träna"
     },
-    "subDefinitions": [
-      "tree (archaic, poetic)"
-    ],
     "examples": [
       "Trä kommer från träd",
       "en träsked"
@@ -80794,11 +80786,7 @@
     "examples": [
       "Laget gick vidare till finalen i cupen."
     ],
-    "translation": "cup",
-    "sense": {
-      "key": "cup#1",
-      "gloss": "sports trophy"
-    }
+    "translation": "sport's cup"
   },
   {
     "seedKey": 4267,
@@ -129432,11 +129420,7 @@
       "skjuta med pil och båge",
       "röra sig i en båge"
     ],
-    "translation": "bow",
-    "sense": {
-      "key": "bow#1",
-      "gloss": "arc, weapon"
-    }
+    "translation": "bow"
   },
   {
     "seedKey": 7110,

@@ -6,7 +6,19 @@ Add a dated entry here whenever you change content. Newest first.
 
 See `SNAPSHOT-PIPELINE-DESIGN.md` for the pipeline; §7 has the editing recipes.
 
-## 2026-07-11 — A1 "initial boost" pack
+## 2026-07-12 — Sense-disambiguating translations + `trä` cleanup
+
+`version` `sv-2026-06-01-53e12ffa` → `sv-2026-06-01-59fbbd9a`. Count unchanged (8347).
+
+**Translation clarity.** Two nouns whose bare English translation was ambiguous now name their sense in
+the translation itself: `för` (noun) `bow` → `ship's bow`, and `cup` (noun) `cup` → `sport's cup`. Both
+now render a distinctive production prompt (`a ship's bow`, `a sport's cup`), so they no longer collide
+with their look-alikes and their disambiguating glosses are dropped as redundant. Ripple fixes to the
+now-solo partners: `båge` loses its `arc, weapon` gloss (sole producer of `a bow`), `cup` (drinking
+vessel `kopp`) keeps the shared `cup#0` group but drops the now-redundant `drinking vessel` gloss.
+
+**`trä` cleanup.** `trä` is the material *wood* only; its former `tree (archaic, poetic)` sub-definition
+was dropped (too marginal to teach — `träd` is the word for tree). Stays `wood`, `enUncountable`.
 
 `version` `sv-2026-06-01-924aa1ef` → `sv-2026-06-01-53e12ffa`. Count 8319 → 8347 (28 additions).
 
