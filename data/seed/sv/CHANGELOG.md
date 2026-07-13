@@ -6,6 +6,31 @@ Add a dated entry here whenever you change content. Newest first.
 
 See `SNAPSHOT-PIPELINE-DESIGN.md` for the pipeline; §7 has the editing recipes.
 
+## 2026-07-13 — Quantity/place fixes + European countries
+
+`version` `sv-2026-06-01-59fbbd9a` → `sv-2026-06-01-0fd3a636`. Count 8347 → 8399 (+52).
+
+**Deleted `förhand`.** The standalone noun (`advantage, upper hand`) isn't worth teaching on its own —
+it only really lives in the fixed expression. Replaced by a new phrase `på förhand` =
+`beforehand, in advance` (B2, `Tack på förhand!`). `fördel` is now the sole producer of `advantage#0`.
+
+**`våning` meaning flipped.** Was `apartment` (main) + `floor, storey` (sub); now `floor, storey` (main)
++ `apartment, flat` (sub), matching the more basic meaning. It now shares the `floor` concept with
+`golv`, so both got labels: `golv` = `floor#0` gloss `the surface you walk on`; `våning` = `floor#1`
+(self-clear via its `storey` token, no gloss). Added a storey-sense example.
+
+**`tiotal`** translation `around ten, some ten` → `around ten` (dropped the ungrammatical "some ten");
+sub-def split into `tens` + `decade (the 1910s, 2010s)`.
+
+**Uncountable flags** (drop the auto-added "a/an" on quantity/direction nouns): `tiotal`, `hundratal`,
+`tusental` (`enUncountable`); `höger` noun `right side` (`enUncountable`); `spridning` (`enUncountable`
++ `svUncountable`). `miljontals` needed nothing — it's an adverb (`millions of`).
+
+**European countries (A2).** Added 29 missing European country names (`pos: other`) plus a nationality
+adjective (`-sk → -skt/-ska`) wherever it was absent. Country names identical in both languages (Finland,
+Portugal, Montenegro, Kosovo, Belarus, Malta) are omitted — no vocab to learn — but their adjectives are
+kept. No IPA (left for enrichment). Micro-states omitted as low-value at A2.
+
 ## 2026-07-12 — Sense-disambiguating translations + `trä` cleanup
 
 `version` `sv-2026-06-01-53e12ffa` → `sv-2026-06-01-59fbbd9a`. Count unchanged (8347).

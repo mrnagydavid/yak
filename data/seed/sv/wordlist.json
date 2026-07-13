@@ -31970,7 +31970,8 @@
     "examples": [
       "Affären ligger på höger sida."
     ],
-    "translation": "right side"
+    "translation": "right side",
+    "enUncountable": true
   },
   {
     "seedKey": 1646,
@@ -43503,7 +43504,11 @@
     "examples": [
       "Barnet sitter på golvet."
     ],
-    "translation": "floor"
+    "translation": "floor",
+    "sense": {
+      "key": "floor#0",
+      "gloss": "the surface you walk on"
+    }
   },
   {
     "seedKey": 2257,
@@ -49970,6 +49975,8 @@
       "Spridningen av viruset var snabb."
     ],
     "translation": "spread, distribution",
+    "enUncountable": true,
+    "svUncountable": true,
     "sense": {
       "key": "spread, distribute#2"
     }
@@ -54488,15 +54495,15 @@
       "definitePlural": "våningarna"
     },
     "subDefinitions": [
-      "floor, storey (of a building)"
+      "apartment, flat"
     ],
     "examples": [
+      "Huset har fem våningar.",
       "De bor i en stor våning i stan."
     ],
-    "translation": "apartment",
+    "translation": "floor, storey",
     "sense": {
-      "key": "apartment, flat#1",
-      "gloss": "floor, storey"
+      "key": "floor#1"
     }
   },
   {
@@ -57644,7 +57651,8 @@
     "examples": [
       "Ett hundratal människor kom till mötet."
     ],
-    "translation": "around a hundred"
+    "translation": "around a hundred",
+    "enUncountable": true
   },
   {
     "seedKey": 3000,
@@ -61685,12 +61693,14 @@
       "definitePlural": "tiotalen"
     },
     "subDefinitions": [
-      "the tens, a decade (the 1910s, 2010s)"
+      "tens",
+      "decade (the 1910s, 2010s)"
     ],
     "examples": [
       "Ett tiotal personer väntade utanför."
     ],
-    "translation": "around ten, some ten"
+    "translation": "around ten",
+    "enUncountable": true
   },
   {
     "seedKey": 3223,
@@ -81301,21 +81311,6 @@
     ],
     "translation": "personal information",
     "enUncountable": true
-  },
-  {
-    "seedKey": 4296,
-    "lemma": "förhand",
-    "pos": "noun",
-    "cefr": "B2",
-    "ipa": "²fˈøːrhanːd",
-    "examples": [
-      "Hemmalaget hade ett klart förhand inför matchen."
-    ],
-    "translation": "advantage, upper hand",
-    "sense": {
-      "key": "advantage#0",
-      "gloss": ""
-    }
   },
   {
     "seedKey": 4297,
@@ -131722,7 +131717,8 @@
       "Ett tusental människor fick evakueras",
       "Om summan av hundratalen är större än tusen läggs en minnessiffra till tusentalen"
     ],
-    "translation": "around one thousand"
+    "translation": "around one thousand",
+    "enUncountable": true
   },
   {
     "seedKey": 7244,
@@ -149371,5 +149367,627 @@
     "cefr": "A1",
     "boost": 2,
     "translation": "I come from …"
+  },
+  {
+    "seedKey": 8454,
+    "lemma": "på förhand",
+    "pos": "phrase",
+    "cefr": "B2",
+    "examples": [
+      "Tack på förhand!"
+    ],
+    "translation": "beforehand, in advance"
+  },
+  {
+    "seedKey": 8455,
+    "lemma": "Danmark",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Vi åker till Danmark i sommar."
+    ],
+    "translation": "Denmark"
+  },
+  {
+    "seedKey": 8457,
+    "lemma": "Island",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Island ligger i norra Atlanten."
+    ],
+    "translation": "Iceland"
+  },
+  {
+    "seedKey": 8458,
+    "lemma": "Tyskland",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Han bor i Tyskland."
+    ],
+    "translation": "Germany"
+  },
+  {
+    "seedKey": 8459,
+    "lemma": "Frankrike",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Vi reser till Frankrike varje år."
+    ],
+    "translation": "France"
+  },
+  {
+    "seedKey": 8460,
+    "lemma": "Spanien",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Många turister åker till Spanien."
+    ],
+    "translation": "Spain"
+  },
+  {
+    "seedKey": 8462,
+    "lemma": "portugisisk",
+    "pos": "adj",
+    "cefr": "A2",
+    "inflections": {
+      "neutrum": "portugisiskt",
+      "plural": "portugisiska"
+    },
+    "examples": [
+      "Hon är portugisisk."
+    ],
+    "translation": "Portuguese"
+  },
+  {
+    "seedKey": 8463,
+    "lemma": "Nederländerna",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Han arbetar i Nederländerna."
+    ],
+    "translation": "the Netherlands"
+  },
+  {
+    "seedKey": 8464,
+    "lemma": "Belgien",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Bryssel ligger i Belgien."
+    ],
+    "translation": "Belgium"
+  },
+  {
+    "seedKey": 8465,
+    "lemma": "belgisk",
+    "pos": "adj",
+    "cefr": "A2",
+    "inflections": {
+      "neutrum": "belgiskt",
+      "plural": "belgiska"
+    },
+    "examples": [
+      "Hon är belgisk."
+    ],
+    "translation": "Belgian"
+  },
+  {
+    "seedKey": 8466,
+    "lemma": "Luxemburg",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Luxemburg är ett litet land."
+    ],
+    "translation": "Luxembourg"
+  },
+  {
+    "seedKey": 8467,
+    "lemma": "luxemburgsk",
+    "pos": "adj",
+    "cefr": "A2",
+    "inflections": {
+      "neutrum": "luxemburgskt",
+      "plural": "luxemburgska"
+    },
+    "examples": [
+      "Hon är luxemburgsk."
+    ],
+    "translation": "Luxembourgish"
+  },
+  {
+    "seedKey": 8468,
+    "lemma": "Schweiz",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Vi åkte skidor i Schweiz."
+    ],
+    "translation": "Switzerland"
+  },
+  {
+    "seedKey": 8469,
+    "lemma": "schweizisk",
+    "pos": "adj",
+    "cefr": "A2",
+    "inflections": {
+      "neutrum": "schweiziskt",
+      "plural": "schweiziska"
+    },
+    "examples": [
+      "Hon är schweizisk."
+    ],
+    "translation": "Swiss"
+  },
+  {
+    "seedKey": 8470,
+    "lemma": "Österrike",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Wien är huvudstad i Österrike."
+    ],
+    "translation": "Austria"
+  },
+  {
+    "seedKey": 8471,
+    "lemma": "Irland",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Hon flyttade till Irland."
+    ],
+    "translation": "Ireland"
+  },
+  {
+    "seedKey": 8472,
+    "lemma": "Tjeckien",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Prag ligger i Tjeckien."
+    ],
+    "translation": "Czechia"
+  },
+  {
+    "seedKey": 8473,
+    "lemma": "Slovakien",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "De semestrade i Slovakien."
+    ],
+    "translation": "Slovakia"
+  },
+  {
+    "seedKey": 8474,
+    "lemma": "slovakisk",
+    "pos": "adj",
+    "cefr": "A2",
+    "inflections": {
+      "neutrum": "slovakiskt",
+      "plural": "slovakiska"
+    },
+    "examples": [
+      "Hon är slovakisk."
+    ],
+    "translation": "Slovak"
+  },
+  {
+    "seedKey": 8475,
+    "lemma": "Ungern",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Budapest är huvudstad i Ungern."
+    ],
+    "translation": "Hungary"
+  },
+  {
+    "seedKey": 8476,
+    "lemma": "ungersk",
+    "pos": "adj",
+    "cefr": "A2",
+    "inflections": {
+      "neutrum": "ungerskt",
+      "plural": "ungerska"
+    },
+    "examples": [
+      "Hon är ungersk."
+    ],
+    "translation": "Hungarian"
+  },
+  {
+    "seedKey": 8477,
+    "lemma": "Rumänien",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Hon är född i Rumänien."
+    ],
+    "translation": "Romania"
+  },
+  {
+    "seedKey": 8478,
+    "lemma": "rumänsk",
+    "pos": "adj",
+    "cefr": "A2",
+    "inflections": {
+      "neutrum": "rumänskt",
+      "plural": "rumänska"
+    },
+    "examples": [
+      "Hon är rumänsk."
+    ],
+    "translation": "Romanian"
+  },
+  {
+    "seedKey": 8479,
+    "lemma": "Bulgarien",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Vi badade i Bulgarien."
+    ],
+    "translation": "Bulgaria"
+  },
+  {
+    "seedKey": 8480,
+    "lemma": "bulgarisk",
+    "pos": "adj",
+    "cefr": "A2",
+    "inflections": {
+      "neutrum": "bulgariskt",
+      "plural": "bulgariska"
+    },
+    "examples": [
+      "Hon är bulgarisk."
+    ],
+    "translation": "Bulgarian"
+  },
+  {
+    "seedKey": 8481,
+    "lemma": "Kroatien",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Kusten i Kroatien är vacker."
+    ],
+    "translation": "Croatia"
+  },
+  {
+    "seedKey": 8482,
+    "lemma": "kroatisk",
+    "pos": "adj",
+    "cefr": "A2",
+    "inflections": {
+      "neutrum": "kroatiskt",
+      "plural": "kroatiska"
+    },
+    "examples": [
+      "Hon är kroatisk."
+    ],
+    "translation": "Croatian"
+  },
+  {
+    "seedKey": 8483,
+    "lemma": "Slovenien",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Slovenien gränsar till Italien."
+    ],
+    "translation": "Slovenia"
+  },
+  {
+    "seedKey": 8484,
+    "lemma": "slovensk",
+    "pos": "adj",
+    "cefr": "A2",
+    "inflections": {
+      "neutrum": "slovenskt",
+      "plural": "slovenska"
+    },
+    "examples": [
+      "Hon är slovensk."
+    ],
+    "translation": "Slovenian"
+  },
+  {
+    "seedKey": 8485,
+    "lemma": "Serbien",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Han spelar fotboll i Serbien."
+    ],
+    "translation": "Serbia"
+  },
+  {
+    "seedKey": 8486,
+    "lemma": "Bosnien och Hercegovina",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Hon kommer från Bosnien och Hercegovina."
+    ],
+    "translation": "Bosnia and Herzegovina"
+  },
+  {
+    "seedKey": 8487,
+    "lemma": "bosnisk",
+    "pos": "adj",
+    "cefr": "A2",
+    "inflections": {
+      "neutrum": "bosniskt",
+      "plural": "bosniska"
+    },
+    "examples": [
+      "Hon är bosnisk."
+    ],
+    "translation": "Bosnian"
+  },
+  {
+    "seedKey": 8489,
+    "lemma": "montenegrinsk",
+    "pos": "adj",
+    "cefr": "A2",
+    "inflections": {
+      "neutrum": "montenegrinskt",
+      "plural": "montenegrinska"
+    },
+    "examples": [
+      "Hon är montenegrinsk."
+    ],
+    "translation": "Montenegrin"
+  },
+  {
+    "seedKey": 8490,
+    "lemma": "Albanien",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "De reste genom Albanien."
+    ],
+    "translation": "Albania"
+  },
+  {
+    "seedKey": 8491,
+    "lemma": "albansk",
+    "pos": "adj",
+    "cefr": "A2",
+    "inflections": {
+      "neutrum": "albanskt",
+      "plural": "albanska"
+    },
+    "examples": [
+      "Hon är albansk."
+    ],
+    "translation": "Albanian"
+  },
+  {
+    "seedKey": 8492,
+    "lemma": "Nordmakedonien",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Nordmakedonien ligger på Balkan."
+    ],
+    "translation": "North Macedonia"
+  },
+  {
+    "seedKey": 8493,
+    "lemma": "makedonsk",
+    "pos": "adj",
+    "cefr": "A2",
+    "inflections": {
+      "neutrum": "makedonskt",
+      "plural": "makedonska"
+    },
+    "examples": [
+      "Hon är makedonsk."
+    ],
+    "translation": "Macedonian"
+  },
+  {
+    "seedKey": 8495,
+    "lemma": "kosovansk",
+    "pos": "adj",
+    "cefr": "A2",
+    "inflections": {
+      "neutrum": "kosovanskt",
+      "plural": "kosovanska"
+    },
+    "examples": [
+      "Hon är kosovansk."
+    ],
+    "translation": "Kosovan"
+  },
+  {
+    "seedKey": 8496,
+    "lemma": "Estland",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Tallinn är huvudstad i Estland."
+    ],
+    "translation": "Estonia"
+  },
+  {
+    "seedKey": 8497,
+    "lemma": "estnisk",
+    "pos": "adj",
+    "cefr": "A2",
+    "inflections": {
+      "neutrum": "estniskt",
+      "plural": "estniska"
+    },
+    "examples": [
+      "Hon är estnisk."
+    ],
+    "translation": "Estonian"
+  },
+  {
+    "seedKey": 8498,
+    "lemma": "Lettland",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Han studerar i Lettland."
+    ],
+    "translation": "Latvia"
+  },
+  {
+    "seedKey": 8499,
+    "lemma": "lettisk",
+    "pos": "adj",
+    "cefr": "A2",
+    "inflections": {
+      "neutrum": "lettiskt",
+      "plural": "lettiska"
+    },
+    "examples": [
+      "Hon är lettisk."
+    ],
+    "translation": "Latvian"
+  },
+  {
+    "seedKey": 8500,
+    "lemma": "Litauen",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Vilnius ligger i Litauen."
+    ],
+    "translation": "Lithuania"
+  },
+  {
+    "seedKey": 8501,
+    "lemma": "litauisk",
+    "pos": "adj",
+    "cefr": "A2",
+    "inflections": {
+      "neutrum": "litauiskt",
+      "plural": "litauiska"
+    },
+    "examples": [
+      "Hon är litauisk."
+    ],
+    "translation": "Lithuanian"
+  },
+  {
+    "seedKey": 8503,
+    "lemma": "belarusisk",
+    "pos": "adj",
+    "cefr": "A2",
+    "inflections": {
+      "neutrum": "belarusiskt",
+      "plural": "belarusiska"
+    },
+    "examples": [
+      "Hon är belarusisk."
+    ],
+    "translation": "Belarusian"
+  },
+  {
+    "seedKey": 8504,
+    "lemma": "Ukraina",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Kiev är huvudstad i Ukraina."
+    ],
+    "translation": "Ukraine"
+  },
+  {
+    "seedKey": 8505,
+    "lemma": "ukrainsk",
+    "pos": "adj",
+    "cefr": "A2",
+    "inflections": {
+      "neutrum": "ukrainskt",
+      "plural": "ukrainska"
+    },
+    "examples": [
+      "Hon är ukrainsk."
+    ],
+    "translation": "Ukrainian"
+  },
+  {
+    "seedKey": 8506,
+    "lemma": "Moldavien",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Moldavien ligger öster om Rumänien."
+    ],
+    "translation": "Moldova"
+  },
+  {
+    "seedKey": 8507,
+    "lemma": "moldavisk",
+    "pos": "adj",
+    "cefr": "A2",
+    "inflections": {
+      "neutrum": "moldaviskt",
+      "plural": "moldaviska"
+    },
+    "examples": [
+      "Hon är moldavisk."
+    ],
+    "translation": "Moldovan"
+  },
+  {
+    "seedKey": 8508,
+    "lemma": "Turkiet",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Istanbul ligger i Turkiet."
+    ],
+    "translation": "Turkey"
+  },
+  {
+    "seedKey": 8509,
+    "lemma": "Cypern",
+    "pos": "other",
+    "cefr": "A2",
+    "examples": [
+      "Vi semestrade på Cypern."
+    ],
+    "translation": "Cyprus"
+  },
+  {
+    "seedKey": 8510,
+    "lemma": "cypriotisk",
+    "pos": "adj",
+    "cefr": "A2",
+    "inflections": {
+      "neutrum": "cypriotiskt",
+      "plural": "cypriotiska"
+    },
+    "examples": [
+      "Hon är cypriotisk."
+    ],
+    "translation": "Cypriot"
+  },
+  {
+    "seedKey": 8512,
+    "lemma": "maltesisk",
+    "pos": "adj",
+    "cefr": "A2",
+    "inflections": {
+      "neutrum": "maltesiskt",
+      "plural": "maltesiska"
+    },
+    "examples": [
+      "Hon är maltesisk."
+    ],
+    "translation": "Maltese"
   }
 ]
