@@ -3,6 +3,7 @@ import { useEffect } from 'preact/hooks'
 import type { DrillType } from '../../db/types'
 import { type DrillHubItem, getDrillHub } from '../../drills/session'
 import styles from './PracticePlus.module.css'
+import { Loading } from '../Loading/Loading'
 
 // Last computed hub, kept at module scope so it survives a tab switch (DrillHub unmounts on leave and
 // remounts on return). Same idea as the Profile screen's progress cache: on return we keep showing the
@@ -31,7 +32,7 @@ export function DrillHub({ onStart }: { onStart: (type: DrillType) => void }) {
       </p>
 
       {items === undefined ? (
-        <p class={styles.muted}>Loading…</p>
+        <Loading compact />
       ) : items.length === 0 ? (
         <p class={styles.muted}>No extra drills for this language yet.</p>
       ) : (

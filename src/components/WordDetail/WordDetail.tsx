@@ -17,6 +17,7 @@ import { getRenderer } from '../../lang'
 import { EntryEditor } from '../EntryEditor/EntryEditor'
 import { SpeakButton, WiktionaryLink } from '../WordActions/WordActions'
 import styles from './WordDetail.module.css'
+import { Loading } from '../Loading/Loading'
 
 interface Pending {
   message: string
@@ -99,7 +100,7 @@ export function WordDetail({ id }: { id?: string }) {
   const [editing, setEditing] = useState(false)
   const [pending, setPending] = useState<Pending | null>(null)
 
-  if (data === undefined) return <div class={styles.screen}>Loading…</div>
+  if (data === undefined) return <Loading />
   if (data === null) return <div class={styles.screen}>Word not found.</div>
 
   const { entry, natives, recognize, meanings, lastPracticed, overlay, autoIncluded, senseSummary } = data

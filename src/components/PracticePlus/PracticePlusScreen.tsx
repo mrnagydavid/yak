@@ -13,6 +13,7 @@ import { VerbFormsDrill } from '../../lang/sv/drills/VerbFormsDrill'
 import { DrillHub } from './DrillHub'
 import { DrillStats } from './DrillStats'
 import styles from './PracticePlus.module.css'
+import { Loading } from '../Loading/Loading'
 
 // Which component runs each drill type. The runners are language-coupled (they live in the language's
 // module); the shell just dispatches to the right one by the active session's drill type.
@@ -81,11 +82,7 @@ export function PracticePlusScreen() {
   }
 
   if (phase === 'loading') {
-    return (
-      <div class={styles.screen}>
-        <p class={styles.muted}>Loading…</p>
-      </div>
-    )
+    return <Loading />
   }
 
   if (phase === 'stats' && finished) {

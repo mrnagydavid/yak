@@ -8,6 +8,7 @@ import { getFilters, type LevelFilter, type MatchMode, saveFilters, type SortOpt
 import { FilterChip } from './FilterChip'
 import { applyFilters } from './search'
 import styles from './VocabularyScreen.module.css'
+import { Loading } from '../Loading/Loading'
 
 const STATUS_GLYPH: Record<Status, string> = { none: '⚪', struggling: '🔴', learning: '🟡', solid: '🟢' }
 const STATUS_LABEL: Record<Status, string> = {
@@ -200,9 +201,7 @@ export function VocabularyScreen() {
       </div>
 
       {loading ? (
-        <div class={styles.loading} role="status" aria-label="Loading words">
-          <div class={styles.spinner} />
-        </div>
+        <Loading compact />
       ) : visible.length === 0 ? (
         <p class={styles.placeholder}>No entries match your filter.</p>
       ) : (

@@ -1,0 +1,84 @@
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 24px;
+}
+
+/* Sole content of a screen (Practice, WordDetail, first launch). The scroll wrapper (.page) and
+   #app have definite heights but aren't flex containers, so fill via min-height and center. */
+.full {
+  min-height: 100%;
+}
+
+/* Sits below other content (Vocabulary filters, DrillHub intro). Its parent is a full-height flex
+   column, so flex:1 claims the leftover space and centres the mascot within it. */
+.compact {
+  flex: 1;
+  min-height: 0;
+}
+
+.wrap {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+/* Soft warm halo behind the mascot, pulsing in sync with the bob. Shows through the
+   transparent cutout. Mirrors the "all caught up" halo on the Practice screen. */
+.wrap::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 180px;
+  height: 180px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(245, 158, 11, 0.16), transparent 66%);
+  animation: loading-halo 1.8s ease-in-out infinite;
+}
+
+.yak {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  animation: loading-bob 1.8s ease-in-out infinite;
+}
+
+.caption {
+  font-size: 15px;
+  color: var(--color-text-secondary);
+  text-align: center;
+}
+
+@keyframes loading-bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes loading-halo {
+  0%,
+  100% {
+    opacity: 0.65;
+    transform: translate(-50%, -50%) scale(0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.05);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .yak,
+  .wrap::before {
+    animation: none;
+  }
+}

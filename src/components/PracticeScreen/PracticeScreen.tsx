@@ -35,6 +35,7 @@ import {
 } from './session-store'
 import { StudyCard } from './StudyCard'
 import styles from './PracticeScreen.module.css'
+import { Loading } from '../Loading/Loading'
 
 // Served straight from /public/assets (not bundled), so the mascot can be reused by URL elsewhere.
 // `base` is '/', so BASE_URL keeps this correct if the deploy path ever changes.
@@ -177,11 +178,7 @@ export function PracticeScreen() {
   }
 
   if (views === null) {
-    return (
-      <div class={styles.screen}>
-        <p class={styles.message}>Loading…</p>
-      </div>
-    )
+    return <Loading />
   }
 
   if (index >= views.length) {

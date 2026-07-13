@@ -2,6 +2,9 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
+  /* Fill the scroll viewport so the loading mascot can centre in the space below the filters.
+     Harmless once the list is shown — a short list just leaves the extra height empty. */
+  min-height: 100%;
   padding-bottom: 80px; /* clear the floating Add button */
 }
 
@@ -54,28 +57,6 @@
 
 .placeholder {
   color: var(--color-text-secondary);
-}
-
-/* Loading spinner shown while the word list is being built (matches SeedLoading). */
-.loading {
-  display: flex;
-  justify-content: center;
-  padding: 32px;
-}
-
-.spinner {
-  width: 28px;
-  height: 28px;
-  border: 3px solid var(--color-border);
-  border-top-color: var(--color-primary);
-  border-radius: 50%;
-  animation: vocab-spin 0.7s linear infinite;
-}
-
-@keyframes vocab-spin {
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .list {

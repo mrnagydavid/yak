@@ -8,10 +8,6 @@
   padding-bottom: 16px; /* a little breathing room above the nav */
 }
 
-.message {
-  color: var(--color-text-secondary);
-}
-
 .topbar {
   display: flex;
   align-items: center;
