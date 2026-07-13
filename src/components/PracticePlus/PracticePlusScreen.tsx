@@ -8,7 +8,9 @@ import {
   startDrillSession,
 } from '../../drills/session'
 import type { DrillQuestion, DrillRunnerProps } from '../../drills/types'
+import { AdjFormsDrill } from '../../lang/sv/drills/AdjFormsDrill'
 import { GenderDrill } from '../../lang/sv/drills/GenderDrill'
+import { NounPluralDrill } from '../../lang/sv/drills/NounPluralDrill'
 import { VerbFormsDrill } from '../../lang/sv/drills/VerbFormsDrill'
 import { DrillHub } from './DrillHub'
 import { DrillStats } from './DrillStats'
@@ -20,6 +22,8 @@ import { Loading } from '../Loading/Loading'
 const RUNNERS: Partial<Record<DrillType, FunctionComponent<DrillRunnerProps>>> = {
   'sv:gender': GenderDrill,
   'sv:verbForms': VerbFormsDrill,
+  'sv:adjForms': AdjFormsDrill,
+  'sv:nounPlural': NounPluralDrill,
 }
 
 type Phase = 'loading' | 'hub' | 'session' | 'stats'

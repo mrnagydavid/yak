@@ -1,5 +1,7 @@
 import type { DrillType } from '../db/types'
+import { adjFormsDrillMeta } from '../lang/sv/drills/adjForms'
 import { genderDrillMeta } from '../lang/sv/drills/gender'
+import { nounPluralDrillMeta } from '../lang/sv/drills/nounPlural'
 import { verbFormsDrillMeta } from '../lang/sv/drills/verbForms'
 import type { DrillMeta } from './types'
 
@@ -7,7 +9,7 @@ import type { DrillMeta } from './types'
 // modules, so the session lifecycle and hub stay language-independent — adding a language's drills is
 // one import + one array entry. UI components are resolved separately, in the Practice+ shell.
 const DRILLS_BY_LANG: Record<string, DrillMeta[]> = {
-  sv: [genderDrillMeta, verbFormsDrillMeta],
+  sv: [genderDrillMeta, verbFormsDrillMeta, adjFormsDrillMeta, nounPluralDrillMeta],
 }
 
 /** The drills available for a target language (empty if none defined yet). */

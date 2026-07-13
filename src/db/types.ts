@@ -238,7 +238,7 @@ export interface SessionLog {
  * determined by the target language, not the pair (Swedish's en/ett, German's der/die/das, Polish's
  * declensions). New drills add a member here and a definition under `src/lang/<code>/drills/`.
  */
-export type DrillType = 'sv:gender' | 'sv:verbForms'
+export type DrillType = 'sv:gender' | 'sv:verbForms' | 'sv:adjForms' | 'sv:nounPlural'
 
 /** Per (word, drill) progress — the Leitner-lite box. No due date; the box alone drives selection. */
 export interface DrillStat {

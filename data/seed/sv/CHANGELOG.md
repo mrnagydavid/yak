@@ -6,6 +6,16 @@ Add a dated entry here whenever you change content. Newest first.
 
 See `SNAPSHOT-PIPELINE-DESIGN.md` for the pipeline; §7 has the editing recipes.
 
+## 2026-07-13 — `besläktad` comparison fix
+
+`version` `sv-2026-06-01-0fd3a636` → `sv-2026-06-01-b48859e5`. Count unchanged (8399).
+
+**`besläktad` comparison corrected.** Its `komparativ`/`superlativ` were `närmre`/`närmst` — `nära`'s
+forms, clearly a bad merge. `besläktad` ("related") is a participle adjective that compares
+periphrastically, so it's now `mer besläktad` / `mest besläktad` (matching `begränsad` et al.). Surfaced
+while building the new irregular-adjective Practice+ drill, which excludes periphrastic adjectives — this
+one was masquerading as irregular.
+
 ## 2026-07-13 — Quantity/place fixes + European countries
 
 `version` `sv-2026-06-01-59fbbd9a` → `sv-2026-06-01-0fd3a636`. Count 8347 → 8399 (+52).

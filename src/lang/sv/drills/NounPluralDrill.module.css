@@ -1,0 +1,187 @@
+/* Swedish noun-plural drill — keyboard-first, so the layout is TOP-anchored (not centered): the
+   question and input sit high up where the on-screen keyboard can't cover them, and the reveal expands
+   downward. The shared top bar (progress + End) styling lives in PracticePlus.module.css. */
+
+.muted {
+  color: var(--color-text-secondary);
+  font-size: 14px;
+}
+
+.qArea {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 18px;
+  padding-top: 8px;
+  text-align: center;
+  overflow-y: auto;
+  animation: cardIn 0.24s ease;
+}
+
+@keyframes cardIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.prompt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.question {
+  font-size: 16px;
+  color: var(--color-text-secondary);
+}
+
+/* The asked-for form is the crux of the task — bolder and darker so the eye lands on it. */
+.target {
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.cue {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* Context under the question, above the input: the meaning (when shown) and, on a miss, the full
+   comparison degrees. */
+.context {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  animation: revealIn 0.22s ease;
+}
+
+.gloss {
+  font-size: 17px;
+  color: var(--color-text-secondary);
+}
+
+.forms {
+  font-size: 16px;
+  color: var(--color-text-secondary);
+}
+
+.inputWrap {
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  min-height: 56px;
+  padding: 12px 16px;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  transition:
+    background 0.15s,
+    border-color 0.15s,
+    color 0.15s;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.inputCorrect {
+  border-color: var(--color-green);
+  background: rgba(16, 185, 129, 0.14);
+  color: var(--color-green);
+}
+
+.inputWrong {
+  border-color: var(--color-red);
+  background: rgba(239, 68, 68, 0.14);
+  color: var(--color-red);
+}
+
+/* The single correct answer, on its own line below the input (no hunting through the forms). */
+.reveal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding-top: 16px;
+  border-top: 1px solid var(--color-border);
+  animation: revealIn 0.22s ease;
+}
+
+@keyframes revealIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.revealLabel {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-red);
+}
+
+.answer {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.submit,
+.continue {
+  width: 100%;
+  min-height: 60px;
+  padding: 16px;
+  border-radius: var(--radius-lg);
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  animation: cardIn 0.18s ease;
+}
+
+.submit:disabled {
+  opacity: 0.5;
+}
+
+.submit:active,
+.continue:active {
+  background: var(--color-primary-dark);
+}
+
+.hint {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  text-align: center;
+}
