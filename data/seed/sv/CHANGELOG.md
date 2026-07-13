@@ -6,6 +6,37 @@ Add a dated entry here whenever you change content. Newest first.
 
 See `SNAPSHOT-PIPELINE-DESIGN.md` for the pipeline; §7 has the editing recipes.
 
+## 2026-07-13 — CEFR re-leveling: body, clothing, food, kitchenware
+
+`version` `sv-2026-06-01-a7632a6a` → `sv-2026-06-01-e5a0454d`. Count unchanged (8399).
+
+Continuation of the animals/plants pass above — same root cause (Kelly frequency band ≠ pedagogical
+level) and same lowering-only rule, applied to four more badly over-banded everyday domains (forks,
+oranges, elbows, apples were all C1/C2). Common/idiom-anchor nouns → A2, secondary → B1; internal
+organs settled at B1–B2. Already-low common words (`hjärta`, `hjärna`, `blod`) left where they are —
+raising them to "match" an organ band would only delay teaching them. Levels follow standard
+SFI/CEFR-reference expectations. Homonyms were disambiguated by pos+translation so only the domain
+sense moved (`led` joint not queue, `panna` forehead not pan, etc.). `pnpm test` green (244).
+
+## 2026-07-13 — CEFR re-leveling: everyday concrete nouns (animals, plants, trees)
+
+`version` `sv-2026-06-01-b48859e5` → `sv-2026-06-01-a7632a6a`. Count unchanged (8399).
+
+**Re-leveled 45 everyday concrete nouns down to A2/B1.** The `cefr` field is Kelly's written-corpus
+frequency band, not a pedagogical level — the distribution is a near-perfect sixth per band
+(1376–1430 each), so any concrete noun people rarely *write* gets over-banded. Same failure mode the
+2026-07-12 boost pass fixed for spoken/politeness words (`förlåt` C2→A1, `hej då` C1→A1); this pass
+applies it to nature vocabulary. Trigger: an upcoming proverbs/sayings feature that gates a saying on
+the max CEFR of its component words — `flitig som ett bi` ("busy as a bee") would have gated at C2
+because `bi` (bee) alone was C2.
+
+Rule: common everyday / idiom-anchor nouns → **A2**; exotic-or-secondary → **B1**; genuinely
+literary words (`gryning`/`skymning` dawn/dusk) and homonyms whose seed sense isn't the nature word
+(`bi` adv "by", `val` "choice", `bok` "book", `pil` "arrow") left alone.
+
+`cefr` is an authored field and not a progress key; seed-sync matches on `(seedKey, meaningKey)`, so
+these are in-place updates with learner progress preserved. `pnpm test` green (244).
+
 ## 2026-07-13 — `besläktad` comparison fix
 
 `version` `sv-2026-06-01-0fd3a636` → `sv-2026-06-01-b48859e5`. Count unchanged (8399).
