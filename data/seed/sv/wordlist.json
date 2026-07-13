@@ -121093,7 +121093,7 @@
     "seedKey": 6612,
     "lemma": "handduk",
     "pos": "noun",
-    "cefr": "C1",
+    "cefr": "A2",
     "gender": "en",
     "ipa": "[ˈhä̂nd.dÿːk]",
     "inflections": {
@@ -149989,5 +149989,817 @@
       "Hon är maltesisk."
     ],
     "translation": "Maltese"
+  },
+  {
+    "seedKey": 8513,
+    "lemma": "Borta bra men hemma bäst.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "There's no place like home.",
+    "wordForWord": "Away is good, but home is best."
+  },
+  {
+    "seedKey": 8514,
+    "lemma": "Övning ger färdighet.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "Practice makes perfect.",
+    "wordForWord": "Practice gives skill."
+  },
+  {
+    "seedKey": 8515,
+    "lemma": "Bättre en fågel i handen än tio i skogen.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "A bird in the hand is worth two in the bush.",
+    "wordForWord": "Better one bird in the hand than ten in the forest."
+  },
+  {
+    "seedKey": 8516,
+    "lemma": "Man ska inte sälja skinnet förrän björnen är skjuten.",
+    "pos": "phrase",
+    "cefr": "C1",
+    "translation": "Don't count your chickens before they hatch.",
+    "wordForWord": "Don't sell the hide before the bear is shot."
+  },
+  {
+    "seedKey": 8517,
+    "lemma": "Lika barn leka bäst.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "Birds of a feather flock together.",
+    "wordForWord": "Alike children play best."
+  },
+  {
+    "seedKey": 8518,
+    "lemma": "Många bäckar små gör en stor å.",
+    "pos": "phrase",
+    "cefr": "C2",
+    "translation": "Every little helps.",
+    "wordForWord": "Many small streams make a big river."
+  },
+  {
+    "seedKey": 8519,
+    "lemma": "Morgonstund har guld i mund.",
+    "pos": "phrase",
+    "cefr": "C1",
+    "translation": "The early bird catches the worm.",
+    "wordForWord": "The morning hour has gold in its mouth."
+  },
+  {
+    "seedKey": 8520,
+    "lemma": "Rom byggdes inte på en dag.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "Rome wasn't built in a day."
+  },
+  {
+    "seedKey": 8521,
+    "lemma": "Ju fler kockar, desto sämre soppa.",
+    "pos": "phrase",
+    "cefr": "C2",
+    "translation": "Too many cooks spoil the broth.",
+    "wordForWord": "The more cooks, the worse the soup."
+  },
+  {
+    "seedKey": 8522,
+    "lemma": "Den som gapar över mycket mister ofta hela stycket.",
+    "pos": "phrase",
+    "cefr": "C1",
+    "translation": "Grasp all, lose all.",
+    "wordForWord": "He who gapes over much often loses the whole piece."
+  },
+  {
+    "seedKey": 8523,
+    "lemma": "Man saknar inte kon förrän båset är tomt.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "You don't know what you've got till it's gone.",
+    "wordForWord": "You don't miss the cow until the stall is empty."
+  },
+  {
+    "seedKey": 8524,
+    "lemma": "Bättre sent än aldrig.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "Better late than never."
+  },
+  {
+    "seedKey": 8525,
+    "lemma": "Alla vägar bär till Rom.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "All roads lead to Rome."
+  },
+  {
+    "seedKey": 8526,
+    "lemma": "Skenet bedrar.",
+    "pos": "phrase",
+    "cefr": "C2",
+    "translation": "Appearances are deceptive.",
+    "wordForWord": "The appearance deceives."
+  },
+  {
+    "seedKey": 8527,
+    "lemma": "Ensam är stark.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "You're stronger on your own.",
+    "wordForWord": "Alone is strong."
+  },
+  {
+    "seedKey": 8528,
+    "lemma": "Tala är silver, tiga är guld.",
+    "pos": "phrase",
+    "cefr": "C1",
+    "translation": "Speech is silver, silence is golden."
+  },
+  {
+    "seedKey": 8529,
+    "lemma": "Där det finns hjärterum finns det stjärterum.",
+    "pos": "phrase",
+    "cefr": "C1",
+    "translation": "There's always room for one more.",
+    "wordForWord": "Where there's heart-room, there's rump-room."
+  },
+  {
+    "seedKey": 8530,
+    "lemma": "Som man bäddar får man ligga.",
+    "pos": "phrase",
+    "cefr": "C2",
+    "translation": "You've made your bed, now lie in it.",
+    "wordForWord": "As you make the bed, you must lie."
+  },
+  {
+    "seedKey": 8531,
+    "lemma": "Ingen rök utan eld.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "There's no smoke without fire."
+  },
+  {
+    "seedKey": 8532,
+    "lemma": "Det är inte guld allt som glimmar.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "All that glitters is not gold."
+  },
+  {
+    "seedKey": 8533,
+    "lemma": "Man ska inte kasta sten i glashus.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "People in glass houses shouldn't throw stones.",
+    "wordForWord": "You shouldn't throw stones in a glass house."
+  },
+  {
+    "seedKey": 8534,
+    "lemma": "Ändamålet helgar medlen.",
+    "pos": "phrase",
+    "cefr": "C1",
+    "translation": "The end justifies the means.",
+    "wordForWord": "The purpose sanctifies the means."
+  },
+  {
+    "seedKey": 8535,
+    "lemma": "Nöden har ingen lag.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "Necessity knows no law.",
+    "wordForWord": "Necessity has no law."
+  },
+  {
+    "seedKey": 8536,
+    "lemma": "Blod är tjockare än vatten.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "Blood is thicker than water."
+  },
+  {
+    "seedKey": 8537,
+    "lemma": "Bättre fly än illa fäkta.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "Discretion is the better part of valour.",
+    "wordForWord": "Better to flee than to fight badly."
+  },
+  {
+    "seedKey": 8538,
+    "lemma": "Den som lever får se.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "Time will tell.",
+    "wordForWord": "He who lives will see."
+  },
+  {
+    "seedKey": 8539,
+    "lemma": "Nya kvastar sopar bäst.",
+    "pos": "phrase",
+    "cefr": "C2",
+    "translation": "A new broom sweeps clean.",
+    "wordForWord": "New brooms sweep best."
+  },
+  {
+    "seedKey": 8540,
+    "lemma": "Gammal kärlek rostar aldrig.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "Old love never dies.",
+    "wordForWord": "Old love never rusts."
+  },
+  {
+    "seedKey": 8541,
+    "lemma": "Man ska smida medan järnet är varmt.",
+    "pos": "phrase",
+    "cefr": "C1",
+    "translation": "Strike while the iron is hot.",
+    "wordForWord": "You should forge while the iron is hot."
+  },
+  {
+    "seedKey": 8542,
+    "lemma": "Skomakare, bliv vid din läst.",
+    "pos": "phrase",
+    "cefr": "C1",
+    "translation": "Stick to what you know.",
+    "wordForWord": "Cobbler, stay at your last."
+  },
+  {
+    "seedKey": 8543,
+    "lemma": "Var och en är sin egen lyckas smed.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "Everyone is the architect of their own fortune.",
+    "wordForWord": "Each is the smith of their own luck."
+  },
+  {
+    "seedKey": 8544,
+    "lemma": "Tomma tunnor skramlar mest.",
+    "pos": "phrase",
+    "cefr": "C2",
+    "translation": "Empty vessels make the most noise.",
+    "wordForWord": "Empty barrels rattle the most."
+  },
+  {
+    "seedKey": 8545,
+    "lemma": "Bättre stämma i bäcken än i ån.",
+    "pos": "phrase",
+    "cefr": "C2",
+    "translation": "Nip it in the bud.",
+    "wordForWord": "Better to dam the stream than the river."
+  },
+  {
+    "seedKey": 8546,
+    "lemma": "Först till kvarn får först mala.",
+    "pos": "phrase",
+    "cefr": "C2",
+    "translation": "First come, first served.",
+    "wordForWord": "First to the mill gets to grind first."
+  },
+  {
+    "seedKey": 8547,
+    "lemma": "Surt, sa räven om rönnbären.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "Sour grapes.",
+    "wordForWord": "Sour, said the fox about the rowanberries."
+  },
+  {
+    "seedKey": 8548,
+    "lemma": "Man ska inte gråta över spilld mjölk.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "Don't cry over spilt milk."
+  },
+  {
+    "seedKey": 8549,
+    "lemma": "Att gå över ån efter vatten.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "to overcomplicate things needlessly",
+    "wordForWord": "to cross the river to fetch water"
+  },
+  {
+    "seedKey": 8550,
+    "lemma": "Att kasta pärlor för svin.",
+    "pos": "phrase",
+    "cefr": "C2",
+    "translation": "to cast pearls before swine"
+  },
+  {
+    "seedKey": 8551,
+    "lemma": "Att slå två flugor i en smäll.",
+    "pos": "phrase",
+    "cefr": "C1",
+    "translation": "to kill two birds with one stone",
+    "wordForWord": "to hit two flies in one swat"
+  },
+  {
+    "seedKey": 8552,
+    "lemma": "Att göra en höna av en fjäder.",
+    "pos": "phrase",
+    "cefr": "C2",
+    "translation": "to make a mountain out of a molehill",
+    "wordForWord": "to make a hen out of a feather"
+  },
+  {
+    "seedKey": 8553,
+    "lemma": "Att köpa grisen i säcken.",
+    "pos": "phrase",
+    "cefr": "C2",
+    "translation": "to buy a pig in a poke",
+    "wordForWord": "to buy the pig in the sack"
+  },
+  {
+    "seedKey": 8554,
+    "lemma": "Att gå som katten kring het gröt.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "to beat around the bush",
+    "wordForWord": "to walk like the cat around hot porridge"
+  },
+  {
+    "seedKey": 8555,
+    "lemma": "Ingen ko på isen.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "no rush; nothing to worry about",
+    "wordForWord": "no cow on the ice"
+  },
+  {
+    "seedKey": 8556,
+    "lemma": "Ingen fara på taket.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "no worries; nothing to fear",
+    "wordForWord": "no danger on the roof"
+  },
+  {
+    "seedKey": 8557,
+    "lemma": "Nu har du skitit i det blå skåpet.",
+    "pos": "phrase",
+    "cefr": "C1",
+    "translation": "Now you've really crossed the line.",
+    "wordForWord": "Now you've shat in the blue cupboard."
+  },
+  {
+    "seedKey": 8558,
+    "lemma": "Att kasta in handduken.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "to throw in the towel; to give up"
+  },
+  {
+    "seedKey": 8559,
+    "lemma": "Nära skjuter ingen hare.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "Close but no cigar.",
+    "wordForWord": "Near shoots no hare."
+  },
+  {
+    "seedKey": 8560,
+    "lemma": "Flitig som ett bi.",
+    "pos": "phrase",
+    "cefr": "C2",
+    "translation": "busy as a bee",
+    "wordForWord": "diligent as a bee"
+  },
+  {
+    "seedKey": 8561,
+    "lemma": "Frisk som en nötkärna.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "fit as a fiddle",
+    "wordForWord": "healthy as a nut kernel"
+  },
+  {
+    "seedKey": 8562,
+    "lemma": "Att ha en räv bakom örat.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "to be sly and cunning",
+    "wordForWord": "to have a fox behind the ear"
+  },
+  {
+    "seedKey": 8563,
+    "lemma": "Att ha tummen mitt i handen.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "to be all thumbs; to be clumsy",
+    "wordForWord": "to have the thumb in the middle of the hand"
+  },
+  {
+    "seedKey": 8564,
+    "lemma": "Att ha ett finger med i spelet.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "to have a finger in the pie; to be involved",
+    "wordForWord": "to have a finger in the game"
+  },
+  {
+    "seedKey": 8565,
+    "lemma": "Att lägga korten på bordet.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "to put one's cards on the table"
+  },
+  {
+    "seedKey": 8566,
+    "lemma": "Att ta tjuren vid hornen.",
+    "pos": "phrase",
+    "cefr": "C2",
+    "translation": "to take the bull by the horns"
+  },
+  {
+    "seedKey": 8567,
+    "lemma": "Att sila mygg och svälja kameler.",
+    "pos": "phrase",
+    "cefr": "C2",
+    "translation": "to fuss over trifles while ignoring what matters",
+    "wordForWord": "to strain gnats and swallow camels"
+  },
+  {
+    "seedKey": 8568,
+    "lemma": "Att kasta yxan i sjön.",
+    "pos": "phrase",
+    "cefr": "C1",
+    "translation": "to give up in despair",
+    "wordForWord": "to throw the axe in the lake"
+  },
+  {
+    "seedKey": 8569,
+    "lemma": "Att sitta på två stolar.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "to have divided loyalties",
+    "wordForWord": "to sit on two chairs"
+  },
+  {
+    "seedKey": 8570,
+    "lemma": "Att skära alla över en kam.",
+    "pos": "phrase",
+    "cefr": "C2",
+    "translation": "to tar everyone with the same brush",
+    "wordForWord": "to cut everyone with one comb"
+  },
+  {
+    "seedKey": 8571,
+    "lemma": "Att sopa problemen under mattan.",
+    "pos": "phrase",
+    "cefr": "C2",
+    "translation": "to sweep the problems under the rug"
+  },
+  {
+    "seedKey": 8572,
+    "lemma": "Att hälla bensin på elden.",
+    "pos": "phrase",
+    "cefr": "C1",
+    "translation": "to add fuel to the fire",
+    "wordForWord": "to pour petrol on the fire"
+  },
+  {
+    "seedKey": 8573,
+    "lemma": "Att ha is i magen.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "to keep one's cool; to stay calm",
+    "wordForWord": "to have ice in the stomach"
+  },
+  {
+    "seedKey": 8574,
+    "lemma": "Att bita i det sura äpplet.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "to bite the bullet",
+    "wordForWord": "to bite into the sour apple"
+  },
+  {
+    "seedKey": 8575,
+    "lemma": "Droppen som fick bägaren att rinna över.",
+    "pos": "phrase",
+    "cefr": "C2",
+    "translation": "the last straw",
+    "wordForWord": "the drop that made the cup overflow"
+  },
+  {
+    "seedKey": 8576,
+    "lemma": "Att slå huvudet på spiken.",
+    "pos": "phrase",
+    "cefr": "C2",
+    "translation": "to hit the nail on the head"
+  },
+  {
+    "seedKey": 8577,
+    "lemma": "Att vara ute på hal is.",
+    "pos": "phrase",
+    "cefr": "C2",
+    "translation": "to be on thin ice",
+    "wordForWord": "to be out on slippery ice"
+  },
+  {
+    "seedKey": 8578,
+    "lemma": "Att ta sig vatten över huvudet.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "to bite off more than you can chew",
+    "wordForWord": "to take on water over one's head"
+  },
+  {
+    "seedKey": 8579,
+    "lemma": "Det osar katt.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "Something smells fishy.",
+    "wordForWord": "It reeks of cat."
+  },
+  {
+    "seedKey": 8580,
+    "lemma": "Att ana ugglor i mossen.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "to smell a rat; to sense something is wrong",
+    "wordForWord": "to sense owls in the bog"
+  },
+  {
+    "seedKey": 8581,
+    "lemma": "Att tala i nattmössan.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "to talk nonsense",
+    "wordForWord": "to talk in one's nightcap"
+  },
+  {
+    "seedKey": 8582,
+    "lemma": "Att göra någon en björntjänst.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "to do someone a disservice by trying to help",
+    "wordForWord": "to do someone a bear's favour"
+  },
+  {
+    "seedKey": 8583,
+    "lemma": "Man ska inte ropa hej förrän man är över bäcken.",
+    "pos": "phrase",
+    "cefr": "C2",
+    "translation": "Don't celebrate too soon.",
+    "wordForWord": "Don't shout hurray before you're across the stream."
+  },
+  {
+    "seedKey": 8584,
+    "lemma": "Kärt barn har många namn.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "A beloved thing goes by many names.",
+    "wordForWord": "A dear child has many names."
+  },
+  {
+    "seedKey": 8585,
+    "lemma": "Det finns inget dåligt väder, bara dåliga kläder.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "There's no bad weather, only bad clothing."
+  },
+  {
+    "seedKey": 8586,
+    "lemma": "Att ta det med en nypa salt.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "to take it with a pinch of salt"
+  },
+  {
+    "seedKey": 8587,
+    "lemma": "En olycka kommer sällan ensam.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "It never rains but it pours.",
+    "wordForWord": "A misfortune rarely comes alone."
+  },
+  {
+    "seedKey": 8588,
+    "lemma": "Skam den som ger sig.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "Never say die.",
+    "wordForWord": "Shame on the one who gives up."
+  },
+  {
+    "seedKey": 8589,
+    "lemma": "Man lär så länge man lever.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "Live and learn.",
+    "wordForWord": "One learns as long as one lives."
+  },
+  {
+    "seedKey": 8590,
+    "lemma": "Den som söker han finner.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "Seek and you shall find."
+  },
+  {
+    "seedKey": 8591,
+    "lemma": "Hunden som skäller bits inte.",
+    "pos": "phrase",
+    "cefr": "C1",
+    "translation": "A barking dog never bites.",
+    "wordForWord": "The dog that barks doesn't bite."
+  },
+  {
+    "seedKey": 8592,
+    "lemma": "Efter regn kommer solsken.",
+    "pos": "phrase",
+    "cefr": "C2",
+    "translation": "Every cloud has a silver lining.",
+    "wordForWord": "After rain comes sunshine."
+  },
+  {
+    "seedKey": 8593,
+    "lemma": "Att koka soppa på en spik.",
+    "pos": "phrase",
+    "cefr": "C2",
+    "translation": "to make much out of very little",
+    "wordForWord": "to boil soup on a nail"
+  },
+  {
+    "seedKey": 8594,
+    "lemma": "Att inte se skogen för alla träd.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "to not see the forest for the trees"
+  },
+  {
+    "seedKey": 8595,
+    "lemma": "Att få kalla fötter.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "to get cold feet"
+  },
+  {
+    "seedKey": 8596,
+    "lemma": "Man ska inte döma hunden efter håren.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "Don't judge a book by its cover.",
+    "wordForWord": "Don't judge the dog by its fur."
+  },
+  {
+    "seedKey": 8597,
+    "lemma": "Att hoppa i galen tunna.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "to bark up the wrong tree; to jump to a wrong conclusion",
+    "wordForWord": "to jump into the wrong barrel"
+  },
+  {
+    "seedKey": 8598,
+    "lemma": "Att slå dövörat till.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "to turn a deaf ear"
+  },
+  {
+    "seedKey": 8599,
+    "lemma": "Att stå med skägget i brevlådan.",
+    "pos": "phrase",
+    "cefr": "C2",
+    "translation": "to be caught out; to be left looking foolish",
+    "wordForWord": "to stand with your beard in the mailbox"
+  },
+  {
+    "seedKey": 8600,
+    "lemma": "Att ha rent mjöl i påsen.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "to have nothing to hide",
+    "wordForWord": "to have clean flour in the bag"
+  },
+  {
+    "seedKey": 8601,
+    "lemma": "Att gå åt skogen.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "to go to pot; to go badly wrong",
+    "wordForWord": "to go towards the forest"
+  },
+  {
+    "seedKey": 8602,
+    "lemma": "Rätt ska vara rätt.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "Fair's fair.",
+    "wordForWord": "Right shall be right."
+  },
+  {
+    "seedKey": 8603,
+    "lemma": "En svala gör ingen sommar.",
+    "pos": "phrase",
+    "cefr": "C2",
+    "translation": "One swallow doesn't make a summer."
+  },
+  {
+    "seedKey": 8604,
+    "lemma": "Bränt barn skyr elden.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "Once bitten, twice shy.",
+    "wordForWord": "A burnt child dreads the fire."
+  },
+  {
+    "seedKey": 8605,
+    "lemma": "Den som spar han har.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "Waste not, want not.",
+    "wordForWord": "He who saves, has."
+  },
+  {
+    "seedKey": 8606,
+    "lemma": "Kläderna gör mannen.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "Clothes make the man."
+  },
+  {
+    "seedKey": 8607,
+    "lemma": "Ingen är profet i sitt eget land.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "No one is a prophet in their own land."
+  },
+  {
+    "seedKey": 8609,
+    "lemma": "Att gå från klarhet till klarhet.",
+    "pos": "phrase",
+    "cefr": "C1",
+    "translation": "to go from strength to strength",
+    "wordForWord": "to go from clarity to clarity"
+  },
+  {
+    "seedKey": 8610,
+    "lemma": "Att sätta sin sista skjorta på något.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "to bet everything on something",
+    "wordForWord": "to put your last shirt on something"
+  },
+  {
+    "seedKey": 8611,
+    "lemma": "Att lova guld och gröna skogar.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "to promise the moon",
+    "wordForWord": "to promise gold and green forests"
+  },
+  {
+    "seedKey": 8612,
+    "lemma": "Att vara på hugget.",
+    "pos": "phrase",
+    "cefr": "C2",
+    "translation": "to be on the ball; to be sharp and eager"
+  },
+  {
+    "seedKey": 8613,
+    "lemma": "Att slå på stort.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "to go all out; to push the boat out"
+  },
+  {
+    "seedKey": 8614,
+    "lemma": "Att kasta ut barnet med badvattnet.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "to throw the baby out with the bathwater"
+  },
+  {
+    "seedKey": 8615,
+    "lemma": "Långsamt men säkert.",
+    "pos": "phrase",
+    "cefr": "B2",
+    "translation": "slowly but surely"
+  },
+  {
+    "seedKey": 8616,
+    "lemma": "Bättre lite än inget.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "Something is better than nothing.",
+    "wordForWord": "Better a little than nothing."
+  },
+  {
+    "seedKey": 8617,
+    "lemma": "Den ena handen vet inte vad den andra gör.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "The one hand doesn't know what the other is doing."
+  },
+  {
+    "seedKey": 8618,
+    "lemma": "Det var nära ögat.",
+    "pos": "phrase",
+    "cefr": "B1",
+    "translation": "That was a close call.",
+    "wordForWord": "That was near the eye."
   }
 ]

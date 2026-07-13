@@ -15,6 +15,7 @@
     "test": "vitest",
     "seed:pack": "node scripts/seed/pack.mjs",
     "seed:build": "pnpm seed:pack",
+    "seed:build-phrases": "node scripts/seed/build-phrases.mjs",
     "seed:audit-gloss": "node scripts/seed/audit-gloss.mjs",
     "seed:audit-subdefs": "node scripts/seed/audit-subdefs.mjs",
     "seed:audit-examples": "node scripts/seed/audit-examples.mjs",

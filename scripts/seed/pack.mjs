@@ -23,7 +23,7 @@ const outPath = (p) => (OUT_DIR ? `${OUT_DIR}/${p}` : p)
 // h and version use JSON.stringify, which is key-order sensitive, so every entry is serialized through
 // exactly this order (absent keys omitted). `ipaAmbiguous` and `h` are derived and slotted in here.
 const TOP_ORDER = [
-  'seedKey', 'lemma', 'pos', 'cefr', 'boost', 'gender', 'ipa', 'inflections', 'subDefinitions', 'altMeanings',
+  'seedKey', 'lemma', 'pos', 'cefr', 'boost', 'gender', 'ipa', 'inflections', 'subDefinitions', 'wordForWord', 'altMeanings',
   'enUncountable', 'enProper', 'svUncountable', 'svProper', 'examples', 'translation', 'ipaAmbiguous', 'sense', 'h',
 ]
 const ALT_ORDER = ['key', 'translation', 'enUncountable', 'enProper', 'examples', 'senseKey', 'gloss']

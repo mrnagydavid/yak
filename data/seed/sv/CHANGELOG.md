@@ -6,6 +6,39 @@ Add a dated entry here whenever you change content. Newest first.
 
 See `SNAPSHOT-PIPELINE-DESIGN.md` for the pipeline; §7 has the editing recipes.
 
+## 2026-07-13 — Proverbs & idioms pack (105 `pos: phrase` entries, B1–C2)
+
+`version` `sv-2026-06-01-e5a0454d` → `sv-2026-06-01-16521744`. Count 8399 → 8504 (+105).
+
+Also lowered `handduk` (towel) C1 → A2 (Kelly-band artifact; an everyday word), which drops
+`Att kasta in handduken.` from C2 to its correct B1 floor.
+
+Higher-level counterpart to the A1 "survival kit" phrases: 105 authentic Swedish ordspråk/talesätt/idiom
+(`Ingen ko på isen.`, `Att gå som katten kring het gröt.`, `Nu har du skitit i det blå skåpet.`, …), all
+`pos: phrase`, no `boost`. They behave like any word — both directions, count toward level-up and the
+progress bars.
+
+Each phrase carries two English fields (new `wordForWord` on `Entry`): `translation` is what the saying
+MEANS (the English equivalent, or the plain meaning when there's no equivalent — e.g. *There's no bad
+weather, only bad clothing.*), and `wordForWord` is the literal reading, shown as a quiet italic line
+under the meaning on the RECOGNITION reveal only. Both are capitalised as a sentence when the saying is
+one and lowercased as a gloss when it's a phrase-fragment (`to throw in the towel`). `wordForWord` is
+omitted when it would merely restate the meaning. StudyCard also renders phrase prompts smaller (they're
+sentences, not headwords) and hides the Wiktionary link for phrases (most have no standalone page).
+
+Levelling is DERIVED, not hand-picked per whim: each phrase sits one CEFR step above the hardest word it
+contains that we actually teach (the composer surfaces a seed entry as a NEW card at `cefr === level+1`,
+and a learner reaches level L only by graduating every word ≤ L — so this floor makes a phrase appear
+only once its known words are being learnt). Because idioms carry their difficulty in vivid words we
+don't teach (`björntjänst`, `hjärterum`, `nattmössan`), the derived floor alone underlevels many; an
+editorial `cefr` override in the source raises those (never below the floor). Distribution: B1 38, B2 28,
+C1 14, C2 26.
+
+Source of truth for the sayings is `scripts/seed/phrases/proverbs-sv.json`; `pnpm seed:build-phrases`
+(`--write`) upserts them into `wordlist.json` by lemma (idempotent; leaves the A1 survival phrases alone),
+then `pnpm seed:pack`. A `tests/seed.test.ts` guard enforces the one-above-hardest-word floor (A1 survival
+phrases exempt). `pnpm test` green (245).
+
 ## 2026-07-13 — CEFR re-leveling: body, clothing, food, kitchenware
 
 `version` `sv-2026-06-01-a7632a6a` → `sv-2026-06-01-e5a0454d`. Count unchanged (8399).

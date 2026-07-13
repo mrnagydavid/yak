@@ -28,6 +28,7 @@ interface SeedEntry {
   inflections?: Record<string, string>
   boost?: number // "initial boost" priority — orders the new-card queue within a band (higher first). (A1 boost pack)
   subDefinitions?: string[]
+  wordForWord?: string // word-for-word English of a saying, shown under the meaning on recognition (phrases)
   examples?: string[]
   translation: string
   altMeanings?: AltMeaning[] // extra practiceable meanings (each its own card); primary is `translation`
@@ -139,6 +140,7 @@ function buildEntry(s: SeedEntry, version: string, now: number): { target: Entry
     cefr: s.cefr,
     ...(s.boost ? { boost: s.boost } : {}),
     subDefinitions: s.subDefinitions,
+    ...(s.wordForWord ? { wordForWord: s.wordForWord } : {}),
     sense: s.sense,
     examples: seedExamples(s),
     source: 'seed',
@@ -295,6 +297,7 @@ async function updateSeedTarget(targetId: string, s: SeedEntry, version: string,
     cefr: s.cefr,
     boost: s.boost ?? 0, // `?? 0` (not conditional) so a REMOVED boost is cleared on a not-yet-seen word, not left stale
     subDefinitions: s.subDefinitions,
+    wordForWord: s.wordForWord, // undefined clears the key in Dexie (a removed word-for-word won't linger)
     sense: s.sense,
     examples: seedExamples(s),
     seedVersion: version,

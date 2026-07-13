@@ -65,6 +65,10 @@ export interface Entry {
   boost?: number
   disambiguator?: string // e.g. "datafil" when multiple senses share the lemma
   subDefinitions?: string[] // when senses were merged at build time
+  // The word-for-word English rendering of a saying, shown as a quiet secondary line under the meaning
+  // on the recognition reveal (proverbs/idioms only). `translation` is what it MEANS; this is what it
+  // literally says. Capitalised as a sentence when it is one, a lowercase gloss when a fragment.
+  wordForWord?: string
   // Production grouping (multi-answer cards): which sense of the shared native concept this answer
   // belongs to. Target entries with the same `key` are asked as one production card and graded
   // together; `gloss` is the short native hint shown on the prompt (empty when the concept has a

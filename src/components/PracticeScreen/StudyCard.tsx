@@ -100,7 +100,7 @@ function TargetReveal({ target, overlay, meaningKey }: { target: Entry; overlay?
         {ipa ? <span class={styles.ipa}>/{ipa}/</span> : null}
         <div class={styles.wordActions}>
           {!ttsSuppressed ? <SpeakButton text={target.lemma} lang={target.lang} /> : null}
-          <WiktionaryLink lemma={target.lemma} lang={target.lang} />
+          {target.pos !== 'phrase' ? <WiktionaryLink lemma={target.lemma} lang={target.lang} /> : null}
         </div>
       </div>
       <Inflections display={r.renderInflections(target)} />
@@ -181,7 +181,7 @@ export function StudyCard({
         {isRecognition ? (
           <div class={styles.wordActions}>
             {!ttsSuppressed ? <SpeakButton text={target.lemma} lang={target.lang} /> : null}
-            {revealed ? <WiktionaryLink lemma={target.lemma} lang={target.lang} /> : null}
+            {revealed && target.pos !== 'phrase' ? <WiktionaryLink lemma={target.lemma} lang={target.lang} /> : null}
           </div>
         ) : null}
         {/* In recognition the Swedish word is the prompt, so its forms enrich it right here — shown on
@@ -214,6 +214,8 @@ export function StudyCard({
                       ))
                     : null}
                 </div>
+                {/* A saying's word-for-word reading — a quiet line under the meaning (proverbs/idioms). */}
+                {target.wordForWord ? <p class={styles.wordForWord}>{target.wordForWord}</p> : null}
                 {overlay?.noteText ? <p class={styles.note}>{overlay.noteText}</p> : null}
                 {target.subDefinitions?.length ? (
                   <>

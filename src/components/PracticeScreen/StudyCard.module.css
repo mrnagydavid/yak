@@ -144,6 +144,14 @@
   color: var(--color-text-secondary);
 }
 
+/* A saying's word-for-word reading: a quiet line under the meaning, styled exactly like the example
+   sentences (14px, secondary, italic, same top spacing — see the shared rule below) so the card reads
+   as one system. It's the literal gloss, not what the saying means. */
+.wordForWord {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+}
+
 /* Reference-only "can also mean" meanings — a compact secondary-colour block below the "or" divider,
    the meanings stacked one per line. */
 .subdefs {
@@ -189,7 +197,10 @@
   text-align: center;
 }
 
-.examples {
+/* The literal gloss shares the examples' italics + top spacing, so the space between the meaning and
+   the literal matches the space between the meaning and the examples. */
+.examples,
+.wordForWord {
   font-style: italic;
   margin-top: 24px; /* clear of the meanings/reference panel, without a cavernous gap */
 }
