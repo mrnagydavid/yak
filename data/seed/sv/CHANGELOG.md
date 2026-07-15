@@ -6,7 +6,24 @@ Add a dated entry here whenever you change content. Newest first.
 
 See `SNAPSHOT-PIPELINE-DESIGN.md` for the pipeline; §7 has the editing recipes.
 
-## 2026-07-13 — Proverbs & idioms pack (105 `pos: phrase` entries, B1–C2)
+## 2026-07-15 — Countability fixes (kyla, samtid, påverkan/inverkan/inflytande) + etta gloss
+
+`version` `sv-2026-06-01-16521744` → `sv-2026-06-01-8f51ab75`. Content-only (no count change).
+
+- **`kyla`** — added `svUncountable` so it renders `(en) kyla` (mass noun, plural `-`). English
+  `cold, coldness` already `enUncountable`; correct (the temperature/coldness sense, not the countable
+  illness "a cold").
+- **`samtid`** — added `svUncountable` + `enUncountable`. `(en) samtid`; English drops the awkward
+  article → `present time, contemporary era` (both used as mass/abstract here, not "a present time").
+- **`etta`** — retranslated `one` → `the number one`. The bare noun `one` articleized to the confusing
+  `a one`; `the number one` renders cleanly and unambiguously teaches the numeral-noun. Digit/first
+  year/first gear/studio-apartment nuances stay in `subDefinitions`.
+- **`påverkan` / `inverkan` / `inflytande`** (the `influence#0` synonym card) — marked all three
+  `enUncountable` so the shared production card renders `influence` consistently (the abstract
+  sway/impact sense is uncountable; "an influence" read wrong). Added `svUncountable` to `påverkan`
+  and `inverkan` (mass nouns, plural `-`) → `(en) påverkan` / `(en) inverkan`. `inflytande` keeps its
+  real Swedish plural (`inflytanden`), so it stays `ett inflytande`. This also lifts the three out of
+  the missing-gloss floor in `audit-gloss` (their bare `influence` token is now sense-unique).
 
 `version` `sv-2026-06-01-e5a0454d` → `sv-2026-06-01-16521744`. Count 8399 → 8504 (+105).
 

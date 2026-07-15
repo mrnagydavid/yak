@@ -26373,6 +26373,7 @@
       "Han har stort inflytande på gruppen."
     ],
     "translation": "influence",
+    "enUncountable": true,
     "sense": {
       "key": "influence#0",
       "gloss": ""
@@ -47726,6 +47727,8 @@
       "Musiken har stor påverkan på mig."
     ],
     "translation": "influence",
+    "enUncountable": true,
+    "svUncountable": true,
     "sense": {
       "key": "influence#0",
       "gloss": ""
@@ -60025,6 +60028,8 @@
       "Stress har stor inverkan på hälsan."
     ],
     "translation": "influence",
+    "enUncountable": true,
+    "svUncountable": true,
     "sense": {
       "key": "influence#0",
       "gloss": ""
@@ -66607,6 +66612,7 @@
     ],
     "translation": "cold, coldness",
     "enUncountable": true,
+    "svUncountable": true,
     "sense": {
       "key": "cold#1"
     }
@@ -80240,7 +80246,7 @@
     "examples": [
       "De barnen går i ettan."
     ],
-    "translation": "one",
+    "translation": "the number one",
     "sense": {
       "key": "one#2"
     }
@@ -82019,7 +82025,9 @@
     "examples": [
       "Romanen speglar vår samtid på ett träffsäkert sätt."
     ],
-    "translation": "present time, contemporary era"
+    "translation": "present time, contemporary era",
+    "enUncountable": true,
+    "svUncountable": true
   },
   {
     "seedKey": 4337,
