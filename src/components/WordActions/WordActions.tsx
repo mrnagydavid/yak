@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'preact/hooks'
+import type { PartOfSpeech } from '../../db/types'
 import { wiktionaryUrl } from '../../lang'
 import { hasVoiceFor, speak } from '../../lang/speech'
 import styles from './WordActions.module.css'
@@ -42,11 +43,21 @@ export function SpeakButton({ text, lang, class: className }: { text: string; la
 
 /** Link to the word's Wiktionary page (opens in a new tab), as a 📖 icon that mirrors the 🔊 button.
  *  The label lives in aria-label/title since there's no visible text. */
-export function WiktionaryLink({ lemma, lang, class: className }: { lemma: string; lang: string; class?: string }) {
+export function WiktionaryLink({
+  lemma,
+  lang,
+  pos,
+  class: className,
+}: {
+  lemma: string
+  lang: string
+  pos?: PartOfSpeech
+  class?: string
+}) {
   return (
     <a
       class={`${styles.wikt} ${className ?? ''}`}
-      href={wiktionaryUrl(lemma, lang)}
+      href={wiktionaryUrl(lemma, lang, pos)}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Open in Wiktionary"

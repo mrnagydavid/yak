@@ -11,6 +11,32 @@ describe('wiktionaryUrl', () => {
   it('encodes special characters in the lemma', () => {
     expect(wiktionaryUrl('gå på', 'sv')).toBe('https://en.wiktionary.org/wiki/g%C3%A5%20p%C3%A5#Swedish')
   })
+
+  it('normalizes a phrase to the Wiktionary title: sheds the sentence capital and terminal dot', () => {
+    expect(wiktionaryUrl('Alla vägar bär till Rom.', 'sv', 'phrase')).toBe(
+      'https://en.wiktionary.org/wiki/alla%20v%C3%A4gar%20b%C3%A4r%20till%20Rom#Swedish',
+    )
+  })
+
+  it('sheds a trailing question mark from a phrase', () => {
+    expect(wiktionaryUrl('Vad heter du?', 'sv', 'phrase')).toBe(
+      'https://en.wiktionary.org/wiki/vad%20heter%20du#Swedish',
+    )
+  })
+
+  it('leaves an already-lowercase phrase (no terminal punctuation) untouched', () => {
+    expect(wiktionaryUrl('på förhand', 'sv', 'phrase')).toBe(
+      'https://en.wiktionary.org/wiki/p%C3%A5%20f%C3%B6rhand#Swedish',
+    )
+  })
+
+  it('does NOT lowercase a proper-noun single word — its capital is inherent', () => {
+    expect(wiktionaryUrl('Sverige', 'sv', 'noun')).toBe('https://en.wiktionary.org/wiki/Sverige#Swedish')
+  })
+
+  it('keeps a single word’s trailing dot — it is part of the lemma (abbreviation)', () => {
+    expect(wiktionaryUrl('t.ex.', 'sv', 'adv')).toBe('https://en.wiktionary.org/wiki/t.ex.#Swedish')
+  })
 })
 
 function entry(overrides: Partial<Entry> & { lemma: string; pos: PartOfSpeech }): Entry {

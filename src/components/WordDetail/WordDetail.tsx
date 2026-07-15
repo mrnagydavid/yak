@@ -156,7 +156,7 @@ export function WordDetail({ id }: { id?: string }) {
         {/* Suppressed when the lemma is pronounced differently across senses (kort, ton) — TTS can't
             pick the right one; the per-sense IPA above still shows. */}
         {entry.pronunciation.ambiguous ? null : <SpeakButton text={entry.lemma} lang={entry.lang} />}
-        <WiktionaryLink lemma={entry.lemma} lang={entry.lang} />
+        <WiktionaryLink lemma={entry.lemma} lang={entry.lang} pos={entry.pos} />
       </section>
 
       {inflections.table || inflections.rows.length ? (
