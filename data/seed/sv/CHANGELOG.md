@@ -6,6 +6,15 @@ Add a dated entry here whenever you change content. Newest first.
 
 See `SNAPSHOT-PIPELINE-DESIGN.md` for the pipeline; §7 has the editing recipes.
 
+## 2026-07-16 — `stolthet` countability
+
+`version` `sv-2026-06-01-8f51ab75` → `sv-2026-06-01-df4a1940`. Content-only (no count change).
+
+- **`stolthet`** — added `svUncountable` so it renders `(en) stolthet`. The emotion "pride" is a mass
+  noun in Swedish ("Hon kände stolthet", not "en stolthet"); a `-het` abstraktum like the already-marked
+  `ödmjukhet`/`ärlighet`. Entry already had plurals `-` and `enUncountable`, so this fixes an
+  inconsistency. Translation `pride` left as-is (correct; the "source of pride" sense is secondary).
+
 ## 2026-07-15 — Countability fixes (kyla, samtid, påverkan/inverkan/inflytande) + etta gloss
 
 `version` `sv-2026-06-01-16521744` → `sv-2026-06-01-8f51ab75`. Content-only (no count change).
