@@ -25,9 +25,12 @@ import { RatingButtons } from './RatingButtons'
 import { dropRequeue, insertRequeue, mayRequeue } from './requeue'
 import {
   dayKey,
+  dismissLimitNotice,
   loadPersistedSession,
+  persistCards,
   persistIndex,
   persistSession,
+  pushFurtherSession,
   resumableSession,
   saveSession,
   setSessionIndex,
@@ -59,6 +62,9 @@ export function PracticeScreen() {
   const [revealed, setRevealed] = useState(false)
   // False once a "Push further" yields nothing more, so the button stops being a no-op.
   const [canPushFurther, setCanPushFurther] = useState(resumed?.canPushFurther ?? true)
+  // A daily-limit change made while pushing further won't affect today; the banner says so until
+  // dismissed, and reappears if a later change also can't land today. (SPEC §6.2)
+  const [notice, setNotice] = useState(resumed?.limitChangeNotice ?? false)
   const [editing, setEditing] = useState(false)
   // One undo token per rating made this sitting; lets the user take back accidental taps,
   // card by card. In-memory only — it's gone after a refresh or tab switch (SPEC §6.5).
@@ -74,22 +80,56 @@ export function PracticeScreen() {
   // remount), foregrounding it recomposes so "caught up" doesn't stick into the new day.
   const loadedDayRef = useRef(resumed?.dayKey ?? dayKey())
 
-  async function load(pushFurther = false) {
-    const cards = await composeSession(Date.now(), pushFurther)
-    const resolved = (await Promise.all(cards.map((c) => getPracticeCardView(c)))).filter(
+  async function load() {
+    const composed = await composeSession(Date.now())
+    const resolved = (await Promise.all(composed.cards.map((c) => getPracticeCardView(c)))).filter(
       (v): v is PracticeCardView => v !== null,
     )
-    const nextCanPush = pushFurther ? resolved.length > 0 : true
     loadedDayRef.current = dayKey()
     setViews(resolved)
     setIndex(0)
     setRevealed(false)
-    setCanPushFurther(nextCanPush)
+    setCanPushFurther(composed.canPushFurther)
+    setNotice(false) // a fresh session starts with no pending limit-change note
     setUndoStack([]) // a fresh batch replaces the queue — prior tokens no longer map to it
     setActiveTab(0)
     setRatings(new Map())
-    saveSession({ dayKey: dayKey(), views: resolved, index: 0, canPushFurther: nextCanPush })
-    void persistSession(resolved.map((v) => v.card), 0, nextCanPush)
+    saveSession({ dayKey: dayKey(), views: resolved, index: 0, canPushFurther: composed.canPushFurther, limitChangeNotice: false })
+    // Persist the frozen master + starting local limits too, so daily-limit changes / Push further can
+    // re-window this session in place instead of recomposing. (SPEC §6.2)
+    void persistSession(resolved.map((v) => v.card), 0, composed.canPushFurther, {
+      master: composed.master,
+      localLimits: composed.localLimits,
+      limitChangeNotice: false,
+    })
+  }
+
+  // "Push further" (SPEC §7.7): widen today's limits and reveal the next slice of the frozen master,
+  // continuing from where you were (the consumed cards stay put). Null when there's nothing more.
+  async function pushFurther() {
+    const pushed = await pushFurtherSession()
+    if (!pushed) {
+      setCanPushFurther(false)
+      return
+    }
+    const resolved = (await Promise.all(pushed.cards.map((c) => getPracticeCardView(c)))).filter(
+      (v): v is PracticeCardView => v !== null,
+    )
+    const restoredIndex = Math.min(pushed.index, resolved.length)
+    setViews(resolved)
+    setIndex(restoredIndex)
+    setRevealed(false)
+    setCanPushFurther(pushed.canPushFurther)
+    setUndoStack([]) // the queue grew — prior tokens no longer map cleanly
+    setActiveTab(0)
+    setRatings(new Map())
+    saveSession({ dayKey: dayKey(), views: resolved, index: restoredIndex, canPushFurther: pushed.canPushFurther, limitChangeNotice: notice })
+  }
+
+  // Dismiss the "limits change tomorrow" banner (both layers, so a tab switch / refresh keeps it hidden).
+  function dismissNotice() {
+    setNotice(false)
+    void dismissLimitNotice()
   }
 
   // Re-hydrate a session saved before a page refresh: re-resolve its lightweight queue into views
@@ -109,6 +149,7 @@ export function PracticeScreen() {
     setIndex(restoredIndex)
     setRevealed(false)
     setCanPushFurther(persisted.canPushFurther)
+    setNotice(persisted.limitChangeNotice ?? false) // re-show a pending limit-change note on resume
     setUndoStack([]) // undo history doesn't survive a refresh — start the resumed sitting clean
     setActiveTab(0)
     setRatings(new Map())
@@ -117,6 +158,7 @@ export function PracticeScreen() {
       views: resolved,
       index: restoredIndex,
       canPushFurther: persisted.canPushFurther,
+      limitChangeNotice: persisted.limitChangeNotice ?? false,
     })
   }
 
@@ -184,6 +226,7 @@ export function PracticeScreen() {
   if (index >= views.length) {
     return (
       <div class={styles.screen}>
+        {notice ? <LimitNoticeBanner onDismiss={dismissNotice} /> : null}
         {/* Undo stays reachable in the top-right — the same corner it held mid-session, so muscle
             memory finds it — while the reward below stays uncluttered. */}
         {undoStack.length > 0 ? (
@@ -198,7 +241,7 @@ export function PracticeScreen() {
           <p class={styles.caughtTitle}>You're all caught up for today.</p>
           <div class={styles.cta}>
             {canPushFurther ? (
-              <button class={styles.pushFurther} onClick={() => void load(true)}>
+              <button class={styles.pushFurther} onClick={() => void pushFurther()}>
                 Push further
               </button>
             ) : (
@@ -247,7 +290,7 @@ export function PracticeScreen() {
       const nextViews = insertRequeue(views, index + 1, clone)
       setViews(nextViews)
       setSessionViews(nextViews)
-      void persistSession(nextViews.map((v) => v.card), index + 1, canPushFurther)
+      void persistCards(nextViews.map((v) => v.card), index + 1)
     }
     setUndoStack((s) => [...s, { kind: 'group', token, requeueId }])
     advance()
@@ -277,7 +320,7 @@ export function PracticeScreen() {
         const nextViews = insertRequeue(views, index + 1, clone)
         setViews(nextViews)
         setSessionViews(nextViews)
-        void persistSession(nextViews.map((v) => v.card), index + 1, canPushFurther)
+        void persistCards(nextViews.map((v) => v.card), index + 1)
       }
       setUndoStack((s) => [...s, { kind: 'single', token, requeueId }])
       advance()
@@ -325,7 +368,7 @@ export function PracticeScreen() {
       const nextViews = dropRequeue(views, entry.requeueId)
       setViews(nextViews)
       setSessionViews(nextViews)
-      void persistSession(nextViews.map((v) => v.card), Math.max(0, index - 1), canPushFurther)
+      void persistCards(nextViews.map((v) => v.card), Math.max(0, index - 1))
     }
     setIndex((i) => {
       const prev = i - 1
@@ -350,6 +393,7 @@ export function PracticeScreen() {
 
   return (
     <div class={styles.screen}>
+      {notice ? <LimitNoticeBanner onDismiss={dismissNotice} /> : null}
       <div class={styles.topbar}>
         {/* total grows when a "Didn't know" re-queues a clone, so the fill dips slightly — honest,
             there genuinely is more to do before you're caught up. */}
@@ -400,6 +444,24 @@ export function PracticeScreen() {
           }}
         />
       ) : null}
+    </div>
+  )
+}
+
+// Shown when a daily-limit change couldn't apply to today's session (you're already pushing further),
+// so it takes effect tomorrow. Dismissible; reappears on the next change that also can't land. (SPEC §6.2)
+function LimitNoticeBanner({ onDismiss }: { onDismiss: () => void }) {
+  return (
+    <div class={styles.limitNotice} role="status">
+      <p>
+        <strong>Your new daily limits start tomorrow.</strong> You're pushing further today, so today
+        keeps the words you pulled.
+      </p>
+      <button class={styles.limitNoticeClose} aria-label="Dismiss" onClick={onDismiss}>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 6 6 18M6 6l12 12" />
+        </svg>
+      </button>
     </div>
   )
 }

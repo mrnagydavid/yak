@@ -24,12 +24,20 @@
   color: var(--color-text-secondary);
 }
 
+/* Inline links in muted comment text (e.g. the Anki link in About) match the assessment link:
+   primary colour, no underline. */
+.muted a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
 /* Export-reminder toggle in the Data section — mirrors the calorie-counter sibling app. */
 .checkboxRow {
   display: flex;
   align-items: center;
   gap: 10px;
   font-size: 15px;
+  color: var(--color-text-secondary);
 }
 
 .checkboxRow input[type='checkbox'] {
@@ -44,7 +52,7 @@
   border: none;
   padding: 4px 0;
   color: var(--color-primary);
-  font-size: 14px;
+  font-size: 13px;
   cursor: pointer;
 }
 
@@ -71,22 +79,64 @@
   color: #fff;
 }
 
-.slider {
+/* Daily-limit stepper: label on the left, a segmented −/value/+ pill on the right. Kept light — thin
+   icons, a plain value (no bold) — so it sits with the rest of the screen rather than shouting. */
+.limitRow {
   display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.sliderLabel {
-  display: flex;
+  align-items: center;
   justify-content: space-between;
-  font-size: 15px;
+  gap: 12px;
+  min-height: 44px;
 }
 
-.slider input {
-  width: 100%;
-  accent-color: var(--color-primary);
-  height: 28px;
+.limitLabel {
+  font-size: 15px;
+  color: var(--color-text-secondary);
+}
+
+.stepper {
+  display: inline-flex;
+  align-items: stretch;
+  flex-shrink: 0;
+  height: 44px;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: var(--color-surface);
+  overflow: hidden;
+}
+
+.stepBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  color: var(--color-text-secondary);
+  background: none;
+}
+
+.stepBtn svg {
+  width: 18px;
+  height: 18px;
+}
+
+.stepBtn:active:not(:disabled) {
+  background: var(--color-bg-secondary);
+}
+
+.stepBtn:disabled {
+  opacity: 0.35;
+}
+
+.stepValue {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 46px;
+  border-left: 1px solid var(--color-border);
+  border-right: 1px solid var(--color-border);
+  font-size: 15px;
+  color: var(--color-text-secondary);
+  font-variant-numeric: tabular-nums;
 }
 
 .action {
@@ -216,7 +266,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 4px 12px;
-  font-size: 12px;
+  font-size: 13px;
   color: var(--color-text-secondary);
 }
 
@@ -260,7 +310,7 @@
   width: 28px;
   flex-shrink: 0;
   font-size: 13px;
-  font-weight: 700;
+  color: var(--color-text-secondary);
 }
 
 .progressTrack {

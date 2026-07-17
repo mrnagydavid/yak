@@ -4,12 +4,18 @@ import { getActiveProfile, getLevelProgress, updateProfile } from '../../db/quer
 import { clearAllData, exportData, importData, isExportBundle, type ExportBundle } from '../../db/transfer'
 import type { Profile } from '../../db/types'
 import { CEFR_LEVELS, type LevelProgressRow } from '../../srs/level-progress'
+import { MAX_NEW_PER_DAY, MAX_PRACTICE_PER_DAY } from '../../srs/session-composer'
 import { Calibration } from '../Calibration/Calibration'
-import { clearSession } from '../PracticeScreen/session-store'
+import { clearSession, reconcileActiveSession } from '../PracticeScreen/session-store'
 import { IosInstallNote } from './IosInstallNote'
 import styles from './ProfileScreen.module.css'
 
 const LEVELS: Profile['claimedLevel'][] = ['below-A1', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2']
+
+// Stepper increments for the two daily limits (their maxima live in the composer, shared with the master
+// cap). Round steps keep the numbers tidy; 0 is allowed for both (practice-only, new-only, or a rest day).
+const NEW_STEP = 5
+const PRACTICE_STEP = 25
 
 // Empty bars (real level labels, no segments) shown while the very first breakdown is computing, so the
 // Progress section reserves its final height instead of popping in and shoving the page down.
@@ -72,8 +78,19 @@ export function ProfileScreen() {
     )
   }
 
-  const setLimit = (key: 'newPerDay' | 'practicePerDay', value: number) =>
-    void updateProfile(profile.id, { dailyLimits: { ...profile.dailyLimits, [key]: value } })
+  // Step the "global" daily limit and re-window today's live session in place (SPEC §6.2): a change
+  // lands on today immediately unless you're already pushing further, in which case it takes effect
+  // tomorrow (and Practice shows a note). Steppers, not sliders — a scroll can't nudge them by accident.
+  const changeLimit = (key: 'newPerDay' | 'practicePerDay', delta: number) => {
+    const prevGlobal = profile.dailyLimits
+    const max = key === 'newPerDay' ? MAX_NEW_PER_DAY : MAX_PRACTICE_PER_DAY
+    const step = key === 'newPerDay' ? NEW_STEP : PRACTICE_STEP
+    const next = Math.min(max, Math.max(0, prevGlobal[key] + delta * step))
+    if (next === prevGlobal[key]) return
+    const nextGlobal = { ...prevGlobal, [key]: next }
+    void updateProfile(profile.id, { dailyLimits: nextGlobal })
+    void reconcileActiveSession(prevGlobal, nextGlobal)
+  }
 
   async function handleExport() {
     const blob = new Blob([JSON.stringify(await exportData(), null, 2)], { type: 'application/json' })
@@ -131,32 +148,22 @@ export function ProfileScreen() {
 
       <section class={styles.section}>
         <h2 class={styles.sectionTitle}>Daily limits</h2>
-        <label class={styles.slider}>
-          <span class={styles.sliderLabel}>
-            New words / day <strong>{profile.dailyLimits.newPerDay}</strong>
-          </span>
-          <input
-            type="range"
-            min={0}
-            max={50}
-            step={5}
-            value={profile.dailyLimits.newPerDay}
-            onChange={(e) => setLimit('newPerDay', Number((e.target as HTMLInputElement).value))}
-          />
-        </label>
-        <label class={styles.slider}>
-          <span class={styles.sliderLabel}>
-            Practice / day <strong>{profile.dailyLimits.practicePerDay}</strong>
-          </span>
-          <input
-            type="range"
-            min={0}
-            max={500}
-            step={25}
-            value={profile.dailyLimits.practicePerDay}
-            onChange={(e) => setLimit('practicePerDay', Number((e.target as HTMLInputElement).value))}
-          />
-        </label>
+        <LimitStepper
+          label="New words / day"
+          value={profile.dailyLimits.newPerDay}
+          min={0}
+          max={MAX_NEW_PER_DAY}
+          onDec={() => changeLimit('newPerDay', -1)}
+          onInc={() => changeLimit('newPerDay', 1)}
+        />
+        <LimitStepper
+          label="Practice / day"
+          value={profile.dailyLimits.practicePerDay}
+          min={0}
+          max={MAX_PRACTICE_PER_DAY}
+          onDec={() => changeLimit('practicePerDay', -1)}
+          onInc={() => changeLimit('practicePerDay', 1)}
+        />
       </section>
 
       <section class={styles.section}>
@@ -290,6 +297,43 @@ export function ProfileScreen() {
           out!
         </p>
       </section>
+    </div>
+  )
+}
+
+/** A daily-limit control: label on the left, a −/value/+ stepper on the right. Steppers (not a slider)
+ *  because a stray scroll must never change the value; the buttons stop at 0 and the max. */
+function LimitStepper({
+  label,
+  value,
+  min,
+  max,
+  onDec,
+  onInc,
+}: {
+  label: string
+  value: number
+  min: number
+  max: number
+  onDec: () => void
+  onInc: () => void
+}) {
+  return (
+    <div class={styles.limitRow}>
+      <span class={styles.limitLabel}>{label}</span>
+      <div class={styles.stepper}>
+        <button class={styles.stepBtn} onClick={onDec} disabled={value <= min} aria-label={`Fewer — ${label}`}>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path d="M5 12h14" />
+          </svg>
+        </button>
+        <span class={styles.stepValue}>{value}</span>
+        <button class={styles.stepBtn} onClick={onInc} disabled={value >= max} aria-label={`More — ${label}`}>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path d="M12 5v14M5 12h14" />
+          </svg>
+        </button>
+      </div>
     </div>
   )
 }

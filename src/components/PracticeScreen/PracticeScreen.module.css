@@ -8,6 +8,51 @@
   padding-bottom: 16px; /* a little breathing room above the nav */
 }
 
+/* "Daily limits change tomorrow" note — a soft, dismissible callout above the session. */
+.limitNotice {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 10px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-bg-secondary);
+}
+
+.limitNotice p {
+  flex: 1;
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--color-text-secondary);
+}
+
+.limitNotice strong {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.limitNoticeClose {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  margin: -4px -4px 0 0;
+  border-radius: 999px;
+  color: var(--color-text-secondary);
+}
+
+.limitNoticeClose svg {
+  width: 16px;
+  height: 16px;
+}
+
+.limitNoticeClose:active {
+  background: var(--color-surface);
+}
+
 .topbar {
   display: flex;
   align-items: center;

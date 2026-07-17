@@ -1,6 +1,6 @@
 import { db } from '../db/schema'
 import { getActiveProfile, getReviewState } from '../db/queries'
-import type { Entry, Profile, ReviewState, Skill, Translation } from '../db/types'
+import type { DailyLimits, Entry, Profile, ReviewState, Skill, Translation } from '../db/types'
 import { applyRating, createReviewState, type RatingLabel } from './fsrs-adapter'
 import { cefrRank, levelRank } from './levels'
 
@@ -62,6 +62,24 @@ export interface SessionCard {
 }
 
 const SKILLS: Skill[] = ['recognize', 'produce']
+
+// The most a user can dial the daily limits up to — also the size the day's `master` pool is frozen
+// at, so they double as the hard "Push further" ceiling: at most this many practice + new cards a day.
+// Kept in sync with the Profile steppers (their `max`).
+export const MAX_NEW_PER_DAY = 50
+export const MAX_PRACTICE_PER_DAY = 500
+
+/**
+ * The full day's pool, frozen at first compose — the source the live daily limits window into. Practice
+ * cards are already deduped/grouped and ordered (capped at MAX_PRACTICE_PER_DAY); new cards ordered
+ * (capped at MAX_NEW_PER_DAY, minus any introduced earlier today). Serving `n` of a sub-queue always
+ * means its first `n`, so a limit change / Push further only reveals or hides a suffix — the words seen
+ * so far never change (that's what makes limit changes non-disruptive; SPEC §6.2).
+ */
+export interface SessionMaster {
+  practice: SessionCard[]
+  news: SessionCard[]
+}
 
 // Production unlocks once recognition has graduated out of learning and stuck for ~a week.
 const PRODUCTION_UNLOCK_STABILITY_DAYS = 7
@@ -141,6 +159,21 @@ interface Candidate {
 
 /** Pure session composition over already-loaded data. */
 export function composeSessionPure(input: ComposerInput): SessionCard[] {
+  const { practiceCards, newCards } = composeParts(input)
+  return interleave(practiceCards, newCards)
+}
+
+/**
+ * The ordered practice and new sub-queues for `input.limits`, BEFORE interleaving — the shared core of
+ * `composeSessionPure` and the master builder (`buildMasterPure`). Returns `newDoneToday` (new cards
+ * introduced earlier today) so a caller can budget the day's remaining introductions. Practice is capped
+ * (and its production groups collapsed) at `limits.practicePerDay`; new at `newPerDay − newDoneToday`.
+ */
+function composeParts(input: ComposerInput): {
+  practiceCards: SessionCard[]
+  newCards: SessionCard[]
+  newDoneToday: number
+} {
   const { now, dayStart, level, limits } = input
   const lr = levelRank(level)
 
@@ -288,7 +321,7 @@ export function composeSessionPure(input: ComposerInput): SessionCard[] {
   )
   const newCards = fresh.slice(0, newBudget).map((c) => c.card)
 
-  return interleave(practiceCards, newCards)
+  return { practiceCards, newCards, newDoneToday }
 }
 
 /**
@@ -427,6 +460,79 @@ function interleave(practice: SessionCard[], news: SessionCard[]): SessionCard[]
   return out
 }
 
+// --- Live daily limits: windowing the frozen master (SPEC §6.2) ------------------------------------
+
+/** A card's stable identity for done-tracking (translation + direction). A re-queued clone and a group
+ *  card share their origin's key, so counting distinct keys present never double-counts. */
+export function cardKey(card: SessionCard): string {
+  return `${card.translationId}:${card.skill}`
+}
+
+/**
+ * The queue to serve for `local` limits: the first `localPractice` practice and `localNew` new cards of
+ * the master, EXCLUDING anything already done (key in `doneKeys`), then interleaved. Done cards occupy
+ * their budget — 25 practice done with a limit of 30 serves only 5 more; a limit at or below the done
+ * count serves none (the session reads as finished). Callers prepend the consumed prefix so the cursor
+ * stays put — that's how a mid-session limit change keeps your place.
+ */
+export function windowMaster(
+  master: SessionMaster,
+  local: DailyLimits,
+  doneKeys: Set<string> = new Set(),
+): SessionCard[] {
+  const take = (pool: SessionCard[], limit: number): SessionCard[] => {
+    const remaining = pool.filter((c) => !doneKeys.has(cardKey(c)))
+    const done = pool.length - remaining.length
+    return remaining.slice(0, Math.max(0, limit - done))
+  }
+  return interleave(take(master.practice, local.practicePerDay), take(master.news, local.newPerDay))
+}
+
+/** Whether "Push further" can still pull anything: a budget with room left in the master AND a non-zero
+ *  daily amount to widen by (a budget the user zeroed out isn't extended). */
+export function canPushFurtherFor(local: DailyLimits, global: DailyLimits, master: SessionMaster): boolean {
+  return (
+    (global.practicePerDay > 0 && local.practicePerDay < master.practice.length) ||
+    (global.newPerDay > 0 && local.newPerDay < master.news.length)
+  )
+}
+
+/**
+ * The new local limits after the Profile ("global") limits change. Per budget: while NOT pushed
+ * (local == global) local tracks the new global up or down; once PUSHED (local > global) a global change
+ * can only RAISE local, never shrink today's extended session. `prevGlobal` is the global in force
+ * before this change — the pre-change `local > prevGlobal` is exactly "was pushed". (SPEC §6.2)
+ */
+export function reconcileLimits(
+  local: DailyLimits,
+  prevGlobal: DailyLimits,
+  nextGlobal: DailyLimits,
+): DailyLimits {
+  const per = (k: keyof DailyLimits): number =>
+    local[k] > prevGlobal[k] ? Math.max(local[k], nextGlobal[k]) : nextGlobal[k]
+  return { newPerDay: per('newPerDay'), practicePerDay: per('practicePerDay') }
+}
+
+/** The local limits after one "Push further": widen each budget by another day's worth (the global
+ *  amount), clamped to the master's size — so a day can never exceed the frozen snapshot. */
+export function extendLimits(local: DailyLimits, global: DailyLimits, master: SessionMaster): DailyLimits {
+  return {
+    newPerDay: Math.min(master.news.length, local.newPerDay + global.newPerDay),
+    practicePerDay: Math.min(master.practice.length, local.practicePerDay + global.practicePerDay),
+  }
+}
+
+/** Build the day's full pool, frozen at first compose. Composed at the MAX caps so later limit changes
+ *  / Push further reveal more of it without recomposing; `newDoneToday` lets the caller budget the day's
+ *  remaining new-word introductions. */
+export function buildMasterPure(input: ComposerInput): { master: SessionMaster; newDoneToday: number } {
+  const { practiceCards, newCards, newDoneToday } = composeParts({
+    ...input,
+    limits: { newPerDay: MAX_NEW_PER_DAY, practicePerDay: MAX_PRACTICE_PER_DAY },
+  })
+  return { master: { practice: practiceCards, news: newCards }, newDoneToday }
+}
+
 /** Local midnight for a timestamp — the boundary for daily budgets. */
 function startOfLocalDay(now: number): number {
   const d = new Date(now)
@@ -434,13 +540,32 @@ function startOfLocalDay(now: number): number {
   return d.getTime()
 }
 
-/** Compose today's session for the active profile, loading from Dexie. */
-export async function composeSession(
-  now: number = Date.now(),
-  pushFurther = false,
-): Promise<SessionCard[]> {
+/** The initial state of a freshly composed session: the served queue plus the frozen master and the
+ *  day's starting local limits, so the caller can persist them for later windowing (limit changes /
+ *  Push further). */
+export interface ComposedSession {
+  cards: SessionCard[]
+  master: SessionMaster
+  localLimits: DailyLimits
+  canPushFurther: boolean
+}
+
+/**
+ * Compose today's session for the active profile, loading from Dexie. Freezes the day's full master and
+ * windows it at the profile's limits — new floored by what's already been introduced today (a reviewed
+ * practice card's due moves to the future, so practice needs no such subtraction). The master + local
+ * limits are returned for the caller to persist; changing limits or pushing further re-windows the same
+ * frozen master rather than recomposing.
+ */
+export async function composeSession(now: number = Date.now()): Promise<ComposedSession> {
+  const empty: ComposedSession = {
+    cards: [],
+    master: { practice: [], news: [] },
+    localLimits: { newPerDay: 0, practicePerDay: 0 },
+    canPushFurther: false,
+  }
   const profile = await getActiveProfile()
-  if (!profile) return []
+  if (!profile) return empty
 
   const entries = await db.entries.where('lang').equals(profile.targetLang).toArray()
   const entryIds = entries.map((e) => e.id)
@@ -448,7 +573,7 @@ export async function composeSession(
   const translationIds = translations.map((t) => t.id)
   const reviewStates = await db.reviewStates.where('translationId').anyOf(translationIds).toArray()
 
-  return composeSessionPure({
+  const { master, newDoneToday } = buildMasterPure({
     now,
     dayStart: startOfLocalDay(now),
     level: profile.claimedLevel,
@@ -456,8 +581,17 @@ export async function composeSession(
     entries,
     translations,
     reviewStates,
-    pushFurther,
   })
+  const localLimits: DailyLimits = {
+    newPerDay: Math.max(0, profile.dailyLimits.newPerDay - newDoneToday),
+    practicePerDay: profile.dailyLimits.practicePerDay,
+  }
+  return {
+    cards: windowMaster(master, localLimits),
+    master,
+    localLimits,
+    canPushFurther: canPushFurtherFor(localLimits, profile.dailyLimits, master),
+  }
 }
 
 /** What `recordReview` wrote, enough for `undoReview` to reverse it exactly. */

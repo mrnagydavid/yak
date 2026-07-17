@@ -1,6 +1,6 @@
 // Entity interfaces for the Yak data model. See SPEC §4.
 
-import type { SessionCard } from '../srs/session-composer'
+import type { SessionCard, SessionMaster } from '../srs/session-composer'
 
 export type Cefr = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2'
 
@@ -18,6 +18,13 @@ export type PartOfSpeech =
   | 'other'
 
 export type Source = 'seed' | 'user'
+
+/** How many new words to introduce and practice cards to review per day (SPEC §6.2). The Profile
+ *  "global" setting; a live session also carries its own "local" copy — see ActiveSessionRecord. */
+export interface DailyLimits {
+  newPerDay: number // default 20
+  practicePerDay: number // default 200
+}
 
 /**
  * The user's per-word practice override — a single dimension. (SPEC §7.5)
@@ -153,10 +160,7 @@ export interface Profile {
   learnerLang: string // BCP-47, e.g. "en"
   targetLang: string // BCP-47, e.g. "sv"
   claimedLevel: Cefr | 'below-A1'
-  dailyLimits: {
-    newPerDay: number // default 20
-    practicePerDay: number // default 200
-  }
+  dailyLimits: DailyLimits
   // Monthly "back up your data" reminder, mirrored from the calorie-counter sibling app. Undefined = on.
   exportReminderEnabled?: boolean
   // "YYYY-MM" of the month the reminder was last dismissed, so it stays hidden for the rest of that month.
@@ -208,14 +212,24 @@ export interface EnrichmentResult {
  * at the same position instead of recomposing from scratch. Singleton — one active session at a time
  * (keyed by the literal id `'active'`). The heavy display data isn't stored: only the lightweight
  * `SessionCard[]` queue is, re-resolved to views via `getPracticeCardView` on load.
+ *
+ * Daily limits are live (SPEC §6.2): the `master` is the full day's pool, frozen at first compose;
+ * `localLimits` is a WINDOW into it — the queue served is `windowMaster(master, localLimits, done)`.
+ * Changing the Profile ("global") limits re-windows today's session in place instead of only taking
+ * effect tomorrow; "Push further" widens `localLimits` toward the master's size. `master`/`localLimits`
+ * are absent on records composed before this feature — such a record simply can't be re-windowed and
+ * is left as-is (it recomposes on the next new day). See session-store's reconcile/push helpers.
  */
 export interface ActiveSessionRecord {
   id: string // singleton key, always 'active'
   profileId: string // validated on resume → recompose after a profile/language switch
   dayKey: string // validated on resume → recompose on a new day
-  cards: SessionCard[] // the queue, in order
+  cards: SessionCard[] // the queue actually served, in order (a windowed view of `master` + re-queued clones)
   index: number // cursor — how far the user has progressed
   canPushFurther: boolean
+  master?: SessionMaster // the full day's pool (practice + new), frozen at first compose — the window's source
+  localLimits?: DailyLimits // today's effective limits; ≥ global once "Push further" has widened them
+  limitChangeNotice?: boolean // a global-limit change didn't land today (already pushing) → Practice shows a dismissible banner
   updatedAt: number
 }
 
