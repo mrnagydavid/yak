@@ -1926,8 +1926,7 @@
     ],
     "translation": "man",
     "sense": {
-      "key": "man#0",
-      "gloss": "adult male"
+      "key": "man#0"
     }
   },
   {
@@ -52718,6 +52717,7 @@
       "experience, know-how (practical familiarity)"
     ],
     "examples": [
+      "Att röka är en dålig vana.",
       "Vi söker en pizzakock med vana från pizzeria."
     ],
     "translation": "habit"
@@ -56356,19 +56356,6 @@
     "translation": "relative",
     "sense": {
       "key": "relative#0"
-    }
-  },
-  {
-    "seedKey": 2931,
-    "lemma": "övrigt",
-    "pos": "adv",
-    "cefr": "B1",
-    "examples": [
-      "I övrigt var allt bra."
-    ],
-    "translation": "otherwise, apart from that",
-    "sense": {
-      "key": "otherwise, or else#1"
     }
   },
   {
@@ -66032,6 +66019,7 @@
       "indefinitePlural": "-",
       "definitePlural": "-"
     },
+    "svUncountable": true,
     "examples": [
       "Medborgarna kräver insyn i politikens beslut."
     ],
@@ -70069,8 +70057,7 @@
     ],
     "translation": "man",
     "sense": {
-      "key": "man#0",
-      "gloss": "adult male"
+      "key": "man#0"
     }
   },
   {
@@ -75635,7 +75622,7 @@
     "altMeanings": [
       {
         "key": 1,
-        "translation": "piece, man",
+        "translation": "piece",
         "examples": [
           "Han flyttade en pjäs på schackbrädet."
         ],
@@ -77623,6 +77610,7 @@
       "herd, livestock"
     ],
     "examples": [
+      "Fartygets besättning bestod av tjugo sjömän.",
       "Hela besättningen, som består av 4500 kalkoner, måste nu avlivas."
     ],
     "translation": "crew"
@@ -82190,9 +82178,9 @@
     "pos": "other",
     "cefr": "B2",
     "examples": [
-      "Det finns ingen anledning som helst att oroa sig."
+      "Det finns inte någon som helst anledning att oroa sig."
     ],
-    "translation": "any whatsoever, any at all"
+    "translation": "any at all, anyone at all"
   },
   {
     "seedKey": 4345,

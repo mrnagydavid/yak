@@ -4,7 +4,29 @@ The human "why" log for the shipped Swedish wordlist, on top of `git blame`. The
 `wordlist.json` (hand-edited); `pnpm seed:pack` builds the shipped `seed-sv.json` + `version.json`.
 Add a dated entry here whenever you change content. Newest first.
 
+**Keep entries compact — record the _reasoning_, not the content.** Each entry is tied to its commit,
+so `git show` already carries the exact words, translations, examples, and seedKeys; don't restate
+them. Capture only the "why" (and any non-obvious consequence, e.g. a gloss going redundant) — roughly
+one line per word, plus the `version` from→to + count line as the anchor.
+
 See `SNAPSHOT-PIPELINE-DESIGN.md` for the pipeline; §7 has the editing recipes.
+
+## 2026-07-18 — countability, redundant-entry & example cleanups
+
+`version` `sv-2026-06-01-df4a1940` → `sv-2026-06-01-bbd7b403`. Count 8504 → 8503 (removed `övrigt`).
+
+- **`insyn`** — marked `svUncountable`; abstract mass noun.
+- **`övrigt`** — removed. Only the neuter of the adjective `övrig`, not a manner adverb (no "in an
+  övrig way" reading, unlike the genuine `stor`→`stort` pattern), so it duplicated `övrig`; the real
+  adverbials `i övrigt` / `för övrigt` already exist.
+- **`pjäs`** — dropped the archaic "man" (chessman) from the game-piece meaning, keeping the clearer
+  etymological "piece"; the `game piece` gloss still disambiguates it.
+- **`man`** / **`karl`** — dropped their `adult male` gloss: with `pjäs` no longer producing "man" the
+  concept is a plain synonym pair, so disambiguation is redundant (single-label ⇒ no gloss).
+- **`någon som helst`** — broadened translation to add the "anyone" pronoun reading (pure "anyone" is
+  `vem som helst`); fixed an example that used `ingen … som helst` and lacked the headword.
+- **`vana`** / **`besättning`** — gave each a main-meaning example; both previously illustrated only a
+  subdefinition sense on the production card.
 
 ## 2026-07-16 — `stolthet` countability
 
