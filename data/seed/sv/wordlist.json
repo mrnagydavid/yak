@@ -14371,21 +14371,22 @@
     "cefr": "A1",
     "ipa": "moː",
     "inflections": {
-      "presens": "må",
-      "preteritum": "måtte",
-      "supinum": "-",
-      "imperativ": "-"
+      "presens": "mår",
+      "preteritum": "mådde",
+      "supinum": "mått",
+      "imperativ": "må"
     },
     "subDefinitions": [
-      "must, presumably (can be assumed to)",
-      "feel, be (well or ill)"
+      "may (optative — 'Må han leva!')",
+      "must, presumably (can be assumed to)"
     ],
     "examples": [
-      "Må hon ha en trevlig dag!"
+      "Hur mår du?"
     ],
-    "translation": "may",
+    "translation": "feel",
     "sense": {
-      "key": "May#1"
+      "key": "feel#1",
+      "gloss": "be well or ill"
     }
   },
   {

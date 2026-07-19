@@ -11,6 +11,22 @@ one line per word, plus the `version` from→to + count line as the anchor.
 
 See `SNAPSHOT-PIPELINE-DESIGN.md` for the pipeline; §7 has the editing recipes.
 
+## 2026-07-19 — `må`: promote "feel" over the archaic "may"
+
+`version` `sv-2026-06-01-545e1c29` → `sv-2026-06-01-7075cbea`. Content-only (count 8503). Closes the
+`må` recuration deferred in the entry below.
+
+- **`må`** — main was the dated optative "may" (rendered "to may"); promoted the everyday "feel/be
+  well" sense (previously a subdefinition) to main, demoted "may" to a reference-only subdefinition
+  with an inline optative example (a bare subdef can't hold a structured example), and gave the "feel"
+  sense its own example. Also re-conjugated it: the old inflections were the defective modal (`må`,
+  `måtte`, no supine/imperative) — the "feel" verb is full (`mår`, `mådde`, `mått`, `må`), and the old
+  presens `må` even contradicted the `Hur mår du?` example. The new "feel" card collides with
+  **`känna`** ("feel, sense"): `må` is the specialized sense so it takes the gloss, while `känna` stays
+  plain as the default word for both "feel" and "sense" (its cousin `ana` already glosses the "sense"
+  split). This flips `känna` from self-clear to bare-ambiguous (missing-gloss floor +1) — the intended
+  default-plain behavior, not a regression.
+
 ## 2026-07-19 — defective/modal verbs: no infinitive marker
 
 `version` `sv-2026-06-01-bbd7b403` → `sv-2026-06-01-545e1c29`. Content-only (no count change). Needs the
