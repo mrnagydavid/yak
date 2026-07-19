@@ -1610,6 +1610,7 @@
       "Jag ska äta."
     ],
     "translation": "shall, will, be going to",
+    "enNoInfinitive": true,
     "boost": 3
   },
   {
@@ -2387,7 +2388,9 @@
     "examples": [
       "Jag måste gå nu."
     ],
-    "translation": "must, have to"
+    "translation": "must, have to",
+    "enNoInfinitive": true,
+    "svNoInfinitive": true
   },
   {
     "seedKey": 141,
@@ -2692,7 +2695,8 @@
       "Hon bör sitta i båten.",
       "Det borde fungera."
     ],
-    "translation": "should, ought to"
+    "translation": "should, ought to",
+    "enNoInfinitive": true
   },
   {
     "seedKey": 157,
@@ -35995,7 +35999,9 @@
     "examples": [
       "Det torde inte innebära några problem."
     ],
-    "translation": "probably is, should be"
+    "translation": "probably, likely",
+    "enNoInfinitive": true,
+    "svNoInfinitive": true
   },
   {
     "seedKey": 1860,

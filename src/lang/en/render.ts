@@ -31,7 +31,12 @@ function articleize(entry: Entry, meaning: string): string {
   // "Islam", not "a May"). Distinct from `countable: 'no'` (a proper noun can still pluralize) but
   // renders the same: bare. Checked first so it applies whatever the stored POS. (SPEC §5.1)
   if (entry.features.proper === 'yes') return meaning
-  if (entry.pos === 'verb') return /^to\s/i.test(meaning) ? meaning : `to ${meaning}`
+  if (entry.pos === 'verb') {
+    // A gloss with no infinitive (English modals — "should", "must", "may"; or an epistemic phrase
+    // like "probably, likely") takes no "to". `features.infinitive === 'no'` marks it (SPEC §5.1).
+    if (entry.features.infinitive === 'no') return meaning
+    return /^to\s/i.test(meaning) ? meaning : `to ${meaning}`
+  }
   if (entry.pos === 'noun') {
     // Uncountable nouns take no article (e.g. "water", not "a water").
     if (entry.features.countable === 'no') return meaning

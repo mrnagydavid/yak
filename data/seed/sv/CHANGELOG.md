@@ -11,7 +11,21 @@ one line per word, plus the `version` from→to + count line as the anchor.
 
 See `SNAPSHOT-PIPELINE-DESIGN.md` for the pipeline; §7 has the editing recipes.
 
-## 2026-07-18 — countability, redundant-entry & example cleanups
+## 2026-07-19 — defective/modal verbs: no infinitive marker
+
+`version` `sv-2026-06-01-bbd7b403` → `sv-2026-06-01-545e1c29`. Content-only (no count change). Needs the
+new `svNoInfinitive` / `enNoInfinitive` render flags (→ `features.infinitive: 'no'`; renderer omits
+`att` / `to`).
+
+- **`torde`** — was rendering `att torde` / `to probably is`: it's a defective verb (no infinitive) and
+  its gloss was a finite phrase. Flagged `svNoInfinitive` + `enNoInfinitive`, and tightened the gloss to
+  the core epistemic reading (drop the finite "is/should be" that also read as false synonymy with `borde`).
+- **`måste`** — same defect (finite-only, no infinitive): `svNoInfinitive` + `enNoInfinitive` kill
+  `att måste` / `to must`.
+- **`skola`** (verb) / **`böra`** — `enNoInfinitive` only: English modals have no infinitive, so `to shall`
+  / `to should` are wrong; the Swedish `att` is kept (`att skola` also disambiguates from the noun `skola`).
+- Deferred: **`må`** needs a full recuration (promote the everyday "feel/be well" sense over the archaic
+  optative "may", with its own inflections) — a translation task, not a render flag.
 
 `version` `sv-2026-06-01-df4a1940` → `sv-2026-06-01-bbd7b403`. Count 8504 → 8503 (removed `övrigt`).
 

@@ -129,6 +129,13 @@ describe('svRenderer', () => {
     expect(sv.renderLemma(entry({ lemma: 'aids', pos: 'noun', features: { countable: 'no' } }))).toBe('aids')
   })
 
+  it('cites a defective verb (no infinitive) bare — no "att" ("torde", not "att torde")', () => {
+    expect(sv.renderLemma(entry({ lemma: 'torde', pos: 'verb', features: { infinitive: 'no' } }))).toBe('torde')
+    expect(sv.renderLemma(entry({ lemma: 'måste', pos: 'verb', features: { infinitive: 'no' } }))).toBe('måste')
+    // A normal verb is unaffected.
+    expect(sv.renderLemma(entry({ lemma: 'springa', pos: 'verb' }))).toBe('att springa')
+  })
+
   it('renders adjective comparison as a one-liner', () => {
     const display = sv.renderInflections(
       entry({ lemma: 'stor', pos: 'adj', inflections: { komparativ: 'större', superlativ: 'störst' } }),
@@ -251,6 +258,14 @@ describe('enRenderer', () => {
 
   it('does not double an article a meaning already carries', () => {
     expect(en.renderLemma(entry({ lemma: 'the police; a force', pos: 'noun', lang: 'en' }))).toBe('the police; a force')
+  })
+
+  it('drops "to" for a modal gloss with no infinitive ("should", not "to should")', () => {
+    // English modals (and epistemic phrases) have no infinitive — "to should"/"to probably is" are wrong.
+    expect(en.renderLemma(entry({ lemma: 'should, ought to', pos: 'verb', lang: 'en', features: { infinitive: 'no' } }))).toBe('should, ought to')
+    expect(en.renderLemma(entry({ lemma: 'probably, likely', pos: 'verb', lang: 'en', features: { infinitive: 'no' } }))).toBe('probably, likely')
+    // A normal verb gloss still takes "to".
+    expect(en.renderLemma(entry({ lemma: 'run', pos: 'verb', lang: 'en' }))).toBe('to run')
   })
 
   it('hides IPA for the native language', () => {

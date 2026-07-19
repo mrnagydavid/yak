@@ -203,6 +203,31 @@ describe('session-composer', () => {
     expect(cards[0]?.mode).toBe('practice') // practice front-loaded
   })
 
+  it('never ends a session on a new card — sows new cards with a practice tail (n+1 distribution)', () => {
+    seq = 0
+    const entries: Entry[] = []
+    const translations: Translation[] = []
+    const reviewStates: ReviewState[] = []
+    // 6 practice (A1, due) + 2 new (B1). New cards spread into 3 gaps but only 2 used, so the last gap
+    // stays practice — the session ends on review, not a cold new word.
+    for (let i = 0; i < 6; i++) {
+      const p = entry(`p${i}`, 'seed', 'A1')
+      entries.push(p)
+      translations.push(translation(`tp${i}`, p.id))
+      reviewStates.push(dueState(`tp${i}`, 'recognize', NOW - DAY))
+    }
+    for (let i = 0; i < 2; i++) {
+      const n = entry(`n${i}`, 'seed', 'B1')
+      entries.push(n)
+      translations.push(translation(`tn${i}`, n.id))
+    }
+
+    const cards = composeSessionPure(base({ entries, translations, reviewStates }))
+    expect(cards.filter((c) => c.mode === 'practice')).toHaveLength(6)
+    expect(cards.filter((c) => c.mode === 'new')).toHaveLength(2)
+    expect(cards.at(-1)?.mode).toBe('practice') // never a new card last
+  })
+
   describe('daily new budget (§6.2)', () => {
     // 5 new-band (B1) words; `introduced` of them already have state created today.
     function setup(introduced: number) {
@@ -499,10 +524,13 @@ describe('session-composer', () => {
       expect(cards.some((c) => c.translationId === 't_route' && c.skill === 'recognize')).toBe(false)
     })
 
-    it("unlocks EVERY meaning's production once the WORD's recognition stabilises", () => {
+    it("surfaces only the primary meaning's production per session, even though all are unlocked", () => {
       seq = 0
       const w = entry('led', 'seed', 'B1')
-      // The word's recognition (on the primary meaning) is graduated, stable, and not itself due.
+      // The word's recognition (on the primary meaning) is graduated, stable, and not itself due, so
+      // EVERY meaning's production is unlocked (the extra one gates behind the word's recognition with no
+      // recognition state of its own). But a word is asked at most once a sitting: only the primary
+      // meaning surfaces; the extra meaning defers to a later, naturally-spaced session. (one card per word)
       const cards = composeSessionPure(
         base({
           entries: [w],
@@ -511,10 +539,8 @@ describe('session-composer', () => {
         }),
       )
       const produce = cards.filter((c) => c.skill === 'produce')
-      // Both the primary and the extra meaning surface production — the extra one gates behind the
-      // WORD's recognition even though it has no recognition state of its own.
-      expect(produce.map((c) => c.translationId).sort()).toEqual(['t_joint', 't_route'])
-      expect(produce.every((c) => c.mode === 'new')).toBe(true)
+      expect(produce.map((c) => c.translationId)).toEqual(['t_joint']) // primary only; t_route deferred
+      expect(produce[0]?.mode).toBe('new')
       expect(cards.some((c) => c.skill === 'recognize')).toBe(false) // recognition not due → not shown
     })
 
@@ -531,6 +557,44 @@ describe('session-composer', () => {
       )
       expect(cards.map((c) => c.skill)).toEqual(['recognize']) // only the word's recognition
       expect(cards.some((c) => c.skill === 'produce')).toBe(false)
+    })
+  })
+
+  describe('one card per word — multi-meaning clustering (axel)', () => {
+    // axel = shoulder (primary) / axis / axle. Below the user's level (calibration), recognition already
+    // learned and stabilised, so all three productions unlock together. Without the one-per-word rule
+    // they clustered into a single session (same entry → identical calibration sort key → adjacent),
+    // dumping every sense at once. Now at most one surfaces, primary first, the rest trickling out later.
+    function axel(produce: Record<string, Partial<ReviewState>> = {}): ComposerInput {
+      seq = 0
+      const w = entry('axel', 'seed', 'A2') // A2 <= B1 level → calibration
+      const reviewStates: ReviewState[] = [
+        srsState('t_shoulder', 'recognize', { state: 'review', stability: 10, due: NOW + DAY }),
+      ]
+      for (const [tid, f] of Object.entries(produce)) {
+        reviewStates.push(srsState(tid, 'produce', { state: 'review', stability: 12, ...f }))
+      }
+      return base({
+        level: 'B1',
+        entries: [w],
+        translations: [translation('t_shoulder', w.id), altTranslation('t_axis', w.id, 1), altTranslation('t_axle', w.id, 2)],
+        reviewStates,
+      })
+    }
+
+    it('shows only one meaning of a below-level polysemous word per session — the primary first', () => {
+      const cards = composeSessionPure(axel())
+      const produce = cards.filter((c) => c.skill === 'produce')
+      expect(produce.map((c) => c.translationId)).toEqual(['t_shoulder']) // axis + axle defer to later sessions
+    })
+
+    it('prefers a genuinely-due meaning over a not-yet-scheduled sibling', () => {
+      // shoulder already learned (produce state, due today); axis/axle still fresh calibration candidates.
+      // The scheduled card wins — the fresh senses keep waiting.
+      const cards = composeSessionPure(axel({ t_shoulder: { due: NOW - DAY } }))
+      const produce = cards.filter((c) => c.skill === 'produce')
+      expect(produce.map((c) => c.translationId)).toEqual(['t_shoulder'])
+      expect(produce[0]?.mode).toBe('practice')
     })
   })
 

@@ -150,6 +150,9 @@ export interface ComposerInput {
 interface Candidate {
   card: SessionCard
   entry: Entry
+  /** Which meaning this card is for (0 = primary/recognition, 1+ = a promoted meaning). Orders a word's
+   *  several no-state production meanings so the primary trickles out first. (one-card-per-word dedup) */
+  meaningKey: number
   // priority hints for the new pool
   userAdded: boolean
   forced: boolean // study === 'always'
@@ -250,7 +253,7 @@ function composeParts(input: ComposerInput): {
 
       if (rs) {
         // Genuine practice card — only when due.
-        if (rs.due <= now) practice.push({ card: { ...card, mode: 'practice' }, entry, userAdded, forced })
+        if (rs.due <= now) practice.push({ card: { ...card, mode: 'practice' }, entry, meaningKey: translation.meaningKey, userAdded, forced })
       } else if (entry.source === 'seed' && cefrRank(entry.cefr) <= lr) {
         // Calibration candidate — no SRS state yet, but practiced review-style (SPEC §6.3).
         // Weighted per-day key (Efraimidis–Spirakis `u^(1/w)`, larger = earlier): near-level
@@ -260,12 +263,13 @@ function composeParts(input: ComposerInput): {
         practice.push({
           card: { ...card, mode: 'practice' },
           entry,
+          meaningKey: translation.meaningKey,
           userAdded,
           forced,
           calibrationKey: u ** (1 / calibrationWeight(distance)),
         })
       } else {
-        fresh.push({ card, entry, userAdded, forced })
+        fresh.push({ card, entry, meaningKey: translation.meaningKey, userAdded, forced })
       }
     }
   }
@@ -298,14 +302,17 @@ function composeParts(input: ComposerInput): {
       a.entry.createdAt - b.entry.createdAt,
   )
 
-  // One direction per word per session (SPEC §278). If a word's recognition AND a production (its
-  // own or a promoted meaning's) are both due today, don't ask both — the second is the trivial
-  // reverse of the first, just revealed. Drop the less-overdue direction; it defers to a later,
-  // naturally-spaced session. Runs BEFORE the practicePerDay cap so a dropped card frees its slot to
-  // the next due word — the session still fills to the limit (it just won't ask a word twice).
-  const deduped = dedupeDirections(practice)
+  // One card per word per session (SPEC §278, widened), across BOTH pools — practice and new. A Swedish
+  // word is asked at most once a sitting: not both directions, and not two meanings of the same word.
+  // Once its answer has been revealed, any other direction or meaning is a partly-free "reverse", so we
+  // keep one card and defer the rest to later, naturally-spaced sessions (which also trickles a
+  // polysemous word's senses out over days). Runs BEFORE the per-pool caps so a dropped card frees its
+  // slot to the next word.
+  const kept = keepOnePerWord([...practice, ...fresh])
+  const dedupedPractice = practice.filter((c) => kept.has(c))
+  const dedupedFresh = fresh.filter((c) => kept.has(c))
 
-  const capped = deduped.slice(0, limits.practicePerDay).map((c) => c.card)
+  const capped = dedupedPractice.slice(0, limits.practicePerDay).map((c) => c.card)
   // Words whose recognition is being asked this session: their production must be held back too,
   // including a promoted meaning that would otherwise ride along in a sense group. (SPEC §278)
   const recognitionShown = new Set(
@@ -319,43 +326,52 @@ function composeParts(input: ComposerInput): {
     now,
     recognitionShown,
   )
-  const newCards = fresh.slice(0, newBudget).map((c) => c.card)
+  const newCards = dedupedFresh.slice(0, newBudget).map((c) => c.card)
 
   return { practiceCards, newCards, newDoneToday }
 }
 
 /**
- * Enforce one direction per word per session (SPEC §278). When a word has BOTH a due recognition
- * card and one or more due production cards (its primary meaning and/or a promoted meaning), keep
- * only the more-overdue direction and drop the other — asking the reverse in the same sitting, right
- * after the answer was revealed, is wasted effort. The dropped direction is still due, so it surfaces
- * in a later session. Otherwise order is preserved.
+ * Enforce ONE card per word per session (SPEC §278, widened). A word can offer several cards in a day:
+ * its recognition, its primary production, and a promoted meaning's production (multi-meaning words like
+ * `axel` → shoulder / axis / axle) — spread across the practice and new pools. Asking more than one in
+ * the same sitting is wasted: after the first reveals the Swedish answer, every other direction or
+ * meaning of that word is partly given away. So over ALL candidates we keep exactly one per word and
+ * defer the rest to later, naturally-spaced sessions. Returns the set of survivors; each pool then
+ * filters itself against it, preserving its own sort order.
  *
- * A conflict here always pits two cards that both carry FSRS state: production can only be a no-state
- * calibration candidate once its word's recognition has stabilised, and a stabilised recognition
- * isn't a no-state candidate — so whenever both directions are present, both have a real `due`. The
- * `?? Infinity` fallbacks are defensive only.
+ * Which card is kept, per word (`preferKept` below): a scheduled card (has FSRS state) beats a not-yet-
+ * scheduled candidate; among scheduled cards the most-overdue wins, recognition breaking ties as the
+ * anchor direction; among no-state candidates recognition first, then the lowest meaningKey — so a
+ * polysemous word introduces its primary sense before its extras.
  */
-function dedupeDirections(practice: Candidate[]): Candidate[] {
-  const recByEntry = new Map<string, Candidate>()
-  const prodByEntry = new Map<string, Candidate[]>()
-  for (const c of practice) {
-    const entryId = c.card.targetEntryId
-    if (c.card.skill === 'recognize') recByEntry.set(entryId, c)
-    else prodByEntry.set(entryId, [...(prodByEntry.get(entryId) ?? []), c])
+function keepOnePerWord(candidates: Candidate[]): Set<Candidate> {
+  const byEntry = new Map<string, Candidate[]>()
+  for (const c of candidates) {
+    const id = c.card.targetEntryId
+    byEntry.set(id, [...(byEntry.get(id) ?? []), c])
   }
 
-  const drop = new Set<Candidate>()
-  for (const [entryId, rec] of recByEntry) {
-    const prods = prodByEntry.get(entryId)
-    if (!prods?.length) continue // recognition only — no conflict
-    const recDue = rec.card.reviewState?.due ?? Infinity
-    const minProdDue = Math.min(...prods.map((p) => p.card.reviewState?.due ?? Infinity))
-    // Ties go to recognition (the anchor direction): keep it, defer production.
-    if (recDue <= minProdDue) for (const p of prods) drop.add(p)
-    else drop.add(rec)
+  const keep = new Set<Candidate>()
+  for (const cards of byEntry.values()) {
+    keep.add(cards.reduce((best, c) => (preferKept(c, best) ? c : best)))
   }
-  return drop.size === 0 ? practice : practice.filter((c) => !drop.has(c))
+  return keep
+}
+
+/** True when candidate `a` should be kept over `b` for the same word (see `keepOnePerWord`). */
+function preferKept(a: Candidate, b: Candidate): boolean {
+  const aState = !!a.card.reviewState
+  const bState = !!b.card.reviewState
+  if (aState !== bState) return aState // a scheduled card beats a no-state calibration candidate
+  if (aState) {
+    const dueDiff = (a.card.reviewState?.due ?? Infinity) - (b.card.reviewState?.due ?? Infinity)
+    if (dueDiff !== 0) return dueDiff < 0 // most-overdue first
+  }
+  const recRank = (c: Candidate) => (c.card.skill === 'recognize' ? 0 : 1) // recognition wins ties
+  if (recRank(a) !== recRank(b)) return recRank(a) < recRank(b)
+  if (a.meaningKey !== b.meaningKey) return a.meaningKey < b.meaningKey // primary sense before extras
+  return a.card.translationId < b.card.translationId // stable, deterministic final tiebreak
 }
 
 /**
@@ -444,19 +460,27 @@ function groupProductionCards(
   return out
 }
 
-/** Front-load practice cards and sprinkle new cards in at regular intervals. (SPEC §6.2 step 3) */
+/**
+ * Front-load practice cards and sow the new cards evenly among them, leaving a practice TAIL so a
+ * session never ends on a cold new word. New cards are distributed into N+1 gaps but only N are used:
+ * new card k (0-based) lands after `round((k+1)·P/(N+1))` practice cards, so the final gap stays
+ * practice. (Only when new cards outnumber practice — rare — do the extras unavoidably trail at the
+ * end.) (SPEC §6.2 step 3)
+ */
 function interleave(practice: SessionCard[], news: SessionCard[]): SessionCard[] {
   if (news.length === 0) return practice
   if (practice.length === 0) return news
 
+  const slots = news.length + 1
+  // insertAfter[k] = how many practice cards precede news[k]; monotonic, within [0, practice.length].
+  const insertAfter = news.map((_, k) => Math.round(((k + 1) * practice.length) / slots))
+
   const out: SessionCard[] = []
-  const gap = Math.max(1, Math.floor(practice.length / news.length))
   let n = 0
-  for (let i = 0; i < practice.length; i++) {
-    out.push(practice[i])
-    if ((i + 1) % gap === 0 && n < news.length) out.push(news[n++])
+  for (let i = 0; i <= practice.length; i++) {
+    while (n < news.length && insertAfter[n] === i) out.push(news[n++]) // news due before this position
+    if (i < practice.length) out.push(practice[i])
   }
-  while (n < news.length) out.push(news[n++])
   return out
 }
 

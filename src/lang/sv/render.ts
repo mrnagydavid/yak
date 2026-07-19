@@ -84,7 +84,9 @@ export const svRenderer: LanguageRenderer = {
   fixVerbIpa: infinitivizeVerbIpa,
 
   renderLemma(entry: Entry): string {
-    if (entry.pos === 'verb') return `att ${entry.lemma}`
+    // A defective verb with no infinitive (torde, måste) is cited bare — "att torde" isn't Swedish.
+    // `features.infinitive === 'no'` marks exactly that; every normal verb takes the "att" marker.
+    if (entry.pos === 'verb') return entry.features.infinitive === 'no' ? entry.lemma : `att ${entry.lemma}`
     if (entry.pos === 'noun') {
       const gender = entry.features.gender // "en" | "ett"
       // Proper nouns are names — no article at all ("maj", "islam", "engelska"), whatever the gender.
