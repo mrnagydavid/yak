@@ -22329,12 +22329,21 @@
       "supinum": "fött",
       "imperativ": "föd"
     },
+    "altMeanings": [
+      {
+        "key": 1,
+        "translation": "give birth",
+        "examples": [
+          "Hon födde en son."
+        ]
+      }
+    ],
     "examples": [
       "Bonden måste föda sina djur."
     ],
-    "translation": "feed; give birth",
+    "translation": "feed",
     "sense": {
-      "key": "feed; give birth#0"
+      "key": "feed#0"
     }
   },
   {
@@ -81932,7 +81941,7 @@
     ],
     "translation": "feed",
     "sense": {
-      "key": "feed; give birth#0"
+      "key": "feed#0"
     }
   },
   {

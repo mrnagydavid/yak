@@ -11,6 +11,16 @@ one line per word, plus the `version` from→to + count line as the anchor.
 
 See `SNAPSHOT-PIPELINE-DESIGN.md` for the pipeline; §7 has the editing recipes.
 
+## 2026-07-19 — split `föda` into "feed" / "give birth"
+
+`version` `sv-2026-06-01-7075cbea` → `sv-2026-06-01-eb335d9d`. Content-only (count 8503).
+
+- **`föda`** (verb) / **`mata`** — `föda` "feed; give birth" shared the group key `feed; give birth#0`
+  with `mata` ("feed"), so they collapsed into one "2 ways to say" card whose prompt read "to feed; to
+  give birth" — misleading, since `mata` never means "give birth". Split `föda` into a primary "feed"
+  (grouped with `mata` under the renamed `feed#0`) and a promoted standalone "give birth" (its own
+  example, no group), so "give birth" is drilled on its own and only "feed" pairs with `mata`.
+
 ## 2026-07-19 — `må`: promote "feel" over the archaic "may"
 
 `version` `sv-2026-06-01-545e1c29` → `sv-2026-06-01-7075cbea`. Content-only (count 8503). Closes the
