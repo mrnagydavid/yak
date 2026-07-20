@@ -180,7 +180,11 @@ export function StudyCard({
 
   return (
     <div class={styles.card}>
-      {card.mode === 'new' ? <span class={styles.newBadge}>New word</span> : null}
+      {/* New-word moment, phrased by direction: recognition teaches understanding the word, production
+          teaches actively using it. (The badge only appears on new cards, so "new word" stays literal.) */}
+      {card.mode === 'new' ? (
+        <span class={styles.newBadge}>{isRecognition ? 'Learn to understand it' : 'Learn to say it'}</span>
+      ) : null}
       {/* Prompt is anchored at the top: in production it's unchanged on reveal (only the answer zone
           below fills in). In recognition the Swedish word lives here, so its forms join it on reveal
           and the centered group nudges to fit them — the only thing that moves up top. */}
