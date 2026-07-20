@@ -36826,7 +36826,8 @@
     ],
     "translation": "direction, orientation",
     "sense": {
-      "key": "direction#1"
+      "key": "direction#1",
+      "gloss": "as in a field of study, a career path"
     }
   },
   {
@@ -80172,7 +80173,8 @@
     ],
     "translation": "direction",
     "sense": {
-      "key": "direction#2"
+      "key": "direction#2",
+      "gloss": "as in directing a film, play, or opera"
     },
     "svUncountable": true
   },
@@ -150814,5 +150816,15 @@
     "cefr": "B1",
     "translation": "That was a close call.",
     "wordForWord": "That was near the eye."
+  },
+  {
+    "seedKey": 8619,
+    "lemma": "i egen regi",
+    "pos": "phrase",
+    "cefr": "C1",
+    "examples": [
+      "Kommunen driver skolan i egen regi."
+    ],
+    "translation": "on one's own, in-house"
   }
 ]

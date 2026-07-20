@@ -11,6 +11,20 @@ one line per word, plus the `version` from→to + count line as the anchor.
 
 See `SNAPSHOT-PIPELINE-DESIGN.md` for the pipeline; §7 has the editing recipes.
 
+## 2026-07-20 — distinguish the three "direction" senses; add `i egen regi`
+
+`version` `sv-2026-06-01-eb335d9d` → `sv-2026-06-01-78860d2c`. Content-only (count 8503 → 8504).
+
+- **`regi`** / **`inriktning`** — both render the prompt "a direction" alongside spatial `håll`/`riktning`
+  (`direction#0`, glossed "spatial direction") but carried no gloss of their own, so their production
+  cards read as a bare, ambiguous "a direction". Glossed each to its own sense (`regi` = the directing
+  sense, `inriktning` = the study/career focus). Kept deliberately narrow: `regi`'s other, bound sense
+  (`i egen regi`) isn't a free-standing noun, so teaching it via this card would be misleading — it
+  stays out of the gloss and gets its own entry instead.
+- **`i egen regi`** (new `phrase`) — the honest home for the "in-house / on one's own" sense that bare
+  `regi` can't carry as a productive noun. CEFR derived to C1 (one above its hardest word, `regi` B2),
+  so it surfaces only once `regi` is learnt.
+
 ## 2026-07-19 — split `föda` into "feed" / "give birth"
 
 `version` `sv-2026-06-01-7075cbea` → `sv-2026-06-01-eb335d9d`. Content-only (count 8503).
