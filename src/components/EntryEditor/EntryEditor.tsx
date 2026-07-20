@@ -145,6 +145,10 @@ export function EntryEditor({
                 <label class={styles.field}>
                   <span class={styles.fieldLabel}>Translation override</span>
                   <input class={styles.input} type="text" value={translation} onInput={(e) => setTranslation((e.target as HTMLInputElement).value)} />
+                  <span class={styles.fieldHint}>
+                    Yak’s wordlist is curated, with extra help for synonyms and homographs. Overriding the translation may cause weird
+                    issues here and there — consider using a note instead.
+                  </span>
                 </label>
               ) : null}
 

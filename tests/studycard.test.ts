@@ -1,6 +1,22 @@
 import { describe, expect, it } from 'vitest'
-import { cardExamples, productionDisambig, promptCue } from '../src/components/PracticeScreen/StudyCard'
+import { cardExamples, productionDisambig, promptCue, promptTranslation } from '../src/components/PracticeScreen/StudyCard'
 import type { ExampleSentence } from '../src/db/types'
+
+describe('promptTranslation — override-aware English for a solo card (SPEC §4.2)', () => {
+  it('uses the seed native lemma when there is no override', () => {
+    expect(promptTranslation('feed')).toBe('feed')
+    expect(promptTranslation('feed', undefined)).toBe('feed')
+  })
+
+  it('uses the user override when set — the production-prompt bug: it used to show the seed word', () => {
+    expect(promptTranslation('feed', 'nourish')).toBe('nourish')
+  })
+
+  it('ignores a blank/whitespace override', () => {
+    expect(promptTranslation('feed', '   ')).toBe('feed')
+    expect(promptTranslation('feed', '')).toBe('feed')
+  })
+})
 
 describe('promptCue — homonym sense cue (SPEC §7.2)', () => {
   const examples = ['Jag gick ut, fast det regnade.', 'Bordet står fast.']

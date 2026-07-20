@@ -40,6 +40,16 @@ export function promptCue(examples: string[], ambiguous: boolean, isRecognition:
   return ambiguous && isRecognition && examples.length > 0 ? examples[0] : undefined
 }
 
+// The English shown for a SOLO card: the user's translation override when they've set one, else the
+// seed's native lemma. Used for both the recognition reveal AND the production prompt, so a customised
+// word reads the same in both directions (production previously ignored the override — it prompted with
+// the seed word). A multi-answer GROUP prompt is the SHARED concept, not any one member's override, so
+// it deliberately does NOT use this — see GroupCard. Pure + exported so the rule is unit-tested without
+// a DOM harness (like promptCue). (SPEC §4.2 translation override)
+export function promptTranslation(nativeLemma: string, customTranslation?: string): string {
+  return customTranslation?.trim() || nativeLemma
+}
+
 // The example sentences to render on a card. Seed examples are tagged by meaning: production asks ONE
 // meaning, so it passes that `meaningKey` and sees only its own sense's sentences (the "route" card
 // must not show the "joint" sentence); recognition is per WORD, so it passes `null` and sees them all.
@@ -148,11 +158,13 @@ export function StudyCard({
   const inflections = targetRenderer.renderInflections(target)
 
   const nativeLemma = native ? getRenderer(native.lang).renderLemma(native) : '—'
-  const translation = overlay?.customTranslation ?? nativeLemma
+  const translation = promptTranslation(nativeLemma, overlay?.customTranslation)
 
-  // Prompt = target in recognition, native in production. The target's forms/IPA always travel with
-  // the target word (under the prompt in recognition, the answer in production).
-  const promptWord = isRecognition ? targetLemma : nativeLemma
+  // Prompt = target in recognition, native in production. Production prompts with the learner's
+  // translation override when they've set one (else the seed lemma) — the same value the recognition
+  // reveal shows, so a customised word is consistent in both directions. The target's forms/IPA always
+  // travel with the target word (under the prompt in recognition, the answer in production).
+  const promptWord = isRecognition ? targetLemma : translation
   // Production: the meaning's gloss disambiguates which sense the prompt is asking for (e.g.
   // "hand (body part)" vs "hand (of a clock)"; a promoted meaning uses its own gloss). Empty for
   // single-sense concepts, so it falls back to the native disambiguator. (§12, Q-polysemy)
@@ -283,6 +295,11 @@ function GroupCard({
   onSelectTab?: (i: number) => void
 }) {
   const group = view.group!
+  // The prompt is the SHARED concept the members produce — deliberately the seed's native word, never a
+  // per-member translation override. An override is a single word's display preference; it can't drive a
+  // prompt that stands for ≥2 words at once (member A relabelled "nourish" while member B still means
+  // "feed"), so a customised member simply shows the canonical concept here. Its override still applies
+  // on that word's own recognition card. (translation override, group case)
   const concept = view.native ? getRenderer(view.native.lang).renderLemma(view.native) : '—'
   const active = group.members[activeTab] ?? group.members[0]
   const groupDisambig = productionDisambig(concept, group.gloss)

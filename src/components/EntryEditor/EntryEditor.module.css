@@ -84,6 +84,13 @@
   color: var(--color-text-secondary);
 }
 
+/* A quiet helper line under a field (e.g. the translation-override caveat) — mellow, not alarming. */
+.fieldHint {
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--color-text-secondary);
+}
+
 .input {
   width: 100%;
   padding: 12px 14px;
