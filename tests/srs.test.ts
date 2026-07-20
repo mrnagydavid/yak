@@ -815,4 +815,28 @@ describe('gradeGroup (multi-answer grading)', () => {
     expect(n.skill).toBe('produce')
     expect(n.reps).toBe(1)
   })
+
+  // A bonus synonym (no produce state yet — pulled in as an extra answer, often recognition-only) rated
+  // positively STARTS its production; rated "again" it is DROPPED, not saved. (N-ways-of-saying-it)
+  it('does not save a bonus synonym rated "again" (no prior produce state)', () => {
+    const rows = gradeGroup(
+      [{ ...matured('t_due'), label: 'good' }, { translationId: 't_bonus', label: 'again' }],
+      NOW,
+    )
+    expect(rows.map((r) => r.translationId)).toEqual(['t_due']) // only the genuinely-due member persisted
+  })
+
+  it('DOES start a bonus synonym rated positively (no prior produce state)', () => {
+    const [n] = gradeGroup([{ translationId: 't_bonus', label: 'good' }], NOW)
+    expect(n.translationId).toBe('t_bonus')
+    expect(n.reps).toBe(1)
+  })
+
+  it('still records a lapse when a member that HAS a produce state is rated "again"', () => {
+    // The skip is only for bonus synonyms with no state — a real due card that rode along as an answer
+    // records its "again" as a genuine lapse. (N-ways-of-saying-it)
+    const [r] = gradeGroup([{ ...matured('t_has'), label: 'again' }], NOW)
+    expect(r.translationId).toBe('t_has')
+    expect(r.lapses).toBe(1)
+  })
 })

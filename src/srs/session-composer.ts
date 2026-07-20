@@ -667,17 +667,26 @@ export interface GroupRating {
 /**
  * Pure PER-WORD grading of a multi-answer production group: each member is graded with its OWN label
  * (the learner rates each answer on its own tab; "Knew all" simply sends every remaining answer in as
- * `good`). A member with no prior produce state gets a fresh one. Each member keeps its own independent
- * ReviewState (SPEC §4.4). The caller persists the returned rows.
+ * `good`). Each member keeps its own independent ReviewState (SPEC §4.4). The caller persists the
+ * returned rows.
+ *
+ * A "bonus synonym" — a same-sense sibling pulled in as an extra answer that has NO produce state yet
+ * (its production hasn't started; often it's only been met in recognition) — is graded asymmetrically:
+ * a POSITIVE grade starts its production (a fresh state, saved), but "Didn't know" is DROPPED, not
+ * saved. The learner was asked for the concept, not this specific word, so a miss on it mustn't seed a
+ * failing production card. A member that ALREADY has a produce state always grades normally — including
+ * its "again" as a genuine lapse. So the output may be SHORTER than the input. (N-ways-of-saying-it)
  */
 export function gradeGroup(
   members: { translationId: string; reviewState?: ReviewState; label: RatingLabel }[],
   now: number = Date.now(),
 ): ReviewState[] {
-  return members.map((m) => {
-    const base = m.reviewState ?? createReviewState(m.translationId, 'produce', now)
-    return applyRating(base, m.label, now)
-  })
+  return members
+    .filter((m) => m.reviewState || m.label !== 'again')
+    .map((m) => {
+      const base = m.reviewState ?? createReviewState(m.translationId, 'produce', now)
+      return applyRating(base, m.label, now)
+    })
 }
 
 /** What `recordGroupReview` wrote, enough for `undoGroupReview` to reverse it exactly. */
@@ -685,16 +694,28 @@ export interface GroupReviewUndo {
   writes: ReviewUndo[]
 }
 
+/** The outcome of grading a group: the undo token plus whether a genuinely-due member lapsed. */
+export interface GroupReviewResult {
+  undo: GroupReviewUndo
+  /** True when a member that ALREADY had a produce state was rated "again" — a real lapse the caller
+   *  should re-queue the card for. A bonus synonym's "again" (no prior state, not saved) does NOT set
+   *  this: the learner was never asked to produce that word, so it shouldn't drag the card back.
+   *  (N-ways-of-saying-it) */
+  genuineLapse: boolean
+}
+
 /**
  * Grade a multi-answer production group (each answer with its own label) and persist every member's
  * produce state. Re-reads each member's CURRENT state first — a member pulled into the group may not
- * have been due, so the card's embedded snapshot can be stale. Returns a token `undoGroupReview`
- * reverses exactly.
+ * have been due, so the card's embedded snapshot can be stale. A bonus synonym rated "Didn't know" is
+ * dropped by `gradeGroup` (not saved), so the written rows can be a subset of the ratings — `previous`
+ * is matched back by translationId, not position. Returns a token `undoGroupReview` reverses exactly,
+ * plus the `genuineLapse` signal for the caller's re-queue decision.
  */
 export async function recordGroupReview(
   ratings: GroupRating[],
   now: number = Date.now(),
-): Promise<GroupReviewUndo> {
+): Promise<GroupReviewResult> {
   const graded = await Promise.all(
     ratings.map(async (r) => ({
       translationId: r.translationId,
@@ -702,9 +723,14 @@ export async function recordGroupReview(
       label: r.label,
     })),
   )
+  const priorByTr = new Map(graded.map((g) => [g.translationId, g.reviewState]))
   const next = gradeGroup(graded, now)
   await db.reviewStates.bulkPut(next)
-  return { writes: next.map((row, i) => ({ previous: graded[i].reviewState, writtenId: row.id, next: row })) }
+  const genuineLapse = graded.some((g) => g.reviewState && g.label === 'again')
+  return {
+    undo: { writes: next.map((row) => ({ previous: priorByTr.get(row.translationId), writtenId: row.id, next: row })) },
+    genuineLapse,
+  }
 }
 
 /** Reverse a `recordGroupReview`: restore each member's prior row, or delete rows the rating created. */

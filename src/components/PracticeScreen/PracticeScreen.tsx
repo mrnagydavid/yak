@@ -277,14 +277,15 @@ export function PracticeScreen() {
   // Commit a multi-answer card: persist every answer's own grade as one reversible step, then advance.
   async function commitGroup(members: PracticeGroupMember[], graded: Map<string, RatingLabel>) {
     if (!views) return
-    const token = await recordGroupReview(
+    const { undo, genuineLapse } = await recordGroupReview(
       members.map((m) => ({ translationId: m.translationId, label: graded.get(m.translationId) ?? 'good' })),
     )
-    // A group is one concept: if ANY answer was "Didn't know", the whole card returns later (a
-    // member-subset re-show would need its own representative/count/gloss). recordGroupReview re-reads
-    // each member's state from the DB, so the clone needs no reviewState refresh.
+    // A group is one concept: if a genuinely-due answer was "Didn't know", the whole card returns later
+    // (a member-subset re-show would need its own representative/count/gloss). A bonus synonym's miss
+    // (no produce state, not saved) does NOT re-queue — the learner wasn't asked for that word.
+    // recordGroupReview re-reads each member's state from the DB, so the clone needs no reviewState refresh.
     let requeueId: string | undefined
-    if ([...graded.values()].includes('again') && mayRequeue(view.requeueShows)) {
+    if (genuineLapse && mayRequeue(view.requeueShows)) {
       requeueId = crypto.randomUUID()
       const clone: PracticeCardView = { ...view, requeueId, requeueShows: (view.requeueShows ?? 1) + 1 }
       const nextViews = insertRequeue(views, index + 1, clone)
@@ -292,7 +293,7 @@ export function PracticeScreen() {
       setSessionViews(nextViews)
       void persistCards(nextViews.map((v) => v.card), index + 1)
     }
-    setUndoStack((s) => [...s, { kind: 'group', token, requeueId }])
+    setUndoStack((s) => [...s, { kind: 'group', token: undo, requeueId }])
     advance()
   }
 
