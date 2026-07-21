@@ -1,8 +1,8 @@
-import { useLiveQuery } from 'dexie-react-hooks'
 import { route } from 'preact-router'
 import { memo } from 'preact/compat'
 import { useEffect, useMemo, useRef, useState } from 'preact/hooks'
-import { getActiveProfile, listVocabulary, type Status, type VocabRow } from '../../db/queries'
+import { type Status, type VocabRow } from '../../db/queries'
+import { getVocabSnapshot, subscribeVocab, type VocabData } from '../../db/vocab-cache'
 import { getRenderer, type LanguageRenderer } from '../../lang'
 import { getFilters, type LevelFilter, type MatchMode, saveFilters, type SortOption, type SourceFilter } from './filter-store'
 import { FilterChip } from './FilterChip'
@@ -44,6 +44,11 @@ const MATCH_OPTIONS = [
   { value: 'starts', label: 'Starts with' },
   { value: 'exact', label: 'Exact' },
 ] as const
+
+// The seed language is ~8.5k words; rendering every match is ~5 DOM nodes each and freezes the screen
+// on open. Nobody scrolls thousands of rows — they search/filter — so we render at most this many and
+// offer a "Show all" escape hatch for the rare case. Not pagination: a single cap, revealable in full.
+const LIST_CAP = 300
 
 /** Lags `value` by `delayMs` so the (expensive) filter+sort over ~8.3k rows runs on a pause in
  *  typing, not on every keystroke. The input stays bound to the live value, so typing feels instant. */
@@ -88,15 +93,17 @@ const VocabList = memo(function VocabList({ rows, renderer }: { rows: VocabRow[]
   )
 })
 
+/** Reads the shared, process-lifetime Vocabulary cache: compiled once and reused across screen
+ *  opens, recompiled only when the underlying data changes (see `db/vocab-cache`). Profile + rows come
+ *  together so there's no defined-but-empty in-between state that would flash "No entries match". */
+function useVocabData(): VocabData | undefined {
+  const [data, setData] = useState(getVocabSnapshot)
+  useEffect(() => subscribeVocab(() => setData(getVocabSnapshot())), [])
+  return data
+}
+
 export function VocabularyScreen() {
-  // Profile + vocabulary load in one reactive query. Chaining them as two queries briefly produced a
-  // defined-but-empty `rows` (the no-profile branch resolved to []) before the real list arrived,
-  // which flashed "No entries match your filter"; a single query has no such in-between state.
-  const data = useLiveQuery(async () => {
-    const profile = await getActiveProfile()
-    const rows = profile ? await listVocabulary(profile.targetLang, profile.claimedLevel) : []
-    return { profile, rows }
-  }, [])
+  const data = useVocabData()
   const profile = data?.profile
   const rows = data?.rows
   const loading = data === undefined
@@ -110,6 +117,7 @@ export function VocabularyScreen() {
   const [level, setLevel] = useState<LevelFilter>(initial.level)
   const [sort, setSort] = useState<SortOption>(initial.sort)
   const [openFilter, setOpenFilter] = useState<string | null>(null)
+  const [showAll, setShowAll] = useState(false)
   const searchRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
@@ -123,6 +131,24 @@ export function VocabularyScreen() {
     () => (rows ? applyFilters(rows, debouncedSearch, match, source, level, sort, lang) : []),
     [rows, debouncedSearch, match, source, level, sort, lang],
   )
+
+  // Re-cap whenever the result set changes — a "Show all" is scoped to the list the user revealed it
+  // on, not carried into their next (narrower) search. Keyed on the debounced/click-driven inputs, so
+  // this doesn't fire per keystroke.
+  useEffect(() => {
+    setShowAll(false)
+  }, [debouncedSearch, match, source, level, sort])
+
+  // Render at most LIST_CAP rows unless the user asked for all. Memoised (and derived from the already-
+  // debounced `visible`) so the slice — and thus VocabList — only changes when the result set or the
+  // reveal does, never on a keystroke.
+  const shown = useMemo(() => (showAll ? visible : visible.slice(0, LIST_CAP)), [visible, showAll])
+  const capped = !showAll && visible.length > LIST_CAP
+
+  // Cover the whole screen with the mascot while the list loads — showing the search/filters over an
+  // empty list invites interaction with a form that can't respond yet. (All hooks run above this early
+  // return, so the loading→loaded transition doesn't change hook order.)
+  if (loading) return <Loading />
 
   return (
     <div class={styles.screen}>
@@ -200,12 +226,22 @@ export function VocabularyScreen() {
         />
       </div>
 
-      {loading ? (
-        <Loading compact />
-      ) : visible.length === 0 ? (
+      {visible.length === 0 ? (
         <p class={styles.placeholder}>No entries match your filter.</p>
       ) : (
-        <VocabList rows={visible} renderer={renderer} />
+        <>
+          <VocabList rows={shown} renderer={renderer} />
+          {capped ? (
+            <div class={styles.more}>
+              <span>
+                Showing {LIST_CAP.toLocaleString()} of {visible.length.toLocaleString()} — search or filter to narrow.
+              </span>
+              <button class={styles.showAll} type="button" onClick={() => setShowAll(true)}>
+                Show all
+              </button>
+            </div>
+          ) : null}
+        </>
       )}
     </div>
   )

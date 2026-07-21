@@ -108,3 +108,29 @@
   font-size: 13px;
   color: var(--color-text-secondary);
 }
+
+/* Footer shown when the list is capped (see LIST_CAP): the count + a reveal-everything escape hatch. */
+.more {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 8px;
+  text-align: center;
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+
+.showAll {
+  padding: 8px 16px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  font-size: 14px;
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.showAll:active {
+  background: var(--color-border);
+}
