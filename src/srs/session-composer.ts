@@ -313,19 +313,7 @@ function composeParts(input: ComposerInput): {
   const dedupedFresh = fresh.filter((c) => kept.has(c))
 
   const capped = dedupedPractice.slice(0, limits.practicePerDay).map((c) => c.card)
-  // Words whose recognition is being asked this session: their production must be held back too,
-  // including a promoted meaning that would otherwise ride along in a sense group. (SPEC §278)
-  const recognitionShown = new Set(
-    capped.filter((c) => c.skill === 'recognize').map((c) => c.targetEntryId),
-  )
-  const practiceCards = groupProductionCards(
-    capped,
-    entryById,
-    input.translations,
-    rsByKey,
-    now,
-    recognitionShown,
-  )
+  const practiceCards = groupProductionCards(capped, entryById, input.translations, rsByKey, now)
   const newCards = dedupedFresh.slice(0, newBudget).map((c) => c.card)
 
   return { practiceCards, newCards, newDoneToday }
@@ -396,7 +384,6 @@ function groupProductionCards(
   translations: Translation[],
   rsByKey: Map<string, ReviewState>,
   now: number,
-  recognitionShown: Set<string>,
 ): SessionCard[] {
   // Introduced members per sense key: siblings the learner has seen in ANY skill (recognised or
   // produced). `produceDue` is the member's production due, or Infinity if it has no produce state yet
@@ -412,13 +399,14 @@ function groupProductionCards(
     const rec = rsByKey.get(`${t.id}:recognize`) // undefined for a promoted meaning (recognition is per word)
     const prod = rsByKey.get(`${t.id}:produce`)
     if (!rec && !prod) continue // never introduced in any skill → not a member
-    // Hold this member's production back if its WORD's recognition is being asked this session —
-    // asking the reverse in the same sitting is wasted effort (SPEC §278). Covers both a recognition-
-    // only member and one that also has its own produce state; it joins a later session either way.
-    if (recognitionShown.has(t.targetEntryId)) continue
-    // Belt-and-braces for a recognition-only member whose recognition is due but fell outside the
-    // practice cap (so it isn't in `recognitionShown`): still defer its production. (§6 1b)
-    if (!prod && rec && rec.due <= now) continue
+    // EVERY introduced same-sense sibling rides along as an answer — no exclusion for what the scheduler
+    // did to it elsewhere today. Asked "worsen" in Swedish, the learner naturally recalls every synonym
+    // they know (förvärra, försämra, …); the answer list must match, or it reads as "you got it wrong"
+    // when they typed a perfectly good word. So we deliberately do NOT hold a member back because its own
+    // recognition is due this session, nor because its production was practiced separately. This can mean
+    // both directions of one word in a sitting (its recognition card still shows), which is the reverse
+    // the one-card-per-word rule avoids for SCHEDULED cards — but a ride-along answer isn't a scheduled
+    // card, and a bonus miss isn't saved anyway (see gradeGroup). (N-ways: show every synonym you know)
     const list = membersByKey.get(key) ?? []
     list.push({ translationId: t.id, targetEntryId: t.targetEntryId, produceDue: prod ? prod.due : Infinity })
     membersByKey.set(key, list)

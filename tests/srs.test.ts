@@ -669,7 +669,11 @@ describe('session-composer', () => {
       expect(produce[0]?.translationId).toBe('t_tyd')
     })
 
-    it('holds back a recognition-only sibling whose recognition is itself due this session', () => {
+    it('rides a recognition-only sibling along even when its recognition is due this session', () => {
+      // klart is recognised only AND its recognition is due today. We still offer it as a bonus answer on
+      // the "clearly" card — the learner may well know it, and a bonus miss isn't saved (N-ways bonus
+      // include). Its recognition card still shows; the cheap reverse is accepted so the answer set stays
+      // stable day to day (försämra/förvärra → "to worsen").
       seq = 0
       const tyd = entry('tydligt', 'seed', 'A2', { sense: SENSE })
       const kla = entry('klart', 'seed', 'A2', { sense: SENSE })
@@ -680,15 +684,42 @@ describe('session-composer', () => {
           reviewStates: [
             srsState('t_tyd', 'recognize', { state: 'review', stability: 3, due: NOW + DAY }),
             srsState('t_tyd', 'produce', { state: 'review', stability: 12, due: NOW - DAY }),
-            // klart recognised only AND its recognition is due today → don't also ask its production
             srsState('t_kla', 'recognize', { state: 'review', stability: 3, due: NOW - DAY }),
           ],
         }),
       )
       const produce = cards.filter((c) => c.skill === 'produce')
       expect(produce).toHaveLength(1)
-      expect(produce[0]?.group).toBeUndefined() // klart deferred → no group this session
-      expect(cards.some((c) => c.skill === 'recognize' && c.translationId === 't_kla')).toBe(true)
+      expect(produce[0]?.group?.members.map((m) => m.translationId).sort()).toEqual(['t_kla', 't_tyd'])
+      expect(produce[0]?.translationId).toBe('t_tyd') // tydligt has the due produce card; klart rides along
+      expect(cards.some((c) => c.skill === 'recognize' && c.translationId === 't_kla')).toBe(true) // recognition still shown
+    })
+
+    it('rides a sibling along even when it has its own production AND its recognition is due this session', () => {
+      // klart has a mature production of its own (not due) AND its recognition is due today. It still rides
+      // along as an answer on the "clearly" card — the learner recalls every synonym they know, regardless
+      // of what the scheduler did to klart separately. Its recognition card still shows too. (N-ways: show
+      // every synonym you know)
+      seq = 0
+      const tyd = entry('tydligt', 'seed', 'A2', { sense: SENSE })
+      const kla = entry('klart', 'seed', 'A2', { sense: SENSE })
+      const cards = composeSessionPure(
+        base({
+          entries: [tyd, kla],
+          translations: [translation('t_tyd', tyd.id), translation('t_kla', kla.id)],
+          reviewStates: [
+            srsState('t_tyd', 'recognize', { state: 'review', stability: 3, due: NOW + DAY }),
+            srsState('t_tyd', 'produce', { state: 'review', stability: 12, due: NOW - DAY }),
+            srsState('t_kla', 'recognize', { state: 'review', stability: 3, due: NOW - DAY }), // due today
+            srsState('t_kla', 'produce', { state: 'review', stability: 12, due: NOW + 2 * DAY }), // its own production, not due
+          ],
+        }),
+      )
+      const produce = cards.filter((c) => c.skill === 'produce')
+      expect(produce).toHaveLength(1)
+      expect(produce[0]?.group?.members.map((m) => m.translationId).sort()).toEqual(['t_kla', 't_tyd'])
+      expect(produce[0]?.translationId).toBe('t_tyd') // tydligt has the due produce card; klart rides along
+      expect(cards.some((c) => c.skill === 'recognize' && c.translationId === 't_kla')).toBe(true) // recognition still shown
     })
 
     it('does not group when there is no sense data', () => {
